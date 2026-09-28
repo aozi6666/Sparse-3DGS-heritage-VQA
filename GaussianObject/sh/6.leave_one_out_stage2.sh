@@ -17,7 +17,6 @@ CUDA_VISIBLE_DEVICES=2  python leave_one_out_stage2.py -s data/mip360/kitchen \
     --init_pcd_name visual_hull_vggt_enhanced_4 \
     --white_background --random_background
 
-
 # 输出：
 # output/gs_init/kitchen_loo/
 # ├── leave_0/                          # 第1张图像被留出的训练结果

@@ -7,7 +7,6 @@
 # --difix_strength: 修复强度 (0.0-1.0)
 # --difix_guidance_scale: 引导尺度
 # --difix_steps: 推理步数
-
 CUDA_VISIBLE_DEVICES=2 python difix_render.py \
     -m output/gs_init/kitchen \
     --sparse_view_num 9 --sh_degree 2 \

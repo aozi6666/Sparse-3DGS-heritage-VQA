@@ -20,7 +20,6 @@ CUDA_VISIBLE_DEVICES=2 python render.py \
     --skip_train \
     # --skip_all \
 
-
 # 输出： 
 # output/gs_init/kitchen/
 # ├── test/

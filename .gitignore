@@ -107,9 +107,42 @@ saves/
 temp/
 tmp/
 
-# Data files (if you don't want to track them)
+# Data / outputs (do not commit)
 data/
 datasets/
+**/data/
+**/output/
+**/preprocessed_masks*/
+**/colmap_input/
+**/colmap_output/
+*.ply
+*.npz
 
-# Large files that should be handled by Git LFS
-# (these are already configured in .gitattributes) 
+# Weights / archives / binaries
+*.ckpt
+*.bin
+*.safetensors
+*.whl
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+
+# Bundled tools / local archives
+_archive/
+ffmpeg*/
+**/ffmpeg-*-static/
+**/ffmpeg-release*
+
+# Build artifacts from CUDA extensions
+**/diff_gaussian_rasterization/*.so
+**/simple_knn/*.so
+build/
+*.egg-info/
+
+# Experiment dumps
+wandb/
+runs/
+*_ddgs_*/
+kitchen_ddgs*/
