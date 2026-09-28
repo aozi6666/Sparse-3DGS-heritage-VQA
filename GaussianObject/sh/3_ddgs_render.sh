@@ -1,5 +1,12 @@
 #!/bin/bash
-# [3/3] D²GS 渲染 + 评估
+# [3/3] D²GS 渲染 + 评估 + 最终视频
+# 输出：
+#   ${MODEL_DIR}/test/ours_<iter>/renders/*.png   # 最终渲染图（保留）
+#   ${MODEL_DIR}/test/ours_<iter>/gt/*.png
+#   ${MODEL_DIR}/test/ours_<iter>/renders.mp4
+#   ${MODEL_DIR}/test/ours_<iter>/gt.mp4
+#   ${MODEL_DIR}/test/ours_<iter>/combined.mp4    # 左右对比视频（主看这个）
+#   ${MODEL_DIR}/metrics_<iter>.txt
 set -euo pipefail
 
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-3}"
@@ -11,13 +18,17 @@ MODEL_DIR="/data/zhangao_data/3DGS/GaussianObject/output/kitchen_ddgs_only/ddgs_
 DATA_DIR="/data/zhangao_data/3DGS/GaussianObject/output/kitchen_ddgs_only/data"
 
 echo "=========================================="
-echo "[3/3] D²GS 渲染"
+echo "[3/3] D²GS 渲染 + 指标 + 视频"
 echo "=========================================="
 
 python render.py \
     -m "${MODEL_DIR}" \
     -s "${DATA_DIR}" \
     --eval \
-    -r 8
+    -r 8 \
+    --skip_train
 
-echo "[3/3] 完成 → ${MODEL_DIR}/test/"
+echo "[3/3] 完成"
+echo "  渲染图 → ${MODEL_DIR}/test/ours_*/renders/"
+echo "  指标   → ${MODEL_DIR}/metrics_*.txt"
+echo "  视频   → ${MODEL_DIR}/test/ours_*/combined.mp4"

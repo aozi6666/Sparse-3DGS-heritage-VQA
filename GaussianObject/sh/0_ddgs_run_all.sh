@@ -29,9 +29,10 @@ run_step() {
 
 run_step 1 "1_ddgs_vggt_hull.sh"
 run_step 2 "2_ddgs_train.sh"
-run_step 3 "3_ddgs_render.sh"
+run_step 3 "3_ddgs_render.sh"   # 含最终渲染图 + 指标 + combined.mp4 视频
 
 echo ""
 echo "##########################################"
 echo " 全部完成 (steps ${START}→${END})"
+echo " 最终视频: output/.../ddgs_model/test/ours_*/combined.mp4"
 echo "##########################################"
