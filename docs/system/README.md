@@ -6,7 +6,7 @@
 受限采集视频/图像
         │
         ├─► 工作 A：稀疏 3DGS 重建  ──►  Gaussian Scene（可渲染资产）
-        │         GaussianObject/ + vggt/ + Drop
+        │         3DGS/GaussianObject + 3DGS/vggt + Drop
         │
         └─► 工作 B：Mage-VL 理解 + 评测 ──► 语义回答 / Video-MME 等指标
                   VQA/mage_vl + VQA/VLMEvalKit
@@ -16,7 +16,7 @@
 
 ## 工作 A（已实现主线）
 
-入口：`GaussianObject/sh/lineB_gaussianobject/0_run_all.sh`。
+入口：`3DGS/GaussianObject/sh/lineB_gaussianobject/0_run_all.sh`。
 
 ## 工作 B（本仓已 vendoring）
 

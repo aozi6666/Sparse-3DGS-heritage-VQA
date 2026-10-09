@@ -151,17 +151,17 @@ datasets/
 *.tar.xz
 *.7z
 
-# Bundled tools / local archives (keep DropGaussian_release as git submodule)
+# Bundled tools / local archives (keep 3DGS/DropGaussian_release as git submodule)
 _archive/
 /DDGS/
-# /DropGaussian_release/  — tracked as submodule; do not ignore
+# /3DGS/DropGaussian_release/  — tracked as submodule; do not ignore
 ffmpeg*/
 **/ffmpeg-*-static/
 **/ffmpeg-release*
 
 # Large notebooks / demos (keep on disk, do not track)
-GaussianObject/segment_anything.ipynb
-GaussianObject/segment_anything_2.ipynb
+3DGS/GaussianObject/segment_anything.ipynb
+3DGS/GaussianObject/segment_anything_2.ipynb
 **/submodules/**/notebooks/
 
 # Build artifacts from CUDA extensions

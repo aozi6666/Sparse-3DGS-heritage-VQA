@@ -18,11 +18,14 @@ from typing import NamedTuple
 from torchvision import transforms
 from argparse import Namespace
 
-# 添加路径
-sys.path.append('/root/autodl-tmp/3DGS/GaussianObject')
-sys.path.append('/root/autodl-tmp/3DGS/GaussianObject/scene')
-sys.path.append('/root/autodl-tmp/3DGS/GaussianObject/utils')
-sys.path.append('/root/autodl-tmp/3DGS/vggt')
+# Paths relative to this file: .../3DGS/GaussianObject/vggt_visual_hull_enhanced.py
+_GO_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_3DGS = os.path.dirname(_GO_DIR)  # .../3DGS
+_VGGT_DIR = os.path.join(_REPO_3DGS, 'vggt')
+sys.path.append(_GO_DIR)
+sys.path.append(os.path.join(_GO_DIR, 'scene'))
+sys.path.append(os.path.join(_GO_DIR, 'utils'))
+sys.path.append(_VGGT_DIR)
 
 try:
     from vggt.models.vggt import VGGT
@@ -543,7 +546,7 @@ def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth
 def main():
     parser = argparse.ArgumentParser(description='VGGT深度增强的视觉外壳生成')
     parser.add_argument('--data_dir', type=str, default='sparse_nerf_datasets/sparse_omni3d_undistorted/backpack_016', help='数据目录')
-    parser.add_argument('--model_path', type=str, default='/root/autodl-tmp/3DGS/vggt/models/model.pt', help='VGGT模型路径')
+    parser.add_argument('--model_path', type=str, default=os.path.join(_VGGT_DIR, 'models', 'model.pt'), help='VGGT模型路径')
     parser.add_argument('--sparse_id', type=int, default=4, help='稀疏视角ID')
     parser.add_argument('--reso', type=int, default=1, help='图像分辨率')
     parser.add_argument('--output_dir', type=str, default=None, help='输出目录')

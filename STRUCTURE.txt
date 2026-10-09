@@ -1,20 +1,21 @@
-Sparse-3DGS-heritage-VQA  (local folder may still be named 3DGS/)
+Sparse-3DGS-heritage-VQA/
 ================================================================
 
 README.md                     # thesis summary + work A/B
 STRUCTURE.txt
 .gitignore
-.gitmodules                   # DropGaussian_release
+.gitmodules                   # 3DGS/DropGaussian_release
 envs/                         # uv freezes (A + B + legacy)
 docs/
   thesis.md                   # 毕设全文
   reproduction/README.md      # GO 复现日记
   system/README.md            # 三路融合边界
 
-# Work A — reconstruction
-GaussianObject/
-vggt/
-DropGaussian_release/         # submodule (reference)
+# Work A — reconstruction (nested under 3DGS/)
+3DGS/
+  GaussianObject/
+  vggt/
+  DropGaussian_release/       # submodule (reference)
 
 # Work B — VQA / eval
 VQA/
@@ -27,6 +28,6 @@ VQA/
 
 Local only (gitignored)
 -----------------------
-.venv*  ddgs/  _archive/
+.venv*  ddgs/  _archive/      # venv stays at repo root (not under 3DGS/)
 **/data/  **/output/  weights  VQA/mage_vl/models  VQA/VLMEvalKit/vlmeval_env
 Outside tree (not in this repo): ../Mage/mage_flow  ../Mage_ViT/mage_flow

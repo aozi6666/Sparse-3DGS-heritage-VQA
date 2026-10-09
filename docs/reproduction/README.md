@@ -1,4 +1,5 @@
-> 本文档由仓库根目录 `README.md` 迁入，全文保留。系统级总览见仓库根 [`README.md`](../../README.md)。
+> 本文档由仓库根目录 `README.md` 迁入，全文保留（文中历史路径多为当时的 `/root/autodl-tmp/GaussianObject`）。  
+> **当前布局**：工作 A 在 `3DGS/GaussianObject/`、`3DGS/vggt/`；工作 B 在 `VQA/`。系统级总览见仓库根 [`README.md`](../../README.md)。
 
 <div align="center">
 

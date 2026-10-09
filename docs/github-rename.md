@@ -1,6 +1,6 @@
 # GitHub 仓库改名
 
-目标名：**Sparse-3DGS-heritage-VQA**
+目标名：**Sparse-3DGS-heritage-VQA**（已完成时可忽略本节操作步骤）。
 
 本机未安装 `gh` 时，请在网页操作：
 
@@ -9,9 +9,9 @@
 3. 本地更新 remote：
 
 ```bash
-cd /root/autodl-tmp/3DGS
+cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 git remote set-url origin git@github.com:aozi6666/Sparse-3DGS-heritage-VQA.git
 git remote -v
 ```
 
-本地文件夹可继续叫 `3DGS/`，不影响。
+本地目录与仓库名对齐为 `Sparse-3DGS-heritage-VQA/`；根下并列 `3DGS/`（重建）与 `VQA/`。

@@ -1,6 +1,6 @@
 # Sparse-3DGS-heritage-VQA
 
-> GitHub 仓库名：**Sparse-3DGS-heritage-VQA**（本地目录可仍为 `3DGS/`）。  
+> GitHub 仓库名 / 本地目录：**Sparse-3DGS-heritage-VQA**（根下并列 `3DGS/` + `VQA/`）。  
 > 论文题目：**受限采集下的 3DGS 三维重建方法以及在文化遗产数字展示中的应用研究**  
 > 全文设计与流程图见 [`docs/thesis.md`](docs/thesis.md)。
 
@@ -29,15 +29,15 @@
 稀疏图 + 位姿 → VGGT visual hull → train_gs（± Drop）→（可选）LOO/LoRA/repair → results.json
 ```
 
-- 代码：[`GaussianObject/`](GaussianObject/)、[`vggt/`](vggt/)
-- 脚本：[`GaussianObject/sh/lineB_gaussianobject/`](GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](GaussianObject/sh/README.md)）
-- Drop 参考 submodule：[`DropGaussian_release/`](DropGaussian_release/)（训练已 plug-in 进 GO renderer）
+- 代码：[`3DGS/GaussianObject/`](3DGS/GaussianObject/)、[`3DGS/vggt/`](3DGS/vggt/)
+- 脚本：[`3DGS/GaussianObject/sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)）
+- Drop 参考 submodule：[`3DGS/DropGaussian_release/`](3DGS/DropGaussian_release/)（训练已 plug-in 进 GO renderer）
 
 ```bash
 source .venv-ddgs-vggt/bin/activate
 export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
 # export HF_ENDPOINT=https://hf-mirror.com   # LoRA 拉 CLIP 时
-cd GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
+cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 ```
 
 权重/数据不进 Git（VGGT、SD/ControlNet、CLIP、mip360 kitchen 等），见复现文档。

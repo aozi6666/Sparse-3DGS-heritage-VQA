@@ -1,10 +1,18 @@
 # Shared env for line B. Sourced by step scripts.
 # USE_DROP=1 → kitchen_drop 主线；USE_DROP=0 → kitchen
+#
+# Layout: <REPO_ROOT>/{3DGS,VQA}/  with scripts under
+#   3DGS/GaussianObject/sh/lineB_gaussianobject/
 
-ROOT="${ROOT:-/root/autodl-tmp/3DGS}"
-GO="${GO:-${ROOT}/GaussianObject}"
+_LINEB_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# lineB → sh → GaussianObject → 3DGS → REPO_ROOT
+REPO_ROOT="$(cd "${_LINEB_DIR}/../../../.." && pwd)"
+ROOT="${ROOT:-${REPO_ROOT}}"
+GO="${GO:-${REPO_ROOT}/3DGS/GaussianObject}"
+VGGT="${VGGT:-${REPO_ROOT}/3DGS/vggt}"
 DATA="${DATA:-${GO}/data/mip360/kitchen}"
-VENV="${VENV:-${ROOT}/.venv-ddgs-vggt/bin/activate}"
+VENV="${VENV:-${REPO_ROOT}/.venv-ddgs-vggt/bin/activate}"
+VGGT_MODEL="${VGGT_MODEL:-${VGGT}/models/model.pt}"
 
 SPARSE_ID="${SPARSE_ID:-4}"
 SPARSE_VIEW_NUM="${SPARSE_VIEW_NUM:-9}"
@@ -43,6 +51,8 @@ lineb_activate() {
 }
 
 lineb_print_paths() {
+  echo "REPO_ROOT=${REPO_ROOT}"
+  echo "GO=${GO}  VGGT=${VGGT}  VENV=${VENV}"
   echo "USE_DROP=${USE_DROP}  GS_DIR=${GS_DIR}  LOO_DIR=${LOO_DIR}"
   echo "LORA_EXP=${LORA_EXP}  FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
 }
