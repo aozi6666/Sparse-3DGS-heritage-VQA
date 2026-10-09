@@ -1,27 +1,21 @@
 3DGS layout (keep this)
 =======================
 
-vggt/                         # VGGT geometry (need model.pt separately)
-GaussianObject/               # bridge + visual hull
+vggt/                         # VGGT geometry (model.pt in vggt/models/)
+GaussianObject/               # visual hull + coarse GS (±Drop) + LOO/LoRA/repair
   vggt_visual_hull_enhanced.py
-  ddgs_training_from_vggt.py  # VGGT -> D2GS bridge
   sh/
-    0_ddgs_run_all.sh         # master: 1→2→3  ← USE THESE
-    1_ddgs_vggt_hull.sh       # step1 point cloud
-    2_ddgs_train.sh           # step2 D2GS train
-    3_ddgs_render.sh          # step3 render/eval
-    1_visual_hull..10.*       # DISABLED (old GO + Difix); exit 1 if run
-    _old/                     # previous script names
-DDGS/                         # D2GS train (drop already in gaussian_renderer)
-  submodules/                 # CUDA rasterizer + simple-knn
-DropGaussian_release/         # REFERENCE ONLY (not used by run scripts)
-_archive/                     # junk (ffmpeg, tars) — do not commit
+    lineB_gaussianobject/     # CURRENT main line
+      _common.sh              # paths: USE_DROP → kitchen_drop / kitchen
+    _archive/
+    README.md
+DropGaussian_release/         # REFERENCE ONLY
+_archive/                     # DDGS / lineA archived
 
-Train order on GPU machine
---------------------------
-1) put data at GaussianObject/data/mip360/kitchen/
-2) put VGGT weights at vggt/models/model.pt
-3) conda env + pip install -e DDGS/submodules/*
-4) bash GaussianObject/sh/0_ddgs_run_all.sh
-   # or: bash sh/0_ddgs_run_all.sh 2 3   # skip hull if ply exists
-   (scripts still hardcode /data/zhangao_data/3DGS — symlink or edit ROOT)
+Train (GPU)
+-----------
+1) data: GaussianObject/data/mip360/kitchen/
+2) weights: vggt/models/model.pt (+ LoRA models/ if repair)
+3) venv: 3DGS/.venv-ddgs-vggt
+4) USE_DROP=1 SKIP_PATH=1 bash .../lineB_gaussianobject/0_run_all.sh
+   # 粗训已有 kitchen_drop 时从第5步: bash 0_run_all.sh 5

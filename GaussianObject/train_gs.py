@@ -129,7 +129,16 @@ def training(args, dataset, opt, pipe, testing_iterations, saving_iterations, ch
         bg = torch.rand((3), device="cuda") if opt.random_background else background
         
         # 调用渲染函数，得到渲染结果 render_pkg
-        render_pkg = render(viewpoint_cam, gaussians, pipe, bg)
+        if args.use_drop:
+            render_pkg = render(
+                viewpoint_cam, gaussians, pipe, bg,
+                is_train=True, iteration=iteration,
+                drop_rate=args.drop_rate,
+                drop_schedule=args.drop_schedule,
+                drop_max_steps=opt.iterations,
+            )
+        else:
+            render_pkg = render(viewpoint_cam, gaussians, pipe, bg)
 
         image, viewspace_point_tensor, visibility_filter, radii = render_pkg["render"], \
             render_pkg["viewspace_points"], render_pkg["visibility_filter"], render_pkg["radii"]
@@ -426,10 +435,19 @@ if __name__ == "__main__":
     parser.add_argument('--mono_depth_weight', type=float, default=0.0005, help="The rate of monodepth loss")
     parser.add_argument('--lambda_t_norm', type=float, default=0.0005)
     parser.add_argument('--mono_loss_type', type=str, default="mid")
+    parser.add_argument('--use_drop', action='store_true', default=False,
+                        help='Enable DropGaussian opacity dropout during training')
+    parser.add_argument('--drop_rate', type=float, default=0.2,
+                        help='Max DropGaussian drop probability (sparse views: 0.15-0.25)')
+    parser.add_argument('--drop_schedule', type=str, default='linear',
+                        choices=['linear', 'cosine', 'constant'],
+                        help='Drop rate schedule over training (official: linear)')
 
     args = parser.parse_args(sys.argv[1:])
     args.save_iterations.append(args.iterations)
     print("Optimizing " + args.model_path)
+    if args.use_drop:
+        print(f"DropGaussian: drop_rate={args.drop_rate}, schedule={args.drop_schedule}, steps={args.iterations}")
 
     # Initialize system state (RNG)
     safe_state(args.quiet)

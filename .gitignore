@@ -51,11 +51,16 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv*/
+.venv-ddgs-vggt/
+ddgs/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+.pixi/
+.conda/
 
 # Spyder project settings
 .spyderproject
@@ -118,6 +123,23 @@ datasets/
 *.ply
 *.npz
 
+# Trained model weights / checkpoints (keep the download scripts)
+**/models/*.pth
+**/models/*.ckpt
+**/models/*.pt
+**/models/*.safetensors
+**/models/*.bin
+**/models/*.pkl
+**/models/*.onnx
+**/models/*.h5
+**/pretrained/*.safetensors
+**/pretrained/*.bin
+**/pretrained/*.pth
+**/pretrained/*.ckpt
+**/pretrained/*.onnx
+**/pretrained/*.h5
+*.onnx
+
 # Weights / archives / binaries
 *.ckpt
 *.bin
@@ -131,6 +153,8 @@ datasets/
 
 # Bundled tools / local archives
 _archive/
+/DDGS/
+/DropGaussian_release/
 ffmpeg*/
 **/ffmpeg-*-static/
 **/ffmpeg-release*

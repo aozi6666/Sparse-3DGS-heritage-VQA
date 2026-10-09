@@ -19,10 +19,10 @@ from torchvision import transforms
 from argparse import Namespace
 
 # 添加路径
-sys.path.append('/data/zhangao_data/3DGS/GaussianObject')
-sys.path.append('/data/zhangao_data/3DGS/GaussianObject/scene')
-sys.path.append('/data/zhangao_data/3DGS/GaussianObject/utils')
-sys.path.append('/data/zhangao_data/3DGS/vggt')
+sys.path.append('/root/autodl-tmp/3DGS/GaussianObject')
+sys.path.append('/root/autodl-tmp/3DGS/GaussianObject/scene')
+sys.path.append('/root/autodl-tmp/3DGS/GaussianObject/utils')
+sys.path.append('/root/autodl-tmp/3DGS/vggt')
 
 try:
     from vggt.models.vggt import VGGT
@@ -107,7 +107,7 @@ def load_existing_depth_maps(data_dir, selected_ids, target_size):
 
 
 def evaluate_depth_quality_with_vggt(images, depth_maps, model, device):
-    """使用VGGT评估深度图质量"""
+    """使用VGGT评估深度图质量；同时返回逐视角深度（CPU），供后续增强复用，避免二次整批推理 OOM。"""
     print("使用VGGT评估深度图质量...")
     
     # 调整图像尺寸以适配VGGT
@@ -122,6 +122,7 @@ def evaluate_depth_quality_with_vggt(images, depth_maps, model, device):
         depth_maps_resized.append(torch.from_numpy(depth_resized).float().unsqueeze(0))
     
     quality_scores = []
+    vggt_depth_list = []
     for i, (image, depth_map) in enumerate(zip(images_resized, depth_maps_resized)):
         image_tensor = image.unsqueeze(0).unsqueeze(0).to(device)
         
@@ -133,15 +134,21 @@ def evaluate_depth_quality_with_vggt(images, depth_maps, model, device):
             vggt_depth = vggt_depth.squeeze(0).squeeze(-1)
         elif len(vggt_depth.shape) == 4:
             vggt_depth = vggt_depth.squeeze(1)
+        vggt_depth = vggt_depth.squeeze(0)  # [H, W]
         
         existing_depth = depth_map.squeeze(0).to(device)
-        depth_diff = torch.abs(existing_depth - vggt_depth.squeeze(0))
+        depth_diff = torch.abs(existing_depth - vggt_depth)
         quality_score = 1.0 / (1.0 + depth_diff.mean().item())
         
         quality_scores.append(quality_score)
+        vggt_depth_list.append(vggt_depth.detach().cpu())
         print(f"视角 {i} 深度图质量分数: {quality_score:.3f}")
+
+        del results, image_tensor, existing_depth, depth_diff, vggt_depth
+        torch.cuda.empty_cache()
     
-    return quality_scores
+    vggt_depths = torch.stack(vggt_depth_list, dim=0)  # [N, H, W] on CPU
+    return quality_scores, vggt_depths
 
 
 def adjust_image_size_for_vggt(images, masks, Ks, patch_size=14):
@@ -177,30 +184,37 @@ def adjust_image_size_for_vggt(images, masks, Ks, patch_size=14):
 
 
 def precompute_vggt_depths(images, model, device):
-    """预计算所有视角的VGGT深度图"""
-    print("预计算VGGT深度图...")
-    
-    # 调整图像尺寸
-    images_resized = []
-    for img in images:
+    """逐张预计算 VGGT 深度图（避免多视角整批推理 OOM）。返回 CPU tensor [N,H,W]。"""
+    print("预计算VGGT深度图（逐张推理）...")
+    torch.cuda.empty_cache()
+
+    depth_list = []
+    for i, img in enumerate(images):
         H, W = img.shape[1], img.shape[2]
         patch_size = 14
         new_H = ((H + patch_size - 1) // patch_size) * patch_size
         new_W = ((W + patch_size - 1) // patch_size) * patch_size
-        img_resized = F.interpolate(img.unsqueeze(0), size=(new_H, new_W), mode='bilinear', align_corners=False)
-        images_resized.append(img_resized.squeeze(0))
-    
-    # 批量推理
-    images_tensor = torch.stack(images_resized).unsqueeze(0).to(device)
-    with torch.no_grad():
-        results = model(images_tensor)
-    
-    vggt_depths = results['depth']
-    if len(vggt_depths.shape) == 5:
-        vggt_depths = vggt_depths.squeeze(0).squeeze(-1)
-    elif len(vggt_depths.shape) == 4:
-        vggt_depths = vggt_depths.squeeze(1)
-    
+        img_resized = F.interpolate(
+            img.unsqueeze(0), size=(new_H, new_W), mode='bilinear', align_corners=False
+        ).squeeze(0)
+
+        image_tensor = img_resized.unsqueeze(0).unsqueeze(0).to(device)  # [1,1,C,H,W]
+        with torch.no_grad():
+            results = model(image_tensor)
+
+        vggt_depth = results['depth']
+        if len(vggt_depth.shape) == 5:
+            vggt_depth = vggt_depth.squeeze(0).squeeze(-1)
+        elif len(vggt_depth.shape) == 4:
+            vggt_depth = vggt_depth.squeeze(1)
+        vggt_depth = vggt_depth.squeeze(0)  # [H, W]
+
+        depth_list.append(vggt_depth.detach().cpu())
+        print(f"  视角 {i+1}/{len(images)} 深度预计算完成")
+        del results, image_tensor, img_resized, vggt_depth
+        torch.cuda.empty_cache()
+
+    vggt_depths = torch.stack(depth_list, dim=0)
     print(f"VGGT深度图预计算完成，形状: {vggt_depths.shape}")
     return vggt_depths
 
@@ -444,7 +458,8 @@ def check_and_generate_vggt_enhancement(point, color, scene_info, depth_maps, vg
     return True, enhancement_points, enhancement_colors
 
 def apply_vggt_depth_enhancement(base_pcd, scene_info, depth_maps, quality_scores, model, device,
-                               vggt_quality_threshold=0.3, vggt_enhancement_factor=1.5):
+                               vggt_quality_threshold=0.3, vggt_enhancement_factor=1.5,
+                               vggt_depths=None):
     """阶段2: VGGT深度增强（使用预计算的深度图）"""
     print("=== 阶段2: VGGT深度增强（使用预计算的深度图） ===")
     
@@ -453,8 +468,12 @@ def apply_vggt_depth_enhancement(base_pcd, scene_info, depth_maps, quality_score
     
     print(f"基础点云包含 {len(base_points)} 个点")
     
-    # 预计算VGGT深度图
-    vggt_depths = precompute_vggt_depths(scene_info.images, model, device)
+    # 优先复用质量评估阶段的深度；否则逐张推理（不再整批 stack）
+    if vggt_depths is None:
+        torch.cuda.empty_cache()
+        vggt_depths = precompute_vggt_depths(scene_info.images, model, device)
+    else:
+        print(f"复用已有 VGGT 深度图，形状: {tuple(vggt_depths.shape)}")
     
     avg_quality = np.mean(quality_scores)
     print(f"平均VGGT质量分数: {avg_quality:.3f}")
@@ -496,7 +515,8 @@ def apply_vggt_depth_enhancement(base_pcd, scene_info, depth_maps, quality_score
 
 # ==================== 阶段3: 增强点云合并 ====================
 def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth_maps, quality_scores, model, device,
-                                         vggt_quality_threshold=0.3, vggt_enhancement_factor=1.5):
+                                         vggt_quality_threshold=0.3, vggt_enhancement_factor=1.5,
+                                         vggt_depths=None):
     """阶段3: 增强点云合并"""
     print("=== 阶段3: 增强点云合并 ===")
     
@@ -507,8 +527,10 @@ def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth
         return None, None
     
     # 阶段2: VGGT深度增强
-    enhanced_pcd = apply_vggt_depth_enhancement(base_pcd, scene_info, depth_maps, quality_scores, model, device,
-                                              vggt_quality_threshold, vggt_enhancement_factor)
+    enhanced_pcd = apply_vggt_depth_enhancement(
+        base_pcd, scene_info, depth_maps, quality_scores, model, device,
+        vggt_quality_threshold, vggt_enhancement_factor, vggt_depths=vggt_depths
+    )
     
     print(f"=== 最终结果 ===")
     print(f"基础点云点数: {len(np.asarray(base_pcd.points))}")
@@ -521,7 +543,7 @@ def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth
 def main():
     parser = argparse.ArgumentParser(description='VGGT深度增强的视觉外壳生成')
     parser.add_argument('--data_dir', type=str, default='sparse_nerf_datasets/sparse_omni3d_undistorted/backpack_016', help='数据目录')
-    parser.add_argument('--model_path', type=str, default='/data/zhangao_data/3DGS/vggt/models/model.pt', help='VGGT模型路径')
+    parser.add_argument('--model_path', type=str, default='/root/autodl-tmp/3DGS/vggt/models/model.pt', help='VGGT模型路径')
     parser.add_argument('--sparse_id', type=int, default=4, help='稀疏视角ID')
     parser.add_argument('--reso', type=int, default=1, help='图像分辨率')
     parser.add_argument('--output_dir', type=str, default=None, help='输出目录')
@@ -626,8 +648,9 @@ def main():
     # 加载现有深度图
     depth_maps = load_existing_depth_maps(args.data_dir, selected_ids, (images[0].shape[1], images[0].shape[2]))
     
-    # 使用VGGT评估深度图质量
-    quality_scores = evaluate_depth_quality_with_vggt(images, depth_maps, model, device)
+    # 使用VGGT评估深度图质量（同时得到逐视角深度，后续增强直接复用）
+    quality_scores, vggt_depths = evaluate_depth_quality_with_vggt(images, depth_maps, model, device)
+    torch.cuda.empty_cache()
     
     # 初始化边界框
     bx = args.cube_size
@@ -638,7 +661,8 @@ def main():
     pcd, bbox = get_visual_hull_with_vggt_enhancement(
         args.voxel_num, init_bbox, scene_info, cam_center, depth_maps, quality_scores, model, device,
         vggt_quality_threshold=args.vggt_quality_threshold,
-        vggt_enhancement_factor=args.vggt_enhancement_factor
+        vggt_enhancement_factor=args.vggt_enhancement_factor,
+        vggt_depths=vggt_depths,
     )
     
     # 重新计算边界框并调整大小
@@ -651,11 +675,12 @@ def main():
     enlarged_bbox_min = center - scaled_extents / 2
     enlarged_bbox_max = center + scaled_extents / 2
 
-    # 重新生成点云并保存
+    # 重新生成点云并保存（复用同一份 VGGT 深度，不再二次推理）
     pcd, bbox_new = get_visual_hull_with_vggt_enhancement(
         64, [enlarged_bbox_min, enlarged_bbox_max], scene_info, [0,0,0], depth_maps, quality_scores, model, device,
         vggt_quality_threshold=args.vggt_quality_threshold,
-        vggt_enhancement_factor=args.vggt_enhancement_factor
+        vggt_enhancement_factor=args.vggt_enhancement_factor,
+        vggt_depths=vggt_depths,
     )
     
     # 保存点云

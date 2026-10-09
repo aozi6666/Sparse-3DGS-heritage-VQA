@@ -1,38 +1,33 @@
 # Git LFS 配置
-# 跟踪大文件类型
-# 模型文件
+# 仅对真正的大文件类型启用 LFS。
+# 文本和小资源（json、图片、字体）不再启用 LFS——否则会被存成指针文件，
+# 在没有安装 git-lfs 的环境里 checkout 会报错、图片也无法显示。
+#
+# 注意：仓库里已经存在一批历史 LFS 指针文件（.png/.jpg/.json 等），
+# 修改本文件不会自动把它们还原成真实内容，需要重新从原始来源提交。
+
+# 模型权重（真正的大文件）
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.ckpt filter=lfs diff=lfs merge=lfs -text
 *.model filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
+
 # 压缩文件
 *.tar.xz filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.7z filter=lfs diff=lfs merge=lfs -text
+
 # 视频和音频文件
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.avi filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 *.wav filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
-# 图像文件
-*.png filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.tiff filter=lfs diff=lfs merge=lfs -text
-*.bmp filter=lfs diff=lfs merge=lfs -text
-# 字体文件
-*.ttf filter=lfs diff=lfs merge=lfs -text
-*.otf filter=lfs diff=lfs merge=lfs -text
-*.woff filter=lfs diff=lfs merge=lfs -text
-*.woff2 filter=lfs diff=lfs merge=lfs -text
+
 # 可执行文件
 ffmpeg filter=lfs diff=lfs merge=lfs -text
 ffprobe filter=lfs diff=lfs merge=lfs -text
-# 特定文件夹
-pretrained/** filter=lfs diff=lfs merge=lfs -text
-ffmpeg-7.0.2-amd64-static/** filter=lfs diff=lfs merge=lfs -text 
+ffmpeg-7.0.2-amd64-static/** filter=lfs diff=lfs merge=lfs -text

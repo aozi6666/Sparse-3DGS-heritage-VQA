@@ -12,6 +12,60 @@ GitHub：https://github.com/chensjtu/GaussianObject
 
 https://arxiv.org/abs/2402.10259
 
+# 〇、本机环境与依赖复现（实际运行环境）
+
+> 说明：下方第一、二节的「CUDA 环境 / conda 环境配置」是早期复现记录（Python 3.11 / CUDA 11.8 / torch 2.0.0），
+> 与当前真实环境不一致。**当前实际使用的环境如下**，统一用 [`uv`](https://github.com/astral-sh/uv) 管理（不是 conda）。
+
+## 系统与硬件
+
+| 项目 | 值 |
+| --- | --- |
+| 操作系统 | Ubuntu 22.04.5 LTS |
+| GPU | NVIDIA GeForce RTX 4090 D（24GB） |
+| 显卡驱动 | 595.71.05 |
+| Python 管理器 | uv 0.12.20 |
+
+## 虚拟环境一览
+
+| 环境目录 | Python | PyTorch | 用途 | requirements 快照 |
+| --- | --- | --- | --- | --- |
+| `3DGS/.venv-ddgs-vggt` | 3.10.21 | 2.5.1+cu124（CUDA 12.4） | 主线：GaussianObject + VGGT 点云 + DropGaussian 正则化 | `envs/requirements-venv-ddgs-vggt.txt` |
+| `3DGS/ddgs` | 3.10.21 | 2.11.0+cu128（CUDA 12.8） | DDGS 结构正则化训练（旧 lineA） | `envs/requirements-ddgs.txt` |
+| `VLMEvalKit/vlmeval_env` | 3.11.16 | 2.11.0+cu128（CUDA 12.8） | VLMEvalKit 视觉语言模型评测 | `envs/requirements-vlmevalkit.txt` |
+| `Mage_ViT/mage` | 3.11.16 | 2.11.0+cu128（CUDA 12.8） | Mage_ViT 图像 / 视频生成 | `envs/requirements-mage-vit.txt` |
+
+## 如何复现
+
+每个环境的完整依赖已用 `uv pip freeze` 导出到 `envs/` 目录，可直接重建：
+
+```bash
+# 主线环境（GaussianObject + VGGT + DropGaussian）
+uv venv .venv-ddgs-vggt --python 3.10
+uv pip install -r envs/requirements-venv-ddgs-vggt.txt --python .venv-ddgs-vggt/bin/python
+
+# DDGS 环境
+uv venv ddgs --python 3.10
+uv pip install -r envs/requirements-ddgs.txt --python ddgs/bin/python
+
+# VLMEvalKit 环境（需先在仓库同级目录准备好 VLMEvalKit）
+uv venv vlmeval_env --python 3.11
+uv pip install -r envs/requirements-vlmevalkit.txt --python vlmeval_env/bin/python
+
+# Mage_ViT 环境
+uv venv mage --python 3.11
+uv pip install -r envs/requirements-mage-vit.txt --python mage/bin/python
+```
+
+注意事项：
+
+- 主线环境和 `ddgs` 环境依赖若干本地子模块（`pytorch3d`、`diff-gaussian-rasterization`、`simple-knn` 等），
+  requirements 文件中用相对路径引用，需先递归拉取子模块：
+  `git submodule update --init --recursive`。
+- `ddgs` 环境引用的是 `DDGS/` 子模块（已归档），重建时需单独恢复该子模块。
+- `+cu124` / `+cu128` 的 PyTorch 版本需要从 PyTorch 官方 index 安装；`uv pip freeze` 已尽量保留版本标记，
+  若装成 CPU 版请参考 PyTorch 官网对应 CUDA 的安装命令覆盖 torch/torchvision/torchaudio。
+
 #  一、 **CUDA** 环境
 
 AutoDL 算力市场：https://www.autodl.com
