@@ -175,3 +175,10 @@ wandb/
 runs/
 *_ddgs_*/
 kitchen_ddgs*/
+# Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
+VQA/mage_vl/data/
+VQA/mage_vl/models/
+VQA/VLMEvalKit/vlmeval_env/
+VQA/VLMEvalKit/ffmpeg_linux/
+VQA/**/outputs/**/*.pkl
+VQA/**/outputs/logs/

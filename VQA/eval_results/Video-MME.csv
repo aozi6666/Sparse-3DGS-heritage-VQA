@@ -1,0 +1,197 @@
+﻿duration,dimension,category,accuracy
+short,overall,overall,75.8
+short,domain,Knowledge,75.8
+short,domain,Film & Television,74.4
+short,domain,Sports Competition,71.8
+short,domain,Artistic Performance,81.5
+short,domain,Life Record,82.1
+short,domain,Multilingual,55.6
+short,sub_category,Humanity & History,66.7
+short,sub_category,Literature & Art,33.3
+short,sub_category,Biology & Medicine,100.0
+short,sub_category,Finance & Commerce,50.0
+short,sub_category,Astronomy,66.7
+short,sub_category,Geography,83.3
+short,sub_category,Law,100.0
+short,sub_category,Life Tip,77.8
+short,sub_category,Technology,77.8
+short,sub_category,Animation,66.7
+short,sub_category,Movie & TV Show,77.8
+short,sub_category,Documentary,50.0
+short,sub_category,News Report,100.0
+short,sub_category,Esports,58.3
+short,sub_category,Basketball,
+short,sub_category,Football,83.3
+short,sub_category,Athletics,73.3
+short,sub_category,Other Sports,83.3
+short,sub_category,Stage Play,100.0
+short,sub_category,Magic Show,
+short,sub_category,Variety Show,88.9
+short,sub_category,Acrobatics,55.6
+short,sub_category,Handicraft,80.0
+short,sub_category,Food,66.7
+short,sub_category,Fashion,66.7
+short,sub_category,Daily Life,83.3
+short,sub_category,Travel,100.0
+short,sub_category,Pet & Animal,66.7
+short,sub_category,Exercise,
+short,sub_category,Multilingual,55.6
+short,task_type,Temporal Perception,80.0
+short,task_type,Spatial Perception,50.0
+short,task_type,Attribute Perception,91.4
+short,task_type,Action Recognition,74.2
+short,task_type,Object Recognition,79.4
+short,task_type,OCR Problems,76.9
+short,task_type,Counting Problem,58.1
+short,task_type,Temporal Reasoning,66.7
+short,task_type,Spatial Reasoning,80.0
+short,task_type,Action Reasoning,76.9
+short,task_type,Object Reasoning,59.1
+short,task_type,Information Synopsis,91.3
+medium,overall,overall,63.6
+medium,domain,Knowledge,64.0
+medium,domain,Film & Television,60.4
+medium,domain,Sports Competition,53.8
+medium,domain,Artistic Performance,69.4
+medium,domain,Life Record,64.4
+medium,domain,Multilingual,80.0
+medium,sub_category,Humanity & History,33.3
+medium,sub_category,Literature & Art,66.7
+medium,sub_category,Biology & Medicine,66.7
+medium,sub_category,Finance & Commerce,83.3
+medium,sub_category,Astronomy,50.0
+medium,sub_category,Geography,83.3
+medium,sub_category,Law,58.3
+medium,sub_category,Life Tip,55.6
+medium,sub_category,Technology,66.7
+medium,sub_category,Animation,50.0
+medium,sub_category,Movie & TV Show,58.3
+medium,sub_category,Documentary,41.7
+medium,sub_category,News Report,91.7
+medium,sub_category,Esports,83.3
+medium,sub_category,Basketball,22.2
+medium,sub_category,Football,33.3
+medium,sub_category,Athletics,100.0
+medium,sub_category,Other Sports,66.7
+medium,sub_category,Stage Play,91.7
+medium,sub_category,Magic Show,50.0
+medium,sub_category,Variety Show,
+medium,sub_category,Acrobatics,61.1
+medium,sub_category,Handicraft,100.0
+medium,sub_category,Food,50.0
+medium,sub_category,Fashion,33.3
+medium,sub_category,Daily Life,66.7
+medium,sub_category,Travel,100.0
+medium,sub_category,Pet & Animal,58.3
+medium,sub_category,Exercise,66.7
+medium,sub_category,Multilingual,80.0
+medium,task_type,Temporal Perception,62.5
+medium,task_type,Spatial Perception,100.0
+medium,task_type,Attribute Perception,64.0
+medium,task_type,Action Recognition,62.1
+medium,task_type,Object Recognition,75.7
+medium,task_type,OCR Problems,40.9
+medium,task_type,Counting Problem,53.3
+medium,task_type,Temporal Reasoning,58.3
+medium,task_type,Spatial Reasoning,75.0
+medium,task_type,Action Reasoning,36.8
+medium,task_type,Object Reasoning,65.9
+medium,task_type,Information Synopsis,88.9
+long,overall,overall,52.7
+long,domain,Knowledge,49.1
+long,domain,Film & Television,52.4
+long,domain,Sports Competition,51.3
+long,domain,Artistic Performance,51.3
+long,domain,Life Record,57.9
+long,domain,Multilingual,66.7
+long,sub_category,Humanity & History,16.7
+long,sub_category,Literature & Art,33.3
+long,sub_category,Biology & Medicine,83.3
+long,sub_category,Finance & Commerce,0.0
+long,sub_category,Astronomy,60.0
+long,sub_category,Geography,33.3
+long,sub_category,Law,77.8
+long,sub_category,Life Tip,66.7
+long,sub_category,Technology,0.0
+long,sub_category,Animation,66.7
+long,sub_category,Movie & TV Show,58.3
+long,sub_category,Documentary,33.3
+long,sub_category,News Report,50.0
+long,sub_category,Esports,16.7
+long,sub_category,Basketball,33.3
+long,sub_category,Football,66.7
+long,sub_category,Athletics,
+long,sub_category,Other Sports,75.0
+long,sub_category,Stage Play,50.0
+long,sub_category,Magic Show,60.0
+long,sub_category,Variety Show,33.3
+long,sub_category,Acrobatics,55.6
+long,sub_category,Handicraft,55.6
+long,sub_category,Food,33.3
+long,sub_category,Fashion,83.3
+long,sub_category,Daily Life,58.3
+long,sub_category,Travel,16.7
+long,sub_category,Pet & Animal,83.3
+long,sub_category,Exercise,60.0
+long,sub_category,Multilingual,66.7
+long,task_type,Temporal Perception,100.0
+long,task_type,Spatial Perception,
+long,task_type,Attribute Perception,50.0
+long,task_type,Action Recognition,54.5
+long,task_type,Object Recognition,69.2
+long,task_type,OCR Problems,50.0
+long,task_type,Counting Problem,46.2
+long,task_type,Temporal Reasoning,25.0
+long,task_type,Spatial Reasoning,100.0
+long,task_type,Action Reasoning,48.9
+long,task_type,Object Reasoning,51.8
+long,task_type,Information Synopsis,73.2
+overall,overall,overall,63.7
+overall,domain,Knowledge,63.6
+overall,domain,Film & Television,62.0
+overall,domain,Sports Competition,59.0
+overall,domain,Artistic Performance,65.7
+overall,domain,Life Record,66.7
+overall,domain,Multilingual,70.4
+overall,sub_category,Humanity & History,50.0
+overall,sub_category,Literature & Art,47.6
+overall,sub_category,Biology & Medicine,77.8
+overall,sub_category,Finance & Commerce,53.3
+overall,sub_category,Astronomy,58.3
+overall,sub_category,Geography,73.3
+overall,sub_category,Law,76.7
+overall,sub_category,Life Tip,66.7
+overall,sub_category,Technology,61.9
+overall,sub_category,Animation,61.1
+overall,sub_category,Movie & TV Show,63.6
+overall,sub_category,Documentary,40.7
+overall,sub_category,News Report,78.8
+overall,sub_category,Esports,54.2
+overall,sub_category,Basketball,28.6
+overall,sub_category,Football,58.3
+overall,sub_category,Athletics,77.8
+overall,sub_category,Other Sports,73.3
+overall,sub_category,Stage Play,85.2
+overall,sub_category,Magic Show,57.1
+overall,sub_category,Variety Show,61.1
+overall,sub_category,Acrobatics,58.3
+overall,sub_category,Handicraft,78.8
+overall,sub_category,Food,50.0
+overall,sub_category,Fashion,55.6
+overall,sub_category,Daily Life,66.7
+overall,sub_category,Travel,72.2
+overall,sub_category,Pet & Animal,66.7
+overall,sub_category,Exercise,61.1
+overall,sub_category,Multilingual,70.4
+overall,task_type,Temporal Perception,71.4
+overall,task_type,Spatial Perception,75.0
+overall,task_type,Attribute Perception,76.5
+overall,task_type,Action Recognition,64.6
+overall,task_type,Object Recognition,76.2
+overall,task_type,OCR Problems,53.8
+overall,task_type,Counting Problem,54.1
+overall,task_type,Temporal Reasoning,36.2
+overall,task_type,Spatial Reasoning,81.8
+overall,task_type,Action Reasoning,50.6
+overall,task_type,Object Reasoning,58.0
+overall,task_type,Information Synopsis,82.4

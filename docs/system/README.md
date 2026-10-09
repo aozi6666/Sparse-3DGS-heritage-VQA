@@ -1,32 +1,29 @@
-# 系统架构（占位）
+# 系统架构
 
-本系统目标：受限采集下重建可漫游的 **3DGS 数字资产**，并与现场视频的 **理解 / 问答 / 空间定位** 融合（详见仓库根目录外的 `毕设.md` 设想）。
+论文与总体设计见 [`../thesis.md`](../thesis.md)。
 
 ```text
 受限采集视频/图像
         │
         ├─► 工作 A：稀疏 3DGS 重建  ──►  Gaussian Scene（可渲染资产）
+        │         GaussianObject/ + vggt/ + Drop
         │
-        └─► 工作 B：视频理解 + 定位 ──►  语义回答 + 当前视角/区域
+        └─► 工作 B：Mage-VL 理解 + 评测 ──► 语义回答 / Video-MME 等指标
+                  VQA/mage_vl + VQA/VLMEvalKit
                         │
-                        └─► 融合层：问答 / 导览提示 / 3D 漫游
+                        └─►（后续）定位对上 + 融合：问答 / 导览 / 3D 漫游
 ```
 
-## 工作 A（本仓已实现主线）
-
-- 输入：稀疏视角 + 相机位姿 + VGGT/visual hull 初始点云  
-- 训练：GaussianObject `train_gs` + DropGaussian（opacity dropout）  
-- 可选提质：LOO → LoRA → repair  
-- 输出：`output/**/point_cloud` / `last.ply`，以及 `results.json` 指标  
+## 工作 A（已实现主线）
 
 入口：`GaussianObject/sh/lineB_gaussianobject/0_run_all.sh`。
 
-## 工作 B（后续接入）
+## 工作 B（本仓已 vendoring）
 
-- 占位目录：[`../../VQA/`](../../VQA/)  
-- 候选代码：仓库同级 `Mage/`、`VLMEvalKit/`（尚未迁入本仓）  
-- 与工作 A 的接口预期：共享场景坐标系；查询帧 ↔ 3DGS 位姿/区域；渲染服务提供当前/邻近视角  
+- 推理/理解代码：`VQA/mage_vl/`（无大权重；权重外置）  
+- 评测代码：`VQA/VLMEvalKit/`（含本项目对 Video-MME / config 的修改）  
+- 已跑通指标：`VQA/eval_results/`  
 
-## 本阶段不做
+## 尚未实现
 
-不在此文档实现融合调度代码；仅固定「重建资产」与「问答」的边界，便于第二阶段迁入。
+帧–3DGS 位姿定位（GSVisLoc 类）与融合调度层：仅在 `thesis.md` 中规划，本阶段不落代码。

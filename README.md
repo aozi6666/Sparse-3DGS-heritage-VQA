@@ -1,89 +1,79 @@
-# 文化遗产数字展示系统（系统仓 · 第一阶段）
+# Sparse-3DGS-heritage-VQA
 
-本仓库是毕设系统的 **GitHub 主仓（第一阶段）**，规划两大工作：
+> GitHub 仓库名：**Sparse-3DGS-heritage-VQA**（本地目录可仍为 `3DGS/`）。  
+> 论文题目：**受限采集下的 3DGS 三维重建方法以及在文化遗产数字展示中的应用研究**  
+> 全文设计与流程图见 [`docs/thesis.md`](docs/thesis.md)。
+
+## 论文目标（摘要）
+
+在受限采集条件下完成稀疏视角 3DGS 重建，得到可自由观看的 3D 资产；再构建面向游客新轨迹的 **空间感知（3D 资产）+ 问答交互 / 展示** 系统：
+
+- 拍不全的文化遗产 → 可漫游的 3DGS 数字资产  
+- 现场拍摄时：既知道「看到了什么」，也知道「在 3D 资产里看哪里」  
+- 想了解 → AI 讲解/问答；想细看 → 进入 3DGS 自由换视角  
+
+三路任务：**Mage 看懂** → **定位对上** → **3DGS 呈现**，再融合为可问答、可导览的系统。
 
 | 工作 | 内容 | 本仓状态 |
 |------|------|----------|
-| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject 粗训 + DropGaussian 正则 +（可选）LOO/LoRA/repair | **现行主线，可跑** |
-| **B · 视频问答 / 导览** | Mage 理解 + 评测（VLMEvalKit）等，与 3D 资产空间关联 | **占位**，见 [`VQA/`](VQA/) |
+| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian +（可选）LOO/LoRA/repair | **主线可跑** |
+| **B · 视频问答 / 评测** | Mage-VL 理解 + VLMEvalKit（Video-MME 等） | **代码与指标已接入** [`VQA/`](VQA/) |
 
-详细复现日记（环境、旧实验记录）见 [`docs/reproduction/README.md`](docs/reproduction/README.md)。  
-系统如何对接重建与问答，见 [`docs/system/README.md`](docs/system/README.md)。
+更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。
 
 ---
 
 ## 工作 A：稀疏视角 3DGS 重建
 
 ```text
-稀疏图 + 位姿
-  → VGGT visual hull 点云
-  → GaussianObject train_gs（± DropGaussian）
-  →（可选）LOO → LoRA → repair
-  → 新视角渲染 / results.json
+稀疏图 + 位姿 → VGGT visual hull → train_gs（± Drop）→（可选）LOO/LoRA/repair → results.json
 ```
 
-- 代码：[`GaussianObject/`](GaussianObject/)（含 Drop 接入的 `gaussian_renderer` / `train_gs.py`）
-- 几何：[`vggt/`](vggt/)（权重 `vggt/models/model.pt` 需自行下载，不进库）
-- 脚本：[`GaussianObject/sh/lineB_gaussianobject/`](GaussianObject/sh/lineB_gaussianobject/)（说明见 [`sh/README.md`](GaussianObject/sh/README.md)）
-- Drop 参考实现（submodule）：[`DropGaussian_release/`](DropGaussian_release/) ← [DCVL-3D/DropGaussian_release](https://github.com/DCVL-3D/DropGaussian_release)  
-  训练时用的是已 plug-in 进 GO 的 opacity dropout，不必另跑该仓。
-
-### 一条命令（主线）
+- 代码：[`GaussianObject/`](GaussianObject/)、[`vggt/`](vggt/)
+- 脚本：[`GaussianObject/sh/lineB_gaussianobject/`](GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](GaussianObject/sh/README.md)）
+- Drop 参考 submodule：[`DropGaussian_release/`](DropGaussian_release/)（训练已 plug-in 进 GO renderer）
 
 ```bash
-# 依赖：uv 环境、数据、VGGT/SD/ControlNet/CLIP 权重（见 docs/reproduction）
 source .venv-ddgs-vggt/bin/activate
 export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
-# 国内 LoRA 需 CLIP：export HF_ENDPOINT=https://hf-mirror.com
-
-cd GaussianObject/sh/lineB_gaussianobject
-bash 0_run_all.sh          # 全流程
-# bash 0_run_all.sh 5      # 粗训已完成时从 LOO 起
-# bash 2b_train_gs_drop_ablation.sh   # ±Drop 粗训对照
+# export HF_ENDPOINT=https://hf-mirror.com   # LoRA 拉 CLIP 时
+cd GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 ```
 
-### 权重与数据（不进 Git）
-
-| 资源 | 位置（本地） | 说明 |
-|------|----------------|------|
-| VGGT | `vggt/models/model.pt` | 官方 VGGT 权重 |
-| SD 1.5 / ControlNet tile | `GaussianObject/models/` | LoRA/repair 用 |
-| CLIP ViT-L/14 | HF 或完整本地目录 | LoRA 文本编码；勿用空 LFS 指针 |
-| MipNeRF360 kitchen 等 | `GaussianObject/data/` | 含 COLMAP / `sparse_*.txt` |
+权重/数据不进 Git（VGGT、SD/ControlNet、CLIP、mip360 kitchen 等），见复现文档。
 
 ---
 
-## 工作 B：问答（占位）
+## 工作 B：Mage-VL + VLMEvalKit
 
-代码暂在仓库外（同级目录 `../Mage`、`../VLMEvalKit`），本仓用 [`VQA/README.md`](VQA/README.md) 预留接入位置。  
-环境 freeze 已放在 [`envs/`](envs/)，便于后续迁入后复现。
+| 路径 | 说明 |
+|------|------|
+| [`VQA/mage_vl/`](VQA/mage_vl/) | 基于 microsoft/Mage 的 `mage_vl` + streaming 增量；**无** `data/`/`models/` |
+| [`VQA/VLMEvalKit/`](VQA/VLMEvalKit/) | 评测框架 **vendored 完整代码（含本仓改动）** |
+| [`VQA/patches/vlmevalkit/`](VQA/patches/vlmevalkit/) | 相对上游 open-compass 的 diff（说明用） |
+| [`VQA/eval_results/`](VQA/eval_results/) | **Video-MME 等准确率结果**（必留） |
+
+`mage_flow`（文生图）**不在本仓**，仅存于机器上仓外 `../Mage/mage_flow` 等。  
+权重与数据集放仓外或本地 ignore 目录；环境见下表与 [`VQA/README.md`](VQA/README.md)。
 
 ---
 
-## 环境与依赖复现（uv）
+## 环境（uv，目录可不进库）
 
-用 [`uv`](https://github.com/astral-sh/uv) 管理；**不要提交** `.venv*` / `ddgs/` 目录本身，只提交 `envs/` 快照。
-
-| 环境目录（本地） | Python / Torch | 用途 | freeze |
-|------------------|----------------|------|--------|
-| `.venv-ddgs-vggt` | 3.10 / 2.5.1+cu124 | **主线**：GO + VGGT + Drop | [`envs/requirements-venv-ddgs-vggt.txt`](envs/requirements-venv-ddgs-vggt.txt) |
-| `ddgs` | 3.10 / 2.11+cu128 | 旧 DDGS lineA（归档参考） | [`envs/requirements-ddgs.txt`](envs/requirements-ddgs.txt) |
-| `vlmeval_env`（仓外） | 3.11 / 2.11+cu128 | **工作 B**：VLMEvalKit 评测 | [`envs/requirements-vlmevalkit.txt`](envs/requirements-vlmevalkit.txt) |
-| `mage`（仓外） | 3.11 / 2.11+cu128 | **工作 B**：Mage_ViT | [`envs/requirements-mage-vit.txt`](envs/requirements-mage-vit.txt) |
+| 环境（本地） | 用途 | freeze |
+|--------------|------|--------|
+| `.venv-ddgs-vggt` | 工作 A | [`envs/requirements-venv-ddgs-vggt.txt`](envs/requirements-venv-ddgs-vggt.txt) |
+| `ddgs` | 旧 DDGS 参考 | [`envs/requirements-ddgs.txt`](envs/requirements-ddgs.txt) |
+| `../VLMEvalKit/vlmeval_env` 或自建 | 工作 B 评测 | [`envs/requirements-vlmevalkit.txt`](envs/requirements-vlmevalkit.txt) |
+| `../Mage_ViT/mage` 或自建 | 工作 B Mage | [`envs/requirements-mage-vit.txt`](envs/requirements-mage-vit.txt) |
 
 ```bash
-# 主线环境
-uv venv .venv-ddgs-vggt --python 3.10
-uv pip install -r envs/requirements-venv-ddgs-vggt.txt --python .venv-ddgs-vggt/bin/python
-# CUDA 扩展需在 GaussianObject 下 --no-build-isolation；transformers 建议钉 4.44.2（兼容 torch 2.5）
-
-git submodule update --init --recursive   # 含 DropGaussian_release 与 GO submodules
+git submodule update --init --recursive   # DropGaussian_release 等
+# 评测时将 editable 路径改为本仓 VQA/VLMEvalKit
 ```
-
-注意：`requirements-vlmevalkit.txt` 中的 `-e ../VLMEvalKit` 指向仓外路径，工作 B 迁入前请按本机布局调整。
 
 ---
 
-## 仓库布局
+## 布局
 
-见 [`STRUCTURE.txt`](STRUCTURE.txt)。本地存在但默认不进库：`.venv*`、`ddgs/`、`_archive/`、`**/data/`、`**/output/`、大权重。
+见 [`STRUCTURE.txt`](STRUCTURE.txt)。忽略：`.venv*`、`ddgs/`、`_archive/`、`**/data/`、`**/output/` 大产物、权重。

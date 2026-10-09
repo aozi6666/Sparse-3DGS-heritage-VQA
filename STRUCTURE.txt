@@ -1,39 +1,32 @@
-3DGS — system repo (phase 1)
-============================
+Sparse-3DGS-heritage-VQA  (local folder may still be named 3DGS/)
+================================================================
 
-README.md                     # dual work: reconstruction + VQA placeholder
-STRUCTURE.txt                 # this file
+README.md                     # thesis summary + work A/B
+STRUCTURE.txt
 .gitignore
 .gitmodules                   # DropGaussian_release
-envs/                         # uv pip freeze snapshots (keep all)
-  requirements-venv-ddgs-vggt.txt   # main line (GO + VGGT + Drop)
-  requirements-ddgs.txt             # archived DDGS env (reference)
-  requirements-vlmevalkit.txt       # work B (later)
-  requirements-mage-vit.txt         # work B (later)
+envs/                         # uv freezes (A + B + legacy)
 docs/
-  reproduction/README.md      # long GO reproduction diary (moved from root)
-  system/README.md            # how recon assets meet VQA later
+  thesis.md                   # 毕设全文
+  reproduction/README.md      # GO 复现日记
+  system/README.md            # 三路融合边界
+
+# Work A — reconstruction
+GaussianObject/
+vggt/
+DropGaussian_release/         # submodule (reference)
+
+# Work B — VQA / eval
 VQA/
-  README.md                   # work B placeholder (Mage / VLMEvalKit later)
+  README.md
+  mage_vl/                    # vendored (no data/models)
+  VLMEvalKit/                 # vendored + local edits (no venv/ffmpeg/pkl)
+  patches/vlmevalkit/         # diffs vs upstream (docs)
+  eval_results/               # Video-MME scores (keep)
+  scripts/
 
-GaussianObject/               # work A: hull + train_gs ±Drop + LOO/LoRA/repair
-  vggt_visual_hull_enhanced.py
-  gaussian_renderer/          # DropGaussian opacity dropout plugged in
-  sh/
-    lineB_gaussianobject/     # CURRENT run scripts (_common.sh)
-    README.md
-  submodules/                 # rasterizer, pytorch3d, minLoRA, ...
-vggt/                         # VGGT code (weights: vggt/models/model.pt — not in git)
-DropGaussian_release/         # submodule (reference); training uses GO plug-in
-
-Local only (gitignored, do not delete on disk)
----------------------------------------------
-.venv-ddgs-vggt/   ddgs/   _archive/
-GaussianObject/data/   GaussianObject/output/   **/models/*.pth|ckpt
-
-Train (work A)
---------------
-1) data under GaussianObject/data/...
-2) weights: vggt/models/model.pt (+ GO models/ for LoRA)
-3) source .venv-ddgs-vggt/bin/activate
-4) USE_DROP=1 SKIP_PATH=1 bash GaussianObject/sh/lineB_gaussianobject/0_run_all.sh
+Local only (gitignored)
+-----------------------
+.venv*  ddgs/  _archive/
+**/data/  **/output/  weights  VQA/mage_vl/models  VQA/VLMEvalKit/vlmeval_env
+Outside tree (not in this repo): ../Mage/mage_flow  ../Mage_ViT/mage_flow
