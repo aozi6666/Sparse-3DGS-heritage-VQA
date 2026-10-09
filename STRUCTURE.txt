@@ -1,21 +1,39 @@
-3DGS layout (keep this)
-=======================
+3DGS — system repo (phase 1)
+============================
 
-vggt/                         # VGGT geometry (model.pt in vggt/models/)
-GaussianObject/               # visual hull + coarse GS (±Drop) + LOO/LoRA/repair
+README.md                     # dual work: reconstruction + VQA placeholder
+STRUCTURE.txt                 # this file
+.gitignore
+.gitmodules                   # DropGaussian_release
+envs/                         # uv pip freeze snapshots (keep all)
+  requirements-venv-ddgs-vggt.txt   # main line (GO + VGGT + Drop)
+  requirements-ddgs.txt             # archived DDGS env (reference)
+  requirements-vlmevalkit.txt       # work B (later)
+  requirements-mage-vit.txt         # work B (later)
+docs/
+  reproduction/README.md      # long GO reproduction diary (moved from root)
+  system/README.md            # how recon assets meet VQA later
+VQA/
+  README.md                   # work B placeholder (Mage / VLMEvalKit later)
+
+GaussianObject/               # work A: hull + train_gs ±Drop + LOO/LoRA/repair
   vggt_visual_hull_enhanced.py
+  gaussian_renderer/          # DropGaussian opacity dropout plugged in
   sh/
-    lineB_gaussianobject/     # CURRENT main line
-      _common.sh              # paths: USE_DROP → kitchen_drop / kitchen
-    _archive/
+    lineB_gaussianobject/     # CURRENT run scripts (_common.sh)
     README.md
-DropGaussian_release/         # REFERENCE ONLY
-_archive/                     # DDGS / lineA archived
+  submodules/                 # rasterizer, pytorch3d, minLoRA, ...
+vggt/                         # VGGT code (weights: vggt/models/model.pt — not in git)
+DropGaussian_release/         # submodule (reference); training uses GO plug-in
 
-Train (GPU)
------------
-1) data: GaussianObject/data/mip360/kitchen/
-2) weights: vggt/models/model.pt (+ LoRA models/ if repair)
-3) venv: 3DGS/.venv-ddgs-vggt
-4) USE_DROP=1 SKIP_PATH=1 bash .../lineB_gaussianobject/0_run_all.sh
-   # 粗训已有 kitchen_drop 时从第5步: bash 0_run_all.sh 5
+Local only (gitignored, do not delete on disk)
+---------------------------------------------
+.venv-ddgs-vggt/   ddgs/   _archive/
+GaussianObject/data/   GaussianObject/output/   **/models/*.pth|ckpt
+
+Train (work A)
+--------------
+1) data under GaussianObject/data/...
+2) weights: vggt/models/model.pt (+ GO models/ for LoRA)
+3) source .venv-ddgs-vggt/bin/activate
+4) USE_DROP=1 SKIP_PATH=1 bash GaussianObject/sh/lineB_gaussianobject/0_run_all.sh
