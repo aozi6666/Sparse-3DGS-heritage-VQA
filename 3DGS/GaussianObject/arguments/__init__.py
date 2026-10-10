@@ -13,6 +13,37 @@ from argparse import ArgumentParser, Namespace
 import sys
 import os
 
+# GaussianObject repo root (parent of arguments/)
+_GO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def resolve_moved_data_path(source_path: str) -> str:
+    """Remap stale absolute source_path after the repo was moved/copied.
+
+    cfg_args often stores an absolute path from the machine/checkout that trained
+    the model. If that directory no longer exists but the same ``data/...`` tree
+    lives under this GaussianObject root (or cwd), use the local copy.
+    """
+    if not source_path:
+        return source_path
+    if os.path.isdir(source_path):
+        return source_path
+    norm = source_path.replace("\\", "/")
+    token = "/data/"
+    if token not in norm:
+        return source_path
+    rel = "data/" + norm.split(token, 1)[1]
+    for root in (_GO_ROOT, os.getcwd()):
+        candidate = os.path.normpath(os.path.join(root, *rel.split("/")))
+        if os.path.isdir(candidate):
+            print(
+                f"[WARN] source_path missing, remapped:\n"
+                f"  {source_path}\n  -> {candidate}"
+            )
+            return candidate
+    return source_path
+
+
 class GroupParams:
     pass
 
@@ -58,6 +89,7 @@ class ModelParams(ParamGroup):
 
     def extract(self, args):
         g = super().extract(args)
+        g.source_path = resolve_moved_data_path(g.source_path)
         g.source_path = os.path.abspath(g.source_path)
         return g
 
@@ -116,4 +148,6 @@ def get_combined_args(parser : ArgumentParser):
     for k,v in vars(args_cmdline).items():
         if v != None:
             merged_dict[k] = v
+    if "source_path" in merged_dict and merged_dict["source_path"]:
+        merged_dict["source_path"] = resolve_moved_data_path(merged_dict["source_path"])
     return Namespace(**merged_dict)

@@ -186,6 +186,9 @@ wandb/
 runs/
 *_ddgs_*/
 kitchen_ddgs*/
+# Work A — keep lightweight metric CSVs (not under **/output/)
+# 3DGS/eval_results/ is tracked
+
 # Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
 VQA/mage_vl/data/
 VQA/mage_vl/models/

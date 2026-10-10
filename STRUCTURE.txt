@@ -16,6 +16,7 @@ docs/
   GaussianObject/
   vggt/
   DropGaussian_release/       # submodule (reference)
+  eval_results/               # PSNR/SSIM/LPIPS CSV (keep; like VQA/eval_results)
 
 # Work B — VQA / eval
 VQA/

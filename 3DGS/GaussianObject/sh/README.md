@@ -46,3 +46,5 @@ bash 0_run_all.sh            # 全流程
 ```
 
 LoRA/repair 需 `3DGS/GaussianObject/models/` 权重与完整 CLIP（非空 LFS 指针）。
+
+指标 CSV（PSNR/SSIM/LPIPS 与增益）：仓库 [`3DGS/eval_results/`](../../eval_results/)。
