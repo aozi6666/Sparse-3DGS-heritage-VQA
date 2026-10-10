@@ -12,6 +12,7 @@ echo "=========================================="
 
 python render.py \
     -m "${GS_DIR}" \
+    -s "${DATA}" \
     --sparse_view_num "${SPARSE_VIEW_NUM}" \
     --sh_degree 2 \
     --init_pcd_name "${INIT_PCD}" \

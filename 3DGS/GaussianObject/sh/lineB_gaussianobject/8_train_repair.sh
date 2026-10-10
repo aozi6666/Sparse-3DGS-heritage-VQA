@@ -12,12 +12,15 @@ echo "[8/10] Train repair  tag=${REPAIR_TAG}"
 echo "       init=${GS_DIR}  controlnet=output/${LORA_EXP}"
 echo "=========================================="
 
+# lora_rank / add_clip_lora 必须与 7_train_lora.sh 一致（默认 LORA_RANK=32，未训 clip LoRA）
 python train_repair.py \
     --config configs/gaussian-object.yaml \
     --train --gpu "${GPU}" \
     tag="${REPAIR_TAG}" \
     system.init_dreamer="${GS_DIR}" \
     system.exp_name="output/${LORA_EXP}" \
+    system.lora_rank="${LORA_RANK}" \
+    system.add_clip_lora=False \
     system.refresh_size=8 \
     data.data_dir="${DATA}" \
     data.resolution=4 \
