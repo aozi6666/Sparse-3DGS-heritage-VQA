@@ -1,3 +1,4 @@
+import os
 import torch
 import torch.nn as nn
 from torch.utils.checkpoint import checkpoint
@@ -6,6 +7,15 @@ from transformers import T5Tokenizer, T5EncoderModel, CLIPTokenizer, CLIPTextMod
 
 import open_clip
 from ldm.util import default, count_params
+
+# Prefer local CLIP weights under GaussianObject/pretrained (offline-friendly).
+_LOCAL_CLIP = os.path.normpath(
+    os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "..", "..", "..", "pretrained", "clip-vit-large-patch14",
+    )
+)
+_DEFAULT_CLIP = _LOCAL_CLIP if os.path.isdir(_LOCAL_CLIP) else "openai/clip-vit-large-patch14"
 
 
 class AbstractEncoder(nn.Module):
@@ -92,12 +102,15 @@ class FrozenCLIPEmbedder(AbstractEncoder):
         "pooled",
         "hidden"
     ]
-    def __init__(self, version="openai/clip-vit-large-patch14", device="cuda", max_length=77,
+    def __init__(self, version=_DEFAULT_CLIP, device="cuda", max_length=77,
                  freeze=True, layer="last", layer_idx=None):  # clip-vit-base-patch32
         super().__init__()
         assert layer in self.LAYERS
-        self.tokenizer = CLIPTokenizer.from_pretrained(version)
-        self.transformer = CLIPTextModel.from_pretrained(version)
+        # Hub id falls back to local pretrained when offline / already mirrored.
+        if version == "openai/clip-vit-large-patch14" and os.path.isdir(_LOCAL_CLIP):
+            version = _LOCAL_CLIP
+        self.tokenizer = CLIPTokenizer.from_pretrained(version, local_files_only=os.path.isdir(version))
+        self.transformer = CLIPTextModel.from_pretrained(version, local_files_only=os.path.isdir(version))
         self.device = device
         self.max_length = max_length
         if freeze:
@@ -194,7 +207,7 @@ class FrozenOpenCLIPEmbedder(AbstractEncoder):
 
 
 class FrozenCLIPT5Encoder(AbstractEncoder):
-    def __init__(self, clip_version="openai/clip-vit-large-patch14", t5_version="google/t5-v1_1-xl", device="cuda",
+    def __init__(self, clip_version=_DEFAULT_CLIP, t5_version="google/t5-v1_1-xl", device="cuda",
                  clip_max_length=77, t5_max_length=77):
         super().__init__()
         self.clip_encoder = FrozenCLIPEmbedder(clip_version, device, max_length=clip_max_length)

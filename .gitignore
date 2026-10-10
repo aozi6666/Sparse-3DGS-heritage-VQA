@@ -133,11 +133,22 @@ datasets/
 **/models/*.onnx
 **/models/*.h5
 **/pretrained/*.safetensors
+**/pretrained/**/*.safetensors
 **/pretrained/*.bin
+**/pretrained/**/*.bin
 **/pretrained/*.pth
+**/pretrained/**/*.pth
 **/pretrained/*.ckpt
+**/pretrained/**/*.ckpt
 **/pretrained/*.onnx
+**/pretrained/**/*.onnx
 **/pretrained/*.h5
+**/pretrained/**/*.h5
+# CLIP / HF weights under pretrained (keep tokenizer json / merges / config)
+3DGS/GaussianObject/pretrained/**/*.safetensors
+3DGS/GaussianObject/pretrained/**/*.bin
+3DGS/GaussianObject/pretrained/**/*.pth
+3DGS/GaussianObject/pretrained/**/*.ckpt
 *.onnx
 
 # Weights / archives / binaries

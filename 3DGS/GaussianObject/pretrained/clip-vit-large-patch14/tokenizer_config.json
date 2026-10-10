@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39bae5313c2da6467866dee758e754d69f0e302a875027b142531cb9c51c7c28
-size 736
+{
+    "unk_token": {
+        "content": "<|endoftext|>",
+        "single_word": false,
+        "lstrip": false,
+        "rstrip": false,
+        "normalized": true,
+        "__type": "AddedToken"
+    },
+    "bos_token": {
+        "content": "<|startoftext|>",
+        "single_word": false,
+        "lstrip": false,
+        "rstrip": false,
+        "normalized": true,
+        "__type": "AddedToken"
+    },
+    "eos_token": {
+        "content": "<|endoftext|>",
+        "single_word": false,
+        "lstrip": false,
+        "rstrip": false,
+        "normalized": true,
+        "__type": "AddedToken"
+    },
+    "pad_token": "<|endoftext|>",
+    "add_prefix_space": false,
+    "errors": "replace",
+    "do_lower_case": true,
+    "name_or_path": "openai/clip-vit-base-patch32",
+    "model_max_length": 77,
+    "special_tokens_map_file": "./special_tokens_map.json",
+    "tokenizer_class": "CLIPTokenizer"
+}
