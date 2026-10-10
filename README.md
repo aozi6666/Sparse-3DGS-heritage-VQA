@@ -78,3 +78,9 @@ git submodule update --init --recursive   # DropGaussian_release 等
 ## 布局
 
 见 [`STRUCTURE.txt`](STRUCTURE.txt)。忽略：`.venv*`、`ddgs/`、`_archive/`、`**/data/`、`**/output/` 大产物、权重。
+
+---
+
+## TODO（后续慢慢做）
+
+- [ ] **步数 sweep（论文图用）**：同一 VGGT+Drop+RV51 设定下，扫 LoRA `max_steps`（如 1200 / 1800 / 2400 / 3000）与 repair `max_steps`（如 3000 / 4000 / 6000），每档存 ply + test 指标再画曲线；**没跑完不要写「某某区间最好」**。主线默认已是 RV5.1（`*_rv51`）。

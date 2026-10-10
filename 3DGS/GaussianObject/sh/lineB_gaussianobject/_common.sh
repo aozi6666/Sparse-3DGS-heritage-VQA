@@ -38,8 +38,10 @@ fi
 
 GS_DIR="output/gs_init/${GS_NAME}"
 LOO_DIR="output/gs_init/${GS_NAME}_loo"
-LORA_EXP="controlnet_finetune/${GS_NAME}"
-REPAIR_TAG="${GS_NAME}"
+# 主线：Realistic Vision V5.1 + 配套 LoRA/repair 目录（可用环境变量覆盖）
+SD_CKPT="${SD_CKPT:-./models/Realistic_Vision_V5.1.safetensors}"
+LORA_EXP="${LORA_EXP:-controlnet_finetune/${GS_NAME}_rv51}"
+REPAIR_TAG="${REPAIR_TAG:-${GS_NAME}_rv51}"
 FINAL_PLY="output/gaussian_object/${REPAIR_TAG}/save/last.ply"
 INIT_PCD="visual_hull_vggt_enhanced_${SPARSE_ID}"
 
@@ -54,5 +56,6 @@ lineb_print_paths() {
   echo "REPO_ROOT=${REPO_ROOT}"
   echo "GO=${GO}  VGGT=${VGGT}  VENV=${VENV}"
   echo "USE_DROP=${USE_DROP}  GS_DIR=${GS_DIR}  LOO_DIR=${LOO_DIR}"
-  echo "LORA_EXP=${LORA_EXP}  FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
+  echo "SD_CKPT=${SD_CKPT}"
+  echo "LORA_EXP=${LORA_EXP}  REPAIR_TAG=${REPAIR_TAG}  FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
 }

@@ -9,6 +9,7 @@ lineb_activate
 echo "=========================================="
 echo "[7/10] Train LoRA → output/${LORA_EXP}"
 echo "       gs=${GS_DIR}  loo=${LOO_DIR}  rank=${LORA_RANK}"
+echo "       sd_ckpt=${SD_CKPT}"
 echo "=========================================="
 
 python train_lora.py \
@@ -16,6 +17,7 @@ python train_lora.py \
     --gs_dir "${GS_DIR}" \
     --loo_dir "${LOO_DIR}" \
     --exp_name "${LORA_EXP}" \
+    --sd_ckpt "${SD_CKPT}" \
     --prompt xxy5syt00 \
     --sh_degree 2 --resolution 4 --sparse_num "${SPARSE_VIEW_NUM}" \
     --image_size "${LORA_IMAGE_SIZE}" \

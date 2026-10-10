@@ -173,32 +173,14 @@ pip install xformers
 
 ## 4.加载预训练ControlNet 模型
 
-GaussianObject 依赖 Stable Diffusion v1.5 和 ControlNet Tile 的预训练模型。
+GaussianObject 依赖 **SD1.5 兼容底模**（主线：Realistic Vision V5.1）和 ControlNet Tile。
 
-Hugging-Face地址：https://huggingface.co/
+详见 [`3DGS/GaussianObject/models/README.md`](../../3DGS/GaussianObject/models/README.md)。在 `models/` 下执行 `python download_hf_models.py` 即可拉：
 
-- **从huggingface `benjamin-paine/stable-diffusion-v1-5` 下载的文件**:
+- `Realistic_Vision_V5.1.safetensors`（`SG161222/Realistic_Vision_V5.1_noVAE`）
+- `control_v11f1e_sd15_tile.pth`（`lllyasviel/ControlNet-v1-1`）
 
-  - 文件名: `v1-5-pruned.ckpt`
-  - 文件位置（本地下载目录）: 当前目录 `.`
-  - 仓库 ID: `benjamin-paine/stable-diffusion-v1-5`
-  - 修订版本: `26a823710f75136819d791422b0b8686afbe784b`
-
-  文件 `v1-5-pruned.ckpt`，是 Stable Diffusion v1.5 模型权重文件 (`ckpt` 格式通常是用于 PyTorch 保存模型的检查点文件)。
-
-- **从huggingface `lllyasviel/ControlNet-v1-1` 下载的文件**:
-
-  - 文件名: `control_v11f1e_sd15_tile.pth`
-
-  - 文件位置（本地下载目录）: 当前目录 `.`
-  - 仓库 ID: `lllyasviel/ControlNet-v1-1`
-  - 修订版本: `69fc48b9cbd98661f6d0288dc59b59a5ccb32a6b`
-
-  文件 `control_v11f1e_sd15_tile.pth`，是用于 ControlNet 模型的预训练权重，格式为 `.pth`，这是 PyTorch 的模型权重文件格式。
-
-下载完成后的`v1-5-pruned.ckpt`和 `control_v11f1e_sd15_tile.pth`保存到**GaussianObject**的路径：
-
-/root/autodl-tmp/GaussianObject/models文件夹下
+保存到 `3DGS/GaussianObject/models/`（权重不进 Git）。
 
 # 三、**运行 GaussianObject 项目**
 
@@ -387,7 +369,7 @@ python leave_one_out_stage2.py -s /root/autodl-tmp/GaussianObject/data/mip360/ki
 
 该步骤通过LoRA优化模型，使用提示符 `xxy5syt00` 进行微调。
 
-需要从Hugging- Face加载的`v1-5-pruned.ckpt`和`control_v11f1e_sd15_tile.pth`放在指定路径：
+需要 `Realistic_Vision_V5.1.safetensors` 和 `control_v11f1e_sd15_tile.pth` 放在指定路径：
 
 /root/autodl-tmp/GaussianObject/models/文件夹下
 

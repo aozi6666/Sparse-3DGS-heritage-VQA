@@ -169,6 +169,7 @@ class GaussianDreamer(BaseLift3DSystem):
     class Config(BaseLift3DSystem.Config):
         sparse_num: int = 5
         model_name: str = "control_v11f1e_sd15_tile"
+        sd_ckpt: str = "models/Realistic_Vision_V5.1.safetensors"
         exp_name: str = ""
         lora_name: str = "lora-step=1799.ckpt"
         lora_rank: int = 64
@@ -358,7 +359,7 @@ class GaussianDreamer(BaseLift3DSystem):
     def on_fit_start(self) -> None:
         super().on_fit_start()
         self.controlnet = create_model(f'models/{self.cfg.model_name}.yaml').cpu()
-        self.controlnet.load_state_dict(load_state_dict('models/v1-5-pruned.ckpt', location='cuda'), strict=False)
+        self.controlnet.load_state_dict(load_state_dict(self.cfg.sd_ckpt, location='cuda'), strict=False)
         self.controlnet.load_state_dict(load_state_dict(f'models/{self.cfg.model_name}.pth', location='cuda'), strict=False)
         lora_config = {
             nn.Embedding: {

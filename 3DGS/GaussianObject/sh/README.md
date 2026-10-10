@@ -45,6 +45,6 @@ bash 0_run_all.sh            # 全流程
 # bash 2b_train_gs_drop_ablation.sh
 ```
 
-LoRA/repair 需 `3DGS/GaussianObject/models/` 权重与完整 CLIP（非空 LFS 指针）。
+LoRA/repair 需 `3DGS/GaussianObject/models/`：**主线** `Realistic_Vision_V5.1.safetensors` + ControlNet-Tile（见 [`models/README.md`](../models/README.md)），以及完整 CLIP。默认 `LORA_EXP`/`REPAIR_TAG` 为 `*_rv51`。
 
-指标 CSV（PSNR/SSIM/LPIPS 与增益）：仓库 [`3DGS/eval_results/`](../../eval_results/)。
+指标 CSV：[`3DGS/eval_results/`](../../eval_results/)。

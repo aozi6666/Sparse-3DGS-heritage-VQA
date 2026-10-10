@@ -1,9 +1,9 @@
 # 改进设想：更强 SD1.5 底模 + 重训 LoRA（方案 A）
 
-> 状态：设想 / 待实施。当前主线仍用原版 `v1-5-pruned.ckpt` 跑通基线。  
+> 状态：**主线已切到 RV5.1**（默认 `Realistic_Vision_V5.1.safetensors` + `*_rv51` LoRA/repair）；本地不再依赖 `v1-5-pruned.ckpt`。  
 > 范围：只动扩散修复（步骤 7–8）；**不改 VGGT / 粗训 GS / LOO**。  
 > 环境：继续 `.venv-ddgs-vggt`，不引入 Diffusers 全家桶。  
-> 分支：`feat/sd15-stronger-base-lora`
+> 分支：`feat/sd15-stronger-base-lora`（可合并 main）
 
 ## 1. 背景与目标
 
@@ -11,12 +11,12 @@
 
 1. VGGT hull → 2. 粗 GS(±Drop) → 3. 评测 → 5–6. LOO → **7. LoRA** → **8. repair** → 9. 最终评测
 
-原链路修复底座：
+当前主线修复底座：
 
-- SD：`models/v1-5-pruned.ckpt`
+- SD：`models/Realistic_Vision_V5.1.safetensors`
 - ControlNet-Tile：`models/control_v11f1e_sd15_tile.pth` + 同名 yaml
 
-本方案目标：在 **架构不变（仍 SD1.5 + ControlNet-Tile + cldm + minLoRA）** 的前提下，换更强的真实向 SD1.5 底模，并 **重新训练 LoRA**，与原底座做 A/B。
+本方案：在 **架构不变（仍 SD1.5 + ControlNet-Tile + cldm + minLoRA）** 下使用真实向底模并重训 LoRA；历史 v1-5 A/B 指标见 `3DGS/eval_results/`。
 
 **与 VGGT 的关系：** 换底座只影响步骤 7–8；`1_vggt_hull` / 粗训 / LOO 输出可复用，零改动。
 
@@ -32,7 +32,6 @@
 
 **不要：**
 
-- 覆盖损坏或不完整的 `v1-5-pruned.ckpt`（基线对照用；坏文件可删残片另下完整版）
 - 换 ControlNet（继续 `control_v11f1e_sd15_tile`）
 - 使用 inpainting / SDXL / Diffusers 多文件夹权重
 - 动 `vggt_visual_hull_enhanced.py`、`1_vggt_hull.sh`、`2_train_gs.sh`、LOO 脚本
@@ -54,56 +53,31 @@ wget -c -O Realistic_Vision_V5.1.safetensors \
 
 `cldm/model.py` 已支持 `.safetensors`（见 `load_state_dict`），一般无需再转 ckpt。
 
-## 3. 代码改动清单（待实施）
+## 3. 代码改动清单（已实施）
 
-### 3.1 `train_lora.py`：底模路径参数化
+### 3.1 `train_lora.py`：`--sd_ckpt`
 
-现状写死：
+- 默认 `./models/Realistic_Vision_V5.1.safetensors`
+- ControlNet 仍：`./models/{model_name}.pth`，默认 `control_v11f1e_sd15_tile`
 
-```python
-model.load_state_dict(load_state_dict('./models/v1-5-pruned.ckpt', location='cpu'), strict=False)
-model.load_state_dict(load_state_dict(f'./models/{args.model_name}.pth', location='cpu'), strict=False)
-```
+### 3.2 repair：`system.sd_ckpt`
 
-建议：
+- [`gaussian_object_system.py`](../3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py) `Config.sd_ckpt`（默认同上 RV5.1）
+- `8_train_repair.sh` 传入 `system.sd_ckpt="${SD_CKPT}"`（必须与训 LoRA 同一底模）
 
-- 新增 `--sd_ckpt`（默认仍 `./models/v1-5-pruned.ckpt`，保证原链路零行为变化）
-- ControlNet 仍：`./models/{model_name}.pth`，默认 `control_v11f1e_sd15_tile` **先不换**
-
-示例：
-
-```python
-parser.add_argument('--sd_ckpt', type=str, default='./models/v1-5-pruned.ckpt')
-# ...
-model.load_state_dict(load_state_dict(args.sd_ckpt, location='cpu'), strict=False)
-model.load_state_dict(load_state_dict(f'./models/{args.model_name}.pth', location='cpu'), strict=False)
-```
-
-### 3.2 `7_train_lora.sh`：新实验目录 + 传入新底模
-
-- 新 `LORA_EXP`，例如：`controlnet_finetune/kitchen_drop_rv51`
-- 传入：`--sd_ckpt ./models/Realistic_Vision_V5.1.safetensors`
-- **必须重跑 LoRA**（旧 LoRA 绑定旧底模，不能直接复用）
-- 旧目录 `controlnet_finetune/kitchen_drop` **保留**作对照
-
-### 3.3 `8_train_repair.sh`：指向新 LoRA，粗模不动
-
-- `system.exp_name="output/${LORA_EXP}"` → 新 LoRA 目录
-- `system.init_dreamer="${GS_DIR}"` → 仍为现有 VGGT+Drop 粗模（如 `output/gs_init/kitchen_drop`）
-- 建议新 `tag`，例如 `kitchen_drop_rv51`，避免覆盖旧 `last.ply`
-- **VGGT 链路零改动**
-
-### 3.4 `_common.sh`（可选）
-
-增加可覆盖变量，便于 A/B：
+### 3.3 脚本：`7` / `8` / `9` + `_common.sh`
 
 ```bash
-SD_CKPT="${SD_CKPT:-./models/v1-5-pruned.ckpt}"
-LORA_EXP="${LORA_EXP:-controlnet_finetune/kitchen_drop}"   # 新实验改 kitchen_drop_rv51
-REPAIR_TAG="${REPAIR_TAG:-kitchen_drop}"                    # 新实验改 kitchen_drop_rv51
+SD_CKPT="${SD_CKPT:-./models/Realistic_Vision_V5.1.safetensors}"
+LORA_EXP="${LORA_EXP:-controlnet_finetune/${GS_NAME}_rv51}"
+REPAIR_TAG="${REPAIR_TAG:-${GS_NAME}_rv51}"
 ```
 
-### 3.5 明确不改
+- `7_train_lora.sh`：`--sd_ckpt "${SD_CKPT}"`
+- `8_train_repair.sh`：`tag` / `exp_name` 跟 `REPAIR_TAG` / `LORA_EXP`；`init_dreamer` 仍为 `GS_DIR`
+- `9_render_last.sh`：`REPAIR_TAG != GS_NAME` 时备份/归档 `ours_None`
+
+### 3.4 明确不改
 
 - `vggt_visual_hull_enhanced.py`
 - `1_vggt_hull.sh` / `2_train_gs.sh` / `5_loo_*.sh` / `6_loo_*.sh`
@@ -114,22 +88,17 @@ REPAIR_TAG="${REPAIR_TAG:-kitchen_drop}"                    # 新实验改 kitch
 
 | 组 | 底模 | LoRA 输出 | repair tag | 说明 |
 | --- | --- | --- | --- | --- |
-| Baseline | `v1-5-pruned.ckpt` | `controlnet_finetune/kitchen_drop` | `kitchen_drop` | 当前原链路 |
-| RV51 | `Realistic_Vision_V5.1.safetensors` | `controlnet_finetune/kitchen_drop_rv51` | `kitchen_drop_rv51` | 本方案 |
+| **主线 RV51** | `Realistic_Vision_V5.1.safetensors` | `controlnet_finetune/kitchen_drop_rv51` | `kitchen_drop_rv51` | 默认 |
+| 历史对照（已归档指标） | 曾用官方 SD1.5 ckpt | `controlnet_finetune/kitchen_drop` | `kitchen_drop` | 见 eval_results CSV |
 
-对比：`results.json`（PSNR/SSIM/LPIPS）+ 主观图；粗模 / LOO 数据两侧共用。
-
-建议跑法（新实验，参数化完成后）：
+默认跑法（权重就绪后）：
 
 ```bash
 cd 3DGS/GaussianObject/sh/lineB_gaussianobject
-SD_CKPT=./models/Realistic_Vision_V5.1.safetensors \
-LORA_EXP=controlnet_finetune/kitchen_drop_rv51 \
-REPAIR_TAG=kitchen_drop_rv51 \
 USE_DROP=1 SKIP_PATH=1 bash 0_run_all.sh 7
 ```
 
-（从步骤 7 起；1–6 复用已有结果。）
+（从步骤 7 起；1–6 复用已有结果。默认即 RV51。）
 
 ## 5. 论文级依据：涨点仍主要靠 LOO + Tile LoRA
 
@@ -145,27 +114,23 @@ USE_DROP=1 SKIP_PATH=1 bash 0_run_all.sh 7
 
 相关后续工作（非本阶段）：RI3D 仍沿用 ControlNet + LOO 修复思路；WaveletGaussian 在小波域做扩散，属于方法级改动，不是「换底座」。
 
-## 6. 实施顺序（建议）
+## 6. 实施顺序（已完成）
 
-1. **现在（原链路）**：完整 `v1-5-pruned.ckpt` + 原 `LORA_EXP`，跑通 7→8，记下基线指标。
-2. **本分支**：按 §3 做路径参数化（默认值保持原行为）。
-3. 下载 `Realistic_Vision_V5.1.safetensors` 到 `models/`（独立文件名）。
-4. 新 `LORA_EXP` / `REPAIR_TAG` 从步骤 7 重跑，与基线对比。
-5. 文档与代码就绪后再决定是否合并回 `main`。
+1. 参数化 `--sd_ckpt` / `system.sd_ckpt` / 脚本环境变量。
+2. 下载 RV5.1，默认切到 RV51 + `*_rv51` 目录。
+3. 本地删除官方 SD1.5 大权重；下载脚本改指 RV5.1。
+4. 合并 `feat/sd15-stronger-base-lora` → `main`（见仓库 README 旁操作）。
 
-## 7. 风险与回滚
+## 7. 风险
 
-- 社区底模 key 与 SD1.5 略有差异：继续 `strict=False`；加载后看日志缺失 key 是否异常多。
-- 磁盘：RV5.1 ≈ 4.3G；数据盘紧时先处理损坏的 2G `v1-5-pruned.ckpt` 残片。
-- 回滚：不传 `--sd_ckpt` / 不改 `LORA_EXP` 即回到原链路；旧 LoRA 目录勿删。
+- 社区底模 key 与 SD1.5 略有差异：继续 `strict=False`。
+- 磁盘：RV5.1 ≈ 4G；repair 后及时删 `tb_logs`。
 
 ## 8. 检查清单
 
-- [ ] 基线：`v1-5-pruned.ckpt` 可完整加载 / 原 7→8 出数
-- [ ] `models/Realistic_Vision_V5.1.safetensors` 已就位且完整
-- [ ] `train_lora.py` 增加 `--sd_ckpt`，默认仍指向 v1-5
-- [ ] `7_train_lora.sh` / `_common.sh` 支持新 `LORA_EXP` + `SD_CKPT`
-- [ ] `8_train_repair.sh` 指向新 LoRA，`init_dreamer` 仍为原 `GS_DIR`
-- [ ] ControlNet 仍为 `control_v11f1e_sd15_tile`
-- [ ] VGGT / 粗训 / LOO 脚本未改
-- [ ] A/B 指标与主观对比记录
+- [x] `models/Realistic_Vision_V5.1.safetensors` 主线默认
+- [x] `train_lora.py` / repair / `_common.sh` 默认 RV51 + `*_rv51`
+- [x] `models/download_hf_models.py` + `models/README.md` 已更新
+- [x] ControlNet 仍为 `control_v11f1e_sd15_tile`
+- [x] VGGT / 粗训 / LOO 脚本未改
+- [x] A/B 指标见 `3DGS/eval_results/`（RV51 ≈ 持平，无实质涨点）

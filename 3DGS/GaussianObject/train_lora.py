@@ -52,6 +52,8 @@ if __name__ == '__main__':
     parser.add_argument('--add_control_lora', action='store_true', default=False)
     parser.add_argument('--add_clip_lora', action='store_true', default=False)
     parser.add_argument('--use_dust3r', action='store_true', default=False)
+    parser.add_argument('--sd_ckpt', type=str, default='./models/Realistic_Vision_V5.1.safetensors',
+                        help='SD1.5-compatible base checkpoint (.ckpt or .safetensors)')
 
     # 解析命令行参数
     args = parser.parse_args()
@@ -60,7 +62,7 @@ if __name__ == '__main__':
     model = create_model(f'./models/{args.model_name}.yaml').cpu()
 
     # 加载基础 stable diffusion 模型和 ControlNet 的预训练权重
-    model.load_state_dict(load_state_dict('./models/v1-5-pruned.ckpt', location='cpu'), strict=False)
+    model.load_state_dict(load_state_dict(args.sd_ckpt, location='cpu'), strict=False)
     model.load_state_dict(load_state_dict(f'./models/{args.model_name}.pth', location='cpu'), strict=False)
     
     # 设置模型参数，学习率、是否锁定主模型
