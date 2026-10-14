@@ -7,14 +7,21 @@ source "${SCRIPT_DIR}/_common.sh"
 GPU="${CUDA_VISIBLE_DEVICES}"
 lineb_activate
 
+# CADR 开关 → threestudio bool
+if [[ "${USE_CONF_WEIGHT}" == "1" || "${USE_CONF_WEIGHT}" == "True" || "${USE_CONF_WEIGHT}" == "true" ]]; then
+  CONF_WEIGHT_BOOL=True
+else
+  CONF_WEIGHT_BOOL=False
+fi
+
 echo "=========================================="
 echo "[8/10] Train repair  tag=${REPAIR_TAG}"
 echo "       init=${GS_DIR}  controlnet=output/${LORA_EXP}"
-echo "       sd_ckpt=${SD_CKPT}"
+echo "       sd_ckpt=${SD_CKPT}  use_conf_weight=${CONF_WEIGHT_BOOL}"
 echo "=========================================="
 
 # lora_rank / add_clip_lora 必须与 7_train_lora.sh 一致（默认 LORA_RANK=32，未训 clip LoRA）
-# sd_ckpt 必须与训 LoRA 时同一底模
+# sd_ckpt 必须与训 LoRA 时同一底模；默认 *_abs16 LoRA + CADR（*_abs16_conf）
 python train_repair.py \
     --config configs/gaussian-object.yaml \
     --train --gpu "${GPU}" \
@@ -25,6 +32,7 @@ python train_repair.py \
     system.lora_rank="${LORA_RANK}" \
     system.add_clip_lora=False \
     system.refresh_size=8 \
+    system.use_conf_weight="${CONF_WEIGHT_BOOL}" \
     data.data_dir="${DATA}" \
     data.resolution=4 \
     data.sparse_num="${SPARSE_VIEW_NUM}" \

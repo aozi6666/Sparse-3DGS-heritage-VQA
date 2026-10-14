@@ -15,7 +15,7 @@
 
 | 工作 | 内容 | 本仓状态 |
 |------|------|----------|
-| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian +（可选）LOO/LoRA/repair | **主线可跑** |
+| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian + LOO/LoRA/repair；**CADR** + 写实底模对照 | **主线可跑**（CADR / 底模已落地） |
 | **B · 视频问答 / 评测** | Mage-VL 理解 + VLMEvalKit（Video-MME 等） | **代码与指标已接入** [`VQA/`](VQA/) |
 
 更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。全文话术与流程图亦见仓外 [`毕设.md`](../毕设.md) / [`docs/thesis.md`](docs/thesis.md)。
@@ -41,19 +41,44 @@
 ## 工作 A：稀疏视角 3DGS 重建
 
 ```text
-稀疏图 + 位姿 → VGGT visual hull → train_gs（± Drop）→（可选）LOO/LoRA/repair → results.json
+稀疏图 + 位姿 → VGGT visual hull → train_gs（± Drop）→（可选）LOO/LoRA/repair（± CADR）→ results.json
 ```
 
 - 代码：[`3DGS/GaussianObject/`](3DGS/GaussianObject/)、[`3DGS/vggt/`](3DGS/vggt/)
 - 脚本：[`3DGS/GaussianObject/sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)）
 - Drop 参考 submodule：[`3DGS/DropGaussian_release/`](3DGS/DropGaussian_release/)（训练已 plug-in 进 GO renderer）
-- **指标归档**：[`3DGS/eval_results/`](3DGS/eval_results/)（CSV；含 LoRA repair 增益，VGGT/Drop 对照待补）
+- **指标归档**：[`3DGS/eval_results/`](3DGS/eval_results/)（CSV；含 LoRA repair / CADR / 底模对照）
+
+### 本仓方法 · CADR（置信度感知扩散修复）
+
+步骤 8 对扩散修复监督乘以 \(w_{\text{need}}\times w_{\text{trust}}\)（视角需求 × CLIP 身份信任），抑制不可靠伪标签灌进 3DGS。
+
+- **设计目标**：相对 RV51 repair（无 CADR），test **PSNR +0.2**（SSIM 不降、LPIPS 不升）。
+- **当前实测（kitchen）**：与 `kitchen_drop_rv51` **持平**（ΔPSNR ≈ 0；设计目标未达）。数字见 [`3DGS/eval_results/`](3DGS/eval_results/)。
+- 开关：`USE_CONF_WEIGHT=1` → tag `*_rv51_conf`；实现：[`gaussian_object_system.py`](3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py)。
+
+### 本仓贡献 · SD1.5 族写实底模接入
+
+在 GaussianObject + ControlNet-Tile 管线中接入可切换 SD 底模（**须与 LoRA 同底模重训**）。换底模实测 ≈ 持平；论文主对照仍用 RV51 ± CADR，abs16 作附录。
+
+| 本地路径 | 角色 |
+|----------|------|
+| [`3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors`](3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors) | 主对照 SD 底模（RV5.1） |
+| [`3DGS/GaussianObject/models/absolutereality_v16.safetensors`](3DGS/GaussianObject/models/absolutereality_v16.safetensors) | 附录 SD 底模（AbsoluteReality v1.6） |
+| [`3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth) | ControlNet-Tile 权重（固定配套，勿删） |
+| [`3DGS/GaussianObject/models/control_v11f1e_sd15_tile.yaml`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.yaml) | ControlNet-Tile 配置 |
+
+下载与切底模说明：[`3DGS/GaussianObject/models/README.md`](3DGS/GaussianObject/models/README.md)。
 
 ```bash
 source .venv-ddgs-vggt/bin/activate
 export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
 # export HF_ENDPOINT=https://hf-mirror.com   # LoRA 拉 CLIP 时
 cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
+# 论文主对照 CADR（复用 *_rv51 LoRA，从步骤 8）：
+# SD_CKPT=./models/Realistic_Vision_V5.1.safetensors \
+# LORA_EXP=controlnet_finetune/kitchen_drop_rv51 BASE_TAG=kitchen_drop_rv51 \
+# bash 0_run_all.sh 8
 ```
 
 权重/数据不进 Git（VGGT、SD/ControlNet、CLIP、mip360 kitchen 等），见复现文档。
@@ -98,4 +123,8 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 ## TODO（后续慢慢做）
 
-- [ ] **步数 sweep（论文图用）**：同一 VGGT+Drop+RV51 设定下，扫 LoRA `max_steps`（如 1200 / 1800 / 2400 / 3000）与 repair `max_steps`（如 3000 / 4000 / 6000），每档存 ply + test 指标再画曲线；**没跑完不要写「某某区间最好」**。主线默认已是 RV5.1（`*_rv51`）。
+- [ ] **CADR 消融 A2/A3**（可选 A4/A5）：同 RV51 LoRA，只改步骤 8（仅 \(w_{\text{trust}}\) / 完整 CADR / 覆盖项 / 自适应 denoise）。
+- [ ] **论文主表 C0–C3 核对**：CSV 中 coarse / SD1.5 repair / RV51 / CADR 与论文表述对齐。
+- [ ] **（可选）abs16 无 CADR（C4）**：隔离「换底模」与 CADR。
+- [ ] **VGGT vs classic hull** / **Drop 消融**：见 [`3DGS/eval_results/`](3DGS/eval_results/) CSV `delta_pending`。
+- [ ] **步数 sweep（论文图用）**：同一 VGGT+Drop+RV51 设定下，扫 LoRA `max_steps`（如 1200 / 1800 / 2400 / 3000）与 repair `max_steps`（如 3000 / 4000 / 6000），每档存 ply + test 指标再画曲线；**没跑完不要写「某某区间最好」**。

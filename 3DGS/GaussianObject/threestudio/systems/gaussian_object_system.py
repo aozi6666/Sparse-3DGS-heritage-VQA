@@ -169,7 +169,7 @@ class GaussianDreamer(BaseLift3DSystem):
     class Config(BaseLift3DSystem.Config):
         sparse_num: int = 5
         model_name: str = "control_v11f1e_sd15_tile"
-        sd_ckpt: str = "models/Realistic_Vision_V5.1.safetensors"
+        sd_ckpt: str = "models/absolutereality_v16.safetensors"
         exp_name: str = ""
         lora_name: str = "lora-step=1799.ckpt"
         lora_rank: int = 64
@@ -189,6 +189,15 @@ class GaussianDreamer(BaseLift3DSystem):
         ctrl_steps: int = 1000
         ctrl_loss_ratio_begin: float = 1.0
         ctrl_loss_ratio_final: float = 0.5
+
+        # CADR: confidence-aware diffusion repair weighting (step 8)
+        use_conf_weight: bool = True
+        conf_eps: float = 0.05
+        clip_score_lo: float = 0.15
+        clip_score_hi: float = 0.35
+        use_cov_in_need: bool = False
+        cov_beta: float = 0.5
+        use_adaptive_denoise: bool = False
 
     cfg: Config
     def configure(self) -> None:
@@ -389,6 +398,70 @@ class GaussianDreamer(BaseLift3DSystem):
     def get_dis_from_ts(self, T):
         return torch.sort(torch.sqrt(torch.sum((T - self.all_T) ** 2, dim=-1)))[0]
 
+    def _ensure_gt_clip_features(self, batch: dict[str, Any]) -> None:
+        """Populate CLIP features of sparse GT views once (needed for CADR trust)."""
+        if len(self.gt_features_all) > 0:
+            return
+        if 'gt_images' not in batch:
+            return
+        for gt_image in batch['gt_images']:
+            with torch.no_grad():
+                gt_features = self.clip_model.encode_image(
+                    self.clip_preprocess(self.tensor_to_pil(gt_image[0])).unsqueeze(0).to(self.device)
+                )
+            self.gt_features_all.append(gt_features)
+
+    def _clip_trust_score(self, repair_img) -> float:
+        """min_r cos(CLIP(repair), CLIP(I_r)); returns 0 if GT features unavailable."""
+        if len(self.gt_features_all) == 0:
+            return 0.0
+        if torch.is_tensor(repair_img):
+            # CHW or BCHW in [0,1]
+            img = repair_img.detach()
+            if img.dim() == 4:
+                img = img[0]
+            pil = self.tensor_to_pil(img.cpu().clamp(0, 1))
+        elif isinstance(repair_img, Image.Image):
+            pil = repair_img
+        else:
+            pil = Image.fromarray(repair_img)
+        with torch.no_grad():
+            image_features = self.clip_model.encode_image(
+                self.clip_preprocess(pil).unsqueeze(0).to(self.device)
+            )
+            score = min(
+                [
+                    torch.cosine_similarity(image_features, gt_features, dim=-1).mean().item()
+                    for gt_features in self.gt_features_all
+                ]
+            )
+        return float(score)
+
+    def _compute_w_conf(
+        self,
+        w_need: float,
+        clip_score: float,
+        alpha_mean: float = None,
+    ):
+        """Return (w_need_eff, w_trust, w_conf)."""
+        w_need_eff = float(w_need)
+        if self.cfg.use_cov_in_need and alpha_mean is not None:
+            w_need_eff = w_need_eff * (1.0 + self.cfg.cov_beta * (1.0 - float(alpha_mean)))
+            w_need_eff = min(1.0, w_need_eff)
+
+        lo, hi = self.cfg.clip_score_lo, self.cfg.clip_score_hi
+        if hi <= lo:
+            w_trust = 1.0
+        else:
+            w_trust = max(0.0, min(1.0, (float(clip_score) - lo) / (hi - lo)))
+
+        eps = self.cfg.conf_eps
+        w_conf = w_need_eff * (eps + (1.0 - eps) * w_trust)
+        return w_need_eff, w_trust, w_conf
+
+    def _adaptive_denoise_strength(self, w_need: float) -> float:
+        """Map need-weight to denoise strength in [min_strength, max_strength]."""
+        return self.cfg.min_strength + (self.cfg.max_strength - self.cfg.min_strength) * float(w_need)
 
     def get_random_view_batch(self, batch: dict[str, Any]) -> dict[str, Any]:
         focal_length_x = fov2focal(batch['fovx'], batch['width'])
@@ -481,10 +554,18 @@ class GaussianDreamer(BaseLift3DSystem):
 
         ctrl_loss = 0.
         if self.ctrl_loss_ratio > 0.0:
+            # Keep GT CLIP features available before around_gt refresh / for CADR trust
+            self._ensure_gt_clip_features(batch)
             batch = self.get_random_view_batch(batch)
+
+            distances = self.get_dis_from_ts(batch['T'])
+            distance_weight = min(1., 2 * distances[0].cpu().item() / self.max_cam_dis)
+            self.log("train/distance_weight", distance_weight)
+            w_need = distance_weight
 
             render_results = self.render_gs(batch, renderbackground=self.background_tensor, need_loss=False)
             images = render_results['images']
+            alpha_mean = render_results['alphas'].mean().item() if self.cfg.use_cov_in_need else None
 
             controlnet_outs = []
             sds_ws = []
@@ -521,7 +602,10 @@ class GaussianDreamer(BaseLift3DSystem):
             else:
                 for idx, image in enumerate(images):
                     image_np = np.array(self.tensor_to_pil(image))
-                    denoise_strength = random.random() * (self.cfg.max_strength - self.cfg.min_strength) + self.cfg.min_strength
+                    if self.cfg.use_adaptive_denoise:
+                        denoise_strength = self._adaptive_denoise_strength(w_need)
+                    else:
+                        denoise_strength = random.random() * (self.cfg.max_strength - self.cfg.min_strength) + self.cfg.min_strength
                     controlnet_samples, sds_w = process(
                         self.controlnet,
                         self.ddim_sampler,
@@ -553,30 +637,39 @@ class GaussianDreamer(BaseLift3DSystem):
                     controlnet_outs_image = make_grid(torch.cat(controlnet_outs, dim=0), nrow=min(5, len(controlnet_outs)))
                     save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
 
-            distances = self.get_dis_from_ts(batch['T'])
-            distance_weight = min(1., 2 * distances[0].cpu().item() / self.max_cam_dis)
-            self.log("train/distance_weight", distance_weight)
-
             # TODO: only works for batch size 1
             controlnet_outs = torch.cat(controlnet_outs, dim=0)
             sds_ws = sds_ws[0].cpu().item()
             self.log("train/sds_ws", sds_ws)
 
+            # CADR: CLIP trust on the repair image used for supervision (incl. around_gt cache)
+            clip_score = self._clip_trust_score(controlnet_outs)
+            w_need_eff, w_trust, w_conf = self._compute_w_conf(w_need, clip_score, alpha_mean)
+            if self.cfg.use_conf_weight:
+                loss_weight = w_conf
+            else:
+                loss_weight = distance_weight
+            self.log("train/clip_score", clip_score)
+            self.log("train/w_need", w_need_eff)
+            self.log("train/w_trust", w_trust)
+            self.log("train/w_conf", w_conf)
+            self.log("train/loss_weight", loss_weight)
+
             loss_l1 = torch.nan_to_num(l1_loss(controlnet_outs, images))
             self.log("train/loss_l1", loss_l1)
-            ctrl_loss += sds_ws * loss_l1 * self.C(self.cfg.loss['lambda_l1']) * distance_weight
+            ctrl_loss += sds_ws * loss_l1 * self.C(self.cfg.loss['lambda_l1']) * loss_weight
 
             loss_l2 = torch.nan_to_num(l2_loss(controlnet_outs, images))
             self.log("train/loss_l2", loss_l2)
-            ctrl_loss += sds_ws * loss_l2 * self.C(self.cfg.loss['lambda_l2']) * distance_weight
+            ctrl_loss += sds_ws * loss_l2 * self.C(self.cfg.loss['lambda_l2']) * loss_weight
 
             loss_lpips = torch.nan_to_num(self.lpips_loss(controlnet_outs, images))
             self.log("train/loss_lpips", loss_lpips)
-            ctrl_loss += sds_ws * loss_lpips * self.C(self.cfg.loss['lambda_lpips']) * distance_weight
+            ctrl_loss += sds_ws * loss_lpips * self.C(self.cfg.loss['lambda_lpips']) * loss_weight
 
             loss_tv = torch.nan_to_num(compute_tv_norm(render_results['depths'], losstype='l2').sqrt().mean())
             self.log("train/loss_tv", loss_tv)
-            ctrl_loss += sds_ws * loss_tv * self.C(self.cfg.loss['lambda_tv']) * distance_weight
+            ctrl_loss += sds_ws * loss_tv * self.C(self.cfg.loss['lambda_tv']) * loss_weight
 
             self.log("train/loss", ctrl_loss)
 

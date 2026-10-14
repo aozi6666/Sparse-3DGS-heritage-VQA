@@ -38,10 +38,20 @@ fi
 
 GS_DIR="output/gs_init/${GS_NAME}"
 LOO_DIR="output/gs_init/${GS_NAME}_loo"
-# 主线：Realistic Vision V5.1 + 配套 LoRA/repair 目录（可用环境变量覆盖）
-SD_CKPT="${SD_CKPT:-./models/Realistic_Vision_V5.1.safetensors}"
-LORA_EXP="${LORA_EXP:-controlnet_finetune/${GS_NAME}_rv51}"
-REPAIR_TAG="${REPAIR_TAG:-${GS_NAME}_rv51}"
+# 主线：AbsoluteReality v1.6 + 同底模 LoRA；repair 默认 CADR（*_abs16_conf）
+# 回退 RV51：SD_CKPT=./models/Realistic_Vision_V5.1.safetensors LORA_EXP=.../_*_rv51 REPAIR_TAG=...
+SD_CKPT="${SD_CKPT:-./models/absolutereality_v16.safetensors}"
+LORA_EXP="${LORA_EXP:-controlnet_finetune/${GS_NAME}_abs16}"
+BASE_TAG="${BASE_TAG:-${GS_NAME}_abs16}"
+# CADR 默认开；关：USE_CONF_WEIGHT=0（REPAIR_TAG 回落到 BASE_TAG）
+USE_CONF_WEIGHT="${USE_CONF_WEIGHT:-1}"
+if [[ -z "${REPAIR_TAG:-}" ]]; then
+  if [[ "${USE_CONF_WEIGHT}" == "1" || "${USE_CONF_WEIGHT}" == "True" || "${USE_CONF_WEIGHT}" == "true" ]]; then
+    REPAIR_TAG="${BASE_TAG}_conf"
+  else
+    REPAIR_TAG="${BASE_TAG}"
+  fi
+fi
 FINAL_PLY="output/gaussian_object/${REPAIR_TAG}/save/last.ply"
 INIT_PCD="visual_hull_vggt_enhanced_${SPARSE_ID}"
 
@@ -57,5 +67,6 @@ lineb_print_paths() {
   echo "GO=${GO}  VGGT=${VGGT}  VENV=${VENV}"
   echo "USE_DROP=${USE_DROP}  GS_DIR=${GS_DIR}  LOO_DIR=${LOO_DIR}"
   echo "SD_CKPT=${SD_CKPT}"
-  echo "LORA_EXP=${LORA_EXP}  REPAIR_TAG=${REPAIR_TAG}  FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
+  echo "LORA_EXP=${LORA_EXP}  REPAIR_TAG=${REPAIR_TAG}  USE_CONF_WEIGHT=${USE_CONF_WEIGHT}"
+  echo "FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
 }

@@ -192,6 +192,8 @@ kitchen_ddgs*/
 # Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
 VQA/mage_vl/data/
 VQA/mage_vl/models/
+# HF / CLIP 等权重目录（如 CLIP-ViT-Large-patch14）
+VQA/models/
 VQA/VLMEvalKit/vlmeval_env/
 VQA/VLMEvalKit/ffmpeg_linux/
 VQA/**/outputs/**/*.pkl

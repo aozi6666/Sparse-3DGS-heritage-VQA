@@ -52,7 +52,7 @@ if __name__ == '__main__':
     parser.add_argument('--add_control_lora', action='store_true', default=False)
     parser.add_argument('--add_clip_lora', action='store_true', default=False)
     parser.add_argument('--use_dust3r', action='store_true', default=False)
-    parser.add_argument('--sd_ckpt', type=str, default='./models/Realistic_Vision_V5.1.safetensors',
+    parser.add_argument('--sd_ckpt', type=str, default='./models/absolutereality_v16.safetensors',
                         help='SD1.5-compatible base checkpoint (.ckpt or .safetensors)')
 
     # 解析命令行参数
