@@ -1,10 +1,10 @@
 # 方案：VGGT-DPT 深度头域适应 + 置信度耦合点云加密
 
-> 状态：**设计已锁定，待实现 / 待人工跑实验**。  
-> 范围：步骤 **1（VGGT Visual Hull）** 的深度先验质量；可选轻量改 `vggt_visual_hull_enhanced.py`；**不改** CADR / LoRA / repair 主线（步骤 7–8）。  
-> 环境：继续 `.venv-ddgs-vggt`；VGGT 权重 `3DGS/vggt/models/model.pt`。  
-> 相关：根 [`README.md`](../README.md) 工作 A · CADR；[`3DGS/eval_results/README.md`](../3DGS/eval_results/README.md)。  
-> **约束：训练 / 下载 / 评测一律由人工在终端执行；agent 只给命令与改代码，不代跑模型。**
+> 状态：**已归档 · 负结果（2026-10-15）** — 实现与粗训已跑完；成功标准（粗训 PSNR ≥ +0.15）**未达**（mip360 三场景 depthft：**ΔPSNR −0.163**；kitchen-only：**−0.053**）。  
+> **不作为论文主贡献**；代码 / 微调权重 / CSV **保留**。hold-out **已跳过**。  
+> 结论摘要：根 [`README.md`](../README.md) 工作 A ·「VGGT depth_head 域适应（负结果）」；指标：[`3DGS/eval_results/README_vggt_depthft.md`](../3DGS/eval_results/README_vggt_depthft.md)、[`lineB_kitchen_vggt_depthft.csv`](../3DGS/eval_results/lineB_kitchen_vggt_depthft.csv)。  
+> 下文为历史设计稿（可对照复现）；范围仍是步骤 1 深度先验，不改 CADR / LoRA / repair 主线。  
+> 环境：`.venv-ddgs-vggt`；基座 `3DGS/vggt/models/model.pt`（勿覆盖）。
 
 ---
 

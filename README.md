@@ -47,7 +47,7 @@
 - 代码：[`3DGS/GaussianObject/`](3DGS/GaussianObject/)、[`3DGS/vggt/`](3DGS/vggt/)
 - 脚本：[`3DGS/GaussianObject/sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)）
 - Drop 参考 submodule：[`3DGS/DropGaussian_release/`](3DGS/DropGaussian_release/)（训练已 plug-in 进 GO renderer）
-- **指标归档**：[`3DGS/eval_results/`](3DGS/eval_results/)（CSV；含 LoRA repair / CADR / 底模对照）
+- **指标归档**：[`3DGS/eval_results/`](3DGS/eval_results/)（CSV；含 LoRA repair / CADR / 底模对照；VGGT depthft 负结果见 [`README_vggt_depthft.md`](3DGS/eval_results/README_vggt_depthft.md)）
 
 ### 本仓方法 · CADR（置信度感知扩散修复）
 
@@ -56,6 +56,22 @@
 - **设计目标**：相对 RV51 repair（无 CADR），test **PSNR +0.2**（SSIM 不降、LPIPS 不升）。
 - **当前实测（kitchen）**：与 `kitchen_drop_rv51` **持平**（ΔPSNR ≈ 0；设计目标未达）。数字见 [`3DGS/eval_results/`](3DGS/eval_results/)。
 - 开关：`USE_CONF_WEIGHT=1` → tag `*_rv51_conf`；实现：[`gaussian_object_system.py`](3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py)。
+
+### 本仓尝试 · VGGT depth_head 域适应（负结果，2026-10-15）
+
+冻 `aggregator`，只训 VGGT `depth_head`（COLMAP 稀疏深度 + 每图 `median_scale_l1`）；hull 门控仍为 **GATE_ZOE**。设计目标：相对 G1 粗训 test **PSNR ≥ +0.15**。
+
+两类微调后，在 **mip360/kitchen** 上各自重跑 hull → 粗训 Drop → `ours_10000`（不覆盖 G1）：
+
+| 微调数据 | 权重（保留） | 粗训 GS_DIR（保留） | test PSNR | ΔPSNR vs G1 |
+|----------|--------------|---------------------|----------:|------------:|
+| G1 原权重 | `3DGS/vggt/models/model.pt` | `kitchen_drop` | **26.141** | — |
+| kitchen-only | `depth_head_ft_kitchen.pt` | `kitchen_drop_depthft` | 26.088 | **−0.053** |
+| kitchen+bonsai+garden（三场景） | `depth_head_ft_mip360.pt` | `kitchen_drop_depthft_mip360` | 25.978 | **−0.163** |
+
+尺度诊断（kitchen 40 帧）：base / depthft_mip360 的 aligned_L1 ≈ **0.051 / 0.052**（几乎不变）→ 微调几乎未改善 kitchen 几何。hold-out（bonsai+garden 训、kitchen 测）**已跳过**。
+
+**结论：** 成功标准未达；**不作为论文主贡献**。代码、微调权重、粗训产物与 Δ 表均保留（复现/附录用）。详情：[`3DGS/eval_results/README_vggt_depthft.md`](3DGS/eval_results/README_vggt_depthft.md)、[`lineB_kitchen_vggt_depthft.csv`](3DGS/eval_results/lineB_kitchen_vggt_depthft.csv)；入口脚本 `sh/lineB_gaussianobject/*depthft*`、`tools/finetune_depth_head_colmap.py`。设计稿：[`docs/PLAN_vggt_dpt_depth_adapt.md`](docs/PLAN_vggt_dpt_depth_adapt.md)（已归档状态）。
 
 ### 本仓贡献 · SD1.5 族写实底模接入
 
@@ -123,6 +139,7 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 ## TODO（后续慢慢做）
 
+- [x] **VGGT depth_head 域适应**：已跑 kitchen-only / mip360 三场景微调 + 粗训；**负结果已归档**（mip360 ΔPSNR **−0.163**）；不作为主线。见上节与 [`3DGS/eval_results/README_vggt_depthft.md`](3DGS/eval_results/README_vggt_depthft.md)。
 - [ ] **CADR 消融 A2/A3**（可选 A4/A5）：同 RV51 LoRA，只改步骤 8（仅 \(w_{\text{trust}}\) / 完整 CADR / 覆盖项 / 自适应 denoise）。
 - [ ] **论文主表 C0–C3 核对**：CSV 中 coarse / SD1.5 repair / RV51 / CADR 与论文表述对齐。
 - [ ] **（可选）abs16 无 CADR（C4）**：隔离「换底模」与 CADR。

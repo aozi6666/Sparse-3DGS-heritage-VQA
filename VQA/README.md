@@ -7,10 +7,12 @@
 | 路径 | 内容 |
 |------|------|
 | `mage_vl/` | 基于 [microsoft/Mage](https://github.com/microsoft/Mage) 的 `mage_vl`；另含 streaming 相关增量 |
+| `mage_vl/cultural_lora/` | Cultural LoRA：子集硬抽、LLM PEFT、冒烟训练（见该目录 README） |
 | `VLMEvalKit/` | 基于 [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit) 的 **完整可运行代码树（含本仓改动）** |
 | `patches/vlmevalkit/` | 相对上游的 diff（便于以后同步，不是唯一运行方式） |
 | `eval_results/` | **实验指标**（Video-MME 等），请保留 |
 | `scripts/` | 复现辅助脚本 |
+| `envs/requirements-cultural-lora.txt` | Cultural LoRA 额外依赖 |
 
 **不包含**：`mage_flow`（文生图，留在仓外）、`mage_vl/data`、`mage_vl/models`、venv、ffmpeg 大包。
 
