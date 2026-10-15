@@ -30,14 +30,17 @@ export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 export PYTORCH_CUDA_ALLOC_CONF="${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}"
 unset OMP_NUM_THREADS || true
 
-if [[ "${USE_DROP}" == "1" ]]; then
-  GS_NAME="kitchen_drop"
-else
-  GS_NAME="kitchen"
+# Allow override: GS_NAME=kitchen_drop_depthft (depthft coarse eval; keep kitchen_drop baseline)
+if [[ -z "${GS_NAME:-}" ]]; then
+  if [[ "${USE_DROP}" == "1" ]]; then
+    GS_NAME="kitchen_drop"
+  else
+    GS_NAME="kitchen"
+  fi
 fi
 
-GS_DIR="output/gs_init/${GS_NAME}"
-LOO_DIR="output/gs_init/${GS_NAME}_loo"
+GS_DIR="${GS_DIR:-output/gs_init/${GS_NAME}}"
+LOO_DIR="${LOO_DIR:-output/gs_init/${GS_NAME}_loo}"
 # 主线：AbsoluteReality v1.6 + 同底模 LoRA；repair 默认 CADR（*_abs16_conf）
 # 回退 RV51：SD_CKPT=./models/Realistic_Vision_V5.1.safetensors LORA_EXP=.../_*_rv51 REPAIR_TAG=...
 SD_CKPT="${SD_CKPT:-./models/absolutereality_v16.safetensors}"
@@ -53,7 +56,8 @@ if [[ -z "${REPAIR_TAG:-}" ]]; then
   fi
 fi
 FINAL_PLY="output/gaussian_object/${REPAIR_TAG}/save/last.ply"
-INIT_PCD="visual_hull_vggt_enhanced_${SPARSE_ID}"
+# Allow override: INIT_PCD=visual_hull_vggt_depthft_4 (do not overwrite baseline enhanced ply name)
+INIT_PCD="${INIT_PCD:-visual_hull_vggt_enhanced_${SPARSE_ID}}"
 
 lineb_activate() {
   # shellcheck disable=SC1090
@@ -65,7 +69,8 @@ lineb_activate() {
 lineb_print_paths() {
   echo "REPO_ROOT=${REPO_ROOT}"
   echo "GO=${GO}  VGGT=${VGGT}  VENV=${VENV}"
-  echo "USE_DROP=${USE_DROP}  GS_DIR=${GS_DIR}  LOO_DIR=${LOO_DIR}"
+  echo "USE_DROP=${USE_DROP}  GS_NAME=${GS_NAME}  GS_DIR=${GS_DIR}  LOO_DIR=${LOO_DIR}"
+  echo "INIT_PCD=${INIT_PCD}"
   echo "SD_CKPT=${SD_CKPT}"
   echo "LORA_EXP=${LORA_EXP}  REPAIR_TAG=${REPAIR_TAG}  USE_CONF_WEIGHT=${USE_CONF_WEIGHT}"
   echo "FINAL_PLY=${FINAL_PLY}  SKIP_PATH=${SKIP_PATH}"
