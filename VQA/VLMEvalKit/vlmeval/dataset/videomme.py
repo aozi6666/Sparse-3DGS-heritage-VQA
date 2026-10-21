@@ -70,7 +70,7 @@ Respond with only the letter (A, B, C, or D) of the correct option.
         return ['Video-MME']
 
     def prepare_dataset(self, dataset_name='Video-MME', repo_id='lmms-lab/Video-MME'):
-        default_local = '/root/autodl-tmp/Mage/mage_vl/data/VideoMME'
+        default_local = '/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME'
         local_root = os.environ.get('MAGE_VIDEOMME_ROOT', default_local)
 
         def check_integrity(pth, require_full_md5=True):

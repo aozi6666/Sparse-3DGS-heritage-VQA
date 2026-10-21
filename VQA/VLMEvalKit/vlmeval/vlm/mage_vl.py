@@ -10,7 +10,7 @@ from PIL import Image
 
 from .base import BaseModel
 
-DEFAULT_MODEL_PATH = "/root/autodl-tmp/Mage/mage_vl/models"
+DEFAULT_MODEL_PATH = "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models"
 
 # Files required for trust_remote_code local load (weights may be sharded).
 REQUIRED_MODEL_FILES = (

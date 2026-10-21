@@ -1,0 +1,12 @@
+# Cultural LoRA SFT extras (install on top of mage_vl inference env / torch).
+peft>=0.13
+accelerate>=1.0
+transformers>=4.45
+safetensors>=0.4
+huggingface_hub>=0.20
+numpy>=1.26
+pillow>=10.0
+opencv-python>=4.8
+pyarrow>=14.0
+duckdb>=1.0
+tqdm>=4.66

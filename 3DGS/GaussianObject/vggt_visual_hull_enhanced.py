@@ -22,16 +22,20 @@ from argparse import Namespace
 _GO_DIR = os.path.dirname(os.path.abspath(__file__))
 _REPO_3DGS = os.path.dirname(_GO_DIR)  # .../3DGS
 _VGGT_DIR = os.path.join(_REPO_3DGS, 'vggt')
+_TOOLS_DIR = os.path.join(_GO_DIR, 'tools')
 sys.path.append(_GO_DIR)
 sys.path.append(os.path.join(_GO_DIR, 'scene'))
 sys.path.append(os.path.join(_GO_DIR, 'utils'))
 sys.path.append(_VGGT_DIR)
+sys.path.append(_TOOLS_DIR)
 
 try:
     from vggt.models.vggt import VGGT
 except ImportError as e:
     print(f"导入VGGT模块失败: {e}")
     sys.exit(1)
+
+from vggt_depthft_ckpt import load_vggt_with_optional_depth_head  # noqa: E402
 
 from scene.dataset_readers import sceneLoadTypeCallbacks
 from utils.camera_utils import cameraList_from_camInfos
@@ -546,7 +550,10 @@ def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth
 def main():
     parser = argparse.ArgumentParser(description='VGGT深度增强的视觉外壳生成')
     parser.add_argument('--data_dir', type=str, default='sparse_nerf_datasets/sparse_omni3d_undistorted/backpack_016', help='数据目录')
-    parser.add_argument('--model_path', type=str, default=os.path.join(_VGGT_DIR, 'models', 'model.pt'), help='VGGT模型路径')
+    parser.add_argument('--model_path', type=str, default=os.path.join(_VGGT_DIR, 'models', 'model.pt'),
+                        help='完整 VGGT model.pt，或 depth_head-only 微调文件（需配合 --base_model_path）')
+    parser.add_argument('--base_model_path', type=str, default=None,
+                        help='当 model_path 为 depth_head-only 时的完整 base 权重；默认旁路 model.pt 或 ckpt 内 hint')
     parser.add_argument('--sparse_id', type=int, default=4, help='稀疏视角ID')
     parser.add_argument('--reso', type=int, default=1, help='图像分辨率')
     parser.add_argument('--output_dir', type=str, default=None, help='输出目录')
@@ -570,15 +577,22 @@ def main():
     if args.output_dir is None:
         args.output_dir = args.data_dir
     
-    # 加载VGGT模型
+    # 加载VGGT模型（支持整模，或 base model.pt + depth_head-only 覆盖）
     print("加载VGGT模型...")
     try:
         model = VGGT()
-        state_dict = torch.load(args.model_path, map_location=device)
-        model.load_state_dict(state_dict)
+        mode, base_used = load_vggt_with_optional_depth_head(
+            model,
+            args.model_path,
+            base_model_path=args.base_model_path,
+            map_location="cpu",
+        )
         model.to(device)
         model.eval()
-        print("VGGT模型加载成功")
+        if mode == "depth_head_only":
+            print(f"VGGT模型加载成功 (base + depth_head overlay; base={base_used})")
+        else:
+            print("VGGT模型加载成功 (full checkpoint)")
     except Exception as e:
         print(f"VGGT模型加载失败: {e}")
         return

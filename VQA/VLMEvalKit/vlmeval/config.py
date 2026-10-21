@@ -2661,10 +2661,19 @@ model_groups.append(nanovlm_series)
 mage_vl_series = {
     "Mage-VL": partial(
         vlm.MageVLChat,
-        model_path="/root/autodl-tmp/Mage/mage_vl/models",
+        model_path="/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models",
         nframe=32,
         max_pixels=150000,
         max_new_tokens=256,
+    ),
+    "Mage-VL-QueryIP": partial(
+        vlm.MageVLQueryIPChat,
+        model_path="/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models",
+        nframe=32,
+        max_pixels=150000,
+        max_new_tokens=256,
+        keep_ratio=0.75,
+        token_log_path="/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/Mage-VL-QueryIP_videomme_tokens.jsonl",
     ),
 }
 

@@ -1,0 +1,108 @@
+{
+  "video": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models/examples/soccer-broadcast.mp4",
+  "keep_ratio": 0.75,
+  "budget_k": 13824,
+  "n_patches_codec": 18432,
+  "seed": 0,
+  "modes": [
+    "prefix",
+    "random",
+    "queryip",
+    "queryip_bitcost"
+  ],
+  "questions": {
+    "static": {
+      "tag": "static",
+      "qtype": "static",
+      "question": "What text or logo is visible on the scoreboard or banner?",
+      "n_vis": {
+        "prefix": 3456,
+        "random": 3456,
+        "queryip": 3456,
+        "queryip_bitcost": 3456
+      },
+      "n_patches": {
+        "prefix": 13824,
+        "random": 13824,
+        "queryip": 13824,
+        "queryip_bitcost": 13824
+      },
+      "score_source": {
+        "prefix": "none",
+        "random": "none",
+        "queryip": "proxy",
+        "queryip_bitcost": "bitcost"
+      },
+      "mean_score_kept": {
+        "prefix": 0.2830999791622162,
+        "random": 0.28520461916923523,
+        "queryip": 0.23429538309574127,
+        "queryip_bitcost": 0.18069493770599365
+      },
+      "jaccard": {
+        "queryip_random": 0.6012046099496149,
+        "queryip_prefix": 0.6055749128919861,
+        "bitcost_queryip": 0.5644203021558309,
+        "bitcost_random": 0.6029684601113172,
+        "bitcost_prefix": 0.6067879351426745
+      },
+      "answers": {
+        "prefix": "ATLANTA",
+        "random": "The text \"FIFA WORLD CUP 2022\" is visible on a banner in the background.",
+        "queryip": "ATLANTA",
+        "queryip_bitcost": "ATLANTA"
+      },
+      "same_tokens": true,
+      "same_patches": true,
+      "answered": true,
+      "bitcost_differs_proxy": true
+    },
+    "dynamic": {
+      "tag": "dynamic",
+      "qtype": "dynamic",
+      "question": "Which player is moving with the ball and what action is happening?",
+      "n_vis": {
+        "prefix": 3456,
+        "random": 3456,
+        "queryip": 3456,
+        "queryip_bitcost": 3456
+      },
+      "n_patches": {
+        "prefix": 13824,
+        "random": 13824,
+        "queryip": 13824,
+        "queryip_bitcost": 13824
+      },
+      "score_source": {
+        "prefix": "none",
+        "random": "none",
+        "queryip": "proxy",
+        "queryip_bitcost": "bitcost"
+      },
+      "mean_score_kept": {
+        "prefix": 0.2830999791622162,
+        "random": 0.28520461916923523,
+        "queryip": 0.34203821420669556,
+        "queryip_bitcost": 0.4307210147380829
+      },
+      "jaccard": {
+        "queryip_random": 0.601761195759226,
+        "queryip_prefix": 0.6004630969609261,
+        "bitcost_queryip": 0.62158357771261,
+        "bitcost_random": 0.6012046099496149,
+        "bitcost_prefix": 0.534124958384197
+      },
+      "answers": {
+        "prefix": "None of the choices provided",
+        "random": "None of the choices provided",
+        "queryip": "A player in a red jersey is moving with the ball.",
+        "queryip_bitcost": "A player in a white jersey is moving with the ball."
+      },
+      "same_tokens": true,
+      "same_patches": true,
+      "answered": true,
+      "bitcost_differs_proxy": true
+    }
+  },
+  "verdict": "SAMEK4_OK"
+}

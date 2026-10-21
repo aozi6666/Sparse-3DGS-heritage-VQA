@@ -1,0 +1,5 @@
+keep_ratio,tag,n,seed,acc_prefix,acc_random,acc_queryip,correct_prefix,correct_random,correct_queryip
+0.3,n200_kr030,200,0,0.53,0.515,0.555,106,103,111
+0.5,n200_kr050,200,0,0.53,0.57,0.61,106,114,122
+0.75,n200_kr075_seed,200,0,0.575,0.595,0.64,115,119,128
+0.9,n200_kr090,200,0,0.58,0.615,0.605,116,123,121
