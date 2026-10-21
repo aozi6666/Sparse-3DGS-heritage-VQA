@@ -1,0 +1,24 @@
+{
+  "n": 60,
+  "keep_ratio": 0.6,
+  "seed": 0,
+  "modes": [
+    "prefix",
+    "random",
+    "queryip",
+    "queryip_bitcost"
+  ],
+  "acc": {
+    "prefix": 0.5833333333333334,
+    "random": 0.5666666666666667,
+    "queryip": 0.6333333333333333,
+    "queryip_bitcost": 0.6333333333333333
+  },
+  "correct": {
+    "prefix": 35,
+    "random": 34,
+    "queryip": 38,
+    "queryip_bitcost": 38
+  },
+  "jsonl": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/Mage-VL-QueryIP_short60_samek4.jsonl"
+}

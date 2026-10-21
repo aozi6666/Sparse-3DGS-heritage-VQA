@@ -1,7 +1,7 @@
 """Query-conditioned Mage codec reweight (MVP).
 
-Route B: patch-level motion/residual proxies + fixed budget K (same-K ablations).
-True cv-preinfer bitcost/MV dumps are not available (route A deferred).
+Dual-mode same-K: pixel proxy (``queryip``) and official bitcost (``queryip_bitcost``).
+Route A (true MV+residual) archived — open stack only exports bitcost.
 """
 
 from .question_type import QuestionType, classify_question
@@ -11,6 +11,7 @@ from .codec_reweight import (
     select_patches_samek,
     jaccard,
 )
+from .mvres_score import select_patches_bitcost, score_patches_bitcost
 
 __all__ = [
     "QuestionType",
@@ -18,5 +19,7 @@ __all__ = [
     "ReweightResult",
     "reweight_codec_canvases",
     "select_patches_samek",
+    "select_patches_bitcost",
+    "score_patches_bitcost",
     "jaccard",
 ]

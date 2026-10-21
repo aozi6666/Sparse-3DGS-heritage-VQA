@@ -1,9 +1,9 @@
-"""Query reweight on Mage codec outputs (route B: patch-level proxy).
+"""Query reweight on Mage codec outputs (proxy path + shared packers).
 
-cv-preinfer does not dump bitcost/MV maps. We score each patch tile on the
-decoded canvas (frame-diff / variance proxies), pick top-K under a fixed
-budget, then pack kept tiles into new canvases so Mage's
-image_grid_thw ↔ src_positions contract stays valid.
+``queryip`` scores patches on the decoded canvas (frame-diff / variance).
+``queryip_bitcost`` lives in ``mvres_score`` (official block bitcost) and is
+wired through ``MageQueryIPRunner.run_select_mode``. Both share the same
+top-K + dense pack so Mage's image_grid_thw ↔ src_positions contract stays valid.
 
 Also keeps the older canvas-level helper for backward compatibility.
 """
@@ -18,7 +18,7 @@ from PIL import Image
 
 from .question_type import QuestionType, weights_for
 
-SelectMode = Literal["queryip", "prefix", "random"]
+SelectMode = Literal["queryip", "queryip_bitcost", "prefix", "random"]
 
 
 @dataclass
@@ -348,7 +348,16 @@ def select_patches_samek(
     patch: int = 16,
     always_keep_first_patch: bool = True,
 ) -> ReweightResult:
-    """Same-K patch select: queryip / prefix / random, then pack into canvases."""
+    """Same-K patch select: queryip / prefix / random, then pack into canvases.
+
+    ``queryip_bitcost`` is handled by ``mvres_score.select_patches_bitcost`` via
+    ``MageQueryIPRunner.run_select_mode`` (needs the source video path).
+    """
+    if mode == "queryip_bitcost":
+        raise ValueError(
+            "mode=queryip_bitcost requires video bitcost scoring; "
+            "use MageQueryIPRunner.run_select_mode (not select_patches_samek alone)"
+        )
     tiles, positions, ppc = _extract_tiles(images, src_positions, patch=patch)
     n_canvas = len(images)
     total = len(tiles)

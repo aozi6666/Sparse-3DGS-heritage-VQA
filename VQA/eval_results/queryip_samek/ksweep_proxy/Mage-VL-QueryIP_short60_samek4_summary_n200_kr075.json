@@ -1,0 +1,22 @@
+{
+  "n": 200,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "prefix",
+    "random",
+    "queryip"
+  ],
+  "acc": {
+    "prefix": 0.575,
+    "random": 0.595,
+    "queryip": 0.64
+  },
+  "correct": {
+    "prefix": 115,
+    "random": 119,
+    "queryip": 128
+  },
+  "tag": "n200_kr075_seed",
+  "source": "n200_hybrid"
+}

@@ -269,11 +269,14 @@ class MageQueryIPRunner:
         payload = process_codec_video(video, cfg)
         imgs, src_pos, _ = drop_padding_canvases(payload["images"], payload["src_positions"])
         return {
+            "video": str(video),
             "images": imgs,
             "src_positions": src_pos,
             "fps": float(payload["fps"]),
+            "meta": payload.get("meta") or {},
             "n_patches": int(src_pos.shape[0]),
             "n_canvas": len(imgs),
+            "_bitcost_scored": None,  # filled lazily by run_select_mode
         }
 
     def run_reweight(
@@ -343,15 +346,52 @@ class MageQueryIPRunner:
         """Patch-level same-K select using a precomputed codec payload."""
         qtype = qtype or classify_question(question)
         t0 = time.perf_counter()
-        rw = select_patches_samek(
-            enc["images"],
-            enc["src_positions"],
-            mode=mode,
-            qtype=qtype,
-            budget_k=budget_k,
-            keep_ratio=keep_ratio,
-            seed=seed,
-        )
+        score_source = "proxy"
+        if mode == "queryip_bitcost":
+            from .mvres_score import score_patches_bitcost, select_patches_bitcost
+
+            video = enc.get("video")
+            if not video:
+                raise ValueError(
+                    "enc['video'] required for queryip_bitcost "
+                    "(re-run encode_codec after dual-mode update)"
+                )
+            if enc.get("_bitcost_scored") is None:
+                enc["_bitcost_scored"] = score_patches_bitcost(
+                    str(video),
+                    enc["images"],
+                    enc["src_positions"],
+                    meta=enc.get("meta") or {},
+                )
+            scored = enc["_bitcost_scored"]
+            rw = select_patches_bitcost(
+                enc["images"],
+                enc["src_positions"],
+                scored,
+                qtype=qtype,
+                budget_k=budget_k,
+                keep_ratio=keep_ratio,
+                proxy_fallback=True,
+            )
+            score_source = str(
+                (rw.knobs or {}).get("score_source")
+                or scored.get("score_source")
+                or "bitcost"
+            )
+        else:
+            rw = select_patches_samek(
+                enc["images"],
+                enc["src_positions"],
+                mode=mode,
+                qtype=qtype,
+                budget_k=budget_k,
+                keep_ratio=keep_ratio,
+                seed=seed,
+            )
+            if mode == "queryip":
+                score_source = "proxy"
+            else:
+                score_source = "none"
         inputs, n_vis = self._build_inputs_from_codec_payload(
             question, rw.images, rw.src_positions, enc["fps"], max_pixels
         )
@@ -368,8 +408,10 @@ class MageQueryIPRunner:
             reweight=rw,
             extra={
                 "select_mode": mode,
+                "score_source": score_source,
                 "n_canvas_before": enc["n_canvas"],
                 "n_canvas_after": len(rw.images),
+                "n_vis_tokens": n_vis,
                 "mean_motion_all": rw.mean_motion_all,
                 "mean_motion_kept": rw.mean_motion_kept,
                 "kept_patch_indices": rw.kept_patch_indices,

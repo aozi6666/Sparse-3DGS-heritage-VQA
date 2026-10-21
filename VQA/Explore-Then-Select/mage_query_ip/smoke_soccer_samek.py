@@ -1,8 +1,10 @@
 #!/usr/bin/env python
-"""Soccer same-K ablation: prefix / random / queryip (patch-level proxy).
+"""Soccer same-K ablation: prefix / random / queryip / queryip_bitcost.
 
-Success (open-ended, no Acc): equal n_vis_tokens; QueryIP kept-set differs from
-prefix and random; answers non-empty. Agent does not run this — see COMMANDS.md.
+Success (open-ended, no Acc): equal n_vis_tokens; queryip_bitcost kept-set differs
+from queryip (Jaccard < 1); answers non-empty.
+Writes ``VQA/eval_results/Mage-VL-QueryIP_soccer_samek4.json``.
+Agent does not run this — see COMMANDS.md.
 """
 
 from __future__ import annotations
@@ -28,6 +30,7 @@ def main() -> int:
     root = _repo_root()
     default_model = root / "VQA" / "mage_vl" / "models"
     default_video = default_model / "examples" / "soccer-broadcast.mp4"
+    out_default = root / "VQA" / "eval_results" / "Mage-VL-QueryIP_soccer_samek4.json"
 
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--model", type=Path, default=default_model)
@@ -38,6 +41,7 @@ def main() -> int:
     ap.add_argument("--max-new-tokens", type=int, default=64)
     ap.add_argument("--engine", default="hevc", choices=("hevc", "dcvc-rt"))
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--outdir", type=Path, default=out_default.parent)
     ap.add_argument(
         "--static-q",
         default="What text or logo is visible on the scoreboard or banner?",
@@ -61,9 +65,9 @@ def main() -> int:
     from mage_query_ip.mage_forward import MageQueryIPRunner
     from mage_query_ip.question_type import classify_question
 
-    print(f"[samek] model={args.model}")
-    print(f"[samek] video={args.video}")
-    print(f"[samek] keep_ratio={args.keep_ratio} seed={args.seed}")
+    print(f"[samek4] model={args.model}")
+    print(f"[samek4] video={args.video}")
+    print(f"[samek4] keep_ratio={args.keep_ratio} seed={args.seed}")
 
     runner = MageQueryIPRunner(args.model, local_files_only=True)
     enc = runner.encode_codec(
@@ -74,7 +78,7 @@ def main() -> int:
     )
     budget_k = max(1, int(round(enc["n_patches"] * float(args.keep_ratio))))
     print(
-        f"[samek] codec n_patches={enc['n_patches']} n_canvas={enc['n_canvas']} "
+        f"[samek4] codec n_patches={enc['n_patches']} n_canvas={enc['n_canvas']} "
         f"budget_k={budget_k}"
     )
 
@@ -82,11 +86,23 @@ def main() -> int:
         ("static", args.static_q),
         ("dynamic", args.dynamic_q),
     ]
-    modes = ("prefix", "random", "queryip")
+    modes = ("prefix", "random", "queryip", "queryip_bitcost")
+    report: dict = {
+        "video": str(args.video),
+        "keep_ratio": float(args.keep_ratio),
+        "budget_k": int(budget_k),
+        "n_patches_codec": int(enc["n_patches"]),
+        "seed": int(args.seed),
+        "modes": list(modes),
+        "questions": {},
+    }
     ok_all = True
+    redundant_any = False
+    fail_any = False
 
     for tag, question in questions:
-        print(f"\n===== Q={tag} classify={classify_question(question).value} =====")
+        qtype = classify_question(question)
+        print(f"\n===== Q={tag} classify={qtype.value} =====")
         print(f"question={question!r}")
         results = {}
         for mode in modes:
@@ -102,9 +118,10 @@ def main() -> int:
             )
             results[mode] = st
             kept = (st.extra or {}).get("kept_patch_indices", [])
+            src = (st.extra or {}).get("score_source", "")
             print(
                 f"  [{mode}] n_patches={st.n_patches} n_vis≈{st.n_vis_tokens} "
-                f"wall_s={st.wall_s:.2f} kept_n={len(kept)}"
+                f"score_source={src} wall_s={st.wall_s:.2f} kept_n={len(kept)}"
             )
             print(f"         answer={st.answer[:200]!r}")
 
@@ -117,25 +134,96 @@ def main() -> int:
         }
         j_qr = _jaccard(kp["queryip"], kp["random"])
         j_qp = _jaccard(kp["queryip"], kp["prefix"])
-        j_rp = _jaccard(kp["random"], kp["prefix"])
+        j_br = _jaccard(kp["queryip_bitcost"], kp["random"])
+        j_bp = _jaccard(kp["queryip_bitcost"], kp["prefix"])
+        j_bq = _jaccard(kp["queryip_bitcost"], kp["queryip"])
         answered = all(bool(results[m].answer) for m in modes)
-        differ = j_qr < 0.95 and j_qp < 0.95
+        differ_base = j_qr < 0.95 and j_qp < 0.95
+        bitcost_differs = j_bq < 1.0
         print(
             f"  check same_tokens={same_tok} ({toks}) same_patches={same_pat} ({patches})"
         )
-        print(f"  jaccard queryip∩random={j_qr:.3f} queryip∩prefix={j_qp:.3f} random∩prefix={j_rp:.3f}")
-        print(f"  answered={answered} differ_from_baselines={differ}")
-        if not (same_tok and same_pat and answered and differ):
+        print(
+            f"  jaccard queryip∩random={j_qr:.3f} queryip∩prefix={j_qp:.3f} "
+            f"bitcost∩queryip={j_bq:.3f} bitcost∩random={j_br:.3f}"
+        )
+        print(
+            f"  answered={answered} differ_baselines={differ_base} "
+            f"bitcost_differs_proxy={bitcost_differs}"
+        )
+
+        q_rec = {
+            "tag": tag,
+            "qtype": qtype.value,
+            "question": question,
+            "n_vis": {m: results[m].n_vis_tokens for m in modes},
+            "n_patches": {m: results[m].n_patches for m in modes},
+            "score_source": {
+                m: (results[m].extra or {}).get("score_source") for m in modes
+            },
+            "mean_score_kept": {
+                m: (results[m].extra or {}).get("mean_motion_kept") for m in modes
+            },
+            "jaccard": {
+                "queryip_random": j_qr,
+                "queryip_prefix": j_qp,
+                "bitcost_queryip": j_bq,
+                "bitcost_random": j_br,
+                "bitcost_prefix": j_bp,
+            },
+            "answers": {m: results[m].answer[:200] for m in modes},
+            "same_tokens": same_tok,
+            "same_patches": same_pat,
+            "answered": answered,
+            "bitcost_differs_proxy": bitcost_differs,
+        }
+        report["questions"][tag] = q_rec
+
+        if not (same_tok and same_pat and answered):
+            fail_any = True
+            ok_all = False
+        elif not bitcost_differs:
+            redundant_any = True
+            ok_all = False
+        elif not differ_base:
             ok_all = False
 
-    print("\n===== SAMEK EFFECT CHECK =====")
-    if ok_all:
+    args.outdir.mkdir(parents=True, exist_ok=True)
+    out_path = args.outdir / "Mage-VL-QueryIP_soccer_samek4.json"
+    if fail_any:
+        verdict = "SAMEK4_FAIL"
+    elif redundant_any:
+        verdict = "SAMEK4_REDUNDANT"
+    elif ok_all:
+        verdict = "SAMEK4_OK"
+    else:
+        verdict = "SAMEK4_SOFT"
+    report["verdict"] = verdict
+    with out_path.open("w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    print(f"\n[samek4] wrote {out_path}")
+
+    print("\n===== SAMEK4 EFFECT CHECK =====")
+    if verdict == "SAMEK4_OK":
         print(
-            "SAMEK_OK: equal budget; QueryIP kept-set differs from prefix/random; answers OK."
+            "SAMEK4_OK: equal budget; bitcost kept differs from proxy; "
+            "answers OK."
         )
         return 0
+    if verdict == "SAMEK4_REDUNDANT":
+        print(
+            "SAMEK4_REDUNDANT: bitcost kept-set == proxy (no new signal).",
+            file=sys.stderr,
+        )
+        return 0
+    if verdict == "SAMEK4_FAIL":
+        print(
+            "SAMEK4_FAIL: token mismatch or empty answers — inspect log/json.",
+            file=sys.stderr,
+        )
+        return 1
     print(
-        "SAMEK_SOFT: ran end-to-end but success criteria weak — inspect overlaps/answers.",
+        "SAMEK4_SOFT: ran end-to-end but baselines weak — inspect overlaps/answers.",
         file=sys.stderr,
     )
     return 0

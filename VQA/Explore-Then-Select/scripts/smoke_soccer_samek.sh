@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Patch-level same-K soccer ablation (prefix / random / queryip).
+# Patch-level same-K soccer ablation (prefix / random / queryip / queryip_bitcost).
+# Writes VQA/eval_results/Mage-VL-QueryIP_soccer_samek4.json
 # Agent does NOT run this — you execute locally.
 # Usage:
 #   bash VQA/Explore-Then-Select/scripts/smoke_soccer_samek.sh

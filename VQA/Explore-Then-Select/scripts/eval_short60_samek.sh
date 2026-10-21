@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Video-MME short first-60 same-K Acc. Run AFTER soccer SAMEK_OK.
+# Video-MME short first-60 same-K Acc (4 modes incl. queryip_bitcost).
+# Run AFTER soccer SAMEK4_OK. Writes ..._short60_samek4.jsonl
 # Agent does NOT run this.
 
 set -euo pipefail

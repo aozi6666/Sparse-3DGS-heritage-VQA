@@ -1,7 +1,12 @@
 #!/usr/bin/env python
-"""Video-MME short first-60 same-K Acc (prefix / random / queryip).
+"""Video-MME short first-60 same-K Acc (four modes).
 
-Run only AFTER soccer SAMEK_OK. Agent does not execute — see COMMANDS.md.
+Modes: prefix / random / queryip (proxy) / queryip_bitcost.
+Run only AFTER soccer SAMEK4_OK. Agent does not execute — see COMMANDS.md.
+
+Writes ``VQA/eval_results/Mage-VL-QueryIP_short60_samek4.jsonl`` (and a
+legacy-compatible ``..._short60_samek.jsonl`` symlink-style copy of the same
+rows for older notes).
 """
 
 from __future__ import annotations
@@ -46,6 +51,16 @@ def main() -> int:
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--engine", default="hevc")
     ap.add_argument("--outdir", type=Path, default=out_dir)
+    ap.add_argument(
+        "--modes",
+        default="prefix,random,queryip,queryip_bitcost",
+        help="comma-separated select modes (proxy sweep: random,queryip)",
+    )
+    ap.add_argument(
+        "--tag",
+        default="",
+        help="optional suffix for output names, e.g. n200_kr050",
+    )
     args = ap.parse_args()
 
     df = pd.read_csv(args.tsv, sep="\t")
@@ -65,7 +80,12 @@ def main() -> int:
     from mage_query_ip.mage_forward import MageQueryIPRunner
 
     runner = MageQueryIPRunner(args.model, local_files_only=True)
-    modes = ("prefix", "random", "queryip")
+    allowed = {"prefix", "random", "queryip", "queryip_bitcost"}
+    modes = tuple(m.strip() for m in str(args.modes).split(",") if m.strip())
+    if not modes or any(m not in allowed for m in modes):
+        print(f"[error] bad --modes={args.modes!r}; allowed={sorted(allowed)}", file=sys.stderr)
+        return 2
+    print(f"[short60] modes={modes} keep_ratio={args.keep_ratio}")
     correct = {m: 0 for m in modes}
     total = 0
     rows_out = []
@@ -75,7 +95,6 @@ def main() -> int:
         vid = str(row["video"])
         vpath = video_root / "video" / f"{vid}.mp4"
         if not vpath.is_file():
-            # tsv video_path like ./video/xxx.mp4
             alt = video_root / str(row.get("video_path", "")).lstrip("./")
             vpath = alt if alt.is_file() else vpath
         if not vpath.is_file():
@@ -93,7 +112,6 @@ def main() -> int:
         budget_k = max(1, int(round(enc["n_patches"] * float(args.keep_ratio))))
         gt = str(row["answer"]).strip().upper()[:1]
         q = str(row["question"])
-        # include options in prompt for MCQ
         cands = row["candidates"]
         if isinstance(cands, str):
             try:
@@ -104,7 +122,13 @@ def main() -> int:
         prompt = f"{q}\nOptions:\n{opt_txt}\nAnswer with the letter only."
 
         total += 1
-        rec = {"video": vid, "gt": gt, "question": q}
+        rec = {
+            "video": vid,
+            "gt": gt,
+            "question": q,
+            "budget_k": budget_k,
+            "modes": list(modes),
+        }
         for mode in modes:
             st = runner.run_select_mode(
                 prompt,
@@ -121,6 +145,7 @@ def main() -> int:
             correct[mode] += hit
             rec[f"{mode}_pred"] = pred
             rec[f"{mode}_n_vis"] = st.n_vis_tokens
+            rec[f"{mode}_score_source"] = (st.extra or {}).get("score_source")
             rec[f"{mode}_answer"] = st.answer[:200]
         rows_out.append(rec)
         print(
@@ -129,13 +154,30 @@ def main() -> int:
         )
 
     args.outdir.mkdir(parents=True, exist_ok=True)
-    out_jsonl = args.outdir / "Mage-VL-QueryIP_short60_samek.jsonl"
+    suffix = f"_{args.tag}" if str(args.tag).strip() else ""
+    out_jsonl = args.outdir / f"Mage-VL-QueryIP_short60_samek4{suffix}.jsonl"
     with out_jsonl.open("w", encoding="utf-8") as f:
         for r in rows_out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    print("\n===== SHORT60 SAMEK ACC =====")
+    # Also write a compact summary for PLAN §5.5 fill-in.
+    summary = {
+        "n": total,
+        "keep_ratio": float(args.keep_ratio),
+        "seed": int(args.seed),
+        "modes": list(modes),
+        "tag": str(args.tag) or None,
+        "acc": {m: correct[m] / max(1, total) for m in modes},
+        "correct": correct,
+        "jsonl": str(out_jsonl),
+    }
+    summary_path = args.outdir / f"Mage-VL-QueryIP_short60_samek4_summary{suffix}.json"
+    with summary_path.open("w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+
+    print("\n===== SHORT60 SAMEK4 ACC =====")
     print(f"n={total} jsonl={out_jsonl}")
+    print(f"summary={summary_path}")
     for m in modes:
         acc = correct[m] / max(1, total)
         print(f"  {m}: {correct[m]}/{total} = {acc:.3f}")

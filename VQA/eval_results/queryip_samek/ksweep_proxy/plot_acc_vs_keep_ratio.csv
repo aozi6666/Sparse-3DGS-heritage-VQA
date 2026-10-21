@@ -1,0 +1,5 @@
+keep_ratio,n,seed,acc_prefix,acc_random,acc_queryip,acc_prefix_pct,acc_random_pct,acc_queryip_pct,delta_queryip_minus_random_pp,correct_prefix,correct_random,correct_queryip,tag,note
+0.3,200,0,0.53,0.515,0.555,53.0,51.5,55.5,4.0,106,103,111,n200_kr030,queryip>random
+0.5,200,0,0.53,0.57,0.61,53.0,57.0,61.0,4.0,106,114,122,n200_kr050,queryip>random
+0.75,200,0,0.575,0.595,0.64,57.5,59.5,64.0,4.5,115,119,128,n200_kr075_seed,main_table_seed_from_n200_hybrid
+0.9,200,0,0.58,0.615,0.605,58.0,61.5,60.5,-1.0,116,123,121,n200_kr090,queryip<random_near_full_budget

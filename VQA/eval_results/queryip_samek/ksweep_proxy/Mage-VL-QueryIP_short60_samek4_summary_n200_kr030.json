@@ -1,0 +1,22 @@
+{
+  "n": 200,
+  "keep_ratio": 0.3,
+  "seed": 0,
+  "modes": [
+    "prefix",
+    "random",
+    "queryip"
+  ],
+  "tag": "n200_kr030",
+  "acc": {
+    "prefix": 0.53,
+    "random": 0.515,
+    "queryip": 0.555
+  },
+  "correct": {
+    "prefix": 106,
+    "random": 103,
+    "queryip": 111
+  },
+  "jsonl": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/queryip_samek/ksweep_proxy/Mage-VL-QueryIP_short60_samek4_n200_kr030.jsonl"
+}
