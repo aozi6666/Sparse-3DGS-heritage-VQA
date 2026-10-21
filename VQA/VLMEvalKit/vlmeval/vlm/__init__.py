@@ -40,6 +40,7 @@ from .llama_vision import llama_vision
 from .llava import (LLaVA, LLaVA_Next, LLaVA_Next2, LLaVA_OneVision, LLaVA_OneVision_1_5,
                     LLaVA_OneVision_HF, LLaVA_XTuner)
 from .mage_vl import MageVLChat
+from .mage_vl_query_ip import MageVLQueryIPChat
 from .logics import Logics_Thinking
 from .long_vita import LongVITA
 from .mantis import Mantis

@@ -47,8 +47,8 @@
 | 实验 | 状态 |
 |------|------|
 | Cultural LoRA 全量 1 epoch（新选区前向） | **延期** |
-| OmniVDCBench `heritage_zh`：Base vs LoRA | **延期** |
-| Video-MME overall：LoRA 复测 | **延期**（Base 63.7% 已有） |
+| Video-MME overall：Base vs LoRA | **延期**（Base 63.7% 已有） |
+| 其它域内评测集 | **待定**（不依赖已下线的 heritage 子集） |
 
 ---
 
@@ -87,7 +87,7 @@
 | MSVD-QA | **8k** QA | `VQA/mage_vl/data/MSVD-QA/train_8k/` |
 | CiQi-VQA | **16k** | `VQA/mage_vl/data/CiQi-VQA/`（`train_16k.jsonl` + 子集图） |
 
-合计 24k；seed=42；原全量已硬删。评测集仍为 OmniVDCBench `heritage_zh` + Video-MME。
+合计 24k；seed=42；原全量已硬删。评测集以 **Video-MME** 为主；其它域内集待定。
 
 ---
 
@@ -98,7 +98,7 @@
 [已完成] 冒烟 1k + fitcheck 200（管线归档）
 [进行中/下一步] 改 codec 选区（≠ 现网默认）并在 Base 上评测
 [延期]     新选区就绪后 → Cultural LoRA 全量 1 epoch
-[延期]     heritage_zh / Video-MME：Base vs LoRA
+[延期]     Video-MME：Base vs LoRA（新选区前向）
 ```
 
 全量（**延期后**用，且须已接新选区）：
