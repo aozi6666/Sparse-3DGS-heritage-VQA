@@ -1,0 +1,23 @@
+{
+  "n": 6,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "queryip",
+    "queryip_region",
+    "queryip_region_shuf"
+  ],
+  "tag": "n60_kr075_region_v1",
+  "acc": {
+    "queryip": 0.5,
+    "queryip_region": 0.5,
+    "queryip_region_shuf": 0.5
+  },
+  "correct": {
+    "queryip": 3,
+    "queryip_region": 3,
+    "queryip_region_shuf": 3
+  },
+  "jsonl": "VQA/eval_results/queryip_samek/region_sem_pilot/Mage-VL-QueryIP_short60_samek4_n60_kr075_region_v1.jsonl",
+  "partial": true
+}
