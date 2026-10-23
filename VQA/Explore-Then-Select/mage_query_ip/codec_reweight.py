@@ -1,11 +1,9 @@
-"""Query reweight on Mage codec outputs (proxy path + shared packers).
+"""Mage codec 输出上的选区 / 打包。
 
-``queryip`` scores patches on the decoded canvas (frame-diff / variance).
-``queryip_bitcost`` lives in ``mvres_score`` (official block bitcost) and is
-wired through ``MageQueryIPRunner.run_select_mode``. Both share the same
-top-K + dense pack so Mage's image_grid_thw ↔ src_positions contract stays valid.
-
-Also keeps the older canvas-level helper for backward compatibility.
+【主推】``queryip``：解码 canvas 上运动差 + 残差 proxy → 同 K top-K → ``_pack_tiles``。
+【归档·不作贡献】clip / region / edge / bitcost / dyn·sta — 见各模块中文头注释。
+bitcost 在 ``mvres_score``；与 proxy 共用 dense pack（image_grid_thw 契约）。
+另保留旧版 canvas 级 helper（行 B 兼容）。
 """
 
 from __future__ import annotations
@@ -18,7 +16,19 @@ from PIL import Image
 
 from .question_type import QuestionType, weights_for
 
-SelectMode = Literal["queryip", "queryip_bitcost", "prefix", "random"]
+SelectMode = Literal[
+    "queryip",
+    "queryip_dyn",  # force DYNAMIC α/β (ignore classify)
+    "queryip_sta",  # force STATIC α/β (ignore classify)
+    "queryip_bitcost",
+    "queryip_clip",
+    "queryip_region",  # wide pool C + region CLIP fuse (v1 · archived fail)
+    "queryip_region_shuf",  # same as region; shuf Q supplied by eval
+    "queryip_edge",  # freeze proxy top-(K-m); fill m from band by region
+    "queryip_edge_shuf",  # same as edge; shuf Q supplied by eval
+    "prefix",
+    "random",
+]
 
 
 @dataclass
@@ -336,6 +346,167 @@ def _pack_tiles(
     return images, np.concatenate(out_pos, axis=0)
 
 
+def _select_kept_by_frame_budget(
+    score: np.ndarray,
+    *,
+    n_canvas: int,
+    ppc: int,
+    budget_k: int,
+    frame_scores: np.ndarray,
+    always_keep_first_patch: bool,
+    temperature: float = 0.07,
+    min_per_frame: int = 1,
+) -> tuple[list[int], np.ndarray]:
+    """CLIP frame budgets + within-canvas codec top-K; total kept == budget_k."""
+    from .frame_budget import allocate_budgets
+
+    q = np.asarray(frame_scores, dtype=np.float64).reshape(-1)
+    if q.size != n_canvas:
+        raise ValueError(
+            f"frame_scores length {q.size} != n_canvas {n_canvas}"
+        )
+    # Cap per-frame by ppc
+    budgets = allocate_budgets(
+        q, budget_k, min_per_frame=min(min_per_frame, ppc), temperature=temperature
+    )
+    budgets = np.minimum(budgets.astype(np.int64), int(ppc))
+    # Repair sum after per-frame cap (may need multiple passes).
+    guard = 0
+    while int(budgets.sum()) != int(budget_k) and guard < budget_k + n_canvas + 8:
+        guard += 1
+        diff = int(budget_k) - int(budgets.sum())
+        if diff > 0:
+            order = list(np.argsort(-q))
+            progressed = False
+            for i in order:
+                if int(budgets[i]) < ppc:
+                    budgets[i] += 1
+                    progressed = True
+                    break
+            if not progressed:
+                break
+        else:
+            order = list(np.argsort(q))  # peel from least relevant
+            progressed = False
+            for i in order:
+                if int(budgets[i]) > 0:
+                    budgets[i] -= 1
+                    progressed = True
+                    break
+            if not progressed:
+                break
+    if int(budgets.sum()) != int(budget_k):
+        raise RuntimeError(
+            f"frame budgets sum {int(budgets.sum())} != budget_k {budget_k} "
+            f"(ppc={ppc}, budgets={budgets.tolist()})"
+        )
+    kept: list[int] = []
+    for ci in range(n_canvas):
+        k_i = int(budgets[ci])
+        if k_i <= 0:
+            continue
+        idxs = np.arange(ci * ppc, (ci + 1) * ppc)
+        order = idxs[np.argsort(-score[idxs])]
+        kept.extend(order[:k_i].tolist())
+    if always_keep_first_patch and 0 not in kept and budget_k >= 1:
+        if len(kept) >= budget_k:
+            worst = min(kept, key=lambda i: float(score[i]))
+            kept = [0] + [i for i in kept if i != worst and i != 0]
+            kept = kept[:budget_k]
+        else:
+            kept = [0] + kept
+    kept = sorted(set(kept))
+    if len(kept) > budget_k:
+        order = sorted(kept, key=lambda i: -float(score[i]))
+        if always_keep_first_patch and 0 in order:
+            order = [0] + [i for i in order if i != 0]
+        kept = sorted(order[:budget_k])
+    elif len(kept) < budget_k:
+        remaining = [i for i in np.argsort(-score).tolist() if i not in kept]
+        kept = sorted(kept + remaining[: budget_k - len(kept)])
+    return kept, budgets
+
+
+def _wide_pool_indices(proxy: np.ndarray, budget_k: int) -> set[int]:
+    """Pool C: all tiles, or proxy top-M with M=min(n, 2K)."""
+    total = int(proxy.shape[0])
+    m = min(total, max(int(budget_k) * 2, int(budget_k)))
+    if total <= m:
+        return set(range(total))
+    return set(np.argsort(-proxy)[:m].tolist())
+
+
+def _edge_m(budget_k: int, *, sms: int = 2) -> int:
+    """Boundary width m=⌊0.05K⌋, aligned to sms², clipped to [step, K/4]."""
+    k = int(budget_k)
+    step = int(sms) * int(sms)
+    if k <= 1:
+        return 1
+    m = k // 20  # floor(0.05K)
+    m = (m // step) * step
+    if m < step:
+        m = step if k >= 2 * step else max(1, k // 4)
+    cap = max(step, k // 4)
+    m = min(m, cap)
+    # Leave at least ``step`` frozen seats when possible.
+    if k > step:
+        m = min(m, k - step)
+    return int(max(1, m))
+
+
+def _select_kept_edge(
+    proxy: np.ndarray,
+    region_scores: np.ndarray,
+    *,
+    budget_k: int,
+    edge_m: int,
+    always_keep_first_patch: bool,
+) -> tuple[list[int], dict[str, int]]:
+    """Freeze proxy top-(K-m); fill m seats from band [K-m, K+m) by region score."""
+    total = int(proxy.shape[0])
+    k = int(budget_k)
+    m = int(edge_m)
+    m = max(1, min(m, k - 1 if k > 1 else 1))
+    order = np.argsort(-np.asarray(proxy, dtype=np.float64)).tolist()
+    freeze_n = k - m
+    freeze = order[:freeze_n]
+    band_end = min(total, k + m)
+    band = order[freeze_n:band_end]
+    rs = np.asarray(region_scores, dtype=np.float64).reshape(-1)
+    band_ranked = sorted(band, key=lambda i: (-float(rs[i]), -float(proxy[i]), i))
+    fill = band_ranked[:m]
+    if len(fill) < m:
+        # Short band: pad by remaining proxy order (still outside freeze).
+        need = m - len(fill)
+        used = set(freeze) | set(fill)
+        pad = [i for i in order if i not in used][:need]
+        fill = fill + pad
+    kept = sorted(set(freeze) | set(fill))
+    if len(kept) > k:
+        # Prefer freeze; drop lowest-region among fill extras.
+        extra = [i for i in kept if i not in freeze]
+        extra = sorted(extra, key=lambda i: (-float(rs[i]), -float(proxy[i]), i))
+        kept = sorted(list(freeze) + extra[:m])
+    elif len(kept) < k:
+        used = set(kept)
+        kept = sorted(kept + [i for i in order if i not in used][: k - len(kept)])
+    if always_keep_first_patch and 0 not in kept and k >= 1:
+        # Drop the worst fill member (or worst overall if fill empty).
+        drop_pool = [i for i in kept if i not in freeze] or [i for i in kept if i != 0]
+        if drop_pool:
+            worst = min(drop_pool, key=lambda i: (float(rs[i]), float(proxy[i])))
+            kept = sorted([0] + [i for i in kept if i != worst and i != 0])
+            kept = kept[:k]
+    meta = {
+        "edge_m": m,
+        "freeze_n": freeze_n,
+        "band_size": len(band),
+        "band_lo": freeze_n,
+        "band_hi": band_end,
+    }
+    return kept, meta
+
+
 def select_patches_samek(
     images: list[Image.Image],
     src_positions: np.ndarray,
@@ -347,17 +518,39 @@ def select_patches_samek(
     seed: int = 0,
     patch: int = 16,
     always_keep_first_patch: bool = True,
+    frame_scores: np.ndarray | list[float] | None = None,
+    clip_temperature: float = 0.07,
+    region_scores: np.ndarray | list[float] | None = None,
+    region_lambda: float = 0.4,
+    edge_m: int | None = None,
 ) -> ReweightResult:
-    """Same-K patch select: queryip / prefix / random, then pack into canvases.
+    """Same-K patch select: queryip / region / edge / clip / prefix / random, then pack.
 
     ``queryip_bitcost`` is handled by ``mvres_score.select_patches_bitcost`` via
     ``MageQueryIPRunner.run_select_mode`` (needs the source video path).
+
+    ``queryip_clip`` requires ``frame_scores`` (one relevance score per canvas /
+    frame); within each canvas patches are ranked by proxy codec score.
+
+    ``queryip_region`` / ``queryip_region_shuf``: wide pool C + fuse
+    ``norm(proxy)+λ·norm(region)`` (default λ=0.4); shuf text is the caller's job.
+
+    ``queryip_edge`` / ``queryip_edge_shuf``: freeze proxy top-(K-m); fill m from
+    proxy band [K-m, K+m) by region score (default m=⌊0.05K⌋ aligned).
+
+    ``queryip_dyn`` / ``queryip_sta``: same top-K as ``queryip`` but force
+    DYNAMIC / STATIC weights (α/β ablation; ignore caller qtype).
     """
     if mode == "queryip_bitcost":
         raise ValueError(
             "mode=queryip_bitcost requires video bitcost scoring; "
             "use MageQueryIPRunner.run_select_mode (not select_patches_samek alone)"
         )
+    if mode == "queryip_dyn":
+        qtype = QuestionType.DYNAMIC
+    elif mode == "queryip_sta":
+        qtype = QuestionType.STATIC
+
     tiles, positions, ppc = _extract_tiles(images, src_positions, patch=patch)
     n_canvas = len(images)
     total = len(tiles)
@@ -373,17 +566,75 @@ def select_patches_samek(
         budget_k = max(1, int(round(total * float(keep_ratio))))
     budget_k = _align_budget(int(budget_k), total, sms=2)
 
+    frame_budgets: np.ndarray | None = None
+    pool_size: int | None = None
+    fused_score: np.ndarray | None = None
+    edge_meta: dict[str, int] | None = None
+    select_like_queryip = mode in ("queryip", "queryip_dyn", "queryip_sta")
+    region_modes = ("queryip_region", "queryip_region_shuf")
+    edge_modes = ("queryip_edge", "queryip_edge_shuf")
     if mode == "prefix":
         kept = list(range(budget_k))
     elif mode == "random":
         rng = np.random.default_rng(int(seed))
         kept = sorted(rng.choice(total, size=budget_k, replace=False).tolist())
-    elif mode == "queryip":
+    elif select_like_queryip:
         order = list(np.argsort(-score))
         kept = order[:budget_k]
         if always_keep_first_patch and 0 not in kept:
             kept = [0] + [i for i in kept if i != 0][: budget_k - 1]
         kept = sorted(kept)
+    elif mode == "queryip_clip":
+        if frame_scores is None:
+            raise ValueError("mode=queryip_clip requires frame_scores")
+        kept, frame_budgets = _select_kept_by_frame_budget(
+            score,
+            n_canvas=n_canvas,
+            ppc=ppc,
+            budget_k=budget_k,
+            frame_scores=np.asarray(frame_scores, dtype=np.float64),
+            always_keep_first_patch=always_keep_first_patch,
+            temperature=float(clip_temperature),
+            min_per_frame=1,
+        )
+    elif mode in region_modes:
+        if region_scores is None:
+            raise ValueError(f"mode={mode} requires region_scores")
+        from .region_clip_score import fuse_proxy_region
+
+        rs = np.asarray(region_scores, dtype=np.float64).reshape(-1)
+        if rs.size != total:
+            raise ValueError(
+                f"region_scores length {rs.size} != n_tiles {total}"
+            )
+        pool = _wide_pool_indices(score, budget_k)
+        pool_size = len(pool)
+        fused = fuse_proxy_region(score, rs, lam=float(region_lambda))
+        fused_score = fused
+        order = [i for i in np.argsort(-fused).tolist() if i in pool]
+        kept = order[:budget_k]
+        if always_keep_first_patch and 0 not in kept and budget_k >= 1:
+            if 0 in pool:
+                kept = [0] + [i for i in kept if i != 0][: budget_k - 1]
+            else:
+                kept = [0] + kept[: budget_k - 1]
+        kept = sorted(kept)
+    elif mode in edge_modes:
+        if region_scores is None:
+            raise ValueError(f"mode={mode} requires region_scores")
+        rs = np.asarray(region_scores, dtype=np.float64).reshape(-1)
+        if rs.size != total:
+            raise ValueError(
+                f"region_scores length {rs.size} != n_tiles {total}"
+            )
+        m_use = int(edge_m) if edge_m is not None else _edge_m(budget_k, sms=2)
+        kept, edge_meta = _select_kept_edge(
+            score,
+            rs,
+            budget_k=budget_k,
+            edge_m=m_use,
+            always_keep_first_patch=always_keep_first_patch,
+        )
     else:
         raise ValueError(f"unknown mode: {mode}")
 
@@ -395,11 +646,40 @@ def select_patches_samek(
         max_patches_per_canvas=ppc,
         spatial_merge_size=2,
     )
-    # Drop fully-negative-t canvases if any (should not happen with dup pad)
     mean_all = float(motion.mean()) if len(motion) else 0.0
     mean_kept = float(motion[np.array(kept)].mean()) if kept else 0.0
-    # canvas indices that contributed at least one kept patch
     contrib = sorted({i // ppc for i in kept})
+    knobs = codec_knobs_for(qtype)
+    if mode in ("queryip_dyn", "queryip_sta"):
+        knobs = dict(knobs)
+        knobs["force_qtype"] = qtype.value
+        knobs["score_source"] = "proxy_forced_ab"
+    if frame_budgets is not None:
+        knobs = dict(knobs)
+        knobs["frame_budgets"] = [int(x) for x in frame_budgets.tolist()]
+        knobs["frame_scores"] = [float(x) for x in np.asarray(frame_scores).tolist()]
+        knobs["score_source"] = "proxy+clip_frame"
+    if mode in region_modes:
+        knobs = dict(knobs)
+        knobs["score_source"] = "proxy+region_clip_v1"
+        knobs["region_lambda"] = float(region_lambda)
+        knobs["pool_size"] = int(pool_size or 0)
+        knobs["pool_cap"] = int(min(total, max(budget_k * 2, budget_k)))
+        if region_scores is not None:
+            knobs["region_score_mean"] = float(np.mean(region_scores))
+        if fused_score is not None:
+            knobs["fused_score_mean"] = float(np.mean(fused_score))
+    if mode in edge_modes:
+        knobs = dict(knobs)
+        knobs["score_source"] = "proxy+region_edge"
+        if edge_meta:
+            knobs["edge_m"] = int(edge_meta["edge_m"])
+            knobs["freeze_n"] = int(edge_meta["freeze_n"])
+            knobs["band_size"] = int(edge_meta["band_size"])
+            knobs["band_lo"] = int(edge_meta["band_lo"])
+            knobs["band_hi"] = int(edge_meta["band_hi"])
+        if region_scores is not None:
+            knobs["region_score_mean"] = float(np.mean(region_scores))
 
     return ReweightResult(
         images=new_images,
@@ -413,10 +693,10 @@ def select_patches_samek(
         kept_canvas_indices=contrib,
         canvas_motion=motion.tolist(),
         canvas_residual=residual.tolist(),
-        canvas_score=score.tolist(),
+        canvas_score=(fused_score if fused_score is not None else score).tolist(),
         mean_motion_kept=mean_kept,
         mean_motion_all=mean_all,
-        knobs=codec_knobs_for(qtype),
+        knobs=knobs,
         mode=str(mode),
         kept_patch_indices=list(kept),
     )

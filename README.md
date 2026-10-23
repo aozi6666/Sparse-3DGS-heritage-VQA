@@ -103,30 +103,27 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 ## 工作 B：Mage-VL + Query-IP 选区 + VLMEvalKit
 
-**看懂支路缺口：** 景区边拍边问算力紧，必须减视觉 token；乱砍会伤准确率。  
-**本仓定稿（2026-10-21）：** 固定预算 K 下按问题重加权选 patch（**Query-IP · proxy**），同 K 优于 prefix/random；**不重训**；**不声称**超过满预算 Mage。
+**缺口：** 景区边拍边问须减 token；乱砍伤 Acc。  
+**结论（2026-10-23）：** 同 K 下 **proxy `queryip` = 63.5%**（约 +4 pp vs random）· **主推**；CLIP 语义选区 / bitcost / 题型 α/β **不作贡献**。  
+停「CLIP 相似度重排区域」；**非**否定一切语义。细节与待办：[`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
 
-| 同 K · Video-MME short 前 200 · `keep_ratio=0.75` | Acc |
-|------|-----|
-| prefix | 57.5% |
-| random | 59.5% |
-| **queryip（proxy）· 主推** | **64.0%**（+4.5 pp vs random） |
-| bitcost 纯 / hybrid | 58.5% / 58.0%（失败消融） |
+| 同 K · short 前 200 · `keep_ratio=0.75` | Acc | 备注 |
+|------|-----|------|
+| **queryip · 保留** | **63.5%** | [`clip_frame_n200/`](VQA/eval_results/queryip_samek/clip_frame_n200/) |
+| random | 59.5% | 同上 |
+| CLIP 帧 / 区域 v1 / edge | 58.5 / 58.5·60.5 / 60.0·62.0 | **失败** · 语义选区停 |
+| α/β dyn·sta · bitcost | 见计划 §0 | 不作贡献 / 失败 |
 
-旁证（**非同 K**）：行 A 满预算 Mage overall **63.7%**；行 B QueryIP@0.75 overall **62.3%**（≈0.75× token）→ 略降 Acc 换更少 token，不能写成同预算涨点。
-
-**Acc–K 扫描（已完成）：** 0.3/0.5/0.75 上 queryip > random；**0.9 略低于 random** → 方法在受限预算下有用，近满预算勿硬吹。做图数据：[`VQA/eval_results/queryip_samek/ksweep_proxy/`](VQA/eval_results/queryip_samek/ksweep_proxy/)（`plot_acc_*.csv`）。
+旁证（非同 K）：行 A **63.7%** · 行 B@0.75 **62.3%**。Acc–K：[`ksweep_proxy/`](VQA/eval_results/queryip_samek/ksweep_proxy/)。
 
 | 路径 | 说明 |
 |------|------|
-| [`VQA/mage_vl/`](VQA/mage_vl/) | Mage-VL + streaming；**无** `data/`/`models/` |
-| [`VQA/Explore-Then-Select/`](VQA/Explore-Then-Select/) | Query-IP 实现与 [`COMMANDS.md`](VQA/Explore-Then-Select/COMMANDS.md) |
-| [`VQA/VLMEvalKit/`](VQA/VLMEvalKit/) | 评测框架 **vendored 完整代码（含本仓改动）** |
-| [`VQA/patches/vlmevalkit/`](VQA/patches/vlmevalkit/) | 相对上游 open-compass 的 diff（说明用） |
-| [`VQA/eval_results/`](VQA/eval_results/) | 指标归档（主表 `n200/` · 曲线 `ksweep_proxy/`） |
-| [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 定稿计划；路线 A 归档见 [`PLAN_routeA_true_mv.md`](docs/PLAN_routeA_true_mv.md) |
+| [`VQA/`](VQA/README.md) | 工作 B 总览 |
+| [`VQA/Explore-Then-Select/`](VQA/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VQA/Explore-Then-Select/COMMANDS.md) |
+| [`VQA/eval_results/`](VQA/eval_results/) | 指标归档 |
+| [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 结论 · 证据 · 后续实验 |
 
-总览：[`VQA/README.md`](VQA/README.md)。`mage_flow`（文生图）**不在本仓**。权重与数据集放仓外或本地 ignore 目录。
+`mage_flow` **不在本仓**。权重 / 大数据集放仓外或 ignore。
 
 ---
 
@@ -165,11 +162,14 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 ### 工作 B · Query-IP / Mage
 
-- [x] **同 K 主表 n=200**：queryip 64.0 > random 59.5；bitcost 失败消融；产物已归档
-- [x] **行 A / 行 B 全量旁证**：63.7% vs 62.3%（非同 K）
-- [x] **proxy keep_ratio 扫描**：0.3–0.75 赢 random，0.9 不赢；数据 [`ksweep_proxy/`](VQA/eval_results/queryip_samek/ksweep_proxy/)
-- [ ] **论文图 Acc vs keep_ratio**：用 `plot_acc_vs_keep_ratio.csv` / `plot_acc_long.csv`
-- [ ] **效率曲线（预案）**：满 token Mage 单点 + 复用 ksweep；计划 §5 → `efficiency_curve/`
-- [ ] **（可选）SEED=1 @0.75 n=200** 加固
-- [ ] **Cultural LoRA**：须接 Query-IP 前向后再训（另文）
-- [ ] ~~同 K 全量 714~~ / ~~主推 bitcost~~ / ~~真 MV~~ → **不做**
+- [x] **同 K 主表 / 复现**：保留 `queryip`；vs random 点估计约 **+4 pp**（63.5 vs 59.5 @`clip_frame_n200`；主表曾 64.0）
+- [x] **失败消融归档**：bitcost；CLIP 帧 E4；区域 v1；**边界 edge**；方案 B **不做**
+- [x] **E2 α/β 三角**：`queryip`≡dyn；sta ±1 题 → **题型自适应不作贡献**
+- [x] **行 A / 行 B 旁证** + **proxy K 扫描**（0.3–0.75 赢；0.9 不赢）
+- [x] **停 QueryIP 语义选区**（CLIP 重排区域无收益；基线仍 63.5%；非否定一切语义）
+- [ ] **【优先】配对统计检验**（McNemar：queryip vs random，同 jsonl）；计划 §8.1
+- [ ] **失败消融表定稿进论文**（已有数）；计划 §8.2
+- [ ] **论文图 Acc vs keep_ratio**：`plot_acc_*.csv`；计划 §8.3
+- [ ] **效率曲线（预案）**：满 token Mage + ksweep；计划 §5
+- [ ] **流式**（后置） / **Cultural LoRA**（后置 · 另贡献）
+- [ ] ~~同 K×714~~ / ~~bitcost~~ / ~~真 MV~~ / ~~CLIP 帧/区域语义选区~~ / ~~题型 α/β~~ / ~~v2~~ / ~~FlexSelect~~ → **不做**

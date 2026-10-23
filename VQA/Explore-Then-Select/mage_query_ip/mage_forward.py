@@ -107,6 +107,23 @@ class MageQueryIPRunner:
             local_files_only=local_files_only,
         ).eval()
         self.device = device or next(self.model.parameters()).device
+        self._clip_scorer = None
+        self._region_scorer = None
+
+    def _get_clip_scorer(self):
+        if self._clip_scorer is None:
+            from .clip_frame_score import ClipFrameScorer
+
+            # Prefer CPU for CLIP unless CUDA is free; scorer picks device itself.
+            self._clip_scorer = ClipFrameScorer(local_files_only=True)
+        return self._clip_scorer
+
+    def _get_region_scorer(self):
+        if self._region_scorer is None:
+            from .region_clip_score import RegionClipScorer
+
+            self._region_scorer = RegionClipScorer(local_files_only=True)
+        return self._region_scorer
 
     def _codec_cfg(
         self,
@@ -342,11 +359,25 @@ class MageQueryIPRunner:
         keep_ratio: float = 0.75,
         qtype: QuestionType | None = None,
         seed: int = 0,
+        select_question: str | None = None,
+        region_lambda: float = 0.4,
+        region_block: int = 2,
     ) -> ForwardStats:
-        """Patch-level same-K select using a precomputed codec payload."""
-        qtype = qtype or classify_question(question)
+        """Patch-level same-K select using a precomputed codec payload.
+
+        ``question`` is always used for Mage generate. Region / clip scoring
+        may use ``select_question`` (e.g. batch circular shuffle) when set.
+        """
+        # α/β ablation: force weights; ignore question_type keywords.
+        if mode == "queryip_dyn":
+            qtype = QuestionType.DYNAMIC
+        elif mode == "queryip_sta":
+            qtype = QuestionType.STATIC
+        else:
+            qtype = qtype or classify_question(question)
         t0 = time.perf_counter()
         score_source = "proxy"
+        sel_q = select_question if select_question is not None else question
         if mode == "queryip_bitcost":
             from .mvres_score import score_patches_bitcost, select_patches_bitcost
 
@@ -378,6 +409,71 @@ class MageQueryIPRunner:
                 or scored.get("score_source")
                 or "bitcost"
             )
+        elif mode == "queryip_clip":
+            scorer = self._get_clip_scorer()
+            # Score Mage canvases as "frames" (second knife on codec output).
+            cache_key = "_clip_frame_scores"
+            qkey = sel_q.strip()
+            cached = enc.get(cache_key)
+            if not isinstance(cached, dict) or qkey not in cached:
+                qt = scorer.score_frames(enc["images"], qkey)
+                enc.setdefault(cache_key, {})[qkey] = qt
+            else:
+                qt = cached[qkey]
+            rw = select_patches_samek(
+                enc["images"],
+                enc["src_positions"],
+                mode="queryip_clip",
+                qtype=qtype,
+                budget_k=budget_k,
+                keep_ratio=keep_ratio,
+                seed=seed,
+                frame_scores=qt,
+            )
+            score_source = "proxy+clip_frame"
+        elif mode in (
+            "queryip_region",
+            "queryip_region_shuf",
+            "queryip_edge",
+            "queryip_edge_shuf",
+        ):
+            from .codec_reweight import _extract_tiles
+
+            scorer = self._get_region_scorer()
+            cache_key = "_region_clip_scores"
+            qkey = f"b{int(region_block)}|{sel_q.strip()}"
+            cached = enc.get(cache_key)
+            if not isinstance(cached, dict) or qkey not in cached:
+                tiles, positions, ppc = _extract_tiles(
+                    enc["images"], enc["src_positions"]
+                )
+                rs = scorer.score_flat_tiles(
+                    tiles,
+                    n_canvas=len(enc["images"]),
+                    ppc=ppc,
+                    positions=positions,
+                    question=sel_q,
+                    block=int(region_block),
+                )
+                enc.setdefault(cache_key, {})[qkey] = rs
+            else:
+                rs = cached[qkey]
+            rw = select_patches_samek(
+                enc["images"],
+                enc["src_positions"],
+                mode=mode,
+                qtype=qtype,
+                budget_k=budget_k,
+                keep_ratio=keep_ratio,
+                seed=seed,
+                region_scores=rs,
+                region_lambda=float(region_lambda),
+            )
+            score_source = (
+                "proxy+region_edge"
+                if mode in ("queryip_edge", "queryip_edge_shuf")
+                else "proxy+region_clip_v1"
+            )
         else:
             rw = select_patches_samek(
                 enc["images"],
@@ -388,7 +484,7 @@ class MageQueryIPRunner:
                 keep_ratio=keep_ratio,
                 seed=seed,
             )
-            if mode == "queryip":
+            if mode in ("queryip", "queryip_dyn", "queryip_sta"):
                 score_source = "proxy"
             else:
                 score_source = "none"
@@ -397,6 +493,38 @@ class MageQueryIPRunner:
         )
         answer = self._generate(inputs, max_new_tokens)
         wall = time.perf_counter() - t0
+        extra = {
+            "select_mode": mode,
+            "score_source": score_source,
+            "n_canvas_before": enc["n_canvas"],
+            "n_canvas_after": len(rw.images),
+            "n_vis_tokens": n_vis,
+            "mean_motion_all": rw.mean_motion_all,
+            "mean_motion_kept": rw.mean_motion_kept,
+            "kept_patch_indices": rw.kept_patch_indices,
+            "kept_canvas_indices": rw.kept_canvas_indices,
+            "alpha": rw.alpha,
+            "beta": rw.beta,
+            "budget_k": rw.budget_k,
+            "seed": seed,
+        }
+        if mode in (
+            "queryip_region",
+            "queryip_region_shuf",
+            "queryip_edge",
+            "queryip_edge_shuf",
+        ):
+            extra["select_question"] = sel_q[:240]
+            extra["region_block"] = int(region_block)
+            if mode in ("queryip_region", "queryip_region_shuf"):
+                extra["region_lambda"] = float(region_lambda)
+            if rw.knobs:
+                extra["pool_size"] = rw.knobs.get("pool_size")
+                extra["region_score_mean"] = rw.knobs.get("region_score_mean")
+                if mode in ("queryip_edge", "queryip_edge_shuf"):
+                    extra["edge_m"] = rw.knobs.get("edge_m")
+                    extra["freeze_n"] = rw.knobs.get("freeze_n")
+                    extra["band_size"] = rw.knobs.get("band_size")
         return ForwardStats(
             mode=f"samek_{mode}",
             question=question,
@@ -406,19 +534,5 @@ class MageQueryIPRunner:
             wall_s=wall,
             answer=answer,
             reweight=rw,
-            extra={
-                "select_mode": mode,
-                "score_source": score_source,
-                "n_canvas_before": enc["n_canvas"],
-                "n_canvas_after": len(rw.images),
-                "n_vis_tokens": n_vis,
-                "mean_motion_all": rw.mean_motion_all,
-                "mean_motion_kept": rw.mean_motion_kept,
-                "kept_patch_indices": rw.kept_patch_indices,
-                "kept_canvas_indices": rw.kept_canvas_indices,
-                "alpha": rw.alpha,
-                "beta": rw.beta,
-                "budget_k": rw.budget_k,
-                "seed": seed,
-            },
+            extra=extra,
         )
