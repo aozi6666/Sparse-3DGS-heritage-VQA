@@ -7,7 +7,9 @@
 ```text
 eval_results/
   README.md
-  baseline_mage/            ← 行 A 满预算 Mage
+  baseline_mage/            ← 行 A 满预算 Mage（Video-MME）
+  baseline_mage_ocrbench_v1/← 原版 Mage-VL × OCRBench v1（今天优先）
+  baseline_mage_ocrbench_v2/← OCRBench_v2（已暂停 · ~1180 已备份）
   queryip_rowB_full/        ← 行 B 全量（非同 K，≈0.75× token）
   queryip_samek/            ← 同 K 消融（主实验）
     soccer/
@@ -17,14 +19,16 @@ eval_results/
     ab_fixed_n200/          ← E2：queryip/dyn/sta（勿删）
     region_sem_n200/        ← §9 v1 宽池+区域CLIP：失败消融（勿删）
     region_edge_n200/       ← §9.12 边界 edge：失败消融（勿删）
+    wide_textseat_n200/     ← 视频 300k 中宽池：负协议归档（勿按 300k 重跑）
+    ocrbench_v2_image_textseat/ ← 图像 QueryIP + OCR 座位（待跑）
     region_sem_pilot/       ← 早期 n60 断点（可忽略）
     ksweep/                 ← 旧四路扫描（中断，可忽略）
     ksweep_proxy/           ← proxy K 扫描【做图 CSV】
     efficiency_curve/       ← 预案
     stats_mcnemar_n200/     ← 待补：配对检验产物
-  logs/
   tools/
   vlmeval_outputs/
+  # logs/  · nohup 临时目录，默认不入库；需要时 mkdir 即可
 ```
 
 ## 主结论（2026-10-23）
@@ -80,4 +84,4 @@ eval_results/
 | `queryip_samek/ksweep_proxy/` | **已完成**；`plot_acc_*.csv` 做图 |
 | `queryip_samek/efficiency_curve/` | 预案占位 |
 | `queryip_samek/stats_mcnemar_n200/` | 待补配对检验 |
-| `logs/` | nohup 日志 |
+| `logs/`（可选） | nohup 临时输出；**不入库**，复现时 `mkdir -p` |

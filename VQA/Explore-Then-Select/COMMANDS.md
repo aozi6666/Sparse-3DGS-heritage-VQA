@@ -4,7 +4,9 @@
 计划：[`docs/PLAN_mage_query_IP_select.md`](../../docs/PLAN_mage_query_IP_select.md)  
 产物：[`VQA/eval_results/README.md`](../eval_results/README.md) · 总览：[`VQA/README.md`](../README.md)
 
-**阶段 1 主推：`queryip`（proxy）。** 阶段 2 脚手架：`queryip_clip`（CLIP 帧预算 + 帧内 codec）。
+**阶段 1 主推：`queryip`（proxy）。** CLIP 语义选区已停。  
+**当前优先：OCRBench v1 Mage baseline（§11）+ 图像 QueryIP（§12）。**  
+v2 已暂停保全 ~1180（§9.1 以后静默续跑）。§7 视频 300k = 负协议（已停）。
 
 ---
 
@@ -111,11 +113,131 @@ Acc：queryip **63.5%** / edge **60.0%** / shuf **62.0%**（B−C=−2.0pp）→
 
 ---
 
-## 7. 不做
+## 7. 视频中宽池 textseat · **负协议归档（已停 · 勿按 300k 重跑）**
+
+产物：[`wide_textseat_n200/`](../eval_results/queryip_samek/wide_textseat_n200/)（含部分 jsonl）。  
+**失败原因：** `max_pixels=300000` → `n_wide~3–4万`，等价高 keep；proxy 无优势；VMME 上 `need_text≈0`，textseat≡queryip。  
+**若再跑视频同 K：** 必须 `--max-pixels 150000`（与历史主表一致）。CPU 冒烟仍可用：`scripts/smoke_text_seat.py`。
+
+---
+
+## 8. 不做
 
 - 同 K 全量 714  
 - 主推官方 bitcost / 真 MV  
 - CLIP 帧 / 区域 v1 / **edge** 语义选区再试  
-- §9 **完整 v2** ρ 分席  
+- 视频「完整 v2」ρ 分席 / `max_pixels=300000` 中宽池再试  
 - Agent 代跑 Acc  
+
+---
+
+## 9. OCRBench_v2 · Mage-VL baseline（已暂停 · ~1180 题已保全）
+
+产物：[`baseline_mage_ocrbench_v2/`](../eval_results/baseline_mage_ocrbench_v2/)  
+备份：`_backup_pkl/01_OCRBench_v2_n1180_final.pkl` · 活目录 `Mage-VL/T20261027-112350/`  
+**今天优先跑 v1（§11–12）。** 以后续 v2 用 §9.1。
+
+### 9.1 以后静默续跑 v2（不要 `--verbose`）
+
+```bash
+cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
+source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
+REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
+export LMUData="$REPO/VQA/datas/lmu"
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export PYTHONPATH="$REPO/VQA/VLMEvalKit:${PYTHONPATH:-}"
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export SKIP_ERR=1
+
+nohup python "$REPO/VQA/VLMEvalKit/run.py" \
+  --model Mage-VL --data OCRBench_v2 \
+  --work-dir "$REPO/VQA/eval_results/baseline_mage_ocrbench_v2" \
+  --reuse --reuse-aux all \
+  > "$REPO/VQA/eval_results/logs/mage_ocrbench_v2_quiet_resume.out" 2>&1 &
+
+# 只看进度条行
+tail -f "$REPO/VQA/eval_results/logs/mage_ocrbench_v2_quiet_resume.out" | grep --line-buffered 'Infer Mage-VL'
+```
+
+必须日志出现 `reuse … 01_OCRBench_v2.pkl`。
+
+---
+
+## 10. 图像 QueryIP · OCRBench_v2（后置；新文件）
+
+见 [`ocrbench_v2_image_textseat/README.md`](../eval_results/queryip_samek/ocrbench_v2_image_textseat/README.md)。  
+CPU 冒烟：`python VQA/Explore-Then-Select/scripts/smoke_image_textseat.py`
+
+---
+
+## 11. OCRBench v1 · Mage-VL baseline（今天优先 · Agent 不代跑 Acc）
+
+TSV 已转好：`VQA/datas/lmu/OCRBench.tsv`（1000 行；源 parquet）。  
+重转：`python VQA/datas/ORCBench/convert_parquet_to_ocrbench_tsv.py`
+
+```bash
+cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
+git checkout Mage_LoRA
+source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
+REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
+export LMUData="$REPO/VQA/datas/lmu"
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export PYTHONPATH="$REPO/VQA/VLMEvalKit:${PYTHONPATH:-}"
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export SKIP_ERR=1
+mkdir -p "$REPO/VQA/eval_results/baseline_mage_ocrbench_v1" "$REPO/VQA/eval_results/logs"
+nvidia-smi   # 确认无占卡
+
+# 无 --verbose
+nohup python "$REPO/VQA/VLMEvalKit/run.py" \
+  --model Mage-VL \
+  --data OCRBench \
+  --work-dir "$REPO/VQA/eval_results/baseline_mage_ocrbench_v1" \
+  > "$REPO/VQA/eval_results/logs/mage_ocrbench_v1_baseline_nohup.out" 2>&1 &
+
+tail -f "$REPO/VQA/eval_results/logs/mage_ocrbench_v1_baseline_nohup.out" | grep --line-buffered 'Infer Mage-VL'
+```
+
+中断后续跑（加 `--reuse`）：
+
+```bash
+nohup python "$REPO/VQA/VLMEvalKit/run.py" \
+  --model Mage-VL --data OCRBench \
+  --work-dir "$REPO/VQA/eval_results/baseline_mage_ocrbench_v1" \
+  --reuse --reuse-aux all \
+  > "$REPO/VQA/eval_results/logs/mage_ocrbench_v1_baseline_resume.out" 2>&1 &
+```
+
+产物 / 口径：[`baseline_mage_ocrbench_v1/README.md`](../eval_results/baseline_mage_ocrbench_v1/README.md) · 看 Final Score Norm vs 官方 81.80。
+
+---
+
+## 12. OCRBench v1 · 图像 QueryIP 同 B（baseline 后 · Agent 不代跑）
+
+```bash
+cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
+source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
+REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
+export PYTHONPATH="VQA/mage_vl/models:VQA/Explore-Then-Select:${PYTHONPATH:-}"
+export LMUData="$REPO/VQA/datas/lmu"
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+mkdir -p VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat VQA/eval_results/logs
+
+python VQA/Explore-Then-Select/scripts/smoke_image_textseat.py
+
+# 当前环境无 easyocr → 先不带 --use-ocr（装好后再加）
+nohup python VQA/Explore-Then-Select/mage_query_ip/eval_ocrbench_v2_samek.py \
+  --tsv "$REPO/VQA/datas/lmu/OCRBench.tsv" \
+  --n 0 --keep-ratio 0.75 --seed 0 --patch 32 \
+  --modes full_image,random_tiles,queryip_image_textseat,queryip_image_textseat_shuf \
+  --outdir VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat \
+  --tag n1000_kr075_ocrbench_v1 \
+  --resume \
+  > VQA/eval_results/logs/ocrbench_v1_image_textseat_nohup.out 2>&1 &
+
+tail -f VQA/eval_results/logs/ocrbench_v1_image_textseat_nohup.out
+```
+
+闸门：[`ocrbench_v1_image_textseat/README.md`](../eval_results/queryip_samek/ocrbench_v1_image_textseat/README.md)。  
 

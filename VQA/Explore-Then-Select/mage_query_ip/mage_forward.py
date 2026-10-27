@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+import shutil
 import sys
 import time
 from dataclasses import dataclass
@@ -17,6 +19,38 @@ from .codec_reweight import (
     select_patches_samek,
 )
 from .question_type import QuestionType, classify_question
+
+
+def cleanup_codec_out_dir(enc_or_path: dict[str, Any] | str | Path | None) -> None:
+    """Delete Mage online-codec cache dir after payload is in RAM (省盘)."""
+    if enc_or_path is None:
+        return
+    if isinstance(enc_or_path, dict):
+        raw = enc_or_path.get("out_dir")
+    else:
+        raw = enc_or_path
+    if not raw:
+        return
+    p = Path(str(raw))
+    if not p.is_dir():
+        return
+    # Only delete under known cache roots to avoid accidents.
+    cache_root = Path(
+        os.environ.get(
+            "ONLINE_CODEC_CACHE_DIR",
+            os.path.join(
+                os.environ.get("HF_HOME", os.path.expanduser("~/.cache/huggingface")),
+                "online_codec",
+            ),
+        )
+    ).resolve()
+    try:
+        resolved = p.resolve()
+        if cache_root not in resolved.parents and resolved != cache_root:
+            return
+        shutil.rmtree(resolved, ignore_errors=True)
+    except OSError:
+        return
 
 # .../VQA/Explore-Then-Select/mage_query_ip/mage_forward.py → repo root = parents[3]
 _REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -285,7 +319,8 @@ class MageQueryIPRunner:
         cfg = self._codec_cfg(num_frames=num_frames, max_pixels=max_pixels, engine=engine)
         payload = process_codec_video(video, cfg)
         imgs, src_pos, _ = drop_padding_canvases(payload["images"], payload["src_positions"])
-        return {
+        out_dir = payload.get("out_dir")
+        enc = {
             "video": str(video),
             "images": imgs,
             "src_positions": src_pos,
@@ -293,8 +328,20 @@ class MageQueryIPRunner:
             "meta": payload.get("meta") or {},
             "n_patches": int(src_pos.shape[0]),
             "n_canvas": len(imgs),
+            "out_dir": out_dir,
             "_bitcost_scored": None,  # filled lazily by run_select_mode
         }
+        # Drop disk canvases once loaded (省盘); keep RAM payload for same-K modes.
+        if os.environ.get("MAGE_QUERYIP_KEEP_CODEC_CACHE", "").strip() not in (
+            "1",
+            "true",
+            "TRUE",
+            "yes",
+            "YES",
+        ):
+            cleanup_codec_out_dir(enc)
+            enc["out_dir"] = None
+        return enc
 
     def run_reweight(
         self,
@@ -362,10 +409,12 @@ class MageQueryIPRunner:
         select_question: str | None = None,
         region_lambda: float = 0.4,
         region_block: int = 2,
+        ocr_patch_indices: list[int] | None = None,
+        seat_frac: float = 0.10,
     ) -> ForwardStats:
         """Patch-level same-K select using a precomputed codec payload.
 
-        ``question`` is always used for Mage generate. Region / clip scoring
+        ``question`` is always used for Mage generate. Region / clip / textseat
         may use ``select_question`` (e.g. batch circular shuffle) when set.
         """
         # α/β ablation: force weights; ignore question_type keywords.
@@ -474,6 +523,26 @@ class MageQueryIPRunner:
                 if mode in ("queryip_edge", "queryip_edge_shuf")
                 else "proxy+region_clip_v1"
             )
+        elif mode in ("queryip_textseat", "queryip_textseat_shuf"):
+            from .text_seat import need_text_evidence
+
+            # Shuf mode: need_text from select_question only; generate still uses question.
+            seat_q = sel_q if mode == "queryip_textseat_shuf" else question
+            need_text_flag = need_text_evidence(seat_q)
+            rw = select_patches_samek(
+                enc["images"],
+                enc["src_positions"],
+                mode=mode,
+                qtype=qtype,
+                budget_k=budget_k,
+                keep_ratio=keep_ratio,
+                seed=seed,
+                need_text=need_text_flag,
+                select_question=seat_q,
+                ocr_patch_indices=ocr_patch_indices,
+                seat_frac=float(seat_frac),
+            )
+            score_source = "proxy+textseat"
         else:
             rw = select_patches_samek(
                 enc["images"],
@@ -499,6 +568,7 @@ class MageQueryIPRunner:
             "n_canvas_before": enc["n_canvas"],
             "n_canvas_after": len(rw.images),
             "n_vis_tokens": n_vis,
+            "n_wide": int(enc.get("n_patches") or 0),
             "mean_motion_all": rw.mean_motion_all,
             "mean_motion_kept": rw.mean_motion_kept,
             "kept_patch_indices": rw.kept_patch_indices,
@@ -525,6 +595,16 @@ class MageQueryIPRunner:
                     extra["edge_m"] = rw.knobs.get("edge_m")
                     extra["freeze_n"] = rw.knobs.get("freeze_n")
                     extra["band_size"] = rw.knobs.get("band_size")
+        if mode in ("queryip_textseat", "queryip_textseat_shuf"):
+            extra["select_question"] = (sel_q if mode == "queryip_textseat_shuf" else question)[
+                :240
+            ]
+            if rw.knobs:
+                extra["need_text"] = rw.knobs.get("need_text")
+                extra["n_text_seats"] = rw.knobs.get("n_text_seats")
+                extra["m_target"] = rw.knobs.get("m_target")
+                extra["n_ocr_prefer"] = rw.knobs.get("n_ocr_prefer")
+                extra["n_ocr_seats"] = rw.knobs.get("n_ocr_prefer")
         return ForwardStats(
             mode=f"samek_{mode}",
             question=question,

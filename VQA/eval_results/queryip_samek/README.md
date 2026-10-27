@@ -52,6 +52,31 @@
 
 → 伤底 + shuffle 反向；**停 QueryIP 语义选区**（非否定一切语义）。详见 [`region_edge_n200/README.md`](region_edge_n200/README.md)。文件：`*_n200_kr075_region_edge.*`。
 
+## wide_textseat_n200（视频 300k 中宽池 · **负协议归档**）
+
+| 项 | 说明 |
+|----|------|
+| 状态 | **已停**；`n_wide` 过大 + VMME 不触发 textseat |
+| 目录 | [`wide_textseat_n200/`](wide_textseat_n200/) |
+| 命令 | [`COMMANDS.md` §7](../../Explore-Then-Select/COMMANDS.md) |
+
+## ocrbench_v1_image_textseat（图像硬切 · **失败归档 · 不作主表**）
+
+| 项 | 说明 |
+|----|------|
+| 结果 | full **84.1%** / random 28.3% / textseat=shuf **37.3%**（n=1000 · 无 OCR） |
+| 闸门 | ≥random ✅；−shuf 0 ❌；vs full −46.8 ❌ |
+| 目录 | [`ocrbench_v1_image_textseat/`](ocrbench_v1_image_textseat/) |
+| 定案 | [`PLAN_mage_query_IP_select.md`](../../../docs/PLAN_mage_query_IP_select.md) **主线 A**；本实验 §2.7 |
+| Mage baseline | Norm **83.4**（[`../baseline_mage_ocrbench_v1/`](../baseline_mage_ocrbench_v1/)） |
+
+## ocrbench_v2_image_textseat（图像 + OCR 座位 · 后置）
+
+| 项 | 说明 |
+|----|------|
+| 目录 | [`ocrbench_v2_image_textseat/`](ocrbench_v2_image_textseat/) |
+| Mage baseline | [`../baseline_mage_ocrbench_v2/`](../baseline_mage_ocrbench_v2/) · §9.1 静默续跑 |
+
 ## n60
 
 | 文件 | 含义 |

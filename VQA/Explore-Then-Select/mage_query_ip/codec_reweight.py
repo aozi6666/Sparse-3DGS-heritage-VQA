@@ -26,6 +26,8 @@ SelectMode = Literal[
     "queryip_region_shuf",  # same as region; shuf Q supplied by eval
     "queryip_edge",  # freeze proxy top-(K-m); fill m from band by region
     "queryip_edge_shuf",  # same as edge; shuf Q supplied by eval
+    "queryip_textseat",  # question text seats + proxy fill (non-CLIP)
+    "queryip_textseat_shuf",  # same; need_text from shuffled select_question
     "prefix",
     "random",
 ]
@@ -523,8 +525,12 @@ def select_patches_samek(
     region_scores: np.ndarray | list[float] | None = None,
     region_lambda: float = 0.4,
     edge_m: int | None = None,
+    need_text: bool | None = None,
+    select_question: str | None = None,
+    ocr_patch_indices: list[int] | None = None,
+    seat_frac: float = 0.10,
 ) -> ReweightResult:
-    """Same-K patch select: queryip / region / edge / clip / prefix / random, then pack.
+    """Same-K patch select: queryip / textseat / region / edge / clip / prefix / random.
 
     ``queryip_bitcost`` is handled by ``mvres_score.select_patches_bitcost`` via
     ``MageQueryIPRunner.run_select_mode`` (needs the source video path).
@@ -540,6 +546,10 @@ def select_patches_samek(
 
     ``queryip_dyn`` / ``queryip_sta``: same top-K as ``queryip`` but force
     DYNAMIC / STATIC weights (α/β ablation; ignore caller qtype).
+
+    ``queryip_textseat`` / ``queryip_textseat_shuf``: question-triggered static /
+    text seats (non-CLIP) + proxy fill. ``need_text`` may be passed explicitly;
+    else derived from ``select_question`` (shuf) or left False if neither given.
     """
     if mode == "queryip_bitcost":
         raise ValueError(
@@ -570,9 +580,11 @@ def select_patches_samek(
     pool_size: int | None = None
     fused_score: np.ndarray | None = None
     edge_meta: dict[str, int] | None = None
+    text_meta: dict[str, int | bool | float] | None = None
     select_like_queryip = mode in ("queryip", "queryip_dyn", "queryip_sta")
     region_modes = ("queryip_region", "queryip_region_shuf")
     edge_modes = ("queryip_edge", "queryip_edge_shuf")
+    text_modes = ("queryip_textseat", "queryip_textseat_shuf")
     if mode == "prefix":
         kept = list(range(budget_k))
     elif mode == "random":
@@ -635,6 +647,25 @@ def select_patches_samek(
             edge_m=m_use,
             always_keep_first_patch=always_keep_first_patch,
         )
+    elif mode in text_modes:
+        from .text_seat import need_text_evidence, select_text_seat_kept
+
+        if need_text is None:
+            # Prefer explicit select_question (shuf); else no trigger.
+            q_for_seat = select_question if select_question is not None else ""
+            need_text_flag = need_text_evidence(q_for_seat) if q_for_seat else False
+        else:
+            need_text_flag = bool(need_text)
+        kept, text_meta = select_text_seat_kept(
+            proxy_score=score,
+            motion=motion,
+            residual=residual,
+            budget_k=budget_k,
+            need_text=need_text_flag,
+            ocr_patch_indices=ocr_patch_indices,
+            always_keep_first_patch=always_keep_first_patch,
+            seat_frac=float(seat_frac),
+        )
     else:
         raise ValueError(f"unknown mode: {mode}")
 
@@ -680,6 +711,11 @@ def select_patches_samek(
             knobs["band_hi"] = int(edge_meta["band_hi"])
         if region_scores is not None:
             knobs["region_score_mean"] = float(np.mean(region_scores))
+    if mode in text_modes:
+        knobs = dict(knobs)
+        knobs["score_source"] = "proxy+textseat"
+        if text_meta:
+            knobs.update(text_meta)
 
     return ReweightResult(
         images=new_images,

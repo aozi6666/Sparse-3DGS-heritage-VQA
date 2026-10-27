@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-"""Video-MME short first-N same-K Acc (modes include queryip_clip).
+"""Video-MME short first-N same-K Acc (modes include queryip_textseat).
 
 Incremental jsonl + resume by TSV ``index`` (disk-light: no codec dump).
-Run only AFTER soccer SAMEK4_OK. Agent does not execute Acc — see COMMANDS.md.
+Mid-wide pool: raise ``--max-pixels`` (e.g. 300000) so N_wide grows; all modes
+cut to the same B. Agent does not execute Acc — see COMMANDS.md.
 """
 
 from __future__ import annotations
@@ -80,6 +81,8 @@ def _write_summary(
     tag: str,
     correct: dict[str, int],
     jsonl: Path,
+    max_pixels: int | None = None,
+    num_frames: int | None = None,
 ) -> None:
     summary = {
         "n": total,
@@ -87,6 +90,8 @@ def _write_summary(
         "seed": int(seed),
         "modes": list(modes),
         "tag": str(tag) or None,
+        "max_pixels": int(max_pixels) if max_pixels is not None else None,
+        "num_frames": int(num_frames) if num_frames is not None else None,
         "acc": {m: correct[m] / max(1, total) for m in modes},
         "correct": correct,
         "jsonl": str(jsonl),
@@ -111,7 +116,12 @@ def main() -> int:
     ap.add_argument("--n", type=int, default=60, help="first N short questions")
     ap.add_argument("--keep-ratio", type=float, default=0.75)
     ap.add_argument("--num-frames", type=int, default=32)
-    ap.add_argument("--max-pixels", type=int, default=150000)
+    ap.add_argument(
+        "--max-pixels",
+        type=int,
+        default=150000,
+        help="codec pixel budget; mid-wide textseat smoke uses 300000",
+    )
     ap.add_argument("--max-new-tokens", type=int, default=32)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--engine", default="hevc")
@@ -119,7 +129,7 @@ def main() -> int:
     ap.add_argument(
         "--modes",
         default="prefix,random,queryip,queryip_bitcost",
-        help="comma-separated select modes (proxy sweep: random,queryip)",
+        help="comma-separated select modes (textseat: random,queryip,queryip_textseat,queryip_textseat_shuf)",
     )
     ap.add_argument(
         "--tag",
@@ -163,12 +173,17 @@ def main() -> int:
         "queryip_region_shuf",
         "queryip_edge",
         "queryip_edge_shuf",
+        "queryip_textseat",
+        "queryip_textseat_shuf",
     }
     modes = tuple(m.strip() for m in str(args.modes).split(",") if m.strip())
     if not modes or any(m not in allowed for m in modes):
         print(f"[error] bad --modes={args.modes!r}; allowed={sorted(allowed)}", file=sys.stderr)
         return 2
-    print(f"[short60] modes={modes} keep_ratio={args.keep_ratio} resume={args.resume}")
+    print(
+        f"[short60] modes={modes} keep_ratio={args.keep_ratio} "
+        f"max_pixels={args.max_pixels} resume={args.resume}"
+    )
 
     args.outdir.mkdir(parents=True, exist_ok=True)
     suffix = f"_{args.tag}" if str(args.tag).strip() else ""
@@ -201,7 +216,12 @@ def main() -> int:
         prompts.append(f"{q}\nOptions:\n{opt_txt}\nAnswer with the letter only.")
     n_batch = len(prompts)
     use_shuf = any(
-        m in modes for m in ("queryip_region_shuf", "queryip_edge_shuf")
+        m in modes
+        for m in (
+            "queryip_region_shuf",
+            "queryip_edge_shuf",
+            "queryip_textseat_shuf",
+        )
     )
     if use_shuf and n_batch > 0:
         print(f"[short60] shuf modes: circular shift over n_batch={n_batch}")
@@ -256,7 +276,8 @@ def main() -> int:
                 )
             last_key = key
             enc = cache_enc[key]
-            budget_k = max(1, int(round(enc["n_patches"] * float(args.keep_ratio))))
+            n_wide = int(enc["n_patches"])
+            budget_k = max(1, int(round(n_wide * float(args.keep_ratio))))
             gt = str(row["answer"]).strip().upper()[:1]
             q = str(row["question"])
             prompt = prompts[pos_i]
@@ -268,11 +289,17 @@ def main() -> int:
                 "gt": gt,
                 "question": q,
                 "budget_k": budget_k,
+                "n_wide": n_wide,
+                "max_pixels": int(args.max_pixels),
                 "modes": list(modes),
             }
             for mode in modes:
                 sel_kw: dict = {}
-                if mode in ("queryip_region_shuf", "queryip_edge_shuf"):
+                if mode in (
+                    "queryip_region_shuf",
+                    "queryip_edge_shuf",
+                    "queryip_textseat_shuf",
+                ):
                     sel_kw["select_question"] = shuf_prompt
                 st = runner.run_select_mode(
                     prompt,
@@ -292,13 +319,21 @@ def main() -> int:
                 rec[f"{mode}_n_vis"] = st.n_vis_tokens
                 rec[f"{mode}_score_source"] = (st.extra or {}).get("score_source")
                 rec[f"{mode}_answer"] = st.answer[:200]
+                if mode in ("queryip_textseat", "queryip_textseat_shuf"):
+                    ex = st.extra or {}
+                    rec[f"{mode}_need_text"] = bool(ex.get("need_text"))
+                    rec[f"{mode}_n_text_seats"] = ex.get("n_text_seats")
+                    rec[f"{mode}_n_ocr_seats"] = ex.get("n_ocr_seats")
 
             fout.write(json.dumps(rec, ensure_ascii=False) + "\n")
             fout.flush()
             done[q_index] = rec
             total += 1
             pred_s = " ".join(f"{m}={rec[f'{m}_pred']}" for m in modes)
-            tqdm.write(f"[{total}/{n_target}] idx={q_index} {vid} gt={gt} {pred_s}")
+            tqdm.write(
+                f"[{total}/{n_target}] idx={q_index} {vid} "
+                f"n_wide={n_wide} B={budget_k} gt={gt} {pred_s}"
+            )
             pbar.set_postfix_str(
                 " ".join(f"{m}={correct[m]/max(1,total):.0%}" for m in modes),
                 refresh=False,
@@ -314,6 +349,8 @@ def main() -> int:
                 tag=str(args.tag),
                 correct=correct,
                 jsonl=out_jsonl,
+                max_pixels=int(args.max_pixels),
+                num_frames=int(args.num_frames),
             )
     pbar.close()
 
@@ -326,6 +363,8 @@ def main() -> int:
         "seed": int(args.seed),
         "modes": list(modes),
         "tag": str(args.tag) or None,
+        "max_pixels": int(args.max_pixels),
+        "num_frames": int(args.num_frames),
         "acc": {m: correct[m] / max(1, total) for m in modes},
         "correct": correct,
         "jsonl": str(out_jsonl),

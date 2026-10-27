@@ -1,6 +1,8 @@
 """Query-IP：Mage codec 选区包装。
 
 主推模式：``queryip``（像素 proxy）。
+新分支（中宽池）：``queryip_textseat`` / ``queryip_textseat_shuf``（非 CLIP；
+OCR hook 默认空，见 ``ocr_candidates``）。
 【归档/不用作贡献】``queryip_dyn``/``sta``（α/β）；``queryip_clip``；
 ``queryip_bitcost``；``queryip_region*``；``queryip_edge*``（CLIP 语义选区已停）。
 真 MV 路线 A：不做。本包保持轻量：不在此 import torch/transformers。

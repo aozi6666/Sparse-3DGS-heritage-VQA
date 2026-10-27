@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20261027-105443",
+  "created_at": "2026-10-27T10:54:43.396131+08:00",
+  "datasets": {
+    "OCRBench_v2": {
+      "status": "done",
+      "prediction_file": "Mage-VL_OCRBench_v2.xlsx",
+      "dataset_alias_name": "OCRBench_v2",
+      "dataset_name": "OCRBench_v2",
+      "updated_at": "2026-10-27T11:12:43.274740+08:00",
+      "judge_model": "",
+      "reuse_aux": "all",
+      "dataset_class_name": "OCRBench_v2",
+      "error_message": "CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 706.44 MiB is free. Process 11403 has 14.05 GiB memory in use. Including non-PyTorch memory, this process has 8.77 GiB memory in use. Of the allocated memory 7.57 GiB is allocated by PyTorch, and 805.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+    }
+  },
+  "model_name": "Mage-VL",
+  "commit": "d255de5a",
+  "argv": [
+    "run.py",
+    "--model",
+    "Mage-VL",
+    "--data",
+    "OCRBench_v2",
+    "--work-dir",
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/baseline_mage_ocrbench_v2",
+    "--verbose"
+  ],
+  "api_mode": false,
+  "world_size": 1,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "all",
+  "reuse": false,
+  "reuse_aux": "all",
+  "updated_at": "2026-10-27T11:12:43.274654+08:00"
+}

@@ -1,16 +1,16 @@
 # Mage Query-IP：按问题调 codec 选区（定稿）
 
-> **日期：** 2026-10-15（修订：2026-10-23 · **结论定稿**）  
-> **状态：** **主推 `queryip`（proxy · 63.5%）**；CLIP 语义选区 / bitcost / 题型 α/β **均失败或不作贡献**；**停 QueryIP「CLIP 重排区域」路线**。  
+> **日期：** 2026-10-15（修订：2026-10-27 · **主线 A / 加戏 B 定案**）  
+> **状态：** **主推 `queryip`（proxy · 63.5%）**；CLIP / bitcost / αβ / **图像硬切 textseat** 均失败或不作贡献；**停 CLIP 重排**；**停 OCRBench 硬切主表**。  
 > **命令 / 产物：** [`COMMANDS.md`](../VQA/Explore-Then-Select/COMMANDS.md) · [`eval_results/`](../VQA/eval_results/README.md)  
-> **后续优先：** §8.1 McNemar · Acc–K 图 · 失败消融表 ·（可选）§5 效率曲线；Cultural LoRA 后置。  
-> **不做：** 真 MV 路线 A · 完整 v2 · 扩大 CLIP 选区 · 同 K×714。
+> **后续优先：** **主线 A** 收口（§8.1 McNemar · Acc–K · 失败表）→ 可选 **加戏 B** 软门控冒烟；Cultural LoRA 后置。  
+> **不做：** 真 MV · 完整 v2 · 扩大 CLIP · 同 K×714 · 用 OCR textseat「打赢 Mage 满图」。
 
 ---
 
-## 结论与后续（2026-10-23）
+## 结论与后续
 
-### 结论
+### 结论（2026-10-23 · 视频同 K）
 
 | 结论 | 说明 |
 |------|------|
@@ -18,21 +18,30 @@
 | **停语义选区** | 帧 CLIP / 宽池 v1 / 边界 edge 均伤底或 shuffle 反向；**不值得继续** |
 | **否定范围** | 否定「用 CLIP 相似度重排局部区域」这套方法，**不是**一切语义引导 |
 | **不作贡献** | 题型 α/β、官方 bitcost、完整 v2 ρ |
-| **真 MV（路线 A）** | 开放栈无分开 MV+残差；**不做**（短注已删，口径见此行） |
+| **真 MV** | 开放栈无分开 MV+残差；**不做**（勿与下方「主线 A」混淆） |
+
+### 路线定案（2026-10-27 · 效果优先）
+
+| 路线 | 含义 | 成功标准 | 状态 |
+|------|------|----------|------|
+| **主线 A** | **视频同 K**，站在 Mage codec **已留 patch** 上做 proxy 多源融合选区 | 同 K > random（已有约 **+4 pp**）；不声称 > 满预算 Mage | **现行主贡献 · 优先收口** |
+| **加戏 B** | 同 Mage 池上 **软门控**（need_text / 轻量题型），加点问题味道、**不许伤底** | Acc **持平** proxy/Codec-only；shuffle 有稳定小正才写入贡献 | **可选冒烟**；不过闸不进主文 |
+| **停** | OCRBench / 图像 **硬切 tile** textseat（`keep_ratio=0.75` 拼图） | — | **负结果归档**（§2.7）；不作主表 |
+
+**叙事（文旅动机可写）：** Mage「哪些区域因变化值得算」；QueryIP（主线 A）「固定预算下如何**融合 Codec 信号**少丢答题证据」；问题条件选区（加戏 B）动机保留，**以持平为成功**，未过闸勿吹。
 
 ### 后续需补（按优先级）
 
-1. **McNemar**（§8.1）：`queryip` vs `random` 逐题配对（`clip_frame_n200` jsonl）  
-2. **失败消融表定稿**（§8.2）进论文  
-3. **Acc–K 图**（§8.3）：已有 `ksweep_proxy/plot_acc_*.csv`  
-4. （可选）**效率曲线**（§5）：补满预算 Mage 一点 + ksweep  
-5. 后置：流式 / Cultural LoRA  
+1. **主线 A 收口：** McNemar（§8.1）· 失败消融表（§8.2，含 OCR textseat）· Acc–K 图（§8.3）  
+2. （可选）**加戏 B** 小 n 冒烟：视频同 K + 软门控；持平 + shuffle≥+1pp 再扩  
+3. （可选）效率曲线（§5）  
+4. 后置：流式 / Cultural LoRA  
 
 ---
 
-## 0. 贡献与口径（必读 · 2026-10-23 修订）
+## 0. 贡献与口径（必读 · 2026-10-27 修订）
 
-**一句话（现行）：** 在**已经减 token** 的固定预算 K 下，用 Mage codec **像素 proxy**（运动 / 残差）对候选 patch 排序再 top-K，比同预算 **random / prefix** 更准；**不重训**；**不声称**超过满预算 Mage。
+**一句话（现行 · 主线 A）：** 在**已经减 token** 的固定预算 K 下，用 Mage codec **像素 proxy**（运动 / 残差**融合**）对候选 patch 排序再 top-K，比同预算 **random / prefix** 更准；**不重训**；**不声称**超过满预算 Mage。
 
 **保留：** `queryip`（proxy 选区）。同跑复现：相对 random **约 +4.0 pp**（63.5% vs 59.5%，[`clip_frame_n200/`](../VQA/eval_results/queryip_samek/clip_frame_n200/)）；主表目录曾报 +4.5（64.0%）。**点估计已有，配对显著性尚未做**（§8.1）。
 
@@ -45,29 +54,34 @@
 | 区域语义 v1（宽池+2×2 CLIP） | B=58.5% / C=60.5% vs A=63.5%；B−C=−2.0pp | **失败消融** |
 | 边界 edge（冻结+ band CLIP） | B=60.0% / C=62.0% vs A=63.5%；B−C=−2.0pp | **失败消融**；**停语义选区路线** |
 | 官方 bitcost / hybrid | ≤ random | **失败消融** |
+| **图像 textseat 硬切**（OCRBench v1） | full 84.1% / textseat=shuf **37.3%**；vs full **−46.8 pp** | **失败消融**（§2.7）；**禁止**当「打赢 Mage」 |
 
-**场景（动机可写，勿绑死题型开关）：** 景区导览边拍边问——算力紧、须减 token；第二刀在 codec 候选上保留变化/结构区（对齐 [`thesis.md`](thesis.md)）。
+**场景（动机可写，勿绑死题型开关）：** 景区导览边拍边问——算力紧、须减 token；第二刀在 codec 候选上保留变化/结构区（对齐 [`thesis.md`](thesis.md)）。证据选择主战场是 **视频同 K**，不是 OCR 硬切拼图。
 
 ```text
-# 主推（现行叙事）
-score = w_m · motion + w_r · residual_proxy   # 默认可固定 dynamic 权重
-→ 同预算 K top-K → 稠密打包 → Mage-ViT + Qwen3
+# 主线 A（现行叙事 · 可写贡献）
+score = w_m · motion + w_r · residual_proxy   # Codec 多源融合
+→ 同预算 K top-K（仅在 Mage 已留 canvas patch 上）→ Mage-ViT + Qwen3
 # 对照：同 K random / prefix
 
-# 已否决 / 不作贡献（QueryIP 语义选区路线停）
-α(q)/β(q)；CLIP 帧预算；区域 v1；边界 edge；官方 bitcost；完整 v2 ρ
-# 注意：否定的是「CLIP 相似度重排区域」这套方法，不是一切语义引导
+# 加戏 B（可选 · 以持平为成功）
+score' = score ⊙ soft_gate(need_text / 轻量题型)   # 禁止 CLIP 余弦重排
+→ Acc ≈ proxy；shuffle 有 Δ 才升格贡献
+
+# 已否决 / 不作贡献
+α(q)/β(q)；CLIP 帧/区域/edge；官方 bitcost；完整 v2 ρ；
+OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 ```
 
 | 项 | 决定 |
 |----|------|
-| 主创新（现行） | **同 K 下 proxy 选区 > 乱砍**（**63.5%**） |
-| 题型 α/β / CLIP **帧** / 区域 v1 / **edge** | **不作贡献**；**停 QueryIP 语义选区** |
-| 其他语义机制（非 CLIP 重排） | **未否定**；无新假设前不继续试错 |
+| 主创新（现行） | **同 K 下 proxy 融合选区 > 乱砍**（**63.5%**）＝主线 A |
+| 题型 α/β / CLIP **帧** / 区域 v1 / **edge** / **OCR 硬切 textseat** | **不作贡献** |
+| 加戏 B 软门控 | **未过闸前不作贡献**；允许探索 |
 | Cultural LoRA | 后置（景区另贡献） |
 | 同 K 全量 714 | **不做** |
 
-**实现注：** 第二刀只在 Mage codec **已留下的** canvas patch 上再砍到 K。上界是同 K 优于乱砍，不是拉回满预算 Short ~75%。
+**实现注：** 第二刀只在 Mage codec **已留下的** canvas patch 上再砍到 K。上界是同 K 优于乱砍，不是拉回满预算 Short ~75%。图像整图切块再丢 25% **不属于**本主线。
 
 ---
 
@@ -175,6 +189,32 @@ score = w_m · motion + w_r · residual_proxy   # 默认可固定 dynamic 权重
 | 若运动优先：`dyn` ≫ `sta` | **否**：`sta` 反多 1 题（噪声级） |
 
 **结论：** Video-MME short@0.75 上，**Static/Dynamic α/β 自适应不构成贡献**；与 random 的 +4pp 来自 **proxy 排序本身**（三路 Acc 均落在 63.5–64.0）。实现可继续默认 dynamic 权重；论文贡献句勿写题型开关。
+
+### 2.7 图像 textseat 硬切 · OCRBench v1（2026-10-27 · **失败消融 · 已归档**）
+
+> **注意：** 本节 ≠ 文首「加戏 B（软门控）」；亦 ≠ §2.5 旧「方案 B=CLIP 帧预算」。本实验是 **离开 Mage 视频选区协议** 的整图 tile 硬砍。
+
+| 项 | 值 |
+|----|-----|
+| 目录 | [`ocrbench_v1_image_textseat/`](../VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
+| 数据 | OCRBench v1 · 1000 · 无 `--use-ocr` · `keep_ratio=0.75` |
+| Mage 官方口径对照 | [`baseline_mage_ocrbench_v1`](../VQA/eval_results/baseline_mage_ocrbench_v1/) · Norm **83.4**（`T20261027-120048`） |
+| 本脚本指标 | substring/exact **proxy**（≠ Final Score Norm） |
+
+| mode | Acc (proxy) | n |
+|------|-------------|---|
+| full_image | **0.841** | 1000 |
+| random_tiles | 0.283 | 1000 |
+| queryip_image_textseat | 0.373 | 1000 |
+| queryip_image_textseat_shuf | 0.373 | 1000 |
+
+| 闸门 | 结果 |
+|------|------|
+| textseat ≥ random（+9.0 pp） | ✅ |
+| textseat − shuf ≥ +1 pp（**0.0**） | ❌ 问题分支无效 |
+| 相对 full Δ ≥ −3 pp（**−46.8**） | ❌ 硬切伤底 |
+
+**结论：** `full_image`≈Mage Norm 旁证底座正常；**textseat 远低于 Mage/full，不能写「超过 Mage」**。无 OCR 座位时 shuf 打平 → 问题未进 kept。归档用途：证明「文字场景硬预算切块会伤底」；**主线回到视频同 K（主线 A）**。
 
 ---
 
@@ -435,8 +475,9 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 | queryip_clip | 58.5% | 同上 |
 | queryip_dyn / sta | 63.5% / 64.0% | `ab_fixed_n200/` |
 | bitcost 纯/hybrid | 58.5% / 58.0% | `n200/` |
+| OCR textseat / shuf / full | 37.3% / 37.3% / 84.1%（proxy） | `ocrbench_v1_image_textseat/` · §2.7 |
 
-正文一句：增益来自 proxy；CLIP / bitcost / 题型开关均非增益源。
+正文一句：增益来自 **Codec proxy 融合（主线 A）**；CLIP / bitcost / 题型开关 / **图像硬切 textseat** 均非增益源。
 
 ### 8.3 【建议】Acc–K 论文图
 

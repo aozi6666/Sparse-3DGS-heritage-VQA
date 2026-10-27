@@ -103,22 +103,25 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 ## 工作 B：Mage-VL + Query-IP 选区 + VLMEvalKit
 
-**缺口：** 景区边拍边问须减 token；乱砍伤 Acc。  
-**结论（2026-10-23）：** 同 K 下 **proxy `queryip` = 63.5%**（约 +4 pp vs random）· **主推**；CLIP 语义选区 / bitcost / 题型 α/β **不作贡献**。  
-停「CLIP 相似度重排区域」；**非**否定一切语义。细节与待办：[`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
+**应用场景（动机）：** 游客随拍、视角有限的景点问答——同一段短视频，问牌匾 vs 问屋檐，需要的视觉证据不同；Codec 按运动/残差选 Patch 未必对准问题；证据不足时应说明不确定（拒答需另做）。  
+**核心研究问题：** 有限视角下、**固定视觉 Token 预算**的**问题相关证据选择**（不是泛旅游聊天，也不是单纯压码率）。  
+**实验结论（2026-10-27 保留）：**  
+- **主线 A（可写）：** 同 K **Codec 融合** `queryip` **63.5%** ≈ +4 pp vs random（视频 · Mage 已留 patch）。  
+- **按问题选区未做成：** CLIP / αβ / OCR 硬切 textseat（37.3%=shuf，vs full −46.8）→ **失败消融，不作贡献**。  
+- **加戏 B：** 软门控、持平即成功（可选）。换方案时以上结论保留。  
 
-| 同 K · short 前 200 · `keep_ratio=0.75` | Acc | 备注 |
+详情：[`VQA/README.md`](VQA/README.md) · [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
+
+| 同 K · short200 · kr=0.75 | Acc | 备注 |
 |------|-----|------|
-| **queryip · 保留** | **63.5%** | [`clip_frame_n200/`](VQA/eval_results/queryip_samek/clip_frame_n200/) |
+| **queryip · 主线 A** | **63.5%** | [`clip_frame_n200/`](VQA/eval_results/queryip_samek/clip_frame_n200/) |
 | random | 59.5% | 同上 |
-| CLIP 帧 / 区域 v1 / edge | 58.5 / 58.5·60.5 / 60.0·62.0 | **失败** · 语义选区停 |
-| α/β dyn·sta · bitcost | 见计划 §0 | 不作贡献 / 失败 |
-
-旁证（非同 K）：行 A **63.7%** · 行 B@0.75 **62.3%**。Acc–K：[`ksweep_proxy/`](VQA/eval_results/queryip_samek/ksweep_proxy/)。
+| CLIP / region·shuf / edge·shuf | 58.5 / 58.5·60.5 / 60.0·62.0 | 失败 |
+| OCR textseat / full（v1 proxy） | 37.3 / 84.1 | [`ocrbench_v1_image_textseat/`](VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
 
 | 路径 | 说明 |
 |------|------|
-| [`VQA/`](VQA/README.md) | 工作 B 总览 |
+| [`VQA/README.md`](VQA/README.md) | **应用场景全文** + 实验结论 |
 | [`VQA/Explore-Then-Select/`](VQA/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VQA/Explore-Then-Select/COMMANDS.md) |
 | [`VQA/eval_results/`](VQA/eval_results/) | 指标归档 |
 | [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 结论 · 证据 · 后续实验 |
@@ -166,10 +169,9 @@ git submodule update --init --recursive   # DropGaussian_release 等
 - [x] **失败消融归档**：bitcost；CLIP 帧 E4；区域 v1；**边界 edge**；方案 B **不做**
 - [x] **E2 α/β 三角**：`queryip`≡dyn；sta ±1 题 → **题型自适应不作贡献**
 - [x] **行 A / 行 B 旁证** + **proxy K 扫描**（0.3–0.75 赢；0.9 不赢）
-- [x] **停 QueryIP 语义选区**（CLIP 重排区域无收益；基线仍 63.5%；非否定一切语义）
-- [ ] **【优先】配对统计检验**（McNemar：queryip vs random，同 jsonl）；计划 §8.1
-- [ ] **失败消融表定稿进论文**（已有数）；计划 §8.2
-- [ ] **论文图 Acc vs keep_ratio**：`plot_acc_*.csv`；计划 §8.3
-- [ ] **效率曲线（预案）**：满 token Mage + ksweep；计划 §5
-- [ ] **流式**（后置） / **Cultural LoRA**（后置 · 另贡献）
-- [ ] ~~同 K×714~~ / ~~bitcost~~ / ~~真 MV~~ / ~~CLIP 帧/区域语义选区~~ / ~~题型 α/β~~ / ~~v2~~ / ~~FlexSelect~~ → **不做**
+- [x] **停 QueryIP 语义选区**（CLIP 重排；非否定一切语义）
+- [x] **OCRBench v1 硬切 textseat 负结果归档**；Mage baseline Norm 83.4
+- [x] **定案主线 A / 加戏 B**（换方案前结论保留）
+- [ ] **【优先】主线 A 收口**：McNemar · 失败表 · Acc–K
+- [ ] （可选）加戏 B 软门控冒烟 · 效率曲线 · 流式 / Cultural LoRA
+- [ ] ~~同 K×714~~ / ~~CLIP 选区~~ / ~~αβ~~ / ~~OCR 硬切打 Mage~~ → **不做**
