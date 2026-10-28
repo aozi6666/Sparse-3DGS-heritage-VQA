@@ -15,7 +15,7 @@
 
 | 工作 | 内容 | 本仓状态 |
 |------|------|----------|
-| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian + LOO/LoRA/repair；**CADR** + 写实底模对照 | **主线可跑**（CADR / 底模已落地） |
+| **A · 稀疏 3DGS 重建** | init（classic / VGGT±depthft）→ Drop 粗训 → LoRA repair（± CADR / 底模） | **消融已齐**（见下节结论） |
 | **B · 视频问答 / 评测** | Mage-VL 理解 + VLMEvalKit（Video-MME 等） | **代码与指标已接入** [`VQA/`](VQA/) |
 
 更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。全文话术与流程图亦见仓外 [`毕设.md`](../毕设.md) / [`docs/thesis.md`](docs/thesis.md)。
@@ -41,49 +41,97 @@
 ## 工作 A：稀疏视角 3DGS 重建
 
 ```text
-稀疏图 + 位姿 → VGGT visual hull → train_gs（± Drop）→（可选）LOO/LoRA/repair（± CADR）→ results.json
+稀疏图 + 位姿
+  → ① init 点云（classic hull / VGGT-enhanced / ± depth_head 微调）
+  → ② 粗训 3DGS（± DropGaussian）
+  → ③ LOO + ControlNet-Tile LoRA
+  → ④ Gaussian repair（± CADR；可换 SD1.5 写实底模）
+  → test results.json → 3DGS/eval_results/*.csv
 ```
 
-- 代码：[`3DGS/GaussianObject/`](3DGS/GaussianObject/)、[`3DGS/vggt/`](3DGS/vggt/)
-- 脚本：[`3DGS/GaussianObject/sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)）
-- Drop 参考 submodule：[`3DGS/DropGaussian_release/`](3DGS/DropGaussian_release/)（训练已 plug-in 进 GO renderer）
-- **指标归档**：[`3DGS/eval_results/`](3DGS/eval_results/)（CSV；含 LoRA repair / CADR / 底模对照）
+| 路径 | 说明 |
+|------|------|
+| 代码 | [`3DGS/GaussianObject/`](3DGS/GaussianObject/) · [`3DGS/vggt/`](3DGS/vggt/) |
+| 编排 | [`sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)） |
+| 指标 | [`3DGS/eval_results/`](3DGS/eval_results/)（CSV + SUMMARY） |
 
-### 本仓方法 · CADR（置信度感知扩散修复）
+### 主模块：定位 · 作用 · 收益 · 意义
 
-步骤 8 对扩散修复监督乘以 \(w_{\text{need}}\times w_{\text{trust}}\)（视角需求 × CLIP 身份信任），抑制不可靠伪标签灌进 3DGS。
+| 模块 | 管线位置 | 作用 | 实测收益（test PSNR） | 论文意义 |
+|------|----------|------|----------------------|----------|
+| **① Classic visual hull** | 步骤 1 默认强基线 | COLMAP/掩码几何围成初始点云 | kitchen≈**27.1**；garden≈**33.5** | **粗训主收益在 init**；遗产受限采集下优先保几何密度与紧致 bbox |
+| **①′ VGGT-enhanced hull** | 同级对照（原版 `model.pt`） | 用 VGGT 深度质量评估增强 hull | kitchen 相对 classic **≈−1.0 dB**；garden 仅 **≈−0.11** | VGGT 是可选增强而非粗训 SOTA；**场景依赖**，勿写成全局 −1 dB |
+| **①″ Depth-adapt** | VGGT depth_head 任务微调后再 enhanced | 域适应深度先验（mip360 ckpt） | kitchen 粗训 **−0.16**；garden **+0.16 vs 原版 VGGT**；接 repair 后 kitchen **≥ 原版 A0** | 可写「任务微调」；粗训不稳定，**不宜宣称普适大涨点** |
+| **② DropGaussian** | 粗训正则 | 训练中随机丢高斯抑过拟合 | classic 上≈0；VGGT 上约 **+0.09** | 弱/条件性增益；配合差 init 略有用，不是主贡献 |
+| **③ LoRA repair** | LOO 对 + Tile LoRA → 步骤 8–9 | 扩散先验修稀视图伪影 | VGGT 粗训→RV51：**+0.80**（相对 26.14）；弱 depthft 粗训→RV51：**+1.04** | **下游主涨点**；修复补的是渲染伪影，**抹不平 init 几何差距** |
+| **④ CADR** | repair 时 \(w_{need}\times w_{trust}\) | 置信度门控修复强度 | vs 无 CADR：**≈0～+0.05**（目标 +0.2 **未达**）；A5 略伤默认关 | 方法完整可报；实证接近噪声，主文勿夸大 |
+| **④′ 写实底模** | RV51 / abs16 换 SD1.5 | 更强纹理先验（须与 LoRA 同底重训） | RV51 vs SD1.5 ≈**+0.10**；abs16 无实质涨点 | 工程可切换；**不是指标主杠杆** |
 
-- **设计目标**：相对 RV51 repair（无 CADR），test **PSNR +0.2**（SSIM 不降、LPIPS 不升）。
-- **当前实测（kitchen）**：与 `kitchen_drop_rv51` **持平**（ΔPSNR ≈ 0；设计目标未达）。数字见 [`3DGS/eval_results/`](3DGS/eval_results/)。
-- 开关：`USE_CONF_WEIGHT=1` → tag `*_rv51_conf`；实现：[`gaussian_object_system.py`](3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py)。
+**负对照：** 纯 VGGT 点云（无 classic hull）+ depthft → **11.78**（≈−14 dB）→ 必须保留 visual-hull 几何骨架（[`PLAN_vggt_pure_depthft.md`](docs/PLAN_vggt_pure_depthft.md)）。
 
-### 本仓贡献 · SD1.5 族写实底模接入
+**欠训排查：** PSNR–iter（3k→10k）全程 classic ≫ VGGT，10k 仍 ≈**−1.5 dB** → kitchen 的 init 差距**不是欠训假象**（[`lineB_kitchen_iter_sweep.csv`](3DGS/eval_results/lineB_kitchen_iter_sweep.csv)）。
 
-在 GaussianObject + ControlNet-Tile 管线中接入可切换 SD 底模（**须与 LoRA 同底模重训**）。换底模实测 ≈ 持平；论文主对照仍用 RV51 ± CADR，abs16 作附录。
+### 关键实验数字（mip360 / test）
 
-| 本地路径 | 角色 |
-|----------|------|
-| [`3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors`](3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors) | 主对照 SD 底模（RV5.1） |
-| [`3DGS/GaussianObject/models/absolutereality_v16.safetensors`](3DGS/GaussianObject/models/absolutereality_v16.safetensors) | 附录 SD 底模（AbsoluteReality v1.6） |
-| [`3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth) | ControlNet-Tile 权重（固定配套，勿删） |
-| [`3DGS/GaussianObject/models/control_v11f1e_sd15_tile.yaml`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.yaml) | ControlNet-Tile 配置 |
+**粗训 2×2（kitchen）** · [`SUMMARY_coarse_2x2.md`](3DGS/eval_results/SUMMARY_coarse_2x2.md)
 
-下载与切底模说明：[`3DGS/GaussianObject/models/README.md`](3DGS/GaussianObject/models/README.md)。
+| | 无 Drop | Drop |
+|--|--------:|-----:|
+| classic | **27.11** | 27.10 |
+| VGGT-enhanced | 26.05 | 26.14 |
+
+ply：classic 8616 点、紧 bbox；VGGT-enhanced 2874 点、更散 → 与 −1 dB 同向。
+
+**多场景粗训（Drop=1）**
+
+| 场景 | classic | VGGT / depthft | 解读 |
+|------|--------:|---------------:|------|
+| kitchen | 27.10 | 26.14 / 25.98 | init 主导；depthft 粗训略伤 |
+| garden | 33.49 | 33.37 / **33.53** | 差距缩小；depthft 微胜 classic |
+
+**Repair 主表（C0–C4 + P2/P3）** · [`SUMMARY_repair_cadr.md`](3DGS/eval_results/SUMMARY_repair_cadr.md) · [`SUMMARY_depthft_expand.md`](3DGS/eval_results/SUMMARY_depthft_expand.md)
+
+| ID / 设定 | test PSNR | 要点 |
+|-----------|----------:|------|
+| C0 classic 粗训 | ≈**27.11** | 粗训最优 |
+| C1 SD1.5 repair（VGGT init） | ≈26.94 | vs 旧 VGGT 粗训 +0.80 |
+| C2/A0 RV51 无 CADR | **26.97** | 底模边际 |
+| C3/A3 RV51+CADR | **26.96** | vs C2 持平 |
+| C4 abs16 无 CADR | **26.93** | 换底模无实质收益 |
+| classic→RV51（P2） | **27.09** | vs A0 +0.12；vs 自身粗训持平 |
+| depthft→RV51 / +CADR（P3） | **27.02 / 27.07** | 拉回弱粗训；略超原版 A0/A3 |
+
+### 一句话结论（工作 A）
+
+1. **主杠杆 = 初始点云几何（classic hull）+ LoRA repair**；Drop / CADR / 换底模 / depthft 均为弱或场景条件性。  
+2. **VGGT 与 depth-adapt** 定位为可选深度先验与任务微调，**不是**粗训主 SOTA；跨场景幅度差一个数量级。  
+3. **Repair 不能翻盘 init**：classic 优势会传到下游，但在已足够好的 classic 粗训上 repair 几乎不涨。  
+4. 遗产导览侧：优先保证 **可漫游、几何稳的 3DGS 资产**（C0 级），再用 repair 抬纹理；CADR/底模作方法完整度与附录。
+
+### 跑通与权重
 
 ```bash
 source .venv-ddgs-vggt/bin/activate
 export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
-# export HF_ENDPOINT=https://hf-mirror.com   # LoRA 拉 CLIP 时
 cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
-# 论文主对照 CADR（复用 *_rv51 LoRA，从步骤 8）：
+# CADR 主对照（复用 RV51 LoRA，从步骤 8）：
 # SD_CKPT=./models/Realistic_Vision_V5.1.safetensors \
 # LORA_EXP=controlnet_finetune/kitchen_drop_rv51 BASE_TAG=kitchen_drop_rv51 \
 # bash 0_run_all.sh 8
 ```
 
-权重/数据不进 Git（VGGT、SD/ControlNet、CLIP、mip360 kitchen 等），见复现文档。
+| 本地权重 | 角色 |
+|----------|------|
+| [`models/Realistic_Vision_V5.1.safetensors`](3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors) | 主对照 SD 底模 |
+| [`models/absolutereality_v16.safetensors`](3DGS/GaussianObject/models/absolutereality_v16.safetensors) | 附录底模（C4） |
+| [`models/control_v11f1e_sd15_tile.pth`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth) (+ `.yaml`) | ControlNet-Tile |
+| [`3DGS/vggt/models/model.pt`](3DGS/vggt/models/model.pt) | 原版 VGGT |
+| [`depth_head_ft_mip360.pt`](3DGS/vggt/models/depth_head_ft_mip360.pt) | depth-adapt（任务微调） |
+
+详见 [`models/README.md`](3DGS/GaussianObject/models/README.md)。权重/大数据不进 Git。
 
 ---
+
 
 ## 工作 B：Mage-VL + VLMEvalKit
 
@@ -121,10 +169,12 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 ---
 
-## TODO（后续慢慢做）
+## TODO
 
-- [ ] **CADR 消融 A2/A3**（可选 A4/A5）：同 RV51 LoRA，只改步骤 8（仅 \(w_{\text{trust}}\) / 完整 CADR / 覆盖项 / 自适应 denoise）。
-- [ ] **论文主表 C0–C3 核对**：CSV 中 coarse / SD1.5 repair / RV51 / CADR 与论文表述对齐。
-- [ ] **（可选）abs16 无 CADR（C4）**：隔离「换底模」与 CADR。
-- [ ] **VGGT vs classic hull** / **Drop 消融**：见 [`3DGS/eval_results/`](3DGS/eval_results/) CSV `delta_pending`。
-- [ ] **步数 sweep（论文图用）**：同一 VGGT+Drop+RV51 设定下，扫 LoRA `max_steps`（如 1200 / 1800 / 2400 / 3000）与 repair `max_steps`（如 3000 / 4000 / 6000），每档存 ply + test 指标再画曲线；**没跑完不要写「某某区间最好」**。
+**工作 A 消融已齐**（2×2 / V2 负对照 / CADR A-full+C4 / P2 classic-repair+garden / P3 iter-sweep+depthft）。详表：[`3DGS/eval_results/`](3DGS/eval_results/)。
+
+**后续可选**
+
+- [ ] 用 [`lineB_kitchen_iter_sweep.csv`](3DGS/eval_results/lineB_kitchen_iter_sweep.csv) 出论文 **PSNR–iter** 图
+- [ ] **V2 尺度对齐**（非必须；11.78 负对照即可）
+- [ ] 工作 B：Cultural LoRA / codec 选区等（见 [`docs/PLAN_mage_cultural_lora_location.md`](docs/PLAN_mage_cultural_lora_location.md)）
