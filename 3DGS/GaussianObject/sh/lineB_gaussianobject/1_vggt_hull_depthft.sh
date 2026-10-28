@@ -36,10 +36,11 @@ if [[ "$(realpath -m "${VGGT_DEPTH_HEAD}")" == "$(realpath -m "${VGGT_BASE}")" ]
   exit 1
 fi
 
+VGGT_RESO="${VGGT_RESO:-2}"
 lineb_activate
 
 echo "=========================================="
-echo "[1/10] VGGT Visual Hull (depthft)"
+echo "[1/10] VGGT Visual Hull (depthft) reso=${VGGT_RESO}"
 echo "  VGGT_BASE=${VGGT_BASE}"
 echo "  VGGT_DEPTH_HEAD=${VGGT_DEPTH_HEAD}"
 echo "  INIT_PCD=${INIT_PCD}"
@@ -68,7 +69,7 @@ python3 ./vggt_visual_hull_enhanced.py \
     --model_path "${VGGT_DEPTH_HEAD}" \
     --base_model_path "${VGGT_BASE}" \
     --sparse_id "${SPARSE_ID}" \
-    --reso 2 \
+    --reso "${VGGT_RESO}" \
     --voxel_num 100 \
     --vggt_quality_threshold 0.4 \
     --vggt_enhancement_factor 0.2 \
