@@ -1,19 +1,22 @@
 #!/bin/bash
 # [3/10] 粗模型测试集评测（只写 results.json）
+# 可选：ITERATION=N（默认 -1 = 最新 ply）
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1091
 source "${SCRIPT_DIR}/_common.sh"
 MODEL_DIR="${MODEL_DIR:-${GS_DIR}}"
+ITERATION="${ITERATION:--1}"
 lineb_activate
 
 echo "=========================================="
-echo "[3/10] Render test → ${MODEL_DIR}"
+echo "[3/10] Render test → ${MODEL_DIR}  iteration=${ITERATION}"
 echo "=========================================="
 
 python render.py \
     -m "${MODEL_DIR}" \
     -s "${DATA}" \
+    --iteration "${ITERATION}" \
     --sparse_view_num "${SPARSE_VIEW_NUM}" --sh_degree 2 \
     --init_pcd_name "${INIT_PCD}" \
     --white_background \

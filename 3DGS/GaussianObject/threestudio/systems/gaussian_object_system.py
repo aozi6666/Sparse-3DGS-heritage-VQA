@@ -198,6 +198,10 @@ class GaussianDreamer(BaseLift3DSystem):
         use_cov_in_need: bool = False
         cov_beta: float = 0.5
         use_adaptive_denoise: bool = False
+        # A2: trust-only → w_conf = eps+(1-eps)*w_trust (need treated as 1)
+        conf_trust_only: bool = False
+        # Disk: skip controlnet_out/it*.png dumps (keep last.ply / metrics only)
+        save_controlnet_preview: bool = False
 
     cfg: Config
     def configure(self) -> None:
@@ -444,10 +448,13 @@ class GaussianDreamer(BaseLift3DSystem):
         alpha_mean: float = None,
     ):
         """Return (w_need_eff, w_trust, w_conf)."""
-        w_need_eff = float(w_need)
-        if self.cfg.use_cov_in_need and alpha_mean is not None:
-            w_need_eff = w_need_eff * (1.0 + self.cfg.cov_beta * (1.0 - float(alpha_mean)))
-            w_need_eff = min(1.0, w_need_eff)
+        if self.cfg.conf_trust_only:
+            w_need_eff = 1.0
+        else:
+            w_need_eff = float(w_need)
+            if self.cfg.use_cov_in_need and alpha_mean is not None:
+                w_need_eff = w_need_eff * (1.0 + self.cfg.cov_beta * (1.0 - float(alpha_mean)))
+                w_need_eff = min(1.0, w_need_eff)
 
         lo, hi = self.cfg.clip_score_lo, self.cfg.clip_score_hi
         if hi <= lo:
@@ -456,7 +463,11 @@ class GaussianDreamer(BaseLift3DSystem):
             w_trust = max(0.0, min(1.0, (float(clip_score) - lo) / (hi - lo)))
 
         eps = self.cfg.conf_eps
-        w_conf = w_need_eff * (eps + (1.0 - eps) * w_trust)
+        trust_term = eps + (1.0 - eps) * w_trust
+        if self.cfg.conf_trust_only:
+            w_conf = trust_term
+        else:
+            w_conf = w_need_eff * trust_term
         return w_need_eff, w_trust, w_conf
 
     def _adaptive_denoise_strength(self, w_need: float) -> float:
@@ -495,8 +506,9 @@ class GaussianDreamer(BaseLift3DSystem):
                     if controlnet_out is None:
                         controlnet_out = torch.zeros((1, 3, self.novel_image_size, self.novel_image_size), device='cuda')
                         self.controlnet_outs[idx] = controlnet_out
-                controlnet_outs_image = make_grid(torch.cat(self.controlnet_outs, dim=0), nrow=5)
-                save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
+                if self.cfg.save_controlnet_preview:
+                    controlnet_outs_image = make_grid(torch.cat(self.controlnet_outs, dim=0), nrow=5)
+                    save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
             self.controlnet_outs = []
             if self.global_step < self.cfg.around_gt_steps:
                 if len(self.gt_features_all) == 0:

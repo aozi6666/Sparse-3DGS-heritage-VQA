@@ -547,6 +547,104 @@ def get_visual_hull_with_vggt_enhancement(N, bbox, scene_info, cam_center, depth
     return enhanced_pcd, enhanced_pcd.get_axis_aligned_bounding_box()
 
 
+def build_pure_vggt_point_cloud(scene_info, vggt_depths, device, stride=4, max_points=200000):
+    """纯 VGGT：仅用各视角 VGGT 深度反投影，不依赖 classic visual hull。
+
+    vggt_depths: [N,H,W]（通常为 VGGT 输入分辨率）；K/T/images 与之一致或按尺度对齐。
+    """
+    print("=== pure VGGT: depth unprojection (no classic hull) ===")
+    Ks = scene_info.Ks
+    Ts = scene_info.Ts
+    images = scene_info.images
+    masks = scene_info.masks
+
+    all_pts = []
+    all_cols = []
+    n_views = len(images)
+    for view_idx in range(n_views):
+        depth = vggt_depths[view_idx]
+        if torch.is_tensor(depth):
+            depth_np = depth.detach().cpu().numpy()
+        else:
+            depth_np = np.asarray(depth)
+        img = images[view_idx]
+        if torch.is_tensor(img):
+            img_np = img.detach().cpu().numpy()
+        else:
+            img_np = np.asarray(img)
+        # img: [C,H,W] in 0..1
+        if img_np.ndim == 3 and img_np.shape[0] in (1, 3):
+            img_hwc = np.transpose(img_np, (1, 2, 0))
+        else:
+            img_hwc = img_np
+        H_img, W_img = img_hwc.shape[:2]
+        H_d, W_d = depth_np.shape[-2], depth_np.shape[-1]
+        if (H_d, W_d) != (H_img, W_img):
+            depth_np = cv2.resize(depth_np.astype(np.float32), (W_img, H_img), interpolation=cv2.INTER_LINEAR)
+
+        mask = masks[view_idx]
+        if torch.is_tensor(mask):
+            mask_np = mask.detach().cpu().numpy()
+        else:
+            mask_np = np.asarray(mask)
+        if mask_np.ndim == 3:
+            mask_np = mask_np.squeeze(0)
+        if mask_np.shape != (H_img, W_img):
+            mask_np = cv2.resize(mask_np.astype(np.float32), (W_img, H_img), interpolation=cv2.INTER_NEAREST)
+
+        K = Ks[view_idx]
+        T = Ts[view_idx]
+        if isinstance(K, np.ndarray):
+            K_t = torch.from_numpy(K).float().to(device)
+        else:
+            K_t = K.float().to(device)
+        if isinstance(T, np.ndarray):
+            T_t = torch.from_numpy(T).float().to(device)
+        else:
+            T_t = T.float().to(device)
+
+        # scale K if we resized depth to image size already matched; assume K matches images
+        ys = np.arange(0, H_img, stride)
+        xs = np.arange(0, W_img, stride)
+        for v in ys:
+            for u in xs:
+                if mask_np[v, u] <= 0:
+                    continue
+                d = float(depth_np[v, u])
+                if not np.isfinite(d) or d <= 1e-4:
+                    continue
+                pw = backproject_point(float(u), float(v), d, K_t, T_t)
+                if pw is None:
+                    continue
+                col = img_hwc[v, u]
+                if col.ndim == 0:
+                    col = np.array([col, col, col], dtype=np.float32)
+                col = np.clip(col[:3].astype(np.float32), 0.0, 1.0)
+                all_pts.append(pw)
+                all_cols.append(col)
+
+        print(f"  view {view_idx}: accumulated {len(all_pts)} points")
+
+    if len(all_pts) == 0:
+        print("警告: pure VGGT 未生成任何点")
+        return None, None
+
+    pts = np.asarray(all_pts, dtype=np.float64)
+    cols = np.asarray(all_cols, dtype=np.float64)
+    if pts.shape[0] > max_points:
+        rng = np.random.default_rng(0)
+        idx = rng.choice(pts.shape[0], size=max_points, replace=False)
+        pts = pts[idx]
+        cols = cols[idx]
+        print(f"  subsampled to {max_points} points")
+
+    pcd = o3d.geometry.PointCloud()
+    pcd.points = o3d.utility.Vector3dVector(pts)
+    pcd.colors = o3d.utility.Vector3dVector(cols)
+    print(f"pure VGGT point cloud: {len(pts)} points")
+    return pcd, pcd.get_axis_aligned_bounding_box()
+
+
 def main():
     parser = argparse.ArgumentParser(description='VGGT深度增强的视觉外壳生成')
     parser.add_argument('--data_dir', type=str, default='sparse_nerf_datasets/sparse_omni3d_undistorted/backpack_016', help='数据目录')
@@ -566,6 +664,12 @@ def main():
                        help='VGGT质量阈值 (0.0-1.0)，越高VGGT参与度越低')
     parser.add_argument('--vggt_enhancement_factor', type=float, default=1.5, 
                        help='VGGT增强因子 (0.0-2.0)，越大VGGT增强效果越明显')
+    parser.add_argument('--init_mode', type=str, default='enhanced', choices=['enhanced', 'pure'],
+                       help='enhanced=classic hull+VGGT 增强；pure=仅 VGGT 深度反投影（无 classic hull）')
+    parser.add_argument('--output_ply_name', type=str, default=None,
+                       help='输出 ply 文件名（无路径）；默认随 init_mode')
+    parser.add_argument('--pure_stride', type=int, default=4, help='pure 模式像素步长（省点数）')
+    parser.add_argument('--pure_max_points', type=int, default=200000, help='pure 模式最大点数')
     
     args = parser.parse_args()
     
@@ -668,42 +772,56 @@ def main():
     # 使用VGGT评估深度图质量（同时得到逐视角深度，后续增强直接复用）
     quality_scores, vggt_depths = evaluate_depth_quality_with_vggt(images, depth_maps, model, device)
     torch.cuda.empty_cache()
-    
-    # 初始化边界框
-    bx = args.cube_size
-    init_bbox = [[cam_center[0]-bx, cam_center[1]-bx, cam_center[2]-bx], 
-                 [cam_center[0]+bx, cam_center[1]+bx, cam_center[2]+bx]]
-    
-    # 生成VGGT增强的视觉外壳
-    pcd, bbox = get_visual_hull_with_vggt_enhancement(
-        args.voxel_num, init_bbox, scene_info, cam_center, depth_maps, quality_scores, model, device,
-        vggt_quality_threshold=args.vggt_quality_threshold,
-        vggt_enhancement_factor=args.vggt_enhancement_factor,
-        vggt_depths=vggt_depths,
-    )
-    
-    # 重新计算边界框并调整大小
-    bbox_min = bbox.get_min_bound()
-    bbox_max = bbox.get_max_bound()
-    center = (bbox_min + bbox_max) / 2
-    extents = bbox_max - bbox_min
-    scale_factor = 2
-    scaled_extents = extents * scale_factor
-    enlarged_bbox_min = center - scaled_extents / 2
-    enlarged_bbox_max = center + scaled_extents / 2
 
-    # 重新生成点云并保存（复用同一份 VGGT 深度，不再二次推理）
-    pcd, bbox_new = get_visual_hull_with_vggt_enhancement(
-        64, [enlarged_bbox_min, enlarged_bbox_max], scene_info, [0,0,0], depth_maps, quality_scores, model, device,
-        vggt_quality_threshold=args.vggt_quality_threshold,
-        vggt_enhancement_factor=args.vggt_enhancement_factor,
-        vggt_depths=vggt_depths,
-    )
-    
-    # 保存点云
-    output_file = os.path.join(args.output_dir, f"visual_hull_vggt_enhanced_{args.sparse_id}.ply")
+    if args.init_mode == 'pure':
+        pcd, bbox = build_pure_vggt_point_cloud(
+            scene_info, vggt_depths, device,
+            stride=args.pure_stride, max_points=args.pure_max_points,
+        )
+        if pcd is None:
+            print("错误: pure VGGT 点云生成失败")
+            return
+        default_name = f"visual_hull_vggt_pure_{args.sparse_id}.ply"
+    else:
+        # 初始化边界框
+        bx = args.cube_size
+        init_bbox = [[cam_center[0]-bx, cam_center[1]-bx, cam_center[2]-bx],
+                     [cam_center[0]+bx, cam_center[1]+bx, cam_center[2]+bx]]
+
+        # 生成VGGT增强的视觉外壳
+        pcd, bbox = get_visual_hull_with_vggt_enhancement(
+            args.voxel_num, init_bbox, scene_info, cam_center, depth_maps, quality_scores, model, device,
+            vggt_quality_threshold=args.vggt_quality_threshold,
+            vggt_enhancement_factor=args.vggt_enhancement_factor,
+            vggt_depths=vggt_depths,
+        )
+
+        # 重新计算边界框并调整大小
+        bbox_min = bbox.get_min_bound()
+        bbox_max = bbox.get_max_bound()
+        center = (bbox_min + bbox_max) / 2
+        extents = bbox_max - bbox_min
+        scale_factor = 2
+        scaled_extents = extents * scale_factor
+        enlarged_bbox_min = center - scaled_extents / 2
+        enlarged_bbox_max = center + scaled_extents / 2
+
+        # 重新生成点云并保存（复用同一份 VGGT 深度，不再二次推理）
+        pcd, bbox_new = get_visual_hull_with_vggt_enhancement(
+            64, [enlarged_bbox_min, enlarged_bbox_max], scene_info, [0,0,0], depth_maps, quality_scores, model, device,
+            vggt_quality_threshold=args.vggt_quality_threshold,
+            vggt_enhancement_factor=args.vggt_enhancement_factor,
+            vggt_depths=vggt_depths,
+        )
+        default_name = f"visual_hull_vggt_enhanced_{args.sparse_id}.ply"
+
+    # 保存点云（允许自定义文件名，避免覆盖 baseline enhanced）
+    out_name = args.output_ply_name if args.output_ply_name else default_name
+    if not out_name.endswith('.ply'):
+        out_name = out_name + '.ply'
+    output_file = os.path.join(args.output_dir, out_name)
     o3d.io.write_point_cloud(output_file, pcd)
-    print(f"点云已保存到: {output_file}")
+    print(f"点云已保存到: {output_file} (init_mode={args.init_mode})")
     
     # 可视化
     if not args.not_vis:

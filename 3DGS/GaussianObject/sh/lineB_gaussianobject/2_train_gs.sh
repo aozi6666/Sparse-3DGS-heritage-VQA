@@ -1,5 +1,6 @@
 #!/bin/bash
-# [2/10] 粗 3DGS（省盘：只存/测最后一轮）
+# [2/10] 粗 3DGS（省盘：默认只存/测最后一轮）
+# 可选：SAVE_ITERS / TEST_ITERS 为空格分隔列表，如 "3000 5000 7000 10000"
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1091
@@ -12,8 +13,15 @@ else
   DROP_FLAG=()
 fi
 
+# Default: only final iteration (compat). Sweep can export SAVE_ITERS / TEST_ITERS.
+# shellcheck disable=SC2206
+SAVE_ARR=(${SAVE_ITERS:-${ITERATIONS}})
+# shellcheck disable=SC2206
+TEST_ARR=(${TEST_ITERS:-${ITERATIONS}})
+
 echo "=========================================="
 echo "[2/10] Coarse 3DGS → ${GS_DIR}"
+echo "  save_iterations=${SAVE_ARR[*]}  test_iterations=${TEST_ARR[*]}"
 lineb_print_paths
 echo "=========================================="
 
@@ -24,8 +32,8 @@ python train_gs.py \
     --init_pcd_name "${INIT_PCD}" \
     --white_background --random_background \
     --iterations "${ITERATIONS}" \
-    --save_iterations "${ITERATIONS}" \
-    --test_iterations "${ITERATIONS}" \
+    --save_iterations "${SAVE_ARR[@]}" \
+    --test_iterations "${TEST_ARR[@]}" \
     "${DROP_FLAG[@]}"
 
 # 省盘：删 TB / init 副本（不影响 ply 与评测）

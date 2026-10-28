@@ -6,81 +6,105 @@
 
 | 文件 | 说明 |
 |------|------|
-| [`lineB_kitchen_mip360.csv`](lineB_kitchen_mip360.csv) | mip360/kitchen · lineB |
+| [`lineB_kitchen_mip360.csv`](lineB_kitchen_mip360.csv) | mip360/kitchen · 主表（2×2 / V2 / repair / CADR / P2 / P3 depthft-repair） |
+| [`lineB_garden_mip360.csv`](lineB_garden_mip360.csv) | mip360/garden · classic / orig-VGGT / depthft（P2+P3） |
+| [`lineB_kitchen_iter_sweep.csv`](lineB_kitchen_iter_sweep.csv) | kitchen PSNR–iter（P3；跑脚本后生成） |
+| [`ply_init_stats_kitchen.csv`](ply_init_stats_kitchen.csv) | kitchen init ply 点数 / bbox |
+| [`SUMMARY_coarse_2x2.md`](SUMMARY_coarse_2x2.md) | 粗训消融文字摘要 |
+| [`SUMMARY_repair_cadr.md`](SUMMARY_repair_cadr.md) | repair/CADR/底模文字摘要 |
+| [`SUMMARY_depthft_expand.md`](SUMMARY_depthft_expand.md) | depthft_mip360 扩展（P3） |
 
-## 协议（本表）
+## 协议
 
 - 场景：`mip360/kitchen`，`resolution=4`，`sparse_view_num=9`，`sh_degree=2`
-- 初始化：`visual_hull_vggt_enhanced_4`（VGGT）
-- 粗训：`USE_DROP=1`，`iterations=10000` → `ours_10000`
-- **论文主对照**：同一 RV5.1 LoRA（`*_rv51`）上对比有无 CADR  
-  - 无 CADR：`kitchen_drop_rv51` → `ours_None__kitchen_drop_rv51`  
-  - 有 CADR：`kitchen_drop_rv51_conf` → `ours_None__kitchen_drop_rv51_conf`
-- **附录对照**：AbsoluteReality v1.6 + 同底模 LoRA + CADR → `ours_None__kitchen_drop_abs16_conf`（换底模与 CADR 绑在一起，不能单独归因）
-- 历史对照：官方 SD1.5 → `ours_None`（CSV 中仍保留）
-- 脚本 `_common.sh` 默认可能指向 abs16；**主对照请用环境变量切回 RV51**（见下方跑法）
+- 粗训：`iterations=10000` → `ours_10000`
+- repair 主对照：RV5.1 LoRA ± CADR；abs16+CADR 附录
 
-## 摘要
+---
 
-### LoRA repair vs 粗训（test，历史 SD1.5 底座）
+## 摘要 · 粗训 2×2（test，2026-10-28 齐）
 
-| | dPSNR | dSSIM | dLPIPS |
-|--|------:|------:|-------:|
-| repair vs coarse | **+0.80** | +0.0026 | −0.0063 |
+计划：[`docs/PLAN_g0_drop_vggt_ablation.md`](../../docs/PLAN_g0_drop_vggt_ablation.md)
 
-### RV51 vs 历史 SD1.5 repair（test，同设定）
+| | 无 Drop | Drop |
+|--|--------:|-----:|
+| classic | **27.11** (`kitchen_classic`) | 27.10 (`kitchen_drop_classic`) |
+| VGGT-enhanced | 26.05 (`kitchen`) | 26.14 (`kitchen_drop`) |
+
+| 效应 | dPSNR | 解读 |
+|------|------:|------|
+| VGGT−classic @无Drop | **−1.07** | init 主效应为负 |
+| VGGT−classic @Drop | **−0.96** | 同上，稳定 |
+| Drop−noDrop @classic | **−0.01** | 持平 / 噪声 |
+| Drop−noDrop @VGGT | **+0.09** | Drop 弱正 |
+| 交互 (VGGT 劣势在 Drop 下变化) | ≈**+0.10** | Drop 略缩小 VGGT 劣势 |
+
+**结论：** 粗训由 **init** 主导（classic ≫ VGGT）；Drop 次要。VGGT 增强 **不宜当粗训主涨点**。
+
+### ply 定性（与 −1 dB 同向）
+
+| init | n_points | bbox 边长量级 |
+|------|---------:|---------------|
+| `visual_hull_4` | **8616** | ~1.52 / 1.90 / 1.80 |
+| `visual_hull_vggt_enhanced_4` | **2874** | ~3.92 / 3.76 / 3.68（更大更稀） |
+
+---
+
+## 摘要 · V2 纯 VGGT + depthft（负对照，已跑）
+
+计划：[`docs/PLAN_vggt_pure_depthft.md`](../../docs/PLAN_vggt_pure_depthft.md)  
+目录：`kitchen_drop_vggt_pure_depthft` / `visual_hull_vggt_pure_depthft_4`
 
 | | PSNR | SSIM | LPIPS |
 |--|-----:|-----:|------:|
-| SD1.5 repair | 26.86 | 0.9493 | 0.0394 |
-| RV51 repair | 26.97 | 0.9494 | 0.0399 |
-| Δ | **+0.10** | ≈0 | +0.0006（略差） |
+| V2 pure+depthft (test) | **11.78** | 0.8546 | 0.1600 |
+| vs `kitchen_drop` | **−14.36** | −0.092 | +0.115 |
 
-结论：换 RV51 **无实质涨点**。
+**解读：** 崩盘合理 → 缺 classic hull / COLMAP **度量对齐** 时，单目深度反投影点云错位；作 **负对照**（不能扔掉 visual hull），勿当主方法。若再试须先尺度对齐。
 
-### CADR vs RV51（test，同 RV51 LoRA；2026-10-14）
+---
 
-| | PSNR | SSIM | LPIPS |
-|--|-----:|-----:|------:|
-| RV51（无 CADR） | 26.967 | 0.9494 | 0.0399 |
-| CADR（`*_rv51_conf`） | 26.963 | 0.9492 | 0.0397 |
-| Δ | **−0.003** | −0.0001 | −0.0003 |
+## 摘要 · 主表 C0–C4 / repair / CADR
 
-结论：**持平**；CADR 设计目标 test PSNR **+0.2** 未达。方法已落地可跑，代码保留。
+| ID | 含义 | test 要点 |
+|----|------|-----------|
+| **C0** | classic 粗训 | PSNR≈**27.11**（粗训最优） |
+| **C1** | SD1.5 repair | vs 旧 VGGT 粗训 dPSNR **+0.80** |
+| **C2 / A0** | RV51 无 CADR | vs C1 ≈**+0.10**（无实质涨点） |
+| **C3 / A3** | RV51 + 完整 CADR | vs C2 ≈**−0.003**（持平；目标 +0.2 未达） |
+| **C4** | abs16 无 CADR | **26.928**（vs A0 −0.038） |
 
-### abs16+CADR vs RV51（test，附录；2026-10-14）
+### CADR 分量（A-full，已归档）
 
-| | PSNR | SSIM | LPIPS |
-|--|-----:|-----:|------:|
-| RV51 | 26.967 | 0.9494 | 0.0399 |
-| abs16+CADR | 26.868 | 0.9491 | 0.0394 |
-| Δ | **−0.10** | −0.0002 | −0.0005 |
+详见 [`SUMMARY_repair_cadr.md`](SUMMARY_repair_cadr.md)。A2/A4 ≈持平微正；A5 −0.11（默认关）；目标 +0.2 未达。
 
-结论：换 AbsoluteReality + CADR **≈ 持平/略降**；不能单独归因 CADR。
+---
 
-### 待补
+## P2 已完成
 
-| 对照 | 说明 |
-|------|------|
-| CADR 消融 A2/A3（可选 A4/A5） | 同 RV51 LoRA，只改步骤 8 |
-| abs16 无 CADR（C4） | 隔离「换底模」与 CADR |
-| VGGT vs classic hull | 见 CSV `delta_pending` |
-| Drop 消融 | `2b_train_gs_drop_ablation.sh` |
-| 步数 sweep | 见根 [`README.md`](../../README.md) TODO |
+| 项 | 结果 |
+|----|------|
+| classic→RV51 repair | test 27.085（vs VGGT-RV51 +0.12） |
+| garden classic vs VGGT | 33.49 / 33.37（dPSNR −0.11） |
+
+## P3 已完成
+
+详见 [`SUMMARY_depthft_expand.md`](SUMMARY_depthft_expand.md) · [`SUMMARY_coarse_2x2.md`](SUMMARY_coarse_2x2.md)（iter 表）。
+
+| 项 | 结果（test） |
+|----|------|
+| PSNR–iter | classic≫VGGT 全程；10k dPSNR≈−1.53 |
+| depthft→RV51 / +CADR | 27.02 / 27.07 |
+| garden depthft | 33.53（≥ classic / orig VGGT） |
+
+**工作 A 主消融已齐。** 可选仅剩：V2 尺度对齐（非必须）；论文作图。
 
 ## 主对照跑法（RV51 ± CADR）
 
 ```bash
 cd 3DGS/GaussianObject/sh/lineB_gaussianobject
-# CADR：复用已有 *_rv51 LoRA，从步骤 8 起
 SD_CKPT=./models/Realistic_Vision_V5.1.safetensors \
 LORA_EXP=controlnet_finetune/kitchen_drop_rv51 \
 BASE_TAG=kitchen_drop_rv51 \
 USE_DROP=1 SKIP_PATH=1 bash 0_run_all.sh 8
-```
-
-附录 abs16（会写新目录 `*_abs16`，不覆盖 RV51）：
-
-```bash
-USE_DROP=1 SKIP_PATH=1 bash 0_run_all.sh 7   # 默认 SD_CKPT=absolutereality_v16
 ```

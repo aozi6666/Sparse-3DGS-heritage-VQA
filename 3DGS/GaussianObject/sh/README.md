@@ -42,7 +42,11 @@ export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
 cd 3DGS/GaussianObject/sh/lineB_gaussianobject
 bash 0_run_all.sh            # 全流程
 # bash 0_run_all.sh 5        # 粗训已完成时从 LOO 起
-# bash 2b_train_gs_drop_ablation.sh
+# bash run_iter_sweep_classic_vs_vggt.sh       # P3：PSNR–iter 3k/5k/7k/10k
+# bash run_depthft_mip360_repair_cadr.sh       # P3：depthft→RV51±CADR
+# bash run_garden_classic_vs_depthft_coarse.sh # P3：garden classic vs depthft
+# bash run_classic_rv51_repair.sh              # P2：classic粗训→RV51 repair
+# bash run_garden_classic_vs_vggt_coarse.sh    # P2：garden classic vs VGGT 粗训
 ```
 
 LoRA/repair 需 `3DGS/GaussianObject/models/`：**主线** `Realistic_Vision_V5.1.safetensors` + ControlNet-Tile（见 [`models/README.md`](../models/README.md)），以及完整 CLIP。默认 `LORA_EXP`/`REPAIR_TAG` 为 `*_rv51`。
