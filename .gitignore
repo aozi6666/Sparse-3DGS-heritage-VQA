@@ -190,6 +190,7 @@ kitchen_ddgs*/
 # 3DGS/eval_results/ is tracked
 
 # Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
+VQA/datas/                 # 本地评测数据集（ORCBench 等），不进 Git
 VQA/mage_vl/data/
 VQA/mage_vl/models/
 VQA/mage_vl/outputs/
