@@ -16,7 +16,7 @@
 | 工作 | 内容 | 本仓状态 |
 |------|------|----------|
 | **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian + LOO/LoRA/repair；**CADR** + 写实底模对照 | **主线可跑**（CADR / 底模已落地） |
-| **B · 视频问答 / 评测** | Mage-VL + **Query-IP（同 K 选区定稿）** + VLMEvalKit | **主表已定** [`VQA/`](VQA/) · [`eval_results/`](VQA/eval_results/) |
+| **B · 视频问答 / 评测** | Mage Frames-32＋连续字幕2048；Query-IP历史路线保留 | **冻结test225已完成**：163/225；详见最新结果总结 |
 
 更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。全文话术与流程图亦见仓外 [`毕设.md`](../毕设.md) / [`docs/thesis.md`](docs/thesis.md)。
 
@@ -101,7 +101,18 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 ---
 
-## 工作 B：Mage-VL + Query-IP 选区 + VLMEvalKit
+## 工作 B：Mage字幕增强（当前）
+
+## 当前结论（2026-11-03，字幕路线已完成冻结评测）
+
+保留Frames-32＋连续补句＋时间标记，固定2048字幕token；无训练、无Agent/API。test225三路正确数：无字幕140、原对齐154、连续163（72.44%）。相对无字幕净增23题／10.22个百分点，聚类95%区间[5.33,15.11]；相对原对齐净增9题／4个百分点，区间[-0.44,8.46]，尚不能证明补句独立显著优于原对齐。
+
+short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶段互斥覆盖本地714题／238视频，不能混称714题独立测试或官方完整基准。原对齐val90负结果、3072预算负结果及API pilot负结果全部保留。当前不再调字幕或重复跑本地full；Agent暂停，文旅闭环和重建对问答的贡献尚待验证。
+
+完整三路数据、分时长统计、5组图、成本和10个案例见[最新最终结果总结](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。历史内容若与本节不符，以本节及最新总结为准；历史实验不删除。
+
+
+### Query-IP历史路线（独立协议，不能与字幕结果直接混比）
 
 **应用场景（动机）：** 游客随拍、视角有限的景点问答——同一段短视频，问牌匾 vs 问屋檐，需要的视觉证据不同；Codec 按运动/残差选 Patch 未必对准问题；证据不足时应说明不确定（拒答需另做）。  
 **核心研究问题：** 有限视角下、**固定视觉 Token 预算**的**问题相关证据选择**（不是泛旅游聊天，也不是单纯压码率）。  
@@ -163,7 +174,7 @@ git submodule update --init --recursive   # DropGaussian_release 等
 - [ ] **VGGT vs classic hull** / **Drop 消融**：见 [`3DGS/eval_results/`](3DGS/eval_results/) CSV `delta_pending`。
 - [ ] **步数 sweep（论文图用）**：同一 VGGT+Drop+RV51 设定下，扫 LoRA `max_steps`（如 1200 / 1800 / 2400 / 3000）与 repair `max_steps`（如 3000 / 4000 / 6000），每档存 ply + test 指标再画曲线；**没跑完不要写「某某区间最好」**。
 
-### 工作 B · Query-IP / Mage
+### 工作 B · Query-IP / Mage（下列旧TODO为历史路线；当前字幕状态见上文）
 
 - [x] **同 K 主表 / 复现**：保留 `queryip`；vs random 点估计约 **+4 pp**（63.5 vs 59.5 @`clip_frame_n200`；主表曾 64.0）
 - [x] **失败消融归档**：bitcost；CLIP 帧 E4；区域 v1；**边界 edge**；方案 B **不做**

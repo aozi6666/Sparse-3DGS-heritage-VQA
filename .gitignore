@@ -200,3 +200,6 @@ VQA/VLMEvalKit/vlmeval_env/
 VQA/VLMEvalKit/ffmpeg_linux/
 VQA/**/outputs/**/*.pkl
 VQA/**/outputs/logs/
+
+# Local DeepSeek API credentials; keep example templates tracked
+/deepseek.env
