@@ -1,0 +1,47 @@
+cohort,scope,duration,method,correct,N,videos,accuracy,invalid_or_abstain
+dev180,"development, already used for method selection",overall,mage_codec_no_sub,111,180,60,0.6166666666666667,0
+dev180,"development, already used for method selection",overall,mage_frames32_no_sub,110,180,60,0.6111111111111112,0
+dev180,"development, already used for method selection",overall,aligned_sub_v1,117,180,60,0.65,0
+dev180,"development, already used for method selection",overall,continuous_time_v1,119,180,60,0.6611111111111111,0
+dev180,"development, already used for method selection",long,mage_codec_no_sub,48,84,28,0.5714285714285714,0
+dev180,"development, already used for method selection",long,mage_frames32_no_sub,50,84,28,0.5952380952380952,0
+dev180,"development, already used for method selection",long,aligned_sub_v1,50,84,28,0.5952380952380952,0
+dev180,"development, already used for method selection",long,continuous_time_v1,50,84,28,0.5952380952380952,0
+dev180,"development, already used for method selection",medium,mage_codec_no_sub,63,96,32,0.65625,0
+dev180,"development, already used for method selection",medium,mage_frames32_no_sub,60,96,32,0.625,0
+dev180,"development, already used for method selection",medium,aligned_sub_v1,67,96,32,0.6979166666666666,0
+dev180,"development, already used for method selection",medium,continuous_time_v1,69,96,32,0.71875,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,mage_codec_no_sub,19,40,31,0.475,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,mage_frames32_no_sub,13,40,31,0.325,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,aligned_sub_v1,20,40,31,0.5,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,continuous_time_v1,23,40,31,0.575,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,deepseek_independent,13,40,31,0.325,18
+api_pilot40,"development; selected by old predictions, enriched for disagreements",overall,mage_deepseek_review,16,40,31,0.4,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,mage_codec_no_sub,11,20,17,0.55,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,mage_frames32_no_sub,8,20,17,0.4,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,aligned_sub_v1,8,20,17,0.4,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,continuous_time_v1,10,20,17,0.5,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,deepseek_independent,5,20,17,0.25,10
+api_pilot40,"development; selected by old predictions, enriched for disagreements",long,mage_deepseek_review,8,20,17,0.4,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,mage_codec_no_sub,8,20,14,0.4,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,mage_frames32_no_sub,5,20,14,0.25,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,aligned_sub_v1,12,20,14,0.6,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,continuous_time_v1,13,20,14,0.65,0
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,deepseek_independent,8,20,14,0.4,8
+api_pilot40,"development; selected by old predictions, enriched for disagreements",medium,mage_deepseek_review,8,20,14,0.4,0
+short_smoke6,"interface smoke only, not representative short performance",overall,mage_codec_no_sub,5,6,2,0.8333333333333334,0
+short_smoke6,"interface smoke only, not representative short performance",overall,mage_frames32_no_sub,4,6,2,0.6666666666666666,0
+short_smoke6,"interface smoke only, not representative short performance",overall,aligned_sub_v1,4,6,2,0.6666666666666666,0
+short_smoke6,"interface smoke only, not representative short performance",overall,continuous_time_v1,4,6,2,0.6666666666666666,0
+short_smoke6,"interface smoke only, not representative short performance",short,mage_codec_no_sub,5,6,2,0.8333333333333334,0
+short_smoke6,"interface smoke only, not representative short performance",short,mage_frames32_no_sub,4,6,2,0.6666666666666666,0
+short_smoke6,"interface smoke only, not representative short performance",short,aligned_sub_v1,4,6,2,0.6666666666666666,0
+short_smoke6,"interface smoke only, not representative short performance",short,continuous_time_v1,4,6,2,0.6666666666666666,0
+historical_short219,"historical R2V development pool, enhanced full short runs absent",short,mage_codec_no_sub,166,219,73,0.7579908675799086,0
+historical_short219,"historical R2V development pool, enhanced full short runs absent",short,mage_frames32_no_sub,171,219,73,0.7808219178082192,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,overall,mage_frames32_no_sub,53,90,30,0.5888888888888889,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,overall,aligned_sub_v1,52,90,30,0.5777777777777777,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,long,mage_frames32_no_sub,22,42,14,0.5238095238095238,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,long,aligned_sub_v1,22,42,14,0.5238095238095238,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,medium,mage_frames32_no_sub,31,48,16,0.6458333333333334,0
+val90_original_aligned,validation subsequently used for diagnosis; no continuous/API evaluation,medium,aligned_sub_v1,30,48,16,0.625,0

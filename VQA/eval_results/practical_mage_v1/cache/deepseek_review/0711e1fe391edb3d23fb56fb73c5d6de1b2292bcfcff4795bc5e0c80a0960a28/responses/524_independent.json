@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "5ef243c97094ead673c56ec69e9c910ce06fed89d18d86f584a4d53b730a57ba",
+  "response": {
+    "id": "d03a88b4-f295-4697-953e-cbb37347433e",
+    "object": "chat.completion",
+    "created": 1793675949,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"B\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S630\",\"quote\":\"this court has heard a case where twins could potentially\"},{\"block_id\":\"S651\",\"quote\":\"related to beautiful twins Christian and Christiana and their mother Miss Davis says she believes that the twins were fathered by two different men\"},{\"block_id\":\"S422\",\"quote\":\"find out if they're mine or Not\"}],\"frame_ids\":[\"F46319\",\"F50179\",\"F30879\"],\"windows\":[],\"notes\":\"Second case (Johnson v. Davis) concerns twins Christian and Christiana; mother claims twins fathered by two different men, and Mr. Johnson seeks to find out if they are his. Focus is whether the man is biological father of the twins.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9252,
+      "completion_tokens": 168,
+      "total_tokens": 9420,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9124
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.2247220911085606
+}

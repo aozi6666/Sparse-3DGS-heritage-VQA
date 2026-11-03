@@ -1,0 +1,1432 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "4qYqPmIO0v0",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4qYqPmIO0v0.srt",
+        "status": "available",
+        "bytes": 94853,
+        "sha256": "67ece9f2eec10858c5603a710445107e8a86ef846ee2265641d38d515a728639",
+        "cues": 926,
+        "nonempty_cues": 926
+      },
+      "frame_indices": [
+        0,
+        3152,
+        6303,
+        9455,
+        12607,
+        15759,
+        18910,
+        22062,
+        25214,
+        28365,
+        31517,
+        34669,
+        37821,
+        40972,
+        44124,
+        47276,
+        50427,
+        53579,
+        56731,
+        59882,
+        63034,
+        66186,
+        69338,
+        72489,
+        75641,
+        78793,
+        81944,
+        85096,
+        88248,
+        91400,
+        94551,
+        97703
+      ],
+      "frame_seconds": [
+        0.0,
+        105.635222,
+        211.23693,
+        316.872152,
+        422.507375,
+        528.142597,
+        633.7443049999999,
+        739.379527,
+        845.014749,
+        950.616457,
+        1056.251679,
+        1161.886902,
+        1267.522124,
+        1373.123832,
+        1478.759054,
+        1584.394276,
+        1689.995984,
+        1795.631207,
+        1901.266429,
+        2006.868137,
+        2112.503359,
+        2218.138581,
+        2323.773803,
+        2429.375511,
+        2535.010734,
+        2640.645956,
+        2746.247664,
+        2851.882886,
+        2957.518108,
+        3063.15333,
+        3168.755038,
+        3274.390261
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [],
+        [
+          53,
+          54
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          122,
+          123
+        ],
+        [
+          150,
+          151
+        ],
+        [],
+        [
+          215,
+          216
+        ],
+        [
+          242,
+          243
+        ],
+        [
+          269,
+          270
+        ],
+        [
+          296
+        ],
+        [
+          331,
+          332
+        ],
+        [
+          358,
+          359
+        ],
+        [
+          395,
+          396
+        ],
+        [
+          431,
+          432
+        ],
+        [],
+        [
+          478,
+          479
+        ],
+        [
+          515,
+          516
+        ],
+        [
+          551,
+          552
+        ],
+        [
+          586,
+          587
+        ],
+        [
+          618,
+          619
+        ],
+        [
+          652,
+          653
+        ],
+        [
+          677,
+          678
+        ],
+        [
+          704,
+          705
+        ],
+        [
+          731,
+          732
+        ],
+        [
+          762,
+          763
+        ],
+        [
+          798,
+          799
+        ],
+        [
+          826
+        ],
+        [
+          849
+        ],
+        [
+          875
+        ],
+        [
+          900,
+          901
+        ],
+        [
+          925,
+          926
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 3169,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 207000,
+          "end_ms": 212640,
+          "text": "inside sabonis finishes strong you can"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 210319,
+          "end_ms": 214840,
+          "text": "see how comfortable he is shooting at"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 312919,
+          "end_ms": 317400,
+          "text": "going to look to take advantage of any"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 314919,
+          "end_ms": 320120,
+          "text": "weakness we have to really communicate"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 416919,
+          "end_ms": 422520,
+          "text": "his hustle leaving the defense no time"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 419680,
+          "end_ms": 423960,
+          "text": "to react and how about then not settling"
+        },
+        {
+          "cue_id": 150,
+          "start_ms": 523159,
+          "end_ms": 531600,
+          "text": "substitution for the"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 526260,
+          "end_ms": 534779,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 737600,
+          "end_ms": 743519,
+          "text": "story"
+        },
+        {
+          "cue_id": 216,
+          "start_ms": 739279,
+          "end_ms": 743519,
+          "text": "miches that's tipped"
+        },
+        {
+          "cue_id": 242,
+          "start_ms": 841240,
+          "end_ms": 845519,
+          "text": "look frustrated seeing so many of their"
+        },
+        {
+          "cue_id": 243,
+          "start_ms": 842959,
+          "end_ms": 845519,
+          "text": "shots get"
+        },
+        {
+          "cue_id": 269,
+          "start_ms": 945560,
+          "end_ms": 950690,
+          "text": "digits throws it up high oh a nice"
+        },
+        {
+          "cue_id": 270,
+          "start_ms": 948720,
+          "end_ms": 955969,
+          "text": "defensive play to disrupt the"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 1053640,
+          "end_ms": 1058640,
+          "text": "Mark to the"
+        },
+        {
+          "cue_id": 331,
+          "start_ms": 1155559,
+          "end_ms": 1164319,
+          "text": "played here in the second quarter"
+        },
+        {
+          "cue_id": 332,
+          "start_ms": 1158420,
+          "end_ms": 1164319,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 358,
+          "start_ms": 1262200,
+          "end_ms": 1268280,
+          "text": "five and just no excuse guys for leaving"
+        },
+        {
+          "cue_id": 359,
+          "start_ms": 1265000,
+          "end_ms": 1269880,
+          "text": "a shooter like him open beyond the arc"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 1368679,
+          "end_ms": 1374520,
+          "text": "on the boards in one trip down the floor"
+        },
+        {
+          "cue_id": 396,
+          "start_ms": 1372000,
+          "end_ms": 1376880,
+          "text": "yeah they've shown effort and aggression"
+        },
+        {
+          "cue_id": 431,
+          "start_ms": 1471790,
+          "end_ms": 1479549,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 432,
+          "start_ms": 1474700,
+          "end_ms": 1479549,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 478,
+          "start_ms": 1683200,
+          "end_ms": 1690320,
+          "text": "halftime the 2K sports half"
+        },
+        {
+          "cue_id": 479,
+          "start_ms": 1687080,
+          "end_ms": 1692320,
+          "text": "time welcome back to 2K Sports everybody"
+        },
+        {
+          "cue_id": 515,
+          "start_ms": 1792760,
+          "end_ms": 1796880,
+          "text": "three-pointer is Right On Target but the"
+        },
+        {
+          "cue_id": 516,
+          "start_ms": 1795080,
+          "end_ms": 1801279,
+          "text": "D didn't do a good enough job on him he"
+        },
+        {
+          "cue_id": 551,
+          "start_ms": 1897639,
+          "end_ms": 1903639,
+          "text": "Easy Money"
+        },
+        {
+          "cue_id": 552,
+          "start_ms": 1899840,
+          "end_ms": 1903639,
+          "text": "Baby now the dish to"
+        },
+        {
+          "cue_id": 586,
+          "start_ms": 2003120,
+          "end_ms": 2007799,
+          "text": "passing big men in the league today and"
+        },
+        {
+          "cue_id": 587,
+          "start_ms": 2005360,
+          "end_ms": 2008480,
+          "text": "sabonis right up there with them"
+        },
+        {
+          "cue_id": 618,
+          "start_ms": 2109230,
+          "end_ms": 2113730,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 619,
+          "start_ms": 2112400,
+          "end_ms": 2119250,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 652,
+          "start_ms": 2212319,
+          "end_ms": 2218480,
+          "text": "near the bucket and then just pinpoint"
+        },
+        {
+          "cue_id": 653,
+          "start_ms": 2214640,
+          "end_ms": 2218480,
+          "text": "passing for the Finish"
+        },
+        {
+          "cue_id": 677,
+          "start_ms": 2319079,
+          "end_ms": 2326280,
+          "text": "foul first team foul checking in for the"
+        },
+        {
+          "cue_id": 678,
+          "start_ms": 2322960,
+          "end_ms": 2326280,
+          "text": "away team"
+        },
+        {
+          "cue_id": 704,
+          "start_ms": 2427160,
+          "end_ms": 2431160,
+          "text": "give get worse if he keeps throwing up"
+        },
+        {
+          "cue_id": 705,
+          "start_ms": 2428560,
+          "end_ms": 2431160,
+          "text": "shots like"
+        },
+        {
+          "cue_id": 731,
+          "start_ms": 2532000,
+          "end_ms": 2537079,
+          "text": "offense he sees and anticipates what the"
+        },
+        {
+          "cue_id": 732,
+          "start_ms": 2534560,
+          "end_ms": 2537079,
+          "text": "defense is"
+        },
+        {
+          "cue_id": 762,
+          "start_ms": 2637240,
+          "end_ms": 2642920,
+          "text": "they need a good offensive possession"
+        },
+        {
+          "cue_id": 763,
+          "start_ms": 2639319,
+          "end_ms": 2642920,
+          "text": "yeah they've gone a long time without a"
+        },
+        {
+          "cue_id": 798,
+          "start_ms": 2742920,
+          "end_ms": 2748160,
+          "text": "so and he lays it straight in you got to"
+        },
+        {
+          "cue_id": 799,
+          "start_ms": 2746079,
+          "end_ms": 2751119,
+          "text": "do more than that to keep the ball out"
+        },
+        {
+          "cue_id": 826,
+          "start_ms": 2849870,
+          "end_ms": 2852949,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 849,
+          "start_ms": 2955599,
+          "end_ms": 2960799,
+          "text": "range to the wing on the left pulls up"
+        },
+        {
+          "cue_id": 875,
+          "start_ms": 3060880,
+          "end_ms": 3065960,
+          "text": "blanked uses the glass to finish the"
+        },
+        {
+          "cue_id": 900,
+          "start_ms": 3166920,
+          "end_ms": 3172319,
+          "text": "shot so he'll be shooting free throws"
+        },
+        {
+          "cue_id": 901,
+          "start_ms": 3168480,
+          "end_ms": 3172319,
+          "text": "here personal foul second team"
+        },
+        {
+          "cue_id": 925,
+          "start_ms": 3271890,
+          "end_ms": 3276260,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 926,
+          "start_ms": 3272350,
+          "end_ms": 3276260,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Applause]\ninside sabonis finishes strong you can\nsee how comfortable he is shooting at\ngoing to look to take advantage of any\nweakness we have to really communicate\nhis hustle leaving the defense no time\nto react and how about then not settling\nsubstitution for the\n[Applause]\nstory\nmiches that's tipped\nlook frustrated seeing so many of their\nshots get\ndigits throws it up high oh a nice\ndefensive play to disrupt the\nMark to the\nplayed here in the second quarter\n[Applause]\nfive and just no excuse guys for leaving\na shooter like him open beyond the arc\non the boards in one trip down the floor\nyeah they've shown effort and aggression\n[Applause]\n[Music]\nhalftime the 2K sports half\ntime welcome back to 2K Sports everybody\nthree-pointer is Right On Target but the\nD didn't do a good enough job on him he\nEasy Money\nBaby now the dish to\npassing big men in the league today and\nsabonis right up there with them\n[Applause]\n[Music]\nnear the bucket and then just pinpoint\npassing for the Finish\nfoul first team foul checking in for the\naway team\ngive get worse if he keeps throwing up\nshots like\noffense he sees and anticipates what the\ndefense is\nthey need a good offensive possession\nyeah they've gone a long time without a\nso and he lays it straight in you got to\ndo more than that to keep the ball out\n[Music]\nrange to the wing on the left pulls up\nblanked uses the glass to finish the\nshot so he'll be shooting free throws\nhere personal foul second team\n[Applause]\n[Music]",
+      "text_tokens": 372,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "4qYqPmIO0v0",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4qYqPmIO0v0.srt",
+          "status": "available",
+          "bytes": 94853,
+          "sha256": "67ece9f2eec10858c5603a710445107e8a86ef846ee2265641d38d515a728639",
+          "cues": 926,
+          "nonempty_cues": 926
+        },
+        "frame_indices": [
+          0,
+          3152,
+          6303,
+          9455,
+          12607,
+          15759,
+          18910,
+          22062,
+          25214,
+          28365,
+          31517,
+          34669,
+          37821,
+          40972,
+          44124,
+          47276,
+          50427,
+          53579,
+          56731,
+          59882,
+          63034,
+          66186,
+          69338,
+          72489,
+          75641,
+          78793,
+          81944,
+          85096,
+          88248,
+          91400,
+          94551,
+          97703
+        ],
+        "frame_seconds": [
+          0.0,
+          105.635222,
+          211.23693,
+          316.872152,
+          422.507375,
+          528.142597,
+          633.7443049999999,
+          739.379527,
+          845.014749,
+          950.616457,
+          1056.251679,
+          1161.886902,
+          1267.522124,
+          1373.123832,
+          1478.759054,
+          1584.394276,
+          1689.995984,
+          1795.631207,
+          1901.266429,
+          2006.868137,
+          2112.503359,
+          2218.138581,
+          2323.773803,
+          2429.375511,
+          2535.010734,
+          2640.645956,
+          2746.247664,
+          2851.882886,
+          2957.518108,
+          3063.15333,
+          3168.755038,
+          3274.390261
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [],
+          [
+            53,
+            54
+          ],
+          [
+            85,
+            86
+          ],
+          [
+            122,
+            123
+          ],
+          [
+            150,
+            151
+          ],
+          [],
+          [
+            215,
+            216
+          ],
+          [
+            242,
+            243
+          ],
+          [
+            269,
+            270
+          ],
+          [
+            296
+          ],
+          [
+            331,
+            332
+          ],
+          [
+            358,
+            359
+          ],
+          [
+            395,
+            396
+          ],
+          [
+            431,
+            432
+          ],
+          [],
+          [
+            478,
+            479
+          ],
+          [
+            515,
+            516
+          ],
+          [
+            551,
+            552
+          ],
+          [
+            586,
+            587
+          ],
+          [
+            618,
+            619
+          ],
+          [
+            652,
+            653
+          ],
+          [
+            677,
+            678
+          ],
+          [
+            704,
+            705
+          ],
+          [
+            731,
+            732
+          ],
+          [
+            762,
+            763
+          ],
+          [
+            798,
+            799
+          ],
+          [
+            826
+          ],
+          [
+            849
+          ],
+          [
+            875
+          ],
+          [
+            900,
+            901
+          ],
+          [
+            925,
+            926
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 3169,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 207000,
+            "end_ms": 212640,
+            "text": "inside sabonis finishes strong you can"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 210319,
+            "end_ms": 214840,
+            "text": "see how comfortable he is shooting at"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 312919,
+            "end_ms": 317400,
+            "text": "going to look to take advantage of any"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 314919,
+            "end_ms": 320120,
+            "text": "weakness we have to really communicate"
+          },
+          {
+            "cue_id": 122,
+            "start_ms": 416919,
+            "end_ms": 422520,
+            "text": "his hustle leaving the defense no time"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 419680,
+            "end_ms": 423960,
+            "text": "to react and how about then not settling"
+          },
+          {
+            "cue_id": 150,
+            "start_ms": 523159,
+            "end_ms": 531600,
+            "text": "substitution for the"
+          },
+          {
+            "cue_id": 151,
+            "start_ms": 526260,
+            "end_ms": 534779,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 737600,
+            "end_ms": 743519,
+            "text": "story"
+          },
+          {
+            "cue_id": 216,
+            "start_ms": 739279,
+            "end_ms": 743519,
+            "text": "miches that's tipped"
+          },
+          {
+            "cue_id": 242,
+            "start_ms": 841240,
+            "end_ms": 845519,
+            "text": "look frustrated seeing so many of their"
+          },
+          {
+            "cue_id": 243,
+            "start_ms": 842959,
+            "end_ms": 845519,
+            "text": "shots get"
+          },
+          {
+            "cue_id": 269,
+            "start_ms": 945560,
+            "end_ms": 950690,
+            "text": "digits throws it up high oh a nice"
+          },
+          {
+            "cue_id": 270,
+            "start_ms": 948720,
+            "end_ms": 955969,
+            "text": "defensive play to disrupt the"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 1053640,
+            "end_ms": 1058640,
+            "text": "Mark to the"
+          },
+          {
+            "cue_id": 331,
+            "start_ms": 1155559,
+            "end_ms": 1164319,
+            "text": "played here in the second quarter"
+          },
+          {
+            "cue_id": 332,
+            "start_ms": 1158420,
+            "end_ms": 1164319,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 358,
+            "start_ms": 1262200,
+            "end_ms": 1268280,
+            "text": "five and just no excuse guys for leaving"
+          },
+          {
+            "cue_id": 359,
+            "start_ms": 1265000,
+            "end_ms": 1269880,
+            "text": "a shooter like him open beyond the arc"
+          },
+          {
+            "cue_id": 395,
+            "start_ms": 1368679,
+            "end_ms": 1374520,
+            "text": "on the boards in one trip down the floor"
+          },
+          {
+            "cue_id": 396,
+            "start_ms": 1372000,
+            "end_ms": 1376880,
+            "text": "yeah they've shown effort and aggression"
+          },
+          {
+            "cue_id": 431,
+            "start_ms": 1471790,
+            "end_ms": 1479549,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 432,
+            "start_ms": 1474700,
+            "end_ms": 1479549,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 478,
+            "start_ms": 1683200,
+            "end_ms": 1690320,
+            "text": "halftime the 2K sports half"
+          },
+          {
+            "cue_id": 479,
+            "start_ms": 1687080,
+            "end_ms": 1692320,
+            "text": "time welcome back to 2K Sports everybody"
+          },
+          {
+            "cue_id": 515,
+            "start_ms": 1792760,
+            "end_ms": 1796880,
+            "text": "three-pointer is Right On Target but the"
+          },
+          {
+            "cue_id": 516,
+            "start_ms": 1795080,
+            "end_ms": 1801279,
+            "text": "D didn't do a good enough job on him he"
+          },
+          {
+            "cue_id": 551,
+            "start_ms": 1897639,
+            "end_ms": 1903639,
+            "text": "Easy Money"
+          },
+          {
+            "cue_id": 552,
+            "start_ms": 1899840,
+            "end_ms": 1903639,
+            "text": "Baby now the dish to"
+          },
+          {
+            "cue_id": 586,
+            "start_ms": 2003120,
+            "end_ms": 2007799,
+            "text": "passing big men in the league today and"
+          },
+          {
+            "cue_id": 587,
+            "start_ms": 2005360,
+            "end_ms": 2008480,
+            "text": "sabonis right up there with them"
+          },
+          {
+            "cue_id": 618,
+            "start_ms": 2109230,
+            "end_ms": 2113730,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 619,
+            "start_ms": 2112400,
+            "end_ms": 2119250,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 652,
+            "start_ms": 2212319,
+            "end_ms": 2218480,
+            "text": "near the bucket and then just pinpoint"
+          },
+          {
+            "cue_id": 653,
+            "start_ms": 2214640,
+            "end_ms": 2218480,
+            "text": "passing for the Finish"
+          },
+          {
+            "cue_id": 677,
+            "start_ms": 2319079,
+            "end_ms": 2326280,
+            "text": "foul first team foul checking in for the"
+          },
+          {
+            "cue_id": 678,
+            "start_ms": 2322960,
+            "end_ms": 2326280,
+            "text": "away team"
+          },
+          {
+            "cue_id": 704,
+            "start_ms": 2427160,
+            "end_ms": 2431160,
+            "text": "give get worse if he keeps throwing up"
+          },
+          {
+            "cue_id": 705,
+            "start_ms": 2428560,
+            "end_ms": 2431160,
+            "text": "shots like"
+          },
+          {
+            "cue_id": 731,
+            "start_ms": 2532000,
+            "end_ms": 2537079,
+            "text": "offense he sees and anticipates what the"
+          },
+          {
+            "cue_id": 732,
+            "start_ms": 2534560,
+            "end_ms": 2537079,
+            "text": "defense is"
+          },
+          {
+            "cue_id": 762,
+            "start_ms": 2637240,
+            "end_ms": 2642920,
+            "text": "they need a good offensive possession"
+          },
+          {
+            "cue_id": 763,
+            "start_ms": 2639319,
+            "end_ms": 2642920,
+            "text": "yeah they've gone a long time without a"
+          },
+          {
+            "cue_id": 798,
+            "start_ms": 2742920,
+            "end_ms": 2748160,
+            "text": "so and he lays it straight in you got to"
+          },
+          {
+            "cue_id": 799,
+            "start_ms": 2746079,
+            "end_ms": 2751119,
+            "text": "do more than that to keep the ball out"
+          },
+          {
+            "cue_id": 826,
+            "start_ms": 2849870,
+            "end_ms": 2852949,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 849,
+            "start_ms": 2955599,
+            "end_ms": 2960799,
+            "text": "range to the wing on the left pulls up"
+          },
+          {
+            "cue_id": 875,
+            "start_ms": 3060880,
+            "end_ms": 3065960,
+            "text": "blanked uses the glass to finish the"
+          },
+          {
+            "cue_id": 900,
+            "start_ms": 3166920,
+            "end_ms": 3172319,
+            "text": "shot so he'll be shooting free throws"
+          },
+          {
+            "cue_id": 901,
+            "start_ms": 3168480,
+            "end_ms": 3172319,
+            "text": "here personal foul second team"
+          },
+          {
+            "cue_id": 925,
+            "start_ms": 3271890,
+            "end_ms": 3276260,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 926,
+            "start_ms": 3272350,
+            "end_ms": 3276260,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Applause]\ninside sabonis finishes strong you can\nsee how comfortable he is shooting at\ngoing to look to take advantage of any\nweakness we have to really communicate\nhis hustle leaving the defense no time\nto react and how about then not settling\nsubstitution for the\n[Applause]\nstory\nmiches that's tipped\nlook frustrated seeing so many of their\nshots get\ndigits throws it up high oh a nice\ndefensive play to disrupt the\nMark to the\nplayed here in the second quarter\n[Applause]\nfive and just no excuse guys for leaving\na shooter like him open beyond the arc\non the boards in one trip down the floor\nyeah they've shown effort and aggression\n[Applause]\n[Music]\nhalftime the 2K sports half\ntime welcome back to 2K Sports everybody\nthree-pointer is Right On Target but the\nD didn't do a good enough job on him he\nEasy Money\nBaby now the dish to\npassing big men in the league today and\nsabonis right up there with them\n[Applause]\n[Music]\nnear the bucket and then just pinpoint\npassing for the Finish\nfoul first team foul checking in for the\naway team\ngive get worse if he keeps throwing up\nshots like\noffense he sees and anticipates what the\ndefense is\nthey need a good offensive possession\nyeah they've gone a long time without a\nso and he lays it straight in you got to\ndo more than that to keep the ball out\n[Music]\nrange to the wing on the left pulls up\nblanked uses the glass to finish the\nshot so he'll be shooting free throws\nhere personal foul second team\n[Applause]\n[Music]",
+        "text_tokens": 372,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 10200,
+          "text": "[Applause] hi wait to get some NBA action going"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "start_ms": 203720,
+          "end_ms": 214840,
+          "text": "inside sabonis with the bucket getting inside sabonis finishes strong you can see how comfortable he is shooting at that"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "start_ms": 310759,
+          "end_ms": 321680,
+          "text": "opportunistic he said those guys are going to look to take advantage of any weakness we have to really communicate defensively tonight guys back to you"
+        },
+        {
+          "id": "S121",
+          "cue_ids": [
+            121,
+            122,
+            123,
+            124
+          ],
+          "start_ms": 414159,
+          "end_ms": 426260,
+          "text": "a second and five tries you got to love his hustle leaving the defense no time to react and how about then not settling I mean instead of being lazy with the"
+        },
+        {
+          "id": "S150",
+          "cue_ids": [
+            150,
+            151,
+            152
+          ],
+          "start_ms": 523159,
+          "end_ms": 534779,
+          "text": "substitution for the [Applause] [Music]"
+        },
+        {
+          "id": "S214",
+          "cue_ids": [
+            214,
+            215,
+            216
+          ],
+          "start_ms": 734279,
+          "end_ms": 743519,
+          "text": "scoreboard tells the story miches that's tipped"
+        },
+        {
+          "id": "S241",
+          "cue_ids": [
+            241,
+            242,
+            243
+          ],
+          "start_ms": 838519,
+          "end_ms": 845519,
+          "text": "showing no mercy right now the shooters look frustrated seeing so many of their shots get"
+        },
+        {
+          "id": "S268",
+          "cue_ids": [
+            268,
+            269,
+            270,
+            271
+          ],
+          "start_ms": 943839,
+          "end_ms": 955969,
+          "text": "cut it to single digits throws it up high oh a nice defensive play to disrupt the [Applause]"
+        },
+        {
+          "id": "S295",
+          "cue_ids": [
+            295,
+            296,
+            297
+          ],
+          "start_ms": 1049799,
+          "end_ms": 1061400,
+          "text": "that shot Off the Mark to the paint it's"
+        },
+        {
+          "id": "S330",
+          "cue_ids": [
+            330,
+            331,
+            332
+          ],
+          "start_ms": 1153159,
+          "end_ms": 1164319,
+          "text": "back and just over three and A2 minutes played here in the second quarter [Applause]"
+        },
+        {
+          "id": "S357",
+          "cue_ids": [
+            357,
+            358,
+            359,
+            360
+          ],
+          "start_ms": 1259600,
+          "end_ms": 1271919,
+          "text": "good on the three-point shot he's got five and just no excuse guys for leaving a shooter like him open beyond the arc he get a chance now to catch up with the"
+        },
+        {
+          "id": "S394",
+          "cue_ids": [
+            394,
+            395,
+            396,
+            397
+          ],
+          "start_ms": 1366600,
+          "end_ms": 1380440,
+          "text": "finally get it to go a full night's work on the boards in one trip down the floor yeah they've shown effort and aggression in the paint really right from the tip"
+        },
+        {
+          "id": "S430",
+          "cue_ids": [
+            430,
+            431,
+            432
+          ],
+          "start_ms": 1467360,
+          "end_ms": 1479549,
+          "text": "that's not going to help you score [Applause] [Music]"
+        },
+        {
+          "id": "S478",
+          "cue_ids": [
+            478,
+            479,
+            480
+          ],
+          "start_ms": 1683200,
+          "end_ms": 1695320,
+          "text": "halftime the 2K sports half time welcome back to 2K Sports everybody Ernie Johnson Shaquille O'Neal Kenny the"
+        },
+        {
+          "id": "S514",
+          "cue_ids": [
+            514,
+            515,
+            516,
+            517
+          ],
+          "start_ms": 1788799,
+          "end_ms": 1805159,
+          "text": "four pass to Hopkins a three ball the three-pointer is Right On Target but the D didn't do a good enough job on him he can be a ace when he gets a good look at"
+        },
+        {
+          "id": "S550",
+          "cue_ids": [
+            550,
+            551,
+            552,
+            553
+          ],
+          "start_ms": 1894840,
+          "end_ms": 1909840,
+          "text": "can shoot it from deep but the dunk is Easy Money Baby now the dish to Allen and there's the pass to"
+        },
+        {
+          "id": "S585",
+          "cue_ids": [
+            585,
+            586,
+            587,
+            588
+          ],
+          "start_ms": 2000480,
+          "end_ms": 2018470,
+          "text": "game and there are a lot of slick passing big men in the league today and sabonis right up there with them terrific"
+        },
+        {
+          "id": "S617",
+          "cue_ids": [
+            617,
+            618,
+            619,
+            620
+          ],
+          "start_ms": 2105880,
+          "end_ms": 2119250,
+          "text": "get ready for the death squad [Applause] [Music] [Applause]"
+        },
+        {
+          "id": "S651",
+          "cue_ids": [
+            651,
+            652,
+            653,
+            654
+          ],
+          "start_ms": 2209839,
+          "end_ms": 2226400,
+          "text": "really a good job spotting his teammate near the bucket and then just pinpoint passing for the Finish here's Keller and Damon sabonis pulls it"
+        },
+        {
+          "id": "S676",
+          "cue_ids": [
+            676,
+            677,
+            678,
+            679
+          ],
+          "start_ms": 2315640,
+          "end_ms": 2343179,
+          "text": "knocks it Loose team foul first personal foul first team foul checking in for the away team [Applause]"
+        },
+        {
+          "id": "S703",
+          "cue_ids": [
+            703,
+            704,
+            705,
+            706
+          ],
+          "start_ms": 2425960,
+          "end_ms": 2437680,
+          "text": "night from the field is only going to give get worse if he keeps throwing up shots like that 51 seconds left to play in the"
+        },
+        {
+          "id": "S730",
+          "cue_ids": [
+            730,
+            731,
+            732
+          ],
+          "start_ms": 2529720,
+          "end_ms": 2537079,
+          "text": "beauty this is how you quarterback in offense he sees and anticipates what the defense is"
+        },
+        {
+          "id": "S761",
+          "cue_ids": [
+            761,
+            762,
+            763
+          ],
+          "start_ms": 2632280,
+          "end_ms": 2642920,
+          "text": "basketball right there they need a good offensive possession yeah they've gone a long time without a"
+        },
+        {
+          "id": "S797",
+          "cue_ids": [
+            797,
+            798,
+            799,
+            800
+          ],
+          "start_ms": 2738000,
+          "end_ms": 2753800,
+          "text": "is well within his range I would hope so and he lays it straight in you got to do more than that to keep the ball out of his hands down low oh they must ramp"
+        },
+        {
+          "id": "S825",
+          "cue_ids": [
+            825,
+            826
+          ],
+          "start_ms": 2846150,
+          "end_ms": 2852949,
+          "text": "[Applause] [Music]"
+        },
+        {
+          "id": "S849",
+          "cue_ids": [
+            849,
+            850
+          ],
+          "start_ms": 2955599,
+          "end_ms": 2964280,
+          "text": "range to the wing on the left pulls up from the corner shot is good off the B"
+        },
+        {
+          "id": "S874",
+          "cue_ids": [
+            874,
+            875,
+            876
+          ],
+          "start_ms": 3056880,
+          "end_ms": 3068480,
+          "text": "the D has him blanked uses the glass to finish the layup nice job getting inside for the"
+        },
+        {
+          "id": "S899",
+          "cue_ids": [
+            899,
+            900,
+            901,
+            902
+          ],
+          "start_ms": 3163079,
+          "end_ms": 3179119,
+          "text": "deal driving the lane and contact on the shot so he'll be shooting free throws here personal foul second team [Music]"
+        },
+        {
+          "id": "S924",
+          "cue_ids": [
+            924,
+            925,
+            926
+          ],
+          "start_ms": 3269210,
+          "end_ms": 3276260,
+          "text": "[Music] [Applause] [Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:10.200] [Applause] hi wait to get some NBA action going\nS52 [00:03:23.720 --> 00:03:34.840] inside sabonis with the bucket getting inside sabonis finishes strong you can see how comfortable he is shooting at that\nS84 [00:05:10.759 --> 00:05:21.680] opportunistic he said those guys are going to look to take advantage of any weakness we have to really communicate defensively tonight guys back to you\nS121 [00:06:54.159 --> 00:07:06.260] a second and five tries you got to love his hustle leaving the defense no time to react and how about then not settling I mean instead of being lazy with the\nS150 [00:08:43.159 --> 00:08:54.779] substitution for the [Applause] [Music]\nS214 [00:12:14.279 --> 00:12:23.519] scoreboard tells the story miches that's tipped\nS241 [00:13:58.519 --> 00:14:05.519] showing no mercy right now the shooters look frustrated seeing so many of their shots get\nS268 [00:15:43.839 --> 00:15:55.969] cut it to single digits throws it up high oh a nice defensive play to disrupt the [Applause]\nS295 [00:17:29.799 --> 00:17:41.400] that shot Off the Mark to the paint it's\nS330 [00:19:13.159 --> 00:19:24.319] back and just over three and A2 minutes played here in the second quarter [Applause]\nS357 [00:20:59.600 --> 00:21:11.919] good on the three-point shot he's got five and just no excuse guys for leaving a shooter like him open beyond the arc he get a chance now to catch up with the\nS394 [00:22:46.600 --> 00:23:00.440] finally get it to go a full night's work on the boards in one trip down the floor yeah they've shown effort and aggression in the paint really right from the tip\nS430 [00:24:27.360 --> 00:24:39.549] that's not going to help you score [Applause] [Music]\nS478 [00:28:03.200 --> 00:28:15.320] halftime the 2K sports half time welcome back to 2K Sports everybody Ernie Johnson Shaquille O'Neal Kenny the\nS514 [00:29:48.799 --> 00:30:05.159] four pass to Hopkins a three ball the three-pointer is Right On Target but the D didn't do a good enough job on him he can be a ace when he gets a good look at\nS550 [00:31:34.840 --> 00:31:49.840] can shoot it from deep but the dunk is Easy Money Baby now the dish to Allen and there's the pass to\nS585 [00:33:20.480 --> 00:33:38.470] game and there are a lot of slick passing big men in the league today and sabonis right up there with them terrific\nS617 [00:35:05.880 --> 00:35:19.250] get ready for the death squad [Applause] [Music] [Applause]\nS651 [00:36:49.839 --> 00:37:06.400] really a good job spotting his teammate near the bucket and then just pinpoint passing for the Finish here's Keller and Damon sabonis pulls it\nS676 [00:38:35.640 --> 00:39:03.179] knocks it Loose team foul first personal foul first team foul checking in for the away team [Applause]\nS703 [00:40:25.960 --> 00:40:37.680] night from the field is only going to give get worse if he keeps throwing up shots like that 51 seconds left to play in the\nS730 [00:42:09.720 --> 00:42:17.079] beauty this is how you quarterback in offense he sees and anticipates what the defense is\nS761 [00:43:52.280 --> 00:44:02.920] basketball right there they need a good offensive possession yeah they've gone a long time without a\nS797 [00:45:38.000 --> 00:45:53.800] is well within his range I would hope so and he lays it straight in you got to do more than that to keep the ball out of his hands down low oh they must ramp\nS825 [00:47:26.150 --> 00:47:32.949] [Applause] [Music]\nS849 [00:49:15.599 --> 00:49:24.280] range to the wing on the left pulls up from the corner shot is good off the B\nS874 [00:50:56.880 --> 00:51:08.480] the D has him blanked uses the glass to finish the layup nice job getting inside for the\nS899 [00:52:43.079 --> 00:52:59.119] deal driving the lane and contact on the shot so he'll be shooting free throws here personal foul second team [Music]\nS924 [00:54:29.210 --> 00:54:36.260] [Music] [Applause] [Music]",
+      "text_tokens": 1571,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        52,
+        55,
+        84,
+        87,
+        121,
+        124,
+        152,
+        214,
+        241,
+        268,
+        271,
+        295,
+        297,
+        330,
+        357,
+        360,
+        394,
+        397,
+        430,
+        480,
+        514,
+        517,
+        550,
+        553,
+        585,
+        588,
+        617,
+        620,
+        651,
+        654,
+        676,
+        679,
+        703,
+        706,
+        730,
+        761,
+        797,
+        800,
+        825,
+        850,
+        874,
+        876,
+        899,
+        902,
+        924
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "3a74a0b39ea4da38ca1ac86d6ffafd3a059cd84184cc43279e30c880a4f01c7b"
+}

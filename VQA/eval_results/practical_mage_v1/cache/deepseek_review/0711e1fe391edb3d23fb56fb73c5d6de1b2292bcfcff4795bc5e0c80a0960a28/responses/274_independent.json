@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "79027ca8b40266d470e722daa7891d15e471d1fd9f53dd20245e08f074d0a33c",
+  "response": {
+    "id": "0aecb07a-317f-49a4-ac83-1ad93bac9425",
+    "object": "chat.completion",
+    "created": 1793675792,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"B\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S11\",\"quote\":\"one day Aisha decided to leave her husband after she left she found out that her husband withdrew her PR application what will happen to Aisha's status in Canada\"}],\"frame_ids\":[\"F2892\",\"F3512\",\"F3718\",\"F3925\",\"F4132\"],\"windows\":[],\"notes\":\"Question 7 (the second case) describes Aisha, whose husband withdrew her PR application after she left; this matches option B.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7978,
+      "completion_tokens": 121,
+      "total_tokens": 8099,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7850
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.4716156087815762
+}

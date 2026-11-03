@@ -1,0 +1,1092 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "FcP0mzWFCQU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FcP0mzWFCQU.srt",
+        "status": "available",
+        "bytes": 28613,
+        "sha256": "30c70735476fa17690cdc9cb39a479c7ee731b3b5db29574abe8bdfe0230f57e",
+        "cues": 248,
+        "nonempty_cues": 248
+      },
+      "frame_indices": [
+        0,
+        574,
+        1147,
+        1721,
+        2295,
+        2868,
+        3442,
+        4016,
+        4589,
+        5163,
+        5736,
+        6310,
+        6884,
+        7457,
+        8031,
+        8605,
+        9178,
+        9752,
+        10326,
+        10899,
+        11473,
+        12047,
+        12620,
+        13194,
+        13767,
+        14341,
+        14915,
+        15488,
+        16062,
+        16636,
+        17209,
+        17783
+      ],
+      "frame_seconds": [
+        0.0,
+        23.940583,
+        47.839458,
+        71.780042,
+        95.720625,
+        119.6195,
+        143.560083,
+        167.500667,
+        191.399542,
+        215.340125,
+        239.239,
+        263.179583,
+        287.120167,
+        311.019042,
+        334.959625,
+        358.900208,
+        382.799083,
+        406.739667,
+        430.68025,
+        454.579125,
+        478.519708,
+        502.460292,
+        526.359167,
+        550.29975,
+        574.198625,
+        598.139208,
+        622.079792,
+        645.978667,
+        669.91925,
+        693.859833,
+        717.758708,
+        741.699292
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          10
+        ],
+        [
+          17
+        ],
+        [
+          25
+        ],
+        [
+          28
+        ],
+        [
+          36
+        ],
+        [
+          46
+        ],
+        [
+          53
+        ],
+        [
+          62
+        ],
+        [
+          71
+        ],
+        [
+          79
+        ],
+        [
+          88
+        ],
+        [
+          98
+        ],
+        [
+          106
+        ],
+        [],
+        [
+          124
+        ],
+        [
+          131
+        ],
+        [
+          139
+        ],
+        [
+          146
+        ],
+        [
+          156
+        ],
+        [
+          165
+        ],
+        [
+          172
+        ],
+        [
+          177
+        ],
+        [
+          185
+        ],
+        [
+          195
+        ],
+        [
+          204
+        ],
+        [
+          213
+        ],
+        [
+          219
+        ],
+        [
+          225
+        ],
+        [
+          235
+        ],
+        [
+          244
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 10,
+          "start_ms": 23900,
+          "end_ms": 25310,
+          "text": "happiness to people."
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 46820,
+          "end_ms": 48860,
+          "text": "market outside of the US."
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 69500,
+          "end_ms": 73190,
+          "text": "culinary conscious, fine dining, Michelin star loving"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 94310,
+          "end_ms": 98539,
+          "text": "I take this menu today because I love fries and,"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 117770,
+          "end_ms": 120500,
+          "text": "Quick service restaurants that served burgers"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 143480,
+          "end_ms": 147020,
+          "text": "People in France went to discover, uh, other tastes."
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 165740,
+          "end_ms": 169520,
+          "text": "standards. And still, QSR fast food is very trendy."
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 190310,
+          "end_ms": 192650,
+          "text": "In the most recent decade has really heated up from"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 215329,
+          "end_ms": 218450,
+          "text": "France is a global leader in culinary excellence and"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 238250,
+          "end_ms": 241130,
+          "text": "Because of this, legacy, American Quick Service"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 261230,
+          "end_ms": 264950,
+          "text": "Just given the cliché that France is a fancier place to"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 286190,
+          "end_ms": 287870,
+          "text": "They have strong partnership with the"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 309710,
+          "end_ms": 312860,
+          "text": "But if we speak specifically about pizzas, you know what"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 358750,
+          "end_ms": 361090,
+          "text": "And I think as a result of that, you've seen that a lot"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 381250,
+          "end_ms": 383470,
+          "text": "and Domino's in 2006."
+        },
+        {
+          "cue_id": 139,
+          "start_ms": 406720,
+          "end_ms": 411190,
+          "text": "Takeaway, drive thru, click and collect delivery."
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 427300,
+          "end_ms": 430990,
+          "text": "I mean, like it's less than 10% of our orders, 60% are"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 450340,
+          "end_ms": 455050,
+          "text": "For young people, they grew up watching series or movies"
+        },
+        {
+          "cue_id": 165,
+          "start_ms": 475780,
+          "end_ms": 478770,
+          "text": "The American food is tasty, big."
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 500860,
+          "end_ms": 503830,
+          "text": "to improve consumer quality of life."
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 524560,
+          "end_ms": 527710,
+          "text": "But the restaurant industry is volatile and highly"
+        },
+        {
+          "cue_id": 185,
+          "start_ms": 549490,
+          "end_ms": 550780,
+          "text": "chain's total revenue."
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 574120,
+          "end_ms": 576340,
+          "text": "I think the more near-tum risk is going to be more"
+        },
+        {
+          "cue_id": 204,
+          "start_ms": 597520,
+          "end_ms": 599890,
+          "text": "I compete with pizzas on one hand, so I need to be"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 621520,
+          "end_ms": 626020,
+          "text": "2023 over, quote, outdated environmental practices."
+        },
+        {
+          "cue_id": 219,
+          "start_ms": 642070,
+          "end_ms": 646210,
+          "text": "restaurants and their sustainability seems better"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 665430,
+          "end_ms": 670500,
+          "text": "The burger, the beef, the chicken, and maybe the tacos"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 693780,
+          "end_ms": 694980,
+          "text": "broadly available."
+        },
+        {
+          "cue_id": 244,
+          "start_ms": 714420,
+          "end_ms": 717960,
+          "text": "And so far, the French palate seems ready for it."
+        }
+      ],
+      "text": "happiness to people.\nmarket outside of the US.\nculinary conscious, fine dining, Michelin star loving\nI take this menu today because I love fries and,\nQuick service restaurants that served burgers\nPeople in France went to discover, uh, other tastes.\nstandards. And still, QSR fast food is very trendy.\nIn the most recent decade has really heated up from\nFrance is a global leader in culinary excellence and\nBecause of this, legacy, American Quick Service\nJust given the cliché that France is a fancier place to\nThey have strong partnership with the\nBut if we speak specifically about pizzas, you know what\nAnd I think as a result of that, you've seen that a lot\nand Domino's in 2006.\nTakeaway, drive thru, click and collect delivery.\nI mean, like it's less than 10% of our orders, 60% are\nFor young people, they grew up watching series or movies\nThe American food is tasty, big.\nto improve consumer quality of life.\nBut the restaurant industry is volatile and highly\nchain's total revenue.\nI think the more near-tum risk is going to be more\nI compete with pizzas on one hand, so I need to be\n2023 over, quote, outdated environmental practices.\nrestaurants and their sustainability seems better\nThe burger, the beef, the chicken, and maybe the tacos\nbroadly available.\nAnd so far, the French palate seems ready for it.",
+      "text_tokens": 309,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "FcP0mzWFCQU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FcP0mzWFCQU.srt",
+          "status": "available",
+          "bytes": 28613,
+          "sha256": "30c70735476fa17690cdc9cb39a479c7ee731b3b5db29574abe8bdfe0230f57e",
+          "cues": 248,
+          "nonempty_cues": 248
+        },
+        "frame_indices": [
+          0,
+          574,
+          1147,
+          1721,
+          2295,
+          2868,
+          3442,
+          4016,
+          4589,
+          5163,
+          5736,
+          6310,
+          6884,
+          7457,
+          8031,
+          8605,
+          9178,
+          9752,
+          10326,
+          10899,
+          11473,
+          12047,
+          12620,
+          13194,
+          13767,
+          14341,
+          14915,
+          15488,
+          16062,
+          16636,
+          17209,
+          17783
+        ],
+        "frame_seconds": [
+          0.0,
+          23.940583,
+          47.839458,
+          71.780042,
+          95.720625,
+          119.6195,
+          143.560083,
+          167.500667,
+          191.399542,
+          215.340125,
+          239.239,
+          263.179583,
+          287.120167,
+          311.019042,
+          334.959625,
+          358.900208,
+          382.799083,
+          406.739667,
+          430.68025,
+          454.579125,
+          478.519708,
+          502.460292,
+          526.359167,
+          550.29975,
+          574.198625,
+          598.139208,
+          622.079792,
+          645.978667,
+          669.91925,
+          693.859833,
+          717.758708,
+          741.699292
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            10
+          ],
+          [
+            17
+          ],
+          [
+            25
+          ],
+          [
+            28
+          ],
+          [
+            36
+          ],
+          [
+            46
+          ],
+          [
+            53
+          ],
+          [
+            62
+          ],
+          [
+            71
+          ],
+          [
+            79
+          ],
+          [
+            88
+          ],
+          [
+            98
+          ],
+          [
+            106
+          ],
+          [],
+          [
+            124
+          ],
+          [
+            131
+          ],
+          [
+            139
+          ],
+          [
+            146
+          ],
+          [
+            156
+          ],
+          [
+            165
+          ],
+          [
+            172
+          ],
+          [
+            177
+          ],
+          [
+            185
+          ],
+          [
+            195
+          ],
+          [
+            204
+          ],
+          [
+            213
+          ],
+          [
+            219
+          ],
+          [
+            225
+          ],
+          [
+            235
+          ],
+          [
+            244
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 10,
+            "start_ms": 23900,
+            "end_ms": 25310,
+            "text": "happiness to people."
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 46820,
+            "end_ms": 48860,
+            "text": "market outside of the US."
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 69500,
+            "end_ms": 73190,
+            "text": "culinary conscious, fine dining, Michelin star loving"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 94310,
+            "end_ms": 98539,
+            "text": "I take this menu today because I love fries and,"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 117770,
+            "end_ms": 120500,
+            "text": "Quick service restaurants that served burgers"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 143480,
+            "end_ms": 147020,
+            "text": "People in France went to discover, uh, other tastes."
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 165740,
+            "end_ms": 169520,
+            "text": "standards. And still, QSR fast food is very trendy."
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 190310,
+            "end_ms": 192650,
+            "text": "In the most recent decade has really heated up from"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 215329,
+            "end_ms": 218450,
+            "text": "France is a global leader in culinary excellence and"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 238250,
+            "end_ms": 241130,
+            "text": "Because of this, legacy, American Quick Service"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 261230,
+            "end_ms": 264950,
+            "text": "Just given the cliché that France is a fancier place to"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 286190,
+            "end_ms": 287870,
+            "text": "They have strong partnership with the"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 309710,
+            "end_ms": 312860,
+            "text": "But if we speak specifically about pizzas, you know what"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 358750,
+            "end_ms": 361090,
+            "text": "And I think as a result of that, you've seen that a lot"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 381250,
+            "end_ms": 383470,
+            "text": "and Domino's in 2006."
+          },
+          {
+            "cue_id": 139,
+            "start_ms": 406720,
+            "end_ms": 411190,
+            "text": "Takeaway, drive thru, click and collect delivery."
+          },
+          {
+            "cue_id": 146,
+            "start_ms": 427300,
+            "end_ms": 430990,
+            "text": "I mean, like it's less than 10% of our orders, 60% are"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 450340,
+            "end_ms": 455050,
+            "text": "For young people, they grew up watching series or movies"
+          },
+          {
+            "cue_id": 165,
+            "start_ms": 475780,
+            "end_ms": 478770,
+            "text": "The American food is tasty, big."
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 500860,
+            "end_ms": 503830,
+            "text": "to improve consumer quality of life."
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 524560,
+            "end_ms": 527710,
+            "text": "But the restaurant industry is volatile and highly"
+          },
+          {
+            "cue_id": 185,
+            "start_ms": 549490,
+            "end_ms": 550780,
+            "text": "chain's total revenue."
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 574120,
+            "end_ms": 576340,
+            "text": "I think the more near-tum risk is going to be more"
+          },
+          {
+            "cue_id": 204,
+            "start_ms": 597520,
+            "end_ms": 599890,
+            "text": "I compete with pizzas on one hand, so I need to be"
+          },
+          {
+            "cue_id": 213,
+            "start_ms": 621520,
+            "end_ms": 626020,
+            "text": "2023 over, quote, outdated environmental practices."
+          },
+          {
+            "cue_id": 219,
+            "start_ms": 642070,
+            "end_ms": 646210,
+            "text": "restaurants and their sustainability seems better"
+          },
+          {
+            "cue_id": 225,
+            "start_ms": 665430,
+            "end_ms": 670500,
+            "text": "The burger, the beef, the chicken, and maybe the tacos"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 693780,
+            "end_ms": 694980,
+            "text": "broadly available."
+          },
+          {
+            "cue_id": 244,
+            "start_ms": 714420,
+            "end_ms": 717960,
+            "text": "And so far, the French palate seems ready for it."
+          }
+        ],
+        "text": "happiness to people.\nmarket outside of the US.\nculinary conscious, fine dining, Michelin star loving\nI take this menu today because I love fries and,\nQuick service restaurants that served burgers\nPeople in France went to discover, uh, other tastes.\nstandards. And still, QSR fast food is very trendy.\nIn the most recent decade has really heated up from\nFrance is a global leader in culinary excellence and\nBecause of this, legacy, American Quick Service\nJust given the cliché that France is a fancier place to\nThey have strong partnership with the\nBut if we speak specifically about pizzas, you know what\nAnd I think as a result of that, you've seen that a lot\nand Domino's in 2006.\nTakeaway, drive thru, click and collect delivery.\nI mean, like it's less than 10% of our orders, 60% are\nFor young people, they grew up watching series or movies\nThe American food is tasty, big.\nto improve consumer quality of life.\nBut the restaurant industry is volatile and highly\nchain's total revenue.\nI think the more near-tum risk is going to be more\nI compete with pizzas on one hand, so I need to be\n2023 over, quote, outdated environmental practices.\nrestaurants and their sustainability seems better\nThe burger, the beef, the chicken, and maybe the tacos\nbroadly available.\nAnd so far, the French palate seems ready for it.",
+        "text_tokens": 309,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S9",
+          "cue_ids": [
+            9,
+            10,
+            11
+          ],
+          "start_ms": 21080,
+          "end_ms": 31220,
+          "text": "It's addictive, I think, and it brings very much of a happiness to people. Between 2019 and 2023, more than 1300 fast food stores"
+        },
+        {
+          "id": "S16",
+          "cue_ids": [
+            16,
+            17,
+            18
+          ],
+          "start_ms": 43820,
+          "end_ms": 52430,
+          "text": "France is McDonald's and Burger King's second largest market outside of the US. A lot of brands want to come in France because France is"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26
+          ],
+          "start_ms": 66590,
+          "end_ms": 76850,
+          "text": "So how did American fast food companies win over the culinary conscious, fine dining, Michelin star loving French crowd? CNBC visited Paris to find out."
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29
+          ],
+          "start_ms": 90200,
+          "end_ms": 99979,
+          "text": "It's lunchtime in the Lille neighborhood in Paris. I take this menu today because I love fries and, uh, I love nuggets."
+        },
+        {
+          "id": "S35",
+          "cue_ids": [
+            35,
+            36,
+            37
+          ],
+          "start_ms": 115789,
+          "end_ms": 122930,
+          "text": "Burgers play a big role. Quick service restaurants that served burgers accounted for about half of the country's sales that"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47
+          ],
+          "start_ms": 142040,
+          "end_ms": 151579,
+          "text": "products. People in France went to discover, uh, other tastes. And when you explain that with a good story with an"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53,
+            54
+          ],
+          "start_ms": 162860,
+          "end_ms": 172640,
+          "text": "Michelin restaurant. It's like gastronomy, very high standards. And still, QSR fast food is very trendy. What that shows is that even though we appreciate"
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63
+          ],
+          "start_ms": 188780,
+          "end_ms": 195890,
+          "text": "during that time. In the most recent decade has really heated up from other newer concepts, more fast casual, that have gone"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72
+          ],
+          "start_ms": 215329,
+          "end_ms": 220820,
+          "text": "France is a global leader in culinary excellence and boasts more Michelin starred restaurants than any"
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79,
+            80
+          ],
+          "start_ms": 236600,
+          "end_ms": 244430,
+          "text": "service restaurants. Because of this, legacy, American Quick Service Restaurants, or QSRs, took a specialized approach when"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87,
+            88,
+            89
+          ],
+          "start_ms": 259940,
+          "end_ms": 267020,
+          "text": "You need to bring connection. Just given the cliché that France is a fancier place to eat, the concepts have really led with their best"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99
+          ],
+          "start_ms": 283790,
+          "end_ms": 292370,
+          "text": "It's very important to build this relationship. They have strong partnership with the farmers. That's why the QSR, American brands have"
+        },
+        {
+          "id": "S105",
+          "cue_ids": [
+            105,
+            106,
+            107
+          ],
+          "start_ms": 306290,
+          "end_ms": 316520,
+          "text": "menu items or creating new products. But if we speak specifically about pizzas, you know what it takes is that you need to become French friendly"
+        },
+        {
+          "id": "S123",
+          "cue_ids": [
+            123,
+            124,
+            125
+          ],
+          "start_ms": 356020,
+          "end_ms": 363490,
+          "text": "to France and found tremendous success there. And I think as a result of that, you've seen that a lot of folks have wanted to replicate that success."
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132
+          ],
+          "start_ms": 374380,
+          "end_ms": 386680,
+          "text": "Pizza hut arrived in 1987, KFC in 1991, Subway in 2001, and Domino's in 2006. But their rapid expansions happened mostly in the past"
+        },
+        {
+          "id": "S138",
+          "cue_ids": [
+            138,
+            139,
+            140
+          ],
+          "start_ms": 404710,
+          "end_ms": 413800,
+          "text": "allowed the fast food industry to flourish. Takeaway, drive thru, click and collect delivery. All the QSR restaurants can do that."
+        },
+        {
+          "id": "S145",
+          "cue_ids": [
+            145,
+            146,
+            147
+          ],
+          "start_ms": 424750,
+          "end_ms": 431620,
+          "text": "customers coming at the counter to order. I mean, like it's less than 10% of our orders, 60% are online."
+        },
+        {
+          "id": "S155",
+          "cue_ids": [
+            155,
+            156,
+            157
+          ],
+          "start_ms": 449290,
+          "end_ms": 457450,
+          "text": "powerful tool. For young people, they grew up watching series or movies where in America, you know, they were eating fast foods."
+        },
+        {
+          "id": "S164",
+          "cue_ids": [
+            164,
+            165,
+            166
+          ],
+          "start_ms": 473560,
+          "end_ms": 481510,
+          "text": "contributed to a need for convenience. The American food is tasty, big. You know that you will be..."
+        },
+        {
+          "id": "S171",
+          "cue_ids": [
+            171,
+            172,
+            173
+          ],
+          "start_ms": 498580,
+          "end_ms": 507310,
+          "text": "problem with the development of digital tools to improve consumer quality of life. I really like good food, but you need a budget for that."
+        },
+        {
+          "id": "S177",
+          "cue_ids": [
+            177,
+            178
+          ],
+          "start_ms": 524560,
+          "end_ms": 530560,
+          "text": "But the restaurant industry is volatile and highly susceptible to domestic and global changes."
+        },
+        {
+          "id": "S184",
+          "cue_ids": [
+            184,
+            185,
+            186
+          ],
+          "start_ms": 546010,
+          "end_ms": 554110,
+          "text": "After all, France accounts for 7% of the fast food chain's total revenue. McDonald's also blamed its overall weaker performance"
+        },
+        {
+          "id": "S194",
+          "cue_ids": [
+            194,
+            195,
+            196
+          ],
+          "start_ms": 571900,
+          "end_ms": 579580,
+          "text": "storefronts since 2015. I think the more near-tum risk is going to be more macro oriented, that France seems to be the first"
+        },
+        {
+          "id": "S203",
+          "cue_ids": [
+            203,
+            204,
+            205
+          ],
+          "start_ms": 595540,
+          "end_ms": 601240,
+          "text": "that were delivering were pizzas and sushi. I compete with pizzas on one hand, so I need to be the best in class in that universe."
+        },
+        {
+          "id": "S212",
+          "cue_ids": [
+            212,
+            213,
+            214
+          ],
+          "start_ms": 618250,
+          "end_ms": 629110,
+          "text": "arrondissement protested against a new Burger King in 2023 over, quote, outdated environmental practices. France implemented new laws that same year targeting"
+        },
+        {
+          "id": "S218",
+          "cue_ids": [
+            218,
+            219,
+            220
+          ],
+          "start_ms": 637330,
+          "end_ms": 647380,
+          "text": "We have created dishes especially for the brand restaurants and their sustainability seems better than the others."
+        },
+        {
+          "id": "S224",
+          "cue_ids": [
+            224,
+            225,
+            226
+          ],
+          "start_ms": 662310,
+          "end_ms": 671700,
+          "text": "Taco Bell has not entered at all. The burger, the beef, the chicken, and maybe the tacos in the future."
+        },
+        {
+          "id": "S234",
+          "cue_ids": [
+            234,
+            235,
+            236
+          ],
+          "start_ms": 691350,
+          "end_ms": 697980,
+          "text": "One of the missions was always to make our product broadly available. That's in the next five years. We already have close"
+        },
+        {
+          "id": "S243",
+          "cue_ids": [
+            243,
+            244,
+            245
+          ],
+          "start_ms": 712800,
+          "end_ms": 721710,
+          "text": "by 2028. And so far, the French palate seems ready for it. The taste is really different in front of the"
+        }
+      ],
+      "text": "S9 [00:00:21.080 --> 00:00:31.220] It's addictive, I think, and it brings very much of a happiness to people. Between 2019 and 2023, more than 1300 fast food stores\nS16 [00:00:43.820 --> 00:00:52.430] France is McDonald's and Burger King's second largest market outside of the US. A lot of brands want to come in France because France is\nS24 [00:01:06.590 --> 00:01:16.850] So how did American fast food companies win over the culinary conscious, fine dining, Michelin star loving French crowd? CNBC visited Paris to find out.\nS27 [00:01:30.200 --> 00:01:39.979] It's lunchtime in the Lille neighborhood in Paris. I take this menu today because I love fries and, uh, I love nuggets.\nS35 [00:01:55.789 --> 00:02:02.930] Burgers play a big role. Quick service restaurants that served burgers accounted for about half of the country's sales that\nS45 [00:02:22.040 --> 00:02:31.579] products. People in France went to discover, uh, other tastes. And when you explain that with a good story with an\nS52 [00:02:42.860 --> 00:02:52.640] Michelin restaurant. It's like gastronomy, very high standards. And still, QSR fast food is very trendy. What that shows is that even though we appreciate\nS61 [00:03:08.780 --> 00:03:15.890] during that time. In the most recent decade has really heated up from other newer concepts, more fast casual, that have gone\nS71 [00:03:35.329 --> 00:03:40.820] France is a global leader in culinary excellence and boasts more Michelin starred restaurants than any\nS78 [00:03:56.600 --> 00:04:04.430] service restaurants. Because of this, legacy, American Quick Service Restaurants, or QSRs, took a specialized approach when\nS87 [00:04:19.940 --> 00:04:27.020] You need to bring connection. Just given the cliché that France is a fancier place to eat, the concepts have really led with their best\nS97 [00:04:43.790 --> 00:04:52.370] It's very important to build this relationship. They have strong partnership with the farmers. That's why the QSR, American brands have\nS105 [00:05:06.290 --> 00:05:16.520] menu items or creating new products. But if we speak specifically about pizzas, you know what it takes is that you need to become French friendly\nS123 [00:05:56.020 --> 00:06:03.490] to France and found tremendous success there. And I think as a result of that, you've seen that a lot of folks have wanted to replicate that success.\nS130 [00:06:14.380 --> 00:06:26.680] Pizza hut arrived in 1987, KFC in 1991, Subway in 2001, and Domino's in 2006. But their rapid expansions happened mostly in the past\nS138 [00:06:44.710 --> 00:06:53.800] allowed the fast food industry to flourish. Takeaway, drive thru, click and collect delivery. All the QSR restaurants can do that.\nS145 [00:07:04.750 --> 00:07:11.620] customers coming at the counter to order. I mean, like it's less than 10% of our orders, 60% are online.\nS155 [00:07:29.290 --> 00:07:37.450] powerful tool. For young people, they grew up watching series or movies where in America, you know, they were eating fast foods.\nS164 [00:07:53.560 --> 00:08:01.510] contributed to a need for convenience. The American food is tasty, big. You know that you will be...\nS171 [00:08:18.580 --> 00:08:27.310] problem with the development of digital tools to improve consumer quality of life. I really like good food, but you need a budget for that.\nS177 [00:08:44.560 --> 00:08:50.560] But the restaurant industry is volatile and highly susceptible to domestic and global changes.\nS184 [00:09:06.010 --> 00:09:14.110] After all, France accounts for 7% of the fast food chain's total revenue. McDonald's also blamed its overall weaker performance\nS194 [00:09:31.900 --> 00:09:39.580] storefronts since 2015. I think the more near-tum risk is going to be more macro oriented, that France seems to be the first\nS203 [00:09:55.540 --> 00:10:01.240] that were delivering were pizzas and sushi. I compete with pizzas on one hand, so I need to be the best in class in that universe.\nS212 [00:10:18.250 --> 00:10:29.110] arrondissement protested against a new Burger King in 2023 over, quote, outdated environmental practices. France implemented new laws that same year targeting\nS218 [00:10:37.330 --> 00:10:47.380] We have created dishes especially for the brand restaurants and their sustainability seems better than the others.\nS224 [00:11:02.310 --> 00:11:11.700] Taco Bell has not entered at all. The burger, the beef, the chicken, and maybe the tacos in the future.\nS234 [00:11:31.350 --> 00:11:37.980] One of the missions was always to make our product broadly available. That's in the next five years. We already have close\nS243 [00:11:52.800 --> 00:12:01.710] by 2028. And so far, the French palate seems ready for it. The taste is really different in front of the",
+      "text_tokens": 1735,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        9,
+        11,
+        16,
+        18,
+        24,
+        26,
+        27,
+        29,
+        35,
+        37,
+        45,
+        47,
+        52,
+        54,
+        61,
+        63,
+        72,
+        78,
+        80,
+        87,
+        89,
+        97,
+        99,
+        105,
+        107,
+        123,
+        125,
+        130,
+        132,
+        138,
+        140,
+        145,
+        147,
+        155,
+        157,
+        164,
+        166,
+        171,
+        173,
+        178,
+        184,
+        186,
+        194,
+        196,
+        203,
+        205,
+        212,
+        214,
+        218,
+        220,
+        224,
+        226,
+        234,
+        236,
+        243,
+        245
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "132c1f781230502a958cd02641a6146e25fa4213e1db80f2364a684b09f43303"
+}

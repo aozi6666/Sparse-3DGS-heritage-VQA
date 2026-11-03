@@ -1,0 +1,355 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "HvKpnaXYUPU",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HvKpnaXYUPU.srt",
+      "status": "available",
+      "bytes": 114463,
+      "sha256": "64cb027a5b54e5066ae18dad1c6dc37a96fb1467d24facad28c07ba59472c11f",
+      "cues": 1023,
+      "nonempty_cues": 1023
+    },
+    "frame_indices": [
+      0,
+      3101,
+      6202,
+      9304,
+      12405,
+      15506,
+      18607,
+      21709,
+      24810,
+      27911,
+      31012,
+      34113,
+      37215,
+      40316,
+      43417,
+      46518,
+      49620,
+      52721,
+      55822,
+      58923,
+      62025,
+      65126,
+      68227,
+      71328,
+      74429,
+      77531,
+      80632,
+      83733,
+      86834,
+      89936,
+      93037,
+      96138
+    ],
+    "frame_seconds": [
+      0.0,
+      103.470033,
+      206.940067,
+      310.443467,
+      413.9135,
+      517.3835329999999,
+      620.853567,
+      724.356967,
+      827.827,
+      931.297033,
+      1034.767067,
+      1138.2371,
+      1241.7404999999999,
+      1345.210533,
+      1448.680567,
+      1552.1506,
+      1655.654,
+      1759.124033,
+      1862.594067,
+      1966.0641,
+      2069.5675,
+      2173.037533,
+      2276.507567,
+      2379.9776,
+      2483.447633,
+      2586.951033,
+      2690.421067,
+      2793.8911,
+      2897.361133,
+      3000.864533,
+      3104.334567,
+      3207.8046
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        30
+      ],
+      [
+        58
+      ],
+      [
+        86
+      ],
+      [
+        117
+      ],
+      [
+        146
+      ],
+      [
+        178
+      ],
+      [
+        215
+      ],
+      [
+        247
+      ],
+      [
+        280
+      ],
+      [
+        319
+      ],
+      [
+        353
+      ],
+      [
+        384
+      ],
+      [
+        416
+      ],
+      [
+        453
+      ],
+      [
+        490
+      ],
+      [
+        526
+      ],
+      [
+        559
+      ],
+      [
+        595
+      ],
+      [
+        642
+      ],
+      [
+        673
+      ],
+      [
+        704
+      ],
+      [
+        738
+      ],
+      [
+        771
+      ],
+      [
+        799
+      ],
+      [
+        831
+      ],
+      [
+        866
+      ],
+      [
+        903
+      ],
+      [
+        941
+      ],
+      [],
+      [
+        1013
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 30,
+        "start_ms": 101967,
+        "end_ms": 103936,
+        "text": "♪ ♪"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 206105,
+        "end_ms": 207707,
+        "text": "MARINA LEIBMAN: Believe me, I remember this date,"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 306905,
+        "end_ms": 311477,
+        "text": "there's something unusual visible around the edges."
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 411610,
+        "end_ms": 414413,
+        "text": "Used for cooking and heating,"
+      },
+      {
+        "cue_id": 146,
+        "start_ms": 515514,
+        "end_ms": 518717,
+        "text": "If so, what might they be telling us"
+      },
+      {
+        "cue_id": 178,
+        "start_ms": 620052,
+        "end_ms": 621954,
+        "text": "NARRATOR: Esieh Lake is located on the lands of"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 723655,
+        "end_ms": 726792,
+        "text": "The team's measurements reveal that Esieh Lake is belching out"
+      },
+      {
+        "cue_id": 247,
+        "start_ms": 824489,
+        "end_ms": 828327,
+        "text": "♪ ♪"
+      },
+      {
+        "cue_id": 280,
+        "start_ms": 930962,
+        "end_ms": 933098,
+        "text": "or below 32 degrees Fahrenheit"
+      },
+      {
+        "cue_id": 319,
+        "start_ms": 1033832,
+        "end_ms": 1035300,
+        "text": "It's pretty dramatic."
+      },
+      {
+        "cue_id": 353,
+        "start_ms": 1135967,
+        "end_ms": 1138470,
+        "text": "caribou, wolves..."
+      },
+      {
+        "cue_id": 384,
+        "start_ms": 1239237,
+        "end_ms": 1242340,
+        "text": "are trying to protect their homes."
+      },
+      {
+        "cue_id": 416,
+        "start_ms": 1344409,
+        "end_ms": 1345343,
+        "text": "Pretty exciting,"
+      },
+      {
+        "cue_id": 453,
+        "start_ms": 1446143,
+        "end_ms": 1450248,
+        "text": "You're smelling ancient bacteria and carbon being oxidized."
+      },
+      {
+        "cue_id": 490,
+        "start_ms": 1551182,
+        "end_ms": 1553818,
+        "text": "radiating part of its energy back at Earth"
+      },
+      {
+        "cue_id": 526,
+        "start_ms": 1652983,
+        "end_ms": 1657155,
+        "text": "But while we know a lot about carbon dioxide,"
+      },
+      {
+        "cue_id": 559,
+        "start_ms": 1759056,
+        "end_ms": 1760091,
+        "text": "To stand a good chance"
+      },
+      {
+        "cue_id": 595,
+        "start_ms": 1861358,
+        "end_ms": 1862627,
+        "text": "Come on, Biggy, come on."
+      },
+      {
+        "cue_id": 642,
+        "start_ms": 1965029,
+        "end_ms": 1966998,
+        "text": "a positive feedback cycle."
+      },
+      {
+        "cue_id": 673,
+        "start_ms": 2069500,
+        "end_ms": 2072770,
+        "text": "Much deeper."
+      },
+      {
+        "cue_id": 704,
+        "start_ms": 2169700,
+        "end_ms": 2173204,
+        "text": "But if so, there's a mystery."
+      },
+      {
+        "cue_id": 738,
+        "start_ms": 2276440,
+        "end_ms": 2278309,
+        "text": "the electromagnetic VLF waves"
+      },
+      {
+        "cue_id": 771,
+        "start_ms": 2379409,
+        "end_ms": 2381478,
+        "text": "NARRATOR: So far, the scientists have only seen"
+      },
+      {
+        "cue_id": 799,
+        "start_ms": 2481678,
+        "end_ms": 2483981,
+        "text": "There's no current sign the entire reserve"
+      },
+      {
+        "cue_id": 831,
+        "start_ms": 2583213,
+        "end_ms": 2589486,
+        "text": "pulling down trees at its edge and exposing more permafrost:"
+      },
+      {
+        "cue_id": 866,
+        "start_ms": 2688418,
+        "end_ms": 2691988,
+        "text": "However, some scientists believe aspects of the thaw"
+      },
+      {
+        "cue_id": 903,
+        "start_ms": 2790119,
+        "end_ms": 2794024,
+        "text": "what permafrost thaw is doing to his community."
+      },
+      {
+        "cue_id": 941,
+        "start_ms": 2894457,
+        "end_ms": 2898328,
+        "text": "others in Alaska are looking at more drastic solutions."
+      },
+      {
+        "cue_id": 1013,
+        "start_ms": 3102498,
+        "end_ms": 3105568,
+        "text": "that things are changing, and the Arctic is melting,"
+      }
+    ],
+    "text": "♪ ♪\nMARINA LEIBMAN: Believe me, I remember this date,\nthere's something unusual visible around the edges.\nUsed for cooking and heating,\nIf so, what might they be telling us\nNARRATOR: Esieh Lake is located on the lands of\nThe team's measurements reveal that Esieh Lake is belching out\n♪ ♪\nor below 32 degrees Fahrenheit\nIt's pretty dramatic.\ncaribou, wolves...\nare trying to protect their homes.\nPretty exciting,\nYou're smelling ancient bacteria and carbon being oxidized.\nradiating part of its energy back at Earth\nBut while we know a lot about carbon dioxide,\nTo stand a good chance\nCome on, Biggy, come on.\na positive feedback cycle.\nMuch deeper.\nBut if so, there's a mystery.\nthe electromagnetic VLF waves\nNARRATOR: So far, the scientists have only seen\nThere's no current sign the entire reserve\npulling down trees at its edge and exposing more permafrost:\nHowever, some scientists believe aspects of the thaw\nwhat permafrost thaw is doing to his community.\nothers in Alaska are looking at more drastic solutions.\nthat things are changing, and the Arctic is melting,",
+    "text_tokens": 253,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "b9ffaf8b76cc42876a4758258b0889fe7f7b60e25f5b34f13ee7851a99bc748a"
+}

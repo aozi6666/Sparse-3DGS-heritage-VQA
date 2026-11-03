@@ -1,0 +1,440 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "3rTsETO3s9U",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3rTsETO3s9U.srt",
+        "status": "available",
+        "bytes": 470,
+        "sha256": "dbabdd6005c9b8c26177be47fdb94470677916007207d1fca813d70d55a0068b",
+        "cues": 6,
+        "nonempty_cues": 6
+      },
+      "frame_indices": [
+        0,
+        42,
+        84,
+        126,
+        168,
+        210,
+        253,
+        295,
+        337,
+        379,
+        421,
+        463,
+        505,
+        547,
+        589,
+        631,
+        674,
+        716,
+        758,
+        800,
+        842,
+        884,
+        926,
+        968,
+        1010,
+        1052,
+        1095,
+        1137,
+        1179,
+        1221,
+        1263,
+        1305
+      ],
+      "frame_seconds": [
+        0.0,
+        1.401401,
+        2.802803,
+        4.204204,
+        5.605606,
+        7.007007,
+        8.441775,
+        9.843177,
+        11.244578,
+        12.645979,
+        14.047381,
+        15.448782,
+        16.850184,
+        18.251585,
+        19.652986,
+        21.054388,
+        22.489156,
+        23.890557,
+        25.291959,
+        26.69336,
+        28.094761,
+        29.496163,
+        30.897564,
+        32.298966,
+        33.700367,
+        35.101768,
+        36.536537,
+        37.937938,
+        39.339339,
+        40.740741,
+        42.142142,
+        43.543544
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          3
+        ],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [],
+        [],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 600,
+          "end_ms": 3659,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 6220,
+          "end_ms": 18329,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 19820,
+          "end_ms": 22480,
+          "text": "tel"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 23710,
+          "end_ms": 26640,
+          "text": "s"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 28650,
+          "end_ms": 31950,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 40520,
+          "end_ms": 45420,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\n[Music]\ntel\ns\n[Music]\n[Music]",
+      "text_tokens": 16,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "3rTsETO3s9U",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3rTsETO3s9U.srt",
+          "status": "available",
+          "bytes": 470,
+          "sha256": "dbabdd6005c9b8c26177be47fdb94470677916007207d1fca813d70d55a0068b",
+          "cues": 6,
+          "nonempty_cues": 6
+        },
+        "frame_indices": [
+          0,
+          42,
+          84,
+          126,
+          168,
+          210,
+          253,
+          295,
+          337,
+          379,
+          421,
+          463,
+          505,
+          547,
+          589,
+          631,
+          674,
+          716,
+          758,
+          800,
+          842,
+          884,
+          926,
+          968,
+          1010,
+          1052,
+          1095,
+          1137,
+          1179,
+          1221,
+          1263,
+          1305
+        ],
+        "frame_seconds": [
+          0.0,
+          1.401401,
+          2.802803,
+          4.204204,
+          5.605606,
+          7.007007,
+          8.441775,
+          9.843177,
+          11.244578,
+          12.645979,
+          14.047381,
+          15.448782,
+          16.850184,
+          18.251585,
+          19.652986,
+          21.054388,
+          22.489156,
+          23.890557,
+          25.291959,
+          26.69336,
+          28.094761,
+          29.496163,
+          30.897564,
+          32.298966,
+          33.700367,
+          35.101768,
+          36.536537,
+          37.937938,
+          39.339339,
+          40.740741,
+          42.142142,
+          43.543544
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            3
+          ],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [],
+          [],
+          [
+            5
+          ],
+          [
+            5
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 600,
+            "end_ms": 3659,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 6220,
+            "end_ms": 18329,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 19820,
+            "end_ms": 22480,
+            "text": "tel"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 23710,
+            "end_ms": 26640,
+            "text": "s"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 28650,
+            "end_ms": 31950,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 40520,
+            "end_ms": 45420,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\n[Music]\ntel\ns\n[Music]\n[Music]",
+        "text_tokens": 16,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 600,
+          "end_ms": 3659,
+          "text": "[Music]"
+        },
+        {
+          "id": "S2",
+          "cue_ids": [
+            2,
+            3,
+            4
+          ],
+          "start_ms": 6220,
+          "end_ms": 26640,
+          "text": "[Music] tel s"
+        },
+        {
+          "id": "S5",
+          "cue_ids": [
+            5
+          ],
+          "start_ms": 28650,
+          "end_ms": 31950,
+          "text": "[Music]"
+        },
+        {
+          "id": "S6",
+          "cue_ids": [
+            6
+          ],
+          "start_ms": 40520,
+          "end_ms": 45420,
+          "text": "[Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.600 --> 00:00:03.659] [Music]\nS2 [00:00:06.220 --> 00:00:26.640] [Music] tel s\nS5 [00:00:28.650 --> 00:00:31.950] [Music]\nS6 [00:00:40.520 --> 00:00:45.420] [Music]",
+      "text_tokens": 135,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "b5a9f886d730a5206cd4dae171edbdce38e846801ea5a22f7b1d9925790e2ab6"
+}

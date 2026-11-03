@@ -1,0 +1,387 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "hwloS0JY6Ms",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hwloS0JY6Ms.srt",
+      "status": "available",
+      "bytes": 9071,
+      "sha256": "9b605d900a2f50055627c41106b5d305f042e66b79f91e871e8957b811420627",
+      "cues": 91,
+      "nonempty_cues": 91
+    },
+    "frame_indices": [
+      0,
+      335,
+      669,
+      1004,
+      1338,
+      1673,
+      2008,
+      2342,
+      2677,
+      3012,
+      3346,
+      3681,
+      4015,
+      4350,
+      4685,
+      5019,
+      5354,
+      5688,
+      6023,
+      6358,
+      6692,
+      7027,
+      7361,
+      7696,
+      8031,
+      8365,
+      8700,
+      9035,
+      9369,
+      9704,
+      10038,
+      10373
+    ],
+    "frame_seconds": [
+      0.0,
+      13.4,
+      26.76,
+      40.16,
+      53.52,
+      66.92,
+      80.32,
+      93.68,
+      107.08,
+      120.48,
+      133.84,
+      147.24,
+      160.6,
+      174.0,
+      187.4,
+      200.76,
+      214.16,
+      227.52,
+      240.92,
+      254.32,
+      267.68,
+      281.08,
+      294.44,
+      307.84,
+      321.24,
+      334.6,
+      348.0,
+      361.4,
+      374.76,
+      388.16,
+      401.52,
+      414.92
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        3,
+        4
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        13
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        29,
+        30
+      ],
+      [],
+      [
+        34
+      ],
+      [
+        38,
+        39
+      ],
+      [],
+      [
+        43
+      ],
+      [
+        46
+      ],
+      [],
+      [],
+      [
+        51
+      ],
+      [],
+      [],
+      [
+        58,
+        59
+      ],
+      [
+        60
+      ],
+      [
+        61,
+        62
+      ],
+      [
+        67
+      ],
+      [],
+      [
+        69
+      ],
+      [
+        71,
+        72
+      ],
+      [],
+      [
+        77,
+        78
+      ],
+      [],
+      [
+        85,
+        86
+      ],
+      [
+        90,
+        91
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 3,
+        "start_ms": 8039,
+        "end_ms": 14460,
+        "text": "Tottenham Hotspur part two"
+      },
+      {
+        "cue_id": 4,
+        "start_ms": 10760,
+        "end_ms": 18060,
+        "text": "Spurs one nil lead means this tie"
+      },
+      {
+        "cue_id": 7,
+        "start_ms": 23630,
+        "end_ms": 33300,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 36800,
+        "end_ms": 40219,
+        "text": "de bruyne"
+      },
+      {
+        "cue_id": 13,
+        "start_ms": 53460,
+        "end_ms": 59039,
+        "text": "what a start for City"
+      },
+      {
+        "cue_id": 17,
+        "start_ms": 63059,
+        "end_ms": 68760,
+        "text": "Deli alley a chance to shoot for sawn"
+      },
+      {
+        "cue_id": 18,
+        "start_ms": 66000,
+        "end_ms": 71460,
+        "text": "spiritual oh"
+      },
+      {
+        "cue_id": 21,
+        "start_ms": 74299,
+        "end_ms": 81920,
+        "text": "are we seven minutes in or are we 70"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 77220,
+        "end_ms": 81920,
+        "text": "minutes in what a start of this game"
+      },
+      {
+        "cue_id": 25,
+        "start_ms": 89960,
+        "end_ms": 96420,
+        "text": "2-1 Tottenham"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 93240,
+        "end_ms": 98579,
+        "text": "this has to be the craziest nine and a"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 101720,
+        "end_ms": 107280,
+        "text": "here's Bernardo Silva It's deflected in"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 105000,
+        "end_ms": 109619,
+        "text": "it's 2-2"
+      },
+      {
+        "cue_id": 34,
+        "start_ms": 132660,
+        "end_ms": 136260,
+        "text": "Les Erickson"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 145739,
+        "end_ms": 152360,
+        "text": "and it's still"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 147110,
+        "end_ms": 155220,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 173000,
+        "end_ms": 178019,
+        "text": "quickly out to Kevin De bruyne who's"
+      },
+      {
+        "cue_id": 46,
+        "start_ms": 183920,
+        "end_ms": 191519,
+        "text": "Erickson over to Sun all the way over"
+      },
+      {
+        "cue_id": 51,
+        "start_ms": 225200,
+        "end_ms": 231239,
+        "text": "David silver sterling Louise shoveled it"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 262759,
+        "end_ms": 270320,
+        "text": "effortlessly takes the ball into his"
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 265560,
+        "end_ms": 270320,
+        "text": "stride and goes past two to find Aguero"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 278400,
+        "end_ms": 281400,
+        "text": "foreign"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 291020,
+        "end_ms": 295510,
+        "text": "really good run"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 293120,
+        "end_ms": 297240,
+        "text": "really good goalkeeper"
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 306780,
+        "end_ms": 315910,
+        "text": "the advantage swings back to Spurs"
+      },
+      {
+        "cue_id": 69,
+        "start_ms": 332479,
+        "end_ms": 337820,
+        "text": "there's Aguero and it's held by loris"
+      },
+      {
+        "cue_id": 71,
+        "start_ms": 341900,
+        "end_ms": 349320,
+        "text": "at the back"
+      },
+      {
+        "cue_id": 72,
+        "start_ms": 343979,
+        "end_ms": 351780,
+        "text": "Sunday over the top from gun to one"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 370759,
+        "end_ms": 377699,
+        "text": "my goodness as if there couldn't be any"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 373860,
+        "end_ms": 380820,
+        "text": "more drama oh that's remarkable"
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 396780,
+        "end_ms": 401580,
+        "text": "place in the final four of the Champions"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 400199,
+        "end_ms": 405259,
+        "text": "League"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 409259,
+        "end_ms": 416659,
+        "text": "and with the new introduction of VAR"
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 412080,
+        "end_ms": 416659,
+        "text": "there's a whole new level of drama"
+      }
+    ],
+    "text": "Tottenham Hotspur part two\nSpurs one nil lead means this tie\n[Music]\nde bruyne\nwhat a start for City\nDeli alley a chance to shoot for sawn\nspiritual oh\nare we seven minutes in or are we 70\nminutes in what a start of this game\n2-1 Tottenham\nthis has to be the craziest nine and a\nhere's Bernardo Silva It's deflected in\nit's 2-2\nLes Erickson\nand it's still\n[Applause]\nquickly out to Kevin De bruyne who's\nErickson over to Sun all the way over\nDavid silver sterling Louise shoveled it\neffortlessly takes the ball into his\nstride and goes past two to find Aguero\nforeign\nreally good run\nreally good goalkeeper\nthe advantage swings back to Spurs\nthere's Aguero and it's held by loris\nat the back\nSunday over the top from gun to one\nmy goodness as if there couldn't be any\nmore drama oh that's remarkable\nplace in the final four of the Champions\nLeague\nand with the new introduction of VAR\nthere's a whole new level of drama",
+    "text_tokens": 252,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "a070810bfe77732438aa7c39a7b9d41190b4bac91857a782c564fe357fd84d12",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

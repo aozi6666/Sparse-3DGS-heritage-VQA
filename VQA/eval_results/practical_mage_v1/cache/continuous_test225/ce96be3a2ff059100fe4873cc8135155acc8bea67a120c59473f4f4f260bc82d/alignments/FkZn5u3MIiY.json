@@ -1,0 +1,1617 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "FkZn5u3MIiY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FkZn5u3MIiY.srt",
+        "status": "available",
+        "bytes": 32344,
+        "sha256": "fc3a3c59c511b1458a4d3ecfd831a2ee9632810eb8e29c3133d0a1d657c8d219",
+        "cues": 291,
+        "nonempty_cues": 291
+      },
+      "frame_indices": [
+        0,
+        560,
+        1121,
+        1681,
+        2242,
+        2802,
+        3363,
+        3923,
+        4484,
+        5044,
+        5605,
+        6165,
+        6726,
+        7286,
+        7847,
+        8407,
+        8968,
+        9528,
+        10089,
+        10649,
+        11210,
+        11770,
+        12331,
+        12891,
+        13452,
+        14012,
+        14573,
+        15133,
+        15694,
+        16254,
+        16815,
+        17375
+      ],
+      "frame_seconds": [
+        0.0,
+        22.4,
+        44.84,
+        67.24,
+        89.68,
+        112.08,
+        134.52,
+        156.92000000000002,
+        179.36,
+        201.76,
+        224.2,
+        246.6,
+        269.04,
+        291.44,
+        313.88,
+        336.28,
+        358.72,
+        381.12,
+        403.56,
+        425.96,
+        448.4,
+        470.8,
+        493.24,
+        515.64,
+        538.08,
+        560.48,
+        582.92,
+        605.32,
+        627.76,
+        650.16,
+        672.6,
+        695.0
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          8,
+          9
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          47,
+          48
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          74,
+          75
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          97,
+          98
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          120,
+          121
+        ],
+        [
+          132,
+          133
+        ],
+        [
+          142,
+          143
+        ],
+        [
+          151,
+          152
+        ],
+        [
+          162,
+          163
+        ],
+        [
+          172,
+          173
+        ],
+        [
+          181,
+          182
+        ],
+        [
+          190,
+          191
+        ],
+        [
+          198,
+          199
+        ],
+        [
+          206,
+          207
+        ],
+        [
+          214,
+          215
+        ],
+        [
+          221,
+          222
+        ],
+        [
+          229,
+          230
+        ],
+        [
+          235,
+          236
+        ],
+        [
+          245,
+          246
+        ],
+        [
+          254,
+          255
+        ],
+        [
+          263,
+          264
+        ],
+        [
+          272,
+          273
+        ],
+        [
+          281,
+          282
+        ],
+        [
+          290,
+          291
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 8,
+          "start_ms": 18119,
+          "end_ms": 22600,
+          "text": "to say thank you personally for all the"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 20680,
+          "end_ms": 24640,
+          "text": "wonderful messages of support and for"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 42000,
+          "end_ms": 45280,
+          "text": "time it was thought that my condition"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 43920,
+          "end_ms": 48480,
+          "text": "was"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 64519,
+          "end_ms": 69360,
+          "text": "shock and William and I have been doing"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 66840,
+          "end_ms": 72560,
+          "text": "everything we can to process and manage"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 87400,
+          "end_ms": 92079,
+          "text": "that's appropriate for them and to"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 89280,
+          "end_ms": 95439,
+          "text": "reassure them that I'm going to be"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 108880,
+          "end_ms": 113680,
+          "text": "that has been shown by so many of you it"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 111439,
+          "end_ms": 116880,
+          "text": "means so much to us"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 128478,
+          "end_ms": 134879,
+          "text": "to being back when I'm able but for now"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 131160,
+          "end_ms": 137720,
+          "text": "I must focus on making a full"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 152879,
+          "end_ms": 157120,
+          "text": "personal message that was filmed on"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 155040,
+          "end_ms": 159159,
+          "text": "Wednesday in windso while our Royal"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 177360,
+          "end_ms": 180800,
+          "text": "that this has been entirely driven by"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 178920,
+          "end_ms": 182920,
+          "text": "trying to protect protect the children"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 199079,
+          "end_ms": 202840,
+          "text": "children from the scrutiny and the"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 201120,
+          "end_ms": 204200,
+          "text": "spotlight that might have been going on"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 221920,
+          "end_ms": 225319,
+          "text": "I hope to make a full recovery I mean"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 223799,
+          "end_ms": 227159,
+          "text": "that is the that is very much her tone"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 242519,
+          "end_ms": 247760,
+          "text": "terms of speculation and rumor and that"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 244799,
+          "end_ms": 250079,
+          "text": "video is Catherine in her own words done"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 266360,
+          "end_ms": 270280,
+          "text": "wells for some time on any kind of"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 268199,
+          "end_ms": 271840,
+          "text": "normal schedule of public duty"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 288600,
+          "end_ms": 291680,
+          "text": "you and you've been looking back over"
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 290080,
+          "end_ms": 293039,
+          "text": "the last few weeks and the impact that"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 311120,
+          "end_ms": 316400,
+          "text": "December all seemed well as she spoke to"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 313440,
+          "end_ms": 318960,
+          "text": "the crowds thank you so much that's very"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 332400,
+          "end_ms": 336479,
+          "text": "princess's condition has been intense"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 334840,
+          "end_ms": 338440,
+          "text": "this footage published earlier this week"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 356800,
+          "end_ms": 360080,
+          "text": "Constantine of Greece at the end of"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 358240,
+          "end_ms": 362039,
+          "text": "February the rest of the the royal"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 377840,
+          "end_ms": 382800,
+          "text": "their children and ensure they have time"
+        },
+        {
+          "cue_id": 173,
+          "start_ms": 380039,
+          "end_ms": 385360,
+          "text": "to explain what's wrong to Prince George"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 400159,
+          "end_ms": 406560,
+          "text": "medical team have approved for now the"
+        },
+        {
+          "cue_id": 182,
+          "start_ms": 403159,
+          "end_ms": 409880,
+          "text": "Princess of Wales wants time space and"
+        },
+        {
+          "cue_id": 190,
+          "start_ms": 423840,
+          "end_ms": 427879,
+          "text": "have what more can you tell us okay well"
+        },
+        {
+          "cue_id": 191,
+          "start_ms": 425440,
+          "end_ms": 431759,
+          "text": "Sophie we we are not being told what"
+        },
+        {
+          "cue_id": 198,
+          "start_ms": 444800,
+          "end_ms": 449599,
+          "text": "what we have been told is that the"
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 447199,
+          "end_ms": 452879,
+          "text": "cancer was found after she had this"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 465840,
+          "end_ms": 472120,
+          "text": "late last month now chemotherapy is an"
+        },
+        {
+          "cue_id": 207,
+          "start_ms": 468680,
+          "end_ms": 474879,
+          "text": "umbrella term for any drug treatment to"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 489039,
+          "end_ms": 495639,
+          "text": "as an infusion but increasingly it can"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 492360,
+          "end_ms": 498479,
+          "text": "be given in t as tablets daily tablets"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 511479,
+          "end_ms": 517479,
+          "text": "she is well and getting stronger every"
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 514799,
+          "end_ms": 519838,
+          "text": "day she's 42 years old she's only just"
+        },
+        {
+          "cue_id": 229,
+          "start_ms": 535760,
+          "end_ms": 541399,
+          "text": "diagnosed at a younger age a thousand"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 537839,
+          "end_ms": 545399,
+          "text": "people a day in in the UK are given a"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 554839,
+          "end_ms": 560640,
+          "text": "the message at the end when Katherine"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 557040,
+          "end_ms": 563680,
+          "text": "urged others affected by cancer not to"
+        },
+        {
+          "cue_id": 245,
+          "start_ms": 578920,
+          "end_ms": 585160,
+          "text": "much now for her is on her family at"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 582360,
+          "end_ms": 587320,
+          "text": "home yes that's absolutely right Sophie"
+        },
+        {
+          "cue_id": 254,
+          "start_ms": 602839,
+          "end_ms": 607040,
+          "text": "because as you say uh princess the"
+        },
+        {
+          "cue_id": 255,
+          "start_ms": 605000,
+          "end_ms": 609240,
+          "text": "Princess of Wales and her family there"
+        },
+        {
+          "cue_id": 263,
+          "start_ms": 624200,
+          "end_ms": 629160,
+          "text": "have had to talk to their three young"
+        },
+        {
+          "cue_id": 264,
+          "start_ms": 625959,
+          "end_ms": 632200,
+          "text": "children uh George Charlotte and Louie"
+        },
+        {
+          "cue_id": 272,
+          "start_ms": 647079,
+          "end_ms": 652160,
+          "text": "uh stay very close of course and keep"
+        },
+        {
+          "cue_id": 273,
+          "start_ms": 649240,
+          "end_ms": 654720,
+          "text": "very private uh here at their home in"
+        },
+        {
+          "cue_id": 281,
+          "start_ms": 668360,
+          "end_ms": 672839,
+          "text": "Sophie the Easter holidays just getting"
+        },
+        {
+          "cue_id": 282,
+          "start_ms": 670360,
+          "end_ms": 675600,
+          "text": "underway for her three children and the"
+        },
+        {
+          "cue_id": 290,
+          "start_ms": 691839,
+          "end_ms": 697040,
+          "text": "will of course return to that story"
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 694760,
+          "end_ms": 697040,
+          "text": "later"
+        }
+      ],
+      "text": "to say thank you personally for all the\nwonderful messages of support and for\ntime it was thought that my condition\nwas\nshock and William and I have been doing\neverything we can to process and manage\nthat's appropriate for them and to\nreassure them that I'm going to be\nthat has been shown by so many of you it\nmeans so much to us\nto being back when I'm able but for now\nI must focus on making a full\npersonal message that was filmed on\nWednesday in windso while our Royal\nthat this has been entirely driven by\ntrying to protect protect the children\nchildren from the scrutiny and the\nspotlight that might have been going on\nI hope to make a full recovery I mean\nthat is the that is very much her tone\nterms of speculation and rumor and that\nvideo is Catherine in her own words done\nwells for some time on any kind of\nnormal schedule of public duty\nyou and you've been looking back over\nthe last few weeks and the impact that\nDecember all seemed well as she spoke to\nthe crowds thank you so much that's very\nprincess's condition has been intense\nthis footage published earlier this week\nConstantine of Greece at the end of\nFebruary the rest of the the royal\ntheir children and ensure they have time\nto explain what's wrong to Prince George\nmedical team have approved for now the\nPrincess of Wales wants time space and\nhave what more can you tell us okay well\nSophie we we are not being told what\nwhat we have been told is that the\ncancer was found after she had this\nlate last month now chemotherapy is an\numbrella term for any drug treatment to\nas an infusion but increasingly it can\nbe given in t as tablets daily tablets\nshe is well and getting stronger every\nday she's 42 years old she's only just\ndiagnosed at a younger age a thousand\npeople a day in in the UK are given a\nthe message at the end when Katherine\nurged others affected by cancer not to\nmuch now for her is on her family at\nhome yes that's absolutely right Sophie\nbecause as you say uh princess the\nPrincess of Wales and her family there\nhave had to talk to their three young\nchildren uh George Charlotte and Louie\nuh stay very close of course and keep\nvery private uh here at their home in\nSophie the Easter holidays just getting\nunderway for her three children and the\nwill of course return to that story\nlater",
+      "text_tokens": 530,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "FkZn5u3MIiY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FkZn5u3MIiY.srt",
+          "status": "available",
+          "bytes": 32344,
+          "sha256": "fc3a3c59c511b1458a4d3ecfd831a2ee9632810eb8e29c3133d0a1d657c8d219",
+          "cues": 291,
+          "nonempty_cues": 291
+        },
+        "frame_indices": [
+          0,
+          560,
+          1121,
+          1681,
+          2242,
+          2802,
+          3363,
+          3923,
+          4484,
+          5044,
+          5605,
+          6165,
+          6726,
+          7286,
+          7847,
+          8407,
+          8968,
+          9528,
+          10089,
+          10649,
+          11210,
+          11770,
+          12331,
+          12891,
+          13452,
+          14012,
+          14573,
+          15133,
+          15694,
+          16254,
+          16815,
+          17375
+        ],
+        "frame_seconds": [
+          0.0,
+          22.4,
+          44.84,
+          67.24,
+          89.68,
+          112.08,
+          134.52,
+          156.92000000000002,
+          179.36,
+          201.76,
+          224.2,
+          246.6,
+          269.04,
+          291.44,
+          313.88,
+          336.28,
+          358.72,
+          381.12,
+          403.56,
+          425.96,
+          448.4,
+          470.8,
+          493.24,
+          515.64,
+          538.08,
+          560.48,
+          582.92,
+          605.32,
+          627.76,
+          650.16,
+          672.6,
+          695.0
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            8,
+            9
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            47,
+            48
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            74,
+            75
+          ],
+          [
+            85,
+            86
+          ],
+          [
+            97,
+            98
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            120,
+            121
+          ],
+          [
+            132,
+            133
+          ],
+          [
+            142,
+            143
+          ],
+          [
+            151,
+            152
+          ],
+          [
+            162,
+            163
+          ],
+          [
+            172,
+            173
+          ],
+          [
+            181,
+            182
+          ],
+          [
+            190,
+            191
+          ],
+          [
+            198,
+            199
+          ],
+          [
+            206,
+            207
+          ],
+          [
+            214,
+            215
+          ],
+          [
+            221,
+            222
+          ],
+          [
+            229,
+            230
+          ],
+          [
+            235,
+            236
+          ],
+          [
+            245,
+            246
+          ],
+          [
+            254,
+            255
+          ],
+          [
+            263,
+            264
+          ],
+          [
+            272,
+            273
+          ],
+          [
+            281,
+            282
+          ],
+          [
+            290,
+            291
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 8,
+            "start_ms": 18119,
+            "end_ms": 22600,
+            "text": "to say thank you personally for all the"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 20680,
+            "end_ms": 24640,
+            "text": "wonderful messages of support and for"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 42000,
+            "end_ms": 45280,
+            "text": "time it was thought that my condition"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 43920,
+            "end_ms": 48480,
+            "text": "was"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 64519,
+            "end_ms": 69360,
+            "text": "shock and William and I have been doing"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 66840,
+            "end_ms": 72560,
+            "text": "everything we can to process and manage"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 87400,
+            "end_ms": 92079,
+            "text": "that's appropriate for them and to"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 89280,
+            "end_ms": 95439,
+            "text": "reassure them that I'm going to be"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 108880,
+            "end_ms": 113680,
+            "text": "that has been shown by so many of you it"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 111439,
+            "end_ms": 116880,
+            "text": "means so much to us"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 128478,
+            "end_ms": 134879,
+            "text": "to being back when I'm able but for now"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 131160,
+            "end_ms": 137720,
+            "text": "I must focus on making a full"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 152879,
+            "end_ms": 157120,
+            "text": "personal message that was filmed on"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 155040,
+            "end_ms": 159159,
+            "text": "Wednesday in windso while our Royal"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 177360,
+            "end_ms": 180800,
+            "text": "that this has been entirely driven by"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 178920,
+            "end_ms": 182920,
+            "text": "trying to protect protect the children"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 199079,
+            "end_ms": 202840,
+            "text": "children from the scrutiny and the"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 201120,
+            "end_ms": 204200,
+            "text": "spotlight that might have been going on"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 221920,
+            "end_ms": 225319,
+            "text": "I hope to make a full recovery I mean"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 223799,
+            "end_ms": 227159,
+            "text": "that is the that is very much her tone"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 242519,
+            "end_ms": 247760,
+            "text": "terms of speculation and rumor and that"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 244799,
+            "end_ms": 250079,
+            "text": "video is Catherine in her own words done"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 266360,
+            "end_ms": 270280,
+            "text": "wells for some time on any kind of"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 268199,
+            "end_ms": 271840,
+            "text": "normal schedule of public duty"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 288600,
+            "end_ms": 291680,
+            "text": "you and you've been looking back over"
+          },
+          {
+            "cue_id": 133,
+            "start_ms": 290080,
+            "end_ms": 293039,
+            "text": "the last few weeks and the impact that"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 311120,
+            "end_ms": 316400,
+            "text": "December all seemed well as she spoke to"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 313440,
+            "end_ms": 318960,
+            "text": "the crowds thank you so much that's very"
+          },
+          {
+            "cue_id": 151,
+            "start_ms": 332400,
+            "end_ms": 336479,
+            "text": "princess's condition has been intense"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 334840,
+            "end_ms": 338440,
+            "text": "this footage published earlier this week"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 356800,
+            "end_ms": 360080,
+            "text": "Constantine of Greece at the end of"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 358240,
+            "end_ms": 362039,
+            "text": "February the rest of the the royal"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 377840,
+            "end_ms": 382800,
+            "text": "their children and ensure they have time"
+          },
+          {
+            "cue_id": 173,
+            "start_ms": 380039,
+            "end_ms": 385360,
+            "text": "to explain what's wrong to Prince George"
+          },
+          {
+            "cue_id": 181,
+            "start_ms": 400159,
+            "end_ms": 406560,
+            "text": "medical team have approved for now the"
+          },
+          {
+            "cue_id": 182,
+            "start_ms": 403159,
+            "end_ms": 409880,
+            "text": "Princess of Wales wants time space and"
+          },
+          {
+            "cue_id": 190,
+            "start_ms": 423840,
+            "end_ms": 427879,
+            "text": "have what more can you tell us okay well"
+          },
+          {
+            "cue_id": 191,
+            "start_ms": 425440,
+            "end_ms": 431759,
+            "text": "Sophie we we are not being told what"
+          },
+          {
+            "cue_id": 198,
+            "start_ms": 444800,
+            "end_ms": 449599,
+            "text": "what we have been told is that the"
+          },
+          {
+            "cue_id": 199,
+            "start_ms": 447199,
+            "end_ms": 452879,
+            "text": "cancer was found after she had this"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 465840,
+            "end_ms": 472120,
+            "text": "late last month now chemotherapy is an"
+          },
+          {
+            "cue_id": 207,
+            "start_ms": 468680,
+            "end_ms": 474879,
+            "text": "umbrella term for any drug treatment to"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 489039,
+            "end_ms": 495639,
+            "text": "as an infusion but increasingly it can"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 492360,
+            "end_ms": 498479,
+            "text": "be given in t as tablets daily tablets"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 511479,
+            "end_ms": 517479,
+            "text": "she is well and getting stronger every"
+          },
+          {
+            "cue_id": 222,
+            "start_ms": 514799,
+            "end_ms": 519838,
+            "text": "day she's 42 years old she's only just"
+          },
+          {
+            "cue_id": 229,
+            "start_ms": 535760,
+            "end_ms": 541399,
+            "text": "diagnosed at a younger age a thousand"
+          },
+          {
+            "cue_id": 230,
+            "start_ms": 537839,
+            "end_ms": 545399,
+            "text": "people a day in in the UK are given a"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 554839,
+            "end_ms": 560640,
+            "text": "the message at the end when Katherine"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 557040,
+            "end_ms": 563680,
+            "text": "urged others affected by cancer not to"
+          },
+          {
+            "cue_id": 245,
+            "start_ms": 578920,
+            "end_ms": 585160,
+            "text": "much now for her is on her family at"
+          },
+          {
+            "cue_id": 246,
+            "start_ms": 582360,
+            "end_ms": 587320,
+            "text": "home yes that's absolutely right Sophie"
+          },
+          {
+            "cue_id": 254,
+            "start_ms": 602839,
+            "end_ms": 607040,
+            "text": "because as you say uh princess the"
+          },
+          {
+            "cue_id": 255,
+            "start_ms": 605000,
+            "end_ms": 609240,
+            "text": "Princess of Wales and her family there"
+          },
+          {
+            "cue_id": 263,
+            "start_ms": 624200,
+            "end_ms": 629160,
+            "text": "have had to talk to their three young"
+          },
+          {
+            "cue_id": 264,
+            "start_ms": 625959,
+            "end_ms": 632200,
+            "text": "children uh George Charlotte and Louie"
+          },
+          {
+            "cue_id": 272,
+            "start_ms": 647079,
+            "end_ms": 652160,
+            "text": "uh stay very close of course and keep"
+          },
+          {
+            "cue_id": 273,
+            "start_ms": 649240,
+            "end_ms": 654720,
+            "text": "very private uh here at their home in"
+          },
+          {
+            "cue_id": 281,
+            "start_ms": 668360,
+            "end_ms": 672839,
+            "text": "Sophie the Easter holidays just getting"
+          },
+          {
+            "cue_id": 282,
+            "start_ms": 670360,
+            "end_ms": 675600,
+            "text": "underway for her three children and the"
+          },
+          {
+            "cue_id": 290,
+            "start_ms": 691839,
+            "end_ms": 697040,
+            "text": "will of course return to that story"
+          },
+          {
+            "cue_id": 291,
+            "start_ms": 694760,
+            "end_ms": 697040,
+            "text": "later"
+          }
+        ],
+        "text": "to say thank you personally for all the\nwonderful messages of support and for\ntime it was thought that my condition\nwas\nshock and William and I have been doing\neverything we can to process and manage\nthat's appropriate for them and to\nreassure them that I'm going to be\nthat has been shown by so many of you it\nmeans so much to us\nto being back when I'm able but for now\nI must focus on making a full\npersonal message that was filmed on\nWednesday in windso while our Royal\nthat this has been entirely driven by\ntrying to protect protect the children\nchildren from the scrutiny and the\nspotlight that might have been going on\nI hope to make a full recovery I mean\nthat is the that is very much her tone\nterms of speculation and rumor and that\nvideo is Catherine in her own words done\nwells for some time on any kind of\nnormal schedule of public duty\nyou and you've been looking back over\nthe last few weeks and the impact that\nDecember all seemed well as she spoke to\nthe crowds thank you so much that's very\nprincess's condition has been intense\nthis footage published earlier this week\nConstantine of Greece at the end of\nFebruary the rest of the the royal\ntheir children and ensure they have time\nto explain what's wrong to Prince George\nmedical team have approved for now the\nPrincess of Wales wants time space and\nhave what more can you tell us okay well\nSophie we we are not being told what\nwhat we have been told is that the\ncancer was found after she had this\nlate last month now chemotherapy is an\numbrella term for any drug treatment to\nas an infusion but increasingly it can\nbe given in t as tablets daily tablets\nshe is well and getting stronger every\nday she's 42 years old she's only just\ndiagnosed at a younger age a thousand\npeople a day in in the UK are given a\nthe message at the end when Katherine\nurged others affected by cancer not to\nmuch now for her is on her family at\nhome yes that's absolutely right Sophie\nbecause as you say uh princess the\nPrincess of Wales and her family there\nhave had to talk to their three young\nchildren uh George Charlotte and Louie\nuh stay very close of course and keep\nvery private uh here at their home in\nSophie the Easter holidays just getting\nunderway for her three children and the\nwill of course return to that story\nlater",
+        "text_tokens": 530,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 15400,
+          "end_ms": 26359,
+          "text": "weeks I wanted to take this opportunity to say thank you personally for all the wonderful messages of support and for your understanding whilst I've been"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 39399,
+          "end_ms": 50760,
+          "text": "abdominal surgery in London and at the time it was thought that my condition was non-cancerous the surgery was successful"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "start_ms": 61920,
+          "end_ms": 75200,
+          "text": "treatment this of course came as a huge shock and William and I have been doing everything we can to process and manage this privately for the sake of our young"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 85119,
+          "end_ms": 97360,
+          "text": "George Charlotte and Louie in a way that's appropriate for them and to reassure them that I'm going to be okay as I've said to them I am well and"
+        },
+        {
+          "id": "S46",
+          "cue_ids": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "start_ms": 105840,
+          "end_ms": 119920,
+          "text": "too as is the love support and kindness that has been shown by so many of you it means so much to us both we hope that you'll understand that"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "start_ms": 126159,
+          "end_ms": 139599,
+          "text": "a deep sense of joy and I look forward to being back when I'm able but for now I must focus on making a full recovery at this time I'm also thinking"
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "start_ms": 151000,
+          "end_ms": 161360,
+          "text": "the Princess of Wales with a very personal message that was filmed on Wednesday in windso while our Royal correspondent Daniel Ralph is with me"
+        },
+        {
+          "id": "S73",
+          "cue_ids": [
+            73,
+            74,
+            75,
+            76
+          ],
+          "start_ms": 175920,
+          "end_ms": 184680,
+          "text": "around the prince and princess today is that this has been entirely driven by trying to protect protect the children that has been the focus of the prince"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "start_ms": 197200,
+          "end_ms": 206280,
+          "text": "protect them as parents protect their children from the scrutiny and the spotlight that might have been going on had they still been at school they now"
+        },
+        {
+          "id": "S96",
+          "cue_ids": [
+            96,
+            97,
+            98,
+            99
+          ],
+          "start_ms": 219000,
+          "end_ms": 228560,
+          "text": "message I am well she says in that video I hope to make a full recovery I mean that is the that is very much her tone isn't it her message yeah we are told"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 241079,
+          "end_ms": 252519,
+          "text": "clearly been a very difficult time in terms of speculation and rumor and that video is Catherine in her own words done in her own way and the hope is that she"
+        },
+        {
+          "id": "S119",
+          "cue_ids": [
+            119,
+            120,
+            121,
+            122
+          ],
+          "start_ms": 264440,
+          "end_ms": 273840,
+          "text": "not going to see the prince princess of wells for some time on any kind of normal schedule of public duty we're also not seeing the king very much"
+        },
+        {
+          "id": "S131",
+          "cue_ids": [
+            131,
+            132,
+            133,
+            134
+          ],
+          "start_ms": 286960,
+          "end_ms": 296520,
+          "text": "Duty as soon as possible Daniela thank you and you've been looking back over the last few weeks and the impact that all of this has been having on the royal"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143,
+            144
+          ],
+          "start_ms": 308840,
+          "end_ms": 320720,
+          "text": "with news of Her diagnosis back in December all seemed well as she spoke to the crowds thank you so much that's very sweet of you to come and say hello to us"
+        },
+        {
+          "id": "S150",
+          "cue_ids": [
+            150,
+            151,
+            152,
+            153
+          ],
+          "start_ms": 330960,
+          "end_ms": 340159,
+          "text": "the clamor for information about the princess's condition has been intense this footage published earlier this week filmed by a member of the public showed"
+        },
+        {
+          "id": "S161",
+          "cue_ids": [
+            161,
+            162,
+            163,
+            164
+          ],
+          "start_ms": 354360,
+          "end_ms": 363960,
+          "text": "Thanksgiving service in Windsor for King Constantine of Greece at the end of February the rest of the the royal family were there but the Prince of"
+        },
+        {
+          "id": "S171",
+          "cue_ids": [
+            171,
+            172,
+            173,
+            174
+          ],
+          "start_ms": 375880,
+          "end_ms": 387919,
+          "text": "couple's priority has been to protect their children and ensure they have time to explain what's wrong to Prince George princess Charlotte and Prince Louie they"
+        },
+        {
+          "id": "S180",
+          "cue_ids": [
+            180,
+            181,
+            182,
+            183
+          ],
+          "start_ms": 397880,
+          "end_ms": 414120,
+          "text": "her occasionally but only when her medical team have approved for now the Princess of Wales wants time space and privacy to deal with her diagnosis and"
+        },
+        {
+          "id": "S189",
+          "cue_ids": [
+            189,
+            190,
+            191,
+            192
+          ],
+          "start_ms": 421960,
+          "end_ms": 433560,
+          "text": "treated for but from the few details we have what more can you tell us okay well Sophie we we are not being told what type of cancer this is nor what stage it"
+        },
+        {
+          "id": "S197",
+          "cue_ids": [
+            197,
+            198,
+            199,
+            200
+          ],
+          "start_ms": 441199,
+          "end_ms": 455599,
+          "text": "is very positive in terms of recovery what we have been told is that the cancer was found after she had this successful abdominal surgery and it was"
+        },
+        {
+          "id": "S205",
+          "cue_ids": [
+            205,
+            206,
+            207,
+            208
+          ],
+          "start_ms": 462720,
+          "end_ms": 478039,
+          "text": "preventative chemotherapy that began late last month now chemotherapy is an umbrella term for any drug treatment to kill cancer now it can either be given"
+        },
+        {
+          "id": "S213",
+          "cue_ids": [
+            213,
+            214,
+            215,
+            216
+          ],
+          "start_ms": 487000,
+          "end_ms": 501720,
+          "text": "return in the future now it can be given as an infusion but increasingly it can be given in t as tablets daily tablets and the treatment for cancer has"
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222,
+            223
+          ],
+          "start_ms": 508000,
+          "end_ms": 522880,
+          "text": "of the the future Catherine is stressing she is well and getting stronger every day she's 42 years old she's only just turn 42 how unusual is it for a woman of"
+        },
+        {
+          "id": "S228",
+          "cue_ids": [
+            228,
+            229,
+            230,
+            231
+          ],
+          "start_ms": 532480,
+          "end_ms": 548079,
+          "text": "thousands of people every year are are diagnosed at a younger age a thousand people a day in in the UK are given a cancer diagnosis now it is obviously a"
+        },
+        {
+          "id": "S234",
+          "cue_ids": [
+            234,
+            235,
+            236,
+            237
+          ],
+          "start_ms": 550959,
+          "end_ms": 565839,
+          "text": "UK are living with cancer and I think the message at the end when Katherine urged others affected by cancer not to lose Faith or hope I think that is a key"
+        },
+        {
+          "id": "S244",
+          "cue_ids": [
+            244,
+            245,
+            246,
+            247
+          ],
+          "start_ms": 577360,
+          "end_ms": 589360,
+          "text": "making it very clear that the focus very much now for her is on her family at home yes that's absolutely right Sophie um the news here in Windsor a number of"
+        },
+        {
+          "id": "S253",
+          "cue_ids": [
+            253,
+            254,
+            255,
+            256
+          ],
+          "start_ms": 600519,
+          "end_ms": 611480,
+          "text": "tourist town and also residents here because as you say uh princess the Princess of Wales and her family there three young children uh live here in"
+        },
+        {
+          "id": "S262",
+          "cue_ids": [
+            262,
+            263,
+            264,
+            265
+          ],
+          "start_ms": 622079,
+          "end_ms": 634640,
+          "text": "they've had to she and Prince William have had to talk to their three young children uh George Charlotte and Louie uh in probably very careful words and uh"
+        },
+        {
+          "id": "S271",
+          "cue_ids": [
+            271,
+            272,
+            273,
+            274
+          ],
+          "start_ms": 644639,
+          "end_ms": 656839,
+          "text": "they'll be trying to do as a family is uh stay very close of course and keep very private uh here at their home in Windsor they have been able to uh on the"
+        },
+        {
+          "id": "S280",
+          "cue_ids": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "start_ms": 666200,
+          "end_ms": 677800,
+          "text": "recovery here in Windsor as you say Sophie the Easter holidays just getting underway for her three children and the family felt like like this was the right"
+        },
+        {
+          "id": "S289",
+          "cue_ids": [
+            289,
+            290,
+            291
+          ],
+          "start_ms": 689040,
+          "end_ms": 697040,
+          "text": "in Windsor thank you very much and we will of course return to that story later"
+        }
+      ],
+      "text": "S7 [00:00:15.400 --> 00:00:26.359] weeks I wanted to take this opportunity to say thank you personally for all the wonderful messages of support and for your understanding whilst I've been\nS18 [00:00:39.399 --> 00:00:50.760] abdominal surgery in London and at the time it was thought that my condition was non-cancerous the surgery was successful\nS28 [00:01:01.920 --> 00:01:15.200] treatment this of course came as a huge shock and William and I have been doing everything we can to process and manage this privately for the sake of our young\nS37 [00:01:25.119 --> 00:01:37.360] George Charlotte and Louie in a way that's appropriate for them and to reassure them that I'm going to be okay as I've said to them I am well and\nS46 [00:01:45.840 --> 00:01:59.920] too as is the love support and kindness that has been shown by so many of you it means so much to us both we hope that you'll understand that\nS53 [00:02:06.159 --> 00:02:19.599] a deep sense of joy and I look forward to being back when I'm able but for now I must focus on making a full recovery at this time I'm also thinking\nS61 [00:02:31.000 --> 00:02:41.360] the Princess of Wales with a very personal message that was filmed on Wednesday in windso while our Royal correspondent Daniel Ralph is with me\nS73 [00:02:55.920 --> 00:03:04.680] around the prince and princess today is that this has been entirely driven by trying to protect protect the children that has been the focus of the prince\nS84 [00:03:17.200 --> 00:03:26.280] protect them as parents protect their children from the scrutiny and the spotlight that might have been going on had they still been at school they now\nS96 [00:03:39.000 --> 00:03:48.560] message I am well she says in that video I hope to make a full recovery I mean that is the that is very much her tone isn't it her message yeah we are told\nS107 [00:04:01.079 --> 00:04:12.519] clearly been a very difficult time in terms of speculation and rumor and that video is Catherine in her own words done in her own way and the hope is that she\nS119 [00:04:24.440 --> 00:04:33.840] not going to see the prince princess of wells for some time on any kind of normal schedule of public duty we're also not seeing the king very much\nS131 [00:04:46.960 --> 00:04:56.520] Duty as soon as possible Daniela thank you and you've been looking back over the last few weeks and the impact that all of this has been having on the royal\nS141 [00:05:08.840 --> 00:05:20.720] with news of Her diagnosis back in December all seemed well as she spoke to the crowds thank you so much that's very sweet of you to come and say hello to us\nS150 [00:05:30.960 --> 00:05:40.159] the clamor for information about the princess's condition has been intense this footage published earlier this week filmed by a member of the public showed\nS161 [00:05:54.360 --> 00:06:03.960] Thanksgiving service in Windsor for King Constantine of Greece at the end of February the rest of the the royal family were there but the Prince of\nS171 [00:06:15.880 --> 00:06:27.919] couple's priority has been to protect their children and ensure they have time to explain what's wrong to Prince George princess Charlotte and Prince Louie they\nS180 [00:06:37.880 --> 00:06:54.120] her occasionally but only when her medical team have approved for now the Princess of Wales wants time space and privacy to deal with her diagnosis and\nS189 [00:07:01.960 --> 00:07:13.560] treated for but from the few details we have what more can you tell us okay well Sophie we we are not being told what type of cancer this is nor what stage it\nS197 [00:07:21.199 --> 00:07:35.599] is very positive in terms of recovery what we have been told is that the cancer was found after she had this successful abdominal surgery and it was\nS205 [00:07:42.720 --> 00:07:58.039] preventative chemotherapy that began late last month now chemotherapy is an umbrella term for any drug treatment to kill cancer now it can either be given\nS213 [00:08:07.000 --> 00:08:21.720] return in the future now it can be given as an infusion but increasingly it can be given in t as tablets daily tablets and the treatment for cancer has\nS220 [00:08:28.000 --> 00:08:42.880] of the the future Catherine is stressing she is well and getting stronger every day she's 42 years old she's only just turn 42 how unusual is it for a woman of\nS228 [00:08:52.480 --> 00:09:08.079] thousands of people every year are are diagnosed at a younger age a thousand people a day in in the UK are given a cancer diagnosis now it is obviously a\nS234 [00:09:10.959 --> 00:09:25.839] UK are living with cancer and I think the message at the end when Katherine urged others affected by cancer not to lose Faith or hope I think that is a key\nS244 [00:09:37.360 --> 00:09:49.360] making it very clear that the focus very much now for her is on her family at home yes that's absolutely right Sophie um the news here in Windsor a number of\nS253 [00:10:00.519 --> 00:10:11.480] tourist town and also residents here because as you say uh princess the Princess of Wales and her family there three young children uh live here in\nS262 [00:10:22.079 --> 00:10:34.640] they've had to she and Prince William have had to talk to their three young children uh George Charlotte and Louie uh in probably very careful words and uh\nS271 [00:10:44.639 --> 00:10:56.839] they'll be trying to do as a family is uh stay very close of course and keep very private uh here at their home in Windsor they have been able to uh on the\nS280 [00:11:06.200 --> 00:11:17.800] recovery here in Windsor as you say Sophie the Easter holidays just getting underway for her three children and the family felt like like this was the right\nS289 [00:11:29.040 --> 00:11:37.040] in Windsor thank you very much and we will of course return to that story later",
+      "text_tokens": 1937,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        7,
+        10,
+        18,
+        21,
+        28,
+        31,
+        37,
+        40,
+        46,
+        49,
+        53,
+        56,
+        61,
+        64,
+        73,
+        76,
+        84,
+        87,
+        96,
+        99,
+        107,
+        110,
+        119,
+        122,
+        131,
+        134,
+        141,
+        144,
+        150,
+        153,
+        161,
+        164,
+        171,
+        174,
+        180,
+        183,
+        189,
+        192,
+        197,
+        200,
+        205,
+        208,
+        213,
+        216,
+        220,
+        223,
+        228,
+        231,
+        234,
+        237,
+        244,
+        247,
+        253,
+        256,
+        262,
+        265,
+        271,
+        274,
+        280,
+        283,
+        289
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ce65a7fe23cffd8e3f56bdc8d1078aff032f9eb636471197ba8b6a0c3a6e9f29"
+}

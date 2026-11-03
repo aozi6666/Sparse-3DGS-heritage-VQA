@@ -1,0 +1,588 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "eKVTFXQPAhs",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eKVTFXQPAhs.srt",
+      "status": "available",
+      "bytes": 130535,
+      "sha256": "9a25c5c325d0875b79c32acb729c778b4650e01b8999bae1f3d7032ecf2d4d0c",
+      "cues": 1164,
+      "nonempty_cues": 1164
+    },
+    "frame_indices": [
+      0,
+      2541,
+      5083,
+      7624,
+      10166,
+      12707,
+      15249,
+      17790,
+      20331,
+      22873,
+      25414,
+      27956,
+      30497,
+      33038,
+      35580,
+      38121,
+      40663,
+      43204,
+      45746,
+      48287,
+      50828,
+      53370,
+      55911,
+      58453,
+      60994,
+      63535,
+      66077,
+      68618,
+      71160,
+      73701,
+      76243,
+      78784
+    ],
+    "frame_seconds": [
+      0.0,
+      84.7847,
+      169.602767,
+      254.387467,
+      339.205533,
+      423.990233,
+      508.8083,
+      593.593,
+      678.3777,
+      763.195767,
+      847.980467,
+      932.798533,
+      1017.583233,
+      1102.367933,
+      1187.186,
+      1271.9707,
+      1356.788767,
+      1441.573467,
+      1526.391533,
+      1611.176233,
+      1695.960933,
+      1780.779,
+      1865.5637,
+      1950.381767,
+      2035.166467,
+      2119.951167,
+      2204.769233,
+      2289.553933,
+      2374.372,
+      2459.1567,
+      2543.974767,
+      2628.759467
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        31,
+        32
+      ],
+      [
+        66,
+        67
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        145,
+        146
+      ],
+      [
+        183,
+        184
+      ],
+      [
+        222,
+        223
+      ],
+      [
+        261,
+        262
+      ],
+      [
+        296,
+        297
+      ],
+      [
+        335,
+        336
+      ],
+      [
+        375,
+        376
+      ],
+      [
+        414,
+        415
+      ],
+      [
+        451,
+        452
+      ],
+      [
+        489,
+        490
+      ],
+      [
+        527,
+        528
+      ],
+      [
+        563,
+        564
+      ],
+      [
+        604,
+        605
+      ],
+      [
+        643,
+        644
+      ],
+      [
+        679,
+        680
+      ],
+      [
+        716,
+        717
+      ],
+      [
+        752,
+        753
+      ],
+      [
+        792,
+        793
+      ],
+      [
+        830,
+        831
+      ],
+      [
+        870,
+        871
+      ],
+      [
+        903,
+        904
+      ],
+      [
+        942,
+        943
+      ],
+      [
+        979,
+        980
+      ],
+      [
+        1015,
+        1016
+      ],
+      [
+        1056,
+        1057
+      ],
+      [
+        1094,
+        1095
+      ],
+      [
+        1132,
+        1133
+      ],
+      [
+        1163,
+        1164
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 31,
+        "start_ms": 81000,
+        "end_ms": 85640,
+        "text": "smartphones so naturally it stands for"
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 82720,
+        "end_ms": 88200,
+        "text": "Alpha there's galaxy W for Wonder Galaxy"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 165200,
+        "end_ms": 171159,
+        "text": "single Samsung Galaxy S that has ever"
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 168760,
+        "end_ms": 173120,
+        "text": "been released they're all in front of me"
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 251560,
+        "end_ms": 256720,
+        "text": "others are charging we will witness the"
+      },
+      {
+        "cue_id": 106,
+        "start_ms": 254120,
+        "end_ms": 259000,
+        "text": "death of this feature during this video"
+      },
+      {
+        "cue_id": 145,
+        "start_ms": 333840,
+        "end_ms": 339240,
+        "text": "like this first ever Galaxy S launched"
+      },
+      {
+        "cue_id": 146,
+        "start_ms": 336319,
+        "end_ms": 341360,
+        "text": "with like I said over a dozen variants"
+      },
+      {
+        "cue_id": 183,
+        "start_ms": 419039,
+        "end_ms": 424440,
+        "text": "up to a 1,650 mAh battery and the amount"
+      },
+      {
+        "cue_id": 184,
+        "start_ms": 422520,
+        "end_ms": 428000,
+        "text": "of Base storage I guess you would say"
+      },
+      {
+        "cue_id": 222,
+        "start_ms": 503759,
+        "end_ms": 510000,
+        "text": "first time we got a voice assistant on"
+      },
+      {
+        "cue_id": 223,
+        "start_ms": 506240,
+        "end_ms": 512320,
+        "text": "the phone and they called it SVO"
+      },
+      {
+        "cue_id": 261,
+        "start_ms": 592000,
+        "end_ms": 595800,
+        "text": "things what do I feel like the fourth"
+      },
+      {
+        "cue_id": 262,
+        "start_ms": 593399,
+        "end_ms": 598200,
+        "text": "generation of any major new product is"
+      },
+      {
+        "cue_id": 296,
+        "start_ms": 676160,
+        "end_ms": 680279,
+        "text": "of interesting cuz they feel like the"
+      },
+      {
+        "cue_id": 297,
+        "start_ms": 677639,
+        "end_ms": 682120,
+        "text": "the AI features of back in this day so"
+      },
+      {
+        "cue_id": 335,
+        "start_ms": 759079,
+        "end_ms": 764279,
+        "text": "for the future foreshadowing now by the"
+      },
+      {
+        "cue_id": 336,
+        "start_ms": 761519,
+        "end_ms": 765760,
+        "text": "time we get to Galaxy S5 Samsung is"
+      },
+      {
+        "cue_id": 375,
+        "start_ms": 845920,
+        "end_ms": 849600,
+        "text": "fingerprint readers have stuck around"
+      },
+      {
+        "cue_id": 376,
+        "start_ms": 847639,
+        "end_ms": 851120,
+        "text": "but it doesn't have to be swiped anymore"
+      },
+      {
+        "cue_id": 414,
+        "start_ms": 929240,
+        "end_ms": 934240,
+        "text": "it's one of the slimmest phones ever"
+      },
+      {
+        "cue_id": 415,
+        "start_ms": 931199,
+        "end_ms": 935720,
+        "text": "thanks to having a 2550 mAh battery yes"
+      },
+      {
+        "cue_id": 451,
+        "start_ms": 1012040,
+        "end_ms": 1017759,
+        "text": "Enthusiast Android options like Nexus 6p"
+      },
+      {
+        "cue_id": 452,
+        "start_ms": 1015399,
+        "end_ms": 1020399,
+        "text": "and 5x which were stock Android and then"
+      },
+      {
+        "cue_id": 489,
+        "start_ms": 1100360,
+        "end_ms": 1104000,
+        "text": "number they would always brag about the"
+      },
+      {
+        "cue_id": 490,
+        "start_ms": 1102120,
+        "end_ms": 1105880,
+        "text": "screen to body ratio how thin their"
+      },
+      {
+        "cue_id": 527,
+        "start_ms": 1183159,
+        "end_ms": 1187200,
+        "text": "can talk Samsung into some stuff and you"
+      },
+      {
+        "cue_id": 528,
+        "start_ms": 1185559,
+        "end_ms": 1189520,
+        "text": "still can't take the back off this thing"
+      },
+      {
+        "cue_id": 563,
+        "start_ms": 1269720,
+        "end_ms": 1273000,
+        "text": "all of them back they couldn't sell it"
+      },
+      {
+        "cue_id": 564,
+        "start_ms": 1270919,
+        "end_ms": 1274480,
+        "text": "anymore it's a big issue and honestly a"
+      },
+      {
+        "cue_id": 604,
+        "start_ms": 1354960,
+        "end_ms": 1358559,
+        "text": "pretty reachable uh since they've also"
+      },
+      {
+        "cue_id": 605,
+        "start_ms": 1356679,
+        "end_ms": 1361559,
+        "text": "gone from capacitive buttons below the"
+      },
+      {
+        "cue_id": 643,
+        "start_ms": 1438840,
+        "end_ms": 1442559,
+        "text": "in my top five worst smartphone"
+      },
+      {
+        "cue_id": 644,
+        "start_ms": 1440440,
+        "end_ms": 1444679,
+        "text": "accessories of all time but even after"
+      },
+      {
+        "cue_id": 679,
+        "start_ms": 1523440,
+        "end_ms": 1526640,
+        "text": "version you're getting just based on the"
+      },
+      {
+        "cue_id": 680,
+        "start_ms": 1525000,
+        "end_ms": 1529200,
+        "text": "serial number just so you can avoid the"
+      },
+      {
+        "cue_id": 716,
+        "start_ms": 1608039,
+        "end_ms": 1612200,
+        "text": "honestly this is one of those phones"
+      },
+      {
+        "cue_id": 717,
+        "start_ms": 1609520,
+        "end_ms": 1614000,
+        "text": "picking it up now like I've talked about"
+      },
+      {
+        "cue_id": 752,
+        "start_ms": 1693279,
+        "end_ms": 1696960,
+        "text": "like you see how the chin is just a tiny"
+      },
+      {
+        "cue_id": 753,
+        "start_ms": 1695000,
+        "end_ms": 1698519,
+        "text": "bit bigger but yeah up at the top we've"
+      },
+      {
+        "cue_id": 792,
+        "start_ms": 1777960,
+        "end_ms": 1782919,
+        "text": "brought this phone the most into the age"
+      },
+      {
+        "cue_id": 793,
+        "start_ms": 1780200,
+        "end_ms": 1785480,
+        "text": "of modern smartphones might just be the"
+      },
+      {
+        "cue_id": 830,
+        "start_ms": 1862919,
+        "end_ms": 1868559,
+        "text": "looks"
+      },
+      {
+        "cue_id": 831,
+        "start_ms": 1864559,
+        "end_ms": 1871200,
+        "text": "blank boring soulless what happened like"
+      },
+      {
+        "cue_id": 870,
+        "start_ms": 1948320,
+        "end_ms": 1951639,
+        "text": "this was kind of fighting at the top of"
+      },
+      {
+        "cue_id": 871,
+        "start_ms": 1949679,
+        "end_ms": 1953600,
+        "text": "the lineup with the Galaxy Note because"
+      },
+      {
+        "cue_id": 903,
+        "start_ms": 2030840,
+        "end_ms": 2035720,
+        "text": "design language that is so recognizable"
+      },
+      {
+        "cue_id": 904,
+        "start_ms": 2033399,
+        "end_ms": 2037320,
+        "text": "as a Samsung phone so this triple camera"
+      },
+      {
+        "cue_id": 942,
+        "start_ms": 2116720,
+        "end_ms": 2120760,
+        "text": "what the number is anymore I just feel"
+      },
+      {
+        "cue_id": 943,
+        "start_ms": 2118760,
+        "end_ms": 2122440,
+        "text": "like there's so little bezel to hold"
+      },
+      {
+        "cue_id": 979,
+        "start_ms": 2199880,
+        "end_ms": 2206880,
+        "text": "the same slightly customized Qualcomm"
+      },
+      {
+        "cue_id": 980,
+        "start_ms": 2203400,
+        "end_ms": 2208839,
+        "text": "Snapdragon 8 Gen 2 for Galaxy and yeah"
+      },
+      {
+        "cue_id": 1015,
+        "start_ms": 2284880,
+        "end_ms": 2290760,
+        "text": "s24 even more boring colors and even"
+      },
+      {
+        "cue_id": 1016,
+        "start_ms": 2288280,
+        "end_ms": 2292960,
+        "text": "more generic design and even more"
+      },
+      {
+        "cue_id": 1056,
+        "start_ms": 2371079,
+        "end_ms": 2376119,
+        "text": "but with dbrands cases for the s24"
+      },
+      {
+        "cue_id": 1057,
+        "start_ms": 2373200,
+        "end_ms": 2378960,
+        "text": "series they all come with magnets built"
+      },
+      {
+        "cue_id": 1094,
+        "start_ms": 2455160,
+        "end_ms": 2459839,
+        "text": "is 6.8 in which is crazy but here's a"
+      },
+      {
+        "cue_id": 1095,
+        "start_ms": 2457599,
+        "end_ms": 2461480,
+        "text": "fun fact based on this chart maybe it's"
+      },
+      {
+        "cue_id": 1132,
+        "start_ms": 2540440,
+        "end_ms": 2544480,
+        "text": "course the highest end Ultra phones"
+      },
+      {
+        "cue_id": 1133,
+        "start_ms": 2542400,
+        "end_ms": 2546920,
+        "text": "quickly blasted the ceiling way up all"
+      },
+      {
+        "cue_id": 1163,
+        "start_ms": 2622760,
+        "end_ms": 2630760,
+        "text": "peace from two gigs"
+      },
+      {
+        "cue_id": 1164,
+        "start_ms": 2625800,
+        "end_ms": 2630760,
+        "text": "all I deserve that"
+      }
+    ],
+    "text": "smartphones so naturally it stands for\nAlpha there's galaxy W for Wonder Galaxy\nsingle Samsung Galaxy S that has ever\nbeen released they're all in front of me\nothers are charging we will witness the\ndeath of this feature during this video\nlike this first ever Galaxy S launched\nwith like I said over a dozen variants\nup to a 1,650 mAh battery and the amount\nof Base storage I guess you would say\nfirst time we got a voice assistant on\nthe phone and they called it SVO\nthings what do I feel like the fourth\ngeneration of any major new product is\nof interesting cuz they feel like the\nthe AI features of back in this day so\nfor the future foreshadowing now by the\ntime we get to Galaxy S5 Samsung is\nfingerprint readers have stuck around\nbut it doesn't have to be swiped anymore\nit's one of the slimmest phones ever\nthanks to having a 2550 mAh battery yes\nEnthusiast Android options like Nexus 6p\nand 5x which were stock Android and then\nnumber they would always brag about the\nscreen to body ratio how thin their\ncan talk Samsung into some stuff and you\nstill can't take the back off this thing\nall of them back they couldn't sell it\nanymore it's a big issue and honestly a\npretty reachable uh since they've also\ngone from capacitive buttons below the\nin my top five worst smartphone\naccessories of all time but even after\nversion you're getting just based on the\nserial number just so you can avoid the\nhonestly this is one of those phones\npicking it up now like I've talked about\nlike you see how the chin is just a tiny\nbit bigger but yeah up at the top we've\nbrought this phone the most into the age\nof modern smartphones might just be the\nlooks\nblank boring soulless what happened like\nthis was kind of fighting at the top of\nthe lineup with the Galaxy Note because\ndesign language that is so recognizable\nas a Samsung phone so this triple camera\nwhat the number is anymore I just feel\nlike there's so little bezel to hold\nthe same slightly customized Qualcomm\nSnapdragon 8 Gen 2 for Galaxy and yeah\ns24 even more boring colors and even\nmore generic design and even more\nbut with dbrands cases for the s24\nseries they all come with magnets built\nis 6.8 in which is crazy but here's a\nfun fact based on this chart maybe it's\ncourse the highest end Ultra phones\nquickly blasted the ceiling way up all\npeace from two gigs\nall I deserve that",
+    "text_tokens": 566,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "8e7261ef79640df723b2e9cf4d82cea2492f4c6c14a7540215fa4da0251b7410"
+}

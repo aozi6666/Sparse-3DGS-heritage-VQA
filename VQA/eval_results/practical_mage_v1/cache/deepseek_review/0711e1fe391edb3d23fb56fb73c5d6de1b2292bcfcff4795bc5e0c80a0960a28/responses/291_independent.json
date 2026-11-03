@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "fb408638b509db4b9941980f9dd626b98d02cab20d0fa563762496ee9dc1325c",
+  "response": {
+    "id": "9cd0fda5-8654-4ac9-a55e-0e9804e4cf20",
+    "object": "chat.completion",
+    "created": 1793675798,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S10\",\"quote\":\"The Tesla Roadster could go to 60 miles per hour in just 3.7 seconds\"},{\"block_id\":\"S311\",\"quote\":\"The new Tesla Roadster will go from 0 to 60 miles per hour in only 1.9 seconds!\"}],\"frame_ids\":[\"F1046\",\"F11502\",\"F31370\"],\"windows\":[],\"notes\":\"Video gives 0-60 times for Roadster (3.7s), Model X (3.8s), Model 3 Performance (3.1s), and new Roadster (1.9s/1.1s), but no explicit 0-60 times for Model S, Model Y, or Model X Plaid. Cannot verify any option's full ranking.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9232,
+      "completion_tokens": 189,
+      "total_tokens": 9421,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9104
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.768709821626544
+}

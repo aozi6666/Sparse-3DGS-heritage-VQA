@@ -1,0 +1,674 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "fo-mVfOsC-E",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/fo-mVfOsC-E.srt",
+        "status": "available",
+        "bytes": 2015,
+        "sha256": "0c9fe8ad68bea2207f701db237878a8962af52b8dee0f2b0ee0cd6f5d4acc08a",
+        "cues": 19,
+        "nonempty_cues": 18
+      },
+      "frame_indices": [
+        0,
+        46,
+        91,
+        137,
+        183,
+        229,
+        274,
+        320,
+        366,
+        411,
+        457,
+        503,
+        549,
+        594,
+        640,
+        686,
+        731,
+        777,
+        823,
+        868,
+        914,
+        960,
+        1006,
+        1051,
+        1097,
+        1143,
+        1188,
+        1234,
+        1280,
+        1326,
+        1371,
+        1417
+      ],
+      "frame_seconds": [
+        0.0,
+        1.916667,
+        3.791667,
+        5.708333,
+        7.625,
+        9.541667,
+        11.416667,
+        13.333333,
+        15.25,
+        17.125,
+        19.041667,
+        20.958333,
+        22.875,
+        24.75,
+        26.666667,
+        28.583333,
+        30.458333,
+        32.375,
+        34.291667,
+        36.166667,
+        38.083333,
+        40.0,
+        41.916667,
+        43.791667,
+        45.708333,
+        47.625,
+        49.5,
+        51.416667,
+        53.333333,
+        55.25,
+        57.125,
+        59.041667
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 2480,
+          "text": "[music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 750,
+          "end_ms": 5110,
+          "text": "yeahyeah yeah yeah"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 5780,
+          "end_ms": 12800,
+          "text": "yeah I know I'm dead colore by Westlife"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 9730,
+          "end_ms": 17060,
+          "text": "best level When She puts over him every"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 12800,
+          "end_ms": 19760,
+          "text": "day most people congential bridal forum"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 17060,
+          "end_ms": 24980,
+          "text": "and make decisions of interest to your"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 19760,
+          "end_ms": 27050,
+          "text": "parents Together sit-stand englishman"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 24980,
+          "end_ms": 30050,
+          "text": "applied react-youtube operations"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 27050,
+          "end_ms": 34520,
+          "text": "Together What is a very special for good"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 30050,
+          "end_ms": 37219,
+          "text": "friends egestas arcu do begard important"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 34520,
+          "end_ms": 40609,
+          "text": "is the first issue the work Project"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 37219,
+          "end_ms": 42679,
+          "text": "acacia guest is the weather cities"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 40609,
+          "end_ms": 45640,
+          "text": "including the vector globe Awards"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 42679,
+          "end_ms": 47989,
+          "text": "Survive The Fast and the prosecution"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 45640,
+          "end_ms": 50870,
+          "text": "proposition never seen the perfect match"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 47989,
+          "end_ms": 52940,
+          "text": "for interview in Gallery Gunny Super"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 50870,
+          "end_ms": 61149,
+          "text": "case the Company and defend their"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52940,
+          "end_ms": 61149,
+          "text": "precious aboard the models and testify a"
+        }
+      ],
+      "text": "[music]\nyeahyeah yeah yeah\nyeah I know I'm dead colore by Westlife\nbest level When She puts over him every\nday most people congential bridal forum\nand make decisions of interest to your\nparents Together sit-stand englishman\napplied react-youtube operations\nTogether What is a very special for good\nfriends egestas arcu do begard important\nis the first issue the work Project\nacacia guest is the weather cities\nincluding the vector globe Awards\nSurvive The Fast and the prosecution\nproposition never seen the perfect match\nfor interview in Gallery Gunny Super\ncase the Company and defend their\nprecious aboard the models and testify a",
+      "text_tokens": 140,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "fo-mVfOsC-E",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/fo-mVfOsC-E.srt",
+          "status": "available",
+          "bytes": 2015,
+          "sha256": "0c9fe8ad68bea2207f701db237878a8962af52b8dee0f2b0ee0cd6f5d4acc08a",
+          "cues": 19,
+          "nonempty_cues": 18
+        },
+        "frame_indices": [
+          0,
+          46,
+          91,
+          137,
+          183,
+          229,
+          274,
+          320,
+          366,
+          411,
+          457,
+          503,
+          549,
+          594,
+          640,
+          686,
+          731,
+          777,
+          823,
+          868,
+          914,
+          960,
+          1006,
+          1051,
+          1097,
+          1143,
+          1188,
+          1234,
+          1280,
+          1326,
+          1371,
+          1417
+        ],
+        "frame_seconds": [
+          0.0,
+          1.916667,
+          3.791667,
+          5.708333,
+          7.625,
+          9.541667,
+          11.416667,
+          13.333333,
+          15.25,
+          17.125,
+          19.041667,
+          20.958333,
+          22.875,
+          24.75,
+          26.666667,
+          28.583333,
+          30.458333,
+          32.375,
+          34.291667,
+          36.166667,
+          38.083333,
+          40.0,
+          41.916667,
+          43.791667,
+          45.708333,
+          47.625,
+          49.5,
+          51.416667,
+          53.333333,
+          55.25,
+          57.125,
+          59.041667
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            19
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 2480,
+            "text": "[music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 750,
+            "end_ms": 5110,
+            "text": "yeahyeah yeah yeah"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 5780,
+            "end_ms": 12800,
+            "text": "yeah I know I'm dead colore by Westlife"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 9730,
+            "end_ms": 17060,
+            "text": "best level When She puts over him every"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 12800,
+            "end_ms": 19760,
+            "text": "day most people congential bridal forum"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 17060,
+            "end_ms": 24980,
+            "text": "and make decisions of interest to your"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 19760,
+            "end_ms": 27050,
+            "text": "parents Together sit-stand englishman"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 24980,
+            "end_ms": 30050,
+            "text": "applied react-youtube operations"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 27050,
+            "end_ms": 34520,
+            "text": "Together What is a very special for good"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 30050,
+            "end_ms": 37219,
+            "text": "friends egestas arcu do begard important"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 34520,
+            "end_ms": 40609,
+            "text": "is the first issue the work Project"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 37219,
+            "end_ms": 42679,
+            "text": "acacia guest is the weather cities"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 40609,
+            "end_ms": 45640,
+            "text": "including the vector globe Awards"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 42679,
+            "end_ms": 47989,
+            "text": "Survive The Fast and the prosecution"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 45640,
+            "end_ms": 50870,
+            "text": "proposition never seen the perfect match"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 47989,
+            "end_ms": 52940,
+            "text": "for interview in Gallery Gunny Super"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 50870,
+            "end_ms": 61149,
+            "text": "case the Company and defend their"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52940,
+            "end_ms": 61149,
+            "text": "precious aboard the models and testify a"
+          }
+        ],
+        "text": "[music]\nyeahyeah yeah yeah\nyeah I know I'm dead colore by Westlife\nbest level When She puts over him every\nday most people congential bridal forum\nand make decisions of interest to your\nparents Together sit-stand englishman\napplied react-youtube operations\nTogether What is a very special for good\nfriends egestas arcu do begard important\nis the first issue the work Project\nacacia guest is the weather cities\nincluding the vector globe Awards\nSurvive The Fast and the prosecution\nproposition never seen the perfect match\nfor interview in Gallery Gunny Super\ncase the Company and defend their\nprecious aboard the models and testify a",
+        "text_tokens": 140,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "start_ms": 0,
+          "end_ms": 61149,
+          "text": "[music] yeahyeah yeah yeah yeah I know I'm dead colore by Westlife best level When She puts over him every day most people congential bridal forum and make decisions of interest to your parents Together sit-stand englishman applied react-youtube operations Together What is a very special for good friends egestas arcu do begard important is the first issue the work Project acacia guest is the weather cities including the vector globe Awards Survive The Fast and the prosecution proposition never seen the perfect match for interview in Gallery Gunny Super case the Company and defend their precious aboard the models and testify a"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:01:01.149] [music] yeahyeah yeah yeah yeah I know I'm dead colore by Westlife best level When She puts over him every day most people congential bridal forum and make decisions of interest to your parents Together sit-stand englishman applied react-youtube operations Together What is a very special for good friends egestas arcu do begard important is the first issue the work Project acacia guest is the weather cities including the vector globe Awards Survive The Fast and the prosecution proposition never seen the perfect match for interview in Gallery Gunny Super case the Company and defend their precious aboard the models and testify a",
+      "text_tokens": 151,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "954a8cf067058c3cfc00c7ee37a5e368999de0840db6b98d3498a336abbae7e3"
+}

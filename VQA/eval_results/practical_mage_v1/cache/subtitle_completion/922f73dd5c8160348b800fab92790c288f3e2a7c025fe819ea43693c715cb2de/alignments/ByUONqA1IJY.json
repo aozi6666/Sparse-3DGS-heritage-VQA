@@ -1,0 +1,694 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "ByUONqA1IJY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ByUONqA1IJY.srt",
+        "status": "available",
+        "bytes": 2241,
+        "sha256": "303b8e4a8daed6d1bb77f7b4ec2be8d4a21af191887d19ea9d9367c5f52bb12b",
+        "cues": 23,
+        "nonempty_cues": 23
+      },
+      "frame_indices": [
+        0,
+        66,
+        132,
+        198,
+        264,
+        330,
+        396,
+        462,
+        527,
+        593,
+        659,
+        725,
+        791,
+        857,
+        923,
+        989,
+        1055,
+        1121,
+        1187,
+        1253,
+        1319,
+        1385,
+        1451,
+        1517,
+        1582,
+        1648,
+        1714,
+        1780,
+        1846,
+        1912,
+        1978,
+        2044
+      ],
+      "frame_seconds": [
+        0.0,
+        2.64,
+        5.28,
+        7.92,
+        10.56,
+        13.2,
+        15.84,
+        18.48,
+        21.08,
+        23.72,
+        26.36,
+        29.0,
+        31.64,
+        34.28,
+        36.92,
+        39.56,
+        42.2,
+        44.84,
+        47.48,
+        50.12,
+        52.76,
+        55.4,
+        58.04,
+        60.68,
+        63.28,
+        65.92,
+        68.56,
+        71.2,
+        73.84,
+        76.48,
+        79.12,
+        81.76
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [],
+        [],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [],
+        [],
+        [],
+        [
+          12
+        ],
+        [
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [],
+        [],
+        [
+          23
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 2,
+          "start_ms": 1000,
+          "end_ms": 3840,
+          "text": "well the former England International"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 2280,
+          "end_ms": 5480,
+          "text": "Gary Neville now part of the England"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 3840,
+          "end_ms": 7799,
+          "text": "back room team is desperately trying to"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 5480,
+          "end_ms": 10599,
+          "text": "organize a reshape here and Suarez is in"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 7799,
+          "end_ms": 13080,
+          "text": "behind England Suarez to Win It Suarez"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 13120,
+          "end_ms": 19720,
+          "text": "surely more calamitous defending by"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 16359,
+          "end_ms": 22119,
+          "text": "England and yet again Suarez on hand to"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 19720,
+          "end_ms": 22119,
+          "text": "punish"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 28960,
+          "end_ms": 31960,
+          "text": "them"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 40680,
+          "end_ms": 46920,
+          "text": "he can't believe it he's in tears they"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 45039,
+          "end_ms": 50559,
+          "text": "jubilant"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 46920,
+          "end_ms": 53719,
+          "text": "Uruguay take advantage of more woeful"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 50559,
+          "end_ms": 56719,
+          "text": "defending by England Suarez in behind"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 53719,
+          "end_ms": 58920,
+          "text": "and what a deadly finish one touch to"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 56719,
+          "end_ms": 60600,
+          "text": "control it and"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 58920,
+          "end_ms": 62440,
+          "text": "bang"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 60600,
+          "end_ms": 64080,
+          "text": "checks there to see where the goalkeeper"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 62440,
+          "end_ms": 66270,
+          "text": "is checks"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 64080,
+          "end_ms": 74629,
+          "text": "again and thumps it"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 66270,
+          "end_ms": 74629,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 80759,
+          "end_ms": 83759,
+          "text": "home"
+        }
+      ],
+      "text": "well the former England International\nGary Neville now part of the England\nback room team is desperately trying to\norganize a reshape here and Suarez is in\nbehind England Suarez to Win It Suarez\nsurely more calamitous defending by\nEngland and yet again Suarez on hand to\npunish\nthem\nhe can't believe it he's in tears they\njubilant\nUruguay take advantage of more woeful\ndefending by England Suarez in behind\nand what a deadly finish one touch to\ncontrol it and\nbang\nchecks there to see where the goalkeeper\nis checks\nagain and thumps it\n[Applause]\nhome",
+      "text_tokens": 134,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ByUONqA1IJY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ByUONqA1IJY.srt",
+          "status": "available",
+          "bytes": 2241,
+          "sha256": "303b8e4a8daed6d1bb77f7b4ec2be8d4a21af191887d19ea9d9367c5f52bb12b",
+          "cues": 23,
+          "nonempty_cues": 23
+        },
+        "frame_indices": [
+          0,
+          66,
+          132,
+          198,
+          264,
+          330,
+          396,
+          462,
+          527,
+          593,
+          659,
+          725,
+          791,
+          857,
+          923,
+          989,
+          1055,
+          1121,
+          1187,
+          1253,
+          1319,
+          1385,
+          1451,
+          1517,
+          1582,
+          1648,
+          1714,
+          1780,
+          1846,
+          1912,
+          1978,
+          2044
+        ],
+        "frame_seconds": [
+          0.0,
+          2.64,
+          5.28,
+          7.92,
+          10.56,
+          13.2,
+          15.84,
+          18.48,
+          21.08,
+          23.72,
+          26.36,
+          29.0,
+          31.64,
+          34.28,
+          36.92,
+          39.56,
+          42.2,
+          44.84,
+          47.48,
+          50.12,
+          52.76,
+          55.4,
+          58.04,
+          60.68,
+          63.28,
+          65.92,
+          68.56,
+          71.2,
+          73.84,
+          76.48,
+          79.12,
+          81.76
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [],
+          [],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [],
+          [],
+          [],
+          [
+            12
+          ],
+          [
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            21,
+            22
+          ],
+          [],
+          [],
+          [
+            23
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 2,
+            "start_ms": 1000,
+            "end_ms": 3840,
+            "text": "well the former England International"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 2280,
+            "end_ms": 5480,
+            "text": "Gary Neville now part of the England"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 3840,
+            "end_ms": 7799,
+            "text": "back room team is desperately trying to"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 5480,
+            "end_ms": 10599,
+            "text": "organize a reshape here and Suarez is in"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 7799,
+            "end_ms": 13080,
+            "text": "behind England Suarez to Win It Suarez"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 13120,
+            "end_ms": 19720,
+            "text": "surely more calamitous defending by"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 16359,
+            "end_ms": 22119,
+            "text": "England and yet again Suarez on hand to"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 19720,
+            "end_ms": 22119,
+            "text": "punish"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 28960,
+            "end_ms": 31960,
+            "text": "them"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 40680,
+            "end_ms": 46920,
+            "text": "he can't believe it he's in tears they"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 45039,
+            "end_ms": 50559,
+            "text": "jubilant"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 46920,
+            "end_ms": 53719,
+            "text": "Uruguay take advantage of more woeful"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 50559,
+            "end_ms": 56719,
+            "text": "defending by England Suarez in behind"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 53719,
+            "end_ms": 58920,
+            "text": "and what a deadly finish one touch to"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 56719,
+            "end_ms": 60600,
+            "text": "control it and"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 58920,
+            "end_ms": 62440,
+            "text": "bang"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 60600,
+            "end_ms": 64080,
+            "text": "checks there to see where the goalkeeper"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 62440,
+            "end_ms": 66270,
+            "text": "is checks"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 64080,
+            "end_ms": 74629,
+            "text": "again and thumps it"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 66270,
+            "end_ms": 74629,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 80759,
+            "end_ms": 83759,
+            "text": "home"
+          }
+        ],
+        "text": "well the former England International\nGary Neville now part of the England\nback room team is desperately trying to\norganize a reshape here and Suarez is in\nbehind England Suarez to Win It Suarez\nsurely more calamitous defending by\nEngland and yet again Suarez on hand to\npunish\nthem\nhe can't believe it he's in tears they\njubilant\nUruguay take advantage of more woeful\ndefending by England Suarez in behind\nand what a deadly finish one touch to\ncontrol it and\nbang\nchecks there to see where the goalkeeper\nis checks\nagain and thumps it\n[Applause]\nhome",
+        "text_tokens": 134,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 80,
+          "end_ms": 22119,
+          "text": "[Applause] well the former England International Gary Neville now part of the England back room team is desperately trying to organize a reshape here and Suarez is in behind England Suarez to Win It Suarez wins it surely more calamitous defending by England and yet again Suarez on hand to punish"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11
+          ],
+          "start_ms": 28960,
+          "end_ms": 31960,
+          "text": "them"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 40680,
+          "end_ms": 74629,
+          "text": "he can't believe it he's in tears they jubilant Uruguay take advantage of more woeful defending by England Suarez in behind and what a deadly finish one touch to control it and bang checks there to see where the goalkeeper is checks again and thumps it [Applause]"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23
+          ],
+          "start_ms": 80759,
+          "end_ms": 83759,
+          "text": "home"
+        }
+      ],
+      "text": "S1 [00:00:00.080 --> 00:00:22.119] [Applause] well the former England International Gary Neville now part of the England back room team is desperately trying to organize a reshape here and Suarez is in behind England Suarez to Win It Suarez wins it surely more calamitous defending by England and yet again Suarez on hand to punish\nS11 [00:00:28.960 --> 00:00:31.960] them\nS12 [00:00:40.680 --> 00:01:14.629] he can't believe it he's in tears they jubilant Uruguay take advantage of more woeful defending by England Suarez in behind and what a deadly finish one touch to control it and bang checks there to see where the goalkeeper is checks again and thumps it [Applause]\nS23 [00:01:20.759 --> 00:01:23.759] home",
+      "text_tokens": 240,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        1,
+        7
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "74e836f998ae1aa57b781daca3874c0df90697dece0c7c4501cdb3a8c6d870c1"
+}

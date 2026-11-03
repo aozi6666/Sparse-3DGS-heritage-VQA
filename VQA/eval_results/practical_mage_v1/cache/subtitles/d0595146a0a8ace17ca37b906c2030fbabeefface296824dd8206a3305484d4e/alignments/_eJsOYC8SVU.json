@@ -1,0 +1,551 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "_eJsOYC8SVU",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/_eJsOYC8SVU.srt",
+      "status": "available",
+      "bytes": 172549,
+      "sha256": "f2e3aef974b358bc754192659c630697cd1bb2e1dbe0d62ee4b6ecbb41da8d05",
+      "cues": 1639,
+      "nonempty_cues": 1639
+    },
+    "frame_indices": [
+      0,
+      2768,
+      5537,
+      8305,
+      11074,
+      13842,
+      16610,
+      19379,
+      22147,
+      24915,
+      27684,
+      30452,
+      33221,
+      35989,
+      38757,
+      41526,
+      44294,
+      47063,
+      49831,
+      52599,
+      55368,
+      58136,
+      60905,
+      63673,
+      66441,
+      69210,
+      71978,
+      74746,
+      77515,
+      80283,
+      83052,
+      85820
+    ],
+    "frame_seconds": [
+      0.0,
+      115.448667,
+      230.939042,
+      346.387708,
+      461.878083,
+      577.32675,
+      692.775417,
+      808.265792,
+      923.714458,
+      1039.163125,
+      1154.6535,
+      1270.102167,
+      1385.592542,
+      1501.041208,
+      1616.489875,
+      1731.98025,
+      1847.428917,
+      1962.919292,
+      2078.367958,
+      2193.816625,
+      2309.307,
+      2424.755667,
+      2540.246042,
+      2655.694708,
+      2771.143375,
+      2886.63375,
+      3002.082417,
+      3117.531083,
+      3233.021458,
+      3348.470125,
+      3463.9605,
+      3579.409167
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        53,
+        54
+      ],
+      [
+        112,
+        113
+      ],
+      [
+        169,
+        170
+      ],
+      [
+        223,
+        224
+      ],
+      [
+        282,
+        283
+      ],
+      [
+        336,
+        337
+      ],
+      [
+        396,
+        397
+      ],
+      [
+        451,
+        452
+      ],
+      [
+        499
+      ],
+      [
+        547,
+        548
+      ],
+      [
+        592,
+        593
+      ],
+      [
+        649,
+        650
+      ],
+      [
+        699,
+        700
+      ],
+      [
+        752,
+        753
+      ],
+      [
+        805,
+        806
+      ],
+      [
+        859,
+        860
+      ],
+      [
+        905,
+        906
+      ],
+      [
+        962,
+        963
+      ],
+      [
+        1017,
+        1018
+      ],
+      [
+        1070,
+        1071
+      ],
+      [
+        1125,
+        1126
+      ],
+      [
+        1188,
+        1189
+      ],
+      [],
+      [
+        1285,
+        1286
+      ],
+      [
+        1326,
+        1327
+      ],
+      [
+        1374,
+        1375
+      ],
+      [
+        1420,
+        1421
+      ],
+      [
+        1478,
+        1479
+      ],
+      [
+        1527,
+        1528
+      ],
+      [
+        1582,
+        1583
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 53,
+        "start_ms": 110079,
+        "end_ms": 115520,
+        "text": "trick i think the one that i know the"
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 113360,
+        "end_ms": 117039,
+        "text": "most is like you have a salt shaker and"
+      },
+      {
+        "cue_id": 112,
+        "start_ms": 229519,
+        "end_ms": 232239,
+        "text": "what"
+      },
+      {
+        "cue_id": 113,
+        "start_ms": 230480,
+        "end_ms": 234879,
+        "text": "oh there it did work"
+      },
+      {
+        "cue_id": 169,
+        "start_ms": 342880,
+        "end_ms": 346720,
+        "text": "and then you're gonna grab these two"
+      },
+      {
+        "cue_id": 170,
+        "start_ms": 344560,
+        "end_ms": 348080,
+        "text": "with your right"
+      },
+      {
+        "cue_id": 223,
+        "start_ms": 458479,
+        "end_ms": 463919,
+        "text": "out of spite to stick it to this guy"
+      },
+      {
+        "cue_id": 224,
+        "start_ms": 461599,
+        "end_ms": 464960,
+        "text": "this is the trick okay so here's what i"
+      },
+      {
+        "cue_id": 282,
+        "start_ms": 573600,
+        "end_ms": 577440,
+        "text": "through the cards you're gonna be"
+      },
+      {
+        "cue_id": 283,
+        "start_ms": 575120,
+        "end_ms": 579600,
+        "text": "watching the cards looking for your card"
+      },
+      {
+        "cue_id": 336,
+        "start_ms": 690720,
+        "end_ms": 694240,
+        "text": "shuffled up all the cards or i could"
+      },
+      {
+        "cue_id": 337,
+        "start_ms": 692240,
+        "end_ms": 696560,
+        "text": "have you shuffle as long as i'm able to"
+      },
+      {
+        "cue_id": 396,
+        "start_ms": 805920,
+        "end_ms": 810639,
+        "text": "focus your body on the one card and i"
+      },
+      {
+        "cue_id": 397,
+        "start_ms": 808079,
+        "end_ms": 812800,
+        "text": "say how amazed would you be"
+      },
+      {
+        "cue_id": 451,
+        "start_ms": 918800,
+        "end_ms": 923839,
+        "text": "it you look at that right now and okay"
+      },
+      {
+        "cue_id": 452,
+        "start_ms": 921920,
+        "end_ms": 926480,
+        "text": "so i'm thinking of a car okay okay all"
+      },
+      {
+        "cue_id": 499,
+        "start_ms": 1032200,
+        "end_ms": 1039289,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 547,
+        "start_ms": 1153039,
+        "end_ms": 1155760,
+        "text": "jack of clubs right yeah all right here"
+      },
+      {
+        "cue_id": 548,
+        "start_ms": 1154559,
+        "end_ms": 1158640,
+        "text": "we go you ready"
+      },
+      {
+        "cue_id": 592,
+        "start_ms": 1267039,
+        "end_ms": 1271200,
+        "text": "handed you half to shuffle and i"
+      },
+      {
+        "cue_id": 593,
+        "start_ms": 1269440,
+        "end_ms": 1273200,
+        "text": "shuffled the other half all i have to do"
+      },
+      {
+        "cue_id": 649,
+        "start_ms": 1383120,
+        "end_ms": 1385679,
+        "text": "one"
+      },
+      {
+        "cue_id": 650,
+        "start_ms": 1384159,
+        "end_ms": 1388159,
+        "text": "but you can't you can't even tell that"
+      },
+      {
+        "cue_id": 699,
+        "start_ms": 1497510,
+        "end_ms": 1501120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 700,
+        "start_ms": 1499120,
+        "end_ms": 1502159,
+        "text": "there it is"
+      },
+      {
+        "cue_id": 752,
+        "start_ms": 1613440,
+        "end_ms": 1617039,
+        "text": "two quarters yes okay uh let's count it"
+      },
+      {
+        "cue_id": 753,
+        "start_ms": 1615600,
+        "end_ms": 1619039,
+        "text": "out what do you got"
+      },
+      {
+        "cue_id": 805,
+        "start_ms": 1729200,
+        "end_ms": 1734240,
+        "text": "need to do this is to have two dollars"
+      },
+      {
+        "cue_id": 806,
+        "start_ms": 1731600,
+        "end_ms": 1735919,
+        "text": "and 85 cents of change in your pocket"
+      },
+      {
+        "cue_id": 859,
+        "start_ms": 1845679,
+        "end_ms": 1850720,
+        "text": "whatever that amount is"
+      },
+      {
+        "cue_id": 860,
+        "start_ms": 1847279,
+        "end_ms": 1852480,
+        "text": "plus two quarters and then as if it's"
+      },
+      {
+        "cue_id": 905,
+        "start_ms": 1958080,
+        "end_ms": 1963080,
+        "text": "so we got a dollar is that those are"
+      },
+      {
+        "cue_id": 906,
+        "start_ms": 1960559,
+        "end_ms": 1964960,
+        "text": "that's a dollar yeah so we got a dollar"
+      },
+      {
+        "cue_id": 962,
+        "start_ms": 2076560,
+        "end_ms": 2080320,
+        "text": "stop when you want you want to keep"
+      },
+      {
+        "cue_id": 963,
+        "start_ms": 2077520,
+        "end_ms": 2080320,
+        "text": "going keep going"
+      },
+      {
+        "cue_id": 1017,
+        "start_ms": 2191119,
+        "end_ms": 2194560,
+        "text": "you don't remember is once you were"
+      },
+      {
+        "cue_id": 1018,
+        "start_ms": 2192960,
+        "end_ms": 2196320,
+        "text": "absolutely convinced that the cards were"
+      },
+      {
+        "cue_id": 1070,
+        "start_ms": 2305680,
+        "end_ms": 2311040,
+        "text": "no yeah that's right yeah 12 12 would be"
+      },
+      {
+        "cue_id": 1071,
+        "start_ms": 2308240,
+        "end_ms": 2313760,
+        "text": "which which face card uh was it queen"
+      },
+      {
+        "cue_id": 1125,
+        "start_ms": 2422160,
+        "end_ms": 2425760,
+        "text": "you could do all of that but it's like"
+      },
+      {
+        "cue_id": 1126,
+        "start_ms": 2423680,
+        "end_ms": 2428079,
+        "text": "as long as you're only cutting the cards"
+      },
+      {
+        "cue_id": 1188,
+        "start_ms": 2536560,
+        "end_ms": 2542319,
+        "text": "cambridge university hit me up with one"
+      },
+      {
+        "cue_id": 1189,
+        "start_ms": 2539280,
+        "end_ms": 2544720,
+        "text": "of the best variations on this trick i'd"
+      },
+      {
+        "cue_id": 1285,
+        "start_ms": 2768880,
+        "end_ms": 2772319,
+        "text": "you want and people want to multiply"
+      },
+      {
+        "cue_id": 1286,
+        "start_ms": 2770720,
+        "end_ms": 2775920,
+        "text": "more and more and i say make it as"
+      },
+      {
+        "cue_id": 1326,
+        "start_ms": 2884079,
+        "end_ms": 2889040,
+        "text": "they multiply it by all of the digits"
+      },
+      {
+        "cue_id": 1327,
+        "start_ms": 2886480,
+        "end_ms": 2892880,
+        "text": "will add up to be a multiple of nine"
+      },
+      {
+        "cue_id": 1374,
+        "start_ms": 2996640,
+        "end_ms": 3003119,
+        "text": "i feel like it's either a zero or a nine"
+      },
+      {
+        "cue_id": 1375,
+        "start_ms": 3001440,
+        "end_ms": 3004960,
+        "text": "and then at that point you've already"
+      },
+      {
+        "cue_id": 1420,
+        "start_ms": 3114000,
+        "end_ms": 3118079,
+        "text": "all right girl i'm going to teach you"
+      },
+      {
+        "cue_id": 1421,
+        "start_ms": 3115359,
+        "end_ms": 3120240,
+        "text": "some fundamentals first of all a shuffle"
+      },
+      {
+        "cue_id": 1478,
+        "start_ms": 3227440,
+        "end_ms": 3233359,
+        "text": "off one at a time so big clump big clump"
+      },
+      {
+        "cue_id": 1479,
+        "start_ms": 3230480,
+        "end_ms": 3236640,
+        "text": "big clump one one one one one one one"
+      },
+      {
+        "cue_id": 1527,
+        "start_ms": 3345440,
+        "end_ms": 3349119,
+        "text": "wait you put it in the middle so that"
+      },
+      {
+        "cue_id": 1528,
+        "start_ms": 3347119,
+        "end_ms": 3351440,
+        "text": "was basically mixed"
+      },
+      {
+        "cue_id": 1582,
+        "start_ms": 3460079,
+        "end_ms": 3464799,
+        "text": "yes get it all the way out and then"
+      },
+      {
+        "cue_id": 1583,
+        "start_ms": 3463680,
+        "end_ms": 3466559,
+        "text": "boom"
+      }
+    ],
+    "text": "trick i think the one that i know the\nmost is like you have a salt shaker and\nwhat\noh there it did work\nand then you're gonna grab these two\nwith your right\nout of spite to stick it to this guy\nthis is the trick okay so here's what i\nthrough the cards you're gonna be\nwatching the cards looking for your card\nshuffled up all the cards or i could\nhave you shuffle as long as i'm able to\nfocus your body on the one card and i\nsay how amazed would you be\nit you look at that right now and okay\nso i'm thinking of a car okay okay all\n[Music]\njack of clubs right yeah all right here\nwe go you ready\nhanded you half to shuffle and i\nshuffled the other half all i have to do\none\nbut you can't you can't even tell that\n[Music]\nthere it is\ntwo quarters yes okay uh let's count it\nout what do you got\nneed to do this is to have two dollars\nand 85 cents of change in your pocket\nwhatever that amount is\nplus two quarters and then as if it's\nso we got a dollar is that those are\nthat's a dollar yeah so we got a dollar\nstop when you want you want to keep\ngoing keep going\nyou don't remember is once you were\nabsolutely convinced that the cards were\nno yeah that's right yeah 12 12 would be\nwhich which face card uh was it queen\nyou could do all of that but it's like\nas long as you're only cutting the cards\ncambridge university hit me up with one\nof the best variations on this trick i'd\nyou want and people want to multiply\nmore and more and i say make it as\nthey multiply it by all of the digits\nwill add up to be a multiple of nine\ni feel like it's either a zero or a nine\nand then at that point you've already\nall right girl i'm going to teach you\nsome fundamentals first of all a shuffle\noff one at a time so big clump big clump\nbig clump one one one one one one one\nwait you put it in the middle so that\nwas basically mixed\nyes get it all the way out and then\nboom",
+    "text_tokens": 489,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "b365d4cee5aa9c3e72750d5e43683d761ee0876e94cff8b718ebbe14de4b1ade"
+}

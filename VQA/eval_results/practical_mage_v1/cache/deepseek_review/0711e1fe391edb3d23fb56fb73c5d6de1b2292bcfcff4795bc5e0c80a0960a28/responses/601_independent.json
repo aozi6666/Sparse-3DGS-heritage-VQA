@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "55bf628945b12676312b511b918f47cecb2c03b154e96104cf5324d6a81bde7a",
+  "response": {
+    "id": "88137092-2c7a-47eb-bf27-64bd50255c74",
+    "object": "chat.completion",
+    "created": 1793676043,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S215\",\"quote\":\"Salah [Applause] scores down to Salah goal 43\"},{\"block_id\":\"S119\",\"quote\":\"Muhammad Salah equals the record for\"}],\"frame_ids\":[\"F37078\",\"F24718\",\"F16994\"],\"windows\":[],\"notes\":\"Subtitles and frames show multiple Salah goals and his No. 11 shirt, but no supplied evidence states a total count of Salah's No. 11 goals featured; options 10/25/200/50 cannot be verified.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8781,
+      "completion_tokens": 136,
+      "total_tokens": 8917,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 8653
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.0919368583709
+}

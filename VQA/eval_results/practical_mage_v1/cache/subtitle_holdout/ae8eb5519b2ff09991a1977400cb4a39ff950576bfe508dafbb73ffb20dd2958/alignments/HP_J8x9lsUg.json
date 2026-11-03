@@ -1,0 +1,429 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "HP_J8x9lsUg",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HP_J8x9lsUg.srt",
+      "status": "available",
+      "bytes": 47287,
+      "sha256": "befc1c597f8bc98065c6448829f06e1a3dd4588299507934d51a6600955fe422",
+      "cues": 453,
+      "nonempty_cues": 453
+    },
+    "frame_indices": [
+      0,
+      2046,
+      4092,
+      6138,
+      8184,
+      10230,
+      12275,
+      14321,
+      16367,
+      18413,
+      20459,
+      22505,
+      24551,
+      26597,
+      28643,
+      30689,
+      32734,
+      34780,
+      36826,
+      38872,
+      40918,
+      42964,
+      45010,
+      47056,
+      49102,
+      51148,
+      53193,
+      55239,
+      57285,
+      59331,
+      61377,
+      63423
+    ],
+    "frame_seconds": [
+      0.0,
+      85.33525,
+      170.6705,
+      256.00575,
+      341.341,
+      426.67625,
+      511.969792,
+      597.305042,
+      682.640292,
+      767.975542,
+      853.310792,
+      938.646042,
+      1023.981292,
+      1109.316542,
+      1194.6517920000001,
+      1279.987042,
+      1365.280583,
+      1450.615833,
+      1535.951083,
+      1621.286333,
+      1706.621583,
+      1791.956833,
+      1877.292083,
+      1962.627333,
+      2047.962583,
+      2133.297833,
+      2218.591375,
+      2303.926625,
+      2389.261875,
+      2474.597125,
+      2559.932375,
+      2645.267625
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        27,
+        28
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        78,
+        79
+      ],
+      [],
+      [],
+      [
+        90
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        123,
+        124
+      ],
+      [
+        147,
+        148
+      ],
+      [
+        162,
+        163
+      ],
+      [],
+      [
+        205
+      ],
+      [
+        213,
+        214
+      ],
+      [
+        233,
+        234
+      ],
+      [
+        251,
+        252
+      ],
+      [
+        268,
+        269
+      ],
+      [
+        275,
+        276
+      ],
+      [
+        284
+      ],
+      [
+        309,
+        310
+      ],
+      [],
+      [
+        332,
+        333
+      ],
+      [
+        343,
+        344
+      ],
+      [],
+      [],
+      [
+        384
+      ],
+      [],
+      [
+        422,
+        423
+      ],
+      [],
+      [],
+      [
+        452,
+        453
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 27,
+        "start_ms": 83430,
+        "end_ms": 90300,
+        "text": "shower coaches one of the earth is"
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 85200,
+        "end_ms": 94289,
+        "text": "century yeah no running in the house"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 168340,
+        "end_ms": 174550,
+        "text": "covenant the Brotherhood there's no such"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 169900,
+        "end_ms": 180520,
+        "text": "thing I swear on the holy sacred cover"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 252130,
+        "end_ms": 256978,
+        "text": "just saying that cuz it's you afraid to"
+      },
+      {
+        "cue_id": 63,
+        "start_ms": 253330,
+        "end_ms": 259269,
+        "text": "talk to him I'm not afraid"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 337610,
+        "end_ms": 343069,
+        "text": "funny I always wanted to bike just like"
+      },
+      {
+        "cue_id": 79,
+        "start_ms": 340800,
+        "end_ms": 343069,
+        "text": "that"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 596750,
+        "end_ms": 607470,
+        "text": "hello yes this is Matthews please we"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 676910,
+        "end_ms": 685010,
+        "text": "talking let him hear your voice when"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 680710,
+        "end_ms": 689090,
+        "text": "you're in a hospital son but you're okay"
+      },
+      {
+        "cue_id": 123,
+        "start_ms": 758860,
+        "end_ms": 768730,
+        "text": "you've done but my son is coming home to"
+      },
+      {
+        "cue_id": 124,
+        "start_ms": 766870,
+        "end_ms": 771990,
+        "text": "call Holden's awakening a phenomenon"
+      },
+      {
+        "cue_id": 147,
+        "start_ms": 849460,
+        "end_ms": 853510,
+        "text": "Holden was discovered awake in his bed"
+      },
+      {
+        "cue_id": 148,
+        "start_ms": 851560,
+        "end_ms": 855190,
+        "text": "at 7:15 in the morning by one of the"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 933720,
+        "end_ms": 942089,
+        "text": "are girls what's the difference"
+      },
+      {
+        "cue_id": 163,
+        "start_ms": 935160,
+        "end_ms": 943829,
+        "text": "although you need all your favorites we"
+      },
+      {
+        "cue_id": 205,
+        "start_ms": 1104870,
+        "end_ms": 1111459,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 213,
+        "start_ms": 1192270,
+        "end_ms": 1205080,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 214,
+        "start_ms": 1194100,
+        "end_ms": 1207320,
+        "text": "I need security here we should do the"
+      },
+      {
+        "cue_id": 233,
+        "start_ms": 1268290,
+        "end_ms": 1280309,
+        "text": "driven a car before dad taught me this"
+      },
+      {
+        "cue_id": 234,
+        "start_ms": 1275149,
+        "end_ms": 1285080,
+        "text": "it's automatically yeah okay so uh roll"
+      },
+      {
+        "cue_id": 251,
+        "start_ms": 1360119,
+        "end_ms": 1368759,
+        "text": "wants an autograph or you know maybe"
+      },
+      {
+        "cue_id": 252,
+        "start_ms": 1362609,
+        "end_ms": 1370559,
+        "text": "something one more yeah look there's"
+      },
+      {
+        "cue_id": 268,
+        "start_ms": 1444890,
+        "end_ms": 1453100,
+        "text": "I've probably a lot better than this but"
+      },
+      {
+        "cue_id": 269,
+        "start_ms": 1446840,
+        "end_ms": 1453100,
+        "text": "I am I forget it I was never here sigh"
+      },
+      {
+        "cue_id": 275,
+        "start_ms": 1527000,
+        "end_ms": 1538160,
+        "text": "do it do it do it hold no more hold back"
+      },
+      {
+        "cue_id": 276,
+        "start_ms": 1534570,
+        "end_ms": 1538160,
+        "text": "don't be afraid"
+      },
+      {
+        "cue_id": 284,
+        "start_ms": 1613950,
+        "end_ms": 1628140,
+        "text": "I'm so sorry you're married that's"
+      },
+      {
+        "cue_id": 309,
+        "start_ms": 1703150,
+        "end_ms": 1708910,
+        "text": "photos for her album wait um will this"
+      },
+      {
+        "cue_id": 310,
+        "start_ms": 1706600,
+        "end_ms": 1712679,
+        "text": "hurt you'll be fine"
+      },
+      {
+        "cue_id": 332,
+        "start_ms": 1868190,
+        "end_ms": 1881769,
+        "text": "want hello hello"
+      },
+      {
+        "cue_id": 333,
+        "start_ms": 1873550,
+        "end_ms": 1881769,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 343,
+        "start_ms": 1958970,
+        "end_ms": 1965200,
+        "text": "guess they know who you are"
+      },
+      {
+        "cue_id": 344,
+        "start_ms": 1961100,
+        "end_ms": 1971060,
+        "text": "everyone knows who you are that's"
+      },
+      {
+        "cue_id": 384,
+        "start_ms": 2216720,
+        "end_ms": 2221740,
+        "text": "shooter well messages they needed"
+      },
+      {
+        "cue_id": 422,
+        "start_ms": 2386340,
+        "end_ms": 2391260,
+        "text": "want my old life back"
+      },
+      {
+        "cue_id": 423,
+        "start_ms": 2388140,
+        "end_ms": 2394290,
+        "text": "I can't give you your old life back"
+      },
+      {
+        "cue_id": 452,
+        "start_ms": 2640990,
+        "end_ms": 2646980,
+        "text": "central on freeform and the full"
+      },
+      {
+        "cue_id": 453,
+        "start_ms": 2643210,
+        "end_ms": 2646980,
+        "text": "season now on the freeform map"
+      }
+    ],
+    "text": "shower coaches one of the earth is\ncentury yeah no running in the house\ncovenant the Brotherhood there's no such\nthing I swear on the holy sacred cover\njust saying that cuz it's you afraid to\ntalk to him I'm not afraid\nfunny I always wanted to bike just like\nthat\nhello yes this is Matthews please we\ntalking let him hear your voice when\nyou're in a hospital son but you're okay\nyou've done but my son is coming home to\ncall Holden's awakening a phenomenon\nHolden was discovered awake in his bed\nat 7:15 in the morning by one of the\nare girls what's the difference\nalthough you need all your favorites we\n[Music]\n[Music]\nI need security here we should do the\ndriven a car before dad taught me this\nit's automatically yeah okay so uh roll\nwants an autograph or you know maybe\nsomething one more yeah look there's\nI've probably a lot better than this but\nI am I forget it I was never here sigh\ndo it do it do it hold no more hold back\ndon't be afraid\nI'm so sorry you're married that's\nphotos for her album wait um will this\nhurt you'll be fine\nwant hello hello\n[Music]\nguess they know who you are\neveryone knows who you are that's\nshooter well messages they needed\nwant my old life back\nI can't give you your old life back\ncentral on freeform and the full\nseason now on the freeform map",
+    "text_tokens": 326,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "bb1e1ae1d5e26cc61548a5cbc9f73c1fc589f9839d8fdc1f654b20bb3674e8a9",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

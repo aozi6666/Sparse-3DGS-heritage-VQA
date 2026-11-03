@@ -1,0 +1,642 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "4H8hcvNeWtg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4H8hcvNeWtg.srt",
+        "status": "available",
+        "bytes": 1740,
+        "sha256": "3e65e30423e0c74e6ae26e2f8a79e54f4477c38a62b4dc1240aeab434b0cc50e",
+        "cues": 18,
+        "nonempty_cues": 18
+      },
+      "frame_indices": [
+        0,
+        70,
+        141,
+        211,
+        281,
+        352,
+        422,
+        492,
+        563,
+        633,
+        703,
+        774,
+        844,
+        914,
+        985,
+        1055,
+        1125,
+        1195,
+        1266,
+        1336,
+        1406,
+        1477,
+        1547,
+        1617,
+        1688,
+        1758,
+        1828,
+        1899,
+        1969,
+        2039,
+        2110,
+        2180
+      ],
+      "frame_seconds": [
+        0.0,
+        2.335669,
+        4.704705,
+        7.040374,
+        9.376043,
+        11.745078,
+        14.080747,
+        16.416416,
+        18.785452,
+        21.121121,
+        23.45679,
+        25.825826,
+        28.161495,
+        30.497164,
+        32.8662,
+        35.201869,
+        37.537538,
+        39.873207,
+        42.242242,
+        44.577911,
+        46.91358,
+        49.282616,
+        51.618285,
+        53.953954,
+        56.32299,
+        58.658659,
+        60.994328,
+        63.363363,
+        65.699032,
+        68.034701,
+        70.403737,
+        72.739406
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [],
+        [],
+        [
+          12
+        ],
+        [],
+        [],
+        [
+          13
+        ],
+        [
+          13
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          17
+        ],
+        [
+          17
+        ],
+        [],
+        [
+          18
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 359,
+          "end_ms": 3040,
+          "text": "hi I'm Jimmy Kimel we have such a big"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 1920,
+          "end_ms": 5080,
+          "text": "show for you tonight you're not even"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 3040,
+          "end_ms": 6440,
+          "text": "going to believe it so many stars are"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 5080,
+          "end_ms": 8760,
+          "text": "here tonight but first we're going to"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 6440,
+          "end_ms": 11519,
+          "text": "play a simple game of telephone to get"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 8760,
+          "end_ms": 15120,
+          "text": "things going okay here we go The"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 11519,
+          "end_ms": 15120,
+          "text": "Avengers are on the show"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 23540,
+          "end_ms": 31040,
+          "text": "[Laughter]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 25800,
+          "end_ms": 33700,
+          "text": "tonight I have a r and I thank you"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 31040,
+          "end_ms": 37490,
+          "text": "gosh I don't want to say"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 33700,
+          "end_ms": 37490,
+          "text": "[Laughter]"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 40350,
+          "end_ms": 44430,
+          "text": "[Laughter]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 48600,
+          "end_ms": 54520,
+          "text": "that the diaphragm jelly is in my glove"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 54960,
+          "end_ms": 61120,
+          "text": "box how we do very"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 58920,
+          "end_ms": 64120,
+          "text": "bad"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 61120,
+          "end_ms": 64120,
+          "text": "that's the best you can"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 65519,
+          "end_ms": 68520,
+          "text": "do"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 71759,
+          "end_ms": 74759,
+          "text": "ass"
+        }
+      ],
+      "text": "hi I'm Jimmy Kimel we have such a big\nshow for you tonight you're not even\ngoing to believe it so many stars are\nhere tonight but first we're going to\nplay a simple game of telephone to get\nthings going okay here we go The\nAvengers are on the show\n[Laughter]\ntonight I have a r and I thank you\ngosh I don't want to say\n[Laughter]\n[Laughter]\nthat the diaphragm jelly is in my glove\nbox how we do very\nbad\nthat's the best you can\ndo\nass",
+      "text_tokens": 124,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "4H8hcvNeWtg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4H8hcvNeWtg.srt",
+          "status": "available",
+          "bytes": 1740,
+          "sha256": "3e65e30423e0c74e6ae26e2f8a79e54f4477c38a62b4dc1240aeab434b0cc50e",
+          "cues": 18,
+          "nonempty_cues": 18
+        },
+        "frame_indices": [
+          0,
+          70,
+          141,
+          211,
+          281,
+          352,
+          422,
+          492,
+          563,
+          633,
+          703,
+          774,
+          844,
+          914,
+          985,
+          1055,
+          1125,
+          1195,
+          1266,
+          1336,
+          1406,
+          1477,
+          1547,
+          1617,
+          1688,
+          1758,
+          1828,
+          1899,
+          1969,
+          2039,
+          2110,
+          2180
+        ],
+        "frame_seconds": [
+          0.0,
+          2.335669,
+          4.704705,
+          7.040374,
+          9.376043,
+          11.745078,
+          14.080747,
+          16.416416,
+          18.785452,
+          21.121121,
+          23.45679,
+          25.825826,
+          28.161495,
+          30.497164,
+          32.8662,
+          35.201869,
+          37.537538,
+          39.873207,
+          42.242242,
+          44.577911,
+          46.91358,
+          49.282616,
+          51.618285,
+          53.953954,
+          56.32299,
+          58.658659,
+          60.994328,
+          63.363363,
+          65.699032,
+          68.034701,
+          70.403737,
+          72.739406
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [],
+          [],
+          [
+            12
+          ],
+          [],
+          [],
+          [
+            13
+          ],
+          [
+            13
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ],
+          [
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [],
+          [
+            18
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 359,
+            "end_ms": 3040,
+            "text": "hi I'm Jimmy Kimel we have such a big"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 1920,
+            "end_ms": 5080,
+            "text": "show for you tonight you're not even"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 3040,
+            "end_ms": 6440,
+            "text": "going to believe it so many stars are"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 5080,
+            "end_ms": 8760,
+            "text": "here tonight but first we're going to"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 6440,
+            "end_ms": 11519,
+            "text": "play a simple game of telephone to get"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 8760,
+            "end_ms": 15120,
+            "text": "things going okay here we go The"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 11519,
+            "end_ms": 15120,
+            "text": "Avengers are on the show"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 23540,
+            "end_ms": 31040,
+            "text": "[Laughter]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 25800,
+            "end_ms": 33700,
+            "text": "tonight I have a r and I thank you"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 31040,
+            "end_ms": 37490,
+            "text": "gosh I don't want to say"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 33700,
+            "end_ms": 37490,
+            "text": "[Laughter]"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 40350,
+            "end_ms": 44430,
+            "text": "[Laughter]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 48600,
+            "end_ms": 54520,
+            "text": "that the diaphragm jelly is in my glove"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 54960,
+            "end_ms": 61120,
+            "text": "box how we do very"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 58920,
+            "end_ms": 64120,
+            "text": "bad"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 61120,
+            "end_ms": 64120,
+            "text": "that's the best you can"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 65519,
+            "end_ms": 68520,
+            "text": "do"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 71759,
+            "end_ms": 74759,
+            "text": "ass"
+          }
+        ],
+        "text": "hi I'm Jimmy Kimel we have such a big\nshow for you tonight you're not even\ngoing to believe it so many stars are\nhere tonight but first we're going to\nplay a simple game of telephone to get\nthings going okay here we go The\nAvengers are on the show\n[Laughter]\ntonight I have a r and I thank you\ngosh I don't want to say\n[Laughter]\n[Laughter]\nthat the diaphragm jelly is in my glove\nbox how we do very\nbad\nthat's the best you can\ndo\nass",
+        "text_tokens": 124,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_ms": 359,
+          "end_ms": 15120,
+          "text": "hi I'm Jimmy Kimel we have such a big show for you tonight you're not even going to believe it so many stars are here tonight but first we're going to play a simple game of telephone to get things going okay here we go The Avengers are on the show"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 23540,
+          "end_ms": 37490,
+          "text": "[Laughter] tonight I have a r and I thank you gosh I don't want to say [Laughter]"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 40350,
+          "end_ms": 44430,
+          "text": "[Laughter]"
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "start_ms": 48600,
+          "end_ms": 68520,
+          "text": "that the diaphragm jelly is in my glove box how we do very bad that's the best you can do"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18
+          ],
+          "start_ms": 71759,
+          "end_ms": 74759,
+          "text": "ass"
+        }
+      ],
+      "text": "S1 [00:00:00.359 --> 00:00:15.120] hi I'm Jimmy Kimel we have such a big show for you tonight you're not even going to believe it so many stars are here tonight but first we're going to play a simple game of telephone to get things going okay here we go The Avengers are on the show\nS8 [00:00:23.540 --> 00:00:37.490] [Laughter] tonight I have a r and I thank you gosh I don't want to say [Laughter]\nS12 [00:00:40.350 --> 00:00:44.430] [Laughter]\nS13 [00:00:48.600 --> 00:01:08.520] that the diaphragm jelly is in my glove box how we do very bad that's the best you can do\nS18 [00:01:11.759 --> 00:01:14.759] ass",
+      "text_tokens": 263,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ce9fa4005b774d4d76cbb38fd244680eae399003e07a01272d3169a5afac3003"
+}

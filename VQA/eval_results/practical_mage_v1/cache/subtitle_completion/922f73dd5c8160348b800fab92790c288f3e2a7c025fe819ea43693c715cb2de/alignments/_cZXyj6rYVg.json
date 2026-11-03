@@ -1,0 +1,603 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "_cZXyj6rYVg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/_cZXyj6rYVg.srt",
+        "status": "available",
+        "bytes": 1282,
+        "sha256": "487619bb6c8b0c4d12669f4b94356c04b51166196cda80fcf6d2c5207843d12a",
+        "cues": 13,
+        "nonempty_cues": 13
+      },
+      "frame_indices": [
+        0,
+        38,
+        77,
+        115,
+        154,
+        192,
+        230,
+        269,
+        307,
+        345,
+        384,
+        422,
+        461,
+        499,
+        537,
+        576,
+        614,
+        653,
+        691,
+        729,
+        768,
+        806,
+        845,
+        883,
+        921,
+        960,
+        998,
+        1036,
+        1075,
+        1113,
+        1152,
+        1190
+      ],
+      "frame_seconds": [
+        0.0,
+        1.267933,
+        2.569233,
+        3.837167,
+        5.138467,
+        6.4064,
+        7.674333,
+        8.975633,
+        10.243567,
+        11.5115,
+        12.8128,
+        14.080733,
+        15.382033,
+        16.649967,
+        17.9179,
+        19.2192,
+        20.487133,
+        21.788433,
+        23.056367,
+        24.3243,
+        25.6256,
+        26.893533,
+        28.194833,
+        29.462767,
+        30.7307,
+        32.032,
+        33.299933,
+        34.567867,
+        35.869167,
+        37.1371,
+        38.4384,
+        39.706333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 40,
+          "end_ms": 5200,
+          "text": "there's no need to get frustrated people"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2040,
+          "end_ms": 8720,
+          "text": "learn at different rates unlike objects"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 5200,
+          "end_ms": 8720,
+          "text": "falling in a vacuum"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9880,
+          "end_ms": 15800,
+          "text": "which M A equals"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13000,
+          "end_ms": 18439,
+          "text": "mg squared"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 15800,
+          "end_ms": 24010,
+          "text": "no Aristotle"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 18439,
+          "end_ms": 25160,
+          "text": "no five oh oh then I don't"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 24010,
+          "end_ms": 28800,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 25160,
+          "end_ms": 32280,
+          "text": "know why are you crying because I'm"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 28800,
+          "end_ms": 35360,
+          "text": "stupid why there's no reason to"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 32280,
+          "end_ms": 37640,
+          "text": "cry one cries because one is sad for"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 35360,
+          "end_ms": 41680,
+          "text": "example I cry because others are stupid"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 37640,
+          "end_ms": 41680,
+          "text": "and it makes me sad"
+        }
+      ],
+      "text": "there's no need to get frustrated people\nlearn at different rates unlike objects\nfalling in a vacuum\nwhich M A equals\nmg squared\nno Aristotle\nno five oh oh then I don't\n[Music]\nknow why are you crying because I'm\nstupid why there's no reason to\ncry one cries because one is sad for\nexample I cry because others are stupid\nand it makes me sad",
+      "text_tokens": 85,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "_cZXyj6rYVg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/_cZXyj6rYVg.srt",
+          "status": "available",
+          "bytes": 1282,
+          "sha256": "487619bb6c8b0c4d12669f4b94356c04b51166196cda80fcf6d2c5207843d12a",
+          "cues": 13,
+          "nonempty_cues": 13
+        },
+        "frame_indices": [
+          0,
+          38,
+          77,
+          115,
+          154,
+          192,
+          230,
+          269,
+          307,
+          345,
+          384,
+          422,
+          461,
+          499,
+          537,
+          576,
+          614,
+          653,
+          691,
+          729,
+          768,
+          806,
+          845,
+          883,
+          921,
+          960,
+          998,
+          1036,
+          1075,
+          1113,
+          1152,
+          1190
+        ],
+        "frame_seconds": [
+          0.0,
+          1.267933,
+          2.569233,
+          3.837167,
+          5.138467,
+          6.4064,
+          7.674333,
+          8.975633,
+          10.243567,
+          11.5115,
+          12.8128,
+          14.080733,
+          15.382033,
+          16.649967,
+          17.9179,
+          19.2192,
+          20.487133,
+          21.788433,
+          23.056367,
+          24.3243,
+          25.6256,
+          26.893533,
+          28.194833,
+          29.462767,
+          30.7307,
+          32.032,
+          33.299933,
+          34.567867,
+          35.869167,
+          37.1371,
+          38.4384,
+          39.706333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            12,
+            13
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 40,
+            "end_ms": 5200,
+            "text": "there's no need to get frustrated people"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2040,
+            "end_ms": 8720,
+            "text": "learn at different rates unlike objects"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 5200,
+            "end_ms": 8720,
+            "text": "falling in a vacuum"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9880,
+            "end_ms": 15800,
+            "text": "which M A equals"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 13000,
+            "end_ms": 18439,
+            "text": "mg squared"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 15800,
+            "end_ms": 24010,
+            "text": "no Aristotle"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 18439,
+            "end_ms": 25160,
+            "text": "no five oh oh then I don't"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 24010,
+            "end_ms": 28800,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 25160,
+            "end_ms": 32280,
+            "text": "know why are you crying because I'm"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 28800,
+            "end_ms": 35360,
+            "text": "stupid why there's no reason to"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 32280,
+            "end_ms": 37640,
+            "text": "cry one cries because one is sad for"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 35360,
+            "end_ms": 41680,
+            "text": "example I cry because others are stupid"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 37640,
+            "end_ms": 41680,
+            "text": "and it makes me sad"
+          }
+        ],
+        "text": "there's no need to get frustrated people\nlearn at different rates unlike objects\nfalling in a vacuum\nwhich M A equals\nmg squared\nno Aristotle\nno five oh oh then I don't\n[Music]\nknow why are you crying because I'm\nstupid why there's no reason to\ncry one cries because one is sad for\nexample I cry because others are stupid\nand it makes me sad",
+        "text_tokens": 85,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_ms": 40,
+          "end_ms": 41680,
+          "text": "there's no need to get frustrated people learn at different rates unlike objects falling in a vacuum which M A equals mg squared no Aristotle no five oh oh then I don't [Music] know why are you crying because I'm stupid why there's no reason to cry one cries because one is sad for example I cry because others are stupid and it makes me sad"
+        }
+      ],
+      "text": "S1 [00:00:00.040 --> 00:00:41.680] there's no need to get frustrated people learn at different rates unlike objects falling in a vacuum which M A equals mg squared no Aristotle no five oh oh then I don't [Music] know why are you crying because I'm stupid why there's no reason to cry one cries because one is sad for example I cry because others are stupid and it makes me sad",
+      "text_tokens": 102,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "dd3b32d369bce67ac83b5b0a1d6e26dce1ee2260c43f73cac6adec4b27c1b007"
+}

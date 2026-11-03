@@ -1,0 +1,25 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "passed_tests": 148,
+  "new_tests": 15,
+  "regression_tests": 133,
+  "test_log_sha256": "21983bcf73197d03bdd01997f57f607b99ce1d8b4102be5e6e91c35b9e1556cb",
+  "ast_parse": true,
+  "bash_syntax": true,
+  "old_val_units_verified": 180,
+  "new_answer_units": 0,
+  "expected_logical_units": 270,
+  "expected_new_calls": 81,
+  "expected_reused_baselines": 180,
+  "scripts": {
+    "continuous_val90.py": "933d8edaef928e8a76448a7b502696817fffd13426072cfe738f58ab9a385629",
+    "run_continuous_val90.sh": "15438f07c412b669e93c72c4c1d2a941ceb28f8f0b14d1d4d45979878fc09268",
+    "test_continuous_val90.py": "4c7ecef7e4b243516d3f33673a0016ac7f8bb8910192000661e74278a968990b"
+  },
+  "documentation_sha256": "d92646d2f2458bbf2e8bf74bb95cae06722cab5f7e178ce1ad1cea23491be1ea",
+  "inference_executed": false,
+  "video_decoded": false,
+  "api_called": false,
+  "test225_executed": false,
+  "supersedes": "cpu_checks_v1.json: documentation encoding corrected only; core scripts and protocol unchanged."
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "0e495023454d5668a78364c2b6bb922dfc9f9e68cbdddf352465b2ea1c44315f",
+  "response": {
+    "id": "01be5a44-e92b-461c-a8e2-216bfdc0d707",
+    "object": "chat.completion",
+    "created": 1793675990,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[\"F0\",\"F2061\",\"F4123\",\"F6184\"],\"windows\":[],\"notes\":\"No supplied frame or subtitle shows Rookie flashing over a wall at the beginning of the game, nor any stated reason for such a flash. Early frames show champion select and early laning without that event.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9425,
+      "completion_tokens": 93,
+      "total_tokens": 9518,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9297
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.482956875115633
+}

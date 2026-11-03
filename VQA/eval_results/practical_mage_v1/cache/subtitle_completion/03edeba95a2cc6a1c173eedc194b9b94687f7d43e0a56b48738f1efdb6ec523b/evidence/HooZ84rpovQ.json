@@ -1,0 +1,1123 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "HooZ84rpovQ",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HooZ84rpovQ.srt",
+        "status": "available",
+        "bytes": 26500,
+        "sha256": "6c77f8b0a09626fe6068c0f6eeccd99a4600e1347a15226552da82d994f0caf1",
+        "cues": 191,
+        "nonempty_cues": 191
+      },
+      "frame_indices": [
+        0,
+        553,
+        1107,
+        1660,
+        2214,
+        2767,
+        3321,
+        3874,
+        4427,
+        4981,
+        5534,
+        6088,
+        6641,
+        7194,
+        7748,
+        8301,
+        8855,
+        9408,
+        9962,
+        10515,
+        11068,
+        11622,
+        12175,
+        12729,
+        13282,
+        13835,
+        14389,
+        14942,
+        15496,
+        16049,
+        16603,
+        17156
+      ],
+      "frame_seconds": [
+        0.0,
+        23.064708,
+        46.171125,
+        69.235833,
+        92.34225,
+        115.406958,
+        138.513375,
+        161.578083,
+        184.642792,
+        207.749208,
+        230.813917,
+        253.920333,
+        276.985042,
+        300.04975,
+        323.156167,
+        346.220875,
+        369.327292,
+        392.392,
+        415.498417,
+        438.563125,
+        461.627833,
+        484.73425,
+        507.79895799999997,
+        530.905375,
+        553.970083,
+        577.034792,
+        600.141208,
+        623.205917,
+        646.312333,
+        669.377042,
+        692.483458,
+        715.548167
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          5
+        ],
+        [
+          13
+        ],
+        [
+          19
+        ],
+        [
+          24
+        ],
+        [
+          30
+        ],
+        [
+          35
+        ],
+        [
+          43
+        ],
+        [
+          50
+        ],
+        [
+          56
+        ],
+        [
+          63
+        ],
+        [
+          70
+        ],
+        [
+          77
+        ],
+        [
+          83
+        ],
+        [
+          90
+        ],
+        [
+          95
+        ],
+        [
+          101
+        ],
+        [
+          109
+        ],
+        [
+          115
+        ],
+        [
+          121
+        ],
+        [
+          127
+        ],
+        [
+          133
+        ],
+        [
+          140
+        ],
+        [
+          147
+        ],
+        [
+          152
+        ],
+        [
+          158
+        ],
+        [
+          163
+        ],
+        [
+          169
+        ],
+        [
+          175
+        ],
+        [
+          180
+        ],
+        [
+          187
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 5,
+          "start_ms": 19029,
+          "end_ms": 23730,
+          "text": "It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 45420,
+          "end_ms": 50789,
+          "text": "Now, we’ve talked before about insular gigantism, where small animals that become isolated on"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 69120,
+          "end_ms": 70900,
+          "text": "older geological mystery."
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 89560,
+          "end_ms": 93570,
+          "text": "And salt deposits like these are typically found in places where bodies of water have"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 111450,
+          "end_ms": 116100,
+          "text": "the cause -- or causes -- of one of the greatest vanishing acts in Earth’s history."
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 134990,
+          "end_ms": 139420,
+          "text": "enough to keep the Sea filled up without the water from the Atlantic, because it has very"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 161280,
+          "end_ms": 165230,
+          "text": "And researchers have been arguing about it since the 1970s."
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 182250,
+          "end_ms": 186640,
+          "text": "If the whole world cooled off into an ice age, then lots of water would’ve been taken"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 206709,
+          "end_ms": 210930,
+          "text": "and other geochemical data from sediment and ice cores around the world."
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 228230,
+          "end_ms": 232620,
+          "text": "The second idea was that tectonic events had somehow blocked the Mediterranean off from"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 252670,
+          "end_ms": 256738,
+          "text": "Other scientists thought that it might have been a combination of shifting crusts and"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 276689,
+          "end_ms": 280159,
+          "text": "So by this thinking, the MSC didn’t happen all at once."
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 296520,
+          "end_ms": 301590,
+          "text": "that the MSC was indeed caused by changes in Earth’s crust, but those shifts actually"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 322979,
+          "end_ms": 323979,
+          "text": "the MSC."
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 342080,
+          "end_ms": 347270,
+          "text": "At the same time, an actively folding and uplifting tectonic belt caused water input"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 364999,
+          "end_ms": 370449,
+          "text": "At the height of the MSC, external water sources were completely cut off, and most of the water"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 391180,
+          "end_ms": 397259,
+          "text": "And the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 415069,
+          "end_ms": 419090,
+          "text": "But when the sea almost dried up completely, it became uninhabitable."
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 436059,
+          "end_ms": 440831,
+          "text": "For one thing, the sediments that were deposited during this period weren’t disturbed, which"
+        },
+        {
+          "cue_id": 127,
+          "start_ms": 457360,
+          "end_ms": 461969,
+          "text": "Sediment cores showed that small populations may have eked out a living in isolated pockets."
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 482089,
+          "end_ms": 487189,
+          "text": "This allowed hippos, elephants, and other megafauna from Africa to walk and swim across"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 505159,
+          "end_ms": 509270,
+          "text": "haven’t been connected to each other since the MSC, like Malta and Sicily."
+        },
+        {
+          "cue_id": 147,
+          "start_ms": 530529,
+          "end_ms": 535600,
+          "text": "That isolation led to small versions of large animals, or insular dwarfism, and large versions"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 550529,
+          "end_ms": 554980,
+          "text": "Models of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic"
+        },
+        {
+          "cue_id": 158,
+          "start_ms": 575519,
+          "end_ms": 581040,
+          "text": "into the Mediterranean, with water pouring so fast that it filled up in only a few months."
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 596269,
+          "end_ms": 600870,
+          "text": "Atlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall."
+        },
+        {
+          "cue_id": 169,
+          "start_ms": 619990,
+          "end_ms": 623930,
+          "text": "and climate change repeated itself, it could conceivably happen again."
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 646149,
+          "end_ms": 651339,
+          "text": "of years, its fingerprints lie mostly out of sight, buried beneath the waves."
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 664990,
+          "end_ms": 670550,
+          "text": "Well the PBS Video App is your home for amazing educational shows ranging from science films"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 686680,
+          "end_ms": 692899,
+          "text": "Now, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng,"
+        }
+      ],
+      "text": "It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with\nNow, we’ve talked before about insular gigantism, where small animals that become isolated on\nolder geological mystery.\nAnd salt deposits like these are typically found in places where bodies of water have\nthe cause -- or causes -- of one of the greatest vanishing acts in Earth’s history.\nenough to keep the Sea filled up without the water from the Atlantic, because it has very\nAnd researchers have been arguing about it since the 1970s.\nIf the whole world cooled off into an ice age, then lots of water would’ve been taken\nand other geochemical data from sediment and ice cores around the world.\nThe second idea was that tectonic events had somehow blocked the Mediterranean off from\nOther scientists thought that it might have been a combination of shifting crusts and\nSo by this thinking, the MSC didn’t happen all at once.\nthat the MSC was indeed caused by changes in Earth’s crust, but those shifts actually\nthe MSC.\nAt the same time, an actively folding and uplifting tectonic belt caused water input\nAt the height of the MSC, external water sources were completely cut off, and most of the water\nAnd the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely\nBut when the sea almost dried up completely, it became uninhabitable.\nFor one thing, the sediments that were deposited during this period weren’t disturbed, which\nSediment cores showed that small populations may have eked out a living in isolated pockets.\nThis allowed hippos, elephants, and other megafauna from Africa to walk and swim across\nhaven’t been connected to each other since the MSC, like Malta and Sicily.\nThat isolation led to small versions of large animals, or insular dwarfism, and large versions\nModels of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic\ninto the Mediterranean, with water pouring so fast that it filled up in only a few months.\nAtlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall.\nand climate change repeated itself, it could conceivably happen again.\nof years, its fingerprints lie mostly out of sight, buried beneath the waves.\nWell the PBS Video App is your home for amazing educational shows ranging from science films\nNow, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng,",
+      "text_tokens": 517,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HooZ84rpovQ",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HooZ84rpovQ.srt",
+          "status": "available",
+          "bytes": 26500,
+          "sha256": "6c77f8b0a09626fe6068c0f6eeccd99a4600e1347a15226552da82d994f0caf1",
+          "cues": 191,
+          "nonempty_cues": 191
+        },
+        "frame_indices": [
+          0,
+          553,
+          1107,
+          1660,
+          2214,
+          2767,
+          3321,
+          3874,
+          4427,
+          4981,
+          5534,
+          6088,
+          6641,
+          7194,
+          7748,
+          8301,
+          8855,
+          9408,
+          9962,
+          10515,
+          11068,
+          11622,
+          12175,
+          12729,
+          13282,
+          13835,
+          14389,
+          14942,
+          15496,
+          16049,
+          16603,
+          17156
+        ],
+        "frame_seconds": [
+          0.0,
+          23.064708,
+          46.171125,
+          69.235833,
+          92.34225,
+          115.406958,
+          138.513375,
+          161.578083,
+          184.642792,
+          207.749208,
+          230.813917,
+          253.920333,
+          276.985042,
+          300.04975,
+          323.156167,
+          346.220875,
+          369.327292,
+          392.392,
+          415.498417,
+          438.563125,
+          461.627833,
+          484.73425,
+          507.79895799999997,
+          530.905375,
+          553.970083,
+          577.034792,
+          600.141208,
+          623.205917,
+          646.312333,
+          669.377042,
+          692.483458,
+          715.548167
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            5
+          ],
+          [
+            13
+          ],
+          [
+            19
+          ],
+          [
+            24
+          ],
+          [
+            30
+          ],
+          [
+            35
+          ],
+          [
+            43
+          ],
+          [
+            50
+          ],
+          [
+            56
+          ],
+          [
+            63
+          ],
+          [
+            70
+          ],
+          [
+            77
+          ],
+          [
+            83
+          ],
+          [
+            90
+          ],
+          [
+            95
+          ],
+          [
+            101
+          ],
+          [
+            109
+          ],
+          [
+            115
+          ],
+          [
+            121
+          ],
+          [
+            127
+          ],
+          [
+            133
+          ],
+          [
+            140
+          ],
+          [
+            147
+          ],
+          [
+            152
+          ],
+          [
+            158
+          ],
+          [
+            163
+          ],
+          [
+            169
+          ],
+          [
+            175
+          ],
+          [
+            180
+          ],
+          [
+            187
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 5,
+            "start_ms": 19029,
+            "end_ms": 23730,
+            "text": "It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 45420,
+            "end_ms": 50789,
+            "text": "Now, we’ve talked before about insular gigantism, where small animals that become isolated on"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 69120,
+            "end_ms": 70900,
+            "text": "older geological mystery."
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 89560,
+            "end_ms": 93570,
+            "text": "And salt deposits like these are typically found in places where bodies of water have"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 111450,
+            "end_ms": 116100,
+            "text": "the cause -- or causes -- of one of the greatest vanishing acts in Earth’s history."
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 134990,
+            "end_ms": 139420,
+            "text": "enough to keep the Sea filled up without the water from the Atlantic, because it has very"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 161280,
+            "end_ms": 165230,
+            "text": "And researchers have been arguing about it since the 1970s."
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 182250,
+            "end_ms": 186640,
+            "text": "If the whole world cooled off into an ice age, then lots of water would’ve been taken"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 206709,
+            "end_ms": 210930,
+            "text": "and other geochemical data from sediment and ice cores around the world."
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 228230,
+            "end_ms": 232620,
+            "text": "The second idea was that tectonic events had somehow blocked the Mediterranean off from"
+          },
+          {
+            "cue_id": 70,
+            "start_ms": 252670,
+            "end_ms": 256738,
+            "text": "Other scientists thought that it might have been a combination of shifting crusts and"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 276689,
+            "end_ms": 280159,
+            "text": "So by this thinking, the MSC didn’t happen all at once."
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 296520,
+            "end_ms": 301590,
+            "text": "that the MSC was indeed caused by changes in Earth’s crust, but those shifts actually"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 322979,
+            "end_ms": 323979,
+            "text": "the MSC."
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 342080,
+            "end_ms": 347270,
+            "text": "At the same time, an actively folding and uplifting tectonic belt caused water input"
+          },
+          {
+            "cue_id": 101,
+            "start_ms": 364999,
+            "end_ms": 370449,
+            "text": "At the height of the MSC, external water sources were completely cut off, and most of the water"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 391180,
+            "end_ms": 397259,
+            "text": "And the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 415069,
+            "end_ms": 419090,
+            "text": "But when the sea almost dried up completely, it became uninhabitable."
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 436059,
+            "end_ms": 440831,
+            "text": "For one thing, the sediments that were deposited during this period weren’t disturbed, which"
+          },
+          {
+            "cue_id": 127,
+            "start_ms": 457360,
+            "end_ms": 461969,
+            "text": "Sediment cores showed that small populations may have eked out a living in isolated pockets."
+          },
+          {
+            "cue_id": 133,
+            "start_ms": 482089,
+            "end_ms": 487189,
+            "text": "This allowed hippos, elephants, and other megafauna from Africa to walk and swim across"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 505159,
+            "end_ms": 509270,
+            "text": "haven’t been connected to each other since the MSC, like Malta and Sicily."
+          },
+          {
+            "cue_id": 147,
+            "start_ms": 530529,
+            "end_ms": 535600,
+            "text": "That isolation led to small versions of large animals, or insular dwarfism, and large versions"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 550529,
+            "end_ms": 554980,
+            "text": "Models of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic"
+          },
+          {
+            "cue_id": 158,
+            "start_ms": 575519,
+            "end_ms": 581040,
+            "text": "into the Mediterranean, with water pouring so fast that it filled up in only a few months."
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 596269,
+            "end_ms": 600870,
+            "text": "Atlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall."
+          },
+          {
+            "cue_id": 169,
+            "start_ms": 619990,
+            "end_ms": 623930,
+            "text": "and climate change repeated itself, it could conceivably happen again."
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 646149,
+            "end_ms": 651339,
+            "text": "of years, its fingerprints lie mostly out of sight, buried beneath the waves."
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 664990,
+            "end_ms": 670550,
+            "text": "Well the PBS Video App is your home for amazing educational shows ranging from science films"
+          },
+          {
+            "cue_id": 187,
+            "start_ms": 686680,
+            "end_ms": 692899,
+            "text": "Now, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng,"
+          }
+        ],
+        "text": "It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with\nNow, we’ve talked before about insular gigantism, where small animals that become isolated on\nolder geological mystery.\nAnd salt deposits like these are typically found in places where bodies of water have\nthe cause -- or causes -- of one of the greatest vanishing acts in Earth’s history.\nenough to keep the Sea filled up without the water from the Atlantic, because it has very\nAnd researchers have been arguing about it since the 1970s.\nIf the whole world cooled off into an ice age, then lots of water would’ve been taken\nand other geochemical data from sediment and ice cores around the world.\nThe second idea was that tectonic events had somehow blocked the Mediterranean off from\nOther scientists thought that it might have been a combination of shifting crusts and\nSo by this thinking, the MSC didn’t happen all at once.\nthat the MSC was indeed caused by changes in Earth’s crust, but those shifts actually\nthe MSC.\nAt the same time, an actively folding and uplifting tectonic belt caused water input\nAt the height of the MSC, external water sources were completely cut off, and most of the water\nAnd the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely\nBut when the sea almost dried up completely, it became uninhabitable.\nFor one thing, the sediments that were deposited during this period weren’t disturbed, which\nSediment cores showed that small populations may have eked out a living in isolated pockets.\nThis allowed hippos, elephants, and other megafauna from Africa to walk and swim across\nhaven’t been connected to each other since the MSC, like Malta and Sicily.\nThat isolation led to small versions of large animals, or insular dwarfism, and large versions\nModels of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic\ninto the Mediterranean, with water pouring so fast that it filled up in only a few months.\nAtlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall.\nand climate change repeated itself, it could conceivably happen again.\nof years, its fingerprints lie mostly out of sight, buried beneath the waves.\nWell the PBS Video App is your home for amazing educational shows ranging from science films\nNow, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng,",
+        "text_tokens": 517,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6
+          ],
+          "start_ms": 13200,
+          "end_ms": 24730,
+          "text": "For one thing, this bunny was a giant, up to six times heavier than your average cottontail. It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with claws."
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14
+          ],
+          "start_ms": 44170,
+          "end_ms": 54769,
+          "text": "to 3 million years ago. Now, we’ve talked before about insular gigantism, where small animals that become isolated on islands evolve into larger forms due to a lack of predators."
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20
+          ],
+          "start_ms": 64248,
+          "end_ms": 75750,
+          "text": "Well, it looks like the answer to this biological mystery is actually wrapped up in an even older geological mystery. Since the 1800s, scientists have known that the layers under the floor of the Mediterranean"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25
+          ],
+          "start_ms": 85670,
+          "end_ms": 94570,
+          "text": "so large that they’re sometimes called the Mediterranean Salt Giant. And salt deposits like these are typically found in places where bodies of water have dried up."
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30
+          ],
+          "start_ms": 106920,
+          "end_ms": 116100,
+          "text": "It would take decades and more than 1,000 research studies to even start to figure out the cause -- or causes -- of one of the greatest vanishing acts in Earth’s history."
+        },
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35,
+            36
+          ],
+          "start_ms": 130199,
+          "end_ms": 141030,
+          "text": "Some freshwater in the form of rainfall and rivers also flows into it, but that’s not enough to keep the Sea filled up without the water from the Atlantic, because it has very high rates of evaporation."
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44
+          ],
+          "start_ms": 159200,
+          "end_ms": 166310,
+          "text": "water source got turned off. And researchers have been arguing about it since the 1970s. How did it happen?"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51
+          ],
+          "start_ms": 178329,
+          "end_ms": 191900,
+          "text": "crisis, in the Late Miocene Epoch around 6 million years ago. If the whole world cooled off into an ice age, then lots of water would’ve been taken out of the ocean and frozen in glaciers, reducing the water flow into the Mediterranean Sea"
+        },
+        {
+          "id": "S55",
+          "cue_ids": [
+            55,
+            56,
+            57
+          ],
+          "start_ms": 202010,
+          "end_ms": 215150,
+          "text": "Soon after the Salt Giant was discovered, researchers started studying oxygen isotopes and other geochemical data from sediment and ice cores around the world. Their data showed that the rest of the Earth wasn’t abnormally hot, cold, or dry during"
+        },
+        {
+          "id": "S62",
+          "cue_ids": [
+            62,
+            63,
+            64
+          ],
+          "start_ms": 226310,
+          "end_ms": 235340,
+          "text": "That ruled out the first hypothesis. The second idea was that tectonic events had somehow blocked the Mediterranean off from the Atlantic, and cut off the water flow."
+        },
+        {
+          "id": "S69",
+          "cue_ids": [
+            69,
+            70,
+            71
+          ],
+          "start_ms": 249690,
+          "end_ms": 259810,
+          "text": "And this explanation was *almost* right. Other scientists thought that it might have been a combination of shifting crusts and climate change that made the Mediterranean dry up."
+        },
+        {
+          "id": "S76",
+          "cue_ids": [
+            76,
+            77,
+            78
+          ],
+          "start_ms": 272808,
+          "end_ms": 285050,
+          "text": "-- the amount of freshwater that made it into the Mediterranean varied. So by this thinking, the MSC didn’t happen all at once. Instead, water levels started to drop after the strait closed, and then fluctuated according"
+        },
+        {
+          "id": "S82",
+          "cue_ids": [
+            82,
+            83,
+            84
+          ],
+          "start_ms": 292020,
+          "end_ms": 304710,
+          "text": "As geologists began collecting evidence to test these hypotheses, they eventually found that the MSC was indeed caused by changes in Earth’s crust, but those shifts actually happened repeatedly, not just in one fell swoop."
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89,
+            90,
+            91
+          ],
+          "start_ms": 318509,
+          "end_ms": 328840,
+          "text": "Some researchers estimate that there were 16 climate cycles just in the beginning of the MSC. And these changes also correlated pretty closely with what we know about climate cycles."
+        },
+        {
+          "id": "S94",
+          "cue_ids": [
+            94,
+            95,
+            96
+          ],
+          "start_ms": 338219,
+          "end_ms": 348650,
+          "text": "solar energy, which increased evaporation rates in the Mediterranean. At the same time, an actively folding and uplifting tectonic belt caused water input to decrease."
+        },
+        {
+          "id": "S100",
+          "cue_ids": [
+            100,
+            101,
+            102
+          ],
+          "start_ms": 362150,
+          "end_ms": 373680,
+          "text": "occurring about 5.6 million years ago! At the height of the MSC, external water sources were completely cut off, and most of the water left behind in the Mediterranean basin was evaporating."
+        },
+        {
+          "id": "S108",
+          "cue_ids": [
+            108,
+            109,
+            110
+          ],
+          "start_ms": 390180,
+          "end_ms": 401219,
+          "text": "deposits became. And the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely salty for the hundreds of thousands of years during the MSC."
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115,
+            116
+          ],
+          "start_ms": 414069,
+          "end_ms": 420680,
+          "text": "blue water. But when the sea almost dried up completely, it became uninhabitable. Almost nothing could live there."
+        },
+        {
+          "id": "S120",
+          "cue_ids": [
+            120,
+            121,
+            122
+          ],
+          "start_ms": 433789,
+          "end_ms": 443960,
+          "text": "and the evidence for that is pretty good. For one thing, the sediments that were deposited during this period weren’t disturbed, which suggests that there were no burrowing creatures living there."
+        },
+        {
+          "id": "S126",
+          "cue_ids": [
+            126,
+            127,
+            128
+          ],
+          "start_ms": 455979,
+          "end_ms": 467120,
+          "text": "thriving. Sediment cores showed that small populations may have eked out a living in isolated pockets. But the disappearance of the sea wasn’t all bad news for living things; the lower water"
+        },
+        {
+          "id": "S132",
+          "cue_ids": [
+            132,
+            133,
+            134
+          ],
+          "start_ms": 480499,
+          "end_ms": 488499,
+          "text": "now disappeared. This allowed hippos, elephants, and other megafauna from Africa to walk and swim across the Mediterranean."
+        },
+        {
+          "id": "S139",
+          "cue_ids": [
+            139,
+            140,
+            141
+          ],
+          "start_ms": 500490,
+          "end_ms": 513479,
+          "text": "Paleontologists have found other giant fauna, like dormice and hamsters, on islands that haven’t been connected to each other since the MSC, like Malta and Sicily. This wasn’t the first time that animals made a long journey to lands around the sea"
+        },
+        {
+          "id": "S146",
+          "cue_ids": [
+            146,
+            147,
+            148
+          ],
+          "start_ms": 527160,
+          "end_ms": 540290,
+          "text": "populations were isolated from each other, and from northern Africa. That isolation led to small versions of large animals, or insular dwarfism, and large versions of small animals, or insular gigantism, on islands around the Mediterranean."
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151,
+            152,
+            153
+          ],
+          "start_ms": 546029,
+          "end_ms": 559829,
+          "text": "The Mediterranean Sea is back again, of course, so obviously the water returned at some point. Models of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic plates shifted again and sediments eroded, lowering the barrier between the Atlantic"
+        },
+        {
+          "id": "S157",
+          "cue_ids": [
+            157,
+            158,
+            159
+          ],
+          "start_ms": 570740,
+          "end_ms": 586050,
+          "text": "At first, some scientists thought that it was replenished by a giant waterfall cascading into the Mediterranean, with water pouring so fast that it filled up in only a few months. They even found sediment deposits that suggested a rapid flooding event occurred."
+        },
+        {
+          "id": "S162",
+          "cue_ids": [
+            162,
+            163,
+            164
+          ],
+          "start_ms": 592220,
+          "end_ms": 604579,
+          "text": "More recently, other geologists using seismic data discovered that the slope between the Atlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall. Instead, what re-filled the sea was probably more like a river."
+        },
+        {
+          "id": "S168",
+          "cue_ids": [
+            168,
+            169,
+            170
+          ],
+          "start_ms": 615860,
+          "end_ms": 629120,
+          "text": "The plates of the Earth are always shifting, and if the perfect storm of plate movement and climate change repeated itself, it could conceivably happen again. Scientists are still finding more evidence of the MSC, from those fossilized mini-elephants,"
+        },
+        {
+          "id": "S174",
+          "cue_ids": [
+            174,
+            175,
+            176
+          ],
+          "start_ms": 641970,
+          "end_ms": 655610,
+          "text": "Even though the MSC shaped life in and around the Mediterranean for hundreds of thousands of years, its fingerprints lie mostly out of sight, buried beneath the waves. But the fossils of those dwarf elephants and giant rabbits let us see its effects, and"
+        },
+        {
+          "id": "S179",
+          "cue_ids": [
+            179,
+            180,
+            181
+          ],
+          "start_ms": 663160,
+          "end_ms": 676350,
+          "text": "Love binging PBS shows? Well the PBS Video App is your home for amazing educational shows ranging from science films from NOVA to concerts on Austin City Limits to documentaries from Ken Burns and Frontline,"
+        },
+        {
+          "id": "S186",
+          "cue_ids": [
+            186,
+            187,
+            188
+          ],
+          "start_ms": 684069,
+          "end_ms": 695779,
+          "text": "anytime on nearly any device. Now, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng, Sean Dennis, Hollis, and Steve!"
+        }
+      ],
+      "text": "S4 [00:00:13.200 --> 00:00:24.730] For one thing, this bunny was a giant, up to six times heavier than your average cottontail. It also had short hindlimbs, compared to its forelimbs, and feet that were tipped with claws.\nS12 [00:00:44.170 --> 00:00:54.769] to 3 million years ago. Now, we’ve talked before about insular gigantism, where small animals that become isolated on islands evolve into larger forms due to a lack of predators.\nS18 [00:01:04.248 --> 00:01:15.750] Well, it looks like the answer to this biological mystery is actually wrapped up in an even older geological mystery. Since the 1800s, scientists have known that the layers under the floor of the Mediterranean\nS23 [00:01:25.670 --> 00:01:34.570] so large that they’re sometimes called the Mediterranean Salt Giant. And salt deposits like these are typically found in places where bodies of water have dried up.\nS29 [00:01:46.920 --> 00:01:56.100] It would take decades and more than 1,000 research studies to even start to figure out the cause -- or causes -- of one of the greatest vanishing acts in Earth’s history.\nS34 [00:02:10.199 --> 00:02:21.030] Some freshwater in the form of rainfall and rivers also flows into it, but that’s not enough to keep the Sea filled up without the water from the Atlantic, because it has very high rates of evaporation.\nS42 [00:02:39.200 --> 00:02:46.310] water source got turned off. And researchers have been arguing about it since the 1970s. How did it happen?\nS49 [00:02:58.329 --> 00:03:11.900] crisis, in the Late Miocene Epoch around 6 million years ago. If the whole world cooled off into an ice age, then lots of water would’ve been taken out of the ocean and frozen in glaciers, reducing the water flow into the Mediterranean Sea\nS55 [00:03:22.010 --> 00:03:35.150] Soon after the Salt Giant was discovered, researchers started studying oxygen isotopes and other geochemical data from sediment and ice cores around the world. Their data showed that the rest of the Earth wasn’t abnormally hot, cold, or dry during\nS62 [00:03:46.310 --> 00:03:55.340] That ruled out the first hypothesis. The second idea was that tectonic events had somehow blocked the Mediterranean off from the Atlantic, and cut off the water flow.\nS69 [00:04:09.690 --> 00:04:19.810] And this explanation was *almost* right. Other scientists thought that it might have been a combination of shifting crusts and climate change that made the Mediterranean dry up.\nS76 [00:04:32.808 --> 00:04:45.050] -- the amount of freshwater that made it into the Mediterranean varied. So by this thinking, the MSC didn’t happen all at once. Instead, water levels started to drop after the strait closed, and then fluctuated according\nS82 [00:04:52.020 --> 00:05:04.710] As geologists began collecting evidence to test these hypotheses, they eventually found that the MSC was indeed caused by changes in Earth’s crust, but those shifts actually happened repeatedly, not just in one fell swoop.\nS89 [00:05:18.509 --> 00:05:28.840] Some researchers estimate that there were 16 climate cycles just in the beginning of the MSC. And these changes also correlated pretty closely with what we know about climate cycles.\nS94 [00:05:38.219 --> 00:05:48.650] solar energy, which increased evaporation rates in the Mediterranean. At the same time, an actively folding and uplifting tectonic belt caused water input to decrease.\nS100 [00:06:02.150 --> 00:06:13.680] occurring about 5.6 million years ago! At the height of the MSC, external water sources were completely cut off, and most of the water left behind in the Mediterranean basin was evaporating.\nS108 [00:06:30.180 --> 00:06:41.219] deposits became. And the salt giant is possibly up to 3 kilometers thick, which means that the sea was extremely salty for the hundreds of thousands of years during the MSC.\nS114 [00:06:54.069 --> 00:07:00.680] blue water. But when the sea almost dried up completely, it became uninhabitable. Almost nothing could live there.\nS120 [00:07:13.789 --> 00:07:23.960] and the evidence for that is pretty good. For one thing, the sediments that were deposited during this period weren’t disturbed, which suggests that there were no burrowing creatures living there.\nS126 [00:07:35.979 --> 00:07:47.120] thriving. Sediment cores showed that small populations may have eked out a living in isolated pockets. But the disappearance of the sea wasn’t all bad news for living things; the lower water\nS132 [00:08:00.499 --> 00:08:08.499] now disappeared. This allowed hippos, elephants, and other megafauna from Africa to walk and swim across the Mediterranean.\nS139 [00:08:20.490 --> 00:08:33.479] Paleontologists have found other giant fauna, like dormice and hamsters, on islands that haven’t been connected to each other since the MSC, like Malta and Sicily. This wasn’t the first time that animals made a long journey to lands around the sea\nS146 [00:08:47.160 --> 00:09:00.290] populations were isolated from each other, and from northern Africa. That isolation led to small versions of large animals, or insular dwarfism, and large versions of small animals, or insular gigantism, on islands around the Mediterranean.\nS151 [00:09:06.029 --> 00:09:19.829] The Mediterranean Sea is back again, of course, so obviously the water returned at some point. Models of the ocean crust suggest that the Strait of Gibraltar opened up as the tectonic plates shifted again and sediments eroded, lowering the barrier between the Atlantic\nS157 [00:09:30.740 --> 00:09:46.050] At first, some scientists thought that it was replenished by a giant waterfall cascading into the Mediterranean, with water pouring so fast that it filled up in only a few months. They even found sediment deposits that suggested a rapid flooding event occurred.\nS162 [00:09:52.220 --> 00:10:04.579] More recently, other geologists using seismic data discovered that the slope between the Atlantic and the Mediterranean wasn’t steep enough for there to have been a waterfall. Instead, what re-filled the sea was probably more like a river.\nS168 [00:10:15.860 --> 00:10:29.120] The plates of the Earth are always shifting, and if the perfect storm of plate movement and climate change repeated itself, it could conceivably happen again. Scientists are still finding more evidence of the MSC, from those fossilized mini-elephants,\nS174 [00:10:41.970 --> 00:10:55.610] Even though the MSC shaped life in and around the Mediterranean for hundreds of thousands of years, its fingerprints lie mostly out of sight, buried beneath the waves. But the fossils of those dwarf elephants and giant rabbits let us see its effects, and\nS179 [00:11:03.160 --> 00:11:16.350] Love binging PBS shows? Well the PBS Video App is your home for amazing educational shows ranging from science films from NOVA to concerts on Austin City Limits to documentaries from Ken Burns and Frontline,\nS186 [00:11:24.069 --> 00:11:35.779] anytime on nearly any device. Now, giant bunny kicks to this month’s Eontologists: Patrick Seifert, Jake Hart, Jon Davison Ng, Sean Dennis, Hollis, and Steve!",
+      "text_tokens": 2162,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        4,
+        6,
+        12,
+        14,
+        18,
+        20,
+        23,
+        25,
+        29,
+        34,
+        36,
+        42,
+        44,
+        49,
+        51,
+        55,
+        57,
+        62,
+        64,
+        69,
+        71,
+        76,
+        78,
+        82,
+        84,
+        89,
+        91,
+        94,
+        96,
+        100,
+        102,
+        108,
+        110,
+        114,
+        116,
+        120,
+        122,
+        126,
+        128,
+        132,
+        134,
+        139,
+        141,
+        146,
+        148,
+        151,
+        153,
+        157,
+        159,
+        162,
+        164,
+        168,
+        170,
+        174,
+        176,
+        179,
+        181,
+        186,
+        188
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "c71dcf1147ab023ea8b711df4589abdc9e0756c557fd42e3db82dbd8322a17ad"
+}

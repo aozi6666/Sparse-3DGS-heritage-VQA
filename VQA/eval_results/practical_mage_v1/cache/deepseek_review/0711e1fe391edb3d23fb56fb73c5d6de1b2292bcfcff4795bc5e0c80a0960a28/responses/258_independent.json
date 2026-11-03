@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "d75349f24e3d4c737b430c74d56b6bbf941ef4a53735bd6662a7a0851fecf404",
+  "response": {
+    "id": "8c45245c-fffe-4c3f-932d-c766978764b9",
+    "object": "chat.completion",
+    "created": 1793675770,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[],\"windows\":[],\"notes\":\"No subtitle block or frame shows the speaker introducing the Mediterranean's possible long disappearance with any of the listed options (MSC, small elephant, huge rabbit bone, insular gigantism). The MSC is discussed as a past event, not as an introduction to a future long disappearance.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9272,
+      "completion_tokens": 94,
+      "total_tokens": 9366,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9144
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.9290010817348957
+}

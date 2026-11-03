@@ -1,0 +1,865 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "2gFxZmb0dMo",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2gFxZmb0dMo.srt",
+        "status": "available",
+        "bytes": 3538,
+        "sha256": "58f8c385c25bf474c3757c50f9e7d6bb795f3eb13ca90362127b48437795cf9b",
+        "cues": 33,
+        "nonempty_cues": 33
+      },
+      "frame_indices": [
+        0,
+        58,
+        116,
+        175,
+        233,
+        291,
+        349,
+        408,
+        466,
+        524,
+        582,
+        640,
+        699,
+        757,
+        815,
+        873,
+        932,
+        990,
+        1048,
+        1106,
+        1165,
+        1223,
+        1281,
+        1339,
+        1397,
+        1456,
+        1514,
+        1572,
+        1630,
+        1689,
+        1747,
+        1805
+      ],
+      "frame_seconds": [
+        0.0,
+        2.419083,
+        4.838167,
+        7.298958,
+        9.718042,
+        12.137125,
+        14.556208,
+        17.017,
+        19.436083,
+        21.855167,
+        24.27425,
+        26.693333,
+        29.154125,
+        31.573208,
+        33.992292,
+        36.411375,
+        38.872167,
+        41.29125,
+        43.710333,
+        46.129417,
+        48.590208,
+        51.009292,
+        53.428375,
+        55.847458,
+        58.266542,
+        60.727333,
+        63.146417,
+        65.5655,
+        67.984583,
+        70.445375,
+        72.864458,
+        75.283542
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 3050,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 11200,
+          "end_ms": 14280,
+          "text": "it's really neat like walking through to"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 12759,
+          "end_ms": 15599,
+          "text": "be like oh yeah this is where the actors"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 14280,
+          "end_ms": 17240,
+          "text": "walked through this is where they shot"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 15599,
+          "end_ms": 19039,
+          "text": "it you might also recognize this as the"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 17240,
+          "end_ms": 20080,
+          "text": "You've got mail bridge a lot of people"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 19039,
+          "end_ms": 22000,
+          "text": "call it it's kind of one of its"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 20080,
+          "end_ms": 24359,
+          "text": "nicknames has anyone seen a home alone"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 22000,
+          "end_ms": 26880,
+          "text": "2o perhaps so you might recall Kevin"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 24359,
+          "end_ms": 29320,
+          "text": "mallister befriends the Pigeon lady she"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 26880,
+          "end_ms": 31199,
+          "text": "actually stations herself right there I"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 29320,
+          "end_ms": 32960,
+          "text": "will mention Limitless with Bradley"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 31199,
+          "end_ms": 34960,
+          "text": "Cooper that does take place here on"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 32960,
+          "end_ms": 36480,
+          "text": "woman rink as well if you guys have"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 34960,
+          "end_ms": 39079,
+          "text": "recognized this um from The Sex in the"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 36480,
+          "end_ms": 41440,
+          "text": "City TV series as well um has anyone"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 39079,
+          "end_ms": 43120,
+          "text": "seen the new movie terain WRA with Amy"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 41440,
+          "end_ms": 45000,
+          "text": "Schumer okay so you're standing on a"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 43120,
+          "end_ms": 46480,
+          "text": "spot that they actually filmed in that"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 45000,
+          "end_ms": 48719,
+          "text": "this is one of the tours is actually"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 46480,
+          "end_ms": 48719,
+          "text": "worth"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 50480,
+          "end_ms": 54239,
+          "text": "taking I think every single tourist that"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 52520,
+          "end_ms": 56120,
+          "text": "comes to New York should participate in"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 54239,
+          "end_ms": 57800,
+          "text": "an on location tour it's specifically"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 56120,
+          "end_ms": 59559,
+          "text": "Central Park tour because you get to see"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 57800,
+          "end_ms": 61879,
+          "text": "the sites you get to be a part of nature"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 59559,
+          "end_ms": 63320,
+          "text": "you get to to see how New Yorkers relax"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 61879,
+          "end_ms": 65040,
+          "text": "I enjoyed it a lot I think it was very"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 63320,
+          "end_ms": 67080,
+          "text": "informational it was really neat getting"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 65040,
+          "end_ms": 69340,
+          "text": "to see a lot of the park I would"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 67080,
+          "end_ms": 74280,
+          "text": "definitely recommend it to my"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 69340,
+          "end_ms": 77280,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 74280,
+          "end_ms": 77280,
+          "text": "friends"
+        }
+      ],
+      "text": "[Music]\nit's really neat like walking through to\nbe like oh yeah this is where the actors\nwalked through this is where they shot\nit you might also recognize this as the\nYou've got mail bridge a lot of people\ncall it it's kind of one of its\nnicknames has anyone seen a home alone\n2o perhaps so you might recall Kevin\nmallister befriends the Pigeon lady she\nactually stations herself right there I\nwill mention Limitless with Bradley\nCooper that does take place here on\nwoman rink as well if you guys have\nrecognized this um from The Sex in the\nCity TV series as well um has anyone\nseen the new movie terain WRA with Amy\nSchumer okay so you're standing on a\nspot that they actually filmed in that\nthis is one of the tours is actually\nworth\ntaking I think every single tourist that\ncomes to New York should participate in\nan on location tour it's specifically\nCentral Park tour because you get to see\nthe sites you get to be a part of nature\nyou get to to see how New Yorkers relax\nI enjoyed it a lot I think it was very\ninformational it was really neat getting\nto see a lot of the park I would\ndefinitely recommend it to my\n[Music]\nfriends",
+      "text_tokens": 274,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "2gFxZmb0dMo",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2gFxZmb0dMo.srt",
+          "status": "available",
+          "bytes": 3538,
+          "sha256": "58f8c385c25bf474c3757c50f9e7d6bb795f3eb13ca90362127b48437795cf9b",
+          "cues": 33,
+          "nonempty_cues": 33
+        },
+        "frame_indices": [
+          0,
+          58,
+          116,
+          175,
+          233,
+          291,
+          349,
+          408,
+          466,
+          524,
+          582,
+          640,
+          699,
+          757,
+          815,
+          873,
+          932,
+          990,
+          1048,
+          1106,
+          1165,
+          1223,
+          1281,
+          1339,
+          1397,
+          1456,
+          1514,
+          1572,
+          1630,
+          1689,
+          1747,
+          1805
+        ],
+        "frame_seconds": [
+          0.0,
+          2.419083,
+          4.838167,
+          7.298958,
+          9.718042,
+          12.137125,
+          14.556208,
+          17.017,
+          19.436083,
+          21.855167,
+          24.27425,
+          26.693333,
+          29.154125,
+          31.573208,
+          33.992292,
+          36.411375,
+          38.872167,
+          41.29125,
+          43.710333,
+          46.129417,
+          48.590208,
+          51.009292,
+          53.428375,
+          55.847458,
+          58.266542,
+          60.727333,
+          63.146417,
+          65.5655,
+          67.984583,
+          70.445375,
+          72.864458,
+          75.283542
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 3050,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 11200,
+            "end_ms": 14280,
+            "text": "it's really neat like walking through to"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 12759,
+            "end_ms": 15599,
+            "text": "be like oh yeah this is where the actors"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 14280,
+            "end_ms": 17240,
+            "text": "walked through this is where they shot"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 15599,
+            "end_ms": 19039,
+            "text": "it you might also recognize this as the"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 17240,
+            "end_ms": 20080,
+            "text": "You've got mail bridge a lot of people"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 19039,
+            "end_ms": 22000,
+            "text": "call it it's kind of one of its"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 20080,
+            "end_ms": 24359,
+            "text": "nicknames has anyone seen a home alone"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 22000,
+            "end_ms": 26880,
+            "text": "2o perhaps so you might recall Kevin"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 24359,
+            "end_ms": 29320,
+            "text": "mallister befriends the Pigeon lady she"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 26880,
+            "end_ms": 31199,
+            "text": "actually stations herself right there I"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 29320,
+            "end_ms": 32960,
+            "text": "will mention Limitless with Bradley"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 31199,
+            "end_ms": 34960,
+            "text": "Cooper that does take place here on"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 32960,
+            "end_ms": 36480,
+            "text": "woman rink as well if you guys have"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 34960,
+            "end_ms": 39079,
+            "text": "recognized this um from The Sex in the"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 36480,
+            "end_ms": 41440,
+            "text": "City TV series as well um has anyone"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 39079,
+            "end_ms": 43120,
+            "text": "seen the new movie terain WRA with Amy"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 41440,
+            "end_ms": 45000,
+            "text": "Schumer okay so you're standing on a"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 43120,
+            "end_ms": 46480,
+            "text": "spot that they actually filmed in that"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 45000,
+            "end_ms": 48719,
+            "text": "this is one of the tours is actually"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 46480,
+            "end_ms": 48719,
+            "text": "worth"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 50480,
+            "end_ms": 54239,
+            "text": "taking I think every single tourist that"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 52520,
+            "end_ms": 56120,
+            "text": "comes to New York should participate in"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 54239,
+            "end_ms": 57800,
+            "text": "an on location tour it's specifically"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 56120,
+            "end_ms": 59559,
+            "text": "Central Park tour because you get to see"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 57800,
+            "end_ms": 61879,
+            "text": "the sites you get to be a part of nature"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 59559,
+            "end_ms": 63320,
+            "text": "you get to to see how New Yorkers relax"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 61879,
+            "end_ms": 65040,
+            "text": "I enjoyed it a lot I think it was very"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 63320,
+            "end_ms": 67080,
+            "text": "informational it was really neat getting"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 65040,
+            "end_ms": 69340,
+            "text": "to see a lot of the park I would"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 67080,
+            "end_ms": 74280,
+            "text": "definitely recommend it to my"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 69340,
+            "end_ms": 77280,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 74280,
+            "end_ms": 77280,
+            "text": "friends"
+          }
+        ],
+        "text": "[Music]\nit's really neat like walking through to\nbe like oh yeah this is where the actors\nwalked through this is where they shot\nit you might also recognize this as the\nYou've got mail bridge a lot of people\ncall it it's kind of one of its\nnicknames has anyone seen a home alone\n2o perhaps so you might recall Kevin\nmallister befriends the Pigeon lady she\nactually stations herself right there I\nwill mention Limitless with Bradley\nCooper that does take place here on\nwoman rink as well if you guys have\nrecognized this um from The Sex in the\nCity TV series as well um has anyone\nseen the new movie terain WRA with Amy\nSchumer okay so you're standing on a\nspot that they actually filmed in that\nthis is one of the tours is actually\nworth\ntaking I think every single tourist that\ncomes to New York should participate in\nan on location tour it's specifically\nCentral Park tour because you get to see\nthe sites you get to be a part of nature\nyou get to to see how New Yorkers relax\nI enjoyed it a lot I think it was very\ninformational it was really neat getting\nto see a lot of the park I would\ndefinitely recommend it to my\n[Music]\nfriends",
+        "text_tokens": 274,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 0,
+          "end_ms": 3050,
+          "text": "[Music]"
+        },
+        {
+          "id": "S2",
+          "cue_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "start_ms": 11200,
+          "end_ms": 77280,
+          "text": "it's really neat like walking through to be like oh yeah this is where the actors walked through this is where they shot it you might also recognize this as the You've got mail bridge a lot of people call it it's kind of one of its nicknames has anyone seen a home alone 2o perhaps so you might recall Kevin mallister befriends the Pigeon lady she actually stations herself right there I will mention Limitless with Bradley Cooper that does take place here on woman rink as well if you guys have recognized this um from The Sex in the City TV series as well um has anyone seen the new movie terain WRA with Amy Schumer okay so you're standing on a spot that they actually filmed in that this is one of the tours is actually worth taking I think every single tourist that comes to New York should participate in an on location tour it's specifically Central Park tour because you get to see the sites you get to be a part of nature you get to to see how New Yorkers relax I enjoyed it a lot I think it was very informational it was really neat getting to see a lot of the park I would definitely recommend it to my [Music] friends"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:03.050] [Music]\nS2 [00:00:11.200 --> 00:01:17.280] it's really neat like walking through to be like oh yeah this is where the actors walked through this is where they shot it you might also recognize this as the You've got mail bridge a lot of people call it it's kind of one of its nicknames has anyone seen a home alone 2o perhaps so you might recall Kevin mallister befriends the Pigeon lady she actually stations herself right there I will mention Limitless with Bradley Cooper that does take place here on woman rink as well if you guys have recognized this um from The Sex in the City TV series as well um has anyone seen the new movie terain WRA with Amy Schumer okay so you're standing on a spot that they actually filmed in that this is one of the tours is actually worth taking I think every single tourist that comes to New York should participate in an on location tour it's specifically Central Park tour because you get to see the sites you get to be a part of nature you get to to see how New Yorkers relax I enjoyed it a lot I think it was very informational it was really neat getting to see a lot of the park I would definitely recommend it to my [Music] friends",
+      "text_tokens": 300,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "b5080bc263e6ba8836969e20e5d16bdf623c39d4f230c97bf0523a132d0998b0"
+}

@@ -1,0 +1,567 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "HmnKbBmYii8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HmnKbBmYii8.srt",
+        "status": "available",
+        "bytes": 1247,
+        "sha256": "ca3b10393b9f59fc5c7e5588115a8a6d94f50ccfd5b2ebbb92d129e5eb55dc82",
+        "cues": 13,
+        "nonempty_cues": 13
+      },
+      "frame_indices": [
+        0,
+        53,
+        105,
+        158,
+        211,
+        264,
+        316,
+        369,
+        422,
+        474,
+        527,
+        580,
+        633,
+        685,
+        738,
+        791,
+        843,
+        896,
+        949,
+        1001,
+        1054,
+        1107,
+        1160,
+        1212,
+        1265,
+        1318,
+        1370,
+        1423,
+        1476,
+        1529,
+        1581,
+        1634
+      ],
+      "frame_seconds": [
+        0.0,
+        2.12,
+        4.2,
+        6.32,
+        8.44,
+        10.56,
+        12.64,
+        14.76,
+        16.88,
+        18.96,
+        21.08,
+        23.2,
+        25.32,
+        27.4,
+        29.52,
+        31.64,
+        33.72,
+        35.84,
+        37.96,
+        40.04,
+        42.16,
+        44.28,
+        46.4,
+        48.48,
+        50.6,
+        52.72,
+        54.8,
+        56.92,
+        59.04,
+        61.16,
+        63.24,
+        65.36
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [],
+        [
+          10
+        ],
+        [
+          10
+        ],
+        [
+          10
+        ],
+        [
+          10
+        ],
+        [],
+        [],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 2600,
+          "end_ms": 7410,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 5480,
+          "end_ms": 10860,
+          "text": "every 30 minutes"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7410,
+          "end_ms": 14009,
+          "text": "the seals must take a breath and she'll"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 10860,
+          "end_ms": 16340,
+          "text": "be waiting this lesson is all about"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 14009,
+          "end_ms": 19439,
+          "text": "patience"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 16340,
+          "end_ms": 22109,
+          "text": "the female cub seems to be taking the"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 19439,
+          "end_ms": 26630,
+          "text": "lesson seriously one day she'll have her"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 22109,
+          "end_ms": 29869,
+          "text": "own young to feed her brother prefers"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 26630,
+          "end_ms": 29869,
+          "text": "making snowballs"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 32009,
+          "end_ms": 41119,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 45570,
+          "end_ms": 55270,
+          "text": "at last the waiting is over but it's the"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 54460,
+          "end_ms": 58799,
+          "text": "wrong"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 55270,
+          "end_ms": 58799,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\nevery 30 minutes\nthe seals must take a breath and she'll\nbe waiting this lesson is all about\npatience\nthe female cub seems to be taking the\nlesson seriously one day she'll have her\nown young to feed her brother prefers\nmaking snowballs\n[Music]\nat last the waiting is over but it's the\nwrong\n[Music]",
+      "text_tokens": 79,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HmnKbBmYii8",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HmnKbBmYii8.srt",
+          "status": "available",
+          "bytes": 1247,
+          "sha256": "ca3b10393b9f59fc5c7e5588115a8a6d94f50ccfd5b2ebbb92d129e5eb55dc82",
+          "cues": 13,
+          "nonempty_cues": 13
+        },
+        "frame_indices": [
+          0,
+          53,
+          105,
+          158,
+          211,
+          264,
+          316,
+          369,
+          422,
+          474,
+          527,
+          580,
+          633,
+          685,
+          738,
+          791,
+          843,
+          896,
+          949,
+          1001,
+          1054,
+          1107,
+          1160,
+          1212,
+          1265,
+          1318,
+          1370,
+          1423,
+          1476,
+          1529,
+          1581,
+          1634
+        ],
+        "frame_seconds": [
+          0.0,
+          2.12,
+          4.2,
+          6.32,
+          8.44,
+          10.56,
+          12.64,
+          14.76,
+          16.88,
+          18.96,
+          21.08,
+          23.2,
+          25.32,
+          27.4,
+          29.52,
+          31.64,
+          33.72,
+          35.84,
+          37.96,
+          40.04,
+          42.16,
+          44.28,
+          46.4,
+          48.48,
+          50.6,
+          52.72,
+          54.8,
+          56.92,
+          59.04,
+          61.16,
+          63.24,
+          65.36
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [],
+          [],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 2600,
+            "end_ms": 7410,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 5480,
+            "end_ms": 10860,
+            "text": "every 30 minutes"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7410,
+            "end_ms": 14009,
+            "text": "the seals must take a breath and she'll"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 10860,
+            "end_ms": 16340,
+            "text": "be waiting this lesson is all about"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 14009,
+            "end_ms": 19439,
+            "text": "patience"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 16340,
+            "end_ms": 22109,
+            "text": "the female cub seems to be taking the"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 19439,
+            "end_ms": 26630,
+            "text": "lesson seriously one day she'll have her"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 22109,
+            "end_ms": 29869,
+            "text": "own young to feed her brother prefers"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 26630,
+            "end_ms": 29869,
+            "text": "making snowballs"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 32009,
+            "end_ms": 41119,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 45570,
+            "end_ms": 55270,
+            "text": "at last the waiting is over but it's the"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 54460,
+            "end_ms": 58799,
+            "text": "wrong"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 55270,
+            "end_ms": 58799,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\nevery 30 minutes\nthe seals must take a breath and she'll\nbe waiting this lesson is all about\npatience\nthe female cub seems to be taking the\nlesson seriously one day she'll have her\nown young to feed her brother prefers\nmaking snowballs\n[Music]\nat last the waiting is over but it's the\nwrong\n[Music]",
+        "text_tokens": 79,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "start_ms": 2600,
+          "end_ms": 29869,
+          "text": "[Music] every 30 minutes the seals must take a breath and she'll be waiting this lesson is all about patience the female cub seems to be taking the lesson seriously one day she'll have her own young to feed her brother prefers making snowballs"
+        },
+        {
+          "id": "S10",
+          "cue_ids": [
+            10
+          ],
+          "start_ms": 32009,
+          "end_ms": 41119,
+          "text": "[Music]"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13
+          ],
+          "start_ms": 45570,
+          "end_ms": 58799,
+          "text": "at last the waiting is over but it's the wrong [Music]"
+        }
+      ],
+      "text": "S1 [00:00:02.600 --> 00:00:29.869] [Music] every 30 minutes the seals must take a breath and she'll be waiting this lesson is all about patience the female cub seems to be taking the lesson seriously one day she'll have her own young to feed her brother prefers making snowballs\nS10 [00:00:32.009 --> 00:00:41.119] [Music]\nS11 [00:00:45.570 --> 00:00:58.799] at last the waiting is over but it's the wrong [Music]",
+      "text_tokens": 161,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f63dbf6328e08d8576aaf85a3c97c96a8c8c1081db11c95759f8a052e368d793"
+}

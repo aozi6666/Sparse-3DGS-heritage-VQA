@@ -1,0 +1,1600 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "i7ivyMFsw-w",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/i7ivyMFsw-w.srt",
+        "status": "available",
+        "bytes": 105221,
+        "sha256": "63b9ed0f395b2363110cd037550666bce2a752bc4e2d645ccf6777b8b840f397",
+        "cues": 1029,
+        "nonempty_cues": 1029
+      },
+      "frame_indices": [
+        0,
+        2118,
+        4236,
+        6354,
+        8472,
+        10590,
+        12708,
+        14826,
+        16945,
+        19063,
+        21181,
+        23299,
+        25417,
+        27535,
+        29653,
+        31771,
+        33889,
+        36007,
+        38125,
+        40243,
+        42361,
+        44479,
+        46597,
+        48715,
+        50834,
+        52952,
+        55070,
+        57188,
+        59306,
+        61424,
+        63542,
+        65660
+      ],
+      "frame_seconds": [
+        0.0,
+        84.72,
+        169.44,
+        254.16,
+        338.88,
+        423.6,
+        508.32,
+        593.04,
+        677.8,
+        762.52,
+        847.24,
+        931.96,
+        1016.68,
+        1101.4,
+        1186.12,
+        1270.84,
+        1355.56,
+        1440.28,
+        1525.0,
+        1609.72,
+        1694.44,
+        1779.16,
+        1863.88,
+        1948.6,
+        2033.36,
+        2118.08,
+        2202.8,
+        2287.52,
+        2372.24,
+        2456.96,
+        2541.68,
+        2626.4
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          23,
+          24
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          111,
+          112
+        ],
+        [
+          151,
+          152
+        ],
+        [
+          179,
+          180
+        ],
+        [
+          216,
+          217
+        ],
+        [
+          252,
+          253
+        ],
+        [
+          288,
+          289
+        ],
+        [
+          323,
+          324
+        ],
+        [
+          364,
+          365
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          431,
+          432
+        ],
+        [
+          472,
+          473
+        ],
+        [
+          509,
+          510
+        ],
+        [
+          539,
+          540
+        ],
+        [
+          566,
+          567
+        ],
+        [
+          598,
+          599
+        ],
+        [
+          635,
+          636
+        ],
+        [
+          665,
+          666
+        ],
+        [
+          703,
+          704
+        ],
+        [
+          739,
+          740
+        ],
+        [
+          775,
+          776
+        ],
+        [
+          800,
+          801
+        ],
+        [
+          831
+        ],
+        [
+          862,
+          863
+        ],
+        [
+          895,
+          896
+        ],
+        [
+          932,
+          933
+        ],
+        [
+          965,
+          966
+        ],
+        [
+          997,
+          998
+        ],
+        [
+          1028,
+          1029
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 23,
+          "start_ms": 76080,
+          "end_ms": 87840,
+          "text": "to be that"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 79200,
+          "end_ms": 87840,
+          "text": "is the question"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 167519,
+          "end_ms": 171040,
+          "text": "and each time it's been an"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 169360,
+          "end_ms": 174000,
+          "text": "extraordinarily different"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 250799,
+          "end_ms": 254400,
+          "text": "he's a wonderful character to play he"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 252959,
+          "end_ms": 256238,
+          "text": "can be"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 335360,
+          "end_ms": 339759,
+          "text": "however for me is when"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 337360,
+          "end_ms": 342159,
+          "text": "you see the actor on the stage speaking"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 419680,
+          "end_ms": 426880,
+          "text": "cruelty negativeness you know"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 423199,
+          "end_ms": 430720,
+          "text": "and that is self-indulgence"
+        },
+        {
+          "cue_id": 179,
+          "start_ms": 505280,
+          "end_ms": 508960,
+          "text": "and i was immensely obsessed about the"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 507759,
+          "end_ms": 511440,
+          "text": "play and the character"
+        },
+        {
+          "cue_id": 216,
+          "start_ms": 588959,
+          "end_ms": 594560,
+          "text": "of hamlet even she oh god a beast"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 592560,
+          "end_ms": 597360,
+          "text": "but once discourse of reason would have"
+        },
+        {
+          "cue_id": 252,
+          "start_ms": 674000,
+          "end_ms": 678959,
+          "text": "father's funeral"
+        },
+        {
+          "cue_id": 253,
+          "start_ms": 676079,
+          "end_ms": 680320,
+          "text": "i pray you do not mock me fellow student"
+        },
+        {
+          "cue_id": 288,
+          "start_ms": 758959,
+          "end_ms": 763839,
+          "text": "of the civil war there was towards the"
+        },
+        {
+          "cue_id": 289,
+          "start_ms": 761200,
+          "end_ms": 767040,
+          "text": "end of elizabeth's reign a real sense of"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 842959,
+          "end_ms": 848000,
+          "text": "spirit"
+        },
+        {
+          "cue_id": 324,
+          "start_ms": 845360,
+          "end_ms": 848000,
+          "text": "iran"
+        },
+        {
+          "cue_id": 364,
+          "start_ms": 927519,
+          "end_ms": 933120,
+          "text": "show people who are not talking so"
+        },
+        {
+          "cue_id": 365,
+          "start_ms": 930639,
+          "end_ms": 936320,
+          "text": "characters who have a subplot which"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 1011279,
+          "end_ms": 1018639,
+          "text": "and potentially ahead of his time who's"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 1014399,
+          "end_ms": 1021920,
+          "text": "who sees humanity from an extraordinary"
+        },
+        {
+          "cue_id": 431,
+          "start_ms": 1098320,
+          "end_ms": 1103679,
+          "text": "there had been uh previously a play of"
+        },
+        {
+          "cue_id": 432,
+          "start_ms": 1101280,
+          "end_ms": 1105039,
+          "text": "hamlet it was a very well-known story"
+        },
+        {
+          "cue_id": 472,
+          "start_ms": 1182240,
+          "end_ms": 1187120,
+          "text": "its simplest"
+        },
+        {
+          "cue_id": 473,
+          "start_ms": 1183840,
+          "end_ms": 1187840,
+          "text": "and great prose at its simplest it's not"
+        },
+        {
+          "cue_id": 509,
+          "start_ms": 1268240,
+          "end_ms": 1271679,
+          "text": "uh"
+        },
+        {
+          "cue_id": 510,
+          "start_ms": 1269200,
+          "end_ms": 1272720,
+          "text": "what a piece of work is a man how noble"
+        },
+        {
+          "cue_id": 539,
+          "start_ms": 1353039,
+          "end_ms": 1358840,
+          "text": "already"
+        },
+        {
+          "cue_id": 540,
+          "start_ms": 1354990,
+          "end_ms": 1361840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 566,
+          "start_ms": 1438799,
+          "end_ms": 1443840,
+          "text": "his father's death"
+        },
+        {
+          "cue_id": 567,
+          "start_ms": 1440080,
+          "end_ms": 1445120,
+          "text": "then he as it were says how sad he is"
+        },
+        {
+          "cue_id": 598,
+          "start_ms": 1513600,
+          "end_ms": 1529840,
+          "text": "as vicious and bloody as he"
+        },
+        {
+          "cue_id": 599,
+          "start_ms": 1516799,
+          "end_ms": 1529840,
+          "text": "as has to do is not easy"
+        },
+        {
+          "cue_id": 635,
+          "start_ms": 1607840,
+          "end_ms": 1611520,
+          "text": "time"
+        },
+        {
+          "cue_id": 636,
+          "start_ms": 1608320,
+          "end_ms": 1613440,
+          "text": "of the reformation through the henrician"
+        },
+        {
+          "cue_id": 665,
+          "start_ms": 1689440,
+          "end_ms": 1695039,
+          "text": "remember me hamlet is in fact as it were"
+        },
+        {
+          "cue_id": 666,
+          "start_ms": 1693039,
+          "end_ms": 1696880,
+          "text": "john nobody if you like he is the"
+        },
+        {
+          "cue_id": 703,
+          "start_ms": 1776240,
+          "end_ms": 1780000,
+          "text": "pastoral care that he does"
+        },
+        {
+          "cue_id": 704,
+          "start_ms": 1777840,
+          "end_ms": 1782159,
+          "text": "that by employing spies of course in"
+        },
+        {
+          "cue_id": 739,
+          "start_ms": 1859200,
+          "end_ms": 1864080,
+          "text": "the rack and every all the apparatus to"
+        },
+        {
+          "cue_id": 740,
+          "start_ms": 1862159,
+          "end_ms": 1865120,
+          "text": "get what he wanted to maintain the tudor"
+        },
+        {
+          "cue_id": 775,
+          "start_ms": 1946399,
+          "end_ms": 1952080,
+          "text": "compromise"
+        },
+        {
+          "cue_id": 776,
+          "start_ms": 1947519,
+          "end_ms": 1955279,
+          "text": "between the reformation"
+        },
+        {
+          "cue_id": 800,
+          "start_ms": 2032000,
+          "end_ms": 2035440,
+          "text": "there because he can't"
+        },
+        {
+          "cue_id": 801,
+          "start_ms": 2033120,
+          "end_ms": 2036240,
+          "text": "trust her he can't be sure that he can"
+        },
+        {
+          "cue_id": 831,
+          "start_ms": 2115440,
+          "end_ms": 2124640,
+          "text": "to sleep the chance to dream"
+        },
+        {
+          "cue_id": 862,
+          "start_ms": 2199280,
+          "end_ms": 2206240,
+          "text": "outrageous fortune"
+        },
+        {
+          "cue_id": 863,
+          "start_ms": 2202160,
+          "end_ms": 2208160,
+          "text": "or to take arms against a sea of"
+        },
+        {
+          "cue_id": 895,
+          "start_ms": 2282240,
+          "end_ms": 2287599,
+          "text": "maturity of mind but"
+        },
+        {
+          "cue_id": 896,
+          "start_ms": 2284320,
+          "end_ms": 2291200,
+          "text": "not an extraordinary maturity"
+        },
+        {
+          "cue_id": 932,
+          "start_ms": 2368720,
+          "end_ms": 2376160,
+          "text": "now get you to my lady's chamber"
+        },
+        {
+          "cue_id": 933,
+          "start_ms": 2371760,
+          "end_ms": 2379920,
+          "text": "tell her let her paint an inch thick"
+        },
+        {
+          "cue_id": 965,
+          "start_ms": 2453440,
+          "end_ms": 2458640,
+          "text": "um ascribed to"
+        },
+        {
+          "cue_id": 966,
+          "start_ms": 2456480,
+          "end_ms": 2459839,
+          "text": "in the past have been destroyed for him"
+        },
+        {
+          "cue_id": 997,
+          "start_ms": 2538319,
+          "end_ms": 2543119,
+          "text": "out"
+        },
+        {
+          "cue_id": 998,
+          "start_ms": 2538800,
+          "end_ms": 2544960,
+          "text": "and um it's a character that i've"
+        },
+        {
+          "cue_id": 1028,
+          "start_ms": 2623720,
+          "end_ms": 2628319,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 1029,
+          "start_ms": 2626240,
+          "end_ms": 2628319,
+          "text": "you"
+        }
+      ],
+      "text": "to be that\nis the question\nand each time it's been an\nextraordinarily different\nhe's a wonderful character to play he\ncan be\nhowever for me is when\nyou see the actor on the stage speaking\ncruelty negativeness you know\nand that is self-indulgence\nand i was immensely obsessed about the\nplay and the character\nof hamlet even she oh god a beast\nbut once discourse of reason would have\nfather's funeral\ni pray you do not mock me fellow student\nof the civil war there was towards the\nend of elizabeth's reign a real sense of\nspirit\niran\nshow people who are not talking so\ncharacters who have a subplot which\nand potentially ahead of his time who's\nwho sees humanity from an extraordinary\nthere had been uh previously a play of\nhamlet it was a very well-known story\nits simplest\nand great prose at its simplest it's not\nuh\nwhat a piece of work is a man how noble\nalready\n[Music]\nhis father's death\nthen he as it were says how sad he is\nas vicious and bloody as he\nas has to do is not easy\ntime\nof the reformation through the henrician\nremember me hamlet is in fact as it were\njohn nobody if you like he is the\npastoral care that he does\nthat by employing spies of course in\nthe rack and every all the apparatus to\nget what he wanted to maintain the tudor\ncompromise\nbetween the reformation\nthere because he can't\ntrust her he can't be sure that he can\nto sleep the chance to dream\noutrageous fortune\nor to take arms against a sea of\nmaturity of mind but\nnot an extraordinary maturity\nnow get you to my lady's chamber\ntell her let her paint an inch thick\num ascribed to\nin the past have been destroyed for him\nout\nand um it's a character that i've\n[Music]\nyou",
+      "text_tokens": 419,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "i7ivyMFsw-w",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/i7ivyMFsw-w.srt",
+          "status": "available",
+          "bytes": 105221,
+          "sha256": "63b9ed0f395b2363110cd037550666bce2a752bc4e2d645ccf6777b8b840f397",
+          "cues": 1029,
+          "nonempty_cues": 1029
+        },
+        "frame_indices": [
+          0,
+          2118,
+          4236,
+          6354,
+          8472,
+          10590,
+          12708,
+          14826,
+          16945,
+          19063,
+          21181,
+          23299,
+          25417,
+          27535,
+          29653,
+          31771,
+          33889,
+          36007,
+          38125,
+          40243,
+          42361,
+          44479,
+          46597,
+          48715,
+          50834,
+          52952,
+          55070,
+          57188,
+          59306,
+          61424,
+          63542,
+          65660
+        ],
+        "frame_seconds": [
+          0.0,
+          84.72,
+          169.44,
+          254.16,
+          338.88,
+          423.6,
+          508.32,
+          593.04,
+          677.8,
+          762.52,
+          847.24,
+          931.96,
+          1016.68,
+          1101.4,
+          1186.12,
+          1270.84,
+          1355.56,
+          1440.28,
+          1525.0,
+          1609.72,
+          1694.44,
+          1779.16,
+          1863.88,
+          1948.6,
+          2033.36,
+          2118.08,
+          2202.8,
+          2287.52,
+          2372.24,
+          2456.96,
+          2541.68,
+          2626.4
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            23,
+            24
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            111,
+            112
+          ],
+          [
+            151,
+            152
+          ],
+          [
+            179,
+            180
+          ],
+          [
+            216,
+            217
+          ],
+          [
+            252,
+            253
+          ],
+          [
+            288,
+            289
+          ],
+          [
+            323,
+            324
+          ],
+          [
+            364,
+            365
+          ],
+          [
+            394,
+            395
+          ],
+          [
+            431,
+            432
+          ],
+          [
+            472,
+            473
+          ],
+          [
+            509,
+            510
+          ],
+          [
+            539,
+            540
+          ],
+          [
+            566,
+            567
+          ],
+          [
+            598,
+            599
+          ],
+          [
+            635,
+            636
+          ],
+          [
+            665,
+            666
+          ],
+          [
+            703,
+            704
+          ],
+          [
+            739,
+            740
+          ],
+          [
+            775,
+            776
+          ],
+          [
+            800,
+            801
+          ],
+          [
+            831
+          ],
+          [
+            862,
+            863
+          ],
+          [
+            895,
+            896
+          ],
+          [
+            932,
+            933
+          ],
+          [
+            965,
+            966
+          ],
+          [
+            997,
+            998
+          ],
+          [
+            1028,
+            1029
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 23,
+            "start_ms": 76080,
+            "end_ms": 87840,
+            "text": "to be that"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 79200,
+            "end_ms": 87840,
+            "text": "is the question"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 167519,
+            "end_ms": 171040,
+            "text": "and each time it's been an"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 169360,
+            "end_ms": 174000,
+            "text": "extraordinarily different"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 250799,
+            "end_ms": 254400,
+            "text": "he's a wonderful character to play he"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 252959,
+            "end_ms": 256238,
+            "text": "can be"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 335360,
+            "end_ms": 339759,
+            "text": "however for me is when"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 337360,
+            "end_ms": 342159,
+            "text": "you see the actor on the stage speaking"
+          },
+          {
+            "cue_id": 151,
+            "start_ms": 419680,
+            "end_ms": 426880,
+            "text": "cruelty negativeness you know"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 423199,
+            "end_ms": 430720,
+            "text": "and that is self-indulgence"
+          },
+          {
+            "cue_id": 179,
+            "start_ms": 505280,
+            "end_ms": 508960,
+            "text": "and i was immensely obsessed about the"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 507759,
+            "end_ms": 511440,
+            "text": "play and the character"
+          },
+          {
+            "cue_id": 216,
+            "start_ms": 588959,
+            "end_ms": 594560,
+            "text": "of hamlet even she oh god a beast"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 592560,
+            "end_ms": 597360,
+            "text": "but once discourse of reason would have"
+          },
+          {
+            "cue_id": 252,
+            "start_ms": 674000,
+            "end_ms": 678959,
+            "text": "father's funeral"
+          },
+          {
+            "cue_id": 253,
+            "start_ms": 676079,
+            "end_ms": 680320,
+            "text": "i pray you do not mock me fellow student"
+          },
+          {
+            "cue_id": 288,
+            "start_ms": 758959,
+            "end_ms": 763839,
+            "text": "of the civil war there was towards the"
+          },
+          {
+            "cue_id": 289,
+            "start_ms": 761200,
+            "end_ms": 767040,
+            "text": "end of elizabeth's reign a real sense of"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 842959,
+            "end_ms": 848000,
+            "text": "spirit"
+          },
+          {
+            "cue_id": 324,
+            "start_ms": 845360,
+            "end_ms": 848000,
+            "text": "iran"
+          },
+          {
+            "cue_id": 364,
+            "start_ms": 927519,
+            "end_ms": 933120,
+            "text": "show people who are not talking so"
+          },
+          {
+            "cue_id": 365,
+            "start_ms": 930639,
+            "end_ms": 936320,
+            "text": "characters who have a subplot which"
+          },
+          {
+            "cue_id": 394,
+            "start_ms": 1011279,
+            "end_ms": 1018639,
+            "text": "and potentially ahead of his time who's"
+          },
+          {
+            "cue_id": 395,
+            "start_ms": 1014399,
+            "end_ms": 1021920,
+            "text": "who sees humanity from an extraordinary"
+          },
+          {
+            "cue_id": 431,
+            "start_ms": 1098320,
+            "end_ms": 1103679,
+            "text": "there had been uh previously a play of"
+          },
+          {
+            "cue_id": 432,
+            "start_ms": 1101280,
+            "end_ms": 1105039,
+            "text": "hamlet it was a very well-known story"
+          },
+          {
+            "cue_id": 472,
+            "start_ms": 1182240,
+            "end_ms": 1187120,
+            "text": "its simplest"
+          },
+          {
+            "cue_id": 473,
+            "start_ms": 1183840,
+            "end_ms": 1187840,
+            "text": "and great prose at its simplest it's not"
+          },
+          {
+            "cue_id": 509,
+            "start_ms": 1268240,
+            "end_ms": 1271679,
+            "text": "uh"
+          },
+          {
+            "cue_id": 510,
+            "start_ms": 1269200,
+            "end_ms": 1272720,
+            "text": "what a piece of work is a man how noble"
+          },
+          {
+            "cue_id": 539,
+            "start_ms": 1353039,
+            "end_ms": 1358840,
+            "text": "already"
+          },
+          {
+            "cue_id": 540,
+            "start_ms": 1354990,
+            "end_ms": 1361840,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 566,
+            "start_ms": 1438799,
+            "end_ms": 1443840,
+            "text": "his father's death"
+          },
+          {
+            "cue_id": 567,
+            "start_ms": 1440080,
+            "end_ms": 1445120,
+            "text": "then he as it were says how sad he is"
+          },
+          {
+            "cue_id": 598,
+            "start_ms": 1513600,
+            "end_ms": 1529840,
+            "text": "as vicious and bloody as he"
+          },
+          {
+            "cue_id": 599,
+            "start_ms": 1516799,
+            "end_ms": 1529840,
+            "text": "as has to do is not easy"
+          },
+          {
+            "cue_id": 635,
+            "start_ms": 1607840,
+            "end_ms": 1611520,
+            "text": "time"
+          },
+          {
+            "cue_id": 636,
+            "start_ms": 1608320,
+            "end_ms": 1613440,
+            "text": "of the reformation through the henrician"
+          },
+          {
+            "cue_id": 665,
+            "start_ms": 1689440,
+            "end_ms": 1695039,
+            "text": "remember me hamlet is in fact as it were"
+          },
+          {
+            "cue_id": 666,
+            "start_ms": 1693039,
+            "end_ms": 1696880,
+            "text": "john nobody if you like he is the"
+          },
+          {
+            "cue_id": 703,
+            "start_ms": 1776240,
+            "end_ms": 1780000,
+            "text": "pastoral care that he does"
+          },
+          {
+            "cue_id": 704,
+            "start_ms": 1777840,
+            "end_ms": 1782159,
+            "text": "that by employing spies of course in"
+          },
+          {
+            "cue_id": 739,
+            "start_ms": 1859200,
+            "end_ms": 1864080,
+            "text": "the rack and every all the apparatus to"
+          },
+          {
+            "cue_id": 740,
+            "start_ms": 1862159,
+            "end_ms": 1865120,
+            "text": "get what he wanted to maintain the tudor"
+          },
+          {
+            "cue_id": 775,
+            "start_ms": 1946399,
+            "end_ms": 1952080,
+            "text": "compromise"
+          },
+          {
+            "cue_id": 776,
+            "start_ms": 1947519,
+            "end_ms": 1955279,
+            "text": "between the reformation"
+          },
+          {
+            "cue_id": 800,
+            "start_ms": 2032000,
+            "end_ms": 2035440,
+            "text": "there because he can't"
+          },
+          {
+            "cue_id": 801,
+            "start_ms": 2033120,
+            "end_ms": 2036240,
+            "text": "trust her he can't be sure that he can"
+          },
+          {
+            "cue_id": 831,
+            "start_ms": 2115440,
+            "end_ms": 2124640,
+            "text": "to sleep the chance to dream"
+          },
+          {
+            "cue_id": 862,
+            "start_ms": 2199280,
+            "end_ms": 2206240,
+            "text": "outrageous fortune"
+          },
+          {
+            "cue_id": 863,
+            "start_ms": 2202160,
+            "end_ms": 2208160,
+            "text": "or to take arms against a sea of"
+          },
+          {
+            "cue_id": 895,
+            "start_ms": 2282240,
+            "end_ms": 2287599,
+            "text": "maturity of mind but"
+          },
+          {
+            "cue_id": 896,
+            "start_ms": 2284320,
+            "end_ms": 2291200,
+            "text": "not an extraordinary maturity"
+          },
+          {
+            "cue_id": 932,
+            "start_ms": 2368720,
+            "end_ms": 2376160,
+            "text": "now get you to my lady's chamber"
+          },
+          {
+            "cue_id": 933,
+            "start_ms": 2371760,
+            "end_ms": 2379920,
+            "text": "tell her let her paint an inch thick"
+          },
+          {
+            "cue_id": 965,
+            "start_ms": 2453440,
+            "end_ms": 2458640,
+            "text": "um ascribed to"
+          },
+          {
+            "cue_id": 966,
+            "start_ms": 2456480,
+            "end_ms": 2459839,
+            "text": "in the past have been destroyed for him"
+          },
+          {
+            "cue_id": 997,
+            "start_ms": 2538319,
+            "end_ms": 2543119,
+            "text": "out"
+          },
+          {
+            "cue_id": 998,
+            "start_ms": 2538800,
+            "end_ms": 2544960,
+            "text": "and um it's a character that i've"
+          },
+          {
+            "cue_id": 1028,
+            "start_ms": 2623720,
+            "end_ms": 2628319,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 1029,
+            "start_ms": 2626240,
+            "end_ms": 2628319,
+            "text": "you"
+          }
+        ],
+        "text": "to be that\nis the question\nand each time it's been an\nextraordinarily different\nhe's a wonderful character to play he\ncan be\nhowever for me is when\nyou see the actor on the stage speaking\ncruelty negativeness you know\nand that is self-indulgence\nand i was immensely obsessed about the\nplay and the character\nof hamlet even she oh god a beast\nbut once discourse of reason would have\nfather's funeral\ni pray you do not mock me fellow student\nof the civil war there was towards the\nend of elizabeth's reign a real sense of\nspirit\niran\nshow people who are not talking so\ncharacters who have a subplot which\nand potentially ahead of his time who's\nwho sees humanity from an extraordinary\nthere had been uh previously a play of\nhamlet it was a very well-known story\nits simplest\nand great prose at its simplest it's not\nuh\nwhat a piece of work is a man how noble\nalready\n[Music]\nhis father's death\nthen he as it were says how sad he is\nas vicious and bloody as he\nas has to do is not easy\ntime\nof the reformation through the henrician\nremember me hamlet is in fact as it were\njohn nobody if you like he is the\npastoral care that he does\nthat by employing spies of course in\nthe rack and every all the apparatus to\nget what he wanted to maintain the tudor\ncompromise\nbetween the reformation\nthere because he can't\ntrust her he can't be sure that he can\nto sleep the chance to dream\noutrageous fortune\nor to take arms against a sea of\nmaturity of mind but\nnot an extraordinary maturity\nnow get you to my lady's chamber\ntell her let her paint an inch thick\num ascribed to\nin the past have been destroyed for him\nout\nand um it's a character that i've\n[Music]\nyou",
+        "text_tokens": 419,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S22",
+          "cue_ids": [
+            22,
+            23,
+            24
+          ],
+          "start_ms": 72720,
+          "end_ms": 87840,
+          "text": "to be or not to be that is the question"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "start_ms": 166480,
+          "end_ms": 174800,
+          "text": "i think and each time it's been an extraordinarily different experience in the sense the play is"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "start_ms": 247519,
+          "end_ms": 257918,
+          "text": "uh remorseful uh he's he's a wonderful character to play he can be furious and aggressive he can be"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "start_ms": 333440,
+          "end_ms": 343919,
+          "text": "olivier versions but the best shakes however for me is when you see the actor on the stage speaking the lines with perfect clarity"
+        },
+        {
+          "id": "S150",
+          "cue_ids": [
+            150,
+            151,
+            152,
+            153
+          ],
+          "start_ms": 417840,
+          "end_ms": 434840,
+          "text": "they have a hint of cruelty negativeness you know and that is self-indulgence hamlet is a terrible vanity fair"
+        },
+        {
+          "id": "S178",
+          "cue_ids": [
+            178,
+            179,
+            180,
+            181
+          ],
+          "start_ms": 504160,
+          "end_ms": 512640,
+          "text": "enormous stir and i was immensely obsessed about the play and the character um it was one of the first uh plays that"
+        },
+        {
+          "id": "S215",
+          "cue_ids": [
+            215,
+            216,
+            217,
+            218
+          ],
+          "start_ms": 587519,
+          "end_ms": 604079,
+          "text": "definitive text of hamlet even she oh god a beast but once discourse of reason would have more and longer"
+        },
+        {
+          "id": "S251",
+          "cue_ids": [
+            251,
+            252,
+            253,
+            254
+          ],
+          "start_ms": 672560,
+          "end_ms": 681839,
+          "text": "depart my lord i came to see your father's funeral i pray you do not mock me fellow student i think it was to see my mother's"
+        },
+        {
+          "id": "S287",
+          "cue_ids": [
+            287,
+            288,
+            289,
+            290
+          ],
+          "start_ms": 758079,
+          "end_ms": 769839,
+          "text": "the of the civil war there was towards the end of elizabeth's reign a real sense of nervousness um as to what was going to"
+        },
+        {
+          "id": "S322",
+          "cue_ids": [
+            322,
+            323,
+            324,
+            325
+          ],
+          "start_ms": 839600,
+          "end_ms": 855360,
+          "text": "we need to do is to whisper my father's spirit iran all is not well i"
+        },
+        {
+          "id": "S363",
+          "cue_ids": [
+            363,
+            364,
+            365,
+            366
+          ],
+          "start_ms": 924240,
+          "end_ms": 939759,
+          "text": "you can it seems banana to say it show people who are not talking so characters who have a subplot which which are hard to if you like"
+        },
+        {
+          "id": "S393",
+          "cue_ids": [
+            393,
+            394,
+            395,
+            396
+          ],
+          "start_ms": 1007680,
+          "end_ms": 1022800,
+          "text": "it's about someone who is strangely and potentially ahead of his time who's who sees humanity from an extraordinary viewpoint particularly at at his tender"
+        },
+        {
+          "id": "S430",
+          "cue_ids": [
+            430,
+            431,
+            432,
+            433
+          ],
+          "start_ms": 1094960,
+          "end_ms": 1106799,
+          "text": "he's his own self there had been uh previously a play of hamlet it was a very well-known story uh which is often the case with"
+        },
+        {
+          "id": "S471",
+          "cue_ids": [
+            471,
+            472,
+            473,
+            474
+          ],
+          "start_ms": 1179280,
+          "end_ms": 1189600,
+          "text": "hamlet has both he has great poetry at its simplest and great prose at its simplest it's not only"
+        },
+        {
+          "id": "S508",
+          "cue_ids": [
+            508,
+            509,
+            510,
+            511
+          ],
+          "start_ms": 1265440,
+          "end_ms": 1277600,
+          "text": "soliloquies to the to the speech about uh what a piece of work is a man how noble and reason how"
+        },
+        {
+          "id": "S538",
+          "cue_ids": [
+            538,
+            539,
+            540,
+            541
+          ],
+          "start_ms": 1350320,
+          "end_ms": 1361840,
+          "text": "who tells him what he probably has already [Music] suspected"
+        },
+        {
+          "id": "S565",
+          "cue_ids": [
+            565,
+            566,
+            567,
+            568
+          ],
+          "start_ms": 1436400,
+          "end_ms": 1446960,
+          "text": "no sooner is he given the job of revenge his father's death then he as it were says how sad he is that he has to do it"
+        },
+        {
+          "id": "S597",
+          "cue_ids": [
+            597,
+            598,
+            599,
+            600
+          ],
+          "start_ms": 1511360,
+          "end_ms": 1535440,
+          "text": "capacity to do something as vicious and bloody as he as has to do is not easy he's trying to live out his fantasies"
+        },
+        {
+          "id": "S634",
+          "cue_ids": [
+            634,
+            635,
+            636,
+            637
+          ],
+          "start_ms": 1604799,
+          "end_ms": 1615520,
+          "text": "of the catholic community during the time of the reformation through the henrician period to edward vi"
+        },
+        {
+          "id": "S664",
+          "cue_ids": [
+            664,
+            665,
+            666,
+            667
+          ],
+          "start_ms": 1684240,
+          "end_ms": 1698159,
+          "text": "it is adieu had you remember me hamlet is in fact as it were john nobody if you like he is the catholic community writ large a crypto"
+        },
+        {
+          "id": "S702",
+          "cue_ids": [
+            702,
+            703,
+            704,
+            705
+          ],
+          "start_ms": 1773360,
+          "end_ms": 1784080,
+          "text": "his his son and willing to extend the pastoral care that he does that by employing spies of course in paris is another point entirely"
+        },
+        {
+          "id": "S738",
+          "cue_ids": [
+            738,
+            739,
+            740,
+            741
+          ],
+          "start_ms": 1857200,
+          "end_ms": 1868080,
+          "text": "who employed spies and torture the rack and every all the apparatus to get what he wanted to maintain the tudor dynasty"
+        },
+        {
+          "id": "S774",
+          "cue_ids": [
+            774,
+            775,
+            776,
+            777
+          ],
+          "start_ms": 1943039,
+          "end_ms": 1962159,
+          "text": "to hamlet and for hamlet a possible compromise between the reformation the reformed english church if you like"
+        },
+        {
+          "id": "S799",
+          "cue_ids": [
+            799,
+            800,
+            801,
+            802
+          ],
+          "start_ms": 2029600,
+          "end_ms": 2037679,
+          "text": "certainly for comfort but he can't go there because he can't trust her he can't be sure that he can trust her"
+        },
+        {
+          "id": "S830",
+          "cue_ids": [
+            830,
+            831,
+            832
+          ],
+          "start_ms": 2112320,
+          "end_ms": 2127280,
+          "text": "to sleep to sleep the chance to dream hi there's the rub"
+        },
+        {
+          "id": "S861",
+          "cue_ids": [
+            861,
+            862,
+            863,
+            864
+          ],
+          "start_ms": 2196960,
+          "end_ms": 2211599,
+          "text": "to suffer the slings and arrows of outrageous fortune or to take arms against a sea of troubles"
+        },
+        {
+          "id": "S894",
+          "cue_ids": [
+            894,
+            895,
+            896,
+            897
+          ],
+          "start_ms": 2279359,
+          "end_ms": 2294800,
+          "text": "in this world that is an extraordinary maturity of mind but not an extraordinary maturity if we imagine that"
+        },
+        {
+          "id": "S931",
+          "cue_ids": [
+            931,
+            932,
+            933,
+            934
+          ],
+          "start_ms": 2365200,
+          "end_ms": 2379920,
+          "text": "quite chop-fallen now get you to my lady's chamber tell her let her paint an inch thick to this favor she must come"
+        },
+        {
+          "id": "S964",
+          "cue_ids": [
+            964,
+            965,
+            966,
+            967
+          ],
+          "start_ms": 2452880,
+          "end_ms": 2461680,
+          "text": "that he um ascribed to in the past have been destroyed for him his mother"
+        },
+        {
+          "id": "S996",
+          "cue_ids": [
+            996,
+            997,
+            998,
+            999
+          ],
+          "start_ms": 2535599,
+          "end_ms": 2546240,
+          "text": "it's a play that i think i know inside out and um it's a character that i've thought about many times and from many"
+        },
+        {
+          "id": "S1027",
+          "cue_ids": [
+            1027,
+            1028,
+            1029
+          ],
+          "start_ms": 2618839,
+          "end_ms": 2628319,
+          "text": "silent [Music] you"
+        }
+      ],
+      "text": "S22 [00:01:12.720 --> 00:01:27.840] to be or not to be that is the question\nS49 [00:02:46.480 --> 00:02:54.800] i think and each time it's been an extraordinarily different experience in the sense the play is\nS83 [00:04:07.519 --> 00:04:17.918] uh remorseful uh he's he's a wonderful character to play he can be furious and aggressive he can be\nS110 [00:05:33.440 --> 00:05:43.919] olivier versions but the best shakes however for me is when you see the actor on the stage speaking the lines with perfect clarity\nS150 [00:06:57.840 --> 00:07:14.840] they have a hint of cruelty negativeness you know and that is self-indulgence hamlet is a terrible vanity fair\nS178 [00:08:24.160 --> 00:08:32.640] enormous stir and i was immensely obsessed about the play and the character um it was one of the first uh plays that\nS215 [00:09:47.519 --> 00:10:04.079] definitive text of hamlet even she oh god a beast but once discourse of reason would have more and longer\nS251 [00:11:12.560 --> 00:11:21.839] depart my lord i came to see your father's funeral i pray you do not mock me fellow student i think it was to see my mother's\nS287 [00:12:38.079 --> 00:12:49.839] the of the civil war there was towards the end of elizabeth's reign a real sense of nervousness um as to what was going to\nS322 [00:13:59.600 --> 00:14:15.360] we need to do is to whisper my father's spirit iran all is not well i\nS363 [00:15:24.240 --> 00:15:39.759] you can it seems banana to say it show people who are not talking so characters who have a subplot which which are hard to if you like\nS393 [00:16:47.680 --> 00:17:02.800] it's about someone who is strangely and potentially ahead of his time who's who sees humanity from an extraordinary viewpoint particularly at at his tender\nS430 [00:18:14.960 --> 00:18:26.799] he's his own self there had been uh previously a play of hamlet it was a very well-known story uh which is often the case with\nS471 [00:19:39.280 --> 00:19:49.600] hamlet has both he has great poetry at its simplest and great prose at its simplest it's not only\nS508 [00:21:05.440 --> 00:21:17.600] soliloquies to the to the speech about uh what a piece of work is a man how noble and reason how\nS538 [00:22:30.320 --> 00:22:41.840] who tells him what he probably has already [Music] suspected\nS565 [00:23:56.400 --> 00:24:06.960] no sooner is he given the job of revenge his father's death then he as it were says how sad he is that he has to do it\nS597 [00:25:11.360 --> 00:25:35.440] capacity to do something as vicious and bloody as he as has to do is not easy he's trying to live out his fantasies\nS634 [00:26:44.799 --> 00:26:55.520] of the catholic community during the time of the reformation through the henrician period to edward vi\nS664 [00:28:04.240 --> 00:28:18.159] it is adieu had you remember me hamlet is in fact as it were john nobody if you like he is the catholic community writ large a crypto\nS702 [00:29:33.360 --> 00:29:44.080] his his son and willing to extend the pastoral care that he does that by employing spies of course in paris is another point entirely\nS738 [00:30:57.200 --> 00:31:08.080] who employed spies and torture the rack and every all the apparatus to get what he wanted to maintain the tudor dynasty\nS774 [00:32:23.039 --> 00:32:42.159] to hamlet and for hamlet a possible compromise between the reformation the reformed english church if you like\nS799 [00:33:49.600 --> 00:33:57.679] certainly for comfort but he can't go there because he can't trust her he can't be sure that he can trust her\nS830 [00:35:12.320 --> 00:35:27.280] to sleep to sleep the chance to dream hi there's the rub\nS861 [00:36:36.960 --> 00:36:51.599] to suffer the slings and arrows of outrageous fortune or to take arms against a sea of troubles\nS894 [00:37:59.359 --> 00:38:14.800] in this world that is an extraordinary maturity of mind but not an extraordinary maturity if we imagine that\nS931 [00:39:25.200 --> 00:39:39.920] quite chop-fallen now get you to my lady's chamber tell her let her paint an inch thick to this favor she must come\nS964 [00:40:52.880 --> 00:41:01.680] that he um ascribed to in the past have been destroyed for him his mother\nS996 [00:42:15.599 --> 00:42:26.240] it's a play that i think i know inside out and um it's a character that i've thought about many times and from many\nS1027 [00:43:38.839 --> 00:43:48.319] silent [Music] you",
+      "text_tokens": 1706,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        22,
+        49,
+        52,
+        83,
+        86,
+        110,
+        113,
+        150,
+        153,
+        178,
+        181,
+        215,
+        218,
+        251,
+        254,
+        287,
+        290,
+        322,
+        325,
+        363,
+        366,
+        393,
+        396,
+        430,
+        433,
+        471,
+        474,
+        508,
+        511,
+        538,
+        541,
+        565,
+        568,
+        597,
+        600,
+        634,
+        637,
+        664,
+        667,
+        702,
+        705,
+        738,
+        741,
+        774,
+        777,
+        799,
+        802,
+        830,
+        832,
+        861,
+        864,
+        894,
+        897,
+        931,
+        934,
+        964,
+        967,
+        996,
+        999,
+        1027
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "0267e95676c0b88f03c73dd614f3e4edef03019d3b26e41fe31617d1a5c1cb9f"
+}

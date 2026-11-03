@@ -1,0 +1,972 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "3m29MQ-qPfg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3m29MQ-qPfg.srt",
+        "status": "available",
+        "bytes": 7219,
+        "sha256": "ae5e44517e8b552805d866928a9a6918fe1f4e8c39f831ba16762509b3169e30",
+        "cues": 73,
+        "nonempty_cues": 73
+      },
+      "frame_indices": [
+        0,
+        594,
+        1188,
+        1783,
+        2377,
+        2971,
+        3565,
+        4159,
+        4754,
+        5348,
+        5942,
+        6536,
+        7130,
+        7725,
+        8319,
+        8913,
+        9507,
+        10101,
+        10695,
+        11290,
+        11884,
+        12478,
+        13072,
+        13666,
+        14261,
+        14855,
+        15449,
+        16043,
+        16637,
+        17232,
+        17826,
+        18420
+      ],
+      "frame_seconds": [
+        0.0,
+        19.81982,
+        39.63964,
+        59.492826,
+        79.312646,
+        99.132466,
+        118.952286,
+        138.772105,
+        158.625292,
+        178.445112,
+        198.264932,
+        218.08475099999998,
+        237.904571,
+        257.757758,
+        277.577578,
+        297.397397,
+        317.217217,
+        337.037037,
+        356.856857,
+        376.710043,
+        396.529863,
+        416.349683,
+        436.169503,
+        455.989323,
+        475.842509,
+        495.662329,
+        515.482149,
+        535.301969,
+        555.121788,
+        574.974975,
+        594.794795,
+        614.614615
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13
+        ],
+        [
+          13
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          28
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          42,
+          43
+        ],
+        [],
+        [
+          45
+        ],
+        [],
+        [
+          48,
+          49
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          58
+        ],
+        [],
+        [
+          61,
+          62
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          67,
+          68
+        ],
+        [],
+        [
+          71
+        ],
+        [],
+        [
+          73
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 6320,
+          "end_ms": 73599,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 76320,
+          "end_ms": 88620,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 95840,
+          "end_ms": 101399,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 97320,
+          "end_ms": 107020,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 113330,
+          "end_ms": 130990,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 133319,
+          "end_ms": 150090,
+          "text": "the ALS building it where's your class"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 137739,
+          "end_ms": 150090,
+          "text": "after but I wish I had what I needed"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 150900,
+          "end_ms": 182920,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 194380,
+          "end_ms": 199120,
+          "text": "facility supposed to get some extra"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 196090,
+          "end_ms": 200620,
+          "text": "working stay tuned you're not working"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 214680,
+          "end_ms": 222030,
+          "text": "baby scared of a man try be here again"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 235650,
+          "end_ms": 240950,
+          "text": "favorite thing to do when I'm stressed"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 237299,
+          "end_ms": 240950,
+          "text": "out so"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 246849,
+          "end_ms": 260870,
+          "text": "okay I got um frightening and skin"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 251420,
+          "end_ms": 261820,
+          "text": "smoothing because dude you like that"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 272759,
+          "end_ms": 296829,
+          "text": "work done deal done deal"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 275450,
+          "end_ms": 296829,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 305680,
+          "end_ms": 329999,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 350750,
+          "end_ms": 358550,
+          "text": "roommates here he's trying to get some"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 352280,
+          "end_ms": 361990,
+          "text": "food hey it was good though so you"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 372400,
+          "end_ms": 377150,
+          "text": "shout on my voice ha go this smart"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 374690,
+          "end_ms": 378950,
+          "text": "roommate who busted go to this place"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 394400,
+          "end_ms": 411800,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 431020,
+          "end_ms": 449400,
+          "text": "forget to put the sauce"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 433180,
+          "end_ms": 452480,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 449400,
+          "end_ms": 457770,
+          "text": "you know how to get one rice one mac"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 452480,
+          "end_ms": 460220,
+          "text": "honey eat kind of healthy okay too much"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 457770,
+          "end_ms": 495930,
+          "text": "carbs at night"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 460220,
+          "end_ms": 498420,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 495930,
+          "end_ms": 517650,
+          "text": "[ __ ] these jeans are so big for me you"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 498420,
+          "end_ms": 524090,
+          "text": "just wear them anyways yeah fit check"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 539870,
+          "end_ms": 573809,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 594530,
+          "end_ms": 614200,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Applause]\n[Music]\n[Music]\nthe ALS building it where's your class\nafter but I wish I had what I needed\n[Music]\nfacility supposed to get some extra\nworking stay tuned you're not working\nbaby scared of a man try be here again\nfavorite thing to do when I'm stressed\nout so\nokay I got um frightening and skin\nsmoothing because dude you like that\nwork done deal done deal\n[Music]\n[Music]\nroommates here he's trying to get some\nfood hey it was good though so you\nshout on my voice ha go this smart\nroommate who busted go to this place\n[Music]\nforget to put the sauce\n[Music]\nyou know how to get one rice one mac\nhoney eat kind of healthy okay too much\ncarbs at night\n[Music]\n[ __ ] these jeans are so big for me you\njust wear them anyways yeah fit check\n[Music]\n[Music]",
+      "text_tokens": 208,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "3m29MQ-qPfg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3m29MQ-qPfg.srt",
+          "status": "available",
+          "bytes": 7219,
+          "sha256": "ae5e44517e8b552805d866928a9a6918fe1f4e8c39f831ba16762509b3169e30",
+          "cues": 73,
+          "nonempty_cues": 73
+        },
+        "frame_indices": [
+          0,
+          594,
+          1188,
+          1783,
+          2377,
+          2971,
+          3565,
+          4159,
+          4754,
+          5348,
+          5942,
+          6536,
+          7130,
+          7725,
+          8319,
+          8913,
+          9507,
+          10101,
+          10695,
+          11290,
+          11884,
+          12478,
+          13072,
+          13666,
+          14261,
+          14855,
+          15449,
+          16043,
+          16637,
+          17232,
+          17826,
+          18420
+        ],
+        "frame_seconds": [
+          0.0,
+          19.81982,
+          39.63964,
+          59.492826,
+          79.312646,
+          99.132466,
+          118.952286,
+          138.772105,
+          158.625292,
+          178.445112,
+          198.264932,
+          218.08475099999998,
+          237.904571,
+          257.757758,
+          277.577578,
+          297.397397,
+          317.217217,
+          337.037037,
+          356.856857,
+          376.710043,
+          396.529863,
+          416.349683,
+          436.169503,
+          455.989323,
+          475.842509,
+          495.662329,
+          515.482149,
+          535.301969,
+          555.121788,
+          574.974975,
+          594.794795,
+          614.614615
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13
+          ],
+          [
+            13
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            28
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            42,
+            43
+          ],
+          [],
+          [
+            45
+          ],
+          [],
+          [
+            48,
+            49
+          ],
+          [
+            53,
+            54
+          ],
+          [
+            58
+          ],
+          [],
+          [
+            61,
+            62
+          ],
+          [
+            63,
+            64
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            67,
+            68
+          ],
+          [],
+          [
+            71
+          ],
+          [],
+          [
+            73
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 6320,
+            "end_ms": 73599,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 76320,
+            "end_ms": 88620,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 95840,
+            "end_ms": 101399,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 97320,
+            "end_ms": 107020,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 113330,
+            "end_ms": 130990,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 133319,
+            "end_ms": 150090,
+            "text": "the ALS building it where's your class"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 137739,
+            "end_ms": 150090,
+            "text": "after but I wish I had what I needed"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 150900,
+            "end_ms": 182920,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 194380,
+            "end_ms": 199120,
+            "text": "facility supposed to get some extra"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 196090,
+            "end_ms": 200620,
+            "text": "working stay tuned you're not working"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 214680,
+            "end_ms": 222030,
+            "text": "baby scared of a man try be here again"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 235650,
+            "end_ms": 240950,
+            "text": "favorite thing to do when I'm stressed"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 237299,
+            "end_ms": 240950,
+            "text": "out so"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 246849,
+            "end_ms": 260870,
+            "text": "okay I got um frightening and skin"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 251420,
+            "end_ms": 261820,
+            "text": "smoothing because dude you like that"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 272759,
+            "end_ms": 296829,
+            "text": "work done deal done deal"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 275450,
+            "end_ms": 296829,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 305680,
+            "end_ms": 329999,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 350750,
+            "end_ms": 358550,
+            "text": "roommates here he's trying to get some"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 352280,
+            "end_ms": 361990,
+            "text": "food hey it was good though so you"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 372400,
+            "end_ms": 377150,
+            "text": "shout on my voice ha go this smart"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 374690,
+            "end_ms": 378950,
+            "text": "roommate who busted go to this place"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 394400,
+            "end_ms": 411800,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 431020,
+            "end_ms": 449400,
+            "text": "forget to put the sauce"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 433180,
+            "end_ms": 452480,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 449400,
+            "end_ms": 457770,
+            "text": "you know how to get one rice one mac"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 452480,
+            "end_ms": 460220,
+            "text": "honey eat kind of healthy okay too much"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 457770,
+            "end_ms": 495930,
+            "text": "carbs at night"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 460220,
+            "end_ms": 498420,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 495930,
+            "end_ms": 517650,
+            "text": "[ __ ] these jeans are so big for me you"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 498420,
+            "end_ms": 524090,
+            "text": "just wear them anyways yeah fit check"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 539870,
+            "end_ms": 573809,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 594530,
+            "end_ms": 614200,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Applause]\n[Music]\n[Music]\nthe ALS building it where's your class\nafter but I wish I had what I needed\n[Music]\nfacility supposed to get some extra\nworking stay tuned you're not working\nbaby scared of a man try be here again\nfavorite thing to do when I'm stressed\nout so\nokay I got um frightening and skin\nsmoothing because dude you like that\nwork done deal done deal\n[Music]\n[Music]\nroommates here he's trying to get some\nfood hey it was good though so you\nshout on my voice ha go this smart\nroommate who busted go to this place\n[Music]\nforget to put the sauce\n[Music]\nyou know how to get one rice one mac\nhoney eat kind of healthy okay too much\ncarbs at night\n[Music]\n[ __ ] these jeans are so big for me you\njust wear them anyways yeah fit check\n[Music]\n[Music]",
+        "text_tokens": 208,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 6320,
+          "end_ms": 73599,
+          "text": "[Music]"
+        },
+        {
+          "id": "S2",
+          "cue_ids": [
+            2
+          ],
+          "start_ms": 76320,
+          "end_ms": 88620,
+          "text": "[Music]"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_ms": 92270,
+          "end_ms": 109149,
+          "text": "[Music] [Applause] [Music] hello I'm good how are you can I get a"
+        },
+        {
+          "id": "S9",
+          "cue_ids": [
+            9,
+            10
+          ],
+          "start_ms": 109149,
+          "end_ms": 130990,
+          "text": "rebel yeah [Music]"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "start_ms": 133319,
+          "end_ms": 185349,
+          "text": "the ALS building it where's your class after but I wish I had what I needed [Music] hey guys just got out of class pretty"
+        },
+        {
+          "id": "S19",
+          "cue_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 192790,
+          "end_ms": 202000,
+          "text": "now I'm walking over to the indoor facility supposed to get some extra working stay tuned you're not working baby the third and that work getting"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29
+          ],
+          "start_ms": 214680,
+          "end_ms": 223709,
+          "text": "baby scared of a man try be here again come achieve la true at dude call for"
+        },
+        {
+          "id": "S33",
+          "cue_ids": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "start_ms": 232829,
+          "end_ms": 266590,
+          "text": "face masks i thing that's like my favorite thing to do when I'm stressed out so [Music] okay I got um frightening and skin smoothing because dude you like that right there"
+        },
+        {
+          "id": "S41",
+          "cue_ids": [
+            41,
+            42,
+            43
+          ],
+          "start_ms": 269890,
+          "end_ms": 296829,
+          "text": "[Music] work done deal done deal [Music]"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45
+          ],
+          "start_ms": 305680,
+          "end_ms": 329999,
+          "text": "[Music]"
+        },
+        {
+          "id": "S47",
+          "cue_ids": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "start_ms": 348590,
+          "end_ms": 367510,
+          "text": "brother didn't eat nothing see if my roommates here he's trying to get some food hey it was good though so you trying to go get some food local boys"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "start_ms": 369360,
+          "end_ms": 381460,
+          "text": "[Laughter] shout on my voice ha go this smart roommate who busted go to this place called local boys and get some food"
+        },
+        {
+          "id": "S58",
+          "cue_ids": [
+            58
+          ],
+          "start_ms": 394400,
+          "end_ms": 411800,
+          "text": "[Music]"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "start_ms": 427090,
+          "end_ms": 524090,
+          "text": "sir you got put the sauce on it can't forget to put the sauce [Music] you know how to get one rice one mac honey eat kind of healthy okay too much carbs at night [Music] [ __ ] these jeans are so big for me you just wear them anyways yeah fit check the yes Queen yes a little"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71
+          ],
+          "start_ms": 539870,
+          "end_ms": 573809,
+          "text": "[Music]"
+        },
+        {
+          "id": "S73",
+          "cue_ids": [
+            73
+          ],
+          "start_ms": 594530,
+          "end_ms": 614200,
+          "text": "[Music]"
+        }
+      ],
+      "text": "S1 [00:00:06.320 --> 00:01:13.599] [Music]\nS2 [00:01:16.320 --> 00:01:28.620] [Music]\nS4 [00:01:32.270 --> 00:01:49.149] [Music] [Applause] [Music] hello I'm good how are you can I get a\nS9 [00:01:49.149 --> 00:02:10.990] rebel yeah [Music]\nS11 [00:02:13.319 --> 00:03:05.349] the ALS building it where's your class after but I wish I had what I needed [Music] hey guys just got out of class pretty\nS19 [00:03:12.790 --> 00:03:22.000] now I'm walking over to the indoor facility supposed to get some extra working stay tuned you're not working baby the third and that work getting\nS28 [00:03:34.680 --> 00:03:43.709] baby scared of a man try be here again come achieve la true at dude call for\nS33 [00:03:52.829 --> 00:04:26.590] face masks i thing that's like my favorite thing to do when I'm stressed out so [Music] okay I got um frightening and skin smoothing because dude you like that right there\nS41 [00:04:29.890 --> 00:04:56.829] [Music] work done deal done deal [Music]\nS45 [00:05:05.680 --> 00:05:29.999] [Music]\nS47 [00:05:48.590 --> 00:06:07.510] brother didn't eat nothing see if my roommates here he's trying to get some food hey it was good though so you trying to go get some food local boys\nS52 [00:06:09.360 --> 00:06:21.460] [Laughter] shout on my voice ha go this smart roommate who busted go to this place called local boys and get some food\nS58 [00:06:34.400 --> 00:06:51.800] [Music]\nS60 [00:07:07.090 --> 00:08:44.090] sir you got put the sauce on it can't forget to put the sauce [Music] you know how to get one rice one mac honey eat kind of healthy okay too much carbs at night [Music] [ __ ] these jeans are so big for me you just wear them anyways yeah fit check the yes Queen yes a little\nS71 [00:08:59.870 --> 00:09:33.809] [Music]\nS73 [00:09:54.530 --> 00:10:14.200] [Music]",
+      "text_tokens": 789,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        4,
+        7,
+        9,
+        14,
+        19,
+        22,
+        29,
+        33,
+        36,
+        39,
+        41,
+        47,
+        50,
+        52,
+        55,
+        60,
+        69
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "2d0efd145ce52b804e7b4216c2f7953ad1ec6b3741693390fcf0075b3ff5a640"
+}

@@ -1,0 +1,574 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "hIJtZN8w03A",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hIJtZN8w03A.srt",
+      "status": "available",
+      "bytes": 123684,
+      "sha256": "d1a928f37cb94267d2336676cad24a9860a66d85d7048976826e3b14519c43ec",
+      "cues": 1108,
+      "nonempty_cues": 1108
+    },
+    "frame_indices": [
+      0,
+      2244,
+      4489,
+      6733,
+      8978,
+      11222,
+      13467,
+      15711,
+      17956,
+      20200,
+      22445,
+      24689,
+      26934,
+      29178,
+      31423,
+      33667,
+      35912,
+      38156,
+      40401,
+      42645,
+      44890,
+      47134,
+      49379,
+      51623,
+      53868,
+      56112,
+      58357,
+      60601,
+      62846,
+      65090,
+      67335,
+      69579
+    ],
+    "frame_seconds": [
+      0.0,
+      74.8,
+      149.633333,
+      224.433333,
+      299.266667,
+      374.066667,
+      448.9,
+      523.7,
+      598.533333,
+      673.333333,
+      748.166667,
+      822.966667,
+      897.8,
+      972.6,
+      1047.433333,
+      1122.233333,
+      1197.066667,
+      1271.866667,
+      1346.7,
+      1421.5,
+      1496.333333,
+      1571.133333,
+      1645.966667,
+      1720.766667,
+      1795.6,
+      1870.4,
+      1945.233333,
+      2020.033333,
+      2094.866667,
+      2169.666667,
+      2244.5,
+      2319.3
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        34,
+        35
+      ],
+      [
+        69,
+        70
+      ],
+      [
+        105
+      ],
+      [
+        138,
+        139
+      ],
+      [
+        175,
+        176
+      ],
+      [
+        207,
+        208
+      ],
+      [
+        241,
+        242
+      ],
+      [
+        277,
+        278
+      ],
+      [
+        314,
+        315
+      ],
+      [
+        352,
+        353
+      ],
+      [
+        387,
+        388
+      ],
+      [
+        422,
+        423
+      ],
+      [
+        459,
+        460
+      ],
+      [
+        493,
+        494
+      ],
+      [
+        530,
+        531
+      ],
+      [
+        567,
+        568
+      ],
+      [
+        602,
+        603
+      ],
+      [
+        639,
+        640
+      ],
+      [
+        675,
+        676
+      ],
+      [
+        709,
+        710
+      ],
+      [
+        744,
+        745
+      ],
+      [
+        780,
+        781
+      ],
+      [
+        817,
+        818
+      ],
+      [
+        855
+      ],
+      [
+        889,
+        890
+      ],
+      [
+        926,
+        927
+      ],
+      [
+        962,
+        963
+      ],
+      [
+        999,
+        1000
+      ],
+      [
+        1035,
+        1036
+      ],
+      [
+        1071,
+        1072
+      ],
+      [
+        1107,
+        1108
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 34,
+        "start_ms": 70759,
+        "end_ms": 75039,
+        "text": "moves forward and then returns this"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 73119,
+        "end_ms": 77240,
+        "text": "makes it easier to see the wire they use"
+      },
+      {
+        "cue_id": 69,
+        "start_ms": 146200,
+        "end_ms": 150560,
+        "text": "is gripping both the wire and the Rope"
+      },
+      {
+        "cue_id": 70,
+        "start_ms": 148239,
+        "end_ms": 152640,
+        "text": "simultaneously a more detailed View From"
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 222599,
+        "end_ms": 227480,
+        "text": "seamlessly Shin Lim fools pen and Teller"
+      },
+      {
+        "cue_id": 138,
+        "start_ms": 295400,
+        "end_ms": 299600,
+        "text": "the predictions were not printed on the"
+      },
+      {
+        "cue_id": 139,
+        "start_ms": 297000,
+        "end_ms": 301000,
+        "text": "card but were written by hand if the"
+      },
+      {
+        "cue_id": 175,
+        "start_ms": 371479,
+        "end_ms": 375599,
+        "text": "member only access is uploaded and"
+      },
+      {
+        "cue_id": 176,
+        "start_ms": 373440,
+        "end_ms": 377319,
+        "text": "waiting to be discovered by you join"
+      },
+      {
+        "cue_id": 207,
+        "start_ms": 444039,
+        "end_ms": 449440,
+        "text": "another card in this case a card was"
+      },
+      {
+        "cue_id": 208,
+        "start_ms": 446800,
+        "end_ms": 451639,
+        "text": "being placed for the second and third"
+      },
+      {
+        "cue_id": 241,
+        "start_ms": 521519,
+        "end_ms": 525360,
+        "text": "with the woman with their bodies"
+      },
+      {
+        "cue_id": 242,
+        "start_ms": 523360,
+        "end_ms": 527920,
+        "text": "detached he carries the woman's upper"
+      },
+      {
+        "cue_id": 277,
+        "start_ms": 595959,
+        "end_ms": 599320,
+        "text": "bench at the beginning of his magic show"
+      },
+      {
+        "cue_id": 278,
+        "start_ms": 597680,
+        "end_ms": 601959,
+        "text": "is the first female replica and is"
+      },
+      {
+        "cue_id": 314,
+        "start_ms": 670160,
+        "end_ms": 674079,
+        "text": "sunglasses the purpose of the sunglasses"
+      },
+      {
+        "cue_id": 315,
+        "start_ms": 672480,
+        "end_ms": 675399,
+        "text": "is to cover most of their faces to"
+      },
+      {
+        "cue_id": 352,
+        "start_ms": 744920,
+        "end_ms": 749160,
+        "text": "body then the camera is set to an angle"
+      },
+      {
+        "cue_id": 353,
+        "start_ms": 747760,
+        "end_ms": 750760,
+        "text": "that makes it appear like the man's"
+      },
+      {
+        "cue_id": 387,
+        "start_ms": 818800,
+        "end_ms": 823959,
+        "text": "switched demon magician Dynamo passes"
+      },
+      {
+        "cue_id": 388,
+        "start_ms": 821800,
+        "end_ms": 826120,
+        "text": "rope through body let's do a quick recap"
+      },
+      {
+        "cue_id": 422,
+        "start_ms": 894120,
+        "end_ms": 899279,
+        "text": "melting through the performer's body now"
+      },
+      {
+        "cue_id": 423,
+        "start_ms": 897320,
+        "end_ms": 901000,
+        "text": "when we analyze Dynamo's performance of"
+      },
+      {
+        "cue_id": 459,
+        "start_ms": 969959,
+        "end_ms": 973880,
+        "text": "multiple methods is due to the clever"
+      },
+      {
+        "cue_id": 460,
+        "start_ms": 971680,
+        "end_ms": 975720,
+        "text": "use of camera cuts which conceal the"
+      },
+      {
+        "cue_id": 493,
+        "start_ms": 1042959,
+        "end_ms": 1047480,
+        "text": "hovered directly above the pitcher just"
+      },
+      {
+        "cue_id": 494,
+        "start_ms": 1044799,
+        "end_ms": 1049840,
+        "text": "as it mysteriously exploded into shards"
+      },
+      {
+        "cue_id": 530,
+        "start_ms": 1119280,
+        "end_ms": 1123360,
+        "text": "thumb and his index finger he held a"
+      },
+      {
+        "cue_id": 531,
+        "start_ms": 1121280,
+        "end_ms": 1125480,
+        "text": "small Stone as you can observe in this"
+      },
+      {
+        "cue_id": 567,
+        "start_ms": 1194840,
+        "end_ms": 1198400,
+        "text": "it's essential to note that David Blaine"
+      },
+      {
+        "cue_id": 568,
+        "start_ms": 1196720,
+        "end_ms": 1200280,
+        "text": "posed a specific question to the The"
+      },
+      {
+        "cue_id": 602,
+        "start_ms": 1269200,
+        "end_ms": 1272240,
+        "text": "mechanics Behind These tricks and this"
+      },
+      {
+        "cue_id": 603,
+        "start_ms": 1271120,
+        "end_ms": 1275080,
+        "text": "one is no"
+      },
+      {
+        "cue_id": 639,
+        "start_ms": 1343919,
+        "end_ms": 1348039,
+        "text": "two of diamonds the deck was designed in"
+      },
+      {
+        "cue_id": 640,
+        "start_ms": 1346480,
+        "end_ms": 1350120,
+        "text": "such a way that each of the top card"
+      },
+      {
+        "cue_id": 675,
+        "start_ms": 1418880,
+        "end_ms": 1423640,
+        "text": "sides of the door open and demons start"
+      },
+      {
+        "cue_id": 676,
+        "start_ms": 1420720,
+        "end_ms": 1426000,
+        "text": "pouring out on stage after that sacred"
+      },
+      {
+        "cue_id": 709,
+        "start_ms": 1492840,
+        "end_ms": 1497480,
+        "text": "the mysterious box it's notable that she"
+      },
+      {
+        "cue_id": 710,
+        "start_ms": 1495039,
+        "end_ms": 1499679,
+        "text": "doesn't open the backs side yet on the"
+      },
+      {
+        "cue_id": 744,
+        "start_ms": 1568919,
+        "end_ms": 1574520,
+        "text": "that the backside can also be opened"
+      },
+      {
+        "cue_id": 745,
+        "start_ms": 1570919,
+        "end_ms": 1574520,
+        "text": "preserving the secrecy of the tricks"
+      },
+      {
+        "cue_id": 780,
+        "start_ms": 1643399,
+        "end_ms": 1647240,
+        "text": "appear on his cheek we observe this"
+      },
+      {
+        "cue_id": 781,
+        "start_ms": 1645480,
+        "end_ms": 1649120,
+        "text": "unusual bump on his right cheek about"
+      },
+      {
+        "cue_id": 817,
+        "start_ms": 1717440,
+        "end_ms": 1721799,
+        "text": "color of the prosthetic skin and The"
+      },
+      {
+        "cue_id": 818,
+        "start_ms": 1718919,
+        "end_ms": 1723640,
+        "text": "Illusionist real skin tone also he"
+      },
+      {
+        "cue_id": 855,
+        "start_ms": 1794320,
+        "end_ms": 1799320,
+        "text": "true sacred Rihanna's demon summoning"
+      },
+      {
+        "cue_id": 889,
+        "start_ms": 1867760,
+        "end_ms": 1871760,
+        "text": "one side upon which sacred Rihanna"
+      },
+      {
+        "cue_id": 890,
+        "start_ms": 1869720,
+        "end_ms": 1873279,
+        "text": "writes on this means that this"
+      },
+      {
+        "cue_id": 926,
+        "start_ms": 1941679,
+        "end_ms": 1945880,
+        "text": "we cannot see the actual depth of the"
+      },
+      {
+        "cue_id": 927,
+        "start_ms": 1943399,
+        "end_ms": 1947559,
+        "text": "internals of this box the dark color"
+      },
+      {
+        "cue_id": 962,
+        "start_ms": 2016200,
+        "end_ms": 2021159,
+        "text": "how did he perform this trick let's"
+      },
+      {
+        "cue_id": 963,
+        "start_ms": 2018480,
+        "end_ms": 2022799,
+        "text": "figure this out together this levitation"
+      },
+      {
+        "cue_id": 999,
+        "start_ms": 2091639,
+        "end_ms": 2095320,
+        "text": "don't see it from the front this because"
+      },
+      {
+        "cue_id": 1000,
+        "start_ms": 2093480,
+        "end_ms": 2097560,
+        "text": "his dress on purpose hides the rod"
+      },
+      {
+        "cue_id": 1035,
+        "start_ms": 2166040,
+        "end_ms": 2171160,
+        "text": "and the eyes turned back to normal well"
+      },
+      {
+        "cue_id": 1036,
+        "start_ms": 2168880,
+        "end_ms": 2174200,
+        "text": "how did he perform this trick let's"
+      },
+      {
+        "cue_id": 1071,
+        "start_ms": 2240640,
+        "end_ms": 2244560,
+        "text": "particular frame he applies pressure"
+      },
+      {
+        "cue_id": 1072,
+        "start_ms": 2242680,
+        "end_ms": 2246200,
+        "text": "against the outside of his eyelids and"
+      },
+      {
+        "cue_id": 1107,
+        "start_ms": 2314680,
+        "end_ms": 2321280,
+        "text": "watching and as always have a great"
+      },
+      {
+        "cue_id": 1108,
+        "start_ms": 2318280,
+        "end_ms": 2321280,
+        "text": "day"
+      }
+    ],
+    "text": "moves forward and then returns this\nmakes it easier to see the wire they use\nis gripping both the wire and the Rope\nsimultaneously a more detailed View From\nseamlessly Shin Lim fools pen and Teller\nthe predictions were not printed on the\ncard but were written by hand if the\nmember only access is uploaded and\nwaiting to be discovered by you join\nanother card in this case a card was\nbeing placed for the second and third\nwith the woman with their bodies\ndetached he carries the woman's upper\nbench at the beginning of his magic show\nis the first female replica and is\nsunglasses the purpose of the sunglasses\nis to cover most of their faces to\nbody then the camera is set to an angle\nthat makes it appear like the man's\nswitched demon magician Dynamo passes\nrope through body let's do a quick recap\nmelting through the performer's body now\nwhen we analyze Dynamo's performance of\nmultiple methods is due to the clever\nuse of camera cuts which conceal the\nhovered directly above the pitcher just\nas it mysteriously exploded into shards\nthumb and his index finger he held a\nsmall Stone as you can observe in this\nit's essential to note that David Blaine\nposed a specific question to the The\nmechanics Behind These tricks and this\none is no\ntwo of diamonds the deck was designed in\nsuch a way that each of the top card\nsides of the door open and demons start\npouring out on stage after that sacred\nthe mysterious box it's notable that she\ndoesn't open the backs side yet on the\nthat the backside can also be opened\npreserving the secrecy of the tricks\nappear on his cheek we observe this\nunusual bump on his right cheek about\ncolor of the prosthetic skin and The\nIllusionist real skin tone also he\ntrue sacred Rihanna's demon summoning\none side upon which sacred Rihanna\nwrites on this means that this\nwe cannot see the actual depth of the\ninternals of this box the dark color\nhow did he perform this trick let's\nfigure this out together this levitation\ndon't see it from the front this because\nhis dress on purpose hides the rod\nand the eyes turned back to normal well\nhow did he perform this trick let's\nparticular frame he applies pressure\nagainst the outside of his eyelids and\nwatching and as always have a great\nday",
+    "text_tokens": 509,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "bb089dccec686e25b0692da3576defdc6b2e5fe3f057e02f64e127bc56e81414"
+}

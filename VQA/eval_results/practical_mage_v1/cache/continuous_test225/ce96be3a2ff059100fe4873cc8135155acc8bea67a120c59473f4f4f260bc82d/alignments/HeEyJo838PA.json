@@ -1,0 +1,1290 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "HeEyJo838PA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HeEyJo838PA.srt",
+        "status": "available",
+        "bytes": 14011,
+        "sha256": "6aa5e706b4d5f9e2c395dec8f204d1e0a1214c05f886ddbc0e16f425d19ec295",
+        "cues": 138,
+        "nonempty_cues": 138
+      },
+      "frame_indices": [
+        0,
+        333,
+        666,
+        999,
+        1332,
+        1665,
+        1999,
+        2332,
+        2665,
+        2998,
+        3331,
+        3664,
+        3997,
+        4330,
+        4663,
+        4996,
+        5330,
+        5663,
+        5996,
+        6329,
+        6662,
+        6995,
+        7328,
+        7661,
+        7994,
+        8327,
+        8661,
+        8994,
+        9327,
+        9660,
+        9993,
+        10326
+      ],
+      "frame_seconds": [
+        0.0,
+        13.32,
+        26.64,
+        39.96,
+        53.28,
+        66.6,
+        79.96000000000001,
+        93.28,
+        106.6,
+        119.92,
+        133.24,
+        146.56,
+        159.88,
+        173.2,
+        186.52,
+        199.84,
+        213.2,
+        226.52,
+        239.84,
+        253.16,
+        266.48,
+        279.8,
+        293.12,
+        306.44,
+        319.76,
+        333.08,
+        346.44,
+        359.76,
+        373.08,
+        386.4,
+        399.72,
+        413.04
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          10
+        ],
+        [],
+        [
+          19
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          35
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          56,
+          57
+        ],
+        [],
+        [
+          66
+        ],
+        [
+          68
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          78,
+          79
+        ],
+        [
+          83,
+          84
+        ],
+        [
+          88,
+          89
+        ],
+        [],
+        [],
+        [
+          100,
+          101
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          114
+        ],
+        [
+          118,
+          119
+        ],
+        [
+          124,
+          125
+        ],
+        [
+          129,
+          130
+        ],
+        [
+          131
+        ],
+        [
+          134,
+          135
+        ],
+        [
+          138
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 11280,
+          "end_ms": 14880,
+          "text": "their environment"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13040,
+          "end_ms": 17279,
+          "text": "with keen eyesight"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 23519,
+          "end_ms": 27039,
+          "text": "into the behavior of these magnificent"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 25519,
+          "end_ms": 29039,
+          "text": "creatures"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52000,
+          "end_ms": 56000,
+          "text": "the bears come here to feast and in"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 64799,
+          "end_ms": 68159,
+          "text": "they've swum all the way from the"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 66159,
+          "end_ms": 70120,
+          "text": "pacific ocean to reach their breeding"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 76799,
+          "end_ms": 81439,
+          "text": "salmon are a vital food source for them"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 78799,
+          "end_ms": 83520,
+          "text": "because they're rich in fats"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 90960,
+          "end_ms": 97280,
+          "text": "that's a staggering 100 000 calories"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 102560,
+          "end_ms": 107039,
+          "text": "they have an insatiable appetite but"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 104640,
+          "end_ms": 109840,
+          "text": "never feel full"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 117119,
+          "end_ms": 121200,
+          "text": "it's incredible just from here i can see"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 119600,
+          "end_ms": 125040,
+          "text": "eight grizzly bears"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 131120,
+          "end_ms": 135120,
+          "text": "narrow head"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 133040,
+          "end_ms": 137840,
+          "text": "i've always been fascinated by how these"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 145120,
+          "end_ms": 148319,
+          "text": "all of the bears have got different"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 146319,
+          "end_ms": 149920,
+          "text": "hunting techniques here one of the male"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 168840,
+          "end_ms": 183470,
+          "text": "in her cub seems to be waiting too"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 184640,
+          "end_ms": 190110,
+          "text": "this cub is nearly two years old now and"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 194879,
+          "end_ms": 200159,
+          "text": "they're traveling upstream"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 198079,
+          "end_ms": 203440,
+          "text": "because the salmon are so abundant the"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 208959,
+          "end_ms": 213360,
+          "text": "and eating only the fattiest parts of"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 210959,
+          "end_ms": 215519,
+          "text": "the fish"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 224400,
+          "end_ms": 229440,
+          "text": "further downstream we come across a"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 226239,
+          "end_ms": 231440,
+          "text": "female with two cubs"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 237200,
+          "end_ms": 241760,
+          "text": "are about six months old"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 239760,
+          "end_ms": 244400,
+          "text": "they spend the first months tucked away"
+        },
+        {
+          "cue_id": 100,
+          "start_ms": 276560,
+          "end_ms": 281040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 278800,
+          "end_ms": 284479,
+          "text": "these two have got a lot to learn but"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 290720,
+          "end_ms": 295960,
+          "text": "the female has spotted two males coming"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 292960,
+          "end_ms": 295960,
+          "text": "upstream"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 301759,
+          "end_ms": 309920,
+          "text": "females into estrus"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 305320,
+          "end_ms": 309920,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 314080,
+          "end_ms": 319880,
+          "text": "she calls at the cubs telling them to"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 316240,
+          "end_ms": 319880,
+          "text": "get to high ground"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 332240,
+          "end_ms": 336800,
+          "text": "but it seems as if these two only have"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 343840,
+          "end_ms": 347919,
+          "text": "important"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 345919,
+          "end_ms": 349680,
+          "text": "during the summer adult bears must at"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 357520,
+          "end_ms": 361830,
+          "text": "in their first year these youngsters"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 359360,
+          "end_ms": 362960,
+          "text": "will grow 10 times their spring weight"
+        },
+        {
+          "cue_id": 129,
+          "start_ms": 367039,
+          "end_ms": 373639,
+          "text": "and i can't wait to come back to alaska"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 369440,
+          "end_ms": 373639,
+          "text": "to experience this again"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 378660,
+          "end_ms": 391529,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 134,
+          "start_ms": 396560,
+          "end_ms": 400479,
+          "text": "comment and subscribe to see more here's"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 398800,
+          "end_ms": 402270,
+          "text": "a taste of what you'll enjoy seeing on"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 412880,
+          "end_ms": 414960,
+          "text": "you"
+        }
+      ],
+      "text": "their environment\nwith keen eyesight\ninto the behavior of these magnificent\ncreatures\nthe bears come here to feast and in\nthey've swum all the way from the\npacific ocean to reach their breeding\nsalmon are a vital food source for them\nbecause they're rich in fats\nthat's a staggering 100 000 calories\nthey have an insatiable appetite but\nnever feel full\nit's incredible just from here i can see\neight grizzly bears\nnarrow head\ni've always been fascinated by how these\nall of the bears have got different\nhunting techniques here one of the male\nin her cub seems to be waiting too\nthis cub is nearly two years old now and\nthey're traveling upstream\nbecause the salmon are so abundant the\nand eating only the fattiest parts of\nthe fish\nfurther downstream we come across a\nfemale with two cubs\nare about six months old\nthey spend the first months tucked away\n[Music]\nthese two have got a lot to learn but\nthe female has spotted two males coming\nupstream\nfemales into estrus\n[Music]\nshe calls at the cubs telling them to\nget to high ground\nbut it seems as if these two only have\nimportant\nduring the summer adult bears must at\nin their first year these youngsters\nwill grow 10 times their spring weight\nand i can't wait to come back to alaska\nto experience this again\n[Music]\ncomment and subscribe to see more here's\na taste of what you'll enjoy seeing on\nyou",
+      "text_tokens": 331,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HeEyJo838PA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HeEyJo838PA.srt",
+          "status": "available",
+          "bytes": 14011,
+          "sha256": "6aa5e706b4d5f9e2c395dec8f204d1e0a1214c05f886ddbc0e16f425d19ec295",
+          "cues": 138,
+          "nonempty_cues": 138
+        },
+        "frame_indices": [
+          0,
+          333,
+          666,
+          999,
+          1332,
+          1665,
+          1999,
+          2332,
+          2665,
+          2998,
+          3331,
+          3664,
+          3997,
+          4330,
+          4663,
+          4996,
+          5330,
+          5663,
+          5996,
+          6329,
+          6662,
+          6995,
+          7328,
+          7661,
+          7994,
+          8327,
+          8661,
+          8994,
+          9327,
+          9660,
+          9993,
+          10326
+        ],
+        "frame_seconds": [
+          0.0,
+          13.32,
+          26.64,
+          39.96,
+          53.28,
+          66.6,
+          79.96000000000001,
+          93.28,
+          106.6,
+          119.92,
+          133.24,
+          146.56,
+          159.88,
+          173.2,
+          186.52,
+          199.84,
+          213.2,
+          226.52,
+          239.84,
+          253.16,
+          266.48,
+          279.8,
+          293.12,
+          306.44,
+          319.76,
+          333.08,
+          346.44,
+          359.76,
+          373.08,
+          386.4,
+          399.72,
+          413.04
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            4,
+            5
+          ],
+          [
+            9,
+            10
+          ],
+          [],
+          [
+            19
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            35
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            51,
+            52
+          ],
+          [
+            56,
+            57
+          ],
+          [],
+          [
+            66
+          ],
+          [
+            68
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            78,
+            79
+          ],
+          [
+            83,
+            84
+          ],
+          [
+            88,
+            89
+          ],
+          [],
+          [],
+          [
+            100,
+            101
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            110,
+            111
+          ],
+          [
+            114
+          ],
+          [
+            118,
+            119
+          ],
+          [
+            124,
+            125
+          ],
+          [
+            129,
+            130
+          ],
+          [
+            131
+          ],
+          [
+            134,
+            135
+          ],
+          [
+            138
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 4,
+            "start_ms": 11280,
+            "end_ms": 14880,
+            "text": "their environment"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 13040,
+            "end_ms": 17279,
+            "text": "with keen eyesight"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 23519,
+            "end_ms": 27039,
+            "text": "into the behavior of these magnificent"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 25519,
+            "end_ms": 29039,
+            "text": "creatures"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52000,
+            "end_ms": 56000,
+            "text": "the bears come here to feast and in"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 64799,
+            "end_ms": 68159,
+            "text": "they've swum all the way from the"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 66159,
+            "end_ms": 70120,
+            "text": "pacific ocean to reach their breeding"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 76799,
+            "end_ms": 81439,
+            "text": "salmon are a vital food source for them"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 78799,
+            "end_ms": 83520,
+            "text": "because they're rich in fats"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 90960,
+            "end_ms": 97280,
+            "text": "that's a staggering 100 000 calories"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 102560,
+            "end_ms": 107039,
+            "text": "they have an insatiable appetite but"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 104640,
+            "end_ms": 109840,
+            "text": "never feel full"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 117119,
+            "end_ms": 121200,
+            "text": "it's incredible just from here i can see"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 119600,
+            "end_ms": 125040,
+            "text": "eight grizzly bears"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 131120,
+            "end_ms": 135120,
+            "text": "narrow head"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 133040,
+            "end_ms": 137840,
+            "text": "i've always been fascinated by how these"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 145120,
+            "end_ms": 148319,
+            "text": "all of the bears have got different"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 146319,
+            "end_ms": 149920,
+            "text": "hunting techniques here one of the male"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 168840,
+            "end_ms": 183470,
+            "text": "in her cub seems to be waiting too"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 184640,
+            "end_ms": 190110,
+            "text": "this cub is nearly two years old now and"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 194879,
+            "end_ms": 200159,
+            "text": "they're traveling upstream"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 198079,
+            "end_ms": 203440,
+            "text": "because the salmon are so abundant the"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 208959,
+            "end_ms": 213360,
+            "text": "and eating only the fattiest parts of"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 210959,
+            "end_ms": 215519,
+            "text": "the fish"
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 224400,
+            "end_ms": 229440,
+            "text": "further downstream we come across a"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 226239,
+            "end_ms": 231440,
+            "text": "female with two cubs"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 237200,
+            "end_ms": 241760,
+            "text": "are about six months old"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 239760,
+            "end_ms": 244400,
+            "text": "they spend the first months tucked away"
+          },
+          {
+            "cue_id": 100,
+            "start_ms": 276560,
+            "end_ms": 281040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 101,
+            "start_ms": 278800,
+            "end_ms": 284479,
+            "text": "these two have got a lot to learn but"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 290720,
+            "end_ms": 295960,
+            "text": "the female has spotted two males coming"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 292960,
+            "end_ms": 295960,
+            "text": "upstream"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 301759,
+            "end_ms": 309920,
+            "text": "females into estrus"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 305320,
+            "end_ms": 309920,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 314080,
+            "end_ms": 319880,
+            "text": "she calls at the cubs telling them to"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 316240,
+            "end_ms": 319880,
+            "text": "get to high ground"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 332240,
+            "end_ms": 336800,
+            "text": "but it seems as if these two only have"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 343840,
+            "end_ms": 347919,
+            "text": "important"
+          },
+          {
+            "cue_id": 119,
+            "start_ms": 345919,
+            "end_ms": 349680,
+            "text": "during the summer adult bears must at"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 357520,
+            "end_ms": 361830,
+            "text": "in their first year these youngsters"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 359360,
+            "end_ms": 362960,
+            "text": "will grow 10 times their spring weight"
+          },
+          {
+            "cue_id": 129,
+            "start_ms": 367039,
+            "end_ms": 373639,
+            "text": "and i can't wait to come back to alaska"
+          },
+          {
+            "cue_id": 130,
+            "start_ms": 369440,
+            "end_ms": 373639,
+            "text": "to experience this again"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 378660,
+            "end_ms": 391529,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 134,
+            "start_ms": 396560,
+            "end_ms": 400479,
+            "text": "comment and subscribe to see more here's"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 398800,
+            "end_ms": 402270,
+            "text": "a taste of what you'll enjoy seeing on"
+          },
+          {
+            "cue_id": 138,
+            "start_ms": 412880,
+            "end_ms": 414960,
+            "text": "you"
+          }
+        ],
+        "text": "their environment\nwith keen eyesight\ninto the behavior of these magnificent\ncreatures\nthe bears come here to feast and in\nthey've swum all the way from the\npacific ocean to reach their breeding\nsalmon are a vital food source for them\nbecause they're rich in fats\nthat's a staggering 100 000 calories\nthey have an insatiable appetite but\nnever feel full\nit's incredible just from here i can see\neight grizzly bears\nnarrow head\ni've always been fascinated by how these\nall of the bears have got different\nhunting techniques here one of the male\nin her cub seems to be waiting too\nthis cub is nearly two years old now and\nthey're traveling upstream\nbecause the salmon are so abundant the\nand eating only the fattiest parts of\nthe fish\nfurther downstream we come across a\nfemale with two cubs\nare about six months old\nthey spend the first months tucked away\n[Music]\nthese two have got a lot to learn but\nthe female has spotted two males coming\nupstream\nfemales into estrus\n[Music]\nshe calls at the cubs telling them to\nget to high ground\nbut it seems as if these two only have\nimportant\nduring the summer adult bears must at\nin their first year these youngsters\nwill grow 10 times their spring weight\nand i can't wait to come back to alaska\nto experience this again\n[Music]\ncomment and subscribe to see more here's\na taste of what you'll enjoy seeing on\nyou",
+        "text_tokens": 331,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S3",
+          "cue_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "start_ms": 9040,
+          "end_ms": 21199,
+          "text": "these animals are perfectly adapted to their environment with keen eyesight an acute sense of smell"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 21600,
+          "end_ms": 31359,
+          "text": "i've always wanted to get an insight into the behavior of these magnificent creatures so when i had the opportunity to travel"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20
+          ],
+          "start_ms": 48320,
+          "end_ms": 59000,
+          "text": "concentrated on these rivers the bears come here to feast and in places the river is actually pink with"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "start_ms": 62640,
+          "end_ms": 71680,
+          "text": "the salmon's life cycle they've swum all the way from the pacific ocean to reach their breeding grounds here"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 73680,
+          "end_ms": 86479,
+          "text": "feasting on this natural bounty salmon are a vital food source for them because they're rich in fats just one fish provides about four and a"
+        },
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35,
+            36
+          ],
+          "start_ms": 86479,
+          "end_ms": 99520,
+          "text": "and they can eat over 20 a day that's a staggering 100 000 calories 40 times what i eat"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 99520,
+          "end_ms": 111759,
+          "text": "now in a phase of hypophagia they have an insatiable appetite but never feel full this helps them build up fat reserves"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 115259,
+          "end_ms": 125040,
+          "text": "[Music] it's incredible just from here i can see eight grizzly bears it's just a dream to be here"
+        },
+        {
+          "id": "S50",
+          "cue_ids": [
+            50,
+            51,
+            52,
+            53
+          ],
+          "start_ms": 129280,
+          "end_ms": 137840,
+          "text": "whereas females are smaller with a narrow head i've always been fascinated by how these bears hunt"
+        },
+        {
+          "id": "S55",
+          "cue_ids": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "start_ms": 139599,
+          "end_ms": 151680,
+          "text": "happening up close all of the bears have got different hunting techniques here one of the male bears would hold his pore up just before"
+        },
+        {
+          "id": "S65",
+          "cue_ids": [
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "start_ms": 166400,
+          "end_ms": 192159,
+          "text": "dash in her cub seems to be waiting too [Applause] this cub is nearly two years old now and we'll soon have to fend for itself"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 193280,
+          "end_ms": 204799,
+          "text": "literally got salmon bumping into us as they're traveling upstream because the salmon are so abundant the bears can afford to be selective"
+        },
+        {
+          "id": "S77",
+          "cue_ids": [
+            77,
+            78,
+            79,
+            80
+          ],
+          "start_ms": 204799,
+          "end_ms": 218460,
+          "text": "nutrient-rich eggs and eating only the fattiest parts of the fish the bears discard the rest"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85
+          ],
+          "start_ms": 224400,
+          "end_ms": 234560,
+          "text": "further downstream we come across a female with two cubs mother bears can have as many as four"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87,
+            88,
+            89,
+            90
+          ],
+          "start_ms": 234959,
+          "end_ms": 247519,
+          "text": "bear cubs are born in winter so these are about six months old they spend the first months tucked away in their den before emerging in spring"
+        },
+        {
+          "id": "S99",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102
+          ],
+          "start_ms": 275040,
+          "end_ms": 284479,
+          "text": "setting off on their own [Music] these two have got a lot to learn but they've got mum to teach them"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "start_ms": 287840,
+          "end_ms": 309920,
+          "text": "and protect them from danger the female has spotted two males coming upstream it could be a threat male bears will sometimes kill the cubs to force the females into estrus [Music]"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111
+          ],
+          "start_ms": 314080,
+          "end_ms": 319880,
+          "text": "she calls at the cubs telling them to get to high ground"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115
+          ],
+          "start_ms": 329070,
+          "end_ms": 340240,
+          "text": "[Music] but it seems as if these two only have fish on their minds"
+        },
+        {
+          "id": "S117",
+          "cue_ids": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "start_ms": 341759,
+          "end_ms": 351280,
+          "text": "for the bears this time of year is so important during the summer adult bears must at least double the weight to survive the"
+        },
+        {
+          "id": "S123",
+          "cue_ids": [
+            123,
+            124,
+            125,
+            126
+          ],
+          "start_ms": 353600,
+          "end_ms": 364960,
+          "text": "work of mother bears with newborn cubs in their first year these youngsters will grow 10 times their spring weight [Music]"
+        },
+        {
+          "id": "S128",
+          "cue_ids": [
+            128,
+            129,
+            130
+          ],
+          "start_ms": 364960,
+          "end_ms": 373639,
+          "text": "out here with the bears and i can't wait to come back to alaska to experience this again"
+        },
+        {
+          "id": "S131",
+          "cue_ids": [
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138
+          ],
+          "start_ms": 378660,
+          "end_ms": 414960,
+          "text": "[Music] thank you for watching and i hope you enjoyed the video don't forget to like comment and subscribe to see more here's a taste of what you'll enjoy seeing on this channel [Music] you"
+        }
+      ],
+      "text": "S3 [00:00:09.040 --> 00:00:21.199] these animals are perfectly adapted to their environment with keen eyesight an acute sense of smell\nS8 [00:00:21.600 --> 00:00:31.359] i've always wanted to get an insight into the behavior of these magnificent creatures so when i had the opportunity to travel\nS18 [00:00:48.320 --> 00:00:59.000] concentrated on these rivers the bears come here to feast and in places the river is actually pink with\nS23 [00:01:02.640 --> 00:01:11.680] the salmon's life cycle they've swum all the way from the pacific ocean to reach their breeding grounds here\nS29 [00:01:13.680 --> 00:01:26.479] feasting on this natural bounty salmon are a vital food source for them because they're rich in fats just one fish provides about four and a\nS34 [00:01:26.479 --> 00:01:39.520] and they can eat over 20 a day that's a staggering 100 000 calories 40 times what i eat\nS38 [00:01:39.520 --> 00:01:51.759] now in a phase of hypophagia they have an insatiable appetite but never feel full this helps them build up fat reserves\nS45 [00:01:55.259 --> 00:02:05.040] [Music] it's incredible just from here i can see eight grizzly bears it's just a dream to be here\nS50 [00:02:09.280 --> 00:02:17.840] whereas females are smaller with a narrow head i've always been fascinated by how these bears hunt\nS55 [00:02:19.599 --> 00:02:31.680] happening up close all of the bears have got different hunting techniques here one of the male bears would hold his pore up just before\nS65 [00:02:46.400 --> 00:03:12.159] dash in her cub seems to be waiting too [Applause] this cub is nearly two years old now and we'll soon have to fend for itself\nS72 [00:03:13.280 --> 00:03:24.799] literally got salmon bumping into us as they're traveling upstream because the salmon are so abundant the bears can afford to be selective\nS77 [00:03:24.799 --> 00:03:38.460] nutrient-rich eggs and eating only the fattiest parts of the fish the bears discard the rest\nS83 [00:03:44.400 --> 00:03:54.560] further downstream we come across a female with two cubs mother bears can have as many as four\nS87 [00:03:54.959 --> 00:04:07.519] bear cubs are born in winter so these are about six months old they spend the first months tucked away in their den before emerging in spring\nS99 [00:04:35.040 --> 00:04:44.479] setting off on their own [Music] these two have got a lot to learn but they've got mum to teach them\nS103 [00:04:47.840 --> 00:05:09.920] and protect them from danger the female has spotted two males coming upstream it could be a threat male bears will sometimes kill the cubs to force the females into estrus [Music]\nS110 [00:05:14.080 --> 00:05:19.880] she calls at the cubs telling them to get to high ground\nS113 [00:05:29.070 --> 00:05:40.240] [Music] but it seems as if these two only have fish on their minds\nS117 [00:05:41.759 --> 00:05:51.280] for the bears this time of year is so important during the summer adult bears must at least double the weight to survive the\nS123 [00:05:53.600 --> 00:06:04.960] work of mother bears with newborn cubs in their first year these youngsters will grow 10 times their spring weight [Music]\nS128 [00:06:04.960 --> 00:06:13.639] out here with the bears and i can't wait to come back to alaska to experience this again\nS131 [00:06:18.660 --> 00:06:54.960] [Music] thank you for watching and i hope you enjoyed the video don't forget to like comment and subscribe to see more here's a taste of what you'll enjoy seeing on this channel [Music] you",
+      "text_tokens": 1294,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        3,
+        6,
+        8,
+        11,
+        18,
+        20,
+        23,
+        26,
+        29,
+        32,
+        34,
+        36,
+        38,
+        41,
+        45,
+        48,
+        50,
+        53,
+        55,
+        58,
+        65,
+        67,
+        69,
+        72,
+        75,
+        77,
+        80,
+        85,
+        87,
+        90,
+        99,
+        102,
+        103,
+        106,
+        107,
+        113,
+        115,
+        117,
+        120,
+        123,
+        126,
+        128,
+        132,
+        133,
+        136,
+        137
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "822e00757ab1b84675071e3780b4d64c79a44fac1ee4f5c23c6568e76dbb5146"
+}

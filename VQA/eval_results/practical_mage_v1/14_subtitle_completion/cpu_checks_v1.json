@@ -1,0 +1,42 @@
+{
+  "version": "subtitle_completion_cpu_checks_v1",
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "unit_tests": {
+    "passed": 133,
+    "new": 22,
+    "existing_regression": 111,
+    "command": "python -B -m unittest test_subtitle_completion test_practical_next test_subtitle_holdout test_practical_subtitles test_practical_mage test_practical_coverage",
+    "provenance": "Completed earlier in this implementation turn via remote Mage environment; recording its passed result without rerunning the suite."
+  },
+  "ast_parse": true,
+  "bash_syntax": true,
+  "budget_preflight": true,
+  "old_results_unchanged": 2500,
+  "old_source_and_report_files_unchanged": 43,
+  "new_script_sha256": {
+    "subtitle_completion_common.py": "cf514a0dc225a72b2c21658e912ff8d67ef90bbe0ade687c93812b0e8ff2a245",
+    "subtitle_completion_run.py": "e2097bc1d8de1665d1da228bf0bc14f7ebfb97f6d7a20828413debed6f73cab8",
+    "subtitle_completion_analyze.py": "8628eb6b9aeec5ae8459490494dbd87fd30170accba7599b2d1e85300b4c8928",
+    "test_subtitle_completion.py": "1939782da934d602830ab65a5eabcf89f3ad0667c957628d136efdfccb749cbf",
+    "run_subtitle_completion.sh": "895e2be65110911a12d7c2d8891b8334d058570c2d1f5e2d78e379aaff75477c"
+  },
+  "budget": {
+    "changed_questions": 24,
+    "verified_reuse_pending": 156
+  },
+  "short": {
+    "questions": 219,
+    "videos": 73,
+    "source_status": {
+      "available": 56,
+      "missing": 17
+    },
+    "configuration_frozen": false
+  },
+  "documentation_sha256": "86878bfc64fdafe3edf877844ce474128c717efa5813401d1ba7bb99020c0f0f",
+  "assistant_inference_calls": 0,
+  "assistant_api_calls": 0,
+  "assistant_video_decodes": 0,
+  "gpu_runtime_files_created": false,
+  "answer_journals_created": false
+}

@@ -1,0 +1,363 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "55Jas5HrzcQ",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/55Jas5HrzcQ.srt",
+      "status": "available",
+      "bytes": 81287,
+      "sha256": "fb69374dfd77aa4b74f0c9406d5a3a16110287e3406c36e5ae22eda0a839eec1",
+      "cues": 600,
+      "nonempty_cues": 600
+    },
+    "frame_indices": [
+      0,
+      2619,
+      5238,
+      7858,
+      10477,
+      13096,
+      15715,
+      18334,
+      20954,
+      23573,
+      26192,
+      28811,
+      31430,
+      34050,
+      36669,
+      39288,
+      41907,
+      44526,
+      47145,
+      49765,
+      52384,
+      55003,
+      57622,
+      60241,
+      62861,
+      65480,
+      68099,
+      70718,
+      73337,
+      75957,
+      78576,
+      81195
+    ],
+    "frame_seconds": [
+      0.0,
+      104.75999999999999,
+      209.52,
+      314.32,
+      419.08,
+      523.84,
+      628.6,
+      733.36,
+      838.16,
+      942.92,
+      1047.68,
+      1152.44,
+      1257.2,
+      1362.0,
+      1466.76,
+      1571.52,
+      1676.28,
+      1781.04,
+      1885.8,
+      1990.6,
+      2095.36,
+      2200.12,
+      2304.88,
+      2409.64,
+      2514.44,
+      2619.2,
+      2723.96,
+      2828.72,
+      2933.48,
+      3038.28,
+      3143.04,
+      3247.8
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        17
+      ],
+      [
+        36
+      ],
+      [
+        57
+      ],
+      [
+        77
+      ],
+      [
+        98
+      ],
+      [
+        117
+      ],
+      [
+        137
+      ],
+      [
+        157
+      ],
+      [
+        173
+      ],
+      [
+        191
+      ],
+      [
+        215
+      ],
+      [
+        235
+      ],
+      [
+        254
+      ],
+      [
+        275
+      ],
+      [
+        293
+      ],
+      [
+        318
+      ],
+      [
+        334
+      ],
+      [
+        352
+      ],
+      [
+        371
+      ],
+      [
+        392
+      ],
+      [
+        416
+      ],
+      [
+        436
+      ],
+      [
+        456
+      ],
+      [
+        477
+      ],
+      [
+        495
+      ],
+      [
+        514
+      ],
+      [
+        535
+      ],
+      [
+        554
+      ],
+      [
+        568
+      ],
+      [
+        584
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 17,
+        "start_ms": 101180,
+        "end_ms": 108020,
+        "text": "questions about how it would send astronauts to the Moon."
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 204900,
+        "end_ms": 209980,
+        "text": "The first was a command and service module or ‘CSM’."
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 311819,
+        "end_ms": 314849,
+        "text": "Well space is there, and we’re going to climb it."
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 413939,
+        "end_ms": 419190,
+        "text": "Under enormous pressure to land an astronaut on the Moon by the end of the decade, NASA"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 517030,
+        "end_ms": 524240,
+        "text": "it was sealed shut by the high pressure inside the capsule."
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 623960,
+        "end_ms": 630020,
+        "text": "5, 4, 3, 2, we have ignition."
+      },
+      {
+        "cue_id": 137,
+        "start_ms": 731530,
+        "end_ms": 733880,
+        "text": "Joining them was Bill Anders."
+      },
+      {
+        "cue_id": 157,
+        "start_ms": 837870,
+        "end_ms": 844120,
+        "text": "When Apollo 8 reached the moon, the crew had to fire their large SPS engine, to slow down"
+      },
+      {
+        "cue_id": 173,
+        "start_ms": 938980,
+        "end_ms": 945970,
+        "text": "land an astronaut on the moon before the end of the decade."
+      },
+      {
+        "cue_id": 191,
+        "start_ms": 1043910,
+        "end_ms": 1048560,
+        "text": "But within the astronaut corps, the first crewed flight of the Lunar Module was seen"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 1151350,
+        "end_ms": 1156290,
+        "text": "Unlike the command module, Spider did not have a heat shield, so it would burn up if"
+      },
+      {
+        "cue_id": 235,
+        "start_ms": 1254220,
+        "end_ms": 1259400,
+        "text": "Apollo 10 would be a dress rehearsal for the first landing attempt, flying every part of"
+      },
+      {
+        "cue_id": 254,
+        "start_ms": 1357520,
+        "end_ms": 1363000,
+        "text": "the mission was cut short, he’d proved his almost superhuman ability to remain calm under"
+      },
+      {
+        "cue_id": 275,
+        "start_ms": 1465860,
+        "end_ms": 1470890,
+        "text": "They were led by the Reverend Ralph Abernathy, who had succeeded Dr Martin Luther King as"
+      },
+      {
+        "cue_id": 293,
+        "start_ms": 1569090,
+        "end_ms": 1572740,
+        "text": "Years of hard work and training had led to this moment."
+      },
+      {
+        "cue_id": 318,
+        "start_ms": 1672559,
+        "end_ms": 1678120,
+        "text": "But then another problem: the Lunar Module was approaching the surface too fast, and"
+      },
+      {
+        "cue_id": 334,
+        "start_ms": 1773760,
+        "end_ms": 1781860,
+        "text": "The Apollo 11 crew returned home as heroes, their names now amongst those of the greatest"
+      },
+      {
+        "cue_id": 352,
+        "start_ms": 1885790,
+        "end_ms": 1886790,
+        "text": "‘I’m not sure we didn’t get hit by lightning.’"
+      },
+      {
+        "cue_id": 371,
+        "start_ms": 1987940,
+        "end_ms": 1998220,
+        "text": "The colossal Saturn V rocket and its exhaust trail were acting as a gigantic lightning"
+      },
+      {
+        "cue_id": 392,
+        "start_ms": 2090679,
+        "end_ms": 2096320,
+        "text": "training of the astronauts and mission control staff."
+      },
+      {
+        "cue_id": 416,
+        "start_ms": 2195050,
+        "end_ms": 2202240,
+        "text": "But I’ll be you my last dollar, they’ll never name another spacecraft 13."
+      },
+      {
+        "cue_id": 436,
+        "start_ms": 2304750,
+        "end_ms": 2309820,
+        "text": "Swigert was considered an excellent pilot, but the last-minute change was a difficult"
+      },
+      {
+        "cue_id": 456,
+        "start_ms": 2404460,
+        "end_ms": 2412500,
+        "text": "accidentally left on, and its interior was baked to over 500°C."
+      },
+      {
+        "cue_id": 477,
+        "start_ms": 2510290,
+        "end_ms": 2515780,
+        "text": "Conditions were cramped and bitterly cold."
+      },
+      {
+        "cue_id": 495,
+        "start_ms": 2613660,
+        "end_ms": 2620300,
+        "text": "The Command Module had been powered down and left in freezing conditions for days."
+      },
+      {
+        "cue_id": 514,
+        "start_ms": 2722030,
+        "end_ms": 2727140,
+        "text": "bouts of extreme dizziness and nausea."
+      },
+      {
+        "cue_id": 535,
+        "start_ms": 2826940,
+        "end_ms": 2832670,
+        "text": "Over the course of two Moon walks, Shepard and his lunar module pilot Ed Mitchell ventured"
+      },
+      {
+        "cue_id": 554,
+        "start_ms": 2930240,
+        "end_ms": 2935210,
+        "text": "The crew made one of the biggest geological discoveries of the program, when they unearthed"
+      },
+      {
+        "cue_id": 568,
+        "start_ms": 3038200,
+        "end_ms": 3046480,
+        "text": "His command module pilot was Ron Evans, and the lunar module pilot was Harrison Schmitt."
+      },
+      {
+        "cue_id": 584,
+        "start_ms": 3139089,
+        "end_ms": 3143490,
+        "text": "1981 would see the first flight of the Space Shuttle."
+      }
+    ],
+    "text": "questions about how it would send astronauts to the Moon.\nThe first was a command and service module or ‘CSM’.\nWell space is there, and we’re going to climb it.\nUnder enormous pressure to land an astronaut on the Moon by the end of the decade, NASA\nit was sealed shut by the high pressure inside the capsule.\n5, 4, 3, 2, we have ignition.\nJoining them was Bill Anders.\nWhen Apollo 8 reached the moon, the crew had to fire their large SPS engine, to slow down\nland an astronaut on the moon before the end of the decade.\nBut within the astronaut corps, the first crewed flight of the Lunar Module was seen\nUnlike the command module, Spider did not have a heat shield, so it would burn up if\nApollo 10 would be a dress rehearsal for the first landing attempt, flying every part of\nthe mission was cut short, he’d proved his almost superhuman ability to remain calm under\nThey were led by the Reverend Ralph Abernathy, who had succeeded Dr Martin Luther King as\nYears of hard work and training had led to this moment.\nBut then another problem: the Lunar Module was approaching the surface too fast, and\nThe Apollo 11 crew returned home as heroes, their names now amongst those of the greatest\n‘I’m not sure we didn’t get hit by lightning.’\nThe colossal Saturn V rocket and its exhaust trail were acting as a gigantic lightning\ntraining of the astronauts and mission control staff.\nBut I’ll be you my last dollar, they’ll never name another spacecraft 13.\nSwigert was considered an excellent pilot, but the last-minute change was a difficult\naccidentally left on, and its interior was baked to over 500°C.\nConditions were cramped and bitterly cold.\nThe Command Module had been powered down and left in freezing conditions for days.\nbouts of extreme dizziness and nausea.\nOver the course of two Moon walks, Shepard and his lunar module pilot Ed Mitchell ventured\nThe crew made one of the biggest geological discoveries of the program, when they unearthed\nHis command module pilot was Ron Evans, and the lunar module pilot was Harrison Schmitt.\n1981 would see the first flight of the Space Shuttle.",
+    "text_tokens": 467,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "b618a62f9302ccd5dbae54625c620e38cd75b9d9f57c578b808d5eab4e91906e"
+}

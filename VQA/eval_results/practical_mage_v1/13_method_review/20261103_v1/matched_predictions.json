@@ -1,0 +1,3026 @@
+{
+  "dev180": [
+    {
+      "index": "219",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "220",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "221",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "228",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "229",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "230",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "249",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "250",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "251",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "258",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "259",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "260",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "261",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "262",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "263",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "264",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "265",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "266",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "273",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "274",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "275",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "task_type": "Spatial Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "291",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "292",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "293",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "task_type": "OCR Problems",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "294",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "295",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "296",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "297",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "298",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "299",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "303",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "304",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "305",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "312",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "313",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "314",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "324",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "325",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "task_type": "Temporal Perception",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "326",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "336",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "task_type": "Spatial Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "337",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "338",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "345",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "346",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "347",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "354",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "355",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "task_type": "OCR Problems",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "356",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "task_type": "OCR Problems",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "366",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "367",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "368",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "375",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "376",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "task_type": "OCR Problems",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "377",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "378",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "379",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "380",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "387",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "task_type": "Spatial Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "388",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "389",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "396",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "397",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "398",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "399",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "400",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "401",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "405",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "406",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "407",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "411",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "412",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "413",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "task_type": "Temporal Perception",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "417",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "418",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "419",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "423",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "424",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "425",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "426",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "427",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "428",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "438",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "439",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "440",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "450",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "451",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "452",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "453",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "454",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "455",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "459",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "460",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "461",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "474",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "475",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "476",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "task_type": "Spatial Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "483",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "484",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "485",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "486",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "487",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "488",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "504",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "505",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "506",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "513",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "514",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "task_type": "OCR Problems",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "515",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "516",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "517",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "518",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "522",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "523",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "524",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "531",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "532",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "533",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "543",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "544",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "545",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "549",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "550",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "551",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "558",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "559",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "560",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "576",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "577",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "578",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "579",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "580",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "581",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "594",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "595",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "596",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "600",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "601",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "602",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "606",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "607",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "608",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "621",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "622",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "623",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "624",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "625",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "626",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "627",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "628",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "629",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "639",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "640",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "641",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "654",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "655",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "656",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "660",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "661",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "662",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "666",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "667",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "668",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "669",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "670",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "671",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "672",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "673",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "674",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "699",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "700",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "701",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "702",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "task_type": "OCR Problems",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "703",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "704",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "708",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "709",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "710",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C"
+      }
+    },
+    {
+      "index": "711",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "712",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "713",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    }
+  ],
+  "api_pilot40": [
+    {
+      "index": "219",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "220",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "249",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "258",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "265",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "266",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "274",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "B",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "291",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "303",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "305",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "325",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "task_type": "Temporal Perception",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "326",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "347",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "387",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "task_type": "Spatial Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "427",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "A",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "438",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "439",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Attribute Perception",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "440",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "454",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "task_type": "Action Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "461",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "task_type": "Object Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "483",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "486",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "B",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "524",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "B",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "549",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "558",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "559",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "576",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "579",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "595",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "C",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "596",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "601",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "607",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "626",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "629",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "654",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "B",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "B"
+      }
+    },
+    {
+      "index": "674",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "B",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "704",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "C",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "D"
+      }
+    },
+    {
+      "index": "710",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "C",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "C",
+        "deepseek_independent": "D",
+        "mage_deepseek_review": "C"
+      }
+    },
+    {
+      "index": "711",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "B",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "A"
+      }
+    },
+    {
+      "index": "713",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D",
+        "deepseek_independent": "",
+        "mage_deepseek_review": "A"
+      }
+    }
+  ],
+  "short_smoke6": [
+    {
+      "index": "0",
+      "video_id": "fFjv93ACGo8",
+      "duration": "short",
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "1",
+      "video_id": "fFjv93ACGo8",
+      "duration": "short",
+      "task_type": "Information Synopsis",
+      "gt": "A",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "A",
+        "aligned_sub_v1": "A",
+        "continuous_time_v1": "A"
+      }
+    },
+    {
+      "index": "2",
+      "video_id": "fFjv93ACGo8",
+      "duration": "short",
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    },
+    {
+      "index": "3",
+      "video_id": "HIjX8OPuf-w",
+      "duration": "short",
+      "task_type": "Counting Problem",
+      "gt": "B",
+      "predictions": {
+        "mage_codec_no_sub": "A",
+        "mage_frames32_no_sub": "B",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "4",
+      "video_id": "HIjX8OPuf-w",
+      "duration": "short",
+      "task_type": "Object Recognition",
+      "gt": "C",
+      "predictions": {
+        "mage_codec_no_sub": "C",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "B",
+        "continuous_time_v1": "B"
+      }
+    },
+    {
+      "index": "5",
+      "video_id": "HIjX8OPuf-w",
+      "duration": "short",
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "predictions": {
+        "mage_codec_no_sub": "D",
+        "mage_frames32_no_sub": "D",
+        "aligned_sub_v1": "D",
+        "continuous_time_v1": "D"
+      }
+    }
+  ]
+}

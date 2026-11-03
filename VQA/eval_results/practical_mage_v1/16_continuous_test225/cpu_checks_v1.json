@@ -1,0 +1,31 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "passed_tests": 163,
+  "new_tests": 15,
+  "regression_tests": 148,
+  "test_log_sha256": "626027c9daf9ed456f4f4e3b95a35c2772b068905576c77c7d81d32f960cc66f",
+  "ast_parse": true,
+  "bash_syntax": true,
+  "old_source_files_unchanged": 43,
+  "expected_units": 675,
+  "questions": 225,
+  "videos": 75,
+  "by_duration": {
+    "medium": 114,
+    "long": 111
+  },
+  "subtitle_source_status": {
+    "available": 68,
+    "missing": 7
+  },
+  "new_answer_units": 0,
+  "assistant_inference_calls": 0,
+  "assistant_api_calls": 0,
+  "assistant_video_decodes": 0,
+  "scripts": {
+    "continuous_test225.py": "3562a56a1189934fa1f6e77eda175b6ec74d7da092dc51b72bf044a87b5d3bdd",
+    "run_continuous_test225.sh": "498b28f29c58c0f4b16ec5eceb91b5e5f8d1977b18fbaebb0a2c7d8c223e8afc",
+    "test_continuous_test225.py": "e383bce5fb5effe9c9bcda19eed035d849881e83bfac26c37c83ef2209219473"
+  },
+  "documentation_sha256": "4e661250306ff850ee75e777cf5fbe4421b25beab43bca3b79e903dcdc7ba1c7"
+}

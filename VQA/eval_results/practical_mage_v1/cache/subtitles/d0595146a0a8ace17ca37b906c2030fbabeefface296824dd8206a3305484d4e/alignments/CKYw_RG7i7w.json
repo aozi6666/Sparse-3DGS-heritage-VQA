@@ -1,0 +1,307 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "CKYw_RG7i7w",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/CKYw_RG7i7w.srt",
+      "status": "available",
+      "bytes": 74531,
+      "sha256": "6f72e2238c1a1e1b0d355171f000f00f892b0449f5a5a220f86d5482f9283682",
+      "cues": 662,
+      "nonempty_cues": 662
+    },
+    "frame_indices": [
+      0,
+      1537,
+      3075,
+      4612,
+      6149,
+      7687,
+      9224,
+      10761,
+      12299,
+      13836,
+      15374,
+      16911,
+      18448,
+      19986,
+      21523,
+      23060,
+      24598,
+      26135,
+      27672,
+      29210,
+      30747,
+      32284,
+      33822,
+      35359,
+      36897,
+      38434,
+      39971,
+      41509,
+      43046,
+      44583,
+      46121,
+      47658
+    ],
+    "frame_seconds": [
+      0.0,
+      64.10570799999999,
+      128.253125,
+      192.358833,
+      256.464542,
+      320.611958,
+      384.717667,
+      448.823375,
+      512.970792,
+      577.0765,
+      641.223917,
+      705.329625,
+      769.435333,
+      833.58275,
+      897.688458,
+      961.794167,
+      1025.941583,
+      1090.047292,
+      1154.153,
+      1218.300417,
+      1282.406125,
+      1346.511833,
+      1410.65925,
+      1474.764958,
+      1538.9123749999999,
+      1603.018083,
+      1667.123792,
+      1731.2712080000001,
+      1795.376917,
+      1859.482625,
+      1923.630042,
+      1987.73575
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        21
+      ],
+      [
+        41
+      ],
+      [
+        60
+      ],
+      [
+        84
+      ],
+      [
+        106
+      ],
+      [
+        127
+      ],
+      [],
+      [],
+      [
+        199
+      ],
+      [
+        217
+      ],
+      [],
+      [
+        260
+      ],
+      [
+        284
+      ],
+      [
+        305
+      ],
+      [],
+      [
+        342
+      ],
+      [
+        357
+      ],
+      [
+        374
+      ],
+      [
+        397
+      ],
+      [
+        423
+      ],
+      [],
+      [
+        471
+      ],
+      [
+        493
+      ],
+      [
+        512
+      ],
+      [
+        535
+      ],
+      [
+        559
+      ],
+      [],
+      [
+        605
+      ],
+      [
+        625
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 21,
+        "start_ms": 62062,
+        "end_ms": 64772,
+        "text": "and that's underpinned by an extraordinary"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 127127,
+        "end_ms": 128919,
+        "text": "And that's almost what happened"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 190982,
+        "end_ms": 192859,
+        "text": "by the family conflicts"
+      },
+      {
+        "cue_id": 84,
+        "start_ms": 254837,
+        "end_ms": 257673,
+        "text": "and Maurizio kept the 50%."
+      },
+      {
+        "cue_id": 106,
+        "start_ms": 320153,
+        "end_ms": 322155,
+        "text": "of his vision for Gucci,"
+      },
+      {
+        "cue_id": 127,
+        "start_ms": 384092,
+        "end_ms": 385676,
+        "text": "this is the United States, it's very serious."
+      },
+      {
+        "cue_id": 199,
+        "start_ms": 576659,
+        "end_ms": 578160,
+        "text": "as his financial partner."
+      },
+      {
+        "cue_id": 217,
+        "start_ms": 637053,
+        "end_ms": 642016,
+        "text": "as if he had not been penalized by his father."
+      },
+      {
+        "cue_id": 260,
+        "start_ms": 767308,
+        "end_ms": 769769,
+        "text": "which the company could not afford at the time."
+      },
+      {
+        "cue_id": 284,
+        "start_ms": 831914,
+        "end_ms": 833958,
+        "text": "beyond incapable of executing."
+      },
+      {
+        "cue_id": 305,
+        "start_ms": 894143,
+        "end_ms": 898480,
+        "text": "is perceived in a different way."
+      },
+      {
+        "cue_id": 342,
+        "start_ms": 1023605,
+        "end_ms": 1026191,
+        "text": "until because of a tipster one day,"
+      },
+      {
+        "cue_id": 357,
+        "start_ms": 1089129,
+        "end_ms": 1092049,
+        "text": "But I think that Maurizio's real legacy"
+      },
+      {
+        "cue_id": 374,
+        "start_ms": 1153485,
+        "end_ms": 1155779,
+        "text": "So even though Maurizio wasn't ultimately"
+      },
+      {
+        "cue_id": 397,
+        "start_ms": 1216215,
+        "end_ms": 1218717,
+        "text": "so you're in charge, you know, you do it,"
+      },
+      {
+        "cue_id": 423,
+        "start_ms": 1279945,
+        "end_ms": 1283198,
+        "text": "was totally controlled right across the customer experience."
+      },
+      {
+        "cue_id": 471,
+        "start_ms": 1407280,
+        "end_ms": 1411034,
+        "text": "Sales were up 113%, so we were delighted,"
+      },
+      {
+        "cue_id": 493,
+        "start_ms": 1473388,
+        "end_ms": 1475932,
+        "text": "in the luxury market at the time."
+      },
+      {
+        "cue_id": 512,
+        "start_ms": 1538495,
+        "end_ms": 1541623,
+        "text": "and he called me, told me that LVMH"
+      },
+      {
+        "cue_id": 535,
+        "start_ms": 1598096,
+        "end_ms": 1603059,
+        "text": "without offering a full and fair offer to all shareholders."
+      },
+      {
+        "cue_id": 559,
+        "start_ms": 1666039,
+        "end_ms": 1667582,
+        "text": "I told my story and I explained"
+      },
+      {
+        "cue_id": 605,
+        "start_ms": 1794083,
+        "end_ms": 1796461,
+        "text": "run the company independently for 5 years,"
+      },
+      {
+        "cue_id": 625,
+        "start_ms": 1858106,
+        "end_ms": 1860483,
+        "text": "and I worked with him so closely, you know,"
+      }
+    ],
+    "text": "and that's underpinned by an extraordinary\nAnd that's almost what happened\nby the family conflicts\nand Maurizio kept the 50%.\nof his vision for Gucci,\nthis is the United States, it's very serious.\nas his financial partner.\nas if he had not been penalized by his father.\nwhich the company could not afford at the time.\nbeyond incapable of executing.\nis perceived in a different way.\nuntil because of a tipster one day,\nBut I think that Maurizio's real legacy\nSo even though Maurizio wasn't ultimately\nso you're in charge, you know, you do it,\nwas totally controlled right across the customer experience.\nSales were up 113%, so we were delighted,\nin the luxury market at the time.\nand he called me, told me that LVMH\nwithout offering a full and fair offer to all shareholders.\nI told my story and I explained\nrun the company independently for 5 years,\nand I worked with him so closely, you know,",
+    "text_tokens": 212,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "16d9378a1d420acc04b98a7eefeda4f1ea1b86082e6c3e10c05d41a6f28ec07f"
+}

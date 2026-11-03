@@ -1,0 +1,1437 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "dcYgBU4t98E",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dcYgBU4t98E.srt",
+        "status": "available",
+        "bytes": 13463,
+        "sha256": "16b0d17073fa48f8f0b590c28947fcaf50604f2682cf83e8aa4fbd078fa5232a",
+        "cues": 133,
+        "nonempty_cues": 132
+      },
+      "frame_indices": [
+        0,
+        318,
+        636,
+        954,
+        1272,
+        1590,
+        1908,
+        2226,
+        2545,
+        2863,
+        3181,
+        3499,
+        3817,
+        4135,
+        4453,
+        4771,
+        5089,
+        5407,
+        5725,
+        6043,
+        6361,
+        6679,
+        6997,
+        7315,
+        7634,
+        7952,
+        8270,
+        8588,
+        8906,
+        9224,
+        9542,
+        9860
+      ],
+      "frame_seconds": [
+        0.0,
+        13.26325,
+        26.5265,
+        39.78975,
+        53.053,
+        66.31625,
+        79.5795,
+        92.84275,
+        106.147708,
+        119.410958,
+        132.674208,
+        145.937458,
+        159.200708,
+        172.463958,
+        185.727208,
+        198.990458,
+        212.25370800000002,
+        225.516958,
+        238.78020800000002,
+        252.043458,
+        265.306708,
+        278.569958,
+        291.833208,
+        305.096458,
+        318.401417,
+        331.664667,
+        344.927917,
+        358.191167,
+        371.454417,
+        384.717667,
+        397.980917,
+        411.244167
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          5
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          68
+        ],
+        [
+          72
+        ],
+        [
+          76,
+          77
+        ],
+        [
+          79,
+          80
+        ],
+        [
+          81,
+          82
+        ],
+        [
+          86,
+          87
+        ],
+        [
+          90,
+          91
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          98
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          109,
+          110
+        ],
+        [
+          114
+        ],
+        [],
+        [
+          121
+        ],
+        [
+          123,
+          124
+        ],
+        [
+          127,
+          128
+        ],
+        [
+          132,
+          133
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 5,
+          "start_ms": 11940,
+          "end_ms": 15900,
+          "text": "happier than you look"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 21900,
+          "end_ms": 26760,
+          "text": "no I'm not from Sherwood Pool"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 24960,
+          "end_ms": 28980,
+          "text": "where are you from"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 36360,
+          "end_ms": 41239,
+          "text": "that I know how you feel Joe"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 38160,
+          "end_ms": 41239,
+          "text": "you do yeah"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 48079,
+          "end_ms": 54120,
+          "text": "you gotta try this no I'm okay come on"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52140,
+          "end_ms": 56820,
+          "text": "just one bite all right"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 63719,
+          "end_ms": 68159,
+          "text": "me for go talk to her man no I'm not"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 66180,
+          "end_ms": 70320,
+          "text": "gonna talk to you just dig on you called"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 75659,
+          "end_ms": 81479,
+          "text": "did he liked you though see ya just lay"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 79560,
+          "end_ms": 83460,
+          "text": "some feeling on her how do you mean you"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 87960,
+          "end_ms": 93658,
+          "text": "serious let's not hey people come on now"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 91439,
+          "end_ms": 95960,
+          "text": "smiling you bro keep your girlfriend out"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 102979,
+          "end_ms": 107759,
+          "text": "makes me oh"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 105420,
+          "end_ms": 110759,
+          "text": "somebody help the chicken"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 113820,
+          "end_ms": 120240,
+          "text": "dude have you seen my friend Cody"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 117240,
+          "end_ms": 120240,
+          "text": "no"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 127310,
+          "end_ms": 134879,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 130619,
+          "end_ms": 134879,
+          "text": "how's it going man Cody"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 142020,
+          "end_ms": 147780,
+          "text": "known each other way back since like"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 144480,
+          "end_ms": 148680,
+          "text": "yesterday I think it was got a lot in"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 155500,
+          "end_ms": 161099,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 157020,
+          "end_ms": 163200,
+          "text": "anybody seen the chicken Cody"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 167819,
+          "end_ms": 172700,
+          "text": "kind of dangerous dude the jungle is the"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 169500,
+          "end_ms": 172700,
+          "text": "most peaceful place on the planet"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 179579,
+          "end_ms": 186140,
+          "text": "come across Penguins I'm chicken Joe"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 183360,
+          "end_ms": 189780,
+          "text": "Joseph it's long for Joe"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 198290,
+          "end_ms": 201430,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 210840,
+          "end_ms": 217459,
+          "text": "that kind of hot and steamy"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 222180,
+          "end_ms": 228539,
+          "text": "it was like dinner and a show hey"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 225400,
+          "end_ms": 228539,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 235200,
+          "end_ms": 241099,
+          "text": "as enjoyable as it was I still had a"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 238200,
+          "end_ms": 241099,
+          "text": "vision of my quest"
+        },
+        {
+          "cue_id": 81,
+          "start_ms": 246560,
+          "end_ms": 252900,
+          "text": "I can't so get this on my search for"
+        },
+        {
+          "cue_id": 82,
+          "start_ms": 250319,
+          "end_ms": 254700,
+          "text": "Cody I bump into my hot tub buddies"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 259199,
+          "end_ms": 265320,
+          "text": "something I know memento"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 262440,
+          "end_ms": 267320,
+          "text": "squadito on El stickito"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 274220,
+          "end_ms": 279600,
+          "text": "check it out dude dude have you seen my"
+        },
+        {
+          "cue_id": 91,
+          "start_ms": 277560,
+          "end_ms": 281100,
+          "text": "friend Cody you know he's kind of like a"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 288419,
+          "end_ms": 291900,
+          "text": "really you've been looking for me dude I"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 290639,
+          "end_ms": 296120,
+          "text": "didn't lose you on the whale I'm not"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 299780,
+          "end_ms": 307139,
+          "text": "come on waiting Joe Joe oh I'm sorry I'm"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 314460,
+          "end_ms": 318680,
+          "text": "I'll see you in the lineup then see Joe"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 316620,
+          "end_ms": 321780,
+          "text": "this is gonna be fun"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 328020,
+          "end_ms": 332759,
+          "text": "hey you know you should know this tank"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 330780,
+          "end_ms": 334560,
+          "text": "lipstick"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 340620,
+          "end_ms": 347409,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 369479,
+          "end_ms": 372479,
+          "text": "huh"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 379259,
+          "end_ms": 385319,
+          "text": "beautiful tube"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 382199,
+          "end_ms": 386860,
+          "text": "Evans drops in dude it looks like Evans"
+        },
+        {
+          "cue_id": 127,
+          "start_ms": 392419,
+          "end_ms": 399659,
+          "text": "yeah we're doing Gojo go got it guys can"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 397560,
+          "end_ms": 401699,
+          "text": "we get a few words oh sorry you gave up"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 407159,
+          "end_ms": 413110,
+          "text": "I won"
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 408940,
+          "end_ms": 413110,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "happier than you look\nno I'm not from Sherwood Pool\nwhere are you from\nthat I know how you feel Joe\nyou do yeah\nyou gotta try this no I'm okay come on\njust one bite all right\nme for go talk to her man no I'm not\ngonna talk to you just dig on you called\ndid he liked you though see ya just lay\nsome feeling on her how do you mean you\nserious let's not hey people come on now\nsmiling you bro keep your girlfriend out\nmakes me oh\nsomebody help the chicken\ndude have you seen my friend Cody\nno\n[Music]\nhow's it going man Cody\nknown each other way back since like\nyesterday I think it was got a lot in\n[Music]\nanybody seen the chicken Cody\nkind of dangerous dude the jungle is the\nmost peaceful place on the planet\ncome across Penguins I'm chicken Joe\nJoseph it's long for Joe\n[Applause]\nthat kind of hot and steamy\nit was like dinner and a show hey\n[Music]\nas enjoyable as it was I still had a\nvision of my quest\nI can't so get this on my search for\nCody I bump into my hot tub buddies\nsomething I know memento\nsquadito on El stickito\ncheck it out dude dude have you seen my\nfriend Cody you know he's kind of like a\nreally you've been looking for me dude I\ndidn't lose you on the whale I'm not\ncome on waiting Joe Joe oh I'm sorry I'm\nI'll see you in the lineup then see Joe\nthis is gonna be fun\nhey you know you should know this tank\nlipstick\n[Music]\nhuh\nbeautiful tube\nEvans drops in dude it looks like Evans\nyeah we're doing Gojo go got it guys can\nwe get a few words oh sorry you gave up\nI won\n[Applause]",
+      "text_tokens": 411,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "dcYgBU4t98E",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dcYgBU4t98E.srt",
+          "status": "available",
+          "bytes": 13463,
+          "sha256": "16b0d17073fa48f8f0b590c28947fcaf50604f2682cf83e8aa4fbd078fa5232a",
+          "cues": 133,
+          "nonempty_cues": 132
+        },
+        "frame_indices": [
+          0,
+          318,
+          636,
+          954,
+          1272,
+          1590,
+          1908,
+          2226,
+          2545,
+          2863,
+          3181,
+          3499,
+          3817,
+          4135,
+          4453,
+          4771,
+          5089,
+          5407,
+          5725,
+          6043,
+          6361,
+          6679,
+          6997,
+          7315,
+          7634,
+          7952,
+          8270,
+          8588,
+          8906,
+          9224,
+          9542,
+          9860
+        ],
+        "frame_seconds": [
+          0.0,
+          13.26325,
+          26.5265,
+          39.78975,
+          53.053,
+          66.31625,
+          79.5795,
+          92.84275,
+          106.147708,
+          119.410958,
+          132.674208,
+          145.937458,
+          159.200708,
+          172.463958,
+          185.727208,
+          198.990458,
+          212.25370800000002,
+          225.516958,
+          238.78020800000002,
+          252.043458,
+          265.306708,
+          278.569958,
+          291.833208,
+          305.096458,
+          318.401417,
+          331.664667,
+          344.927917,
+          358.191167,
+          371.454417,
+          384.717667,
+          397.980917,
+          411.244167
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            5
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            45,
+            46
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            59,
+            60
+          ],
+          [
+            63,
+            64
+          ],
+          [
+            68
+          ],
+          [
+            72
+          ],
+          [
+            76,
+            77
+          ],
+          [
+            79,
+            80
+          ],
+          [
+            81,
+            82
+          ],
+          [
+            86,
+            87
+          ],
+          [
+            90,
+            91
+          ],
+          [
+            95,
+            96
+          ],
+          [
+            98
+          ],
+          [
+            103,
+            104
+          ],
+          [
+            109,
+            110
+          ],
+          [
+            114
+          ],
+          [],
+          [
+            121
+          ],
+          [
+            123,
+            124
+          ],
+          [
+            127,
+            128
+          ],
+          [
+            132,
+            133
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 5,
+            "start_ms": 11940,
+            "end_ms": 15900,
+            "text": "happier than you look"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 21900,
+            "end_ms": 26760,
+            "text": "no I'm not from Sherwood Pool"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 24960,
+            "end_ms": 28980,
+            "text": "where are you from"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 36360,
+            "end_ms": 41239,
+            "text": "that I know how you feel Joe"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 38160,
+            "end_ms": 41239,
+            "text": "you do yeah"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 48079,
+            "end_ms": 54120,
+            "text": "you gotta try this no I'm okay come on"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52140,
+            "end_ms": 56820,
+            "text": "just one bite all right"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 63719,
+            "end_ms": 68159,
+            "text": "me for go talk to her man no I'm not"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 66180,
+            "end_ms": 70320,
+            "text": "gonna talk to you just dig on you called"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 75659,
+            "end_ms": 81479,
+            "text": "did he liked you though see ya just lay"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 79560,
+            "end_ms": 83460,
+            "text": "some feeling on her how do you mean you"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 87960,
+            "end_ms": 93658,
+            "text": "serious let's not hey people come on now"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 91439,
+            "end_ms": 95960,
+            "text": "smiling you bro keep your girlfriend out"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 102979,
+            "end_ms": 107759,
+            "text": "makes me oh"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 105420,
+            "end_ms": 110759,
+            "text": "somebody help the chicken"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 113820,
+            "end_ms": 120240,
+            "text": "dude have you seen my friend Cody"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 117240,
+            "end_ms": 120240,
+            "text": "no"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 127310,
+            "end_ms": 134879,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 130619,
+            "end_ms": 134879,
+            "text": "how's it going man Cody"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 142020,
+            "end_ms": 147780,
+            "text": "known each other way back since like"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 144480,
+            "end_ms": 148680,
+            "text": "yesterday I think it was got a lot in"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 155500,
+            "end_ms": 161099,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 157020,
+            "end_ms": 163200,
+            "text": "anybody seen the chicken Cody"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 167819,
+            "end_ms": 172700,
+            "text": "kind of dangerous dude the jungle is the"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 169500,
+            "end_ms": 172700,
+            "text": "most peaceful place on the planet"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 179579,
+            "end_ms": 186140,
+            "text": "come across Penguins I'm chicken Joe"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 183360,
+            "end_ms": 189780,
+            "text": "Joseph it's long for Joe"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 198290,
+            "end_ms": 201430,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 210840,
+            "end_ms": 217459,
+            "text": "that kind of hot and steamy"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 222180,
+            "end_ms": 228539,
+            "text": "it was like dinner and a show hey"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 225400,
+            "end_ms": 228539,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 235200,
+            "end_ms": 241099,
+            "text": "as enjoyable as it was I still had a"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 238200,
+            "end_ms": 241099,
+            "text": "vision of my quest"
+          },
+          {
+            "cue_id": 81,
+            "start_ms": 246560,
+            "end_ms": 252900,
+            "text": "I can't so get this on my search for"
+          },
+          {
+            "cue_id": 82,
+            "start_ms": 250319,
+            "end_ms": 254700,
+            "text": "Cody I bump into my hot tub buddies"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 259199,
+            "end_ms": 265320,
+            "text": "something I know memento"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 262440,
+            "end_ms": 267320,
+            "text": "squadito on El stickito"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 274220,
+            "end_ms": 279600,
+            "text": "check it out dude dude have you seen my"
+          },
+          {
+            "cue_id": 91,
+            "start_ms": 277560,
+            "end_ms": 281100,
+            "text": "friend Cody you know he's kind of like a"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 288419,
+            "end_ms": 291900,
+            "text": "really you've been looking for me dude I"
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 290639,
+            "end_ms": 296120,
+            "text": "didn't lose you on the whale I'm not"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 299780,
+            "end_ms": 307139,
+            "text": "come on waiting Joe Joe oh I'm sorry I'm"
+          },
+          {
+            "cue_id": 103,
+            "start_ms": 314460,
+            "end_ms": 318680,
+            "text": "I'll see you in the lineup then see Joe"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 316620,
+            "end_ms": 321780,
+            "text": "this is gonna be fun"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 328020,
+            "end_ms": 332759,
+            "text": "hey you know you should know this tank"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 330780,
+            "end_ms": 334560,
+            "text": "lipstick"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 340620,
+            "end_ms": 347409,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 369479,
+            "end_ms": 372479,
+            "text": "huh"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 379259,
+            "end_ms": 385319,
+            "text": "beautiful tube"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 382199,
+            "end_ms": 386860,
+            "text": "Evans drops in dude it looks like Evans"
+          },
+          {
+            "cue_id": 127,
+            "start_ms": 392419,
+            "end_ms": 399659,
+            "text": "yeah we're doing Gojo go got it guys can"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 397560,
+            "end_ms": 401699,
+            "text": "we get a few words oh sorry you gave up"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 407159,
+            "end_ms": 413110,
+            "text": "I won"
+          },
+          {
+            "cue_id": 133,
+            "start_ms": 408940,
+            "end_ms": 413110,
+            "text": "[Applause]"
+          }
+        ],
+        "text": "happier than you look\nno I'm not from Sherwood Pool\nwhere are you from\nthat I know how you feel Joe\nyou do yeah\nyou gotta try this no I'm okay come on\njust one bite all right\nme for go talk to her man no I'm not\ngonna talk to you just dig on you called\ndid he liked you though see ya just lay\nsome feeling on her how do you mean you\nserious let's not hey people come on now\nsmiling you bro keep your girlfriend out\nmakes me oh\nsomebody help the chicken\ndude have you seen my friend Cody\nno\n[Music]\nhow's it going man Cody\nknown each other way back since like\nyesterday I think it was got a lot in\n[Music]\nanybody seen the chicken Cody\nkind of dangerous dude the jungle is the\nmost peaceful place on the planet\ncome across Penguins I'm chicken Joe\nJoseph it's long for Joe\n[Applause]\nthat kind of hot and steamy\nit was like dinner and a show hey\n[Music]\nas enjoyable as it was I still had a\nvision of my quest\nI can't so get this on my search for\nCody I bump into my hot tub buddies\nsomething I know memento\nsquadito on El stickito\ncheck it out dude dude have you seen my\nfriend Cody you know he's kind of like a\nreally you've been looking for me dude I\ndidn't lose you on the whale I'm not\ncome on waiting Joe Joe oh I'm sorry I'm\nI'll see you in the lineup then see Joe\nthis is gonna be fun\nhey you know you should know this tank\nlipstick\n[Music]\nhuh\nbeautiful tube\nEvans drops in dude it looks like Evans\nyeah we're doing Gojo go got it guys can\nwe get a few words oh sorry you gave up\nI won\n[Applause]",
+        "text_tokens": 411,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6
+          ],
+          "start_ms": 7799,
+          "end_ms": 19020,
+          "text": "freeze happier than you look man we did it thank you she didn't work"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 19020,
+          "end_ms": 32340,
+          "text": "my name's Cody Maverick shiverpool you no I'm not from Sherwood Pool where are you from dude I'm from Lake Michigan that's where"
+        },
+        {
+          "id": "S14",
+          "cue_ids": [
+            14,
+            15,
+            16
+          ],
+          "start_ms": 34559,
+          "end_ms": 41239,
+          "text": "thought it was crazy but I'm used to that I know how you feel Joe you do yeah"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 44660,
+          "end_ms": 59460,
+          "text": "let's freeze somebody help the chicken you gotta try this no I'm okay come on just one bite all right one bite that's it"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "start_ms": 60899,
+          "end_ms": 71119,
+          "text": "yeah what are you standing here next to me for go talk to her man no I'm not gonna talk to you just dig on you called you crap joke you're gonna kiss her or"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 73619,
+          "end_ms": 85680,
+          "text": "were in love all right look he really did he liked you though see ya just lay some feeling on her how do you mean you know through words through walk me"
+        },
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35,
+            36,
+            37
+          ],
+          "start_ms": 85680,
+          "end_ms": 95960,
+          "text": "me you sure about that I get real serious let's not hey people come on now smiling you bro keep your girlfriend out of this"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40
+          ],
+          "start_ms": 102979,
+          "end_ms": 110759,
+          "text": "makes me oh somebody help the chicken Cody"
+        },
+        {
+          "id": "S41",
+          "cue_ids": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "start_ms": 113820,
+          "end_ms": 139739,
+          "text": "dude have you seen my friend Cody no cutie he's not under there [Music] how's it going man Cody that's cool"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "start_ms": 139739,
+          "end_ms": 152360,
+          "text": "here uh looking for Cody you know we've known each other way back since like yesterday I think it was got a lot in common"
+        },
+        {
+          "id": "S54",
+          "cue_ids": [
+            54,
+            55,
+            56
+          ],
+          "start_ms": 155500,
+          "end_ms": 165660,
+          "text": "[Music] anybody seen the chicken Cody no he's out here"
+        },
+        {
+          "id": "S58",
+          "cue_ids": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "start_ms": 165660,
+          "end_ms": 191900,
+          "text": "nervous out here Joe and the jungle it's kind of dangerous dude the jungle is the most peaceful place on the planet oh so it's day three yeah I uh come across Penguins I'm chicken Joe Joseph it's long for Joe sweet man and uh you know treat me as"
+        },
+        {
+          "id": "S68",
+          "cue_ids": [
+            68,
+            69
+          ],
+          "start_ms": 198290,
+          "end_ms": 206680,
+          "text": "[Applause] thank you"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73
+          ],
+          "start_ms": 206680,
+          "end_ms": 217459,
+          "text": "[Music] that kind of hot and steamy but really opened up my pores you know"
+        },
+        {
+          "id": "S75",
+          "cue_ids": [
+            75,
+            76,
+            77
+          ],
+          "start_ms": 219780,
+          "end_ms": 228539,
+          "text": "me food while I was in there it was like dinner and a show hey [Music]"
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79,
+            80
+          ],
+          "start_ms": 231500,
+          "end_ms": 241099,
+          "text": "[Music] as enjoyable as it was I still had a vision of my quest"
+        },
+        {
+          "id": "S81",
+          "cue_ids": [
+            81,
+            82,
+            83
+          ],
+          "start_ms": 246560,
+          "end_ms": 257279,
+          "text": "I can't so get this on my search for Cody I bump into my hot tub buddies again"
+        },
+        {
+          "id": "S85",
+          "cue_ids": [
+            85,
+            86,
+            87,
+            88
+          ],
+          "start_ms": 257279,
+          "end_ms": 267320,
+          "text": "you probably got the munchies or something I know memento squadito on El stickito um"
+        },
+        {
+          "id": "S90",
+          "cue_ids": [
+            90,
+            91,
+            92
+          ],
+          "start_ms": 274220,
+          "end_ms": 283159,
+          "text": "check it out dude dude have you seen my friend Cody you know he's kind of like a penguin"
+        },
+        {
+          "id": "S94",
+          "cue_ids": [
+            94,
+            95,
+            96,
+            97
+          ],
+          "start_ms": 285199,
+          "end_ms": 296120,
+          "text": "go I've been looking everywhere for you really you've been looking for me dude I didn't lose you on the whale I'm not gonna lose you now thank you seriously"
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99
+          ],
+          "start_ms": 299780,
+          "end_ms": 311160,
+          "text": "come on waiting Joe Joe oh I'm sorry I'm watch this dude I can speak their"
+        },
+        {
+          "id": "S102",
+          "cue_ids": [
+            102,
+            103,
+            104,
+            105
+          ],
+          "start_ms": 313199,
+          "end_ms": 323820,
+          "text": "even know where it is I gotta go find it I'll see you in the lineup then see Joe this is gonna be fun and chicken Joe from Sheboygan who would"
+        },
+        {
+          "id": "S108",
+          "cue_ids": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "start_ms": 325380,
+          "end_ms": 335360,
+          "text": "exciting yeah look at that this is great hey you know you should know this tank lipstick looks like this will be the easiest year"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115
+          ],
+          "start_ms": 335360,
+          "end_ms": 355620,
+          "text": "oh no way go to here that's gonna be [Music] cloud looks just like a kitten oh it's"
+        },
+        {
+          "id": "S120",
+          "cue_ids": [
+            120,
+            121
+          ],
+          "start_ms": 366240,
+          "end_ms": 372479,
+          "text": "chicken huh"
+        },
+        {
+          "id": "S122",
+          "cue_ids": [
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129
+          ],
+          "start_ms": 376199,
+          "end_ms": 404039,
+          "text": "this wave is stacking up to be a beautiful tube Evans drops in dude it looks like Evans is gonna take out the chicken [Music] yeah we're doing Gojo go got it guys can we get a few words oh sorry you gave up the trophy to help Joe man what's that"
+        },
+        {
+          "id": "S131",
+          "cue_ids": [
+            131,
+            132,
+            133
+          ],
+          "start_ms": 404039,
+          "end_ms": 413110,
+          "text": "what friends do how's it feel to win Joe I won [Applause]"
+        }
+      ],
+      "text": "S4 [00:00:07.799 --> 00:00:19.020] freeze happier than you look man we did it thank you she didn't work\nS8 [00:00:19.020 --> 00:00:32.340] my name's Cody Maverick shiverpool you no I'm not from Sherwood Pool where are you from dude I'm from Lake Michigan that's where\nS14 [00:00:34.559 --> 00:00:41.239] thought it was crazy but I'm used to that I know how you feel Joe you do yeah\nS17 [00:00:44.660 --> 00:00:59.460] let's freeze somebody help the chicken you gotta try this no I'm okay come on just one bite all right one bite that's it\nS23 [00:01:00.899 --> 00:01:11.119] yeah what are you standing here next to me for go talk to her man no I'm not gonna talk to you just dig on you called you crap joke you're gonna kiss her or\nS29 [00:01:13.619 --> 00:01:25.680] were in love all right look he really did he liked you though see ya just lay some feeling on her how do you mean you know through words through walk me\nS34 [00:01:25.680 --> 00:01:35.960] me you sure about that I get real serious let's not hey people come on now smiling you bro keep your girlfriend out of this\nS38 [00:01:42.979 --> 00:01:50.759] makes me oh somebody help the chicken Cody\nS41 [00:01:53.820 --> 00:02:19.739] dude have you seen my friend Cody no cutie he's not under there [Music] how's it going man Cody that's cool\nS49 [00:02:19.739 --> 00:02:32.360] here uh looking for Cody you know we've known each other way back since like yesterday I think it was got a lot in common\nS54 [00:02:35.500 --> 00:02:45.660] [Music] anybody seen the chicken Cody no he's out here\nS58 [00:02:45.660 --> 00:03:11.900] nervous out here Joe and the jungle it's kind of dangerous dude the jungle is the most peaceful place on the planet oh so it's day three yeah I uh come across Penguins I'm chicken Joe Joseph it's long for Joe sweet man and uh you know treat me as\nS68 [00:03:18.290 --> 00:03:26.680] [Applause] thank you\nS71 [00:03:26.680 --> 00:03:37.459] [Music] that kind of hot and steamy but really opened up my pores you know\nS75 [00:03:39.780 --> 00:03:48.539] me food while I was in there it was like dinner and a show hey [Music]\nS78 [00:03:51.500 --> 00:04:01.099] [Music] as enjoyable as it was I still had a vision of my quest\nS81 [00:04:06.560 --> 00:04:17.279] I can't so get this on my search for Cody I bump into my hot tub buddies again\nS85 [00:04:17.279 --> 00:04:27.320] you probably got the munchies or something I know memento squadito on El stickito um\nS90 [00:04:34.220 --> 00:04:43.159] check it out dude dude have you seen my friend Cody you know he's kind of like a penguin\nS94 [00:04:45.199 --> 00:04:56.120] go I've been looking everywhere for you really you've been looking for me dude I didn't lose you on the whale I'm not gonna lose you now thank you seriously\nS98 [00:04:59.780 --> 00:05:11.160] come on waiting Joe Joe oh I'm sorry I'm watch this dude I can speak their\nS102 [00:05:13.199 --> 00:05:23.820] even know where it is I gotta go find it I'll see you in the lineup then see Joe this is gonna be fun and chicken Joe from Sheboygan who would\nS108 [00:05:25.380 --> 00:05:35.360] exciting yeah look at that this is great hey you know you should know this tank lipstick looks like this will be the easiest year\nS113 [00:05:35.360 --> 00:05:55.620] oh no way go to here that's gonna be [Music] cloud looks just like a kitten oh it's\nS120 [00:06:06.240 --> 00:06:12.479] chicken huh\nS122 [00:06:16.199 --> 00:06:44.039] this wave is stacking up to be a beautiful tube Evans drops in dude it looks like Evans is gonna take out the chicken [Music] yeah we're doing Gojo go got it guys can we get a few words oh sorry you gave up the trophy to help Joe man what's that\nS131 [00:06:44.039 --> 00:06:53.110] what friends do how's it feel to win Joe I won [Applause]",
+      "text_tokens": 1508,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        4,
+        6,
+        8,
+        11,
+        14,
+        17,
+        20,
+        23,
+        26,
+        29,
+        32,
+        34,
+        37,
+        40,
+        43,
+        44,
+        47,
+        49,
+        52,
+        56,
+        58,
+        61,
+        62,
+        65,
+        69,
+        71,
+        73,
+        75,
+        78,
+        83,
+        85,
+        88,
+        92,
+        94,
+        97,
+        99,
+        102,
+        105,
+        108,
+        111,
+        113,
+        115,
+        120,
+        122,
+        125,
+        126,
+        129,
+        131
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "0d61c322fbf303270c4ee682ec3424a0dcc0f3e99bf1c0b14f3c3bbe8acf4076"
+}

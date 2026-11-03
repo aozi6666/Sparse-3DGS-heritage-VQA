@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "79fe2e71fa441c2e08d6f1fee29f056bd5cb9ba6141ba272e99ba14f95d2c77e",
+  "response": {
+    "id": "64dc2019-787f-4114-b29e-ef2e35bb9a17",
+    "object": "chat.completion",
+    "created": 1793676116,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"D\",\"supported\":true,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S604\",\"quote\":\"oh my God I completely forgot we are doing a giveaway as I was editing\"},{\"block_id\":\"S627\",\"quote\":\"also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone\"},{\"block_id\":\"S651\",\"quote\":\"two lers again one with a 10.5 shoe size and one with a 7.5 shoe size\"}],\"frame_ids\":[\"F44590\",\"F46182\",\"F47775\"],\"windows\":[{\"start\":1788.0,\"end\":1796.0},{\"start\":1855.0,\"end\":1863.0}],\"notes\":\"F44590 on-screen giveaway list shows order: 1 Gatorade merch, 2 MIAM book, 3 Garmin watch, 4 Shokz run belt. S627 confirms Shokz race belt after the book/watch items; S651 mentions Adidas shoe sizes, and F46182 shows Adidas box plus book and Gatorade bottles. This supports D's order (Gatorade, MIAM book, Garmin watch, Shokz run belt, Adidas runners, Rudy shades), though the Rudy shades position is not directly evidenced in the supplied frames.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9400,
+      "completion_tokens": 295,
+      "total_tokens": 9695,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9272
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.2800723295658827
+}

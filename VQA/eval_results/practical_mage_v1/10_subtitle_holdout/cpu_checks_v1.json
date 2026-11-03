@@ -1,0 +1,40 @@
+{
+  "version": "subtitle_holdout_cpu_checks_v1",
+  "date": "2026-11-03 Asia/Shanghai",
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "unit_tests_passed": 78,
+  "new_unit_tests": 21,
+  "old_regressions": 57,
+  "shell_syntax_passed": true,
+  "ast_passed": true,
+  "init_preflight_passed": true,
+  "init_idempotent": true,
+  "torch_and_transformers_not_imported": true,
+  "no_model_loading_or_video_decoding_or_inference": true,
+  "validation_units": 0,
+  "source_videos": 30,
+  "available_srt_videos": 27,
+  "missing_srt_videos": 3,
+  "old_scripts_unchanged": {
+    "practical_common.py": "099b6932b6da4733e9cd06b4f4c7f41f889241eb4b7fa6d9753fab5ac14320a9",
+    "practical_vote.py": "f00fc93fd57ac616d27d56dc420a2726e5f5b3edba9593b9bf7fa42b28106acb",
+    "practical_analyze.py": "a3a0236482f6ebff1be5851022cd54685b3557052ec6e73562b26fae963640d6",
+    "practical_coverage.py": "67a2bf69435193c8e9ad55256e886bd5607123bbce67d7956fc8658d4dc9c39e",
+    "subtitle_common.py": "f365238d5b4e28ca152c2394a1ff2171e7895dba3dc035c40dc1c24bcce8f852",
+    "practical_subtitles.py": "e016119702ea05a192686c867bf5d9532375daac550dd8f4cef40633e71ec2e1",
+    "subtitle_analyze.py": "720f35ec48517897a22cc1ed909a319c8de9f9300a124a756d0a46ff91b07647",
+    "run_practical_subtitles.sh": "42041cacdfd85f0e0f93e7fc50d83403650dc731ef245d5e586da163cbdc6787"
+  },
+  "new_scripts_sha256": {
+    "subtitle_holdout.py": "5032c94eb2d968609952617afefa1a52a9bdf6232e568b3a7ee52babf22d6fbf",
+    "subtitle_holdout_analyze.py": "66c866fb1ea3b768c0a78e5a92ab13ad0a53425cd8207df40ae71afd7534a1b1",
+    "test_subtitle_holdout.py": "10f42539d2cf9cc34325ddd21137b511b8cc9dba479d7872e651f82d46bb7f7f",
+    "run_subtitle_holdout.sh": "c8c181582fbbf4bdf8fd5044259b0694780daeb8f6679827ff20f1cfc0742164"
+  },
+  "readme_sha256": "f0719e9a4e3eb5617a1794fa9b68db3f3c5de65b8788805db1fa41077e34b16e",
+  "docs_sha256": {
+    "PLAN_r2v_practical_accuracy_gain.md": "7333ba6a9043182cdd2c178742a564c0869a3b637aa8607b9a2d5d14b1863eca",
+    "SUMMARY_heritage_mage_aligned_subtitles.md": "24df63c204ba6971712c377eca3273a96dc7566cc54ad75e5808b4006d2eede0"
+  },
+  "development_archive_sha256": "67b9045d09a146603eea4cadb72f61278f34b22886b19b7a483b01c42dfc3562"
+}

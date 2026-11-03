@@ -1,0 +1,291 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "eAIKvD_gLJo",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eAIKvD_gLJo.srt",
+      "status": "available",
+      "bytes": 74348,
+      "sha256": "eafde9e18c09fa328f9aacd7c75fe8a1f3271d40496c14917ec4c48bb5e7f3a9",
+      "cues": 616,
+      "nonempty_cues": 616
+    },
+    "frame_indices": [
+      0,
+      2053,
+      4106,
+      6159,
+      8213,
+      10266,
+      12319,
+      14372,
+      16425,
+      18478,
+      20532,
+      22585,
+      24638,
+      26691,
+      28744,
+      30797,
+      32851,
+      34904,
+      36957,
+      39010,
+      41063,
+      43116,
+      45170,
+      47223,
+      49276,
+      51329,
+      53382,
+      55435,
+      57489,
+      59542,
+      61595,
+      63648
+    ],
+    "frame_seconds": [
+      0.0,
+      82.12,
+      164.24,
+      246.36,
+      328.52,
+      410.64,
+      492.76,
+      574.88,
+      657.0,
+      739.12,
+      821.28,
+      903.4,
+      985.52,
+      1067.64,
+      1149.76,
+      1231.88,
+      1314.04,
+      1396.16,
+      1478.28,
+      1560.4,
+      1642.52,
+      1724.64,
+      1806.8,
+      1888.92,
+      1971.04,
+      2053.16,
+      2135.28,
+      2217.4,
+      2299.56,
+      2381.68,
+      2463.8,
+      2545.92
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        23
+      ],
+      [
+        45
+      ],
+      [
+        69
+      ],
+      [
+        91
+      ],
+      [],
+      [
+        133
+      ],
+      [],
+      [
+        172
+      ],
+      [],
+      [
+        208
+      ],
+      [
+        233
+      ],
+      [
+        253
+      ],
+      [],
+      [
+        291
+      ],
+      [
+        307
+      ],
+      [
+        327
+      ],
+      [
+        344
+      ],
+      [
+        363
+      ],
+      [
+        384
+      ],
+      [],
+      [
+        427
+      ],
+      [
+        447
+      ],
+      [
+        465
+      ],
+      [],
+      [],
+      [],
+      [
+        537
+      ],
+      [
+        558
+      ],
+      [
+        578
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 23,
+        "start_ms": 78280,
+        "end_ms": 82680,
+        "text": "Influencers show how to use facial rollers and Gua Sha stones."
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 162240,
+        "end_ms": 164320,
+        "text": "She uses them while meditating."
+      },
+      {
+        "cue_id": 69,
+        "start_ms": 244360,
+        "end_ms": 246600,
+        "text": "or the famous gypsum selenite."
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 326600,
+        "end_ms": 328920,
+        "text": "But where exactly do they come from?"
+      },
+      {
+        "cue_id": 133,
+        "start_ms": 491040,
+        "end_ms": 493800,
+        "text": "To find out, we asked large German companies"
+      },
+      {
+        "cue_id": 172,
+        "start_ms": 654320,
+        "end_ms": 658280,
+        "text": "It protects them, it protects each of us and our jobs."
+      },
+      {
+        "cue_id": 208,
+        "start_ms": 819760,
+        "end_ms": 825240,
+        "text": "about their numbers or their identity."
+      },
+      {
+        "cue_id": 233,
+        "start_ms": 901240,
+        "end_ms": 904720,
+        "text": "We want to find out what routes the rose quartz takes —"
+      },
+      {
+        "cue_id": 253,
+        "start_ms": 984520,
+        "end_ms": 986720,
+        "text": "Olivia had to go into quarantine."
+      },
+      {
+        "cue_id": 291,
+        "start_ms": 1148760,
+        "end_ms": 1152320,
+        "text": "prohibit anyone under the age of 18 from working in them."
+      },
+      {
+        "cue_id": 307,
+        "start_ms": 1229440,
+        "end_ms": 1232280,
+        "text": "Often parents cannot afford the school fees,"
+      },
+      {
+        "cue_id": 327,
+        "start_ms": 1314040,
+        "end_ms": 1317800,
+        "text": "Here we just dig it up and then people abroad make something like this."
+      },
+      {
+        "cue_id": 344,
+        "start_ms": 1395160,
+        "end_ms": 1398600,
+        "text": "According to estimates, nearly half of children in Madagascar"
+      },
+      {
+        "cue_id": 363,
+        "start_ms": 1476400,
+        "end_ms": 1479280,
+        "text": "But because of this poverty they will have to work there."
+      },
+      {
+        "cue_id": 384,
+        "start_ms": 1558480,
+        "end_ms": 1560640,
+        "text": "and that we have to go back to Germany."
+      },
+      {
+        "cue_id": 427,
+        "start_ms": 1723560,
+        "end_ms": 1726320,
+        "text": "But for that, they’d need a permit from the state."
+      },
+      {
+        "cue_id": 447,
+        "start_ms": 1806200,
+        "end_ms": 1809400,
+        "text": "An order from India. We will load this on Saturday."
+      },
+      {
+        "cue_id": 465,
+        "start_ms": 1886760,
+        "end_ms": 1890760,
+        "text": "Instead, they usually go to China or India, where they are processed."
+      },
+      {
+        "cue_id": 537,
+        "start_ms": 2215640,
+        "end_ms": 2218400,
+        "text": "What do you think about the working conditions in the mines?"
+      },
+      {
+        "cue_id": 558,
+        "start_ms": 2298000,
+        "end_ms": 2301640,
+        "text": "The law is supposed to force German companies to ensure labor law"
+      },
+      {
+        "cue_id": 578,
+        "start_ms": 2381400,
+        "end_ms": 2383600,
+        "text": "The new law obliges German companies"
+      }
+    ],
+    "text": "Influencers show how to use facial rollers and Gua Sha stones.\nShe uses them while meditating.\nor the famous gypsum selenite.\nBut where exactly do they come from?\nTo find out, we asked large German companies\nIt protects them, it protects each of us and our jobs.\nabout their numbers or their identity.\nWe want to find out what routes the rose quartz takes —\nOlivia had to go into quarantine.\nprohibit anyone under the age of 18 from working in them.\nOften parents cannot afford the school fees,\nHere we just dig it up and then people abroad make something like this.\nAccording to estimates, nearly half of children in Madagascar\nBut because of this poverty they will have to work there.\nand that we have to go back to Germany.\nBut for that, they’d need a permit from the state.\nAn order from India. We will load this on Saturday.\nInstead, they usually go to China or India, where they are processed.\nWhat do you think about the working conditions in the mines?\nThe law is supposed to force German companies to ensure labor law\nThe new law obliges German companies",
+    "text_tokens": 232,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "7aab1b13458d00ebf252f8d93e50f24f5aab204b178860c48c4e9f40f2bd4d0b"
+}

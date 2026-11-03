@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "3696e0871fefe2c5a64c3fca7883206055c2d45900b11a571db7c5a8bd5a8ebc",
+  "response": {
+    "id": "32753559-888a-441c-9485-8edf12f61d33",
+    "object": "chat.completion",
+    "created": 1793676054,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"D\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[],\"frame_ids\":[\"F4580\",\"F13741\",\"F16031\",\"F27482\",\"F29772\",\"F41223\",\"F48093\",\"F54964\",\"F57254\",\"F59544\",\"F64125\",\"F66415\"],\"windows\":[],\"notes\":\"The woman in pink is consistently shown seated on the bench holding a green bat, not pitching; no frame shows her pitching a ball.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9127,
+      "completion_tokens": 108,
+      "total_tokens": 9235,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 8999
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.7313790135085583
+}

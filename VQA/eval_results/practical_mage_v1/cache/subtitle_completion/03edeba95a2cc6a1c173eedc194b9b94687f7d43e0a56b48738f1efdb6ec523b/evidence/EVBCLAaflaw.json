@@ -1,0 +1,1551 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "EVBCLAaflaw",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EVBCLAaflaw.srt",
+        "status": "available",
+        "bytes": 131828,
+        "sha256": "ab0f71c60c848c59388c88d4fbe22894a00d6efc2124779fb65222472e8f8f33",
+        "cues": 1265,
+        "nonempty_cues": 1265
+      },
+      "frame_indices": [
+        0,
+        2458,
+        4915,
+        7373,
+        9830,
+        12288,
+        14745,
+        17203,
+        19660,
+        22118,
+        24575,
+        27033,
+        29491,
+        31948,
+        34406,
+        36863,
+        39321,
+        41778,
+        44236,
+        46693,
+        49151,
+        51609,
+        54066,
+        56524,
+        58981,
+        61439,
+        63896,
+        66354,
+        68811,
+        71269,
+        73726,
+        76184
+      ],
+      "frame_seconds": [
+        0.0,
+        98.32,
+        196.6,
+        294.92,
+        393.2,
+        491.52,
+        589.8,
+        688.12,
+        786.4,
+        884.72,
+        983.0,
+        1081.32,
+        1179.64,
+        1277.92,
+        1376.24,
+        1474.52,
+        1572.84,
+        1671.12,
+        1769.44,
+        1867.72,
+        1966.04,
+        2064.36,
+        2162.64,
+        2260.96,
+        2359.24,
+        2457.56,
+        2555.84,
+        2654.16,
+        2752.44,
+        2850.76,
+        2949.04,
+        3047.36
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          30,
+          31
+        ],
+        [
+          67,
+          68
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          140,
+          141
+        ],
+        [
+          177
+        ],
+        [
+          207,
+          208
+        ],
+        [
+          245,
+          246
+        ],
+        [
+          285,
+          286
+        ],
+        [
+          328,
+          329
+        ],
+        [
+          368,
+          369
+        ],
+        [
+          409,
+          410
+        ],
+        [
+          448,
+          449
+        ],
+        [
+          487,
+          488
+        ],
+        [
+          531,
+          532
+        ],
+        [
+          574,
+          575
+        ],
+        [
+          619,
+          620
+        ],
+        [
+          664,
+          665
+        ],
+        [
+          703
+        ],
+        [
+          746
+        ],
+        [
+          787,
+          788
+        ],
+        [
+          830,
+          831
+        ],
+        [
+          868,
+          869
+        ],
+        [
+          914,
+          915
+        ],
+        [
+          958,
+          959
+        ],
+        [
+          1002,
+          1003
+        ],
+        [
+          1047,
+          1048
+        ],
+        [
+          1090,
+          1091
+        ],
+        [
+          1137,
+          1138
+        ],
+        [
+          1181,
+          1182
+        ],
+        [
+          1226,
+          1227
+        ],
+        [
+          1265
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 30,
+          "start_ms": 94680,
+          "end_ms": 100400,
+          "text": "extraterrestrial intelligence"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 98158,
+          "end_ms": 102320,
+          "text": "in this vastness it would seem that"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 193200,
+          "end_ms": 197360,
+          "text": "think are good and if that happens it'll"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 195040,
+          "end_ms": 198890,
+          "text": "happen in the next 20 years depending on"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 290479,
+          "end_ms": 298400,
+          "text": "and we would have been born the last day"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 292720,
+          "end_ms": 298400,
+          "text": "of the year december 31st at 11 39"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 389039,
+          "end_ms": 393440,
+          "text": "on how many of them have cooked up their"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 391039,
+          "end_ms": 396400,
+          "text": "own life"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 487430,
+          "end_ms": 495559,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 207,
+          "start_ms": 585040,
+          "end_ms": 590880,
+          "text": "music from around the world"
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 587120,
+          "end_ms": 593040,
+          "text": "greetings in 55 languages a 12-minute"
+        },
+        {
+          "cue_id": 245,
+          "start_ms": 682959,
+          "end_ms": 689519,
+          "text": "seti as a scientific exploration"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 686000,
+          "end_ms": 690640,
+          "text": "actually got its start within nasa in"
+        },
+        {
+          "cue_id": 285,
+          "start_ms": 783440,
+          "end_ms": 788720,
+          "text": "everywhere and then at one spot you're"
+        },
+        {
+          "cue_id": 286,
+          "start_ms": 785040,
+          "end_ms": 790399,
+          "text": "near and there's a station okay that's"
+        },
+        {
+          "cue_id": 328,
+          "start_ms": 881279,
+          "end_ms": 887199,
+          "text": "it was started in 1999 by astronomers at"
+        },
+        {
+          "cue_id": 329,
+          "start_ms": 884160,
+          "end_ms": 889360,
+          "text": "the university of california in berkeley"
+        },
+        {
+          "cue_id": 368,
+          "start_ms": 980399,
+          "end_ms": 985440,
+          "text": "kepler now can tell us"
+        },
+        {
+          "cue_id": 369,
+          "start_ms": 982800,
+          "end_ms": 988399,
+          "text": "which stars have planets around them and"
+        },
+        {
+          "cue_id": 409,
+          "start_ms": 1078080,
+          "end_ms": 1083440,
+          "text": "issues most central to determining how"
+        },
+        {
+          "cue_id": 410,
+          "start_ms": 1080880,
+          "end_ms": 1087200,
+          "text": "many civilizations are there out there"
+        },
+        {
+          "cue_id": 448,
+          "start_ms": 1175039,
+          "end_ms": 1181840,
+          "text": "will we survive as a a technologically"
+        },
+        {
+          "cue_id": 449,
+          "start_ms": 1179200,
+          "end_ms": 1184240,
+          "text": "adolescent civilization will we last"
+        },
+        {
+          "cue_id": 487,
+          "start_ms": 1273280,
+          "end_ms": 1278320,
+          "text": "optimistic"
+        },
+        {
+          "cue_id": 488,
+          "start_ms": 1275120,
+          "end_ms": 1280240,
+          "text": "he said probably a million was his guess"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1374400,
+          "end_ms": 1378480,
+          "text": "and some scientists believe that the"
+        },
+        {
+          "cue_id": 532,
+          "start_ms": 1376080,
+          "end_ms": 1380080,
+          "text": "first evidence will be found in the next"
+        },
+        {
+          "cue_id": 574,
+          "start_ms": 1470720,
+          "end_ms": 1474880,
+          "text": "a deliberative process to think about"
+        },
+        {
+          "cue_id": 575,
+          "start_ms": 1472960,
+          "end_ms": 1478159,
+          "text": "how we want to present ourselves to"
+        },
+        {
+          "cue_id": 619,
+          "start_ms": 1567760,
+          "end_ms": 1573919,
+          "text": "and what our efficient encoding schemes"
+        },
+        {
+          "cue_id": 620,
+          "start_ms": 1570799,
+          "end_ms": 1575279,
+          "text": "and how do we provide a tutorial"
+        },
+        {
+          "cue_id": 664,
+          "start_ms": 1668960,
+          "end_ms": 1673200,
+          "text": "numbering system in a binary code"
+        },
+        {
+          "cue_id": 665,
+          "start_ms": 1670799,
+          "end_ms": 1675919,
+          "text": "numbers from 1 to 10 and then using"
+        },
+        {
+          "cue_id": 703,
+          "start_ms": 1769039,
+          "end_ms": 1771870,
+          "text": "as well as traditional music from"
+        },
+        {
+          "cue_id": 746,
+          "start_ms": 1866080,
+          "end_ms": 1871360,
+          "text": "if the environments are similar to ours"
+        },
+        {
+          "cue_id": 787,
+          "start_ms": 1962720,
+          "end_ms": 1967440,
+          "text": "machines here on earth so i think it's"
+        },
+        {
+          "cue_id": 788,
+          "start_ms": 1965200,
+          "end_ms": 1969519,
+          "text": "very likely that if you actually pick up"
+        },
+        {
+          "cue_id": 830,
+          "start_ms": 2061119,
+          "end_ms": 2065199,
+          "text": "civilization has already listened to our"
+        },
+        {
+          "cue_id": 831,
+          "start_ms": 2063199,
+          "end_ms": 2068000,
+          "text": "messages"
+        },
+        {
+          "cue_id": 868,
+          "start_ms": 2158720,
+          "end_ms": 2163599,
+          "text": "it yet"
+        },
+        {
+          "cue_id": 869,
+          "start_ms": 2160560,
+          "end_ms": 2163599,
+          "text": "they have disappeared"
+        },
+        {
+          "cue_id": 914,
+          "start_ms": 2258000,
+          "end_ms": 2261920,
+          "text": "decode them"
+        },
+        {
+          "cue_id": 915,
+          "start_ms": 2260640,
+          "end_ms": 2264720,
+          "text": "in this case"
+        },
+        {
+          "cue_id": 958,
+          "start_ms": 2356400,
+          "end_ms": 2361920,
+          "text": "characters"
+        },
+        {
+          "cue_id": 959,
+          "start_ms": 2357520,
+          "end_ms": 2363280,
+          "text": "it wrote the sequence 6eq uj5"
+        },
+        {
+          "cue_id": 1002,
+          "start_ms": 2454960,
+          "end_ms": 2459200,
+          "text": "confirmed again and the only one to"
+        },
+        {
+          "cue_id": 1003,
+          "start_ms": 2457200,
+          "end_ms": 2461040,
+          "text": "maintain a high statistical chance of"
+        },
+        {
+          "cue_id": 1047,
+          "start_ms": 2553839,
+          "end_ms": 2557760,
+          "text": "handle the news well we know that isn't"
+        },
+        {
+          "cue_id": 1048,
+          "start_ms": 2555839,
+          "end_ms": 2559839,
+          "text": "true because we've had false alarms and"
+        },
+        {
+          "cue_id": 1090,
+          "start_ms": 2648560,
+          "end_ms": 2654560,
+          "text": "what will occur when we receive a signal"
+        },
+        {
+          "cue_id": 1091,
+          "start_ms": 2651359,
+          "end_ms": 2657040,
+          "text": "and it is confirmed as extraterrestrial"
+        },
+        {
+          "cue_id": 1137,
+          "start_ms": 2748800,
+          "end_ms": 2753760,
+          "text": "there is that potential although i think"
+        },
+        {
+          "cue_id": 1138,
+          "start_ms": 2750400,
+          "end_ms": 2755520,
+          "text": "it's a fairly far-fetched idea"
+        },
+        {
+          "cue_id": 1181,
+          "start_ms": 2846160,
+          "end_ms": 2851440,
+          "text": "are they somehow tapping into something"
+        },
+        {
+          "cue_id": 1182,
+          "start_ms": 2849440,
+          "end_ms": 2854480,
+          "text": "that goes beyond earth"
+        },
+        {
+          "cue_id": 1226,
+          "start_ms": 2945359,
+          "end_ms": 2949119,
+          "text": "on average"
+        },
+        {
+          "cue_id": 1227,
+          "start_ms": 2946800,
+          "end_ms": 2951119,
+          "text": "technological civilizations"
+        },
+        {
+          "cue_id": 1265,
+          "start_ms": 3047200,
+          "end_ms": 3049280,
+          "text": "you"
+        }
+      ],
+      "text": "extraterrestrial intelligence\nin this vastness it would seem that\nthink are good and if that happens it'll\nhappen in the next 20 years depending on\nand we would have been born the last day\nof the year december 31st at 11 39\non how many of them have cooked up their\nown life\n[Music]\nmusic from around the world\ngreetings in 55 languages a 12-minute\nseti as a scientific exploration\nactually got its start within nasa in\neverywhere and then at one spot you're\nnear and there's a station okay that's\nit was started in 1999 by astronomers at\nthe university of california in berkeley\nkepler now can tell us\nwhich stars have planets around them and\nissues most central to determining how\nmany civilizations are there out there\nwill we survive as a a technologically\nadolescent civilization will we last\noptimistic\nhe said probably a million was his guess\nand some scientists believe that the\nfirst evidence will be found in the next\na deliberative process to think about\nhow we want to present ourselves to\nand what our efficient encoding schemes\nand how do we provide a tutorial\nnumbering system in a binary code\nnumbers from 1 to 10 and then using\nas well as traditional music from\nif the environments are similar to ours\nmachines here on earth so i think it's\nvery likely that if you actually pick up\ncivilization has already listened to our\nmessages\nit yet\nthey have disappeared\ndecode them\nin this case\ncharacters\nit wrote the sequence 6eq uj5\nconfirmed again and the only one to\nmaintain a high statistical chance of\nhandle the news well we know that isn't\ntrue because we've had false alarms and\nwhat will occur when we receive a signal\nand it is confirmed as extraterrestrial\nthere is that potential although i think\nit's a fairly far-fetched idea\nare they somehow tapping into something\nthat goes beyond earth\non average\ntechnological civilizations\nyou",
+      "text_tokens": 441,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EVBCLAaflaw",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EVBCLAaflaw.srt",
+          "status": "available",
+          "bytes": 131828,
+          "sha256": "ab0f71c60c848c59388c88d4fbe22894a00d6efc2124779fb65222472e8f8f33",
+          "cues": 1265,
+          "nonempty_cues": 1265
+        },
+        "frame_indices": [
+          0,
+          2458,
+          4915,
+          7373,
+          9830,
+          12288,
+          14745,
+          17203,
+          19660,
+          22118,
+          24575,
+          27033,
+          29491,
+          31948,
+          34406,
+          36863,
+          39321,
+          41778,
+          44236,
+          46693,
+          49151,
+          51609,
+          54066,
+          56524,
+          58981,
+          61439,
+          63896,
+          66354,
+          68811,
+          71269,
+          73726,
+          76184
+        ],
+        "frame_seconds": [
+          0.0,
+          98.32,
+          196.6,
+          294.92,
+          393.2,
+          491.52,
+          589.8,
+          688.12,
+          786.4,
+          884.72,
+          983.0,
+          1081.32,
+          1179.64,
+          1277.92,
+          1376.24,
+          1474.52,
+          1572.84,
+          1671.12,
+          1769.44,
+          1867.72,
+          1966.04,
+          2064.36,
+          2162.64,
+          2260.96,
+          2359.24,
+          2457.56,
+          2555.84,
+          2654.16,
+          2752.44,
+          2850.76,
+          2949.04,
+          3047.36
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            30,
+            31
+          ],
+          [
+            67,
+            68
+          ],
+          [
+            103,
+            104
+          ],
+          [
+            140,
+            141
+          ],
+          [
+            177
+          ],
+          [
+            207,
+            208
+          ],
+          [
+            245,
+            246
+          ],
+          [
+            285,
+            286
+          ],
+          [
+            328,
+            329
+          ],
+          [
+            368,
+            369
+          ],
+          [
+            409,
+            410
+          ],
+          [
+            448,
+            449
+          ],
+          [
+            487,
+            488
+          ],
+          [
+            531,
+            532
+          ],
+          [
+            574,
+            575
+          ],
+          [
+            619,
+            620
+          ],
+          [
+            664,
+            665
+          ],
+          [
+            703
+          ],
+          [
+            746
+          ],
+          [
+            787,
+            788
+          ],
+          [
+            830,
+            831
+          ],
+          [
+            868,
+            869
+          ],
+          [
+            914,
+            915
+          ],
+          [
+            958,
+            959
+          ],
+          [
+            1002,
+            1003
+          ],
+          [
+            1047,
+            1048
+          ],
+          [
+            1090,
+            1091
+          ],
+          [
+            1137,
+            1138
+          ],
+          [
+            1181,
+            1182
+          ],
+          [
+            1226,
+            1227
+          ],
+          [
+            1265
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 30,
+            "start_ms": 94680,
+            "end_ms": 100400,
+            "text": "extraterrestrial intelligence"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 98158,
+            "end_ms": 102320,
+            "text": "in this vastness it would seem that"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 193200,
+            "end_ms": 197360,
+            "text": "think are good and if that happens it'll"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 195040,
+            "end_ms": 198890,
+            "text": "happen in the next 20 years depending on"
+          },
+          {
+            "cue_id": 103,
+            "start_ms": 290479,
+            "end_ms": 298400,
+            "text": "and we would have been born the last day"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 292720,
+            "end_ms": 298400,
+            "text": "of the year december 31st at 11 39"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 389039,
+            "end_ms": 393440,
+            "text": "on how many of them have cooked up their"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 391039,
+            "end_ms": 396400,
+            "text": "own life"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 487430,
+            "end_ms": 495559,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 207,
+            "start_ms": 585040,
+            "end_ms": 590880,
+            "text": "music from around the world"
+          },
+          {
+            "cue_id": 208,
+            "start_ms": 587120,
+            "end_ms": 593040,
+            "text": "greetings in 55 languages a 12-minute"
+          },
+          {
+            "cue_id": 245,
+            "start_ms": 682959,
+            "end_ms": 689519,
+            "text": "seti as a scientific exploration"
+          },
+          {
+            "cue_id": 246,
+            "start_ms": 686000,
+            "end_ms": 690640,
+            "text": "actually got its start within nasa in"
+          },
+          {
+            "cue_id": 285,
+            "start_ms": 783440,
+            "end_ms": 788720,
+            "text": "everywhere and then at one spot you're"
+          },
+          {
+            "cue_id": 286,
+            "start_ms": 785040,
+            "end_ms": 790399,
+            "text": "near and there's a station okay that's"
+          },
+          {
+            "cue_id": 328,
+            "start_ms": 881279,
+            "end_ms": 887199,
+            "text": "it was started in 1999 by astronomers at"
+          },
+          {
+            "cue_id": 329,
+            "start_ms": 884160,
+            "end_ms": 889360,
+            "text": "the university of california in berkeley"
+          },
+          {
+            "cue_id": 368,
+            "start_ms": 980399,
+            "end_ms": 985440,
+            "text": "kepler now can tell us"
+          },
+          {
+            "cue_id": 369,
+            "start_ms": 982800,
+            "end_ms": 988399,
+            "text": "which stars have planets around them and"
+          },
+          {
+            "cue_id": 409,
+            "start_ms": 1078080,
+            "end_ms": 1083440,
+            "text": "issues most central to determining how"
+          },
+          {
+            "cue_id": 410,
+            "start_ms": 1080880,
+            "end_ms": 1087200,
+            "text": "many civilizations are there out there"
+          },
+          {
+            "cue_id": 448,
+            "start_ms": 1175039,
+            "end_ms": 1181840,
+            "text": "will we survive as a a technologically"
+          },
+          {
+            "cue_id": 449,
+            "start_ms": 1179200,
+            "end_ms": 1184240,
+            "text": "adolescent civilization will we last"
+          },
+          {
+            "cue_id": 487,
+            "start_ms": 1273280,
+            "end_ms": 1278320,
+            "text": "optimistic"
+          },
+          {
+            "cue_id": 488,
+            "start_ms": 1275120,
+            "end_ms": 1280240,
+            "text": "he said probably a million was his guess"
+          },
+          {
+            "cue_id": 531,
+            "start_ms": 1374400,
+            "end_ms": 1378480,
+            "text": "and some scientists believe that the"
+          },
+          {
+            "cue_id": 532,
+            "start_ms": 1376080,
+            "end_ms": 1380080,
+            "text": "first evidence will be found in the next"
+          },
+          {
+            "cue_id": 574,
+            "start_ms": 1470720,
+            "end_ms": 1474880,
+            "text": "a deliberative process to think about"
+          },
+          {
+            "cue_id": 575,
+            "start_ms": 1472960,
+            "end_ms": 1478159,
+            "text": "how we want to present ourselves to"
+          },
+          {
+            "cue_id": 619,
+            "start_ms": 1567760,
+            "end_ms": 1573919,
+            "text": "and what our efficient encoding schemes"
+          },
+          {
+            "cue_id": 620,
+            "start_ms": 1570799,
+            "end_ms": 1575279,
+            "text": "and how do we provide a tutorial"
+          },
+          {
+            "cue_id": 664,
+            "start_ms": 1668960,
+            "end_ms": 1673200,
+            "text": "numbering system in a binary code"
+          },
+          {
+            "cue_id": 665,
+            "start_ms": 1670799,
+            "end_ms": 1675919,
+            "text": "numbers from 1 to 10 and then using"
+          },
+          {
+            "cue_id": 703,
+            "start_ms": 1769039,
+            "end_ms": 1771870,
+            "text": "as well as traditional music from"
+          },
+          {
+            "cue_id": 746,
+            "start_ms": 1866080,
+            "end_ms": 1871360,
+            "text": "if the environments are similar to ours"
+          },
+          {
+            "cue_id": 787,
+            "start_ms": 1962720,
+            "end_ms": 1967440,
+            "text": "machines here on earth so i think it's"
+          },
+          {
+            "cue_id": 788,
+            "start_ms": 1965200,
+            "end_ms": 1969519,
+            "text": "very likely that if you actually pick up"
+          },
+          {
+            "cue_id": 830,
+            "start_ms": 2061119,
+            "end_ms": 2065199,
+            "text": "civilization has already listened to our"
+          },
+          {
+            "cue_id": 831,
+            "start_ms": 2063199,
+            "end_ms": 2068000,
+            "text": "messages"
+          },
+          {
+            "cue_id": 868,
+            "start_ms": 2158720,
+            "end_ms": 2163599,
+            "text": "it yet"
+          },
+          {
+            "cue_id": 869,
+            "start_ms": 2160560,
+            "end_ms": 2163599,
+            "text": "they have disappeared"
+          },
+          {
+            "cue_id": 914,
+            "start_ms": 2258000,
+            "end_ms": 2261920,
+            "text": "decode them"
+          },
+          {
+            "cue_id": 915,
+            "start_ms": 2260640,
+            "end_ms": 2264720,
+            "text": "in this case"
+          },
+          {
+            "cue_id": 958,
+            "start_ms": 2356400,
+            "end_ms": 2361920,
+            "text": "characters"
+          },
+          {
+            "cue_id": 959,
+            "start_ms": 2357520,
+            "end_ms": 2363280,
+            "text": "it wrote the sequence 6eq uj5"
+          },
+          {
+            "cue_id": 1002,
+            "start_ms": 2454960,
+            "end_ms": 2459200,
+            "text": "confirmed again and the only one to"
+          },
+          {
+            "cue_id": 1003,
+            "start_ms": 2457200,
+            "end_ms": 2461040,
+            "text": "maintain a high statistical chance of"
+          },
+          {
+            "cue_id": 1047,
+            "start_ms": 2553839,
+            "end_ms": 2557760,
+            "text": "handle the news well we know that isn't"
+          },
+          {
+            "cue_id": 1048,
+            "start_ms": 2555839,
+            "end_ms": 2559839,
+            "text": "true because we've had false alarms and"
+          },
+          {
+            "cue_id": 1090,
+            "start_ms": 2648560,
+            "end_ms": 2654560,
+            "text": "what will occur when we receive a signal"
+          },
+          {
+            "cue_id": 1091,
+            "start_ms": 2651359,
+            "end_ms": 2657040,
+            "text": "and it is confirmed as extraterrestrial"
+          },
+          {
+            "cue_id": 1137,
+            "start_ms": 2748800,
+            "end_ms": 2753760,
+            "text": "there is that potential although i think"
+          },
+          {
+            "cue_id": 1138,
+            "start_ms": 2750400,
+            "end_ms": 2755520,
+            "text": "it's a fairly far-fetched idea"
+          },
+          {
+            "cue_id": 1181,
+            "start_ms": 2846160,
+            "end_ms": 2851440,
+            "text": "are they somehow tapping into something"
+          },
+          {
+            "cue_id": 1182,
+            "start_ms": 2849440,
+            "end_ms": 2854480,
+            "text": "that goes beyond earth"
+          },
+          {
+            "cue_id": 1226,
+            "start_ms": 2945359,
+            "end_ms": 2949119,
+            "text": "on average"
+          },
+          {
+            "cue_id": 1227,
+            "start_ms": 2946800,
+            "end_ms": 2951119,
+            "text": "technological civilizations"
+          },
+          {
+            "cue_id": 1265,
+            "start_ms": 3047200,
+            "end_ms": 3049280,
+            "text": "you"
+          }
+        ],
+        "text": "extraterrestrial intelligence\nin this vastness it would seem that\nthink are good and if that happens it'll\nhappen in the next 20 years depending on\nand we would have been born the last day\nof the year december 31st at 11 39\non how many of them have cooked up their\nown life\n[Music]\nmusic from around the world\ngreetings in 55 languages a 12-minute\nseti as a scientific exploration\nactually got its start within nasa in\neverywhere and then at one spot you're\nnear and there's a station okay that's\nit was started in 1999 by astronomers at\nthe university of california in berkeley\nkepler now can tell us\nwhich stars have planets around them and\nissues most central to determining how\nmany civilizations are there out there\nwill we survive as a a technologically\nadolescent civilization will we last\noptimistic\nhe said probably a million was his guess\nand some scientists believe that the\nfirst evidence will be found in the next\na deliberative process to think about\nhow we want to present ourselves to\nand what our efficient encoding schemes\nand how do we provide a tutorial\nnumbering system in a binary code\nnumbers from 1 to 10 and then using\nas well as traditional music from\nif the environments are similar to ours\nmachines here on earth so i think it's\nvery likely that if you actually pick up\ncivilization has already listened to our\nmessages\nit yet\nthey have disappeared\ndecode them\nin this case\ncharacters\nit wrote the sequence 6eq uj5\nconfirmed again and the only one to\nmaintain a high statistical chance of\nhandle the news well we know that isn't\ntrue because we've had false alarms and\nwhat will occur when we receive a signal\nand it is confirmed as extraterrestrial\nthere is that potential although i think\nit's a fairly far-fetched idea\nare they somehow tapping into something\nthat goes beyond earth\non average\ntechnological civilizations\nyou",
+        "text_tokens": 441,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 92880,
+          "end_ms": 103759,
+          "text": "or must have existed extraterrestrial intelligence in this vastness it would seem that there should be fullness of life out"
+        },
+        {
+          "id": "S66",
+          "cue_ids": [
+            66,
+            67,
+            68,
+            69
+          ],
+          "start_ms": 190800,
+          "end_ms": 200560,
+          "text": "existence the chances of finding it i think are good and if that happens it'll happen in the next 20 years depending on the financing"
+        },
+        {
+          "id": "S102",
+          "cue_ids": [
+            102,
+            103,
+            104,
+            105
+          ],
+          "start_ms": 289600,
+          "end_ms": 307800,
+          "text": "formed and we would have been born the last day of the year december 31st at 11 39 how many things must have happened in"
+        },
+        {
+          "id": "S139",
+          "cue_ids": [
+            139,
+            140,
+            141,
+            142
+          ],
+          "start_ms": 386560,
+          "end_ms": 399680,
+          "text": "planets that earthly life could survive on how many of them have cooked up their own life here from one end of the milky way"
+        },
+        {
+          "id": "S177",
+          "cue_ids": [
+            177
+          ],
+          "start_ms": 487430,
+          "end_ms": 495559,
+          "text": "[Music]"
+        },
+        {
+          "id": "S206",
+          "cue_ids": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "start_ms": 582480,
+          "end_ms": 595120,
+          "text": "on one side there were encoded music from around the world greetings in 55 languages a 12-minute sound montage of the evolution of life"
+        },
+        {
+          "id": "S244",
+          "cue_ids": [
+            244,
+            245,
+            246,
+            247
+          ],
+          "start_ms": 681279,
+          "end_ms": 692240,
+          "text": "intelligent life seti as a scientific exploration actually got its start within nasa in the"
+        },
+        {
+          "id": "S284",
+          "cue_ids": [
+            284,
+            285,
+            286,
+            287
+          ],
+          "start_ms": 782000,
+          "end_ms": 793040,
+          "text": "across the dial you hear static everywhere and then at one spot you're near and there's a station okay that's the signal that's produced by a"
+        },
+        {
+          "id": "S327",
+          "cue_ids": [
+            327,
+            328,
+            329,
+            330
+          ],
+          "start_ms": 879279,
+          "end_ms": 891839,
+          "text": "is seti at home it was started in 1999 by astronomers at the university of california in berkeley and it uses an army of millions of"
+        },
+        {
+          "id": "S367",
+          "cue_ids": [
+            367,
+            368,
+            369,
+            370
+          ],
+          "start_ms": 978480,
+          "end_ms": 991120,
+          "text": "intelligence kepler now can tell us which stars have planets around them and which of those stars are earth-like"
+        },
+        {
+          "id": "S408",
+          "cue_ids": [
+            408,
+            409,
+            410,
+            411
+          ],
+          "start_ms": 1076000,
+          "end_ms": 1090480,
+          "text": "is a way to grapple with all of the issues most central to determining how many civilizations are there out there in our galaxy trying to make contact"
+        },
+        {
+          "id": "S447",
+          "cue_ids": [
+            447,
+            448,
+            449,
+            450
+          ],
+          "start_ms": 1172000,
+          "end_ms": 1186960,
+          "text": "as we look into our own future we wonder will we survive as a a technologically adolescent civilization will we last long enough to make contact"
+        },
+        {
+          "id": "S486",
+          "cue_ids": [
+            486,
+            487,
+            488,
+            489
+          ],
+          "start_ms": 1271200,
+          "end_ms": 1282960,
+          "text": "carl sagan had a number that was more optimistic he said probably a million was his guess we think we know"
+        },
+        {
+          "id": "S530",
+          "cue_ids": [
+            530,
+            531,
+            532,
+            533
+          ],
+          "start_ms": 1372799,
+          "end_ms": 1382240,
+          "text": "more and more advanced and some scientists believe that the first evidence will be found in the next decades"
+        },
+        {
+          "id": "S573",
+          "cue_ids": [
+            573,
+            574,
+            575,
+            576
+          ],
+          "start_ms": 1469440,
+          "end_ms": 1480799,
+          "text": "there should be a deliberative process to think about how we want to present ourselves to other worlds and that is a"
+        },
+        {
+          "id": "S618",
+          "cue_ids": [
+            618,
+            619,
+            620,
+            621
+          ],
+          "start_ms": 1564720,
+          "end_ms": 1576400,
+          "text": "what would we say about ourselves and what our efficient encoding schemes and how do we provide a tutorial so that they can figure out what the"
+        },
+        {
+          "id": "S663",
+          "cue_ids": [
+            663,
+            664,
+            665,
+            666
+          ],
+          "start_ms": 1666880,
+          "end_ms": 1678080,
+          "text": "it starts with a description of our numbering system in a binary code numbers from 1 to 10 and then using those numbers a description of"
+        },
+        {
+          "id": "S702",
+          "cue_ids": [
+            702,
+            703,
+            704
+          ],
+          "start_ms": 1764080,
+          "end_ms": 1777760,
+          "text": "beethoven's fifth symphony as well as traditional music from different cultures"
+        },
+        {
+          "id": "S745",
+          "cue_ids": [
+            745,
+            746,
+            747
+          ],
+          "start_ms": 1862720,
+          "end_ms": 1873200,
+          "text": "environment if the environments are similar to ours then there could in fact be a lot of"
+        },
+        {
+          "id": "S786",
+          "cue_ids": [
+            786,
+            787,
+            788,
+            789
+          ],
+          "start_ms": 1960960,
+          "end_ms": 1971440,
+          "text": "years we're going to develop thinking machines here on earth so i think it's very likely that if you actually pick up a signal coming from elsewhere it's not"
+        },
+        {
+          "id": "S829",
+          "cue_ids": [
+            829,
+            830,
+            831,
+            832
+          ],
+          "start_ms": 2059599,
+          "end_ms": 2070320,
+          "text": "it's also possible that some civilization has already listened to our messages nevertheless how is it possible that if"
+        },
+        {
+          "id": "S867",
+          "cue_ids": [
+            867,
+            868,
+            869,
+            870
+          ],
+          "start_ms": 2156079,
+          "end_ms": 2167520,
+          "text": "they do exist but most people don't know it yet they have disappeared maybe these civilizations have already"
+        },
+        {
+          "id": "S913",
+          "cue_ids": [
+            913,
+            914,
+            915,
+            916
+          ],
+          "start_ms": 2255839,
+          "end_ms": 2266400,
+          "text": "haven't been able to understand or decode them in this case some strange signals from outer space"
+        },
+        {
+          "id": "S957",
+          "cue_ids": [
+            957,
+            958,
+            959,
+            960
+          ],
+          "start_ms": 2354160,
+          "end_ms": 2367200,
+          "text": "received into a series of alphanumeric characters it wrote the sequence 6eq uj5 which has kept the international"
+        },
+        {
+          "id": "S1001",
+          "cue_ids": [
+            1001,
+            1002,
+            1003,
+            1004
+          ],
+          "start_ms": 2453200,
+          "end_ms": 2464270,
+          "text": "was one of the very few that was confirmed again and the only one to maintain a high statistical chance of being intelligent and of"
+        },
+        {
+          "id": "S1046",
+          "cue_ids": [
+            1046,
+            1047,
+            1048,
+            1049
+          ],
+          "start_ms": 2552240,
+          "end_ms": 2562240,
+          "text": "all up because the public couldn't handle the news well we know that isn't true because we've had false alarms and what actually happens is the media are"
+        },
+        {
+          "id": "S1089",
+          "cue_ids": [
+            1089,
+            1090,
+            1091,
+            1092
+          ],
+          "start_ms": 2645760,
+          "end_ms": 2658560,
+          "text": "what will happen from then on what will occur when we receive a signal and it is confirmed as extraterrestrial how would that affect our lives"
+        },
+        {
+          "id": "S1136",
+          "cue_ids": [
+            1136,
+            1137,
+            1138,
+            1139
+          ],
+          "start_ms": 2747200,
+          "end_ms": 2758240,
+          "text": "would change everything for them so there is that potential although i think it's a fairly far-fetched idea concerned that a discovery could be"
+        },
+        {
+          "id": "S1180",
+          "cue_ids": [
+            1180,
+            1181,
+            1182,
+            1183
+          ],
+          "start_ms": 2844640,
+          "end_ms": 2856800,
+          "text": "our art are they somehow tapping into something that goes beyond earth or are they uniquely ours"
+        },
+        {
+          "id": "S1225",
+          "cue_ids": [
+            1225,
+            1226,
+            1227,
+            1228
+          ],
+          "start_ms": 2944000,
+          "end_ms": 2953119,
+          "text": "was because on average technological civilizations have a long lifetime"
+        },
+        {
+          "id": "S1265",
+          "cue_ids": [
+            1265
+          ],
+          "start_ms": 3047200,
+          "end_ms": 3049280,
+          "text": "you"
+        }
+      ],
+      "text": "S29 [00:01:32.880 --> 00:01:43.759] or must have existed extraterrestrial intelligence in this vastness it would seem that there should be fullness of life out\nS66 [00:03:10.800 --> 00:03:20.560] existence the chances of finding it i think are good and if that happens it'll happen in the next 20 years depending on the financing\nS102 [00:04:49.600 --> 00:05:07.800] formed and we would have been born the last day of the year december 31st at 11 39 how many things must have happened in\nS139 [00:06:26.560 --> 00:06:39.680] planets that earthly life could survive on how many of them have cooked up their own life here from one end of the milky way\nS177 [00:08:07.430 --> 00:08:15.559] [Music]\nS206 [00:09:42.480 --> 00:09:55.120] on one side there were encoded music from around the world greetings in 55 languages a 12-minute sound montage of the evolution of life\nS244 [00:11:21.279 --> 00:11:32.240] intelligent life seti as a scientific exploration actually got its start within nasa in the\nS284 [00:13:02.000 --> 00:13:13.040] across the dial you hear static everywhere and then at one spot you're near and there's a station okay that's the signal that's produced by a\nS327 [00:14:39.279 --> 00:14:51.839] is seti at home it was started in 1999 by astronomers at the university of california in berkeley and it uses an army of millions of\nS367 [00:16:18.480 --> 00:16:31.120] intelligence kepler now can tell us which stars have planets around them and which of those stars are earth-like\nS408 [00:17:56.000 --> 00:18:10.480] is a way to grapple with all of the issues most central to determining how many civilizations are there out there in our galaxy trying to make contact\nS447 [00:19:32.000 --> 00:19:46.960] as we look into our own future we wonder will we survive as a a technologically adolescent civilization will we last long enough to make contact\nS486 [00:21:11.200 --> 00:21:22.960] carl sagan had a number that was more optimistic he said probably a million was his guess we think we know\nS530 [00:22:52.799 --> 00:23:02.240] more and more advanced and some scientists believe that the first evidence will be found in the next decades\nS573 [00:24:29.440 --> 00:24:40.799] there should be a deliberative process to think about how we want to present ourselves to other worlds and that is a\nS618 [00:26:04.720 --> 00:26:16.400] what would we say about ourselves and what our efficient encoding schemes and how do we provide a tutorial so that they can figure out what the\nS663 [00:27:46.880 --> 00:27:58.080] it starts with a description of our numbering system in a binary code numbers from 1 to 10 and then using those numbers a description of\nS702 [00:29:24.080 --> 00:29:37.760] beethoven's fifth symphony as well as traditional music from different cultures\nS745 [00:31:02.720 --> 00:31:13.200] environment if the environments are similar to ours then there could in fact be a lot of\nS786 [00:32:40.960 --> 00:32:51.440] years we're going to develop thinking machines here on earth so i think it's very likely that if you actually pick up a signal coming from elsewhere it's not\nS829 [00:34:19.599 --> 00:34:30.320] it's also possible that some civilization has already listened to our messages nevertheless how is it possible that if\nS867 [00:35:56.079 --> 00:36:07.520] they do exist but most people don't know it yet they have disappeared maybe these civilizations have already\nS913 [00:37:35.839 --> 00:37:46.400] haven't been able to understand or decode them in this case some strange signals from outer space\nS957 [00:39:14.160 --> 00:39:27.200] received into a series of alphanumeric characters it wrote the sequence 6eq uj5 which has kept the international\nS1001 [00:40:53.200 --> 00:41:04.270] was one of the very few that was confirmed again and the only one to maintain a high statistical chance of being intelligent and of\nS1046 [00:42:32.240 --> 00:42:42.240] all up because the public couldn't handle the news well we know that isn't true because we've had false alarms and what actually happens is the media are\nS1089 [00:44:05.760 --> 00:44:18.560] what will happen from then on what will occur when we receive a signal and it is confirmed as extraterrestrial how would that affect our lives\nS1136 [00:45:47.200 --> 00:45:58.240] would change everything for them so there is that potential although i think it's a fairly far-fetched idea concerned that a discovery could be\nS1180 [00:47:24.640 --> 00:47:36.800] our art are they somehow tapping into something that goes beyond earth or are they uniquely ours\nS1225 [00:49:04.000 --> 00:49:13.119] was because on average technological civilizations have a long lifetime\nS1265 [00:50:47.200 --> 00:50:49.280] you",
+      "text_tokens": 1726,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        29,
+        32,
+        66,
+        69,
+        102,
+        105,
+        139,
+        142,
+        206,
+        209,
+        244,
+        247,
+        284,
+        287,
+        327,
+        330,
+        367,
+        370,
+        408,
+        411,
+        447,
+        450,
+        486,
+        489,
+        530,
+        533,
+        573,
+        576,
+        618,
+        621,
+        663,
+        666,
+        702,
+        704,
+        745,
+        747,
+        786,
+        789,
+        829,
+        832,
+        867,
+        870,
+        913,
+        916,
+        957,
+        960,
+        1001,
+        1004,
+        1046,
+        1049,
+        1089,
+        1092,
+        1136,
+        1139,
+        1180,
+        1183,
+        1225,
+        1228
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "c37f8574a2c0e19789a4e1a726302d107a422e24197e03cecc3328a5884fdc9e"
+}

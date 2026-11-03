@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "636a67db3f0cc05df450ef8eee2ade535847204bd07d90d3f800b2bf5135ddb2",
+  "response": {
+    "id": "a6e82013-83e1-4527-ab3e-4625f590c795",
+    "object": "chat.completion",
+    "created": 1793676003,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S1143\",\"quote\":\"refusing to let G2 have that lead for even a moment\"}],\"frame_ids\":[\"F2991\",\"F5983\",\"F11965\",\"F14956\",\"F20939\",\"F23930\",\"F32904\",\"F38886\",\"F41878\",\"F44869\",\"F47860\",\"F53843\",\"F62816\",\"F65808\",\"F68799\",\"F71790\",\"F74781\",\"F77773\",\"F80764\",\"F86746\",\"F89738\",\"F92729\"],\"windows\":[],\"notes\":\"Scoreboard frames show G2 and Liquid trading rounds closely (e.g., 2-0, 3-4, 5-6, 6-6, 10-6, 12-7, 9-9, 9-12), and S1143 notes neither team allowed the other a lasting lead, indicating comparable level.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9265,
+      "completion_tokens": 217,
+      "total_tokens": 9482,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9137
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.575345702469349
+}

@@ -1,31 +1,144 @@
 # 工作 B · 视频问答与评测
 
-本目录为系统仓中的 **VQA / 评测** 工作区（GitHub：`Sparse-3DGS-heritage-VQA`）。
+## 当前结论（2026-11-03，字幕路线已完成冻结评测）
 
-## 今日定稿：Mage Query-IP（2026-10-21）
+保留Frames-32＋连续补句＋时间标记，固定2048字幕token；无训练、无Agent/API。test225三路正确数：无字幕140、原对齐154、连续163（72.44%）。相对无字幕净增23题／10.22个百分点，聚类95%区间[5.33,15.11]；相对原对齐净增9题／4个百分点，区间[-0.44,8.46]，尚不能证明补句独立显著优于原对齐。
 
-**贡献：** 固定减 token 预算 K 下，按问题重加权选 patch，比同预算乱砍更准（不重训；不声称超过满预算 Mage）。
+short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶段互斥覆盖本地714题／238视频，不能混称714题独立测试或官方完整基准。原对齐val90负结果、3072预算负结果及API pilot负结果全部保留。当前不再调字幕或重复跑本地full；Agent暂停，文旅闭环和重建对问答的贡献尚待验证。
 
-| 同 K · short 前 200 · `keep_ratio=0.75` | Acc |
+完整三路数据、分时长统计、5组图、成本和10个案例见[最新最终结果总结](../docs/SUMMARY_mage_subtitle_final_results_20261103.md)。历史内容若与本节不符，以本节及最新总结为准；历史实验不删除。
+
+---
+
+## 以下为历史Query-IP研究与应用设计（不代表本轮字幕能力已实现）
+
+系统仓 **VQA / 评测** 工作区（GitHub：`Sparse-3DGS-heritage-VQA`）。
+
+> **一句话：** 文旅是应用场景；**有限视角下、固定视觉 Token 预算的问题相关证据选择**才是核心研究问题。  
+> 技术指标（同 K Acc）与「文旅里为什么需要」相连，但**不能混为一谈**——前者用公开基准验证，后者用目标场景讲动机。
+
+---
+
+## 应用场景：游客随拍 · 景点视觉问答
+
+**场景定义：** 面向游客随拍内容的、具备**视觉证据选择**与**不确定性判断**能力的景点问答。
+
+不是泛泛的旅游聊天机器人，也不是单纯把视频压得更小；而是：游客拍摄**有限、视角不完整**时，模型如何在有限视觉预算下找到**真正能回答当前问题的画面证据**，并在证据不足时避免无依据的胡猜。
+
+### 1. 答辩可用故事
+
+游客在古建筑景区边走边拍约十秒短视频：镜头晃动、全貌与局部交替，还可能有路人遮挡。随后对**同一段视频**问两句：
+
+- 「这块牌匾上写的是什么？」→ 需要**牌匾文字**细节  
+- 「屋檐角上这个装饰是什么？」→ 需要**屋檐局部**  
+
+游客不需要每一帧、每一块区域被同等对待，而希望在**固定视觉计算预算**下，优先保留足以支持**当前问题**的证据。若牌匾始终被挡、文字无法辨认，系统应说明**无法确认**，而不是编一个答案。
+
+**关键点：** 同一段游客视频，不同问题 → **最有价值的视觉证据会变**。这是引入 QueryIP（问题条件化选区）的应用动机。
+
+### 2. 抽象出的三个实际问题
+
+| # | 问题 | 含义 |
+|---|------|------|
+| 1 | **视觉信息不完整** | 游客拍的是局部视角，不是景区全库；遮挡、模糊、远距细节是常态。模型首先受限于「实际拍到了什么」。 |
+| 2 | **变化大 ≠ 对答题重要** | Mage-VL Codec 常按运动 / 残差等做 Patch 重要性；文旅里游客常关心**几乎不动的**牌匾字、纹样、细节——Codec 变化重要性与问题证据**不一定一致**。 |
+| 3 | **无证据不能靠猜** | 流畅生成 ≠ 有画面依据。除 Acc 外，还需研究**何时证据足够、何时应表达不确定性**（拒答 / 说明无法确认）。文化遗产 VQA 相关工作也提示：基本识别能力不等于可靠的历史文化推理，存在不准确解释风险（如 ChinaHeritaQA 等讨论）。 |
+
+### 3. 应用层 vs 技术层（必须分开）
+
+**应用层（为什么做）**  
+游客随拍式景点问答：在有限、视角不完整的照片/短视频中，回答针对具体景点细节的问题，并避免证据不足时给出无依据答案。
+
+**技术层（研究什么）**  
+**固定视觉 Token 预算下的问题条件化证据选择：** 利用 Codec 提供的时空候选（运动、残差、位置等），再结合用户问题，对候选 Patch 选择与排序，使有限预算优先服务**当前问题**所需证据。
+
+**方法链条（目标形态）：**
+
+```text
+输入：视频 + 用户问题（如「匾额上写的是什么？」）
+  → Mage Codec：候选 Patch + 时空变化 / 位置信息
+  → QueryIP：按问题调整候选优先级（相关细节优先，并保留必要时空覆盖）
+  → 固定 Token 预算 → Mage-ViT → Qwen 生成答案
+  → （扩展）证据充分性判断：够则答，不够则拒答 / 说明不确定
+```
+
+说明：
+
+- **拒答 / 不确定性**需**单独设计与评测**，不是「用了 QueryIP 就自动会拒答」。  
+- 「这座建筑始建于何朝」等题往往超出纯视觉证据；若暂不接知识库，研究范围宜限定为**画面可直接支持**的景点问答（读匾、指认装饰、可见属性等）。  
+- 外部知识核验可作为后置扩展，不与「固定预算下的证据选择」混成同一贡献句。
+
+### 4. 答辩口述稿（可直接用）
+
+我的研究面向**游客随拍场景下的景点视觉问答**。
+
+游览中游客通常只能用手机拍到有限的照片或短视频，得到景点的**局部**视觉信息。当进一步问牌匾文字、建筑装饰或画面中的具体细节时，**不同问题需要的视觉证据并不相同**。在有限视觉 Token 预算下，现有基于 Codec 的筛选多依据运动和残差分配资源，**未必保留当前问题真正需要的细节**。
+
+因此，我研究如何将**用户问题**与 Codec 提供的视觉候选相结合，在**固定视觉预算**下优先选择足以支持当前问题的证据，并在证据不足时明确表达不确定性。
+
+目标不仅是减少 Token，而是提高**有限视觉资源的使用效率**，使受限视角的文旅问答更可靠。
+
+### 5. 如何避免「痛点是不是编的」
+
+| 部分 | 怎么说 | 不要说 |
+|------|--------|--------|
+| **应用动机** | 上述游客场景是**目标应用设定**，说明问题为何值得研究 | 未做用户调查时，不要声称「已调研证明游客都有此痛点」 |
+| **技术有效性** | 公开基准 + 同 K 消融：问题条件化选区是否真优于纯 Codec / random；可再迁到公开文旅/遗产数据 | 用场景故事代替实验数字 |
+
+**研究假设（需实验回答）：**  
+在**相同视觉 Token 预算**下，融合问题相关性与 Codec 候选，能否比单独使用 Codec 重要性筛选，**更好地保留回答问题所需的视觉证据**？
+
+闭环：文旅应用需求 → Codec 选证据的局限 → QueryIP 改进 → 固定预算下可复现实验。
+
+### 6. 与当前实验结论的对齐（重要 · 2026-10-27）
+
+应用故事要的是「按问题找证据」（问匾看匾、问走向看轨迹）；仓库里**已验证**的是另一件事：
+
+| 层级 | 现状 |
+|------|------|
+| **主线 A（可写贡献）** | 视频同 K、站在 Mage 已留 patch 上：**Codec 多源融合** `queryip` > random（约 **+4 pp**，63.5% vs 59.5%） |
+| **按问题选区** | CLIP / 题型 αβ / 无 OCR textseat **均未过闸**（伤底或 ≡shuffle）→ **不作贡献**；动机可保留 |
+| **加戏 B（可选）** | 同池**软门控**、以**持平 proxy** 为成功；未过闸不进主文 |
+| **OCR 硬切** | OCRBench v1 textseat=shuf **37.3%** vs full **84.1%**（−46.8 pp）→ 失败归档，不作主表 |
+| **Mage×OCRBench v1** | 官方口径 Norm **83.4**（`baseline_mage_ocrbench_v1`） |
+
+答辩：动机讲「为何要按问题」；技术先站稳「固定预算 Codec 融合 > 乱砍」；诚实写清问题条件化未做成。
+
+---
+
+## Mage Query-IP（实验结论 · 保留）
+
+**主推（主线 A）：** 同 K **proxy 融合** **63.5%** > random **59.5%**（+4 pp；McNemar 待补）。不重训；不声称 > 满预算 Mage。
+
+**失败 / 不作贡献（保留作消融）：**
+
+| 尝试 | 结果 | 为何不算「按问题」成功 |
+|------|------|------------------------|
+| CLIP 帧 | 58.5% < random | 图文相似 ≠ 答题证据；挤掉运动块 |
+| 区域 / edge CLIP | 伤底 + shuffle 反向 | 问题信号成噪声 |
+| 题型 α/β | ≡ 固定 dyn（±1 题） | 只换全局权重，未对上「哪块是匾」 |
+| 图像 textseat（无 OCR·硬切 0.75） | 37.3%=shuf；vs full −46.8 | 座位退化成纹理；离开 Mage 选区协议 |
+
+| 同 K · short200 · kr=0.75 | Acc |
 |------|-----|
-| prefix | 57.5% |
+| **queryip** | **63.5%** |
 | random | 59.5% |
-| **queryip（proxy）· 主推** | **64.0%** |
-| bitcost 纯 / hybrid | 58.5% / 58.0%（失败消融） |
+| queryip_clip | 58.5% |
+| region / shuf | 58.5% / 60.5% |
+| edge / shuf | 60.0% / 62.0% |
+| dyn / sta | 63.5% / 64.0% |
+| bitcost 纯/hybrid | 58.5% / 58.0% |
 
-| 旁证（非同 K） | overall | token |
-|----------------|---------|-------|
-| 行 A 默认 Mage | 63.7% | 1.00× |
-| 行 B QueryIP @0.75 | 62.3% | ≈0.75× |
+OCRBench v1（proxy Acc）：full **84.1** · random 28.3 · textseat=shuf **37.3** · 目录 [`ocrbench_v1_image_textseat/`](eval_results/queryip_samek/ocrbench_v1_image_textseat/)。
 
-- **计划（定稿）：** [`docs/PLAN_mage_query_IP_select.md`](../docs/PLAN_mage_query_IP_select.md)  
-- **命令（Agent 不代跑）：** [`Explore-Then-Select/COMMANDS.md`](Explore-Then-Select/COMMANDS.md)  
-- **产物索引：** [`eval_results/README.md`](eval_results/README.md)  
-- **实现：** `Explore-Then-Select/mage_query_ip/`  
-- **路线 A 归档：** [`docs/PLAN_routeA_true_mv.md`](../docs/PLAN_routeA_true_mv.md)
+| 文档 | 用途 |
+|------|------|
+| [`docs/PLAN_mage_query_IP_select.md`](../docs/PLAN_mage_query_IP_select.md) | 定稿 · **主线 A / 加戏 B** · §2.7 OCR |
+| [`docs/PLAN_queryip_evidence_select.md`](../docs/PLAN_queryip_evidence_select.md) | 前瞻计划 |
+| [`Explore-Then-Select/COMMANDS.md`](Explore-Then-Select/COMMANDS.md) | 复现命令 |
+| [`eval_results/README.md`](eval_results/README.md) | 产物索引 |
 
-**K 扫描（已完成）：** 0.3–0.75 queryip>random；0.9 略负。做图：[`eval_results/queryip_samek/ksweep_proxy/`](eval_results/queryip_samek/ksweep_proxy/)（`plot_acc_*.csv`）。  
-**后续预案：** 满 token Mage 效率曲线（计划 §5；复用 ksweep + 补满预算一点）
+**后续：** 主线 A 收口（McNemar · 失败表 · Acc–K）→ 可选加戏 B；**停** CLIP 重排 / OCR 硬切打 Mage。换方案时以上结论仍保留。
 
 ---
 
@@ -33,34 +146,21 @@
 
 | 路径 | 内容 |
 |------|------|
-| `mage_vl/` | 基于 [microsoft/Mage](https://github.com/microsoft/Mage) 的 `mage_vl`；另含 streaming 相关增量 |
-| `mage_vl/cultural_lora/` | Cultural LoRA：子集硬抽、LLM PEFT、冒烟训练 |
-| `Explore-Then-Select/` | Query-IP 选区包装 + 评测脚本（`mage_query_ip/`、`COMMANDS.md`） |
-| `VLMEvalKit/` | 基于 [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit) 的可运行树（含本仓改动） |
-| `patches/vlmevalkit/` | 相对上游的 diff |
-| `eval_results/` | **实验指标与同 K 消融**（请保留） |
-| `scripts/` | 复现辅助脚本 |
-| `envs/requirements-*.txt` | 评测 / Cultural LoRA 依赖 |
-
-**不包含**：`mage_flow`（仓外）、`mage_vl/data`、`mage_vl/models`、venv、ffmpeg 大包。
-
-## 上游与许可
-
-- Mage-VL：遵循 Mage 仓库中 Mage-VL 许可  
-- VLMEvalKit：见 `VLMEvalKit/LICENSE`；来源说明见 `VLMEvalKit/UPSTREAM.md`
+| `mage_vl/` | Mage-VL + streaming；**无** `data/` / `models/` |
+| `mage_vl/cultural_lora/` | Cultural LoRA（后置） |
+| `Explore-Then-Select/` | Query-IP（`mage_query_ip/` · `COMMANDS.md`） |
+| `VLMEvalKit/` | vendored 评测树 |
+| `patches/vlmevalkit/` | 相对上游 diff |
+| `eval_results/` | 指标归档（请保留） |
+| `datas/` | 本地 TSV/图像等（**gitignore**，不进 Git） |
+| `scripts/` · `envs/` | 复现辅助 / freeze |
 
 ## 权重与环境（不进 Git）
 
-- Mage-VL 权重：`mage_vl/models/`（gitignore）或本地路径  
-- 评测环境：仓外 `../VLMEvalKit/vlmeval_env`，或按 `envs/requirements-vlmevalkit.txt` 重建，editable 指到 **`VQA/VLMEvalKit`**
-
-## 查看已有结果
+- Mage 权重：`mage_vl/models/`（gitignore）  
+- 评测环境：仓外 `../VLMEvalKit/vlmeval_env`，editable → **`VQA/VLMEvalKit`**
 
 ```bash
-ls eval_results/
-cat eval_results/README.md
-# 主表
-ls eval_results/queryip_samek/n200/
-# 行 A / 行 B
-ls eval_results/baseline_mage/ eval_results/queryip_rowB_full/
+ls eval_results/ && cat eval_results/README.md
+ls eval_results/queryip_samek/{n200,clip_frame_n200,region_sem_n200,region_edge_n200}/
 ```

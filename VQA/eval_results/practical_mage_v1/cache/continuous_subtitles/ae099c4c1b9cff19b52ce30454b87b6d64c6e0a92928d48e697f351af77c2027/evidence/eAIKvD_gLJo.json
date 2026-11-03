@@ -1,0 +1,565 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "eAIKvD_gLJo",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eAIKvD_gLJo.srt",
+        "status": "available",
+        "bytes": 74348,
+        "sha256": "eafde9e18c09fa328f9aacd7c75fe8a1f3271d40496c14917ec4c48bb5e7f3a9",
+        "cues": 616,
+        "nonempty_cues": 616
+      },
+      "frame_indices": [
+        0,
+        2053,
+        4106,
+        6159,
+        8213,
+        10266,
+        12319,
+        14372,
+        16425,
+        18478,
+        20532,
+        22585,
+        24638,
+        26691,
+        28744,
+        30797,
+        32851,
+        34904,
+        36957,
+        39010,
+        41063,
+        43116,
+        45170,
+        47223,
+        49276,
+        51329,
+        53382,
+        55435,
+        57489,
+        59542,
+        61595,
+        63648
+      ],
+      "frame_seconds": [
+        0.0,
+        82.12,
+        164.24,
+        246.36,
+        328.52,
+        410.64,
+        492.76,
+        574.88,
+        657.0,
+        739.12,
+        821.28,
+        903.4,
+        985.52,
+        1067.64,
+        1149.76,
+        1231.88,
+        1314.04,
+        1396.16,
+        1478.28,
+        1560.4,
+        1642.52,
+        1724.64,
+        1806.8,
+        1888.92,
+        1971.04,
+        2053.16,
+        2135.28,
+        2217.4,
+        2299.56,
+        2381.68,
+        2463.8,
+        2545.92
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          23
+        ],
+        [
+          45
+        ],
+        [
+          69
+        ],
+        [
+          91
+        ],
+        [],
+        [
+          133
+        ],
+        [],
+        [
+          172
+        ],
+        [],
+        [
+          208
+        ],
+        [
+          233
+        ],
+        [
+          253
+        ],
+        [],
+        [
+          291
+        ],
+        [
+          307
+        ],
+        [
+          327
+        ],
+        [
+          344
+        ],
+        [
+          363
+        ],
+        [
+          384
+        ],
+        [],
+        [
+          427
+        ],
+        [
+          447
+        ],
+        [
+          465
+        ],
+        [],
+        [],
+        [],
+        [
+          537
+        ],
+        [
+          558
+        ],
+        [
+          578
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 23,
+          "start_ms": 78280,
+          "end_ms": 82680,
+          "text": "Influencers show how to use facial rollers and Gua Sha stones."
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 162240,
+          "end_ms": 164320,
+          "text": "She uses them while meditating."
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 244360,
+          "end_ms": 246600,
+          "text": "or the famous gypsum selenite."
+        },
+        {
+          "cue_id": 91,
+          "start_ms": 326600,
+          "end_ms": 328920,
+          "text": "But where exactly do they come from?"
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 491040,
+          "end_ms": 493800,
+          "text": "To find out, we asked large German companies"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 654320,
+          "end_ms": 658280,
+          "text": "It protects them, it protects each of us and our jobs."
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 819760,
+          "end_ms": 825240,
+          "text": "about their numbers or their identity."
+        },
+        {
+          "cue_id": 233,
+          "start_ms": 901240,
+          "end_ms": 904720,
+          "text": "We want to find out what routes the rose quartz takes —"
+        },
+        {
+          "cue_id": 253,
+          "start_ms": 984520,
+          "end_ms": 986720,
+          "text": "Olivia had to go into quarantine."
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 1148760,
+          "end_ms": 1152320,
+          "text": "prohibit anyone under the age of 18 from working in them."
+        },
+        {
+          "cue_id": 307,
+          "start_ms": 1229440,
+          "end_ms": 1232280,
+          "text": "Often parents cannot afford the school fees,"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 1314040,
+          "end_ms": 1317800,
+          "text": "Here we just dig it up and then people abroad make something like this."
+        },
+        {
+          "cue_id": 344,
+          "start_ms": 1395160,
+          "end_ms": 1398600,
+          "text": "According to estimates, nearly half of children in Madagascar"
+        },
+        {
+          "cue_id": 363,
+          "start_ms": 1476400,
+          "end_ms": 1479280,
+          "text": "But because of this poverty they will have to work there."
+        },
+        {
+          "cue_id": 384,
+          "start_ms": 1558480,
+          "end_ms": 1560640,
+          "text": "and that we have to go back to Germany."
+        },
+        {
+          "cue_id": 427,
+          "start_ms": 1723560,
+          "end_ms": 1726320,
+          "text": "But for that, they’d need a permit from the state."
+        },
+        {
+          "cue_id": 447,
+          "start_ms": 1806200,
+          "end_ms": 1809400,
+          "text": "An order from India. We will load this on Saturday."
+        },
+        {
+          "cue_id": 465,
+          "start_ms": 1886760,
+          "end_ms": 1890760,
+          "text": "Instead, they usually go to China or India, where they are processed."
+        },
+        {
+          "cue_id": 537,
+          "start_ms": 2215640,
+          "end_ms": 2218400,
+          "text": "What do you think about the working conditions in the mines?"
+        },
+        {
+          "cue_id": 558,
+          "start_ms": 2298000,
+          "end_ms": 2301640,
+          "text": "The law is supposed to force German companies to ensure labor law"
+        },
+        {
+          "cue_id": 578,
+          "start_ms": 2381400,
+          "end_ms": 2383600,
+          "text": "The new law obliges German companies"
+        }
+      ],
+      "text": "Influencers show how to use facial rollers and Gua Sha stones.\nShe uses them while meditating.\nor the famous gypsum selenite.\nBut where exactly do they come from?\nTo find out, we asked large German companies\nIt protects them, it protects each of us and our jobs.\nabout their numbers or their identity.\nWe want to find out what routes the rose quartz takes —\nOlivia had to go into quarantine.\nprohibit anyone under the age of 18 from working in them.\nOften parents cannot afford the school fees,\nHere we just dig it up and then people abroad make something like this.\nAccording to estimates, nearly half of children in Madagascar\nBut because of this poverty they will have to work there.\nand that we have to go back to Germany.\nBut for that, they’d need a permit from the state.\nAn order from India. We will load this on Saturday.\nInstead, they usually go to China or India, where they are processed.\nWhat do you think about the working conditions in the mines?\nThe law is supposed to force German companies to ensure labor law\nThe new law obliges German companies",
+      "text_tokens": 232,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S22",
+        "cue_ids": [
+          22,
+          23,
+          24
+        ],
+        "start_ms": 74920,
+        "end_ms": 86200,
+        "text": "I feel like they hold a very, very, very beautiful energy. Influencers show how to use facial rollers and Gua Sha stones. ...and then out to the side."
+      },
+      {
+        "id": "S44",
+        "cue_ids": [
+          44,
+          45
+        ],
+        "start_ms": 158680,
+        "end_ms": 164320,
+        "text": "for their various spiritual effects. She uses them while meditating."
+      },
+      {
+        "id": "S68",
+        "cue_ids": [
+          68,
+          69,
+          70
+        ],
+        "start_ms": 240680,
+        "end_ms": 251360,
+        "text": "They like the classics like rose quartz, amethyst, or the famous gypsum selenite. We actually suddenly sold out of those favourites"
+      },
+      {
+        "id": "S90",
+        "cue_ids": [
+          90,
+          91,
+          92
+        ],
+        "start_ms": 324240,
+        "end_ms": 333440,
+        "text": "The demand for these stones is growing. But where exactly do they come from? One place in particular is on a lot of labels: Madagascar."
+      },
+      {
+        "id": "S132",
+        "cue_ids": [
+          132,
+          133,
+          134
+        ],
+        "start_ms": 487200,
+        "end_ms": 497040,
+        "text": "And do stones from Madagascar also end up in Germany? To find out, we asked large German companies which countries they get their rose quartz products from,"
+      },
+      {
+        "id": "S171",
+        "cue_ids": [
+          171,
+          172,
+          173
+        ],
+        "start_ms": 650480,
+        "end_ms": 662320,
+        "text": "It's very normal... very normal to do that. It protects them, it protects each of us and our jobs. Yes, we are their companions. But we’re not only that."
+      },
+      {
+        "id": "S207",
+        "cue_ids": [
+          207,
+          208,
+          209
+        ],
+        "start_ms": 817360,
+        "end_ms": 827840,
+        "text": "But we don't know, we don't have a full detail about their numbers or their identity. So that’s also one of the problems."
+      },
+      {
+        "id": "S232",
+        "cue_ids": [
+          232,
+          233,
+          234
+        ],
+        "start_ms": 896920,
+        "end_ms": 908640,
+        "text": "The town is the most important trading port in Madagascar. We want to find out what routes the rose quartz takes — from the mines to the port, and from here to all over the world."
+      },
+      {
+        "id": "S253",
+        "cue_ids": [
+          253,
+          254
+        ],
+        "start_ms": 984520,
+        "end_ms": 991280,
+        "text": "Olivia had to go into quarantine. Meaning we were able go to the rose quartz mines without her."
+      },
+      {
+        "id": "S290",
+        "cue_ids": [
+          290,
+          291,
+          292
+        ],
+        "start_ms": 1146880,
+        "end_ms": 1155320,
+        "text": "and why labor laws in Madagascar prohibit anyone under the age of 18 from working in them. These two boys seem to know that."
+      },
+      {
+        "id": "S306",
+        "cue_ids": [
+          306,
+          307,
+          308
+        ],
+        "start_ms": 1227200,
+        "end_ms": 1235320,
+        "text": "We don't know how many there are. Often parents cannot afford the school fees, so they take their children with them to work."
+      },
+      {
+        "id": "S326",
+        "cue_ids": [
+          326,
+          327,
+          328
+        ],
+        "start_ms": 1311080,
+        "end_ms": 1319960,
+        "text": "This is our product after it's been mined here. Here we just dig it up and then people abroad make something like this. Is that gold around it?"
+      },
+      {
+        "id": "S343",
+        "cue_ids": [
+          343,
+          344,
+          345
+        ],
+        "start_ms": 1391880,
+        "end_ms": 1401840,
+        "text": "Many of the labourers live in the village with their families. According to estimates, nearly half of children in Madagascar between the ages of five and seventeen have to work."
+      },
+      {
+        "id": "S362",
+        "cue_ids": [
+          362,
+          363,
+          364
+        ],
+        "start_ms": 1473640,
+        "end_ms": 1482360,
+        "text": "I wish they didn’t have to go there. But because of this poverty they will have to work there. They’ll have to go there if there is no other job"
+      },
+      {
+        "id": "S383",
+        "cue_ids": [
+          383,
+          384
+        ],
+        "start_ms": 1555840,
+        "end_ms": 1560640,
+        "text": "and our editors won’t give us any more money, and that we have to go back to Germany."
+      },
+      {
+        "id": "S426",
+        "cue_ids": [
+          426,
+          427,
+          428
+        ],
+        "start_ms": 1721280,
+        "end_ms": 1730640,
+        "text": "They would like to use machines themselves. But for that, they’d need a permit from the state. And those are too expensive, and stopped being issued years ago."
+      },
+      {
+        "id": "S446",
+        "cue_ids": [
+          446,
+          447,
+          448
+        ],
+        "start_ms": 1800600,
+        "end_ms": 1813360,
+        "text": "For one container. This is for India. An order from India. We will load this on Saturday. Fidy has specialised in rose quartz since 2010."
+      },
+      {
+        "id": "S464",
+        "cue_ids": [
+          464,
+          465
+        ],
+        "start_ms": 1882520,
+        "end_ms": 1890760,
+        "text": "The stones rarely go directly to Europe. Instead, they usually go to China or India, where they are processed."
+      },
+      {
+        "id": "S537",
+        "cue_ids": [
+          537,
+          538
+        ],
+        "start_ms": 2215640,
+        "end_ms": 2219440,
+        "text": "What do you think about the working conditions in the mines? For the workers?"
+      },
+      {
+        "id": "S557",
+        "cue_ids": [
+          557,
+          558,
+          559
+        ],
+        "start_ms": 2295840,
+        "end_ms": 2303720,
+        "text": "But does it hold up to this promise? The law is supposed to force German companies to ensure labor law and environmental protection compliance"
+      },
+      {
+        "id": "S577",
+        "cue_ids": [
+          577,
+          578,
+          579
+        ],
+        "start_ms": 2377240,
+        "end_ms": 2386080,
+        "text": "who responded that the law could only be passed because of this compromise. The new law obliges German companies to ensure human rights compliance."
+      }
+    ],
+    "text": "S22 [00:01:14.920 --> 00:01:26.200] I feel like they hold a very, very, very beautiful energy. Influencers show how to use facial rollers and Gua Sha stones. ...and then out to the side.\nS44 [00:02:38.680 --> 00:02:44.320] for their various spiritual effects. She uses them while meditating.\nS68 [00:04:00.680 --> 00:04:11.360] They like the classics like rose quartz, amethyst, or the famous gypsum selenite. We actually suddenly sold out of those favourites\nS90 [00:05:24.240 --> 00:05:33.440] The demand for these stones is growing. But where exactly do they come from? One place in particular is on a lot of labels: Madagascar.\nS132 [00:08:07.200 --> 00:08:17.040] And do stones from Madagascar also end up in Germany? To find out, we asked large German companies which countries they get their rose quartz products from,\nS171 [00:10:50.480 --> 00:11:02.320] It's very normal... very normal to do that. It protects them, it protects each of us and our jobs. Yes, we are their companions. But we’re not only that.\nS207 [00:13:37.360 --> 00:13:47.840] But we don't know, we don't have a full detail about their numbers or their identity. So that’s also one of the problems.\nS232 [00:14:56.920 --> 00:15:08.640] The town is the most important trading port in Madagascar. We want to find out what routes the rose quartz takes — from the mines to the port, and from here to all over the world.\nS253 [00:16:24.520 --> 00:16:31.280] Olivia had to go into quarantine. Meaning we were able go to the rose quartz mines without her.\nS290 [00:19:06.880 --> 00:19:15.320] and why labor laws in Madagascar prohibit anyone under the age of 18 from working in them. These two boys seem to know that.\nS306 [00:20:27.200 --> 00:20:35.320] We don't know how many there are. Often parents cannot afford the school fees, so they take their children with them to work.\nS326 [00:21:51.080 --> 00:21:59.960] This is our product after it's been mined here. Here we just dig it up and then people abroad make something like this. Is that gold around it?\nS343 [00:23:11.880 --> 00:23:21.840] Many of the labourers live in the village with their families. According to estimates, nearly half of children in Madagascar between the ages of five and seventeen have to work.\nS362 [00:24:33.640 --> 00:24:42.360] I wish they didn’t have to go there. But because of this poverty they will have to work there. They’ll have to go there if there is no other job\nS383 [00:25:55.840 --> 00:26:00.640] and our editors won’t give us any more money, and that we have to go back to Germany.\nS426 [00:28:41.280 --> 00:28:50.640] They would like to use machines themselves. But for that, they’d need a permit from the state. And those are too expensive, and stopped being issued years ago.\nS446 [00:30:00.600 --> 00:30:13.360] For one container. This is for India. An order from India. We will load this on Saturday. Fidy has specialised in rose quartz since 2010.\nS464 [00:31:22.520 --> 00:31:30.760] The stones rarely go directly to Europe. Instead, they usually go to China or India, where they are processed.\nS537 [00:36:55.640 --> 00:36:59.440] What do you think about the working conditions in the mines? For the workers?\nS557 [00:38:15.840 --> 00:38:23.720] But does it hold up to this promise? The law is supposed to force German companies to ensure labor law and environmental protection compliance\nS577 [00:39:37.240 --> 00:39:46.080] who responded that the law could only be passed because of this compromise. The new law obliges German companies to ensure human rights compliance.",
+    "text_tokens": 1268,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      22,
+      24,
+      44,
+      68,
+      70,
+      90,
+      92,
+      132,
+      134,
+      171,
+      173,
+      207,
+      209,
+      232,
+      234,
+      254,
+      290,
+      292,
+      306,
+      308,
+      326,
+      328,
+      343,
+      345,
+      362,
+      364,
+      383,
+      426,
+      428,
+      446,
+      448,
+      464,
+      538,
+      557,
+      559,
+      577,
+      579
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "99b9ec346e383a636e21f8e13c66da413f12f644cfb0ad9af5526e5908546633"
+}

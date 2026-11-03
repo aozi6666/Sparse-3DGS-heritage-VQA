@@ -1,0 +1,423 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "F4v0BZtrSbY",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/F4v0BZtrSbY.srt",
+      "status": "available",
+      "bytes": 12409,
+      "sha256": "de73e4ec3cd4a137f3dd5f11e588e346b2f36a264568b2e56df65d3469eaf805",
+      "cues": 128,
+      "nonempty_cues": 128
+    },
+    "frame_indices": [
+      0,
+      451,
+      902,
+      1353,
+      1804,
+      2255,
+      2706,
+      3157,
+      3608,
+      4059,
+      4510,
+      4961,
+      5412,
+      5863,
+      6314,
+      6765,
+      7215,
+      7666,
+      8117,
+      8568,
+      9019,
+      9470,
+      9921,
+      10372,
+      10823,
+      11274,
+      11725,
+      12176,
+      12627,
+      13078,
+      13529,
+      13980
+    ],
+    "frame_seconds": [
+      0.0,
+      18.04,
+      36.08,
+      54.12,
+      72.16,
+      90.2,
+      108.24000000000001,
+      126.28,
+      144.32,
+      162.36,
+      180.4,
+      198.44,
+      216.48,
+      234.52,
+      252.56,
+      270.6,
+      288.6,
+      306.64,
+      324.68,
+      342.72,
+      360.76,
+      378.8,
+      396.84000000000003,
+      414.88,
+      432.92,
+      450.96,
+      469.0,
+      487.04,
+      505.08,
+      523.12,
+      541.16,
+      559.2
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        5,
+        6
+      ],
+      [],
+      [
+        19,
+        20
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        33,
+        34
+      ],
+      [
+        40,
+        41
+      ],
+      [],
+      [],
+      [
+        53
+      ],
+      [],
+      [
+        58
+      ],
+      [
+        60,
+        61
+      ],
+      [
+        64
+      ],
+      [
+        67,
+        68
+      ],
+      [],
+      [
+        80,
+        81
+      ],
+      [],
+      [
+        89,
+        90
+      ],
+      [
+        91
+      ],
+      [
+        91
+      ],
+      [
+        95,
+        96
+      ],
+      [
+        102,
+        103
+      ],
+      [
+        108,
+        109
+      ],
+      [
+        113,
+        114
+      ],
+      [
+        115,
+        116
+      ],
+      [
+        115,
+        116
+      ],
+      [
+        117,
+        118
+      ],
+      [
+        120,
+        121
+      ],
+      [
+        122,
+        123
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 9679,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 5,
+        "start_ms": 14559,
+        "end_ms": 19199,
+        "text": "keith iwasaki where are you from i'm"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 16800,
+        "end_ms": 21039,
+        "text": "from japan i love japan thank you so"
+      },
+      {
+        "cue_id": 19,
+        "start_ms": 49200,
+        "end_ms": 55840,
+        "text": "like one of my dreams to come here oh"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 52000,
+        "end_ms": 55840,
+        "text": "yes it's amazing"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 69119,
+        "end_ms": 73360,
+        "text": "you didn't expect that answer did you no"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 71200,
+        "end_ms": 75920,
+        "text": "one's ever said that yeah i love that"
+      },
+      {
+        "cue_id": 33,
+        "start_ms": 85680,
+        "end_ms": 90240,
+        "text": "how are you there was a hundred times i"
+      },
+      {
+        "cue_id": 34,
+        "start_ms": 88158,
+        "end_ms": 90960,
+        "text": "saw you in youtube"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 104079,
+        "end_ms": 108799,
+        "text": "it's not the magic i'm joking"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 107280,
+        "end_ms": 111840,
+        "text": "let's get the magic"
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 161040,
+        "end_ms": 164239,
+        "text": "here your car is water"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 197120,
+        "end_ms": 212159,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 212159,
+        "end_ms": 217360,
+        "text": "nine amazing i didn't know japan was"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 215440,
+        "end_ms": 222079,
+        "text": "creating wizards what's going on over"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 227810,
+        "end_ms": 243760,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 246880,
+        "end_ms": 255080,
+        "text": "[Laughter]"
+      },
+      {
+        "cue_id": 68,
+        "start_ms": 250000,
+        "end_ms": 255080,
+        "text": "trick is for ladies ladies yeah"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 286240,
+        "end_ms": 288880,
+        "text": "one"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 287520,
+        "end_ms": 291300,
+        "text": "two"
+      },
+      {
+        "cue_id": 89,
+        "start_ms": 313440,
+        "end_ms": 332509,
+        "text": "water"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 315310,
+        "end_ms": 332509,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 333470,
+        "end_ms": 367540,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 375600,
+        "end_ms": 379280,
+        "text": "you are very very charming and your"
+      },
+      {
+        "cue_id": 96,
+        "start_ms": 378240,
+        "end_ms": 383680,
+        "text": "magic"
+      },
+      {
+        "cue_id": 102,
+        "start_ms": 392560,
+        "end_ms": 396880,
+        "text": "all combined in one and i love you yes"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 394960,
+        "end_ms": 399600,
+        "text": "thank you so much"
+      },
+      {
+        "cue_id": 108,
+        "start_ms": 408479,
+        "end_ms": 420880,
+        "text": "fast"
+      },
+      {
+        "cue_id": 109,
+        "start_ms": 409290,
+        "end_ms": 423680,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 113,
+        "start_ms": 428560,
+        "end_ms": 433440,
+        "text": "so i'm gonna kick this off with a yes"
+      },
+      {
+        "cue_id": 114,
+        "start_ms": 430800,
+        "end_ms": 436420,
+        "text": "yes thank you so much it's a yes from me"
+      },
+      {
+        "cue_id": 115,
+        "start_ms": 433440,
+        "end_ms": 472489,
+        "text": "yeah yes for me"
+      },
+      {
+        "cue_id": 116,
+        "start_ms": 436420,
+        "end_ms": 472489,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 474240,
+        "end_ms": 491149,
+        "text": "oh"
+      },
+      {
+        "cue_id": 118,
+        "start_ms": 477140,
+        "end_ms": 491149,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 498639,
+        "end_ms": 506759,
+        "text": "my emotion i never expected"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 502879,
+        "end_ms": 506759,
+        "text": "so much thanks so much"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 511199,
+        "end_ms": 527009,
+        "text": "i see you in the live shows"
+      },
+      {
+        "cue_id": 123,
+        "start_ms": 515120,
+        "end_ms": 527009,
+        "text": "[Applause]"
+      }
+    ],
+    "text": "[Applause]\nkeith iwasaki where are you from i'm\nfrom japan i love japan thank you so\nlike one of my dreams to come here oh\nyes it's amazing\nyou didn't expect that answer did you no\none's ever said that yeah i love that\nhow are you there was a hundred times i\nsaw you in youtube\nit's not the magic i'm joking\nlet's get the magic\nhere your car is water\n[Applause]\nnine amazing i didn't know japan was\ncreating wizards what's going on over\n[Applause]\n[Laughter]\ntrick is for ladies ladies yeah\none\ntwo\nwater\n[Music]\n[Applause]\nyou are very very charming and your\nmagic\nall combined in one and i love you yes\nthank you so much\nfast\n[Applause]\nso i'm gonna kick this off with a yes\nyes thank you so much it's a yes from me\nyeah yes for me\n[Applause]\noh\n[Applause]\nmy emotion i never expected\nso much thanks so much\ni see you in the live shows\n[Applause]",
+    "text_tokens": 248,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "6aa819191d96e1359cd90340e3dbf09741ef8f7b5b6af9ba4886565c847cd11e"
+}

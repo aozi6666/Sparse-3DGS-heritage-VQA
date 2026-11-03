@@ -1,0 +1,933 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "e-P5IFTqB98",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/e-P5IFTqB98.srt",
+        "status": "available",
+        "bytes": 15260,
+        "sha256": "a5003a8a588cce8a5eda791e3e34bcdfa6466d5f163c429774d0fb6889e18d19",
+        "cues": 131,
+        "nonempty_cues": 131
+      },
+      "frame_indices": [
+        0,
+        287,
+        574,
+        861,
+        1148,
+        1435,
+        1722,
+        2009,
+        2295,
+        2582,
+        2869,
+        3156,
+        3443,
+        3730,
+        4017,
+        4304,
+        4591,
+        4878,
+        5165,
+        5452,
+        5739,
+        6026,
+        6313,
+        6600,
+        6886,
+        7173,
+        7460,
+        7747,
+        8034,
+        8321,
+        8608,
+        8895
+      ],
+      "frame_seconds": [
+        0.0,
+        11.48,
+        22.96,
+        34.44,
+        45.92,
+        57.4,
+        68.88,
+        80.36,
+        91.8,
+        103.28,
+        114.75999999999999,
+        126.24,
+        137.72,
+        149.2,
+        160.68,
+        172.16,
+        183.64,
+        195.12,
+        206.6,
+        218.07999999999998,
+        229.56,
+        241.04,
+        252.52,
+        264.0,
+        275.44,
+        286.92,
+        298.4,
+        309.88,
+        321.36,
+        332.84000000000003,
+        344.32,
+        355.8
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          11
+        ],
+        [
+          15
+        ],
+        [
+          20
+        ],
+        [
+          25
+        ],
+        [
+          29
+        ],
+        [
+          33
+        ],
+        [
+          38
+        ],
+        [
+          43
+        ],
+        [],
+        [
+          52
+        ],
+        [
+          57
+        ],
+        [
+          62
+        ],
+        [],
+        [],
+        [
+          76
+        ],
+        [
+          81
+        ],
+        [
+          85
+        ],
+        [
+          88
+        ],
+        [
+          94
+        ],
+        [
+          99
+        ],
+        [
+          102
+        ],
+        [],
+        [
+          111
+        ],
+        [
+          116
+        ],
+        [
+          121
+        ],
+        [
+          125
+        ],
+        [
+          130
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 3520,
+          "text": "Black holes are one of the strangest things in existence."
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 33320,
+          "end_ms": 36520,
+          "text": "maintaining a delicate balance between the two forces."
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 44040,
+          "end_ms": 47740,
+          "text": "the heat and pressure at the core allow them to fuse heavier elements"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 56500,
+          "end_ms": 58500,
+          "text": "Iron builds up at the center of the star"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 68060,
+          "end_ms": 69480,
+          "text": "the star implodes."
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 78520,
+          "end_ms": 81600,
+          "text": "as the star dies, in a super nova explosion."
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 90400,
+          "end_ms": 91960,
+          "text": "If you looked at a black hole,"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 102800,
+          "end_ms": 104780,
+          "text": "So we just see a black sphere"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 114080,
+          "end_ms": 116320,
+          "text": "We're not sure what it is exactly."
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 137540,
+          "end_ms": 139360,
+          "text": "nothing much would change for earth,"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 149079,
+          "end_ms": 151900,
+          "text": "you seem to slow down as you approach the event horizon,"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 158860,
+          "end_ms": 160720,
+          "text": "While from your perspective,"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 194400,
+          "end_ms": 199120,
+          "text": "would means that gravity acts with millions of times more force on different parts of your body."
+        },
+        {
+          "cue_id": 81,
+          "start_ms": 206560,
+          "end_ms": 208640,
+          "text": "Two, you die a very quick death."
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 217880,
+          "end_ms": 220800,
+          "text": "How soon you would die depends on the mass of the black hole."
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 228860,
+          "end_ms": 230060,
+          "text": "As a rule of thumb,"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 239640,
+          "end_ms": 241500,
+          "text": "and the diameter of an asteroid."
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 252180,
+          "end_ms": 255160,
+          "text": "is S5 0014+81."
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 262280,
+          "end_ms": 265720,
+          "text": "which is 47 times the distance from the sun to Pluto."
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 284320,
+          "end_ms": 287180,
+          "text": "one of the virtual particles will be drawn into the black hole,"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 298020,
+          "end_ms": 300120,
+          "text": "When it arrives at the mass of a large asteroid,"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 307500,
+          "end_ms": 312220,
+          "text": "the black hole radiates away with the energy of billions of nuclear bombs in a huge explosion."
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 319520,
+          "end_ms": 322820,
+          "text": "This is so long that when the last black hole radiates away,"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 330620,
+          "end_ms": 333100,
+          "text": "there are loads more interesting ideas about black holes,"
+        }
+      ],
+      "text": "Black holes are one of the strangest things in existence.\nmaintaining a delicate balance between the two forces.\nthe heat and pressure at the core allow them to fuse heavier elements\nIron builds up at the center of the star\nthe star implodes.\nas the star dies, in a super nova explosion.\nIf you looked at a black hole,\nSo we just see a black sphere\nWe're not sure what it is exactly.\nnothing much would change for earth,\nyou seem to slow down as you approach the event horizon,\nWhile from your perspective,\nwould means that gravity acts with millions of times more force on different parts of your body.\nTwo, you die a very quick death.\nHow soon you would die depends on the mass of the black hole.\nAs a rule of thumb,\nand the diameter of an asteroid.\nis S5 0014+81.\nwhich is 47 times the distance from the sun to Pluto.\none of the virtual particles will be drawn into the black hole,\nWhen it arrives at the mass of a large asteroid,\nthe black hole radiates away with the energy of billions of nuclear bombs in a huge explosion.\nThis is so long that when the last black hole radiates away,\nthere are loads more interesting ideas about black holes,",
+      "text_tokens": 258,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "e-P5IFTqB98",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/e-P5IFTqB98.srt",
+          "status": "available",
+          "bytes": 15260,
+          "sha256": "a5003a8a588cce8a5eda791e3e34bcdfa6466d5f163c429774d0fb6889e18d19",
+          "cues": 131,
+          "nonempty_cues": 131
+        },
+        "frame_indices": [
+          0,
+          287,
+          574,
+          861,
+          1148,
+          1435,
+          1722,
+          2009,
+          2295,
+          2582,
+          2869,
+          3156,
+          3443,
+          3730,
+          4017,
+          4304,
+          4591,
+          4878,
+          5165,
+          5452,
+          5739,
+          6026,
+          6313,
+          6600,
+          6886,
+          7173,
+          7460,
+          7747,
+          8034,
+          8321,
+          8608,
+          8895
+        ],
+        "frame_seconds": [
+          0.0,
+          11.48,
+          22.96,
+          34.44,
+          45.92,
+          57.4,
+          68.88,
+          80.36,
+          91.8,
+          103.28,
+          114.75999999999999,
+          126.24,
+          137.72,
+          149.2,
+          160.68,
+          172.16,
+          183.64,
+          195.12,
+          206.6,
+          218.07999999999998,
+          229.56,
+          241.04,
+          252.52,
+          264.0,
+          275.44,
+          286.92,
+          298.4,
+          309.88,
+          321.36,
+          332.84000000000003,
+          344.32,
+          355.8
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [],
+          [],
+          [
+            11
+          ],
+          [
+            15
+          ],
+          [
+            20
+          ],
+          [
+            25
+          ],
+          [
+            29
+          ],
+          [
+            33
+          ],
+          [
+            38
+          ],
+          [
+            43
+          ],
+          [],
+          [
+            52
+          ],
+          [
+            57
+          ],
+          [
+            62
+          ],
+          [],
+          [],
+          [
+            76
+          ],
+          [
+            81
+          ],
+          [
+            85
+          ],
+          [
+            88
+          ],
+          [
+            94
+          ],
+          [
+            99
+          ],
+          [
+            102
+          ],
+          [],
+          [
+            111
+          ],
+          [
+            116
+          ],
+          [
+            121
+          ],
+          [
+            125
+          ],
+          [
+            130
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 3520,
+            "text": "Black holes are one of the strangest things in existence."
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 33320,
+            "end_ms": 36520,
+            "text": "maintaining a delicate balance between the two forces."
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 44040,
+            "end_ms": 47740,
+            "text": "the heat and pressure at the core allow them to fuse heavier elements"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 56500,
+            "end_ms": 58500,
+            "text": "Iron builds up at the center of the star"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 68060,
+            "end_ms": 69480,
+            "text": "the star implodes."
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 78520,
+            "end_ms": 81600,
+            "text": "as the star dies, in a super nova explosion."
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 90400,
+            "end_ms": 91960,
+            "text": "If you looked at a black hole,"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 102800,
+            "end_ms": 104780,
+            "text": "So we just see a black sphere"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 114080,
+            "end_ms": 116320,
+            "text": "We're not sure what it is exactly."
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 137540,
+            "end_ms": 139360,
+            "text": "nothing much would change for earth,"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 149079,
+            "end_ms": 151900,
+            "text": "you seem to slow down as you approach the event horizon,"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 158860,
+            "end_ms": 160720,
+            "text": "While from your perspective,"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 194400,
+            "end_ms": 199120,
+            "text": "would means that gravity acts with millions of times more force on different parts of your body."
+          },
+          {
+            "cue_id": 81,
+            "start_ms": 206560,
+            "end_ms": 208640,
+            "text": "Two, you die a very quick death."
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 217880,
+            "end_ms": 220800,
+            "text": "How soon you would die depends on the mass of the black hole."
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 228860,
+            "end_ms": 230060,
+            "text": "As a rule of thumb,"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 239640,
+            "end_ms": 241500,
+            "text": "and the diameter of an asteroid."
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 252180,
+            "end_ms": 255160,
+            "text": "is S5 0014+81."
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 262280,
+            "end_ms": 265720,
+            "text": "which is 47 times the distance from the sun to Pluto."
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 284320,
+            "end_ms": 287180,
+            "text": "one of the virtual particles will be drawn into the black hole,"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 298020,
+            "end_ms": 300120,
+            "text": "When it arrives at the mass of a large asteroid,"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 307500,
+            "end_ms": 312220,
+            "text": "the black hole radiates away with the energy of billions of nuclear bombs in a huge explosion."
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 319520,
+            "end_ms": 322820,
+            "text": "This is so long that when the last black hole radiates away,"
+          },
+          {
+            "cue_id": 130,
+            "start_ms": 330620,
+            "end_ms": 333100,
+            "text": "there are loads more interesting ideas about black holes,"
+          }
+        ],
+        "text": "Black holes are one of the strangest things in existence.\nmaintaining a delicate balance between the two forces.\nthe heat and pressure at the core allow them to fuse heavier elements\nIron builds up at the center of the star\nthe star implodes.\nas the star dies, in a super nova explosion.\nIf you looked at a black hole,\nSo we just see a black sphere\nWe're not sure what it is exactly.\nnothing much would change for earth,\nyou seem to slow down as you approach the event horizon,\nWhile from your perspective,\nwould means that gravity acts with millions of times more force on different parts of your body.\nTwo, you die a very quick death.\nHow soon you would die depends on the mass of the black hole.\nAs a rule of thumb,\nand the diameter of an asteroid.\nis S5 0014+81.\nwhich is 47 times the distance from the sun to Pluto.\none of the virtual particles will be drawn into the black hole,\nWhen it arrives at the mass of a large asteroid,\nthe black hole radiates away with the energy of billions of nuclear bombs in a huge explosion.\nThis is so long that when the last black hole radiates away,\nthere are loads more interesting ideas about black holes,",
+        "text_tokens": 258,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 5780,
+          "text": "Black holes are one of the strangest things in existence. They don't seem to make any sense at all."
+        },
+        {
+          "id": "S10",
+          "cue_ids": [
+            10,
+            11,
+            12
+          ],
+          "start_ms": 31620,
+          "end_ms": 38680,
+          "text": "pushes against gravity, maintaining a delicate balance between the two forces. As long as there is fusion in the core,"
+        },
+        {
+          "id": "S14",
+          "cue_ids": [
+            14,
+            15,
+            16
+          ],
+          "start_ms": 41180,
+          "end_ms": 49800,
+          "text": "But for stars with way more mass then our own sun the heat and pressure at the core allow them to fuse heavier elements until they reach iron."
+        },
+        {
+          "id": "S19",
+          "cue_ids": [
+            19,
+            20,
+            21
+          ],
+          "start_ms": 54580,
+          "end_ms": 60500,
+          "text": "doesn't generate any energy. Iron builds up at the center of the star until it reaches a critical amount"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26
+          ],
+          "start_ms": 66380,
+          "end_ms": 71720,
+          "text": "Within a fraction of a second, the star implodes. Moving at about the quarter of the speed of light,"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30
+          ],
+          "start_ms": 74380,
+          "end_ms": 84400,
+          "text": "It's at this very moment that all the heavier elements in the universe are created, as the star dies, in a super nova explosion. This produces either a neutron star,"
+        },
+        {
+          "id": "S32",
+          "cue_ids": [
+            32,
+            33,
+            34
+          ],
+          "start_ms": 86300,
+          "end_ms": 94800,
+          "text": "the entire mass of the core collapses into a black hole. If you looked at a black hole, what you'd really be seeing is the event horizon."
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39
+          ],
+          "start_ms": 100440,
+          "end_ms": 106039,
+          "text": "In other words, its impossible. So we just see a black sphere reflecting nothing."
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44
+          ],
+          "start_ms": 112300,
+          "end_ms": 118820,
+          "text": "The singularity. We're not sure what it is exactly. A singularity may be indefinitely dense,"
+        },
+        {
+          "id": "S51",
+          "cue_ids": [
+            51,
+            52,
+            53
+          ],
+          "start_ms": 134680,
+          "end_ms": 141440,
+          "text": "If we were to swap the sun for an equally massive black hole, nothing much would change for earth, except that we would freeze to death, of course."
+        },
+        {
+          "id": "S56",
+          "cue_ids": [
+            56,
+            57,
+            58
+          ],
+          "start_ms": 148000,
+          "end_ms": 153900,
+          "text": "from the outside, you seem to slow down as you approach the event horizon, so time passes slower for you."
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63
+          ],
+          "start_ms": 157900,
+          "end_ms": 163120,
+          "text": "and disapear. While from your perspective, you can watch the rest of the universe in fast forward,"
+        },
+        {
+          "id": "S75",
+          "cue_ids": [
+            75,
+            76,
+            77
+          ],
+          "start_ms": 191240,
+          "end_ms": 200880,
+          "text": "at some point even tiny distances of a few centimeters, would means that gravity acts with millions of times more force on different parts of your body. Your cells get torn apart,"
+        },
+        {
+          "id": "S80",
+          "cue_ids": [
+            80,
+            81,
+            82
+          ],
+          "start_ms": 204920,
+          "end_ms": 211120,
+          "text": "one atom wide. Two, you die a very quick death. Very soon after you cross the event horizon,"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "start_ms": 214440,
+          "end_ms": 232100,
+          "text": "Neither of these options are particularly pleasant. How soon you would die depends on the mass of the black hole. A smaller black hole would kill you before you even enter its event horizon, while you probably could travel inside a super size massive black hole for quite a while. As a rule of thumb, the further away from the singularity you are,"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95
+          ],
+          "start_ms": 237680,
+          "end_ms": 244060,
+          "text": "with a few times the mass of sun, and the diameter of an asteroid. And then there are the super massive black holes,"
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "start_ms": 249200,
+          "end_ms": 267680,
+          "text": "Currently, the largest super massive black hole known, is S5 0014+81. 40 billion times the mass of our sun. It is 236.7 billion kilometers in diameter, which is 47 times the distance from the sun to Pluto. As powerful as black holes are,"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112
+          ],
+          "start_ms": 281760,
+          "end_ms": 289960,
+          "text": "When this happens right on the edge of a black hole, one of the virtual particles will be drawn into the black hole, and the other will escape and become a real particle."
+        },
+        {
+          "id": "S115",
+          "cue_ids": [
+            115,
+            116,
+            117
+          ],
+          "start_ms": 295100,
+          "end_ms": 301600,
+          "text": "and gets faster as the black hole becomes smaller. When it arrives at the mass of a large asteroid, its radiating at room temperature."
+        },
+        {
+          "id": "S120",
+          "cue_ids": [
+            120,
+            121,
+            122
+          ],
+          "start_ms": 305640,
+          "end_ms": 314740,
+          "text": "and in the last second of its life, the black hole radiates away with the energy of billions of nuclear bombs in a huge explosion. But this process is incredibly slow,"
+        },
+        {
+          "id": "S124",
+          "cue_ids": [
+            124,
+            125,
+            126
+          ],
+          "start_ms": 316520,
+          "end_ms": 325220,
+          "text": "might take up a googol year to evaporate. This is so long that when the last black hole radiates away, nobody will be around to witness it."
+        },
+        {
+          "id": "S129",
+          "cue_ids": [
+            129,
+            130,
+            131
+          ],
+          "start_ms": 328800,
+          "end_ms": 335659,
+          "text": "This is not the end of our story, there are loads more interesting ideas about black holes, we'll explore them in part 2."
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:05.780] Black holes are one of the strangest things in existence. They don't seem to make any sense at all.\nS10 [00:00:31.620 --> 00:00:38.680] pushes against gravity, maintaining a delicate balance between the two forces. As long as there is fusion in the core,\nS14 [00:00:41.180 --> 00:00:49.800] But for stars with way more mass then our own sun the heat and pressure at the core allow them to fuse heavier elements until they reach iron.\nS19 [00:00:54.580 --> 00:01:00.500] doesn't generate any energy. Iron builds up at the center of the star until it reaches a critical amount\nS24 [00:01:06.380 --> 00:01:11.720] Within a fraction of a second, the star implodes. Moving at about the quarter of the speed of light,\nS28 [00:01:14.380 --> 00:01:24.400] It's at this very moment that all the heavier elements in the universe are created, as the star dies, in a super nova explosion. This produces either a neutron star,\nS32 [00:01:26.300 --> 00:01:34.800] the entire mass of the core collapses into a black hole. If you looked at a black hole, what you'd really be seeing is the event horizon.\nS37 [00:01:40.440 --> 00:01:46.039] In other words, its impossible. So we just see a black sphere reflecting nothing.\nS42 [00:01:52.300 --> 00:01:58.820] The singularity. We're not sure what it is exactly. A singularity may be indefinitely dense,\nS51 [00:02:14.680 --> 00:02:21.440] If we were to swap the sun for an equally massive black hole, nothing much would change for earth, except that we would freeze to death, of course.\nS56 [00:02:28.000 --> 00:02:33.900] from the outside, you seem to slow down as you approach the event horizon, so time passes slower for you.\nS61 [00:02:37.900 --> 00:02:43.120] and disapear. While from your perspective, you can watch the rest of the universe in fast forward,\nS75 [00:03:11.240 --> 00:03:20.880] at some point even tiny distances of a few centimeters, would means that gravity acts with millions of times more force on different parts of your body. Your cells get torn apart,\nS80 [00:03:24.920 --> 00:03:31.120] one atom wide. Two, you die a very quick death. Very soon after you cross the event horizon,\nS84 [00:03:34.440 --> 00:03:52.100] Neither of these options are particularly pleasant. How soon you would die depends on the mass of the black hole. A smaller black hole would kill you before you even enter its event horizon, while you probably could travel inside a super size massive black hole for quite a while. As a rule of thumb, the further away from the singularity you are,\nS93 [00:03:57.680 --> 00:04:04.060] with a few times the mass of sun, and the diameter of an asteroid. And then there are the super massive black holes,\nS98 [00:04:09.200 --> 00:04:27.680] Currently, the largest super massive black hole known, is S5 0014+81. 40 billion times the mass of our sun. It is 236.7 billion kilometers in diameter, which is 47 times the distance from the sun to Pluto. As powerful as black holes are,\nS110 [00:04:41.760 --> 00:04:49.960] When this happens right on the edge of a black hole, one of the virtual particles will be drawn into the black hole, and the other will escape and become a real particle.\nS115 [00:04:55.100 --> 00:05:01.600] and gets faster as the black hole becomes smaller. When it arrives at the mass of a large asteroid, its radiating at room temperature.\nS120 [00:05:05.640 --> 00:05:14.740] and in the last second of its life, the black hole radiates away with the energy of billions of nuclear bombs in a huge explosion. But this process is incredibly slow,\nS124 [00:05:16.520 --> 00:05:25.220] might take up a googol year to evaporate. This is so long that when the last black hole radiates away, nobody will be around to witness it.\nS129 [00:05:28.800 --> 00:05:35.659] This is not the end of our story, there are loads more interesting ideas about black holes, we'll explore them in part 2.",
+      "text_tokens": 1368,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        42,
+        44,
+        51,
+        53,
+        56,
+        58,
+        61,
+        63,
+        75,
+        77,
+        80,
+        82,
+        84,
+        86,
+        87,
+        89,
+        93,
+        95,
+        98,
+        100,
+        101,
+        103,
+        110,
+        112,
+        115,
+        117,
+        120,
+        122,
+        124,
+        126,
+        129,
+        131
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e4b6fe42b7b9012ad178007f88d0182cd9ff0a06fa9184471bd26eb391542270"
+}

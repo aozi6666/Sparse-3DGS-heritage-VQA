@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "a3049b1a1dbacdb9910c38127e6912bb782c01c79ab46867ffeb8a2fd06d2e67",
+  "response": {
+    "id": "34837010-543d-4973-b86b-4fc835ea659f",
+    "object": "chat.completion",
+    "created": 1793675822,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"C\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S8\",\"quote\":\"we're not going to run from the problems we're going to face it\"}],\"frame_ids\":[\"F1805\",\"F2406\",\"F3008\",\"F3609\",\"F4211\"],\"windows\":[{\"start\":66.0,\"end\":74.0},{\"start\":120.0,\"end\":128.0}],\"notes\":\"A man in a red/orange jersey (Rockets #13) appears and is interviewed in the early part of the video (~72-170s), i.e., the beginning.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9264,
+      "completion_tokens": 138,
+      "total_tokens": 9402,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9136
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.6497719418257475
+}

@@ -1,0 +1,929 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "eTLMWnsStuk",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eTLMWnsStuk.srt",
+        "status": "available",
+        "bytes": 3870,
+        "sha256": "aaab4950bb854305f5a2d0760174a66036c5621acb9700b3a040b599ee2361f5",
+        "cues": 37,
+        "nonempty_cues": 37
+      },
+      "frame_indices": [
+        0,
+        83,
+        166,
+        248,
+        331,
+        414,
+        497,
+        579,
+        662,
+        745,
+        828,
+        911,
+        993,
+        1076,
+        1159,
+        1242,
+        1324,
+        1407,
+        1490,
+        1573,
+        1655,
+        1738,
+        1821,
+        1904,
+        1987,
+        2069,
+        2152,
+        2235,
+        2318,
+        2400,
+        2483,
+        2566
+      ],
+      "frame_seconds": [
+        0.0,
+        2.766667,
+        5.533333,
+        8.266667,
+        11.033333,
+        13.8,
+        16.566667,
+        19.3,
+        22.066667,
+        24.833333,
+        27.6,
+        30.366667,
+        33.1,
+        35.866667,
+        38.633333,
+        41.4,
+        44.133333,
+        46.9,
+        49.666667,
+        52.433333,
+        55.166667,
+        57.933333,
+        60.7,
+        63.466667,
+        66.233333,
+        68.966667,
+        71.733333,
+        74.5,
+        77.266667,
+        80.0,
+        82.766667,
+        85.533333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          36,
+          37
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 160,
+          "end_ms": 4319,
+          "text": "when most people think of the civil war"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2240,
+          "end_ms": 6000,
+          "text": "they think of armed conflict on now"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 4319,
+          "end_ms": 7680,
+          "text": "famous battlefields"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6000,
+          "end_ms": 9120,
+          "text": "but the war was also fought in"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 7680,
+          "end_ms": 11679,
+          "text": "courtrooms during and"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 9120,
+          "end_ms": 13679,
+          "text": "after the war and the first civil war"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 11679,
+          "end_ms": 14719,
+          "text": "legal battle to reach the united states"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 13679,
+          "end_ms": 16560,
+          "text": "supreme court"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 14719,
+          "end_ms": 18720,
+          "text": "involved the seizure of four different"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 16560,
+          "end_ms": 21760,
+          "text": "vessels whose cases became known"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 18720,
+          "end_ms": 23840,
+          "text": "as the prize cases confederate forces"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 21760,
+          "end_ms": 26880,
+          "text": "attacked fort sumter on april 12"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 23840,
+          "end_ms": 28480,
+          "text": "1861. on april 27"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 26880,
+          "end_ms": 30080,
+          "text": "before congress could convene and"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 28480,
+          "end_ms": 32640,
+          "text": "consider a formal declaration"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 30080,
+          "end_ms": 34960,
+          "text": "of war president abraham lincoln ordered"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 32640,
+          "end_ms": 37360,
+          "text": "a blockade of rebel-held ports"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 34960,
+          "end_ms": 38960,
+          "text": "he expanded the list of blockaded ports"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 37360,
+          "end_ms": 41040,
+          "text": "on april 30."
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 38960,
+          "end_ms": 43280,
+          "text": "four commercial vessels found violating"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 41040,
+          "end_ms": 46079,
+          "text": "the blockade were captured by union"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 43280,
+          "end_ms": 48559,
+          "text": "naval forces and sent to union ports"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 46079,
+          "end_ms": 50480,
+          "text": "on july 13 congress approved of the"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 48559,
+          "end_ms": 51039,
+          "text": "actions the president had taken to that"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 50480,
+          "end_ms": 53280,
+          "text": "date"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 51039,
+          "end_ms": 54239,
+          "text": "including the blockade and authorized"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 53280,
+          "end_ms": 56960,
+          "text": "him to continue"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 54239,
+          "end_ms": 58879,
+          "text": "using force to suppress the rebellion"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 56960,
+          "end_ms": 61120,
+          "text": "owners of the ships and their cargos"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 58879,
+          "end_ms": 62160,
+          "text": "sought their return but federal district"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 61120,
+          "end_ms": 64479,
+          "text": "courts in boston"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 62160,
+          "end_ms": 66560,
+          "text": "new york and florida affirmed the"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 64479,
+          "end_ms": 68880,
+          "text": "seizures and condemned the vessels and"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 66560,
+          "end_ms": 70960,
+          "text": "cargos as prizes of war"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 68880,
+          "end_ms": 73119,
+          "text": "the owners appealed to the united states"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 70960,
+          "end_ms": 87360,
+          "text": "supreme court which joined the cases for"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 73119,
+          "end_ms": 87360,
+          "text": "argument and consideration"
+        }
+      ],
+      "text": "when most people think of the civil war\nthey think of armed conflict on now\nfamous battlefields\nbut the war was also fought in\ncourtrooms during and\nafter the war and the first civil war\nlegal battle to reach the united states\nsupreme court\ninvolved the seizure of four different\nvessels whose cases became known\nas the prize cases confederate forces\nattacked fort sumter on april 12\n1861. on april 27\nbefore congress could convene and\nconsider a formal declaration\nof war president abraham lincoln ordered\na blockade of rebel-held ports\nhe expanded the list of blockaded ports\non april 30.\nfour commercial vessels found violating\nthe blockade were captured by union\nnaval forces and sent to union ports\non july 13 congress approved of the\nactions the president had taken to that\ndate\nincluding the blockade and authorized\nhim to continue\nusing force to suppress the rebellion\nowners of the ships and their cargos\nsought their return but federal district\ncourts in boston\nnew york and florida affirmed the\nseizures and condemned the vessels and\ncargos as prizes of war\nthe owners appealed to the united states\nsupreme court which joined the cases for\nargument and consideration",
+      "text_tokens": 273,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eTLMWnsStuk",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eTLMWnsStuk.srt",
+          "status": "available",
+          "bytes": 3870,
+          "sha256": "aaab4950bb854305f5a2d0760174a66036c5621acb9700b3a040b599ee2361f5",
+          "cues": 37,
+          "nonempty_cues": 37
+        },
+        "frame_indices": [
+          0,
+          83,
+          166,
+          248,
+          331,
+          414,
+          497,
+          579,
+          662,
+          745,
+          828,
+          911,
+          993,
+          1076,
+          1159,
+          1242,
+          1324,
+          1407,
+          1490,
+          1573,
+          1655,
+          1738,
+          1821,
+          1904,
+          1987,
+          2069,
+          2152,
+          2235,
+          2318,
+          2400,
+          2483,
+          2566
+        ],
+        "frame_seconds": [
+          0.0,
+          2.766667,
+          5.533333,
+          8.266667,
+          11.033333,
+          13.8,
+          16.566667,
+          19.3,
+          22.066667,
+          24.833333,
+          27.6,
+          30.366667,
+          33.1,
+          35.866667,
+          38.633333,
+          41.4,
+          44.133333,
+          46.9,
+          49.666667,
+          52.433333,
+          55.166667,
+          57.933333,
+          60.7,
+          63.466667,
+          66.233333,
+          68.966667,
+          71.733333,
+          74.5,
+          77.266667,
+          80.0,
+          82.766667,
+          85.533333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            36,
+            37
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 160,
+            "end_ms": 4319,
+            "text": "when most people think of the civil war"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2240,
+            "end_ms": 6000,
+            "text": "they think of armed conflict on now"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 4319,
+            "end_ms": 7680,
+            "text": "famous battlefields"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6000,
+            "end_ms": 9120,
+            "text": "but the war was also fought in"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 7680,
+            "end_ms": 11679,
+            "text": "courtrooms during and"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 9120,
+            "end_ms": 13679,
+            "text": "after the war and the first civil war"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 11679,
+            "end_ms": 14719,
+            "text": "legal battle to reach the united states"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 13679,
+            "end_ms": 16560,
+            "text": "supreme court"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 14719,
+            "end_ms": 18720,
+            "text": "involved the seizure of four different"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 16560,
+            "end_ms": 21760,
+            "text": "vessels whose cases became known"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 18720,
+            "end_ms": 23840,
+            "text": "as the prize cases confederate forces"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 21760,
+            "end_ms": 26880,
+            "text": "attacked fort sumter on april 12"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 23840,
+            "end_ms": 28480,
+            "text": "1861. on april 27"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 26880,
+            "end_ms": 30080,
+            "text": "before congress could convene and"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 28480,
+            "end_ms": 32640,
+            "text": "consider a formal declaration"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 30080,
+            "end_ms": 34960,
+            "text": "of war president abraham lincoln ordered"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 32640,
+            "end_ms": 37360,
+            "text": "a blockade of rebel-held ports"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 34960,
+            "end_ms": 38960,
+            "text": "he expanded the list of blockaded ports"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 37360,
+            "end_ms": 41040,
+            "text": "on april 30."
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 38960,
+            "end_ms": 43280,
+            "text": "four commercial vessels found violating"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 41040,
+            "end_ms": 46079,
+            "text": "the blockade were captured by union"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 43280,
+            "end_ms": 48559,
+            "text": "naval forces and sent to union ports"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 46079,
+            "end_ms": 50480,
+            "text": "on july 13 congress approved of the"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 48559,
+            "end_ms": 51039,
+            "text": "actions the president had taken to that"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 50480,
+            "end_ms": 53280,
+            "text": "date"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 51039,
+            "end_ms": 54239,
+            "text": "including the blockade and authorized"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 53280,
+            "end_ms": 56960,
+            "text": "him to continue"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 54239,
+            "end_ms": 58879,
+            "text": "using force to suppress the rebellion"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 56960,
+            "end_ms": 61120,
+            "text": "owners of the ships and their cargos"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 58879,
+            "end_ms": 62160,
+            "text": "sought their return but federal district"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 61120,
+            "end_ms": 64479,
+            "text": "courts in boston"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 62160,
+            "end_ms": 66560,
+            "text": "new york and florida affirmed the"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 64479,
+            "end_ms": 68880,
+            "text": "seizures and condemned the vessels and"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 66560,
+            "end_ms": 70960,
+            "text": "cargos as prizes of war"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 68880,
+            "end_ms": 73119,
+            "text": "the owners appealed to the united states"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 70960,
+            "end_ms": 87360,
+            "text": "supreme court which joined the cases for"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 73119,
+            "end_ms": 87360,
+            "text": "argument and consideration"
+          }
+        ],
+        "text": "when most people think of the civil war\nthey think of armed conflict on now\nfamous battlefields\nbut the war was also fought in\ncourtrooms during and\nafter the war and the first civil war\nlegal battle to reach the united states\nsupreme court\ninvolved the seizure of four different\nvessels whose cases became known\nas the prize cases confederate forces\nattacked fort sumter on april 12\n1861. on april 27\nbefore congress could convene and\nconsider a formal declaration\nof war president abraham lincoln ordered\na blockade of rebel-held ports\nhe expanded the list of blockaded ports\non april 30.\nfour commercial vessels found violating\nthe blockade were captured by union\nnaval forces and sent to union ports\non july 13 congress approved of the\nactions the president had taken to that\ndate\nincluding the blockade and authorized\nhim to continue\nusing force to suppress the rebellion\nowners of the ships and their cargos\nsought their return but federal district\ncourts in boston\nnew york and florida affirmed the\nseizures and condemned the vessels and\ncargos as prizes of war\nthe owners appealed to the united states\nsupreme court which joined the cases for\nargument and consideration",
+        "text_tokens": 273,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "start_ms": 160,
+          "end_ms": 87360,
+          "text": "when most people think of the civil war they think of armed conflict on now famous battlefields but the war was also fought in courtrooms during and after the war and the first civil war legal battle to reach the united states supreme court involved the seizure of four different vessels whose cases became known as the prize cases confederate forces attacked fort sumter on april 12 1861. on april 27 before congress could convene and consider a formal declaration of war president abraham lincoln ordered a blockade of rebel-held ports he expanded the list of blockaded ports on april 30. four commercial vessels found violating the blockade were captured by union naval forces and sent to union ports on july 13 congress approved of the actions the president had taken to that date including the blockade and authorized him to continue using force to suppress the rebellion owners of the ships and their cargos sought their return but federal district courts in boston new york and florida affirmed the seizures and condemned the vessels and cargos as prizes of war the owners appealed to the united states supreme court which joined the cases for argument and consideration"
+        }
+      ],
+      "text": "S1 [00:00:00.160 --> 00:01:27.360] when most people think of the civil war they think of armed conflict on now famous battlefields but the war was also fought in courtrooms during and after the war and the first civil war legal battle to reach the united states supreme court involved the seizure of four different vessels whose cases became known as the prize cases confederate forces attacked fort sumter on april 12 1861. on april 27 before congress could convene and consider a formal declaration of war president abraham lincoln ordered a blockade of rebel-held ports he expanded the list of blockaded ports on april 30. four commercial vessels found violating the blockade were captured by union naval forces and sent to union ports on july 13 congress approved of the actions the president had taken to that date including the blockade and authorized him to continue using force to suppress the rebellion owners of the ships and their cargos sought their return but federal district courts in boston new york and florida affirmed the seizures and condemned the vessels and cargos as prizes of war the owners appealed to the united states supreme court which joined the cases for argument and consideration",
+      "text_tokens": 256,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9256b96a24373988fabb5b416fd3c3be847b3cd94a613e97e57af10b431066de"
+}

@@ -1,0 +1,29 @@
+{
+  "version": "continuous_val90_review_v1",
+  "summary_sha256": "3b3cd2e9cd9898731e433bab2782f1ee63f975f69c09f20bdfa7672069676910",
+  "journal_sha256": "105ecc2b0c62745ef078dfec0b0d3b98c0fb34ab21a04da5fca3f957c52e9b80",
+  "units_verified": 270,
+  "archive_verified": true,
+  "overall_correct": {
+    "no_sub": 53,
+    "aligned": 52,
+    "continuous": 54
+  },
+  "vs_no_sub": {
+    "rescue": 7,
+    "harm": 6,
+    "net": 1
+  },
+  "medium_correct": {
+    "no_sub": 31,
+    "aligned": 30,
+    "continuous": 32
+  },
+  "long_correct": {
+    "no_sub": 22,
+    "aligned": 22,
+    "continuous": 22
+  },
+  "conclusion": "Weak positive supplementary result; CI crosses zero; long3rescue3harm does not imply no individual harms. Keep2048,stop subtitle tuning. No inference/API/test225 executed in this review.",
+  "next": "Final test225 is a proposed next evaluation after freezing protocol,not started; Agent remains paused. If used as final test,no subsequent tuning or new independent-test claim on same data."
+}

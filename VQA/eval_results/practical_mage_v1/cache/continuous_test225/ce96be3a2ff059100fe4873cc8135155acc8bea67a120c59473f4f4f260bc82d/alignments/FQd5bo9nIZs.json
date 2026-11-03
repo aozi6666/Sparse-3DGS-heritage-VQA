@@ -1,0 +1,1531 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "FQd5bo9nIZs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FQd5bo9nIZs.srt",
+        "status": "available",
+        "bytes": 81359,
+        "sha256": "76f4605a004617b4cb77b711ffadd4b57e698105f29f05e31e5feb08690cebcb",
+        "cues": 754,
+        "nonempty_cues": 754
+      },
+      "frame_indices": [
+        0,
+        1409,
+        2818,
+        4227,
+        5636,
+        7045,
+        8454,
+        9863,
+        11273,
+        12682,
+        14091,
+        15500,
+        16909,
+        18318,
+        19727,
+        21136,
+        22545,
+        23954,
+        25363,
+        26772,
+        28181,
+        29590,
+        30999,
+        32408,
+        33818,
+        35227,
+        36636,
+        38045,
+        39454,
+        40863,
+        42272,
+        43681
+      ],
+      "frame_seconds": [
+        0.0,
+        58.767042,
+        117.53408300000001,
+        176.301125,
+        235.06816700000002,
+        293.835208,
+        352.60225,
+        411.369292,
+        470.178042,
+        528.945083,
+        587.712125,
+        646.479167,
+        705.246208,
+        764.01325,
+        822.780292,
+        881.547333,
+        940.314375,
+        999.081417,
+        1057.848458,
+        1116.6154999999999,
+        1175.382542,
+        1234.149583,
+        1292.916625,
+        1351.683667,
+        1410.492417,
+        1469.259458,
+        1528.0265,
+        1586.793542,
+        1645.560583,
+        1704.327625,
+        1763.094667,
+        1821.861708
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          19,
+          20
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          68,
+          69
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          118,
+          119
+        ],
+        [
+          146,
+          147
+        ],
+        [],
+        [
+          193,
+          194
+        ],
+        [
+          221,
+          222
+        ],
+        [
+          250,
+          251
+        ],
+        [
+          273,
+          274
+        ],
+        [
+          298,
+          299
+        ],
+        [
+          323,
+          324
+        ],
+        [
+          348,
+          349
+        ],
+        [
+          369,
+          370
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          416,
+          417
+        ],
+        [
+          443,
+          444
+        ],
+        [
+          468,
+          469
+        ],
+        [
+          489,
+          490
+        ],
+        [
+          516,
+          517
+        ],
+        [
+          540,
+          541
+        ],
+        [
+          565,
+          566
+        ],
+        [
+          590,
+          591
+        ],
+        [
+          614,
+          615
+        ],
+        [
+          638,
+          639
+        ],
+        [
+          662,
+          663
+        ],
+        [
+          687,
+          688
+        ],
+        [
+          714,
+          715
+        ],
+        [
+          739,
+          740
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 19,
+          "start_ms": 55760,
+          "end_ms": 60640,
+          "text": "but he says he's looking forward to"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 57600,
+          "end_ms": 62800,
+          "text": "life's next adventure and that adventure"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 114640,
+          "end_ms": 119680,
+          "text": "yahoo because of disagreements over the"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 117039,
+          "end_ms": 121600,
+          "text": "extensive use of advertising they even"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 172800,
+          "end_ms": 177360,
+          "text": "valley startup looking to grow as"
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 174879,
+          "end_ms": 179760,
+          "text": "quickly as possible and make millions"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 232959,
+          "end_ms": 237040,
+          "text": "it meant they didn't alienate their"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 234400,
+          "end_ms": 239040,
+          "text": "users and enough people did pay the one"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 290159,
+          "end_ms": 294320,
+          "text": "investors see the potential"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 292720,
+          "end_ms": 295120,
+          "text": "you see started coming to us and they're"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 350479,
+          "end_ms": 353280,
+          "text": "users which will then bring in more"
+        },
+        {
+          "cue_id": 147,
+          "start_ms": 352159,
+          "end_ms": 355440,
+          "text": "investors"
+        },
+        {
+          "cue_id": 193,
+          "start_ms": 466479,
+          "end_ms": 471360,
+          "text": "instead facebook bought a messaging app"
+        },
+        {
+          "cue_id": 194,
+          "start_ms": 469280,
+          "end_ms": 473919,
+          "text": "with very similar features to their own"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 525920,
+          "end_ms": 530240,
+          "text": "face at every opportunity pretty much"
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 528480,
+          "end_ms": 533200,
+          "text": "everything whatsapp was meant to stand"
+        },
+        {
+          "cue_id": 250,
+          "start_ms": 585200,
+          "end_ms": 589600,
+          "text": "sorry and i'm sorry i'm really sorry"
+        },
+        {
+          "cue_id": 251,
+          "start_ms": 587040,
+          "end_ms": 591760,
+          "text": "that this happened and then after that"
+        },
+        {
+          "cue_id": 273,
+          "start_ms": 642560,
+          "end_ms": 647200,
+          "text": "the truth becomes a lot clearer about"
+        },
+        {
+          "cue_id": 274,
+          "start_ms": 644640,
+          "end_ms": 649200,
+          "text": "why facebook really bought whatsapp and"
+        },
+        {
+          "cue_id": 298,
+          "start_ms": 701760,
+          "end_ms": 706800,
+          "text": "the one dollar fee for whatsapp users"
+        },
+        {
+          "cue_id": 299,
+          "start_ms": 704480,
+          "end_ms": 708720,
+          "text": "because getting new users into the"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 760959,
+          "end_ms": 765760,
+          "text": "they couldn't refuse so that they didn't"
+        },
+        {
+          "cue_id": 324,
+          "start_ms": 763120,
+          "end_ms": 768480,
+          "text": "sell to a competitor facebook has a"
+        },
+        {
+          "cue_id": 348,
+          "start_ms": 820160,
+          "end_ms": 825279,
+          "text": "they're in no rush to monetize directly"
+        },
+        {
+          "cue_id": 349,
+          "start_ms": 822480,
+          "end_ms": 826560,
+          "text": "what matters to them is owning the users"
+        },
+        {
+          "cue_id": 369,
+          "start_ms": 877760,
+          "end_ms": 884000,
+          "text": "facebook by leaving when he did he lost"
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 880639,
+          "end_ms": 886240,
+          "text": "out on an estimated 850 million dollars"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 937519,
+          "end_ms": 941759,
+          "text": "billion dollars and ask him to stay on"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 939920,
+          "end_ms": 943519,
+          "text": "as a facebook employee"
+        },
+        {
+          "cue_id": 416,
+          "start_ms": 995440,
+          "end_ms": 999839,
+          "text": "procedural infringement in a merger case"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 997440,
+          "end_ms": 1001759,
+          "text": "apparently facebook falsely claimed it"
+        },
+        {
+          "cue_id": 443,
+          "start_ms": 1054400,
+          "end_ms": 1060640,
+          "text": "encryption is already not as secure as"
+        },
+        {
+          "cue_id": 444,
+          "start_ms": 1057840,
+          "end_ms": 1062320,
+          "text": "it's made out to be now facebook"
+        },
+        {
+          "cue_id": 468,
+          "start_ms": 1113679,
+          "end_ms": 1118480,
+          "text": "we've created tools that are ripping"
+        },
+        {
+          "cue_id": 469,
+          "start_ms": 1115679,
+          "end_ms": 1120000,
+          "text": "apart the social fabric of how society"
+        },
+        {
+          "cue_id": 489,
+          "start_ms": 1172240,
+          "end_ms": 1175919,
+          "text": "let's again return to the original"
+        },
+        {
+          "cue_id": 490,
+          "start_ms": 1174559,
+          "end_ms": 1178559,
+          "text": "question"
+        },
+        {
+          "cue_id": 516,
+          "start_ms": 1230559,
+          "end_ms": 1234720,
+          "text": "i'm willing to bet you probably haven't"
+        },
+        {
+          "cue_id": 517,
+          "start_ms": 1232320,
+          "end_ms": 1237280,
+          "text": "ever used this service and so i think"
+        },
+        {
+          "cue_id": 540,
+          "start_ms": 1289200,
+          "end_ms": 1293600,
+          "text": "users about which of their data points"
+        },
+        {
+          "cue_id": 541,
+          "start_ms": 1291760,
+          "end_ms": 1295600,
+          "text": "may be shared with businesses and the"
+        },
+        {
+          "cue_id": 565,
+          "start_ms": 1347440,
+          "end_ms": 1352080,
+          "text": "is that this update wasn't even a change"
+        },
+        {
+          "cue_id": 566,
+          "start_ms": 1349840,
+          "end_ms": 1354720,
+          "text": "to their privacy policy apparently it"
+        },
+        {
+          "cue_id": 590,
+          "start_ms": 1406480,
+          "end_ms": 1411280,
+          "text": "family are using it as well"
+        },
+        {
+          "cue_id": 591,
+          "start_ms": 1408640,
+          "end_ms": 1413440,
+          "text": "as one person summarized by the time"
+        },
+        {
+          "cue_id": 614,
+          "start_ms": 1464640,
+          "end_ms": 1469440,
+          "text": "yourself so that way you can earn an"
+        },
+        {
+          "cue_id": 615,
+          "start_ms": 1467039,
+          "end_ms": 1471679,
+          "text": "income from researching topics you find"
+        },
+        {
+          "cue_id": 638,
+          "start_ms": 1525039,
+          "end_ms": 1530400,
+          "text": "advertisements and honestly i don't"
+        },
+        {
+          "cue_id": 639,
+          "start_ms": 1527919,
+          "end_ms": 1532559,
+          "text": "actually think companies collecting data"
+        },
+        {
+          "cue_id": 662,
+          "start_ms": 1582960,
+          "end_ms": 1588400,
+          "text": "what you're buying and when cookies"
+        },
+        {
+          "cue_id": 663,
+          "start_ms": 1585679,
+          "end_ms": 1591600,
+          "text": "track every website page you visit"
+        },
+        {
+          "cue_id": 687,
+          "start_ms": 1640480,
+          "end_ms": 1645760,
+          "text": "should you remove whatsapp"
+        },
+        {
+          "cue_id": 688,
+          "start_ms": 1642480,
+          "end_ms": 1647440,
+          "text": "well it depends quite a few people have"
+        },
+        {
+          "cue_id": 714,
+          "start_ms": 1701760,
+          "end_ms": 1706880,
+          "text": "can never be sure exactly how it"
+        },
+        {
+          "cue_id": 715,
+          "start_ms": 1704320,
+          "end_ms": 1708320,
+          "text": "operates we're not here to destroy"
+        },
+        {
+          "cue_id": 739,
+          "start_ms": 1758559,
+          "end_ms": 1763360,
+          "text": "more elements of our life become"
+        },
+        {
+          "cue_id": 740,
+          "start_ms": 1760480,
+          "end_ms": 1764960,
+          "text": "connected by technology because whilst"
+        }
+      ],
+      "text": "but he says he's looking forward to\nlife's next adventure and that adventure\nyahoo because of disagreements over the\nextensive use of advertising they even\nvalley startup looking to grow as\nquickly as possible and make millions\nit meant they didn't alienate their\nusers and enough people did pay the one\ninvestors see the potential\nyou see started coming to us and they're\nusers which will then bring in more\ninvestors\ninstead facebook bought a messaging app\nwith very similar features to their own\nface at every opportunity pretty much\neverything whatsapp was meant to stand\nsorry and i'm sorry i'm really sorry\nthat this happened and then after that\nthe truth becomes a lot clearer about\nwhy facebook really bought whatsapp and\nthe one dollar fee for whatsapp users\nbecause getting new users into the\nthey couldn't refuse so that they didn't\nsell to a competitor facebook has a\nthey're in no rush to monetize directly\nwhat matters to them is owning the users\nfacebook by leaving when he did he lost\nout on an estimated 850 million dollars\nbillion dollars and ask him to stay on\nas a facebook employee\nprocedural infringement in a merger case\napparently facebook falsely claimed it\nencryption is already not as secure as\nit's made out to be now facebook\nwe've created tools that are ripping\napart the social fabric of how society\nlet's again return to the original\nquestion\ni'm willing to bet you probably haven't\never used this service and so i think\nusers about which of their data points\nmay be shared with businesses and the\nis that this update wasn't even a change\nto their privacy policy apparently it\nfamily are using it as well\nas one person summarized by the time\nyourself so that way you can earn an\nincome from researching topics you find\nadvertisements and honestly i don't\nactually think companies collecting data\nwhat you're buying and when cookies\ntrack every website page you visit\nshould you remove whatsapp\nwell it depends quite a few people have\ncan never be sure exactly how it\noperates we're not here to destroy\nmore elements of our life become\nconnected by technology because whilst",
+      "text_tokens": 459,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "FQd5bo9nIZs",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FQd5bo9nIZs.srt",
+          "status": "available",
+          "bytes": 81359,
+          "sha256": "76f4605a004617b4cb77b711ffadd4b57e698105f29f05e31e5feb08690cebcb",
+          "cues": 754,
+          "nonempty_cues": 754
+        },
+        "frame_indices": [
+          0,
+          1409,
+          2818,
+          4227,
+          5636,
+          7045,
+          8454,
+          9863,
+          11273,
+          12682,
+          14091,
+          15500,
+          16909,
+          18318,
+          19727,
+          21136,
+          22545,
+          23954,
+          25363,
+          26772,
+          28181,
+          29590,
+          30999,
+          32408,
+          33818,
+          35227,
+          36636,
+          38045,
+          39454,
+          40863,
+          42272,
+          43681
+        ],
+        "frame_seconds": [
+          0.0,
+          58.767042,
+          117.53408300000001,
+          176.301125,
+          235.06816700000002,
+          293.835208,
+          352.60225,
+          411.369292,
+          470.178042,
+          528.945083,
+          587.712125,
+          646.479167,
+          705.246208,
+          764.01325,
+          822.780292,
+          881.547333,
+          940.314375,
+          999.081417,
+          1057.848458,
+          1116.6154999999999,
+          1175.382542,
+          1234.149583,
+          1292.916625,
+          1351.683667,
+          1410.492417,
+          1469.259458,
+          1528.0265,
+          1586.793542,
+          1645.560583,
+          1704.327625,
+          1763.094667,
+          1821.861708
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            19,
+            20
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            68,
+            69
+          ],
+          [
+            96,
+            97
+          ],
+          [
+            118,
+            119
+          ],
+          [
+            146,
+            147
+          ],
+          [],
+          [
+            193,
+            194
+          ],
+          [
+            221,
+            222
+          ],
+          [
+            250,
+            251
+          ],
+          [
+            273,
+            274
+          ],
+          [
+            298,
+            299
+          ],
+          [
+            323,
+            324
+          ],
+          [
+            348,
+            349
+          ],
+          [
+            369,
+            370
+          ],
+          [
+            394,
+            395
+          ],
+          [
+            416,
+            417
+          ],
+          [
+            443,
+            444
+          ],
+          [
+            468,
+            469
+          ],
+          [
+            489,
+            490
+          ],
+          [
+            516,
+            517
+          ],
+          [
+            540,
+            541
+          ],
+          [
+            565,
+            566
+          ],
+          [
+            590,
+            591
+          ],
+          [
+            614,
+            615
+          ],
+          [
+            638,
+            639
+          ],
+          [
+            662,
+            663
+          ],
+          [
+            687,
+            688
+          ],
+          [
+            714,
+            715
+          ],
+          [
+            739,
+            740
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 19,
+            "start_ms": 55760,
+            "end_ms": 60640,
+            "text": "but he says he's looking forward to"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 57600,
+            "end_ms": 62800,
+            "text": "life's next adventure and that adventure"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 114640,
+            "end_ms": 119680,
+            "text": "yahoo because of disagreements over the"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 117039,
+            "end_ms": 121600,
+            "text": "extensive use of advertising they even"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 172800,
+            "end_ms": 177360,
+            "text": "valley startup looking to grow as"
+          },
+          {
+            "cue_id": 69,
+            "start_ms": 174879,
+            "end_ms": 179760,
+            "text": "quickly as possible and make millions"
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 232959,
+            "end_ms": 237040,
+            "text": "it meant they didn't alienate their"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 234400,
+            "end_ms": 239040,
+            "text": "users and enough people did pay the one"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 290159,
+            "end_ms": 294320,
+            "text": "investors see the potential"
+          },
+          {
+            "cue_id": 119,
+            "start_ms": 292720,
+            "end_ms": 295120,
+            "text": "you see started coming to us and they're"
+          },
+          {
+            "cue_id": 146,
+            "start_ms": 350479,
+            "end_ms": 353280,
+            "text": "users which will then bring in more"
+          },
+          {
+            "cue_id": 147,
+            "start_ms": 352159,
+            "end_ms": 355440,
+            "text": "investors"
+          },
+          {
+            "cue_id": 193,
+            "start_ms": 466479,
+            "end_ms": 471360,
+            "text": "instead facebook bought a messaging app"
+          },
+          {
+            "cue_id": 194,
+            "start_ms": 469280,
+            "end_ms": 473919,
+            "text": "with very similar features to their own"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 525920,
+            "end_ms": 530240,
+            "text": "face at every opportunity pretty much"
+          },
+          {
+            "cue_id": 222,
+            "start_ms": 528480,
+            "end_ms": 533200,
+            "text": "everything whatsapp was meant to stand"
+          },
+          {
+            "cue_id": 250,
+            "start_ms": 585200,
+            "end_ms": 589600,
+            "text": "sorry and i'm sorry i'm really sorry"
+          },
+          {
+            "cue_id": 251,
+            "start_ms": 587040,
+            "end_ms": 591760,
+            "text": "that this happened and then after that"
+          },
+          {
+            "cue_id": 273,
+            "start_ms": 642560,
+            "end_ms": 647200,
+            "text": "the truth becomes a lot clearer about"
+          },
+          {
+            "cue_id": 274,
+            "start_ms": 644640,
+            "end_ms": 649200,
+            "text": "why facebook really bought whatsapp and"
+          },
+          {
+            "cue_id": 298,
+            "start_ms": 701760,
+            "end_ms": 706800,
+            "text": "the one dollar fee for whatsapp users"
+          },
+          {
+            "cue_id": 299,
+            "start_ms": 704480,
+            "end_ms": 708720,
+            "text": "because getting new users into the"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 760959,
+            "end_ms": 765760,
+            "text": "they couldn't refuse so that they didn't"
+          },
+          {
+            "cue_id": 324,
+            "start_ms": 763120,
+            "end_ms": 768480,
+            "text": "sell to a competitor facebook has a"
+          },
+          {
+            "cue_id": 348,
+            "start_ms": 820160,
+            "end_ms": 825279,
+            "text": "they're in no rush to monetize directly"
+          },
+          {
+            "cue_id": 349,
+            "start_ms": 822480,
+            "end_ms": 826560,
+            "text": "what matters to them is owning the users"
+          },
+          {
+            "cue_id": 369,
+            "start_ms": 877760,
+            "end_ms": 884000,
+            "text": "facebook by leaving when he did he lost"
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 880639,
+            "end_ms": 886240,
+            "text": "out on an estimated 850 million dollars"
+          },
+          {
+            "cue_id": 394,
+            "start_ms": 937519,
+            "end_ms": 941759,
+            "text": "billion dollars and ask him to stay on"
+          },
+          {
+            "cue_id": 395,
+            "start_ms": 939920,
+            "end_ms": 943519,
+            "text": "as a facebook employee"
+          },
+          {
+            "cue_id": 416,
+            "start_ms": 995440,
+            "end_ms": 999839,
+            "text": "procedural infringement in a merger case"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 997440,
+            "end_ms": 1001759,
+            "text": "apparently facebook falsely claimed it"
+          },
+          {
+            "cue_id": 443,
+            "start_ms": 1054400,
+            "end_ms": 1060640,
+            "text": "encryption is already not as secure as"
+          },
+          {
+            "cue_id": 444,
+            "start_ms": 1057840,
+            "end_ms": 1062320,
+            "text": "it's made out to be now facebook"
+          },
+          {
+            "cue_id": 468,
+            "start_ms": 1113679,
+            "end_ms": 1118480,
+            "text": "we've created tools that are ripping"
+          },
+          {
+            "cue_id": 469,
+            "start_ms": 1115679,
+            "end_ms": 1120000,
+            "text": "apart the social fabric of how society"
+          },
+          {
+            "cue_id": 489,
+            "start_ms": 1172240,
+            "end_ms": 1175919,
+            "text": "let's again return to the original"
+          },
+          {
+            "cue_id": 490,
+            "start_ms": 1174559,
+            "end_ms": 1178559,
+            "text": "question"
+          },
+          {
+            "cue_id": 516,
+            "start_ms": 1230559,
+            "end_ms": 1234720,
+            "text": "i'm willing to bet you probably haven't"
+          },
+          {
+            "cue_id": 517,
+            "start_ms": 1232320,
+            "end_ms": 1237280,
+            "text": "ever used this service and so i think"
+          },
+          {
+            "cue_id": 540,
+            "start_ms": 1289200,
+            "end_ms": 1293600,
+            "text": "users about which of their data points"
+          },
+          {
+            "cue_id": 541,
+            "start_ms": 1291760,
+            "end_ms": 1295600,
+            "text": "may be shared with businesses and the"
+          },
+          {
+            "cue_id": 565,
+            "start_ms": 1347440,
+            "end_ms": 1352080,
+            "text": "is that this update wasn't even a change"
+          },
+          {
+            "cue_id": 566,
+            "start_ms": 1349840,
+            "end_ms": 1354720,
+            "text": "to their privacy policy apparently it"
+          },
+          {
+            "cue_id": 590,
+            "start_ms": 1406480,
+            "end_ms": 1411280,
+            "text": "family are using it as well"
+          },
+          {
+            "cue_id": 591,
+            "start_ms": 1408640,
+            "end_ms": 1413440,
+            "text": "as one person summarized by the time"
+          },
+          {
+            "cue_id": 614,
+            "start_ms": 1464640,
+            "end_ms": 1469440,
+            "text": "yourself so that way you can earn an"
+          },
+          {
+            "cue_id": 615,
+            "start_ms": 1467039,
+            "end_ms": 1471679,
+            "text": "income from researching topics you find"
+          },
+          {
+            "cue_id": 638,
+            "start_ms": 1525039,
+            "end_ms": 1530400,
+            "text": "advertisements and honestly i don't"
+          },
+          {
+            "cue_id": 639,
+            "start_ms": 1527919,
+            "end_ms": 1532559,
+            "text": "actually think companies collecting data"
+          },
+          {
+            "cue_id": 662,
+            "start_ms": 1582960,
+            "end_ms": 1588400,
+            "text": "what you're buying and when cookies"
+          },
+          {
+            "cue_id": 663,
+            "start_ms": 1585679,
+            "end_ms": 1591600,
+            "text": "track every website page you visit"
+          },
+          {
+            "cue_id": 687,
+            "start_ms": 1640480,
+            "end_ms": 1645760,
+            "text": "should you remove whatsapp"
+          },
+          {
+            "cue_id": 688,
+            "start_ms": 1642480,
+            "end_ms": 1647440,
+            "text": "well it depends quite a few people have"
+          },
+          {
+            "cue_id": 714,
+            "start_ms": 1701760,
+            "end_ms": 1706880,
+            "text": "can never be sure exactly how it"
+          },
+          {
+            "cue_id": 715,
+            "start_ms": 1704320,
+            "end_ms": 1708320,
+            "text": "operates we're not here to destroy"
+          },
+          {
+            "cue_id": 739,
+            "start_ms": 1758559,
+            "end_ms": 1763360,
+            "text": "more elements of our life become"
+          },
+          {
+            "cue_id": 740,
+            "start_ms": 1760480,
+            "end_ms": 1764960,
+            "text": "connected by technology because whilst"
+          }
+        ],
+        "text": "but he says he's looking forward to\nlife's next adventure and that adventure\nyahoo because of disagreements over the\nextensive use of advertising they even\nvalley startup looking to grow as\nquickly as possible and make millions\nit meant they didn't alienate their\nusers and enough people did pay the one\ninvestors see the potential\nyou see started coming to us and they're\nusers which will then bring in more\ninvestors\ninstead facebook bought a messaging app\nwith very similar features to their own\nface at every opportunity pretty much\neverything whatsapp was meant to stand\nsorry and i'm sorry i'm really sorry\nthat this happened and then after that\nthe truth becomes a lot clearer about\nwhy facebook really bought whatsapp and\nthe one dollar fee for whatsapp users\nbecause getting new users into the\nthey couldn't refuse so that they didn't\nsell to a competitor facebook has a\nthey're in no rush to monetize directly\nwhat matters to them is owning the users\nfacebook by leaving when he did he lost\nout on an estimated 850 million dollars\nbillion dollars and ask him to stay on\nas a facebook employee\nprocedural infringement in a merger case\napparently facebook falsely claimed it\nencryption is already not as secure as\nit's made out to be now facebook\nwe've created tools that are ripping\napart the social fabric of how society\nlet's again return to the original\nquestion\ni'm willing to bet you probably haven't\never used this service and so i think\nusers about which of their data points\nmay be shared with businesses and the\nis that this update wasn't even a change\nto their privacy policy apparently it\nfamily are using it as well\nas one person summarized by the time\nyourself so that way you can earn an\nincome from researching topics you find\nadvertisements and honestly i don't\nactually think companies collecting data\nwhat you're buying and when cookies\ntrack every website page you visit\nshould you remove whatsapp\nwell it depends quite a few people have\ncan never be sure exactly how it\noperates we're not here to destroy\nmore elements of our life become\nconnected by technology because whilst",
+        "text_tokens": 459,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 53120,
+          "end_ms": 65438,
+          "text": "job there he gets turned down but he says he's looking forward to life's next adventure and that adventure would come just a couple of months later"
+        },
+        {
+          "id": "S40",
+          "cue_ids": [
+            40,
+            41,
+            42,
+            43
+          ],
+          "start_ms": 112880,
+          "end_ms": 124320,
+          "text": "actually left their previous jobs at yahoo because of disagreements over the extensive use of advertising they even made a post on the official whatsapp"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68,
+            69,
+            70
+          ],
+          "start_ms": 170640,
+          "end_ms": 181200,
+          "text": "if you picture the stereotypical silicon valley startup looking to grow as quickly as possible and make millions whatsapp was the opposite"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "start_ms": 230400,
+          "end_ms": 241760,
+          "text": "sounds it worked fairly well it meant they didn't alienate their users and enough people did pay the one dollar fee the whatsapp were able to"
+        },
+        {
+          "id": "S117",
+          "cue_ids": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "start_ms": 288080,
+          "end_ms": 296560,
+          "text": "if you've got lots of users investors see the potential you see started coming to us and they're like"
+        },
+        {
+          "id": "S145",
+          "cue_ids": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "start_ms": 348320,
+          "end_ms": 357680,
+          "text": "best it can be which will bring in more users which will then bring in more investors and the cycle repeated"
+        },
+        {
+          "id": "S192",
+          "cue_ids": [
+            192,
+            193,
+            194,
+            195
+          ],
+          "start_ms": 462319,
+          "end_ms": 476720,
+          "text": "mars missions or build 13 burj khalifas instead facebook bought a messaging app with very similar features to their own messaging app that had relatively low"
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222,
+            223
+          ],
+          "start_ms": 523200,
+          "end_ms": 535680,
+          "text": "shove limitless personalized ads in your face at every opportunity pretty much everything whatsapp was meant to stand against plus facebook have a terrible"
+        },
+        {
+          "id": "S249",
+          "cue_ids": [
+            249,
+            250,
+            251,
+            252
+          ],
+          "start_ms": 583040,
+          "end_ms": 594240,
+          "text": "my mistake i apologize for that and i'm sorry and i'm sorry i'm really sorry that this happened and then after that everything just carries on as normal"
+        },
+        {
+          "id": "S272",
+          "cue_ids": [
+            272,
+            273,
+            274,
+            275
+          ],
+          "start_ms": 640959,
+          "end_ms": 652079,
+          "text": "back to reality the truth becomes a lot clearer about why facebook really bought whatsapp and how they're monetizing it"
+        },
+        {
+          "id": "S297",
+          "cue_ids": [
+            297,
+            298,
+            299,
+            300
+          ],
+          "start_ms": 699440,
+          "end_ms": 710800,
+          "text": "that was likely why facebook scrapped the one dollar fee for whatsapp users because getting new users into the facebook ecosystem"
+        },
+        {
+          "id": "S322",
+          "cue_ids": [
+            322,
+            323,
+            324,
+            325
+          ],
+          "start_ms": 758720,
+          "end_ms": 772000,
+          "text": "and so he rushed to make them an offer they couldn't refuse so that they didn't sell to a competitor facebook has a habit of doing this as a way to ensure"
+        },
+        {
+          "id": "S347",
+          "cue_ids": [
+            347,
+            348,
+            349,
+            350
+          ],
+          "start_ms": 817839,
+          "end_ms": 829360,
+          "text": "but because it's now owned by facebook they're in no rush to monetize directly what matters to them is owning the users and data"
+        },
+        {
+          "id": "S368",
+          "cue_ids": [
+            368,
+            369,
+            370,
+            371
+          ],
+          "start_ms": 875360,
+          "end_ms": 888160,
+          "text": "plans to share whatsapp user data with facebook by leaving when he did he lost out on an estimated 850 million dollars in unvested stock options"
+        },
+        {
+          "id": "S393",
+          "cue_ids": [
+            393,
+            394,
+            395,
+            396
+          ],
+          "start_ms": 934720,
+          "end_ms": 946720,
+          "text": "years later facebook buy it for 19 billion dollars and ask him to stay on as a facebook employee he then has a huge falling out with"
+        },
+        {
+          "id": "S415",
+          "cue_ids": [
+            415,
+            416,
+            417,
+            418
+          ],
+          "start_ms": 992639,
+          "end_ms": 1003839,
+          "text": "highest fine we have ever imposed for procedural infringement in a merger case apparently facebook falsely claimed it was technically impossible to"
+        },
+        {
+          "id": "S442",
+          "cue_ids": [
+            442,
+            443,
+            444,
+            445
+          ],
+          "start_ms": 1052559,
+          "end_ms": 1064960,
+          "text": "is some people believe the whatsapp encryption is already not as secure as it's made out to be now facebook according to all these articles is"
+        },
+        {
+          "id": "S467",
+          "cue_ids": [
+            467,
+            468,
+            469,
+            470
+          ],
+          "start_ms": 1110720,
+          "end_ms": 1122799,
+          "text": "former head of growth chamath once said we've created tools that are ripping apart the social fabric of how society works"
+        },
+        {
+          "id": "S488",
+          "cue_ids": [
+            488,
+            489,
+            490,
+            491
+          ],
+          "start_ms": 1169180,
+          "end_ms": 1180799,
+          "text": "[Music] let's again return to the original question how does whatsapp make money"
+        },
+        {
+          "id": "S515",
+          "cue_ids": [
+            515,
+            516,
+            517,
+            518
+          ],
+          "start_ms": 1227919,
+          "end_ms": 1239200,
+          "text": "and whilst this sounds kind of promising i'm willing to bet you probably haven't ever used this service and so i think it's reasonable to assume this alone is"
+        },
+        {
+          "id": "S539",
+          "cue_ids": [
+            539,
+            540,
+            541,
+            542
+          ],
+          "start_ms": 1286640,
+          "end_ms": 1298240,
+          "text": "requirements whatsapp had to inform users about which of their data points may be shared with businesses and the third parties they use"
+        },
+        {
+          "id": "S564",
+          "cue_ids": [
+            564,
+            565,
+            566,
+            567
+          ],
+          "start_ms": 1345360,
+          "end_ms": 1357200,
+          "text": "what's arguably worse though is that this update wasn't even a change to their privacy policy apparently it was just clarification of what whatsapp"
+        },
+        {
+          "id": "S589",
+          "cue_ids": [
+            589,
+            590,
+            591,
+            592
+          ],
+          "start_ms": 1404640,
+          "end_ms": 1415280,
+          "text": "no point unless all your friends and family are using it as well as one person summarized by the time whatsapp was acquired by facebook"
+        },
+        {
+          "id": "S613",
+          "cue_ids": [
+            613,
+            614,
+            615,
+            616
+          ],
+          "start_ms": 1462640,
+          "end_ms": 1473440,
+          "text": "get paid to create content like this yourself so that way you can earn an income from researching topics you find genuinely interesting the course covers"
+        },
+        {
+          "id": "S637",
+          "cue_ids": [
+            637,
+            638,
+            639,
+            640
+          ],
+          "start_ms": 1522000,
+          "end_ms": 1535360,
+          "text": "privacy when this video was funded by advertisements and honestly i don't actually think companies collecting data to show you more targeted ads"
+        },
+        {
+          "id": "S661",
+          "cue_ids": [
+            661,
+            662,
+            663,
+            664
+          ],
+          "start_ms": 1580320,
+          "end_ms": 1593919,
+          "text": "your local store's loyalty card tracks what you're buying and when cookies track every website page you visit in comparison the data whatsapp collects"
+        },
+        {
+          "id": "S686",
+          "cue_ids": [
+            686,
+            687,
+            688,
+            689
+          ],
+          "start_ms": 1638559,
+          "end_ms": 1649600,
+          "text": "after watching all of this should you remove whatsapp well it depends quite a few people have been switching to different messaging"
+        },
+        {
+          "id": "S713",
+          "cue_ids": [
+            713,
+            714,
+            715,
+            716
+          ],
+          "start_ms": 1699679,
+          "end_ms": 1711039,
+          "text": "unlike many other chat apps where you can never be sure exactly how it operates we're not here to destroy whatsapp tomorrow"
+        },
+        {
+          "id": "S738",
+          "cue_ids": [
+            738,
+            739,
+            740,
+            741
+          ],
+          "start_ms": 1755200,
+          "end_ms": 1767760,
+          "text": "used is important especially as more and more elements of our life become connected by technology because whilst there's nothing inherently wrong with"
+        }
+      ],
+      "text": "S18 [00:00:53.120 --> 00:01:05.438] job there he gets turned down but he says he's looking forward to life's next adventure and that adventure would come just a couple of months later\nS40 [00:01:52.880 --> 00:02:04.320] actually left their previous jobs at yahoo because of disagreements over the extensive use of advertising they even made a post on the official whatsapp\nS67 [00:02:50.640 --> 00:03:01.200] if you picture the stereotypical silicon valley startup looking to grow as quickly as possible and make millions whatsapp was the opposite\nS95 [00:03:50.400 --> 00:04:01.760] sounds it worked fairly well it meant they didn't alienate their users and enough people did pay the one dollar fee the whatsapp were able to\nS117 [00:04:48.080 --> 00:04:56.560] if you've got lots of users investors see the potential you see started coming to us and they're like\nS145 [00:05:48.320 --> 00:05:57.680] best it can be which will bring in more users which will then bring in more investors and the cycle repeated\nS192 [00:07:42.319 --> 00:07:56.720] mars missions or build 13 burj khalifas instead facebook bought a messaging app with very similar features to their own messaging app that had relatively low\nS220 [00:08:43.200 --> 00:08:55.680] shove limitless personalized ads in your face at every opportunity pretty much everything whatsapp was meant to stand against plus facebook have a terrible\nS249 [00:09:43.040 --> 00:09:54.240] my mistake i apologize for that and i'm sorry and i'm sorry i'm really sorry that this happened and then after that everything just carries on as normal\nS272 [00:10:40.959 --> 00:10:52.079] back to reality the truth becomes a lot clearer about why facebook really bought whatsapp and how they're monetizing it\nS297 [00:11:39.440 --> 00:11:50.800] that was likely why facebook scrapped the one dollar fee for whatsapp users because getting new users into the facebook ecosystem\nS322 [00:12:38.720 --> 00:12:52.000] and so he rushed to make them an offer they couldn't refuse so that they didn't sell to a competitor facebook has a habit of doing this as a way to ensure\nS347 [00:13:37.839 --> 00:13:49.360] but because it's now owned by facebook they're in no rush to monetize directly what matters to them is owning the users and data\nS368 [00:14:35.360 --> 00:14:48.160] plans to share whatsapp user data with facebook by leaving when he did he lost out on an estimated 850 million dollars in unvested stock options\nS393 [00:15:34.720 --> 00:15:46.720] years later facebook buy it for 19 billion dollars and ask him to stay on as a facebook employee he then has a huge falling out with\nS415 [00:16:32.639 --> 00:16:43.839] highest fine we have ever imposed for procedural infringement in a merger case apparently facebook falsely claimed it was technically impossible to\nS442 [00:17:32.559 --> 00:17:44.960] is some people believe the whatsapp encryption is already not as secure as it's made out to be now facebook according to all these articles is\nS467 [00:18:30.720 --> 00:18:42.799] former head of growth chamath once said we've created tools that are ripping apart the social fabric of how society works\nS488 [00:19:29.180 --> 00:19:40.799] [Music] let's again return to the original question how does whatsapp make money\nS515 [00:20:27.919 --> 00:20:39.200] and whilst this sounds kind of promising i'm willing to bet you probably haven't ever used this service and so i think it's reasonable to assume this alone is\nS539 [00:21:26.640 --> 00:21:38.240] requirements whatsapp had to inform users about which of their data points may be shared with businesses and the third parties they use\nS564 [00:22:25.360 --> 00:22:37.200] what's arguably worse though is that this update wasn't even a change to their privacy policy apparently it was just clarification of what whatsapp\nS589 [00:23:24.640 --> 00:23:35.280] no point unless all your friends and family are using it as well as one person summarized by the time whatsapp was acquired by facebook\nS613 [00:24:22.640 --> 00:24:33.440] get paid to create content like this yourself so that way you can earn an income from researching topics you find genuinely interesting the course covers\nS637 [00:25:22.000 --> 00:25:35.360] privacy when this video was funded by advertisements and honestly i don't actually think companies collecting data to show you more targeted ads\nS661 [00:26:20.320 --> 00:26:33.919] your local store's loyalty card tracks what you're buying and when cookies track every website page you visit in comparison the data whatsapp collects\nS686 [00:27:18.559 --> 00:27:29.600] after watching all of this should you remove whatsapp well it depends quite a few people have been switching to different messaging\nS713 [00:28:19.679 --> 00:28:31.039] unlike many other chat apps where you can never be sure exactly how it operates we're not here to destroy whatsapp tomorrow\nS738 [00:29:15.200 --> 00:29:27.760] used is important especially as more and more elements of our life become connected by technology because whilst there's nothing inherently wrong with",
+      "text_tokens": 1689,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        18,
+        21,
+        40,
+        43,
+        67,
+        70,
+        95,
+        98,
+        117,
+        120,
+        145,
+        148,
+        192,
+        195,
+        220,
+        223,
+        249,
+        252,
+        272,
+        275,
+        297,
+        300,
+        322,
+        325,
+        347,
+        350,
+        368,
+        371,
+        393,
+        396,
+        415,
+        418,
+        442,
+        445,
+        467,
+        470,
+        488,
+        491,
+        515,
+        518,
+        539,
+        542,
+        564,
+        567,
+        589,
+        592,
+        613,
+        616,
+        637,
+        640,
+        661,
+        664,
+        686,
+        689,
+        713,
+        716,
+        738,
+        741
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "a5d77511aa3f894fb06fd01b652e3ee95b71412481fdc98e8e7bf6b0a651a909"
+}

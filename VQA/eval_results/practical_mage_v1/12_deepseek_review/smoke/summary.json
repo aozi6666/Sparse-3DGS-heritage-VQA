@@ -1,0 +1,111 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "stage": "smoke",
+  "N": 3,
+  "interpretation": "Development only. Pilot enriched for prediction disagreements, not a representative overall score. Independent API first pass uses sparse real frames; verification may add dense windows and a second call.",
+  "audit": {
+    "passed": true,
+    "complete": 3,
+    "invalid_independent_schema_or_citation": 0
+  },
+  "overall": {
+    "N": 3,
+    "videos": 2,
+    "methods": {
+      "mage_no_sub": {
+        "correct": 1,
+        "accuracy": 0.3333333333333333,
+        "invalid_or_abstain": 0
+      },
+      "deepseek_independent": {
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "invalid_or_abstain": 1,
+        "vs_mage": {
+          "rescue": 1,
+          "harm": 0,
+          "net": 1,
+          "delta_pp": 33.333333333333336,
+          "video_cluster_bootstrap_95ci_pp": [
+            0.0,
+            50.0
+          ],
+          "questionwise_mcnemar_exact_p": 1,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        }
+      },
+      "mage_deepseek_review": {
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "invalid_or_abstain": 0,
+        "vs_mage": {
+          "rescue": 1,
+          "harm": 0,
+          "net": 1,
+          "delta_pp": 33.333333333333336,
+          "video_cluster_bootstrap_95ci_pp": [
+            0.0,
+            50.0
+          ],
+          "questionwise_mcnemar_exact_p": 1,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        }
+      }
+    }
+  },
+  "by_duration": {
+    "medium": {
+      "N": 3,
+      "videos": 2,
+      "methods": {
+        "mage_no_sub": {
+          "correct": 1,
+          "accuracy": 0.3333333333333333,
+          "invalid_or_abstain": 0
+        },
+        "deepseek_independent": {
+          "correct": 2,
+          "accuracy": 0.6666666666666666,
+          "invalid_or_abstain": 1,
+          "vs_mage": {
+            "rescue": 1,
+            "harm": 0,
+            "net": 1,
+            "delta_pp": 33.333333333333336,
+            "video_cluster_bootstrap_95ci_pp": [
+              0.0,
+              50.0
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        },
+        "mage_deepseek_review": {
+          "correct": 2,
+          "accuracy": 0.6666666666666666,
+          "invalid_or_abstain": 0,
+          "vs_mage": {
+            "rescue": 1,
+            "harm": 0,
+            "net": 1,
+            "delta_pp": 33.333333333333336,
+            "video_cluster_bootstrap_95ci_pp": [
+              0.0,
+              50.0
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        }
+      }
+    }
+  },
+  "overridden": 1,
+  "cost": {
+    "successful_calls": 4,
+    "total_tokens": 35496,
+    "request_time_s": 7.203573541715741,
+    "stage_attempts_including_failures": 4,
+    "note": "Shared cache reuses identical completed requests across stages. Token stop line is checked before a request and may overshoot by one response; this is not a currency spending cap. Image tokens included in provider usage."
+  }
+}

@@ -1,0 +1,1590 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "Bkheu99K5lY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Bkheu99K5lY.srt",
+        "status": "available",
+        "bytes": 20854,
+        "sha256": "f548794d0515139cb9dc86a26b60213dcb996f36a7ec496cfe5a32545c7f3b3d",
+        "cues": 194,
+        "nonempty_cues": 194
+      },
+      "frame_indices": [
+        0,
+        431,
+        862,
+        1292,
+        1723,
+        2154,
+        2585,
+        3016,
+        3446,
+        3877,
+        4308,
+        4739,
+        5170,
+        5600,
+        6031,
+        6462,
+        6893,
+        7324,
+        7755,
+        8185,
+        8616,
+        9047,
+        9478,
+        9909,
+        10339,
+        10770,
+        11201,
+        11632,
+        12063,
+        12493,
+        12924,
+        13355
+      ],
+      "frame_seconds": [
+        0.0,
+        14.381033,
+        28.762067,
+        43.109733,
+        57.490767,
+        71.87180000000001,
+        86.252833,
+        100.63386700000001,
+        114.981533,
+        129.362567,
+        143.74360000000001,
+        158.12463300000002,
+        172.50566700000002,
+        186.853333,
+        201.234367,
+        215.6154,
+        229.996433,
+        244.377467,
+        258.7585,
+        273.106167,
+        287.48720000000003,
+        301.868233,
+        316.249267,
+        330.6303,
+        344.977967,
+        359.359,
+        373.740033,
+        388.121067,
+        402.5021,
+        416.849767,
+        431.2308,
+        445.611833
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          52,
+          53
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          78,
+          79
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          98,
+          99
+        ],
+        [
+          105,
+          106
+        ],
+        [
+          111,
+          112
+        ],
+        [
+          117,
+          118
+        ],
+        [
+          123,
+          124
+        ],
+        [
+          131,
+          132
+        ],
+        [
+          136,
+          137
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          148,
+          149
+        ],
+        [
+          153,
+          154
+        ],
+        [
+          161,
+          162
+        ],
+        [
+          167,
+          168
+        ],
+        [
+          174,
+          175
+        ],
+        [
+          179,
+          180
+        ],
+        [
+          187,
+          188
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 10170,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 8720,
+          "end_ms": 18160,
+          "text": "so"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 10170,
+          "end_ms": 21199,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 26000,
+          "end_ms": 29199,
+          "text": "channel"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 27039,
+          "end_ms": 31359,
+          "text": "and today i'm going to show you how to"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 39280,
+          "end_ms": 44160,
+          "text": "green and blue colored acrylic paint for"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 41920,
+          "end_ms": 46480,
+          "text": "this step i added a few drops of blue"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 55440,
+          "end_ms": 59680,
+          "text": "directly on the painting to follow the"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 57440,
+          "end_ms": 61600,
+          "text": "artist's technique this way we get a lot"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 67840,
+          "end_ms": 72159,
+          "text": "white acrylic paint to the center of the"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 69680,
+          "end_ms": 73840,
+          "text": "painting and then blend it with the rest"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 83039,
+          "end_ms": 87439,
+          "text": "we want to recreate"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 84880,
+          "end_ms": 89600,
+          "text": "once you created this rather messy base"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 96320,
+          "end_ms": 101439,
+          "text": "while keeping some parts still"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 98840,
+          "end_ms": 103439,
+          "text": "darker here i'm using a flat brush to"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 111360,
+          "end_ms": 115759,
+          "text": "green colored paint to make it into a"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 113280,
+          "end_ms": 117840,
+          "text": "nice bright green shade and repeat this"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 126079,
+          "end_ms": 130000,
+          "text": "but you can also see a little bit of"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 127600,
+          "end_ms": 132400,
+          "text": "purple in his lily paintings so we can"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 141520,
+          "end_ms": 145760,
+          "text": "as you can see we now have a little bit"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 143120,
+          "end_ms": 147680,
+          "text": "of green and blue colored areas on top"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 154959,
+          "end_ms": 159040,
+          "text": "and now it's time to create the areas"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 156720,
+          "end_ms": 161360,
+          "text": "where we will add the lilies"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 170000,
+          "end_ms": 174640,
+          "text": "i added the paint by dabbing it onto the"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 172079,
+          "end_ms": 176560,
+          "text": "upper and right area of the paper and"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 182560,
+          "end_ms": 187120,
+          "text": "here we really just want to create an"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 184480,
+          "end_ms": 189360,
+          "text": "impression of lilies as monadic"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 197280,
+          "end_ms": 201280,
+          "text": "from time to time i also added a little"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 199040,
+          "end_ms": 203760,
+          "text": "bit of yellow to brighten up the greens"
+        },
+        {
+          "cue_id": 92,
+          "start_ms": 213840,
+          "end_ms": 217360,
+          "text": "it"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 215440,
+          "end_ms": 220159,
+          "text": "a painting gets its final form by"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 226640,
+          "end_ms": 230159,
+          "text": "and now we can move on to the bottom"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 228159,
+          "end_ms": 232720,
+          "text": "part of the painting and create a few"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 241439,
+          "end_ms": 245760,
+          "text": "next to each other"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 244000,
+          "end_ms": 248000,
+          "text": "try to mix different shades of green and"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 255920,
+          "end_ms": 259519,
+          "text": "don't think too much when you add more"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 257680,
+          "end_ms": 262000,
+          "text": "and more dots of paint in different"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 268639,
+          "end_ms": 273840,
+          "text": "focusing on any details only the"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 271120,
+          "end_ms": 276800,
+          "text": "fleeting glance is the main focus or"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 283040,
+          "end_ms": 287520,
+          "text": "plant"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 285280,
+          "end_ms": 289680,
+          "text": "you can add a few flowers to the pads"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 299840,
+          "end_ms": 305120,
+          "text": "apply it right below the lily pads to"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 301840,
+          "end_ms": 307199,
+          "text": "create a shadow below them"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 311919,
+          "end_ms": 317039,
+          "text": "colored paint and carefully apply to"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 314479,
+          "end_ms": 318880,
+          "text": "some areas of the painting"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 328320,
+          "end_ms": 332800,
+          "text": "i used more blue acrylic paint on the"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 330479,
+          "end_ms": 335199,
+          "text": "lower part added a little bit more"
+        },
+        {
+          "cue_id": 148,
+          "start_ms": 341280,
+          "end_ms": 346080,
+          "text": "okay now let's remove the tape for now"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 344159,
+          "end_ms": 348320,
+          "text": "by the way because i got questions or"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 354639,
+          "end_ms": 359919,
+          "text": "so this is how it looks so far"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 357840,
+          "end_ms": 362000,
+          "text": "now we want to add an even more dreamy"
+        },
+        {
+          "cue_id": 161,
+          "start_ms": 371280,
+          "end_ms": 375680,
+          "text": "around anymore dip the brush into some"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 373520,
+          "end_ms": 377600,
+          "text": "water and remove the excess water with a"
+        },
+        {
+          "cue_id": 167,
+          "start_ms": 383840,
+          "end_ms": 388510,
+          "text": "smoky or even cloudy effect on the water"
+        },
+        {
+          "cue_id": 168,
+          "start_ms": 386720,
+          "end_ms": 389759,
+          "text": "making it look really dreamy"
+        },
+        {
+          "cue_id": 174,
+          "start_ms": 399440,
+          "end_ms": 404319,
+          "text": "create this quick fleeting glance of the"
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 401440,
+          "end_ms": 408319,
+          "text": "moment that was prominent in monets and"
+        },
+        {
+          "cue_id": 179,
+          "start_ms": 412639,
+          "end_ms": 417120,
+          "text": "lily paintings what do you guys think"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 415599,
+          "end_ms": 419120,
+          "text": "let me know in the comments below what"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 428240,
+          "end_ms": 431599,
+          "text": "forget to subscribe and to click on the"
+        },
+        {
+          "cue_id": 188,
+          "start_ms": 429840,
+          "end_ms": 433440,
+          "text": "bell button to get notified when i"
+        }
+      ],
+      "text": "[Music]\nso\n[Music]\nchannel\nand today i'm going to show you how to\ngreen and blue colored acrylic paint for\nthis step i added a few drops of blue\ndirectly on the painting to follow the\nartist's technique this way we get a lot\nwhite acrylic paint to the center of the\npainting and then blend it with the rest\nwe want to recreate\nonce you created this rather messy base\nwhile keeping some parts still\ndarker here i'm using a flat brush to\ngreen colored paint to make it into a\nnice bright green shade and repeat this\nbut you can also see a little bit of\npurple in his lily paintings so we can\nas you can see we now have a little bit\nof green and blue colored areas on top\nand now it's time to create the areas\nwhere we will add the lilies\ni added the paint by dabbing it onto the\nupper and right area of the paper and\nhere we really just want to create an\nimpression of lilies as monadic\nfrom time to time i also added a little\nbit of yellow to brighten up the greens\nit\na painting gets its final form by\nand now we can move on to the bottom\npart of the painting and create a few\nnext to each other\ntry to mix different shades of green and\ndon't think too much when you add more\nand more dots of paint in different\nfocusing on any details only the\nfleeting glance is the main focus or\nplant\nyou can add a few flowers to the pads\napply it right below the lily pads to\ncreate a shadow below them\ncolored paint and carefully apply to\nsome areas of the painting\ni used more blue acrylic paint on the\nlower part added a little bit more\nokay now let's remove the tape for now\nby the way because i got questions or\nso this is how it looks so far\nnow we want to add an even more dreamy\naround anymore dip the brush into some\nwater and remove the excess water with a\nsmoky or even cloudy effect on the water\nmaking it look really dreamy\ncreate this quick fleeting glance of the\nmoment that was prominent in monets and\nlily paintings what do you guys think\nlet me know in the comments below what\nforget to subscribe and to click on the\nbell button to get notified when i",
+      "text_tokens": 502,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Bkheu99K5lY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Bkheu99K5lY.srt",
+          "status": "available",
+          "bytes": 20854,
+          "sha256": "f548794d0515139cb9dc86a26b60213dcb996f36a7ec496cfe5a32545c7f3b3d",
+          "cues": 194,
+          "nonempty_cues": 194
+        },
+        "frame_indices": [
+          0,
+          431,
+          862,
+          1292,
+          1723,
+          2154,
+          2585,
+          3016,
+          3446,
+          3877,
+          4308,
+          4739,
+          5170,
+          5600,
+          6031,
+          6462,
+          6893,
+          7324,
+          7755,
+          8185,
+          8616,
+          9047,
+          9478,
+          9909,
+          10339,
+          10770,
+          11201,
+          11632,
+          12063,
+          12493,
+          12924,
+          13355
+        ],
+        "frame_seconds": [
+          0.0,
+          14.381033,
+          28.762067,
+          43.109733,
+          57.490767,
+          71.87180000000001,
+          86.252833,
+          100.63386700000001,
+          114.981533,
+          129.362567,
+          143.74360000000001,
+          158.12463300000002,
+          172.50566700000002,
+          186.853333,
+          201.234367,
+          215.6154,
+          229.996433,
+          244.377467,
+          258.7585,
+          273.106167,
+          287.48720000000003,
+          301.868233,
+          316.249267,
+          330.6303,
+          344.977967,
+          359.359,
+          373.740033,
+          388.121067,
+          402.5021,
+          416.849767,
+          431.2308,
+          445.611833
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            52,
+            53
+          ],
+          [
+            59,
+            60
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            78,
+            79
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            92,
+            93
+          ],
+          [
+            98,
+            99
+          ],
+          [
+            105,
+            106
+          ],
+          [
+            111,
+            112
+          ],
+          [
+            117,
+            118
+          ],
+          [
+            123,
+            124
+          ],
+          [
+            131,
+            132
+          ],
+          [
+            136,
+            137
+          ],
+          [
+            143,
+            144
+          ],
+          [
+            148,
+            149
+          ],
+          [
+            153,
+            154
+          ],
+          [
+            161,
+            162
+          ],
+          [
+            167,
+            168
+          ],
+          [
+            174,
+            175
+          ],
+          [
+            179,
+            180
+          ],
+          [
+            187,
+            188
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 10170,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 8720,
+            "end_ms": 18160,
+            "text": "so"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 10170,
+            "end_ms": 21199,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 26000,
+            "end_ms": 29199,
+            "text": "channel"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 27039,
+            "end_ms": 31359,
+            "text": "and today i'm going to show you how to"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 39280,
+            "end_ms": 44160,
+            "text": "green and blue colored acrylic paint for"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 41920,
+            "end_ms": 46480,
+            "text": "this step i added a few drops of blue"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 55440,
+            "end_ms": 59680,
+            "text": "directly on the painting to follow the"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 57440,
+            "end_ms": 61600,
+            "text": "artist's technique this way we get a lot"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 67840,
+            "end_ms": 72159,
+            "text": "white acrylic paint to the center of the"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 69680,
+            "end_ms": 73840,
+            "text": "painting and then blend it with the rest"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 83039,
+            "end_ms": 87439,
+            "text": "we want to recreate"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 84880,
+            "end_ms": 89600,
+            "text": "once you created this rather messy base"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 96320,
+            "end_ms": 101439,
+            "text": "while keeping some parts still"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 98840,
+            "end_ms": 103439,
+            "text": "darker here i'm using a flat brush to"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 111360,
+            "end_ms": 115759,
+            "text": "green colored paint to make it into a"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 113280,
+            "end_ms": 117840,
+            "text": "nice bright green shade and repeat this"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 126079,
+            "end_ms": 130000,
+            "text": "but you can also see a little bit of"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 127600,
+            "end_ms": 132400,
+            "text": "purple in his lily paintings so we can"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 141520,
+            "end_ms": 145760,
+            "text": "as you can see we now have a little bit"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 143120,
+            "end_ms": 147680,
+            "text": "of green and blue colored areas on top"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 154959,
+            "end_ms": 159040,
+            "text": "and now it's time to create the areas"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 156720,
+            "end_ms": 161360,
+            "text": "where we will add the lilies"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 170000,
+            "end_ms": 174640,
+            "text": "i added the paint by dabbing it onto the"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 172079,
+            "end_ms": 176560,
+            "text": "upper and right area of the paper and"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 182560,
+            "end_ms": 187120,
+            "text": "here we really just want to create an"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 184480,
+            "end_ms": 189360,
+            "text": "impression of lilies as monadic"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 197280,
+            "end_ms": 201280,
+            "text": "from time to time i also added a little"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 199040,
+            "end_ms": 203760,
+            "text": "bit of yellow to brighten up the greens"
+          },
+          {
+            "cue_id": 92,
+            "start_ms": 213840,
+            "end_ms": 217360,
+            "text": "it"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 215440,
+            "end_ms": 220159,
+            "text": "a painting gets its final form by"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 226640,
+            "end_ms": 230159,
+            "text": "and now we can move on to the bottom"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 228159,
+            "end_ms": 232720,
+            "text": "part of the painting and create a few"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 241439,
+            "end_ms": 245760,
+            "text": "next to each other"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 244000,
+            "end_ms": 248000,
+            "text": "try to mix different shades of green and"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 255920,
+            "end_ms": 259519,
+            "text": "don't think too much when you add more"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 257680,
+            "end_ms": 262000,
+            "text": "and more dots of paint in different"
+          },
+          {
+            "cue_id": 117,
+            "start_ms": 268639,
+            "end_ms": 273840,
+            "text": "focusing on any details only the"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 271120,
+            "end_ms": 276800,
+            "text": "fleeting glance is the main focus or"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 283040,
+            "end_ms": 287520,
+            "text": "plant"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 285280,
+            "end_ms": 289680,
+            "text": "you can add a few flowers to the pads"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 299840,
+            "end_ms": 305120,
+            "text": "apply it right below the lily pads to"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 301840,
+            "end_ms": 307199,
+            "text": "create a shadow below them"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 311919,
+            "end_ms": 317039,
+            "text": "colored paint and carefully apply to"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 314479,
+            "end_ms": 318880,
+            "text": "some areas of the painting"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 328320,
+            "end_ms": 332800,
+            "text": "i used more blue acrylic paint on the"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 330479,
+            "end_ms": 335199,
+            "text": "lower part added a little bit more"
+          },
+          {
+            "cue_id": 148,
+            "start_ms": 341280,
+            "end_ms": 346080,
+            "text": "okay now let's remove the tape for now"
+          },
+          {
+            "cue_id": 149,
+            "start_ms": 344159,
+            "end_ms": 348320,
+            "text": "by the way because i got questions or"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 354639,
+            "end_ms": 359919,
+            "text": "so this is how it looks so far"
+          },
+          {
+            "cue_id": 154,
+            "start_ms": 357840,
+            "end_ms": 362000,
+            "text": "now we want to add an even more dreamy"
+          },
+          {
+            "cue_id": 161,
+            "start_ms": 371280,
+            "end_ms": 375680,
+            "text": "around anymore dip the brush into some"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 373520,
+            "end_ms": 377600,
+            "text": "water and remove the excess water with a"
+          },
+          {
+            "cue_id": 167,
+            "start_ms": 383840,
+            "end_ms": 388510,
+            "text": "smoky or even cloudy effect on the water"
+          },
+          {
+            "cue_id": 168,
+            "start_ms": 386720,
+            "end_ms": 389759,
+            "text": "making it look really dreamy"
+          },
+          {
+            "cue_id": 174,
+            "start_ms": 399440,
+            "end_ms": 404319,
+            "text": "create this quick fleeting glance of the"
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 401440,
+            "end_ms": 408319,
+            "text": "moment that was prominent in monets and"
+          },
+          {
+            "cue_id": 179,
+            "start_ms": 412639,
+            "end_ms": 417120,
+            "text": "lily paintings what do you guys think"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 415599,
+            "end_ms": 419120,
+            "text": "let me know in the comments below what"
+          },
+          {
+            "cue_id": 187,
+            "start_ms": 428240,
+            "end_ms": 431599,
+            "text": "forget to subscribe and to click on the"
+          },
+          {
+            "cue_id": 188,
+            "start_ms": 429840,
+            "end_ms": 433440,
+            "text": "bell button to get notified when i"
+          }
+        ],
+        "text": "[Music]\nso\n[Music]\nchannel\nand today i'm going to show you how to\ngreen and blue colored acrylic paint for\nthis step i added a few drops of blue\ndirectly on the painting to follow the\nartist's technique this way we get a lot\nwhite acrylic paint to the center of the\npainting and then blend it with the rest\nwe want to recreate\nonce you created this rather messy base\nwhile keeping some parts still\ndarker here i'm using a flat brush to\ngreen colored paint to make it into a\nnice bright green shade and repeat this\nbut you can also see a little bit of\npurple in his lily paintings so we can\nas you can see we now have a little bit\nof green and blue colored areas on top\nand now it's time to create the areas\nwhere we will add the lilies\ni added the paint by dabbing it onto the\nupper and right area of the paper and\nhere we really just want to create an\nimpression of lilies as monadic\nfrom time to time i also added a little\nbit of yellow to brighten up the greens\nit\na painting gets its final form by\nand now we can move on to the bottom\npart of the painting and create a few\nnext to each other\ntry to mix different shades of green and\ndon't think too much when you add more\nand more dots of paint in different\nfocusing on any details only the\nfleeting glance is the main focus or\nplant\nyou can add a few flowers to the pads\napply it right below the lily pads to\ncreate a shadow below them\ncolored paint and carefully apply to\nsome areas of the painting\ni used more blue acrylic paint on the\nlower part added a little bit more\nokay now let's remove the tape for now\nby the way because i got questions or\nso this is how it looks so far\nnow we want to add an even more dreamy\naround anymore dip the brush into some\nwater and remove the excess water with a\nsmoky or even cloudy effect on the water\nmaking it look really dreamy\ncreate this quick fleeting glance of the\nmoment that was prominent in monets and\nlily paintings what do you guys think\nlet me know in the comments below what\nforget to subscribe and to click on the\nbell button to get notified when i",
+        "text_tokens": 502,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_ms": 0,
+          "end_ms": 24000,
+          "text": "[Music] so [Music] hey guys welcome back to another episode"
+        },
+        {
+          "id": "S6",
+          "cue_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "start_ms": 24000,
+          "end_ms": 34800,
+          "text": "every single thursday here on this channel and today i'm going to show you how to paint an acrylic painting inspired by"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_ms": 37360,
+          "end_ms": 48960,
+          "text": "here we're going to need a few drops of green and blue colored acrylic paint for this step i added a few drops of blue and green colored acrylic paint onto the"
+        },
+        {
+          "id": "S19",
+          "cue_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 53600,
+          "end_ms": 63440,
+          "text": "here we're going to mostly mix the paint directly on the painting to follow the artist's technique this way we get a lot of different shades but it will also"
+        },
+        {
+          "id": "S25",
+          "cue_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "start_ms": 66000,
+          "end_ms": 75520,
+          "text": "next you want to add a little bit of white acrylic paint to the center of the painting and then blend it with the rest using the same brush"
+        },
+        {
+          "id": "S32",
+          "cue_ids": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "start_ms": 81280,
+          "end_ms": 91840,
+          "text": "straight from the tube and that's what we want to recreate once you created this rather messy base add a tiny amount of white colored"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 93840,
+          "end_ms": 105600,
+          "text": "all over the first layer of the painting while keeping some parts still darker here i'm using a flat brush to distribute the paint more evenly while"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 109360,
+          "end_ms": 120159,
+          "text": "i also mix a little bit of yellow and green colored paint to make it into a nice bright green shade and repeat this step"
+        },
+        {
+          "id": "S51",
+          "cue_ids": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "start_ms": 122320,
+          "end_ms": 135120,
+          "text": "and green and also a little bit of white but you can also see a little bit of purple in his lily paintings so we can mix a little bit of red and blue acrylic"
+        },
+        {
+          "id": "S58",
+          "cue_ids": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "start_ms": 139280,
+          "end_ms": 149680,
+          "text": "vibrant as you can see we now have a little bit of green and blue colored areas on top and the bottom for the lilies and a"
+        },
+        {
+          "id": "S64",
+          "cue_ids": [
+            64,
+            65,
+            66,
+            67
+          ],
+          "start_ms": 152079,
+          "end_ms": 163680,
+          "text": "and white acrylic paint and now it's time to create the areas where we will add the lilies in when these paintings of the lilies"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 168480,
+          "end_ms": 178959,
+          "text": "paint i added the paint by dabbing it onto the upper and right area of the paper and then i started adding blue and green"
+        },
+        {
+          "id": "S77",
+          "cue_ids": [
+            77,
+            78,
+            79,
+            80
+          ],
+          "start_ms": 178959,
+          "end_ms": 191840,
+          "text": "still keeping the white areas around it here we really just want to create an impression of lilies as monadic he used thick and short brushstrokes to"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "start_ms": 193599,
+          "end_ms": 205440,
+          "text": "focusing on developing the details from time to time i also added a little bit of yellow to brighten up the greens and also to create a variety of lilies"
+        },
+        {
+          "id": "S91",
+          "cue_ids": [
+            91,
+            92,
+            93,
+            94
+          ],
+          "start_ms": 211920,
+          "end_ms": 222400,
+          "text": "sense but we just need to work through it a painting gets its final form by building up layers of paint one by one"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99,
+            100
+          ],
+          "start_ms": 224720,
+          "end_ms": 235040,
+          "text": "around with it and now we can move on to the bottom part of the painting and create a few lily pads"
+        },
+        {
+          "id": "S104",
+          "cue_ids": [
+            104,
+            105,
+            106,
+            107
+          ],
+          "start_ms": 239439,
+          "end_ms": 250879,
+          "text": "i painted some of the pads one by one next to each other try to mix different shades of green and blue and use a little bit of white to"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "start_ms": 253280,
+          "end_ms": 264320,
+          "text": "applied brush strokes and thick paint so don't think too much when you add more and more dots of paint in different shades of blue and green"
+        },
+        {
+          "id": "S116",
+          "cue_ids": [
+            116,
+            117,
+            118,
+            119
+          ],
+          "start_ms": 265919,
+          "end_ms": 278960,
+          "text": "movement and spontaneous moments by not focusing on any details only the fleeting glance is the main focus or also just a quick impression"
+        },
+        {
+          "id": "S122",
+          "cue_ids": [
+            122,
+            123,
+            124,
+            125
+          ],
+          "start_ms": 281040,
+          "end_ms": 291520,
+          "text": "try to create the overall shape of the plant you can add a few flowers to the pads but also make some lilies float around"
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "start_ms": 297520,
+          "end_ms": 309919,
+          "text": "create a darker shade of color and then apply it right below the lily pads to create a shadow below them okay now let's move on to building up"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136,
+            137,
+            138
+          ],
+          "start_ms": 309919,
+          "end_ms": 321600,
+          "text": "mix a little bit of green and yellow colored paint and carefully apply to some areas of the painting we really just want to slightly brush it"
+        },
+        {
+          "id": "S142",
+          "cue_ids": [
+            142,
+            143,
+            144,
+            145
+          ],
+          "start_ms": 325600,
+          "end_ms": 336960,
+          "text": "few areas i used more blue acrylic paint on the lower part added a little bit more highlights on the lily pads and just"
+        },
+        {
+          "id": "S147",
+          "cue_ids": [
+            147,
+            148,
+            149,
+            150
+          ],
+          "start_ms": 336960,
+          "end_ms": 350800,
+          "text": "would like to change okay now let's remove the tape for now by the way because i got questions or acrylic paintings i use the tape just to"
+        },
+        {
+          "id": "S152",
+          "cue_ids": [
+            152,
+            153,
+            154,
+            155
+          ],
+          "start_ms": 350800,
+          "end_ms": 364319,
+          "text": "and i usually use just washi tape so this is how it looks so far now we want to add an even more dreamy effect to the painting"
+        },
+        {
+          "id": "S160",
+          "cue_ids": [
+            160,
+            161,
+            162,
+            163
+          ],
+          "start_ms": 369759,
+          "end_ms": 379360,
+          "text": "if you notice the paint doesn't move around anymore dip the brush into some water and remove the excess water with a tissue paper"
+        },
+        {
+          "id": "S166",
+          "cue_ids": [
+            166,
+            167,
+            168,
+            169
+          ],
+          "start_ms": 381360,
+          "end_ms": 391520,
+          "text": "again this way we create a really nice smoky or even cloudy effect on the water making it look really dreamy [Music]"
+        },
+        {
+          "id": "S173",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176
+          ],
+          "start_ms": 396880,
+          "end_ms": 410639,
+          "text": "mix it on the canvas or paper to really create this quick fleeting glance of the moment that was prominent in monets and in the impressionists art"
+        },
+        {
+          "id": "S178",
+          "cue_ids": [
+            178,
+            179,
+            180,
+            181
+          ],
+          "start_ms": 410639,
+          "end_ms": 420880,
+          "text": "does it remind you of claude monet's lily paintings what do you guys think let me know in the comments below what other artists or paintings i should try"
+        },
+        {
+          "id": "S186",
+          "cue_ids": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "start_ms": 426319,
+          "end_ms": 435360,
+          "text": "a lot to me and if you're new here don't forget to subscribe and to click on the bell button to get notified when i upload a new video on thursdays and on"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:24.000] [Music] so [Music] hey guys welcome back to another episode\nS6 [00:00:24.000 --> 00:00:34.800] every single thursday here on this channel and today i'm going to show you how to paint an acrylic painting inspired by\nS12 [00:00:37.360 --> 00:00:48.960] here we're going to need a few drops of green and blue colored acrylic paint for this step i added a few drops of blue and green colored acrylic paint onto the\nS19 [00:00:53.600 --> 00:01:03.440] here we're going to mostly mix the paint directly on the painting to follow the artist's technique this way we get a lot of different shades but it will also\nS25 [00:01:06.000 --> 00:01:15.520] next you want to add a little bit of white acrylic paint to the center of the painting and then blend it with the rest using the same brush\nS32 [00:01:21.280 --> 00:01:31.840] straight from the tube and that's what we want to recreate once you created this rather messy base add a tiny amount of white colored\nS38 [00:01:33.840 --> 00:01:45.600] all over the first layer of the painting while keeping some parts still darker here i'm using a flat brush to distribute the paint more evenly while\nS45 [00:01:49.360 --> 00:02:00.159] i also mix a little bit of yellow and green colored paint to make it into a nice bright green shade and repeat this step\nS51 [00:02:02.320 --> 00:02:15.120] and green and also a little bit of white but you can also see a little bit of purple in his lily paintings so we can mix a little bit of red and blue acrylic\nS58 [00:02:19.280 --> 00:02:29.680] vibrant as you can see we now have a little bit of green and blue colored areas on top and the bottom for the lilies and a\nS64 [00:02:32.079 --> 00:02:43.680] and white acrylic paint and now it's time to create the areas where we will add the lilies in when these paintings of the lilies\nS72 [00:02:48.480 --> 00:02:58.959] paint i added the paint by dabbing it onto the upper and right area of the paper and then i started adding blue and green\nS77 [00:02:58.959 --> 00:03:11.840] still keeping the white areas around it here we really just want to create an impression of lilies as monadic he used thick and short brushstrokes to\nS83 [00:03:13.599 --> 00:03:25.440] focusing on developing the details from time to time i also added a little bit of yellow to brighten up the greens and also to create a variety of lilies\nS91 [00:03:31.920 --> 00:03:42.400] sense but we just need to work through it a painting gets its final form by building up layers of paint one by one\nS97 [00:03:44.720 --> 00:03:55.040] around with it and now we can move on to the bottom part of the painting and create a few lily pads\nS104 [00:03:59.439 --> 00:04:10.879] i painted some of the pads one by one next to each other try to mix different shades of green and blue and use a little bit of white to\nS110 [00:04:13.280 --> 00:04:24.320] applied brush strokes and thick paint so don't think too much when you add more and more dots of paint in different shades of blue and green\nS116 [00:04:25.919 --> 00:04:38.960] movement and spontaneous moments by not focusing on any details only the fleeting glance is the main focus or also just a quick impression\nS122 [00:04:41.040 --> 00:04:51.520] try to create the overall shape of the plant you can add a few flowers to the pads but also make some lilies float around\nS130 [00:04:57.520 --> 00:05:09.919] create a darker shade of color and then apply it right below the lily pads to create a shadow below them okay now let's move on to building up\nS135 [00:05:09.919 --> 00:05:21.600] mix a little bit of green and yellow colored paint and carefully apply to some areas of the painting we really just want to slightly brush it\nS142 [00:05:25.600 --> 00:05:36.960] few areas i used more blue acrylic paint on the lower part added a little bit more highlights on the lily pads and just\nS147 [00:05:36.960 --> 00:05:50.800] would like to change okay now let's remove the tape for now by the way because i got questions or acrylic paintings i use the tape just to\nS152 [00:05:50.800 --> 00:06:04.319] and i usually use just washi tape so this is how it looks so far now we want to add an even more dreamy effect to the painting\nS160 [00:06:09.759 --> 00:06:19.360] if you notice the paint doesn't move around anymore dip the brush into some water and remove the excess water with a tissue paper\nS166 [00:06:21.360 --> 00:06:31.520] again this way we create a really nice smoky or even cloudy effect on the water making it look really dreamy [Music]\nS173 [00:06:36.880 --> 00:06:50.639] mix it on the canvas or paper to really create this quick fleeting glance of the moment that was prominent in monets and in the impressionists art\nS178 [00:06:50.639 --> 00:07:00.880] does it remind you of claude monet's lily paintings what do you guys think let me know in the comments below what other artists or paintings i should try\nS186 [00:07:06.319 --> 00:07:15.360] a lot to me and if you're new here don't forget to subscribe and to click on the bell button to get notified when i upload a new video on thursdays and on",
+      "text_tokens": 1808,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        4,
+        6,
+        9,
+        12,
+        15,
+        19,
+        22,
+        25,
+        28,
+        32,
+        35,
+        38,
+        41,
+        45,
+        48,
+        51,
+        54,
+        58,
+        61,
+        64,
+        67,
+        72,
+        75,
+        77,
+        80,
+        83,
+        86,
+        91,
+        94,
+        97,
+        100,
+        104,
+        107,
+        110,
+        113,
+        116,
+        119,
+        122,
+        125,
+        130,
+        133,
+        135,
+        138,
+        142,
+        145,
+        147,
+        150,
+        152,
+        155,
+        160,
+        163,
+        166,
+        169,
+        173,
+        176,
+        178,
+        181,
+        186,
+        189
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "753ebc52b2b1ba88d8dd01429e6e315a5c401cc4bc9b568bcd8d3e11e0614d16"
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "a9ee43229d7be2a381e4a63eb4af102ab8712ac7476af819df3e1919bce96e1c",
+  "response": {
+    "id": "2ac78fad-1ede-4419-8c8e-939102e2c906",
+    "object": "chat.completion",
+    "created": 1793675785,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S23\",\"quote\":\"the laws of war prohibit torture and other ill treatment of detainees whatever their past they must be given food and water and allowed to communicate with loved ones\"}],\"frame_ids\":[\"F3075\",\"F3294\",\"F3514\",\"F3733\"],\"windows\":[],\"notes\":\"Subtitle S23 states detainees must be given food and water and allowed to communicate with loved ones, so B, C, D are permitted. The prohibited activity among the options is use of weapons (A); detainee frames show a handcuffed prisoner, supporting captivity context.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8022,
+      "completion_tokens": 145,
+      "total_tokens": 8167,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7894
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.9289527237415314
+}

@@ -1,0 +1,929 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "HKbJtgUrHGk",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HKbJtgUrHGk.srt",
+        "status": "available",
+        "bytes": 94493,
+        "sha256": "2ce4665fee916fa7a188818444c25532acdc19856fdecc14e2a4c34ca81cddc9",
+        "cues": 892,
+        "nonempty_cues": 892
+      },
+      "frame_indices": [
+        0,
+        2290,
+        4580,
+        6870,
+        9161,
+        11451,
+        13741,
+        16031,
+        18321,
+        20611,
+        22902,
+        25192,
+        27482,
+        29772,
+        32062,
+        34352,
+        36643,
+        38933,
+        41223,
+        43513,
+        45803,
+        48093,
+        50384,
+        52674,
+        54964,
+        57254,
+        59544,
+        61834,
+        64125,
+        66415,
+        68705,
+        70995
+      ],
+      "frame_seconds": [
+        0.0,
+        76.409667,
+        152.819333,
+        229.22899999999998,
+        305.672033,
+        382.0817,
+        458.49136699999997,
+        534.901033,
+        611.3107,
+        687.720367,
+        764.1634,
+        840.573067,
+        916.982733,
+        993.3924,
+        1069.802067,
+        1146.211733,
+        1222.654767,
+        1299.064433,
+        1375.4741,
+        1451.883767,
+        1528.293433,
+        1604.7031,
+        1681.146133,
+        1757.5558,
+        1833.965467,
+        1910.375133,
+        1986.7848,
+        2063.194467,
+        2139.6375,
+        2216.047167,
+        2292.456833,
+        2368.8665
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          31,
+          32
+        ],
+        [
+          61,
+          62
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          121
+        ],
+        [
+          152
+        ],
+        [
+          183,
+          184
+        ],
+        [
+          218
+        ],
+        [
+          248,
+          249
+        ],
+        [
+          280,
+          281
+        ],
+        [
+          311,
+          312
+        ],
+        [
+          344,
+          345
+        ],
+        [
+          371
+        ],
+        [
+          402,
+          403
+        ],
+        [
+          428
+        ],
+        [
+          449,
+          450
+        ],
+        [
+          480
+        ],
+        [
+          507,
+          508
+        ],
+        [
+          531
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          594,
+          595
+        ],
+        [
+          619
+        ],
+        [
+          647,
+          648
+        ],
+        [
+          674,
+          675
+        ],
+        [
+          703
+        ],
+        [
+          731,
+          732
+        ],
+        [
+          760,
+          761
+        ],
+        [
+          791
+        ],
+        [
+          812,
+          813
+        ],
+        [
+          840
+        ],
+        [
+          865
+        ],
+        [
+          891,
+          892
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 31,
+          "start_ms": 72200,
+          "end_ms": 78039,
+          "text": "what team forap was looking for on a two"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 75400,
+          "end_ms": 80360,
+          "text": "count with one out cage ball is underway"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 149000,
+          "end_ms": 153000,
+          "text": "rules here's you score points in cage"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 151319,
+          "end_ms": 154160,
+          "text": "ball I mean we've seen this with Cole"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 226239,
+          "end_ms": 230799,
+          "text": "Tosh a three- pitch inning would not be"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 228720,
+          "end_ms": 232959,
+          "text": "great before the inning ends let's meet"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 302600,
+          "end_ms": 307680,
+          "text": "that's it that's it to keep cage ball"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 378400,
+          "end_ms": 382520,
+          "text": "there keep going keep going"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 454879,
+          "end_ms": 459159,
+          "text": "just Cole is the king of rolling over to"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 457360,
+          "end_ms": 460840,
+          "text": "third we saw that all last year in cage"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 532800,
+          "end_ms": 536560,
+          "text": "here it's all good that's still two"
+        },
+        {
+          "cue_id": 248,
+          "start_ms": 607240,
+          "end_ms": 611440,
+          "text": "with let's see what team Bower outage"
+        },
+        {
+          "cue_id": 249,
+          "start_ms": 609360,
+          "end_ms": 613320,
+          "text": "has pled it's first time playing cage"
+        },
+        {
+          "cue_id": 280,
+          "start_ms": 683279,
+          "end_ms": 688639,
+          "text": "Shoemaker Travis Matthew University Max"
+        },
+        {
+          "cue_id": 281,
+          "start_ms": 686040,
+          "end_ms": 691200,
+          "text": "Roberts momentum University Kyle Ley"
+        },
+        {
+          "cue_id": 311,
+          "start_ms": 761959,
+          "end_ms": 764920,
+          "text": "bit there's a lot of chatter about"
+        },
+        {
+          "cue_id": 312,
+          "start_ms": 763480,
+          "end_ms": 766680,
+          "text": "pulling my guys early and what kind of"
+        },
+        {
+          "cue_id": 344,
+          "start_ms": 837360,
+          "end_ms": 840759,
+          "text": "last year so defense is definitely going"
+        },
+        {
+          "cue_id": 345,
+          "start_ms": 839079,
+          "end_ms": 842920,
+          "text": "to be a priority for us this season"
+        },
+        {
+          "cue_id": 371,
+          "start_ms": 915399,
+          "end_ms": 922240,
+          "text": "pitch dude that was painted that was"
+        },
+        {
+          "cue_id": 402,
+          "start_ms": 988720,
+          "end_ms": 995959,
+          "text": "last it's all good we have no idea what"
+        },
+        {
+          "cue_id": 403,
+          "start_ms": 991160,
+          "end_ms": 999600,
+          "text": "this ball oh good D good pitch though up"
+        },
+        {
+          "cue_id": 428,
+          "start_ms": 1068960,
+          "end_ms": 1078960,
+          "text": "leg oh no that's strike get your pitch"
+        },
+        {
+          "cue_id": 449,
+          "start_ms": 1142880,
+          "end_ms": 1147120,
+          "text": "God team outage is not going out without"
+        },
+        {
+          "cue_id": 450,
+          "start_ms": 1145360,
+          "end_ms": 1149440,
+          "text": "a fight man I like that when you guys"
+        },
+        {
+          "cue_id": 480,
+          "start_ms": 1220080,
+          "end_ms": 1226360,
+          "text": "King dude he's him he's showing doin all"
+        },
+        {
+          "cue_id": 507,
+          "start_ms": 1293400,
+          "end_ms": 1300159,
+          "text": "yep dude how is"
+        },
+        {
+          "cue_id": 508,
+          "start_ms": 1295440,
+          "end_ms": 1300159,
+          "text": "that that that's your fault don't be"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1372799,
+          "end_ms": 1379960,
+          "text": "right tank we love to see"
+        },
+        {
+          "cue_id": 560,
+          "start_ms": 1445559,
+          "end_ms": 1452520,
+          "text": "God got the"
+        },
+        {
+          "cue_id": 561,
+          "start_ms": 1448760,
+          "end_ms": 1454840,
+          "text": "Y oh no that's two lobs missed all right"
+        },
+        {
+          "cue_id": 594,
+          "start_ms": 1525640,
+          "end_ms": 1529960,
+          "text": "this win to Trevor for at a discount"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 1528000,
+          "end_ms": 1532080,
+          "text": "rate a ground ball double play here"
+        },
+        {
+          "cue_id": 619,
+          "start_ms": 1601279,
+          "end_ms": 1609240,
+          "text": "yes I bang I bang right oh my what a"
+        },
+        {
+          "cue_id": 647,
+          "start_ms": 1675799,
+          "end_ms": 1681440,
+          "text": "four that is four"
+        },
+        {
+          "cue_id": 648,
+          "start_ms": 1678799,
+          "end_ms": 1681440,
+          "text": "go J"
+        },
+        {
+          "cue_id": 674,
+          "start_ms": 1753559,
+          "end_ms": 1760000,
+          "text": "out he got him out only"
+        },
+        {
+          "cue_id": 675,
+          "start_ms": 1757360,
+          "end_ms": 1762200,
+          "text": "four"
+        },
+        {
+          "cue_id": 703,
+          "start_ms": 1829760,
+          "end_ms": 1834440,
+          "text": "out yes oh yeah"
+        },
+        {
+          "cue_id": 731,
+          "start_ms": 1907039,
+          "end_ms": 1911559,
+          "text": "that Eric's a bad Clubhouse it's it's"
+        },
+        {
+          "cue_id": 732,
+          "start_ms": 1909720,
+          "end_ms": 1913639,
+          "text": "it's predictable interesting going to"
+        },
+        {
+          "cue_id": 760,
+          "start_ms": 1980799,
+          "end_ms": 1989279,
+          "text": "the oh my goodness turn you want yet K"
+        },
+        {
+          "cue_id": 761,
+          "start_ms": 1986279,
+          "end_ms": 1989279,
+          "text": "oh"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 2062940,
+          "end_ms": 2067918,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 812,
+          "start_ms": 2134800,
+          "end_ms": 2141480,
+          "text": "it get on base let's go walk"
+        },
+        {
+          "cue_id": 813,
+          "start_ms": 2138000,
+          "end_ms": 2143440,
+          "text": "him unbelievable two more points he's"
+        },
+        {
+          "cue_id": 840,
+          "start_ms": 2213960,
+          "end_ms": 2220319,
+          "text": "play that pitch is unhitable apparently"
+        },
+        {
+          "cue_id": 865,
+          "start_ms": 2291440,
+          "end_ms": 2295960,
+          "text": "Ronin that's incredible that's two outs"
+        },
+        {
+          "cue_id": 891,
+          "start_ms": 2364119,
+          "end_ms": 2370839,
+          "text": "week this is"
+        },
+        {
+          "cue_id": 892,
+          "start_ms": 2365440,
+          "end_ms": 2370839,
+          "text": "bju big butts I cannot lay"
+        }
+      ],
+      "text": "what team forap was looking for on a two\ncount with one out cage ball is underway\nrules here's you score points in cage\nball I mean we've seen this with Cole\nTosh a three- pitch inning would not be\ngreat before the inning ends let's meet\nthat's it that's it to keep cage ball\nthere keep going keep going\njust Cole is the king of rolling over to\nthird we saw that all last year in cage\nhere it's all good that's still two\nwith let's see what team Bower outage\nhas pled it's first time playing cage\nShoemaker Travis Matthew University Max\nRoberts momentum University Kyle Ley\nbit there's a lot of chatter about\npulling my guys early and what kind of\nlast year so defense is definitely going\nto be a priority for us this season\npitch dude that was painted that was\nlast it's all good we have no idea what\nthis ball oh good D good pitch though up\nleg oh no that's strike get your pitch\nGod team outage is not going out without\na fight man I like that when you guys\nKing dude he's him he's showing doin all\nyep dude how is\nthat that that's your fault don't be\nright tank we love to see\nGod got the\nY oh no that's two lobs missed all right\nthis win to Trevor for at a discount\nrate a ground ball double play here\nyes I bang I bang right oh my what a\nfour that is four\ngo J\nout he got him out only\nfour\nout yes oh yeah\nthat Eric's a bad Clubhouse it's it's\nit's predictable interesting going to\nthe oh my goodness turn you want yet K\noh\n[Applause]\nit get on base let's go walk\nhim unbelievable two more points he's\nplay that pitch is unhitable apparently\nRonin that's incredible that's two outs\nweek this is\nbju big butts I cannot lay",
+      "text_tokens": 418,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S30",
+        "cue_ids": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "start_ms": 68039,
+        "end_ms": 83280,
+        "text": "two that's an out let's go that is not what team forap was looking for on a two count with one out cage ball is underway let's meet the players from Team Four at"
+      },
+      {
+        "id": "S60",
+        "cue_ids": [
+          60,
+          61,
+          62,
+          63
+        ],
+        "start_ms": 146200,
+        "end_ms": 156680,
+        "text": "people great porn Trevor speaking of rules here's you score points in cage ball I mean we've seen this with Cole where he gets two quick outs and"
+      },
+      {
+        "id": "S93",
+        "cue_ids": [
+          93,
+          94,
+          95,
+          96
+        ],
+        "start_ms": 223760,
+        "end_ms": 235400,
+        "text": "inning for team dudes you were right Tosh a three- pitch inning would not be great before the inning ends let's meet the players from Team duudes uh my name"
+      },
+      {
+        "id": "S120",
+        "cue_ids": [
+          120,
+          121,
+          122
+        ],
+        "start_ms": 297159,
+        "end_ms": 310680,
+        "text": "TI oh oh no no no no that's it that's it to keep cage ball competitive you don't keep track of a"
+      },
+      {
+        "id": "S152",
+        "cue_ids": [
+          152,
+          153
+        ],
+        "start_ms": 378400,
+        "end_ms": 390919,
+        "text": "there keep going keep going going go yeah let's go last pick in the"
+      },
+      {
+        "id": "S182",
+        "cue_ids": [
+          182,
+          183,
+          184,
+          185
+        ],
+        "start_ms": 451360,
+        "end_ms": 462680,
+        "text": "that's a strike just Cole is the king of rolling over to third we saw that all last year in cage ball nothing much has changed on that"
+      },
+      {
+        "id": "S217",
+        "cue_ids": [
+          217,
+          218,
+          219
+        ],
+        "start_ms": 529480,
+        "end_ms": 537880,
+        "text": "right here it's all good that's still two points though got a little double play"
+      },
+      {
+        "id": "S247",
+        "cue_ids": [
+          247,
+          248,
+          249,
+          250
+        ],
+        "start_ms": 605120,
+        "end_ms": 615279,
+        "text": "team Tosh can be a force to be rck on with let's see what team Bower outage has pled it's first time playing cage ball you got to play one thing on"
+      },
+      {
+        "id": "S279",
+        "cue_ids": [
+          279,
+          280,
+          281,
+          282
+        ],
+        "start_ms": 680800,
+        "end_ms": 693279,
+        "text": "the tigy Winkle Corner preschool Austin Shoemaker Travis Matthew University Max Roberts momentum University Kyle Ley Colorado M University come on there Ley"
+      },
+      {
+        "id": "S310",
+        "cue_ids": [
+          310,
+          311,
+          312,
+          313
+        ],
+        "start_ms": 760519,
+        "end_ms": 769000,
+        "text": "little bit let them overcome it a little bit there's a lot of chatter about pulling my guys early and what kind of strategy I was going to use but it's a"
+      },
+      {
+        "id": "S343",
+        "cue_ids": [
+          343,
+          344,
+          345,
+          346
+        ],
+        "start_ms": 835519,
+        "end_ms": 845240,
+        "text": "start with defense won championships last year so defense is definitely going to be a priority for us this season spectacular catch by TSH for our first"
+      },
+      {
+        "id": "S370",
+        "cue_ids": [
+          370,
+          371,
+          372
+        ],
+        "start_ms": 910720,
+        "end_ms": 922240,
+        "text": "one are not working big pitch dude that was painted that was painted down by four tank here ties"
+      },
+      {
+        "id": "S401",
+        "cue_ids": [
+          401,
+          402,
+          403,
+          404
+        ],
+        "start_ms": 986199,
+        "end_ms": 999600,
+        "text": "interview so um as long as Eric finishes last it's all good we have no idea what this ball oh good D good pitch though up top yep he's kind"
+      },
+      {
+        "id": "S427",
+        "cue_ids": [
+          427,
+          428,
+          429
+        ],
+        "start_ms": 1065720,
+        "end_ms": 1083039,
+        "text": "win leg oh no that's strike get your pitch up that's a b oh my god dude"
+      },
+      {
+        "id": "S448",
+        "cue_ids": [
+          448,
+          449,
+          450,
+          451
+        ],
+        "start_ms": 1140280,
+        "end_ms": 1153320,
+        "text": "oh my God team outage is not going out without a fight man I like that when you guys are asking what I'm looking for it's the"
+      },
+      {
+        "id": "S479",
+        "cue_ids": [
+          479,
+          480,
+          481
+        ],
+        "start_ms": 1215000,
+        "end_ms": 1229520,
+        "text": "so don't take that [ __ ] from a short King dude he's him he's showing doin all area of the game he is him he is him he"
+      },
+      {
+        "id": "S506",
+        "cue_ids": [
+          506,
+          507,
+          508
+        ],
+        "start_ms": 1291400,
+        "end_ms": 1300159,
+        "text": "wow yep dude how is that that that's your fault don't be"
+      },
+      {
+        "id": "S530",
+        "cue_ids": [
+          530,
+          531,
+          532
+        ],
+        "start_ms": 1369279,
+        "end_ms": 1381679,
+        "text": "going right tank we love to see it"
+      },
+      {
+        "id": "S559",
+        "cue_ids": [
+          559,
+          560,
+          561,
+          562
+        ],
+        "start_ms": 1442000,
+        "end_ms": 1456760,
+        "text": "his bomb is he pissed off top oh my God got the Y oh no that's two lobs missed all right oh two lobs at this point it was clear"
+      },
+      {
+        "id": "S593",
+        "cue_ids": [
+          593,
+          594,
+          595,
+          596
+        ],
+        "start_ms": 1524480,
+        "end_ms": 1534360,
+        "text": "which is pretty much what I'm giving this win to Trevor for at a discount rate a ground ball double play here would be huge there's no way right I"
+      },
+      {
+        "id": "S618",
+        "cue_ids": [
+          618,
+          619,
+          620
+        ],
+        "start_ms": 1596940,
+        "end_ms": 1611919,
+        "text": "[Applause] yes I bang I bang right oh my what a comeback nobody was"
+      },
+      {
+        "id": "S646",
+        "cue_ids": [
+          646,
+          647,
+          648,
+          649
+        ],
+        "start_ms": 1673200,
+        "end_ms": 1689399,
+        "text": "oh oh three oh isn't that four that is four go J Bandit guys he a man relax not the great"
+      },
+      {
+        "id": "S673",
+        "cue_ids": [
+          673,
+          674,
+          675,
+          676
+        ],
+        "start_ms": 1748240,
+        "end_ms": 1764399,
+        "text": "strike that's a strike I hope he stri out he got him out only four that's walk us through what was going on"
+      },
+      {
+        "id": "S702",
+        "cue_ids": [
+          702,
+          703
+        ],
+        "start_ms": 1826240,
+        "end_ms": 1834440,
+        "text": "champy living out yes oh yeah"
+      },
+      {
+        "id": "S730",
+        "cue_ids": [
+          730,
+          731,
+          732,
+          733
+        ],
+        "start_ms": 1904559,
+        "end_ms": 1916159,
+        "text": "clubhouse I mean I can't say I'm shocked that Eric's a bad Clubhouse it's it's it's predictable interesting going to Ronin here Ronin is a Max effort guy he"
+      },
+      {
+        "id": "S759",
+        "cue_ids": [
+          759,
+          760,
+          761,
+          762
+        ],
+        "start_ms": 1979720,
+        "end_ms": 1993919,
+        "text": "right back at the oh my goodness turn you want yet K oh St"
+      },
+      {
+        "id": "S790",
+        "cue_ids": [
+          790,
+          791,
+          792
+        ],
+        "start_ms": 2059399,
+        "end_ms": 2071639,
+        "text": "here hold [Applause] on is he three for three today is 10"
+      },
+      {
+        "id": "S811",
+        "cue_ids": [
+          811,
+          812,
+          813,
+          814
+        ],
+        "start_ms": 2130480,
+        "end_ms": 2145920,
+        "text": "Chief Two hack I love it get on base let's go walk him unbelievable two more points he's going to hit the crap out you see just"
+      },
+      {
+        "id": "S839",
+        "cue_ids": [
+          839,
+          840,
+          841
+        ],
+        "start_ms": 2209960,
+        "end_ms": 2223079,
+        "text": "game play that pitch is unhitable apparently hey that's okay our team motto is swing"
+      },
+      {
+        "id": "S864",
+        "cue_ids": [
+          864,
+          865,
+          866
+        ],
+        "start_ms": 2287800,
+        "end_ms": 2297200,
+        "text": "yeah come on Battle Ronin that's incredible that's two outs that they missed out on and then gave up"
+      },
+      {
+        "id": "S890",
+        "cue_ids": [
+          890,
+          891,
+          892
+        ],
+        "start_ms": 2361760,
+        "end_ms": 2370839,
+        "text": "cage ball once again stay tuned for next week this is bju big butts I cannot lay"
+      }
+    ],
+    "text": "S30 [00:01:08.039 --> 00:01:23.280] two that's an out let's go that is not what team forap was looking for on a two count with one out cage ball is underway let's meet the players from Team Four at\nS60 [00:02:26.200 --> 00:02:36.680] people great porn Trevor speaking of rules here's you score points in cage ball I mean we've seen this with Cole where he gets two quick outs and\nS93 [00:03:43.760 --> 00:03:55.400] inning for team dudes you were right Tosh a three- pitch inning would not be great before the inning ends let's meet the players from Team duudes uh my name\nS120 [00:04:57.159 --> 00:05:10.680] TI oh oh no no no no that's it that's it to keep cage ball competitive you don't keep track of a\nS152 [00:06:18.400 --> 00:06:30.919] there keep going keep going going go yeah let's go last pick in the\nS182 [00:07:31.360 --> 00:07:42.680] that's a strike just Cole is the king of rolling over to third we saw that all last year in cage ball nothing much has changed on that\nS217 [00:08:49.480 --> 00:08:57.880] right here it's all good that's still two points though got a little double play\nS247 [00:10:05.120 --> 00:10:15.279] team Tosh can be a force to be rck on with let's see what team Bower outage has pled it's first time playing cage ball you got to play one thing on\nS279 [00:11:20.800 --> 00:11:33.279] the tigy Winkle Corner preschool Austin Shoemaker Travis Matthew University Max Roberts momentum University Kyle Ley Colorado M University come on there Ley\nS310 [00:12:40.519 --> 00:12:49.000] little bit let them overcome it a little bit there's a lot of chatter about pulling my guys early and what kind of strategy I was going to use but it's a\nS343 [00:13:55.519 --> 00:14:05.240] start with defense won championships last year so defense is definitely going to be a priority for us this season spectacular catch by TSH for our first\nS370 [00:15:10.720 --> 00:15:22.240] one are not working big pitch dude that was painted that was painted down by four tank here ties\nS401 [00:16:26.199 --> 00:16:39.600] interview so um as long as Eric finishes last it's all good we have no idea what this ball oh good D good pitch though up top yep he's kind\nS427 [00:17:45.720 --> 00:18:03.039] win leg oh no that's strike get your pitch up that's a b oh my god dude\nS448 [00:19:00.280 --> 00:19:13.320] oh my God team outage is not going out without a fight man I like that when you guys are asking what I'm looking for it's the\nS479 [00:20:15.000 --> 00:20:29.520] so don't take that [ __ ] from a short King dude he's him he's showing doin all area of the game he is him he is him he\nS506 [00:21:31.400 --> 00:21:40.159] wow yep dude how is that that that's your fault don't be\nS530 [00:22:49.279 --> 00:23:01.679] going right tank we love to see it\nS559 [00:24:02.000 --> 00:24:16.760] his bomb is he pissed off top oh my God got the Y oh no that's two lobs missed all right oh two lobs at this point it was clear\nS593 [00:25:24.480 --> 00:25:34.360] which is pretty much what I'm giving this win to Trevor for at a discount rate a ground ball double play here would be huge there's no way right I\nS618 [00:26:36.940 --> 00:26:51.919] [Applause] yes I bang I bang right oh my what a comeback nobody was\nS646 [00:27:53.200 --> 00:28:09.399] oh oh three oh isn't that four that is four go J Bandit guys he a man relax not the great\nS673 [00:29:08.240 --> 00:29:24.399] strike that's a strike I hope he stri out he got him out only four that's walk us through what was going on\nS702 [00:30:26.240 --> 00:30:34.440] champy living out yes oh yeah\nS730 [00:31:44.559 --> 00:31:56.159] clubhouse I mean I can't say I'm shocked that Eric's a bad Clubhouse it's it's it's predictable interesting going to Ronin here Ronin is a Max effort guy he\nS759 [00:32:59.720 --> 00:33:13.919] right back at the oh my goodness turn you want yet K oh St\nS790 [00:34:19.399 --> 00:34:31.639] here hold [Applause] on is he three for three today is 10\nS811 [00:35:30.480 --> 00:35:45.920] Chief Two hack I love it get on base let's go walk him unbelievable two more points he's going to hit the crap out you see just\nS839 [00:36:49.960 --> 00:37:03.079] game play that pitch is unhitable apparently hey that's okay our team motto is swing\nS864 [00:38:07.800 --> 00:38:17.200] yeah come on Battle Ronin that's incredible that's two outs that they missed out on and then gave up\nS890 [00:39:21.760 --> 00:39:30.839] cage ball once again stay tuned for next week this is bju big butts I cannot lay",
+    "text_tokens": 1783,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      30,
+      33,
+      60,
+      63,
+      93,
+      96,
+      120,
+      122,
+      153,
+      182,
+      185,
+      217,
+      219,
+      247,
+      250,
+      279,
+      282,
+      310,
+      313,
+      343,
+      346,
+      370,
+      372,
+      401,
+      404,
+      427,
+      429,
+      448,
+      451,
+      479,
+      481,
+      506,
+      530,
+      532,
+      559,
+      562,
+      593,
+      596,
+      618,
+      620,
+      646,
+      649,
+      673,
+      676,
+      702,
+      730,
+      733,
+      759,
+      762,
+      790,
+      792,
+      811,
+      814,
+      839,
+      841,
+      864,
+      866,
+      890
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "00ee74eff0b8a1cc8a399c337e958b337fba02c43d0be08ad11ad93952941366"
+}

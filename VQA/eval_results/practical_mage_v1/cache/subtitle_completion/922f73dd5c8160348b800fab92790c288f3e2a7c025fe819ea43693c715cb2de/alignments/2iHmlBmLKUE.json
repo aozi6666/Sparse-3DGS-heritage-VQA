@@ -1,0 +1,747 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "2iHmlBmLKUE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2iHmlBmLKUE.srt",
+        "status": "available",
+        "bytes": 2487,
+        "sha256": "1adcbe9907570f7a4b0293be7b83f55420abf9d20c2c573966c740a456681e0c",
+        "cues": 23,
+        "nonempty_cues": 23
+      },
+      "frame_indices": [
+        0,
+        54,
+        109,
+        163,
+        218,
+        272,
+        327,
+        381,
+        435,
+        490,
+        544,
+        599,
+        653,
+        707,
+        762,
+        816,
+        871,
+        925,
+        980,
+        1034,
+        1088,
+        1143,
+        1197,
+        1252,
+        1306,
+        1360,
+        1415,
+        1469,
+        1524,
+        1578,
+        1633,
+        1687
+      ],
+      "frame_seconds": [
+        0.0,
+        2.16,
+        4.36,
+        6.52,
+        8.72,
+        10.88,
+        13.08,
+        15.24,
+        17.4,
+        19.6,
+        21.76,
+        23.96,
+        26.12,
+        28.28,
+        30.48,
+        32.64,
+        34.84,
+        37.0,
+        39.2,
+        41.36,
+        43.52,
+        45.72,
+        47.88,
+        50.08,
+        52.24,
+        54.4,
+        56.6,
+        58.76,
+        60.96,
+        63.12,
+        65.32,
+        67.48
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          22,
+          23
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 380,
+          "end_ms": 3840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 900,
+          "end_ms": 6180,
+          "text": "this is paradox by Prada another"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 3840,
+          "end_ms": 8460,
+          "text": "beautiful Paradox of this fragrance is"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6180,
+          "end_ms": 10679,
+          "text": "that when your bottle is empty it's not"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 8460,
+          "end_ms": 12660,
+          "text": "finished because you can refill it I'm"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 10679,
+          "end_ms": 17539,
+          "text": "going to show you how to do that now"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 12660,
+          "end_ms": 20520,
+          "text": "remove all of your Lids just unscrews"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 17539,
+          "end_ms": 22740,
+          "text": "so you're going to take your refill"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 20520,
+          "end_ms": 24720,
+          "text": "turn it upside down put your finger here"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 22740,
+          "end_ms": 27779,
+          "text": "in here and you just twist the bottle"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 24720,
+          "end_ms": 32040,
+          "text": "like you're turning an on off switch"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 27779,
+          "end_ms": 34380,
+          "text": "and the fragrance starts to fill your"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 32040,
+          "end_ms": 37040,
+          "text": "bottle so you can see that it's full now"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 34380,
+          "end_ms": 41280,
+          "text": "so then you can turn it off"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 37040,
+          "end_ms": 44820,
+          "text": "you can put my lid back on if you buy"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 41280,
+          "end_ms": 47460,
+          "text": "a refill plus a bottle it's the"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 44820,
+          "end_ms": 52559,
+          "text": "equivalent of three bottles so you save"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 47460,
+          "end_ms": 57300,
+          "text": "46 of plastic 29 of glass 67 of metal"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52559,
+          "end_ms": 59879,
+          "text": "and 39 of cardboard it's like why would"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 57300,
+          "end_ms": 62579,
+          "text": "you throw away something this beautiful"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 59879,
+          "end_ms": 64739,
+          "text": "and does not need to be thrown away and"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 62579,
+          "end_ms": 68180,
+          "text": "something actually that really you"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 64739,
+          "end_ms": 68180,
+          "text": "should be treasuring"
+        }
+      ],
+      "text": "[Music]\nthis is paradox by Prada another\nbeautiful Paradox of this fragrance is\nthat when your bottle is empty it's not\nfinished because you can refill it I'm\ngoing to show you how to do that now\nremove all of your Lids just unscrews\nso you're going to take your refill\nturn it upside down put your finger here\nin here and you just twist the bottle\nlike you're turning an on off switch\nand the fragrance starts to fill your\nbottle so you can see that it's full now\nso then you can turn it off\nyou can put my lid back on if you buy\na refill plus a bottle it's the\nequivalent of three bottles so you save\n46 of plastic 29 of glass 67 of metal\nand 39 of cardboard it's like why would\nyou throw away something this beautiful\nand does not need to be thrown away and\nsomething actually that really you\nshould be treasuring",
+      "text_tokens": 206,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "2iHmlBmLKUE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2iHmlBmLKUE.srt",
+          "status": "available",
+          "bytes": 2487,
+          "sha256": "1adcbe9907570f7a4b0293be7b83f55420abf9d20c2c573966c740a456681e0c",
+          "cues": 23,
+          "nonempty_cues": 23
+        },
+        "frame_indices": [
+          0,
+          54,
+          109,
+          163,
+          218,
+          272,
+          327,
+          381,
+          435,
+          490,
+          544,
+          599,
+          653,
+          707,
+          762,
+          816,
+          871,
+          925,
+          980,
+          1034,
+          1088,
+          1143,
+          1197,
+          1252,
+          1306,
+          1360,
+          1415,
+          1469,
+          1524,
+          1578,
+          1633,
+          1687
+        ],
+        "frame_seconds": [
+          0.0,
+          2.16,
+          4.36,
+          6.52,
+          8.72,
+          10.88,
+          13.08,
+          15.24,
+          17.4,
+          19.6,
+          21.76,
+          23.96,
+          26.12,
+          28.28,
+          30.48,
+          32.64,
+          34.84,
+          37.0,
+          39.2,
+          41.36,
+          43.52,
+          45.72,
+          47.88,
+          50.08,
+          52.24,
+          54.4,
+          56.6,
+          58.76,
+          60.96,
+          63.12,
+          65.32,
+          67.48
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            22,
+            23
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 380,
+            "end_ms": 3840,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 900,
+            "end_ms": 6180,
+            "text": "this is paradox by Prada another"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 3840,
+            "end_ms": 8460,
+            "text": "beautiful Paradox of this fragrance is"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6180,
+            "end_ms": 10679,
+            "text": "that when your bottle is empty it's not"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 8460,
+            "end_ms": 12660,
+            "text": "finished because you can refill it I'm"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 10679,
+            "end_ms": 17539,
+            "text": "going to show you how to do that now"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 12660,
+            "end_ms": 20520,
+            "text": "remove all of your Lids just unscrews"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 17539,
+            "end_ms": 22740,
+            "text": "so you're going to take your refill"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 20520,
+            "end_ms": 24720,
+            "text": "turn it upside down put your finger here"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 22740,
+            "end_ms": 27779,
+            "text": "in here and you just twist the bottle"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 24720,
+            "end_ms": 32040,
+            "text": "like you're turning an on off switch"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 27779,
+            "end_ms": 34380,
+            "text": "and the fragrance starts to fill your"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 32040,
+            "end_ms": 37040,
+            "text": "bottle so you can see that it's full now"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 34380,
+            "end_ms": 41280,
+            "text": "so then you can turn it off"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 37040,
+            "end_ms": 44820,
+            "text": "you can put my lid back on if you buy"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 41280,
+            "end_ms": 47460,
+            "text": "a refill plus a bottle it's the"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 44820,
+            "end_ms": 52559,
+            "text": "equivalent of three bottles so you save"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 47460,
+            "end_ms": 57300,
+            "text": "46 of plastic 29 of glass 67 of metal"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52559,
+            "end_ms": 59879,
+            "text": "and 39 of cardboard it's like why would"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 57300,
+            "end_ms": 62579,
+            "text": "you throw away something this beautiful"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 59879,
+            "end_ms": 64739,
+            "text": "and does not need to be thrown away and"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 62579,
+            "end_ms": 68180,
+            "text": "something actually that really you"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 64739,
+            "end_ms": 68180,
+            "text": "should be treasuring"
+          }
+        ],
+        "text": "[Music]\nthis is paradox by Prada another\nbeautiful Paradox of this fragrance is\nthat when your bottle is empty it's not\nfinished because you can refill it I'm\ngoing to show you how to do that now\nremove all of your Lids just unscrews\nso you're going to take your refill\nturn it upside down put your finger here\nin here and you just twist the bottle\nlike you're turning an on off switch\nand the fragrance starts to fill your\nbottle so you can see that it's full now\nso then you can turn it off\nyou can put my lid back on if you buy\na refill plus a bottle it's the\nequivalent of three bottles so you save\n46 of plastic 29 of glass 67 of metal\nand 39 of cardboard it's like why would\nyou throw away something this beautiful\nand does not need to be thrown away and\nsomething actually that really you\nshould be treasuring",
+        "text_tokens": 206,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "start_ms": 380,
+          "end_ms": 68180,
+          "text": "[Music] this is paradox by Prada another beautiful Paradox of this fragrance is that when your bottle is empty it's not finished because you can refill it I'm going to show you how to do that now remove all of your Lids just unscrews so you're going to take your refill turn it upside down put your finger here in here and you just twist the bottle like you're turning an on off switch and the fragrance starts to fill your bottle so you can see that it's full now so then you can turn it off you can put my lid back on if you buy a refill plus a bottle it's the equivalent of three bottles so you save 46 of plastic 29 of glass 67 of metal and 39 of cardboard it's like why would you throw away something this beautiful and does not need to be thrown away and something actually that really you should be treasuring"
+        }
+      ],
+      "text": "S1 [00:00:00.380 --> 00:01:08.180] [Music] this is paradox by Prada another beautiful Paradox of this fragrance is that when your bottle is empty it's not finished because you can refill it I'm going to show you how to do that now remove all of your Lids just unscrews so you're going to take your refill turn it upside down put your finger here in here and you just twist the bottle like you're turning an on off switch and the fragrance starts to fill your bottle so you can see that it's full now so then you can turn it off you can put my lid back on if you buy a refill plus a bottle it's the equivalent of three bottles so you save 46 of plastic 29 of glass 67 of metal and 39 of cardboard it's like why would you throw away something this beautiful and does not need to be thrown away and something actually that really you should be treasuring",
+      "text_tokens": 214,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e5c054b4df286f63cd8f5197581ee246c5710a369da1bc897262869b9c17a480"
+}

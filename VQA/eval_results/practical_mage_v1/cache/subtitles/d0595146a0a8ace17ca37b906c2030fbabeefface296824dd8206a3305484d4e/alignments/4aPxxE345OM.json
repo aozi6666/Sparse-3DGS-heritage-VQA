@@ -1,0 +1,323 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "4aPxxE345OM",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4aPxxE345OM.srt",
+      "status": "available",
+      "bytes": 13137,
+      "sha256": "ab58465c72291dc6f0577baa2dfe99d2e3514a5e8a508de46d485b5dddebb32b",
+      "cues": 124,
+      "nonempty_cues": 124
+    },
+    "frame_indices": [
+      0,
+      242,
+      483,
+      725,
+      966,
+      1208,
+      1449,
+      1691,
+      1932,
+      2174,
+      2415,
+      2657,
+      2899,
+      3140,
+      3382,
+      3623,
+      3865,
+      4106,
+      4348,
+      4589,
+      4831,
+      5073,
+      5314,
+      5556,
+      5797,
+      6039,
+      6280,
+      6522,
+      6763,
+      7005,
+      7246,
+      7488
+    ],
+    "frame_seconds": [
+      0.0,
+      10.093417,
+      20.145125,
+      30.238542,
+      40.29025,
+      50.383667,
+      60.435375,
+      70.528792,
+      80.5805,
+      90.673917,
+      100.72562500000001,
+      110.819042,
+      120.912458,
+      130.964167,
+      141.057583,
+      151.109292,
+      161.202708,
+      171.254417,
+      181.347833,
+      191.399542,
+      201.492958,
+      211.586375,
+      221.638083,
+      231.73149999999998,
+      241.783208,
+      251.876625,
+      261.928333,
+      272.02175,
+      282.073458,
+      292.166875,
+      302.218583,
+      312.312
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        4
+      ],
+      [
+        9
+      ],
+      [
+        14
+      ],
+      [
+        18
+      ],
+      [
+        23
+      ],
+      [
+        26
+      ],
+      [
+        30
+      ],
+      [
+        33
+      ],
+      [
+        37
+      ],
+      [],
+      [
+        43
+      ],
+      [
+        47
+      ],
+      [
+        52
+      ],
+      [
+        58
+      ],
+      [
+        62
+      ],
+      [],
+      [
+        74
+      ],
+      [
+        78
+      ],
+      [
+        83
+      ],
+      [
+        86
+      ],
+      [
+        90
+      ],
+      [
+        95
+      ],
+      [
+        99
+      ],
+      [
+        103
+      ],
+      [],
+      [
+        111
+      ],
+      [
+        116
+      ],
+      [
+        120
+      ],
+      [],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 4,
+        "start_ms": 9092,
+        "end_ms": 11177,
+        "text": "Is it okay if I have a friend come over tomorrow?"
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 17642,
+        "end_ms": 21021,
+        "text": "Griffin Cooper is by far the coolest kid in Manny's grade."
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 29362,
+        "end_ms": 30613,
+        "text": "Salutations, Wyatt."
+      },
+      {
+        "cue_id": 18,
+        "start_ms": 38288,
+        "end_ms": 40457,
+        "text": "We are going Japanese."
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 49507,
+        "end_ms": 51676,
+        "text": "You made a great catch? No, that didn't happen."
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 59642,
+        "end_ms": 62353,
+        "text": "Why can't you just be happy the manny is making new friends."
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 68902,
+        "end_ms": 71488,
+        "text": "Maybe those kids are finally catching up to him."
+      },
+      {
+        "cue_id": 33,
+        "start_ms": 78495,
+        "end_ms": 81081,
+        "text": "Griffin must think I'm pretty boss. Yes."
+      },
+      {
+        "cue_id": 37,
+        "start_ms": 88295,
+        "end_ms": 92467,
+        "text": "He told people that they were rich, but really took their money with his scheme."
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 109567,
+        "end_ms": 112487,
+        "text": "Legendary creature of Greek mythology with the head of a lion"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 120245,
+        "end_ms": 120995,
+        "text": "Jay Pritchett."
+      },
+      {
+        "cue_id": 52,
+        "start_ms": 130045,
+        "end_ms": 132465,
+        "text": "Thanks. I was lighting it up too, Jay."
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 140849,
+        "end_ms": 142058,
+        "text": "How are you?"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 150233,
+        "end_ms": 153820,
+        "text": "Well, it's kind of a surprise for Griffin But lets just say it involves,"
+      },
+      {
+        "cue_id": 74,
+        "start_ms": 170795,
+        "end_ms": 173047,
+        "text": "The way he looks at me!"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 180471,
+        "end_ms": 182348,
+        "text": "But the kid idolizes me."
+      },
+      {
+        "cue_id": 83,
+        "start_ms": 190815,
+        "end_ms": 192317,
+        "text": "Then buy a couple of onions."
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 198823,
+        "end_ms": 201951,
+        "text": "Guess he has a thing for you too."
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 210335,
+        "end_ms": 211794,
+        "text": "Pool party, huh? Yeah."
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 220720,
+        "end_ms": 224015,
+        "text": "You know, you're basically agreeing to a date with a 13 year old boy."
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 230146,
+        "end_ms": 233358,
+        "text": "But when you thought that he was trying to ride a motorcycle, he was okay."
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 241532,
+        "end_ms": 242659,
+        "text": "Griffin doesn't like me?"
+      },
+      {
+        "cue_id": 111,
+        "start_ms": 260677,
+        "end_ms": 263471,
+        "text": "Wow. Can't believe it. Listen, it's fine."
+      },
+      {
+        "cue_id": 116,
+        "start_ms": 271604,
+        "end_ms": 274023,
+        "text": "You've met Griffin. The kid's a doorknob."
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 281447,
+        "end_ms": 282657,
+        "text": "Just suck it up, Mom."
+      }
+    ],
+    "text": "Is it okay if I have a friend come over tomorrow?\nGriffin Cooper is by far the coolest kid in Manny's grade.\nSalutations, Wyatt.\nWe are going Japanese.\nYou made a great catch? No, that didn't happen.\nWhy can't you just be happy the manny is making new friends.\nMaybe those kids are finally catching up to him.\nGriffin must think I'm pretty boss. Yes.\nHe told people that they were rich, but really took their money with his scheme.\nLegendary creature of Greek mythology with the head of a lion\nJay Pritchett.\nThanks. I was lighting it up too, Jay.\nHow are you?\nWell, it's kind of a surprise for Griffin But lets just say it involves,\nThe way he looks at me!\nBut the kid idolizes me.\nThen buy a couple of onions.\nGuess he has a thing for you too.\nPool party, huh? Yeah.\nYou know, you're basically agreeing to a date with a 13 year old boy.\nBut when you thought that he was trying to ride a motorcycle, he was okay.\nGriffin doesn't like me?\nWow. Can't believe it. Listen, it's fine.\nYou've met Griffin. The kid's a doorknob.\nJust suck it up, Mom.",
+    "text_tokens": 264,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "5e5865ebe715d12412a6eac2681c9227307b1cf390b6b143ef160abf79461de2"
+}

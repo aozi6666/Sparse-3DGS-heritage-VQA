@@ -1,0 +1,1067 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "EP2rD6lr2Xk",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EP2rD6lr2Xk.srt",
+        "status": "available",
+        "bytes": 53866,
+        "sha256": "b81bf397846e31e12f24317a3e9ffd7efb882329cd26505e8c649f02b1b7495b",
+        "cues": 531,
+        "nonempty_cues": 531
+      },
+      "frame_indices": [
+        0,
+        1690,
+        3381,
+        5071,
+        6762,
+        8452,
+        10143,
+        11833,
+        13524,
+        15214,
+        16905,
+        18595,
+        20285,
+        21976,
+        23666,
+        25357,
+        27047,
+        28738,
+        30428,
+        32119,
+        33809,
+        35499,
+        37190,
+        38880,
+        40571,
+        42261,
+        43952,
+        45642,
+        47333,
+        49023,
+        50714,
+        52404
+      ],
+      "frame_seconds": [
+        0.0,
+        67.6,
+        135.24,
+        202.84,
+        270.48,
+        338.08,
+        405.72,
+        473.32,
+        540.96,
+        608.56,
+        676.2,
+        743.8,
+        811.4,
+        879.04,
+        946.64,
+        1014.28,
+        1081.88,
+        1149.52,
+        1217.12,
+        1284.76,
+        1352.36,
+        1419.96,
+        1487.6,
+        1555.2,
+        1622.84,
+        1690.44,
+        1758.08,
+        1825.68,
+        1893.32,
+        1960.92,
+        2028.56,
+        2096.16
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          26,
+          27
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          89
+        ],
+        [
+          111,
+          112
+        ],
+        [],
+        [],
+        [
+          177
+        ],
+        [],
+        [
+          202,
+          203
+        ],
+        [
+          225,
+          226
+        ],
+        [
+          235,
+          236
+        ],
+        [],
+        [],
+        [
+          291,
+          292
+        ],
+        [
+          305,
+          306
+        ],
+        [
+          326,
+          327
+        ],
+        [
+          351,
+          352
+        ],
+        [
+          374,
+          375
+        ],
+        [
+          390,
+          391
+        ],
+        [
+          402
+        ],
+        [
+          417
+        ],
+        [
+          435,
+          436
+        ],
+        [
+          451,
+          452
+        ],
+        [],
+        [
+          475
+        ],
+        [
+          485
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 26,
+          "start_ms": 64680,
+          "end_ms": 70700,
+          "text": "we're [ __ ]"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 67159,
+          "end_ms": 70700,
+          "text": "the [ __ ] up"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 127560,
+          "end_ms": 135440,
+          "text": "front during the run thank you for being"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 130380,
+          "end_ms": 135440,
+          "text": "an Iron Man Captain Austria good luck"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 197420,
+          "end_ms": 203280,
+          "text": "okay part two of carving up no more"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 200700,
+          "end_ms": 204840,
+          "text": "fibers and just uh carbohydrates that's"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 266600,
+          "end_ms": 271820,
+          "text": "this is our dad that's a real one okay"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 334979,
+          "end_ms": 339120,
+          "text": "get back what's your number one advice"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 337320,
+          "end_ms": 340979,
+          "text": "for the Iron Man you've done it like one"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 538160,
+          "end_ms": 542779,
+          "text": "eight months of training for this"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 673680,
+          "end_ms": 678300,
+          "text": "that makes me happy he's relaxed he's"
+        },
+        {
+          "cue_id": 203,
+          "start_ms": 675959,
+          "end_ms": 680100,
+          "text": "good he's uh on schedule"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 739980,
+          "end_ms": 745260,
+          "text": "thank you"
+        },
+        {
+          "cue_id": 226,
+          "start_ms": 742260,
+          "end_ms": 747779,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 808820,
+          "end_ms": 813480,
+          "text": "swimming well a bit a bit too fast"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 811260,
+          "end_ms": 815940,
+          "text": "feeling good a lot of fighting in the"
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 1009320,
+          "end_ms": 1014540,
+          "text": "there's a lot of ambiance on the side"
+        },
+        {
+          "cue_id": 292,
+          "start_ms": 1011420,
+          "end_ms": 1017800,
+          "text": "side of the course big piece let's go"
+        },
+        {
+          "cue_id": 305,
+          "start_ms": 1072860,
+          "end_ms": 1083150,
+          "text": "marathon after it's like yeah foreign"
+        },
+        {
+          "cue_id": 306,
+          "start_ms": 1077570,
+          "end_ms": 1083150,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 326,
+          "start_ms": 1147200,
+          "end_ms": 1152600,
+          "text": "doing good very happy you look fresh"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 1149360,
+          "end_ms": 1154220,
+          "text": "yeah you're enjoying it it's really nice"
+        },
+        {
+          "cue_id": 351,
+          "start_ms": 1212780,
+          "end_ms": 1218960,
+          "text": "hope the run will go fine with my uh my"
+        },
+        {
+          "cue_id": 352,
+          "start_ms": 1215900,
+          "end_ms": 1221360,
+          "text": "legs now are are quite tired I might"
+        },
+        {
+          "cue_id": 374,
+          "start_ms": 1281360,
+          "end_ms": 1288440,
+          "text": "we're almost there I can't wait"
+        },
+        {
+          "cue_id": 375,
+          "start_ms": 1284080,
+          "end_ms": 1291100,
+          "text": "that this is done love you guys ciao"
+        },
+        {
+          "cue_id": 390,
+          "start_ms": 1349039,
+          "end_ms": 1353240,
+          "text": "you won't listen to me and that you will"
+        },
+        {
+          "cue_id": 391,
+          "start_ms": 1351260,
+          "end_ms": 1355220,
+          "text": "start I hope that you have enough of"
+        },
+        {
+          "cue_id": 402,
+          "start_ms": 1416890,
+          "end_ms": 1424380,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 1487340,
+          "end_ms": 1490880,
+          "text": "holy [ __ ]"
+        },
+        {
+          "cue_id": 435,
+          "start_ms": 1552620,
+          "end_ms": 1557539,
+          "text": "still running I will not stop running"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1554480,
+          "end_ms": 1560840,
+          "text": "come on only 14 kilometers left"
+        },
+        {
+          "cue_id": 451,
+          "start_ms": 1618760,
+          "end_ms": 1624100,
+          "text": "you're so close"
+        },
+        {
+          "cue_id": 452,
+          "start_ms": 1620860,
+          "end_ms": 1624100,
+          "text": "so close"
+        },
+        {
+          "cue_id": 475,
+          "start_ms": 1757870,
+          "end_ms": 1761020,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 485,
+          "start_ms": 1824050,
+          "end_ms": 1832460,
+          "text": "[Music]"
+        }
+      ],
+      "text": "we're [ __ ]\nthe [ __ ] up\nfront during the run thank you for being\nan Iron Man Captain Austria good luck\nokay part two of carving up no more\nfibers and just uh carbohydrates that's\nthis is our dad that's a real one okay\nget back what's your number one advice\nfor the Iron Man you've done it like one\neight months of training for this\nthat makes me happy he's relaxed he's\ngood he's uh on schedule\nthank you\n[Music]\nswimming well a bit a bit too fast\nfeeling good a lot of fighting in the\nthere's a lot of ambiance on the side\nside of the course big piece let's go\nmarathon after it's like yeah foreign\n[Applause]\ndoing good very happy you look fresh\nyeah you're enjoying it it's really nice\nhope the run will go fine with my uh my\nlegs now are are quite tired I might\nwe're almost there I can't wait\nthat this is done love you guys ciao\nyou won't listen to me and that you will\nstart I hope that you have enough of\n[Music]\nholy [ __ ]\nstill running I will not stop running\ncome on only 14 kilometers left\nyou're so close\nso close\n[Music]\n[Music]",
+      "text_tokens": 277,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EP2rD6lr2Xk",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EP2rD6lr2Xk.srt",
+          "status": "available",
+          "bytes": 53866,
+          "sha256": "b81bf397846e31e12f24317a3e9ffd7efb882329cd26505e8c649f02b1b7495b",
+          "cues": 531,
+          "nonempty_cues": 531
+        },
+        "frame_indices": [
+          0,
+          1690,
+          3381,
+          5071,
+          6762,
+          8452,
+          10143,
+          11833,
+          13524,
+          15214,
+          16905,
+          18595,
+          20285,
+          21976,
+          23666,
+          25357,
+          27047,
+          28738,
+          30428,
+          32119,
+          33809,
+          35499,
+          37190,
+          38880,
+          40571,
+          42261,
+          43952,
+          45642,
+          47333,
+          49023,
+          50714,
+          52404
+        ],
+        "frame_seconds": [
+          0.0,
+          67.6,
+          135.24,
+          202.84,
+          270.48,
+          338.08,
+          405.72,
+          473.32,
+          540.96,
+          608.56,
+          676.2,
+          743.8,
+          811.4,
+          879.04,
+          946.64,
+          1014.28,
+          1081.88,
+          1149.52,
+          1217.12,
+          1284.76,
+          1352.36,
+          1419.96,
+          1487.6,
+          1555.2,
+          1622.84,
+          1690.44,
+          1758.08,
+          1825.68,
+          1893.32,
+          1960.92,
+          2028.56,
+          2096.16
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            26,
+            27
+          ],
+          [
+            48,
+            49
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            89
+          ],
+          [
+            111,
+            112
+          ],
+          [],
+          [],
+          [
+            177
+          ],
+          [],
+          [
+            202,
+            203
+          ],
+          [
+            225,
+            226
+          ],
+          [
+            235,
+            236
+          ],
+          [],
+          [],
+          [
+            291,
+            292
+          ],
+          [
+            305,
+            306
+          ],
+          [
+            326,
+            327
+          ],
+          [
+            351,
+            352
+          ],
+          [
+            374,
+            375
+          ],
+          [
+            390,
+            391
+          ],
+          [
+            402
+          ],
+          [
+            417
+          ],
+          [
+            435,
+            436
+          ],
+          [
+            451,
+            452
+          ],
+          [],
+          [
+            475
+          ],
+          [
+            485
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 26,
+            "start_ms": 64680,
+            "end_ms": 70700,
+            "text": "we're [ __ ]"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 67159,
+            "end_ms": 70700,
+            "text": "the [ __ ] up"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 127560,
+            "end_ms": 135440,
+            "text": "front during the run thank you for being"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 130380,
+            "end_ms": 135440,
+            "text": "an Iron Man Captain Austria good luck"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 197420,
+            "end_ms": 203280,
+            "text": "okay part two of carving up no more"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 200700,
+            "end_ms": 204840,
+            "text": "fibers and just uh carbohydrates that's"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 266600,
+            "end_ms": 271820,
+            "text": "this is our dad that's a real one okay"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 334979,
+            "end_ms": 339120,
+            "text": "get back what's your number one advice"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 337320,
+            "end_ms": 340979,
+            "text": "for the Iron Man you've done it like one"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 538160,
+            "end_ms": 542779,
+            "text": "eight months of training for this"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 673680,
+            "end_ms": 678300,
+            "text": "that makes me happy he's relaxed he's"
+          },
+          {
+            "cue_id": 203,
+            "start_ms": 675959,
+            "end_ms": 680100,
+            "text": "good he's uh on schedule"
+          },
+          {
+            "cue_id": 225,
+            "start_ms": 739980,
+            "end_ms": 745260,
+            "text": "thank you"
+          },
+          {
+            "cue_id": 226,
+            "start_ms": 742260,
+            "end_ms": 747779,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 808820,
+            "end_ms": 813480,
+            "text": "swimming well a bit a bit too fast"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 811260,
+            "end_ms": 815940,
+            "text": "feeling good a lot of fighting in the"
+          },
+          {
+            "cue_id": 291,
+            "start_ms": 1009320,
+            "end_ms": 1014540,
+            "text": "there's a lot of ambiance on the side"
+          },
+          {
+            "cue_id": 292,
+            "start_ms": 1011420,
+            "end_ms": 1017800,
+            "text": "side of the course big piece let's go"
+          },
+          {
+            "cue_id": 305,
+            "start_ms": 1072860,
+            "end_ms": 1083150,
+            "text": "marathon after it's like yeah foreign"
+          },
+          {
+            "cue_id": 306,
+            "start_ms": 1077570,
+            "end_ms": 1083150,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 326,
+            "start_ms": 1147200,
+            "end_ms": 1152600,
+            "text": "doing good very happy you look fresh"
+          },
+          {
+            "cue_id": 327,
+            "start_ms": 1149360,
+            "end_ms": 1154220,
+            "text": "yeah you're enjoying it it's really nice"
+          },
+          {
+            "cue_id": 351,
+            "start_ms": 1212780,
+            "end_ms": 1218960,
+            "text": "hope the run will go fine with my uh my"
+          },
+          {
+            "cue_id": 352,
+            "start_ms": 1215900,
+            "end_ms": 1221360,
+            "text": "legs now are are quite tired I might"
+          },
+          {
+            "cue_id": 374,
+            "start_ms": 1281360,
+            "end_ms": 1288440,
+            "text": "we're almost there I can't wait"
+          },
+          {
+            "cue_id": 375,
+            "start_ms": 1284080,
+            "end_ms": 1291100,
+            "text": "that this is done love you guys ciao"
+          },
+          {
+            "cue_id": 390,
+            "start_ms": 1349039,
+            "end_ms": 1353240,
+            "text": "you won't listen to me and that you will"
+          },
+          {
+            "cue_id": 391,
+            "start_ms": 1351260,
+            "end_ms": 1355220,
+            "text": "start I hope that you have enough of"
+          },
+          {
+            "cue_id": 402,
+            "start_ms": 1416890,
+            "end_ms": 1424380,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 1487340,
+            "end_ms": 1490880,
+            "text": "holy [ __ ]"
+          },
+          {
+            "cue_id": 435,
+            "start_ms": 1552620,
+            "end_ms": 1557539,
+            "text": "still running I will not stop running"
+          },
+          {
+            "cue_id": 436,
+            "start_ms": 1554480,
+            "end_ms": 1560840,
+            "text": "come on only 14 kilometers left"
+          },
+          {
+            "cue_id": 451,
+            "start_ms": 1618760,
+            "end_ms": 1624100,
+            "text": "you're so close"
+          },
+          {
+            "cue_id": 452,
+            "start_ms": 1620860,
+            "end_ms": 1624100,
+            "text": "so close"
+          },
+          {
+            "cue_id": 475,
+            "start_ms": 1757870,
+            "end_ms": 1761020,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 485,
+            "start_ms": 1824050,
+            "end_ms": 1832460,
+            "text": "[Music]"
+          }
+        ],
+        "text": "we're [ __ ]\nthe [ __ ] up\nfront during the run thank you for being\nan Iron Man Captain Austria good luck\nokay part two of carving up no more\nfibers and just uh carbohydrates that's\nthis is our dad that's a real one okay\nget back what's your number one advice\nfor the Iron Man you've done it like one\neight months of training for this\nthat makes me happy he's relaxed he's\ngood he's uh on schedule\nthank you\n[Music]\nswimming well a bit a bit too fast\nfeeling good a lot of fighting in the\nthere's a lot of ambiance on the side\nside of the course big piece let's go\nmarathon after it's like yeah foreign\n[Applause]\ndoing good very happy you look fresh\nyeah you're enjoying it it's really nice\nhope the run will go fine with my uh my\nlegs now are are quite tired I might\nwe're almost there I can't wait\nthat this is done love you guys ciao\nyou won't listen to me and that you will\nstart I hope that you have enough of\n[Music]\nholy [ __ ]\nstill running I will not stop running\ncome on only 14 kilometers left\nyou're so close\nso close\n[Music]\n[Music]",
+        "text_tokens": 277,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S25",
+          "cue_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "start_ms": 63359,
+          "end_ms": 73760,
+          "text": "realize we're [ __ ] the [ __ ] up foreign"
+        },
+        {
+          "id": "S47",
+          "cue_ids": [
+            47,
+            48,
+            49
+          ],
+          "start_ms": 125700,
+          "end_ms": 135440,
+          "text": "your back during the bike and on your front during the run thank you for being an Iron Man Captain Austria good luck"
+        },
+        {
+          "id": "S65",
+          "cue_ids": [
+            65,
+            66,
+            67
+          ],
+          "start_ms": 197420,
+          "end_ms": 207480,
+          "text": "okay part two of carving up no more fibers and just uh carbohydrates that's that's what you need right now okay okay"
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89
+          ],
+          "start_ms": 266600,
+          "end_ms": 271820,
+          "text": "this is our dad that's a real one okay"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "start_ms": 331440,
+          "end_ms": 343020,
+          "text": "eating like [ __ ] really get back what's your number one advice for the Iron Man you've done it like one month ago so one of the things that"
+        },
+        {
+          "id": "S176",
+          "cue_ids": [
+            176,
+            177,
+            178
+          ],
+          "start_ms": 531190,
+          "end_ms": 545240,
+          "text": "[Applause] eight months of training for this fish"
+        },
+        {
+          "id": "S201",
+          "cue_ids": [
+            201,
+            202,
+            203,
+            204
+          ],
+          "start_ms": 670160,
+          "end_ms": 683640,
+          "text": "until today is happening that makes me happy he's relaxed he's good he's uh on schedule I was like no stuck I don't know it's"
+        },
+        {
+          "id": "S224",
+          "cue_ids": [
+            224,
+            225,
+            226,
+            227
+          ],
+          "start_ms": 737120,
+          "end_ms": 749940,
+          "text": "let's go thank you [Music] we're doing it we're doing it Milan good"
+        },
+        {
+          "id": "S235",
+          "cue_ids": [
+            235,
+            236,
+            237
+          ],
+          "start_ms": 808820,
+          "end_ms": 817500,
+          "text": "swimming well a bit a bit too fast feeling good a lot of fighting in the water yeah crazy pulling your ankles and"
+        },
+        {
+          "id": "S290",
+          "cue_ids": [
+            290,
+            291,
+            292,
+            293
+          ],
+          "start_ms": 1007639,
+          "end_ms": 1017800,
+          "text": "going okay everybody's super nice there's a lot of ambiance on the side side of the course big piece let's go let's finish this Iron Man"
+        },
+        {
+          "id": "S304",
+          "cue_ids": [
+            304,
+            305,
+            306,
+            307
+          ],
+          "start_ms": 1069940,
+          "end_ms": 1089720,
+          "text": "yo chill we gotta take a chill there's a marathon after it's like yeah foreign [Applause] of this ride it's been amazing until now"
+        },
+        {
+          "id": "S325",
+          "cue_ids": [
+            325,
+            326,
+            327,
+            328
+          ],
+          "start_ms": 1144320,
+          "end_ms": 1156080,
+          "text": "tired I feel it in my back but uh I'm doing good very happy you look fresh yeah you're enjoying it it's really nice it's good to see you're doing great"
+        },
+        {
+          "id": "S350",
+          "cue_ids": [
+            350,
+            351,
+            352,
+            353
+          ],
+          "start_ms": 1209480,
+          "end_ms": 1224600,
+          "text": "I'm so tired actually and I'm so tired I hope the run will go fine with my uh my legs now are are quite tired I might have underestimated this"
+        },
+        {
+          "id": "S373",
+          "cue_ids": [
+            373,
+            374,
+            375,
+            376
+          ],
+          "start_ms": 1278900,
+          "end_ms": 1291100,
+          "text": "apparently and then it's 20K downhill we're almost there I can't wait that this is done love you guys ciao ah"
+        },
+        {
+          "id": "S389",
+          "cue_ids": [
+            389,
+            390,
+            391,
+            392
+          ],
+          "start_ms": 1346820,
+          "end_ms": 1358280,
+          "text": "you don't participate but I know that you won't listen to me and that you will start I hope that you have enough of adrenaline not to feel it but you will"
+        },
+        {
+          "id": "S402",
+          "cue_ids": [
+            402
+          ],
+          "start_ms": 1416890,
+          "end_ms": 1424380,
+          "text": "[Music]"
+        },
+        {
+          "id": "S416",
+          "cue_ids": [
+            416,
+            417,
+            418
+          ],
+          "start_ms": 1483919,
+          "end_ms": 1493039,
+          "text": "oh holy [ __ ] it's going well my foot doesn't hurt"
+        },
+        {
+          "id": "S434",
+          "cue_ids": [
+            434,
+            435,
+            436,
+            437
+          ],
+          "start_ms": 1550460,
+          "end_ms": 1563380,
+          "text": "and I'm gonna finish it still going still running I will not stop running come on only 14 kilometers left and then we're Iron Man come on also was"
+        },
+        {
+          "id": "S450",
+          "cue_ids": [
+            450,
+            451,
+            452
+          ],
+          "start_ms": 1617480,
+          "end_ms": 1624100,
+          "text": "cry a little you're so close so close"
+        },
+        {
+          "id": "S475",
+          "cue_ids": [
+            475
+          ],
+          "start_ms": 1757870,
+          "end_ms": 1761020,
+          "text": "[Music]"
+        },
+        {
+          "id": "S485",
+          "cue_ids": [
+            485,
+            486
+          ],
+          "start_ms": 1824050,
+          "end_ms": 1832460,
+          "text": "[Music] pain in my knee cramps"
+        }
+      ],
+      "text": "S25 [00:01:03.359 --> 00:01:13.760] realize we're [ __ ] the [ __ ] up foreign\nS47 [00:02:05.700 --> 00:02:15.440] your back during the bike and on your front during the run thank you for being an Iron Man Captain Austria good luck\nS65 [00:03:17.420 --> 00:03:27.480] okay part two of carving up no more fibers and just uh carbohydrates that's that's what you need right now okay okay\nS89 [00:04:26.600 --> 00:04:31.820] this is our dad that's a real one okay\nS110 [00:05:31.440 --> 00:05:43.020] eating like [ __ ] really get back what's your number one advice for the Iron Man you've done it like one month ago so one of the things that\nS176 [00:08:51.190 --> 00:09:05.240] [Applause] eight months of training for this fish\nS201 [00:11:10.160 --> 00:11:23.640] until today is happening that makes me happy he's relaxed he's good he's uh on schedule I was like no stuck I don't know it's\nS224 [00:12:17.120 --> 00:12:29.940] let's go thank you [Music] we're doing it we're doing it Milan good\nS235 [00:13:28.820 --> 00:13:37.500] swimming well a bit a bit too fast feeling good a lot of fighting in the water yeah crazy pulling your ankles and\nS290 [00:16:47.639 --> 00:16:57.800] going okay everybody's super nice there's a lot of ambiance on the side side of the course big piece let's go let's finish this Iron Man\nS304 [00:17:49.940 --> 00:18:09.720] yo chill we gotta take a chill there's a marathon after it's like yeah foreign [Applause] of this ride it's been amazing until now\nS325 [00:19:04.320 --> 00:19:16.080] tired I feel it in my back but uh I'm doing good very happy you look fresh yeah you're enjoying it it's really nice it's good to see you're doing great\nS350 [00:20:09.480 --> 00:20:24.600] I'm so tired actually and I'm so tired I hope the run will go fine with my uh my legs now are are quite tired I might have underestimated this\nS373 [00:21:18.900 --> 00:21:31.100] apparently and then it's 20K downhill we're almost there I can't wait that this is done love you guys ciao ah\nS389 [00:22:26.820 --> 00:22:38.280] you don't participate but I know that you won't listen to me and that you will start I hope that you have enough of adrenaline not to feel it but you will\nS402 [00:23:36.890 --> 00:23:44.380] [Music]\nS416 [00:24:43.919 --> 00:24:53.039] oh holy [ __ ] it's going well my foot doesn't hurt\nS434 [00:25:50.460 --> 00:26:03.380] and I'm gonna finish it still going still running I will not stop running come on only 14 kilometers left and then we're Iron Man come on also was\nS450 [00:26:57.480 --> 00:27:04.100] cry a little you're so close so close\nS475 [00:29:17.870 --> 00:29:21.020] [Music]\nS485 [00:30:24.050 --> 00:30:32.460] [Music] pain in my knee cramps",
+      "text_tokens": 1132,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        25,
+        28,
+        47,
+        67,
+        110,
+        113,
+        176,
+        178,
+        201,
+        204,
+        224,
+        227,
+        237,
+        290,
+        293,
+        304,
+        307,
+        325,
+        328,
+        350,
+        353,
+        373,
+        376,
+        389,
+        392,
+        416,
+        418,
+        434,
+        437,
+        450,
+        486
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9dc452ffee3fa6da7ee6f64bc1fcbbb00bce764c4fb9d3a4c73186b0a5a70a62"
+}

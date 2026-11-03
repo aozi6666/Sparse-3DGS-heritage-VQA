@@ -15,8 +15,13 @@
 
 | 工作 | 内容 | 本仓状态 |
 |------|------|----------|
+<<<<<<< HEAD
 | **A · 稀疏 3DGS 重建** | init（classic / VGGT±depthft）→ Drop 粗训 → LoRA repair（± CADR / 底模） | **消融已齐**（见下节结论） |
 | **B · 视频问答 / 评测** | Mage-VL 理解 + VLMEvalKit（Video-MME 等） | **代码与指标已接入** [`VQA/`](VQA/) |
+=======
+| **A · 稀疏 3DGS 重建** | VGGT 补点 + GaussianObject + DropGaussian + LOO/LoRA/repair；**CADR** + 写实底模对照 | **主线可跑**（CADR / 底模已落地） |
+| **B · 视频问答 / 评测** | Mage Frames-32＋连续字幕2048；Query-IP历史路线保留 | **冻结test225已完成**：163/225；详见最新结果总结 |
+>>>>>>> vlm
 
 更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。全文话术与流程图亦见仓外 [`毕设.md`](../毕设.md) / [`docs/thesis.md`](docs/thesis.md)。
 
@@ -132,6 +137,7 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 ---
 
+<<<<<<< HEAD
 
 ## 工作 B：Mage-VL + VLMEvalKit
 
@@ -144,6 +150,45 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 `mage_flow`（文生图）**不在本仓**，仅存于机器上仓外 `../Mage/mage_flow` 等。  
 权重与数据集放仓外或本地 ignore 目录；环境见下表与 [`VQA/README.md`](VQA/README.md)。
+=======
+## 工作 B：Mage字幕增强（当前）
+
+## 当前结论（2026-11-03，字幕路线已完成冻结评测）
+
+保留Frames-32＋连续补句＋时间标记，固定2048字幕token；无训练、无Agent/API。test225三路正确数：无字幕140、原对齐154、连续163（72.44%）。相对无字幕净增23题／10.22个百分点，聚类95%区间[5.33,15.11]；相对原对齐净增9题／4个百分点，区间[-0.44,8.46]，尚不能证明补句独立显著优于原对齐。
+
+short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶段互斥覆盖本地714题／238视频，不能混称714题独立测试或官方完整基准。原对齐val90负结果、3072预算负结果及API pilot负结果全部保留。当前不再调字幕或重复跑本地full；Agent暂停，文旅闭环和重建对问答的贡献尚待验证。
+
+完整三路数据、分时长统计、5组图、成本和10个案例见[最新最终结果总结](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。历史内容若与本节不符，以本节及最新总结为准；历史实验不删除。
+
+
+### Query-IP历史路线（独立协议，不能与字幕结果直接混比）
+
+**应用场景（动机）：** 游客随拍、视角有限的景点问答——同一段短视频，问牌匾 vs 问屋檐，需要的视觉证据不同；Codec 按运动/残差选 Patch 未必对准问题；证据不足时应说明不确定（拒答需另做）。  
+**核心研究问题：** 有限视角下、**固定视觉 Token 预算**的**问题相关证据选择**（不是泛旅游聊天，也不是单纯压码率）。  
+**实验结论（2026-10-27 保留）：**  
+- **主线 A（可写）：** 同 K **Codec 融合** `queryip` **63.5%** ≈ +4 pp vs random（视频 · Mage 已留 patch）。  
+- **按问题选区未做成：** CLIP / αβ / OCR 硬切 textseat（37.3%=shuf，vs full −46.8）→ **失败消融，不作贡献**。  
+- **加戏 B：** 软门控、持平即成功（可选）。换方案时以上结论保留。  
+
+详情：[`VQA/README.md`](VQA/README.md) · [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
+
+| 同 K · short200 · kr=0.75 | Acc | 备注 |
+|------|-----|------|
+| **queryip · 主线 A** | **63.5%** | [`clip_frame_n200/`](VQA/eval_results/queryip_samek/clip_frame_n200/) |
+| random | 59.5% | 同上 |
+| CLIP / region·shuf / edge·shuf | 58.5 / 58.5·60.5 / 60.0·62.0 | 失败 |
+| OCR textseat / full（v1 proxy） | 37.3 / 84.1 | [`ocrbench_v1_image_textseat/`](VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
+
+| 路径 | 说明 |
+|------|------|
+| [`VQA/README.md`](VQA/README.md) | **应用场景全文** + 实验结论 |
+| [`VQA/Explore-Then-Select/`](VQA/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VQA/Explore-Then-Select/COMMANDS.md) |
+| [`VQA/eval_results/`](VQA/eval_results/) | 指标归档 |
+| [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 结论 · 证据 · 后续实验 |
+
+`mage_flow` **不在本仓**。权重 / 大数据集放仓外或 ignore。
+>>>>>>> vlm
 
 ---
 
@@ -175,6 +220,21 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 **后续可选**
 
+<<<<<<< HEAD
 - [ ] 用 [`lineB_kitchen_iter_sweep.csv`](3DGS/eval_results/lineB_kitchen_iter_sweep.csv) 出论文 **PSNR–iter** 图
 - [ ] **V2 尺度对齐**（非必须；11.78 负对照即可）
 - [ ] 工作 B：Cultural LoRA / codec 选区等（见 [`docs/PLAN_mage_cultural_lora_location.md`](docs/PLAN_mage_cultural_lora_location.md)）
+=======
+### 工作 B · Query-IP / Mage（下列旧TODO为历史路线；当前字幕状态见上文）
+
+- [x] **同 K 主表 / 复现**：保留 `queryip`；vs random 点估计约 **+4 pp**（63.5 vs 59.5 @`clip_frame_n200`；主表曾 64.0）
+- [x] **失败消融归档**：bitcost；CLIP 帧 E4；区域 v1；**边界 edge**；方案 B **不做**
+- [x] **E2 α/β 三角**：`queryip`≡dyn；sta ±1 题 → **题型自适应不作贡献**
+- [x] **行 A / 行 B 旁证** + **proxy K 扫描**（0.3–0.75 赢；0.9 不赢）
+- [x] **停 QueryIP 语义选区**（CLIP 重排；非否定一切语义）
+- [x] **OCRBench v1 硬切 textseat 负结果归档**；Mage baseline Norm 83.4
+- [x] **定案主线 A / 加戏 B**（换方案前结论保留）
+- [ ] **【优先】主线 A 收口**：McNemar · 失败表 · Acc–K
+- [ ] （可选）加戏 B 软门控冒烟 · 效率曲线 · 流式 / Cultural LoRA
+- [ ] ~~同 K×714~~ / ~~CLIP 选区~~ / ~~αβ~~ / ~~OCR 硬切打 Mage~~ → **不做**
+>>>>>>> vlm

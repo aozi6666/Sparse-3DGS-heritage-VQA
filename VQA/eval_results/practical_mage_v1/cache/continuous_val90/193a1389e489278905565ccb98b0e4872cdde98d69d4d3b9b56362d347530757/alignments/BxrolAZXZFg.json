@@ -1,0 +1,1642 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "BxrolAZXZFg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BxrolAZXZFg.srt",
+        "status": "available",
+        "bytes": 50617,
+        "sha256": "098590cbf6a0ec0431f1b8936cd43b54a047ead43fd6801ae64f6c895bd220b6",
+        "cues": 457,
+        "nonempty_cues": 457
+      },
+      "frame_indices": [
+        0,
+        805,
+        1609,
+        2414,
+        3218,
+        4023,
+        4828,
+        5632,
+        6437,
+        7242,
+        8046,
+        8851,
+        9655,
+        10460,
+        11265,
+        12069,
+        12874,
+        13678,
+        14483,
+        15288,
+        16092,
+        16897,
+        17701,
+        18506,
+        19311,
+        20115,
+        20920,
+        21725,
+        22529,
+        23334,
+        24138,
+        24943
+      ],
+      "frame_seconds": [
+        0.0,
+        26.860167,
+        53.686967,
+        80.547133,
+        107.373933,
+        134.2341,
+        161.094267,
+        187.921067,
+        214.781233,
+        241.6414,
+        268.4682,
+        295.328367,
+        322.155167,
+        349.015333,
+        375.8755,
+        402.7023,
+        429.562467,
+        456.389267,
+        483.249433,
+        510.1096,
+        536.9364,
+        563.796567,
+        590.623367,
+        617.483533,
+        644.3437,
+        671.1705,
+        698.030667,
+        724.890833,
+        751.717633,
+        778.5778,
+        805.4046,
+        832.264767
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          61,
+          62
+        ],
+        [
+          75,
+          76
+        ],
+        [
+          89,
+          90
+        ],
+        [
+          102,
+          103
+        ],
+        [
+          115,
+          116
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          159,
+          160
+        ],
+        [
+          175,
+          176
+        ],
+        [
+          192,
+          193
+        ],
+        [
+          206,
+          207
+        ],
+        [
+          221,
+          222
+        ],
+        [
+          237,
+          238
+        ],
+        [
+          251,
+          252
+        ],
+        [
+          263,
+          264
+        ],
+        [
+          278,
+          279
+        ],
+        [
+          292,
+          293
+        ],
+        [
+          307,
+          308
+        ],
+        [
+          323,
+          324
+        ],
+        [
+          339,
+          340
+        ],
+        [
+          356,
+          357
+        ],
+        [
+          371,
+          372
+        ],
+        [
+          385,
+          386
+        ],
+        [
+          401,
+          402
+        ],
+        [
+          416,
+          417
+        ],
+        [
+          430,
+          431
+        ],
+        [
+          442,
+          443
+        ],
+        [
+          456,
+          457
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 4319,
+          "text": "hey guys welcome back to my channel on"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 24400,
+          "end_ms": 27680,
+          "text": "petey he's a dog in here for our board"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 26400,
+          "end_ms": 30080,
+          "text": "and train program and he's going to be"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 50879,
+          "end_ms": 54000,
+          "text": "traditional clippers and we're also"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 52320,
+          "end_ms": 55440,
+          "text": "going to be talking about the dremel in"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 76799,
+          "end_ms": 80560,
+          "text": "either the other thing i'm using is this"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 78640,
+          "end_ms": 82400,
+          "text": "elevated bed which gives me leverage"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 104880,
+          "end_ms": 108880,
+          "text": "may be a little afraid of this you may"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 106720,
+          "end_ms": 110880,
+          "text": "have not liked this in the past but now"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 130720,
+          "end_ms": 134800,
+          "text": "there and as you get better it may get"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 132959,
+          "end_ms": 136720,
+          "text": "closer and closer and what i always"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 157519,
+          "end_ms": 161360,
+          "text": "need to do then you start desensitizing"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 159280,
+          "end_ms": 162640,
+          "text": "actually touching the dog's areas that"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 182959,
+          "end_ms": 188159,
+          "text": "and then pay the dog so your goal is to"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 185200,
+          "end_ms": 189840,
+          "text": "say hey when this happens food happens"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 211200,
+          "end_ms": 215519,
+          "text": "honestly had no idea how he was going to"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 212879,
+          "end_ms": 218319,
+          "text": "react and he's doing very very very good"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 238400,
+          "end_ms": 241760,
+          "text": "react so that's called desensitizing"
+        },
+        {
+          "cue_id": 129,
+          "start_ms": 240480,
+          "end_ms": 244000,
+          "text": "actually touching the dog that's"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 265600,
+          "end_ms": 270560,
+          "text": "vision for you guys to look at and you"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 267680,
+          "end_ms": 272000,
+          "text": "can see the dog's nail is right here and"
+        },
+        {
+          "cue_id": 159,
+          "start_ms": 292720,
+          "end_ms": 295520,
+          "text": "trust the groomer with your dog or maybe"
+        },
+        {
+          "cue_id": 160,
+          "start_ms": 294159,
+          "end_ms": 297040,
+          "text": "you're just trying this out for the"
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 319280,
+          "end_ms": 322479,
+          "text": "videos like this every single week we"
+        },
+        {
+          "cue_id": 176,
+          "start_ms": 320880,
+          "end_ms": 323840,
+          "text": "put out videos to how to train an"
+        },
+        {
+          "cue_id": 192,
+          "start_ms": 346240,
+          "end_ms": 350080,
+          "text": "hold on to for a long time good quality"
+        },
+        {
+          "cue_id": 193,
+          "start_ms": 348639,
+          "end_ms": 351840,
+          "text": "and then you have the dremel which i'll"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 373120,
+          "end_ms": 377039,
+          "text": "dealing with a dog like this with all"
+        },
+        {
+          "cue_id": 207,
+          "start_ms": 374479,
+          "end_ms": 378479,
+          "text": "this hair right here it can get wound up"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 398880,
+          "end_ms": 402720,
+          "text": "expression with this muppet face here"
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 400800,
+          "end_ms": 404000,
+          "text": "but i'm feeding him here i'm getting the"
+        },
+        {
+          "cue_id": 237,
+          "start_ms": 427360,
+          "end_ms": 430880,
+          "text": "know what his experience is at home for"
+        },
+        {
+          "cue_id": 238,
+          "start_ms": 429360,
+          "end_ms": 432639,
+          "text": "nail trimming it doesn't look like a lot"
+        },
+        {
+          "cue_id": 251,
+          "start_ms": 455120,
+          "end_ms": 457440,
+          "text": "play with him a little bit what do you"
+        },
+        {
+          "cue_id": 252,
+          "start_ms": 456319,
+          "end_ms": 459199,
+          "text": "think buddy"
+        },
+        {
+          "cue_id": 263,
+          "start_ms": 479759,
+          "end_ms": 485199,
+          "text": "boy get to the end and trim good boy"
+        },
+        {
+          "cue_id": 264,
+          "start_ms": 483120,
+          "end_ms": 486560,
+          "text": "good job petey so as you can see we"
+        },
+        {
+          "cue_id": 278,
+          "start_ms": 507680,
+          "end_ms": 511039,
+          "text": "are very long and i know where they need"
+        },
+        {
+          "cue_id": 279,
+          "start_ms": 509120,
+          "end_ms": 513039,
+          "text": "to be so in this diagram you'll see"
+        },
+        {
+          "cue_id": 292,
+          "start_ms": 534959,
+          "end_ms": 538399,
+          "text": "again"
+        },
+        {
+          "cue_id": 293,
+          "start_ms": 535839,
+          "end_ms": 540000,
+          "text": "trim the tip off again good boy petey"
+        },
+        {
+          "cue_id": 307,
+          "start_ms": 560480,
+          "end_ms": 564880,
+          "text": "lot of really really important benefits"
+        },
+        {
+          "cue_id": 308,
+          "start_ms": 562880,
+          "end_ms": 567120,
+          "text": "to making sure that your dog's nails are"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 588320,
+          "end_ms": 591120,
+          "text": "brushing their hair you're trying to"
+        },
+        {
+          "cue_id": 324,
+          "start_ms": 589519,
+          "end_ms": 592880,
+          "text": "brush their teeth they don't like it"
+        },
+        {
+          "cue_id": 339,
+          "start_ms": 615120,
+          "end_ms": 618000,
+          "text": "uncomfortable for them maybe this is"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 616800,
+          "end_ms": 619440,
+          "text": "something that i think a lot of dog"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 642320,
+          "end_ms": 646160,
+          "text": "muzzle for things like this but to give"
+        },
+        {
+          "cue_id": 357,
+          "start_ms": 644320,
+          "end_ms": 647360,
+          "text": "you a quick 10 second crash course it's"
+        },
+        {
+          "cue_id": 371,
+          "start_ms": 668240,
+          "end_ms": 673279,
+          "text": "a little agitated"
+        },
+        {
+          "cue_id": 372,
+          "start_ms": 669920,
+          "end_ms": 675760,
+          "text": "but that's okay good boy good job"
+        },
+        {
+          "cue_id": 385,
+          "start_ms": 694560,
+          "end_ms": 698160,
+          "text": "comfortable as you can for the dog so"
+        },
+        {
+          "cue_id": 386,
+          "start_ms": 696320,
+          "end_ms": 700000,
+          "text": "you can continue to do it in the future"
+        },
+        {
+          "cue_id": 401,
+          "start_ms": 723120,
+          "end_ms": 727120,
+          "text": "just want to do a little bit out of the"
+        },
+        {
+          "cue_id": 402,
+          "start_ms": 724639,
+          "end_ms": 728800,
+          "text": "time and as you guys can see he's very"
+        },
+        {
+          "cue_id": 416,
+          "start_ms": 749040,
+          "end_ms": 751839,
+          "text": "almost empty now if your dog is allergic"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 750720,
+          "end_ms": 753680,
+          "text": "to peanut butter this is not going to"
+        },
+        {
+          "cue_id": 430,
+          "start_ms": 773370,
+          "end_ms": 778639,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 431,
+          "start_ms": 776240,
+          "end_ms": 778639,
+          "text": "good boy"
+        },
+        {
+          "cue_id": 442,
+          "start_ms": 801360,
+          "end_ms": 806320,
+          "text": "start cutting your dog's nails"
+        },
+        {
+          "cue_id": 443,
+          "start_ms": 804079,
+          "end_ms": 808240,
+          "text": "you know weekly or daily"
+        },
+        {
+          "cue_id": 456,
+          "start_ms": 828399,
+          "end_ms": 833240,
+          "text": "check out all the other cool things"
+        },
+        {
+          "cue_id": 457,
+          "start_ms": 829680,
+          "end_ms": 833240,
+          "text": "we're doing with dogs"
+        }
+      ],
+      "text": "hey guys welcome back to my channel on\npetey he's a dog in here for our board\nand train program and he's going to be\ntraditional clippers and we're also\ngoing to be talking about the dremel in\neither the other thing i'm using is this\nelevated bed which gives me leverage\nmay be a little afraid of this you may\nhave not liked this in the past but now\nthere and as you get better it may get\ncloser and closer and what i always\nneed to do then you start desensitizing\nactually touching the dog's areas that\nand then pay the dog so your goal is to\nsay hey when this happens food happens\nhonestly had no idea how he was going to\nreact and he's doing very very very good\nreact so that's called desensitizing\nactually touching the dog that's\nvision for you guys to look at and you\ncan see the dog's nail is right here and\ntrust the groomer with your dog or maybe\nyou're just trying this out for the\nvideos like this every single week we\nput out videos to how to train an\nhold on to for a long time good quality\nand then you have the dremel which i'll\ndealing with a dog like this with all\nthis hair right here it can get wound up\nexpression with this muppet face here\nbut i'm feeding him here i'm getting the\nknow what his experience is at home for\nnail trimming it doesn't look like a lot\nplay with him a little bit what do you\nthink buddy\nboy get to the end and trim good boy\ngood job petey so as you can see we\nare very long and i know where they need\nto be so in this diagram you'll see\nagain\ntrim the tip off again good boy petey\nlot of really really important benefits\nto making sure that your dog's nails are\nbrushing their hair you're trying to\nbrush their teeth they don't like it\nuncomfortable for them maybe this is\nsomething that i think a lot of dog\nmuzzle for things like this but to give\nyou a quick 10 second crash course it's\na little agitated\nbut that's okay good boy good job\ncomfortable as you can for the dog so\nyou can continue to do it in the future\njust want to do a little bit out of the\ntime and as you guys can see he's very\nalmost empty now if your dog is allergic\nto peanut butter this is not going to\n[Music]\ngood boy\nstart cutting your dog's nails\nyou know weekly or daily\ncheck out all the other cool things\nwe're doing with dogs",
+      "text_tokens": 569,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "BxrolAZXZFg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BxrolAZXZFg.srt",
+          "status": "available",
+          "bytes": 50617,
+          "sha256": "098590cbf6a0ec0431f1b8936cd43b54a047ead43fd6801ae64f6c895bd220b6",
+          "cues": 457,
+          "nonempty_cues": 457
+        },
+        "frame_indices": [
+          0,
+          805,
+          1609,
+          2414,
+          3218,
+          4023,
+          4828,
+          5632,
+          6437,
+          7242,
+          8046,
+          8851,
+          9655,
+          10460,
+          11265,
+          12069,
+          12874,
+          13678,
+          14483,
+          15288,
+          16092,
+          16897,
+          17701,
+          18506,
+          19311,
+          20115,
+          20920,
+          21725,
+          22529,
+          23334,
+          24138,
+          24943
+        ],
+        "frame_seconds": [
+          0.0,
+          26.860167,
+          53.686967,
+          80.547133,
+          107.373933,
+          134.2341,
+          161.094267,
+          187.921067,
+          214.781233,
+          241.6414,
+          268.4682,
+          295.328367,
+          322.155167,
+          349.015333,
+          375.8755,
+          402.7023,
+          429.562467,
+          456.389267,
+          483.249433,
+          510.1096,
+          536.9364,
+          563.796567,
+          590.623367,
+          617.483533,
+          644.3437,
+          671.1705,
+          698.030667,
+          724.890833,
+          751.717633,
+          778.5778,
+          805.4046,
+          832.264767
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            61,
+            62
+          ],
+          [
+            75,
+            76
+          ],
+          [
+            89,
+            90
+          ],
+          [
+            102,
+            103
+          ],
+          [
+            115,
+            116
+          ],
+          [
+            128,
+            129
+          ],
+          [
+            143,
+            144
+          ],
+          [
+            159,
+            160
+          ],
+          [
+            175,
+            176
+          ],
+          [
+            192,
+            193
+          ],
+          [
+            206,
+            207
+          ],
+          [
+            221,
+            222
+          ],
+          [
+            237,
+            238
+          ],
+          [
+            251,
+            252
+          ],
+          [
+            263,
+            264
+          ],
+          [
+            278,
+            279
+          ],
+          [
+            292,
+            293
+          ],
+          [
+            307,
+            308
+          ],
+          [
+            323,
+            324
+          ],
+          [
+            339,
+            340
+          ],
+          [
+            356,
+            357
+          ],
+          [
+            371,
+            372
+          ],
+          [
+            385,
+            386
+          ],
+          [
+            401,
+            402
+          ],
+          [
+            416,
+            417
+          ],
+          [
+            430,
+            431
+          ],
+          [
+            442,
+            443
+          ],
+          [
+            456,
+            457
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 4319,
+            "text": "hey guys welcome back to my channel on"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 24400,
+            "end_ms": 27680,
+            "text": "petey he's a dog in here for our board"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 26400,
+            "end_ms": 30080,
+            "text": "and train program and he's going to be"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 50879,
+            "end_ms": 54000,
+            "text": "traditional clippers and we're also"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 52320,
+            "end_ms": 55440,
+            "text": "going to be talking about the dremel in"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 76799,
+            "end_ms": 80560,
+            "text": "either the other thing i'm using is this"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 78640,
+            "end_ms": 82400,
+            "text": "elevated bed which gives me leverage"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 104880,
+            "end_ms": 108880,
+            "text": "may be a little afraid of this you may"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 106720,
+            "end_ms": 110880,
+            "text": "have not liked this in the past but now"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 130720,
+            "end_ms": 134800,
+            "text": "there and as you get better it may get"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 132959,
+            "end_ms": 136720,
+            "text": "closer and closer and what i always"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 157519,
+            "end_ms": 161360,
+            "text": "need to do then you start desensitizing"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 159280,
+            "end_ms": 162640,
+            "text": "actually touching the dog's areas that"
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 182959,
+            "end_ms": 188159,
+            "text": "and then pay the dog so your goal is to"
+          },
+          {
+            "cue_id": 103,
+            "start_ms": 185200,
+            "end_ms": 189840,
+            "text": "say hey when this happens food happens"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 211200,
+            "end_ms": 215519,
+            "text": "honestly had no idea how he was going to"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 212879,
+            "end_ms": 218319,
+            "text": "react and he's doing very very very good"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 238400,
+            "end_ms": 241760,
+            "text": "react so that's called desensitizing"
+          },
+          {
+            "cue_id": 129,
+            "start_ms": 240480,
+            "end_ms": 244000,
+            "text": "actually touching the dog that's"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 265600,
+            "end_ms": 270560,
+            "text": "vision for you guys to look at and you"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 267680,
+            "end_ms": 272000,
+            "text": "can see the dog's nail is right here and"
+          },
+          {
+            "cue_id": 159,
+            "start_ms": 292720,
+            "end_ms": 295520,
+            "text": "trust the groomer with your dog or maybe"
+          },
+          {
+            "cue_id": 160,
+            "start_ms": 294159,
+            "end_ms": 297040,
+            "text": "you're just trying this out for the"
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 319280,
+            "end_ms": 322479,
+            "text": "videos like this every single week we"
+          },
+          {
+            "cue_id": 176,
+            "start_ms": 320880,
+            "end_ms": 323840,
+            "text": "put out videos to how to train an"
+          },
+          {
+            "cue_id": 192,
+            "start_ms": 346240,
+            "end_ms": 350080,
+            "text": "hold on to for a long time good quality"
+          },
+          {
+            "cue_id": 193,
+            "start_ms": 348639,
+            "end_ms": 351840,
+            "text": "and then you have the dremel which i'll"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 373120,
+            "end_ms": 377039,
+            "text": "dealing with a dog like this with all"
+          },
+          {
+            "cue_id": 207,
+            "start_ms": 374479,
+            "end_ms": 378479,
+            "text": "this hair right here it can get wound up"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 398880,
+            "end_ms": 402720,
+            "text": "expression with this muppet face here"
+          },
+          {
+            "cue_id": 222,
+            "start_ms": 400800,
+            "end_ms": 404000,
+            "text": "but i'm feeding him here i'm getting the"
+          },
+          {
+            "cue_id": 237,
+            "start_ms": 427360,
+            "end_ms": 430880,
+            "text": "know what his experience is at home for"
+          },
+          {
+            "cue_id": 238,
+            "start_ms": 429360,
+            "end_ms": 432639,
+            "text": "nail trimming it doesn't look like a lot"
+          },
+          {
+            "cue_id": 251,
+            "start_ms": 455120,
+            "end_ms": 457440,
+            "text": "play with him a little bit what do you"
+          },
+          {
+            "cue_id": 252,
+            "start_ms": 456319,
+            "end_ms": 459199,
+            "text": "think buddy"
+          },
+          {
+            "cue_id": 263,
+            "start_ms": 479759,
+            "end_ms": 485199,
+            "text": "boy get to the end and trim good boy"
+          },
+          {
+            "cue_id": 264,
+            "start_ms": 483120,
+            "end_ms": 486560,
+            "text": "good job petey so as you can see we"
+          },
+          {
+            "cue_id": 278,
+            "start_ms": 507680,
+            "end_ms": 511039,
+            "text": "are very long and i know where they need"
+          },
+          {
+            "cue_id": 279,
+            "start_ms": 509120,
+            "end_ms": 513039,
+            "text": "to be so in this diagram you'll see"
+          },
+          {
+            "cue_id": 292,
+            "start_ms": 534959,
+            "end_ms": 538399,
+            "text": "again"
+          },
+          {
+            "cue_id": 293,
+            "start_ms": 535839,
+            "end_ms": 540000,
+            "text": "trim the tip off again good boy petey"
+          },
+          {
+            "cue_id": 307,
+            "start_ms": 560480,
+            "end_ms": 564880,
+            "text": "lot of really really important benefits"
+          },
+          {
+            "cue_id": 308,
+            "start_ms": 562880,
+            "end_ms": 567120,
+            "text": "to making sure that your dog's nails are"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 588320,
+            "end_ms": 591120,
+            "text": "brushing their hair you're trying to"
+          },
+          {
+            "cue_id": 324,
+            "start_ms": 589519,
+            "end_ms": 592880,
+            "text": "brush their teeth they don't like it"
+          },
+          {
+            "cue_id": 339,
+            "start_ms": 615120,
+            "end_ms": 618000,
+            "text": "uncomfortable for them maybe this is"
+          },
+          {
+            "cue_id": 340,
+            "start_ms": 616800,
+            "end_ms": 619440,
+            "text": "something that i think a lot of dog"
+          },
+          {
+            "cue_id": 356,
+            "start_ms": 642320,
+            "end_ms": 646160,
+            "text": "muzzle for things like this but to give"
+          },
+          {
+            "cue_id": 357,
+            "start_ms": 644320,
+            "end_ms": 647360,
+            "text": "you a quick 10 second crash course it's"
+          },
+          {
+            "cue_id": 371,
+            "start_ms": 668240,
+            "end_ms": 673279,
+            "text": "a little agitated"
+          },
+          {
+            "cue_id": 372,
+            "start_ms": 669920,
+            "end_ms": 675760,
+            "text": "but that's okay good boy good job"
+          },
+          {
+            "cue_id": 385,
+            "start_ms": 694560,
+            "end_ms": 698160,
+            "text": "comfortable as you can for the dog so"
+          },
+          {
+            "cue_id": 386,
+            "start_ms": 696320,
+            "end_ms": 700000,
+            "text": "you can continue to do it in the future"
+          },
+          {
+            "cue_id": 401,
+            "start_ms": 723120,
+            "end_ms": 727120,
+            "text": "just want to do a little bit out of the"
+          },
+          {
+            "cue_id": 402,
+            "start_ms": 724639,
+            "end_ms": 728800,
+            "text": "time and as you guys can see he's very"
+          },
+          {
+            "cue_id": 416,
+            "start_ms": 749040,
+            "end_ms": 751839,
+            "text": "almost empty now if your dog is allergic"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 750720,
+            "end_ms": 753680,
+            "text": "to peanut butter this is not going to"
+          },
+          {
+            "cue_id": 430,
+            "start_ms": 773370,
+            "end_ms": 778639,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 431,
+            "start_ms": 776240,
+            "end_ms": 778639,
+            "text": "good boy"
+          },
+          {
+            "cue_id": 442,
+            "start_ms": 801360,
+            "end_ms": 806320,
+            "text": "start cutting your dog's nails"
+          },
+          {
+            "cue_id": 443,
+            "start_ms": 804079,
+            "end_ms": 808240,
+            "text": "you know weekly or daily"
+          },
+          {
+            "cue_id": 456,
+            "start_ms": 828399,
+            "end_ms": 833240,
+            "text": "check out all the other cool things"
+          },
+          {
+            "cue_id": 457,
+            "start_ms": 829680,
+            "end_ms": 833240,
+            "text": "we're doing with dogs"
+          }
+        ],
+        "text": "hey guys welcome back to my channel on\npetey he's a dog in here for our board\nand train program and he's going to be\ntraditional clippers and we're also\ngoing to be talking about the dremel in\neither the other thing i'm using is this\nelevated bed which gives me leverage\nmay be a little afraid of this you may\nhave not liked this in the past but now\nthere and as you get better it may get\ncloser and closer and what i always\nneed to do then you start desensitizing\nactually touching the dog's areas that\nand then pay the dog so your goal is to\nsay hey when this happens food happens\nhonestly had no idea how he was going to\nreact and he's doing very very very good\nreact so that's called desensitizing\nactually touching the dog that's\nvision for you guys to look at and you\ncan see the dog's nail is right here and\ntrust the groomer with your dog or maybe\nyou're just trying this out for the\nvideos like this every single week we\nput out videos to how to train an\nhold on to for a long time good quality\nand then you have the dremel which i'll\ndealing with a dog like this with all\nthis hair right here it can get wound up\nexpression with this muppet face here\nbut i'm feeding him here i'm getting the\nknow what his experience is at home for\nnail trimming it doesn't look like a lot\nplay with him a little bit what do you\nthink buddy\nboy get to the end and trim good boy\ngood job petey so as you can see we\nare very long and i know where they need\nto be so in this diagram you'll see\nagain\ntrim the tip off again good boy petey\nlot of really really important benefits\nto making sure that your dog's nails are\nbrushing their hair you're trying to\nbrush their teeth they don't like it\nuncomfortable for them maybe this is\nsomething that i think a lot of dog\nmuzzle for things like this but to give\nyou a quick 10 second crash course it's\na little agitated\nbut that's okay good boy good job\ncomfortable as you can for the dog so\nyou can continue to do it in the future\njust want to do a little bit out of the\ntime and as you guys can see he's very\nalmost empty now if your dog is allergic\nto peanut butter this is not going to\n[Music]\ngood boy\nstart cutting your dog's nails\nyou know weekly or daily\ncheck out all the other cool things\nwe're doing with dogs",
+        "text_tokens": 569,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 6960,
+          "text": "hey guys welcome back to my channel on this video i'm gonna teach you how to"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_ms": 22960,
+          "end_ms": 31920,
+          "text": "today all right you guys so this is petey he's a dog in here for our board and train program and he's going to be our demo dog today so there's two things"
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_ms": 49920,
+          "end_ms": 57280,
+          "text": "we're going to be talking about the traditional clippers and we're also going to be talking about the dremel in the comments below i want to know what"
+        },
+        {
+          "id": "S43",
+          "cue_ids": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "start_ms": 74880,
+          "end_ms": 83840,
+          "text": "if they do get distracted to run away either the other thing i'm using is this elevated bed which gives me leverage with a dog that's this small now if"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "start_ms": 103520,
+          "end_ms": 112960,
+          "text": "so we're actually just taking hey you may be a little afraid of this you may have not liked this in the past but now that it's out and there's food involved"
+        },
+        {
+          "id": "S74",
+          "cue_ids": [
+            74,
+            75,
+            76,
+            77
+          ],
+          "start_ms": 128878,
+          "end_ms": 138959,
+          "text": "very sensitive this may be way over there and as you get better it may get closer and closer and what i always suggest is try to use as high reward"
+        },
+        {
+          "id": "S88",
+          "cue_ids": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "start_ms": 155360,
+          "end_ms": 164879,
+          "text": "desensitized the equipment that you may need to do then you start desensitizing actually touching the dog's areas that you're going to be trimming so as you"
+        },
+        {
+          "id": "S101",
+          "cue_ids": [
+            101,
+            102,
+            103,
+            104
+          ],
+          "start_ms": 181280,
+          "end_ms": 191519,
+          "text": "grab the dog here and then pay the dog so your goal is to say hey when this happens food happens when i touch you here this happens and"
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115,
+            116,
+            117
+          ],
+          "start_ms": 209599,
+          "end_ms": 220319,
+          "text": "never really worked with pdb4 so i honestly had no idea how he was going to react and he's doing very very very good but if your dog does have a bad reaction"
+        },
+        {
+          "id": "S127",
+          "cue_ids": [
+            127,
+            128,
+            129,
+            130
+          ],
+          "start_ms": 237200,
+          "end_ms": 245519,
+          "text": "said had no idea how he was going to react so that's called desensitizing actually touching the dog that's desensitizing the equipment to the dog"
+        },
+        {
+          "id": "S142",
+          "cue_ids": [
+            142,
+            143,
+            144,
+            145
+          ],
+          "start_ms": 263199,
+          "end_ms": 273680,
+          "text": "process or possibly even longer here's a vision for you guys to look at and you can see the dog's nail is right here and then the quick is right here so the"
+        },
+        {
+          "id": "S158",
+          "cue_ids": [
+            158,
+            159,
+            160,
+            161
+          ],
+          "start_ms": 291360,
+          "end_ms": 298560,
+          "text": "groomer around you or maybe you don't trust the groomer with your dog or maybe you're just trying this out for the first time with your puppy and sometimes"
+        },
+        {
+          "id": "S174",
+          "cue_ids": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "start_ms": 318000,
+          "end_ms": 326000,
+          "text": "you're new to this channel we put out videos like this every single week we put out videos to how to train an aggressive dog to teach a dog how to"
+        },
+        {
+          "id": "S191",
+          "cue_ids": [
+            191,
+            192,
+            193,
+            194
+          ],
+          "start_ms": 345199,
+          "end_ms": 353600,
+          "text": "this is something that you can really hold on to for a long time good quality and then you have the dremel which i'll link in the description below now the"
+        },
+        {
+          "id": "S205",
+          "cue_ids": [
+            205,
+            206,
+            207,
+            208
+          ],
+          "start_ms": 371360,
+          "end_ms": 380000,
+          "text": "a little bit sensitive but when you're dealing with a dog like this with all this hair right here it can get wound up and actually pull the dog's hair and"
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222,
+            223
+          ],
+          "start_ms": 397280,
+          "end_ms": 405759,
+          "text": "it's hard to see his face and his expression with this muppet face here but i'm feeding him here i'm getting the nails ready i'm gonna start with the"
+        },
+        {
+          "id": "S236",
+          "cue_ids": [
+            236,
+            237,
+            238,
+            239
+          ],
+          "start_ms": 425759,
+          "end_ms": 434240,
+          "text": "to pd he doesn't know me and i don't know what his experience is at home for nail trimming it doesn't look like a lot considering how long his nails are but"
+        },
+        {
+          "id": "S250",
+          "cue_ids": [
+            250,
+            251,
+            252,
+            253
+          ],
+          "start_ms": 452479,
+          "end_ms": 461280,
+          "text": "those two cuts kind of let him be a dog play with him a little bit what do you think buddy oh he's a good boy"
+        },
+        {
+          "id": "S262",
+          "cue_ids": [
+            262,
+            263,
+            264,
+            265
+          ],
+          "start_ms": 477120,
+          "end_ms": 488879,
+          "text": "we're gonna get this one right here good boy get to the end and trim good boy good job petey so as you can see we already started to trim some of these"
+        },
+        {
+          "id": "S277",
+          "cue_ids": [
+            277,
+            278,
+            279,
+            280
+          ],
+          "start_ms": 505919,
+          "end_ms": 514559,
+          "text": "checking just because i know that these are very long and i know where they need to be so in this diagram you'll see where the quick normally is and how you"
+        },
+        {
+          "id": "S291",
+          "cue_ids": [
+            291,
+            292,
+            293,
+            294
+          ],
+          "start_ms": 532480,
+          "end_ms": 541680,
+          "text": "trim the tip off again trim the tip off again trim the tip off again good boy petey now it's important for everybody out"
+        },
+        {
+          "id": "S306",
+          "cue_ids": [
+            306,
+            307,
+            308,
+            309
+          ],
+          "start_ms": 558560,
+          "end_ms": 568720,
+          "text": "muscles and orthopedically so there's a lot of really really important benefits to making sure that your dog's nails are trimmed at all times or as much as you"
+        },
+        {
+          "id": "S322",
+          "cue_ids": [
+            322,
+            323,
+            324,
+            325
+          ],
+          "start_ms": 586800,
+          "end_ms": 594480,
+          "text": "little agitated like a kid when you're brushing their hair you're trying to brush their teeth they don't like it they may kick and scream and get upset"
+        },
+        {
+          "id": "S338",
+          "cue_ids": [
+            338,
+            339,
+            340,
+            341
+          ],
+          "start_ms": 613680,
+          "end_ms": 621279,
+          "text": "they've had bad experiences it's uncomfortable for them maybe this is something that i think a lot of dog owners should just learn how to do in"
+        },
+        {
+          "id": "S355",
+          "cue_ids": [
+            355,
+            356,
+            357,
+            358
+          ],
+          "start_ms": 640720,
+          "end_ms": 648720,
+          "text": "learn how to condition your dogs on the muzzle for things like this but to give you a quick 10 second crash course it's going to be a lot of the same stuff that"
+        },
+        {
+          "id": "S370",
+          "cue_ids": [
+            370,
+            371,
+            372,
+            373
+          ],
+          "start_ms": 666240,
+          "end_ms": 678000,
+          "text": "nail right here and he's starting to get a little agitated but that's okay good boy good job positive reinforcement so take a break"
+        },
+        {
+          "id": "S384",
+          "cue_ids": [
+            384,
+            385,
+            386,
+            387
+          ],
+          "start_ms": 693120,
+          "end_ms": 701600,
+          "text": "any of this you want to make this as comfortable as you can for the dog so you can continue to do it in the future now that we got the nails trimmed up"
+        },
+        {
+          "id": "S400",
+          "cue_ids": [
+            400,
+            401,
+            402,
+            403
+          ],
+          "start_ms": 721519,
+          "end_ms": 730399,
+          "text": "here so when you're using the dremel you just want to do a little bit out of the time and as you guys can see he's very nervous about the dremel so you just"
+        },
+        {
+          "id": "S415",
+          "cue_ids": [
+            415,
+            416,
+            417,
+            418
+          ],
+          "start_ms": 747200,
+          "end_ms": 755519,
+          "text": "basically a peanut butter jar that is almost empty now if your dog is allergic to peanut butter this is not going to work you may want to find an alternative"
+        },
+        {
+          "id": "S429",
+          "cue_ids": [
+            429,
+            430,
+            431
+          ],
+          "start_ms": 772560,
+          "end_ms": 778639,
+          "text": "good boy [Music] good boy"
+        },
+        {
+          "id": "S441",
+          "cue_ids": [
+            441,
+            442,
+            443,
+            444
+          ],
+          "start_ms": 799279,
+          "end_ms": 810560,
+          "text": "very helpful for me on how to actually start cutting your dog's nails you know weekly or daily to get them to exactly where you need to"
+        },
+        {
+          "id": "S455",
+          "cue_ids": [
+            455,
+            456,
+            457
+          ],
+          "start_ms": 826560,
+          "end_ms": 833240,
+          "text": "channel or click this other video to check out all the other cool things we're doing with dogs"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:06.960] hey guys welcome back to my channel on this video i'm gonna teach you how to\nS12 [00:00:22.960 --> 00:00:31.920] today all right you guys so this is petey he's a dog in here for our board and train program and he's going to be our demo dog today so there's two things\nS27 [00:00:49.920 --> 00:00:57.280] we're going to be talking about the traditional clippers and we're also going to be talking about the dremel in the comments below i want to know what\nS43 [00:01:14.880 --> 00:01:23.840] if they do get distracted to run away either the other thing i'm using is this elevated bed which gives me leverage with a dog that's this small now if\nS60 [00:01:43.520 --> 00:01:52.960] so we're actually just taking hey you may be a little afraid of this you may have not liked this in the past but now that it's out and there's food involved\nS74 [00:02:08.878 --> 00:02:18.959] very sensitive this may be way over there and as you get better it may get closer and closer and what i always suggest is try to use as high reward\nS88 [00:02:35.360 --> 00:02:44.879] desensitized the equipment that you may need to do then you start desensitizing actually touching the dog's areas that you're going to be trimming so as you\nS101 [00:03:01.280 --> 00:03:11.519] grab the dog here and then pay the dog so your goal is to say hey when this happens food happens when i touch you here this happens and\nS114 [00:03:29.599 --> 00:03:40.319] never really worked with pdb4 so i honestly had no idea how he was going to react and he's doing very very very good but if your dog does have a bad reaction\nS127 [00:03:57.200 --> 00:04:05.519] said had no idea how he was going to react so that's called desensitizing actually touching the dog that's desensitizing the equipment to the dog\nS142 [00:04:23.199 --> 00:04:33.680] process or possibly even longer here's a vision for you guys to look at and you can see the dog's nail is right here and then the quick is right here so the\nS158 [00:04:51.360 --> 00:04:58.560] groomer around you or maybe you don't trust the groomer with your dog or maybe you're just trying this out for the first time with your puppy and sometimes\nS174 [00:05:18.000 --> 00:05:26.000] you're new to this channel we put out videos like this every single week we put out videos to how to train an aggressive dog to teach a dog how to\nS191 [00:05:45.199 --> 00:05:53.600] this is something that you can really hold on to for a long time good quality and then you have the dremel which i'll link in the description below now the\nS205 [00:06:11.360 --> 00:06:20.000] a little bit sensitive but when you're dealing with a dog like this with all this hair right here it can get wound up and actually pull the dog's hair and\nS220 [00:06:37.280 --> 00:06:45.759] it's hard to see his face and his expression with this muppet face here but i'm feeding him here i'm getting the nails ready i'm gonna start with the\nS236 [00:07:05.759 --> 00:07:14.240] to pd he doesn't know me and i don't know what his experience is at home for nail trimming it doesn't look like a lot considering how long his nails are but\nS250 [00:07:32.479 --> 00:07:41.280] those two cuts kind of let him be a dog play with him a little bit what do you think buddy oh he's a good boy\nS262 [00:07:57.120 --> 00:08:08.879] we're gonna get this one right here good boy get to the end and trim good boy good job petey so as you can see we already started to trim some of these\nS277 [00:08:25.919 --> 00:08:34.559] checking just because i know that these are very long and i know where they need to be so in this diagram you'll see where the quick normally is and how you\nS291 [00:08:52.480 --> 00:09:01.680] trim the tip off again trim the tip off again trim the tip off again good boy petey now it's important for everybody out\nS306 [00:09:18.560 --> 00:09:28.720] muscles and orthopedically so there's a lot of really really important benefits to making sure that your dog's nails are trimmed at all times or as much as you\nS322 [00:09:46.800 --> 00:09:54.480] little agitated like a kid when you're brushing their hair you're trying to brush their teeth they don't like it they may kick and scream and get upset\nS338 [00:10:13.680 --> 00:10:21.279] they've had bad experiences it's uncomfortable for them maybe this is something that i think a lot of dog owners should just learn how to do in\nS355 [00:10:40.720 --> 00:10:48.720] learn how to condition your dogs on the muzzle for things like this but to give you a quick 10 second crash course it's going to be a lot of the same stuff that\nS370 [00:11:06.240 --> 00:11:18.000] nail right here and he's starting to get a little agitated but that's okay good boy good job positive reinforcement so take a break\nS384 [00:11:33.120 --> 00:11:41.600] any of this you want to make this as comfortable as you can for the dog so you can continue to do it in the future now that we got the nails trimmed up\nS400 [00:12:01.519 --> 00:12:10.399] here so when you're using the dremel you just want to do a little bit out of the time and as you guys can see he's very nervous about the dremel so you just\nS415 [00:12:27.200 --> 00:12:35.519] basically a peanut butter jar that is almost empty now if your dog is allergic to peanut butter this is not going to work you may want to find an alternative\nS429 [00:12:52.560 --> 00:12:58.639] good boy [Music] good boy\nS441 [00:13:19.279 --> 00:13:30.560] very helpful for me on how to actually start cutting your dog's nails you know weekly or daily to get them to exactly where you need to\nS455 [00:13:46.560 --> 00:13:53.240] channel or click this other video to check out all the other cool things we're doing with dogs",
+      "text_tokens": 2037,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        12,
+        15,
+        27,
+        30,
+        43,
+        46,
+        60,
+        63,
+        74,
+        77,
+        88,
+        91,
+        101,
+        104,
+        114,
+        117,
+        127,
+        130,
+        142,
+        145,
+        158,
+        161,
+        174,
+        177,
+        191,
+        194,
+        205,
+        208,
+        220,
+        223,
+        236,
+        239,
+        250,
+        253,
+        262,
+        265,
+        277,
+        280,
+        291,
+        294,
+        306,
+        309,
+        322,
+        325,
+        338,
+        341,
+        355,
+        358,
+        370,
+        373,
+        384,
+        387,
+        400,
+        403,
+        415,
+        418,
+        429,
+        441,
+        444,
+        455
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "d997414a8325955ed7a466dde307e566284854ffdf8e420d9d1170b86811e8ea"
+}

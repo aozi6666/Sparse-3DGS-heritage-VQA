@@ -1,0 +1,1558 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "1wzgMHrkrys",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/1wzgMHrkrys.srt",
+        "status": "available",
+        "bytes": 191540,
+        "sha256": "56ce5d3865d199d9bf3b02c65e0ce1a01aeb101e6e1c13d1224a3b3a1744df87",
+        "cues": 1717,
+        "nonempty_cues": 1717
+      },
+      "frame_indices": [
+        0,
+        3357,
+        6714,
+        10071,
+        13428,
+        16785,
+        20141,
+        23498,
+        26855,
+        30212,
+        33569,
+        36926,
+        40283,
+        43640,
+        46997,
+        50354,
+        53710,
+        57067,
+        60424,
+        63781,
+        67138,
+        70495,
+        73852,
+        77209,
+        80566,
+        83923,
+        87279,
+        90636,
+        93993,
+        97350,
+        100707,
+        104064
+      ],
+      "frame_seconds": [
+        0.0,
+        112.012012,
+        224.024024,
+        336.036036,
+        448.048048,
+        560.06006,
+        672.038705,
+        784.050717,
+        896.062729,
+        1008.074741,
+        1120.086753,
+        1232.098765,
+        1344.110777,
+        1456.122789,
+        1568.134801,
+        1680.146813,
+        1792.125459,
+        1904.137471,
+        2016.149483,
+        2128.161495,
+        2240.173507,
+        2352.185519,
+        2464.197531,
+        2576.209543,
+        2688.221555,
+        2800.233567,
+        2912.212212,
+        3024.224224,
+        3136.236236,
+        3248.248248,
+        3360.26026,
+        3472.272272
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          52,
+          53
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          166,
+          167
+        ],
+        [
+          218,
+          219
+        ],
+        [
+          268,
+          269
+        ],
+        [
+          321,
+          322
+        ],
+        [
+          378,
+          379
+        ],
+        [
+          433,
+          434
+        ],
+        [
+          491,
+          492
+        ],
+        [
+          546,
+          547
+        ],
+        [
+          603,
+          604
+        ],
+        [
+          659,
+          660
+        ],
+        [
+          717,
+          718
+        ],
+        [
+          774,
+          775
+        ],
+        [
+          834,
+          835
+        ],
+        [
+          892,
+          893
+        ],
+        [
+          948,
+          949
+        ],
+        [
+          1003,
+          1004
+        ],
+        [
+          1047,
+          1048
+        ],
+        [
+          1105,
+          1106
+        ],
+        [
+          1155,
+          1156
+        ],
+        [
+          1217,
+          1218
+        ],
+        [
+          1280,
+          1281
+        ],
+        [
+          1333,
+          1334
+        ],
+        [],
+        [
+          1438,
+          1439
+        ],
+        [
+          1499,
+          1500
+        ],
+        [
+          1561,
+          1562
+        ],
+        [
+          1611,
+          1612
+        ],
+        [
+          1663,
+          1664
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 5220,
+          "text": "it's time for Medallion Superbike race"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 110100,
+          "end_ms": 113039,
+          "text": "little bit earlier to talk to both of"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 111720,
+          "end_ms": 115380,
+          "text": "those Riders about that particular"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 222360,
+          "end_ms": 225299,
+          "text": "Josh actually took that bike too and how"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 223980,
+          "end_ms": 227640,
+          "text": "close he was to running off the track"
+        },
+        {
+          "cue_id": 166,
+          "start_ms": 333659,
+          "end_ms": 337139,
+          "text": "you over there in the woods and then we"
+        },
+        {
+          "cue_id": 167,
+          "start_ms": 335220,
+          "end_ms": 339659,
+          "text": "got the fast left right and then the"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 445259,
+          "end_ms": 449160,
+          "text": "able to make that little adjustment on"
+        },
+        {
+          "cue_id": 219,
+          "start_ms": 447360,
+          "end_ms": 451080,
+          "text": "the traction control or is that preset"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 555480,
+          "end_ms": 560640,
+          "text": "Greg gianato Ryan Burke JC Camacho"
+        },
+        {
+          "cue_id": 269,
+          "start_ms": 558360,
+          "end_ms": 563220,
+          "text": "Danilo Lewis Zachary Butler and Manuel"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 669000,
+          "end_ms": 672899,
+          "text": "he's done a really nice job this weekend"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 670980,
+          "end_ms": 675180,
+          "text": "Greg he's been in the top five quite a"
+        },
+        {
+          "cue_id": 378,
+          "start_ms": 779820,
+          "end_ms": 784260,
+          "text": "but looking at Josh Aaron on that War"
+        },
+        {
+          "cue_id": 379,
+          "start_ms": 781740,
+          "end_ms": 785519,
+          "text": "Horse hsbk Racing Ducati on the number"
+        },
+        {
+          "cue_id": 433,
+          "start_ms": 893639,
+          "end_ms": 896459,
+          "text": "compounds and he said he wasn't feeling"
+        },
+        {
+          "cue_id": 434,
+          "start_ms": 894959,
+          "end_ms": 898980,
+          "text": "the lap times coming to him as quickly"
+        },
+        {
+          "cue_id": 491,
+          "start_ms": 1004699,
+          "end_ms": 1008300,
+          "text": "even though he runs it in there a little"
+        },
+        {
+          "cue_id": 492,
+          "start_ms": 1006259,
+          "end_ms": 1009800,
+          "text": "wide he runs the bike out gets the bike"
+        },
+        {
+          "cue_id": 546,
+          "start_ms": 1118340,
+          "end_ms": 1121400,
+          "text": "the bike starts to come around on him"
+        },
+        {
+          "cue_id": 547,
+          "start_ms": 1119660,
+          "end_ms": 1123559,
+          "text": "great you can see it the rear the bike"
+        },
+        {
+          "cue_id": 603,
+          "start_ms": 1229820,
+          "end_ms": 1233660,
+          "text": "started thinking to myself is gagne"
+        },
+        {
+          "cue_id": 604,
+          "start_ms": 1231500,
+          "end_ms": 1235220,
+          "text": "tends to make more of his speed per lap"
+        },
+        {
+          "cue_id": 659,
+          "start_ms": 1341539,
+          "end_ms": 1346340,
+          "text": "of that part of your screen teammates to"
+        },
+        {
+          "cue_id": 660,
+          "start_ms": 1343640,
+          "end_ms": 1347840,
+          "text": "PJ Jacobson I can see PJ's bike moving"
+        },
+        {
+          "cue_id": 717,
+          "start_ms": 1453740,
+          "end_ms": 1457340,
+          "text": "has really grown and he's really finally"
+        },
+        {
+          "cue_id": 718,
+          "start_ms": 1455179,
+          "end_ms": 1458840,
+          "text": "feeling like a super bike racer he said"
+        },
+        {
+          "cue_id": 774,
+          "start_ms": 1564919,
+          "end_ms": 1569000,
+          "text": "Ducati as well as Richie Escalante to"
+        },
+        {
+          "cue_id": 775,
+          "start_ms": 1567020,
+          "end_ms": 1570440,
+          "text": "wrestle that Suzuki I'm sure this is"
+        },
+        {
+          "cue_id": 834,
+          "start_ms": 1678440,
+          "end_ms": 1681440,
+          "text": "we're going to reduce it down to 16."
+        },
+        {
+          "cue_id": 835,
+          "start_ms": 1680120,
+          "end_ms": 1683360,
+          "text": "we're going to analyze the tires after"
+        },
+        {
+          "cue_id": 892,
+          "start_ms": 1790340,
+          "end_ms": 1794120,
+          "text": "have it on the left side it's almost"
+        },
+        {
+          "cue_id": 893,
+          "start_ms": 1791600,
+          "end_ms": 1795380,
+          "text": "like like riding on a wet dry track it's"
+        },
+        {
+          "cue_id": 948,
+          "start_ms": 1900799,
+          "end_ms": 1904880,
+          "text": "was up over two seconds quite a while uh"
+        },
+        {
+          "cue_id": 949,
+          "start_ms": 1902960,
+          "end_ms": 1906500,
+          "text": "for quite a while at this race Camp"
+        },
+        {
+          "cue_id": 1003,
+          "start_ms": 2013659,
+          "end_ms": 2016960,
+          "text": "that bad yeah well we'll see I mean"
+        },
+        {
+          "cue_id": 1004,
+          "start_ms": 2015340,
+          "end_ms": 2019059,
+          "text": "you're gonna get to know now Dunlop will"
+        },
+        {
+          "cue_id": 1047,
+          "start_ms": 2124420,
+          "end_ms": 2129280,
+          "text": "and then also Matthew Schultz if he"
+        },
+        {
+          "cue_id": 1048,
+          "start_ms": 2127599,
+          "end_ms": 2131140,
+          "text": "could have you know the first couple"
+        },
+        {
+          "cue_id": 1105,
+          "start_ms": 2237820,
+          "end_ms": 2241480,
+          "text": "Richie askalani I mean what a Relentless"
+        },
+        {
+          "cue_id": 1106,
+          "start_ms": 2239619,
+          "end_ms": 2243220,
+          "text": "attack which means an absolutely"
+        },
+        {
+          "cue_id": 1155,
+          "start_ms": 2349780,
+          "end_ms": 2354160,
+          "text": "I just sneaked around him on the outside"
+        },
+        {
+          "cue_id": 1156,
+          "start_ms": 2351640,
+          "end_ms": 2355720,
+          "text": "I knew he wanted to make a move but I"
+        },
+        {
+          "cue_id": 1217,
+          "start_ms": 2461740,
+          "end_ms": 2465220,
+          "text": "I mean it's all you really can do at"
+        },
+        {
+          "cue_id": 1218,
+          "start_ms": 2463119,
+          "end_ms": 2466780,
+          "text": "this point I think you know for for cam"
+        },
+        {
+          "cue_id": 1280,
+          "start_ms": 2573579,
+          "end_ms": 2576520,
+          "text": "also dunlap's going to take a look at"
+        },
+        {
+          "cue_id": 1281,
+          "start_ms": 2574960,
+          "end_ms": 2578440,
+          "text": "what they can do to help improve Tire"
+        },
+        {
+          "cue_id": 1333,
+          "start_ms": 2685599,
+          "end_ms": 2689260,
+          "text": "better position for turn one like you"
+        },
+        {
+          "cue_id": 1334,
+          "start_ms": 2687400,
+          "end_ms": 2691240,
+          "text": "said being on the outside where he could"
+        },
+        {
+          "cue_id": 1438,
+          "start_ms": 2910720,
+          "end_ms": 2915220,
+          "text": "when the temps were a little lower so"
+        },
+        {
+          "cue_id": 1439,
+          "start_ms": 2912099,
+          "end_ms": 2916660,
+          "text": "but I mean anyways uh I think even on"
+        },
+        {
+          "cue_id": 1499,
+          "start_ms": 3021359,
+          "end_ms": 3025440,
+          "text": "talking about as well as Dunlop right"
+        },
+        {
+          "cue_id": 1500,
+          "start_ms": 3023520,
+          "end_ms": 3027420,
+          "text": "now is going to go to all the teams"
+        },
+        {
+          "cue_id": 1561,
+          "start_ms": 3133800,
+          "end_ms": 3137700,
+          "text": "laps in they don't they haven't been out"
+        },
+        {
+          "cue_id": 1562,
+          "start_ms": 3135839,
+          "end_ms": 3139680,
+          "text": "there you know like they said it's a"
+        },
+        {
+          "cue_id": 1611,
+          "start_ms": 3245460,
+          "end_ms": 3249000,
+          "text": "every one of those bikes in theory"
+        },
+        {
+          "cue_id": 1612,
+          "start_ms": 3247079,
+          "end_ms": 3251040,
+          "text": "should be able to be driven up to this"
+        },
+        {
+          "cue_id": 1663,
+          "start_ms": 3358079,
+          "end_ms": 3361380,
+          "text": "Matthew Schultz was next to try to take"
+        },
+        {
+          "cue_id": 1664,
+          "start_ms": 3360000,
+          "end_ms": 3362819,
+          "text": "a shot at Herron as you can see they"
+        }
+      ],
+      "text": "it's time for Medallion Superbike race\nlittle bit earlier to talk to both of\nthose Riders about that particular\nJosh actually took that bike too and how\nclose he was to running off the track\nyou over there in the woods and then we\ngot the fast left right and then the\nable to make that little adjustment on\nthe traction control or is that preset\nGreg gianato Ryan Burke JC Camacho\nDanilo Lewis Zachary Butler and Manuel\nhe's done a really nice job this weekend\nGreg he's been in the top five quite a\nbut looking at Josh Aaron on that War\nHorse hsbk Racing Ducati on the number\ncompounds and he said he wasn't feeling\nthe lap times coming to him as quickly\neven though he runs it in there a little\nwide he runs the bike out gets the bike\nthe bike starts to come around on him\ngreat you can see it the rear the bike\nstarted thinking to myself is gagne\ntends to make more of his speed per lap\nof that part of your screen teammates to\nPJ Jacobson I can see PJ's bike moving\nhas really grown and he's really finally\nfeeling like a super bike racer he said\nDucati as well as Richie Escalante to\nwrestle that Suzuki I'm sure this is\nwe're going to reduce it down to 16.\nwe're going to analyze the tires after\nhave it on the left side it's almost\nlike like riding on a wet dry track it's\nwas up over two seconds quite a while uh\nfor quite a while at this race Camp\nthat bad yeah well we'll see I mean\nyou're gonna get to know now Dunlop will\nand then also Matthew Schultz if he\ncould have you know the first couple\nRichie askalani I mean what a Relentless\nattack which means an absolutely\nI just sneaked around him on the outside\nI knew he wanted to make a move but I\nI mean it's all you really can do at\nthis point I think you know for for cam\nalso dunlap's going to take a look at\nwhat they can do to help improve Tire\nbetter position for turn one like you\nsaid being on the outside where he could\nwhen the temps were a little lower so\nbut I mean anyways uh I think even on\ntalking about as well as Dunlop right\nnow is going to go to all the teams\nlaps in they don't they haven't been out\nthere you know like they said it's a\nevery one of those bikes in theory\nshould be able to be driven up to this\nMatthew Schultz was next to try to take\na shot at Herron as you can see they",
+      "text_tokens": 572,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "1wzgMHrkrys",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/1wzgMHrkrys.srt",
+          "status": "available",
+          "bytes": 191540,
+          "sha256": "56ce5d3865d199d9bf3b02c65e0ce1a01aeb101e6e1c13d1224a3b3a1744df87",
+          "cues": 1717,
+          "nonempty_cues": 1717
+        },
+        "frame_indices": [
+          0,
+          3357,
+          6714,
+          10071,
+          13428,
+          16785,
+          20141,
+          23498,
+          26855,
+          30212,
+          33569,
+          36926,
+          40283,
+          43640,
+          46997,
+          50354,
+          53710,
+          57067,
+          60424,
+          63781,
+          67138,
+          70495,
+          73852,
+          77209,
+          80566,
+          83923,
+          87279,
+          90636,
+          93993,
+          97350,
+          100707,
+          104064
+        ],
+        "frame_seconds": [
+          0.0,
+          112.012012,
+          224.024024,
+          336.036036,
+          448.048048,
+          560.06006,
+          672.038705,
+          784.050717,
+          896.062729,
+          1008.074741,
+          1120.086753,
+          1232.098765,
+          1344.110777,
+          1456.122789,
+          1568.134801,
+          1680.146813,
+          1792.125459,
+          1904.137471,
+          2016.149483,
+          2128.161495,
+          2240.173507,
+          2352.185519,
+          2464.197531,
+          2576.209543,
+          2688.221555,
+          2800.233567,
+          2912.212212,
+          3024.224224,
+          3136.236236,
+          3248.248248,
+          3360.26026,
+          3472.272272
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            52,
+            53
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            166,
+            167
+          ],
+          [
+            218,
+            219
+          ],
+          [
+            268,
+            269
+          ],
+          [
+            321,
+            322
+          ],
+          [
+            378,
+            379
+          ],
+          [
+            433,
+            434
+          ],
+          [
+            491,
+            492
+          ],
+          [
+            546,
+            547
+          ],
+          [
+            603,
+            604
+          ],
+          [
+            659,
+            660
+          ],
+          [
+            717,
+            718
+          ],
+          [
+            774,
+            775
+          ],
+          [
+            834,
+            835
+          ],
+          [
+            892,
+            893
+          ],
+          [
+            948,
+            949
+          ],
+          [
+            1003,
+            1004
+          ],
+          [
+            1047,
+            1048
+          ],
+          [
+            1105,
+            1106
+          ],
+          [
+            1155,
+            1156
+          ],
+          [
+            1217,
+            1218
+          ],
+          [
+            1280,
+            1281
+          ],
+          [
+            1333,
+            1334
+          ],
+          [],
+          [
+            1438,
+            1439
+          ],
+          [
+            1499,
+            1500
+          ],
+          [
+            1561,
+            1562
+          ],
+          [
+            1611,
+            1612
+          ],
+          [
+            1663,
+            1664
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 5220,
+            "text": "it's time for Medallion Superbike race"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 110100,
+            "end_ms": 113039,
+            "text": "little bit earlier to talk to both of"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 111720,
+            "end_ms": 115380,
+            "text": "those Riders about that particular"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 222360,
+            "end_ms": 225299,
+            "text": "Josh actually took that bike too and how"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 223980,
+            "end_ms": 227640,
+            "text": "close he was to running off the track"
+          },
+          {
+            "cue_id": 166,
+            "start_ms": 333659,
+            "end_ms": 337139,
+            "text": "you over there in the woods and then we"
+          },
+          {
+            "cue_id": 167,
+            "start_ms": 335220,
+            "end_ms": 339659,
+            "text": "got the fast left right and then the"
+          },
+          {
+            "cue_id": 218,
+            "start_ms": 445259,
+            "end_ms": 449160,
+            "text": "able to make that little adjustment on"
+          },
+          {
+            "cue_id": 219,
+            "start_ms": 447360,
+            "end_ms": 451080,
+            "text": "the traction control or is that preset"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 555480,
+            "end_ms": 560640,
+            "text": "Greg gianato Ryan Burke JC Camacho"
+          },
+          {
+            "cue_id": 269,
+            "start_ms": 558360,
+            "end_ms": 563220,
+            "text": "Danilo Lewis Zachary Butler and Manuel"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 669000,
+            "end_ms": 672899,
+            "text": "he's done a really nice job this weekend"
+          },
+          {
+            "cue_id": 322,
+            "start_ms": 670980,
+            "end_ms": 675180,
+            "text": "Greg he's been in the top five quite a"
+          },
+          {
+            "cue_id": 378,
+            "start_ms": 779820,
+            "end_ms": 784260,
+            "text": "but looking at Josh Aaron on that War"
+          },
+          {
+            "cue_id": 379,
+            "start_ms": 781740,
+            "end_ms": 785519,
+            "text": "Horse hsbk Racing Ducati on the number"
+          },
+          {
+            "cue_id": 433,
+            "start_ms": 893639,
+            "end_ms": 896459,
+            "text": "compounds and he said he wasn't feeling"
+          },
+          {
+            "cue_id": 434,
+            "start_ms": 894959,
+            "end_ms": 898980,
+            "text": "the lap times coming to him as quickly"
+          },
+          {
+            "cue_id": 491,
+            "start_ms": 1004699,
+            "end_ms": 1008300,
+            "text": "even though he runs it in there a little"
+          },
+          {
+            "cue_id": 492,
+            "start_ms": 1006259,
+            "end_ms": 1009800,
+            "text": "wide he runs the bike out gets the bike"
+          },
+          {
+            "cue_id": 546,
+            "start_ms": 1118340,
+            "end_ms": 1121400,
+            "text": "the bike starts to come around on him"
+          },
+          {
+            "cue_id": 547,
+            "start_ms": 1119660,
+            "end_ms": 1123559,
+            "text": "great you can see it the rear the bike"
+          },
+          {
+            "cue_id": 603,
+            "start_ms": 1229820,
+            "end_ms": 1233660,
+            "text": "started thinking to myself is gagne"
+          },
+          {
+            "cue_id": 604,
+            "start_ms": 1231500,
+            "end_ms": 1235220,
+            "text": "tends to make more of his speed per lap"
+          },
+          {
+            "cue_id": 659,
+            "start_ms": 1341539,
+            "end_ms": 1346340,
+            "text": "of that part of your screen teammates to"
+          },
+          {
+            "cue_id": 660,
+            "start_ms": 1343640,
+            "end_ms": 1347840,
+            "text": "PJ Jacobson I can see PJ's bike moving"
+          },
+          {
+            "cue_id": 717,
+            "start_ms": 1453740,
+            "end_ms": 1457340,
+            "text": "has really grown and he's really finally"
+          },
+          {
+            "cue_id": 718,
+            "start_ms": 1455179,
+            "end_ms": 1458840,
+            "text": "feeling like a super bike racer he said"
+          },
+          {
+            "cue_id": 774,
+            "start_ms": 1564919,
+            "end_ms": 1569000,
+            "text": "Ducati as well as Richie Escalante to"
+          },
+          {
+            "cue_id": 775,
+            "start_ms": 1567020,
+            "end_ms": 1570440,
+            "text": "wrestle that Suzuki I'm sure this is"
+          },
+          {
+            "cue_id": 834,
+            "start_ms": 1678440,
+            "end_ms": 1681440,
+            "text": "we're going to reduce it down to 16."
+          },
+          {
+            "cue_id": 835,
+            "start_ms": 1680120,
+            "end_ms": 1683360,
+            "text": "we're going to analyze the tires after"
+          },
+          {
+            "cue_id": 892,
+            "start_ms": 1790340,
+            "end_ms": 1794120,
+            "text": "have it on the left side it's almost"
+          },
+          {
+            "cue_id": 893,
+            "start_ms": 1791600,
+            "end_ms": 1795380,
+            "text": "like like riding on a wet dry track it's"
+          },
+          {
+            "cue_id": 948,
+            "start_ms": 1900799,
+            "end_ms": 1904880,
+            "text": "was up over two seconds quite a while uh"
+          },
+          {
+            "cue_id": 949,
+            "start_ms": 1902960,
+            "end_ms": 1906500,
+            "text": "for quite a while at this race Camp"
+          },
+          {
+            "cue_id": 1003,
+            "start_ms": 2013659,
+            "end_ms": 2016960,
+            "text": "that bad yeah well we'll see I mean"
+          },
+          {
+            "cue_id": 1004,
+            "start_ms": 2015340,
+            "end_ms": 2019059,
+            "text": "you're gonna get to know now Dunlop will"
+          },
+          {
+            "cue_id": 1047,
+            "start_ms": 2124420,
+            "end_ms": 2129280,
+            "text": "and then also Matthew Schultz if he"
+          },
+          {
+            "cue_id": 1048,
+            "start_ms": 2127599,
+            "end_ms": 2131140,
+            "text": "could have you know the first couple"
+          },
+          {
+            "cue_id": 1105,
+            "start_ms": 2237820,
+            "end_ms": 2241480,
+            "text": "Richie askalani I mean what a Relentless"
+          },
+          {
+            "cue_id": 1106,
+            "start_ms": 2239619,
+            "end_ms": 2243220,
+            "text": "attack which means an absolutely"
+          },
+          {
+            "cue_id": 1155,
+            "start_ms": 2349780,
+            "end_ms": 2354160,
+            "text": "I just sneaked around him on the outside"
+          },
+          {
+            "cue_id": 1156,
+            "start_ms": 2351640,
+            "end_ms": 2355720,
+            "text": "I knew he wanted to make a move but I"
+          },
+          {
+            "cue_id": 1217,
+            "start_ms": 2461740,
+            "end_ms": 2465220,
+            "text": "I mean it's all you really can do at"
+          },
+          {
+            "cue_id": 1218,
+            "start_ms": 2463119,
+            "end_ms": 2466780,
+            "text": "this point I think you know for for cam"
+          },
+          {
+            "cue_id": 1280,
+            "start_ms": 2573579,
+            "end_ms": 2576520,
+            "text": "also dunlap's going to take a look at"
+          },
+          {
+            "cue_id": 1281,
+            "start_ms": 2574960,
+            "end_ms": 2578440,
+            "text": "what they can do to help improve Tire"
+          },
+          {
+            "cue_id": 1333,
+            "start_ms": 2685599,
+            "end_ms": 2689260,
+            "text": "better position for turn one like you"
+          },
+          {
+            "cue_id": 1334,
+            "start_ms": 2687400,
+            "end_ms": 2691240,
+            "text": "said being on the outside where he could"
+          },
+          {
+            "cue_id": 1438,
+            "start_ms": 2910720,
+            "end_ms": 2915220,
+            "text": "when the temps were a little lower so"
+          },
+          {
+            "cue_id": 1439,
+            "start_ms": 2912099,
+            "end_ms": 2916660,
+            "text": "but I mean anyways uh I think even on"
+          },
+          {
+            "cue_id": 1499,
+            "start_ms": 3021359,
+            "end_ms": 3025440,
+            "text": "talking about as well as Dunlop right"
+          },
+          {
+            "cue_id": 1500,
+            "start_ms": 3023520,
+            "end_ms": 3027420,
+            "text": "now is going to go to all the teams"
+          },
+          {
+            "cue_id": 1561,
+            "start_ms": 3133800,
+            "end_ms": 3137700,
+            "text": "laps in they don't they haven't been out"
+          },
+          {
+            "cue_id": 1562,
+            "start_ms": 3135839,
+            "end_ms": 3139680,
+            "text": "there you know like they said it's a"
+          },
+          {
+            "cue_id": 1611,
+            "start_ms": 3245460,
+            "end_ms": 3249000,
+            "text": "every one of those bikes in theory"
+          },
+          {
+            "cue_id": 1612,
+            "start_ms": 3247079,
+            "end_ms": 3251040,
+            "text": "should be able to be driven up to this"
+          },
+          {
+            "cue_id": 1663,
+            "start_ms": 3358079,
+            "end_ms": 3361380,
+            "text": "Matthew Schultz was next to try to take"
+          },
+          {
+            "cue_id": 1664,
+            "start_ms": 3360000,
+            "end_ms": 3362819,
+            "text": "a shot at Herron as you can see they"
+          }
+        ],
+        "text": "it's time for Medallion Superbike race\nlittle bit earlier to talk to both of\nthose Riders about that particular\nJosh actually took that bike too and how\nclose he was to running off the track\nyou over there in the woods and then we\ngot the fast left right and then the\nable to make that little adjustment on\nthe traction control or is that preset\nGreg gianato Ryan Burke JC Camacho\nDanilo Lewis Zachary Butler and Manuel\nhe's done a really nice job this weekend\nGreg he's been in the top five quite a\nbut looking at Josh Aaron on that War\nHorse hsbk Racing Ducati on the number\ncompounds and he said he wasn't feeling\nthe lap times coming to him as quickly\neven though he runs it in there a little\nwide he runs the bike out gets the bike\nthe bike starts to come around on him\ngreat you can see it the rear the bike\nstarted thinking to myself is gagne\ntends to make more of his speed per lap\nof that part of your screen teammates to\nPJ Jacobson I can see PJ's bike moving\nhas really grown and he's really finally\nfeeling like a super bike racer he said\nDucati as well as Richie Escalante to\nwrestle that Suzuki I'm sure this is\nwe're going to reduce it down to 16.\nwe're going to analyze the tires after\nhave it on the left side it's almost\nlike like riding on a wet dry track it's\nwas up over two seconds quite a while uh\nfor quite a while at this race Camp\nthat bad yeah well we'll see I mean\nyou're gonna get to know now Dunlop will\nand then also Matthew Schultz if he\ncould have you know the first couple\nRichie askalani I mean what a Relentless\nattack which means an absolutely\nI just sneaked around him on the outside\nI knew he wanted to make a move but I\nI mean it's all you really can do at\nthis point I think you know for for cam\nalso dunlap's going to take a look at\nwhat they can do to help improve Tire\nbetter position for turn one like you\nsaid being on the outside where he could\nwhen the temps were a little lower so\nbut I mean anyways uh I think even on\ntalking about as well as Dunlop right\nnow is going to go to all the teams\nlaps in they don't they haven't been out\nthere you know like they said it's a\nevery one of those bikes in theory\nshould be able to be driven up to this\nMatthew Schultz was next to try to take\na shot at Herron as you can see they",
+        "text_tokens": 572,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 6899,
+          "text": "it's time for Medallion Superbike race one here at Barber"
+        },
+        {
+          "id": "S51",
+          "cue_ids": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "start_ms": 107520,
+          "end_ms": 117299,
+          "text": "well Jay you know we I had a chance a little bit earlier to talk to both of those Riders about that particular situation and here is what both Cameron"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 220620,
+          "end_ms": 229560,
+          "text": "watch that like we just did to see where Josh actually took that bike too and how close he was to running off the track and then having the the head shake that"
+        },
+        {
+          "id": "S165",
+          "cue_ids": [
+            165,
+            166,
+            167,
+            168
+          ],
+          "start_ms": 331199,
+          "end_ms": 341400,
+          "text": "back straight away lined with fans see you over there in the woods and then we got the fast left right and then the last three rights here Greg are one big"
+        },
+        {
+          "id": "S217",
+          "cue_ids": [
+            217,
+            218,
+            219,
+            220
+          ],
+          "start_ms": 442500,
+          "end_ms": 452520,
+          "text": "for the rider on the Fly Roger to be able to make that little adjustment on the traction control or is that preset and you've got what you've got there's a"
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268,
+            269,
+            270
+          ],
+          "start_ms": 553019,
+          "end_ms": 565380,
+          "text": "and de Silva a little further back again Greg gianato Ryan Burke JC Camacho Danilo Lewis Zachary Butler and Manuel Segura"
+        },
+        {
+          "id": "S320",
+          "cue_ids": [
+            320,
+            321,
+            322,
+            323
+          ],
+          "start_ms": 666959,
+          "end_ms": 678180,
+          "text": "really comfortable with that machine and he's done a really nice job this weekend Greg he's been in the top five quite a bit has Escalante on his second year"
+        },
+        {
+          "id": "S377",
+          "cue_ids": [
+            377,
+            378,
+            379,
+            380
+          ],
+          "start_ms": 778440,
+          "end_ms": 787500,
+          "text": "effort but looking at Josh Aaron on that War Horse hsbk Racing Ducati on the number two and there's Matthew Schultz right"
+        },
+        {
+          "id": "S432",
+          "cue_ids": [
+            432,
+            433,
+            434,
+            435
+          ],
+          "start_ms": 891899,
+          "end_ms": 901199,
+          "text": "on both the softer and the harder compounds and he said he wasn't feeling the lap times coming to him as quickly on that R3 so that is why he opted to go"
+        },
+        {
+          "id": "S490",
+          "cue_ids": [
+            490,
+            491,
+            492,
+            493
+          ],
+          "start_ms": 1003259,
+          "end_ms": 1011660,
+          "text": "he's going to make the pass stick so even though he runs it in there a little wide he runs the bike out gets the bike squared up gets it up off the edge of"
+        },
+        {
+          "id": "S545",
+          "cue_ids": [
+            545,
+            546,
+            547,
+            548
+          ],
+          "start_ms": 1116059,
+          "end_ms": 1126020,
+          "text": "as he lets off the gas here the rear of the bike starts to come around on him great you can see it the rear the bike starts moving around and uh and that's"
+        },
+        {
+          "id": "S602",
+          "cue_ids": [
+            602,
+            603,
+            604,
+            605
+          ],
+          "start_ms": 1227120,
+          "end_ms": 1236900,
+          "text": "with with cold tearing on these tires I started thinking to myself is gagne tends to make more of his speed per lap on the rear end of the motorcycle now"
+        },
+        {
+          "id": "S658",
+          "cue_ids": [
+            658,
+            659,
+            660,
+            661
+          ],
+          "start_ms": 1339080,
+          "end_ms": 1349580,
+          "text": "all the while Cameron bobier just part of that part of your screen teammates to PJ Jacobson I can see PJ's bike moving around two on Entry just into that"
+        },
+        {
+          "id": "S716",
+          "cue_ids": [
+            716,
+            717,
+            718,
+            719
+          ],
+          "start_ms": 1451580,
+          "end_ms": 1460400,
+          "text": "well Greg mentioned how much that Richie has really grown and he's really finally feeling like a super bike racer he said being with the same team for the last"
+        },
+        {
+          "id": "S773",
+          "cue_ids": [
+            773,
+            774,
+            775,
+            776
+          ],
+          "start_ms": 1563299,
+          "end_ms": 1573260,
+          "text": "what Heron's having to do to wrestle his Ducati as well as Richie Escalante to wrestle that Suzuki I'm sure this is going to take a toll physically on both"
+        },
+        {
+          "id": "S833",
+          "cue_ids": [
+            833,
+            834,
+            835,
+            836
+          ],
+          "start_ms": 1675799,
+          "end_ms": 1685760,
+          "text": "here for Moto America decided Hey listen we're going to reduce it down to 16. we're going to analyze the tires after this race and we'll make a decision on"
+        },
+        {
+          "id": "S891",
+          "cue_ids": [
+            891,
+            892,
+            893,
+            894
+          ],
+          "start_ms": 1788899,
+          "end_ms": 1796580,
+          "text": "losing grip on the right side and you have it on the left side it's almost like like riding on a wet dry track it's like you're gonna go slow in the wet and"
+        },
+        {
+          "id": "S947",
+          "cue_ids": [
+            947,
+            948,
+            949,
+            950
+          ],
+          "start_ms": 1899419,
+          "end_ms": 1907820,
+          "text": "I was just going to say I believe that was up over two seconds quite a while uh for quite a while at this race Camp Peterson's got that back down a little"
+        },
+        {
+          "id": "S1002",
+          "cue_ids": [
+            1002,
+            1003,
+            1004,
+            1005
+          ],
+          "start_ms": 2011799,
+          "end_ms": 2021340,
+          "text": "look back like hey maybe that wasn't that bad yeah well we'll see I mean you're gonna get to know now Dunlop will go to work and have a look at probably"
+        },
+        {
+          "id": "S1046",
+          "cue_ids": [
+            1046,
+            1047,
+            1048,
+            1049
+          ],
+          "start_ms": 2122320,
+          "end_ms": 2132700,
+          "text": "there the whole race not too far back and then also Matthew Schultz if he could have you know the first couple laps kind of got hung up there behind a"
+        },
+        {
+          "id": "S1104",
+          "cue_ids": [
+            1104,
+            1105,
+            1106,
+            1107
+          ],
+          "start_ms": 2235960,
+          "end_ms": 2245380,
+          "text": "straight line handled well here and Richie askalani I mean what a Relentless attack which means an absolutely brilliant defense by Josh Herron yeah"
+        },
+        {
+          "id": "S1154",
+          "cue_ids": [
+            1154,
+            1155,
+            1156,
+            1157
+          ],
+          "start_ms": 2348280,
+          "end_ms": 2357460,
+          "text": "great start he was running up the inside I just sneaked around him on the outside I knew he wanted to make a move but I think those first couple laps Cam and I"
+        },
+        {
+          "id": "S1216",
+          "cue_ids": [
+            1216,
+            1217,
+            1218,
+            1219
+          ],
+          "start_ms": 2459040,
+          "end_ms": 2468339,
+          "text": "congrats Camp guys I mean it's all you really can do at this point I think you know for for cam Peterson just keep chipping away at it"
+        },
+        {
+          "id": "S1279",
+          "cue_ids": [
+            1279,
+            1280,
+            1281,
+            1282
+          ],
+          "start_ms": 2571720,
+          "end_ms": 2581730,
+          "text": "a little bit better for themselves and also dunlap's going to take a look at what they can do to help improve Tire performance overnight we'll have more"
+        },
+        {
+          "id": "S1332",
+          "cue_ids": [
+            1332,
+            1333,
+            1334,
+            1335
+          ],
+          "start_ms": 2683859,
+          "end_ms": 2693040,
+          "text": "outside and said no and Jake was in a better position for turn one like you said being on the outside where he could just release the break and you know and"
+        },
+        {
+          "id": "S1437",
+          "cue_ids": [
+            1437,
+            1438,
+            1439,
+            1440
+          ],
+          "start_ms": 2908020,
+          "end_ms": 2918700,
+          "text": "little greasier and it was pretty good when the temps were a little lower so but I mean anyways uh I think even on the soft today we it would have been"
+        },
+        {
+          "id": "S1498",
+          "cue_ids": [
+            1498,
+            1499,
+            1500,
+            1501
+          ],
+          "start_ms": 3020099,
+          "end_ms": 3028800,
+          "text": "something that they're going to be talking about as well as Dunlop right now is going to go to all the teams especially the Riders up top and they're"
+        },
+        {
+          "id": "S1560",
+          "cue_ids": [
+            1560,
+            1561,
+            1562,
+            1563
+          ],
+          "start_ms": 3132420,
+          "end_ms": 3141119,
+          "text": "know unless you're out there putting the laps in they don't they haven't been out there you know like they said it's a only the second race on the bike and I'm"
+        },
+        {
+          "id": "S1610",
+          "cue_ids": [
+            1610,
+            1611,
+            1612,
+            1613
+          ],
+          "start_ms": 3243780,
+          "end_ms": 3252960,
+          "text": "talking about and start them up because every one of those bikes in theory should be able to be driven up to this was one of my favorite bikes uh that"
+        },
+        {
+          "id": "S1662",
+          "cue_ids": [
+            1662,
+            1663,
+            1664,
+            1665
+          ],
+          "start_ms": 3356579,
+          "end_ms": 3364920,
+          "text": "half three seconds on the opening lap Matthew Schultz was next to try to take a shot at Herron as you can see they were lining up behind the number two"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:06.899] it's time for Medallion Superbike race one here at Barber\nS51 [00:01:47.520 --> 00:01:57.299] well Jay you know we I had a chance a little bit earlier to talk to both of those Riders about that particular situation and here is what both Cameron\nS107 [00:03:40.620 --> 00:03:49.560] watch that like we just did to see where Josh actually took that bike too and how close he was to running off the track and then having the the head shake that\nS165 [00:05:31.199 --> 00:05:41.400] back straight away lined with fans see you over there in the woods and then we got the fast left right and then the last three rights here Greg are one big\nS217 [00:07:22.500 --> 00:07:32.520] for the rider on the Fly Roger to be able to make that little adjustment on the traction control or is that preset and you've got what you've got there's a\nS267 [00:09:13.019 --> 00:09:25.380] and de Silva a little further back again Greg gianato Ryan Burke JC Camacho Danilo Lewis Zachary Butler and Manuel Segura\nS320 [00:11:06.959 --> 00:11:18.180] really comfortable with that machine and he's done a really nice job this weekend Greg he's been in the top five quite a bit has Escalante on his second year\nS377 [00:12:58.440 --> 00:13:07.500] effort but looking at Josh Aaron on that War Horse hsbk Racing Ducati on the number two and there's Matthew Schultz right\nS432 [00:14:51.899 --> 00:15:01.199] on both the softer and the harder compounds and he said he wasn't feeling the lap times coming to him as quickly on that R3 so that is why he opted to go\nS490 [00:16:43.259 --> 00:16:51.660] he's going to make the pass stick so even though he runs it in there a little wide he runs the bike out gets the bike squared up gets it up off the edge of\nS545 [00:18:36.059 --> 00:18:46.020] as he lets off the gas here the rear of the bike starts to come around on him great you can see it the rear the bike starts moving around and uh and that's\nS602 [00:20:27.120 --> 00:20:36.900] with with cold tearing on these tires I started thinking to myself is gagne tends to make more of his speed per lap on the rear end of the motorcycle now\nS658 [00:22:19.080 --> 00:22:29.580] all the while Cameron bobier just part of that part of your screen teammates to PJ Jacobson I can see PJ's bike moving around two on Entry just into that\nS716 [00:24:11.580 --> 00:24:20.400] well Greg mentioned how much that Richie has really grown and he's really finally feeling like a super bike racer he said being with the same team for the last\nS773 [00:26:03.299 --> 00:26:13.260] what Heron's having to do to wrestle his Ducati as well as Richie Escalante to wrestle that Suzuki I'm sure this is going to take a toll physically on both\nS833 [00:27:55.799 --> 00:28:05.760] here for Moto America decided Hey listen we're going to reduce it down to 16. we're going to analyze the tires after this race and we'll make a decision on\nS891 [00:29:48.899 --> 00:29:56.580] losing grip on the right side and you have it on the left side it's almost like like riding on a wet dry track it's like you're gonna go slow in the wet and\nS947 [00:31:39.419 --> 00:31:47.820] I was just going to say I believe that was up over two seconds quite a while uh for quite a while at this race Camp Peterson's got that back down a little\nS1002 [00:33:31.799 --> 00:33:41.340] look back like hey maybe that wasn't that bad yeah well we'll see I mean you're gonna get to know now Dunlop will go to work and have a look at probably\nS1046 [00:35:22.320 --> 00:35:32.700] there the whole race not too far back and then also Matthew Schultz if he could have you know the first couple laps kind of got hung up there behind a\nS1104 [00:37:15.960 --> 00:37:25.380] straight line handled well here and Richie askalani I mean what a Relentless attack which means an absolutely brilliant defense by Josh Herron yeah\nS1154 [00:39:08.280 --> 00:39:17.460] great start he was running up the inside I just sneaked around him on the outside I knew he wanted to make a move but I think those first couple laps Cam and I\nS1216 [00:40:59.040 --> 00:41:08.339] congrats Camp guys I mean it's all you really can do at this point I think you know for for cam Peterson just keep chipping away at it\nS1279 [00:42:51.720 --> 00:43:01.730] a little bit better for themselves and also dunlap's going to take a look at what they can do to help improve Tire performance overnight we'll have more\nS1332 [00:44:43.859 --> 00:44:53.040] outside and said no and Jake was in a better position for turn one like you said being on the outside where he could just release the break and you know and\nS1437 [00:48:28.020 --> 00:48:38.700] little greasier and it was pretty good when the temps were a little lower so but I mean anyways uh I think even on the soft today we it would have been\nS1498 [00:50:20.099 --> 00:50:28.800] something that they're going to be talking about as well as Dunlop right now is going to go to all the teams especially the Riders up top and they're\nS1560 [00:52:12.420 --> 00:52:21.119] know unless you're out there putting the laps in they don't they haven't been out there you know like they said it's a only the second race on the bike and I'm\nS1610 [00:54:03.780 --> 00:54:12.960] talking about and start them up because every one of those bikes in theory should be able to be driven up to this was one of my favorite bikes uh that\nS1662 [00:55:56.579 --> 00:56:04.920] half three seconds on the opening lap Matthew Schultz was next to try to take a shot at Herron as you can see they were lining up behind the number two",
+      "text_tokens": 1965,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        51,
+        54,
+        107,
+        110,
+        165,
+        168,
+        217,
+        220,
+        267,
+        270,
+        320,
+        323,
+        377,
+        380,
+        432,
+        435,
+        490,
+        493,
+        545,
+        548,
+        602,
+        605,
+        658,
+        661,
+        716,
+        719,
+        773,
+        776,
+        833,
+        836,
+        891,
+        894,
+        947,
+        950,
+        1002,
+        1005,
+        1046,
+        1049,
+        1104,
+        1107,
+        1154,
+        1157,
+        1216,
+        1219,
+        1279,
+        1282,
+        1332,
+        1335,
+        1437,
+        1440,
+        1498,
+        1501,
+        1560,
+        1563,
+        1610,
+        1613,
+        1662,
+        1665
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "046e9ee42b1e422f9468d48e8a1acadeab055dd706b32cb6981ec10068ca987d"
+}

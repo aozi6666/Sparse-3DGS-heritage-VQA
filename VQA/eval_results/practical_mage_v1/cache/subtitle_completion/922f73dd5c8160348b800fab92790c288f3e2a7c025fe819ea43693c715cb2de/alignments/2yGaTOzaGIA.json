@@ -1,0 +1,593 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "2yGaTOzaGIA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2yGaTOzaGIA.srt",
+        "status": "available",
+        "bytes": 1361,
+        "sha256": "7b8aff77b5b5d3656856403311620f1835ba567fc43fa0943713db44ddd0665b",
+        "cues": 13,
+        "nonempty_cues": 13
+      },
+      "frame_indices": [
+        0,
+        29,
+        59,
+        88,
+        117,
+        147,
+        176,
+        205,
+        235,
+        264,
+        294,
+        323,
+        352,
+        382,
+        411,
+        440,
+        470,
+        499,
+        528,
+        558,
+        587,
+        616,
+        646,
+        675,
+        705,
+        734,
+        763,
+        793,
+        822,
+        851,
+        881,
+        910
+      ],
+      "frame_seconds": [
+        0.0,
+        1.16,
+        2.36,
+        3.52,
+        4.68,
+        5.88,
+        7.04,
+        8.2,
+        9.4,
+        10.56,
+        11.76,
+        12.92,
+        14.08,
+        15.28,
+        16.44,
+        17.6,
+        18.8,
+        19.96,
+        21.12,
+        22.32,
+        23.48,
+        24.64,
+        25.84,
+        27.0,
+        28.2,
+        29.36,
+        30.52,
+        31.72,
+        32.88,
+        34.04,
+        35.24,
+        36.4
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [],
+        [],
+        [
+          12
+        ],
+        [
+          12
+        ],
+        [
+          12
+        ],
+        [],
+        [],
+        [],
+        [
+          13
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 80,
+          "end_ms": 4200,
+          "text": "Doom is trying to do the same thing here"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2120,
+          "end_ms": 6319,
+          "text": "he's swinging wide he's giving himself a"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 4200,
+          "end_ms": 8480,
+          "text": "chance if caraston B home has got this"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6319,
+          "end_ms": 10759,
+          "text": "wrong at all he could be vulnerable but"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 8480,
+          "end_ms": 13120,
+          "text": "for home has he got his pacing right"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 10759,
+          "end_ms": 16600,
+          "text": "it's going to be close on the line Doom"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 13120,
+          "end_ms": 19080,
+          "text": "Powers across the line 4525 unofficially"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 16600,
+          "end_ms": 21640,
+          "text": "that would be a new National Record for"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 19080,
+          "end_ms": 23760,
+          "text": "Belgium Doom has looked perfect we"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 21640,
+          "end_ms": 26359,
+          "text": "cannot believe what he's done here it is"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 23760,
+          "end_ms": 26359,
+          "text": "a national"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 28960,
+          "end_ms": 32359,
+          "text": "record in"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 35440,
+          "end_ms": 38440,
+          "text": "2019"
+        }
+      ],
+      "text": "Doom is trying to do the same thing here\nhe's swinging wide he's giving himself a\nchance if caraston B home has got this\nwrong at all he could be vulnerable but\nfor home has he got his pacing right\nit's going to be close on the line Doom\nPowers across the line 4525 unofficially\nthat would be a new National Record for\nBelgium Doom has looked perfect we\ncannot believe what he's done here it is\na national\nrecord in\n2019",
+      "text_tokens": 111,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "2yGaTOzaGIA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2yGaTOzaGIA.srt",
+          "status": "available",
+          "bytes": 1361,
+          "sha256": "7b8aff77b5b5d3656856403311620f1835ba567fc43fa0943713db44ddd0665b",
+          "cues": 13,
+          "nonempty_cues": 13
+        },
+        "frame_indices": [
+          0,
+          29,
+          59,
+          88,
+          117,
+          147,
+          176,
+          205,
+          235,
+          264,
+          294,
+          323,
+          352,
+          382,
+          411,
+          440,
+          470,
+          499,
+          528,
+          558,
+          587,
+          616,
+          646,
+          675,
+          705,
+          734,
+          763,
+          793,
+          822,
+          851,
+          881,
+          910
+        ],
+        "frame_seconds": [
+          0.0,
+          1.16,
+          2.36,
+          3.52,
+          4.68,
+          5.88,
+          7.04,
+          8.2,
+          9.4,
+          10.56,
+          11.76,
+          12.92,
+          14.08,
+          15.28,
+          16.44,
+          17.6,
+          18.8,
+          19.96,
+          21.12,
+          22.32,
+          23.48,
+          24.64,
+          25.84,
+          27.0,
+          28.2,
+          29.36,
+          30.52,
+          31.72,
+          32.88,
+          34.04,
+          35.24,
+          36.4
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [],
+          [],
+          [
+            12
+          ],
+          [
+            12
+          ],
+          [
+            12
+          ],
+          [],
+          [],
+          [],
+          [
+            13
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 80,
+            "end_ms": 4200,
+            "text": "Doom is trying to do the same thing here"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2120,
+            "end_ms": 6319,
+            "text": "he's swinging wide he's giving himself a"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 4200,
+            "end_ms": 8480,
+            "text": "chance if caraston B home has got this"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6319,
+            "end_ms": 10759,
+            "text": "wrong at all he could be vulnerable but"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 8480,
+            "end_ms": 13120,
+            "text": "for home has he got his pacing right"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 10759,
+            "end_ms": 16600,
+            "text": "it's going to be close on the line Doom"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 13120,
+            "end_ms": 19080,
+            "text": "Powers across the line 4525 unofficially"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 16600,
+            "end_ms": 21640,
+            "text": "that would be a new National Record for"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 19080,
+            "end_ms": 23760,
+            "text": "Belgium Doom has looked perfect we"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 21640,
+            "end_ms": 26359,
+            "text": "cannot believe what he's done here it is"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 23760,
+            "end_ms": 26359,
+            "text": "a national"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 28960,
+            "end_ms": 32359,
+            "text": "record in"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 35440,
+            "end_ms": 38440,
+            "text": "2019"
+          }
+        ],
+        "text": "Doom is trying to do the same thing here\nhe's swinging wide he's giving himself a\nchance if caraston B home has got this\nwrong at all he could be vulnerable but\nfor home has he got his pacing right\nit's going to be close on the line Doom\nPowers across the line 4525 unofficially\nthat would be a new National Record for\nBelgium Doom has looked perfect we\ncannot believe what he's done here it is\na national\nrecord in\n2019",
+        "text_tokens": 111,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 80,
+          "end_ms": 26359,
+          "text": "Doom is trying to do the same thing here he's swinging wide he's giving himself a chance if caraston B home has got this wrong at all he could be vulnerable but for home has he got his pacing right it's going to be close on the line Doom Powers across the line 4525 unofficially that would be a new National Record for Belgium Doom has looked perfect we cannot believe what he's done here it is a national"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 28960,
+          "end_ms": 32359,
+          "text": "record in"
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13
+          ],
+          "start_ms": 35440,
+          "end_ms": 38440,
+          "text": "2019"
+        }
+      ],
+      "text": "S1 [00:00:00.080 --> 00:00:26.359] Doom is trying to do the same thing here he's swinging wide he's giving himself a chance if caraston B home has got this wrong at all he could be vulnerable but for home has he got his pacing right it's going to be close on the line Doom Powers across the line 4525 unofficially that would be a new National Record for Belgium Doom has looked perfect we cannot believe what he's done here it is a national\nS12 [00:00:28.960 --> 00:00:32.359] record in\nS13 [00:00:35.440 --> 00:00:38.440] 2019",
+      "text_tokens": 190,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "92165d18ad248ea07fdbc6fc0a9eca696b2315828bc2608574949543d950519d"
+}

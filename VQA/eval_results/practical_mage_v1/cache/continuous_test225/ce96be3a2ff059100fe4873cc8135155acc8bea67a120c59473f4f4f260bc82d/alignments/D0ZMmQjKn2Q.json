@@ -1,0 +1,774 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "D0ZMmQjKn2Q",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/D0ZMmQjKn2Q.srt",
+        "status": "available",
+        "bytes": 33969,
+        "sha256": "b7e83e7b77b0b50831d839b8b73ba2a17cfa8df923227a16a54ef2d7bee14b78",
+        "cues": 405,
+        "nonempty_cues": 405
+      },
+      "frame_indices": [
+        0,
+        2027,
+        4053,
+        6080,
+        8107,
+        10134,
+        12160,
+        14187,
+        16214,
+        18240,
+        20267,
+        22294,
+        24321,
+        26347,
+        28374,
+        30401,
+        32427,
+        34454,
+        36481,
+        38507,
+        40534,
+        42561,
+        44588,
+        46614,
+        48641,
+        50668,
+        52694,
+        54721,
+        56748,
+        58775,
+        60801,
+        62828
+      ],
+      "frame_seconds": [
+        0.0,
+        81.08,
+        162.12,
+        243.2,
+        324.28,
+        405.36,
+        486.4,
+        567.48,
+        648.56,
+        729.6,
+        810.68,
+        891.76,
+        972.84,
+        1053.88,
+        1134.96,
+        1216.04,
+        1297.08,
+        1378.16,
+        1459.24,
+        1540.28,
+        1621.36,
+        1702.44,
+        1783.52,
+        1864.56,
+        1945.64,
+        2026.72,
+        2107.76,
+        2188.84,
+        2269.92,
+        2351.0,
+        2432.04,
+        2513.12
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          24
+        ],
+        [
+          39
+        ],
+        [
+          49
+        ],
+        [],
+        [],
+        [
+          91
+        ],
+        [
+          111,
+          112
+        ],
+        [],
+        [
+          140
+        ],
+        [],
+        [
+          186,
+          187
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          291,
+          292
+        ],
+        [
+          303
+        ],
+        [
+          321
+        ],
+        [
+          332
+        ],
+        [
+          339
+        ],
+        [],
+        [
+          358,
+          359
+        ],
+        [
+          370
+        ],
+        [],
+        [
+          385
+        ],
+        [
+          393
+        ],
+        [
+          405
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 24,
+          "start_ms": 156260,
+          "end_ms": 167020,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 242760,
+          "end_ms": 248120,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 323460,
+          "end_ms": 326660,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 91,
+          "start_ms": 566800,
+          "end_ms": 571040,
+          "text": "have you seen a trunk"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 643890,
+          "end_ms": 652000,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 646910,
+          "end_ms": 652000,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 809120,
+          "end_ms": 814079,
+          "text": "i don't know"
+        },
+        {
+          "cue_id": 186,
+          "start_ms": 965550,
+          "end_ms": 974030,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 967170,
+          "end_ms": 974030,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 1620240,
+          "end_ms": 1632650,
+          "text": "baby"
+        },
+        {
+          "cue_id": 292,
+          "start_ms": 1621270,
+          "end_ms": 1632650,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 303,
+          "start_ms": 1700910,
+          "end_ms": 1705920,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 1780799,
+          "end_ms": 1784520,
+          "text": "yes i think"
+        },
+        {
+          "cue_id": 332,
+          "start_ms": 1857220,
+          "end_ms": 1873270,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 339,
+          "start_ms": 1942720,
+          "end_ms": 1945720,
+          "text": "oh"
+        },
+        {
+          "cue_id": 358,
+          "start_ms": 2104600,
+          "end_ms": 2108330,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 359,
+          "start_ms": 2106320,
+          "end_ms": 2111389,
+          "text": "oh"
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 2187280,
+          "end_ms": 2190280,
+          "text": "oh"
+        },
+        {
+          "cue_id": 385,
+          "start_ms": 2349280,
+          "end_ms": 2352520,
+          "text": "thank you"
+        },
+        {
+          "cue_id": 393,
+          "start_ms": 2431440,
+          "end_ms": 2436860,
+          "text": "oh"
+        },
+        {
+          "cue_id": 405,
+          "start_ms": 2505580,
+          "end_ms": 2514690,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Music]\nhave you seen a trunk\n[Applause]\n[Music]\ni don't know\n[Applause]\n[Music]\nbaby\n[Music]\n[Music]\nyes i think\n[Music]\noh\n[Applause]\noh\noh\nthank you\noh\n[Music]",
+      "text_tokens": 70,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "D0ZMmQjKn2Q",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/D0ZMmQjKn2Q.srt",
+          "status": "available",
+          "bytes": 33969,
+          "sha256": "b7e83e7b77b0b50831d839b8b73ba2a17cfa8df923227a16a54ef2d7bee14b78",
+          "cues": 405,
+          "nonempty_cues": 405
+        },
+        "frame_indices": [
+          0,
+          2027,
+          4053,
+          6080,
+          8107,
+          10134,
+          12160,
+          14187,
+          16214,
+          18240,
+          20267,
+          22294,
+          24321,
+          26347,
+          28374,
+          30401,
+          32427,
+          34454,
+          36481,
+          38507,
+          40534,
+          42561,
+          44588,
+          46614,
+          48641,
+          50668,
+          52694,
+          54721,
+          56748,
+          58775,
+          60801,
+          62828
+        ],
+        "frame_seconds": [
+          0.0,
+          81.08,
+          162.12,
+          243.2,
+          324.28,
+          405.36,
+          486.4,
+          567.48,
+          648.56,
+          729.6,
+          810.68,
+          891.76,
+          972.84,
+          1053.88,
+          1134.96,
+          1216.04,
+          1297.08,
+          1378.16,
+          1459.24,
+          1540.28,
+          1621.36,
+          1702.44,
+          1783.52,
+          1864.56,
+          1945.64,
+          2026.72,
+          2107.76,
+          2188.84,
+          2269.92,
+          2351.0,
+          2432.04,
+          2513.12
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            24
+          ],
+          [
+            39
+          ],
+          [
+            49
+          ],
+          [],
+          [],
+          [
+            91
+          ],
+          [
+            111,
+            112
+          ],
+          [],
+          [
+            140
+          ],
+          [],
+          [
+            186,
+            187
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            291,
+            292
+          ],
+          [
+            303
+          ],
+          [
+            321
+          ],
+          [
+            332
+          ],
+          [
+            339
+          ],
+          [],
+          [
+            358,
+            359
+          ],
+          [
+            370
+          ],
+          [],
+          [
+            385
+          ],
+          [
+            393
+          ],
+          [
+            405
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 24,
+            "start_ms": 156260,
+            "end_ms": 167020,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 242760,
+            "end_ms": 248120,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 323460,
+            "end_ms": 326660,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 91,
+            "start_ms": 566800,
+            "end_ms": 571040,
+            "text": "have you seen a trunk"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 643890,
+            "end_ms": 652000,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 646910,
+            "end_ms": 652000,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 809120,
+            "end_ms": 814079,
+            "text": "i don't know"
+          },
+          {
+            "cue_id": 186,
+            "start_ms": 965550,
+            "end_ms": 974030,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 187,
+            "start_ms": 967170,
+            "end_ms": 974030,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 291,
+            "start_ms": 1620240,
+            "end_ms": 1632650,
+            "text": "baby"
+          },
+          {
+            "cue_id": 292,
+            "start_ms": 1621270,
+            "end_ms": 1632650,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 303,
+            "start_ms": 1700910,
+            "end_ms": 1705920,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 1780799,
+            "end_ms": 1784520,
+            "text": "yes i think"
+          },
+          {
+            "cue_id": 332,
+            "start_ms": 1857220,
+            "end_ms": 1873270,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 339,
+            "start_ms": 1942720,
+            "end_ms": 1945720,
+            "text": "oh"
+          },
+          {
+            "cue_id": 358,
+            "start_ms": 2104600,
+            "end_ms": 2108330,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 359,
+            "start_ms": 2106320,
+            "end_ms": 2111389,
+            "text": "oh"
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 2187280,
+            "end_ms": 2190280,
+            "text": "oh"
+          },
+          {
+            "cue_id": 385,
+            "start_ms": 2349280,
+            "end_ms": 2352520,
+            "text": "thank you"
+          },
+          {
+            "cue_id": 393,
+            "start_ms": 2431440,
+            "end_ms": 2436860,
+            "text": "oh"
+          },
+          {
+            "cue_id": 405,
+            "start_ms": 2505580,
+            "end_ms": 2514690,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Music]\nhave you seen a trunk\n[Applause]\n[Music]\ni don't know\n[Applause]\n[Music]\nbaby\n[Music]\n[Music]\nyes i think\n[Music]\noh\n[Applause]\noh\noh\nthank you\noh\n[Music]",
+        "text_tokens": 70,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S24",
+          "cue_ids": [
+            24
+          ],
+          "start_ms": 156260,
+          "end_ms": 167020,
+          "text": "[Music]"
+        },
+        {
+          "id": "S39",
+          "cue_ids": [
+            39,
+            40
+          ],
+          "start_ms": 242760,
+          "end_ms": 248120,
+          "text": "[Music] come on"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49,
+            50
+          ],
+          "start_ms": 319039,
+          "end_ms": 329739,
+          "text": "oh it's wonderful [Music] i'll just get them"
+        },
+        {
+          "id": "S90",
+          "cue_ids": [
+            90,
+            91,
+            92
+          ],
+          "start_ms": 562399,
+          "end_ms": 573200,
+          "text": "sweet have you seen a trunk over there really"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112
+          ],
+          "start_ms": 642240,
+          "end_ms": 652000,
+          "text": "oh [Applause] [Music]"
+        },
+        {
+          "id": "S139",
+          "cue_ids": [
+            139,
+            140,
+            141
+          ],
+          "start_ms": 805200,
+          "end_ms": 817440,
+          "text": "of course i had another one i don't know oh you know what i'll just take"
+        },
+        {
+          "id": "S185",
+          "cue_ids": [
+            185,
+            186,
+            187
+          ],
+          "start_ms": 961150,
+          "end_ms": 974030,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S290",
+          "cue_ids": [
+            290,
+            291,
+            292
+          ],
+          "start_ms": 1616320,
+          "end_ms": 1632650,
+          "text": "where have you been baby [Music]"
+        },
+        {
+          "id": "S302",
+          "cue_ids": [
+            302,
+            303
+          ],
+          "start_ms": 1695200,
+          "end_ms": 1705920,
+          "text": "my funny man [Music]"
+        },
+        {
+          "id": "S320",
+          "cue_ids": [
+            320,
+            321
+          ],
+          "start_ms": 1776240,
+          "end_ms": 1784520,
+          "text": "have you been yes i think"
+        },
+        {
+          "id": "S332",
+          "cue_ids": [
+            332
+          ],
+          "start_ms": 1857220,
+          "end_ms": 1873270,
+          "text": "[Music]"
+        },
+        {
+          "id": "S339",
+          "cue_ids": [
+            339
+          ],
+          "start_ms": 1942720,
+          "end_ms": 1945720,
+          "text": "oh"
+        },
+        {
+          "id": "S358",
+          "cue_ids": [
+            358,
+            359,
+            360
+          ],
+          "start_ms": 2104600,
+          "end_ms": 2111389,
+          "text": "[Applause] oh [Music]"
+        },
+        {
+          "id": "S369",
+          "cue_ids": [
+            369,
+            370,
+            371
+          ],
+          "start_ms": 2183100,
+          "end_ms": 2195630,
+          "text": "[Music] oh [Music]"
+        },
+        {
+          "id": "S384",
+          "cue_ids": [
+            384,
+            385
+          ],
+          "start_ms": 2338720,
+          "end_ms": 2352520,
+          "text": "[Music] thank you"
+        },
+        {
+          "id": "S393",
+          "cue_ids": [
+            393,
+            394
+          ],
+          "start_ms": 2431440,
+          "end_ms": 2436860,
+          "text": "oh [Music]"
+        },
+        {
+          "id": "S405",
+          "cue_ids": [
+            405
+          ],
+          "start_ms": 2505580,
+          "end_ms": 2514690,
+          "text": "[Music]"
+        }
+      ],
+      "text": "S24 [00:02:36.260 --> 00:02:47.020] [Music]\nS39 [00:04:02.760 --> 00:04:08.120] [Music] come on\nS48 [00:05:19.039 --> 00:05:29.739] oh it's wonderful [Music] i'll just get them\nS90 [00:09:22.399 --> 00:09:33.200] sweet have you seen a trunk over there really\nS110 [00:10:42.240 --> 00:10:52.000] oh [Applause] [Music]\nS139 [00:13:25.200 --> 00:13:37.440] of course i had another one i don't know oh you know what i'll just take\nS185 [00:16:01.150 --> 00:16:14.030] [Music] [Applause] [Music]\nS290 [00:26:56.320 --> 00:27:12.650] where have you been baby [Music]\nS302 [00:28:15.200 --> 00:28:25.920] my funny man [Music]\nS320 [00:29:36.240 --> 00:29:44.520] have you been yes i think\nS332 [00:30:57.220 --> 00:31:13.270] [Music]\nS339 [00:32:22.720 --> 00:32:25.720] oh\nS358 [00:35:04.600 --> 00:35:11.389] [Applause] oh [Music]\nS369 [00:36:23.100 --> 00:36:35.630] [Music] oh [Music]\nS384 [00:38:58.720 --> 00:39:12.520] [Music] thank you\nS393 [00:40:31.440 --> 00:40:36.860] oh [Music]\nS405 [00:41:45.580 --> 00:41:54.690] [Music]",
+      "text_tokens": 666,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        40,
+        48,
+        50,
+        90,
+        92,
+        110,
+        139,
+        141,
+        185,
+        290,
+        302,
+        320,
+        360,
+        369,
+        371,
+        384,
+        394
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e2774eff45aec544c57eeec35b6b9606317a6f4b95decae173c06c7f506d25a3"
+}

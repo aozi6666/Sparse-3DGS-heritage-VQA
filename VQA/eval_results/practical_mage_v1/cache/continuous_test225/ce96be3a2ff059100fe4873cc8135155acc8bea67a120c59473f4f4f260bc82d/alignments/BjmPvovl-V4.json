@@ -1,0 +1,1009 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "BjmPvovl-V4",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BjmPvovl-V4.srt",
+        "status": "available",
+        "bytes": 114916,
+        "sha256": "83adec98dc2d99e45f47b23ad3810353bd99c08e908ec1e7b58f3ffef5d0f879",
+        "cues": 1009,
+        "nonempty_cues": 1009
+      },
+      "frame_indices": [
+        0,
+        2036,
+        4073,
+        6109,
+        8145,
+        10182,
+        12218,
+        14254,
+        16291,
+        18327,
+        20363,
+        22400,
+        24436,
+        26472,
+        28509,
+        30545,
+        32581,
+        34617,
+        36654,
+        38690,
+        40726,
+        42763,
+        44799,
+        46835,
+        48872,
+        50908,
+        52944,
+        54981,
+        57017,
+        59053,
+        61090,
+        63126
+      ],
+      "frame_seconds": [
+        0.0,
+        84.918167,
+        169.878042,
+        254.796208,
+        339.714375,
+        424.67425,
+        509.592417,
+        594.510583,
+        679.470458,
+        764.388625,
+        849.306792,
+        934.266667,
+        1019.184833,
+        1104.103,
+        1189.062875,
+        1273.981042,
+        1358.899208,
+        1443.817375,
+        1528.77725,
+        1613.695417,
+        1698.613583,
+        1783.573458,
+        1868.491625,
+        1953.409792,
+        2038.369667,
+        2123.287833,
+        2208.206,
+        2293.165875,
+        2378.084042,
+        2463.002208,
+        2547.962083,
+        2632.88025
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          32
+        ],
+        [],
+        [
+          95
+        ],
+        [
+          125
+        ],
+        [
+          165
+        ],
+        [
+          202
+        ],
+        [
+          236
+        ],
+        [
+          268
+        ],
+        [
+          300
+        ],
+        [
+          332
+        ],
+        [
+          364
+        ],
+        [
+          398
+        ],
+        [
+          424
+        ],
+        [
+          461
+        ],
+        [
+          494
+        ],
+        [
+          531
+        ],
+        [
+          566
+        ],
+        [
+          597
+        ],
+        [],
+        [
+          659
+        ],
+        [
+          691
+        ],
+        [
+          721
+        ],
+        [
+          751
+        ],
+        [],
+        [
+          812
+        ],
+        [],
+        [
+          878
+        ],
+        [
+          914
+        ],
+        [
+          954
+        ],
+        [
+          990
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 32,
+          "start_ms": 84690,
+          "end_ms": 87360,
+          "text": "to make the point, it hurts."
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 254520,
+          "end_ms": 257579,
+          "text": "Academy of Sciences' Consciousness Conference,"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 337860,
+          "end_ms": 341430,
+          "text": "so how do I go from these wonderful theories,"
+        },
+        {
+          "cue_id": 165,
+          "start_ms": 422880,
+          "end_ms": 425760,
+          "text": "So what? Well, I mean, why does it hurt?"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 508380,
+          "end_ms": 510570,
+          "text": "scientists might at least be able to identify"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 593520,
+          "end_ms": 595740,
+          "text": "Imagine every tiny thing in the Universe"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 678870,
+          "end_ms": 681870,
+          "text": "Simple things like maybe a fly or Protozoa"
+        },
+        {
+          "cue_id": 300,
+          "start_ms": 761910,
+          "end_ms": 764640,
+          "text": "interested in these questions on the perimeter"
+        },
+        {
+          "cue_id": 332,
+          "start_ms": 846630,
+          "end_ms": 849330,
+          "text": "they try to look at it from outside in."
+        },
+        {
+          "cue_id": 364,
+          "start_ms": 932700,
+          "end_ms": 935070,
+          "text": "And consciousness plus object one is one experience."
+        },
+        {
+          "cue_id": 398,
+          "start_ms": 1017150,
+          "end_ms": 1020570,
+          "text": "that they necessarily lead to different conclusions"
+        },
+        {
+          "cue_id": 424,
+          "start_ms": 1101180,
+          "end_ms": 1105713,
+          "text": "where right now with ChatGPT and everything with the AI,"
+        },
+        {
+          "cue_id": 461,
+          "start_ms": 1185810,
+          "end_ms": 1189470,
+          "text": "the best known artificial intelligence tool in the world,"
+        },
+        {
+          "cue_id": 494,
+          "start_ms": 1272690,
+          "end_ms": 1275870,
+          "text": "Like we generally are very negative"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1358670,
+          "end_ms": 1359990,
+          "text": "How do I formulate that thought?"
+        },
+        {
+          "cue_id": 566,
+          "start_ms": 1443210,
+          "end_ms": 1445790,
+          "text": "and we synchronize in our language dances"
+        },
+        {
+          "cue_id": 597,
+          "start_ms": 1527090,
+          "end_ms": 1529790,
+          "text": "Is it preposterous to think that, that might be going on?"
+        },
+        {
+          "cue_id": 659,
+          "start_ms": 1697700,
+          "end_ms": 1699890,
+          "text": "What we call intelligence emerges along with"
+        },
+        {
+          "cue_id": 691,
+          "start_ms": 1782570,
+          "end_ms": 1785030,
+          "text": "on newborn babies without anesthesia."
+        },
+        {
+          "cue_id": 721,
+          "start_ms": 1868010,
+          "end_ms": 1872330,
+          "text": "Understanding is a quality which needs consciousness"
+        },
+        {
+          "cue_id": 751,
+          "start_ms": 1953000,
+          "end_ms": 1957050,
+          "text": "The argument I would make is that consciousness,"
+        },
+        {
+          "cue_id": 812,
+          "start_ms": 2120490,
+          "end_ms": 2123550,
+          "text": "- Anyway, so we got together and the idea started off,"
+        },
+        {
+          "cue_id": 878,
+          "start_ms": 2292690,
+          "end_ms": 2295930,
+          "text": "you can no longer deny that there is something"
+        },
+        {
+          "cue_id": 914,
+          "start_ms": 2378040,
+          "end_ms": 2379900,
+          "text": "If I lose my brain due to an accident"
+        },
+        {
+          "cue_id": 954,
+          "start_ms": 2462760,
+          "end_ms": 2465310,
+          "text": "it returns sort of to that the ooze"
+        },
+        {
+          "cue_id": 990,
+          "start_ms": 2547180,
+          "end_ms": 2550510,
+          "text": "about the expansion of consciousness in the Universe.\""
+        }
+      ],
+      "text": "to make the point, it hurts.\nAcademy of Sciences' Consciousness Conference,\nso how do I go from these wonderful theories,\nSo what? Well, I mean, why does it hurt?\nscientists might at least be able to identify\nImagine every tiny thing in the Universe\nSimple things like maybe a fly or Protozoa\ninterested in these questions on the perimeter\nthey try to look at it from outside in.\nAnd consciousness plus object one is one experience.\nthat they necessarily lead to different conclusions\nwhere right now with ChatGPT and everything with the AI,\nthe best known artificial intelligence tool in the world,\nLike we generally are very negative\nHow do I formulate that thought?\nand we synchronize in our language dances\nIs it preposterous to think that, that might be going on?\nWhat we call intelligence emerges along with\non newborn babies without anesthesia.\nUnderstanding is a quality which needs consciousness\nThe argument I would make is that consciousness,\n- Anyway, so we got together and the idea started off,\nyou can no longer deny that there is something\nIf I lose my brain due to an accident\nit returns sort of to that the ooze\nabout the expansion of consciousness in the Universe.\"",
+      "text_tokens": 248,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "BjmPvovl-V4",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BjmPvovl-V4.srt",
+          "status": "available",
+          "bytes": 114916,
+          "sha256": "83adec98dc2d99e45f47b23ad3810353bd99c08e908ec1e7b58f3ffef5d0f879",
+          "cues": 1009,
+          "nonempty_cues": 1009
+        },
+        "frame_indices": [
+          0,
+          2036,
+          4073,
+          6109,
+          8145,
+          10182,
+          12218,
+          14254,
+          16291,
+          18327,
+          20363,
+          22400,
+          24436,
+          26472,
+          28509,
+          30545,
+          32581,
+          34617,
+          36654,
+          38690,
+          40726,
+          42763,
+          44799,
+          46835,
+          48872,
+          50908,
+          52944,
+          54981,
+          57017,
+          59053,
+          61090,
+          63126
+        ],
+        "frame_seconds": [
+          0.0,
+          84.918167,
+          169.878042,
+          254.796208,
+          339.714375,
+          424.67425,
+          509.592417,
+          594.510583,
+          679.470458,
+          764.388625,
+          849.306792,
+          934.266667,
+          1019.184833,
+          1104.103,
+          1189.062875,
+          1273.981042,
+          1358.899208,
+          1443.817375,
+          1528.77725,
+          1613.695417,
+          1698.613583,
+          1783.573458,
+          1868.491625,
+          1953.409792,
+          2038.369667,
+          2123.287833,
+          2208.206,
+          2293.165875,
+          2378.084042,
+          2463.002208,
+          2547.962083,
+          2632.88025
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            32
+          ],
+          [],
+          [
+            95
+          ],
+          [
+            125
+          ],
+          [
+            165
+          ],
+          [
+            202
+          ],
+          [
+            236
+          ],
+          [
+            268
+          ],
+          [
+            300
+          ],
+          [
+            332
+          ],
+          [
+            364
+          ],
+          [
+            398
+          ],
+          [
+            424
+          ],
+          [
+            461
+          ],
+          [
+            494
+          ],
+          [
+            531
+          ],
+          [
+            566
+          ],
+          [
+            597
+          ],
+          [],
+          [
+            659
+          ],
+          [
+            691
+          ],
+          [
+            721
+          ],
+          [
+            751
+          ],
+          [],
+          [
+            812
+          ],
+          [],
+          [
+            878
+          ],
+          [
+            914
+          ],
+          [
+            954
+          ],
+          [
+            990
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 32,
+            "start_ms": 84690,
+            "end_ms": 87360,
+            "text": "to make the point, it hurts."
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 254520,
+            "end_ms": 257579,
+            "text": "Academy of Sciences' Consciousness Conference,"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 337860,
+            "end_ms": 341430,
+            "text": "so how do I go from these wonderful theories,"
+          },
+          {
+            "cue_id": 165,
+            "start_ms": 422880,
+            "end_ms": 425760,
+            "text": "So what? Well, I mean, why does it hurt?"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 508380,
+            "end_ms": 510570,
+            "text": "scientists might at least be able to identify"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 593520,
+            "end_ms": 595740,
+            "text": "Imagine every tiny thing in the Universe"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 678870,
+            "end_ms": 681870,
+            "text": "Simple things like maybe a fly or Protozoa"
+          },
+          {
+            "cue_id": 300,
+            "start_ms": 761910,
+            "end_ms": 764640,
+            "text": "interested in these questions on the perimeter"
+          },
+          {
+            "cue_id": 332,
+            "start_ms": 846630,
+            "end_ms": 849330,
+            "text": "they try to look at it from outside in."
+          },
+          {
+            "cue_id": 364,
+            "start_ms": 932700,
+            "end_ms": 935070,
+            "text": "And consciousness plus object one is one experience."
+          },
+          {
+            "cue_id": 398,
+            "start_ms": 1017150,
+            "end_ms": 1020570,
+            "text": "that they necessarily lead to different conclusions"
+          },
+          {
+            "cue_id": 424,
+            "start_ms": 1101180,
+            "end_ms": 1105713,
+            "text": "where right now with ChatGPT and everything with the AI,"
+          },
+          {
+            "cue_id": 461,
+            "start_ms": 1185810,
+            "end_ms": 1189470,
+            "text": "the best known artificial intelligence tool in the world,"
+          },
+          {
+            "cue_id": 494,
+            "start_ms": 1272690,
+            "end_ms": 1275870,
+            "text": "Like we generally are very negative"
+          },
+          {
+            "cue_id": 531,
+            "start_ms": 1358670,
+            "end_ms": 1359990,
+            "text": "How do I formulate that thought?"
+          },
+          {
+            "cue_id": 566,
+            "start_ms": 1443210,
+            "end_ms": 1445790,
+            "text": "and we synchronize in our language dances"
+          },
+          {
+            "cue_id": 597,
+            "start_ms": 1527090,
+            "end_ms": 1529790,
+            "text": "Is it preposterous to think that, that might be going on?"
+          },
+          {
+            "cue_id": 659,
+            "start_ms": 1697700,
+            "end_ms": 1699890,
+            "text": "What we call intelligence emerges along with"
+          },
+          {
+            "cue_id": 691,
+            "start_ms": 1782570,
+            "end_ms": 1785030,
+            "text": "on newborn babies without anesthesia."
+          },
+          {
+            "cue_id": 721,
+            "start_ms": 1868010,
+            "end_ms": 1872330,
+            "text": "Understanding is a quality which needs consciousness"
+          },
+          {
+            "cue_id": 751,
+            "start_ms": 1953000,
+            "end_ms": 1957050,
+            "text": "The argument I would make is that consciousness,"
+          },
+          {
+            "cue_id": 812,
+            "start_ms": 2120490,
+            "end_ms": 2123550,
+            "text": "- Anyway, so we got together and the idea started off,"
+          },
+          {
+            "cue_id": 878,
+            "start_ms": 2292690,
+            "end_ms": 2295930,
+            "text": "you can no longer deny that there is something"
+          },
+          {
+            "cue_id": 914,
+            "start_ms": 2378040,
+            "end_ms": 2379900,
+            "text": "If I lose my brain due to an accident"
+          },
+          {
+            "cue_id": 954,
+            "start_ms": 2462760,
+            "end_ms": 2465310,
+            "text": "it returns sort of to that the ooze"
+          },
+          {
+            "cue_id": 990,
+            "start_ms": 2547180,
+            "end_ms": 2550510,
+            "text": "about the expansion of consciousness in the Universe.\""
+          }
+        ],
+        "text": "to make the point, it hurts.\nAcademy of Sciences' Consciousness Conference,\nso how do I go from these wonderful theories,\nSo what? Well, I mean, why does it hurt?\nscientists might at least be able to identify\nImagine every tiny thing in the Universe\nSimple things like maybe a fly or Protozoa\ninterested in these questions on the perimeter\nthey try to look at it from outside in.\nAnd consciousness plus object one is one experience.\nthat they necessarily lead to different conclusions\nwhere right now with ChatGPT and everything with the AI,\nthe best known artificial intelligence tool in the world,\nLike we generally are very negative\nHow do I formulate that thought?\nand we synchronize in our language dances\nIs it preposterous to think that, that might be going on?\nWhat we call intelligence emerges along with\non newborn babies without anesthesia.\nUnderstanding is a quality which needs consciousness\nThe argument I would make is that consciousness,\n- Anyway, so we got together and the idea started off,\nyou can no longer deny that there is something\nIf I lose my brain due to an accident\nit returns sort of to that the ooze\nabout the expansion of consciousness in the Universe.\"",
+        "text_tokens": 248,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33
+          ],
+          "start_ms": 82920,
+          "end_ms": 88193,
+          "text": "or I'm thinking whether I should step on your toe to make the point, it hurts. - Yeah. - That's what"
+        },
+        {
+          "id": "S94",
+          "cue_ids": [
+            94,
+            95,
+            96
+          ],
+          "start_ms": 252420,
+          "end_ms": 260700,
+          "text": "So we're here in New York at the New York Academy of Sciences' Consciousness Conference, and I am certainly someone who has thought a lot"
+        },
+        {
+          "id": "S124",
+          "cue_ids": [
+            124,
+            125,
+            126
+          ],
+          "start_ms": 335880,
+          "end_ms": 343560,
+          "text": "But here I am, I'm conscious, so how do I go from these wonderful theories, but they don't have anything about conscious in them"
+        },
+        {
+          "id": "S164",
+          "cue_ids": [
+            164,
+            165,
+            166
+          ],
+          "start_ms": 421066,
+          "end_ms": 427440,
+          "text": "some potassium-chloride ions sloshing on. So what? Well, I mean, why does it hurt? There are ions sloshing on my liver"
+        },
+        {
+          "id": "S201",
+          "cue_ids": [
+            201,
+            202,
+            203
+          ],
+          "start_ms": 506220,
+          "end_ms": 512700,
+          "text": "If this could be sufficiently measured, scientists might at least be able to identify where consciousness occurs in the brain,"
+        },
+        {
+          "id": "S235",
+          "cue_ids": [
+            235,
+            236,
+            237
+          ],
+          "start_ms": 589890,
+          "end_ms": 598860,
+          "text": "an inherent characteristic of all matter. Imagine every tiny thing in the Universe has some tiny bit of consciousness."
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268,
+            269
+          ],
+          "start_ms": 675690,
+          "end_ms": 685590,
+          "text": "Complex things have complex minds associated with it. Simple things like maybe a fly or Protozoa have very, very, very simple minds associated with them."
+        },
+        {
+          "id": "S299",
+          "cue_ids": [
+            299,
+            300,
+            301
+          ],
+          "start_ms": 756120,
+          "end_ms": 766500,
+          "text": "You're in a profession that is, by definition almost, interested in these questions on the perimeter of what we can know for certain."
+        },
+        {
+          "id": "S331",
+          "cue_ids": [
+            331,
+            332,
+            333
+          ],
+          "start_ms": 843270,
+          "end_ms": 851430,
+          "text": "If you ask Christof Koch or some of the brain scientists, they try to look at it from outside in. You know they'll study the brain"
+        },
+        {
+          "id": "S363",
+          "cue_ids": [
+            363,
+            364,
+            365
+          ],
+          "start_ms": 930540,
+          "end_ms": 936240,
+          "text": "So we have a series of experiences. And consciousness plus object one is one experience. Consciousness plus object two"
+        },
+        {
+          "id": "S397",
+          "cue_ids": [
+            397,
+            398,
+            399
+          ],
+          "start_ms": 1014390,
+          "end_ms": 1023150,
+          "text": "say the spiritual and the materialist approaches, that they necessarily lead to different conclusions about meaning and purpose?"
+        },
+        {
+          "id": "S423",
+          "cue_ids": [
+            423,
+            424,
+            425
+          ],
+          "start_ms": 1098780,
+          "end_ms": 1109310,
+          "text": "I think one interesting place is this, where right now with ChatGPT and everything with the AI, notice something very interesting is happening."
+        },
+        {
+          "id": "S460",
+          "cue_ids": [
+            460,
+            461,
+            462
+          ],
+          "start_ms": 1183260,
+          "end_ms": 1190303,
+          "text": "the startup responsible for creating what is likely the best known artificial intelligence tool in the world, ChatGPT."
+        },
+        {
+          "id": "S493",
+          "cue_ids": [
+            493,
+            494,
+            495
+          ],
+          "start_ms": 1270770,
+          "end_ms": 1278210,
+          "text": "But think about all the other thinking creatures.\" Like we generally are very negative on how other animals think."
+        },
+        {
+          "id": "S530",
+          "cue_ids": [
+            530,
+            531,
+            532
+          ],
+          "start_ms": 1356930,
+          "end_ms": 1361370,
+          "text": "I think therefore I exist. How do I formulate that thought? How does it have any coherence?"
+        },
+        {
+          "id": "S565",
+          "cue_ids": [
+            565,
+            566,
+            567
+          ],
+          "start_ms": 1440870,
+          "end_ms": 1447138,
+          "text": "the pattern by which we go, \"Oh, I smell apricot,\" and we synchronize in our language dances with each other what that is."
+        },
+        {
+          "id": "S596",
+          "cue_ids": [
+            596,
+            597,
+            598
+          ],
+          "start_ms": 1523040,
+          "end_ms": 1532130,
+          "text": "in addition, to the mechanistic thing that's happening? Is it preposterous to think that, that might be going on? - It's certainly not preposterous,"
+        },
+        {
+          "id": "S658",
+          "cue_ids": [
+            658,
+            659,
+            660
+          ],
+          "start_ms": 1695090,
+          "end_ms": 1703280,
+          "text": "and they interact in certain ways. What we call intelligence emerges along with a lot of other kind of mental cognitive qualities,"
+        },
+        {
+          "id": "S690",
+          "cue_ids": [
+            690,
+            691,
+            692
+          ],
+          "start_ms": 1780800,
+          "end_ms": 1786593,
+          "text": "- Hmm. - And they would do surgeries on newborn babies without anesthesia. You know it seems crazy now."
+        },
+        {
+          "id": "S720",
+          "cue_ids": [
+            720,
+            721,
+            722
+          ],
+          "start_ms": 1865370,
+          "end_ms": 1874030,
+          "text": "They don't understand what they're doing. Understanding is a quality which needs consciousness and they don't have consciousness."
+        },
+        {
+          "id": "S750",
+          "cue_ids": [
+            750,
+            751,
+            752
+          ],
+          "start_ms": 1949280,
+          "end_ms": 1959420,
+          "text": "All those things are part of the physical world. The argument I would make is that consciousness, if you make a conscious decision,"
+        },
+        {
+          "id": "S811",
+          "cue_ids": [
+            811,
+            812,
+            813
+          ],
+          "start_ms": 2117610,
+          "end_ms": 2126070,
+          "text": "giving rise to consciousness. - Anyway, so we got together and the idea started off, I think nobody really believed us."
+        },
+        {
+          "id": "S877",
+          "cue_ids": [
+            877,
+            878,
+            879
+          ],
+          "start_ms": 2287500,
+          "end_ms": 2298930,
+          "text": "So even from a very rigorous, strict scientific perspective, you can no longer deny that there is something that it might be, in principle, impossible to explain"
+        },
+        {
+          "id": "S913",
+          "cue_ids": [
+            913,
+            914,
+            915
+          ],
+          "start_ms": 2376150,
+          "end_ms": 2382180,
+          "text": "my brain is essential for conscious. If I lose my brain due to an accident or gunshot or whatever, conscious will be gone."
+        },
+        {
+          "id": "S953",
+          "cue_ids": [
+            953,
+            954,
+            955
+          ],
+          "start_ms": 2461640,
+          "end_ms": 2468040,
+          "text": "Or an idealist would say, no, it returns sort of to that the ooze or substance from which it all came."
+        },
+        {
+          "id": "S989",
+          "cue_ids": [
+            989,
+            990,
+            991
+          ],
+          "start_ms": 2544960,
+          "end_ms": 2552370,
+          "text": "a thing of beauty, a thing of importance about the expansion of consciousness in the Universe.\" That is the mission that we're on,"
+        }
+      ],
+      "text": "S31 [00:01:22.920 --> 00:01:28.193] or I'm thinking whether I should step on your toe to make the point, it hurts. - Yeah. - That's what\nS94 [00:04:12.420 --> 00:04:20.700] So we're here in New York at the New York Academy of Sciences' Consciousness Conference, and I am certainly someone who has thought a lot\nS124 [00:05:35.880 --> 00:05:43.560] But here I am, I'm conscious, so how do I go from these wonderful theories, but they don't have anything about conscious in them\nS164 [00:07:01.066 --> 00:07:07.440] some potassium-chloride ions sloshing on. So what? Well, I mean, why does it hurt? There are ions sloshing on my liver\nS201 [00:08:26.220 --> 00:08:32.700] If this could be sufficiently measured, scientists might at least be able to identify where consciousness occurs in the brain,\nS235 [00:09:49.890 --> 00:09:58.860] an inherent characteristic of all matter. Imagine every tiny thing in the Universe has some tiny bit of consciousness.\nS267 [00:11:15.690 --> 00:11:25.590] Complex things have complex minds associated with it. Simple things like maybe a fly or Protozoa have very, very, very simple minds associated with them.\nS299 [00:12:36.120 --> 00:12:46.500] You're in a profession that is, by definition almost, interested in these questions on the perimeter of what we can know for certain.\nS331 [00:14:03.270 --> 00:14:11.430] If you ask Christof Koch or some of the brain scientists, they try to look at it from outside in. You know they'll study the brain\nS363 [00:15:30.540 --> 00:15:36.240] So we have a series of experiences. And consciousness plus object one is one experience. Consciousness plus object two\nS397 [00:16:54.390 --> 00:17:03.150] say the spiritual and the materialist approaches, that they necessarily lead to different conclusions about meaning and purpose?\nS423 [00:18:18.780 --> 00:18:29.310] I think one interesting place is this, where right now with ChatGPT and everything with the AI, notice something very interesting is happening.\nS460 [00:19:43.260 --> 00:19:50.303] the startup responsible for creating what is likely the best known artificial intelligence tool in the world, ChatGPT.\nS493 [00:21:10.770 --> 00:21:18.210] But think about all the other thinking creatures.\" Like we generally are very negative on how other animals think.\nS530 [00:22:36.930 --> 00:22:41.370] I think therefore I exist. How do I formulate that thought? How does it have any coherence?\nS565 [00:24:00.870 --> 00:24:07.138] the pattern by which we go, \"Oh, I smell apricot,\" and we synchronize in our language dances with each other what that is.\nS596 [00:25:23.040 --> 00:25:32.130] in addition, to the mechanistic thing that's happening? Is it preposterous to think that, that might be going on? - It's certainly not preposterous,\nS658 [00:28:15.090 --> 00:28:23.280] and they interact in certain ways. What we call intelligence emerges along with a lot of other kind of mental cognitive qualities,\nS690 [00:29:40.800 --> 00:29:46.593] - Hmm. - And they would do surgeries on newborn babies without anesthesia. You know it seems crazy now.\nS720 [00:31:05.370 --> 00:31:14.030] They don't understand what they're doing. Understanding is a quality which needs consciousness and they don't have consciousness.\nS750 [00:32:29.280 --> 00:32:39.420] All those things are part of the physical world. The argument I would make is that consciousness, if you make a conscious decision,\nS811 [00:35:17.610 --> 00:35:26.070] giving rise to consciousness. - Anyway, so we got together and the idea started off, I think nobody really believed us.\nS877 [00:38:07.500 --> 00:38:18.930] So even from a very rigorous, strict scientific perspective, you can no longer deny that there is something that it might be, in principle, impossible to explain\nS913 [00:39:36.150 --> 00:39:42.180] my brain is essential for conscious. If I lose my brain due to an accident or gunshot or whatever, conscious will be gone.\nS953 [00:41:01.640 --> 00:41:08.040] Or an idealist would say, no, it returns sort of to that the ooze or substance from which it all came.\nS989 [00:42:24.960 --> 00:42:32.370] a thing of beauty, a thing of importance about the expansion of consciousness in the Universe.\" That is the mission that we're on,",
+      "text_tokens": 1514,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        31,
+        33,
+        94,
+        96,
+        124,
+        126,
+        164,
+        166,
+        201,
+        203,
+        235,
+        237,
+        267,
+        269,
+        299,
+        301,
+        331,
+        333,
+        363,
+        365,
+        397,
+        399,
+        423,
+        425,
+        460,
+        462,
+        493,
+        495,
+        530,
+        532,
+        565,
+        567,
+        596,
+        598,
+        658,
+        660,
+        690,
+        692,
+        720,
+        722,
+        750,
+        752,
+        811,
+        813,
+        877,
+        879,
+        913,
+        915,
+        953,
+        955,
+        989,
+        991
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "1d85dad1d679d1fcf9afae7b207b378a771daaf7d2212eb58fa7702269101b65"
+}

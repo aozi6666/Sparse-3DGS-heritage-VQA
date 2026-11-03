@@ -1,0 +1,1059 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "ctqn-UJGX5M",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ctqn-UJGX5M.srt",
+        "status": "available",
+        "bytes": 35579,
+        "sha256": "7cfa49cb2b7b409120f0f2c0fd761520eee3fc3b66d8f379d1063d52dd5ce593",
+        "cues": 357,
+        "nonempty_cues": 357
+      },
+      "frame_indices": [
+        0,
+        1748,
+        3496,
+        5244,
+        6992,
+        8740,
+        10489,
+        12237,
+        13985,
+        15733,
+        17481,
+        19229,
+        20977,
+        22725,
+        24473,
+        26221,
+        27970,
+        29718,
+        31466,
+        33214,
+        34962,
+        36710,
+        38458,
+        40206,
+        41954,
+        43702,
+        45451,
+        47199,
+        48947,
+        50695,
+        52443,
+        54191
+      ],
+      "frame_seconds": [
+        0.0,
+        58.324933,
+        116.649867,
+        174.97480000000002,
+        233.299733,
+        291.624667,
+        349.98296700000003,
+        408.3079,
+        466.632833,
+        524.957767,
+        583.2827,
+        641.607633,
+        699.932567,
+        758.2575,
+        816.582433,
+        874.907367,
+        933.265667,
+        991.5906,
+        1049.915533,
+        1108.240467,
+        1166.5654,
+        1224.890333,
+        1283.215267,
+        1341.5402,
+        1399.865133,
+        1458.190067,
+        1516.548367,
+        1574.8733,
+        1633.198233,
+        1691.523167,
+        1749.8481,
+        1808.173033
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          11,
+          12
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          46,
+          47
+        ],
+        [],
+        [
+          76,
+          77
+        ],
+        [],
+        [
+          109,
+          110
+        ],
+        [
+          125,
+          126
+        ],
+        [
+          139,
+          140
+        ],
+        [
+          154,
+          155
+        ],
+        [],
+        [],
+        [
+          187,
+          188
+        ],
+        [
+          195,
+          196
+        ],
+        [],
+        [
+          203,
+          204
+        ],
+        [
+          216,
+          217
+        ],
+        [
+          234,
+          235
+        ],
+        [],
+        [
+          260
+        ],
+        [],
+        [
+          290,
+          291
+        ],
+        [
+          306
+        ],
+        [],
+        [
+          312,
+          313
+        ],
+        [
+          321
+        ],
+        [
+          334
+        ],
+        [],
+        [],
+        [
+          351,
+          352
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 11,
+          "start_ms": 53489,
+          "end_ms": 58650,
+          "text": "practicing practicing for what the"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 55920,
+          "end_ms": 59280,
+          "text": "prince ayah stop he's a liar and a"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 114340,
+          "end_ms": 122470,
+          "text": "and there is only one thing we say to"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 116110,
+          "end_ms": 127170,
+          "text": "death not today what do we say to the"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 171329,
+          "end_ms": 177360,
+          "text": "sure I close my eyes my season"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 173600,
+          "end_ms": 177360,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 288210,
+          "end_ms": 297520,
+          "text": "he may be their leader but they chose"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 290860,
+          "end_ms": 300700,
+          "text": "him their family never had a thing I can"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 404440,
+          "end_ms": 410680,
+          "text": "in the Seven Kingdoms I just understand"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 407770,
+          "end_ms": 413719,
+          "text": "the way things are how many stars they"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 464000,
+          "end_ms": 471219,
+          "text": "known as me"
+        },
+        {
+          "cue_id": 126,
+          "start_ms": 465889,
+          "end_ms": 471219,
+          "text": "what's your name thank you"
+        },
+        {
+          "cue_id": 139,
+          "start_ms": 516539,
+          "end_ms": 528130,
+          "text": "who are you then no one and that is"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 522219,
+          "end_ms": 530760,
+          "text": "wicker must become a girl wants to serve"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 578550,
+          "end_ms": 584380,
+          "text": "lies to me to the many-faced God to"
+        },
+        {
+          "cue_id": 155,
+          "start_ms": 583079,
+          "end_ms": 588480,
+          "text": "herself"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 751060,
+          "end_ms": 766690,
+          "text": "you came here I stuck tell me about the"
+        },
+        {
+          "cue_id": 188,
+          "start_ms": 757150,
+          "end_ms": 770470,
+          "text": "hound also dead who else was an ayah"
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 812850,
+          "end_ms": 818230,
+          "text": "you're not ready you should go home"
+        },
+        {
+          "cue_id": 196,
+          "start_ms": 816040,
+          "end_ms": 820830,
+          "text": "before it's too late"
+        },
+        {
+          "cue_id": 203,
+          "start_ms": 926150,
+          "end_ms": 933509,
+          "text": "lord they weren't easy to carve"
+        },
+        {
+          "cue_id": 204,
+          "start_ms": 930450,
+          "end_ms": 933509,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 216,
+          "start_ms": 986910,
+          "end_ms": 991890,
+          "text": "bastards"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 987540,
+          "end_ms": 996830,
+          "text": "he's killing off now you're lying"
+        },
+        {
+          "cue_id": 234,
+          "start_ms": 1046950,
+          "end_ms": 1049920,
+          "text": "fast"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 1048369,
+          "end_ms": 1053150,
+          "text": "the list"
+        },
+        {
+          "cue_id": 260,
+          "start_ms": 1165389,
+          "end_ms": 1171619,
+          "text": "I wonder what it would feel like to wear"
+        },
+        {
+          "cue_id": 290,
+          "start_ms": 1280190,
+          "end_ms": 1285940,
+          "text": "what do they like"
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 1282789,
+          "end_ms": 1287470,
+          "text": "but could they look like when they smell"
+        },
+        {
+          "cue_id": 306,
+          "start_ms": 1341360,
+          "end_ms": 1347250,
+          "text": "I'm not the red one"
+        },
+        {
+          "cue_id": 312,
+          "start_ms": 1454490,
+          "end_ms": 1460320,
+          "text": "he said beat me again"
+        },
+        {
+          "cue_id": 313,
+          "start_ms": 1456860,
+          "end_ms": 1464900,
+          "text": "and here we are he said I'd shut money"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 1515560,
+          "end_ms": 1524140,
+          "text": "so I start the hero of Winterfell all I"
+        },
+        {
+          "cue_id": 334,
+          "start_ms": 1574070,
+          "end_ms": 1577070,
+          "text": "sandal"
+        },
+        {
+          "cue_id": 351,
+          "start_ms": 1746309,
+          "end_ms": 1753059,
+          "text": "you when we're not allowed I'm not going"
+        },
+        {
+          "cue_id": 352,
+          "start_ms": 1749340,
+          "end_ms": 1758250,
+          "text": "back north Mariko"
+        }
+      ],
+      "text": "practicing practicing for what the\nprince ayah stop he's a liar and a\nand there is only one thing we say to\ndeath not today what do we say to the\nsure I close my eyes my season\n[Music]\nhe may be their leader but they chose\nhim their family never had a thing I can\nin the Seven Kingdoms I just understand\nthe way things are how many stars they\nknown as me\nwhat's your name thank you\nwho are you then no one and that is\nwicker must become a girl wants to serve\nlies to me to the many-faced God to\nherself\nyou came here I stuck tell me about the\nhound also dead who else was an ayah\nyou're not ready you should go home\nbefore it's too late\nlord they weren't easy to carve\n[Music]\nbastards\nhe's killing off now you're lying\nfast\nthe list\nI wonder what it would feel like to wear\nwhat do they like\nbut could they look like when they smell\nI'm not the red one\nhe said beat me again\nand here we are he said I'd shut money\nso I start the hero of Winterfell all I\nsandal\nyou when we're not allowed I'm not going\nback north Mariko",
+      "text_tokens": 273,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ctqn-UJGX5M",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ctqn-UJGX5M.srt",
+          "status": "available",
+          "bytes": 35579,
+          "sha256": "7cfa49cb2b7b409120f0f2c0fd761520eee3fc3b66d8f379d1063d52dd5ce593",
+          "cues": 357,
+          "nonempty_cues": 357
+        },
+        "frame_indices": [
+          0,
+          1748,
+          3496,
+          5244,
+          6992,
+          8740,
+          10489,
+          12237,
+          13985,
+          15733,
+          17481,
+          19229,
+          20977,
+          22725,
+          24473,
+          26221,
+          27970,
+          29718,
+          31466,
+          33214,
+          34962,
+          36710,
+          38458,
+          40206,
+          41954,
+          43702,
+          45451,
+          47199,
+          48947,
+          50695,
+          52443,
+          54191
+        ],
+        "frame_seconds": [
+          0.0,
+          58.324933,
+          116.649867,
+          174.97480000000002,
+          233.299733,
+          291.624667,
+          349.98296700000003,
+          408.3079,
+          466.632833,
+          524.957767,
+          583.2827,
+          641.607633,
+          699.932567,
+          758.2575,
+          816.582433,
+          874.907367,
+          933.265667,
+          991.5906,
+          1049.915533,
+          1108.240467,
+          1166.5654,
+          1224.890333,
+          1283.215267,
+          1341.5402,
+          1399.865133,
+          1458.190067,
+          1516.548367,
+          1574.8733,
+          1633.198233,
+          1691.523167,
+          1749.8481,
+          1808.173033
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            11,
+            12
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            46,
+            47
+          ],
+          [],
+          [
+            76,
+            77
+          ],
+          [],
+          [
+            109,
+            110
+          ],
+          [
+            125,
+            126
+          ],
+          [
+            139,
+            140
+          ],
+          [
+            154,
+            155
+          ],
+          [],
+          [],
+          [
+            187,
+            188
+          ],
+          [
+            195,
+            196
+          ],
+          [],
+          [
+            203,
+            204
+          ],
+          [
+            216,
+            217
+          ],
+          [
+            234,
+            235
+          ],
+          [],
+          [
+            260
+          ],
+          [],
+          [
+            290,
+            291
+          ],
+          [
+            306
+          ],
+          [],
+          [
+            312,
+            313
+          ],
+          [
+            321
+          ],
+          [
+            334
+          ],
+          [],
+          [],
+          [
+            351,
+            352
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 11,
+            "start_ms": 53489,
+            "end_ms": 58650,
+            "text": "practicing practicing for what the"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 55920,
+            "end_ms": 59280,
+            "text": "prince ayah stop he's a liar and a"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 114340,
+            "end_ms": 122470,
+            "text": "and there is only one thing we say to"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 116110,
+            "end_ms": 127170,
+            "text": "death not today what do we say to the"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 171329,
+            "end_ms": 177360,
+            "text": "sure I close my eyes my season"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 173600,
+            "end_ms": 177360,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 288210,
+            "end_ms": 297520,
+            "text": "he may be their leader but they chose"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 290860,
+            "end_ms": 300700,
+            "text": "him their family never had a thing I can"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 404440,
+            "end_ms": 410680,
+            "text": "in the Seven Kingdoms I just understand"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 407770,
+            "end_ms": 413719,
+            "text": "the way things are how many stars they"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 464000,
+            "end_ms": 471219,
+            "text": "known as me"
+          },
+          {
+            "cue_id": 126,
+            "start_ms": 465889,
+            "end_ms": 471219,
+            "text": "what's your name thank you"
+          },
+          {
+            "cue_id": 139,
+            "start_ms": 516539,
+            "end_ms": 528130,
+            "text": "who are you then no one and that is"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 522219,
+            "end_ms": 530760,
+            "text": "wicker must become a girl wants to serve"
+          },
+          {
+            "cue_id": 154,
+            "start_ms": 578550,
+            "end_ms": 584380,
+            "text": "lies to me to the many-faced God to"
+          },
+          {
+            "cue_id": 155,
+            "start_ms": 583079,
+            "end_ms": 588480,
+            "text": "herself"
+          },
+          {
+            "cue_id": 187,
+            "start_ms": 751060,
+            "end_ms": 766690,
+            "text": "you came here I stuck tell me about the"
+          },
+          {
+            "cue_id": 188,
+            "start_ms": 757150,
+            "end_ms": 770470,
+            "text": "hound also dead who else was an ayah"
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 812850,
+            "end_ms": 818230,
+            "text": "you're not ready you should go home"
+          },
+          {
+            "cue_id": 196,
+            "start_ms": 816040,
+            "end_ms": 820830,
+            "text": "before it's too late"
+          },
+          {
+            "cue_id": 203,
+            "start_ms": 926150,
+            "end_ms": 933509,
+            "text": "lord they weren't easy to carve"
+          },
+          {
+            "cue_id": 204,
+            "start_ms": 930450,
+            "end_ms": 933509,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 216,
+            "start_ms": 986910,
+            "end_ms": 991890,
+            "text": "bastards"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 987540,
+            "end_ms": 996830,
+            "text": "he's killing off now you're lying"
+          },
+          {
+            "cue_id": 234,
+            "start_ms": 1046950,
+            "end_ms": 1049920,
+            "text": "fast"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 1048369,
+            "end_ms": 1053150,
+            "text": "the list"
+          },
+          {
+            "cue_id": 260,
+            "start_ms": 1165389,
+            "end_ms": 1171619,
+            "text": "I wonder what it would feel like to wear"
+          },
+          {
+            "cue_id": 290,
+            "start_ms": 1280190,
+            "end_ms": 1285940,
+            "text": "what do they like"
+          },
+          {
+            "cue_id": 291,
+            "start_ms": 1282789,
+            "end_ms": 1287470,
+            "text": "but could they look like when they smell"
+          },
+          {
+            "cue_id": 306,
+            "start_ms": 1341360,
+            "end_ms": 1347250,
+            "text": "I'm not the red one"
+          },
+          {
+            "cue_id": 312,
+            "start_ms": 1454490,
+            "end_ms": 1460320,
+            "text": "he said beat me again"
+          },
+          {
+            "cue_id": 313,
+            "start_ms": 1456860,
+            "end_ms": 1464900,
+            "text": "and here we are he said I'd shut money"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 1515560,
+            "end_ms": 1524140,
+            "text": "so I start the hero of Winterfell all I"
+          },
+          {
+            "cue_id": 334,
+            "start_ms": 1574070,
+            "end_ms": 1577070,
+            "text": "sandal"
+          },
+          {
+            "cue_id": 351,
+            "start_ms": 1746309,
+            "end_ms": 1753059,
+            "text": "you when we're not allowed I'm not going"
+          },
+          {
+            "cue_id": 352,
+            "start_ms": 1749340,
+            "end_ms": 1758250,
+            "text": "back north Mariko"
+          }
+        ],
+        "text": "practicing practicing for what the\nprince ayah stop he's a liar and a\nand there is only one thing we say to\ndeath not today what do we say to the\nsure I close my eyes my season\n[Music]\nhe may be their leader but they chose\nhim their family never had a thing I can\nin the Seven Kingdoms I just understand\nthe way things are how many stars they\nknown as me\nwhat's your name thank you\nwho are you then no one and that is\nwicker must become a girl wants to serve\nlies to me to the many-faced God to\nherself\nyou came here I stuck tell me about the\nhound also dead who else was an ayah\nyou're not ready you should go home\nbefore it's too late\nlord they weren't easy to carve\n[Music]\nbastards\nhe's killing off now you're lying\nfast\nthe list\nI wonder what it would feel like to wear\nwhat do they like\nbut could they look like when they smell\nI'm not the red one\nhe said beat me again\nand here we are he said I'd shut money\nso I start the hero of Winterfell all I\nsandal\nyou when we're not allowed I'm not going\nback north Mariko",
+        "text_tokens": 273,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S10",
+          "cue_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_ms": 38060,
+          "end_ms": 61620,
+          "text": "got you you little country I'm practicing practicing for what the prince ayah stop he's a liar and a coward"
+        },
+        {
+          "id": "S30",
+          "cue_ids": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "start_ms": 111408,
+          "end_ms": 127170,
+          "text": "and his name is death and there is only one thing we say to death not today what do we say to the god of death not today"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47
+          ],
+          "start_ms": 164219,
+          "end_ms": 177360,
+          "text": "things you didn't see that I made damn sure I close my eyes my season [Music]"
+        },
+        {
+          "id": "S75",
+          "cue_ids": [
+            75,
+            76,
+            77,
+            78
+          ],
+          "start_ms": 287020,
+          "end_ms": 304190,
+          "text": "barrack he may be their leader but they chose him their family never had a thing I can be your family you wouldn't be my family"
+        },
+        {
+          "id": "S108",
+          "cue_ids": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "start_ms": 401140,
+          "end_ms": 417409,
+          "text": "and donate silver you're the worst [ __ ] in the Seven Kingdoms I just understand the way things are how many stars they got to behead before you figure it out"
+        },
+        {
+          "id": "S124",
+          "cue_ids": [
+            124,
+            125,
+            126
+          ],
+          "start_ms": 459390,
+          "end_ms": 471219,
+          "text": "and he on your little list he can't be known as me what's your name thank you"
+        },
+        {
+          "id": "S138",
+          "cue_ids": [
+            138,
+            139,
+            140,
+            141
+          ],
+          "start_ms": 512760,
+          "end_ms": 534870,
+          "text": "there isn't a man is not jaqen H'ghar who are you then no one and that is wicker must become a girl wants to serve herself yeah we serve the many-faced God"
+        },
+        {
+          "id": "S153",
+          "cue_ids": [
+            153,
+            154,
+            155,
+            156
+          ],
+          "start_ms": 571440,
+          "end_ms": 588480,
+          "text": "I hated him that's not a life a girl lies to me to the many-faced God to herself as she truly want to be no one"
+        },
+        {
+          "id": "S186",
+          "cue_ids": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "start_ms": 742120,
+          "end_ms": 777550,
+          "text": "a girl has no name who were you before you came here I stuck tell me about the hound also dead who else was an ayah starts funny little list Oh Cersei"
+        },
+        {
+          "id": "S194",
+          "cue_ids": [
+            194,
+            195,
+            196,
+            197
+          ],
+          "start_ms": 793900,
+          "end_ms": 820830,
+          "text": "nothing to fear no one you're not ready you should go home before it's too late yeah"
+        },
+        {
+          "id": "S202",
+          "cue_ids": [
+            202,
+            203,
+            204,
+            205
+          ],
+          "start_ms": 920650,
+          "end_ms": 942220,
+          "text": "where am i gained more on sons yeah my lord they weren't easy to carve [Music] my name is aya stock I want you to know"
+        },
+        {
+          "id": "S215",
+          "cue_ids": [
+            215,
+            216,
+            217,
+            218
+          ],
+          "start_ms": 985560,
+          "end_ms": 996830,
+          "text": "the wildin army and wonder batter other bastards he's killing off now you're lying what a lie about that your brother right"
+        },
+        {
+          "id": "S233",
+          "cue_ids": [
+            233,
+            234,
+            235,
+            236
+          ],
+          "start_ms": 1045060,
+          "end_ms": 1053150,
+          "text": "however long my let's call he was always fast the list people don't count"
+        },
+        {
+          "id": "S260",
+          "cue_ids": [
+            260,
+            261
+          ],
+          "start_ms": 1165389,
+          "end_ms": 1171619,
+          "text": "I wonder what it would feel like to wear those pretty dresses"
+        },
+        {
+          "id": "S289",
+          "cue_ids": [
+            289,
+            290,
+            291,
+            292
+          ],
+          "start_ms": 1274880,
+          "end_ms": 1290919,
+          "text": "he thought them did some of them what do they like but could they look like when they smell like having moon"
+        },
+        {
+          "id": "S306",
+          "cue_ids": [
+            306,
+            307
+          ],
+          "start_ms": 1341360,
+          "end_ms": 1347250,
+          "text": "I'm not the red one take your own bloody bathtub"
+        },
+        {
+          "id": "S312",
+          "cue_ids": [
+            312,
+            313,
+            314
+          ],
+          "start_ms": 1454490,
+          "end_ms": 1470029,
+          "text": "he said beat me again and here we are he said I'd shut money eyes forever you'll write about that day"
+        },
+        {
+          "id": "S321",
+          "cue_ids": [
+            321,
+            322
+          ],
+          "start_ms": 1515560,
+          "end_ms": 1525730,
+          "text": "so I start the hero of Winterfell all I know is that you're beautiful and I love"
+        },
+        {
+          "id": "S334",
+          "cue_ids": [
+            334
+          ],
+          "start_ms": 1574070,
+          "end_ms": 1577070,
+          "text": "sandal"
+        },
+        {
+          "id": "S350",
+          "cue_ids": [
+            350,
+            351,
+            352,
+            353
+          ],
+          "start_ms": 1741690,
+          "end_ms": 1763549,
+          "text": "I can't you think anyone will dare tell you when we're not allowed I'm not going back north Mariko what's West of Westeros I don't know no"
+        }
+      ],
+      "text": "S10 [00:00:38.060 --> 00:01:01.620] got you you little country I'm practicing practicing for what the prince ayah stop he's a liar and a coward\nS30 [00:01:51.408 --> 00:02:07.170] and his name is death and there is only one thing we say to death not today what do we say to the god of death not today\nS45 [00:02:44.219 --> 00:02:57.360] things you didn't see that I made damn sure I close my eyes my season [Music]\nS75 [00:04:47.020 --> 00:05:04.190] barrack he may be their leader but they chose him their family never had a thing I can be your family you wouldn't be my family\nS108 [00:06:41.140 --> 00:06:57.409] and donate silver you're the worst [ __ ] in the Seven Kingdoms I just understand the way things are how many stars they got to behead before you figure it out\nS124 [00:07:39.390 --> 00:07:51.219] and he on your little list he can't be known as me what's your name thank you\nS138 [00:08:32.760 --> 00:08:54.870] there isn't a man is not jaqen H'ghar who are you then no one and that is wicker must become a girl wants to serve herself yeah we serve the many-faced God\nS153 [00:09:31.440 --> 00:09:48.480] I hated him that's not a life a girl lies to me to the many-faced God to herself as she truly want to be no one\nS186 [00:12:22.120 --> 00:12:57.550] a girl has no name who were you before you came here I stuck tell me about the hound also dead who else was an ayah starts funny little list Oh Cersei\nS194 [00:13:13.900 --> 00:13:40.830] nothing to fear no one you're not ready you should go home before it's too late yeah\nS202 [00:15:20.650 --> 00:15:42.220] where am i gained more on sons yeah my lord they weren't easy to carve [Music] my name is aya stock I want you to know\nS215 [00:16:25.560 --> 00:16:36.830] the wildin army and wonder batter other bastards he's killing off now you're lying what a lie about that your brother right\nS233 [00:17:25.060 --> 00:17:33.150] however long my let's call he was always fast the list people don't count\nS260 [00:19:25.389 --> 00:19:31.619] I wonder what it would feel like to wear those pretty dresses\nS289 [00:21:14.880 --> 00:21:30.919] he thought them did some of them what do they like but could they look like when they smell like having moon\nS306 [00:22:21.360 --> 00:22:27.250] I'm not the red one take your own bloody bathtub\nS312 [00:24:14.490 --> 00:24:30.029] he said beat me again and here we are he said I'd shut money eyes forever you'll write about that day\nS321 [00:25:15.560 --> 00:25:25.730] so I start the hero of Winterfell all I know is that you're beautiful and I love\nS334 [00:26:14.070 --> 00:26:17.070] sandal\nS350 [00:29:01.690 --> 00:29:23.549] I can't you think anyone will dare tell you when we're not allowed I'm not going back north Mariko what's West of Westeros I don't know no",
+      "text_tokens": 1123,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        10,
+        13,
+        30,
+        33,
+        45,
+        75,
+        78,
+        108,
+        111,
+        124,
+        138,
+        141,
+        153,
+        156,
+        186,
+        189,
+        194,
+        197,
+        202,
+        205,
+        215,
+        218,
+        233,
+        236,
+        261,
+        289,
+        292,
+        307,
+        314,
+        322,
+        350,
+        353
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f1362aa0216451b058f5d5eb0daf7d2e5688145cba551b8c76c30d7d5aeaa8d8"
+}

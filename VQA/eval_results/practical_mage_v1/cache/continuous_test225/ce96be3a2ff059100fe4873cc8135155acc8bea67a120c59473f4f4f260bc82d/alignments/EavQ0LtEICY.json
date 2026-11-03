@@ -1,0 +1,900 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "EavQ0LtEICY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EavQ0LtEICY.srt",
+        "status": "available",
+        "bytes": 9638,
+        "sha256": "cb620c38fd13c72a3b016b566792cf5486126d2276e2cdbe2d3e7c08c4d0dfa1",
+        "cues": 99,
+        "nonempty_cues": 99
+      },
+      "frame_indices": [
+        0,
+        544,
+        1089,
+        1633,
+        2178,
+        2722,
+        3266,
+        3811,
+        4355,
+        4899,
+        5444,
+        5988,
+        6533,
+        7077,
+        7621,
+        8166,
+        8710,
+        9255,
+        9799,
+        10343,
+        10888,
+        11432,
+        11977,
+        12521,
+        13065,
+        13610,
+        14154,
+        14698,
+        15243,
+        15787,
+        16332,
+        16876
+      ],
+      "frame_seconds": [
+        0.0,
+        18.151485,
+        36.336336,
+        54.487821,
+        72.672673,
+        90.824157,
+        108.975642,
+        127.160494,
+        145.311979,
+        163.463463,
+        181.648315,
+        199.7998,
+        217.98465099999999,
+        236.136136,
+        254.287621,
+        272.472472,
+        290.623957,
+        308.808809,
+        326.960294,
+        345.111778,
+        363.29663,
+        381.44811500000003,
+        399.632966,
+        417.784451,
+        435.935936,
+        454.120787,
+        472.272272,
+        490.423757,
+        508.608609,
+        526.760093,
+        544.944945,
+        563.09643
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          10,
+          11
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          24
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          30
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          41
+        ],
+        [
+          43,
+          44
+        ],
+        [],
+        [
+          48,
+          49
+        ],
+        [],
+        [
+          55,
+          56
+        ],
+        [],
+        [
+          60,
+          61
+        ],
+        [
+          64
+        ],
+        [],
+        [
+          67
+        ],
+        [],
+        [
+          71
+        ],
+        [],
+        [
+          73,
+          74
+        ],
+        [],
+        [
+          76
+        ],
+        [],
+        [
+          88,
+          89
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          98,
+          99
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 10,
+          "start_ms": 16400,
+          "end_ms": 19600,
+          "text": "the channel hit that subscribe button"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 17840,
+          "end_ms": 21279,
+          "text": "right now if you are subscribed"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 126840,
+          "end_ms": 129840,
+          "text": "oh"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 139120,
+          "end_ms": 157040,
+          "text": "is eliminated"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 140000,
+          "end_ms": 160319,
+          "text": "from the basketball court courts"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 162480,
+          "end_ms": 165200,
+          "text": "we're going to make this interesting"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 179680,
+          "end_ms": 183040,
+          "text": "the last person"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 180640,
+          "end_ms": 186400,
+          "text": "to make a half court granny shot is"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 192159,
+          "end_ms": 199840,
+          "text": "oh my gosh"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 214480,
+          "end_ms": 220640,
+          "text": "oh yeah this one's from my pet cat larry"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 217680,
+          "end_ms": 220640,
+          "text": "that's my pet cat"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 248390,
+          "end_ms": 255519,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 252400,
+          "end_ms": 255519,
+          "text": "wait i went after her"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 287840,
+          "end_ms": 292240,
+          "text": "got your help either direction except"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 290320,
+          "end_ms": 296870,
+          "text": "for that one"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 323199,
+          "end_ms": 329360,
+          "text": "my god oh my god oh my god"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 326240,
+          "end_ms": 331280,
+          "text": "oh my god you're a child jesse said"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 340560,
+          "end_ms": 353840,
+          "text": "what is that"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 381290,
+          "end_ms": 387250,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 414000,
+          "end_ms": 423840,
+          "text": "oh my god"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 448000,
+          "end_ms": 458230,
+          "text": "i don't mean"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 450180,
+          "end_ms": 458230,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 476080,
+          "end_ms": 493840,
+          "text": "sunscreen in his eyes it's a bug"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 522880,
+          "end_ms": 528959,
+          "text": "way over here is the winner three"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 525360,
+          "end_ms": 528959,
+          "text": "two one go"
+        },
+        {
+          "cue_id": 92,
+          "start_ms": 543200,
+          "end_ms": 548160,
+          "text": "champion just like that"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 544560,
+          "end_ms": 551200,
+          "text": "name's your prize whoa hey"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 557680,
+          "end_ms": 563839,
+          "text": "youtubers match for a thousand dollars"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 560080,
+          "end_ms": 563839,
+          "text": "be there or be square goodbye"
+        }
+      ],
+      "text": "the channel hit that subscribe button\nright now if you are subscribed\noh\nis eliminated\nfrom the basketball court courts\nwe're going to make this interesting\nthe last person\nto make a half court granny shot is\noh my gosh\noh yeah this one's from my pet cat larry\nthat's my pet cat\n[Music]\nwait i went after her\ngot your help either direction except\nfor that one\nmy god oh my god oh my god\noh my god you're a child jesse said\nwhat is that\n[Music]\noh my god\ni don't mean\n[Music]\nsunscreen in his eyes it's a bug\nway over here is the winner three\ntwo one go\nchampion just like that\nname's your prize whoa hey\nyoutubers match for a thousand dollars\nbe there or be square goodbye",
+      "text_tokens": 180,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EavQ0LtEICY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EavQ0LtEICY.srt",
+          "status": "available",
+          "bytes": 9638,
+          "sha256": "cb620c38fd13c72a3b016b566792cf5486126d2276e2cdbe2d3e7c08c4d0dfa1",
+          "cues": 99,
+          "nonempty_cues": 99
+        },
+        "frame_indices": [
+          0,
+          544,
+          1089,
+          1633,
+          2178,
+          2722,
+          3266,
+          3811,
+          4355,
+          4899,
+          5444,
+          5988,
+          6533,
+          7077,
+          7621,
+          8166,
+          8710,
+          9255,
+          9799,
+          10343,
+          10888,
+          11432,
+          11977,
+          12521,
+          13065,
+          13610,
+          14154,
+          14698,
+          15243,
+          15787,
+          16332,
+          16876
+        ],
+        "frame_seconds": [
+          0.0,
+          18.151485,
+          36.336336,
+          54.487821,
+          72.672673,
+          90.824157,
+          108.975642,
+          127.160494,
+          145.311979,
+          163.463463,
+          181.648315,
+          199.7998,
+          217.98465099999999,
+          236.136136,
+          254.287621,
+          272.472472,
+          290.623957,
+          308.808809,
+          326.960294,
+          345.111778,
+          363.29663,
+          381.44811500000003,
+          399.632966,
+          417.784451,
+          435.935936,
+          454.120787,
+          472.272272,
+          490.423757,
+          508.608609,
+          526.760093,
+          544.944945,
+          563.09643
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            10,
+            11
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            24
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            30
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            41
+          ],
+          [
+            43,
+            44
+          ],
+          [],
+          [
+            48,
+            49
+          ],
+          [],
+          [
+            55,
+            56
+          ],
+          [],
+          [
+            60,
+            61
+          ],
+          [
+            64
+          ],
+          [],
+          [
+            67
+          ],
+          [],
+          [
+            71
+          ],
+          [],
+          [
+            73,
+            74
+          ],
+          [],
+          [
+            76
+          ],
+          [],
+          [
+            88,
+            89
+          ],
+          [
+            92,
+            93
+          ],
+          [
+            98,
+            99
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 10,
+            "start_ms": 16400,
+            "end_ms": 19600,
+            "text": "the channel hit that subscribe button"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 17840,
+            "end_ms": 21279,
+            "text": "right now if you are subscribed"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 126840,
+            "end_ms": 129840,
+            "text": "oh"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 139120,
+            "end_ms": 157040,
+            "text": "is eliminated"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 140000,
+            "end_ms": 160319,
+            "text": "from the basketball court courts"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 162480,
+            "end_ms": 165200,
+            "text": "we're going to make this interesting"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 179680,
+            "end_ms": 183040,
+            "text": "the last person"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 180640,
+            "end_ms": 186400,
+            "text": "to make a half court granny shot is"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 192159,
+            "end_ms": 199840,
+            "text": "oh my gosh"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 214480,
+            "end_ms": 220640,
+            "text": "oh yeah this one's from my pet cat larry"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 217680,
+            "end_ms": 220640,
+            "text": "that's my pet cat"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 248390,
+            "end_ms": 255519,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 252400,
+            "end_ms": 255519,
+            "text": "wait i went after her"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 287840,
+            "end_ms": 292240,
+            "text": "got your help either direction except"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 290320,
+            "end_ms": 296870,
+            "text": "for that one"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 323199,
+            "end_ms": 329360,
+            "text": "my god oh my god oh my god"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 326240,
+            "end_ms": 331280,
+            "text": "oh my god you're a child jesse said"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 340560,
+            "end_ms": 353840,
+            "text": "what is that"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 381290,
+            "end_ms": 387250,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 414000,
+            "end_ms": 423840,
+            "text": "oh my god"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 448000,
+            "end_ms": 458230,
+            "text": "i don't mean"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 450180,
+            "end_ms": 458230,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 476080,
+            "end_ms": 493840,
+            "text": "sunscreen in his eyes it's a bug"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 522880,
+            "end_ms": 528959,
+            "text": "way over here is the winner three"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 525360,
+            "end_ms": 528959,
+            "text": "two one go"
+          },
+          {
+            "cue_id": 92,
+            "start_ms": 543200,
+            "end_ms": 548160,
+            "text": "champion just like that"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 544560,
+            "end_ms": 551200,
+            "text": "name's your prize whoa hey"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 557680,
+            "end_ms": 563839,
+            "text": "youtubers match for a thousand dollars"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 560080,
+            "end_ms": 563839,
+            "text": "be there or be square goodbye"
+          }
+        ],
+        "text": "the channel hit that subscribe button\nright now if you are subscribed\noh\nis eliminated\nfrom the basketball court courts\nwe're going to make this interesting\nthe last person\nto make a half court granny shot is\noh my gosh\noh yeah this one's from my pet cat larry\nthat's my pet cat\n[Music]\nwait i went after her\ngot your help either direction except\nfor that one\nmy god oh my god oh my god\noh my god you're a child jesse said\nwhat is that\n[Music]\noh my god\ni don't mean\n[Music]\nsunscreen in his eyes it's a bug\nway over here is the winner three\ntwo one go\nchampion just like that\nname's your prize whoa hey\nyoutubers match for a thousand dollars\nbe there or be square goodbye",
+        "text_tokens": 180,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S9",
+          "cue_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_ms": 14880,
+          "end_ms": 22800,
+          "text": "and if you are not already subscribed to the channel hit that subscribe button right now if you are subscribed go tell your grandmother to subscribe we"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24
+          ],
+          "start_ms": 126840,
+          "end_ms": 129840,
+          "text": "oh"
+        },
+        {
+          "id": "S26",
+          "cue_ids": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "start_ms": 136720,
+          "end_ms": 160319,
+          "text": "dammit the first person to miss a layup is eliminated from the basketball court courts someone will miss eventually"
+        },
+        {
+          "id": "S30",
+          "cue_ids": [
+            30,
+            31
+          ],
+          "start_ms": 162480,
+          "end_ms": 168480,
+          "text": "we're going to make this interesting we're going to the left side now we can"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 178319,
+          "end_ms": 186400,
+          "text": "hand you know that's all i got to say the last person to make a half court granny shot is eliminated started off"
+        },
+        {
+          "id": "S41",
+          "cue_ids": [
+            41
+          ],
+          "start_ms": 192159,
+          "end_ms": 199840,
+          "text": "oh my gosh"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44
+          ],
+          "start_ms": 210000,
+          "end_ms": 220640,
+          "text": "son of a biscuit there it is oh yeah this one's from my pet cat larry that's my pet cat"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49
+          ],
+          "start_ms": 248390,
+          "end_ms": 255519,
+          "text": "[Music] wait i went after her"
+        },
+        {
+          "id": "S54",
+          "cue_ids": [
+            54,
+            55,
+            56,
+            57
+          ],
+          "start_ms": 284470,
+          "end_ms": 305310,
+          "text": "[Music] got your help either direction except for that one oh my god"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "start_ms": 323199,
+          "end_ms": 353840,
+          "text": "my god oh my god oh my god oh my god you're a child jesse said child that's a real man yeah shut up what is that"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68
+          ],
+          "start_ms": 381290,
+          "end_ms": 387250,
+          "text": "[Music] [Applause]"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71
+          ],
+          "start_ms": 414000,
+          "end_ms": 423840,
+          "text": "oh my god"
+        },
+        {
+          "id": "S73",
+          "cue_ids": [
+            73,
+            74,
+            75
+          ],
+          "start_ms": 448000,
+          "end_ms": 464960,
+          "text": "i don't mean [Music] hey oh"
+        },
+        {
+          "id": "S76",
+          "cue_ids": [
+            76
+          ],
+          "start_ms": 476080,
+          "end_ms": 493840,
+          "text": "sunscreen in his eyes it's a bug"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87,
+            88,
+            89,
+            90
+          ],
+          "start_ms": 521279,
+          "end_ms": 535839,
+          "text": "first person to get the bottle all the way over here is the winner three two one go oh my god"
+        },
+        {
+          "id": "S91",
+          "cue_ids": [
+            91,
+            92,
+            93,
+            94
+          ],
+          "start_ms": 540399,
+          "end_ms": 553120,
+          "text": "i missed every single shot changes the champion just like that name's your prize whoa hey easy easy boost basketball shoe"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99
+          ],
+          "start_ms": 555279,
+          "end_ms": 563839,
+          "text": "my basketball court we are doing a 4v4 youtubers match for a thousand dollars be there or be square goodbye"
+        }
+      ],
+      "text": "S9 [00:00:14.880 --> 00:00:22.800] and if you are not already subscribed to the channel hit that subscribe button right now if you are subscribed go tell your grandmother to subscribe we\nS24 [00:02:06.840 --> 00:02:09.840] oh\nS26 [00:02:16.720 --> 00:02:40.319] dammit the first person to miss a layup is eliminated from the basketball court courts someone will miss eventually\nS30 [00:02:42.480 --> 00:02:48.480] we're going to make this interesting we're going to the left side now we can\nS37 [00:02:58.319 --> 00:03:06.400] hand you know that's all i got to say the last person to make a half court granny shot is eliminated started off\nS41 [00:03:12.159 --> 00:03:19.840] oh my gosh\nS42 [00:03:30.000 --> 00:03:40.640] son of a biscuit there it is oh yeah this one's from my pet cat larry that's my pet cat\nS48 [00:04:08.390 --> 00:04:15.519] [Music] wait i went after her\nS54 [00:04:44.470 --> 00:05:05.310] [Music] got your help either direction except for that one oh my god\nS60 [00:05:23.199 --> 00:05:53.840] my god oh my god oh my god oh my god you're a child jesse said child that's a real man yeah shut up what is that\nS67 [00:06:21.290 --> 00:06:27.250] [Music] [Applause]\nS71 [00:06:54.000 --> 00:07:03.840] oh my god\nS73 [00:07:28.000 --> 00:07:44.960] i don't mean [Music] hey oh\nS76 [00:07:56.080 --> 00:08:13.840] sunscreen in his eyes it's a bug\nS87 [00:08:41.279 --> 00:08:55.839] first person to get the bottle all the way over here is the winner three two one go oh my god\nS91 [00:09:00.399 --> 00:09:13.120] i missed every single shot changes the champion just like that name's your prize whoa hey easy easy boost basketball shoe\nS97 [00:09:15.279 --> 00:09:23.839] my basketball court we are doing a 4v4 youtubers match for a thousand dollars be there or be square goodbye",
+      "text_tokens": 810,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        9,
+        12,
+        26,
+        29,
+        31,
+        37,
+        40,
+        42,
+        54,
+        57,
+        62,
+        63,
+        68,
+        75,
+        87,
+        90,
+        91,
+        94,
+        97
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f0db4d883a36582bda2d1f7380236403d8930b822f74f773cbdb7fbcec46f7cd"
+}

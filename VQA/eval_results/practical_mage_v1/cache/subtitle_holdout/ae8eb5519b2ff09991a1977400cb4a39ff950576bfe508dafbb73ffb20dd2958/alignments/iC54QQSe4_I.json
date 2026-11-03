@@ -1,0 +1,343 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "iC54QQSe4_I",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/iC54QQSe4_I.srt",
+      "status": "available",
+      "bytes": 10505,
+      "sha256": "e7fe5f586d21c169fc41333268effc62288fb102abe95fb85ea1486c12edf55e",
+      "cues": 100,
+      "nonempty_cues": 100
+    },
+    "frame_indices": [
+      0,
+      198,
+      395,
+      593,
+      790,
+      988,
+      1185,
+      1383,
+      1580,
+      1778,
+      1975,
+      2173,
+      2371,
+      2568,
+      2766,
+      2963,
+      3161,
+      3358,
+      3556,
+      3753,
+      3951,
+      4149,
+      4346,
+      4544,
+      4741,
+      4939,
+      5136,
+      5334,
+      5531,
+      5729,
+      5926,
+      6124
+    ],
+    "frame_seconds": [
+      0.0,
+      8.25825,
+      16.474792,
+      24.733042,
+      32.949583,
+      41.207833,
+      49.424375,
+      57.682625,
+      65.899167,
+      74.157417,
+      82.373958,
+      90.63220799999999,
+      98.890458,
+      107.107,
+      115.36525,
+      123.58179200000001,
+      131.840042,
+      140.056583,
+      148.314833,
+      156.531375,
+      164.789625,
+      173.047875,
+      181.264417,
+      189.522667,
+      197.739208,
+      205.997458,
+      214.214,
+      222.47225,
+      230.688792,
+      238.947042,
+      247.163583,
+      255.421833
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        4
+      ],
+      [
+        8
+      ],
+      [
+        12
+      ],
+      [
+        14
+      ],
+      [
+        18
+      ],
+      [
+        23
+      ],
+      [
+        26
+      ],
+      [
+        29
+      ],
+      [
+        32
+      ],
+      [
+        35
+      ],
+      [
+        40
+      ],
+      [
+        44
+      ],
+      [
+        48
+      ],
+      [
+        52
+      ],
+      [],
+      [
+        59
+      ],
+      [
+        62
+      ],
+      [
+        67
+      ],
+      [
+        71
+      ],
+      [
+        73
+      ],
+      [
+        77
+      ],
+      [
+        80
+      ],
+      [],
+      [],
+      [
+        85
+      ],
+      [
+        88
+      ],
+      [
+        91
+      ],
+      [
+        94
+      ],
+      [
+        99
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 1000,
+        "text": "Say cheese."
+      },
+      {
+        "cue_id": 4,
+        "start_ms": 5630,
+        "end_ms": 8883,
+        "text": "You're pretty cranky for a princess rodeo clown. Missy!"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 16306,
+        "end_ms": 19144,
+        "text": "I can't believe she would hide that from me."
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 24274,
+        "end_ms": 25817,
+        "text": "Would you care to explain this letter,"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 31990,
+        "end_ms": 33283,
+        "text": "Well?"
+      },
+      {
+        "cue_id": 18,
+        "start_ms": 40373,
+        "end_ms": 41750,
+        "text": "How could you not tell me"
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 49340,
+        "end_ms": 52469,
+        "text": "that letter is addressed to the parents of Sheldon Cooper."
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 57265,
+        "end_ms": 58683,
+        "text": "Go to your room."
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 62187,
+        "end_ms": 66399,
+        "text": "ADULT SHELDON: I was angry at my mother and needed more information."
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 72280,
+        "end_ms": 75408,
+        "text": "Boy howdy, I do love a loophole."
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 80413,
+        "end_ms": 82624,
+        "text": "One's a person, one's a cartoon."
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 89464,
+        "end_ms": 91049,
+        "text": "How'd you even find me?"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 97639,
+        "end_ms": 99973,
+        "text": "about this recruitment letter from Caltech."
+      },
+      {
+        "cue_id": 48,
+        "start_ms": 105854,
+        "end_ms": 107899,
+        "text": "Aw, come on!"
+      },
+      {
+        "cue_id": 52,
+        "start_ms": 114405,
+        "end_ms": 115615,
+        "text": "I need to talk to your mother."
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 130588,
+        "end_ms": 133133,
+        "text": "I didn't see the point in him knowing about it."
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 137554,
+        "end_ms": 140098,
+        "text": "This says to the \"parents\" of Sheldon Cooper."
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 148314,
+        "end_ms": 150108,
+        "text": "Okay, now you know."
+      },
+      {
+        "cue_id": 71,
+        "start_ms": 156364,
+        "end_ms": 158867,
+        "text": "He's not just your son. He's my son, too."
+      },
+      {
+        "cue_id": 73,
+        "start_ms": 163079,
+        "end_ms": 165707,
+        "text": "or every morning when I have to make his lunch."
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 173047,
+        "end_ms": 174591,
+        "text": "to California to live by himself?"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 180263,
+        "end_ms": 181806,
+        "text": "He is not going anywhere."
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 204871,
+        "end_ms": 207832,
+        "text": "We don't usually get to chat, just us."
+      },
+      {
+        "cue_id": 88,
+        "start_ms": 214172,
+        "end_ms": 216466,
+        "text": "Fine."
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 221596,
+        "end_ms": 225183,
+        "text": "So, any boys you like?"
+      },
+      {
+        "cue_id": 94,
+        "start_ms": 228895,
+        "end_ms": 231397,
+        "text": "Trying to find a job, but no one's hiring."
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 238571,
+        "end_ms": 241032,
+        "text": "Oh. Boys."
+      }
+    ],
+    "text": "Say cheese.\nYou're pretty cranky for a princess rodeo clown. Missy!\nI can't believe she would hide that from me.\nWould you care to explain this letter,\nWell?\nHow could you not tell me\nthat letter is addressed to the parents of Sheldon Cooper.\nGo to your room.\nADULT SHELDON: I was angry at my mother and needed more information.\nBoy howdy, I do love a loophole.\nOne's a person, one's a cartoon.\nHow'd you even find me?\nabout this recruitment letter from Caltech.\nAw, come on!\nI need to talk to your mother.\nI didn't see the point in him knowing about it.\nThis says to the \"parents\" of Sheldon Cooper.\nOkay, now you know.\nHe's not just your son. He's my son, too.\nor every morning when I have to make his lunch.\nto California to live by himself?\nHe is not going anywhere.\nWe don't usually get to chat, just us.\nFine.\nSo, any boys you like?\nTrying to find a job, but no one's hiring.\nOh. Boys.",
+    "text_tokens": 230,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "1c87dbaf3f81688150fd7eac985929f8efe3d58645d8a0c477806180018d2cd4",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

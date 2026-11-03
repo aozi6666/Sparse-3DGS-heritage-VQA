@@ -1,0 +1,589 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "-c8eATXUui8",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/-c8eATXUui8.srt",
+      "status": "available",
+      "bytes": 25204,
+      "sha256": "52dc7afe80b709afd84a3021c30763e20f9dc223befe409275262a58763d2c70",
+      "cues": 233,
+      "nonempty_cues": 233
+    },
+    "frame_indices": [
+      0,
+      459,
+      917,
+      1376,
+      1834,
+      2293,
+      2751,
+      3210,
+      3668,
+      4127,
+      4585,
+      5044,
+      5503,
+      5961,
+      6420,
+      6878,
+      7337,
+      7795,
+      8254,
+      8712,
+      9171,
+      9630,
+      10088,
+      10547,
+      11005,
+      11464,
+      11922,
+      12381,
+      12839,
+      13298,
+      13756,
+      14215
+    ],
+    "frame_seconds": [
+      0.0,
+      19.125,
+      38.208333,
+      57.333333,
+      76.416667,
+      95.54166699999999,
+      114.625,
+      133.75,
+      152.833333,
+      171.958333,
+      191.041667,
+      210.166667,
+      229.291667,
+      248.375,
+      267.5,
+      286.583333,
+      305.708333,
+      324.791667,
+      343.916667,
+      363.0,
+      382.125,
+      401.25,
+      420.333333,
+      439.458333,
+      458.541667,
+      477.666667,
+      496.75,
+      515.875,
+      534.958333,
+      554.083333,
+      573.166667,
+      592.291667
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        30,
+        31
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        42,
+        43
+      ],
+      [
+        50,
+        51
+      ],
+      [
+        58,
+        59
+      ],
+      [
+        65,
+        66
+      ],
+      [
+        72,
+        73
+      ],
+      [
+        80,
+        81
+      ],
+      [
+        88,
+        89
+      ],
+      [
+        95,
+        96
+      ],
+      [
+        104,
+        105
+      ],
+      [
+        113,
+        114
+      ],
+      [
+        120,
+        121
+      ],
+      [
+        127,
+        128
+      ],
+      [
+        135,
+        136
+      ],
+      [
+        141
+      ],
+      [
+        147,
+        148
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        170,
+        171
+      ],
+      [
+        177,
+        178
+      ],
+      [
+        187,
+        188
+      ],
+      [
+        192,
+        193
+      ],
+      [
+        198,
+        199
+      ],
+      [
+        207,
+        208
+      ],
+      [
+        215,
+        216
+      ],
+      [
+        224,
+        225
+      ],
+      [
+        232,
+        233
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 3860,
+        "text": "this video is brought to you by"
+      },
+      {
+        "cue_id": 7,
+        "start_ms": 15139,
+        "end_ms": 20460,
+        "text": "New York City the land of all"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 18119,
+        "end_ms": 22980,
+        "text": "possibilities if you're very rich Big"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 35219,
+        "end_ms": 39540,
+        "text": "other things and we're gonna give each"
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 37380,
+        "end_ms": 41460,
+        "text": "one of them a rating from zero to ten"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 54059,
+        "end_ms": 58920,
+        "text": "looking at salmon cream cheese Capers"
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 56520,
+        "end_ms": 61320,
+        "text": "tomato and avocado on an everything"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 74159,
+        "end_ms": 78000,
+        "text": "little bit messy to eat but this is"
+      },
+      {
+        "cue_id": 31,
+        "start_ms": 75840,
+        "end_ms": 80280,
+        "text": "definitely super enjoyable for breakfast"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 93180,
+        "end_ms": 97500,
+        "text": "so this next place we're gonna try is"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 94799,
+        "end_ms": 99360,
+        "text": "called Joe's steam rice rolls it's been"
+      },
+      {
+        "cue_id": 42,
+        "start_ms": 109619,
+        "end_ms": 115799,
+        "text": "do I add the sauce on top okay so I can"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 113158,
+        "end_ms": 118020,
+        "text": "add these sauces on top this that looks"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 130139,
+        "end_ms": 134160,
+        "text": "nice and subtle it's not too"
+      },
+      {
+        "cue_id": 51,
+        "start_ms": 131520,
+        "end_ms": 137160,
+        "text": "overpowering this is amazing this is a"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 149879,
+        "end_ms": 155700,
+        "text": "donut plant they had some crazy flavors"
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 152280,
+        "end_ms": 157739,
+        "text": "like Cacho a Pepe or Maple pancake but"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 166560,
+        "end_ms": 172019,
+        "text": "donut fan I do not want to disappoint"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 169319,
+        "end_ms": 173879,
+        "text": "you but these were a seven to me but now"
+      },
+      {
+        "cue_id": 72,
+        "start_ms": 186239,
+        "end_ms": 192540,
+        "text": "wet and cold I am wet and cold the rain"
+      },
+      {
+        "cue_id": 73,
+        "start_ms": 189840,
+        "end_ms": 195239,
+        "text": "has won this battle but only momentarily"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 206340,
+        "end_ms": 210420,
+        "text": "the pizza and I get out of there and"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 208319,
+        "end_ms": 212519,
+        "text": "that's it which I guess makes sense we"
+      },
+      {
+        "cue_id": 88,
+        "start_ms": 226319,
+        "end_ms": 230760,
+        "text": "want to thank you for this pizza but Mr"
+      },
+      {
+        "cue_id": 89,
+        "start_ms": 228720,
+        "end_ms": 234000,
+        "text": "Joe I thought it was a little overrated"
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 244200,
+        "end_ms": 249000,
+        "text": "anymore go away"
+      },
+      {
+        "cue_id": 96,
+        "start_ms": 246239,
+        "end_ms": 250680,
+        "text": "it's not raining anymore I'm a little"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 264000,
+        "end_ms": 268680,
+        "text": "dog places in Times Square but this one"
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 266280,
+        "end_ms": 271800,
+        "text": "John's Famous it said there that it's"
+      },
+      {
+        "cue_id": 113,
+        "start_ms": 283919,
+        "end_ms": 287220,
+        "text": "New York"
+      },
+      {
+        "cue_id": 114,
+        "start_ms": 284780,
+        "end_ms": 289820,
+        "text": "all right let me do that"
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 301620,
+        "end_ms": 306360,
+        "text": "shiny advertisements eating a kind of"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 304320,
+        "end_ms": 308580,
+        "text": "shitty hot dog for some reason the"
+      },
+      {
+        "cue_id": 127,
+        "start_ms": 321660,
+        "end_ms": 325560,
+        "text": "hits the spot and I love it and it's"
+      },
+      {
+        "cue_id": 128,
+        "start_ms": 323520,
+        "end_ms": 328320,
+        "text": "starting to rain again so I will rate"
+      },
+      {
+        "cue_id": 135,
+        "start_ms": 340979,
+        "end_ms": 346080,
+        "text": "sandwich and you know this place is good"
+      },
+      {
+        "cue_id": 136,
+        "start_ms": 343500,
+        "end_ms": 348600,
+        "text": "because there was a big line outside and"
+      },
+      {
+        "cue_id": 141,
+        "start_ms": 362900,
+        "end_ms": 368580,
+        "text": "we found the perfect place to eat"
+      },
+      {
+        "cue_id": 147,
+        "start_ms": 379320,
+        "end_ms": 384000,
+        "text": "look at that"
+      },
+      {
+        "cue_id": 148,
+        "start_ms": 381500,
+        "end_ms": 386639,
+        "text": "that looks and smells"
+      },
+      {
+        "cue_id": 154,
+        "start_ms": 398940,
+        "end_ms": 403800,
+        "text": "yeah"
+      },
+      {
+        "cue_id": 155,
+        "start_ms": 401039,
+        "end_ms": 406199,
+        "text": "oh my God there is one of the best"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 417360,
+        "end_ms": 421319,
+        "text": "you got to take a bite of this okay our"
+      },
+      {
+        "cue_id": 163,
+        "start_ms": 419100,
+        "end_ms": 424259,
+        "text": "next stop is a taco place it's called"
+      },
+      {
+        "cue_id": 170,
+        "start_ms": 435419,
+        "end_ms": 439500,
+        "text": "food when it's executed correctly and"
+      },
+      {
+        "cue_id": 171,
+        "start_ms": 437639,
+        "end_ms": 441660,
+        "text": "the way these tacos looked I was"
+      },
+      {
+        "cue_id": 177,
+        "start_ms": 452819,
+        "end_ms": 458639,
+        "text": "taco bite I've had in my life Los Tacos"
+      },
+      {
+        "cue_id": 178,
+        "start_ms": 455819,
+        "end_ms": 461220,
+        "text": "easily gets a 10 but how can we end this"
+      },
+      {
+        "cue_id": 187,
+        "start_ms": 475319,
+        "end_ms": 480660,
+        "text": "I love that guy"
+      },
+      {
+        "cue_id": 188,
+        "start_ms": 477479,
+        "end_ms": 483319,
+        "text": "oh boy I think this is the chocolate"
+      },
+      {
+        "cue_id": 192,
+        "start_ms": 493199,
+        "end_ms": 498120,
+        "text": "oh God"
+      },
+      {
+        "cue_id": 193,
+        "start_ms": 494340,
+        "end_ms": 498120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 198,
+        "start_ms": 512940,
+        "end_ms": 516659,
+        "text": "like this it's a 10 but you know what's"
+      },
+      {
+        "cue_id": 199,
+        "start_ms": 514679,
+        "end_ms": 519659,
+        "text": "even better than delicious cookies"
+      },
+      {
+        "cue_id": 207,
+        "start_ms": 533040,
+        "end_ms": 536940,
+        "text": "templates that you can choose from"
+      },
+      {
+        "cue_id": 208,
+        "start_ms": 534660,
+        "end_ms": 539519,
+        "text": "whether you're a photographer an"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 549839,
+        "end_ms": 555360,
+        "text": "from gated members only content send"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 552600,
+        "end_ms": 557399,
+        "text": "email Communications display posts from"
+      },
+      {
+        "cue_id": 224,
+        "start_ms": 570000,
+        "end_ms": 574740,
+        "text": "my channel name and you can get 10 off"
+      },
+      {
+        "cue_id": 225,
+        "start_ms": 572760,
+        "end_ms": 577380,
+        "text": "your first purchase of a website or a"
+      },
+      {
+        "cue_id": 232,
+        "start_ms": 588360,
+        "end_ms": 594019,
+        "text": "and"
+      },
+      {
+        "cue_id": 233,
+        "start_ms": 589740,
+        "end_ms": 594019,
+        "text": "I'll see you soon probably back home"
+      }
+    ],
+    "text": "this video is brought to you by\nNew York City the land of all\npossibilities if you're very rich Big\nother things and we're gonna give each\none of them a rating from zero to ten\nlooking at salmon cream cheese Capers\ntomato and avocado on an everything\nlittle bit messy to eat but this is\ndefinitely super enjoyable for breakfast\nso this next place we're gonna try is\ncalled Joe's steam rice rolls it's been\ndo I add the sauce on top okay so I can\nadd these sauces on top this that looks\nnice and subtle it's not too\noverpowering this is amazing this is a\ndonut plant they had some crazy flavors\nlike Cacho a Pepe or Maple pancake but\ndonut fan I do not want to disappoint\nyou but these were a seven to me but now\nwet and cold I am wet and cold the rain\nhas won this battle but only momentarily\nthe pizza and I get out of there and\nthat's it which I guess makes sense we\nwant to thank you for this pizza but Mr\nJoe I thought it was a little overrated\nanymore go away\nit's not raining anymore I'm a little\ndog places in Times Square but this one\nJohn's Famous it said there that it's\nNew York\nall right let me do that\nshiny advertisements eating a kind of\nshitty hot dog for some reason the\nhits the spot and I love it and it's\nstarting to rain again so I will rate\nsandwich and you know this place is good\nbecause there was a big line outside and\nwe found the perfect place to eat\nlook at that\nthat looks and smells\nyeah\noh my God there is one of the best\nyou got to take a bite of this okay our\nnext stop is a taco place it's called\nfood when it's executed correctly and\nthe way these tacos looked I was\ntaco bite I've had in my life Los Tacos\neasily gets a 10 but how can we end this\nI love that guy\noh boy I think this is the chocolate\noh God\n[Music]\nlike this it's a 10 but you know what's\neven better than delicious cookies\ntemplates that you can choose from\nwhether you're a photographer an\nfrom gated members only content send\nemail Communications display posts from\nmy channel name and you can get 10 off\nyour first purchase of a website or a\nand\nI'll see you soon probably back home",
+    "text_tokens": 529,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "72a2fdbecc213346f2ff0bc9f44323511aad90100e10a547d609acd93472e78a"
+}

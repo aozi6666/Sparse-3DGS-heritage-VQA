@@ -1,0 +1,1482 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "eZ2Rt2DVGdU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eZ2Rt2DVGdU.srt",
+        "status": "available",
+        "bytes": 86504,
+        "sha256": "684e3f5a81ff9f426eabea18ecb3e9b9fbc4a75afebb8e4834e55edcb8562a85",
+        "cues": 874,
+        "nonempty_cues": 874
+      },
+      "frame_indices": [
+        0,
+        2633,
+        5267,
+        7900,
+        10534,
+        13167,
+        15801,
+        18434,
+        21068,
+        23701,
+        26335,
+        28968,
+        31601,
+        34235,
+        36868,
+        39502,
+        42135,
+        44769,
+        47402,
+        50036,
+        52669,
+        55302,
+        57936,
+        60569,
+        63203,
+        65836,
+        68470,
+        71103,
+        73737,
+        76370,
+        79004,
+        81637
+      ],
+      "frame_seconds": [
+        0.0,
+        87.854433,
+        175.742233,
+        263.596667,
+        351.484467,
+        439.3389,
+        527.2267,
+        615.081133,
+        702.968933,
+        790.823367,
+        878.711167,
+        966.5656,
+        1054.420033,
+        1142.307833,
+        1230.162267,
+        1318.050067,
+        1405.9045,
+        1493.7923,
+        1581.646733,
+        1669.534533,
+        1757.388967,
+        1845.2434,
+        1933.1312,
+        2020.985633,
+        2108.873433,
+        2196.727867,
+        2284.615667,
+        2372.4701,
+        2460.3579,
+        2548.212333,
+        2636.100133,
+        2723.954567
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          117,
+          118
+        ],
+        [
+          148,
+          149
+        ],
+        [
+          177,
+          178
+        ],
+        [
+          205,
+          206
+        ],
+        [
+          235,
+          236
+        ],
+        [
+          266,
+          267
+        ],
+        [
+          295,
+          296
+        ],
+        [
+          327,
+          328
+        ],
+        [
+          352,
+          353
+        ],
+        [
+          379,
+          380
+        ],
+        [
+          407,
+          408
+        ],
+        [
+          435,
+          436
+        ],
+        [],
+        [
+          485,
+          486
+        ],
+        [
+          513,
+          514
+        ],
+        [
+          541
+        ],
+        [
+          566
+        ],
+        [
+          594,
+          595
+        ],
+        [],
+        [
+          651,
+          652
+        ],
+        [
+          680,
+          681
+        ],
+        [
+          708,
+          709
+        ],
+        [
+          731,
+          732
+        ],
+        [
+          759
+        ],
+        [
+          791,
+          792
+        ],
+        [
+          820,
+          821
+        ],
+        [
+          849,
+          850
+        ],
+        [
+          874
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 2480,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 83600,
+          "end_ms": 91119,
+          "text": "it's called the torpedo and it's massive"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 87520,
+          "end_ms": 91119,
+          "text": "weighing up to 80 pounds"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 172560,
+          "end_ms": 177599,
+          "text": "the blue ringed octopus is barely bigger"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 175120,
+          "end_ms": 179440,
+          "text": "than a golf ball"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 258720,
+          "end_ms": 266080,
+          "text": "its skin rise to the surface and turn"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 261440,
+          "end_ms": 266080,
+          "text": "the rings a brilliant neon blue"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 348350,
+          "end_ms": 353120,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 350880,
+          "end_ms": 353850,
+          "text": "this little blue fish doesn't look very"
+        },
+        {
+          "cue_id": 148,
+          "start_ms": 437360,
+          "end_ms": 439759,
+          "text": "mind"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 438150,
+          "end_ms": 441599,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 523200,
+          "end_ms": 529200,
+          "text": "yes moire eels have not one but two sets"
+        },
+        {
+          "cue_id": 178,
+          "start_ms": 527040,
+          "end_ms": 531760,
+          "text": "of jaws"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 606800,
+          "end_ms": 616839,
+          "text": "a huge snapper is sniffing"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 610660,
+          "end_ms": 619040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 698560,
+          "end_ms": 703440,
+          "text": "when alarmed or aggressive"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 701120,
+          "end_ms": 704720,
+          "text": "they turn red"
+        },
+        {
+          "cue_id": 266,
+          "start_ms": 789120,
+          "end_ms": 793120,
+          "text": "look"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 790079,
+          "end_ms": 793120,
+          "text": "but don't touch"
+        },
+        {
+          "cue_id": 295,
+          "start_ms": 873199,
+          "end_ms": 879199,
+          "text": "instantly regret it"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 875839,
+          "end_ms": 882000,
+          "text": "this is the fire urchin"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 963440,
+          "end_ms": 968120,
+          "text": "fascinating"
+        },
+        {
+          "cue_id": 328,
+          "start_ms": 964800,
+          "end_ms": 968120,
+          "text": "and deadly"
+        },
+        {
+          "cue_id": 352,
+          "start_ms": 1050640,
+          "end_ms": 1055200,
+          "text": "floor"
+        },
+        {
+          "cue_id": 353,
+          "start_ms": 1052320,
+          "end_ms": 1058160,
+          "text": "then it rotates and pivots to pick it up"
+        },
+        {
+          "cue_id": 379,
+          "start_ms": 1140160,
+          "end_ms": 1144400,
+          "text": "on fish"
+        },
+        {
+          "cue_id": 380,
+          "start_ms": 1141600,
+          "end_ms": 1146799,
+          "text": "or people"
+        },
+        {
+          "cue_id": 407,
+          "start_ms": 1225440,
+          "end_ms": 1232630,
+          "text": "he flops onto the ice for a land ambush"
+        },
+        {
+          "cue_id": 408,
+          "start_ms": 1229440,
+          "end_ms": 1232630,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 435,
+          "start_ms": 1313360,
+          "end_ms": 1319240,
+          "text": "a battle of the slowest"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1315440,
+          "end_ms": 1319240,
+          "text": "begins with a chase"
+        },
+        {
+          "cue_id": 485,
+          "start_ms": 1491200,
+          "end_ms": 1494970,
+          "text": "blind"
+        },
+        {
+          "cue_id": 486,
+          "start_ms": 1492400,
+          "end_ms": 1496799,
+          "text": "brainless blobs"
+        },
+        {
+          "cue_id": 513,
+          "start_ms": 1577200,
+          "end_ms": 1583279,
+          "text": "the poison is also lethal to humans"
+        },
+        {
+          "cue_id": 514,
+          "start_ms": 1580320,
+          "end_ms": 1585200,
+          "text": "attacking the heart nervous system and"
+        },
+        {
+          "cue_id": 541,
+          "start_ms": 1667600,
+          "end_ms": 1672720,
+          "text": "a teaching lesson again and again"
+        },
+        {
+          "cue_id": 566,
+          "start_ms": 1755840,
+          "end_ms": 1760080,
+          "text": "like there isn't enough venom in the"
+        },
+        {
+          "cue_id": 594,
+          "start_ms": 1841200,
+          "end_ms": 1847679,
+          "text": "which frees up the banded secret to"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 1843840,
+          "end_ms": 1847679,
+          "text": "slither off for another meal"
+        },
+        {
+          "cue_id": 651,
+          "start_ms": 2017039,
+          "end_ms": 2021360,
+          "text": "done"
+        },
+        {
+          "cue_id": 652,
+          "start_ms": 2018720,
+          "end_ms": 2023370,
+          "text": "legends tell of humongous specimens"
+        },
+        {
+          "cue_id": 680,
+          "start_ms": 2103359,
+          "end_ms": 2109119,
+          "text": "so they can stuff themselves into the"
+        },
+        {
+          "cue_id": 681,
+          "start_ms": 2105280,
+          "end_ms": 2113359,
+          "text": "smallest of cracks and holes"
+        },
+        {
+          "cue_id": 708,
+          "start_ms": 2192160,
+          "end_ms": 2198320,
+          "text": "this mouth-broding expectant father is"
+        },
+        {
+          "cue_id": 709,
+          "start_ms": 2194800,
+          "end_ms": 2200320,
+          "text": "aerating the eggs to help them develop"
+        },
+        {
+          "cue_id": 731,
+          "start_ms": 2282720,
+          "end_ms": 2286480,
+          "text": "predators"
+        },
+        {
+          "cue_id": 732,
+          "start_ms": 2284240,
+          "end_ms": 2289680,
+          "text": "they scavenge carcasses"
+        },
+        {
+          "cue_id": 759,
+          "start_ms": 2370240,
+          "end_ms": 2373359,
+          "text": "they're gigantic"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 2456000,
+          "end_ms": 2461359,
+          "text": "beaks in their stomachs are evidence"
+        },
+        {
+          "cue_id": 792,
+          "start_ms": 2458000,
+          "end_ms": 2466079,
+          "text": "that the war is being raged and probably"
+        },
+        {
+          "cue_id": 820,
+          "start_ms": 2545680,
+          "end_ms": 2550880,
+          "text": "it prowls the murky ponds and river"
+        },
+        {
+          "cue_id": 821,
+          "start_ms": 2547839,
+          "end_ms": 2553520,
+          "text": "basins of south america"
+        },
+        {
+          "cue_id": 849,
+          "start_ms": 2633359,
+          "end_ms": 2638000,
+          "text": "it's pretty much blind"
+        },
+        {
+          "cue_id": 850,
+          "start_ms": 2635920,
+          "end_ms": 2641839,
+          "text": "but the small electrical pulses it"
+        },
+        {
+          "cue_id": 874,
+          "start_ms": 2723760,
+          "end_ms": 2725839,
+          "text": "you"
+        }
+      ],
+      "text": "[Music]\nit's called the torpedo and it's massive\nweighing up to 80 pounds\nthe blue ringed octopus is barely bigger\nthan a golf ball\nits skin rise to the surface and turn\nthe rings a brilliant neon blue\n[Music]\nthis little blue fish doesn't look very\nmind\n[Music]\nyes moire eels have not one but two sets\nof jaws\na huge snapper is sniffing\n[Music]\nwhen alarmed or aggressive\nthey turn red\nlook\nbut don't touch\ninstantly regret it\nthis is the fire urchin\nfascinating\nand deadly\nfloor\nthen it rotates and pivots to pick it up\non fish\nor people\nhe flops onto the ice for a land ambush\n[Music]\na battle of the slowest\nbegins with a chase\nblind\nbrainless blobs\nthe poison is also lethal to humans\nattacking the heart nervous system and\na teaching lesson again and again\nlike there isn't enough venom in the\nwhich frees up the banded secret to\nslither off for another meal\ndone\nlegends tell of humongous specimens\nso they can stuff themselves into the\nsmallest of cracks and holes\nthis mouth-broding expectant father is\naerating the eggs to help them develop\npredators\nthey scavenge carcasses\nthey're gigantic\nbeaks in their stomachs are evidence\nthat the war is being raged and probably\nit prowls the murky ponds and river\nbasins of south america\nit's pretty much blind\nbut the small electrical pulses it\nyou",
+      "text_tokens": 340,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eZ2Rt2DVGdU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eZ2Rt2DVGdU.srt",
+          "status": "available",
+          "bytes": 86504,
+          "sha256": "684e3f5a81ff9f426eabea18ecb3e9b9fbc4a75afebb8e4834e55edcb8562a85",
+          "cues": 874,
+          "nonempty_cues": 874
+        },
+        "frame_indices": [
+          0,
+          2633,
+          5267,
+          7900,
+          10534,
+          13167,
+          15801,
+          18434,
+          21068,
+          23701,
+          26335,
+          28968,
+          31601,
+          34235,
+          36868,
+          39502,
+          42135,
+          44769,
+          47402,
+          50036,
+          52669,
+          55302,
+          57936,
+          60569,
+          63203,
+          65836,
+          68470,
+          71103,
+          73737,
+          76370,
+          79004,
+          81637
+        ],
+        "frame_seconds": [
+          0.0,
+          87.854433,
+          175.742233,
+          263.596667,
+          351.484467,
+          439.3389,
+          527.2267,
+          615.081133,
+          702.968933,
+          790.823367,
+          878.711167,
+          966.5656,
+          1054.420033,
+          1142.307833,
+          1230.162267,
+          1318.050067,
+          1405.9045,
+          1493.7923,
+          1581.646733,
+          1669.534533,
+          1757.388967,
+          1845.2434,
+          1933.1312,
+          2020.985633,
+          2108.873433,
+          2196.727867,
+          2284.615667,
+          2372.4701,
+          2460.3579,
+          2548.212333,
+          2636.100133,
+          2723.954567
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            53,
+            54
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            117,
+            118
+          ],
+          [
+            148,
+            149
+          ],
+          [
+            177,
+            178
+          ],
+          [
+            205,
+            206
+          ],
+          [
+            235,
+            236
+          ],
+          [
+            266,
+            267
+          ],
+          [
+            295,
+            296
+          ],
+          [
+            327,
+            328
+          ],
+          [
+            352,
+            353
+          ],
+          [
+            379,
+            380
+          ],
+          [
+            407,
+            408
+          ],
+          [
+            435,
+            436
+          ],
+          [],
+          [
+            485,
+            486
+          ],
+          [
+            513,
+            514
+          ],
+          [
+            541
+          ],
+          [
+            566
+          ],
+          [
+            594,
+            595
+          ],
+          [],
+          [
+            651,
+            652
+          ],
+          [
+            680,
+            681
+          ],
+          [
+            708,
+            709
+          ],
+          [
+            731,
+            732
+          ],
+          [
+            759
+          ],
+          [
+            791,
+            792
+          ],
+          [
+            820,
+            821
+          ],
+          [
+            849,
+            850
+          ],
+          [
+            874
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 2480,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 83600,
+            "end_ms": 91119,
+            "text": "it's called the torpedo and it's massive"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 87520,
+            "end_ms": 91119,
+            "text": "weighing up to 80 pounds"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 172560,
+            "end_ms": 177599,
+            "text": "the blue ringed octopus is barely bigger"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 175120,
+            "end_ms": 179440,
+            "text": "than a golf ball"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 258720,
+            "end_ms": 266080,
+            "text": "its skin rise to the surface and turn"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 261440,
+            "end_ms": 266080,
+            "text": "the rings a brilliant neon blue"
+          },
+          {
+            "cue_id": 117,
+            "start_ms": 348350,
+            "end_ms": 353120,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 350880,
+            "end_ms": 353850,
+            "text": "this little blue fish doesn't look very"
+          },
+          {
+            "cue_id": 148,
+            "start_ms": 437360,
+            "end_ms": 439759,
+            "text": "mind"
+          },
+          {
+            "cue_id": 149,
+            "start_ms": 438150,
+            "end_ms": 441599,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 523200,
+            "end_ms": 529200,
+            "text": "yes moire eels have not one but two sets"
+          },
+          {
+            "cue_id": 178,
+            "start_ms": 527040,
+            "end_ms": 531760,
+            "text": "of jaws"
+          },
+          {
+            "cue_id": 205,
+            "start_ms": 606800,
+            "end_ms": 616839,
+            "text": "a huge snapper is sniffing"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 610660,
+            "end_ms": 619040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 698560,
+            "end_ms": 703440,
+            "text": "when alarmed or aggressive"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 701120,
+            "end_ms": 704720,
+            "text": "they turn red"
+          },
+          {
+            "cue_id": 266,
+            "start_ms": 789120,
+            "end_ms": 793120,
+            "text": "look"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 790079,
+            "end_ms": 793120,
+            "text": "but don't touch"
+          },
+          {
+            "cue_id": 295,
+            "start_ms": 873199,
+            "end_ms": 879199,
+            "text": "instantly regret it"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 875839,
+            "end_ms": 882000,
+            "text": "this is the fire urchin"
+          },
+          {
+            "cue_id": 327,
+            "start_ms": 963440,
+            "end_ms": 968120,
+            "text": "fascinating"
+          },
+          {
+            "cue_id": 328,
+            "start_ms": 964800,
+            "end_ms": 968120,
+            "text": "and deadly"
+          },
+          {
+            "cue_id": 352,
+            "start_ms": 1050640,
+            "end_ms": 1055200,
+            "text": "floor"
+          },
+          {
+            "cue_id": 353,
+            "start_ms": 1052320,
+            "end_ms": 1058160,
+            "text": "then it rotates and pivots to pick it up"
+          },
+          {
+            "cue_id": 379,
+            "start_ms": 1140160,
+            "end_ms": 1144400,
+            "text": "on fish"
+          },
+          {
+            "cue_id": 380,
+            "start_ms": 1141600,
+            "end_ms": 1146799,
+            "text": "or people"
+          },
+          {
+            "cue_id": 407,
+            "start_ms": 1225440,
+            "end_ms": 1232630,
+            "text": "he flops onto the ice for a land ambush"
+          },
+          {
+            "cue_id": 408,
+            "start_ms": 1229440,
+            "end_ms": 1232630,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 435,
+            "start_ms": 1313360,
+            "end_ms": 1319240,
+            "text": "a battle of the slowest"
+          },
+          {
+            "cue_id": 436,
+            "start_ms": 1315440,
+            "end_ms": 1319240,
+            "text": "begins with a chase"
+          },
+          {
+            "cue_id": 485,
+            "start_ms": 1491200,
+            "end_ms": 1494970,
+            "text": "blind"
+          },
+          {
+            "cue_id": 486,
+            "start_ms": 1492400,
+            "end_ms": 1496799,
+            "text": "brainless blobs"
+          },
+          {
+            "cue_id": 513,
+            "start_ms": 1577200,
+            "end_ms": 1583279,
+            "text": "the poison is also lethal to humans"
+          },
+          {
+            "cue_id": 514,
+            "start_ms": 1580320,
+            "end_ms": 1585200,
+            "text": "attacking the heart nervous system and"
+          },
+          {
+            "cue_id": 541,
+            "start_ms": 1667600,
+            "end_ms": 1672720,
+            "text": "a teaching lesson again and again"
+          },
+          {
+            "cue_id": 566,
+            "start_ms": 1755840,
+            "end_ms": 1760080,
+            "text": "like there isn't enough venom in the"
+          },
+          {
+            "cue_id": 594,
+            "start_ms": 1841200,
+            "end_ms": 1847679,
+            "text": "which frees up the banded secret to"
+          },
+          {
+            "cue_id": 595,
+            "start_ms": 1843840,
+            "end_ms": 1847679,
+            "text": "slither off for another meal"
+          },
+          {
+            "cue_id": 651,
+            "start_ms": 2017039,
+            "end_ms": 2021360,
+            "text": "done"
+          },
+          {
+            "cue_id": 652,
+            "start_ms": 2018720,
+            "end_ms": 2023370,
+            "text": "legends tell of humongous specimens"
+          },
+          {
+            "cue_id": 680,
+            "start_ms": 2103359,
+            "end_ms": 2109119,
+            "text": "so they can stuff themselves into the"
+          },
+          {
+            "cue_id": 681,
+            "start_ms": 2105280,
+            "end_ms": 2113359,
+            "text": "smallest of cracks and holes"
+          },
+          {
+            "cue_id": 708,
+            "start_ms": 2192160,
+            "end_ms": 2198320,
+            "text": "this mouth-broding expectant father is"
+          },
+          {
+            "cue_id": 709,
+            "start_ms": 2194800,
+            "end_ms": 2200320,
+            "text": "aerating the eggs to help them develop"
+          },
+          {
+            "cue_id": 731,
+            "start_ms": 2282720,
+            "end_ms": 2286480,
+            "text": "predators"
+          },
+          {
+            "cue_id": 732,
+            "start_ms": 2284240,
+            "end_ms": 2289680,
+            "text": "they scavenge carcasses"
+          },
+          {
+            "cue_id": 759,
+            "start_ms": 2370240,
+            "end_ms": 2373359,
+            "text": "they're gigantic"
+          },
+          {
+            "cue_id": 791,
+            "start_ms": 2456000,
+            "end_ms": 2461359,
+            "text": "beaks in their stomachs are evidence"
+          },
+          {
+            "cue_id": 792,
+            "start_ms": 2458000,
+            "end_ms": 2466079,
+            "text": "that the war is being raged and probably"
+          },
+          {
+            "cue_id": 820,
+            "start_ms": 2545680,
+            "end_ms": 2550880,
+            "text": "it prowls the murky ponds and river"
+          },
+          {
+            "cue_id": 821,
+            "start_ms": 2547839,
+            "end_ms": 2553520,
+            "text": "basins of south america"
+          },
+          {
+            "cue_id": 849,
+            "start_ms": 2633359,
+            "end_ms": 2638000,
+            "text": "it's pretty much blind"
+          },
+          {
+            "cue_id": 850,
+            "start_ms": 2635920,
+            "end_ms": 2641839,
+            "text": "but the small electrical pulses it"
+          },
+          {
+            "cue_id": 874,
+            "start_ms": 2723760,
+            "end_ms": 2725839,
+            "text": "you"
+          }
+        ],
+        "text": "[Music]\nit's called the torpedo and it's massive\nweighing up to 80 pounds\nthe blue ringed octopus is barely bigger\nthan a golf ball\nits skin rise to the surface and turn\nthe rings a brilliant neon blue\n[Music]\nthis little blue fish doesn't look very\nmind\n[Music]\nyes moire eels have not one but two sets\nof jaws\na huge snapper is sniffing\n[Music]\nwhen alarmed or aggressive\nthey turn red\nlook\nbut don't touch\ninstantly regret it\nthis is the fire urchin\nfascinating\nand deadly\nfloor\nthen it rotates and pivots to pick it up\non fish\nor people\nhe flops onto the ice for a land ambush\n[Music]\na battle of the slowest\nbegins with a chase\nblind\nbrainless blobs\nthe poison is also lethal to humans\nattacking the heart nervous system and\na teaching lesson again and again\nlike there isn't enough venom in the\nwhich frees up the banded secret to\nslither off for another meal\ndone\nlegends tell of humongous specimens\nso they can stuff themselves into the\nsmallest of cracks and holes\nthis mouth-broding expectant father is\naerating the eggs to help them develop\npredators\nthey scavenge carcasses\nthey're gigantic\nbeaks in their stomachs are evidence\nthat the war is being raged and probably\nit prowls the murky ponds and river\nbasins of south america\nit's pretty much blind\nbut the small electrical pulses it\nyou",
+        "text_tokens": 340,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 4720,
+          "text": "[Music] ah"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "start_ms": 81360,
+          "end_ms": 96720,
+          "text": "this is an electric ray it's called the torpedo and it's massive weighing up to 80 pounds unlike other rays that swim with fins"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55
+          ],
+          "start_ms": 172560,
+          "end_ms": 182710,
+          "text": "the blue ringed octopus is barely bigger than a golf ball scouring the tidal pools of the"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "start_ms": 255840,
+          "end_ms": 274080,
+          "text": "but spook it and tiny ink sacks under its skin rise to the surface and turn the rings a brilliant neon blue a vibrant warning"
+        },
+        {
+          "id": "S116",
+          "cue_ids": [
+            116,
+            117,
+            118,
+            119
+          ],
+          "start_ms": 345280,
+          "end_ms": 356159,
+          "text": "the first place [Music] this little blue fish doesn't look very deadly"
+        },
+        {
+          "id": "S147",
+          "cue_ids": [
+            147,
+            148,
+            149,
+            150
+          ],
+          "start_ms": 434800,
+          "end_ms": 443360,
+          "text": "but hunting's what's on this frogfish's mind [Music] he settles down to the perfect"
+        },
+        {
+          "id": "S176",
+          "cue_ids": [
+            176,
+            177,
+            178,
+            179
+          ],
+          "start_ms": 518719,
+          "end_ms": 533839,
+          "text": "then a set of inner jaws go to work yes moire eels have not one but two sets of jaws the second set acts as a claw machine"
+        },
+        {
+          "id": "S204",
+          "cue_ids": [
+            204,
+            205,
+            206,
+            207
+          ],
+          "start_ms": 603600,
+          "end_ms": 620720,
+          "text": "and about to get worse a huge snapper is sniffing [Music] around luckily"
+        },
+        {
+          "id": "S234",
+          "cue_ids": [
+            234,
+            235,
+            236,
+            237
+          ],
+          "start_ms": 695760,
+          "end_ms": 706480,
+          "text": "sacks of pigment in their skin when alarmed or aggressive they turn red as in"
+        },
+        {
+          "id": "S265",
+          "cue_ids": [
+            265,
+            266,
+            267,
+            268
+          ],
+          "start_ms": 786800,
+          "end_ms": 799920,
+          "text": "message to predators look but don't touch people tend to ignore the warning which"
+        },
+        {
+          "id": "S294",
+          "cue_ids": [
+            294,
+            295,
+            296,
+            297
+          ],
+          "start_ms": 870560,
+          "end_ms": 883360,
+          "text": "those who touch it instantly regret it this is the fire urchin like all sea urchins the fire urchin is"
+        },
+        {
+          "id": "S326",
+          "cue_ids": [
+            326,
+            327,
+            328,
+            329
+          ],
+          "start_ms": 961600,
+          "end_ms": 974720,
+          "text": "but they're mysterious fascinating and deadly a huge olfactory cavity allows them to"
+        },
+        {
+          "id": "S351",
+          "cue_ids": [
+            351,
+            352,
+            353,
+            354
+          ],
+          "start_ms": 1048400,
+          "end_ms": 1058160,
+          "text": "noggin to pin its prey to the ocean floor then it rotates and pivots to pick it up and chomp it up"
+        },
+        {
+          "id": "S378",
+          "cue_ids": [
+            378,
+            379,
+            380,
+            381
+          ],
+          "start_ms": 1137760,
+          "end_ms": 1150480,
+          "text": "it's an effective design that works well on fish or people the great barracuda is responsible for"
+        },
+        {
+          "id": "S407",
+          "cue_ids": [
+            407,
+            408
+          ],
+          "start_ms": 1225440,
+          "end_ms": 1232630,
+          "text": "he flops onto the ice for a land ambush [Music]"
+        },
+        {
+          "id": "S434",
+          "cue_ids": [
+            434,
+            435,
+            436
+          ],
+          "start_ms": 1309200,
+          "end_ms": 1319240,
+          "text": "turtle a battle of the slowest begins with a chase"
+        },
+        {
+          "id": "S484",
+          "cue_ids": [
+            484,
+            485,
+            486,
+            487
+          ],
+          "start_ms": 1489760,
+          "end_ms": 1500919,
+          "text": "colorful blind brainless blobs [Music]"
+        },
+        {
+          "id": "S512",
+          "cue_ids": [
+            512,
+            513,
+            514,
+            515
+          ],
+          "start_ms": 1576100,
+          "end_ms": 1588320,
+          "text": "[Music] the poison is also lethal to humans attacking the heart nervous system and skin cells"
+        },
+        {
+          "id": "S540",
+          "cue_ids": [
+            540,
+            541
+          ],
+          "start_ms": 1661600,
+          "end_ms": 1672720,
+          "text": "and is used for target practice a teaching lesson again and again"
+        },
+        {
+          "id": "S565",
+          "cue_ids": [
+            565,
+            566,
+            567
+          ],
+          "start_ms": 1751679,
+          "end_ms": 1763039,
+          "text": "and eat you with like there isn't enough venom in the ocean already"
+        },
+        {
+          "id": "S593",
+          "cue_ids": [
+            593,
+            594,
+            595,
+            596
+          ],
+          "start_ms": 1838240,
+          "end_ms": 1854880,
+          "text": "suffocates which frees up the banded secret to slither off for another meal at first glance it seems that we're"
+        },
+        {
+          "id": "S650",
+          "cue_ids": [
+            650,
+            651,
+            652,
+            653
+          ],
+          "start_ms": 2014000,
+          "end_ms": 2026970,
+          "text": "a normal fishing pole won't get the job done legends tell of humongous specimens dragging fishermen to their doom"
+        },
+        {
+          "id": "S679",
+          "cue_ids": [
+            679,
+            680,
+            681,
+            682
+          ],
+          "start_ms": 2101119,
+          "end_ms": 2113359,
+          "text": "soft and squishy so they can stuff themselves into the smallest of cracks and holes then their hunting skills kick in"
+        },
+        {
+          "id": "S707",
+          "cue_ids": [
+            707,
+            708,
+            709,
+            710
+          ],
+          "start_ms": 2189520,
+          "end_ms": 2203359,
+          "text": "he's tossing his family this mouth-broding expectant father is aerating the eggs to help them develop he'll keep them in his mouth until"
+        },
+        {
+          "id": "S730",
+          "cue_ids": [
+            730,
+            731,
+            732,
+            733
+          ],
+          "start_ms": 2280320,
+          "end_ms": 2291760,
+          "text": "but piranhas are more than just frenzied predators they scavenge carcasses and even eat plants"
+        },
+        {
+          "id": "S759",
+          "cue_ids": [
+            759,
+            760
+          ],
+          "start_ms": 2370240,
+          "end_ms": 2381040,
+          "text": "they're gigantic with massive heads"
+        },
+        {
+          "id": "S790",
+          "cue_ids": [
+            790,
+            791,
+            792,
+            793
+          ],
+          "start_ms": 2453599,
+          "end_ms": 2468800,
+          "text": "sucker marks on their skin and squid beaks in their stomachs are evidence that the war is being raged and probably being repeatedly lost by the squid"
+        },
+        {
+          "id": "S819",
+          "cue_ids": [
+            819,
+            820,
+            821,
+            822
+          ],
+          "start_ms": 2542020,
+          "end_ms": 2556720,
+          "text": "[Music] it prowls the murky ponds and river basins of south america and just one shot can knock a horse"
+        },
+        {
+          "id": "S848",
+          "cue_ids": [
+            848,
+            849,
+            850,
+            851
+          ],
+          "start_ms": 2631520,
+          "end_ms": 2643359,
+          "text": "and if that wasn't enough it's pretty much blind but the small electrical pulses it generates helps the eel navigate rivers"
+        },
+        {
+          "id": "S874",
+          "cue_ids": [
+            874
+          ],
+          "start_ms": 2723760,
+          "end_ms": 2725839,
+          "text": "you"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:04.720] [Music] ah\nS24 [00:01:21.360 --> 00:01:36.720] this is an electric ray it's called the torpedo and it's massive weighing up to 80 pounds unlike other rays that swim with fins\nS53 [00:02:52.560 --> 00:03:02.710] the blue ringed octopus is barely bigger than a golf ball scouring the tidal pools of the\nS83 [00:04:15.840 --> 00:04:34.080] but spook it and tiny ink sacks under its skin rise to the surface and turn the rings a brilliant neon blue a vibrant warning\nS116 [00:05:45.280 --> 00:05:56.159] the first place [Music] this little blue fish doesn't look very deadly\nS147 [00:07:14.800 --> 00:07:23.360] but hunting's what's on this frogfish's mind [Music] he settles down to the perfect\nS176 [00:08:38.719 --> 00:08:53.839] then a set of inner jaws go to work yes moire eels have not one but two sets of jaws the second set acts as a claw machine\nS204 [00:10:03.600 --> 00:10:20.720] and about to get worse a huge snapper is sniffing [Music] around luckily\nS234 [00:11:35.760 --> 00:11:46.480] sacks of pigment in their skin when alarmed or aggressive they turn red as in\nS265 [00:13:06.800 --> 00:13:19.920] message to predators look but don't touch people tend to ignore the warning which\nS294 [00:14:30.560 --> 00:14:43.360] those who touch it instantly regret it this is the fire urchin like all sea urchins the fire urchin is\nS326 [00:16:01.600 --> 00:16:14.720] but they're mysterious fascinating and deadly a huge olfactory cavity allows them to\nS351 [00:17:28.400 --> 00:17:38.160] noggin to pin its prey to the ocean floor then it rotates and pivots to pick it up and chomp it up\nS378 [00:18:57.760 --> 00:19:10.480] it's an effective design that works well on fish or people the great barracuda is responsible for\nS407 [00:20:25.440 --> 00:20:32.630] he flops onto the ice for a land ambush [Music]\nS434 [00:21:49.200 --> 00:21:59.240] turtle a battle of the slowest begins with a chase\nS484 [00:24:49.760 --> 00:25:00.919] colorful blind brainless blobs [Music]\nS512 [00:26:16.100 --> 00:26:28.320] [Music] the poison is also lethal to humans attacking the heart nervous system and skin cells\nS540 [00:27:41.600 --> 00:27:52.720] and is used for target practice a teaching lesson again and again\nS565 [00:29:11.679 --> 00:29:23.039] and eat you with like there isn't enough venom in the ocean already\nS593 [00:30:38.240 --> 00:30:54.880] suffocates which frees up the banded secret to slither off for another meal at first glance it seems that we're\nS650 [00:33:34.000 --> 00:33:46.970] a normal fishing pole won't get the job done legends tell of humongous specimens dragging fishermen to their doom\nS679 [00:35:01.119 --> 00:35:13.359] soft and squishy so they can stuff themselves into the smallest of cracks and holes then their hunting skills kick in\nS707 [00:36:29.520 --> 00:36:43.359] he's tossing his family this mouth-broding expectant father is aerating the eggs to help them develop he'll keep them in his mouth until\nS730 [00:38:00.320 --> 00:38:11.760] but piranhas are more than just frenzied predators they scavenge carcasses and even eat plants\nS759 [00:39:30.240 --> 00:39:41.040] they're gigantic with massive heads\nS790 [00:40:53.599 --> 00:41:08.800] sucker marks on their skin and squid beaks in their stomachs are evidence that the war is being raged and probably being repeatedly lost by the squid\nS819 [00:42:22.020 --> 00:42:36.720] [Music] it prowls the murky ponds and river basins of south america and just one shot can knock a horse\nS848 [00:43:51.520 --> 00:44:03.359] and if that wasn't enough it's pretty much blind but the small electrical pulses it generates helps the eel navigate rivers\nS874 [00:45:23.760 --> 00:45:25.839] you",
+      "text_tokens": 1541,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        24,
+        27,
+        55,
+        83,
+        86,
+        116,
+        119,
+        147,
+        150,
+        176,
+        179,
+        204,
+        207,
+        234,
+        237,
+        265,
+        268,
+        294,
+        297,
+        326,
+        329,
+        351,
+        354,
+        378,
+        381,
+        434,
+        484,
+        487,
+        512,
+        515,
+        540,
+        565,
+        567,
+        593,
+        596,
+        650,
+        653,
+        679,
+        682,
+        707,
+        710,
+        730,
+        733,
+        760,
+        790,
+        793,
+        819,
+        822,
+        848,
+        851
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "130e4ee64c26eecfceffd136f9fb93d0bf27af4c22c65baf75246158e1d50bdc"
+}

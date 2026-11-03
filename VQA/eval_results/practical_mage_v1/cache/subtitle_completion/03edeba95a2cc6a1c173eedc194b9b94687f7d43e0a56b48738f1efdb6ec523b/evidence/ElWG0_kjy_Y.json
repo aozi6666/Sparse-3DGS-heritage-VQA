@@ -1,0 +1,974 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "ElWG0_kjy_Y",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ElWG0_kjy_Y.srt",
+        "status": "available",
+        "bytes": 46596,
+        "sha256": "415b6cfd2a096ba64172cd75d24f96c66a932ff328abca63f7f46537984b7e1c",
+        "cues": 277,
+        "nonempty_cues": 277
+      },
+      "frame_indices": [
+        0,
+        1908,
+        3816,
+        5723,
+        7631,
+        9539,
+        11447,
+        13354,
+        15262,
+        17170,
+        19078,
+        20986,
+        22893,
+        24801,
+        26709,
+        28617,
+        30524,
+        32432,
+        34340,
+        36248,
+        38155,
+        40063,
+        41971,
+        43879,
+        45787,
+        47694,
+        49602,
+        51510,
+        53418,
+        55325,
+        57233,
+        59141
+      ],
+      "frame_seconds": [
+        0.0,
+        63.663664,
+        127.327327,
+        190.957624,
+        254.621288,
+        318.284952,
+        381.948615,
+        445.578912,
+        509.242576,
+        572.90624,
+        636.569903,
+        700.233567,
+        763.863864,
+        827.527528,
+        891.191191,
+        954.854855,
+        1018.485152,
+        1082.148815,
+        1145.812479,
+        1209.476143,
+        1273.10644,
+        1336.770103,
+        1400.433767,
+        1464.097431,
+        1527.761094,
+        1591.391391,
+        1655.055055,
+        1718.718719,
+        1782.382382,
+        1846.012679,
+        1909.676343,
+        1973.340007
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          15
+        ],
+        [
+          24
+        ],
+        [
+          32
+        ],
+        [
+          41
+        ],
+        [
+          50
+        ],
+        [
+          58
+        ],
+        [],
+        [
+          78
+        ],
+        [
+          87
+        ],
+        [
+          97
+        ],
+        [
+          106
+        ],
+        [
+          115
+        ],
+        [],
+        [
+          135
+        ],
+        [
+          144
+        ],
+        [
+          153
+        ],
+        [],
+        [
+          171
+        ],
+        [
+          180
+        ],
+        [
+          189
+        ],
+        [
+          198
+        ],
+        [
+          209
+        ],
+        [
+          218
+        ],
+        [
+          227
+        ],
+        [
+          234
+        ],
+        [],
+        [
+          254
+        ],
+        [
+          262
+        ],
+        [
+          270
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 15,
+          "start_ms": 126560,
+          "end_ms": 133040,
+          "text": "the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France,"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 190640,
+          "end_ms": 197541,
+          "text": "He believed that ideas formulated in one realm could - and should, inform the other."
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 248320,
+          "end_ms": 256959,
+          "text": "It was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli,"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 317760,
+          "end_ms": 322960,
+          "text": "and it was probably pressure from his father that made Leonardo take on such a small commission."
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 380720,
+          "end_ms": 387680,
+          "text": "a large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant."
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 440720,
+          "end_ms": 446720,
+          "text": "semi-transparent glazes that had a very small amount of pigment mixed with the oil, so how"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 572800,
+          "end_ms": 577480,
+          "text": "own hands there is a surprising amount of green showing through the skin."
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 634880,
+          "end_ms": 641840,
+          "text": "You can see how the smile ends at each corner - it simply tails away unresolved and open-ended."
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 698720,
+          "end_ms": 705920,
+          "text": "means she constantly changes - through optical and perceptual illusion. In essence these techniques"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 763535,
+          "end_ms": 769120,
+          "text": "The answer is usually: A wedding or a prom. What were you wearing in your prom photo?"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 824800,
+          "end_ms": 829440,
+          "text": "the most delicate parts of the painting - her eyebrows and eyelashes - have disappeared."
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 948640,
+          "end_ms": 955440,
+          "text": "with Leonardo - using the same pigments and the same adjustments. This copy was not really"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 1009680,
+          "end_ms": 1018800,
+          "text": "IF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 1080160,
+          "end_ms": 1085178,
+          "text": "This three-quarter length pose becomes the norm in italy for 400 years."
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 1206880,
+          "end_ms": 1214960,
+          "text": "connecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's."
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 1272080,
+          "end_ms": 1278720,
+          "text": "slightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that"
+        },
+        {
+          "cue_id": 189,
+          "start_ms": 1335280,
+          "end_ms": 1338880,
+          "text": "It is a real phenomenon, but not unique to this painting."
+        },
+        {
+          "cue_id": 198,
+          "start_ms": 1393520,
+          "end_ms": 1400854,
+          "text": "The smile \"comes and goes\" as we scan around the face. When we look away the smile lingers."
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 1462400,
+          "end_ms": 1468800,
+          "text": "Then almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 1524599,
+          "end_ms": 1530702,
+          "text": "discovered that Mona Lisa's smile changes because of how the human visual system is designed."
+        },
+        {
+          "cue_id": 227,
+          "start_ms": 1584560,
+          "end_ms": 1591520,
+          "text": "The shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona"
+        },
+        {
+          "cue_id": 234,
+          "start_ms": 1648281,
+          "end_ms": 1655440,
+          "text": "in 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\"."
+        },
+        {
+          "cue_id": 254,
+          "start_ms": 1782080,
+          "end_ms": 1789200,
+          "text": "So for sure her fame grew enormously after she was stolen - but it did not begin in 1911."
+        },
+        {
+          "cue_id": 262,
+          "start_ms": 1843440,
+          "end_ms": 1846447,
+          "text": "from a painting into a \"celebrity icon\"."
+        },
+        {
+          "cue_id": 270,
+          "start_ms": 1904792,
+          "end_ms": 1910960,
+          "text": "The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the"
+        }
+      ],
+      "text": "the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France,\nHe believed that ideas formulated in one realm could - and should, inform the other.\nIt was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli,\nand it was probably pressure from his father that made Leonardo take on such a small commission.\na large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant.\nsemi-transparent glazes that had a very small amount of pigment mixed with the oil, so how\nown hands there is a surprising amount of green showing through the skin.\nYou can see how the smile ends at each corner - it simply tails away unresolved and open-ended.\nmeans she constantly changes - through optical and perceptual illusion. In essence these techniques\nThe answer is usually: A wedding or a prom. What were you wearing in your prom photo?\nthe most delicate parts of the painting - her eyebrows and eyelashes - have disappeared.\nwith Leonardo - using the same pigments and the same adjustments. This copy was not really\nIF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin\nThis three-quarter length pose becomes the norm in italy for 400 years.\nconnecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's.\nslightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that\nIt is a real phenomenon, but not unique to this painting.\nThe smile \"comes and goes\" as we scan around the face. When we look away the smile lingers.\nThen almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly\ndiscovered that Mona Lisa's smile changes because of how the human visual system is designed.\nThe shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona\nin 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\".\nSo for sure her fame grew enormously after she was stolen - but it did not begin in 1911.\nfrom a painting into a \"celebrity icon\".\nThe Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the",
+      "text_tokens": 505,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ElWG0_kjy_Y",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ElWG0_kjy_Y.srt",
+          "status": "available",
+          "bytes": 46596,
+          "sha256": "415b6cfd2a096ba64172cd75d24f96c66a932ff328abca63f7f46537984b7e1c",
+          "cues": 277,
+          "nonempty_cues": 277
+        },
+        "frame_indices": [
+          0,
+          1908,
+          3816,
+          5723,
+          7631,
+          9539,
+          11447,
+          13354,
+          15262,
+          17170,
+          19078,
+          20986,
+          22893,
+          24801,
+          26709,
+          28617,
+          30524,
+          32432,
+          34340,
+          36248,
+          38155,
+          40063,
+          41971,
+          43879,
+          45787,
+          47694,
+          49602,
+          51510,
+          53418,
+          55325,
+          57233,
+          59141
+        ],
+        "frame_seconds": [
+          0.0,
+          63.663664,
+          127.327327,
+          190.957624,
+          254.621288,
+          318.284952,
+          381.948615,
+          445.578912,
+          509.242576,
+          572.90624,
+          636.569903,
+          700.233567,
+          763.863864,
+          827.527528,
+          891.191191,
+          954.854855,
+          1018.485152,
+          1082.148815,
+          1145.812479,
+          1209.476143,
+          1273.10644,
+          1336.770103,
+          1400.433767,
+          1464.097431,
+          1527.761094,
+          1591.391391,
+          1655.055055,
+          1718.718719,
+          1782.382382,
+          1846.012679,
+          1909.676343,
+          1973.340007
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            15
+          ],
+          [
+            24
+          ],
+          [
+            32
+          ],
+          [
+            41
+          ],
+          [
+            50
+          ],
+          [
+            58
+          ],
+          [],
+          [
+            78
+          ],
+          [
+            87
+          ],
+          [
+            97
+          ],
+          [
+            106
+          ],
+          [
+            115
+          ],
+          [],
+          [
+            135
+          ],
+          [
+            144
+          ],
+          [
+            153
+          ],
+          [],
+          [
+            171
+          ],
+          [
+            180
+          ],
+          [
+            189
+          ],
+          [
+            198
+          ],
+          [
+            209
+          ],
+          [
+            218
+          ],
+          [
+            227
+          ],
+          [
+            234
+          ],
+          [],
+          [
+            254
+          ],
+          [
+            262
+          ],
+          [
+            270
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 15,
+            "start_ms": 126560,
+            "end_ms": 133040,
+            "text": "the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France,"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 190640,
+            "end_ms": 197541,
+            "text": "He believed that ideas formulated in one realm could - and should, inform the other."
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 248320,
+            "end_ms": 256959,
+            "text": "It was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli,"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 317760,
+            "end_ms": 322960,
+            "text": "and it was probably pressure from his father that made Leonardo take on such a small commission."
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 380720,
+            "end_ms": 387680,
+            "text": "a large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant."
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 440720,
+            "end_ms": 446720,
+            "text": "semi-transparent glazes that had a very small amount of pigment mixed with the oil, so how"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 572800,
+            "end_ms": 577480,
+            "text": "own hands there is a surprising amount of green showing through the skin."
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 634880,
+            "end_ms": 641840,
+            "text": "You can see how the smile ends at each corner - it simply tails away unresolved and open-ended."
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 698720,
+            "end_ms": 705920,
+            "text": "means she constantly changes - through optical and perceptual illusion. In essence these techniques"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 763535,
+            "end_ms": 769120,
+            "text": "The answer is usually: A wedding or a prom. What were you wearing in your prom photo?"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 824800,
+            "end_ms": 829440,
+            "text": "the most delicate parts of the painting - her eyebrows and eyelashes - have disappeared."
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 948640,
+            "end_ms": 955440,
+            "text": "with Leonardo - using the same pigments and the same adjustments. This copy was not really"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 1009680,
+            "end_ms": 1018800,
+            "text": "IF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 1080160,
+            "end_ms": 1085178,
+            "text": "This three-quarter length pose becomes the norm in italy for 400 years."
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 1206880,
+            "end_ms": 1214960,
+            "text": "connecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's."
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 1272080,
+            "end_ms": 1278720,
+            "text": "slightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that"
+          },
+          {
+            "cue_id": 189,
+            "start_ms": 1335280,
+            "end_ms": 1338880,
+            "text": "It is a real phenomenon, but not unique to this painting."
+          },
+          {
+            "cue_id": 198,
+            "start_ms": 1393520,
+            "end_ms": 1400854,
+            "text": "The smile \"comes and goes\" as we scan around the face. When we look away the smile lingers."
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 1462400,
+            "end_ms": 1468800,
+            "text": "Then almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly"
+          },
+          {
+            "cue_id": 218,
+            "start_ms": 1524599,
+            "end_ms": 1530702,
+            "text": "discovered that Mona Lisa's smile changes because of how the human visual system is designed."
+          },
+          {
+            "cue_id": 227,
+            "start_ms": 1584560,
+            "end_ms": 1591520,
+            "text": "The shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona"
+          },
+          {
+            "cue_id": 234,
+            "start_ms": 1648281,
+            "end_ms": 1655440,
+            "text": "in 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\"."
+          },
+          {
+            "cue_id": 254,
+            "start_ms": 1782080,
+            "end_ms": 1789200,
+            "text": "So for sure her fame grew enormously after she was stolen - but it did not begin in 1911."
+          },
+          {
+            "cue_id": 262,
+            "start_ms": 1843440,
+            "end_ms": 1846447,
+            "text": "from a painting into a \"celebrity icon\"."
+          },
+          {
+            "cue_id": 270,
+            "start_ms": 1904792,
+            "end_ms": 1910960,
+            "text": "The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the"
+          }
+        ],
+        "text": "the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France,\nHe believed that ideas formulated in one realm could - and should, inform the other.\nIt was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli,\nand it was probably pressure from his father that made Leonardo take on such a small commission.\na large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant.\nsemi-transparent glazes that had a very small amount of pigment mixed with the oil, so how\nown hands there is a surprising amount of green showing through the skin.\nYou can see how the smile ends at each corner - it simply tails away unresolved and open-ended.\nmeans she constantly changes - through optical and perceptual illusion. In essence these techniques\nThe answer is usually: A wedding or a prom. What were you wearing in your prom photo?\nthe most delicate parts of the painting - her eyebrows and eyelashes - have disappeared.\nwith Leonardo - using the same pigments and the same adjustments. This copy was not really\nIF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin\nThis three-quarter length pose becomes the norm in italy for 400 years.\nconnecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's.\nslightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that\nIt is a real phenomenon, but not unique to this painting.\nThe smile \"comes and goes\" as we scan around the face. When we look away the smile lingers.\nThen almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly\ndiscovered that Mona Lisa's smile changes because of how the human visual system is designed.\nThe shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona\nin 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\".\nSo for sure her fame grew enormously after she was stolen - but it did not begin in 1911.\nfrom a painting into a \"celebrity icon\".\nThe Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the",
+        "text_tokens": 505,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S14",
+          "cue_ids": [
+            14,
+            15,
+            16
+          ],
+          "start_ms": 120400,
+          "end_ms": 139760,
+          "text": "plans for a royal residence in central France, and one of his masterpieces of this period is the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France, but he also brought the Mona Lisa. Leonardo knew how important it was,"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25
+          ],
+          "start_ms": 184141,
+          "end_ms": 202160,
+          "text": "He was a man for whom science and art are complementary rather than distinct disciplines. He believed that ideas formulated in one realm could - and should, inform the other. He would take all his scientific knowledge and apply it to the Mona Lisa,"
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33
+          ],
+          "start_ms": 240800,
+          "end_ms": 263120,
+          "text": "a handwritten comment in the margins of a 15th century book in Heidelberg university's library. It was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli, the writer of \"The Prince\" and a good friend of Leonardo. Vespucci notes that \"Leonardo was"
+        },
+        {
+          "id": "S40",
+          "cue_ids": [
+            40,
+            41,
+            42
+          ],
+          "start_ms": 308400,
+          "end_ms": 329840,
+          "text": "a bourgeois merchant? Family connections - Leonardo's father Ser Pierro da Vinci was Francesco's lawyer, and it was probably pressure from his father that made Leonardo take on such a small commission. But i think Leonardo painted her because he wanted to paint a relatively ordinary woman, to try out"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51
+          ],
+          "start_ms": 374400,
+          "end_ms": 394240,
+          "text": "information to work with. One example is, because we have Francesco's will, we know that Lisa owned a large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant. We can be sure that the mona lisa IS Lisa del Giocondo from Florence."
+        },
+        {
+          "id": "S57",
+          "cue_ids": [
+            57,
+            58,
+            59
+          ],
+          "start_ms": 434089,
+          "end_ms": 452880,
+          "text": "rather than just a mix of chalk and pigment. He wanted a reflective base. Leonardo painted with semi-transparent glazes that had a very small amount of pigment mixed with the oil, so how dark you wanted your glaze to be, depends on how much pigment you use. He used more like a \"wash\","
+        },
+        {
+          "id": "S77",
+          "cue_ids": [
+            77,
+            78,
+            79
+          ],
+          "start_ms": 566400,
+          "end_ms": 586160,
+          "text": "He would use green as a base color to produce nuanced flesh tones. If you look down at your own hands there is a surprising amount of green showing through the skin. This infrared image taken in 2004 by the Louvre, tells us a lot about his techniques and use of paint."
+        },
+        {
+          "id": "S86",
+          "cue_ids": [
+            86,
+            87
+          ],
+          "start_ms": 627280,
+          "end_ms": 641840,
+          "text": "are no hard edges anywhere on the Mona Lisa. They are all blended in, to form an ambiguous image. You can see how the smile ends at each corner - it simply tails away unresolved and open-ended."
+        },
+        {
+          "id": "S96",
+          "cue_ids": [
+            96,
+            97,
+            98
+          ],
+          "start_ms": 692160,
+          "end_ms": 711680,
+          "text": "combined with the Sfumato, the Chiaroscuro, and the glazes which affect light refraction, means she constantly changes - through optical and perceptual illusion. In essence these techniques take painting one stage further. It allows us to look at a painting the way our eyes work."
+        },
+        {
+          "id": "S105",
+          "cue_ids": [
+            105,
+            106,
+            107
+          ],
+          "start_ms": 756400,
+          "end_ms": 775600,
+          "text": "Actually let's start with what she's NOT wearing. When was the last time you employed a professional photographer? The answer is usually: A wedding or a prom. What were you wearing in your prom photo? Your best clothes? Your best jewellery? Of course! Being painted by one of the most celebrated"
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115,
+            116
+          ],
+          "start_ms": 820240,
+          "end_ms": 837200,
+          "text": "She almost certainly once had them, but over time with cleaning and restoration, the most delicate parts of the painting - her eyebrows and eyelashes - have disappeared. Copies of the painting produced by Leonardo's own studio, are a good source of information on how"
+        },
+        {
+          "id": "S134",
+          "cue_ids": [
+            134,
+            135,
+            136
+          ],
+          "start_ms": 942880,
+          "end_ms": 962480,
+          "text": "The logical conclusion is that the Prado Mona Lisa was painted by an apprentice - side by side with Leonardo - using the same pigments and the same adjustments. This copy was not really considered important until it was restored in 2012, and the original background was revealed."
+        },
+        {
+          "id": "S143",
+          "cue_ids": [
+            143,
+            144,
+            145
+          ],
+          "start_ms": 1002160,
+          "end_ms": 1026240,
+          "text": "If we take the copy and overlay the two, we get some idea of what the Mona Lisa might look like IF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin eyebrows and eyelashes\" he wrote about. Suggesting that indeed the Mona Lisa once had eyebrows."
+        },
+        {
+          "id": "S152",
+          "cue_ids": [
+            152,
+            153
+          ],
+          "start_ms": 1073440,
+          "end_ms": 1085178,
+          "text": "the frame with his subject, making the painting more intimate and cutting down on distractions. This three-quarter length pose becomes the norm in italy for 400 years."
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172
+          ],
+          "start_ms": 1201520,
+          "end_ms": 1223120,
+          "text": "The curves of her hair and clothing reflect the rolling valleys and rivers behind her, connecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's. He used his pioneering studies of hydrodynamics, not only to explain how an aortic valve closed,"
+        },
+        {
+          "id": "S179",
+          "cue_ids": [
+            179,
+            180,
+            181
+          ],
+          "start_ms": 1266080,
+          "end_ms": 1285120,
+          "text": "And yet the horizon of the landscape does not quite line up behind the figure. It is very slightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that gives an illusion of movement. Leonardo knew that our brains would struggle with this conflicting"
+        },
+        {
+          "id": "S188",
+          "cue_ids": [
+            188,
+            189
+          ],
+          "start_ms": 1328720,
+          "end_ms": 1338880,
+          "text": "shadow are fixed and don't change. They look the same, no matter from what angle you are standing. It is a real phenomenon, but not unique to this painting."
+        },
+        {
+          "id": "S197",
+          "cue_ids": [
+            197,
+            198,
+            199
+          ],
+          "start_ms": 1389386,
+          "end_ms": 1407360,
+          "text": "First she is smiling and then she is not. The smile \"comes and goes\" as we scan around the face. When we look away the smile lingers. When Leonardo was perfecting Lisa's smile, he was spending his nights in the morgue"
+        },
+        {
+          "id": "S208",
+          "cue_ids": [
+            208,
+            209,
+            210
+          ],
+          "start_ms": 1455972,
+          "end_ms": 1475600,
+          "text": "Here are puckered lips, pouting lips, the muscles that move the mouth. Then almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly in black chalk. Even though the fine lines at the end of the mouth turn down slightly, the feeling is"
+        },
+        {
+          "id": "S217",
+          "cue_ids": [
+            217,
+            218,
+            219
+          ],
+          "start_ms": 1519765,
+          "end_ms": 1536480,
+          "text": "In the year 2000, Dr. Margaret Livingston, a Harvard neuroscientist discovered that Mona Lisa's smile changes because of how the human visual system is designed. She explains that the human eye has two distinct regions for seeing the world:"
+        },
+        {
+          "id": "S226",
+          "cue_ids": [
+            226,
+            227,
+            228
+          ],
+          "start_ms": 1575040,
+          "end_ms": 1599750,
+          "text": "both his Sfumato and Chiaroscuro techniques come into their own. Keep looking directly into her eyes. The shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona Lisa's mouth, your central vision doesn't see the shadows and she isn't smiling - smirking at best."
+        },
+        {
+          "id": "S233",
+          "cue_ids": [
+            233,
+            234,
+            235
+          ],
+          "start_ms": 1641760,
+          "end_ms": 1660800,
+          "text": "As previously noted, Mona Lisa was seen as a great painting - right from the start. in 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\". So in 1800, he had her moved to his private bedroom in the Tuilleries."
+        },
+        {
+          "id": "S253",
+          "cue_ids": [
+            253,
+            254,
+            255
+          ],
+          "start_ms": 1773680,
+          "end_ms": 1796320,
+          "text": "rather than any of the other paintings? The answer (again) is simple. Because it was the most well-known. So for sure her fame grew enormously after she was stolen - but it did not begin in 1911. Something else to consider is that it was only by this time that photography was becoming commonplace."
+        },
+        {
+          "id": "S261",
+          "cue_ids": [
+            261,
+            262,
+            263
+          ],
+          "start_ms": 1839280,
+          "end_ms": 1854160,
+          "text": "In the same year, Andy Warhol reflected on her transformation from a painting into a \"celebrity icon\". So yes, the theft made her more well-known and the U.S. tour made her a global \"celebrity\"."
+        },
+        {
+          "id": "S269",
+          "cue_ids": [
+            269,
+            270,
+            271
+          ],
+          "start_ms": 1896400,
+          "end_ms": 1919040,
+          "text": "Whether she is \"Mona Lisa\", \"La Giaconda\" or \"La Jaconde\", she is the face of a revolution in art. The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the ability to combine intellect with imagination. Art and science are perfectly blended in a single work,"
+        }
+      ],
+      "text": "S14 [00:02:00.400 --> 00:02:19.760] plans for a royal residence in central France, and one of his masterpieces of this period is the double helix stairway at Chambord. He brought dozens of notebooks like these with him to France, but he also brought the Mona Lisa. Leonardo knew how important it was,\nS23 [00:03:04.141 --> 00:03:22.160] He was a man for whom science and art are complementary rather than distinct disciplines. He believed that ideas formulated in one realm could - and should, inform the other. He would take all his scientific knowledge and apply it to the Mona Lisa,\nS31 [00:04:00.800 --> 00:04:23.120] a handwritten comment in the margins of a 15th century book in Heidelberg university's library. It was dated october 1503 and was by Agostini Vespucci, the secretary of Nicolo Machiavelli, the writer of \"The Prince\" and a good friend of Leonardo. Vespucci notes that \"Leonardo was\nS40 [00:05:08.400 --> 00:05:29.840] a bourgeois merchant? Family connections - Leonardo's father Ser Pierro da Vinci was Francesco's lawyer, and it was probably pressure from his father that made Leonardo take on such a small commission. But i think Leonardo painted her because he wanted to paint a relatively ordinary woman, to try out\nS49 [00:06:14.400 --> 00:06:34.240] information to work with. One example is, because we have Francesco's will, we know that Lisa owned a large amount of jewelry, that is not shown in the painting and that - as we shall see - is significant. We can be sure that the mona lisa IS Lisa del Giocondo from Florence.\nS57 [00:07:14.089 --> 00:07:32.880] rather than just a mix of chalk and pigment. He wanted a reflective base. Leonardo painted with semi-transparent glazes that had a very small amount of pigment mixed with the oil, so how dark you wanted your glaze to be, depends on how much pigment you use. He used more like a \"wash\",\nS77 [00:09:26.400 --> 00:09:46.160] He would use green as a base color to produce nuanced flesh tones. If you look down at your own hands there is a surprising amount of green showing through the skin. This infrared image taken in 2004 by the Louvre, tells us a lot about his techniques and use of paint.\nS86 [00:10:27.280 --> 00:10:41.840] are no hard edges anywhere on the Mona Lisa. They are all blended in, to form an ambiguous image. You can see how the smile ends at each corner - it simply tails away unresolved and open-ended.\nS96 [00:11:32.160 --> 00:11:51.680] combined with the Sfumato, the Chiaroscuro, and the glazes which affect light refraction, means she constantly changes - through optical and perceptual illusion. In essence these techniques take painting one stage further. It allows us to look at a painting the way our eyes work.\nS105 [00:12:36.400 --> 00:12:55.600] Actually let's start with what she's NOT wearing. When was the last time you employed a professional photographer? The answer is usually: A wedding or a prom. What were you wearing in your prom photo? Your best clothes? Your best jewellery? Of course! Being painted by one of the most celebrated\nS114 [00:13:40.240 --> 00:13:57.200] She almost certainly once had them, but over time with cleaning and restoration, the most delicate parts of the painting - her eyebrows and eyelashes - have disappeared. Copies of the painting produced by Leonardo's own studio, are a good source of information on how\nS134 [00:15:42.880 --> 00:16:02.480] The logical conclusion is that the Prado Mona Lisa was painted by an apprentice - side by side with Leonardo - using the same pigments and the same adjustments. This copy was not really considered important until it was restored in 2012, and the original background was revealed.\nS143 [00:16:42.160 --> 00:17:06.240] If we take the copy and overlay the two, we get some idea of what the Mona Lisa might look like IF it were possible to restore her. Now we see the \"rosy lips\" described by Vasari in 1550, and the \"thin eyebrows and eyelashes\" he wrote about. Suggesting that indeed the Mona Lisa once had eyebrows.\nS152 [00:17:53.440 --> 00:18:05.178] the frame with his subject, making the painting more intimate and cutting down on distractions. This three-quarter length pose becomes the norm in italy for 400 years.\nS170 [00:20:01.520 --> 00:20:23.120] The curves of her hair and clothing reflect the rolling valleys and rivers behind her, connecting humanity and nature. Microcosm and macrocosm, a favourite theme of Leonardo's. He used his pioneering studies of hydrodynamics, not only to explain how an aortic valve closed,\nS179 [00:21:06.080 --> 00:21:25.120] And yet the horizon of the landscape does not quite line up behind the figure. It is very slightly \"skewed\", while her shoulders are painted level. This is a typical Leonardo visual trick that gives an illusion of movement. Leonardo knew that our brains would struggle with this conflicting\nS188 [00:22:08.720 --> 00:22:18.880] shadow are fixed and don't change. They look the same, no matter from what angle you are standing. It is a real phenomenon, but not unique to this painting.\nS197 [00:23:09.386 --> 00:23:27.360] First she is smiling and then she is not. The smile \"comes and goes\" as we scan around the face. When we look away the smile lingers. When Leonardo was perfecting Lisa's smile, he was spending his nights in the morgue\nS208 [00:24:15.972 --> 00:24:35.600] Here are puckered lips, pouting lips, the muscles that move the mouth. Then almost forgotten at the top of this page is a simple drawing of a gentle smile sketched lightly in black chalk. Even though the fine lines at the end of the mouth turn down slightly, the feeling is\nS217 [00:25:19.765 --> 00:25:36.480] In the year 2000, Dr. Margaret Livingston, a Harvard neuroscientist discovered that Mona Lisa's smile changes because of how the human visual system is designed. She explains that the human eye has two distinct regions for seeing the world:\nS226 [00:26:15.040 --> 00:26:39.750] both his Sfumato and Chiaroscuro techniques come into their own. Keep looking directly into her eyes. The shadows and tones suggest the curvature of a smile, but when your eyes go directly to Mona Lisa's mouth, your central vision doesn't see the shadows and she isn't smiling - smirking at best.\nS233 [00:27:21.760 --> 00:27:40.800] As previously noted, Mona Lisa was seen as a great painting - right from the start. in 1797 she was moved to the Louvre where Napoleon saw her and decided he \"had to have her\". So in 1800, he had her moved to his private bedroom in the Tuilleries.\nS253 [00:29:33.680 --> 00:29:56.320] rather than any of the other paintings? The answer (again) is simple. Because it was the most well-known. So for sure her fame grew enormously after she was stolen - but it did not begin in 1911. Something else to consider is that it was only by this time that photography was becoming commonplace.\nS261 [00:30:39.280 --> 00:30:54.160] In the same year, Andy Warhol reflected on her transformation from a painting into a \"celebrity icon\". So yes, the theft made her more well-known and the U.S. tour made her a global \"celebrity\".\nS269 [00:31:36.400 --> 00:31:59.040] Whether she is \"Mona Lisa\", \"La Giaconda\" or \"La Jaconde\", she is the face of a revolution in art. The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the ability to combine intellect with imagination. Art and science are perfectly blended in a single work,",
+      "text_tokens": 2225,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        14,
+        16,
+        23,
+        25,
+        31,
+        33,
+        40,
+        42,
+        49,
+        51,
+        57,
+        59,
+        77,
+        79,
+        86,
+        96,
+        98,
+        105,
+        107,
+        114,
+        116,
+        134,
+        136,
+        143,
+        145,
+        152,
+        170,
+        172,
+        179,
+        181,
+        188,
+        197,
+        199,
+        208,
+        210,
+        217,
+        219,
+        226,
+        228,
+        233,
+        235,
+        253,
+        255,
+        261,
+        263,
+        269,
+        271
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "69e9f35a6767ca9c91b47521ecd9ea306c5197521734907af04f5b41c245c016"
+}

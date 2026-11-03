@@ -1,0 +1,1617 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "C6aeL83z_9Y",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/C6aeL83z_9Y.srt",
+        "status": "available",
+        "bytes": 140281,
+        "sha256": "0eaf6f21ddfe098d197a62e8d2b27f7745345445cb71efc038d2d12acde0d338",
+        "cues": 1264,
+        "nonempty_cues": 1264
+      },
+      "frame_indices": [
+        0,
+        2156,
+        4312,
+        6468,
+        8624,
+        10780,
+        12936,
+        15092,
+        17248,
+        19404,
+        21560,
+        23716,
+        25872,
+        28028,
+        30184,
+        32340,
+        34495,
+        36651,
+        38807,
+        40963,
+        43119,
+        45275,
+        47431,
+        49587,
+        51743,
+        53899,
+        56055,
+        58211,
+        60367,
+        62523,
+        64679,
+        66835
+      ],
+      "frame_seconds": [
+        0.0,
+        89.923167,
+        179.84633300000002,
+        269.7695,
+        359.69266700000003,
+        449.615833,
+        539.539,
+        629.462167,
+        719.385333,
+        809.3085,
+        899.231667,
+        989.154833,
+        1079.078,
+        1169.001167,
+        1258.924333,
+        1348.8475,
+        1438.728958,
+        1528.652125,
+        1618.575292,
+        1708.498458,
+        1798.421625,
+        1888.344792,
+        1978.267958,
+        2068.191125,
+        2158.114292,
+        2248.037458,
+        2337.960625,
+        2427.883792,
+        2517.806958,
+        2607.730125,
+        2697.653292,
+        2787.576458
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          42,
+          43
+        ],
+        [
+          82,
+          83
+        ],
+        [
+          120,
+          121
+        ],
+        [
+          156,
+          157
+        ],
+        [
+          195,
+          196
+        ],
+        [
+          236,
+          237
+        ],
+        [
+          275,
+          276
+        ],
+        [
+          313,
+          314
+        ],
+        [
+          353,
+          354
+        ],
+        [
+          393,
+          394
+        ],
+        [
+          434,
+          435
+        ],
+        [
+          474,
+          475
+        ],
+        [
+          515,
+          516
+        ],
+        [
+          553,
+          554
+        ],
+        [
+          595,
+          596
+        ],
+        [
+          636,
+          637
+        ],
+        [
+          676,
+          677
+        ],
+        [
+          717,
+          718
+        ],
+        [
+          758,
+          759
+        ],
+        [
+          799,
+          800
+        ],
+        [
+          838,
+          839
+        ],
+        [
+          882,
+          883
+        ],
+        [
+          921,
+          922
+        ],
+        [
+          959,
+          960
+        ],
+        [
+          1000,
+          1001
+        ],
+        [
+          1041,
+          1042
+        ],
+        [
+          1083,
+          1084
+        ],
+        [
+          1123,
+          1124
+        ],
+        [
+          1167,
+          1168
+        ],
+        [
+          1215,
+          1216
+        ],
+        [
+          1263,
+          1264
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 42,
+          "start_ms": 86880,
+          "end_ms": 90400,
+          "text": "it and any subsequent transfers and in"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 88720,
+          "end_ms": 92720,
+          "text": "the digital world the token can be"
+        },
+        {
+          "cue_id": 82,
+          "start_ms": 174560,
+          "end_ms": 180000,
+          "text": "sorts of things including for example"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 177440,
+          "end_ms": 182640,
+          "text": "making nfts these programs are called"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 265919,
+          "end_ms": 273600,
+          "text": "owner of query to find out who owns a"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 268960,
+          "end_ms": 276880,
+          "text": "particular nft so board ape 2087 is"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 356479,
+          "end_ms": 362000,
+          "text": "think the best analogy for an nft is not"
+        },
+        {
+          "cue_id": 157,
+          "start_ms": 359520,
+          "end_ms": 364160,
+          "text": "digital property as a lot of people like"
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 446160,
+          "end_ms": 451039,
+          "text": "to buy that car he formed a contract"
+        },
+        {
+          "cue_id": 196,
+          "start_ms": 448560,
+          "end_ms": 452560,
+          "text": "with ford he offered to pay them"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 535360,
+          "end_ms": 540000,
+          "text": "primary purchaser and seller there are"
+        },
+        {
+          "cue_id": 237,
+          "start_ms": 538240,
+          "end_ms": 541920,
+          "text": "some times when there is no contract"
+        },
+        {
+          "cue_id": 275,
+          "start_ms": 627360,
+          "end_ms": 631200,
+          "text": "all but in a way it works because"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 629120,
+          "end_ms": 633680,
+          "text": "everyone is on the same platform"
+        },
+        {
+          "cue_id": 313,
+          "start_ms": 717120,
+          "end_ms": 720399,
+          "text": "say board ape says they're not in"
+        },
+        {
+          "cue_id": 314,
+          "start_ms": 718639,
+          "end_ms": 722959,
+          "text": "privity with all of those downstream"
+        },
+        {
+          "cue_id": 353,
+          "start_ms": 805279,
+          "end_ms": 810480,
+          "text": "terms and to make sure that the prior"
+        },
+        {
+          "cue_id": 354,
+          "start_ms": 808160,
+          "end_ms": 812959,
+          "text": "sellers and the original mentor are"
+        },
+        {
+          "cue_id": 393,
+          "start_ms": 896720,
+          "end_ms": 900160,
+          "text": "now and these smart contracts are"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 898240,
+          "end_ms": 903040,
+          "text": "basically contracts in the same sense"
+        },
+        {
+          "cue_id": 434,
+          "start_ms": 985360,
+          "end_ms": 990560,
+          "text": "you a copyright in the original video to"
+        },
+        {
+          "cue_id": 435,
+          "start_ms": 988160,
+          "end_ms": 993839,
+          "text": "the nba they give you an extremely"
+        },
+        {
+          "cue_id": 474,
+          "start_ms": 1075440,
+          "end_ms": 1079679,
+          "text": "important because when you're talking"
+        },
+        {
+          "cue_id": 475,
+          "start_ms": 1076640,
+          "end_ms": 1082559,
+          "text": "about digital art that's often the only"
+        },
+        {
+          "cue_id": 515,
+          "start_ms": 1163919,
+          "end_ms": 1169440,
+          "text": "court found that no one had a copyright"
+        },
+        {
+          "cue_id": 516,
+          "start_ms": 1166559,
+          "end_ms": 1171679,
+          "text": "because only humans can have a copyright"
+        },
+        {
+          "cue_id": 553,
+          "start_ms": 1254559,
+          "end_ms": 1259840,
+          "text": "work and so in some sense it's normal"
+        },
+        {
+          "cue_id": 554,
+          "start_ms": 1257679,
+          "end_ms": 1262320,
+          "text": "not to get a copyright associated with"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 1347120,
+          "end_ms": 1350720,
+          "text": "thousands of dollars apart from any"
+        },
+        {
+          "cue_id": 596,
+          "start_ms": 1348640,
+          "end_ms": 1352720,
+          "text": "speculative value"
+        },
+        {
+          "cue_id": 636,
+          "start_ms": 1434640,
+          "end_ms": 1439760,
+          "text": "whenever you have false promises from"
+        },
+        {
+          "cue_id": 637,
+          "start_ms": 1436960,
+          "end_ms": 1442799,
+          "text": "sellers and misperceptions of buyers you"
+        },
+        {
+          "cue_id": 676,
+          "start_ms": 1525760,
+          "end_ms": 1530240,
+          "text": "can think of because those things break"
+        },
+        {
+          "cue_id": 677,
+          "start_ms": 1528000,
+          "end_ms": 1532400,
+          "text": "all the time and there are all kinds of"
+        },
+        {
+          "cue_id": 717,
+          "start_ms": 1614799,
+          "end_ms": 1618880,
+          "text": "marketed mostly as art or collectibles"
+        },
+        {
+          "cue_id": 718,
+          "start_ms": 1616880,
+          "end_ms": 1620960,
+          "text": "but at the same time there is so much"
+        },
+        {
+          "cue_id": 758,
+          "start_ms": 1705360,
+          "end_ms": 1710480,
+          "text": "effort to enhance the nft's value and"
+        },
+        {
+          "cue_id": 759,
+          "start_ms": 1708080,
+          "end_ms": 1712960,
+          "text": "the sec's 2019 framework says quote"
+        },
+        {
+          "cue_id": 799,
+          "start_ms": 1794399,
+          "end_ms": 1800159,
+          "text": "kings and he recently pulled in 1.5"
+        },
+        {
+          "cue_id": 800,
+          "start_ms": 1796799,
+          "end_ms": 1802240,
+          "text": "million dollars in nft sales in part due"
+        },
+        {
+          "cue_id": 838,
+          "start_ms": 1885679,
+          "end_ms": 1890159,
+          "text": "well if that person paid this much then"
+        },
+        {
+          "cue_id": 839,
+          "start_ms": 1887919,
+          "end_ms": 1891519,
+          "text": "i'll pay even more and i'll be able to"
+        },
+        {
+          "cue_id": 882,
+          "start_ms": 1975600,
+          "end_ms": 1980000,
+          "text": "i don't know that we will ever know for"
+        },
+        {
+          "cue_id": 883,
+          "start_ms": 1977519,
+          "end_ms": 1980960,
+          "text": "certain how many nfts are sold in wash"
+        },
+        {
+          "cue_id": 921,
+          "start_ms": 2065119,
+          "end_ms": 2069119,
+          "text": "myriad of other attribution-related"
+        },
+        {
+          "cue_id": 922,
+          "start_ms": 2067280,
+          "end_ms": 2071359,
+          "text": "legal issues as well then there was"
+        },
+        {
+          "cue_id": 959,
+          "start_ms": 2153839,
+          "end_ms": 2158400,
+          "text": "was trying to mint some nfts related to"
+        },
+        {
+          "cue_id": 960,
+          "start_ms": 2156240,
+          "end_ms": 2160000,
+          "text": "the film pulp fiction and it's a"
+        },
+        {
+          "cue_id": 1000,
+          "start_ms": 2246480,
+          "end_ms": 2250720,
+          "text": "that chain"
+        },
+        {
+          "cue_id": 1001,
+          "start_ms": 2247599,
+          "end_ms": 2253520,
+          "text": "let's say that you are a band or a"
+        },
+        {
+          "cue_id": 1041,
+          "start_ms": 2334800,
+          "end_ms": 2338960,
+          "text": "about these things then there's things"
+        },
+        {
+          "cue_id": 1042,
+          "start_ms": 2336960,
+          "end_ms": 2340960,
+          "text": "like product liabilities nfts break all"
+        },
+        {
+          "cue_id": 1083,
+          "start_ms": 2423440,
+          "end_ms": 2429040,
+          "text": "walled garden it'd be like drm for a car"
+        },
+        {
+          "cue_id": 1084,
+          "start_ms": 2426400,
+          "end_ms": 2431359,
+          "text": "you'd never be able to take your car to"
+        },
+        {
+          "cue_id": 1123,
+          "start_ms": 2513920,
+          "end_ms": 2518800,
+          "text": "with it it's also filled with all kinds"
+        },
+        {
+          "cue_id": 1124,
+          "start_ms": 2516400,
+          "end_ms": 2520400,
+          "text": "of non-arm length transactions wash"
+        },
+        {
+          "cue_id": 1167,
+          "start_ms": 2604880,
+          "end_ms": 2609280,
+          "text": "have created a completely new industry"
+        },
+        {
+          "cue_id": 1168,
+          "start_ms": 2607680,
+          "end_ms": 2611599,
+          "text": "and that it can create overnight"
+        },
+        {
+          "cue_id": 1215,
+          "start_ms": 2695520,
+          "end_ms": 2699040,
+          "text": "unique content made by independent"
+        },
+        {
+          "cue_id": 1216,
+          "start_ms": 2697280,
+          "end_ms": 2700960,
+          "text": "educational creators that you probably"
+        },
+        {
+          "cue_id": 1263,
+          "start_ms": 2782800,
+          "end_ms": 2789440,
+          "text": "other real law reviews so click on one"
+        },
+        {
+          "cue_id": 1264,
+          "start_ms": 2784720,
+          "end_ms": 2789440,
+          "text": "of these links or i'll see you in court"
+        }
+      ],
+      "text": "it and any subsequent transfers and in\nthe digital world the token can be\nsorts of things including for example\nmaking nfts these programs are called\nowner of query to find out who owns a\nparticular nft so board ape 2087 is\nthink the best analogy for an nft is not\ndigital property as a lot of people like\nto buy that car he formed a contract\nwith ford he offered to pay them\nprimary purchaser and seller there are\nsome times when there is no contract\nall but in a way it works because\neveryone is on the same platform\nsay board ape says they're not in\nprivity with all of those downstream\nterms and to make sure that the prior\nsellers and the original mentor are\nnow and these smart contracts are\nbasically contracts in the same sense\nyou a copyright in the original video to\nthe nba they give you an extremely\nimportant because when you're talking\nabout digital art that's often the only\ncourt found that no one had a copyright\nbecause only humans can have a copyright\nwork and so in some sense it's normal\nnot to get a copyright associated with\nthousands of dollars apart from any\nspeculative value\nwhenever you have false promises from\nsellers and misperceptions of buyers you\ncan think of because those things break\nall the time and there are all kinds of\nmarketed mostly as art or collectibles\nbut at the same time there is so much\neffort to enhance the nft's value and\nthe sec's 2019 framework says quote\nkings and he recently pulled in 1.5\nmillion dollars in nft sales in part due\nwell if that person paid this much then\ni'll pay even more and i'll be able to\ni don't know that we will ever know for\ncertain how many nfts are sold in wash\nmyriad of other attribution-related\nlegal issues as well then there was\nwas trying to mint some nfts related to\nthe film pulp fiction and it's a\nthat chain\nlet's say that you are a band or a\nabout these things then there's things\nlike product liabilities nfts break all\nwalled garden it'd be like drm for a car\nyou'd never be able to take your car to\nwith it it's also filled with all kinds\nof non-arm length transactions wash\nhave created a completely new industry\nand that it can create overnight\nunique content made by independent\neducational creators that you probably\nother real law reviews so click on one\nof these links or i'll see you in court",
+      "text_tokens": 547,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "C6aeL83z_9Y",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/C6aeL83z_9Y.srt",
+          "status": "available",
+          "bytes": 140281,
+          "sha256": "0eaf6f21ddfe098d197a62e8d2b27f7745345445cb71efc038d2d12acde0d338",
+          "cues": 1264,
+          "nonempty_cues": 1264
+        },
+        "frame_indices": [
+          0,
+          2156,
+          4312,
+          6468,
+          8624,
+          10780,
+          12936,
+          15092,
+          17248,
+          19404,
+          21560,
+          23716,
+          25872,
+          28028,
+          30184,
+          32340,
+          34495,
+          36651,
+          38807,
+          40963,
+          43119,
+          45275,
+          47431,
+          49587,
+          51743,
+          53899,
+          56055,
+          58211,
+          60367,
+          62523,
+          64679,
+          66835
+        ],
+        "frame_seconds": [
+          0.0,
+          89.923167,
+          179.84633300000002,
+          269.7695,
+          359.69266700000003,
+          449.615833,
+          539.539,
+          629.462167,
+          719.385333,
+          809.3085,
+          899.231667,
+          989.154833,
+          1079.078,
+          1169.001167,
+          1258.924333,
+          1348.8475,
+          1438.728958,
+          1528.652125,
+          1618.575292,
+          1708.498458,
+          1798.421625,
+          1888.344792,
+          1978.267958,
+          2068.191125,
+          2158.114292,
+          2248.037458,
+          2337.960625,
+          2427.883792,
+          2517.806958,
+          2607.730125,
+          2697.653292,
+          2787.576458
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            42,
+            43
+          ],
+          [
+            82,
+            83
+          ],
+          [
+            120,
+            121
+          ],
+          [
+            156,
+            157
+          ],
+          [
+            195,
+            196
+          ],
+          [
+            236,
+            237
+          ],
+          [
+            275,
+            276
+          ],
+          [
+            313,
+            314
+          ],
+          [
+            353,
+            354
+          ],
+          [
+            393,
+            394
+          ],
+          [
+            434,
+            435
+          ],
+          [
+            474,
+            475
+          ],
+          [
+            515,
+            516
+          ],
+          [
+            553,
+            554
+          ],
+          [
+            595,
+            596
+          ],
+          [
+            636,
+            637
+          ],
+          [
+            676,
+            677
+          ],
+          [
+            717,
+            718
+          ],
+          [
+            758,
+            759
+          ],
+          [
+            799,
+            800
+          ],
+          [
+            838,
+            839
+          ],
+          [
+            882,
+            883
+          ],
+          [
+            921,
+            922
+          ],
+          [
+            959,
+            960
+          ],
+          [
+            1000,
+            1001
+          ],
+          [
+            1041,
+            1042
+          ],
+          [
+            1083,
+            1084
+          ],
+          [
+            1123,
+            1124
+          ],
+          [
+            1167,
+            1168
+          ],
+          [
+            1215,
+            1216
+          ],
+          [
+            1263,
+            1264
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 42,
+            "start_ms": 86880,
+            "end_ms": 90400,
+            "text": "it and any subsequent transfers and in"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 88720,
+            "end_ms": 92720,
+            "text": "the digital world the token can be"
+          },
+          {
+            "cue_id": 82,
+            "start_ms": 174560,
+            "end_ms": 180000,
+            "text": "sorts of things including for example"
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 177440,
+            "end_ms": 182640,
+            "text": "making nfts these programs are called"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 265919,
+            "end_ms": 273600,
+            "text": "owner of query to find out who owns a"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 268960,
+            "end_ms": 276880,
+            "text": "particular nft so board ape 2087 is"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 356479,
+            "end_ms": 362000,
+            "text": "think the best analogy for an nft is not"
+          },
+          {
+            "cue_id": 157,
+            "start_ms": 359520,
+            "end_ms": 364160,
+            "text": "digital property as a lot of people like"
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 446160,
+            "end_ms": 451039,
+            "text": "to buy that car he formed a contract"
+          },
+          {
+            "cue_id": 196,
+            "start_ms": 448560,
+            "end_ms": 452560,
+            "text": "with ford he offered to pay them"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 535360,
+            "end_ms": 540000,
+            "text": "primary purchaser and seller there are"
+          },
+          {
+            "cue_id": 237,
+            "start_ms": 538240,
+            "end_ms": 541920,
+            "text": "some times when there is no contract"
+          },
+          {
+            "cue_id": 275,
+            "start_ms": 627360,
+            "end_ms": 631200,
+            "text": "all but in a way it works because"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 629120,
+            "end_ms": 633680,
+            "text": "everyone is on the same platform"
+          },
+          {
+            "cue_id": 313,
+            "start_ms": 717120,
+            "end_ms": 720399,
+            "text": "say board ape says they're not in"
+          },
+          {
+            "cue_id": 314,
+            "start_ms": 718639,
+            "end_ms": 722959,
+            "text": "privity with all of those downstream"
+          },
+          {
+            "cue_id": 353,
+            "start_ms": 805279,
+            "end_ms": 810480,
+            "text": "terms and to make sure that the prior"
+          },
+          {
+            "cue_id": 354,
+            "start_ms": 808160,
+            "end_ms": 812959,
+            "text": "sellers and the original mentor are"
+          },
+          {
+            "cue_id": 393,
+            "start_ms": 896720,
+            "end_ms": 900160,
+            "text": "now and these smart contracts are"
+          },
+          {
+            "cue_id": 394,
+            "start_ms": 898240,
+            "end_ms": 903040,
+            "text": "basically contracts in the same sense"
+          },
+          {
+            "cue_id": 434,
+            "start_ms": 985360,
+            "end_ms": 990560,
+            "text": "you a copyright in the original video to"
+          },
+          {
+            "cue_id": 435,
+            "start_ms": 988160,
+            "end_ms": 993839,
+            "text": "the nba they give you an extremely"
+          },
+          {
+            "cue_id": 474,
+            "start_ms": 1075440,
+            "end_ms": 1079679,
+            "text": "important because when you're talking"
+          },
+          {
+            "cue_id": 475,
+            "start_ms": 1076640,
+            "end_ms": 1082559,
+            "text": "about digital art that's often the only"
+          },
+          {
+            "cue_id": 515,
+            "start_ms": 1163919,
+            "end_ms": 1169440,
+            "text": "court found that no one had a copyright"
+          },
+          {
+            "cue_id": 516,
+            "start_ms": 1166559,
+            "end_ms": 1171679,
+            "text": "because only humans can have a copyright"
+          },
+          {
+            "cue_id": 553,
+            "start_ms": 1254559,
+            "end_ms": 1259840,
+            "text": "work and so in some sense it's normal"
+          },
+          {
+            "cue_id": 554,
+            "start_ms": 1257679,
+            "end_ms": 1262320,
+            "text": "not to get a copyright associated with"
+          },
+          {
+            "cue_id": 595,
+            "start_ms": 1347120,
+            "end_ms": 1350720,
+            "text": "thousands of dollars apart from any"
+          },
+          {
+            "cue_id": 596,
+            "start_ms": 1348640,
+            "end_ms": 1352720,
+            "text": "speculative value"
+          },
+          {
+            "cue_id": 636,
+            "start_ms": 1434640,
+            "end_ms": 1439760,
+            "text": "whenever you have false promises from"
+          },
+          {
+            "cue_id": 637,
+            "start_ms": 1436960,
+            "end_ms": 1442799,
+            "text": "sellers and misperceptions of buyers you"
+          },
+          {
+            "cue_id": 676,
+            "start_ms": 1525760,
+            "end_ms": 1530240,
+            "text": "can think of because those things break"
+          },
+          {
+            "cue_id": 677,
+            "start_ms": 1528000,
+            "end_ms": 1532400,
+            "text": "all the time and there are all kinds of"
+          },
+          {
+            "cue_id": 717,
+            "start_ms": 1614799,
+            "end_ms": 1618880,
+            "text": "marketed mostly as art or collectibles"
+          },
+          {
+            "cue_id": 718,
+            "start_ms": 1616880,
+            "end_ms": 1620960,
+            "text": "but at the same time there is so much"
+          },
+          {
+            "cue_id": 758,
+            "start_ms": 1705360,
+            "end_ms": 1710480,
+            "text": "effort to enhance the nft's value and"
+          },
+          {
+            "cue_id": 759,
+            "start_ms": 1708080,
+            "end_ms": 1712960,
+            "text": "the sec's 2019 framework says quote"
+          },
+          {
+            "cue_id": 799,
+            "start_ms": 1794399,
+            "end_ms": 1800159,
+            "text": "kings and he recently pulled in 1.5"
+          },
+          {
+            "cue_id": 800,
+            "start_ms": 1796799,
+            "end_ms": 1802240,
+            "text": "million dollars in nft sales in part due"
+          },
+          {
+            "cue_id": 838,
+            "start_ms": 1885679,
+            "end_ms": 1890159,
+            "text": "well if that person paid this much then"
+          },
+          {
+            "cue_id": 839,
+            "start_ms": 1887919,
+            "end_ms": 1891519,
+            "text": "i'll pay even more and i'll be able to"
+          },
+          {
+            "cue_id": 882,
+            "start_ms": 1975600,
+            "end_ms": 1980000,
+            "text": "i don't know that we will ever know for"
+          },
+          {
+            "cue_id": 883,
+            "start_ms": 1977519,
+            "end_ms": 1980960,
+            "text": "certain how many nfts are sold in wash"
+          },
+          {
+            "cue_id": 921,
+            "start_ms": 2065119,
+            "end_ms": 2069119,
+            "text": "myriad of other attribution-related"
+          },
+          {
+            "cue_id": 922,
+            "start_ms": 2067280,
+            "end_ms": 2071359,
+            "text": "legal issues as well then there was"
+          },
+          {
+            "cue_id": 959,
+            "start_ms": 2153839,
+            "end_ms": 2158400,
+            "text": "was trying to mint some nfts related to"
+          },
+          {
+            "cue_id": 960,
+            "start_ms": 2156240,
+            "end_ms": 2160000,
+            "text": "the film pulp fiction and it's a"
+          },
+          {
+            "cue_id": 1000,
+            "start_ms": 2246480,
+            "end_ms": 2250720,
+            "text": "that chain"
+          },
+          {
+            "cue_id": 1001,
+            "start_ms": 2247599,
+            "end_ms": 2253520,
+            "text": "let's say that you are a band or a"
+          },
+          {
+            "cue_id": 1041,
+            "start_ms": 2334800,
+            "end_ms": 2338960,
+            "text": "about these things then there's things"
+          },
+          {
+            "cue_id": 1042,
+            "start_ms": 2336960,
+            "end_ms": 2340960,
+            "text": "like product liabilities nfts break all"
+          },
+          {
+            "cue_id": 1083,
+            "start_ms": 2423440,
+            "end_ms": 2429040,
+            "text": "walled garden it'd be like drm for a car"
+          },
+          {
+            "cue_id": 1084,
+            "start_ms": 2426400,
+            "end_ms": 2431359,
+            "text": "you'd never be able to take your car to"
+          },
+          {
+            "cue_id": 1123,
+            "start_ms": 2513920,
+            "end_ms": 2518800,
+            "text": "with it it's also filled with all kinds"
+          },
+          {
+            "cue_id": 1124,
+            "start_ms": 2516400,
+            "end_ms": 2520400,
+            "text": "of non-arm length transactions wash"
+          },
+          {
+            "cue_id": 1167,
+            "start_ms": 2604880,
+            "end_ms": 2609280,
+            "text": "have created a completely new industry"
+          },
+          {
+            "cue_id": 1168,
+            "start_ms": 2607680,
+            "end_ms": 2611599,
+            "text": "and that it can create overnight"
+          },
+          {
+            "cue_id": 1215,
+            "start_ms": 2695520,
+            "end_ms": 2699040,
+            "text": "unique content made by independent"
+          },
+          {
+            "cue_id": 1216,
+            "start_ms": 2697280,
+            "end_ms": 2700960,
+            "text": "educational creators that you probably"
+          },
+          {
+            "cue_id": 1263,
+            "start_ms": 2782800,
+            "end_ms": 2789440,
+            "text": "other real law reviews so click on one"
+          },
+          {
+            "cue_id": 1264,
+            "start_ms": 2784720,
+            "end_ms": 2789440,
+            "text": "of these links or i'll see you in court"
+          }
+        ],
+        "text": "it and any subsequent transfers and in\nthe digital world the token can be\nsorts of things including for example\nmaking nfts these programs are called\nowner of query to find out who owns a\nparticular nft so board ape 2087 is\nthink the best analogy for an nft is not\ndigital property as a lot of people like\nto buy that car he formed a contract\nwith ford he offered to pay them\nprimary purchaser and seller there are\nsome times when there is no contract\nall but in a way it works because\neveryone is on the same platform\nsay board ape says they're not in\nprivity with all of those downstream\nterms and to make sure that the prior\nsellers and the original mentor are\nnow and these smart contracts are\nbasically contracts in the same sense\nyou a copyright in the original video to\nthe nba they give you an extremely\nimportant because when you're talking\nabout digital art that's often the only\ncourt found that no one had a copyright\nbecause only humans can have a copyright\nwork and so in some sense it's normal\nnot to get a copyright associated with\nthousands of dollars apart from any\nspeculative value\nwhenever you have false promises from\nsellers and misperceptions of buyers you\ncan think of because those things break\nall the time and there are all kinds of\nmarketed mostly as art or collectibles\nbut at the same time there is so much\neffort to enhance the nft's value and\nthe sec's 2019 framework says quote\nkings and he recently pulled in 1.5\nmillion dollars in nft sales in part due\nwell if that person paid this much then\ni'll pay even more and i'll be able to\ni don't know that we will ever know for\ncertain how many nfts are sold in wash\nmyriad of other attribution-related\nlegal issues as well then there was\nwas trying to mint some nfts related to\nthe film pulp fiction and it's a\nthat chain\nlet's say that you are a band or a\nabout these things then there's things\nlike product liabilities nfts break all\nwalled garden it'd be like drm for a car\nyou'd never be able to take your car to\nwith it it's also filled with all kinds\nof non-arm length transactions wash\nhave created a completely new industry\nand that it can create overnight\nunique content made by independent\neducational creators that you probably\nother real law reviews so click on one\nof these links or i'll see you in court",
+        "text_tokens": 547,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S41",
+          "cue_ids": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "start_ms": 85360,
+          "end_ms": 94079,
+          "text": "asset where it originated who purchased it and any subsequent transfers and in the digital world the token can be assigned specific uses and properties"
+        },
+        {
+          "id": "S81",
+          "cue_ids": [
+            81,
+            82,
+            83,
+            84
+          ],
+          "start_ms": 172480,
+          "end_ms": 184560,
+          "text": "ethereum programming language to do all sorts of things including for example making nfts these programs are called smart contracts which is misleading"
+        },
+        {
+          "id": "S119",
+          "cue_ids": [
+            119,
+            120,
+            121,
+            122
+          ],
+          "start_ms": 263520,
+          "end_ms": 279199,
+          "text": "certain ways for example i can use the owner of query to find out who owns a particular nft so board ape 2087 is owned by this person the erc721 standard"
+        },
+        {
+          "id": "S155",
+          "cue_ids": [
+            155,
+            156,
+            157,
+            158
+          ],
+          "start_ms": 354560,
+          "end_ms": 367600,
+          "text": "so at the end of the day to summarize i think the best analogy for an nft is not digital property as a lot of people like to claim i think the best analogy for"
+        },
+        {
+          "id": "S194",
+          "cue_ids": [
+            194,
+            195,
+            196,
+            197
+          ],
+          "start_ms": 443840,
+          "end_ms": 455039,
+          "text": "sports car at the time in order for him to buy that car he formed a contract with ford he offered to pay them hundreds of thousands of dollars and"
+        },
+        {
+          "id": "S235",
+          "cue_ids": [
+            235,
+            236,
+            237,
+            238
+          ],
+          "start_ms": 532720,
+          "end_ms": 544640,
+          "text": "the buyer and the seller those are the primary purchaser and seller there are some times when there is no contract we'll talk about that but theoretically"
+        },
+        {
+          "id": "S274",
+          "cue_ids": [
+            274,
+            275,
+            276,
+            277
+          ],
+          "start_ms": 624720,
+          "end_ms": 636720,
+          "text": "for the nft to have any functionality at all but in a way it works because everyone is on the same platform effectively nba top shots is simply a"
+        },
+        {
+          "id": "S312",
+          "cue_ids": [
+            312,
+            313,
+            314,
+            315
+          ],
+          "start_ms": 715360,
+          "end_ms": 725519,
+          "text": "those terms and conditions legally fail say board ape says they're not in privity with all of those downstream purchasers and then they decide to cut"
+        },
+        {
+          "id": "S352",
+          "cue_ids": [
+            352,
+            353,
+            354,
+            355
+          ],
+          "start_ms": 802480,
+          "end_ms": 815600,
+          "text": "saw an assented to all of the contract terms and to make sure that the prior sellers and the original mentor are bound by the same terms to provide the"
+        },
+        {
+          "id": "S392",
+          "cue_ids": [
+            392,
+            393,
+            394,
+            395
+          ],
+          "start_ms": 894639,
+          "end_ms": 905279,
+          "text": "programming so-called smart contracts now and these smart contracts are basically contracts in the same sense that a microchip is a contract it's it's"
+        },
+        {
+          "id": "S433",
+          "cue_ids": [
+            433,
+            434,
+            435,
+            436
+          ],
+          "start_ms": 983040,
+          "end_ms": 996079,
+          "text": "nba top shots for example does not give you a copyright in the original video to the nba they give you an extremely limited license to use that video in"
+        },
+        {
+          "id": "S473",
+          "cue_ids": [
+            473,
+            474,
+            475,
+            476
+          ],
+          "start_ms": 1073840,
+          "end_ms": 1084240,
+          "text": "and the issue of copyright is incredibly important because when you're talking about digital art that's often the only right that the law recognizes if you"
+        },
+        {
+          "id": "S514",
+          "cue_ids": [
+            514,
+            515,
+            516,
+            517
+          ],
+          "start_ms": 1161520,
+          "end_ms": 1174160,
+          "text": "monkeys rights on its behalf and the court found that no one had a copyright because only humans can have a copyright in art only humans can create art that"
+        },
+        {
+          "id": "S552",
+          "cue_ids": [
+            552,
+            553,
+            554,
+            555
+          ],
+          "start_ms": 1251919,
+          "end_ms": 1265440,
+          "text": "not get the copyright associated with a work and so in some sense it's normal not to get a copyright associated with digital art the issue here is that"
+        },
+        {
+          "id": "S594",
+          "cue_ids": [
+            594,
+            595,
+            596,
+            597
+          ],
+          "start_ms": 1345280,
+          "end_ms": 1355200,
+          "text": "this art is inherently worth hundreds of thousands of dollars apart from any speculative value i don't think you're good at art so that"
+        },
+        {
+          "id": "S635",
+          "cue_ids": [
+            635,
+            636,
+            637,
+            638
+          ],
+          "start_ms": 1432400,
+          "end_ms": 1446080,
+          "text": "mentors are compounding that effect and whenever you have false promises from sellers and misperceptions of buyers you run into consumer protection issues if i"
+        },
+        {
+          "id": "S675",
+          "cue_ids": [
+            675,
+            676,
+            677,
+            678
+          ],
+          "start_ms": 1524159,
+          "end_ms": 1535279,
+          "text": "for every single contingency that you can think of because those things break all the time and there are all kinds of laws that make sure that consumers are"
+        },
+        {
+          "id": "S716",
+          "cue_ids": [
+            716,
+            717,
+            718,
+            719
+          ],
+          "start_ms": 1612320,
+          "end_ms": 1623120,
+          "text": "related legal issues nfcs are being marketed mostly as art or collectibles but at the same time there is so much hype and so much speculation"
+        },
+        {
+          "id": "S757",
+          "cue_ids": [
+            757,
+            758,
+            759,
+            760
+          ],
+          "start_ms": 1703600,
+          "end_ms": 1714720,
+          "text": "forces not because of a third party's effort to enhance the nft's value and the sec's 2019 framework says quote price appreciation resulting solely from"
+        },
+        {
+          "id": "S798",
+          "cue_ids": [
+            798,
+            799,
+            800,
+            801
+          ],
+          "start_ms": 1792640,
+          "end_ms": 1803840,
+          "text": "is an nba player for the sacramento kings and he recently pulled in 1.5 million dollars in nft sales in part due to a road map where he had promised some"
+        },
+        {
+          "id": "S837",
+          "cue_ids": [
+            837,
+            838,
+            839,
+            840
+          ],
+          "start_ms": 1883600,
+          "end_ms": 1894080,
+          "text": "unsuspecting downstream purchaser thinks well if that person paid this much then i'll pay even more and i'll be able to sell it to somebody else down the line"
+        },
+        {
+          "id": "S881",
+          "cue_ids": [
+            881,
+            882,
+            883,
+            884
+          ],
+          "start_ms": 1973679,
+          "end_ms": 1982320,
+          "text": "consumer legal remedies act i don't know that we will ever know for certain how many nfts are sold in wash sales"
+        },
+        {
+          "id": "S920",
+          "cue_ids": [
+            920,
+            921,
+            922,
+            923
+          ],
+          "start_ms": 2062800,
+          "end_ms": 2074239,
+          "text": "particular band and song and probably a myriad of other attribution-related legal issues as well then there was another music-related nft project called"
+        },
+        {
+          "id": "S958",
+          "cue_ids": [
+            958,
+            959,
+            960,
+            961
+          ],
+          "start_ms": 2151839,
+          "end_ms": 2162320,
+          "text": "that case quentin tarantino the director was trying to mint some nfts related to the film pulp fiction and it's a complete morass to try and figure this"
+        },
+        {
+          "id": "S999",
+          "cue_ids": [
+            999,
+            1000,
+            1001,
+            1002
+          ],
+          "start_ms": 2243359,
+          "end_ms": 2255680,
+          "text": "as well if those terms do travel down that chain let's say that you are a band or a youtube creator and as part of your nft"
+        },
+        {
+          "id": "S1040",
+          "cue_ids": [
+            1040,
+            1041,
+            1042,
+            1043
+          ],
+          "start_ms": 2332960,
+          "end_ms": 2342480,
+          "text": "potential pitfalls if you're not smart about these things then there's things like product liabilities nfts break all the time who's responsible if the link"
+        },
+        {
+          "id": "S1082",
+          "cue_ids": [
+            1082,
+            1083,
+            1084,
+            1085
+          ],
+          "start_ms": 2421440,
+          "end_ms": 2432640,
+          "text": "romeo might force you to use their walled garden it'd be like drm for a car you'd never be able to take your car to any other service place now i am not a"
+        },
+        {
+          "id": "S1122",
+          "cue_ids": [
+            1122,
+            1123,
+            1124,
+            1125
+          ],
+          "start_ms": 2512480,
+          "end_ms": 2523440,
+          "text": "think people will probably get bored with it it's also filled with all kinds of non-arm length transactions wash sales and sock puppets that are propping"
+        },
+        {
+          "id": "S1166",
+          "cue_ids": [
+            1166,
+            1167,
+            1168,
+            1169
+          ],
+          "start_ms": 2602319,
+          "end_ms": 2613200,
+          "text": "finances on the proposition that nfts have created a completely new industry and that it can create overnight millionaires in anyone and when people"
+        },
+        {
+          "id": "S1214",
+          "cue_ids": [
+            1214,
+            1215,
+            1216,
+            1217
+          ],
+          "start_ms": 2694000,
+          "end_ms": 2702400,
+          "text": "nebula is a platform for great and unique content made by independent educational creators that you probably already know like tom scott thomasfrank"
+        },
+        {
+          "id": "S1262",
+          "cue_ids": [
+            1262,
+            1263,
+            1264
+          ],
+          "start_ms": 2781520,
+          "end_ms": 2789440,
+          "text": "this playlist over here with all my other real law reviews so click on one of these links or i'll see you in court"
+        }
+      ],
+      "text": "S41 [00:01:25.360 --> 00:01:34.079] asset where it originated who purchased it and any subsequent transfers and in the digital world the token can be assigned specific uses and properties\nS81 [00:02:52.480 --> 00:03:04.560] ethereum programming language to do all sorts of things including for example making nfts these programs are called smart contracts which is misleading\nS119 [00:04:23.520 --> 00:04:39.199] certain ways for example i can use the owner of query to find out who owns a particular nft so board ape 2087 is owned by this person the erc721 standard\nS155 [00:05:54.560 --> 00:06:07.600] so at the end of the day to summarize i think the best analogy for an nft is not digital property as a lot of people like to claim i think the best analogy for\nS194 [00:07:23.840 --> 00:07:35.039] sports car at the time in order for him to buy that car he formed a contract with ford he offered to pay them hundreds of thousands of dollars and\nS235 [00:08:52.720 --> 00:09:04.640] the buyer and the seller those are the primary purchaser and seller there are some times when there is no contract we'll talk about that but theoretically\nS274 [00:10:24.720 --> 00:10:36.720] for the nft to have any functionality at all but in a way it works because everyone is on the same platform effectively nba top shots is simply a\nS312 [00:11:55.360 --> 00:12:05.519] those terms and conditions legally fail say board ape says they're not in privity with all of those downstream purchasers and then they decide to cut\nS352 [00:13:22.480 --> 00:13:35.600] saw an assented to all of the contract terms and to make sure that the prior sellers and the original mentor are bound by the same terms to provide the\nS392 [00:14:54.639 --> 00:15:05.279] programming so-called smart contracts now and these smart contracts are basically contracts in the same sense that a microchip is a contract it's it's\nS433 [00:16:23.040 --> 00:16:36.079] nba top shots for example does not give you a copyright in the original video to the nba they give you an extremely limited license to use that video in\nS473 [00:17:53.840 --> 00:18:04.240] and the issue of copyright is incredibly important because when you're talking about digital art that's often the only right that the law recognizes if you\nS514 [00:19:21.520 --> 00:19:34.160] monkeys rights on its behalf and the court found that no one had a copyright because only humans can have a copyright in art only humans can create art that\nS552 [00:20:51.919 --> 00:21:05.440] not get the copyright associated with a work and so in some sense it's normal not to get a copyright associated with digital art the issue here is that\nS594 [00:22:25.280 --> 00:22:35.200] this art is inherently worth hundreds of thousands of dollars apart from any speculative value i don't think you're good at art so that\nS635 [00:23:52.400 --> 00:24:06.080] mentors are compounding that effect and whenever you have false promises from sellers and misperceptions of buyers you run into consumer protection issues if i\nS675 [00:25:24.159 --> 00:25:35.279] for every single contingency that you can think of because those things break all the time and there are all kinds of laws that make sure that consumers are\nS716 [00:26:52.320 --> 00:27:03.120] related legal issues nfcs are being marketed mostly as art or collectibles but at the same time there is so much hype and so much speculation\nS757 [00:28:23.600 --> 00:28:34.720] forces not because of a third party's effort to enhance the nft's value and the sec's 2019 framework says quote price appreciation resulting solely from\nS798 [00:29:52.640 --> 00:30:03.840] is an nba player for the sacramento kings and he recently pulled in 1.5 million dollars in nft sales in part due to a road map where he had promised some\nS837 [00:31:23.600 --> 00:31:34.080] unsuspecting downstream purchaser thinks well if that person paid this much then i'll pay even more and i'll be able to sell it to somebody else down the line\nS881 [00:32:53.679 --> 00:33:02.320] consumer legal remedies act i don't know that we will ever know for certain how many nfts are sold in wash sales\nS920 [00:34:22.800 --> 00:34:34.239] particular band and song and probably a myriad of other attribution-related legal issues as well then there was another music-related nft project called\nS958 [00:35:51.839 --> 00:36:02.320] that case quentin tarantino the director was trying to mint some nfts related to the film pulp fiction and it's a complete morass to try and figure this\nS999 [00:37:23.359 --> 00:37:35.680] as well if those terms do travel down that chain let's say that you are a band or a youtube creator and as part of your nft\nS1040 [00:38:52.960 --> 00:39:02.480] potential pitfalls if you're not smart about these things then there's things like product liabilities nfts break all the time who's responsible if the link\nS1082 [00:40:21.440 --> 00:40:32.640] romeo might force you to use their walled garden it'd be like drm for a car you'd never be able to take your car to any other service place now i am not a\nS1122 [00:41:52.480 --> 00:42:03.440] think people will probably get bored with it it's also filled with all kinds of non-arm length transactions wash sales and sock puppets that are propping\nS1166 [00:43:22.319 --> 00:43:33.200] finances on the proposition that nfts have created a completely new industry and that it can create overnight millionaires in anyone and when people\nS1214 [00:44:54.000 --> 00:45:02.400] nebula is a platform for great and unique content made by independent educational creators that you probably already know like tom scott thomasfrank\nS1262 [00:46:21.520 --> 00:46:29.440] this playlist over here with all my other real law reviews so click on one of these links or i'll see you in court",
+      "text_tokens": 1949,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        41,
+        44,
+        81,
+        84,
+        119,
+        122,
+        155,
+        158,
+        194,
+        197,
+        235,
+        238,
+        274,
+        277,
+        312,
+        315,
+        352,
+        355,
+        392,
+        395,
+        433,
+        436,
+        473,
+        476,
+        514,
+        517,
+        552,
+        555,
+        594,
+        597,
+        635,
+        638,
+        675,
+        678,
+        716,
+        719,
+        757,
+        760,
+        798,
+        801,
+        837,
+        840,
+        881,
+        884,
+        920,
+        923,
+        958,
+        961,
+        999,
+        1002,
+        1040,
+        1043,
+        1082,
+        1085,
+        1122,
+        1125,
+        1166,
+        1169,
+        1214,
+        1217,
+        1262
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "40f14739639ac6aaa052ddbda5d418281c4abc30a19848609c99178267540389"
+}

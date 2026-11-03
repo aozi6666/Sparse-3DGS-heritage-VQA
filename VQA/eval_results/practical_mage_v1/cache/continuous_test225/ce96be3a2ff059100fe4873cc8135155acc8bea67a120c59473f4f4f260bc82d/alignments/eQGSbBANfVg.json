@@ -1,0 +1,1524 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "eQGSbBANfVg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eQGSbBANfVg.srt",
+        "status": "available",
+        "bytes": 102271,
+        "sha256": "f72c9139349d75628b0c6372c6f182f43594343491540c9fe1e9c2466b840c83",
+        "cues": 968,
+        "nonempty_cues": 968
+      },
+      "frame_indices": [
+        0,
+        2096,
+        4191,
+        6287,
+        8383,
+        10478,
+        12574,
+        14670,
+        16765,
+        18861,
+        20957,
+        23052,
+        25148,
+        27244,
+        29339,
+        31435,
+        33531,
+        35627,
+        37722,
+        39818,
+        41914,
+        44009,
+        46105,
+        48201,
+        50296,
+        52392,
+        54488,
+        56583,
+        58679,
+        60775,
+        62870,
+        64966
+      ],
+      "frame_seconds": [
+        0.0,
+        83.84,
+        167.64,
+        251.48,
+        335.32,
+        419.12,
+        502.96,
+        586.8,
+        670.6,
+        754.44,
+        838.28,
+        922.08,
+        1005.92,
+        1089.76,
+        1173.56,
+        1257.4,
+        1341.24,
+        1425.08,
+        1508.88,
+        1592.72,
+        1676.56,
+        1760.36,
+        1844.2,
+        1928.04,
+        2011.84,
+        2095.68,
+        2179.52,
+        2263.32,
+        2347.16,
+        2431.0,
+        2514.8,
+        2598.64
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          25,
+          26
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          137,
+          138
+        ],
+        [
+          170,
+          171
+        ],
+        [
+          201,
+          202
+        ],
+        [
+          233,
+          234
+        ],
+        [
+          266,
+          267
+        ],
+        [
+          296,
+          297
+        ],
+        [
+          328,
+          329
+        ],
+        [
+          359
+        ],
+        [
+          392,
+          393
+        ],
+        [
+          417,
+          418
+        ],
+        [
+          450,
+          451
+        ],
+        [
+          486,
+          487
+        ],
+        [],
+        [
+          543,
+          544
+        ],
+        [
+          573,
+          574
+        ],
+        [
+          605,
+          606
+        ],
+        [
+          634,
+          635
+        ],
+        [
+          669,
+          670
+        ],
+        [
+          698,
+          699
+        ],
+        [
+          730,
+          731
+        ],
+        [
+          766,
+          767
+        ],
+        [
+          790,
+          791
+        ],
+        [
+          826,
+          827
+        ],
+        [
+          862,
+          863
+        ],
+        [
+          885,
+          886
+        ],
+        [
+          913,
+          914
+        ],
+        [
+          943
+        ],
+        [
+          968
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 25,
+          "start_ms": 75439,
+          "end_ms": 84479,
+          "text": "are Daniel Walker Jimmy Rees Julia"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 80200,
+          "end_ms": 87720,
+          "text": "Morris L McGregor and"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 163840,
+          "end_ms": 168519,
+          "text": "buried yeah that was kind of part of it"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 166079,
+          "end_ms": 170040,
+          "text": "wasn't it you could argue us the whole"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 249439,
+          "end_ms": 252599,
+          "text": "said Brad"
+        },
+        {
+          "cue_id": 100,
+          "start_ms": 250640,
+          "end_ms": 255000,
+          "text": "Pit I"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 330960,
+          "end_ms": 336479,
+          "text": "I uh I admit there are"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 334440,
+          "end_ms": 337680,
+          "text": "flaws I must say I think this is really"
+        },
+        {
+          "cue_id": 170,
+          "start_ms": 415759,
+          "end_ms": 421400,
+          "text": "table okay here we go"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 418400,
+          "end_ms": 421400,
+          "text": "sir"
+        },
+        {
+          "cue_id": 201,
+          "start_ms": 501039,
+          "end_ms": 504720,
+          "text": "even further so it's still technically"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 502599,
+          "end_ms": 505960,
+          "text": "in the air okay how accurate do you"
+        },
+        {
+          "cue_id": 233,
+          "start_ms": 584200,
+          "end_ms": 588320,
+          "text": "throwing it is really hard I know don't"
+        },
+        {
+          "cue_id": 234,
+          "start_ms": 586760,
+          "end_ms": 591690,
+          "text": "slip on"
+        },
+        {
+          "cue_id": 266,
+          "start_ms": 667600,
+          "end_ms": 671760,
+          "text": "thong"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 668560,
+          "end_ms": 674079,
+          "text": "28.9 M implementing his chucking while"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 748760,
+          "end_ms": 756240,
+          "text": "go set him off okay what what's the plan"
+        },
+        {
+          "cue_id": 297,
+          "start_ms": 752680,
+          "end_ms": 758399,
+          "text": "here um I'll light um him on fire and"
+        },
+        {
+          "cue_id": 328,
+          "start_ms": 835399,
+          "end_ms": 841560,
+          "text": "about it if we're going to make the leaf"
+        },
+        {
+          "cue_id": 329,
+          "start_ms": 838040,
+          "end_ms": 843040,
+          "text": "of CGI and pretend that your thong went"
+        },
+        {
+          "cue_id": 359,
+          "start_ms": 919160,
+          "end_ms": 927240,
+          "text": "no in the fly so now I can just go far"
+        },
+        {
+          "cue_id": 392,
+          "start_ms": 1003120,
+          "end_ms": 1008319,
+          "text": "wow that means Danielle is on one point"
+        },
+        {
+          "cue_id": 393,
+          "start_ms": 1005920,
+          "end_ms": 1010120,
+          "text": "Nina has two Jimmy three Luke on four"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 1087240,
+          "end_ms": 1090480,
+          "text": "I'll be mad if we don't let's all do it"
+        },
+        {
+          "cue_id": 418,
+          "start_ms": 1088840,
+          "end_ms": 1093480,
+          "text": "at the same time okay okay we should do"
+        },
+        {
+          "cue_id": 450,
+          "start_ms": 1169720,
+          "end_ms": 1173799,
+          "text": "justed but i' love to stand in front"
+        },
+        {
+          "cue_id": 451,
+          "start_ms": 1172159,
+          "end_ms": 1176000,
+          "text": "like a family snap do you know what I"
+        },
+        {
+          "cue_id": 486,
+          "start_ms": 1254919,
+          "end_ms": 1259919,
+          "text": "and then we make like Tom silver riddle"
+        },
+        {
+          "cue_id": 487,
+          "start_ms": 1257400,
+          "end_ms": 1261320,
+          "text": "we are the eggs"
+        },
+        {
+          "cue_id": 543,
+          "start_ms": 1418000,
+          "end_ms": 1426220,
+          "text": "minutes for your beautiful dance"
+        },
+        {
+          "cue_id": 544,
+          "start_ms": 1419760,
+          "end_ms": 1430380,
+          "text": "choreography 5 6 7 8 1 2 3"
+        },
+        {
+          "cue_id": 573,
+          "start_ms": 1500240,
+          "end_ms": 1509279,
+          "text": "yeah oh sorry it's"
+        },
+        {
+          "cue_id": 574,
+          "start_ms": 1504039,
+          "end_ms": 1513000,
+          "text": "me Tom Jimmy I'm ready to to task where"
+        },
+        {
+          "cue_id": 605,
+          "start_ms": 1589720,
+          "end_ms": 1593200,
+          "text": "what did you see behind the shed a big"
+        },
+        {
+          "cue_id": 606,
+          "start_ms": 1591880,
+          "end_ms": 1595080,
+          "text": "thing that you wouldn't be able to use"
+        },
+        {
+          "cue_id": 634,
+          "start_ms": 1672760,
+          "end_ms": 1676720,
+          "text": "floppy the baggy the baggy green what's"
+        },
+        {
+          "cue_id": 635,
+          "start_ms": 1675000,
+          "end_ms": 1678519,
+          "text": "his name Don Bradman that's it it's not"
+        },
+        {
+          "cue_id": 669,
+          "start_ms": 1758159,
+          "end_ms": 1762279,
+          "text": "like someone would have stand in like"
+        },
+        {
+          "cue_id": 670,
+          "start_ms": 1759880,
+          "end_ms": 1764399,
+          "text": "out Zone can someone's hold this bat and"
+        },
+        {
+          "cue_id": 698,
+          "start_ms": 1839720,
+          "end_ms": 1844640,
+          "text": "McGregor what are you thinking I feel"
+        },
+        {
+          "cue_id": 699,
+          "start_ms": 1842559,
+          "end_ms": 1847240,
+          "text": "like I don't know like I need like"
+        },
+        {
+          "cue_id": 730,
+          "start_ms": 1926120,
+          "end_ms": 1929440,
+          "text": "sarcastic about someone else's attempt"
+        },
+        {
+          "cue_id": 731,
+          "start_ms": 1927919,
+          "end_ms": 1931919,
+          "text": "to play"
+        },
+        {
+          "cue_id": 766,
+          "start_ms": 2009600,
+          "end_ms": 2013720,
+          "text": "didn't show off to the battle if if"
+        },
+        {
+          "cue_id": 767,
+          "start_ms": 2011279,
+          "end_ms": 2018080,
+          "text": "David just ran"
+        },
+        {
+          "cue_id": 790,
+          "start_ms": 2091719,
+          "end_ms": 2096480,
+          "text": "passion it was for a legitimate reason I"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 2094719,
+          "end_ms": 2098879,
+          "text": "can't fault it there was there was no"
+        },
+        {
+          "cue_id": 826,
+          "start_ms": 2176079,
+          "end_ms": 2180240,
+          "text": "commercial endorsements you kind of"
+        },
+        {
+          "cue_id": 827,
+          "start_ms": 2177319,
+          "end_ms": 2181960,
+          "text": "phoned it in no that's it absolutely"
+        },
+        {
+          "cue_id": 862,
+          "start_ms": 2260000,
+          "end_ms": 2266960,
+          "text": "contestant in each round is eliminated"
+        },
+        {
+          "cue_id": 863,
+          "start_ms": 2263160,
+          "end_ms": 2270720,
+          "text": "you will have 10 seconds each per round"
+        },
+        {
+          "cue_id": 885,
+          "start_ms": 2338319,
+          "end_ms": 2347400,
+          "text": "done Nina passionately plea using words"
+        },
+        {
+          "cue_id": 886,
+          "start_ms": 2341839,
+          "end_ms": 2354240,
+          "text": "that start with P please PP Five"
+        },
+        {
+          "cue_id": 913,
+          "start_ms": 2427119,
+          "end_ms": 2431640,
+          "text": "hello Tom Glon Taskmaster standing right"
+        },
+        {
+          "cue_id": 914,
+          "start_ms": 2429280,
+          "end_ms": 2435000,
+          "text": "in front of me could I please have five"
+        },
+        {
+          "cue_id": 943,
+          "start_ms": 2513920,
+          "end_ms": 2520000,
+          "text": "point congratulations of Julia you'll"
+        },
+        {
+          "cue_id": 968,
+          "start_ms": 2597640,
+          "end_ms": 2600640,
+          "text": "now"
+        }
+      ],
+      "text": "are Daniel Walker Jimmy Rees Julia\nMorris L McGregor and\nburied yeah that was kind of part of it\nwasn't it you could argue us the whole\nsaid Brad\nPit I\nI uh I admit there are\nflaws I must say I think this is really\ntable okay here we go\nsir\neven further so it's still technically\nin the air okay how accurate do you\nthrowing it is really hard I know don't\nslip on\nthong\n28.9 M implementing his chucking while\ngo set him off okay what what's the plan\nhere um I'll light um him on fire and\nabout it if we're going to make the leaf\nof CGI and pretend that your thong went\nno in the fly so now I can just go far\nwow that means Danielle is on one point\nNina has two Jimmy three Luke on four\nI'll be mad if we don't let's all do it\nat the same time okay okay we should do\njusted but i' love to stand in front\nlike a family snap do you know what I\nand then we make like Tom silver riddle\nwe are the eggs\nminutes for your beautiful dance\nchoreography 5 6 7 8 1 2 3\nyeah oh sorry it's\nme Tom Jimmy I'm ready to to task where\nwhat did you see behind the shed a big\nthing that you wouldn't be able to use\nfloppy the baggy the baggy green what's\nhis name Don Bradman that's it it's not\nlike someone would have stand in like\nout Zone can someone's hold this bat and\nMcGregor what are you thinking I feel\nlike I don't know like I need like\nsarcastic about someone else's attempt\nto play\ndidn't show off to the battle if if\nDavid just ran\npassion it was for a legitimate reason I\ncan't fault it there was there was no\ncommercial endorsements you kind of\nphoned it in no that's it absolutely\ncontestant in each round is eliminated\nyou will have 10 seconds each per round\ndone Nina passionately plea using words\nthat start with P please PP Five\nhello Tom Glon Taskmaster standing right\nin front of me could I please have five\npoint congratulations of Julia you'll\nnow",
+      "text_tokens": 496,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eQGSbBANfVg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eQGSbBANfVg.srt",
+          "status": "available",
+          "bytes": 102271,
+          "sha256": "f72c9139349d75628b0c6372c6f182f43594343491540c9fe1e9c2466b840c83",
+          "cues": 968,
+          "nonempty_cues": 968
+        },
+        "frame_indices": [
+          0,
+          2096,
+          4191,
+          6287,
+          8383,
+          10478,
+          12574,
+          14670,
+          16765,
+          18861,
+          20957,
+          23052,
+          25148,
+          27244,
+          29339,
+          31435,
+          33531,
+          35627,
+          37722,
+          39818,
+          41914,
+          44009,
+          46105,
+          48201,
+          50296,
+          52392,
+          54488,
+          56583,
+          58679,
+          60775,
+          62870,
+          64966
+        ],
+        "frame_seconds": [
+          0.0,
+          83.84,
+          167.64,
+          251.48,
+          335.32,
+          419.12,
+          502.96,
+          586.8,
+          670.6,
+          754.44,
+          838.28,
+          922.08,
+          1005.92,
+          1089.76,
+          1173.56,
+          1257.4,
+          1341.24,
+          1425.08,
+          1508.88,
+          1592.72,
+          1676.56,
+          1760.36,
+          1844.2,
+          1928.04,
+          2011.84,
+          2095.68,
+          2179.52,
+          2263.32,
+          2347.16,
+          2431.0,
+          2514.8,
+          2598.64
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            25,
+            26
+          ],
+          [
+            60,
+            61
+          ],
+          [
+            99,
+            100
+          ],
+          [
+            137,
+            138
+          ],
+          [
+            170,
+            171
+          ],
+          [
+            201,
+            202
+          ],
+          [
+            233,
+            234
+          ],
+          [
+            266,
+            267
+          ],
+          [
+            296,
+            297
+          ],
+          [
+            328,
+            329
+          ],
+          [
+            359
+          ],
+          [
+            392,
+            393
+          ],
+          [
+            417,
+            418
+          ],
+          [
+            450,
+            451
+          ],
+          [
+            486,
+            487
+          ],
+          [],
+          [
+            543,
+            544
+          ],
+          [
+            573,
+            574
+          ],
+          [
+            605,
+            606
+          ],
+          [
+            634,
+            635
+          ],
+          [
+            669,
+            670
+          ],
+          [
+            698,
+            699
+          ],
+          [
+            730,
+            731
+          ],
+          [
+            766,
+            767
+          ],
+          [
+            790,
+            791
+          ],
+          [
+            826,
+            827
+          ],
+          [
+            862,
+            863
+          ],
+          [
+            885,
+            886
+          ],
+          [
+            913,
+            914
+          ],
+          [
+            943
+          ],
+          [
+            968
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 25,
+            "start_ms": 75439,
+            "end_ms": 84479,
+            "text": "are Daniel Walker Jimmy Rees Julia"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 80200,
+            "end_ms": 87720,
+            "text": "Morris L McGregor and"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 163840,
+            "end_ms": 168519,
+            "text": "buried yeah that was kind of part of it"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 166079,
+            "end_ms": 170040,
+            "text": "wasn't it you could argue us the whole"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 249439,
+            "end_ms": 252599,
+            "text": "said Brad"
+          },
+          {
+            "cue_id": 100,
+            "start_ms": 250640,
+            "end_ms": 255000,
+            "text": "Pit I"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 330960,
+            "end_ms": 336479,
+            "text": "I uh I admit there are"
+          },
+          {
+            "cue_id": 138,
+            "start_ms": 334440,
+            "end_ms": 337680,
+            "text": "flaws I must say I think this is really"
+          },
+          {
+            "cue_id": 170,
+            "start_ms": 415759,
+            "end_ms": 421400,
+            "text": "table okay here we go"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 418400,
+            "end_ms": 421400,
+            "text": "sir"
+          },
+          {
+            "cue_id": 201,
+            "start_ms": 501039,
+            "end_ms": 504720,
+            "text": "even further so it's still technically"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 502599,
+            "end_ms": 505960,
+            "text": "in the air okay how accurate do you"
+          },
+          {
+            "cue_id": 233,
+            "start_ms": 584200,
+            "end_ms": 588320,
+            "text": "throwing it is really hard I know don't"
+          },
+          {
+            "cue_id": 234,
+            "start_ms": 586760,
+            "end_ms": 591690,
+            "text": "slip on"
+          },
+          {
+            "cue_id": 266,
+            "start_ms": 667600,
+            "end_ms": 671760,
+            "text": "thong"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 668560,
+            "end_ms": 674079,
+            "text": "28.9 M implementing his chucking while"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 748760,
+            "end_ms": 756240,
+            "text": "go set him off okay what what's the plan"
+          },
+          {
+            "cue_id": 297,
+            "start_ms": 752680,
+            "end_ms": 758399,
+            "text": "here um I'll light um him on fire and"
+          },
+          {
+            "cue_id": 328,
+            "start_ms": 835399,
+            "end_ms": 841560,
+            "text": "about it if we're going to make the leaf"
+          },
+          {
+            "cue_id": 329,
+            "start_ms": 838040,
+            "end_ms": 843040,
+            "text": "of CGI and pretend that your thong went"
+          },
+          {
+            "cue_id": 359,
+            "start_ms": 919160,
+            "end_ms": 927240,
+            "text": "no in the fly so now I can just go far"
+          },
+          {
+            "cue_id": 392,
+            "start_ms": 1003120,
+            "end_ms": 1008319,
+            "text": "wow that means Danielle is on one point"
+          },
+          {
+            "cue_id": 393,
+            "start_ms": 1005920,
+            "end_ms": 1010120,
+            "text": "Nina has two Jimmy three Luke on four"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 1087240,
+            "end_ms": 1090480,
+            "text": "I'll be mad if we don't let's all do it"
+          },
+          {
+            "cue_id": 418,
+            "start_ms": 1088840,
+            "end_ms": 1093480,
+            "text": "at the same time okay okay we should do"
+          },
+          {
+            "cue_id": 450,
+            "start_ms": 1169720,
+            "end_ms": 1173799,
+            "text": "justed but i' love to stand in front"
+          },
+          {
+            "cue_id": 451,
+            "start_ms": 1172159,
+            "end_ms": 1176000,
+            "text": "like a family snap do you know what I"
+          },
+          {
+            "cue_id": 486,
+            "start_ms": 1254919,
+            "end_ms": 1259919,
+            "text": "and then we make like Tom silver riddle"
+          },
+          {
+            "cue_id": 487,
+            "start_ms": 1257400,
+            "end_ms": 1261320,
+            "text": "we are the eggs"
+          },
+          {
+            "cue_id": 543,
+            "start_ms": 1418000,
+            "end_ms": 1426220,
+            "text": "minutes for your beautiful dance"
+          },
+          {
+            "cue_id": 544,
+            "start_ms": 1419760,
+            "end_ms": 1430380,
+            "text": "choreography 5 6 7 8 1 2 3"
+          },
+          {
+            "cue_id": 573,
+            "start_ms": 1500240,
+            "end_ms": 1509279,
+            "text": "yeah oh sorry it's"
+          },
+          {
+            "cue_id": 574,
+            "start_ms": 1504039,
+            "end_ms": 1513000,
+            "text": "me Tom Jimmy I'm ready to to task where"
+          },
+          {
+            "cue_id": 605,
+            "start_ms": 1589720,
+            "end_ms": 1593200,
+            "text": "what did you see behind the shed a big"
+          },
+          {
+            "cue_id": 606,
+            "start_ms": 1591880,
+            "end_ms": 1595080,
+            "text": "thing that you wouldn't be able to use"
+          },
+          {
+            "cue_id": 634,
+            "start_ms": 1672760,
+            "end_ms": 1676720,
+            "text": "floppy the baggy the baggy green what's"
+          },
+          {
+            "cue_id": 635,
+            "start_ms": 1675000,
+            "end_ms": 1678519,
+            "text": "his name Don Bradman that's it it's not"
+          },
+          {
+            "cue_id": 669,
+            "start_ms": 1758159,
+            "end_ms": 1762279,
+            "text": "like someone would have stand in like"
+          },
+          {
+            "cue_id": 670,
+            "start_ms": 1759880,
+            "end_ms": 1764399,
+            "text": "out Zone can someone's hold this bat and"
+          },
+          {
+            "cue_id": 698,
+            "start_ms": 1839720,
+            "end_ms": 1844640,
+            "text": "McGregor what are you thinking I feel"
+          },
+          {
+            "cue_id": 699,
+            "start_ms": 1842559,
+            "end_ms": 1847240,
+            "text": "like I don't know like I need like"
+          },
+          {
+            "cue_id": 730,
+            "start_ms": 1926120,
+            "end_ms": 1929440,
+            "text": "sarcastic about someone else's attempt"
+          },
+          {
+            "cue_id": 731,
+            "start_ms": 1927919,
+            "end_ms": 1931919,
+            "text": "to play"
+          },
+          {
+            "cue_id": 766,
+            "start_ms": 2009600,
+            "end_ms": 2013720,
+            "text": "didn't show off to the battle if if"
+          },
+          {
+            "cue_id": 767,
+            "start_ms": 2011279,
+            "end_ms": 2018080,
+            "text": "David just ran"
+          },
+          {
+            "cue_id": 790,
+            "start_ms": 2091719,
+            "end_ms": 2096480,
+            "text": "passion it was for a legitimate reason I"
+          },
+          {
+            "cue_id": 791,
+            "start_ms": 2094719,
+            "end_ms": 2098879,
+            "text": "can't fault it there was there was no"
+          },
+          {
+            "cue_id": 826,
+            "start_ms": 2176079,
+            "end_ms": 2180240,
+            "text": "commercial endorsements you kind of"
+          },
+          {
+            "cue_id": 827,
+            "start_ms": 2177319,
+            "end_ms": 2181960,
+            "text": "phoned it in no that's it absolutely"
+          },
+          {
+            "cue_id": 862,
+            "start_ms": 2260000,
+            "end_ms": 2266960,
+            "text": "contestant in each round is eliminated"
+          },
+          {
+            "cue_id": 863,
+            "start_ms": 2263160,
+            "end_ms": 2270720,
+            "text": "you will have 10 seconds each per round"
+          },
+          {
+            "cue_id": 885,
+            "start_ms": 2338319,
+            "end_ms": 2347400,
+            "text": "done Nina passionately plea using words"
+          },
+          {
+            "cue_id": 886,
+            "start_ms": 2341839,
+            "end_ms": 2354240,
+            "text": "that start with P please PP Five"
+          },
+          {
+            "cue_id": 913,
+            "start_ms": 2427119,
+            "end_ms": 2431640,
+            "text": "hello Tom Glon Taskmaster standing right"
+          },
+          {
+            "cue_id": 914,
+            "start_ms": 2429280,
+            "end_ms": 2435000,
+            "text": "in front of me could I please have five"
+          },
+          {
+            "cue_id": 943,
+            "start_ms": 2513920,
+            "end_ms": 2520000,
+            "text": "point congratulations of Julia you'll"
+          },
+          {
+            "cue_id": 968,
+            "start_ms": 2597640,
+            "end_ms": 2600640,
+            "text": "now"
+          }
+        ],
+        "text": "are Daniel Walker Jimmy Rees Julia\nMorris L McGregor and\nburied yeah that was kind of part of it\nwasn't it you could argue us the whole\nsaid Brad\nPit I\nI uh I admit there are\nflaws I must say I think this is really\ntable okay here we go\nsir\neven further so it's still technically\nin the air okay how accurate do you\nthrowing it is really hard I know don't\nslip on\nthong\n28.9 M implementing his chucking while\ngo set him off okay what what's the plan\nhere um I'll light um him on fire and\nabout it if we're going to make the leaf\nof CGI and pretend that your thong went\nno in the fly so now I can just go far\nwow that means Danielle is on one point\nNina has two Jimmy three Luke on four\nI'll be mad if we don't let's all do it\nat the same time okay okay we should do\njusted but i' love to stand in front\nlike a family snap do you know what I\nand then we make like Tom silver riddle\nwe are the eggs\nminutes for your beautiful dance\nchoreography 5 6 7 8 1 2 3\nyeah oh sorry it's\nme Tom Jimmy I'm ready to to task where\nwhat did you see behind the shed a big\nthing that you wouldn't be able to use\nfloppy the baggy the baggy green what's\nhis name Don Bradman that's it it's not\nlike someone would have stand in like\nout Zone can someone's hold this bat and\nMcGregor what are you thinking I feel\nlike I don't know like I need like\nsarcastic about someone else's attempt\nto play\ndidn't show off to the battle if if\nDavid just ran\npassion it was for a legitimate reason I\ncan't fault it there was there was no\ncommercial endorsements you kind of\nphoned it in no that's it absolutely\ncontestant in each round is eliminated\nyou will have 10 seconds each per round\ndone Nina passionately plea using words\nthat start with P please PP Five\nhello Tom Glon Taskmaster standing right\nin front of me could I please have five\npoint congratulations of Julia you'll\nnow",
+        "text_tokens": 496,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "start_ms": 71560,
+          "end_ms": 90158,
+          "text": "as a bad boy every time every time they are Daniel Walker Jimmy Rees Julia Morris L McGregor and Nama being a Taskmaster is a full-time"
+        },
+        {
+          "id": "S59",
+          "cue_ids": [
+            59,
+            60,
+            61,
+            62
+          ],
+          "start_ms": 162879,
+          "end_ms": 171720,
+          "text": "have to be buried yeah that was kind of part of it wasn't it you could argue us the whole thing all right I I appreciate your"
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "start_ms": 247720,
+          "end_ms": 256839,
+          "text": "buried with looking back I should have said Brad Pit I was all right Danielle what what would"
+        },
+        {
+          "id": "S136",
+          "cue_ids": [
+            136,
+            137,
+            138,
+            139
+          ],
+          "start_ms": 329000,
+          "end_ms": 339280,
+          "text": "actually getting is is a problem so yeah I uh I admit there are flaws I must say I think this is really hard to score because they're all"
+        },
+        {
+          "id": "S169",
+          "cue_ids": [
+            169,
+            170,
+            171
+          ],
+          "start_ms": 414400,
+          "end_ms": 421400,
+          "text": "not something you normally see on a table okay here we go sir"
+        },
+        {
+          "id": "S200",
+          "cue_ids": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "start_ms": 498800,
+          "end_ms": 508240,
+          "text": "okay and then with the bat you hit it even further so it's still technically in the air okay how accurate do you think you can be don't worry about me"
+        },
+        {
+          "id": "S232",
+          "cue_ids": [
+            232,
+            233,
+            234,
+            235
+          ],
+          "start_ms": 581720,
+          "end_ms": 593120,
+          "text": "bad thanks buddy hey I'm tired too throwing it is really hard I know don't slip on me oh yeah that's pretty good 30"
+        },
+        {
+          "id": "S265",
+          "cue_ids": [
+            265,
+            266,
+            267,
+            268
+          ],
+          "start_ms": 665480,
+          "end_ms": 675440,
+          "text": "embarrassment Jimmy managed to fly his thong 28.9 M implementing his chucking while bouncing method Luke registered a flight"
+        },
+        {
+          "id": "S295",
+          "cue_ids": [
+            295,
+            296,
+            297,
+            298
+          ],
+          "start_ms": 744600,
+          "end_ms": 761800,
+          "text": "bunch around the tree yeah I'm ready to go set him off okay what what's the plan here um I'll light um him on fire and then that will help shoot him off like a"
+        },
+        {
+          "id": "S327",
+          "cue_ids": [
+            327,
+            328,
+            329,
+            330
+          ],
+          "start_ms": 833560,
+          "end_ms": 845759,
+          "text": "we feel about that I feel pretty good about it if we're going to make the leaf of CGI and pretend that your thong went to Planet X first of all we have to know"
+        },
+        {
+          "id": "S358",
+          "cue_ids": [
+            358,
+            359,
+            360
+          ],
+          "start_ms": 913880,
+          "end_ms": 930600,
+          "text": "fly okay do you know what I'm saying no in the fly so now I can just go far as I want okay and now it's flying okay"
+        },
+        {
+          "id": "S391",
+          "cue_ids": [
+            391,
+            392,
+            393,
+            394
+          ],
+          "start_ms": 1000399,
+          "end_ms": 1012160,
+          "text": "269 M wow that means Danielle is on one point Nina has two Jimmy three Luke on four and the winner of the task is Julia with"
+        },
+        {
+          "id": "S416",
+          "cue_ids": [
+            416,
+            417,
+            418,
+            419
+          ],
+          "start_ms": 1085640,
+          "end_ms": 1097159,
+          "text": "going on do we open the Tas now I think I'll be mad if we don't let's all do it at the same time okay okay we should do okay we thank you my sweet no no worries"
+        },
+        {
+          "id": "S449",
+          "cue_ids": [
+            449,
+            450,
+            451,
+            452
+          ],
+          "start_ms": 1168919,
+          "end_ms": 1178760,
+          "text": "so justed but i' love to stand in front like a family snap do you know what I mean his hand like it's a dad with his"
+        },
+        {
+          "id": "S485",
+          "cue_ids": [
+            485,
+            486,
+            487,
+            488
+          ],
+          "start_ms": 1252000,
+          "end_ms": 1263090,
+          "text": "is our face the egg have three egg heads and then we make like Tom silver riddle we are the eggs oh yes sorry oh my Blanket's falling off"
+        },
+        {
+          "id": "S542",
+          "cue_ids": [
+            542,
+            543,
+            544,
+            545
+          ],
+          "start_ms": 1414520,
+          "end_ms": 1430380,
+          "text": "every team task you have five additional minutes for your beautiful dance choreography 5 6 7 8 1 2 3 [Music]"
+        },
+        {
+          "id": "S572",
+          "cue_ids": [
+            572,
+            573,
+            574,
+            575
+          ],
+          "start_ms": 1498040,
+          "end_ms": 1515679,
+          "text": "[Applause] yeah oh sorry it's me Tom Jimmy I'm ready to to task where is the T oh there it is oh look at this"
+        },
+        {
+          "id": "S604",
+          "cue_ids": [
+            604,
+            605,
+            606,
+            607
+          ],
+          "start_ms": 1588000,
+          "end_ms": 1596679,
+          "text": "wrong I saw something behind the shed what did you see behind the shed a big thing that you wouldn't be able to use if you were a batter my Nana's going to"
+        },
+        {
+          "id": "S633",
+          "cue_ids": [
+            633,
+            634,
+            635,
+            636
+          ],
+          "start_ms": 1670159,
+          "end_ms": 1681640,
+          "text": "hat the green the floppy green the floppy the baggy the baggy green what's his name Don Bradman that's it it's not Bob it's Don"
+        },
+        {
+          "id": "S668",
+          "cue_ids": [
+            668,
+            669,
+            670,
+            671
+          ],
+          "start_ms": 1755559,
+          "end_ms": 1766880,
+          "text": "batter out how far is the B out yeah like someone would have stand in like out Zone can someone's hold this bat and stand next to the tree this like perfect"
+        },
+        {
+          "id": "S697",
+          "cue_ids": [
+            697,
+            698,
+            699,
+            700
+          ],
+          "start_ms": 1837360,
+          "end_ms": 1849760,
+          "text": "field here is Luke McGregor what are you thinking I feel like I don't know like I need like someone to say how's that too it's just"
+        },
+        {
+          "id": "S729",
+          "cue_ids": [
+            729,
+            730,
+            731,
+            732
+          ],
+          "start_ms": 1924919,
+          "end_ms": 1934360,
+          "text": "think you've earned the right to be sarcastic about someone else's attempt to play cricket Luke uh what what were you"
+        },
+        {
+          "id": "S765",
+          "cue_ids": [
+            765,
+            766,
+            767,
+            768
+          ],
+          "start_ms": 2007559,
+          "end_ms": 2022639,
+          "text": "David and Goliath is what it is if David didn't show off to the battle if if David just ran which just a Val Point next into bat is"
+        },
+        {
+          "id": "S789",
+          "cue_ids": [
+            789,
+            790,
+            791,
+            792
+          ],
+          "start_ms": 2089760,
+          "end_ms": 2098879,
+          "text": "backstory the your pill was full of passion it was for a legitimate reason I can't fault it there was there was no giraffe"
+        },
+        {
+          "id": "S825",
+          "cue_ids": [
+            825,
+            826,
+            827,
+            828
+          ],
+          "start_ms": 2174440,
+          "end_ms": 2183000,
+          "text": "passion you've approached all your other commercial endorsements you kind of phoned it in no that's it absolutely it's a signature moves I know you just"
+        },
+        {
+          "id": "S861",
+          "cue_ids": [
+            861,
+            862,
+            863,
+            864
+          ],
+          "start_ms": 2257400,
+          "end_ms": 2272280,
+          "text": "paddling pool the least convincing contestant in each round is eliminated you will have 10 seconds each per round the last player standing wins Nina I'm"
+        },
+        {
+          "id": "S884",
+          "cue_ids": [
+            884,
+            885,
+            886,
+            887
+          ],
+          "start_ms": 2334640,
+          "end_ms": 2354240,
+          "text": "eyes Danielle you're done Nina passionately plea using words that start with P please PP Five Points I would really appreciate"
+        },
+        {
+          "id": "S912",
+          "cue_ids": [
+            912,
+            913,
+            914,
+            915
+          ],
+          "start_ms": 2424720,
+          "end_ms": 2436319,
+          "text": "take so long for someone to choose that hello Tom Glon Taskmaster standing right in front of me could I please have five points cool calm and collected I haven't"
+        },
+        {
+          "id": "S942",
+          "cue_ids": [
+            942,
+            943,
+            944
+          ],
+          "start_ms": 2508480,
+          "end_ms": 2523000,
+          "text": "episode is Julia Morris with 18 point congratulations of Julia you'll rest easy for eternity knowing you're"
+        },
+        {
+          "id": "S968",
+          "cue_ids": [
+            968
+          ],
+          "start_ms": 2597640,
+          "end_ms": 2600640,
+          "text": "now"
+        }
+      ],
+      "text": "S24 [00:01:11.560 --> 00:01:30.158] as a bad boy every time every time they are Daniel Walker Jimmy Rees Julia Morris L McGregor and Nama being a Taskmaster is a full-time\nS59 [00:02:42.879 --> 00:02:51.720] have to be buried yeah that was kind of part of it wasn't it you could argue us the whole thing all right I I appreciate your\nS98 [00:04:07.720 --> 00:04:16.839] buried with looking back I should have said Brad Pit I was all right Danielle what what would\nS136 [00:05:29.000 --> 00:05:39.280] actually getting is is a problem so yeah I uh I admit there are flaws I must say I think this is really hard to score because they're all\nS169 [00:06:54.400 --> 00:07:01.400] not something you normally see on a table okay here we go sir\nS200 [00:08:18.800 --> 00:08:28.240] okay and then with the bat you hit it even further so it's still technically in the air okay how accurate do you think you can be don't worry about me\nS232 [00:09:41.720 --> 00:09:53.120] bad thanks buddy hey I'm tired too throwing it is really hard I know don't slip on me oh yeah that's pretty good 30\nS265 [00:11:05.480 --> 00:11:15.440] embarrassment Jimmy managed to fly his thong 28.9 M implementing his chucking while bouncing method Luke registered a flight\nS295 [00:12:24.600 --> 00:12:41.800] bunch around the tree yeah I'm ready to go set him off okay what what's the plan here um I'll light um him on fire and then that will help shoot him off like a\nS327 [00:13:53.560 --> 00:14:05.759] we feel about that I feel pretty good about it if we're going to make the leaf of CGI and pretend that your thong went to Planet X first of all we have to know\nS358 [00:15:13.880 --> 00:15:30.600] fly okay do you know what I'm saying no in the fly so now I can just go far as I want okay and now it's flying okay\nS391 [00:16:40.399 --> 00:16:52.160] 269 M wow that means Danielle is on one point Nina has two Jimmy three Luke on four and the winner of the task is Julia with\nS416 [00:18:05.640 --> 00:18:17.159] going on do we open the Tas now I think I'll be mad if we don't let's all do it at the same time okay okay we should do okay we thank you my sweet no no worries\nS449 [00:19:28.919 --> 00:19:38.760] so justed but i' love to stand in front like a family snap do you know what I mean his hand like it's a dad with his\nS485 [00:20:52.000 --> 00:21:03.090] is our face the egg have three egg heads and then we make like Tom silver riddle we are the eggs oh yes sorry oh my Blanket's falling off\nS542 [00:23:34.520 --> 00:23:50.380] every team task you have five additional minutes for your beautiful dance choreography 5 6 7 8 1 2 3 [Music]\nS572 [00:24:58.040 --> 00:25:15.679] [Applause] yeah oh sorry it's me Tom Jimmy I'm ready to to task where is the T oh there it is oh look at this\nS604 [00:26:28.000 --> 00:26:36.679] wrong I saw something behind the shed what did you see behind the shed a big thing that you wouldn't be able to use if you were a batter my Nana's going to\nS633 [00:27:50.159 --> 00:28:01.640] hat the green the floppy green the floppy the baggy the baggy green what's his name Don Bradman that's it it's not Bob it's Don\nS668 [00:29:15.559 --> 00:29:26.880] batter out how far is the B out yeah like someone would have stand in like out Zone can someone's hold this bat and stand next to the tree this like perfect\nS697 [00:30:37.360 --> 00:30:49.760] field here is Luke McGregor what are you thinking I feel like I don't know like I need like someone to say how's that too it's just\nS729 [00:32:04.919 --> 00:32:14.360] think you've earned the right to be sarcastic about someone else's attempt to play cricket Luke uh what what were you\nS765 [00:33:27.559 --> 00:33:42.639] David and Goliath is what it is if David didn't show off to the battle if if David just ran which just a Val Point next into bat is\nS789 [00:34:49.760 --> 00:34:58.879] backstory the your pill was full of passion it was for a legitimate reason I can't fault it there was there was no giraffe\nS825 [00:36:14.440 --> 00:36:23.000] passion you've approached all your other commercial endorsements you kind of phoned it in no that's it absolutely it's a signature moves I know you just\nS861 [00:37:37.400 --> 00:37:52.280] paddling pool the least convincing contestant in each round is eliminated you will have 10 seconds each per round the last player standing wins Nina I'm\nS884 [00:38:54.640 --> 00:39:14.240] eyes Danielle you're done Nina passionately plea using words that start with P please PP Five Points I would really appreciate\nS912 [00:40:24.720 --> 00:40:36.319] take so long for someone to choose that hello Tom Glon Taskmaster standing right in front of me could I please have five points cool calm and collected I haven't\nS942 [00:41:48.480 --> 00:42:03.000] episode is Julia Morris with 18 point congratulations of Julia you'll rest easy for eternity knowing you're\nS968 [00:43:17.640 --> 00:43:20.640] now",
+      "text_tokens": 1841,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        24,
+        27,
+        59,
+        62,
+        98,
+        101,
+        136,
+        139,
+        169,
+        200,
+        203,
+        232,
+        235,
+        265,
+        268,
+        295,
+        298,
+        327,
+        330,
+        358,
+        360,
+        391,
+        394,
+        416,
+        419,
+        449,
+        452,
+        485,
+        488,
+        542,
+        545,
+        572,
+        575,
+        604,
+        607,
+        633,
+        636,
+        668,
+        671,
+        697,
+        700,
+        729,
+        732,
+        765,
+        768,
+        789,
+        792,
+        825,
+        828,
+        861,
+        864,
+        884,
+        887,
+        912,
+        915,
+        942,
+        944
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "4dbad12cb76b6ec8acfdab8c4e6b2a0ec34ba2bb2e3ca65916e2389b66a55853"
+}

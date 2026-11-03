@@ -1,0 +1,1090 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "3uV8XZcIBbk",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3uV8XZcIBbk.srt",
+        "status": "available",
+        "bytes": 31998,
+        "sha256": "b0055b563aabe2312479d091a1d671440a58c6084a7152f95333b027454be32e",
+        "cues": 282,
+        "nonempty_cues": 282
+      },
+      "frame_indices": [
+        0,
+        593,
+        1186,
+        1779,
+        2372,
+        2965,
+        3558,
+        4151,
+        4745,
+        5338,
+        5931,
+        6524,
+        7117,
+        7710,
+        8303,
+        8896,
+        9489,
+        10082,
+        10675,
+        11268,
+        11861,
+        12454,
+        13047,
+        13640,
+        14234,
+        14827,
+        15420,
+        16013,
+        16606,
+        17199,
+        17792,
+        18385
+      ],
+      "frame_seconds": [
+        0.0,
+        24.733042,
+        49.466083,
+        74.199125,
+        98.93216699999999,
+        123.665208,
+        148.39825,
+        173.131292,
+        197.906042,
+        222.639083,
+        247.372125,
+        272.105167,
+        296.838208,
+        321.57125,
+        346.304292,
+        371.037333,
+        395.770375,
+        420.503417,
+        445.23645799999997,
+        469.9695,
+        494.702542,
+        519.435583,
+        544.168625,
+        568.901667,
+        593.676417,
+        618.409458,
+        643.1425,
+        667.875542,
+        692.608583,
+        717.341625,
+        742.074667,
+        766.807708
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          12
+        ],
+        [
+          21
+        ],
+        [
+          29
+        ],
+        [
+          40
+        ],
+        [
+          50
+        ],
+        [
+          58
+        ],
+        [
+          68
+        ],
+        [
+          77
+        ],
+        [
+          84
+        ],
+        [
+          95
+        ],
+        [
+          105
+        ],
+        [
+          114
+        ],
+        [],
+        [
+          131
+        ],
+        [
+          142
+        ],
+        [
+          152
+        ],
+        [
+          162
+        ],
+        [
+          173
+        ],
+        [
+          180
+        ],
+        [
+          191
+        ],
+        [
+          199
+        ],
+        [
+          209
+        ],
+        [
+          217
+        ],
+        [
+          226
+        ],
+        [
+          234
+        ],
+        [
+          242
+        ],
+        [
+          250
+        ],
+        [
+          260
+        ],
+        [
+          271
+        ],
+        [
+          279
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 12,
+          "start_ms": 24690,
+          "end_ms": 25900,
+          "text": "envisioning devices"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 48120,
+          "end_ms": 50900,
+          "text": "If we had a practical, permanent, total artificial heart,"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 73470,
+          "end_ms": 75061,
+          "text": "there are about a million requests"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 98820,
+          "end_ms": 101180,
+          "text": "from a patient who's died in such way"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 122750,
+          "end_ms": 124828,
+          "text": "The heart is the pump that makes the blood move."
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 147370,
+          "end_ms": 148690,
+          "text": "at the Cleveland clinic then came down"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 171160,
+          "end_ms": 173440,
+          "text": "April 4th, 1969,"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 196670,
+          "end_ms": 199329,
+          "text": "the valves that they'd put in this version of the heart"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 221530,
+          "end_ms": 223910,
+          "text": "The heart had bladders that filled"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 245610,
+          "end_ms": 248182,
+          "text": "just like the one implanted in 1969,"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 270700,
+          "end_ms": 272740,
+          "text": "But they're currently approved only as bridge"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 296680,
+          "end_ms": 300050,
+          "text": "that's 132,000 times in a day,"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 344720,
+          "end_ms": 347420,
+          "text": "who serves as their chief medical officer."
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 368930,
+          "end_ms": 371390,
+          "text": "to pump the blood to both the lungs"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 393500,
+          "end_ms": 395830,
+          "text": "meaning that there's no touchdown of any"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 417950,
+          "end_ms": 420630,
+          "text": "by using a spinning disc, or impeller,"
+        },
+        {
+          "cue_id": 173,
+          "start_ms": 445020,
+          "end_ms": 447090,
+          "text": "and if the radar moves further away,"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 468470,
+          "end_ms": 470295,
+          "text": "in this system that circulates liquids"
+        },
+        {
+          "cue_id": 191,
+          "start_ms": 494190,
+          "end_ms": 495800,
+          "text": "would be on the human body."
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 517549,
+          "end_ms": 519870,
+          "text": "And we reproducing that pulsatility by taking"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 542380,
+          "end_ms": 544310,
+          "text": "Resting and sleeping,"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 567910,
+          "end_ms": 569663,
+          "text": "for almost two decades."
+        },
+        {
+          "cue_id": 226,
+          "start_ms": 592510,
+          "end_ms": 595053,
+          "text": "So he was very adept with circulation systems."
+        },
+        {
+          "cue_id": 234,
+          "start_ms": 617100,
+          "end_ms": 619250,
+          "text": "then of course we look inside the pump"
+        },
+        {
+          "cue_id": 242,
+          "start_ms": 642770,
+          "end_ms": 645700,
+          "text": "and not only does it touch the patient"
+        },
+        {
+          "cue_id": 250,
+          "start_ms": 667140,
+          "end_ms": 669610,
+          "text": "BiVACOR is currently working with the FDA,"
+        },
+        {
+          "cue_id": 260,
+          "start_ms": 692407,
+          "end_ms": 695180,
+          "text": "and the company intends for its product to eventually become"
+        },
+        {
+          "cue_id": 271,
+          "start_ms": 717090,
+          "end_ms": 719340,
+          "text": "before an artificial heart patient's freedom"
+        },
+        {
+          "cue_id": 279,
+          "start_ms": 741990,
+          "end_ms": 744760,
+          "text": "that lasts a long time, that doesn't have a wire"
+        }
+      ],
+      "text": "envisioning devices\nIf we had a practical, permanent, total artificial heart,\nthere are about a million requests\nfrom a patient who's died in such way\nThe heart is the pump that makes the blood move.\nat the Cleveland clinic then came down\nApril 4th, 1969,\nthe valves that they'd put in this version of the heart\nThe heart had bladders that filled\njust like the one implanted in 1969,\nBut they're currently approved only as bridge\nthat's 132,000 times in a day,\nwho serves as their chief medical officer.\nto pump the blood to both the lungs\nmeaning that there's no touchdown of any\nby using a spinning disc, or impeller,\nand if the radar moves further away,\nin this system that circulates liquids\nwould be on the human body.\nAnd we reproducing that pulsatility by taking\nResting and sleeping,\nfor almost two decades.\nSo he was very adept with circulation systems.\nthen of course we look inside the pump\nand not only does it touch the patient\nBiVACOR is currently working with the FDA,\nand the company intends for its product to eventually become\nbefore an artificial heart patient's freedom\nthat lasts a long time, that doesn't have a wire",
+      "text_tokens": 269,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "3uV8XZcIBbk",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3uV8XZcIBbk.srt",
+          "status": "available",
+          "bytes": 31998,
+          "sha256": "b0055b563aabe2312479d091a1d671440a58c6084a7152f95333b027454be32e",
+          "cues": 282,
+          "nonempty_cues": 282
+        },
+        "frame_indices": [
+          0,
+          593,
+          1186,
+          1779,
+          2372,
+          2965,
+          3558,
+          4151,
+          4745,
+          5338,
+          5931,
+          6524,
+          7117,
+          7710,
+          8303,
+          8896,
+          9489,
+          10082,
+          10675,
+          11268,
+          11861,
+          12454,
+          13047,
+          13640,
+          14234,
+          14827,
+          15420,
+          16013,
+          16606,
+          17199,
+          17792,
+          18385
+        ],
+        "frame_seconds": [
+          0.0,
+          24.733042,
+          49.466083,
+          74.199125,
+          98.93216699999999,
+          123.665208,
+          148.39825,
+          173.131292,
+          197.906042,
+          222.639083,
+          247.372125,
+          272.105167,
+          296.838208,
+          321.57125,
+          346.304292,
+          371.037333,
+          395.770375,
+          420.503417,
+          445.23645799999997,
+          469.9695,
+          494.702542,
+          519.435583,
+          544.168625,
+          568.901667,
+          593.676417,
+          618.409458,
+          643.1425,
+          667.875542,
+          692.608583,
+          717.341625,
+          742.074667,
+          766.807708
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            12
+          ],
+          [
+            21
+          ],
+          [
+            29
+          ],
+          [
+            40
+          ],
+          [
+            50
+          ],
+          [
+            58
+          ],
+          [
+            68
+          ],
+          [
+            77
+          ],
+          [
+            84
+          ],
+          [
+            95
+          ],
+          [
+            105
+          ],
+          [
+            114
+          ],
+          [],
+          [
+            131
+          ],
+          [
+            142
+          ],
+          [
+            152
+          ],
+          [
+            162
+          ],
+          [
+            173
+          ],
+          [
+            180
+          ],
+          [
+            191
+          ],
+          [
+            199
+          ],
+          [
+            209
+          ],
+          [
+            217
+          ],
+          [
+            226
+          ],
+          [
+            234
+          ],
+          [
+            242
+          ],
+          [
+            250
+          ],
+          [
+            260
+          ],
+          [
+            271
+          ],
+          [
+            279
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 12,
+            "start_ms": 24690,
+            "end_ms": 25900,
+            "text": "envisioning devices"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 48120,
+            "end_ms": 50900,
+            "text": "If we had a practical, permanent, total artificial heart,"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 73470,
+            "end_ms": 75061,
+            "text": "there are about a million requests"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 98820,
+            "end_ms": 101180,
+            "text": "from a patient who's died in such way"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 122750,
+            "end_ms": 124828,
+            "text": "The heart is the pump that makes the blood move."
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 147370,
+            "end_ms": 148690,
+            "text": "at the Cleveland clinic then came down"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 171160,
+            "end_ms": 173440,
+            "text": "April 4th, 1969,"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 196670,
+            "end_ms": 199329,
+            "text": "the valves that they'd put in this version of the heart"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 221530,
+            "end_ms": 223910,
+            "text": "The heart had bladders that filled"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 245610,
+            "end_ms": 248182,
+            "text": "just like the one implanted in 1969,"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 270700,
+            "end_ms": 272740,
+            "text": "But they're currently approved only as bridge"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 296680,
+            "end_ms": 300050,
+            "text": "that's 132,000 times in a day,"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 344720,
+            "end_ms": 347420,
+            "text": "who serves as their chief medical officer."
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 368930,
+            "end_ms": 371390,
+            "text": "to pump the blood to both the lungs"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 393500,
+            "end_ms": 395830,
+            "text": "meaning that there's no touchdown of any"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 417950,
+            "end_ms": 420630,
+            "text": "by using a spinning disc, or impeller,"
+          },
+          {
+            "cue_id": 173,
+            "start_ms": 445020,
+            "end_ms": 447090,
+            "text": "and if the radar moves further away,"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 468470,
+            "end_ms": 470295,
+            "text": "in this system that circulates liquids"
+          },
+          {
+            "cue_id": 191,
+            "start_ms": 494190,
+            "end_ms": 495800,
+            "text": "would be on the human body."
+          },
+          {
+            "cue_id": 199,
+            "start_ms": 517549,
+            "end_ms": 519870,
+            "text": "And we reproducing that pulsatility by taking"
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 542380,
+            "end_ms": 544310,
+            "text": "Resting and sleeping,"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 567910,
+            "end_ms": 569663,
+            "text": "for almost two decades."
+          },
+          {
+            "cue_id": 226,
+            "start_ms": 592510,
+            "end_ms": 595053,
+            "text": "So he was very adept with circulation systems."
+          },
+          {
+            "cue_id": 234,
+            "start_ms": 617100,
+            "end_ms": 619250,
+            "text": "then of course we look inside the pump"
+          },
+          {
+            "cue_id": 242,
+            "start_ms": 642770,
+            "end_ms": 645700,
+            "text": "and not only does it touch the patient"
+          },
+          {
+            "cue_id": 250,
+            "start_ms": 667140,
+            "end_ms": 669610,
+            "text": "BiVACOR is currently working with the FDA,"
+          },
+          {
+            "cue_id": 260,
+            "start_ms": 692407,
+            "end_ms": 695180,
+            "text": "and the company intends for its product to eventually become"
+          },
+          {
+            "cue_id": 271,
+            "start_ms": 717090,
+            "end_ms": 719340,
+            "text": "before an artificial heart patient's freedom"
+          },
+          {
+            "cue_id": 279,
+            "start_ms": 741990,
+            "end_ms": 744760,
+            "text": "that lasts a long time, that doesn't have a wire"
+          }
+        ],
+        "text": "envisioning devices\nIf we had a practical, permanent, total artificial heart,\nthere are about a million requests\nfrom a patient who's died in such way\nThe heart is the pump that makes the blood move.\nat the Cleveland clinic then came down\nApril 4th, 1969,\nthe valves that they'd put in this version of the heart\nThe heart had bladders that filled\njust like the one implanted in 1969,\nBut they're currently approved only as bridge\nthat's 132,000 times in a day,\nwho serves as their chief medical officer.\nto pump the blood to both the lungs\nmeaning that there's no touchdown of any\nby using a spinning disc, or impeller,\nand if the radar moves further away,\nin this system that circulates liquids\nwould be on the human body.\nAnd we reproducing that pulsatility by taking\nResting and sleeping,\nfor almost two decades.\nSo he was very adept with circulation systems.\nthen of course we look inside the pump\nand not only does it touch the patient\nBiVACOR is currently working with the FDA,\nand the company intends for its product to eventually become\nbefore an artificial heart patient's freedom\nthat lasts a long time, that doesn't have a wire",
+        "text_tokens": 269,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13
+          ],
+          "start_ms": 22870,
+          "end_ms": 27490,
+          "text": "of a beating human heart, envisioning devices they hope will one day rid us"
+        },
+        {
+          "id": "S20",
+          "cue_ids": [
+            20,
+            21,
+            22
+          ],
+          "start_ms": 45750,
+          "end_ms": 53250,
+          "text": "that potentially could last a decade or more. If we had a practical, permanent, total artificial heart, it would be one of the biggest accomplishments"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30
+          ],
+          "start_ms": 72480,
+          "end_ms": 76820,
+          "text": "done annually, there are about a million requests for donor hearts each year,"
+        },
+        {
+          "id": "S39",
+          "cue_ids": [
+            39,
+            40,
+            41
+          ],
+          "start_ms": 96900,
+          "end_ms": 102307,
+          "text": "it's gotta be a healthy heart from a patient who's died in such way that it didn't affect their heart."
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51
+          ],
+          "start_ms": 120510,
+          "end_ms": 129828,
+          "text": "that goes through every blood vessel in your body. The heart is the pump that makes the blood move. So a heart is a very simple device by some metrics,"
+        },
+        {
+          "id": "S57",
+          "cue_ids": [
+            57,
+            58,
+            59
+          ],
+          "start_ms": 144090,
+          "end_ms": 150720,
+          "text": "brilliant Argentinian scientist who was working at the Cleveland clinic then came down to work with Michael DeBakey,"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68,
+            69
+          ],
+          "start_ms": 167040,
+          "end_ms": 175980,
+          "text": "it in a desperate ill human patient, Haskell Karp. April 4th, 1969, that was the world's first clinical use"
+        },
+        {
+          "id": "S76",
+          "cue_ids": [
+            76,
+            77,
+            78
+          ],
+          "start_ms": 195460,
+          "end_ms": 200829,
+          "text": "Unfortunately, the valves that they'd put in this version of the heart were breaking up the blood,"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85
+          ],
+          "start_ms": 221530,
+          "end_ms": 225940,
+          "text": "The heart had bladders that filled and emptied with compressed air"
+        },
+        {
+          "id": "S94",
+          "cue_ids": [
+            94,
+            95,
+            96
+          ],
+          "start_ms": 243180,
+          "end_ms": 251360,
+          "text": "which is the world's first approved device, just like the one implanted in 1969, but much better membranes, much better valves,"
+        },
+        {
+          "id": "S104",
+          "cue_ids": [
+            104,
+            105,
+            106
+          ],
+          "start_ms": 269390,
+          "end_ms": 274158,
+          "text": "in the world right now. But they're currently approved only as bridge to transplant devices,"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115
+          ],
+          "start_ms": 293750,
+          "end_ms": 302960,
+          "text": "if your heart is beating 80 times a minute, that's 132,000 times in a day, that's 42 million times in a year."
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132
+          ],
+          "start_ms": 341590,
+          "end_ms": 348853,
+          "text": "and has won over industry heavy hitters like Dr. Cohn, who serves as their chief medical officer. My name is Daniel Timms,"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143
+          ],
+          "start_ms": 366040,
+          "end_ms": 373080,
+          "text": "which is magnetically levitated within a cavity to pump the blood to both the lungs and to the body simultaneously."
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151,
+            152,
+            153
+          ],
+          "start_ms": 390630,
+          "end_ms": 398743,
+          "text": "A spinning disc that is magnetically levitated, meaning that there's no touchdown of any of those moving parts, can affectively last forever."
+        },
+        {
+          "id": "S161",
+          "cue_ids": [
+            161,
+            162,
+            163
+          ],
+          "start_ms": 415730,
+          "end_ms": 424083,
+          "text": "Timms' device builds on that idea by using a spinning disc, or impeller, to push and regulate the flow of blood to both ventricles."
+        },
+        {
+          "id": "S172",
+          "cue_ids": [
+            172,
+            173,
+            174
+          ],
+          "start_ms": 442070,
+          "end_ms": 448613,
+          "text": "That magnetic bearing detects this radar and if the radar moves further away, coils will energize to bring it closer."
+        },
+        {
+          "id": "S179",
+          "cue_ids": [
+            179,
+            180,
+            181
+          ],
+          "start_ms": 466560,
+          "end_ms": 472943,
+          "text": "BiVACOR is currently testing its device in this system that circulates liquids to replicate the functions of the human body."
+        },
+        {
+          "id": "S190",
+          "cue_ids": [
+            190,
+            191,
+            192
+          ],
+          "start_ms": 492210,
+          "end_ms": 498560,
+          "text": "but no one knows exactly what its effects would be on the human body. So Timms is exploring other options as well."
+        },
+        {
+          "id": "S198",
+          "cue_ids": [
+            198,
+            199,
+            200
+          ],
+          "start_ms": 515809,
+          "end_ms": 522909,
+          "text": "once every second. And we reproducing that pulsatility by taking the spinning disc and rapidly spinning it up and down,"
+        },
+        {
+          "id": "S208",
+          "cue_ids": [
+            208,
+            209,
+            210
+          ],
+          "start_ms": 538560,
+          "end_ms": 546493,
+          "text": "And this is at a 90 beats per minute now. Resting and sleeping, and so that pulse rate will be lower."
+        },
+        {
+          "id": "S216",
+          "cue_ids": [
+            216,
+            217
+          ],
+          "start_ms": 565350,
+          "end_ms": 569663,
+          "text": "This is a project that I've worked on now for almost two decades."
+        },
+        {
+          "id": "S225",
+          "cue_ids": [
+            225,
+            226,
+            227
+          ],
+          "start_ms": 591400,
+          "end_ms": 598940,
+          "text": "My father was a plumber. So he was very adept with circulation systems. So what we decided to do was make a prototype"
+        },
+        {
+          "id": "S233",
+          "cue_ids": [
+            233,
+            234,
+            235
+          ],
+          "start_ms": 613120,
+          "end_ms": 623000,
+          "text": "on this side is where the motor can fit inside, then of course we look inside the pump and we can see one of the very first impeller designs"
+        },
+        {
+          "id": "S241",
+          "cue_ids": [
+            241,
+            242,
+            243
+          ],
+          "start_ms": 640950,
+          "end_ms": 647250,
+          "text": "there's many other people out with heart failure and not only does it touch the patient with the heart failure,"
+        },
+        {
+          "id": "S250",
+          "cue_ids": [
+            250,
+            251
+          ],
+          "start_ms": 667140,
+          "end_ms": 672250,
+          "text": "BiVACOR is currently working with the FDA, undergoing durability and animal studies."
+        },
+        {
+          "id": "S259",
+          "cue_ids": [
+            259,
+            260,
+            261
+          ],
+          "start_ms": 690770,
+          "end_ms": 698163,
+          "text": "than earlier artificial hearts, and the company intends for its product to eventually become a permanent replacement, not just a stopgap."
+        },
+        {
+          "id": "S270",
+          "cue_ids": [
+            270,
+            271,
+            272
+          ],
+          "start_ms": 715600,
+          "end_ms": 722533,
+          "text": "would have to be realized, before an artificial heart patient's freedom is truly on par with a healthy transplant recipient."
+        },
+        {
+          "id": "S278",
+          "cue_ids": [
+            278,
+            279,
+            280
+          ],
+          "start_ms": 738990,
+          "end_ms": 745670,
+          "text": "that are converging on having an artificial heart that lasts a long time, that doesn't have a wire through the skin."
+        }
+      ],
+      "text": "S11 [00:00:22.870 --> 00:00:27.490] of a beating human heart, envisioning devices they hope will one day rid us\nS20 [00:00:45.750 --> 00:00:53.250] that potentially could last a decade or more. If we had a practical, permanent, total artificial heart, it would be one of the biggest accomplishments\nS28 [00:01:12.480 --> 00:01:16.820] done annually, there are about a million requests for donor hearts each year,\nS39 [00:01:36.900 --> 00:01:42.307] it's gotta be a healthy heart from a patient who's died in such way that it didn't affect their heart.\nS49 [00:02:00.510 --> 00:02:09.828] that goes through every blood vessel in your body. The heart is the pump that makes the blood move. So a heart is a very simple device by some metrics,\nS57 [00:02:24.090 --> 00:02:30.720] brilliant Argentinian scientist who was working at the Cleveland clinic then came down to work with Michael DeBakey,\nS67 [00:02:47.040 --> 00:02:55.980] it in a desperate ill human patient, Haskell Karp. April 4th, 1969, that was the world's first clinical use\nS76 [00:03:15.460 --> 00:03:20.829] Unfortunately, the valves that they'd put in this version of the heart were breaking up the blood,\nS84 [00:03:41.530 --> 00:03:45.940] The heart had bladders that filled and emptied with compressed air\nS94 [00:04:03.180 --> 00:04:11.360] which is the world's first approved device, just like the one implanted in 1969, but much better membranes, much better valves,\nS104 [00:04:29.390 --> 00:04:34.158] in the world right now. But they're currently approved only as bridge to transplant devices,\nS113 [00:04:53.750 --> 00:05:02.960] if your heart is beating 80 times a minute, that's 132,000 times in a day, that's 42 million times in a year.\nS130 [00:05:41.590 --> 00:05:48.853] and has won over industry heavy hitters like Dr. Cohn, who serves as their chief medical officer. My name is Daniel Timms,\nS141 [00:06:06.040 --> 00:06:13.080] which is magnetically levitated within a cavity to pump the blood to both the lungs and to the body simultaneously.\nS151 [00:06:30.630 --> 00:06:38.743] A spinning disc that is magnetically levitated, meaning that there's no touchdown of any of those moving parts, can affectively last forever.\nS161 [00:06:55.730 --> 00:07:04.083] Timms' device builds on that idea by using a spinning disc, or impeller, to push and regulate the flow of blood to both ventricles.\nS172 [00:07:22.070 --> 00:07:28.613] That magnetic bearing detects this radar and if the radar moves further away, coils will energize to bring it closer.\nS179 [00:07:46.560 --> 00:07:52.943] BiVACOR is currently testing its device in this system that circulates liquids to replicate the functions of the human body.\nS190 [00:08:12.210 --> 00:08:18.560] but no one knows exactly what its effects would be on the human body. So Timms is exploring other options as well.\nS198 [00:08:35.809 --> 00:08:42.909] once every second. And we reproducing that pulsatility by taking the spinning disc and rapidly spinning it up and down,\nS208 [00:08:58.560 --> 00:09:06.493] And this is at a 90 beats per minute now. Resting and sleeping, and so that pulse rate will be lower.\nS216 [00:09:25.350 --> 00:09:29.663] This is a project that I've worked on now for almost two decades.\nS225 [00:09:51.400 --> 00:09:58.940] My father was a plumber. So he was very adept with circulation systems. So what we decided to do was make a prototype\nS233 [00:10:13.120 --> 00:10:23.000] on this side is where the motor can fit inside, then of course we look inside the pump and we can see one of the very first impeller designs\nS241 [00:10:40.950 --> 00:10:47.250] there's many other people out with heart failure and not only does it touch the patient with the heart failure,\nS250 [00:11:07.140 --> 00:11:12.250] BiVACOR is currently working with the FDA, undergoing durability and animal studies.\nS259 [00:11:30.770 --> 00:11:38.163] than earlier artificial hearts, and the company intends for its product to eventually become a permanent replacement, not just a stopgap.\nS270 [00:11:55.600 --> 00:12:02.533] would have to be realized, before an artificial heart patient's freedom is truly on par with a healthy transplant recipient.\nS278 [00:12:18.990 --> 00:12:25.670] that are converging on having an artificial heart that lasts a long time, that doesn't have a wire through the skin.",
+      "text_tokens": 1633,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        11,
+        13,
+        20,
+        22,
+        28,
+        30,
+        39,
+        41,
+        49,
+        51,
+        57,
+        59,
+        67,
+        69,
+        76,
+        78,
+        85,
+        94,
+        96,
+        104,
+        106,
+        113,
+        115,
+        130,
+        132,
+        141,
+        143,
+        151,
+        153,
+        161,
+        163,
+        172,
+        174,
+        179,
+        181,
+        190,
+        192,
+        198,
+        200,
+        208,
+        210,
+        216,
+        225,
+        227,
+        233,
+        235,
+        241,
+        243,
+        251,
+        259,
+        261,
+        270,
+        272,
+        278,
+        280
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "8fc8758921db4e601669bde74a1675b78928ee08a21de19c51377f4b711697fb"
+}

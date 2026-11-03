@@ -1,0 +1,824 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "HTv4z899xgA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HTv4z899xgA.srt",
+        "status": "available",
+        "bytes": 92058,
+        "sha256": "91e6acd075cc1bcac192a3220d9af9d28a38ff4d8e258be08502ed010b0f0f29",
+        "cues": 913,
+        "nonempty_cues": 913
+      },
+      "frame_indices": [
+        0,
+        2211,
+        4423,
+        6634,
+        8845,
+        11056,
+        13268,
+        15479,
+        17690,
+        19901,
+        22113,
+        24324,
+        26535,
+        28746,
+        30958,
+        33169,
+        35380,
+        37591,
+        39803,
+        42014,
+        44225,
+        46436,
+        48648,
+        50859,
+        53070,
+        55281,
+        57493,
+        59704,
+        61915,
+        64126,
+        66338,
+        68549
+      ],
+      "frame_seconds": [
+        0.0,
+        92.21712500000001,
+        184.475958,
+        276.693083,
+        368.910208,
+        461.127333,
+        553.386167,
+        645.603292,
+        737.820417,
+        830.037542,
+        922.296375,
+        1014.5135,
+        1106.730625,
+        1198.94775,
+        1291.206583,
+        1383.423708,
+        1475.640833,
+        1567.857958,
+        1660.116792,
+        1752.333917,
+        1844.551042,
+        1936.768167,
+        2029.027,
+        2121.244125,
+        2213.46125,
+        2305.678375,
+        2397.937208,
+        2490.154333,
+        2582.371458,
+        2674.588583,
+        2766.847417,
+        2859.064542
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          32,
+          33
+        ],
+        [
+          70,
+          71
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          124,
+          125
+        ],
+        [
+          151,
+          152
+        ],
+        [
+          184,
+          185
+        ],
+        [
+          206
+        ],
+        [],
+        [],
+        [
+          287,
+          288
+        ],
+        [],
+        [
+          362,
+          363
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          422,
+          423
+        ],
+        [
+          460
+        ],
+        [
+          495,
+          496
+        ],
+        [
+          531,
+          532
+        ],
+        [],
+        [
+          600,
+          601
+        ],
+        [
+          629
+        ],
+        [],
+        [
+          704,
+          705
+        ],
+        [
+          729,
+          730
+        ],
+        [
+          751,
+          752
+        ],
+        [
+          784
+        ],
+        [
+          805,
+          806
+        ],
+        [
+          824
+        ],
+        [
+          851,
+          852
+        ],
+        [
+          885,
+          886
+        ],
+        [
+          903,
+          904
+        ],
+        [
+          913
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 32,
+          "start_ms": 89039,
+          "end_ms": 92880,
+          "text": "wrinkle-free"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 90320,
+          "end_ms": 94640,
+          "text": "and how many hours did that purse cost"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 180400,
+          "end_ms": 185280,
+          "text": "i'm worried about you don't worry about"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 182239,
+          "end_ms": 188720,
+          "text": "the middle east"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 274080,
+          "end_ms": 280080,
+          "text": "paper the grain added 10 pounds"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 276400,
+          "end_ms": 282800,
+          "text": "being green can be so cool"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 366400,
+          "end_ms": 370319,
+          "text": "entire life"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 367360,
+          "end_ms": 371680,
+          "text": "you are my first adult zero zero no i am"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 458319,
+          "end_ms": 462400,
+          "text": "but the ekg she flatlined i must have"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 461039,
+          "end_ms": 463840,
+          "text": "been some kind of short in the monitor"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 548000,
+          "end_ms": 553760,
+          "text": "you are jane now"
+        },
+        {
+          "cue_id": 185,
+          "start_ms": 551120,
+          "end_ms": 554640,
+          "text": "and forever everything you need to know"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 634330,
+          "end_ms": 647990,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 287,
+          "start_ms": 919440,
+          "end_ms": 922800,
+          "text": "been through this it's not hot it's your"
+        },
+        {
+          "cue_id": 288,
+          "start_ms": 920639,
+          "end_ms": 923440,
+          "text": "metabolism well my metabolism is making"
+        },
+        {
+          "cue_id": 362,
+          "start_ms": 1104080,
+          "end_ms": 1108960,
+          "text": "cocktail sauce and lemon juice"
+        },
+        {
+          "cue_id": 363,
+          "start_ms": 1105600,
+          "end_ms": 1110559,
+          "text": "details on the case right i'll call you"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 1193200,
+          "end_ms": 1199840,
+          "text": "calamari it's just rings of squid"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 1196160,
+          "end_ms": 1199840,
+          "text": "lightly fried in beer batter but"
+        },
+        {
+          "cue_id": 422,
+          "start_ms": 1284640,
+          "end_ms": 1291919,
+          "text": "can i help you cece it's me deb"
+        },
+        {
+          "cue_id": 423,
+          "start_ms": 1288960,
+          "end_ms": 1292720,
+          "text": "my best friend was adam she died this"
+        },
+        {
+          "cue_id": 460,
+          "start_ms": 1381850,
+          "end_ms": 1387360,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 495,
+          "start_ms": 1471200,
+          "end_ms": 1475760,
+          "text": "i'm looking at jane and all i see is deb"
+        },
+        {
+          "cue_id": 496,
+          "start_ms": 1472960,
+          "end_ms": 1475760,
+          "text": "the 0-0"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1563440,
+          "end_ms": 1568159,
+          "text": "boobs done because she had the hot"
+        },
+        {
+          "cue_id": 532,
+          "start_ms": 1565520,
+          "end_ms": 1568159,
+          "text": "spirit doctor"
+        },
+        {
+          "cue_id": 600,
+          "start_ms": 1750559,
+          "end_ms": 1753600,
+          "text": "two hours after popping his opening are"
+        },
+        {
+          "cue_id": 601,
+          "start_ms": 1752159,
+          "end_ms": 1754060,
+          "text": "you aware of that"
+        },
+        {
+          "cue_id": 629,
+          "start_ms": 1843120,
+          "end_ms": 1846640,
+          "text": "yesterday after court you left in a"
+        },
+        {
+          "cue_id": 704,
+          "start_ms": 2023200,
+          "end_ms": 2029039,
+          "text": "hold it hold everything my brain is"
+        },
+        {
+          "cue_id": 705,
+          "start_ms": 2026640,
+          "end_ms": 2029039,
+          "text": "working"
+        },
+        {
+          "cue_id": 729,
+          "start_ms": 2118000,
+          "end_ms": 2122079,
+          "text": "you"
+        },
+        {
+          "cue_id": 730,
+          "start_ms": 2119040,
+          "end_ms": 2125200,
+          "text": "but it's why i need to stay busy"
+        },
+        {
+          "cue_id": 751,
+          "start_ms": 2208640,
+          "end_ms": 2213520,
+          "text": "i won't then you'll bluff sometimes you"
+        },
+        {
+          "cue_id": 752,
+          "start_ms": 2211359,
+          "end_ms": 2217839,
+          "text": "gotta fake it to make it"
+        },
+        {
+          "cue_id": 784,
+          "start_ms": 2303310,
+          "end_ms": 2310560,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 805,
+          "start_ms": 2384079,
+          "end_ms": 2399599,
+          "text": "shoulders back show the rack"
+        },
+        {
+          "cue_id": 806,
+          "start_ms": 2396000,
+          "end_ms": 2402720,
+          "text": "the dog walker the woman he slept with"
+        },
+        {
+          "cue_id": 824,
+          "start_ms": 2488800,
+          "end_ms": 2492079,
+          "text": "how's your closing going you're gonna"
+        },
+        {
+          "cue_id": 851,
+          "start_ms": 2578319,
+          "end_ms": 2583920,
+          "text": "grief"
+        },
+        {
+          "cue_id": 852,
+          "start_ms": 2580400,
+          "end_ms": 2586670,
+          "text": "denial anger bargaining depression"
+        },
+        {
+          "cue_id": 885,
+          "start_ms": 2673599,
+          "end_ms": 2677520,
+          "text": "didn't mind"
+        },
+        {
+          "cue_id": 886,
+          "start_ms": 2674400,
+          "end_ms": 2680720,
+          "text": "it was a nice tribute to deb"
+        },
+        {
+          "cue_id": 903,
+          "start_ms": 2761630,
+          "end_ms": 2767839,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 904,
+          "start_ms": 2763119,
+          "end_ms": 2769520,
+          "text": "you're grieving for myself"
+        },
+        {
+          "cue_id": 913,
+          "start_ms": 2858880,
+          "end_ms": 2860960,
+          "text": "you"
+        }
+      ],
+      "text": "wrinkle-free\nand how many hours did that purse cost\ni'm worried about you don't worry about\nthe middle east\npaper the grain added 10 pounds\nbeing green can be so cool\nentire life\nyou are my first adult zero zero no i am\nbut the ekg she flatlined i must have\nbeen some kind of short in the monitor\nyou are jane now\nand forever everything you need to know\n[Music]\nbeen through this it's not hot it's your\nmetabolism well my metabolism is making\ncocktail sauce and lemon juice\ndetails on the case right i'll call you\ncalamari it's just rings of squid\nlightly fried in beer batter but\ncan i help you cece it's me deb\nmy best friend was adam she died this\n[Music]\ni'm looking at jane and all i see is deb\nthe 0-0\nboobs done because she had the hot\nspirit doctor\ntwo hours after popping his opening are\nyou aware of that\nyesterday after court you left in a\nhold it hold everything my brain is\nworking\nyou\nbut it's why i need to stay busy\ni won't then you'll bluff sometimes you\ngotta fake it to make it\n[Music]\nshoulders back show the rack\nthe dog walker the woman he slept with\nhow's your closing going you're gonna\ngrief\ndenial anger bargaining depression\ndidn't mind\nit was a nice tribute to deb\n[Music]\nyou're grieving for myself\nyou",
+      "text_tokens": 322,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S31",
+        "cue_ids": [
+          31,
+          32,
+          33,
+          34
+        ],
+        "start_ms": 86640,
+        "end_ms": 96320,
+        "text": "and at 300 an hour we should at least be wrinkle-free and how many hours did that purse cost hermes ostrich leather there's a"
+      },
+      {
+        "id": "S69",
+        "cue_ids": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "start_ms": 177680,
+        "end_ms": 199840,
+        "text": "have this conversation not right now i'm worried about you don't worry about the middle east i'm fine really i gotta get back"
+      },
+      {
+        "id": "S95",
+        "cue_ids": [
+          95,
+          96,
+          97,
+          98
+        ],
+        "start_ms": 272479,
+        "end_ms": 284240,
+        "text": "that layout was printed on recycled paper the grain added 10 pounds being green can be so cool listen sweetie after i rock my audition"
+      },
+      {
+        "id": "S123",
+        "cue_ids": [
+          123,
+          124,
+          125,
+          126
+        ],
+        "start_ms": 364080,
+        "end_ms": 374080,
+        "text": "single good deed or bad act in your entire life you are my first adult zero zero no i am a good person all right"
+      },
+      {
+        "id": "S150",
+        "cue_ids": [
+          150,
+          151,
+          152,
+          153
+        ],
+        "start_ms": 456960,
+        "end_ms": 465120,
+        "text": "her didn't require a stitch but the ekg she flatlined i must have been some kind of short in the monitor it's happened before"
+      },
+      {
+        "id": "S183",
+        "cue_ids": [
+          183,
+          184,
+          185,
+          186
+        ],
+        "start_ms": 543680,
+        "end_ms": 558959,
+        "text": "tell me how to get me back you are jane now and forever everything you need to know about her"
+      },
+      {
+        "id": "S206",
+        "cue_ids": [
+          206
+        ],
+        "start_ms": 634330,
+        "end_ms": 647990,
+        "text": "[Music]"
+      },
+      {
+        "id": "S286",
+        "cue_ids": [
+          286,
+          287,
+          288,
+          289
+        ],
+        "start_ms": 917120,
+        "end_ms": 927839,
+        "text": "oh why is it so hot in this office we've been through this it's not hot it's your metabolism well my metabolism is making me sweat"
+      },
+      {
+        "id": "S361",
+        "cue_ids": [
+          361,
+          362,
+          363,
+          364
+        ],
+        "start_ms": 1102000,
+        "end_ms": 1111440,
+        "text": "give me the details you ate it with cocktail sauce and lemon juice details on the case right i'll call you in your car which i had washed you're"
+      },
+      {
+        "id": "S393",
+        "cue_ids": [
+          393,
+          394,
+          395,
+          396
+        ],
+        "start_ms": 1179200,
+        "end_ms": 1205760,
+        "text": "would have to testify calamari it's just rings of squid lightly fried in beer batter but wow miss bingham i was clear with parker"
+      },
+      {
+        "id": "S422",
+        "cue_ids": [
+          422,
+          423,
+          424
+        ],
+        "start_ms": 1284640,
+        "end_ms": 1294640,
+        "text": "can i help you cece it's me deb my best friend was adam she died this morning i know"
+      },
+      {
+        "id": "S459",
+        "cue_ids": [
+          459,
+          460,
+          461
+        ],
+        "start_ms": 1375600,
+        "end_ms": 1390240,
+        "text": "but he'd run from this come here [Music] so um hey"
+      },
+      {
+        "id": "S494",
+        "cue_ids": [
+          494,
+          495,
+          496,
+          497
+        ],
+        "start_ms": 1469520,
+        "end_ms": 1480240,
+        "text": "self-absorbed i'm looking at jane and all i see is deb the 0-0 wait a minute are you wearing black"
+      },
+      {
+        "id": "S530",
+        "cue_ids": [
+          530,
+          531,
+          532,
+          533
+        ],
+        "start_ms": 1562080,
+        "end_ms": 1574960,
+        "text": "she did get me a ride when i got my boobs done because she had the hot spirit doctor oh jane are you there"
+      },
+      {
+        "id": "S599",
+        "cue_ids": [
+          599,
+          600,
+          601,
+          602
+        ],
+        "start_ms": 1748880,
+        "end_ms": 1759030,
+        "text": "morning herald a man jumped to his death two hours after popping his opening are you aware of that yes"
+      },
+      {
+        "id": "S629",
+        "cue_ids": [
+          629,
+          630
+        ],
+        "start_ms": 1843120,
+        "end_ms": 1847279,
+        "text": "yesterday after court you left in a hurry hmm were you hoping to grab a"
+      },
+      {
+        "id": "S703",
+        "cue_ids": [
+          703,
+          704,
+          705,
+          706
+        ],
+        "start_ms": 2021039,
+        "end_ms": 2035919,
+        "text": "makeovers hold it hold everything my brain is working terry send vicki to this address"
+      },
+      {
+        "id": "S728",
+        "cue_ids": [
+          728,
+          729,
+          730,
+          731
+        ],
+        "start_ms": 2115280,
+        "end_ms": 2125920,
+        "text": "i'm sorry i i didn't mean to lay this on you but it's why i need to stay busy hello hello grayson kim caspell nice to"
+      },
+      {
+        "id": "S750",
+        "cue_ids": [
+          750,
+          751,
+          752,
+          753
+        ],
+        "start_ms": 2207040,
+        "end_ms": 2221119,
+        "text": "not he's right i won't then you'll bluff sometimes you gotta fake it to make it so stand tall and walk with confidence"
+      },
+      {
+        "id": "S784",
+        "cue_ids": [
+          784,
+          785
+        ],
+        "start_ms": 2303310,
+        "end_ms": 2313839,
+        "text": "[Music] is this really what you want"
+      },
+      {
+        "id": "S804",
+        "cue_ids": [
+          804,
+          805,
+          806,
+          807
+        ],
+        "start_ms": 2380839,
+        "end_ms": 2404640,
+        "text": "so shoulders back show the rack the dog walker the woman he slept with she's my little sister and yes i was"
+      },
+      {
+        "id": "S824",
+        "cue_ids": [
+          824,
+          825
+        ],
+        "start_ms": 2488800,
+        "end_ms": 2494400,
+        "text": "how's your closing going you're gonna suck it to the drug company"
+      },
+      {
+        "id": "S850",
+        "cue_ids": [
+          850,
+          851,
+          852,
+          853
+        ],
+        "start_ms": 2576560,
+        "end_ms": 2588800,
+        "text": "people say there are five stages of grief denial anger bargaining depression and acceptance"
+      },
+      {
+        "id": "S884",
+        "cue_ids": [
+          884,
+          885,
+          886,
+          887
+        ],
+        "start_ms": 2670960,
+        "end_ms": 2683119,
+        "text": "your closing was inspired i hope you didn't mind it was a nice tribute to deb this may sound funny but is that ironic"
+      },
+      {
+        "id": "S902",
+        "cue_ids": [
+          902,
+          903,
+          904,
+          905
+        ],
+        "start_ms": 2756640,
+        "end_ms": 2771280,
+        "text": "the world but i still miss her [Music] you're grieving for myself does that make me self-absorption"
+      },
+      {
+        "id": "S913",
+        "cue_ids": [
+          913
+        ],
+        "start_ms": 2858880,
+        "end_ms": 2860960,
+        "text": "you"
+      }
+    ],
+    "text": "S31 [00:01:26.640 --> 00:01:36.320] and at 300 an hour we should at least be wrinkle-free and how many hours did that purse cost hermes ostrich leather there's a\nS69 [00:02:57.680 --> 00:03:19.840] have this conversation not right now i'm worried about you don't worry about the middle east i'm fine really i gotta get back\nS95 [00:04:32.479 --> 00:04:44.240] that layout was printed on recycled paper the grain added 10 pounds being green can be so cool listen sweetie after i rock my audition\nS123 [00:06:04.080 --> 00:06:14.080] single good deed or bad act in your entire life you are my first adult zero zero no i am a good person all right\nS150 [00:07:36.960 --> 00:07:45.120] her didn't require a stitch but the ekg she flatlined i must have been some kind of short in the monitor it's happened before\nS183 [00:09:03.680 --> 00:09:18.959] tell me how to get me back you are jane now and forever everything you need to know about her\nS206 [00:10:34.330 --> 00:10:47.990] [Music]\nS286 [00:15:17.120 --> 00:15:27.839] oh why is it so hot in this office we've been through this it's not hot it's your metabolism well my metabolism is making me sweat\nS361 [00:18:22.000 --> 00:18:31.440] give me the details you ate it with cocktail sauce and lemon juice details on the case right i'll call you in your car which i had washed you're\nS393 [00:19:39.200 --> 00:20:05.760] would have to testify calamari it's just rings of squid lightly fried in beer batter but wow miss bingham i was clear with parker\nS422 [00:21:24.640 --> 00:21:34.640] can i help you cece it's me deb my best friend was adam she died this morning i know\nS459 [00:22:55.600 --> 00:23:10.240] but he'd run from this come here [Music] so um hey\nS494 [00:24:29.520 --> 00:24:40.240] self-absorbed i'm looking at jane and all i see is deb the 0-0 wait a minute are you wearing black\nS530 [00:26:02.080 --> 00:26:14.960] she did get me a ride when i got my boobs done because she had the hot spirit doctor oh jane are you there\nS599 [00:29:08.880 --> 00:29:19.030] morning herald a man jumped to his death two hours after popping his opening are you aware of that yes\nS629 [00:30:43.120 --> 00:30:47.279] yesterday after court you left in a hurry hmm were you hoping to grab a\nS703 [00:33:41.039 --> 00:33:55.919] makeovers hold it hold everything my brain is working terry send vicki to this address\nS728 [00:35:15.280 --> 00:35:25.920] i'm sorry i i didn't mean to lay this on you but it's why i need to stay busy hello hello grayson kim caspell nice to\nS750 [00:36:47.040 --> 00:37:01.119] not he's right i won't then you'll bluff sometimes you gotta fake it to make it so stand tall and walk with confidence\nS784 [00:38:23.310 --> 00:38:33.839] [Music] is this really what you want\nS804 [00:39:40.839 --> 00:40:04.640] so shoulders back show the rack the dog walker the woman he slept with she's my little sister and yes i was\nS824 [00:41:28.800 --> 00:41:34.400] how's your closing going you're gonna suck it to the drug company\nS850 [00:42:56.560 --> 00:43:08.800] people say there are five stages of grief denial anger bargaining depression and acceptance\nS884 [00:44:30.960 --> 00:44:43.119] your closing was inspired i hope you didn't mind it was a nice tribute to deb this may sound funny but is that ironic\nS902 [00:45:56.640 --> 00:46:11.280] the world but i still miss her [Music] you're grieving for myself does that make me self-absorption\nS913 [00:47:38.880 --> 00:47:40.960] you",
+    "text_tokens": 1408,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      31,
+      34,
+      69,
+      72,
+      95,
+      98,
+      123,
+      126,
+      150,
+      153,
+      183,
+      186,
+      286,
+      289,
+      361,
+      364,
+      393,
+      396,
+      424,
+      459,
+      461,
+      494,
+      497,
+      530,
+      533,
+      599,
+      602,
+      630,
+      703,
+      706,
+      728,
+      731,
+      750,
+      753,
+      785,
+      804,
+      807,
+      825,
+      850,
+      853,
+      884,
+      887,
+      902,
+      905
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "9ed430fdef693e3b8ee99fc69988f8565cfda961092563079c23787822d572c2"
+}

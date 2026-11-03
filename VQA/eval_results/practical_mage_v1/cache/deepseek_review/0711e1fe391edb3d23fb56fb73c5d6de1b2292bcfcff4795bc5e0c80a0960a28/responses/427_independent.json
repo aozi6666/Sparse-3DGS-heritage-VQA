@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "20016dca99be45d464442652baa1f9438828b84cb6af70a173ba22e2191bea85",
+  "response": {
+    "id": "e0f460c0-be4e-4f95-a1b9-02ba069a4d5e",
+    "object": "chat.completion",
+    "created": 1793675876,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S49\",\"quote\":\"this is one of my favorite textures it's nice and subtle it's not too overpowering this is amazing this is a 8.8\"}],\"frame_ids\":[\"F3210\",\"F2751\",\"F2293\"],\"windows\":[],\"notes\":\"Protagonist rates steamed rice rolls 8.8 and calls them amazing/favorite texture; bagel rated 8, pizza called overrated, no bacon sandwich shown.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9277,
+      "completion_tokens": 116,
+      "total_tokens": 9393,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9149
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.9283829126507044
+}

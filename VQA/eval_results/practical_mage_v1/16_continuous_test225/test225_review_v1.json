@@ -1,0 +1,56 @@
+{
+  "version": "test225_review_v1",
+  "summary_sha256": "04798ebaec488ade8d94d577e2af4f1398c813186b83e77aa01d405c6edeeddc",
+  "journal_sha256": "a1dd4b889f5c81ef259a5261316562844f479442c7fa2f937102d82502abb607",
+  "archive_sha256": "cedd87c653e10b7ef19ef246880cb72232b36989e055e0a9d9550f1c2d23c07f",
+  "verified_units": 675,
+  "test_correct": {
+    "no_sub": 140,
+    "aligned": 154,
+    "continuous": 163
+  },
+  "vs_no_sub": {
+    "rescue": 30,
+    "harm": 7,
+    "net": 23,
+    "delta_pp": 10.222222222222221,
+    "cluster95ci_pp": [
+      5.333333333333333,
+      15.11111111111111
+    ]
+  },
+  "vs_aligned": {
+    "rescue": 17,
+    "harm": 8,
+    "net": 9,
+    "delta_pp": 4,
+    "cluster95ci_pp": [
+      -0.4444444444444444,
+      8.455555555555394
+    ]
+  },
+  "coverage": {
+    "total_questions": 714,
+    "total_videos": 238,
+    "disjoint": true,
+    "stages": {
+      "short_dev": {
+        "questions": 219,
+        "videos": 73
+      },
+      "dev60": {
+        "questions": 180,
+        "videos": 60
+      },
+      "val": {
+        "questions": 90,
+        "videos": 30
+      },
+      "test": {
+        "questions": 225,
+        "videos": 75
+      }
+    }
+  },
+  "conclusion": "Strong positive test225 result vs visual-only; incremental gain vs aligned subtitles remains uncertain. No test-driven tuning or larger-budget retry. All714 input questions covered by completed stages; retain stage separation and historical-use disclosure,not official full benchmark."
+}

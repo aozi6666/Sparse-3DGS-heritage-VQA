@@ -1,0 +1,1282 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "eZ5lFBPpRkM",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eZ5lFBPpRkM.srt",
+        "status": "available",
+        "bytes": 90052,
+        "sha256": "746080f04b155d17fe48aab00b9ca888364b328e05028552e27afdf4e5a7f56e",
+        "cues": 881,
+        "nonempty_cues": 881
+      },
+      "frame_indices": [
+        0,
+        3114,
+        6229,
+        9343,
+        12458,
+        15572,
+        18687,
+        21801,
+        24915,
+        28030,
+        31144,
+        34259,
+        37373,
+        40487,
+        43602,
+        46716,
+        49831,
+        52945,
+        56060,
+        59174,
+        62288,
+        65403,
+        68517,
+        71632,
+        74746,
+        77860,
+        80975,
+        84089,
+        87204,
+        90318,
+        93433,
+        96547
+      ],
+      "frame_seconds": [
+        0.0,
+        103.90379999999999,
+        207.840967,
+        311.744767,
+        415.681933,
+        519.585733,
+        623.5229,
+        727.4267,
+        831.3305,
+        935.267667,
+        1039.171467,
+        1143.108633,
+        1247.012433,
+        1350.916233,
+        1454.8534,
+        1558.7572,
+        1662.694367,
+        1766.598167,
+        1870.535333,
+        1974.439133,
+        2078.342933,
+        2182.2801,
+        2286.1839,
+        2390.121067,
+        2494.024867,
+        2597.928667,
+        2701.865833,
+        2805.769633,
+        2909.7068,
+        3013.6106,
+        3117.547767,
+        3221.451567
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          39,
+          40
+        ],
+        [],
+        [
+          90,
+          91
+        ],
+        [
+          116
+        ],
+        [
+          146,
+          147
+        ],
+        [
+          183,
+          184
+        ],
+        [
+          214
+        ],
+        [
+          240,
+          241
+        ],
+        [
+          270,
+          271
+        ],
+        [
+          300,
+          301
+        ],
+        [
+          325,
+          326
+        ],
+        [],
+        [
+          372,
+          373
+        ],
+        [
+          405
+        ],
+        [
+          433
+        ],
+        [
+          463,
+          464
+        ],
+        [
+          494,
+          495
+        ],
+        [
+          521,
+          522
+        ],
+        [],
+        [
+          583,
+          584
+        ],
+        [],
+        [
+          637,
+          638
+        ],
+        [
+          674,
+          675
+        ],
+        [
+          705
+        ],
+        [
+          726,
+          727
+        ],
+        [
+          748,
+          749
+        ],
+        [
+          774,
+          775
+        ],
+        [
+          799
+        ],
+        [
+          828
+        ],
+        [
+          854,
+          855
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 39,
+          "start_ms": 102789,
+          "end_ms": 107039,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 103670,
+          "end_ms": 109259,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 308720,
+          "end_ms": 314780,
+          "text": "so now for the test guys this is the"
+        },
+        {
+          "cue_id": 91,
+          "start_ms": 311639,
+          "end_ms": 314780,
+          "text": "normal Balinese coffee"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 415039,
+          "end_ms": 419580,
+          "text": "as we headed up north we're in the"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 514200,
+          "end_ms": 520559,
+          "text": "made sure that I woke up early beep beep"
+        },
+        {
+          "cue_id": 147,
+          "start_ms": 516659,
+          "end_ms": 520890,
+          "text": "and we're going to Nissan now Paradise"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 619590,
+          "end_ms": 623580,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 621080,
+          "end_ms": 626899,
+          "text": "downstairs is the lounge area and"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 725060,
+          "end_ms": 730740,
+          "text": "just on the other side we find secret"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 828060,
+          "end_ms": 833060,
+          "text": "beautiful day again on lemongan how did"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 830459,
+          "end_ms": 833060,
+          "text": "you sleep yes"
+        },
+        {
+          "cue_id": 270,
+          "start_ms": 932459,
+          "end_ms": 937079,
+          "text": "dark areas are seaweed Farms long before"
+        },
+        {
+          "cue_id": 271,
+          "start_ms": 935100,
+          "end_ms": 939300,
+          "text": "the tourism came this was the largest"
+        },
+        {
+          "cue_id": 300,
+          "start_ms": 1035990,
+          "end_ms": 1040280,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 301,
+          "start_ms": 1037959,
+          "end_ms": 1042980,
+          "text": "the first site that we visit is pretty"
+        },
+        {
+          "cue_id": 325,
+          "start_ms": 1131179,
+          "end_ms": 1145419,
+          "text": "smashed around by the highways"
+        },
+        {
+          "cue_id": 326,
+          "start_ms": 1133200,
+          "end_ms": 1148700,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 372,
+          "start_ms": 1348380,
+          "end_ms": 1352820,
+          "text": "lifetime to swim so close with the manta"
+        },
+        {
+          "cue_id": 373,
+          "start_ms": 1350240,
+          "end_ms": 1354919,
+          "text": "rays Yen saw them from the boat we saw"
+        },
+        {
+          "cue_id": 405,
+          "start_ms": 1454659,
+          "end_ms": 1459200,
+          "text": "today is already our lost day here on"
+        },
+        {
+          "cue_id": 433,
+          "start_ms": 1558100,
+          "end_ms": 1563480,
+          "text": "right next to Broken Beach is another"
+        },
+        {
+          "cue_id": 463,
+          "start_ms": 1662430,
+          "end_ms": 1668800,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 464,
+          "start_ms": 1662500,
+          "end_ms": 1671150,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 494,
+          "start_ms": 1762200,
+          "end_ms": 1768140,
+          "text": "immediately see how beautiful the sea is"
+        },
+        {
+          "cue_id": 495,
+          "start_ms": 1764299,
+          "end_ms": 1771140,
+          "text": "with all the surrounding little Islands"
+        },
+        {
+          "cue_id": 521,
+          "start_ms": 1868460,
+          "end_ms": 1872059,
+          "text": "and as it turns out Komodo national park"
+        },
+        {
+          "cue_id": 522,
+          "start_ms": 1870440,
+          "end_ms": 1874700,
+          "text": "has multiple islands and the main"
+        },
+        {
+          "cue_id": 583,
+          "start_ms": 2076119,
+          "end_ms": 2079310,
+          "text": "immediately see a little one securing"
+        },
+        {
+          "cue_id": 584,
+          "start_ms": 2078159,
+          "end_ms": 2084690,
+          "text": "around through the bushes"
+        },
+        {
+          "cue_id": 637,
+          "start_ms": 2279760,
+          "end_ms": 2290940,
+          "text": "entire life Komodo Island"
+        },
+        {
+          "cue_id": 638,
+          "start_ms": 2282060,
+          "end_ms": 2293500,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 674,
+          "start_ms": 2385900,
+          "end_ms": 2392220,
+          "text": "you a lot less about 25 bucks for a"
+        },
+        {
+          "cue_id": 675,
+          "start_ms": 2388599,
+          "end_ms": 2392220,
+          "text": "super nice cabin with a pool"
+        },
+        {
+          "cue_id": 705,
+          "start_ms": 2493470,
+          "end_ms": 2513820,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 726,
+          "start_ms": 2583119,
+          "end_ms": 2599280,
+          "text": "other Gillies are"
+        },
+        {
+          "cue_id": 727,
+          "start_ms": 2585630,
+          "end_ms": 2602200,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 748,
+          "start_ms": 2693119,
+          "end_ms": 2708309,
+          "text": "thank you"
+        },
+        {
+          "cue_id": 749,
+          "start_ms": 2694870,
+          "end_ms": 2708309,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 774,
+          "start_ms": 2794820,
+          "end_ms": 2806079,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 775,
+          "start_ms": 2803400,
+          "end_ms": 2807880,
+          "text": "to be the most unspoiled of the three"
+        },
+        {
+          "cue_id": 799,
+          "start_ms": 2896450,
+          "end_ms": 2917440,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 828,
+          "start_ms": 3000330,
+          "end_ms": 3015530,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 854,
+          "start_ms": 3087980,
+          "end_ms": 3118020,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 855,
+          "start_ms": 3115020,
+          "end_ms": 3118020,
+          "text": "foreign"
+        }
+      ],
+      "text": "[Applause]\n[Music]\nso now for the test guys this is the\nnormal Balinese coffee\nas we headed up north we're in the\nmade sure that I woke up early beep beep\nand we're going to Nissan now Paradise\n[Music]\ndownstairs is the lounge area and\njust on the other side we find secret\nbeautiful day again on lemongan how did\nyou sleep yes\ndark areas are seaweed Farms long before\nthe tourism came this was the largest\n[Applause]\nthe first site that we visit is pretty\nsmashed around by the highways\n[Music]\nlifetime to swim so close with the manta\nrays Yen saw them from the boat we saw\ntoday is already our lost day here on\nright next to Broken Beach is another\n[Applause]\n[Music]\nimmediately see how beautiful the sea is\nwith all the surrounding little Islands\nand as it turns out Komodo national park\nhas multiple islands and the main\nimmediately see a little one securing\naround through the bushes\nentire life Komodo Island\n[Music]\nyou a lot less about 25 bucks for a\nsuper nice cabin with a pool\n[Music]\nother Gillies are\n[Music]\nthank you\n[Music]\n[Music]\nto be the most unspoiled of the three\n[Music]\n[Music]\n[Music]\nforeign",
+      "text_tokens": 289,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eZ5lFBPpRkM",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eZ5lFBPpRkM.srt",
+          "status": "available",
+          "bytes": 90052,
+          "sha256": "746080f04b155d17fe48aab00b9ca888364b328e05028552e27afdf4e5a7f56e",
+          "cues": 881,
+          "nonempty_cues": 881
+        },
+        "frame_indices": [
+          0,
+          3114,
+          6229,
+          9343,
+          12458,
+          15572,
+          18687,
+          21801,
+          24915,
+          28030,
+          31144,
+          34259,
+          37373,
+          40487,
+          43602,
+          46716,
+          49831,
+          52945,
+          56060,
+          59174,
+          62288,
+          65403,
+          68517,
+          71632,
+          74746,
+          77860,
+          80975,
+          84089,
+          87204,
+          90318,
+          93433,
+          96547
+        ],
+        "frame_seconds": [
+          0.0,
+          103.90379999999999,
+          207.840967,
+          311.744767,
+          415.681933,
+          519.585733,
+          623.5229,
+          727.4267,
+          831.3305,
+          935.267667,
+          1039.171467,
+          1143.108633,
+          1247.012433,
+          1350.916233,
+          1454.8534,
+          1558.7572,
+          1662.694367,
+          1766.598167,
+          1870.535333,
+          1974.439133,
+          2078.342933,
+          2182.2801,
+          2286.1839,
+          2390.121067,
+          2494.024867,
+          2597.928667,
+          2701.865833,
+          2805.769633,
+          2909.7068,
+          3013.6106,
+          3117.547767,
+          3221.451567
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            39,
+            40
+          ],
+          [],
+          [
+            90,
+            91
+          ],
+          [
+            116
+          ],
+          [
+            146,
+            147
+          ],
+          [
+            183,
+            184
+          ],
+          [
+            214
+          ],
+          [
+            240,
+            241
+          ],
+          [
+            270,
+            271
+          ],
+          [
+            300,
+            301
+          ],
+          [
+            325,
+            326
+          ],
+          [],
+          [
+            372,
+            373
+          ],
+          [
+            405
+          ],
+          [
+            433
+          ],
+          [
+            463,
+            464
+          ],
+          [
+            494,
+            495
+          ],
+          [
+            521,
+            522
+          ],
+          [],
+          [
+            583,
+            584
+          ],
+          [],
+          [
+            637,
+            638
+          ],
+          [
+            674,
+            675
+          ],
+          [
+            705
+          ],
+          [
+            726,
+            727
+          ],
+          [
+            748,
+            749
+          ],
+          [
+            774,
+            775
+          ],
+          [
+            799
+          ],
+          [
+            828
+          ],
+          [
+            854,
+            855
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 39,
+            "start_ms": 102789,
+            "end_ms": 107039,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 103670,
+            "end_ms": 109259,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 308720,
+            "end_ms": 314780,
+            "text": "so now for the test guys this is the"
+          },
+          {
+            "cue_id": 91,
+            "start_ms": 311639,
+            "end_ms": 314780,
+            "text": "normal Balinese coffee"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 415039,
+            "end_ms": 419580,
+            "text": "as we headed up north we're in the"
+          },
+          {
+            "cue_id": 146,
+            "start_ms": 514200,
+            "end_ms": 520559,
+            "text": "made sure that I woke up early beep beep"
+          },
+          {
+            "cue_id": 147,
+            "start_ms": 516659,
+            "end_ms": 520890,
+            "text": "and we're going to Nissan now Paradise"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 619590,
+            "end_ms": 623580,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 184,
+            "start_ms": 621080,
+            "end_ms": 626899,
+            "text": "downstairs is the lounge area and"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 725060,
+            "end_ms": 730740,
+            "text": "just on the other side we find secret"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 828060,
+            "end_ms": 833060,
+            "text": "beautiful day again on lemongan how did"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 830459,
+            "end_ms": 833060,
+            "text": "you sleep yes"
+          },
+          {
+            "cue_id": 270,
+            "start_ms": 932459,
+            "end_ms": 937079,
+            "text": "dark areas are seaweed Farms long before"
+          },
+          {
+            "cue_id": 271,
+            "start_ms": 935100,
+            "end_ms": 939300,
+            "text": "the tourism came this was the largest"
+          },
+          {
+            "cue_id": 300,
+            "start_ms": 1035990,
+            "end_ms": 1040280,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 301,
+            "start_ms": 1037959,
+            "end_ms": 1042980,
+            "text": "the first site that we visit is pretty"
+          },
+          {
+            "cue_id": 325,
+            "start_ms": 1131179,
+            "end_ms": 1145419,
+            "text": "smashed around by the highways"
+          },
+          {
+            "cue_id": 326,
+            "start_ms": 1133200,
+            "end_ms": 1148700,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 372,
+            "start_ms": 1348380,
+            "end_ms": 1352820,
+            "text": "lifetime to swim so close with the manta"
+          },
+          {
+            "cue_id": 373,
+            "start_ms": 1350240,
+            "end_ms": 1354919,
+            "text": "rays Yen saw them from the boat we saw"
+          },
+          {
+            "cue_id": 405,
+            "start_ms": 1454659,
+            "end_ms": 1459200,
+            "text": "today is already our lost day here on"
+          },
+          {
+            "cue_id": 433,
+            "start_ms": 1558100,
+            "end_ms": 1563480,
+            "text": "right next to Broken Beach is another"
+          },
+          {
+            "cue_id": 463,
+            "start_ms": 1662430,
+            "end_ms": 1668800,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 464,
+            "start_ms": 1662500,
+            "end_ms": 1671150,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 494,
+            "start_ms": 1762200,
+            "end_ms": 1768140,
+            "text": "immediately see how beautiful the sea is"
+          },
+          {
+            "cue_id": 495,
+            "start_ms": 1764299,
+            "end_ms": 1771140,
+            "text": "with all the surrounding little Islands"
+          },
+          {
+            "cue_id": 521,
+            "start_ms": 1868460,
+            "end_ms": 1872059,
+            "text": "and as it turns out Komodo national park"
+          },
+          {
+            "cue_id": 522,
+            "start_ms": 1870440,
+            "end_ms": 1874700,
+            "text": "has multiple islands and the main"
+          },
+          {
+            "cue_id": 583,
+            "start_ms": 2076119,
+            "end_ms": 2079310,
+            "text": "immediately see a little one securing"
+          },
+          {
+            "cue_id": 584,
+            "start_ms": 2078159,
+            "end_ms": 2084690,
+            "text": "around through the bushes"
+          },
+          {
+            "cue_id": 637,
+            "start_ms": 2279760,
+            "end_ms": 2290940,
+            "text": "entire life Komodo Island"
+          },
+          {
+            "cue_id": 638,
+            "start_ms": 2282060,
+            "end_ms": 2293500,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 674,
+            "start_ms": 2385900,
+            "end_ms": 2392220,
+            "text": "you a lot less about 25 bucks for a"
+          },
+          {
+            "cue_id": 675,
+            "start_ms": 2388599,
+            "end_ms": 2392220,
+            "text": "super nice cabin with a pool"
+          },
+          {
+            "cue_id": 705,
+            "start_ms": 2493470,
+            "end_ms": 2513820,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 726,
+            "start_ms": 2583119,
+            "end_ms": 2599280,
+            "text": "other Gillies are"
+          },
+          {
+            "cue_id": 727,
+            "start_ms": 2585630,
+            "end_ms": 2602200,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 748,
+            "start_ms": 2693119,
+            "end_ms": 2708309,
+            "text": "thank you"
+          },
+          {
+            "cue_id": 749,
+            "start_ms": 2694870,
+            "end_ms": 2708309,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 774,
+            "start_ms": 2794820,
+            "end_ms": 2806079,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 775,
+            "start_ms": 2803400,
+            "end_ms": 2807880,
+            "text": "to be the most unspoiled of the three"
+          },
+          {
+            "cue_id": 799,
+            "start_ms": 2896450,
+            "end_ms": 2917440,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 828,
+            "start_ms": 3000330,
+            "end_ms": 3015530,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 854,
+            "start_ms": 3087980,
+            "end_ms": 3118020,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 855,
+            "start_ms": 3115020,
+            "end_ms": 3118020,
+            "text": "foreign"
+          }
+        ],
+        "text": "[Applause]\n[Music]\nso now for the test guys this is the\nnormal Balinese coffee\nas we headed up north we're in the\nmade sure that I woke up early beep beep\nand we're going to Nissan now Paradise\n[Music]\ndownstairs is the lounge area and\njust on the other side we find secret\nbeautiful day again on lemongan how did\nyou sleep yes\ndark areas are seaweed Farms long before\nthe tourism came this was the largest\n[Applause]\nthe first site that we visit is pretty\nsmashed around by the highways\n[Music]\nlifetime to swim so close with the manta\nrays Yen saw them from the boat we saw\ntoday is already our lost day here on\nright next to Broken Beach is another\n[Applause]\n[Music]\nimmediately see how beautiful the sea is\nwith all the surrounding little Islands\nand as it turns out Komodo national park\nhas multiple islands and the main\nimmediately see a little one securing\naround through the bushes\nentire life Komodo Island\n[Music]\nyou a lot less about 25 bucks for a\nsuper nice cabin with a pool\n[Music]\nother Gillies are\n[Music]\nthank you\n[Music]\n[Music]\nto be the most unspoiled of the three\n[Music]\n[Music]\n[Music]\nforeign",
+        "text_tokens": 289,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 97090,
+          "end_ms": 111299,
+          "text": "[Music] [Applause] [Music] what's very cool is that the king of"
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89,
+            90,
+            91,
+            92
+          ],
+          "start_ms": 293050,
+          "end_ms": 319380,
+          "text": "[Music] so now for the test guys this is the normal Balinese coffee okay okay pretty good pretty good so far"
+        },
+        {
+          "id": "S116",
+          "cue_ids": [
+            116,
+            117
+          ],
+          "start_ms": 415039,
+          "end_ms": 421680,
+          "text": "as we headed up north we're in the roughest part of Bali between the"
+        },
+        {
+          "id": "S145",
+          "cue_ids": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "start_ms": 512099,
+          "end_ms": 520980,
+          "text": "scooter bikes here in this street that made sure that I woke up early beep beep and we're going to Nissan now Paradise guys"
+        },
+        {
+          "id": "S182",
+          "cue_ids": [
+            182,
+            183,
+            184,
+            185
+          ],
+          "start_ms": 617820,
+          "end_ms": 629839,
+          "text": "Huts I'll show you upstairs [Music] downstairs is the lounge area and upstairs this is the room"
+        },
+        {
+          "id": "S213",
+          "cue_ids": [
+            213,
+            214,
+            215
+          ],
+          "start_ms": 720240,
+          "end_ms": 731940,
+          "text": "migoreng just on the other side we find secret Beach but don't tell anybody I think I'm"
+        },
+        {
+          "id": "S239",
+          "cue_ids": [
+            239,
+            240,
+            241,
+            242
+          ],
+          "start_ms": 826079,
+          "end_ms": 836959,
+          "text": "with the three of us and it's a beautiful day again on lemongan how did you sleep yes pretty fine"
+        },
+        {
+          "id": "S269",
+          "cue_ids": [
+            269,
+            270,
+            271,
+            272
+          ],
+          "start_ms": 929820,
+          "end_ms": 941030,
+          "text": "white beach is on the Blue Water those dark areas are seaweed Farms long before the tourism came this was the largest export product and still an important"
+        },
+        {
+          "id": "S299",
+          "cue_ids": [
+            299,
+            300,
+            301,
+            302
+          ],
+          "start_ms": 1029170,
+          "end_ms": 1044599,
+          "text": "[Music] [Applause] the first site that we visit is pretty famous by Instagram drone videos on"
+        },
+        {
+          "id": "S324",
+          "cue_ids": [
+            324,
+            325,
+            326,
+            327
+          ],
+          "start_ms": 1128260,
+          "end_ms": 1149840,
+          "text": "we dive into the rough ocean and get smashed around by the highways [Music] so guys I guess we made it back and I"
+        },
+        {
+          "id": "S371",
+          "cue_ids": [
+            371,
+            372,
+            373,
+            374
+          ],
+          "start_ms": 1345620,
+          "end_ms": 1356299,
+          "text": "wow guys this was the experience of a lifetime to swim so close with the manta rays Yen saw them from the boat we saw them up close and now we went on to La"
+        },
+        {
+          "id": "S405",
+          "cue_ids": [
+            405,
+            406
+          ],
+          "start_ms": 1454659,
+          "end_ms": 1461240,
+          "text": "today is already our lost day here on New South Bonita and as I told you"
+        },
+        {
+          "id": "S433",
+          "cue_ids": [
+            433,
+            434
+          ],
+          "start_ms": 1558100,
+          "end_ms": 1564919,
+          "text": "right next to Broken Beach is another site that you call Angel villabon and"
+        },
+        {
+          "id": "S462",
+          "cue_ids": [
+            462,
+            463,
+            464,
+            465
+          ],
+          "start_ms": 1661279,
+          "end_ms": 1682490,
+          "text": "foreign [Applause] [Music] [Applause]"
+        },
+        {
+          "id": "S493",
+          "cue_ids": [
+            493,
+            494,
+            495,
+            496
+          ],
+          "start_ms": 1760220,
+          "end_ms": 1771140,
+          "text": "through the harbor and with the Drone we immediately see how beautiful the sea is with all the surrounding little Islands foreign"
+        },
+        {
+          "id": "S520",
+          "cue_ids": [
+            520,
+            521,
+            522,
+            523
+          ],
+          "start_ms": 1866539,
+          "end_ms": 1876980,
+          "text": "we took the boat to Komodo National Park and as it turns out Komodo national park has multiple islands and the main islands are Komodo padar and rinca and"
+        },
+        {
+          "id": "S582",
+          "cue_ids": [
+            582,
+            583,
+            584,
+            585
+          ],
+          "start_ms": 2074219,
+          "end_ms": 2084690,
+          "text": "once through the gate we almost immediately see a little one securing around through the bushes [Music]"
+        },
+        {
+          "id": "S636",
+          "cue_ids": [
+            636,
+            637,
+            638,
+            639
+          ],
+          "start_ms": 2277660,
+          "end_ms": 2295180,
+          "text": "today I never saw it in one day in my entire life Komodo Island [Music] let's make a toast add because we will"
+        },
+        {
+          "id": "S673",
+          "cue_ids": [
+            673,
+            674,
+            675
+          ],
+          "start_ms": 2383859,
+          "end_ms": 2392220,
+          "text": "beach in a side road and this will cost you a lot less about 25 bucks for a super nice cabin with a pool"
+        },
+        {
+          "id": "S704",
+          "cue_ids": [
+            704,
+            705,
+            706
+          ],
+          "start_ms": 2488490,
+          "end_ms": 2515260,
+          "text": "[Applause] [Music] during our trip around Gili travangan we"
+        },
+        {
+          "id": "S725",
+          "cue_ids": [
+            725,
+            726,
+            727,
+            728
+          ],
+          "start_ms": 2581140,
+          "end_ms": 2604839,
+          "text": "the back you can also see how close the other Gillies are [Music] how funny is this guys the best place on"
+        },
+        {
+          "id": "S747",
+          "cue_ids": [
+            747,
+            748,
+            749
+          ],
+          "start_ms": 2683610,
+          "end_ms": 2708309,
+          "text": "[Music] thank you [Music]"
+        },
+        {
+          "id": "S773",
+          "cue_ids": [
+            773,
+            774,
+            775,
+            776
+          ],
+          "start_ms": 2791859,
+          "end_ms": 2809820,
+          "text": "foreign [Music] to be the most unspoiled of the three and that's the reason that many of the"
+        },
+        {
+          "id": "S799",
+          "cue_ids": [
+            799,
+            800
+          ],
+          "start_ms": 2896450,
+          "end_ms": 2920260,
+          "text": "[Music] wow guys this snorkeling trip was"
+        },
+        {
+          "id": "S827",
+          "cue_ids": [
+            827,
+            828,
+            829
+          ],
+          "start_ms": 2996220,
+          "end_ms": 3021839,
+          "text": "or something so let's head out in Kita [Music] on Bali it's quite usual to have your"
+        },
+        {
+          "id": "S853",
+          "cue_ids": [
+            853,
+            854,
+            855,
+            856
+          ],
+          "start_ms": 3086280,
+          "end_ms": 3131380,
+          "text": "because there's a lot of them [Music] foreign [Music]"
+        }
+      ],
+      "text": "S38 [00:01:37.090 --> 00:01:51.299] [Music] [Applause] [Music] what's very cool is that the king of\nS89 [00:04:53.050 --> 00:05:19.380] [Music] so now for the test guys this is the normal Balinese coffee okay okay pretty good pretty good so far\nS116 [00:06:55.039 --> 00:07:01.680] as we headed up north we're in the roughest part of Bali between the\nS145 [00:08:32.099 --> 00:08:40.980] scooter bikes here in this street that made sure that I woke up early beep beep and we're going to Nissan now Paradise guys\nS182 [00:10:17.820 --> 00:10:29.839] Huts I'll show you upstairs [Music] downstairs is the lounge area and upstairs this is the room\nS213 [00:12:00.240 --> 00:12:11.940] migoreng just on the other side we find secret Beach but don't tell anybody I think I'm\nS239 [00:13:46.079 --> 00:13:56.959] with the three of us and it's a beautiful day again on lemongan how did you sleep yes pretty fine\nS269 [00:15:29.820 --> 00:15:41.030] white beach is on the Blue Water those dark areas are seaweed Farms long before the tourism came this was the largest export product and still an important\nS299 [00:17:09.170 --> 00:17:24.599] [Music] [Applause] the first site that we visit is pretty famous by Instagram drone videos on\nS324 [00:18:48.260 --> 00:19:09.840] we dive into the rough ocean and get smashed around by the highways [Music] so guys I guess we made it back and I\nS371 [00:22:25.620 --> 00:22:36.299] wow guys this was the experience of a lifetime to swim so close with the manta rays Yen saw them from the boat we saw them up close and now we went on to La\nS405 [00:24:14.659 --> 00:24:21.240] today is already our lost day here on New South Bonita and as I told you\nS433 [00:25:58.100 --> 00:26:04.919] right next to Broken Beach is another site that you call Angel villabon and\nS462 [00:27:41.279 --> 00:28:02.490] foreign [Applause] [Music] [Applause]\nS493 [00:29:20.220 --> 00:29:31.140] through the harbor and with the Drone we immediately see how beautiful the sea is with all the surrounding little Islands foreign\nS520 [00:31:06.539 --> 00:31:16.980] we took the boat to Komodo National Park and as it turns out Komodo national park has multiple islands and the main islands are Komodo padar and rinca and\nS582 [00:34:34.219 --> 00:34:44.690] once through the gate we almost immediately see a little one securing around through the bushes [Music]\nS636 [00:37:57.660 --> 00:38:15.180] today I never saw it in one day in my entire life Komodo Island [Music] let's make a toast add because we will\nS673 [00:39:43.859 --> 00:39:52.220] beach in a side road and this will cost you a lot less about 25 bucks for a super nice cabin with a pool\nS704 [00:41:28.490 --> 00:41:55.260] [Applause] [Music] during our trip around Gili travangan we\nS725 [00:43:01.140 --> 00:43:24.839] the back you can also see how close the other Gillies are [Music] how funny is this guys the best place on\nS747 [00:44:43.610 --> 00:45:08.309] [Music] thank you [Music]\nS773 [00:46:31.859 --> 00:46:49.820] foreign [Music] to be the most unspoiled of the three and that's the reason that many of the\nS799 [00:48:16.450 --> 00:48:40.260] [Music] wow guys this snorkeling trip was\nS827 [00:49:56.220 --> 00:50:21.839] or something so let's head out in Kita [Music] on Bali it's quite usual to have your\nS853 [00:51:26.280 --> 00:52:11.380] because there's a lot of them [Music] foreign [Music]",
+      "text_tokens": 1410,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        38,
+        41,
+        89,
+        92,
+        117,
+        145,
+        148,
+        182,
+        185,
+        213,
+        215,
+        239,
+        242,
+        269,
+        272,
+        299,
+        302,
+        324,
+        327,
+        371,
+        374,
+        406,
+        434,
+        462,
+        465,
+        493,
+        496,
+        520,
+        523,
+        582,
+        585,
+        636,
+        639,
+        673,
+        704,
+        706,
+        725,
+        728,
+        747,
+        773,
+        776,
+        800,
+        827,
+        829,
+        853,
+        856
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "06d70e7bb3eb2b2ce534be286dbc29faa717f3cc45d956ac33c579ec3cef9089"
+}

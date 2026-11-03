@@ -1,0 +1,790 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "Hw5qjcnhrW4",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Hw5qjcnhrW4.srt",
+        "status": "available",
+        "bytes": 5527,
+        "sha256": "8060178d70424ae30cd3fe10254db3cd07a2a6baca705b51e51f3ee1054bc32e",
+        "cues": 57,
+        "nonempty_cues": 57
+      },
+      "frame_indices": [
+        0,
+        249,
+        497,
+        746,
+        994,
+        1243,
+        1491,
+        1740,
+        1989,
+        2237,
+        2486,
+        2734,
+        2983,
+        3232,
+        3480,
+        3729,
+        3977,
+        4226,
+        4474,
+        4723,
+        4972,
+        5220,
+        5469,
+        5717,
+        5966,
+        6215,
+        6463,
+        6712,
+        6960,
+        7209,
+        7457,
+        7706
+      ],
+      "frame_seconds": [
+        0.0,
+        9.96,
+        19.88,
+        29.84,
+        39.76,
+        49.72,
+        59.64,
+        69.6,
+        79.56,
+        89.48,
+        99.44,
+        109.36,
+        119.32,
+        129.28,
+        139.2,
+        149.16,
+        159.07999999999998,
+        169.04,
+        178.96,
+        188.92,
+        198.88,
+        208.8,
+        218.76,
+        228.68,
+        238.64,
+        248.6,
+        258.52,
+        268.48,
+        278.4,
+        288.36,
+        298.28,
+        308.24
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [],
+        [],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18
+        ],
+        [],
+        [
+          22,
+          23
+        ],
+        [
+          24
+        ],
+        [
+          26
+        ],
+        [],
+        [
+          28,
+          29
+        ],
+        [],
+        [],
+        [
+          33
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          43,
+          44
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          54
+        ],
+        [],
+        [
+          57
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 2,
+          "start_ms": 27560,
+          "end_ms": 32280,
+          "text": "stop no"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 48079,
+          "end_ms": 54259,
+          "text": "Beauty yeah just a little"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 57879,
+          "end_ms": 64010,
+          "text": "short it's long another breaker serve"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 85840,
+          "end_ms": 91119,
+          "text": "away oh she sealed it in style oh and"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 88560,
+          "end_ms": 97240,
+          "text": "there's the trademark C"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 91119,
+          "end_ms": 102640,
+          "text": "ation what a first set for Simona Hal"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 97240,
+          "end_ms": 102640,
+          "text": "emphatic six games to one Ona now"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 104520,
+          "end_ms": 112680,
+          "text": "capitalize oh yes she can turning things"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 107680,
+          "end_ms": 112680,
+          "text": "around here po Bosa B Buck's"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 117960,
+          "end_ms": 124079,
+          "text": "caught oh that's a beauty that is right"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 134680,
+          "end_ms": 139559,
+          "text": "controlled and"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 135770,
+          "end_ms": 139559,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 147239,
+          "end_ms": 154599,
+          "text": "guided and she does well played oh come"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 155879,
+          "end_ms": 162280,
+          "text": "not oh she finds an absolute belter down"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 176920,
+          "end_ms": 181000,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 178840,
+          "end_ms": 186480,
+          "text": "middle"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 206560,
+          "end_ms": 212799,
+          "text": "can well they're both going for it now"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 255319,
+          "end_ms": 259320,
+          "text": "brilliant win for"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 256959,
+          "end_ms": 261160,
+          "text": "pedosa given what the Spanish players"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 261160,
+          "end_ms": 268720,
+          "text": "injury and given how the first set went"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 264800,
+          "end_ms": 271000,
+          "text": "that is some result for paa"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 271000,
+          "end_ms": 278639,
+          "text": "lost the first set 61 but look what it"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 275000,
+          "end_ms": 280199,
+          "text": "means fought back ever so well in sets"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 285840,
+          "end_ms": 294280,
+          "text": "Bosa she had to work so hard but comes"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 307280,
+          "end_ms": 310280,
+          "text": "e"
+        }
+      ],
+      "text": "stop no\nBeauty yeah just a little\nshort it's long another breaker serve\naway oh she sealed it in style oh and\nthere's the trademark C\nation what a first set for Simona Hal\nemphatic six games to one Ona now\ncapitalize oh yes she can turning things\naround here po Bosa B Buck's\ncaught oh that's a beauty that is right\ncontrolled and\n[Applause]\nguided and she does well played oh come\nnot oh she finds an absolute belter down\n[Music]\nmiddle\ncan well they're both going for it now\nbrilliant win for\npedosa given what the Spanish players\ninjury and given how the first set went\nthat is some result for paa\nlost the first set 61 but look what it\nmeans fought back ever so well in sets\nBosa she had to work so hard but comes\ne",
+      "text_tokens": 188,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Hw5qjcnhrW4",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Hw5qjcnhrW4.srt",
+          "status": "available",
+          "bytes": 5527,
+          "sha256": "8060178d70424ae30cd3fe10254db3cd07a2a6baca705b51e51f3ee1054bc32e",
+          "cues": 57,
+          "nonempty_cues": 57
+        },
+        "frame_indices": [
+          0,
+          249,
+          497,
+          746,
+          994,
+          1243,
+          1491,
+          1740,
+          1989,
+          2237,
+          2486,
+          2734,
+          2983,
+          3232,
+          3480,
+          3729,
+          3977,
+          4226,
+          4474,
+          4723,
+          4972,
+          5220,
+          5469,
+          5717,
+          5966,
+          6215,
+          6463,
+          6712,
+          6960,
+          7209,
+          7457,
+          7706
+        ],
+        "frame_seconds": [
+          0.0,
+          9.96,
+          19.88,
+          29.84,
+          39.76,
+          49.72,
+          59.64,
+          69.6,
+          79.56,
+          89.48,
+          99.44,
+          109.36,
+          119.32,
+          129.28,
+          139.2,
+          149.16,
+          159.07999999999998,
+          169.04,
+          178.96,
+          188.92,
+          198.88,
+          208.8,
+          218.76,
+          228.68,
+          238.64,
+          248.6,
+          258.52,
+          268.48,
+          278.4,
+          288.36,
+          298.28,
+          308.24
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [],
+          [
+            2
+          ],
+          [],
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [],
+          [],
+          [
+            12,
+            13
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18
+          ],
+          [],
+          [
+            22,
+            23
+          ],
+          [
+            24
+          ],
+          [
+            26
+          ],
+          [],
+          [
+            28,
+            29
+          ],
+          [],
+          [],
+          [
+            33
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            43,
+            44
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            49,
+            50
+          ],
+          [
+            54
+          ],
+          [],
+          [
+            57
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 2,
+            "start_ms": 27560,
+            "end_ms": 32280,
+            "text": "stop no"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 48079,
+            "end_ms": 54259,
+            "text": "Beauty yeah just a little"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 57879,
+            "end_ms": 64010,
+            "text": "short it's long another breaker serve"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 85840,
+            "end_ms": 91119,
+            "text": "away oh she sealed it in style oh and"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 88560,
+            "end_ms": 97240,
+            "text": "there's the trademark C"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 91119,
+            "end_ms": 102640,
+            "text": "ation what a first set for Simona Hal"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 97240,
+            "end_ms": 102640,
+            "text": "emphatic six games to one Ona now"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 104520,
+            "end_ms": 112680,
+            "text": "capitalize oh yes she can turning things"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 107680,
+            "end_ms": 112680,
+            "text": "around here po Bosa B Buck's"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 117960,
+            "end_ms": 124079,
+            "text": "caught oh that's a beauty that is right"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 134680,
+            "end_ms": 139559,
+            "text": "controlled and"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 135770,
+            "end_ms": 139559,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 147239,
+            "end_ms": 154599,
+            "text": "guided and she does well played oh come"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 155879,
+            "end_ms": 162280,
+            "text": "not oh she finds an absolute belter down"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 176920,
+            "end_ms": 181000,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 178840,
+            "end_ms": 186480,
+            "text": "middle"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 206560,
+            "end_ms": 212799,
+            "text": "can well they're both going for it now"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 255319,
+            "end_ms": 259320,
+            "text": "brilliant win for"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 256959,
+            "end_ms": 261160,
+            "text": "pedosa given what the Spanish players"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 261160,
+            "end_ms": 268720,
+            "text": "injury and given how the first set went"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 264800,
+            "end_ms": 271000,
+            "text": "that is some result for paa"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 271000,
+            "end_ms": 278639,
+            "text": "lost the first set 61 but look what it"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 275000,
+            "end_ms": 280199,
+            "text": "means fought back ever so well in sets"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 285840,
+            "end_ms": 294280,
+            "text": "Bosa she had to work so hard but comes"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 307280,
+            "end_ms": 310280,
+            "text": "e"
+          }
+        ],
+        "text": "stop no\nBeauty yeah just a little\nshort it's long another breaker serve\naway oh she sealed it in style oh and\nthere's the trademark C\nation what a first set for Simona Hal\nemphatic six games to one Ona now\ncapitalize oh yes she can turning things\naround here po Bosa B Buck's\ncaught oh that's a beauty that is right\ncontrolled and\n[Applause]\nguided and she does well played oh come\nnot oh she finds an absolute belter down\n[Music]\nmiddle\ncan well they're both going for it now\nbrilliant win for\npedosa given what the Spanish players\ninjury and given how the first set went\nthat is some result for paa\nlost the first set 61 but look what it\nmeans fought back ever so well in sets\nBosa she had to work so hard but comes\ne",
+        "text_tokens": 188,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S2",
+          "cue_ids": [
+            2,
+            3
+          ],
+          "start_ms": 27560,
+          "end_ms": 35520,
+          "text": "stop no that is an absolute"
+        },
+        {
+          "id": "S5",
+          "cue_ids": [
+            5,
+            6
+          ],
+          "start_ms": 48079,
+          "end_ms": 54259,
+          "text": "Beauty yeah just a little [Applause]"
+        },
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8
+          ],
+          "start_ms": 57879,
+          "end_ms": 67379,
+          "text": "short it's long another breaker serve what a start from Simona"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "start_ms": 85840,
+          "end_ms": 112680,
+          "text": "away oh she sealed it in style oh and there's the trademark C ation what a first set for Simona Hal emphatic six games to one Ona now capitalize oh yes she can turning things around here po Bosa B Buck's"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19
+          ],
+          "start_ms": 117960,
+          "end_ms": 127520,
+          "text": "caught oh that's a beauty that is right in the corner halop her level has just"
+        },
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22,
+            23
+          ],
+          "start_ms": 131920,
+          "end_ms": 139559,
+          "text": "tad love it that's just brilliantly controlled and [Applause]"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "start_ms": 147239,
+          "end_ms": 162280,
+          "text": "guided and she does well played oh come on PO why not oh she finds an absolute belter down the"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30
+          ],
+          "start_ms": 176920,
+          "end_ms": 186480,
+          "text": "[Music] middle oh what an angle what a point a"
+        },
+        {
+          "id": "S33",
+          "cue_ids": [
+            33,
+            34
+          ],
+          "start_ms": 206560,
+          "end_ms": 212799,
+          "text": "can well they're both going for it now great"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "start_ms": 252599,
+          "end_ms": 283320,
+          "text": "Tower turn for halop but that is a brilliant win for pedosa given what the Spanish players been through this season with injury and given how the first set went that is some result for paa pedosa lost the first set 61 but look what it means fought back ever so well in sets two and three and there's a bit of"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55
+          ],
+          "start_ms": 283320,
+          "end_ms": 294280,
+          "text": "for Bosa she had to work so hard but comes through 1664"
+        },
+        {
+          "id": "S57",
+          "cue_ids": [
+            57
+          ],
+          "start_ms": 307280,
+          "end_ms": 310280,
+          "text": "e"
+        }
+      ],
+      "text": "S2 [00:00:27.560 --> 00:00:35.520] stop no that is an absolute\nS5 [00:00:48.079 --> 00:00:54.259] Beauty yeah just a little [Applause]\nS7 [00:00:57.879 --> 00:01:07.379] short it's long another breaker serve what a start from Simona\nS12 [00:01:25.840 --> 00:01:52.680] away oh she sealed it in style oh and there's the trademark C ation what a first set for Simona Hal emphatic six games to one Ona now capitalize oh yes she can turning things around here po Bosa B Buck's\nS18 [00:01:57.960 --> 00:02:07.520] caught oh that's a beauty that is right in the corner halop her level has just\nS21 [00:02:11.920 --> 00:02:19.559] tad love it that's just brilliantly controlled and [Applause]\nS24 [00:02:27.239 --> 00:02:42.280] guided and she does well played oh come on PO why not oh she finds an absolute belter down the\nS28 [00:02:56.920 --> 00:03:06.480] [Music] middle oh what an angle what a point a\nS33 [00:03:26.560 --> 00:03:32.799] can well they're both going for it now great\nS42 [00:04:12.599 --> 00:04:43.320] Tower turn for halop but that is a brilliant win for pedosa given what the Spanish players been through this season with injury and given how the first set went that is some result for paa pedosa lost the first set 61 but look what it means fought back ever so well in sets two and three and there's a bit of\nS53 [00:04:43.320 --> 00:04:54.280] for Bosa she had to work so hard but comes through 1664\nS57 [00:05:07.280 --> 00:05:10.280] e",
+      "text_tokens": 617,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        3,
+        6,
+        8,
+        19,
+        21,
+        25,
+        27,
+        30,
+        34,
+        42,
+        45,
+        48,
+        51,
+        53,
+        55
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f8732149eefc246b78cdf52cb6ff68250796f0dd192134a783bed6616ce17488"
+}

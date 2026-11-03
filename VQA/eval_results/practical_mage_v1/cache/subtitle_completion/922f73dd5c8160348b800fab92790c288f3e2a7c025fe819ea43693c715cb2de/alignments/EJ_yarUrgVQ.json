@@ -1,0 +1,1020 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "EJ_yarUrgVQ",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EJ_yarUrgVQ.srt",
+        "status": "available",
+        "bytes": 4650,
+        "sha256": "b443c37c3ad49f28a52154d48909a85b81f317b247330a9434973289e1f9c2ac",
+        "cues": 44,
+        "nonempty_cues": 44
+      },
+      "frame_indices": [
+        0,
+        81,
+        162,
+        243,
+        324,
+        405,
+        485,
+        566,
+        647,
+        728,
+        809,
+        890,
+        971,
+        1052,
+        1133,
+        1214,
+        1294,
+        1375,
+        1456,
+        1537,
+        1618,
+        1699,
+        1780,
+        1861,
+        1942,
+        2023,
+        2103,
+        2184,
+        2265,
+        2346,
+        2427,
+        2508
+      ],
+      "frame_seconds": [
+        0.0,
+        3.24,
+        6.48,
+        9.72,
+        12.96,
+        16.2,
+        19.4,
+        22.64,
+        25.88,
+        29.12,
+        32.36,
+        35.6,
+        38.84,
+        42.08,
+        45.32,
+        48.56,
+        51.76,
+        55.0,
+        58.24,
+        61.48,
+        64.72,
+        67.96,
+        71.2,
+        74.44,
+        77.68,
+        80.92,
+        84.12,
+        87.36,
+        90.6,
+        93.84,
+        97.08,
+        100.32
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          42,
+          43
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 1040,
+          "end_ms": 4560,
+          "text": "now france is in the middle of its"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2560,
+          "end_ms": 6640,
+          "text": "fourth heat wave of the summer as its"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 4560,
+          "end_ms": 9040,
+          "text": "drought worst drought on record has left"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6640,
+          "end_ms": 10719,
+          "text": "villages without any drinking water"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 9040,
+          "end_ms": 12960,
+          "text": "weather forecasters say it's the most"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 10719,
+          "end_ms": 15519,
+          "text": "severe drought since records began in"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 12960,
+          "end_ms": 17680,
+          "text": "the late 1950s sylvia lennon spence"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 15519,
+          "end_ms": 21199,
+          "text": "reports"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 17680,
+          "end_ms": 23519,
+          "text": "parts of south eastern france ablaze"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 21199,
+          "end_ms": 25519,
+          "text": "urgent efforts to control the flames"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 23519,
+          "end_ms": 26820,
+          "text": "burning dangerously close to home for"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 25519,
+          "end_ms": 27920,
+          "text": "residents here"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 26820,
+          "end_ms": 30240,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 27920,
+          "end_ms": 31920,
+          "text": "this fire sweeping through 80 hectares"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 30240,
+          "end_ms": 33520,
+          "text": "of land"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 31920,
+          "end_ms": 35840,
+          "text": "dozens of people from the region"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 33520,
+          "end_ms": 38000,
+          "text": "urgently moved to nearby evacuation"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 35840,
+          "end_ms": 40079,
+          "text": "centers"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 38000,
+          "end_ms": 42559,
+          "text": "amidst its fourth heat wave with"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 40079,
+          "end_ms": 44559,
+          "text": "temperatures of up to 40 degrees celsius"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 42559,
+          "end_ms": 47600,
+          "text": "experiencing what the government says is"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 44559,
+          "end_ms": 50079,
+          "text": "its worst drought on record now france's"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 47600,
+          "end_ms": 52399,
+          "text": "nuclear power regulator has extended"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 50079,
+          "end_ms": 54719,
+          "text": "temporary waivers allowing five power"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 52399,
+          "end_ms": 57920,
+          "text": "stations to continue discharging hot"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 54719,
+          "end_ms": 61120,
+          "text": "water into rivers amid an energy crisis"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 57920,
+          "end_ms": 63280,
+          "text": "possibly endangering wildlife"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 61120,
+          "end_ms": 65519,
+          "text": "this holiday accommodation was evacuated"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 63280,
+          "end_ms": 68320,
+          "text": "in the nick of time in northern italy as"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 65519,
+          "end_ms": 70000,
+          "text": "wildfires raged there destroying many"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 68320,
+          "end_ms": 72320,
+          "text": "homes"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 70000,
+          "end_ms": 74400,
+          "text": "in northwestern spain this fire has"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 72320,
+          "end_ms": 76560,
+          "text": "already burnt around a thousand hectares"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 74400,
+          "end_ms": 78479,
+          "text": "of woods in the area"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 76560,
+          "end_ms": 80240,
+          "text": "firefighters and military emergency"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 78479,
+          "end_ms": 82560,
+          "text": "units under pressure to control the"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 80240,
+          "end_ms": 85600,
+          "text": "flames of one of hundreds of wildfires"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 82560,
+          "end_ms": 87600,
+          "text": "in spain since the start of the year"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 85600,
+          "end_ms": 90400,
+          "text": "with scenes becoming all too familiar"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 87600,
+          "end_ms": 93360,
+          "text": "and devastating these wildfires in the"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 90400,
+          "end_ms": 94880,
+          "text": "unprecedented heat waves as europe's hot"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 93360,
+          "end_ms": 97360,
+          "text": "summer continues to turn up the"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 94880,
+          "end_ms": 101840,
+          "text": "temperature on all involved"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 97360,
+          "end_ms": 101840,
+          "text": "silvia lennon spence bbc news"
+        }
+      ],
+      "text": "now france is in the middle of its\nfourth heat wave of the summer as its\ndrought worst drought on record has left\nvillages without any drinking water\nweather forecasters say it's the most\nsevere drought since records began in\nthe late 1950s sylvia lennon spence\nreports\nparts of south eastern france ablaze\nurgent efforts to control the flames\nburning dangerously close to home for\nresidents here\n[Music]\nthis fire sweeping through 80 hectares\nof land\ndozens of people from the region\nurgently moved to nearby evacuation\ncenters\namidst its fourth heat wave with\ntemperatures of up to 40 degrees celsius\nexperiencing what the government says is\nits worst drought on record now france's\nnuclear power regulator has extended\ntemporary waivers allowing five power\nstations to continue discharging hot\nwater into rivers amid an energy crisis\npossibly endangering wildlife\nthis holiday accommodation was evacuated\nin the nick of time in northern italy as\nwildfires raged there destroying many\nhomes\nin northwestern spain this fire has\nalready burnt around a thousand hectares\nof woods in the area\nfirefighters and military emergency\nunits under pressure to control the\nflames of one of hundreds of wildfires\nin spain since the start of the year\nwith scenes becoming all too familiar\nand devastating these wildfires in the\nunprecedented heat waves as europe's hot\nsummer continues to turn up the\ntemperature on all involved\nsilvia lennon spence bbc news",
+      "text_tokens": 327,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EJ_yarUrgVQ",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EJ_yarUrgVQ.srt",
+          "status": "available",
+          "bytes": 4650,
+          "sha256": "b443c37c3ad49f28a52154d48909a85b81f317b247330a9434973289e1f9c2ac",
+          "cues": 44,
+          "nonempty_cues": 44
+        },
+        "frame_indices": [
+          0,
+          81,
+          162,
+          243,
+          324,
+          405,
+          485,
+          566,
+          647,
+          728,
+          809,
+          890,
+          971,
+          1052,
+          1133,
+          1214,
+          1294,
+          1375,
+          1456,
+          1537,
+          1618,
+          1699,
+          1780,
+          1861,
+          1942,
+          2023,
+          2103,
+          2184,
+          2265,
+          2346,
+          2427,
+          2508
+        ],
+        "frame_seconds": [
+          0.0,
+          3.24,
+          6.48,
+          9.72,
+          12.96,
+          16.2,
+          19.4,
+          22.64,
+          25.88,
+          29.12,
+          32.36,
+          35.6,
+          38.84,
+          42.08,
+          45.32,
+          48.56,
+          51.76,
+          55.0,
+          58.24,
+          61.48,
+          64.72,
+          67.96,
+          71.2,
+          74.44,
+          77.68,
+          80.92,
+          84.12,
+          87.36,
+          90.6,
+          93.84,
+          97.08,
+          100.32
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            42,
+            43
+          ],
+          [
+            43,
+            44
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 1040,
+            "end_ms": 4560,
+            "text": "now france is in the middle of its"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2560,
+            "end_ms": 6640,
+            "text": "fourth heat wave of the summer as its"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 4560,
+            "end_ms": 9040,
+            "text": "drought worst drought on record has left"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6640,
+            "end_ms": 10719,
+            "text": "villages without any drinking water"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 9040,
+            "end_ms": 12960,
+            "text": "weather forecasters say it's the most"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 10719,
+            "end_ms": 15519,
+            "text": "severe drought since records began in"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 12960,
+            "end_ms": 17680,
+            "text": "the late 1950s sylvia lennon spence"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 15519,
+            "end_ms": 21199,
+            "text": "reports"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 17680,
+            "end_ms": 23519,
+            "text": "parts of south eastern france ablaze"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 21199,
+            "end_ms": 25519,
+            "text": "urgent efforts to control the flames"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 23519,
+            "end_ms": 26820,
+            "text": "burning dangerously close to home for"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 25519,
+            "end_ms": 27920,
+            "text": "residents here"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 26820,
+            "end_ms": 30240,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 27920,
+            "end_ms": 31920,
+            "text": "this fire sweeping through 80 hectares"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 30240,
+            "end_ms": 33520,
+            "text": "of land"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 31920,
+            "end_ms": 35840,
+            "text": "dozens of people from the region"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 33520,
+            "end_ms": 38000,
+            "text": "urgently moved to nearby evacuation"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 35840,
+            "end_ms": 40079,
+            "text": "centers"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 38000,
+            "end_ms": 42559,
+            "text": "amidst its fourth heat wave with"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 40079,
+            "end_ms": 44559,
+            "text": "temperatures of up to 40 degrees celsius"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 42559,
+            "end_ms": 47600,
+            "text": "experiencing what the government says is"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 44559,
+            "end_ms": 50079,
+            "text": "its worst drought on record now france's"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 47600,
+            "end_ms": 52399,
+            "text": "nuclear power regulator has extended"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 50079,
+            "end_ms": 54719,
+            "text": "temporary waivers allowing five power"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 52399,
+            "end_ms": 57920,
+            "text": "stations to continue discharging hot"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 54719,
+            "end_ms": 61120,
+            "text": "water into rivers amid an energy crisis"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 57920,
+            "end_ms": 63280,
+            "text": "possibly endangering wildlife"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 61120,
+            "end_ms": 65519,
+            "text": "this holiday accommodation was evacuated"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 63280,
+            "end_ms": 68320,
+            "text": "in the nick of time in northern italy as"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 65519,
+            "end_ms": 70000,
+            "text": "wildfires raged there destroying many"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 68320,
+            "end_ms": 72320,
+            "text": "homes"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 70000,
+            "end_ms": 74400,
+            "text": "in northwestern spain this fire has"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 72320,
+            "end_ms": 76560,
+            "text": "already burnt around a thousand hectares"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 74400,
+            "end_ms": 78479,
+            "text": "of woods in the area"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 76560,
+            "end_ms": 80240,
+            "text": "firefighters and military emergency"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 78479,
+            "end_ms": 82560,
+            "text": "units under pressure to control the"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 80240,
+            "end_ms": 85600,
+            "text": "flames of one of hundreds of wildfires"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 82560,
+            "end_ms": 87600,
+            "text": "in spain since the start of the year"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 85600,
+            "end_ms": 90400,
+            "text": "with scenes becoming all too familiar"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 87600,
+            "end_ms": 93360,
+            "text": "and devastating these wildfires in the"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 90400,
+            "end_ms": 94880,
+            "text": "unprecedented heat waves as europe's hot"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 93360,
+            "end_ms": 97360,
+            "text": "summer continues to turn up the"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 94880,
+            "end_ms": 101840,
+            "text": "temperature on all involved"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 97360,
+            "end_ms": 101840,
+            "text": "silvia lennon spence bbc news"
+          }
+        ],
+        "text": "now france is in the middle of its\nfourth heat wave of the summer as its\ndrought worst drought on record has left\nvillages without any drinking water\nweather forecasters say it's the most\nsevere drought since records began in\nthe late 1950s sylvia lennon spence\nreports\nparts of south eastern france ablaze\nurgent efforts to control the flames\nburning dangerously close to home for\nresidents here\n[Music]\nthis fire sweeping through 80 hectares\nof land\ndozens of people from the region\nurgently moved to nearby evacuation\ncenters\namidst its fourth heat wave with\ntemperatures of up to 40 degrees celsius\nexperiencing what the government says is\nits worst drought on record now france's\nnuclear power regulator has extended\ntemporary waivers allowing five power\nstations to continue discharging hot\nwater into rivers amid an energy crisis\npossibly endangering wildlife\nthis holiday accommodation was evacuated\nin the nick of time in northern italy as\nwildfires raged there destroying many\nhomes\nin northwestern spain this fire has\nalready burnt around a thousand hectares\nof woods in the area\nfirefighters and military emergency\nunits under pressure to control the\nflames of one of hundreds of wildfires\nin spain since the start of the year\nwith scenes becoming all too familiar\nand devastating these wildfires in the\nunprecedented heat waves as europe's hot\nsummer continues to turn up the\ntemperature on all involved\nsilvia lennon spence bbc news",
+        "text_tokens": 327,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "start_ms": 1040,
+          "end_ms": 101840,
+          "text": "now france is in the middle of its fourth heat wave of the summer as its drought worst drought on record has left villages without any drinking water weather forecasters say it's the most severe drought since records began in the late 1950s sylvia lennon spence reports parts of south eastern france ablaze urgent efforts to control the flames burning dangerously close to home for residents here [Music] this fire sweeping through 80 hectares of land dozens of people from the region urgently moved to nearby evacuation centers amidst its fourth heat wave with temperatures of up to 40 degrees celsius experiencing what the government says is its worst drought on record now france's nuclear power regulator has extended temporary waivers allowing five power stations to continue discharging hot water into rivers amid an energy crisis possibly endangering wildlife this holiday accommodation was evacuated in the nick of time in northern italy as wildfires raged there destroying many homes in northwestern spain this fire has already burnt around a thousand hectares of woods in the area firefighters and military emergency units under pressure to control the flames of one of hundreds of wildfires in spain since the start of the year with scenes becoming all too familiar and devastating these wildfires in the unprecedented heat waves as europe's hot summer continues to turn up the temperature on all involved silvia lennon spence bbc news"
+        }
+      ],
+      "text": "S1 [00:00:01.040 --> 00:01:41.840] now france is in the middle of its fourth heat wave of the summer as its drought worst drought on record has left villages without any drinking water weather forecasters say it's the most severe drought since records began in the late 1950s sylvia lennon spence reports parts of south eastern france ablaze urgent efforts to control the flames burning dangerously close to home for residents here [Music] this fire sweeping through 80 hectares of land dozens of people from the region urgently moved to nearby evacuation centers amidst its fourth heat wave with temperatures of up to 40 degrees celsius experiencing what the government says is its worst drought on record now france's nuclear power regulator has extended temporary waivers allowing five power stations to continue discharging hot water into rivers amid an energy crisis possibly endangering wildlife this holiday accommodation was evacuated in the nick of time in northern italy as wildfires raged there destroying many homes in northwestern spain this fire has already burnt around a thousand hectares of woods in the area firefighters and military emergency units under pressure to control the flames of one of hundreds of wildfires in spain since the start of the year with scenes becoming all too familiar and devastating these wildfires in the unprecedented heat waves as europe's hot summer continues to turn up the temperature on all involved silvia lennon spence bbc news",
+      "text_tokens": 295,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "867cb0b5317a533c040b16689eae16d6a5affb9fc83ade1431cd6e15f800bf29"
+}

@@ -1,0 +1,431 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "dIPNQRVqJmY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dIPNQRVqJmY.srt",
+        "status": "available",
+        "bytes": 625,
+        "sha256": "ed29d6602b5a33a0f04415f18114c6251fc0e01591d3549ce334695ec26ca7e9",
+        "cues": 7,
+        "nonempty_cues": 7
+      },
+      "frame_indices": [
+        0,
+        52,
+        105,
+        157,
+        210,
+        262,
+        315,
+        367,
+        419,
+        472,
+        524,
+        577,
+        629,
+        681,
+        734,
+        786,
+        839,
+        891,
+        944,
+        996,
+        1048,
+        1101,
+        1153,
+        1206,
+        1258,
+        1310,
+        1363,
+        1415,
+        1468,
+        1520,
+        1573,
+        1625
+      ],
+      "frame_seconds": [
+        0.0,
+        1.733333,
+        3.5,
+        5.233333,
+        7.0,
+        8.733333,
+        10.5,
+        12.233333,
+        13.966667,
+        15.733333,
+        17.466667,
+        19.233333,
+        20.966667,
+        22.7,
+        24.466667,
+        26.2,
+        27.966667,
+        29.7,
+        31.466667,
+        33.2,
+        34.933333,
+        36.7,
+        38.433333,
+        40.2,
+        41.933333,
+        43.666667,
+        45.433333,
+        47.166667,
+        48.933333,
+        50.666667,
+        52.433333,
+        54.166667
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [],
+        [],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          7
+        ],
+        [
+          7
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 2840,
+          "end_ms": 6080,
+          "text": "run dead"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 6899,
+          "end_ms": 10500,
+          "text": "I can smoke corner"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 24300,
+          "end_ms": 27380,
+          "text": "I have big house"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 32780,
+          "end_ms": 38360,
+          "text": "picking shot picking yeah"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 35940,
+          "end_ms": 38360,
+          "text": "yes"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 38660,
+          "end_ms": 42379,
+          "text": "I'm pushing spawn them"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 51260,
+          "end_ms": 55700,
+          "text": "there's the 10 24 boys"
+        }
+      ],
+      "text": "run dead\nI can smoke corner\nI have big house\npicking shot picking yeah\nyes\nI'm pushing spawn them\nthere's the 10 24 boys",
+      "text_tokens": 37,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "dIPNQRVqJmY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dIPNQRVqJmY.srt",
+          "status": "available",
+          "bytes": 625,
+          "sha256": "ed29d6602b5a33a0f04415f18114c6251fc0e01591d3549ce334695ec26ca7e9",
+          "cues": 7,
+          "nonempty_cues": 7
+        },
+        "frame_indices": [
+          0,
+          52,
+          105,
+          157,
+          210,
+          262,
+          315,
+          367,
+          419,
+          472,
+          524,
+          577,
+          629,
+          681,
+          734,
+          786,
+          839,
+          891,
+          944,
+          996,
+          1048,
+          1101,
+          1153,
+          1206,
+          1258,
+          1310,
+          1363,
+          1415,
+          1468,
+          1520,
+          1573,
+          1625
+        ],
+        "frame_seconds": [
+          0.0,
+          1.733333,
+          3.5,
+          5.233333,
+          7.0,
+          8.733333,
+          10.5,
+          12.233333,
+          13.966667,
+          15.733333,
+          17.466667,
+          19.233333,
+          20.966667,
+          22.7,
+          24.466667,
+          26.2,
+          27.966667,
+          29.7,
+          31.466667,
+          33.2,
+          34.933333,
+          36.7,
+          38.433333,
+          40.2,
+          41.933333,
+          43.666667,
+          45.433333,
+          47.166667,
+          48.933333,
+          50.666667,
+          52.433333,
+          54.166667
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 2840,
+            "end_ms": 6080,
+            "text": "run dead"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 6899,
+            "end_ms": 10500,
+            "text": "I can smoke corner"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 24300,
+            "end_ms": 27380,
+            "text": "I have big house"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 32780,
+            "end_ms": 38360,
+            "text": "picking shot picking yeah"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 35940,
+            "end_ms": 38360,
+            "text": "yes"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 38660,
+            "end_ms": 42379,
+            "text": "I'm pushing spawn them"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 51260,
+            "end_ms": 55700,
+            "text": "there's the 10 24 boys"
+          }
+        ],
+        "text": "run dead\nI can smoke corner\nI have big house\npicking shot picking yeah\nyes\nI'm pushing spawn them\nthere's the 10 24 boys",
+        "text_tokens": 37,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 2840,
+          "end_ms": 10500,
+          "text": "run dead I can smoke corner"
+        },
+        {
+          "id": "S3",
+          "cue_ids": [
+            3
+          ],
+          "start_ms": 24300,
+          "end_ms": 27380,
+          "text": "I have big house"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6
+          ],
+          "start_ms": 32780,
+          "end_ms": 42379,
+          "text": "picking shot picking yeah yes I'm pushing spawn them"
+        },
+        {
+          "id": "S7",
+          "cue_ids": [
+            7
+          ],
+          "start_ms": 51260,
+          "end_ms": 55700,
+          "text": "there's the 10 24 boys"
+        }
+      ],
+      "text": "S1 [00:00:02.840 --> 00:00:10.500] run dead I can smoke corner\nS3 [00:00:24.300 --> 00:00:27.380] I have big house\nS4 [00:00:32.780 --> 00:00:42.379] picking shot picking yeah yes I'm pushing spawn them\nS7 [00:00:51.260 --> 00:00:55.700] there's the 10 24 boys",
+      "text_tokens": 153,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e83f73181fd65415c94c1100843b541f6648bc20682046a0c58ed92e50961d89"
+}

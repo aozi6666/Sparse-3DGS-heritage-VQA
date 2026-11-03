@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "66bde9e485e97894a390ae6651254e3eeb0e09176d5cae9c00cdb96528c742e5",
+  "response": {
+    "id": "393edfa3-40d1-4d81-8c52-dac5eb3f7a86",
+    "object": "chat.completion",
+    "created": 1793675855,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S4\",\"quote\":\"funny\"},{\"block_id\":\"S51\",\"quote\":\"many great submissions you sent to me\"}],\"frame_ids\":[\"F940\",\"F10340\",\"F13630\",\"F14100\"],\"windows\":[],\"notes\":\"Frames show Counter-Strike gameplay clips with comedic edits (e.g., character with popcorn, black screen text), and subtitles reference 'funny' and user-submitted clips, indicating a funny clip compilation rather than tutorial, vlog, or single match.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7493,
+      "completion_tokens": 130,
+      "total_tokens": 7623,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7365
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.9211111161857843
+}

@@ -1,0 +1,1346 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "HGv87QeBYnc",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HGv87QeBYnc.srt",
+        "status": "available",
+        "bytes": 59255,
+        "sha256": "14c328b0089850adbe3ead2ee18530643ceab92267527abc72d518a2bd8b9250",
+        "cues": 581,
+        "nonempty_cues": 581
+      },
+      "frame_indices": [
+        0,
+        1763,
+        3527,
+        5290,
+        7054,
+        8817,
+        10581,
+        12344,
+        14108,
+        15871,
+        17635,
+        19398,
+        21162,
+        22925,
+        24689,
+        26452,
+        28216,
+        29979,
+        31743,
+        33506,
+        35270,
+        37033,
+        38797,
+        40560,
+        42324,
+        44087,
+        45851,
+        47614,
+        49378,
+        51141,
+        52905,
+        54668
+      ],
+      "frame_seconds": [
+        0.0,
+        58.766667,
+        117.566667,
+        176.333333,
+        235.133333,
+        293.9,
+        352.7,
+        411.46666700000003,
+        470.266667,
+        529.033333,
+        587.833333,
+        646.6,
+        705.4,
+        764.166667,
+        822.966667,
+        881.733333,
+        940.533333,
+        999.3,
+        1058.1,
+        1116.866667,
+        1175.666667,
+        1234.433333,
+        1293.233333,
+        1352.0,
+        1410.8,
+        1469.566667,
+        1528.366667,
+        1587.133333,
+        1645.933333,
+        1704.7,
+        1763.5,
+        1822.266667
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [],
+        [
+          32,
+          33
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          107
+        ],
+        [
+          125,
+          126
+        ],
+        [],
+        [
+          159,
+          160
+        ],
+        [
+          180,
+          181
+        ],
+        [
+          199,
+          200
+        ],
+        [
+          220,
+          221
+        ],
+        [
+          236
+        ],
+        [
+          257,
+          258
+        ],
+        [
+          275,
+          276
+        ],
+        [
+          293,
+          294
+        ],
+        [
+          310
+        ],
+        [
+          323,
+          324
+        ],
+        [
+          344,
+          345
+        ],
+        [
+          363
+        ],
+        [
+          377,
+          378
+        ],
+        [
+          397,
+          398
+        ],
+        [
+          412,
+          413
+        ],
+        [
+          433,
+          434
+        ],
+        [],
+        [
+          480,
+          481
+        ],
+        [
+          499,
+          500
+        ],
+        [],
+        [],
+        [
+          562,
+          563
+        ],
+        [
+          580,
+          581
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 7670,
+          "text": "a team of record Breakers"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 115799,
+          "end_ms": 118680,
+          "text": "too"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 117360,
+          "end_ms": 121899,
+          "text": "Alexander Arnold"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 172940,
+          "end_ms": 176760,
+          "text": "Salah"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 174780,
+          "end_ms": 178200,
+          "text": "comes back off the woodwork there's a"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 231599,
+          "end_ms": 236519,
+          "text": "out the top Corner absolutely"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 233519,
+          "end_ms": 236519,
+          "text": "delightfully"
+        },
+        {
+          "cue_id": 92,
+          "start_ms": 290290,
+          "end_ms": 295520,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 292040,
+          "end_ms": 297670,
+          "text": "is certainly involved it's two nil"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 351419,
+          "end_ms": 356159,
+          "text": "he doesn't miss those"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 407300,
+          "end_ms": 411860,
+          "text": "time with injuries over the last couple"
+        },
+        {
+          "cue_id": 126,
+          "start_ms": 409500,
+          "end_ms": 411860,
+          "text": "of years"
+        },
+        {
+          "cue_id": 159,
+          "start_ms": 525180,
+          "end_ms": 530220,
+          "text": "Corner works out for them again and it's"
+        },
+        {
+          "cue_id": 160,
+          "start_ms": 528420,
+          "end_ms": 532620,
+          "text": "Sadie Omani"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 581050,
+          "end_ms": 588910,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 582760,
+          "end_ms": 588910,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 642959,
+          "end_ms": 648260,
+          "text": "got space it's safe out here Alison"
+        },
+        {
+          "cue_id": 200,
+          "start_ms": 646019,
+          "end_ms": 651779,
+          "text": "that's how Paul could be sent off here"
+        },
+        {
+          "cue_id": 220,
+          "start_ms": 701040,
+          "end_ms": 708680,
+          "text": "that turns out to be very very special"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 704300,
+          "end_ms": 708680,
+          "text": "Everton and Michael Kane"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 760760,
+          "end_ms": 766950,
+          "text": "could any events have prevented What mo"
+        },
+        {
+          "cue_id": 257,
+          "start_ms": 819240,
+          "end_ms": 826320,
+          "text": "other"
+        },
+        {
+          "cue_id": 258,
+          "start_ms": 821480,
+          "end_ms": 828360,
+          "text": "as cheeky as you like from Mo Salah"
+        },
+        {
+          "cue_id": 275,
+          "start_ms": 877079,
+          "end_ms": 882920,
+          "text": "it was a touch on the arm the goal"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 881040,
+          "end_ms": 885120,
+          "text": "stance"
+        },
+        {
+          "cue_id": 293,
+          "start_ms": 935940,
+          "end_ms": 941480,
+          "text": "relief out of the places Dean Henderson"
+        },
+        {
+          "cue_id": 294,
+          "start_ms": 937680,
+          "end_ms": 941480,
+          "text": "here Mo Salah up with him"
+        },
+        {
+          "cue_id": 310,
+          "start_ms": 998639,
+          "end_ms": 1001540,
+          "text": "here is"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 1051640,
+          "end_ms": 1058580,
+          "text": "it's the captain Jordan Henderson"
+        },
+        {
+          "cue_id": 324,
+          "start_ms": 1054280,
+          "end_ms": 1062280,
+          "text": "perfect delivery from the corner"
+        },
+        {
+          "cue_id": 344,
+          "start_ms": 1112880,
+          "end_ms": 1117799,
+          "text": "he has that's some save by the"
+        },
+        {
+          "cue_id": 345,
+          "start_ms": 1115100,
+          "end_ms": 1120080,
+          "text": "goalkeeper a support the ball is looking"
+        },
+        {
+          "cue_id": 363,
+          "start_ms": 1174340,
+          "end_ms": 1183810,
+          "text": "it is an afternoon when Liverpool had to"
+        },
+        {
+          "cue_id": 377,
+          "start_ms": 1227960,
+          "end_ms": 1234500,
+          "text": "carried by cool"
+        },
+        {
+          "cue_id": 378,
+          "start_ms": 1230600,
+          "end_ms": 1238960,
+          "text": "comes up with a ball as cater went in to"
+        },
+        {
+          "cue_id": 397,
+          "start_ms": 1289580,
+          "end_ms": 1296559,
+          "text": "oh it might come for Alexander Arnold he"
+        },
+        {
+          "cue_id": 398,
+          "start_ms": 1291980,
+          "end_ms": 1300520,
+          "text": "will and in by sadio Mane"
+        },
+        {
+          "cue_id": 412,
+          "start_ms": 1343840,
+          "end_ms": 1355799,
+          "text": "who shoots"
+        },
+        {
+          "cue_id": 413,
+          "start_ms": 1345530,
+          "end_ms": 1355799,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 433,
+          "start_ms": 1408860,
+          "end_ms": 1412280,
+          "text": "just wouldn't quite come down enough"
+        },
+        {
+          "cue_id": 434,
+          "start_ms": 1410539,
+          "end_ms": 1413960,
+          "text": "Pickford did enough"
+        },
+        {
+          "cue_id": 480,
+          "start_ms": 1523640,
+          "end_ms": 1531380,
+          "text": "and it's the first real moment of class"
+        },
+        {
+          "cue_id": 481,
+          "start_ms": 1526960,
+          "end_ms": 1535880,
+          "text": "Salah Amino Robertson Robertson's cross"
+        },
+        {
+          "cue_id": 499,
+          "start_ms": 1580580,
+          "end_ms": 1587600,
+          "text": "here first gotta touch on it lovely girl"
+        },
+        {
+          "cue_id": 500,
+          "start_ms": 1584360,
+          "end_ms": 1590120,
+          "text": "just stole away from his marker"
+        },
+        {
+          "cue_id": 562,
+          "start_ms": 1759799,
+          "end_ms": 1766360,
+          "text": "made by Alex oxlade Chamberlain and"
+        },
+        {
+          "cue_id": 563,
+          "start_ms": 1762559,
+          "end_ms": 1766360,
+          "text": "Virgil Van Dyke had stayed forward"
+        },
+        {
+          "cue_id": 580,
+          "start_ms": 1818240,
+          "end_ms": 1823240,
+          "text": "we said"
+        },
+        {
+          "cue_id": 581,
+          "start_ms": 1820340,
+          "end_ms": 1823240,
+          "text": "better than this the"
+        }
+      ],
+      "text": "a team of record Breakers\ntoo\nAlexander Arnold\nSalah\ncomes back off the woodwork there's a\nout the top Corner absolutely\ndelightfully\n[Applause]\nis certainly involved it's two nil\nhe doesn't miss those\ntime with injuries over the last couple\nof years\nCorner works out for them again and it's\nSadie Omani\n[Applause]\n[Music]\ngot space it's safe out here Alison\nthat's how Paul could be sent off here\nthat turns out to be very very special\nEverton and Michael Kane\ncould any events have prevented What mo\nother\nas cheeky as you like from Mo Salah\nit was a touch on the arm the goal\nstance\nrelief out of the places Dean Henderson\nhere Mo Salah up with him\nhere is\nit's the captain Jordan Henderson\nperfect delivery from the corner\nhe has that's some save by the\ngoalkeeper a support the ball is looking\nit is an afternoon when Liverpool had to\ncarried by cool\ncomes up with a ball as cater went in to\noh it might come for Alexander Arnold he\nwill and in by sadio Mane\nwho shoots\n[Applause]\njust wouldn't quite come down enough\nPickford did enough\nand it's the first real moment of class\nSalah Amino Robertson Robertson's cross\nhere first gotta touch on it lovely girl\njust stole away from his marker\nmade by Alex oxlade Chamberlain and\nVirgil Van Dyke had stayed forward\nwe said\nbetter than this the",
+      "text_tokens": 328,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HGv87QeBYnc",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HGv87QeBYnc.srt",
+          "status": "available",
+          "bytes": 59255,
+          "sha256": "14c328b0089850adbe3ead2ee18530643ceab92267527abc72d518a2bd8b9250",
+          "cues": 581,
+          "nonempty_cues": 581
+        },
+        "frame_indices": [
+          0,
+          1763,
+          3527,
+          5290,
+          7054,
+          8817,
+          10581,
+          12344,
+          14108,
+          15871,
+          17635,
+          19398,
+          21162,
+          22925,
+          24689,
+          26452,
+          28216,
+          29979,
+          31743,
+          33506,
+          35270,
+          37033,
+          38797,
+          40560,
+          42324,
+          44087,
+          45851,
+          47614,
+          49378,
+          51141,
+          52905,
+          54668
+        ],
+        "frame_seconds": [
+          0.0,
+          58.766667,
+          117.566667,
+          176.333333,
+          235.133333,
+          293.9,
+          352.7,
+          411.46666700000003,
+          470.266667,
+          529.033333,
+          587.833333,
+          646.6,
+          705.4,
+          764.166667,
+          822.966667,
+          881.733333,
+          940.533333,
+          999.3,
+          1058.1,
+          1116.866667,
+          1175.666667,
+          1234.433333,
+          1293.233333,
+          1352.0,
+          1410.8,
+          1469.566667,
+          1528.366667,
+          1587.133333,
+          1645.933333,
+          1704.7,
+          1763.5,
+          1822.266667
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [],
+          [
+            32,
+            33
+          ],
+          [
+            53,
+            54
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            92,
+            93
+          ],
+          [
+            107
+          ],
+          [
+            125,
+            126
+          ],
+          [],
+          [
+            159,
+            160
+          ],
+          [
+            180,
+            181
+          ],
+          [
+            199,
+            200
+          ],
+          [
+            220,
+            221
+          ],
+          [
+            236
+          ],
+          [
+            257,
+            258
+          ],
+          [
+            275,
+            276
+          ],
+          [
+            293,
+            294
+          ],
+          [
+            310
+          ],
+          [
+            323,
+            324
+          ],
+          [
+            344,
+            345
+          ],
+          [
+            363
+          ],
+          [
+            377,
+            378
+          ],
+          [
+            397,
+            398
+          ],
+          [
+            412,
+            413
+          ],
+          [
+            433,
+            434
+          ],
+          [],
+          [
+            480,
+            481
+          ],
+          [
+            499,
+            500
+          ],
+          [],
+          [],
+          [
+            562,
+            563
+          ],
+          [
+            580,
+            581
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 7670,
+            "text": "a team of record Breakers"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 115799,
+            "end_ms": 118680,
+            "text": "too"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 117360,
+            "end_ms": 121899,
+            "text": "Alexander Arnold"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 172940,
+            "end_ms": 176760,
+            "text": "Salah"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 174780,
+            "end_ms": 178200,
+            "text": "comes back off the woodwork there's a"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 231599,
+            "end_ms": 236519,
+            "text": "out the top Corner absolutely"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 233519,
+            "end_ms": 236519,
+            "text": "delightfully"
+          },
+          {
+            "cue_id": 92,
+            "start_ms": 290290,
+            "end_ms": 295520,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 292040,
+            "end_ms": 297670,
+            "text": "is certainly involved it's two nil"
+          },
+          {
+            "cue_id": 107,
+            "start_ms": 351419,
+            "end_ms": 356159,
+            "text": "he doesn't miss those"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 407300,
+            "end_ms": 411860,
+            "text": "time with injuries over the last couple"
+          },
+          {
+            "cue_id": 126,
+            "start_ms": 409500,
+            "end_ms": 411860,
+            "text": "of years"
+          },
+          {
+            "cue_id": 159,
+            "start_ms": 525180,
+            "end_ms": 530220,
+            "text": "Corner works out for them again and it's"
+          },
+          {
+            "cue_id": 160,
+            "start_ms": 528420,
+            "end_ms": 532620,
+            "text": "Sadie Omani"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 581050,
+            "end_ms": 588910,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 181,
+            "start_ms": 582760,
+            "end_ms": 588910,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 199,
+            "start_ms": 642959,
+            "end_ms": 648260,
+            "text": "got space it's safe out here Alison"
+          },
+          {
+            "cue_id": 200,
+            "start_ms": 646019,
+            "end_ms": 651779,
+            "text": "that's how Paul could be sent off here"
+          },
+          {
+            "cue_id": 220,
+            "start_ms": 701040,
+            "end_ms": 708680,
+            "text": "that turns out to be very very special"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 704300,
+            "end_ms": 708680,
+            "text": "Everton and Michael Kane"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 760760,
+            "end_ms": 766950,
+            "text": "could any events have prevented What mo"
+          },
+          {
+            "cue_id": 257,
+            "start_ms": 819240,
+            "end_ms": 826320,
+            "text": "other"
+          },
+          {
+            "cue_id": 258,
+            "start_ms": 821480,
+            "end_ms": 828360,
+            "text": "as cheeky as you like from Mo Salah"
+          },
+          {
+            "cue_id": 275,
+            "start_ms": 877079,
+            "end_ms": 882920,
+            "text": "it was a touch on the arm the goal"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 881040,
+            "end_ms": 885120,
+            "text": "stance"
+          },
+          {
+            "cue_id": 293,
+            "start_ms": 935940,
+            "end_ms": 941480,
+            "text": "relief out of the places Dean Henderson"
+          },
+          {
+            "cue_id": 294,
+            "start_ms": 937680,
+            "end_ms": 941480,
+            "text": "here Mo Salah up with him"
+          },
+          {
+            "cue_id": 310,
+            "start_ms": 998639,
+            "end_ms": 1001540,
+            "text": "here is"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 1051640,
+            "end_ms": 1058580,
+            "text": "it's the captain Jordan Henderson"
+          },
+          {
+            "cue_id": 324,
+            "start_ms": 1054280,
+            "end_ms": 1062280,
+            "text": "perfect delivery from the corner"
+          },
+          {
+            "cue_id": 344,
+            "start_ms": 1112880,
+            "end_ms": 1117799,
+            "text": "he has that's some save by the"
+          },
+          {
+            "cue_id": 345,
+            "start_ms": 1115100,
+            "end_ms": 1120080,
+            "text": "goalkeeper a support the ball is looking"
+          },
+          {
+            "cue_id": 363,
+            "start_ms": 1174340,
+            "end_ms": 1183810,
+            "text": "it is an afternoon when Liverpool had to"
+          },
+          {
+            "cue_id": 377,
+            "start_ms": 1227960,
+            "end_ms": 1234500,
+            "text": "carried by cool"
+          },
+          {
+            "cue_id": 378,
+            "start_ms": 1230600,
+            "end_ms": 1238960,
+            "text": "comes up with a ball as cater went in to"
+          },
+          {
+            "cue_id": 397,
+            "start_ms": 1289580,
+            "end_ms": 1296559,
+            "text": "oh it might come for Alexander Arnold he"
+          },
+          {
+            "cue_id": 398,
+            "start_ms": 1291980,
+            "end_ms": 1300520,
+            "text": "will and in by sadio Mane"
+          },
+          {
+            "cue_id": 412,
+            "start_ms": 1343840,
+            "end_ms": 1355799,
+            "text": "who shoots"
+          },
+          {
+            "cue_id": 413,
+            "start_ms": 1345530,
+            "end_ms": 1355799,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 433,
+            "start_ms": 1408860,
+            "end_ms": 1412280,
+            "text": "just wouldn't quite come down enough"
+          },
+          {
+            "cue_id": 434,
+            "start_ms": 1410539,
+            "end_ms": 1413960,
+            "text": "Pickford did enough"
+          },
+          {
+            "cue_id": 480,
+            "start_ms": 1523640,
+            "end_ms": 1531380,
+            "text": "and it's the first real moment of class"
+          },
+          {
+            "cue_id": 481,
+            "start_ms": 1526960,
+            "end_ms": 1535880,
+            "text": "Salah Amino Robertson Robertson's cross"
+          },
+          {
+            "cue_id": 499,
+            "start_ms": 1580580,
+            "end_ms": 1587600,
+            "text": "here first gotta touch on it lovely girl"
+          },
+          {
+            "cue_id": 500,
+            "start_ms": 1584360,
+            "end_ms": 1590120,
+            "text": "just stole away from his marker"
+          },
+          {
+            "cue_id": 562,
+            "start_ms": 1759799,
+            "end_ms": 1766360,
+            "text": "made by Alex oxlade Chamberlain and"
+          },
+          {
+            "cue_id": 563,
+            "start_ms": 1762559,
+            "end_ms": 1766360,
+            "text": "Virgil Van Dyke had stayed forward"
+          },
+          {
+            "cue_id": 580,
+            "start_ms": 1818240,
+            "end_ms": 1823240,
+            "text": "we said"
+          },
+          {
+            "cue_id": 581,
+            "start_ms": 1820340,
+            "end_ms": 1823240,
+            "text": "better than this the"
+          }
+        ],
+        "text": "a team of record Breakers\ntoo\nAlexander Arnold\nSalah\ncomes back off the woodwork there's a\nout the top Corner absolutely\ndelightfully\n[Applause]\nis certainly involved it's two nil\nhe doesn't miss those\ntime with injuries over the last couple\nof years\nCorner works out for them again and it's\nSadie Omani\n[Applause]\n[Music]\ngot space it's safe out here Alison\nthat's how Paul could be sent off here\nthat turns out to be very very special\nEverton and Michael Kane\ncould any events have prevented What mo\nother\nas cheeky as you like from Mo Salah\nit was a touch on the arm the goal\nstance\nrelief out of the places Dean Henderson\nhere Mo Salah up with him\nhere is\nit's the captain Jordan Henderson\nperfect delivery from the corner\nhe has that's some save by the\ngoalkeeper a support the ball is looking\nit is an afternoon when Liverpool had to\ncarried by cool\ncomes up with a ball as cater went in to\noh it might come for Alexander Arnold he\nwill and in by sadio Mane\nwho shoots\n[Applause]\njust wouldn't quite come down enough\nPickford did enough\nand it's the first real moment of class\nSalah Amino Robertson Robertson's cross\nhere first gotta touch on it lovely girl\njust stole away from his marker\nmade by Alex oxlade Chamberlain and\nVirgil Van Dyke had stayed forward\nwe said\nbetter than this the",
+        "text_tokens": 328,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 10830,
+          "text": "a team of record Breakers champions again Liverpool"
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "start_ms": 115530,
+          "end_ms": 121899,
+          "text": "[Music] too Alexander Arnold [Music]"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "start_ms": 168720,
+          "end_ms": 182540,
+          "text": "but Chris what it was so snuck in behind Salah comes back off the woodwork there's a little bit of hand in it from Pope as"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 227540,
+          "end_ms": 241980,
+          "text": "special once again from sadio Mane takes out the top Corner absolutely delightfully to proceeds it but he couldn't keep it"
+        },
+        {
+          "id": "S91",
+          "cue_ids": [
+            91,
+            92,
+            93,
+            94
+          ],
+          "start_ms": 290200,
+          "end_ms": 298010,
+          "text": "[Music] [Applause] is certainly involved it's two nil Liverpool's best player this season"
+        },
+        {
+          "id": "S106",
+          "cue_ids": [
+            106,
+            107,
+            108
+          ],
+          "start_ms": 347220,
+          "end_ms": 358520,
+          "text": "for money he doesn't miss those 50 Premier League goals for Liverpool"
+        },
+        {
+          "id": "S124",
+          "cue_ids": [
+            124,
+            125,
+            126
+          ],
+          "start_ms": 403890,
+          "end_ms": 411860,
+          "text": "[Applause] time with injuries over the last couple of years"
+        },
+        {
+          "id": "S158",
+          "cue_ids": [
+            158,
+            159,
+            160,
+            161
+          ],
+          "start_ms": 522360,
+          "end_ms": 534230,
+          "text": "your money and Liverpool's near Post Corner works out for them again and it's Sadie Omani it's gonna come to fabinho in the strike"
+        },
+        {
+          "id": "S179",
+          "cue_ids": [
+            179,
+            180,
+            181
+          ],
+          "start_ms": 580140,
+          "end_ms": 588910,
+          "text": "there but the ball [Applause] [Music]"
+        },
+        {
+          "id": "S198",
+          "cue_ids": [
+            198,
+            199,
+            200,
+            201
+          ],
+          "start_ms": 640160,
+          "end_ms": 655019,
+          "text": "Alexander Arnold David proper here he's got space it's safe out here Alison that's how Paul could be sent off here it's a red card for Liverpool's"
+        },
+        {
+          "id": "S219",
+          "cue_ids": [
+            219,
+            220,
+            221
+          ],
+          "start_ms": 697820,
+          "end_ms": 708680,
+          "text": "trench Alexander Arnold starts something that turns out to be very very special Everton and Michael Kane"
+        },
+        {
+          "id": "S236",
+          "cue_ids": [
+            236,
+            237
+          ],
+          "start_ms": 760760,
+          "end_ms": 769380,
+          "text": "could any events have prevented What mo Salah has just done"
+        },
+        {
+          "id": "S256",
+          "cue_ids": [
+            256,
+            257,
+            258,
+            259
+          ],
+          "start_ms": 816500,
+          "end_ms": 830600,
+          "text": "oh brilliant other as cheeky as you like from Mo Salah Alexander Arnold"
+        },
+        {
+          "id": "S275",
+          "cue_ids": [
+            275,
+            276,
+            277
+          ],
+          "start_ms": 877079,
+          "end_ms": 886920,
+          "text": "it was a touch on the arm the goal stance has made the Breakthrough here for"
+        },
+        {
+          "id": "S292",
+          "cue_ids": [
+            292,
+            293,
+            294
+          ],
+          "start_ms": 932519,
+          "end_ms": 941480,
+          "text": "much driving take slow motion promotes relief out of the places Dean Henderson here Mo Salah up with him"
+        },
+        {
+          "id": "S309",
+          "cue_ids": [
+            309,
+            310,
+            311
+          ],
+          "start_ms": 993779,
+          "end_ms": 1004600,
+          "text": "they're pulling away Liverpool here is up"
+        },
+        {
+          "id": "S322",
+          "cue_ids": [
+            322,
+            323,
+            324,
+            325
+          ],
+          "start_ms": 1045930,
+          "end_ms": 1065780,
+          "text": "[Applause] it's the captain Jordan Henderson perfect delivery from the corner always lost it lost it to Salah good sir"
+        },
+        {
+          "id": "S343",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346
+          ],
+          "start_ms": 1110780,
+          "end_ms": 1122660,
+          "text": "course your fingertips on that I think he has that's some save by the goalkeeper a support the ball is looking for Oxley Chamberlain who writes The"
+        },
+        {
+          "id": "S363",
+          "cue_ids": [
+            363,
+            364
+          ],
+          "start_ms": 1174340,
+          "end_ms": 1186440,
+          "text": "it is an afternoon when Liverpool had to be patient they have had to absorb a lot"
+        },
+        {
+          "id": "S377",
+          "cue_ids": [
+            377,
+            378,
+            379
+          ],
+          "start_ms": 1227960,
+          "end_ms": 1238960,
+          "text": "carried by cool comes up with a ball as cater went in to try the shot oh hammock"
+        },
+        {
+          "id": "S396",
+          "cue_ids": [
+            396,
+            397,
+            398,
+            399
+          ],
+          "start_ms": 1287120,
+          "end_ms": 1300520,
+          "text": "corner and firmino hits the post oh it might come for Alexander Arnold he will and in by sadio Mane Liverpool from behind"
+        },
+        {
+          "id": "S411",
+          "cue_ids": [
+            411,
+            412,
+            413,
+            414
+          ],
+          "start_ms": 1339039,
+          "end_ms": 1360820,
+          "text": "looking to get in behind Shania who shoots [Applause] [Music]"
+        },
+        {
+          "id": "S432",
+          "cue_ids": [
+            432,
+            433,
+            434,
+            435
+          ],
+          "start_ms": 1404740,
+          "end_ms": 1416059,
+          "text": "and it is to be fabino just wouldn't quite come down enough Pickford did enough are over the ball"
+        },
+        {
+          "id": "S479",
+          "cue_ids": [
+            479,
+            480,
+            481,
+            482
+          ],
+          "start_ms": 1520520,
+          "end_ms": 1538820,
+          "text": "it's a thumping finish for shady Armani and it's the first real moment of class Salah Amino Robertson Robertson's cross salad Down Jones scores what a moment"
+        },
+        {
+          "id": "S498",
+          "cue_ids": [
+            498,
+            499,
+            500,
+            501
+          ],
+          "start_ms": 1579020,
+          "end_ms": 1594020,
+          "text": "goal by trust out and they deserve it here first gotta touch on it lovely girl just stole away from his marker right one Liverpool straight"
+        },
+        {
+          "id": "S561",
+          "cue_ids": [
+            561,
+            562,
+            563
+          ],
+          "start_ms": 1757100,
+          "end_ms": 1766360,
+          "text": "and a full Liverpool goal marvelously made by Alex oxlade Chamberlain and Virgil Van Dyke had stayed forward"
+        },
+        {
+          "id": "S579",
+          "cue_ids": [
+            579,
+            580,
+            581
+          ],
+          "start_ms": 1817039,
+          "end_ms": 1823240,
+          "text": "year ago we said better than this the"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:10.830] a team of record Breakers champions again Liverpool\nS31 [00:01:55.530 --> 00:02:01.899] [Music] too Alexander Arnold [Music]\nS52 [00:02:48.720 --> 00:03:02.540] but Chris what it was so snuck in behind Salah comes back off the woodwork there's a little bit of hand in it from Pope as\nS71 [00:03:47.540 --> 00:04:01.980] special once again from sadio Mane takes out the top Corner absolutely delightfully to proceeds it but he couldn't keep it\nS91 [00:04:50.200 --> 00:04:58.010] [Music] [Applause] is certainly involved it's two nil Liverpool's best player this season\nS106 [00:05:47.220 --> 00:05:58.520] for money he doesn't miss those 50 Premier League goals for Liverpool\nS124 [00:06:43.890 --> 00:06:51.860] [Applause] time with injuries over the last couple of years\nS158 [00:08:42.360 --> 00:08:54.230] your money and Liverpool's near Post Corner works out for them again and it's Sadie Omani it's gonna come to fabinho in the strike\nS179 [00:09:40.140 --> 00:09:48.910] there but the ball [Applause] [Music]\nS198 [00:10:40.160 --> 00:10:55.019] Alexander Arnold David proper here he's got space it's safe out here Alison that's how Paul could be sent off here it's a red card for Liverpool's\nS219 [00:11:37.820 --> 00:11:48.680] trench Alexander Arnold starts something that turns out to be very very special Everton and Michael Kane\nS236 [00:12:40.760 --> 00:12:49.380] could any events have prevented What mo Salah has just done\nS256 [00:13:36.500 --> 00:13:50.600] oh brilliant other as cheeky as you like from Mo Salah Alexander Arnold\nS275 [00:14:37.079 --> 00:14:46.920] it was a touch on the arm the goal stance has made the Breakthrough here for\nS292 [00:15:32.519 --> 00:15:41.480] much driving take slow motion promotes relief out of the places Dean Henderson here Mo Salah up with him\nS309 [00:16:33.779 --> 00:16:44.600] they're pulling away Liverpool here is up\nS322 [00:17:25.930 --> 00:17:45.780] [Applause] it's the captain Jordan Henderson perfect delivery from the corner always lost it lost it to Salah good sir\nS343 [00:18:30.780 --> 00:18:42.660] course your fingertips on that I think he has that's some save by the goalkeeper a support the ball is looking for Oxley Chamberlain who writes The\nS363 [00:19:34.340 --> 00:19:46.440] it is an afternoon when Liverpool had to be patient they have had to absorb a lot\nS377 [00:20:27.960 --> 00:20:38.960] carried by cool comes up with a ball as cater went in to try the shot oh hammock\nS396 [00:21:27.120 --> 00:21:40.520] corner and firmino hits the post oh it might come for Alexander Arnold he will and in by sadio Mane Liverpool from behind\nS411 [00:22:19.039 --> 00:22:40.820] looking to get in behind Shania who shoots [Applause] [Music]\nS432 [00:23:24.740 --> 00:23:36.059] and it is to be fabino just wouldn't quite come down enough Pickford did enough are over the ball\nS479 [00:25:20.520 --> 00:25:38.820] it's a thumping finish for shady Armani and it's the first real moment of class Salah Amino Robertson Robertson's cross salad Down Jones scores what a moment\nS498 [00:26:19.020 --> 00:26:34.020] goal by trust out and they deserve it here first gotta touch on it lovely girl just stole away from his marker right one Liverpool straight\nS561 [00:29:17.100 --> 00:29:26.360] and a full Liverpool goal marvelously made by Alex oxlade Chamberlain and Virgil Van Dyke had stayed forward\nS579 [00:30:17.039 --> 00:30:23.240] year ago we said better than this the",
+      "text_tokens": 1409,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        31,
+        34,
+        52,
+        55,
+        71,
+        74,
+        91,
+        94,
+        106,
+        108,
+        124,
+        158,
+        161,
+        179,
+        198,
+        201,
+        219,
+        237,
+        256,
+        259,
+        277,
+        292,
+        309,
+        311,
+        322,
+        325,
+        343,
+        346,
+        364,
+        379,
+        396,
+        399,
+        411,
+        414,
+        432,
+        435,
+        479,
+        482,
+        498,
+        501,
+        561,
+        579
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9b35b8c59527327e5a2c5e6fccfa56279322438785f69278020962448242f607"
+}

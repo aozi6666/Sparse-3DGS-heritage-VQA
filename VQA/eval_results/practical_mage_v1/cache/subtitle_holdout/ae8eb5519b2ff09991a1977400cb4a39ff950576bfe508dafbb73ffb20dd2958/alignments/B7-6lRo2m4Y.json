@@ -1,0 +1,391 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "B7-6lRo2m4Y",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/B7-6lRo2m4Y.srt",
+      "status": "available",
+      "bytes": 5415,
+      "sha256": "83ad09d4d3b5f8071c1dc08d4410afb8fbb0f9463ed828858a09b8cc73a883fc",
+      "cues": 56,
+      "nonempty_cues": 56
+    },
+    "frame_indices": [
+      0,
+      209,
+      419,
+      628,
+      837,
+      1046,
+      1256,
+      1465,
+      1674,
+      1884,
+      2093,
+      2302,
+      2511,
+      2721,
+      2930,
+      3139,
+      3349,
+      3558,
+      3767,
+      3977,
+      4186,
+      4395,
+      4604,
+      4814,
+      5023,
+      5232,
+      5442,
+      5651,
+      5860,
+      6069,
+      6279,
+      6488
+    ],
+    "frame_seconds": [
+      0.0,
+      8.36,
+      16.76,
+      25.12,
+      33.48,
+      41.84,
+      50.24,
+      58.6,
+      66.96,
+      75.36,
+      83.72,
+      92.08,
+      100.44,
+      108.84,
+      117.2,
+      125.56,
+      133.96,
+      142.32,
+      150.68,
+      159.07999999999998,
+      167.44,
+      175.8,
+      184.16,
+      192.56,
+      200.92000000000002,
+      209.28,
+      217.68,
+      226.04,
+      234.4,
+      242.76,
+      251.16,
+      259.52
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [],
+      [
+        8,
+        9
+      ],
+      [
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14
+      ],
+      [],
+      [
+        15
+      ],
+      [],
+      [],
+      [
+        20
+      ],
+      [
+        22,
+        23
+      ],
+      [],
+      [
+        26,
+        27
+      ],
+      [],
+      [
+        28,
+        29
+      ],
+      [
+        30,
+        31
+      ],
+      [
+        33
+      ],
+      [
+        36,
+        37
+      ],
+      [
+        40,
+        41
+      ],
+      [
+        43
+      ],
+      [
+        45,
+        46
+      ],
+      [
+        49
+      ],
+      [
+        49,
+        50
+      ],
+      [],
+      [
+        53
+      ],
+      [
+        54
+      ],
+      [
+        54
+      ],
+      [
+        55
+      ],
+      [
+        56
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 2,
+        "start_ms": 5680,
+        "end_ms": 9839,
+        "text": "already the blizzard has reached the"
+      },
+      {
+        "cue_id": 3,
+        "start_ms": 7359,
+        "end_ms": 9839,
+        "text": "colony"
+      },
+      {
+        "cue_id": 5,
+        "start_ms": 13120,
+        "end_ms": 19920,
+        "text": "overcoat of down"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 14719,
+        "end_ms": 19920,
+        "text": "and at -40 it's simply not enough"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 30720,
+        "end_ms": 35600,
+        "text": "the other mothers care only for their"
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 33280,
+        "end_ms": 35600,
+        "text": "own"
+      },
+      {
+        "cue_id": 11,
+        "start_ms": 40879,
+        "end_ms": 49610,
+        "text": "the chick's mother calls one last time"
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 45760,
+        "end_ms": 52710,
+        "text": "but her cries are lost on the wind"
+      },
+      {
+        "cue_id": 13,
+        "start_ms": 49610,
+        "end_ms": 52710,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 57680,
+        "end_ms": 64039,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 72400,
+        "end_ms": 76000,
+        "text": "at last he's found"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 99680,
+        "end_ms": 104799,
+        "text": "the chick may be safe but as"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 104799,
+        "end_ms": 108880,
+        "text": "warmth is not enough"
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 107360,
+        "end_ms": 111119,
+        "text": "to protect him"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 121200,
+        "end_ms": 129000,
+        "text": "as 100 kilometers an hour winds lash the"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 124079,
+        "end_ms": 129000,
+        "text": "colony the penguins huddle together"
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 139040,
+        "end_ms": 144160,
+        "text": "sheltered from the storm"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 140800,
+        "end_ms": 144160,
+        "text": "they're snug at last"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 148319,
+        "end_ms": 152400,
+        "text": "but out on the ice"
+      },
+      {
+        "cue_id": 31,
+        "start_ms": 150239,
+        "end_ms": 156440,
+        "text": "the lone father is still paying the"
+      },
+      {
+        "cue_id": 33,
+        "start_ms": 157519,
+        "end_ms": 161070,
+        "text": "his only hope is to reach the safety of"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 164400,
+        "end_ms": 168840,
+        "text": "in the comfort of the huddle the"
+      },
+      {
+        "cue_id": 37,
+        "start_ms": 166239,
+        "end_ms": 171360,
+        "text": "penguins have all the shelter they"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 174000,
+        "end_ms": 178319,
+        "text": "degrees"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 175360,
+        "end_ms": 181920,
+        "text": "to cool down they shuffle to the outside"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 182400,
+        "end_ms": 187599,
+        "text": "by sharing body heat they weather any"
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 188800,
+        "end_ms": 193440,
+        "text": "desperate for the warmth of the family"
+      },
+      {
+        "cue_id": 46,
+        "start_ms": 191040,
+        "end_ms": 195760,
+        "text": "the lone father struggles on"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 199350,
+        "end_ms": 211120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 208720,
+        "end_ms": 213660,
+        "text": "then through the blizzard"
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 224640,
+        "end_ms": 229720,
+        "text": "against the odds he's made it home"
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 229820,
+        "end_ms": 249090,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 251140,
+        "end_ms": 254250,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 56,
+        "start_ms": 259358,
+        "end_ms": 261440,
+        "text": "you"
+      }
+    ],
+    "text": "already the blizzard has reached the\ncolony\novercoat of down\nand at -40 it's simply not enough\nthe other mothers care only for their\nown\nthe chick's mother calls one last time\nbut her cries are lost on the wind\n[Music]\n[Music]\nat last he's found\nthe chick may be safe but as\nwarmth is not enough\nto protect him\nas 100 kilometers an hour winds lash the\ncolony the penguins huddle together\nsheltered from the storm\nthey're snug at last\nbut out on the ice\nthe lone father is still paying the\nhis only hope is to reach the safety of\nin the comfort of the huddle the\npenguins have all the shelter they\ndegrees\nto cool down they shuffle to the outside\nby sharing body heat they weather any\ndesperate for the warmth of the family\nthe lone father struggles on\n[Music]\nthen through the blizzard\nagainst the odds he's made it home\n[Music]\n[Music]\nyou",
+    "text_tokens": 219,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "463f634865af3603369745cd574b68df8757d73659cb5ff1e65f29ba4efb7550",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "BrjwEoPXyxA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BrjwEoPXyxA.srt",
+        "status": "available",
+        "bytes": 78889,
+        "sha256": "b52c0f48e63e565c9ab32a94db9efc8254760fc04ede41c05a4afba45aaaef45",
+        "cues": 790,
+        "nonempty_cues": 790
+      },
+      "frame_indices": [
+        0,
+        3000,
+        6000,
+        9000,
+        12000,
+        15000,
+        18000,
+        21000,
+        24000,
+        27000,
+        30000,
+        33000,
+        36000,
+        39000,
+        42000,
+        45000,
+        48001,
+        51001,
+        54001,
+        57001,
+        60001,
+        63001,
+        66001,
+        69001,
+        72001,
+        75001,
+        78001,
+        81001,
+        84001,
+        87001,
+        90001,
+        93001
+      ],
+      "frame_seconds": [
+        0.0,
+        100.0,
+        200.0,
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0,
+        800.0,
+        900.0,
+        1000.0,
+        1100.0,
+        1200.0,
+        1300.0,
+        1400.0,
+        1500.0,
+        1600.033333,
+        1700.033333,
+        1800.033333,
+        1900.033333,
+        2000.033333,
+        2100.033333,
+        2200.033333,
+        2300.033333,
+        2400.033333,
+        2500.033333,
+        2600.033333,
+        2700.033333,
+        2800.033333,
+        2900.033333,
+        3000.033333,
+        3100.033333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          29,
+          30
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          120,
+          121
+        ],
+        [
+          142
+        ],
+        [
+          168
+        ],
+        [
+          191,
+          192
+        ],
+        [
+          213,
+          214
+        ],
+        [
+          244,
+          245
+        ],
+        [
+          276
+        ],
+        [
+          296
+        ],
+        [
+          317,
+          318
+        ],
+        [
+          344,
+          345
+        ],
+        [
+          374,
+          375
+        ],
+        [
+          406,
+          407
+        ],
+        [
+          439,
+          440
+        ],
+        [
+          467
+        ],
+        [
+          501,
+          502
+        ],
+        [
+          536,
+          537
+        ],
+        [
+          565,
+          566
+        ],
+        [
+          594,
+          595
+        ],
+        [],
+        [
+          637,
+          638
+        ],
+        [
+          658,
+          659
+        ],
+        [],
+        [
+          693
+        ],
+        [
+          708,
+          709
+        ],
+        [
+          733,
+          734
+        ],
+        [
+          764,
+          765
+        ],
+        [
+          787
+        ],
+        [
+          790
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 29,
+          "start_ms": 95158,
+          "end_ms": 100079,
+          "text": "the first round of the Malaysian super"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 97360,
+          "end_ms": 104600,
+          "text": "1000 event two straight games it was"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 196519,
+          "end_ms": 203079,
+          "text": "where the former world and Olympic"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 198959,
+          "end_ms": 205519,
+          "text": "champion talic hiat came from he's 176"
+        },
+        {
+          "cue_id": 92,
+          "start_ms": 295240,
+          "end_ms": 300160,
+          "text": "the year they were semi-finalists at the"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 296919,
+          "end_ms": 302639,
+          "text": "Thailand Masters the 300 event and"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 395159,
+          "end_ms": 400880,
+          "text": "in recent tournaments I don't understand"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 397479,
+          "end_ms": 404199,
+          "text": "it but if that works for"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 495080,
+          "end_ms": 503599,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 168,
+          "start_ms": 598320,
+          "end_ms": 608000,
+          "text": "4"
+        },
+        {
+          "cue_id": 191,
+          "start_ms": 694120,
+          "end_ms": 701000,
+          "text": "oh son of this"
+        },
+        {
+          "cue_id": 192,
+          "start_ms": 696399,
+          "end_ms": 703760,
+          "text": "era service over"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 797000,
+          "end_ms": 800680,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 798360,
+          "end_ms": 802600,
+          "text": "okay at the N just catch and balance not"
+        },
+        {
+          "cue_id": 244,
+          "start_ms": 895120,
+          "end_ms": 900680,
+          "text": "in all the finals and new Gideon and"
+        },
+        {
+          "cue_id": 245,
+          "start_ms": 897600,
+          "end_ms": 902639,
+          "text": "sukamu and so on but but it's it's"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 996079,
+          "end_ms": 1001319,
+          "text": "done service over 9"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 1096600,
+          "end_ms": 1104640,
+          "text": "it they changeed their approach on the"
+        },
+        {
+          "cue_id": 317,
+          "start_ms": 1182810,
+          "end_ms": 1200440,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 318,
+          "start_ms": 1197640,
+          "end_ms": 1204240,
+          "text": "17 they're on the right track here as"
+        },
+        {
+          "cue_id": 344,
+          "start_ms": 1296200,
+          "end_ms": 1301559,
+          "text": "thought about two rallies ago that the"
+        },
+        {
+          "cue_id": 345,
+          "start_ms": 1298880,
+          "end_ms": 1303720,
+          "text": "Indonesians they they were not outplayed"
+        },
+        {
+          "cue_id": 374,
+          "start_ms": 1399120,
+          "end_ms": 1402480,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 375,
+          "start_ms": 1399300,
+          "end_ms": 1402480,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 406,
+          "start_ms": 1496039,
+          "end_ms": 1501279,
+          "text": "system so the players back on court off"
+        },
+        {
+          "cue_id": 407,
+          "start_ms": 1498760,
+          "end_ms": 1504360,
+          "text": "the start of this second"
+        },
+        {
+          "cue_id": 439,
+          "start_ms": 1593000,
+          "end_ms": 1600120,
+          "text": "31 but I agree on on the read that um"
+        },
+        {
+          "cue_id": 440,
+          "start_ms": 1597279,
+          "end_ms": 1604440,
+          "text": "the Indonesians have not played it over"
+        },
+        {
+          "cue_id": 467,
+          "start_ms": 1698159,
+          "end_ms": 1705840,
+          "text": "Champion oh that's"
+        },
+        {
+          "cue_id": 501,
+          "start_ms": 1794720,
+          "end_ms": 1800039,
+          "text": "combination where the front call player"
+        },
+        {
+          "cue_id": 502,
+          "start_ms": 1797440,
+          "end_ms": 1800039,
+          "text": "gets the better"
+        },
+        {
+          "cue_id": 536,
+          "start_ms": 1895600,
+          "end_ms": 1901039,
+          "text": "and he was the Indonesians that had a"
+        },
+        {
+          "cue_id": 537,
+          "start_ms": 1897840,
+          "end_ms": 1903080,
+          "text": "little bit of luck there with deflection"
+        },
+        {
+          "cue_id": 565,
+          "start_ms": 1996360,
+          "end_ms": 2000240,
+          "text": "over the"
+        },
+        {
+          "cue_id": 566,
+          "start_ms": 1998159,
+          "end_ms": 2002519,
+          "text": "responsibility plays a much bigger role"
+        },
+        {
+          "cue_id": 594,
+          "start_ms": 2096119,
+          "end_ms": 2101359,
+          "text": "going to have to up their games"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 2098030,
+          "end_ms": 2104520,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 637,
+          "start_ms": 2281640,
+          "end_ms": 2304579,
+          "text": "M"
+        },
+        {
+          "cue_id": 638,
+          "start_ms": 2284620,
+          "end_ms": 2304579,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 658,
+          "start_ms": 2391680,
+          "end_ms": 2401240,
+          "text": "winner just two points the deficit"
+        },
+        {
+          "cue_id": 659,
+          "start_ms": 2395119,
+          "end_ms": 2401240,
+          "text": "now hey having been seven points a"
+        },
+        {
+          "cue_id": 693,
+          "start_ms": 2579390,
+          "end_ms": 2600610,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 708,
+          "start_ms": 2694640,
+          "end_ms": 2702720,
+          "text": "184 service over"
+        },
+        {
+          "cue_id": 709,
+          "start_ms": 2699040,
+          "end_ms": 2705200,
+          "text": "50 it's all gone very nervy hasn't it it"
+        },
+        {
+          "cue_id": 733,
+          "start_ms": 2790570,
+          "end_ms": 2802400,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 734,
+          "start_ms": 2797880,
+          "end_ms": 2805000,
+          "text": "done it on their first match point"
+        },
+        {
+          "cue_id": 764,
+          "start_ms": 2894520,
+          "end_ms": 2902760,
+          "text": "Smash and interesting I don't think that"
+        },
+        {
+          "cue_id": 765,
+          "start_ms": 2899520,
+          "end_ms": 2904720,
+          "text": "was over the top celebration they"
+        },
+        {
+          "cue_id": 787,
+          "start_ms": 2969850,
+          "end_ms": 3020449,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 790,
+          "start_ms": 3099040,
+          "end_ms": 3102040,
+          "text": "for"
+        }
+      ],
+      "text": "the first round of the Malaysian super\n1000 event two straight games it was\nwhere the former world and Olympic\nchampion talic hiat came from he's 176\nthe year they were semi-finalists at the\nThailand Masters the 300 event and\nin recent tournaments I don't understand\nit but if that works for\n[Applause]\n4\noh son of this\nera service over\n[Applause]\nokay at the N just catch and balance not\nin all the finals and new Gideon and\nsukamu and so on but but it's it's\ndone service over 9\nit they changeed their approach on the\n[Applause]\n17 they're on the right track here as\nthought about two rallies ago that the\nIndonesians they they were not outplayed\n[Applause]\n[Music]\nsystem so the players back on court off\nthe start of this second\n31 but I agree on on the read that um\nthe Indonesians have not played it over\nChampion oh that's\ncombination where the front call player\ngets the better\nand he was the Indonesians that had a\nlittle bit of luck there with deflection\nover the\nresponsibility plays a much bigger role\ngoing to have to up their games\n[Applause]\nM\n[Applause]\nwinner just two points the deficit\nnow hey having been seven points a\n[Applause]\n184 service over\n50 it's all gone very nervy hasn't it it\n[Applause]\ndone it on their first match point\nSmash and interesting I don't think that\nwas over the top celebration they\n[Music]\nfor",
+      "text_tokens": 365,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "BrjwEoPXyxA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BrjwEoPXyxA.srt",
+          "status": "available",
+          "bytes": 78889,
+          "sha256": "b52c0f48e63e565c9ab32a94db9efc8254760fc04ede41c05a4afba45aaaef45",
+          "cues": 790,
+          "nonempty_cues": 790
+        },
+        "frame_indices": [
+          0,
+          3000,
+          6000,
+          9000,
+          12000,
+          15000,
+          18000,
+          21000,
+          24000,
+          27000,
+          30000,
+          33000,
+          36000,
+          39000,
+          42000,
+          45000,
+          48001,
+          51001,
+          54001,
+          57001,
+          60001,
+          63001,
+          66001,
+          69001,
+          72001,
+          75001,
+          78001,
+          81001,
+          84001,
+          87001,
+          90001,
+          93001
+        ],
+        "frame_seconds": [
+          0.0,
+          100.0,
+          200.0,
+          300.0,
+          400.0,
+          500.0,
+          600.0,
+          700.0,
+          800.0,
+          900.0,
+          1000.0,
+          1100.0,
+          1200.0,
+          1300.0,
+          1400.0,
+          1500.0,
+          1600.033333,
+          1700.033333,
+          1800.033333,
+          1900.033333,
+          2000.033333,
+          2100.033333,
+          2200.033333,
+          2300.033333,
+          2400.033333,
+          2500.033333,
+          2600.033333,
+          2700.033333,
+          2800.033333,
+          2900.033333,
+          3000.033333,
+          3100.033333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            29,
+            30
+          ],
+          [
+            60,
+            61
+          ],
+          [
+            92,
+            93
+          ],
+          [
+            120,
+            121
+          ],
+          [
+            142
+          ],
+          [
+            168
+          ],
+          [
+            191,
+            192
+          ],
+          [
+            213,
+            214
+          ],
+          [
+            244,
+            245
+          ],
+          [
+            276
+          ],
+          [
+            296
+          ],
+          [
+            317,
+            318
+          ],
+          [
+            344,
+            345
+          ],
+          [
+            374,
+            375
+          ],
+          [
+            406,
+            407
+          ],
+          [
+            439,
+            440
+          ],
+          [
+            467
+          ],
+          [
+            501,
+            502
+          ],
+          [
+            536,
+            537
+          ],
+          [
+            565,
+            566
+          ],
+          [
+            594,
+            595
+          ],
+          [],
+          [
+            637,
+            638
+          ],
+          [
+            658,
+            659
+          ],
+          [],
+          [
+            693
+          ],
+          [
+            708,
+            709
+          ],
+          [
+            733,
+            734
+          ],
+          [
+            764,
+            765
+          ],
+          [
+            787
+          ],
+          [
+            790
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 29,
+            "start_ms": 95158,
+            "end_ms": 100079,
+            "text": "the first round of the Malaysian super"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 97360,
+            "end_ms": 104600,
+            "text": "1000 event two straight games it was"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 196519,
+            "end_ms": 203079,
+            "text": "where the former world and Olympic"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 198959,
+            "end_ms": 205519,
+            "text": "champion talic hiat came from he's 176"
+          },
+          {
+            "cue_id": 92,
+            "start_ms": 295240,
+            "end_ms": 300160,
+            "text": "the year they were semi-finalists at the"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 296919,
+            "end_ms": 302639,
+            "text": "Thailand Masters the 300 event and"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 395159,
+            "end_ms": 400880,
+            "text": "in recent tournaments I don't understand"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 397479,
+            "end_ms": 404199,
+            "text": "it but if that works for"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 495080,
+            "end_ms": 503599,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 168,
+            "start_ms": 598320,
+            "end_ms": 608000,
+            "text": "4"
+          },
+          {
+            "cue_id": 191,
+            "start_ms": 694120,
+            "end_ms": 701000,
+            "text": "oh son of this"
+          },
+          {
+            "cue_id": 192,
+            "start_ms": 696399,
+            "end_ms": 703760,
+            "text": "era service over"
+          },
+          {
+            "cue_id": 213,
+            "start_ms": 797000,
+            "end_ms": 800680,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 798360,
+            "end_ms": 802600,
+            "text": "okay at the N just catch and balance not"
+          },
+          {
+            "cue_id": 244,
+            "start_ms": 895120,
+            "end_ms": 900680,
+            "text": "in all the finals and new Gideon and"
+          },
+          {
+            "cue_id": 245,
+            "start_ms": 897600,
+            "end_ms": 902639,
+            "text": "sukamu and so on but but it's it's"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 996079,
+            "end_ms": 1001319,
+            "text": "done service over 9"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 1096600,
+            "end_ms": 1104640,
+            "text": "it they changeed their approach on the"
+          },
+          {
+            "cue_id": 317,
+            "start_ms": 1182810,
+            "end_ms": 1200440,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 318,
+            "start_ms": 1197640,
+            "end_ms": 1204240,
+            "text": "17 they're on the right track here as"
+          },
+          {
+            "cue_id": 344,
+            "start_ms": 1296200,
+            "end_ms": 1301559,
+            "text": "thought about two rallies ago that the"
+          },
+          {
+            "cue_id": 345,
+            "start_ms": 1298880,
+            "end_ms": 1303720,
+            "text": "Indonesians they they were not outplayed"
+          },
+          {
+            "cue_id": 374,
+            "start_ms": 1399120,
+            "end_ms": 1402480,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 375,
+            "start_ms": 1399300,
+            "end_ms": 1402480,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 406,
+            "start_ms": 1496039,
+            "end_ms": 1501279,
+            "text": "system so the players back on court off"
+          },
+          {
+            "cue_id": 407,
+            "start_ms": 1498760,
+            "end_ms": 1504360,
+            "text": "the start of this second"
+          },
+          {
+            "cue_id": 439,
+            "start_ms": 1593000,
+            "end_ms": 1600120,
+            "text": "31 but I agree on on the read that um"
+          },
+          {
+            "cue_id": 440,
+            "start_ms": 1597279,
+            "end_ms": 1604440,
+            "text": "the Indonesians have not played it over"
+          },
+          {
+            "cue_id": 467,
+            "start_ms": 1698159,
+            "end_ms": 1705840,
+            "text": "Champion oh that's"
+          },
+          {
+            "cue_id": 501,
+            "start_ms": 1794720,
+            "end_ms": 1800039,
+            "text": "combination where the front call player"
+          },
+          {
+            "cue_id": 502,
+            "start_ms": 1797440,
+            "end_ms": 1800039,
+            "text": "gets the better"
+          },
+          {
+            "cue_id": 536,
+            "start_ms": 1895600,
+            "end_ms": 1901039,
+            "text": "and he was the Indonesians that had a"
+          },
+          {
+            "cue_id": 537,
+            "start_ms": 1897840,
+            "end_ms": 1903080,
+            "text": "little bit of luck there with deflection"
+          },
+          {
+            "cue_id": 565,
+            "start_ms": 1996360,
+            "end_ms": 2000240,
+            "text": "over the"
+          },
+          {
+            "cue_id": 566,
+            "start_ms": 1998159,
+            "end_ms": 2002519,
+            "text": "responsibility plays a much bigger role"
+          },
+          {
+            "cue_id": 594,
+            "start_ms": 2096119,
+            "end_ms": 2101359,
+            "text": "going to have to up their games"
+          },
+          {
+            "cue_id": 595,
+            "start_ms": 2098030,
+            "end_ms": 2104520,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 637,
+            "start_ms": 2281640,
+            "end_ms": 2304579,
+            "text": "M"
+          },
+          {
+            "cue_id": 638,
+            "start_ms": 2284620,
+            "end_ms": 2304579,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 658,
+            "start_ms": 2391680,
+            "end_ms": 2401240,
+            "text": "winner just two points the deficit"
+          },
+          {
+            "cue_id": 659,
+            "start_ms": 2395119,
+            "end_ms": 2401240,
+            "text": "now hey having been seven points a"
+          },
+          {
+            "cue_id": 693,
+            "start_ms": 2579390,
+            "end_ms": 2600610,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 708,
+            "start_ms": 2694640,
+            "end_ms": 2702720,
+            "text": "184 service over"
+          },
+          {
+            "cue_id": 709,
+            "start_ms": 2699040,
+            "end_ms": 2705200,
+            "text": "50 it's all gone very nervy hasn't it it"
+          },
+          {
+            "cue_id": 733,
+            "start_ms": 2790570,
+            "end_ms": 2802400,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 734,
+            "start_ms": 2797880,
+            "end_ms": 2805000,
+            "text": "done it on their first match point"
+          },
+          {
+            "cue_id": 764,
+            "start_ms": 2894520,
+            "end_ms": 2902760,
+            "text": "Smash and interesting I don't think that"
+          },
+          {
+            "cue_id": 765,
+            "start_ms": 2899520,
+            "end_ms": 2904720,
+            "text": "was over the top celebration they"
+          },
+          {
+            "cue_id": 787,
+            "start_ms": 2969850,
+            "end_ms": 3020449,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 790,
+            "start_ms": 3099040,
+            "end_ms": 3102040,
+            "text": "for"
+          }
+        ],
+        "text": "the first round of the Malaysian super\n1000 event two straight games it was\nwhere the former world and Olympic\nchampion talic hiat came from he's 176\nthe year they were semi-finalists at the\nThailand Masters the 300 event and\nin recent tournaments I don't understand\nit but if that works for\n[Applause]\n4\noh son of this\nera service over\n[Applause]\nokay at the N just catch and balance not\nin all the finals and new Gideon and\nsukamu and so on but but it's it's\ndone service over 9\nit they changeed their approach on the\n[Applause]\n17 they're on the right track here as\nthought about two rallies ago that the\nIndonesians they they were not outplayed\n[Applause]\n[Music]\nsystem so the players back on court off\nthe start of this second\n31 but I agree on on the read that um\nthe Indonesians have not played it over\nChampion oh that's\ncombination where the front call player\ngets the better\nand he was the Indonesians that had a\nlittle bit of luck there with deflection\nover the\nresponsibility plays a much bigger role\ngoing to have to up their games\n[Applause]\nM\n[Applause]\nwinner just two points the deficit\nnow hey having been seven points a\n[Applause]\n184 service over\n50 it's all gone very nervy hasn't it it\n[Applause]\ndone it on their first match point\nSmash and interesting I don't think that\nwas over the top celebration they\n[Music]\nfor",
+        "text_tokens": 365,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "start_ms": 91960,
+          "end_ms": 108660,
+          "text": "one serve side last time they met was in the first round of the Malaysian super 1000 event two straight games it was 2118 2119 in 44"
+        },
+        {
+          "id": "S59",
+          "cue_ids": [
+            59,
+            60,
+            61,
+            62
+          ],
+          "start_ms": 192560,
+          "end_ms": 208560,
+          "text": "bangong in West Java that's the city where the former world and Olympic champion talic hiat came from he's 176 that's 5'9 and a half and I know that"
+        },
+        {
+          "id": "S91",
+          "cue_ids": [
+            91,
+            92,
+            93,
+            94
+          ],
+          "start_ms": 292880,
+          "end_ms": 305670,
+          "text": "mulana have had a reasonable start to the year they were semi-finalists at the Thailand Masters the 300 event and quarterfinalists at their home event the"
+        },
+        {
+          "id": "S119",
+          "cue_ids": [
+            119,
+            120,
+            121,
+            122
+          ],
+          "start_ms": 392840,
+          "end_ms": 404199,
+          "text": "surprise me cuz they've often done that in recent tournaments I don't understand it but if that works for them why"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143
+          ],
+          "start_ms": 490039,
+          "end_ms": 507080,
+          "text": "defense from [Applause] Milana good rally by the Indonesians"
+        },
+        {
+          "id": "S167",
+          "cue_ids": [
+            167,
+            168,
+            169
+          ],
+          "start_ms": 591480,
+          "end_ms": 609770,
+          "text": "five service over 6 4 [Applause]"
+        },
+        {
+          "id": "S190",
+          "cue_ids": [
+            190,
+            191,
+            192,
+            193
+          ],
+          "start_ms": 689620,
+          "end_ms": 707240,
+          "text": "[Applause] oh son of this era service over 86 we saw last week and we saw yesterday"
+        },
+        {
+          "id": "S212",
+          "cue_ids": [
+            212,
+            213,
+            214,
+            215
+          ],
+          "start_ms": 792630,
+          "end_ms": 807360,
+          "text": "[Music] [Applause] okay at the N just catch and balance not don't go hard don't go"
+        },
+        {
+          "id": "S243",
+          "cue_ids": [
+            243,
+            244,
+            245,
+            246
+          ],
+          "start_ms": 893199,
+          "end_ms": 905240,
+          "text": "Indonesian pair that we're going to see in all the finals and new Gideon and sukamu and so on but but it's it's actually quite natural that it takes"
+        },
+        {
+          "id": "S275",
+          "cue_ids": [
+            275,
+            276,
+            277
+          ],
+          "start_ms": 991080,
+          "end_ms": 1009460,
+          "text": "[Applause] done service over 9 [Applause]"
+        },
+        {
+          "id": "S296",
+          "cue_ids": [
+            296,
+            297
+          ],
+          "start_ms": 1096600,
+          "end_ms": 1105760,
+          "text": "it they changeed their approach on the Tumbl so CH and recur ready much better"
+        },
+        {
+          "id": "S316",
+          "cue_ids": [
+            316,
+            317,
+            318,
+            319
+          ],
+          "start_ms": 1177799,
+          "end_ms": 1204240,
+          "text": "magnificently service over 13 [Applause] 17 they're on the right track here as well 14"
+        },
+        {
+          "id": "S343",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346
+          ],
+          "start_ms": 1293520,
+          "end_ms": 1305360,
+          "text": "19 it was a little bit lucky and I just thought about two rallies ago that the Indonesians they they were not outplayed in the defense earlier on in the rallies"
+        },
+        {
+          "id": "S373",
+          "cue_ids": [
+            373,
+            374,
+            375
+          ],
+          "start_ms": 1393640,
+          "end_ms": 1402480,
+          "text": "Shetty 17 minutes for that opening [Applause] [Music]"
+        },
+        {
+          "id": "S406",
+          "cue_ids": [
+            406,
+            407,
+            408
+          ],
+          "start_ms": 1496039,
+          "end_ms": 1506720,
+          "text": "system so the players back on court off the start of this second game very interesting coaching there"
+        },
+        {
+          "id": "S439",
+          "cue_ids": [
+            439,
+            440,
+            441
+          ],
+          "start_ms": 1593000,
+          "end_ms": 1608440,
+          "text": "31 but I agree on on the read that um the Indonesians have not played it over uh the Indians so these small pokes that"
+        },
+        {
+          "id": "S466",
+          "cue_ids": [
+            466,
+            467,
+            468
+          ],
+          "start_ms": 1692250,
+          "end_ms": 1707600,
+          "text": "[Applause] Champion oh that's trouble yeah and the"
+        },
+        {
+          "id": "S500",
+          "cue_ids": [
+            500,
+            501,
+            502,
+            503
+          ],
+          "start_ms": 1792640,
+          "end_ms": 1807399,
+          "text": "challenged that is when they play a combination where the front call player gets the better at the moment is doing that yes so"
+        },
+        {
+          "id": "S535",
+          "cue_ids": [
+            535,
+            536,
+            537,
+            538
+          ],
+          "start_ms": 1893279,
+          "end_ms": 1907159,
+          "text": "oh that's brilliant by the Indonesians and he was the Indonesians that had a little bit of luck there with deflection on the neet"
+        },
+        {
+          "id": "S564",
+          "cue_ids": [
+            564,
+            565,
+            566,
+            567
+          ],
+          "start_ms": 1994080,
+          "end_ms": 2004960,
+          "text": "rank ready then being the one who takes over the responsibility plays a much bigger role on the front Court than he normally does"
+        },
+        {
+          "id": "S593",
+          "cue_ids": [
+            593,
+            594,
+            595,
+            596
+          ],
+          "start_ms": 2093679,
+          "end_ms": 2106960,
+          "text": "there to keep the dream alive they're going to have to up their games [Applause] because they're playing against aiki and"
+        },
+        {
+          "id": "S636",
+          "cue_ids": [
+            636,
+            637,
+            638,
+            639
+          ],
+          "start_ms": 2279359,
+          "end_ms": 2310659,
+          "text": "he's covering really well M [Applause] 149"
+        },
+        {
+          "id": "S657",
+          "cue_ids": [
+            657,
+            658,
+            659
+          ],
+          "start_ms": 2387480,
+          "end_ms": 2401240,
+          "text": "gone past him and he plays the winner just two points the deficit now hey having been seven points a"
+        },
+        {
+          "id": "S692",
+          "cue_ids": [
+            692,
+            693
+          ],
+          "start_ms": 2576119,
+          "end_ms": 2600610,
+          "text": "so [Applause]"
+        },
+        {
+          "id": "S708",
+          "cue_ids": [
+            708,
+            709,
+            710
+          ],
+          "start_ms": 2694640,
+          "end_ms": 2707839,
+          "text": "184 service over 50 it's all gone very nervy hasn't it it has it"
+        },
+        {
+          "id": "S732",
+          "cue_ids": [
+            732,
+            733,
+            734,
+            735
+          ],
+          "start_ms": 2785920,
+          "end_ms": 2809800,
+          "text": "15 [Applause] done it on their first match point opportunity muhamed"
+        },
+        {
+          "id": "S763",
+          "cue_ids": [
+            763,
+            764,
+            765,
+            766
+          ],
+          "start_ms": 2893079,
+          "end_ms": 2907319,
+          "text": "thunderous Smash and interesting I don't think that was over the top celebration they weren't here just to beat the world"
+        },
+        {
+          "id": "S786",
+          "cue_ids": [
+            786,
+            787
+          ],
+          "start_ms": 2965720,
+          "end_ms": 3020449,
+          "text": "now [Music]"
+        },
+        {
+          "id": "S790",
+          "cue_ids": [
+            790
+          ],
+          "start_ms": 3099040,
+          "end_ms": 3102040,
+          "text": "for"
+        }
+      ],
+      "text": "S28 [00:01:31.960 --> 00:01:48.660] one serve side last time they met was in the first round of the Malaysian super 1000 event two straight games it was 2118 2119 in 44\nS59 [00:03:12.560 --> 00:03:28.560] bangong in West Java that's the city where the former world and Olympic champion talic hiat came from he's 176 that's 5'9 and a half and I know that\nS91 [00:04:52.880 --> 00:05:05.670] mulana have had a reasonable start to the year they were semi-finalists at the Thailand Masters the 300 event and quarterfinalists at their home event the\nS119 [00:06:32.840 --> 00:06:44.199] surprise me cuz they've often done that in recent tournaments I don't understand it but if that works for them why\nS141 [00:08:10.039 --> 00:08:27.080] defense from [Applause] Milana good rally by the Indonesians\nS167 [00:09:51.480 --> 00:10:09.770] five service over 6 4 [Applause]\nS190 [00:11:29.620 --> 00:11:47.240] [Applause] oh son of this era service over 86 we saw last week and we saw yesterday\nS212 [00:13:12.630 --> 00:13:27.360] [Music] [Applause] okay at the N just catch and balance not don't go hard don't go\nS243 [00:14:53.199 --> 00:15:05.240] Indonesian pair that we're going to see in all the finals and new Gideon and sukamu and so on but but it's it's actually quite natural that it takes\nS275 [00:16:31.080 --> 00:16:49.460] [Applause] done service over 9 [Applause]\nS296 [00:18:16.600 --> 00:18:25.760] it they changeed their approach on the Tumbl so CH and recur ready much better\nS316 [00:19:37.799 --> 00:20:04.240] magnificently service over 13 [Applause] 17 they're on the right track here as well 14\nS343 [00:21:33.520 --> 00:21:45.360] 19 it was a little bit lucky and I just thought about two rallies ago that the Indonesians they they were not outplayed in the defense earlier on in the rallies\nS373 [00:23:13.640 --> 00:23:22.480] Shetty 17 minutes for that opening [Applause] [Music]\nS406 [00:24:56.039 --> 00:25:06.720] system so the players back on court off the start of this second game very interesting coaching there\nS439 [00:26:33.000 --> 00:26:48.440] 31 but I agree on on the read that um the Indonesians have not played it over uh the Indians so these small pokes that\nS466 [00:28:12.250 --> 00:28:27.600] [Applause] Champion oh that's trouble yeah and the\nS500 [00:29:52.640 --> 00:30:07.399] challenged that is when they play a combination where the front call player gets the better at the moment is doing that yes so\nS535 [00:31:33.279 --> 00:31:47.159] oh that's brilliant by the Indonesians and he was the Indonesians that had a little bit of luck there with deflection on the neet\nS564 [00:33:14.080 --> 00:33:24.960] rank ready then being the one who takes over the responsibility plays a much bigger role on the front Court than he normally does\nS593 [00:34:53.679 --> 00:35:06.960] there to keep the dream alive they're going to have to up their games [Applause] because they're playing against aiki and\nS636 [00:37:59.359 --> 00:38:30.659] he's covering really well M [Applause] 149\nS657 [00:39:47.480 --> 00:40:01.240] gone past him and he plays the winner just two points the deficit now hey having been seven points a\nS692 [00:42:56.119 --> 00:43:20.610] so [Applause]\nS708 [00:44:54.640 --> 00:45:07.839] 184 service over 50 it's all gone very nervy hasn't it it has it\nS732 [00:46:25.920 --> 00:46:49.800] 15 [Applause] done it on their first match point opportunity muhamed\nS763 [00:48:13.079 --> 00:48:27.319] thunderous Smash and interesting I don't think that was over the top celebration they weren't here just to beat the world\nS786 [00:49:25.720 --> 00:50:20.449] now [Music]\nS790 [00:51:39.040 --> 00:51:42.040] for",
+      "text_tokens": 1584,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        28,
+        31,
+        59,
+        62,
+        91,
+        94,
+        119,
+        122,
+        141,
+        143,
+        167,
+        169,
+        190,
+        193,
+        212,
+        215,
+        243,
+        246,
+        275,
+        277,
+        297,
+        316,
+        319,
+        343,
+        346,
+        373,
+        408,
+        441,
+        466,
+        468,
+        500,
+        503,
+        535,
+        538,
+        564,
+        567,
+        593,
+        596,
+        636,
+        639,
+        657,
+        692,
+        710,
+        732,
+        735,
+        763,
+        766,
+        786
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "1fe473c8e7f04f72fb48c9ef5f82a7e4ae8cbcb754a8ea18e262a350ef46301d"
+}

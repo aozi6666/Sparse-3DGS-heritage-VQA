@@ -1,0 +1,1497 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "c03YTDzmsK8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/c03YTDzmsK8.srt",
+        "status": "available",
+        "bytes": 91142,
+        "sha256": "ca30b9ebf41792fb53d0a89f9ccbdee293d297a5547381db8f91b0cb76fb6422",
+        "cues": 848,
+        "nonempty_cues": 848
+      },
+      "frame_indices": [
+        0,
+        2294,
+        4588,
+        6882,
+        9175,
+        11469,
+        13763,
+        16057,
+        18351,
+        20645,
+        22938,
+        25232,
+        27526,
+        29820,
+        32114,
+        34408,
+        36701,
+        38995,
+        41289,
+        43583,
+        45877,
+        48171,
+        50464,
+        52758,
+        55052,
+        57346,
+        59640,
+        61934,
+        64227,
+        66521,
+        68815,
+        71109
+      ],
+      "frame_seconds": [
+        0.0,
+        76.466667,
+        152.933333,
+        229.4,
+        305.833333,
+        382.3,
+        458.766667,
+        535.233333,
+        611.7,
+        688.166667,
+        764.6,
+        841.066667,
+        917.533333,
+        994.0,
+        1070.466667,
+        1146.933333,
+        1223.366667,
+        1299.833333,
+        1376.3,
+        1452.766667,
+        1529.233333,
+        1605.7,
+        1682.133333,
+        1758.6,
+        1835.066667,
+        1911.533333,
+        1988.0,
+        2064.466667,
+        2140.9,
+        2217.366667,
+        2293.833333,
+        2370.3
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          28,
+          29
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          115,
+          116
+        ],
+        [
+          144,
+          145
+        ],
+        [],
+        [
+          190
+        ],
+        [
+          210,
+          211
+        ],
+        [
+          240,
+          241
+        ],
+        [
+          267,
+          268
+        ],
+        [
+          297,
+          298
+        ],
+        [
+          329,
+          330
+        ],
+        [
+          360,
+          361
+        ],
+        [
+          385,
+          386
+        ],
+        [
+          413,
+          414
+        ],
+        [
+          444,
+          445
+        ],
+        [
+          474,
+          475
+        ],
+        [],
+        [
+          528
+        ],
+        [
+          555,
+          556
+        ],
+        [
+          583,
+          584
+        ],
+        [
+          613,
+          614
+        ],
+        [
+          639,
+          640
+        ],
+        [
+          663,
+          664
+        ],
+        [
+          688,
+          689
+        ],
+        [
+          713,
+          714
+        ],
+        [
+          743,
+          744
+        ],
+        [
+          771,
+          772
+        ],
+        [
+          801,
+          802
+        ],
+        [
+          829,
+          830
+        ],
+        [
+          847,
+          848
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 28,
+          "start_ms": 72560,
+          "end_ms": 77600,
+          "text": "and just remember whatever I do you do"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 75600,
+          "end_ms": 80039,
+          "text": "not have to use the same colors or"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 149200,
+          "end_ms": 153480,
+          "text": "last year when we made that like 3ot"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 151560,
+          "end_ms": 156480,
+          "text": "tall Easter Bunny wreath I'll put a"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 225120,
+          "end_ms": 230599,
+          "text": "just to get it going right now I'm going"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 228000,
+          "end_ms": 234120,
+          "text": "to take this I'm going to pull my brown"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 302960,
+          "end_ms": 307199,
+          "text": "here by our little"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 304520,
+          "end_ms": 309560,
+          "text": "back just a little bit right"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 378800,
+          "end_ms": 385800,
+          "text": "wrap my little Bunny's"
+        },
+        {
+          "cue_id": 145,
+          "start_ms": 382280,
+          "end_ms": 388400,
+          "text": "face push it back through that same ear"
+        },
+        {
+          "cue_id": 190,
+          "start_ms": 534399,
+          "end_ms": 541200,
+          "text": "there all right once again just start"
+        },
+        {
+          "cue_id": 210,
+          "start_ms": 608040,
+          "end_ms": 612680,
+          "text": "I'm going to take is that long enough it"
+        },
+        {
+          "cue_id": 211,
+          "start_ms": 610399,
+          "end_ms": 615680,
+          "text": "sure is all right I'm going to put a"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 685120,
+          "end_ms": 691279,
+          "text": "to lock that into place and pull it as"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 687440,
+          "end_ms": 694399,
+          "text": "tight as I can you can also use um twine"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 760560,
+          "end_ms": 764920,
+          "text": "as you"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 761600,
+          "end_ms": 768199,
+          "text": "want so okay now that I got this right"
+        },
+        {
+          "cue_id": 297,
+          "start_ms": 837560,
+          "end_ms": 842040,
+          "text": "whatever ribbon that's going to to match"
+        },
+        {
+          "cue_id": 298,
+          "start_ms": 839320,
+          "end_ms": 844880,
+          "text": "your Decor I've got everything right"
+        },
+        {
+          "cue_id": 329,
+          "start_ms": 911880,
+          "end_ms": 918759,
+          "text": "lay another little gam right here I'm"
+        },
+        {
+          "cue_id": 330,
+          "start_ms": 915079,
+          "end_ms": 920320,
+          "text": "lay this one across just like that once"
+        },
+        {
+          "cue_id": 360,
+          "start_ms": 989839,
+          "end_ms": 995519,
+          "text": "change my ribbon out to match whatever I"
+        },
+        {
+          "cue_id": 361,
+          "start_ms": 992120,
+          "end_ms": 997800,
+          "text": "want to do oh my goodness look how cute"
+        },
+        {
+          "cue_id": 385,
+          "start_ms": 1065160,
+          "end_ms": 1071200,
+          "text": "palette right here I want to paint M"
+        },
+        {
+          "cue_id": 386,
+          "start_ms": 1068440,
+          "end_ms": 1074440,
+          "text": "black I'm just going to use black apple"
+        },
+        {
+          "cue_id": 413,
+          "start_ms": 1139960,
+          "end_ms": 1147080,
+          "text": "now shuer but I"
+        },
+        {
+          "cue_id": 414,
+          "start_ms": 1143360,
+          "end_ms": 1149320,
+          "text": "can't really just want to get it like"
+        },
+        {
+          "cue_id": 444,
+          "start_ms": 1220120,
+          "end_ms": 1223799,
+          "text": "all right so I got all that right there"
+        },
+        {
+          "cue_id": 445,
+          "start_ms": 1222200,
+          "end_ms": 1226400,
+          "text": "now I'm going to take my napkin and I'm"
+        },
+        {
+          "cue_id": 474,
+          "start_ms": 1294760,
+          "end_ms": 1299880,
+          "text": "hands are stained all right so we got"
+        },
+        {
+          "cue_id": 475,
+          "start_ms": 1297400,
+          "end_ms": 1302559,
+          "text": "our little palette here our two little"
+        },
+        {
+          "cue_id": 528,
+          "start_ms": 1450880,
+          "end_ms": 1458559,
+          "text": "top all right get this back on"
+        },
+        {
+          "cue_id": 555,
+          "start_ms": 1525720,
+          "end_ms": 1531000,
+          "text": "there my gosh look how see that is all"
+        },
+        {
+          "cue_id": 556,
+          "start_ms": 1528760,
+          "end_ms": 1534600,
+          "text": "right y'all we are not"
+        },
+        {
+          "cue_id": 583,
+          "start_ms": 1601360,
+          "end_ms": 1606640,
+          "text": "back side of the carrot cuz like I said"
+        },
+        {
+          "cue_id": 584,
+          "start_ms": 1603760,
+          "end_ms": 1609480,
+          "text": "I'm not exactly sure what I'm doing with"
+        },
+        {
+          "cue_id": 613,
+          "start_ms": 1678000,
+          "end_ms": 1682799,
+          "text": "thing of hot glue for the end of my"
+        },
+        {
+          "cue_id": 614,
+          "start_ms": 1679960,
+          "end_ms": 1682799,
+          "text": "little tail right"
+        },
+        {
+          "cue_id": 639,
+          "start_ms": 1754320,
+          "end_ms": 1759720,
+          "text": "carrots I'm I kind of line them up on"
+        },
+        {
+          "cue_id": 640,
+          "start_ms": 1756840,
+          "end_ms": 1762000,
+          "text": "here not sure how many will look the"
+        },
+        {
+          "cue_id": 663,
+          "start_ms": 1832399,
+          "end_ms": 1839240,
+          "text": "to cool down a little"
+        },
+        {
+          "cue_id": 664,
+          "start_ms": 1834679,
+          "end_ms": 1843640,
+          "text": "bit holy moly look how cute that"
+        },
+        {
+          "cue_id": 688,
+          "start_ms": 1908039,
+          "end_ms": 1912320,
+          "text": "by"
+        },
+        {
+          "cue_id": 689,
+          "start_ms": 1909440,
+          "end_ms": 1915880,
+          "text": "itself I want to hot glue these little"
+        },
+        {
+          "cue_id": 713,
+          "start_ms": 1985080,
+          "end_ms": 1988240,
+          "text": "and I have more of these let's kind of"
+        },
+        {
+          "cue_id": 714,
+          "start_ms": 1986679,
+          "end_ms": 1990159,
+          "text": "Pop those down into"
+        },
+        {
+          "cue_id": 743,
+          "start_ms": 2058000,
+          "end_ms": 2065879,
+          "text": "shoes and then look how cute that is oh"
+        },
+        {
+          "cue_id": 744,
+          "start_ms": 2062040,
+          "end_ms": 2068960,
+          "text": "my goodness I love that that is"
+        },
+        {
+          "cue_id": 771,
+          "start_ms": 2135359,
+          "end_ms": 2141480,
+          "text": "of right now I love"
+        },
+        {
+          "cue_id": 772,
+          "start_ms": 2137880,
+          "end_ms": 2145599,
+          "text": "this and let me just"
+        },
+        {
+          "cue_id": 801,
+          "start_ms": 2215480,
+          "end_ms": 2219359,
+          "text": "those you know you can cut cut off the"
+        },
+        {
+          "cue_id": 802,
+          "start_ms": 2216960,
+          "end_ms": 2222000,
+          "text": "rounded edges with some scissors and"
+        },
+        {
+          "cue_id": 829,
+          "start_ms": 2289319,
+          "end_ms": 2295000,
+          "text": "it's in frame and I just I need to"
+        },
+        {
+          "cue_id": 830,
+          "start_ms": 2291920,
+          "end_ms": 2295880,
+          "text": "figure out the best angle and the best"
+        },
+        {
+          "cue_id": 847,
+          "start_ms": 2335520,
+          "end_ms": 2371579,
+          "text": "watching"
+        },
+        {
+          "cue_id": 848,
+          "start_ms": 2336660,
+          "end_ms": 2371579,
+          "text": "[Music]"
+        }
+      ],
+      "text": "and just remember whatever I do you do\nnot have to use the same colors or\nlast year when we made that like 3ot\ntall Easter Bunny wreath I'll put a\njust to get it going right now I'm going\nto take this I'm going to pull my brown\nhere by our little\nback just a little bit right\nwrap my little Bunny's\nface push it back through that same ear\nthere all right once again just start\nI'm going to take is that long enough it\nsure is all right I'm going to put a\nto lock that into place and pull it as\ntight as I can you can also use um twine\nas you\nwant so okay now that I got this right\nwhatever ribbon that's going to to match\nyour Decor I've got everything right\nlay another little gam right here I'm\nlay this one across just like that once\nchange my ribbon out to match whatever I\nwant to do oh my goodness look how cute\npalette right here I want to paint M\nblack I'm just going to use black apple\nnow shuer but I\ncan't really just want to get it like\nall right so I got all that right there\nnow I'm going to take my napkin and I'm\nhands are stained all right so we got\nour little palette here our two little\ntop all right get this back on\nthere my gosh look how see that is all\nright y'all we are not\nback side of the carrot cuz like I said\nI'm not exactly sure what I'm doing with\nthing of hot glue for the end of my\nlittle tail right\ncarrots I'm I kind of line them up on\nhere not sure how many will look the\nto cool down a little\nbit holy moly look how cute that\nby\nitself I want to hot glue these little\nand I have more of these let's kind of\nPop those down into\nshoes and then look how cute that is oh\nmy goodness I love that that is\nof right now I love\nthis and let me just\nthose you know you can cut cut off the\nrounded edges with some scissors and\nit's in frame and I just I need to\nfigure out the best angle and the best\nwatching\n[Music]",
+      "text_tokens": 482,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "c03YTDzmsK8",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/c03YTDzmsK8.srt",
+          "status": "available",
+          "bytes": 91142,
+          "sha256": "ca30b9ebf41792fb53d0a89f9ccbdee293d297a5547381db8f91b0cb76fb6422",
+          "cues": 848,
+          "nonempty_cues": 848
+        },
+        "frame_indices": [
+          0,
+          2294,
+          4588,
+          6882,
+          9175,
+          11469,
+          13763,
+          16057,
+          18351,
+          20645,
+          22938,
+          25232,
+          27526,
+          29820,
+          32114,
+          34408,
+          36701,
+          38995,
+          41289,
+          43583,
+          45877,
+          48171,
+          50464,
+          52758,
+          55052,
+          57346,
+          59640,
+          61934,
+          64227,
+          66521,
+          68815,
+          71109
+        ],
+        "frame_seconds": [
+          0.0,
+          76.466667,
+          152.933333,
+          229.4,
+          305.833333,
+          382.3,
+          458.766667,
+          535.233333,
+          611.7,
+          688.166667,
+          764.6,
+          841.066667,
+          917.533333,
+          994.0,
+          1070.466667,
+          1146.933333,
+          1223.366667,
+          1299.833333,
+          1376.3,
+          1452.766667,
+          1529.233333,
+          1605.7,
+          1682.133333,
+          1758.6,
+          1835.066667,
+          1911.533333,
+          1988.0,
+          2064.466667,
+          2140.9,
+          2217.366667,
+          2293.833333,
+          2370.3
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            28,
+            29
+          ],
+          [
+            57,
+            58
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            115,
+            116
+          ],
+          [
+            144,
+            145
+          ],
+          [],
+          [
+            190
+          ],
+          [
+            210,
+            211
+          ],
+          [
+            240,
+            241
+          ],
+          [
+            267,
+            268
+          ],
+          [
+            297,
+            298
+          ],
+          [
+            329,
+            330
+          ],
+          [
+            360,
+            361
+          ],
+          [
+            385,
+            386
+          ],
+          [
+            413,
+            414
+          ],
+          [
+            444,
+            445
+          ],
+          [
+            474,
+            475
+          ],
+          [],
+          [
+            528
+          ],
+          [
+            555,
+            556
+          ],
+          [
+            583,
+            584
+          ],
+          [
+            613,
+            614
+          ],
+          [
+            639,
+            640
+          ],
+          [
+            663,
+            664
+          ],
+          [
+            688,
+            689
+          ],
+          [
+            713,
+            714
+          ],
+          [
+            743,
+            744
+          ],
+          [
+            771,
+            772
+          ],
+          [
+            801,
+            802
+          ],
+          [
+            829,
+            830
+          ],
+          [
+            847,
+            848
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 28,
+            "start_ms": 72560,
+            "end_ms": 77600,
+            "text": "and just remember whatever I do you do"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 75600,
+            "end_ms": 80039,
+            "text": "not have to use the same colors or"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 149200,
+            "end_ms": 153480,
+            "text": "last year when we made that like 3ot"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 151560,
+            "end_ms": 156480,
+            "text": "tall Easter Bunny wreath I'll put a"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 225120,
+            "end_ms": 230599,
+            "text": "just to get it going right now I'm going"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 228000,
+            "end_ms": 234120,
+            "text": "to take this I'm going to pull my brown"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 302960,
+            "end_ms": 307199,
+            "text": "here by our little"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 304520,
+            "end_ms": 309560,
+            "text": "back just a little bit right"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 378800,
+            "end_ms": 385800,
+            "text": "wrap my little Bunny's"
+          },
+          {
+            "cue_id": 145,
+            "start_ms": 382280,
+            "end_ms": 388400,
+            "text": "face push it back through that same ear"
+          },
+          {
+            "cue_id": 190,
+            "start_ms": 534399,
+            "end_ms": 541200,
+            "text": "there all right once again just start"
+          },
+          {
+            "cue_id": 210,
+            "start_ms": 608040,
+            "end_ms": 612680,
+            "text": "I'm going to take is that long enough it"
+          },
+          {
+            "cue_id": 211,
+            "start_ms": 610399,
+            "end_ms": 615680,
+            "text": "sure is all right I'm going to put a"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 685120,
+            "end_ms": 691279,
+            "text": "to lock that into place and pull it as"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 687440,
+            "end_ms": 694399,
+            "text": "tight as I can you can also use um twine"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 760560,
+            "end_ms": 764920,
+            "text": "as you"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 761600,
+            "end_ms": 768199,
+            "text": "want so okay now that I got this right"
+          },
+          {
+            "cue_id": 297,
+            "start_ms": 837560,
+            "end_ms": 842040,
+            "text": "whatever ribbon that's going to to match"
+          },
+          {
+            "cue_id": 298,
+            "start_ms": 839320,
+            "end_ms": 844880,
+            "text": "your Decor I've got everything right"
+          },
+          {
+            "cue_id": 329,
+            "start_ms": 911880,
+            "end_ms": 918759,
+            "text": "lay another little gam right here I'm"
+          },
+          {
+            "cue_id": 330,
+            "start_ms": 915079,
+            "end_ms": 920320,
+            "text": "lay this one across just like that once"
+          },
+          {
+            "cue_id": 360,
+            "start_ms": 989839,
+            "end_ms": 995519,
+            "text": "change my ribbon out to match whatever I"
+          },
+          {
+            "cue_id": 361,
+            "start_ms": 992120,
+            "end_ms": 997800,
+            "text": "want to do oh my goodness look how cute"
+          },
+          {
+            "cue_id": 385,
+            "start_ms": 1065160,
+            "end_ms": 1071200,
+            "text": "palette right here I want to paint M"
+          },
+          {
+            "cue_id": 386,
+            "start_ms": 1068440,
+            "end_ms": 1074440,
+            "text": "black I'm just going to use black apple"
+          },
+          {
+            "cue_id": 413,
+            "start_ms": 1139960,
+            "end_ms": 1147080,
+            "text": "now shuer but I"
+          },
+          {
+            "cue_id": 414,
+            "start_ms": 1143360,
+            "end_ms": 1149320,
+            "text": "can't really just want to get it like"
+          },
+          {
+            "cue_id": 444,
+            "start_ms": 1220120,
+            "end_ms": 1223799,
+            "text": "all right so I got all that right there"
+          },
+          {
+            "cue_id": 445,
+            "start_ms": 1222200,
+            "end_ms": 1226400,
+            "text": "now I'm going to take my napkin and I'm"
+          },
+          {
+            "cue_id": 474,
+            "start_ms": 1294760,
+            "end_ms": 1299880,
+            "text": "hands are stained all right so we got"
+          },
+          {
+            "cue_id": 475,
+            "start_ms": 1297400,
+            "end_ms": 1302559,
+            "text": "our little palette here our two little"
+          },
+          {
+            "cue_id": 528,
+            "start_ms": 1450880,
+            "end_ms": 1458559,
+            "text": "top all right get this back on"
+          },
+          {
+            "cue_id": 555,
+            "start_ms": 1525720,
+            "end_ms": 1531000,
+            "text": "there my gosh look how see that is all"
+          },
+          {
+            "cue_id": 556,
+            "start_ms": 1528760,
+            "end_ms": 1534600,
+            "text": "right y'all we are not"
+          },
+          {
+            "cue_id": 583,
+            "start_ms": 1601360,
+            "end_ms": 1606640,
+            "text": "back side of the carrot cuz like I said"
+          },
+          {
+            "cue_id": 584,
+            "start_ms": 1603760,
+            "end_ms": 1609480,
+            "text": "I'm not exactly sure what I'm doing with"
+          },
+          {
+            "cue_id": 613,
+            "start_ms": 1678000,
+            "end_ms": 1682799,
+            "text": "thing of hot glue for the end of my"
+          },
+          {
+            "cue_id": 614,
+            "start_ms": 1679960,
+            "end_ms": 1682799,
+            "text": "little tail right"
+          },
+          {
+            "cue_id": 639,
+            "start_ms": 1754320,
+            "end_ms": 1759720,
+            "text": "carrots I'm I kind of line them up on"
+          },
+          {
+            "cue_id": 640,
+            "start_ms": 1756840,
+            "end_ms": 1762000,
+            "text": "here not sure how many will look the"
+          },
+          {
+            "cue_id": 663,
+            "start_ms": 1832399,
+            "end_ms": 1839240,
+            "text": "to cool down a little"
+          },
+          {
+            "cue_id": 664,
+            "start_ms": 1834679,
+            "end_ms": 1843640,
+            "text": "bit holy moly look how cute that"
+          },
+          {
+            "cue_id": 688,
+            "start_ms": 1908039,
+            "end_ms": 1912320,
+            "text": "by"
+          },
+          {
+            "cue_id": 689,
+            "start_ms": 1909440,
+            "end_ms": 1915880,
+            "text": "itself I want to hot glue these little"
+          },
+          {
+            "cue_id": 713,
+            "start_ms": 1985080,
+            "end_ms": 1988240,
+            "text": "and I have more of these let's kind of"
+          },
+          {
+            "cue_id": 714,
+            "start_ms": 1986679,
+            "end_ms": 1990159,
+            "text": "Pop those down into"
+          },
+          {
+            "cue_id": 743,
+            "start_ms": 2058000,
+            "end_ms": 2065879,
+            "text": "shoes and then look how cute that is oh"
+          },
+          {
+            "cue_id": 744,
+            "start_ms": 2062040,
+            "end_ms": 2068960,
+            "text": "my goodness I love that that is"
+          },
+          {
+            "cue_id": 771,
+            "start_ms": 2135359,
+            "end_ms": 2141480,
+            "text": "of right now I love"
+          },
+          {
+            "cue_id": 772,
+            "start_ms": 2137880,
+            "end_ms": 2145599,
+            "text": "this and let me just"
+          },
+          {
+            "cue_id": 801,
+            "start_ms": 2215480,
+            "end_ms": 2219359,
+            "text": "those you know you can cut cut off the"
+          },
+          {
+            "cue_id": 802,
+            "start_ms": 2216960,
+            "end_ms": 2222000,
+            "text": "rounded edges with some scissors and"
+          },
+          {
+            "cue_id": 829,
+            "start_ms": 2289319,
+            "end_ms": 2295000,
+            "text": "it's in frame and I just I need to"
+          },
+          {
+            "cue_id": 830,
+            "start_ms": 2291920,
+            "end_ms": 2295880,
+            "text": "figure out the best angle and the best"
+          },
+          {
+            "cue_id": 847,
+            "start_ms": 2335520,
+            "end_ms": 2371579,
+            "text": "watching"
+          },
+          {
+            "cue_id": 848,
+            "start_ms": 2336660,
+            "end_ms": 2371579,
+            "text": "[Music]"
+          }
+        ],
+        "text": "and just remember whatever I do you do\nnot have to use the same colors or\nlast year when we made that like 3ot\ntall Easter Bunny wreath I'll put a\njust to get it going right now I'm going\nto take this I'm going to pull my brown\nhere by our little\nback just a little bit right\nwrap my little Bunny's\nface push it back through that same ear\nthere all right once again just start\nI'm going to take is that long enough it\nsure is all right I'm going to put a\nto lock that into place and pull it as\ntight as I can you can also use um twine\nas you\nwant so okay now that I got this right\nwhatever ribbon that's going to to match\nyour Decor I've got everything right\nlay another little gam right here I'm\nlay this one across just like that once\nchange my ribbon out to match whatever I\nwant to do oh my goodness look how cute\npalette right here I want to paint M\nblack I'm just going to use black apple\nnow shuer but I\ncan't really just want to get it like\nall right so I got all that right there\nnow I'm going to take my napkin and I'm\nhands are stained all right so we got\nour little palette here our two little\ntop all right get this back on\nthere my gosh look how see that is all\nright y'all we are not\nback side of the carrot cuz like I said\nI'm not exactly sure what I'm doing with\nthing of hot glue for the end of my\nlittle tail right\ncarrots I'm I kind of line them up on\nhere not sure how many will look the\nto cool down a little\nbit holy moly look how cute that\nby\nitself I want to hot glue these little\nand I have more of these let's kind of\nPop those down into\nshoes and then look how cute that is oh\nmy goodness I love that that is\nof right now I love\nthis and let me just\nthose you know you can cut cut off the\nrounded edges with some scissors and\nit's in frame and I just I need to\nfigure out the best angle and the best\nwatching\n[Music]",
+        "text_tokens": 482,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_ms": 68520,
+          "end_ms": 81560,
+          "text": "for this cuz I have so many ideas um but and just remember whatever I do you do not have to use the same colors or ribbons or anything that I do I just"
+        },
+        {
+          "id": "S56",
+          "cue_ids": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "start_ms": 145800,
+          "end_ms": 158800,
+          "text": "fuzzy Yarn yeah I got this on Amazon last year when we made that like 3ot tall Easter Bunny wreath I'll put a picture right here um so I have mine"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "start_ms": 222000,
+          "end_ms": 236640,
+          "text": "all over it just kind of a little bit just to get it going right now I'm going to take this I'm going to pull my brown yarn right across that"
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115,
+            116,
+            117
+          ],
+          "start_ms": 300320,
+          "end_ms": 311960,
+          "text": "use a little bit of hot glue right up here by our little back just a little bit right there right I'm going to pull that into"
+        },
+        {
+          "id": "S143",
+          "cue_ids": [
+            143,
+            144,
+            145,
+            146
+          ],
+          "start_ms": 376800,
+          "end_ms": 391400,
+          "text": "off I'm going to continue to wrap my little Bunny's face push it back through that same ear pull that"
+        },
+        {
+          "id": "S190",
+          "cue_ids": [
+            190,
+            191
+          ],
+          "start_ms": 534399,
+          "end_ms": 541200,
+          "text": "there all right once again just start wrapping your ears"
+        },
+        {
+          "id": "S209",
+          "cue_ids": [
+            209,
+            210,
+            211,
+            212
+          ],
+          "start_ms": 605000,
+          "end_ms": 616800,
+          "text": "down here where you can also see plastic I'm going to take is that long enough it sure is all right I'm going to put a little hot glue right here on the bottom"
+        },
+        {
+          "id": "S239",
+          "cue_ids": [
+            239,
+            240,
+            241,
+            242
+          ],
+          "start_ms": 681959,
+          "end_ms": 697560,
+          "text": "around this and then I'm going to lock that into place and pull it as tight as I can you can also use um twine for this ribbon a rubber band all right"
+        },
+        {
+          "id": "S266",
+          "cue_ids": [
+            266,
+            267,
+            268,
+            269
+          ],
+          "start_ms": 758160,
+          "end_ms": 771760,
+          "text": "compact or as big or as fluffy whatever as you want so okay now that I got this right here all right y'all I am now going"
+        },
+        {
+          "id": "S296",
+          "cue_ids": [
+            296,
+            297,
+            298,
+            299
+          ],
+          "start_ms": 834720,
+          "end_ms": 847680,
+          "text": "bed all right so for your bow use whatever ribbon that's going to to match your Decor I've got everything right here I have is from Dollar Tree the"
+        },
+        {
+          "id": "S328",
+          "cue_ids": [
+            328,
+            329,
+            330,
+            331
+          ],
+          "start_ms": 909839,
+          "end_ms": 923720,
+          "text": "bit lay another little gam right here I'm lay this one across just like that once again I'm going to do a little gingham I"
+        },
+        {
+          "id": "S359",
+          "cue_ids": [
+            359,
+            360,
+            361,
+            362
+          ],
+          "start_ms": 987399,
+          "end_ms": 1001519,
+          "text": "back here now Now by doing that I can change my ribbon out to match whatever I want to do oh my goodness look how cute this is now we just have to clean it"
+        },
+        {
+          "id": "S384",
+          "cue_ids": [
+            384,
+            385,
+            386,
+            387
+          ],
+          "start_ms": 1063840,
+          "end_ms": 1076400,
+          "text": "right so we're going to take her little palette right here I want to paint M black I'm just going to use black apple Barrel paint you can use any color you"
+        },
+        {
+          "id": "S412",
+          "cue_ids": [
+            412,
+            413,
+            414,
+            415
+          ],
+          "start_ms": 1136600,
+          "end_ms": 1151440,
+          "text": "use sandpaper I cannot find mine right now shuer but I can't really just want to get it like distressed right see look how great that"
+        },
+        {
+          "id": "S443",
+          "cue_ids": [
+            443,
+            444,
+            445,
+            446
+          ],
+          "start_ms": 1216080,
+          "end_ms": 1226400,
+          "text": "it do the tips also like the ends of it all right so I got all that right there now I'm going to take my napkin and I'm just going to wipe it"
+        },
+        {
+          "id": "S473",
+          "cue_ids": [
+            473,
+            474,
+            475,
+            476
+          ],
+          "start_ms": 1291679,
+          "end_ms": 1305559,
+          "text": "using paint it washes right off your hands are stained all right so we got our little palette here our two little stained Dow rods I'm now going to turn"
+        },
+        {
+          "id": "S527",
+          "cue_ids": [
+            527,
+            528,
+            529
+          ],
+          "start_ms": 1446039,
+          "end_ms": 1462200,
+          "text": "way and going across the top all right get this back on here try to line it up really"
+        },
+        {
+          "id": "S554",
+          "cue_ids": [
+            554,
+            555,
+            556,
+            557
+          ],
+          "start_ms": 1522279,
+          "end_ms": 1536520,
+          "text": "picture all right that has glued on there my gosh look how see that is all right y'all we are not finished okay I loving this now I want"
+        },
+        {
+          "id": "S582",
+          "cue_ids": [
+            582,
+            583,
+            584,
+            585
+          ],
+          "start_ms": 1598440,
+          "end_ms": 1612120,
+          "text": "over and I'm also going to paint the back side of the carrot cuz like I said I'm not exactly sure what I'm doing with this just yet so paint that front and"
+        },
+        {
+          "id": "S612",
+          "cue_ids": [
+            612,
+            613,
+            614,
+            615
+          ],
+          "start_ms": 1675360,
+          "end_ms": 1687279,
+          "text": "tight kind of wrap that and put a little thing of hot glue for the end of my little tail right here kind of"
+        },
+        {
+          "id": "S638",
+          "cue_ids": [
+            638,
+            639,
+            640,
+            641
+          ],
+          "start_ms": 1750960,
+          "end_ms": 1763760,
+          "text": "what I want to do is our adorable little carrots I'm I kind of line them up on here not sure how many will look the best actually I want to get my best"
+        },
+        {
+          "id": "S662",
+          "cue_ids": [
+            662,
+            663,
+            664,
+            665
+          ],
+          "start_ms": 1831159,
+          "end_ms": 1847080,
+          "text": "hot glue kind of give it like a minute to cool down a little bit holy moly look how cute that is I love it oh my gosh all right let's"
+        },
+        {
+          "id": "S687",
+          "cue_ids": [
+            687,
+            688,
+            689,
+            690
+          ],
+          "start_ms": 1905799,
+          "end_ms": 1915880,
+          "text": "the top now it does not want to stand up by itself I want to hot glue these little cubes on the"
+        },
+        {
+          "id": "S712",
+          "cue_ids": [
+            712,
+            713,
+            714,
+            715
+          ],
+          "start_ms": 1981799,
+          "end_ms": 1993080,
+          "text": "pretty much the same so that is great and I have more of these let's kind of Pop those down into there now they have these little wood"
+        },
+        {
+          "id": "S742",
+          "cue_ids": [
+            742,
+            743,
+            744,
+            745
+          ],
+          "start_ms": 2054599,
+          "end_ms": 2072399,
+          "text": "I'm tying my shoes and then look how cute that is oh my goodness I love that that is adorable oh my gosh y'all these turned"
+        },
+        {
+          "id": "S770",
+          "cue_ids": [
+            770,
+            771,
+            772,
+            773
+          ],
+          "start_ms": 2132520,
+          "end_ms": 2148359,
+          "text": "little black button for its eye but as of right now I love this and let me just say this turned out so cute oh my"
+        },
+        {
+          "id": "S800",
+          "cue_ids": [
+            800,
+            801,
+            802,
+            803
+          ],
+          "start_ms": 2212040,
+          "end_ms": 2223920,
+          "text": "the doctor like a big popsicle stick use those you know you can cut cut off the rounded edges with some scissors and just use that and kind of build your own"
+        },
+        {
+          "id": "S828",
+          "cue_ids": [
+            828,
+            829,
+            830,
+            831
+          ],
+          "start_ms": 2286960,
+          "end_ms": 2298760,
+          "text": "it's hard for me to tell sometimes if it's in frame and I just I need to figure out the best angle and the best way to"
+        },
+        {
+          "id": "S846",
+          "cue_ids": [
+            846,
+            847,
+            848
+          ],
+          "start_ms": 2330319,
+          "end_ms": 2371579,
+          "text": "see y'all next time bye guys thanks for watching [Music]"
+        }
+      ],
+      "text": "S27 [00:01:08.520 --> 00:01:21.560] for this cuz I have so many ideas um but and just remember whatever I do you do not have to use the same colors or ribbons or anything that I do I just\nS56 [00:02:25.800 --> 00:02:38.800] fuzzy Yarn yeah I got this on Amazon last year when we made that like 3ot tall Easter Bunny wreath I'll put a picture right here um so I have mine\nS83 [00:03:42.000 --> 00:03:56.640] all over it just kind of a little bit just to get it going right now I'm going to take this I'm going to pull my brown yarn right across that\nS114 [00:05:00.320 --> 00:05:11.960] use a little bit of hot glue right up here by our little back just a little bit right there right I'm going to pull that into\nS143 [00:06:16.800 --> 00:06:31.400] off I'm going to continue to wrap my little Bunny's face push it back through that same ear pull that\nS190 [00:08:54.399 --> 00:09:01.200] there all right once again just start wrapping your ears\nS209 [00:10:05.000 --> 00:10:16.800] down here where you can also see plastic I'm going to take is that long enough it sure is all right I'm going to put a little hot glue right here on the bottom\nS239 [00:11:21.959 --> 00:11:37.560] around this and then I'm going to lock that into place and pull it as tight as I can you can also use um twine for this ribbon a rubber band all right\nS266 [00:12:38.160 --> 00:12:51.760] compact or as big or as fluffy whatever as you want so okay now that I got this right here all right y'all I am now going\nS296 [00:13:54.720 --> 00:14:07.680] bed all right so for your bow use whatever ribbon that's going to to match your Decor I've got everything right here I have is from Dollar Tree the\nS328 [00:15:09.839 --> 00:15:23.720] bit lay another little gam right here I'm lay this one across just like that once again I'm going to do a little gingham I\nS359 [00:16:27.399 --> 00:16:41.519] back here now Now by doing that I can change my ribbon out to match whatever I want to do oh my goodness look how cute this is now we just have to clean it\nS384 [00:17:43.840 --> 00:17:56.400] right so we're going to take her little palette right here I want to paint M black I'm just going to use black apple Barrel paint you can use any color you\nS412 [00:18:56.600 --> 00:19:11.440] use sandpaper I cannot find mine right now shuer but I can't really just want to get it like distressed right see look how great that\nS443 [00:20:16.080 --> 00:20:26.400] it do the tips also like the ends of it all right so I got all that right there now I'm going to take my napkin and I'm just going to wipe it\nS473 [00:21:31.679 --> 00:21:45.559] using paint it washes right off your hands are stained all right so we got our little palette here our two little stained Dow rods I'm now going to turn\nS527 [00:24:06.039 --> 00:24:22.200] way and going across the top all right get this back on here try to line it up really\nS554 [00:25:22.279 --> 00:25:36.520] picture all right that has glued on there my gosh look how see that is all right y'all we are not finished okay I loving this now I want\nS582 [00:26:38.440 --> 00:26:52.120] over and I'm also going to paint the back side of the carrot cuz like I said I'm not exactly sure what I'm doing with this just yet so paint that front and\nS612 [00:27:55.360 --> 00:28:07.279] tight kind of wrap that and put a little thing of hot glue for the end of my little tail right here kind of\nS638 [00:29:10.960 --> 00:29:23.760] what I want to do is our adorable little carrots I'm I kind of line them up on here not sure how many will look the best actually I want to get my best\nS662 [00:30:31.159 --> 00:30:47.080] hot glue kind of give it like a minute to cool down a little bit holy moly look how cute that is I love it oh my gosh all right let's\nS687 [00:31:45.799 --> 00:31:55.880] the top now it does not want to stand up by itself I want to hot glue these little cubes on the\nS712 [00:33:01.799 --> 00:33:13.080] pretty much the same so that is great and I have more of these let's kind of Pop those down into there now they have these little wood\nS742 [00:34:14.599 --> 00:34:32.399] I'm tying my shoes and then look how cute that is oh my goodness I love that that is adorable oh my gosh y'all these turned\nS770 [00:35:32.520 --> 00:35:48.359] little black button for its eye but as of right now I love this and let me just say this turned out so cute oh my\nS800 [00:36:52.040 --> 00:37:03.920] the doctor like a big popsicle stick use those you know you can cut cut off the rounded edges with some scissors and just use that and kind of build your own\nS828 [00:38:06.960 --> 00:38:18.760] it's hard for me to tell sometimes if it's in frame and I just I need to figure out the best angle and the best way to\nS846 [00:38:50.319 --> 00:39:31.579] see y'all next time bye guys thanks for watching [Music]",
+      "text_tokens": 1801,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        27,
+        30,
+        56,
+        59,
+        83,
+        86,
+        114,
+        117,
+        143,
+        146,
+        191,
+        209,
+        212,
+        239,
+        242,
+        266,
+        269,
+        296,
+        299,
+        328,
+        331,
+        359,
+        362,
+        384,
+        387,
+        412,
+        415,
+        443,
+        446,
+        473,
+        476,
+        527,
+        529,
+        554,
+        557,
+        582,
+        585,
+        612,
+        615,
+        638,
+        641,
+        662,
+        665,
+        687,
+        690,
+        712,
+        715,
+        742,
+        745,
+        770,
+        773,
+        800,
+        803,
+        828,
+        831,
+        846
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f9dd6e55d94ec160d1235384f95d3d79fd7af6ea8f3837489c95447077a9ca39"
+}

@@ -1,0 +1,692 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "cy40DIzOUow",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/cy40DIzOUow.srt",
+        "status": "available",
+        "bytes": 27802,
+        "sha256": "1f6e0f1df20e7cf5dd0f5e5d970bd5a132b49442a2bc4cced7c5a74200e5868f",
+        "cues": 296,
+        "nonempty_cues": 296
+      },
+      "frame_indices": [
+        0,
+        1855,
+        3710,
+        5565,
+        7421,
+        9276,
+        11131,
+        12986,
+        14841,
+        16696,
+        18552,
+        20407,
+        22262,
+        24117,
+        25972,
+        27827,
+        29683,
+        31538,
+        33393,
+        35248,
+        37103,
+        38958,
+        40814,
+        42669,
+        44524,
+        46379,
+        48234,
+        50089,
+        51945,
+        53800,
+        55655,
+        57510
+      ],
+      "frame_seconds": [
+        0.0,
+        61.895167,
+        123.790333,
+        185.6855,
+        247.614033,
+        309.5092,
+        371.404367,
+        433.299533,
+        495.1947,
+        557.089867,
+        619.0184,
+        680.9135670000001,
+        742.808733,
+        804.7039,
+        866.599067,
+        928.494233,
+        990.422767,
+        1052.317933,
+        1114.2131,
+        1176.108267,
+        1238.003433,
+        1299.8986,
+        1361.827133,
+        1423.7223,
+        1485.617467,
+        1547.512633,
+        1609.4078,
+        1671.302967,
+        1733.2315,
+        1795.126667,
+        1857.021833,
+        1918.917
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          40
+        ],
+        [],
+        [],
+        [],
+        [
+          72
+        ],
+        [],
+        [
+          87,
+          88
+        ],
+        [],
+        [],
+        [
+          119,
+          120
+        ],
+        [],
+        [
+          135
+        ],
+        [],
+        [],
+        [
+          156
+        ],
+        [],
+        [],
+        [
+          189,
+          190
+        ],
+        [],
+        [
+          212,
+          213
+        ],
+        [],
+        [
+          237
+        ],
+        [
+          241
+        ],
+        [],
+        [],
+        [],
+        [
+          280,
+          281
+        ],
+        [
+          289,
+          290
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 3240,
+          "text": "all right y'all boys we're here for game"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 183540,
+          "end_ms": 186019,
+          "text": "okay"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 430979,
+          "end_ms": 434900,
+          "text": "come up come up come up come up come on"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 553580,
+          "end_ms": 557160,
+          "text": "they're getting too many Second Chance"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 555300,
+          "end_ms": 559140,
+          "text": "points y'all boys we have to box out we"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 741480,
+          "end_ms": 744120,
+          "text": "stop we played good possession for like"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 742680,
+          "end_ms": 745920,
+          "text": "20 seconds then they hit an open three"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 866220,
+          "end_ms": 868579,
+          "text": "again"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 1051280,
+          "end_ms": 1056299,
+          "text": "off inbound if they're right here don't"
+        },
+        {
+          "cue_id": 189,
+          "start_ms": 1235299,
+          "end_ms": 1241000,
+          "text": "right here"
+        },
+        {
+          "cue_id": 190,
+          "start_ms": 1237640,
+          "end_ms": 1241000,
+          "text": "okay okay"
+        },
+        {
+          "cue_id": 212,
+          "start_ms": 1360320,
+          "end_ms": 1364299,
+          "text": "team he's the only person scoring every"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 1361700,
+          "end_ms": 1364299,
+          "text": "time they go down"
+        },
+        {
+          "cue_id": 237,
+          "start_ms": 1482740,
+          "end_ms": 1487849,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 1545600,
+          "end_ms": 1548600,
+          "text": "everybody"
+        },
+        {
+          "cue_id": 280,
+          "start_ms": 1789760,
+          "end_ms": 1796100,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 281,
+          "start_ms": 1792760,
+          "end_ms": 1798460,
+          "text": "d2b they're little that's a [ __ ]"
+        },
+        {
+          "cue_id": 289,
+          "start_ms": 1855559,
+          "end_ms": 1857360,
+          "text": "okay"
+        },
+        {
+          "cue_id": 290,
+          "start_ms": 1856970,
+          "end_ms": 1859360,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "all right y'all boys we're here for game\nokay\ncome up come up come up come up come on\nthey're getting too many Second Chance\npoints y'all boys we have to box out we\nstop we played good possession for like\n20 seconds then they hit an open three\nagain\noff inbound if they're right here don't\nright here\nokay okay\nteam he's the only person scoring every\ntime they go down\n[Applause]\neverybody\n[Applause]\nd2b they're little that's a [ __ ]\nokay\n[Applause]",
+      "text_tokens": 125,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "cy40DIzOUow",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/cy40DIzOUow.srt",
+          "status": "available",
+          "bytes": 27802,
+          "sha256": "1f6e0f1df20e7cf5dd0f5e5d970bd5a132b49442a2bc4cced7c5a74200e5868f",
+          "cues": 296,
+          "nonempty_cues": 296
+        },
+        "frame_indices": [
+          0,
+          1855,
+          3710,
+          5565,
+          7421,
+          9276,
+          11131,
+          12986,
+          14841,
+          16696,
+          18552,
+          20407,
+          22262,
+          24117,
+          25972,
+          27827,
+          29683,
+          31538,
+          33393,
+          35248,
+          37103,
+          38958,
+          40814,
+          42669,
+          44524,
+          46379,
+          48234,
+          50089,
+          51945,
+          53800,
+          55655,
+          57510
+        ],
+        "frame_seconds": [
+          0.0,
+          61.895167,
+          123.790333,
+          185.6855,
+          247.614033,
+          309.5092,
+          371.404367,
+          433.299533,
+          495.1947,
+          557.089867,
+          619.0184,
+          680.9135670000001,
+          742.808733,
+          804.7039,
+          866.599067,
+          928.494233,
+          990.422767,
+          1052.317933,
+          1114.2131,
+          1176.108267,
+          1238.003433,
+          1299.8986,
+          1361.827133,
+          1423.7223,
+          1485.617467,
+          1547.512633,
+          1609.4078,
+          1671.302967,
+          1733.2315,
+          1795.126667,
+          1857.021833,
+          1918.917
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [],
+          [],
+          [
+            40
+          ],
+          [],
+          [],
+          [],
+          [
+            72
+          ],
+          [],
+          [
+            87,
+            88
+          ],
+          [],
+          [],
+          [
+            119,
+            120
+          ],
+          [],
+          [
+            135
+          ],
+          [],
+          [],
+          [
+            156
+          ],
+          [],
+          [],
+          [
+            189,
+            190
+          ],
+          [],
+          [
+            212,
+            213
+          ],
+          [],
+          [
+            237
+          ],
+          [
+            241
+          ],
+          [],
+          [],
+          [],
+          [
+            280,
+            281
+          ],
+          [
+            289,
+            290
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 3240,
+            "text": "all right y'all boys we're here for game"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 183540,
+            "end_ms": 186019,
+            "text": "okay"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 430979,
+            "end_ms": 434900,
+            "text": "come up come up come up come up come on"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 553580,
+            "end_ms": 557160,
+            "text": "they're getting too many Second Chance"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 555300,
+            "end_ms": 559140,
+            "text": "points y'all boys we have to box out we"
+          },
+          {
+            "cue_id": 119,
+            "start_ms": 741480,
+            "end_ms": 744120,
+            "text": "stop we played good possession for like"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 742680,
+            "end_ms": 745920,
+            "text": "20 seconds then they hit an open three"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 866220,
+            "end_ms": 868579,
+            "text": "again"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 1051280,
+            "end_ms": 1056299,
+            "text": "off inbound if they're right here don't"
+          },
+          {
+            "cue_id": 189,
+            "start_ms": 1235299,
+            "end_ms": 1241000,
+            "text": "right here"
+          },
+          {
+            "cue_id": 190,
+            "start_ms": 1237640,
+            "end_ms": 1241000,
+            "text": "okay okay"
+          },
+          {
+            "cue_id": 212,
+            "start_ms": 1360320,
+            "end_ms": 1364299,
+            "text": "team he's the only person scoring every"
+          },
+          {
+            "cue_id": 213,
+            "start_ms": 1361700,
+            "end_ms": 1364299,
+            "text": "time they go down"
+          },
+          {
+            "cue_id": 237,
+            "start_ms": 1482740,
+            "end_ms": 1487849,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 1545600,
+            "end_ms": 1548600,
+            "text": "everybody"
+          },
+          {
+            "cue_id": 280,
+            "start_ms": 1789760,
+            "end_ms": 1796100,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 281,
+            "start_ms": 1792760,
+            "end_ms": 1798460,
+            "text": "d2b they're little that's a [ __ ]"
+          },
+          {
+            "cue_id": 289,
+            "start_ms": 1855559,
+            "end_ms": 1857360,
+            "text": "okay"
+          },
+          {
+            "cue_id": 290,
+            "start_ms": 1856970,
+            "end_ms": 1859360,
+            "text": "[Applause]"
+          }
+        ],
+        "text": "all right y'all boys we're here for game\nokay\ncome up come up come up come up come on\nthey're getting too many Second Chance\npoints y'all boys we have to box out we\nstop we played good possession for like\n20 seconds then they hit an open three\nagain\noff inbound if they're right here don't\nright here\nokay okay\nteam he's the only person scoring every\ntime they go down\n[Applause]\neverybody\n[Applause]\nd2b they're little that's a [ __ ]\nokay\n[Applause]",
+        "text_tokens": 125,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 5520,
+          "text": "all right y'all boys we're here for game two"
+        },
+        {
+          "id": "S40",
+          "cue_ids": [
+            40
+          ],
+          "start_ms": 183540,
+          "end_ms": 186019,
+          "text": "okay"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72
+          ],
+          "start_ms": 430979,
+          "end_ms": 434900,
+          "text": "come up come up come up come up come on"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87,
+            88,
+            89
+          ],
+          "start_ms": 553580,
+          "end_ms": 562880,
+          "text": "they're getting too many Second Chance points y'all boys we have to box out we gotta stop ball watching every all five"
+        },
+        {
+          "id": "S118",
+          "cue_ids": [
+            118,
+            119,
+            120,
+            121
+          ],
+          "start_ms": 740220,
+          "end_ms": 748519,
+          "text": "get a stop all right we need to get a stop we played good possession for like 20 seconds then they hit an open three weeks to play Hope come on man I got you"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135
+          ],
+          "start_ms": 866220,
+          "end_ms": 868579,
+          "text": "again"
+        },
+        {
+          "id": "S156",
+          "cue_ids": [
+            156,
+            157
+          ],
+          "start_ms": 1051280,
+          "end_ms": 1058100,
+          "text": "off inbound if they're right here don't trap right here wait till they get right"
+        },
+        {
+          "id": "S188",
+          "cue_ids": [
+            188,
+            189,
+            190,
+            191
+          ],
+          "start_ms": 1231280,
+          "end_ms": 1245250,
+          "text": "that's funny right here okay okay [Music]"
+        },
+        {
+          "id": "S211",
+          "cue_ids": [
+            211,
+            212,
+            213
+          ],
+          "start_ms": 1358940,
+          "end_ms": 1364299,
+          "text": "whoever the best defenders just stay on team he's the only person scoring every time they go down"
+        },
+        {
+          "id": "S237",
+          "cue_ids": [
+            237
+          ],
+          "start_ms": 1482740,
+          "end_ms": 1487849,
+          "text": "[Applause]"
+        },
+        {
+          "id": "S241",
+          "cue_ids": [
+            241
+          ],
+          "start_ms": 1545600,
+          "end_ms": 1548600,
+          "text": "everybody"
+        },
+        {
+          "id": "S279",
+          "cue_ids": [
+            279,
+            280,
+            281,
+            282
+          ],
+          "start_ms": 1785799,
+          "end_ms": 1798460,
+          "text": "oh boy [Applause] d2b they're little that's a [ __ ] Gerber"
+        },
+        {
+          "id": "S289",
+          "cue_ids": [
+            289,
+            290,
+            291
+          ],
+          "start_ms": 1855559,
+          "end_ms": 1859360,
+          "text": "okay [Applause] okay"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:05.520] all right y'all boys we're here for game two\nS40 [00:03:03.540 --> 00:03:06.019] okay\nS72 [00:07:10.979 --> 00:07:14.900] come up come up come up come up come on\nS87 [00:09:13.580 --> 00:09:22.880] they're getting too many Second Chance points y'all boys we have to box out we gotta stop ball watching every all five\nS118 [00:12:20.220 --> 00:12:28.519] get a stop all right we need to get a stop we played good possession for like 20 seconds then they hit an open three weeks to play Hope come on man I got you\nS135 [00:14:26.220 --> 00:14:28.579] again\nS156 [00:17:31.280 --> 00:17:38.100] off inbound if they're right here don't trap right here wait till they get right\nS188 [00:20:31.280 --> 00:20:45.250] that's funny right here okay okay [Music]\nS211 [00:22:38.940 --> 00:22:44.299] whoever the best defenders just stay on team he's the only person scoring every time they go down\nS237 [00:24:42.740 --> 00:24:47.849] [Applause]\nS241 [00:25:45.600 --> 00:25:48.600] everybody\nS279 [00:29:45.799 --> 00:29:58.460] oh boy [Applause] d2b they're little that's a [ __ ] Gerber\nS289 [00:30:55.559 --> 00:30:59.360] okay [Applause] okay",
+      "text_tokens": 585,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        89,
+        118,
+        121,
+        157,
+        188,
+        191,
+        211,
+        279,
+        282,
+        291
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ab97237663a87f96be647cc0201d36acfdbf653cc422f81282da608520e62d6d"
+}

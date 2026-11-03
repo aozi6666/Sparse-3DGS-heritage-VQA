@@ -1,0 +1,1600 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "4iC9Qi3y9q8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4iC9Qi3y9q8.srt",
+        "status": "available",
+        "bytes": 85727,
+        "sha256": "a8e8fb4761ca07f836cf3d874f25dc1557c23ca01f974ebac4ba5d9deae89a6f",
+        "cues": 808,
+        "nonempty_cues": 808
+      },
+      "frame_indices": [
+        0,
+        1925,
+        3851,
+        5776,
+        7702,
+        9627,
+        11553,
+        13478,
+        15404,
+        17329,
+        19255,
+        21180,
+        23105,
+        25031,
+        26956,
+        28882,
+        30807,
+        32733,
+        34658,
+        36584,
+        38509,
+        40434,
+        42360,
+        44285,
+        46211,
+        48136,
+        50062,
+        51987,
+        53913,
+        55838,
+        57764,
+        59689
+      ],
+      "frame_seconds": [
+        0.0,
+        64.230833,
+        128.495033,
+        192.725867,
+        256.990067,
+        321.22090000000003,
+        385.4851,
+        449.715933,
+        513.980133,
+        578.210967,
+        642.475167,
+        706.706,
+        770.936833,
+        835.201033,
+        899.431867,
+        963.696067,
+        1027.9269,
+        1092.1911,
+        1156.421933,
+        1220.686133,
+        1284.916967,
+        1349.1478,
+        1413.412,
+        1477.642833,
+        1541.907033,
+        1606.137867,
+        1670.402067,
+        1734.6329,
+        1798.8971,
+        1863.127933,
+        1927.392133,
+        1991.622967
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          18,
+          19
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          80,
+          81
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          136,
+          137
+        ],
+        [
+          166,
+          167
+        ],
+        [
+          194,
+          195
+        ],
+        [
+          221,
+          222
+        ],
+        [
+          246,
+          247
+        ],
+        [
+          272,
+          273
+        ],
+        [
+          298,
+          299
+        ],
+        [
+          325,
+          326
+        ],
+        [
+          354,
+          355
+        ],
+        [
+          383,
+          384
+        ],
+        [
+          410,
+          411
+        ],
+        [
+          438,
+          439
+        ],
+        [
+          464,
+          465
+        ],
+        [
+          490,
+          491
+        ],
+        [
+          517,
+          518
+        ],
+        [
+          546,
+          547
+        ],
+        [
+          573,
+          574
+        ],
+        [
+          603,
+          604
+        ],
+        [
+          628,
+          629
+        ],
+        [
+          656,
+          657
+        ],
+        [
+          683,
+          684
+        ],
+        [
+          712,
+          713
+        ],
+        [
+          738,
+          739
+        ],
+        [
+          764,
+          765
+        ],
+        [
+          791,
+          792
+        ],
+        [
+          808
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 18,
+          "start_ms": 60640,
+          "end_ms": 64559,
+          "text": "universe in fact"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 63280,
+          "end_ms": 67280,
+          "text": "but why"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 125520,
+          "end_ms": 129759,
+          "text": "unprecedented scale"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 127520,
+          "end_ms": 133200,
+          "text": "which could be hundreds thousands or"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 188879,
+          "end_ms": 192959,
+          "text": "time is the constant flow of cause to"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 190720,
+          "end_ms": 195840,
+          "text": "effect within this space"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 254879,
+          "end_ms": 258399,
+          "text": "general relativity"
+        },
+        {
+          "cue_id": 81,
+          "start_ms": 256560,
+          "end_ms": 262959,
+          "text": "a comprehensive interpretation of"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 319360,
+          "end_ms": 323680,
+          "text": "our understanding of the latter owes to"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 321199,
+          "end_ms": 325840,
+          "text": "this man edwin hubble"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 383199,
+          "end_ms": 387919,
+          "text": "theories and the work of some other"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 385120,
+          "end_ms": 390479,
+          "text": "great scientists have all fed into our"
+        },
+        {
+          "cue_id": 166,
+          "start_ms": 446000,
+          "end_ms": 450319,
+          "text": "the time proceeding crosses into the"
+        },
+        {
+          "cue_id": 167,
+          "start_ms": 447840,
+          "end_ms": 452400,
+          "text": "untestable realms of physics but we"
+        },
+        {
+          "cue_id": 194,
+          "start_ms": 511759,
+          "end_ms": 515039,
+          "text": "and from there decayed into the first"
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 513760,
+          "end_ms": 517279,
+          "text": "particles"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 575120,
+          "end_ms": 579920,
+          "text": "light travels at just under 300 000"
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 578000,
+          "end_ms": 582480,
+          "text": "kilometers per second"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 639839,
+          "end_ms": 643760,
+          "text": "back we are looking in time"
+        },
+        {
+          "cue_id": 247,
+          "start_ms": 642160,
+          "end_ms": 646399,
+          "text": "through the different stages of the"
+        },
+        {
+          "cue_id": 272,
+          "start_ms": 702480,
+          "end_ms": 707040,
+          "text": "much younger universe that has been"
+        },
+        {
+          "cue_id": 273,
+          "start_ms": 704160,
+          "end_ms": 709200,
+          "text": "constantly changing and evolving"
+        },
+        {
+          "cue_id": 298,
+          "start_ms": 768240,
+          "end_ms": 772480,
+          "text": "the deep field image was created by"
+        },
+        {
+          "cue_id": 299,
+          "start_ms": 770320,
+          "end_ms": 774720,
+          "text": "focusing the telescope's instruments on"
+        },
+        {
+          "cue_id": 325,
+          "start_ms": 831920,
+          "end_ms": 836800,
+          "text": "contained within this tiny pin-sized"
+        },
+        {
+          "cue_id": 326,
+          "start_ms": 834079,
+          "end_ms": 839680,
+          "text": "segment of the sky are over 3000"
+        },
+        {
+          "cue_id": 354,
+          "start_ms": 896880,
+          "end_ms": 900480,
+          "text": "galaxies"
+        },
+        {
+          "cue_id": 355,
+          "start_ms": 898639,
+          "end_ms": 902959,
+          "text": "and after billions of years of star"
+        },
+        {
+          "cue_id": 383,
+          "start_ms": 959440,
+          "end_ms": 964639,
+          "text": "ultra deep field the deepest photograph"
+        },
+        {
+          "cue_id": 384,
+          "start_ms": 962320,
+          "end_ms": 968560,
+          "text": "of the universe ever taken from the"
+        },
+        {
+          "cue_id": 410,
+          "start_ms": 1024880,
+          "end_ms": 1029439,
+          "text": "cosmic expansion"
+        },
+        {
+          "cue_id": 411,
+          "start_ms": 1026959,
+          "end_ms": 1032240,
+          "text": "the discovery that the universe itself"
+        },
+        {
+          "cue_id": 438,
+          "start_ms": 1088160,
+          "end_ms": 1092880,
+          "text": "rather than expanding"
+        },
+        {
+          "cue_id": 439,
+          "start_ms": 1091120,
+          "end_ms": 1094960,
+          "text": "because all objects are getting further"
+        },
+        {
+          "cue_id": 464,
+          "start_ms": 1152240,
+          "end_ms": 1156640,
+          "text": "indefinitely without meeting an edge"
+        },
+        {
+          "cue_id": 465,
+          "start_ms": 1155120,
+          "end_ms": 1158960,
+          "text": "much like if you were to fly an"
+        },
+        {
+          "cue_id": 490,
+          "start_ms": 1217440,
+          "end_ms": 1222320,
+          "text": "because the universe is expanding at all"
+        },
+        {
+          "cue_id": 491,
+          "start_ms": 1219840,
+          "end_ms": 1224960,
+          "text": "places at once as the light emitted from"
+        },
+        {
+          "cue_id": 517,
+          "start_ms": 1279600,
+          "end_ms": 1284960,
+          "text": "kilometers per second"
+        },
+        {
+          "cue_id": 518,
+          "start_ms": 1282640,
+          "end_ms": 1286799,
+          "text": "because light speed is limited to about"
+        },
+        {
+          "cue_id": 546,
+          "start_ms": 1345360,
+          "end_ms": 1350240,
+          "text": "light has time to pass through the solar"
+        },
+        {
+          "cue_id": 547,
+          "start_ms": 1347280,
+          "end_ms": 1352240,
+          "text": "system and the observable universe grows"
+        },
+        {
+          "cue_id": 573,
+          "start_ms": 1409120,
+          "end_ms": 1413919,
+          "text": "ultra deep field have now receded to in"
+        },
+        {
+          "cue_id": 574,
+          "start_ms": 1411600,
+          "end_ms": 1415760,
+          "text": "excess of 40 billion light years away"
+        },
+        {
+          "cue_id": 603,
+          "start_ms": 1472960,
+          "end_ms": 1478400,
+          "text": "maths and science here but in short the"
+        },
+        {
+          "cue_id": 604,
+          "start_ms": 1476080,
+          "end_ms": 1481600,
+          "text": "best estimate we have so far"
+        },
+        {
+          "cue_id": 628,
+          "start_ms": 1538000,
+          "end_ms": 1542320,
+          "text": "expansion is one of the most important"
+        },
+        {
+          "cue_id": 629,
+          "start_ms": 1540080,
+          "end_ms": 1544960,
+          "text": "discoveries ever but we still didn't"
+        },
+        {
+          "cue_id": 656,
+          "start_ms": 1602640,
+          "end_ms": 1607440,
+          "text": "distances would be to take something"
+        },
+        {
+          "cue_id": 657,
+          "start_ms": 1604640,
+          "end_ms": 1610240,
+          "text": "with a known absolute magnitude known as"
+        },
+        {
+          "cue_id": 683,
+          "start_ms": 1666159,
+          "end_ms": 1670640,
+          "text": "it's as if the universe has expanded"
+        },
+        {
+          "cue_id": 684,
+          "start_ms": 1668159,
+          "end_ms": 1675039,
+          "text": "more in the latter half of its life"
+        },
+        {
+          "cue_id": 712,
+          "start_ms": 1731679,
+          "end_ms": 1736399,
+          "text": "that behaves inversely to gravity which"
+        },
+        {
+          "cue_id": 713,
+          "start_ms": 1734240,
+          "end_ms": 1739440,
+          "text": "is aiding the universe's expansion"
+        },
+        {
+          "cue_id": 738,
+          "start_ms": 1794559,
+          "end_ms": 1799039,
+          "text": "thus there came a tipping point around 4"
+        },
+        {
+          "cue_id": 739,
+          "start_ms": 1796720,
+          "end_ms": 1802000,
+          "text": "billion years ago where the density of"
+        },
+        {
+          "cue_id": 764,
+          "start_ms": 1860240,
+          "end_ms": 1864320,
+          "text": "gradually galaxies at the edge of the"
+        },
+        {
+          "cue_id": 765,
+          "start_ms": 1862720,
+          "end_ms": 1866480,
+          "text": "observable universe will start"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 1923360,
+          "end_ms": 1930080,
+          "text": "gone out or exploded bringing the"
+        },
+        {
+          "cue_id": 792,
+          "start_ms": 1925679,
+          "end_ms": 1932320,
+          "text": "universe into a second eternal dark age"
+        },
+        {
+          "cue_id": 808,
+          "start_ms": 1991440,
+          "end_ms": 1993519,
+          "text": "you"
+        }
+      ],
+      "text": "universe in fact\nbut why\nunprecedented scale\nwhich could be hundreds thousands or\ntime is the constant flow of cause to\neffect within this space\ngeneral relativity\na comprehensive interpretation of\nour understanding of the latter owes to\nthis man edwin hubble\ntheories and the work of some other\ngreat scientists have all fed into our\nthe time proceeding crosses into the\nuntestable realms of physics but we\nand from there decayed into the first\nparticles\nlight travels at just under 300 000\nkilometers per second\nback we are looking in time\nthrough the different stages of the\nmuch younger universe that has been\nconstantly changing and evolving\nthe deep field image was created by\nfocusing the telescope's instruments on\ncontained within this tiny pin-sized\nsegment of the sky are over 3000\ngalaxies\nand after billions of years of star\nultra deep field the deepest photograph\nof the universe ever taken from the\ncosmic expansion\nthe discovery that the universe itself\nrather than expanding\nbecause all objects are getting further\nindefinitely without meeting an edge\nmuch like if you were to fly an\nbecause the universe is expanding at all\nplaces at once as the light emitted from\nkilometers per second\nbecause light speed is limited to about\nlight has time to pass through the solar\nsystem and the observable universe grows\nultra deep field have now receded to in\nexcess of 40 billion light years away\nmaths and science here but in short the\nbest estimate we have so far\nexpansion is one of the most important\ndiscoveries ever but we still didn't\ndistances would be to take something\nwith a known absolute magnitude known as\nit's as if the universe has expanded\nmore in the latter half of its life\nthat behaves inversely to gravity which\nis aiding the universe's expansion\nthus there came a tipping point around 4\nbillion years ago where the density of\ngradually galaxies at the edge of the\nobservable universe will start\ngone out or exploded bringing the\nuniverse into a second eternal dark age\nyou",
+      "text_tokens": 450,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "4iC9Qi3y9q8",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4iC9Qi3y9q8.srt",
+          "status": "available",
+          "bytes": 85727,
+          "sha256": "a8e8fb4761ca07f836cf3d874f25dc1557c23ca01f974ebac4ba5d9deae89a6f",
+          "cues": 808,
+          "nonempty_cues": 808
+        },
+        "frame_indices": [
+          0,
+          1925,
+          3851,
+          5776,
+          7702,
+          9627,
+          11553,
+          13478,
+          15404,
+          17329,
+          19255,
+          21180,
+          23105,
+          25031,
+          26956,
+          28882,
+          30807,
+          32733,
+          34658,
+          36584,
+          38509,
+          40434,
+          42360,
+          44285,
+          46211,
+          48136,
+          50062,
+          51987,
+          53913,
+          55838,
+          57764,
+          59689
+        ],
+        "frame_seconds": [
+          0.0,
+          64.230833,
+          128.495033,
+          192.725867,
+          256.990067,
+          321.22090000000003,
+          385.4851,
+          449.715933,
+          513.980133,
+          578.210967,
+          642.475167,
+          706.706,
+          770.936833,
+          835.201033,
+          899.431867,
+          963.696067,
+          1027.9269,
+          1092.1911,
+          1156.421933,
+          1220.686133,
+          1284.916967,
+          1349.1478,
+          1413.412,
+          1477.642833,
+          1541.907033,
+          1606.137867,
+          1670.402067,
+          1734.6329,
+          1798.8971,
+          1863.127933,
+          1927.392133,
+          1991.622967
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            18,
+            19
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            80,
+            81
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            136,
+            137
+          ],
+          [
+            166,
+            167
+          ],
+          [
+            194,
+            195
+          ],
+          [
+            221,
+            222
+          ],
+          [
+            246,
+            247
+          ],
+          [
+            272,
+            273
+          ],
+          [
+            298,
+            299
+          ],
+          [
+            325,
+            326
+          ],
+          [
+            354,
+            355
+          ],
+          [
+            383,
+            384
+          ],
+          [
+            410,
+            411
+          ],
+          [
+            438,
+            439
+          ],
+          [
+            464,
+            465
+          ],
+          [
+            490,
+            491
+          ],
+          [
+            517,
+            518
+          ],
+          [
+            546,
+            547
+          ],
+          [
+            573,
+            574
+          ],
+          [
+            603,
+            604
+          ],
+          [
+            628,
+            629
+          ],
+          [
+            656,
+            657
+          ],
+          [
+            683,
+            684
+          ],
+          [
+            712,
+            713
+          ],
+          [
+            738,
+            739
+          ],
+          [
+            764,
+            765
+          ],
+          [
+            791,
+            792
+          ],
+          [
+            808
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 18,
+            "start_ms": 60640,
+            "end_ms": 64559,
+            "text": "universe in fact"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 63280,
+            "end_ms": 67280,
+            "text": "but why"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 125520,
+            "end_ms": 129759,
+            "text": "unprecedented scale"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 127520,
+            "end_ms": 133200,
+            "text": "which could be hundreds thousands or"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 188879,
+            "end_ms": 192959,
+            "text": "time is the constant flow of cause to"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 190720,
+            "end_ms": 195840,
+            "text": "effect within this space"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 254879,
+            "end_ms": 258399,
+            "text": "general relativity"
+          },
+          {
+            "cue_id": 81,
+            "start_ms": 256560,
+            "end_ms": 262959,
+            "text": "a comprehensive interpretation of"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 319360,
+            "end_ms": 323680,
+            "text": "our understanding of the latter owes to"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 321199,
+            "end_ms": 325840,
+            "text": "this man edwin hubble"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 383199,
+            "end_ms": 387919,
+            "text": "theories and the work of some other"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 385120,
+            "end_ms": 390479,
+            "text": "great scientists have all fed into our"
+          },
+          {
+            "cue_id": 166,
+            "start_ms": 446000,
+            "end_ms": 450319,
+            "text": "the time proceeding crosses into the"
+          },
+          {
+            "cue_id": 167,
+            "start_ms": 447840,
+            "end_ms": 452400,
+            "text": "untestable realms of physics but we"
+          },
+          {
+            "cue_id": 194,
+            "start_ms": 511759,
+            "end_ms": 515039,
+            "text": "and from there decayed into the first"
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 513760,
+            "end_ms": 517279,
+            "text": "particles"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 575120,
+            "end_ms": 579920,
+            "text": "light travels at just under 300 000"
+          },
+          {
+            "cue_id": 222,
+            "start_ms": 578000,
+            "end_ms": 582480,
+            "text": "kilometers per second"
+          },
+          {
+            "cue_id": 246,
+            "start_ms": 639839,
+            "end_ms": 643760,
+            "text": "back we are looking in time"
+          },
+          {
+            "cue_id": 247,
+            "start_ms": 642160,
+            "end_ms": 646399,
+            "text": "through the different stages of the"
+          },
+          {
+            "cue_id": 272,
+            "start_ms": 702480,
+            "end_ms": 707040,
+            "text": "much younger universe that has been"
+          },
+          {
+            "cue_id": 273,
+            "start_ms": 704160,
+            "end_ms": 709200,
+            "text": "constantly changing and evolving"
+          },
+          {
+            "cue_id": 298,
+            "start_ms": 768240,
+            "end_ms": 772480,
+            "text": "the deep field image was created by"
+          },
+          {
+            "cue_id": 299,
+            "start_ms": 770320,
+            "end_ms": 774720,
+            "text": "focusing the telescope's instruments on"
+          },
+          {
+            "cue_id": 325,
+            "start_ms": 831920,
+            "end_ms": 836800,
+            "text": "contained within this tiny pin-sized"
+          },
+          {
+            "cue_id": 326,
+            "start_ms": 834079,
+            "end_ms": 839680,
+            "text": "segment of the sky are over 3000"
+          },
+          {
+            "cue_id": 354,
+            "start_ms": 896880,
+            "end_ms": 900480,
+            "text": "galaxies"
+          },
+          {
+            "cue_id": 355,
+            "start_ms": 898639,
+            "end_ms": 902959,
+            "text": "and after billions of years of star"
+          },
+          {
+            "cue_id": 383,
+            "start_ms": 959440,
+            "end_ms": 964639,
+            "text": "ultra deep field the deepest photograph"
+          },
+          {
+            "cue_id": 384,
+            "start_ms": 962320,
+            "end_ms": 968560,
+            "text": "of the universe ever taken from the"
+          },
+          {
+            "cue_id": 410,
+            "start_ms": 1024880,
+            "end_ms": 1029439,
+            "text": "cosmic expansion"
+          },
+          {
+            "cue_id": 411,
+            "start_ms": 1026959,
+            "end_ms": 1032240,
+            "text": "the discovery that the universe itself"
+          },
+          {
+            "cue_id": 438,
+            "start_ms": 1088160,
+            "end_ms": 1092880,
+            "text": "rather than expanding"
+          },
+          {
+            "cue_id": 439,
+            "start_ms": 1091120,
+            "end_ms": 1094960,
+            "text": "because all objects are getting further"
+          },
+          {
+            "cue_id": 464,
+            "start_ms": 1152240,
+            "end_ms": 1156640,
+            "text": "indefinitely without meeting an edge"
+          },
+          {
+            "cue_id": 465,
+            "start_ms": 1155120,
+            "end_ms": 1158960,
+            "text": "much like if you were to fly an"
+          },
+          {
+            "cue_id": 490,
+            "start_ms": 1217440,
+            "end_ms": 1222320,
+            "text": "because the universe is expanding at all"
+          },
+          {
+            "cue_id": 491,
+            "start_ms": 1219840,
+            "end_ms": 1224960,
+            "text": "places at once as the light emitted from"
+          },
+          {
+            "cue_id": 517,
+            "start_ms": 1279600,
+            "end_ms": 1284960,
+            "text": "kilometers per second"
+          },
+          {
+            "cue_id": 518,
+            "start_ms": 1282640,
+            "end_ms": 1286799,
+            "text": "because light speed is limited to about"
+          },
+          {
+            "cue_id": 546,
+            "start_ms": 1345360,
+            "end_ms": 1350240,
+            "text": "light has time to pass through the solar"
+          },
+          {
+            "cue_id": 547,
+            "start_ms": 1347280,
+            "end_ms": 1352240,
+            "text": "system and the observable universe grows"
+          },
+          {
+            "cue_id": 573,
+            "start_ms": 1409120,
+            "end_ms": 1413919,
+            "text": "ultra deep field have now receded to in"
+          },
+          {
+            "cue_id": 574,
+            "start_ms": 1411600,
+            "end_ms": 1415760,
+            "text": "excess of 40 billion light years away"
+          },
+          {
+            "cue_id": 603,
+            "start_ms": 1472960,
+            "end_ms": 1478400,
+            "text": "maths and science here but in short the"
+          },
+          {
+            "cue_id": 604,
+            "start_ms": 1476080,
+            "end_ms": 1481600,
+            "text": "best estimate we have so far"
+          },
+          {
+            "cue_id": 628,
+            "start_ms": 1538000,
+            "end_ms": 1542320,
+            "text": "expansion is one of the most important"
+          },
+          {
+            "cue_id": 629,
+            "start_ms": 1540080,
+            "end_ms": 1544960,
+            "text": "discoveries ever but we still didn't"
+          },
+          {
+            "cue_id": 656,
+            "start_ms": 1602640,
+            "end_ms": 1607440,
+            "text": "distances would be to take something"
+          },
+          {
+            "cue_id": 657,
+            "start_ms": 1604640,
+            "end_ms": 1610240,
+            "text": "with a known absolute magnitude known as"
+          },
+          {
+            "cue_id": 683,
+            "start_ms": 1666159,
+            "end_ms": 1670640,
+            "text": "it's as if the universe has expanded"
+          },
+          {
+            "cue_id": 684,
+            "start_ms": 1668159,
+            "end_ms": 1675039,
+            "text": "more in the latter half of its life"
+          },
+          {
+            "cue_id": 712,
+            "start_ms": 1731679,
+            "end_ms": 1736399,
+            "text": "that behaves inversely to gravity which"
+          },
+          {
+            "cue_id": 713,
+            "start_ms": 1734240,
+            "end_ms": 1739440,
+            "text": "is aiding the universe's expansion"
+          },
+          {
+            "cue_id": 738,
+            "start_ms": 1794559,
+            "end_ms": 1799039,
+            "text": "thus there came a tipping point around 4"
+          },
+          {
+            "cue_id": 739,
+            "start_ms": 1796720,
+            "end_ms": 1802000,
+            "text": "billion years ago where the density of"
+          },
+          {
+            "cue_id": 764,
+            "start_ms": 1860240,
+            "end_ms": 1864320,
+            "text": "gradually galaxies at the edge of the"
+          },
+          {
+            "cue_id": 765,
+            "start_ms": 1862720,
+            "end_ms": 1866480,
+            "text": "observable universe will start"
+          },
+          {
+            "cue_id": 791,
+            "start_ms": 1923360,
+            "end_ms": 1930080,
+            "text": "gone out or exploded bringing the"
+          },
+          {
+            "cue_id": 792,
+            "start_ms": 1925679,
+            "end_ms": 1932320,
+            "text": "universe into a second eternal dark age"
+          },
+          {
+            "cue_id": 808,
+            "start_ms": 1991440,
+            "end_ms": 1993519,
+            "text": "you"
+          }
+        ],
+        "text": "universe in fact\nbut why\nunprecedented scale\nwhich could be hundreds thousands or\ntime is the constant flow of cause to\neffect within this space\ngeneral relativity\na comprehensive interpretation of\nour understanding of the latter owes to\nthis man edwin hubble\ntheories and the work of some other\ngreat scientists have all fed into our\nthe time proceeding crosses into the\nuntestable realms of physics but we\nand from there decayed into the first\nparticles\nlight travels at just under 300 000\nkilometers per second\nback we are looking in time\nthrough the different stages of the\nmuch younger universe that has been\nconstantly changing and evolving\nthe deep field image was created by\nfocusing the telescope's instruments on\ncontained within this tiny pin-sized\nsegment of the sky are over 3000\ngalaxies\nand after billions of years of star\nultra deep field the deepest photograph\nof the universe ever taken from the\ncosmic expansion\nthe discovery that the universe itself\nrather than expanding\nbecause all objects are getting further\nindefinitely without meeting an edge\nmuch like if you were to fly an\nbecause the universe is expanding at all\nplaces at once as the light emitted from\nkilometers per second\nbecause light speed is limited to about\nlight has time to pass through the solar\nsystem and the observable universe grows\nultra deep field have now receded to in\nexcess of 40 billion light years away\nmaths and science here but in short the\nbest estimate we have so far\nexpansion is one of the most important\ndiscoveries ever but we still didn't\ndistances would be to take something\nwith a known absolute magnitude known as\nit's as if the universe has expanded\nmore in the latter half of its life\nthat behaves inversely to gravity which\nis aiding the universe's expansion\nthus there came a tipping point around 4\nbillion years ago where the density of\ngradually galaxies at the edge of the\nobservable universe will start\ngone out or exploded bringing the\nuniverse into a second eternal dark age\nyou",
+        "text_tokens": 450,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 58800,
+          "end_ms": 69520,
+          "text": "even just our local region of the universe in fact but why why is the universe like this"
+        },
+        {
+          "id": "S36",
+          "cue_ids": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "start_ms": 123759,
+          "end_ms": 137800,
+          "text": "percentage of the universe's unprecedented scale which could be hundreds thousands or even millions of times more voluminous"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "start_ms": 185120,
+          "end_ms": 198239,
+          "text": "vast backdrop to the universe's matter time is the constant flow of cause to effect within this space the catalyst of life death creation and"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80,
+            81,
+            82
+          ],
+          "start_ms": 251439,
+          "end_ms": 262959,
+          "text": "then in 1915 he presented his theory of general relativity a comprehensive interpretation of gravity space time and their links"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 316479,
+          "end_ms": 328240,
+          "text": "of galaxies our understanding of the latter owes to this man edwin hubble an american astronomer who is not afraid"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136,
+            137,
+            138
+          ],
+          "start_ms": 380800,
+          "end_ms": 392800,
+          "text": "these revelations along with einstein's theories and the work of some other great scientists have all fed into our current model of cosmology"
+        },
+        {
+          "id": "S165",
+          "cue_ids": [
+            165,
+            166,
+            167,
+            168
+          ],
+          "start_ms": 444920,
+          "end_ms": 454720,
+          "text": "[Music] the time proceeding crosses into the untestable realms of physics but we believe that in the earliest nanoseconds"
+        },
+        {
+          "id": "S193",
+          "cue_ids": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "start_ms": 510000,
+          "end_ms": 520479,
+          "text": "universal plasma and from there decayed into the first particles and then into subatomic particles like"
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222,
+            223
+          ],
+          "start_ms": 571839,
+          "end_ms": 584880,
+          "text": "system since they were emitted light travels at just under 300 000 kilometers per second that is extremely fast the fastest speed"
+        },
+        {
+          "id": "S245",
+          "cue_ids": [
+            245,
+            246,
+            247,
+            248
+          ],
+          "start_ms": 637519,
+          "end_ms": 648160,
+          "text": "and so the deeper we look the further back we are looking in time through the different stages of the universe's life"
+        },
+        {
+          "id": "S271",
+          "cue_ids": [
+            271,
+            272,
+            273,
+            274
+          ],
+          "start_ms": 699839,
+          "end_ms": 711420,
+          "text": "look ever deeper into space revealing a much younger universe that has been constantly changing and evolving nothing captures this evolution quite"
+        },
+        {
+          "id": "S297",
+          "cue_ids": [
+            297,
+            298,
+            299,
+            300
+          ],
+          "start_ms": 767200,
+          "end_ms": 777200,
+          "text": "target the deep field image was created by focusing the telescope's instruments on a tiny seemingly empty patch of the"
+        },
+        {
+          "id": "S324",
+          "cue_ids": [
+            324,
+            325,
+            326,
+            327
+          ],
+          "start_ms": 829820,
+          "end_ms": 841680,
+          "text": "[Music] contained within this tiny pin-sized segment of the sky are over 3000 galaxies at an array of distances"
+        },
+        {
+          "id": "S353",
+          "cue_ids": [
+            353,
+            354,
+            355,
+            356
+          ],
+          "start_ms": 894079,
+          "end_ms": 904240,
+          "text": "then clusters of stars then turret dwarf galaxies and after billions of years of star birth and death and countless galactic"
+        },
+        {
+          "id": "S382",
+          "cue_ids": [
+            382,
+            383,
+            384,
+            385
+          ],
+          "start_ms": 956560,
+          "end_ms": 970880,
+          "text": "and in 2004 they snapped the hubble ultra deep field the deepest photograph of the universe ever taken from the constellation of fornax"
+        },
+        {
+          "id": "S409",
+          "cue_ids": [
+            409,
+            410,
+            411,
+            412
+          ],
+          "start_ms": 1022560,
+          "end_ms": 1032240,
+          "text": "and have spoken about today cosmic expansion the discovery that the universe itself is expanding"
+        },
+        {
+          "id": "S437",
+          "cue_ids": [
+            437,
+            438,
+            439,
+            440
+          ],
+          "start_ms": 1085760,
+          "end_ms": 1097840,
+          "text": "it is like the universe is inflating rather than expanding because all objects are getting further away from all other objects relative to"
+        },
+        {
+          "id": "S463",
+          "cue_ids": [
+            463,
+            464,
+            465,
+            466
+          ],
+          "start_ms": 1150559,
+          "end_ms": 1160960,
+          "text": "still roam around the universe indefinitely without meeting an edge much like if you were to fly an aeroplane round the earth's equator"
+        },
+        {
+          "id": "S489",
+          "cue_ids": [
+            489,
+            490,
+            491,
+            492
+          ],
+          "start_ms": 1215520,
+          "end_ms": 1227200,
+          "text": "red because the universe is expanding at all places at once as the light emitted from other galaxies travels towards earth the"
+        },
+        {
+          "id": "S516",
+          "cue_ids": [
+            516,
+            517,
+            518,
+            519
+          ],
+          "start_ms": 1277840,
+          "end_ms": 1289200,
+          "text": "of over six and a half thousand kilometers per second because light speed is limited to about three hundred thousand kilometers per"
+        },
+        {
+          "id": "S545",
+          "cue_ids": [
+            545,
+            546,
+            547,
+            548
+          ],
+          "start_ms": 1342720,
+          "end_ms": 1354400,
+          "text": "as time passes older and more distant light has time to pass through the solar system and the observable universe grows increasing our field of view"
+        },
+        {
+          "id": "S572",
+          "cue_ids": [
+            572,
+            573,
+            574,
+            575
+          ],
+          "start_ms": 1407120,
+          "end_ms": 1417760,
+          "text": "the most distant galaxies of the hubble ultra deep field have now receded to in excess of 40 billion light years away from the earth and their light would"
+        },
+        {
+          "id": "S602",
+          "cue_ids": [
+            602,
+            603,
+            604,
+            605
+          ],
+          "start_ms": 1470880,
+          "end_ms": 1483840,
+          "text": "i'm skipping over some very complicated maths and science here but in short the best estimate we have so far made by physicists at oxford university"
+        },
+        {
+          "id": "S627",
+          "cue_ids": [
+            627,
+            628,
+            629,
+            630
+          ],
+          "start_ms": 1536240,
+          "end_ms": 1546960,
+          "text": "the discovery of the universe's expansion is one of the most important discoveries ever but we still didn't have the full picture"
+        },
+        {
+          "id": "S655",
+          "cue_ids": [
+            655,
+            656,
+            657,
+            658
+          ],
+          "start_ms": 1600480,
+          "end_ms": 1612640,
+          "text": "a more suitable means to measure cosmic distances would be to take something with a known absolute magnitude known as a standard candle and calculate its"
+        },
+        {
+          "id": "S682",
+          "cue_ids": [
+            682,
+            683,
+            684,
+            685
+          ],
+          "start_ms": 1663440,
+          "end_ms": 1676640,
+          "text": "away than the more local objects it's as if the universe has expanded more in the latter half of its life or rather its expansion is accelerating"
+        },
+        {
+          "id": "S711",
+          "cue_ids": [
+            711,
+            712,
+            713,
+            714
+          ],
+          "start_ms": 1728960,
+          "end_ms": 1742480,
+          "text": "it exerts a negative repulsive pressure that behaves inversely to gravity which is aiding the universe's expansion rather than slowing it down"
+        },
+        {
+          "id": "S737",
+          "cue_ids": [
+            737,
+            738,
+            739,
+            740
+          ],
+          "start_ms": 1792640,
+          "end_ms": 1804159,
+          "text": "expands thus there came a tipping point around 4 billion years ago where the density of matter fell below that of dark energy"
+        },
+        {
+          "id": "S763",
+          "cue_ids": [
+            763,
+            764,
+            765,
+            766
+          ],
+          "start_ms": 1857200,
+          "end_ms": 1868240,
+          "text": "to keep up gradually galaxies at the edge of the observable universe will start disappearing from view as their light is"
+        },
+        {
+          "id": "S790",
+          "cue_ids": [
+            790,
+            791,
+            792,
+            793
+          ],
+          "start_ms": 1921600,
+          "end_ms": 1934480,
+          "text": "last stars of the universe have either gone out or exploded bringing the universe into a second eternal dark age ultimately the universe's energy will be"
+        },
+        {
+          "id": "S808",
+          "cue_ids": [
+            808
+          ],
+          "start_ms": 1991440,
+          "end_ms": 1993519,
+          "text": "you"
+        }
+      ],
+      "text": "S17 [00:00:58.800 --> 00:01:09.520] even just our local region of the universe in fact but why why is the universe like this\nS36 [00:02:03.759 --> 00:02:17.800] percentage of the universe's unprecedented scale which could be hundreds thousands or even millions of times more voluminous\nS53 [00:03:05.120 --> 00:03:18.239] vast backdrop to the universe's matter time is the constant flow of cause to effect within this space the catalyst of life death creation and\nS79 [00:04:11.439 --> 00:04:22.959] then in 1915 he presented his theory of general relativity a comprehensive interpretation of gravity space time and their links\nS107 [00:05:16.479 --> 00:05:28.240] of galaxies our understanding of the latter owes to this man edwin hubble an american astronomer who is not afraid\nS135 [00:06:20.800 --> 00:06:32.800] these revelations along with einstein's theories and the work of some other great scientists have all fed into our current model of cosmology\nS165 [00:07:24.920 --> 00:07:34.720] [Music] the time proceeding crosses into the untestable realms of physics but we believe that in the earliest nanoseconds\nS193 [00:08:30.000 --> 00:08:40.479] universal plasma and from there decayed into the first particles and then into subatomic particles like\nS220 [00:09:31.839 --> 00:09:44.880] system since they were emitted light travels at just under 300 000 kilometers per second that is extremely fast the fastest speed\nS245 [00:10:37.519 --> 00:10:48.160] and so the deeper we look the further back we are looking in time through the different stages of the universe's life\nS271 [00:11:39.839 --> 00:11:51.420] look ever deeper into space revealing a much younger universe that has been constantly changing and evolving nothing captures this evolution quite\nS297 [00:12:47.200 --> 00:12:57.200] target the deep field image was created by focusing the telescope's instruments on a tiny seemingly empty patch of the\nS324 [00:13:49.820 --> 00:14:01.680] [Music] contained within this tiny pin-sized segment of the sky are over 3000 galaxies at an array of distances\nS353 [00:14:54.079 --> 00:15:04.240] then clusters of stars then turret dwarf galaxies and after billions of years of star birth and death and countless galactic\nS382 [00:15:56.560 --> 00:16:10.880] and in 2004 they snapped the hubble ultra deep field the deepest photograph of the universe ever taken from the constellation of fornax\nS409 [00:17:02.560 --> 00:17:12.240] and have spoken about today cosmic expansion the discovery that the universe itself is expanding\nS437 [00:18:05.760 --> 00:18:17.840] it is like the universe is inflating rather than expanding because all objects are getting further away from all other objects relative to\nS463 [00:19:10.559 --> 00:19:20.960] still roam around the universe indefinitely without meeting an edge much like if you were to fly an aeroplane round the earth's equator\nS489 [00:20:15.520 --> 00:20:27.200] red because the universe is expanding at all places at once as the light emitted from other galaxies travels towards earth the\nS516 [00:21:17.840 --> 00:21:29.200] of over six and a half thousand kilometers per second because light speed is limited to about three hundred thousand kilometers per\nS545 [00:22:22.720 --> 00:22:34.400] as time passes older and more distant light has time to pass through the solar system and the observable universe grows increasing our field of view\nS572 [00:23:27.120 --> 00:23:37.760] the most distant galaxies of the hubble ultra deep field have now receded to in excess of 40 billion light years away from the earth and their light would\nS602 [00:24:30.880 --> 00:24:43.840] i'm skipping over some very complicated maths and science here but in short the best estimate we have so far made by physicists at oxford university\nS627 [00:25:36.240 --> 00:25:46.960] the discovery of the universe's expansion is one of the most important discoveries ever but we still didn't have the full picture\nS655 [00:26:40.480 --> 00:26:52.640] a more suitable means to measure cosmic distances would be to take something with a known absolute magnitude known as a standard candle and calculate its\nS682 [00:27:43.440 --> 00:27:56.640] away than the more local objects it's as if the universe has expanded more in the latter half of its life or rather its expansion is accelerating\nS711 [00:28:48.960 --> 00:29:02.480] it exerts a negative repulsive pressure that behaves inversely to gravity which is aiding the universe's expansion rather than slowing it down\nS737 [00:29:52.640 --> 00:30:04.159] expands thus there came a tipping point around 4 billion years ago where the density of matter fell below that of dark energy\nS763 [00:30:57.200 --> 00:31:08.240] to keep up gradually galaxies at the edge of the observable universe will start disappearing from view as their light is\nS790 [00:32:01.600 --> 00:32:14.480] last stars of the universe have either gone out or exploded bringing the universe into a second eternal dark age ultimately the universe's energy will be\nS808 [00:33:11.440 --> 00:33:13.519] you",
+      "text_tokens": 1743,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        17,
+        20,
+        36,
+        39,
+        53,
+        56,
+        79,
+        82,
+        107,
+        110,
+        135,
+        138,
+        165,
+        168,
+        193,
+        196,
+        220,
+        223,
+        245,
+        248,
+        271,
+        274,
+        297,
+        300,
+        324,
+        327,
+        353,
+        356,
+        382,
+        385,
+        409,
+        412,
+        437,
+        440,
+        463,
+        466,
+        489,
+        492,
+        516,
+        519,
+        545,
+        548,
+        572,
+        575,
+        602,
+        605,
+        627,
+        630,
+        655,
+        658,
+        682,
+        685,
+        711,
+        714,
+        737,
+        740,
+        763,
+        766,
+        790,
+        793
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "6cf9d079eab5be1ced0957c08194dbbde9c52c70949e6122532f91d9ef5a994e"
+}

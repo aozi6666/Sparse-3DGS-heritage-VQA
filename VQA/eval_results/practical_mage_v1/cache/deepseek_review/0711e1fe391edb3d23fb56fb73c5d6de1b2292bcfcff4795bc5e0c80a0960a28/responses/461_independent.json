@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "26b2896fe466c3b30fea7ad2af23372eae73f70c03b36a9fdcc843c7e6a2c232",
+  "response": {
+    "id": "cec636e3-8032-48ee-be27-78dd2f5aa7a7",
+    "object": "chat.completion",
+    "created": 1793675920,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S212\",\"quote\":\"about 25 flat and look at her just take over this event go theresa go we are gonna cheer her on to the finish line\"},{\"block_id\":\"S219\",\"quote\":\"is amelia with the silver in 28.1 and the bronze medal goes to hadley 28.8\"}],\"frame_ids\":[\"F13401\",\"F13959\",\"F14517\"],\"windows\":[{\"start\":441.0,\"end\":449.0},{\"start\":478.0,\"end\":486.0}],\"notes\":\"Subtitles indicate Theresa won the women's 200m, but no supplied frame clearly shows her clothing colors; the yellow-top runner in F13959/F14517 is not identified as Theresa, so the option cannot be matched.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9387,
+      "completion_tokens": 188,
+      "total_tokens": 9575,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9259
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.9357213955372572
+}

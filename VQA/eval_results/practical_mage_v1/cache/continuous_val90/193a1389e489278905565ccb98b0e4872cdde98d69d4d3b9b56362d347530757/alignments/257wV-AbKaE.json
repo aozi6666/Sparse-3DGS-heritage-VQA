@@ -1,0 +1,881 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "257wV-AbKaE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/257wV-AbKaE.srt",
+        "status": "available",
+        "bytes": 9521,
+        "sha256": "f4e63e06b428167a85d0b07c32587a987acc6ef25701a80704b18409e3e6c9e3",
+        "cues": 82,
+        "nonempty_cues": 82
+      },
+      "frame_indices": [
+        0,
+        222,
+        443,
+        665,
+        887,
+        1108,
+        1330,
+        1552,
+        1773,
+        1995,
+        2217,
+        2438,
+        2660,
+        2882,
+        3103,
+        3325,
+        3547,
+        3769,
+        3990,
+        4212,
+        4434,
+        4655,
+        4877,
+        5099,
+        5320,
+        5542,
+        5764,
+        5985,
+        6207,
+        6429,
+        6650,
+        6872
+      ],
+      "frame_seconds": [
+        0.0,
+        9.25925,
+        18.476792,
+        27.736042,
+        36.995292,
+        46.212833,
+        55.472083,
+        64.731333,
+        73.948875,
+        83.208125,
+        92.467375,
+        101.684917,
+        110.944167,
+        120.203417,
+        129.420958,
+        138.680208,
+        147.939458,
+        157.198708,
+        166.41625,
+        175.6755,
+        184.93475,
+        194.152292,
+        203.411542,
+        212.670792,
+        221.888333,
+        231.147583,
+        240.406833,
+        249.624375,
+        258.883625,
+        268.142875,
+        277.360417,
+        286.619667
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          9
+        ],
+        [
+          13
+        ],
+        [
+          15
+        ],
+        [
+          18
+        ],
+        [
+          20
+        ],
+        [
+          22
+        ],
+        [
+          25
+        ],
+        [
+          30
+        ],
+        [
+          33
+        ],
+        [
+          36
+        ],
+        [
+          39
+        ],
+        [
+          41
+        ],
+        [
+          44
+        ],
+        [
+          47
+        ],
+        [
+          51
+        ],
+        [
+          54
+        ],
+        [
+          56
+        ],
+        [
+          60
+        ],
+        [
+          63
+        ],
+        [
+          65
+        ],
+        [
+          68
+        ],
+        [
+          71
+        ],
+        [
+          75
+        ],
+        [
+          78
+        ],
+        [
+          80
+        ],
+        [
+          82
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 2,
+          "start_ms": 13984,
+          "end_ms": 19928,
+          "text": "Al Capone presided over a vast and profitable empire of organized crime."
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 26363,
+          "end_ms": 28604,
+          "text": "The nearly $100 million a year,"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 35898,
+          "end_ms": 37045,
+          "text": "brothels,"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 44985,
+          "end_ms": 49265,
+          "text": "Capone and his associates had hidden it through investments in various businesses"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 52736,
+          "end_ms": 55474,
+          "text": "like cash-only laundromats."
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 62995,
+          "end_ms": 66235,
+          "text": "Money laundering came to be the term for any process"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 72185,
+          "end_ms": 76515,
+          "text": "allowing them to be used within the legal economy."
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 80375,
+          "end_ms": 84606,
+          "text": "In fact, this practice is about as old as money itself."
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 91746,
+          "end_ms": 93836,
+          "text": "to how they got it."
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 101136,
+          "end_ms": 104607,
+          "text": "schemes have become much more complex."
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 110836,
+          "end_ms": 111948,
+          "text": "placement,"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 115476,
+          "end_ms": 120337,
+          "text": "Placement is where illegally obtained money is converted into assets"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 125656,
+          "end_ms": 131737,
+          "text": "registered to an anonymous corporation or a professional middleman."
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 135400,
+          "end_ms": 138966,
+          "text": "since they introduce massive wealth into the financial system"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 146278,
+          "end_ms": 150067,
+          "text": "to further distance the funds from their origin."
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 155758,
+          "end_ms": 157428,
+          "text": "like expensive cars,"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 163780,
+          "end_ms": 167208,
+          "text": "are also popular venues for layering."
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 173960,
+          "end_ms": 177709,
+          "text": "or work with employees to rig games."
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 183260,
+          "end_ms": 186059,
+          "text": "and to benefit the original criminal."
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 193950,
+          "end_ms": 196490,
+          "text": "placing themselves on the board of directors"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 200689,
+          "end_ms": 206950,
+          "text": "wasn't officially recognized as a federal crime in the United States until 1986."
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 210730,
+          "end_ms": 213680,
+          "text": "like tax evasion."
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 220610,
+          "end_ms": 224570,
+          "text": "which had a positive effect on prosecuting major criminal operations,"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 229901,
+          "end_ms": 233930,
+          "text": "involving privacy and government surveillance."
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 238992,
+          "end_ms": 240932,
+          "text": "fight against money laundering,"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 248816,
+          "end_ms": 251803,
+          "text": "have involved not just private individuals,"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 257207,
+          "end_ms": 260101,
+          "text": "No one knows for sure the total amount of money"
+        },
+        {
+          "cue_id": 82,
+          "start_ms": 262832,
+          "end_ms": 269736,
+          "text": "but some organizations estimate it to be in the hundreds of billions of dollars."
+        }
+      ],
+      "text": "Al Capone presided over a vast and profitable empire of organized crime.\nThe nearly $100 million a year,\nbrothels,\nCapone and his associates had hidden it through investments in various businesses\nlike cash-only laundromats.\nMoney laundering came to be the term for any process\nallowing them to be used within the legal economy.\nIn fact, this practice is about as old as money itself.\nto how they got it.\nschemes have become much more complex.\nplacement,\nPlacement is where illegally obtained money is converted into assets\nregistered to an anonymous corporation or a professional middleman.\nsince they introduce massive wealth into the financial system\nto further distance the funds from their origin.\nlike expensive cars,\nare also popular venues for layering.\nor work with employees to rig games.\nand to benefit the original criminal.\nplacing themselves on the board of directors\nwasn't officially recognized as a federal crime in the United States until 1986.\nlike tax evasion.\nwhich had a positive effect on prosecuting major criminal operations,\ninvolving privacy and government surveillance.\nfight against money laundering,\nhave involved not just private individuals,\nNo one knows for sure the total amount of money\nbut some organizations estimate it to be in the hundreds of billions of dollars.",
+      "text_tokens": 259,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "257wV-AbKaE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/257wV-AbKaE.srt",
+          "status": "available",
+          "bytes": 9521,
+          "sha256": "f4e63e06b428167a85d0b07c32587a987acc6ef25701a80704b18409e3e6c9e3",
+          "cues": 82,
+          "nonempty_cues": 82
+        },
+        "frame_indices": [
+          0,
+          222,
+          443,
+          665,
+          887,
+          1108,
+          1330,
+          1552,
+          1773,
+          1995,
+          2217,
+          2438,
+          2660,
+          2882,
+          3103,
+          3325,
+          3547,
+          3769,
+          3990,
+          4212,
+          4434,
+          4655,
+          4877,
+          5099,
+          5320,
+          5542,
+          5764,
+          5985,
+          6207,
+          6429,
+          6650,
+          6872
+        ],
+        "frame_seconds": [
+          0.0,
+          9.25925,
+          18.476792,
+          27.736042,
+          36.995292,
+          46.212833,
+          55.472083,
+          64.731333,
+          73.948875,
+          83.208125,
+          92.467375,
+          101.684917,
+          110.944167,
+          120.203417,
+          129.420958,
+          138.680208,
+          147.939458,
+          157.198708,
+          166.41625,
+          175.6755,
+          184.93475,
+          194.152292,
+          203.411542,
+          212.670792,
+          221.888333,
+          231.147583,
+          240.406833,
+          249.624375,
+          258.883625,
+          268.142875,
+          277.360417,
+          286.619667
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            5
+          ],
+          [
+            9
+          ],
+          [
+            13
+          ],
+          [
+            15
+          ],
+          [
+            18
+          ],
+          [
+            20
+          ],
+          [
+            22
+          ],
+          [
+            25
+          ],
+          [
+            30
+          ],
+          [
+            33
+          ],
+          [
+            36
+          ],
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            44
+          ],
+          [
+            47
+          ],
+          [
+            51
+          ],
+          [
+            54
+          ],
+          [
+            56
+          ],
+          [
+            60
+          ],
+          [
+            63
+          ],
+          [
+            65
+          ],
+          [
+            68
+          ],
+          [
+            71
+          ],
+          [
+            75
+          ],
+          [
+            78
+          ],
+          [
+            80
+          ],
+          [
+            82
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 2,
+            "start_ms": 13984,
+            "end_ms": 19928,
+            "text": "Al Capone presided over a vast and profitable empire of organized crime."
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 26363,
+            "end_ms": 28604,
+            "text": "The nearly $100 million a year,"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 35898,
+            "end_ms": 37045,
+            "text": "brothels,"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 44985,
+            "end_ms": 49265,
+            "text": "Capone and his associates had hidden it through investments in various businesses"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 52736,
+            "end_ms": 55474,
+            "text": "like cash-only laundromats."
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 62995,
+            "end_ms": 66235,
+            "text": "Money laundering came to be the term for any process"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 72185,
+            "end_ms": 76515,
+            "text": "allowing them to be used within the legal economy."
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 80375,
+            "end_ms": 84606,
+            "text": "In fact, this practice is about as old as money itself."
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 91746,
+            "end_ms": 93836,
+            "text": "to how they got it."
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 101136,
+            "end_ms": 104607,
+            "text": "schemes have become much more complex."
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 110836,
+            "end_ms": 111948,
+            "text": "placement,"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 115476,
+            "end_ms": 120337,
+            "text": "Placement is where illegally obtained money is converted into assets"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 125656,
+            "end_ms": 131737,
+            "text": "registered to an anonymous corporation or a professional middleman."
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 135400,
+            "end_ms": 138966,
+            "text": "since they introduce massive wealth into the financial system"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 146278,
+            "end_ms": 150067,
+            "text": "to further distance the funds from their origin."
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 155758,
+            "end_ms": 157428,
+            "text": "like expensive cars,"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 163780,
+            "end_ms": 167208,
+            "text": "are also popular venues for layering."
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 173960,
+            "end_ms": 177709,
+            "text": "or work with employees to rig games."
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 183260,
+            "end_ms": 186059,
+            "text": "and to benefit the original criminal."
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 193950,
+            "end_ms": 196490,
+            "text": "placing themselves on the board of directors"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 200689,
+            "end_ms": 206950,
+            "text": "wasn't officially recognized as a federal crime in the United States until 1986."
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 210730,
+            "end_ms": 213680,
+            "text": "like tax evasion."
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 220610,
+            "end_ms": 224570,
+            "text": "which had a positive effect on prosecuting major criminal operations,"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 229901,
+            "end_ms": 233930,
+            "text": "involving privacy and government surveillance."
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 238992,
+            "end_ms": 240932,
+            "text": "fight against money laundering,"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 248816,
+            "end_ms": 251803,
+            "text": "have involved not just private individuals,"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 257207,
+            "end_ms": 260101,
+            "text": "No one knows for sure the total amount of money"
+          },
+          {
+            "cue_id": 82,
+            "start_ms": 262832,
+            "end_ms": 269736,
+            "text": "but some organizations estimate it to be in the hundreds of billions of dollars."
+          }
+        ],
+        "text": "Al Capone presided over a vast and profitable empire of organized crime.\nThe nearly $100 million a year,\nbrothels,\nCapone and his associates had hidden it through investments in various businesses\nlike cash-only laundromats.\nMoney laundering came to be the term for any process\nallowing them to be used within the legal economy.\nIn fact, this practice is about as old as money itself.\nto how they got it.\nschemes have become much more complex.\nplacement,\nPlacement is where illegally obtained money is converted into assets\nregistered to an anonymous corporation or a professional middleman.\nsince they introduce massive wealth into the financial system\nto further distance the funds from their origin.\nlike expensive cars,\nare also popular venues for layering.\nor work with employees to rig games.\nand to benefit the original criminal.\nplacing themselves on the board of directors\nwasn't officially recognized as a federal crime in the United States until 1986.\nlike tax evasion.\nwhich had a positive effect on prosecuting major criminal operations,\ninvolving privacy and government surveillance.\nfight against money laundering,\nhave involved not just private individuals,\nNo one knows for sure the total amount of money\nbut some organizations estimate it to be in the hundreds of billions of dollars.",
+        "text_tokens": 259,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start_ms": 11093,
+          "end_ms": 32308,
+          "text": "As one of the most notorious gangsters in history, Al Capone presided over a vast and profitable empire of organized crime. When he was finally put on trial, the most he could be convicted of was tax evasion. The nearly $100 million a year, that's 1.4 billion in today's currency,"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10
+          ],
+          "start_ms": 34737,
+          "end_ms": 38412,
+          "text": "bootlegging, brothels, and extortion,"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "start_ms": 41317,
+          "end_ms": 96096,
+          "text": "But the money was nowhere to be found. Capone and his associates had hidden it through investments in various businesses whose ultimate ownership couldn't be proven, like cash-only laundromats. In fact, those laundromats are part of the reason for the name of this activity, money laundering. Money laundering came to be the term for any process that cleans illegally obtained funds of their dirty criminal origins, allowing them to be used within the legal economy. But Capone wasn't the first to launder money. In fact, this practice is about as old as money itself. Merchants hid their riches from tax collecters, and pirates sought to sell their bounty without drawing attention to how they got it. With the recent arrival of virtual currencies,"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 99467,
+          "end_ms": 158303,
+          "text": "and global markets, schemes have become much more complex. Although modern money laundering methods vary greatly, most share three basic steps: placement, layering, and integration. Placement is where illegally obtained money is converted into assets that seem legitimate. That's often done by depositing funds into a bank account registered to an anonymous corporation or a professional middleman. This step is where criminals are often most vulnerable to detection since they introduce massive wealth into the financial system seemingly out of nowhere. The second step, layering, involves using multiple transactions to further distance the funds from their origin. This can take the form of transfers between multiple accounts, or the purchase of tradable property, like expensive cars, artwork,"
+        },
+        {
+          "id": "S50",
+          "cue_ids": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "start_ms": 159917,
+          "end_ms": 188669,
+          "text": "Casinos, where large sums of money change hands every second, are also popular venues for layering. A money launderer may have their gambling balance made available at a casino chain's locations in other countries, or work with employees to rig games. The last step, integration, allows clean money to re-enter the mainstream economy and to benefit the original criminal. They might invest it into a legal business"
+        },
+        {
+          "id": "S59",
+          "cue_ids": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "start_ms": 191309,
+          "end_ms": 235852,
+          "text": "or even start a bogus charity, placing themselves on the board of directors with an exorbitant salary. Money laundering itself wasn't officially recognized as a federal crime in the United States until 1986. Before that point, the government needed to prosecute a related crime, like tax evasion. From 1986 on, they could confiscate wealth simply by demonstrating that concealment had occurred, which had a positive effect on prosecuting major criminal operations, like drug traffickers. However, a legal shift has raised concerns involving privacy and government surveillance. Today, the United Nations,"
+        },
+        {
+          "id": "S74",
+          "cue_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ],
+          "start_ms": 237411,
+          "end_ms": 269736,
+          "text": "and various nonprofits fight against money laundering, yet the practice continues to play a major role in global crime. And the most high-profile instances of money laundering have involved not just private individuals, but major financial institutions and government officials. No one knows for sure the total amount of money that's laundered on a yearly basis, but some organizations estimate it to be in the hundreds of billions of dollars."
+        }
+      ],
+      "text": "S1 [00:00:11.093 --> 00:00:32.308] As one of the most notorious gangsters in history, Al Capone presided over a vast and profitable empire of organized crime. When he was finally put on trial, the most he could be convicted of was tax evasion. The nearly $100 million a year, that's 1.4 billion in today's currency,\nS8 [00:00:34.737 --> 00:00:38.412] bootlegging, brothels, and extortion,\nS12 [00:00:41.317 --> 00:01:36.096] But the money was nowhere to be found. Capone and his associates had hidden it through investments in various businesses whose ultimate ownership couldn't be proven, like cash-only laundromats. In fact, those laundromats are part of the reason for the name of this activity, money laundering. Money laundering came to be the term for any process that cleans illegally obtained funds of their dirty criminal origins, allowing them to be used within the legal economy. But Capone wasn't the first to launder money. In fact, this practice is about as old as money itself. Merchants hid their riches from tax collecters, and pirates sought to sell their bounty without drawing attention to how they got it. With the recent arrival of virtual currencies,\nS29 [00:01:39.467 --> 00:02:38.303] and global markets, schemes have become much more complex. Although modern money laundering methods vary greatly, most share three basic steps: placement, layering, and integration. Placement is where illegally obtained money is converted into assets that seem legitimate. That's often done by depositing funds into a bank account registered to an anonymous corporation or a professional middleman. This step is where criminals are often most vulnerable to detection since they introduce massive wealth into the financial system seemingly out of nowhere. The second step, layering, involves using multiple transactions to further distance the funds from their origin. This can take the form of transfers between multiple accounts, or the purchase of tradable property, like expensive cars, artwork,\nS50 [00:02:39.917 --> 00:03:08.669] Casinos, where large sums of money change hands every second, are also popular venues for layering. A money launderer may have their gambling balance made available at a casino chain's locations in other countries, or work with employees to rig games. The last step, integration, allows clean money to re-enter the mainstream economy and to benefit the original criminal. They might invest it into a legal business\nS59 [00:03:11.309 --> 00:03:55.852] or even start a bogus charity, placing themselves on the board of directors with an exorbitant salary. Money laundering itself wasn't officially recognized as a federal crime in the United States until 1986. Before that point, the government needed to prosecute a related crime, like tax evasion. From 1986 on, they could confiscate wealth simply by demonstrating that concealment had occurred, which had a positive effect on prosecuting major criminal operations, like drug traffickers. However, a legal shift has raised concerns involving privacy and government surveillance. Today, the United Nations,\nS74 [00:03:57.411 --> 00:04:29.736] and various nonprofits fight against money laundering, yet the practice continues to play a major role in global crime. And the most high-profile instances of money laundering have involved not just private individuals, but major financial institutions and government officials. No one knows for sure the total amount of money that's laundered on a yearly basis, but some organizations estimate it to be in the hundreds of billions of dollars.",
+      "text_tokens": 859,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        17,
+        19,
+        21,
+        23,
+        24,
+        26,
+        29,
+        31,
+        32,
+        34,
+        35,
+        37,
+        38,
+        40,
+        42,
+        43,
+        45,
+        46,
+        48,
+        50,
+        52,
+        53,
+        55,
+        57,
+        59,
+        61,
+        62,
+        64,
+        66,
+        67,
+        69,
+        70,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "c4e36c44763bf4ca715241e1b846297291c1e5d120ffcb2c595da0e6946bc52d"
+}

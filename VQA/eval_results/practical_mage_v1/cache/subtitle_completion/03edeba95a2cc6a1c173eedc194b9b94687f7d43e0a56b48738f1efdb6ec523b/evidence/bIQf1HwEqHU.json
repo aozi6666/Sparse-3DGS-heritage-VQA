@@ -1,0 +1,1594 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "bIQf1HwEqHU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bIQf1HwEqHU.srt",
+        "status": "available",
+        "bytes": 75763,
+        "sha256": "be70133c01f465024c97a0fe7b07b765c226968cc11e2a19afe537f6a851e244",
+        "cues": 700,
+        "nonempty_cues": 700
+      },
+      "frame_indices": [
+        0,
+        1592,
+        3185,
+        4777,
+        6370,
+        7962,
+        9555,
+        11147,
+        12740,
+        14332,
+        15925,
+        17517,
+        19110,
+        20702,
+        22295,
+        23887,
+        25480,
+        27072,
+        28665,
+        30257,
+        31850,
+        33442,
+        35035,
+        36627,
+        38220,
+        39812,
+        41405,
+        42997,
+        44590,
+        46182,
+        47775,
+        49367
+      ],
+      "frame_seconds": [
+        0.0,
+        66.399667,
+        132.841042,
+        199.240708,
+        265.682083,
+        332.08175,
+        398.523125,
+        464.922792,
+        531.364167,
+        597.763833,
+        664.205208,
+        730.604875,
+        797.04625,
+        863.445917,
+        929.887292,
+        996.286958,
+        1062.728333,
+        1129.128,
+        1195.569375,
+        1261.969042,
+        1328.410417,
+        1394.810083,
+        1461.251458,
+        1527.651125,
+        1594.0925,
+        1660.492167,
+        1726.933542,
+        1793.333208,
+        1859.774583,
+        1926.17425,
+        1992.615625,
+        2059.015292
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          25,
+          26
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          75,
+          76
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          114,
+          115
+        ],
+        [
+          133,
+          134
+        ],
+        [
+          158,
+          159
+        ],
+        [
+          182,
+          183
+        ],
+        [
+          210,
+          211
+        ],
+        [
+          229,
+          230
+        ],
+        [
+          256,
+          257
+        ],
+        [
+          279,
+          280
+        ],
+        [
+          303,
+          304
+        ],
+        [
+          320,
+          321
+        ],
+        [
+          340,
+          341
+        ],
+        [
+          365,
+          366
+        ],
+        [
+          390,
+          391
+        ],
+        [
+          413,
+          414
+        ],
+        [
+          436,
+          437
+        ],
+        [
+          456,
+          457
+        ],
+        [
+          480,
+          481
+        ],
+        [
+          498,
+          499
+        ],
+        [
+          512,
+          513
+        ],
+        [
+          525,
+          526
+        ],
+        [
+          549,
+          550
+        ],
+        [
+          577,
+          578
+        ],
+        [
+          605,
+          606
+        ],
+        [
+          628,
+          629
+        ],
+        [
+          652,
+          653
+        ],
+        [
+          679,
+          680
+        ],
+        [
+          700
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 25,
+          "start_ms": 62960,
+          "end_ms": 67119,
+          "text": "things I did and you most definitely can"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 65000,
+          "end_ms": 68560,
+          "text": "do to believe that you yourself are a"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 126960,
+          "end_ms": 133519,
+          "text": "something you're having fun with that's"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 130080,
+          "end_ms": 136160,
+          "text": "right but it's nice to have"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 196879,
+          "end_ms": 200799,
+          "text": "because if you want to start running"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 197959,
+          "end_ms": 202480,
+          "text": "those things are very much necessary to"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 263280,
+          "end_ms": 266960,
+          "text": "strength training day I actually really"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 265400,
+          "end_ms": 270000,
+          "text": "do love these sessions because they are"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 328639,
+          "end_ms": 336249,
+          "text": "Lang"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 330480,
+          "end_ms": 336249,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 394520,
+          "end_ms": 398759,
+          "text": "just so fulfilled because it's only 8:20"
+        },
+        {
+          "cue_id": 134,
+          "start_ms": 397199,
+          "end_ms": 400440,
+          "text": "in the morning and I've already done my"
+        },
+        {
+          "cue_id": 158,
+          "start_ms": 459800,
+          "end_ms": 465400,
+          "text": "kilometers signed up for these races"
+        },
+        {
+          "cue_id": 159,
+          "start_ms": 462240,
+          "end_ms": 468000,
+          "text": "definitely not it was super helpful for"
+        },
+        {
+          "cue_id": 182,
+          "start_ms": 526080,
+          "end_ms": 532880,
+          "text": "BPM just finished our easy run I did a"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 530200,
+          "end_ms": 535800,
+          "text": "30 minute run I honestly am very excited"
+        },
+        {
+          "cue_id": 210,
+          "start_ms": 594320,
+          "end_ms": 598399,
+          "text": "happy after that I'm getting excited I'm"
+        },
+        {
+          "cue_id": 211,
+          "start_ms": 596680,
+          "end_ms": 602279,
+          "text": "getting pumped but again not"
+        },
+        {
+          "cue_id": 229,
+          "start_ms": 659880,
+          "end_ms": 665279,
+          "text": "Marathon by coach Roda who has been"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 663480,
+          "end_ms": 667720,
+          "text": "doing races with us ever since we were"
+        },
+        {
+          "cue_id": 256,
+          "start_ms": 724279,
+          "end_ms": 733199,
+          "text": "real Run Race So I did the"
+        },
+        {
+          "cue_id": 257,
+          "start_ms": 728320,
+          "end_ms": 737360,
+          "text": "42k 2 years ago but that was virtual no"
+        },
+        {
+          "cue_id": 279,
+          "start_ms": 792320,
+          "end_ms": 798000,
+          "text": "get it done"
+        },
+        {
+          "cue_id": 280,
+          "start_ms": 795360,
+          "end_ms": 801440,
+          "text": "well because it's not imposed by anybody"
+        },
+        {
+          "cue_id": 303,
+          "start_ms": 857320,
+          "end_ms": 863560,
+          "text": "know a physical Bible so I'm reading"
+        },
+        {
+          "cue_id": 304,
+          "start_ms": 860519,
+          "end_ms": 866240,
+          "text": "Psalm 5 and it says but let all who take"
+        },
+        {
+          "cue_id": 320,
+          "start_ms": 926519,
+          "end_ms": 931920,
+          "text": "during the"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 927959,
+          "end_ms": 931920,
+          "text": "race you hear so"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 990440,
+          "end_ms": 996800,
+          "text": "part of a research right now"
+        },
+        {
+          "cue_id": 341,
+          "start_ms": 992519,
+          "end_ms": 998920,
+          "text": "so I'm like a guinea pig so actually I"
+        },
+        {
+          "cue_id": 365,
+          "start_ms": 1059039,
+          "end_ms": 1064880,
+          "text": "lessons we've learned training racing"
+        },
+        {
+          "cue_id": 366,
+          "start_ms": 1061960,
+          "end_ms": 1067000,
+          "text": "and recovering are all here and"
+        },
+        {
+          "cue_id": 390,
+          "start_ms": 1125480,
+          "end_ms": 1130760,
+          "text": "that you are creating a runner wears"
+        },
+        {
+          "cue_id": 391,
+          "start_ms": 1127480,
+          "end_ms": 1134600,
+          "text": "this a runner uses this a runner listens"
+        },
+        {
+          "cue_id": 413,
+          "start_ms": 1192159,
+          "end_ms": 1198840,
+          "text": "run PR look at how beautiful this is and"
+        },
+        {
+          "cue_id": 414,
+          "start_ms": 1195440,
+          "end_ms": 1201760,
+          "text": "the color is stunning this is lip balm"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1259360,
+          "end_ms": 1263960,
+          "text": "you just wanted to go to Sydney no I"
+        },
+        {
+          "cue_id": 437,
+          "start_ms": 1261919,
+          "end_ms": 1268000,
+          "text": "just wanted to come with you"
+        },
+        {
+          "cue_id": 456,
+          "start_ms": 1324720,
+          "end_ms": 1329080,
+          "text": "want to have to think about you know"
+        },
+        {
+          "cue_id": 457,
+          "start_ms": 1326080,
+          "end_ms": 1332320,
+          "text": "that's why I'm kind of setting it up"
+        },
+        {
+          "cue_id": 480,
+          "start_ms": 1391400,
+          "end_ms": 1397000,
+          "text": "will never truly understand what you"
+        },
+        {
+          "cue_id": 481,
+          "start_ms": 1393039,
+          "end_ms": 1398200,
+          "text": "were created to do tonight I'm going to"
+        },
+        {
+          "cue_id": 498,
+          "start_ms": 1458520,
+          "end_ms": 1463520,
+          "text": "dring don't"
+        },
+        {
+          "cue_id": 499,
+          "start_ms": 1460799,
+          "end_ms": 1465760,
+          "text": "be CH In the"
+        },
+        {
+          "cue_id": 512,
+          "start_ms": 1521040,
+          "end_ms": 1530320,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 513,
+          "start_ms": 1527320,
+          "end_ms": 1530320,
+          "text": "St"
+        },
+        {
+          "cue_id": 525,
+          "start_ms": 1589159,
+          "end_ms": 1595399,
+          "text": "a love letter to running I've learned so"
+        },
+        {
+          "cue_id": 526,
+          "start_ms": 1593320,
+          "end_ms": 1599000,
+          "text": "much becoming a"
+        },
+        {
+          "cue_id": 549,
+          "start_ms": 1657480,
+          "end_ms": 1662080,
+          "text": "already set before us by the Creator"
+        },
+        {
+          "cue_id": 550,
+          "start_ms": 1660240,
+          "end_ms": 1663919,
+          "text": "himself and I just love that picture of"
+        },
+        {
+          "cue_id": 577,
+          "start_ms": 1723799,
+          "end_ms": 1727840,
+          "text": "possible my parents and I had the best"
+        },
+        {
+          "cue_id": 578,
+          "start_ms": 1725880,
+          "end_ms": 1729760,
+          "text": "experience being welcomed by the Sydney"
+        },
+        {
+          "cue_id": 605,
+          "start_ms": 1790600,
+          "end_ms": 1796799,
+          "text": "day the glory all goes back to God"
+        },
+        {
+          "cue_id": 606,
+          "start_ms": 1792799,
+          "end_ms": 1800360,
+          "text": "himself oh my God I completely forgot we"
+        },
+        {
+          "cue_id": 628,
+          "start_ms": 1857240,
+          "end_ms": 1861559,
+          "text": "super essential this one is from shocks"
+        },
+        {
+          "cue_id": 629,
+          "start_ms": 1859760,
+          "end_ms": 1863159,
+          "text": "and it's a running belt that while"
+        },
+        {
+          "cue_id": 652,
+          "start_ms": 1921799,
+          "end_ms": 1927679,
+          "text": "and one with a 7.5 shoe size and also I"
+        },
+        {
+          "cue_id": 653,
+          "start_ms": 1925679,
+          "end_ms": 1930200,
+          "text": "just hope that this encourages you to go"
+        },
+        {
+          "cue_id": 679,
+          "start_ms": 1988080,
+          "end_ms": 1995000,
+          "text": "haven't trained as much as I hoped I"
+        },
+        {
+          "cue_id": 680,
+          "start_ms": 1991360,
+          "end_ms": 1999760,
+          "text": "actually had um an overtraining injury"
+        },
+        {
+          "cue_id": 700,
+          "start_ms": 2058040,
+          "end_ms": 2061040,
+          "text": "bye"
+        }
+      ],
+      "text": "things I did and you most definitely can\ndo to believe that you yourself are a\nsomething you're having fun with that's\nright but it's nice to have\nbecause if you want to start running\nthose things are very much necessary to\nstrength training day I actually really\ndo love these sessions because they are\nLang\n[Music]\njust so fulfilled because it's only 8:20\nin the morning and I've already done my\nkilometers signed up for these races\ndefinitely not it was super helpful for\nBPM just finished our easy run I did a\n30 minute run I honestly am very excited\nhappy after that I'm getting excited I'm\ngetting pumped but again not\nMarathon by coach Roda who has been\ndoing races with us ever since we were\nreal Run Race So I did the\n42k 2 years ago but that was virtual no\nget it done\nwell because it's not imposed by anybody\nknow a physical Bible so I'm reading\nPsalm 5 and it says but let all who take\nduring the\nrace you hear so\npart of a research right now\nso I'm like a guinea pig so actually I\nlessons we've learned training racing\nand recovering are all here and\nthat you are creating a runner wears\nthis a runner uses this a runner listens\nrun PR look at how beautiful this is and\nthe color is stunning this is lip balm\nyou just wanted to go to Sydney no I\njust wanted to come with you\nwant to have to think about you know\nthat's why I'm kind of setting it up\nwill never truly understand what you\nwere created to do tonight I'm going to\ndring don't\nbe CH In the\n[Music]\nSt\na love letter to running I've learned so\nmuch becoming a\nalready set before us by the Creator\nhimself and I just love that picture of\npossible my parents and I had the best\nexperience being welcomed by the Sydney\nday the glory all goes back to God\nhimself oh my God I completely forgot we\nsuper essential this one is from shocks\nand it's a running belt that while\nand one with a 7.5 shoe size and also I\njust hope that this encourages you to go\nhaven't trained as much as I hoped I\nactually had um an overtraining injury\nbye",
+      "text_tokens": 496,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "bIQf1HwEqHU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bIQf1HwEqHU.srt",
+          "status": "available",
+          "bytes": 75763,
+          "sha256": "be70133c01f465024c97a0fe7b07b765c226968cc11e2a19afe537f6a851e244",
+          "cues": 700,
+          "nonempty_cues": 700
+        },
+        "frame_indices": [
+          0,
+          1592,
+          3185,
+          4777,
+          6370,
+          7962,
+          9555,
+          11147,
+          12740,
+          14332,
+          15925,
+          17517,
+          19110,
+          20702,
+          22295,
+          23887,
+          25480,
+          27072,
+          28665,
+          30257,
+          31850,
+          33442,
+          35035,
+          36627,
+          38220,
+          39812,
+          41405,
+          42997,
+          44590,
+          46182,
+          47775,
+          49367
+        ],
+        "frame_seconds": [
+          0.0,
+          66.399667,
+          132.841042,
+          199.240708,
+          265.682083,
+          332.08175,
+          398.523125,
+          464.922792,
+          531.364167,
+          597.763833,
+          664.205208,
+          730.604875,
+          797.04625,
+          863.445917,
+          929.887292,
+          996.286958,
+          1062.728333,
+          1129.128,
+          1195.569375,
+          1261.969042,
+          1328.410417,
+          1394.810083,
+          1461.251458,
+          1527.651125,
+          1594.0925,
+          1660.492167,
+          1726.933542,
+          1793.333208,
+          1859.774583,
+          1926.17425,
+          1992.615625,
+          2059.015292
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            25,
+            26
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            75,
+            76
+          ],
+          [
+            94,
+            95
+          ],
+          [
+            114,
+            115
+          ],
+          [
+            133,
+            134
+          ],
+          [
+            158,
+            159
+          ],
+          [
+            182,
+            183
+          ],
+          [
+            210,
+            211
+          ],
+          [
+            229,
+            230
+          ],
+          [
+            256,
+            257
+          ],
+          [
+            279,
+            280
+          ],
+          [
+            303,
+            304
+          ],
+          [
+            320,
+            321
+          ],
+          [
+            340,
+            341
+          ],
+          [
+            365,
+            366
+          ],
+          [
+            390,
+            391
+          ],
+          [
+            413,
+            414
+          ],
+          [
+            436,
+            437
+          ],
+          [
+            456,
+            457
+          ],
+          [
+            480,
+            481
+          ],
+          [
+            498,
+            499
+          ],
+          [
+            512,
+            513
+          ],
+          [
+            525,
+            526
+          ],
+          [
+            549,
+            550
+          ],
+          [
+            577,
+            578
+          ],
+          [
+            605,
+            606
+          ],
+          [
+            628,
+            629
+          ],
+          [
+            652,
+            653
+          ],
+          [
+            679,
+            680
+          ],
+          [
+            700
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 25,
+            "start_ms": 62960,
+            "end_ms": 67119,
+            "text": "things I did and you most definitely can"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 65000,
+            "end_ms": 68560,
+            "text": "do to believe that you yourself are a"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 126960,
+            "end_ms": 133519,
+            "text": "something you're having fun with that's"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 130080,
+            "end_ms": 136160,
+            "text": "right but it's nice to have"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 196879,
+            "end_ms": 200799,
+            "text": "because if you want to start running"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 197959,
+            "end_ms": 202480,
+            "text": "those things are very much necessary to"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 263280,
+            "end_ms": 266960,
+            "text": "strength training day I actually really"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 265400,
+            "end_ms": 270000,
+            "text": "do love these sessions because they are"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 328639,
+            "end_ms": 336249,
+            "text": "Lang"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 330480,
+            "end_ms": 336249,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 133,
+            "start_ms": 394520,
+            "end_ms": 398759,
+            "text": "just so fulfilled because it's only 8:20"
+          },
+          {
+            "cue_id": 134,
+            "start_ms": 397199,
+            "end_ms": 400440,
+            "text": "in the morning and I've already done my"
+          },
+          {
+            "cue_id": 158,
+            "start_ms": 459800,
+            "end_ms": 465400,
+            "text": "kilometers signed up for these races"
+          },
+          {
+            "cue_id": 159,
+            "start_ms": 462240,
+            "end_ms": 468000,
+            "text": "definitely not it was super helpful for"
+          },
+          {
+            "cue_id": 182,
+            "start_ms": 526080,
+            "end_ms": 532880,
+            "text": "BPM just finished our easy run I did a"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 530200,
+            "end_ms": 535800,
+            "text": "30 minute run I honestly am very excited"
+          },
+          {
+            "cue_id": 210,
+            "start_ms": 594320,
+            "end_ms": 598399,
+            "text": "happy after that I'm getting excited I'm"
+          },
+          {
+            "cue_id": 211,
+            "start_ms": 596680,
+            "end_ms": 602279,
+            "text": "getting pumped but again not"
+          },
+          {
+            "cue_id": 229,
+            "start_ms": 659880,
+            "end_ms": 665279,
+            "text": "Marathon by coach Roda who has been"
+          },
+          {
+            "cue_id": 230,
+            "start_ms": 663480,
+            "end_ms": 667720,
+            "text": "doing races with us ever since we were"
+          },
+          {
+            "cue_id": 256,
+            "start_ms": 724279,
+            "end_ms": 733199,
+            "text": "real Run Race So I did the"
+          },
+          {
+            "cue_id": 257,
+            "start_ms": 728320,
+            "end_ms": 737360,
+            "text": "42k 2 years ago but that was virtual no"
+          },
+          {
+            "cue_id": 279,
+            "start_ms": 792320,
+            "end_ms": 798000,
+            "text": "get it done"
+          },
+          {
+            "cue_id": 280,
+            "start_ms": 795360,
+            "end_ms": 801440,
+            "text": "well because it's not imposed by anybody"
+          },
+          {
+            "cue_id": 303,
+            "start_ms": 857320,
+            "end_ms": 863560,
+            "text": "know a physical Bible so I'm reading"
+          },
+          {
+            "cue_id": 304,
+            "start_ms": 860519,
+            "end_ms": 866240,
+            "text": "Psalm 5 and it says but let all who take"
+          },
+          {
+            "cue_id": 320,
+            "start_ms": 926519,
+            "end_ms": 931920,
+            "text": "during the"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 927959,
+            "end_ms": 931920,
+            "text": "race you hear so"
+          },
+          {
+            "cue_id": 340,
+            "start_ms": 990440,
+            "end_ms": 996800,
+            "text": "part of a research right now"
+          },
+          {
+            "cue_id": 341,
+            "start_ms": 992519,
+            "end_ms": 998920,
+            "text": "so I'm like a guinea pig so actually I"
+          },
+          {
+            "cue_id": 365,
+            "start_ms": 1059039,
+            "end_ms": 1064880,
+            "text": "lessons we've learned training racing"
+          },
+          {
+            "cue_id": 366,
+            "start_ms": 1061960,
+            "end_ms": 1067000,
+            "text": "and recovering are all here and"
+          },
+          {
+            "cue_id": 390,
+            "start_ms": 1125480,
+            "end_ms": 1130760,
+            "text": "that you are creating a runner wears"
+          },
+          {
+            "cue_id": 391,
+            "start_ms": 1127480,
+            "end_ms": 1134600,
+            "text": "this a runner uses this a runner listens"
+          },
+          {
+            "cue_id": 413,
+            "start_ms": 1192159,
+            "end_ms": 1198840,
+            "text": "run PR look at how beautiful this is and"
+          },
+          {
+            "cue_id": 414,
+            "start_ms": 1195440,
+            "end_ms": 1201760,
+            "text": "the color is stunning this is lip balm"
+          },
+          {
+            "cue_id": 436,
+            "start_ms": 1259360,
+            "end_ms": 1263960,
+            "text": "you just wanted to go to Sydney no I"
+          },
+          {
+            "cue_id": 437,
+            "start_ms": 1261919,
+            "end_ms": 1268000,
+            "text": "just wanted to come with you"
+          },
+          {
+            "cue_id": 456,
+            "start_ms": 1324720,
+            "end_ms": 1329080,
+            "text": "want to have to think about you know"
+          },
+          {
+            "cue_id": 457,
+            "start_ms": 1326080,
+            "end_ms": 1332320,
+            "text": "that's why I'm kind of setting it up"
+          },
+          {
+            "cue_id": 480,
+            "start_ms": 1391400,
+            "end_ms": 1397000,
+            "text": "will never truly understand what you"
+          },
+          {
+            "cue_id": 481,
+            "start_ms": 1393039,
+            "end_ms": 1398200,
+            "text": "were created to do tonight I'm going to"
+          },
+          {
+            "cue_id": 498,
+            "start_ms": 1458520,
+            "end_ms": 1463520,
+            "text": "dring don't"
+          },
+          {
+            "cue_id": 499,
+            "start_ms": 1460799,
+            "end_ms": 1465760,
+            "text": "be CH In the"
+          },
+          {
+            "cue_id": 512,
+            "start_ms": 1521040,
+            "end_ms": 1530320,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 513,
+            "start_ms": 1527320,
+            "end_ms": 1530320,
+            "text": "St"
+          },
+          {
+            "cue_id": 525,
+            "start_ms": 1589159,
+            "end_ms": 1595399,
+            "text": "a love letter to running I've learned so"
+          },
+          {
+            "cue_id": 526,
+            "start_ms": 1593320,
+            "end_ms": 1599000,
+            "text": "much becoming a"
+          },
+          {
+            "cue_id": 549,
+            "start_ms": 1657480,
+            "end_ms": 1662080,
+            "text": "already set before us by the Creator"
+          },
+          {
+            "cue_id": 550,
+            "start_ms": 1660240,
+            "end_ms": 1663919,
+            "text": "himself and I just love that picture of"
+          },
+          {
+            "cue_id": 577,
+            "start_ms": 1723799,
+            "end_ms": 1727840,
+            "text": "possible my parents and I had the best"
+          },
+          {
+            "cue_id": 578,
+            "start_ms": 1725880,
+            "end_ms": 1729760,
+            "text": "experience being welcomed by the Sydney"
+          },
+          {
+            "cue_id": 605,
+            "start_ms": 1790600,
+            "end_ms": 1796799,
+            "text": "day the glory all goes back to God"
+          },
+          {
+            "cue_id": 606,
+            "start_ms": 1792799,
+            "end_ms": 1800360,
+            "text": "himself oh my God I completely forgot we"
+          },
+          {
+            "cue_id": 628,
+            "start_ms": 1857240,
+            "end_ms": 1861559,
+            "text": "super essential this one is from shocks"
+          },
+          {
+            "cue_id": 629,
+            "start_ms": 1859760,
+            "end_ms": 1863159,
+            "text": "and it's a running belt that while"
+          },
+          {
+            "cue_id": 652,
+            "start_ms": 1921799,
+            "end_ms": 1927679,
+            "text": "and one with a 7.5 shoe size and also I"
+          },
+          {
+            "cue_id": 653,
+            "start_ms": 1925679,
+            "end_ms": 1930200,
+            "text": "just hope that this encourages you to go"
+          },
+          {
+            "cue_id": 679,
+            "start_ms": 1988080,
+            "end_ms": 1995000,
+            "text": "haven't trained as much as I hoped I"
+          },
+          {
+            "cue_id": 680,
+            "start_ms": 1991360,
+            "end_ms": 1999760,
+            "text": "actually had um an overtraining injury"
+          },
+          {
+            "cue_id": 700,
+            "start_ms": 2058040,
+            "end_ms": 2061040,
+            "text": "bye"
+          }
+        ],
+        "text": "things I did and you most definitely can\ndo to believe that you yourself are a\nsomething you're having fun with that's\nright but it's nice to have\nbecause if you want to start running\nthose things are very much necessary to\nstrength training day I actually really\ndo love these sessions because they are\nLang\n[Music]\njust so fulfilled because it's only 8:20\nin the morning and I've already done my\nkilometers signed up for these races\ndefinitely not it was super helpful for\nBPM just finished our easy run I did a\n30 minute run I honestly am very excited\nhappy after that I'm getting excited I'm\ngetting pumped but again not\nMarathon by coach Roda who has been\ndoing races with us ever since we were\nreal Run Race So I did the\n42k 2 years ago but that was virtual no\nget it done\nwell because it's not imposed by anybody\nknow a physical Bible so I'm reading\nPsalm 5 and it says but let all who take\nduring the\nrace you hear so\npart of a research right now\nso I'm like a guinea pig so actually I\nlessons we've learned training racing\nand recovering are all here and\nthat you are creating a runner wears\nthis a runner uses this a runner listens\nrun PR look at how beautiful this is and\nthe color is stunning this is lip balm\nyou just wanted to go to Sydney no I\njust wanted to come with you\nwant to have to think about you know\nthat's why I'm kind of setting it up\nwill never truly understand what you\nwere created to do tonight I'm going to\ndring don't\nbe CH In the\n[Music]\nSt\na love letter to running I've learned so\nmuch becoming a\nalready set before us by the Creator\nhimself and I just love that picture of\npossible my parents and I had the best\nexperience being welcomed by the Sydney\nday the glory all goes back to God\nhimself oh my God I completely forgot we\nsuper essential this one is from shocks\nand it's a running belt that while\nand one with a 7.5 shoe size and also I\njust hope that this encourages you to go\nhaven't trained as much as I hoped I\nactually had um an overtraining injury\nbye",
+        "text_tokens": 496,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "start_ms": 61760,
+          "end_ms": 71039,
+          "text": "I'm going to share with you the four things I did and you most definitely can do to believe that you yourself are a runner but in order for me to tell you"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "start_ms": 124520,
+          "end_ms": 139360,
+          "text": "therapist it's not a my game it's something you're having fun with that's right but it's nice to have goals yeah but don't be afraid of not"
+        },
+        {
+          "id": "S74",
+          "cue_ids": [
+            74,
+            75,
+            76,
+            77
+          ],
+          "start_ms": 194599,
+          "end_ms": 204599,
+          "text": "that I can do this hold on to that thing because if you want to start running those things are very much necessary to help you in building the confidence to"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95,
+            96
+          ],
+          "start_ms": 259160,
+          "end_ms": 272159,
+          "text": "day of our training week and it is strength training day I actually really do love these sessions because they are lower in intensity but they have"
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115
+          ],
+          "start_ms": 328639,
+          "end_ms": 336249,
+          "text": "Lang [Music]"
+        },
+        {
+          "id": "S132",
+          "cue_ids": [
+            132,
+            133,
+            134,
+            135
+          ],
+          "start_ms": 391880,
+          "end_ms": 404360,
+          "text": "could have done better or worse and I'm just so fulfilled because it's only 8:20 in the morning and I've already done my workout today was actually my last"
+        },
+        {
+          "id": "S157",
+          "cue_ids": [
+            157,
+            158,
+            159,
+            160
+          ],
+          "start_ms": 457759,
+          "end_ms": 470599,
+          "text": "mornings ran those extra kilometers signed up for these races definitely not it was super helpful for me to get coaches like coach Sara and"
+        },
+        {
+          "id": "S181",
+          "cue_ids": [
+            181,
+            182,
+            183,
+            184
+          ],
+          "start_ms": 521559,
+          "end_ms": 538480,
+          "text": "180 BPM or around that BPM just finished our easy run I did a 30 minute run I honestly am very excited for this run for the first time and in a"
+        },
+        {
+          "id": "S209",
+          "cue_ids": [
+            209,
+            210,
+            211,
+            212
+          ],
+          "start_ms": 591160,
+          "end_ms": 604240,
+          "text": "to do that pretty well and I was like happy after that I'm getting excited I'm getting pumped but again not overconfident because I still need to be"
+        },
+        {
+          "id": "S228",
+          "cue_ids": [
+            228,
+            229,
+            230,
+            231
+          ],
+          "start_ms": 657760,
+          "end_ms": 670320,
+          "text": "were actually invited um to this Marathon by coach Roda who has been doing races with us ever since we were like I was I think I was nine I did my"
+        },
+        {
+          "id": "S255",
+          "cue_ids": [
+            255,
+            256,
+            257,
+            258
+          ],
+          "start_ms": 720880,
+          "end_ms": 739480,
+          "text": "this is my first real Run Race So I did the 42k 2 years ago but that was virtual no setup no people no Finish"
+        },
+        {
+          "id": "S278",
+          "cue_ids": [
+            278,
+            279,
+            280,
+            281
+          ],
+          "start_ms": 788360,
+          "end_ms": 803079,
+          "text": "is your own there is more pressure to to get it done well because it's not imposed by anybody else it's like you have to own it if"
+        },
+        {
+          "id": "S302",
+          "cue_ids": [
+            302,
+            303,
+            304,
+            305
+          ],
+          "start_ms": 853839,
+          "end_ms": 868880,
+          "text": "my phone but it's different to read you know a physical Bible so I'm reading Psalm 5 and it says but let all who take refuge in you rejoice let them ever sing"
+        },
+        {
+          "id": "S319",
+          "cue_ids": [
+            319,
+            320,
+            321,
+            322
+          ],
+          "start_ms": 923680,
+          "end_ms": 942839,
+          "text": "for people so that I can pray for them during the race you hear so nice is my seven seventh"
+        },
+        {
+          "id": "S339",
+          "cue_ids": [
+            339,
+            340,
+            341,
+            342
+          ],
+          "start_ms": 986480,
+          "end_ms": 1000920,
+          "text": "this is to test my glucose level and I'm part of a research right now so I'm like a guinea pig so actually I did cuz I not a to the guy in the booth"
+        },
+        {
+          "id": "S364",
+          "cue_ids": [
+            364,
+            365,
+            366,
+            367
+          ],
+          "start_ms": 1056760,
+          "end_ms": 1070320,
+          "text": "marathons around the world and the lessons we've learned training racing and recovering are all here and hopefully you get inspired to run your"
+        },
+        {
+          "id": "S389",
+          "cue_ids": [
+            389,
+            390,
+            391,
+            392
+          ],
+          "start_ms": 1121880,
+          "end_ms": 1136799,
+          "text": "into your bag it reinforces the identity that you are creating a runner wears this a runner uses this a runner listens to this a runner looks like this hello"
+        },
+        {
+          "id": "S412",
+          "cue_ids": [
+            412,
+            413,
+            414,
+            415
+          ],
+          "start_ms": 1189360,
+          "end_ms": 1204840,
+          "text": "my audio I'll be wearing my shocks open run PR look at how beautiful this is and the color is stunning this is lip balm with SPF so I'm going to put this also"
+        },
+        {
+          "id": "S435",
+          "cue_ids": [
+            435,
+            436,
+            437,
+            438
+          ],
+          "start_ms": 1258159,
+          "end_ms": 1270200,
+          "text": "this you just wanted to go to Sydney no I just wanted to come with you guys I have a long time with h and you"
+        },
+        {
+          "id": "S455",
+          "cue_ids": [
+            455,
+            456,
+            457,
+            458
+          ],
+          "start_ms": 1322720,
+          "end_ms": 1333480,
+          "text": "here these are just some things I don't want to have to think about you know that's why I'm kind of setting it up here salted caramel protein one I don't"
+        },
+        {
+          "id": "S479",
+          "cue_ids": [
+            479,
+            480,
+            481,
+            482
+          ],
+          "start_ms": 1388400,
+          "end_ms": 1404480,
+          "text": "foot in front of the other and run you will never truly understand what you were created to do tonight I'm going to have"
+        },
+        {
+          "id": "S497",
+          "cue_ids": [
+            497,
+            498,
+            499,
+            500
+          ],
+          "start_ms": 1455080,
+          "end_ms": 1467360,
+          "text": "over because everyone has dring don't be CH In the comparison I'm trying not to it's a"
+        },
+        {
+          "id": "S511",
+          "cue_ids": [
+            511,
+            512,
+            513
+          ],
+          "start_ms": 1518159,
+          "end_ms": 1530320,
+          "text": "stop don't [Music] St"
+        },
+        {
+          "id": "S524",
+          "cue_ids": [
+            524,
+            525,
+            526,
+            527
+          ],
+          "start_ms": 1586360,
+          "end_ms": 1601520,
+          "text": "this race I'd consider this little video a love letter to running I've learned so much becoming a runner I look forward to all that it's"
+        },
+        {
+          "id": "S548",
+          "cue_ids": [
+            548,
+            549,
+            550,
+            551
+          ],
+          "start_ms": 1655799,
+          "end_ms": 1666360,
+          "text": "and running the race why because it was already set before us by the Creator himself and I just love that picture of running alongside Jesus in this race"
+        },
+        {
+          "id": "S576",
+          "cue_ids": [
+            576,
+            577,
+            578,
+            579
+          ],
+          "start_ms": 1722039,
+          "end_ms": 1731640,
+          "text": "run R for making all of these things possible my parents and I had the best experience being welcomed by the Sydney Marathon group last but of course not"
+        },
+        {
+          "id": "S604",
+          "cue_ids": [
+            604,
+            605,
+            606,
+            607
+          ],
+          "start_ms": 1788320,
+          "end_ms": 1803200,
+          "text": "for reminding me that at the end of the day the glory all goes back to God himself oh my God I completely forgot we are doing a giveaway as I was editing"
+        },
+        {
+          "id": "S627",
+          "cue_ids": [
+            627,
+            628,
+            629,
+            630
+          ],
+          "start_ms": 1854120,
+          "end_ms": 1867279,
+          "text": "also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone"
+        },
+        {
+          "id": "S651",
+          "cue_ids": [
+            651,
+            652,
+            653,
+            654
+          ],
+          "start_ms": 1917880,
+          "end_ms": 1933120,
+          "text": "two lers again one with a 10.5 shoe size and one with a 7.5 shoe size and also I just hope that this encourages you to go out and go run what are the mechanics we"
+        },
+        {
+          "id": "S678",
+          "cue_ids": [
+            678,
+            679,
+            680,
+            681
+          ],
+          "start_ms": 1986159,
+          "end_ms": 2001120,
+          "text": "really nervous about it because I haven't trained as much as I hoped I actually had um an overtraining injury but it's coming and what is it it's the"
+        },
+        {
+          "id": "S700",
+          "cue_ids": [
+            700
+          ],
+          "start_ms": 2058040,
+          "end_ms": 2061040,
+          "text": "bye"
+        }
+      ],
+      "text": "S24 [00:01:01.760 --> 00:01:11.039] I'm going to share with you the four things I did and you most definitely can do to believe that you yourself are a runner but in order for me to tell you\nS49 [00:02:04.520 --> 00:02:19.360] therapist it's not a my game it's something you're having fun with that's right but it's nice to have goals yeah but don't be afraid of not\nS74 [00:03:14.599 --> 00:03:24.599] that I can do this hold on to that thing because if you want to start running those things are very much necessary to help you in building the confidence to\nS93 [00:04:19.160 --> 00:04:32.159] day of our training week and it is strength training day I actually really do love these sessions because they are lower in intensity but they have\nS114 [00:05:28.639 --> 00:05:36.249] Lang [Music]\nS132 [00:06:31.880 --> 00:06:44.360] could have done better or worse and I'm just so fulfilled because it's only 8:20 in the morning and I've already done my workout today was actually my last\nS157 [00:07:37.759 --> 00:07:50.599] mornings ran those extra kilometers signed up for these races definitely not it was super helpful for me to get coaches like coach Sara and\nS181 [00:08:41.559 --> 00:08:58.480] 180 BPM or around that BPM just finished our easy run I did a 30 minute run I honestly am very excited for this run for the first time and in a\nS209 [00:09:51.160 --> 00:10:04.240] to do that pretty well and I was like happy after that I'm getting excited I'm getting pumped but again not overconfident because I still need to be\nS228 [00:10:57.760 --> 00:11:10.320] were actually invited um to this Marathon by coach Roda who has been doing races with us ever since we were like I was I think I was nine I did my\nS255 [00:12:00.880 --> 00:12:19.480] this is my first real Run Race So I did the 42k 2 years ago but that was virtual no setup no people no Finish\nS278 [00:13:08.360 --> 00:13:23.079] is your own there is more pressure to to get it done well because it's not imposed by anybody else it's like you have to own it if\nS302 [00:14:13.839 --> 00:14:28.880] my phone but it's different to read you know a physical Bible so I'm reading Psalm 5 and it says but let all who take refuge in you rejoice let them ever sing\nS319 [00:15:23.680 --> 00:15:42.839] for people so that I can pray for them during the race you hear so nice is my seven seventh\nS339 [00:16:26.480 --> 00:16:40.920] this is to test my glucose level and I'm part of a research right now so I'm like a guinea pig so actually I did cuz I not a to the guy in the booth\nS364 [00:17:36.760 --> 00:17:50.320] marathons around the world and the lessons we've learned training racing and recovering are all here and hopefully you get inspired to run your\nS389 [00:18:41.880 --> 00:18:56.799] into your bag it reinforces the identity that you are creating a runner wears this a runner uses this a runner listens to this a runner looks like this hello\nS412 [00:19:49.360 --> 00:20:04.840] my audio I'll be wearing my shocks open run PR look at how beautiful this is and the color is stunning this is lip balm with SPF so I'm going to put this also\nS435 [00:20:58.159 --> 00:21:10.200] this you just wanted to go to Sydney no I just wanted to come with you guys I have a long time with h and you\nS455 [00:22:02.720 --> 00:22:13.480] here these are just some things I don't want to have to think about you know that's why I'm kind of setting it up here salted caramel protein one I don't\nS479 [00:23:08.400 --> 00:23:24.480] foot in front of the other and run you will never truly understand what you were created to do tonight I'm going to have\nS497 [00:24:15.080 --> 00:24:27.360] over because everyone has dring don't be CH In the comparison I'm trying not to it's a\nS511 [00:25:18.159 --> 00:25:30.320] stop don't [Music] St\nS524 [00:26:26.360 --> 00:26:41.520] this race I'd consider this little video a love letter to running I've learned so much becoming a runner I look forward to all that it's\nS548 [00:27:35.799 --> 00:27:46.360] and running the race why because it was already set before us by the Creator himself and I just love that picture of running alongside Jesus in this race\nS576 [00:28:42.039 --> 00:28:51.640] run R for making all of these things possible my parents and I had the best experience being welcomed by the Sydney Marathon group last but of course not\nS604 [00:29:48.320 --> 00:30:03.200] for reminding me that at the end of the day the glory all goes back to God himself oh my God I completely forgot we are doing a giveaway as I was editing\nS627 [00:30:54.120 --> 00:31:07.279] also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone\nS651 [00:31:57.880 --> 00:32:13.120] two lers again one with a 10.5 shoe size and one with a 7.5 shoe size and also I just hope that this encourages you to go out and go run what are the mechanics we\nS678 [00:33:06.159 --> 00:33:21.120] really nervous about it because I haven't trained as much as I hoped I actually had um an overtraining injury but it's coming and what is it it's the\nS700 [00:34:18.040 --> 00:34:21.040] bye",
+      "text_tokens": 1900,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        24,
+        27,
+        49,
+        52,
+        74,
+        77,
+        93,
+        96,
+        132,
+        135,
+        157,
+        160,
+        181,
+        184,
+        209,
+        212,
+        228,
+        231,
+        255,
+        258,
+        278,
+        281,
+        302,
+        305,
+        319,
+        322,
+        339,
+        342,
+        364,
+        367,
+        389,
+        392,
+        412,
+        415,
+        435,
+        438,
+        455,
+        458,
+        479,
+        482,
+        497,
+        500,
+        511,
+        524,
+        527,
+        548,
+        551,
+        576,
+        579,
+        604,
+        607,
+        627,
+        630,
+        651,
+        654,
+        678,
+        681
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "fbb26ddcad8fe3efb205de5212f53f69b83ce7fe4928f5d916df39b5ad83b95e"
+}

@@ -1,0 +1,369 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "IjSISLZCKPs",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IjSISLZCKPs.srt",
+      "status": "available",
+      "bytes": 10471,
+      "sha256": "a448a48ecfe3ae08f5a28921a8be7b6e42d30c1789ddcd15cfb683779986b01c",
+      "cues": 113,
+      "nonempty_cues": 113
+    },
+    "frame_indices": [
+      0,
+      465,
+      931,
+      1396,
+      1861,
+      2327,
+      2792,
+      3257,
+      3723,
+      4188,
+      4653,
+      5119,
+      5584,
+      6049,
+      6515,
+      6980,
+      7445,
+      7910,
+      8376,
+      8841,
+      9306,
+      9772,
+      10237,
+      10702,
+      11168,
+      11633,
+      12098,
+      12564,
+      13029,
+      13494,
+      13960,
+      14425
+    ],
+    "frame_seconds": [
+      0.0,
+      15.5155,
+      31.064367,
+      46.579867,
+      62.095367,
+      77.644233,
+      93.159733,
+      108.67523299999999,
+      124.22409999999999,
+      139.7396,
+      155.2551,
+      170.803967,
+      186.319467,
+      201.834967,
+      217.383833,
+      232.899333,
+      248.414833,
+      263.930333,
+      279.4792,
+      294.9947,
+      310.5102,
+      326.059067,
+      341.574567,
+      357.090067,
+      372.638933,
+      388.154433,
+      403.669933,
+      419.2188,
+      434.7343,
+      450.2498,
+      465.798667,
+      481.314167
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        4,
+        5
+      ],
+      [],
+      [],
+      [
+        14
+      ],
+      [
+        17
+      ],
+      [],
+      [],
+      [],
+      [
+        29
+      ],
+      [],
+      [
+        35,
+        36
+      ],
+      [
+        42,
+        43
+      ],
+      [],
+      [
+        47
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        53,
+        54
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        64,
+        65
+      ],
+      [],
+      [
+        74
+      ],
+      [
+        77
+      ],
+      [
+        81
+      ],
+      [
+        85
+      ],
+      [
+        90
+      ],
+      [
+        93
+      ],
+      [
+        96,
+        97
+      ],
+      [
+        101
+      ],
+      [
+        104,
+        105
+      ],
+      [
+        109
+      ],
+      [
+        112,
+        113
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 4,
+        "start_ms": 11820,
+        "end_ms": 17000,
+        "text": "Maji"
+      },
+      {
+        "cue_id": 5,
+        "start_ms": 13799,
+        "end_ms": 17000,
+        "text": "did you go in the garbage"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 60059,
+        "end_ms": 65600,
+        "text": "Ben what did you do"
+      },
+      {
+        "cue_id": 17,
+        "start_ms": 75659,
+        "end_ms": 78658,
+        "text": "videos"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 138980,
+        "end_ms": 142879,
+        "text": "Monty come here right now"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 167700,
+        "end_ms": 172760,
+        "text": "naughty"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 169860,
+        "end_ms": 172760,
+        "text": "did you do that"
+      },
+      {
+        "cue_id": 42,
+        "start_ms": 183780,
+        "end_ms": 187560,
+        "text": "did you have a good day huh did you have"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 185400,
+        "end_ms": 190200,
+        "text": "a good day Daddy loves you you have a"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 204160,
+        "end_ms": 226310,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 229079,
+        "end_ms": 235200,
+        "text": "you did this"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 231840,
+        "end_ms": 237720,
+        "text": "you you chew The Chopping board Chloe"
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 243200,
+        "end_ms": 249599,
+        "text": "I haven't even said anything"
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 246180,
+        "end_ms": 252060,
+        "text": "boy what's that Nova"
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 259160,
+        "end_ms": 263940,
+        "text": "we wish to"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 261238,
+        "end_ms": 267240,
+        "text": "and"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 275940,
+        "end_ms": 281400,
+        "text": "your ear medicine but"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 278100,
+        "end_ms": 285680,
+        "text": "we gotta do it I mean"
+      },
+      {
+        "cue_id": 74,
+        "start_ms": 308280,
+        "end_ms": 311060,
+        "text": "Casey"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 325919,
+        "end_ms": 332159,
+        "text": "did you snack on this"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 337860,
+        "end_ms": 341840,
+        "text": "oh are you pointing physique"
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 354840,
+        "end_ms": 360440,
+        "text": "honey have you been a good girl or a bad"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 370560,
+        "end_ms": 374180,
+        "text": "Penny did you do this"
+      },
+      {
+        "cue_id": 93,
+        "start_ms": 386940,
+        "end_ms": 389940,
+        "text": "dude"
+      },
+      {
+        "cue_id": 96,
+        "start_ms": 399780,
+        "end_ms": 405360,
+        "text": "what did you do to that"
+      },
+      {
+        "cue_id": 97,
+        "start_ms": 402600,
+        "end_ms": 408560,
+        "text": "did you eat this slipper"
+      },
+      {
+        "cue_id": 101,
+        "start_ms": 417720,
+        "end_ms": 420380,
+        "text": "dad"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 428639,
+        "end_ms": 436940,
+        "text": "hey did you dig in the trash can"
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 432419,
+        "end_ms": 436940,
+        "text": "did you dig Did You Dig"
+      },
+      {
+        "cue_id": 109,
+        "start_ms": 450000,
+        "end_ms": 452960,
+        "text": "what's this"
+      },
+      {
+        "cue_id": 112,
+        "start_ms": 461580,
+        "end_ms": 469149,
+        "text": "foreign"
+      },
+      {
+        "cue_id": 113,
+        "start_ms": 463570,
+        "end_ms": 469149,
+        "text": "[Music]"
+      }
+    ],
+    "text": "Maji\ndid you go in the garbage\nBen what did you do\nvideos\nMonty come here right now\nnaughty\ndid you do that\ndid you have a good day huh did you have\na good day Daddy loves you you have a\n[Music]\nyou did this\nyou you chew The Chopping board Chloe\nI haven't even said anything\nboy what's that Nova\nwe wish to\nand\nyour ear medicine but\nwe gotta do it I mean\nCasey\ndid you snack on this\noh are you pointing physique\nhoney have you been a good girl or a bad\nPenny did you do this\ndude\nwhat did you do to that\ndid you eat this slipper\ndad\nhey did you dig in the trash can\ndid you dig Did You Dig\nwhat's this\nforeign\n[Music]",
+    "text_tokens": 179,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "b1dee6d3a4049aee5ffb67140b0f12161e48bd2dfc7b3e15f6d10d4a6bd7dbaa"
+}

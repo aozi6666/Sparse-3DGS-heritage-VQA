@@ -1,0 +1,817 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "dTUaWnvIOp4",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dTUaWnvIOp4.srt",
+        "status": "available",
+        "bytes": 13303,
+        "sha256": "eb83cfdd4e0251483ae5ceb1b0f650b9c8c51705f10b3262fc89f8798213fbd1",
+        "cues": 123,
+        "nonempty_cues": 123
+      },
+      "frame_indices": [
+        0,
+        275,
+        550,
+        825,
+        1100,
+        1375,
+        1649,
+        1924,
+        2199,
+        2474,
+        2749,
+        3024,
+        3299,
+        3574,
+        3849,
+        4124,
+        4398,
+        4673,
+        4948,
+        5223,
+        5498,
+        5773,
+        6048,
+        6323,
+        6598,
+        6873,
+        7147,
+        7422,
+        7697,
+        7972,
+        8247,
+        8522
+      ],
+      "frame_seconds": [
+        0.0,
+        11.0,
+        22.0,
+        33.0,
+        44.0,
+        55.0,
+        65.96,
+        76.96000000000001,
+        87.96000000000001,
+        98.96000000000001,
+        109.96000000000001,
+        120.96,
+        131.96,
+        142.96,
+        153.96,
+        164.96,
+        175.92000000000002,
+        186.92,
+        197.92000000000002,
+        208.92000000000002,
+        219.92000000000002,
+        230.92000000000002,
+        241.92,
+        252.92,
+        263.92,
+        274.92,
+        285.88,
+        296.88,
+        307.88,
+        318.88,
+        329.88,
+        340.88
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          58,
+          59
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          68,
+          69
+        ],
+        [
+          71,
+          72
+        ],
+        [
+          75,
+          76
+        ],
+        [
+          79,
+          80
+        ],
+        [
+          83,
+          84
+        ],
+        [
+          87,
+          88
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          97,
+          98
+        ],
+        [
+          102,
+          103
+        ],
+        [
+          107,
+          108
+        ],
+        [
+          112,
+          113
+        ],
+        [
+          117,
+          118
+        ],
+        [
+          121,
+          122
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 10920,
+          "end_ms": 15940,
+          "text": "the busy Street here are full of sellers"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13440,
+          "end_ms": 24480,
+          "text": "peddling these precious gems"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 15940,
+          "end_ms": 26939,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 28859,
+          "end_ms": 33660,
+          "text": "extracting diamonds from the Earth but"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 31019,
+          "end_ms": 36180,
+          "text": "rather growing them in a lab"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 41280,
+          "end_ms": 46739,
+          "text": "shifted to a process that they say was"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 43320,
+          "end_ms": 49559,
+          "text": "faster cheaper and more sustainable and"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 51840,
+          "end_ms": 56340,
+          "text": "but just how do you grow a diamond"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 53960,
+          "end_ms": 60360,
+          "text": "Sangeet where are we what is this room"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 60360,
+          "end_ms": 67080,
+          "text": "green lab as it is the growing unit so"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 63480,
+          "end_ms": 70020,
+          "text": "we have seeds which are 7mm 8mm 20 mm up"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 72600,
+          "end_ms": 77580,
+          "text": "crystal diamond plate so once the plate"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 74820,
+          "end_ms": 79320,
+          "text": "is placed in the in the reactors"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 85799,
+          "end_ms": 90840,
+          "text": "natural diamonds to form"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 87600,
+          "end_ms": 93380,
+          "text": "a natural gas such as methane is pumped"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 95880,
+          "end_ms": 100860,
+          "text": "to form a rough diamond"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 98220,
+          "end_ms": 103079,
+          "text": "so rather than thousands of years these"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 106500,
+          "end_ms": 110039,
+          "text": "Diamond rough once it's given to a"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 108360,
+          "end_ms": 112079,
+          "text": "cutting and polishing tape it doesn't"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 117658,
+          "end_ms": 122040,
+          "text": "whether it's a mine diamond or a lab"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 119158,
+          "end_ms": 125520,
+          "text": "Diamond green lab says it's currently"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 125520,
+          "end_ms": 132860,
+          "text": "but is anyone actually buying them I hit"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 129119,
+          "end_ms": 132860,
+          "text": "the streets of Surat to find out"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 136390,
+          "end_ms": 145140,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 141680,
+          "end_ms": 146579,
+          "text": "so what are you looking for actually we"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 151560,
+          "end_ms": 156599,
+          "text": "are you gifting her actually"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 153800,
+          "end_ms": 159840,
+          "text": "this jewelry is a pocket-friendly"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 162019,
+          "end_ms": 166739,
+          "text": "the pink your sister would be happy that"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 164760,
+          "end_ms": 168079,
+          "text": "you're buying something very less pricey"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 171060,
+          "end_ms": 176280,
+          "text": "this diamonds only it's look like total"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 173940,
+          "end_ms": 177420,
+          "text": "real diamonds are here but really then I"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 183840,
+          "end_ms": 188400,
+          "text": "one is simple"
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 185820,
+          "end_ms": 192739,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 192739,
+          "end_ms": 198900,
+          "text": "exciting now as tempted as I was I was"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 196680,
+          "end_ms": 201239,
+          "text": "able to pull myself away without making"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 203459,
+          "end_ms": 209280,
+          "text": "attraction to prospective buyers like"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 205319,
+          "end_ms": 210780,
+          "text": "Ritu I see a situation where people are"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 213680,
+          "end_ms": 220560,
+          "text": "about extracting too many too much from"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 217140,
+          "end_ms": 223440,
+          "text": "the natural from the earth and because"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 226440,
+          "end_ms": 233159,
+          "text": "natural mind diamonds is going to be"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 229379,
+          "end_ms": 235620,
+          "text": "less and people will be going looking"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 238500,
+          "end_ms": 243299,
+          "text": "Diamond industry is going to happen"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 240540,
+          "end_ms": 245819,
+          "text": "well it seems like that boom may already"
+        },
+        {
+          "cue_id": 92,
+          "start_ms": 249900,
+          "end_ms": 254760,
+          "text": "while the cost of producing them has"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 252180,
+          "end_ms": 256978,
+          "text": "passed every four years since the start"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 261000,
+          "end_ms": 264960,
+          "text": "while that's a fraction of sales of"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 263040,
+          "end_ms": 267360,
+          "text": "natural Diamonds the demand for these"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 272280,
+          "end_ms": 276840,
+          "text": "lab-grown diamonds a year"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 274680,
+          "end_ms": 278340,
+          "text": "that's around 15 percent of Global"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 283440,
+          "end_ms": 288000,
+          "text": "led to questions about how sustainable"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 285479,
+          "end_ms": 289199,
+          "text": "the industry really is"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 292620,
+          "end_ms": 297060,
+          "text": "electricity you can't be sustainable but"
+        },
+        {
+          "cue_id": 113,
+          "start_ms": 294600,
+          "end_ms": 300419,
+          "text": "here at greenlab we have fields of solar"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 305100,
+          "end_ms": 310440,
+          "text": "megawatt that the site can produce is"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 307440,
+          "end_ms": 312720,
+          "text": "fed back into the National Grid"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 314820,
+          "end_ms": 319020,
+          "text": "option we'll have to wait a little"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 316680,
+          "end_ms": 322699,
+          "text": "longer to see whether the bulk off would"
+        }
+      ],
+      "text": "the busy Street here are full of sellers\npeddling these precious gems\n[Music]\nextracting diamonds from the Earth but\nrather growing them in a lab\nshifted to a process that they say was\nfaster cheaper and more sustainable and\nbut just how do you grow a diamond\nSangeet where are we what is this room\ngreen lab as it is the growing unit so\nwe have seeds which are 7mm 8mm 20 mm up\ncrystal diamond plate so once the plate\nis placed in the in the reactors\nnatural diamonds to form\na natural gas such as methane is pumped\nto form a rough diamond\nso rather than thousands of years these\nDiamond rough once it's given to a\ncutting and polishing tape it doesn't\nwhether it's a mine diamond or a lab\nDiamond green lab says it's currently\nbut is anyone actually buying them I hit\nthe streets of Surat to find out\n[Music]\nso what are you looking for actually we\nare you gifting her actually\nthis jewelry is a pocket-friendly\nthe pink your sister would be happy that\nyou're buying something very less pricey\nthis diamonds only it's look like total\nreal diamonds are here but really then I\none is simple\n[Music]\nexciting now as tempted as I was I was\nable to pull myself away without making\nattraction to prospective buyers like\nRitu I see a situation where people are\nabout extracting too many too much from\nthe natural from the earth and because\nnatural mind diamonds is going to be\nless and people will be going looking\nDiamond industry is going to happen\nwell it seems like that boom may already\nwhile the cost of producing them has\npassed every four years since the start\nwhile that's a fraction of sales of\nnatural Diamonds the demand for these\nlab-grown diamonds a year\nthat's around 15 percent of Global\nled to questions about how sustainable\nthe industry really is\nelectricity you can't be sustainable but\nhere at greenlab we have fields of solar\nmegawatt that the site can produce is\nfed back into the National Grid\noption we'll have to wait a little\nlonger to see whether the bulk off would",
+      "text_tokens": 464,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S3",
+        "cue_ids": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "start_ms": 6120,
+        "end_ms": 38640,
+        "text": "capital of India the busy Street here are full of sellers peddling these precious gems [Music] but I heard about one company that's looking to innovate by no longer extracting diamonds from the Earth but rather growing them in a lab green lab started as a company importing"
+      },
+      {
+        "id": "S13",
+        "cue_ids": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "start_ms": 38640,
+        "end_ms": 81060,
+        "text": "and Polished but a few years ago it shifted to a process that they say was faster cheaper and more sustainable and as with many processes it all starts with a single seed but just how do you grow a diamond Sangeet where are we what is this room all about so this room is our heart of green lab as it is the growing unit so we have seeds which are 7mm 8mm 20 mm up to 20 mm 30 mm as well seeds are basically uh diamonds it's a single crystal diamond plate so once the plate is placed in the in the reactors uh we start to give it the right"
+      },
+      {
+        "id": "S30",
+        "cue_ids": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "start_ms": 84060,
+        "end_ms": 113399,
+        "text": "the conditions that are needed for natural diamonds to form a natural gas such as methane is pumped in and broken down into carbon atoms these accumulate on top of the crystal to form a rough diamond so rather than thousands of years these lab-grown diamonds are grown in around 6 weeks so a mine diamond rough and a lab Diamond rough once it's given to a cutting and polishing tape it doesn't matter to them whether it's mind or off"
+      },
+      {
+        "id": "S44",
+        "cue_ids": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "start_ms": 115619,
+        "end_ms": 132860,
+        "text": "once it's polished nobody can identify whether it's a mine diamond or a lab Diamond green lab says it's currently growing around 225 000 carats a month but is anyone actually buying them I hit the streets of Surat to find out"
+      },
+      {
+        "id": "S50",
+        "cue_ids": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "start_ms": 136390,
+        "end_ms": 179940,
+        "text": "[Music] so what are you looking for actually we are looking for a lab grown Diamond Jewelry she is my sister and uh yeah why are you gifting her actually this jewelry is a pocket-friendly jewelry for us and it will not make a big hole in my pocket the pink your sister would be happy that you're buying something very less pricey yes yes yes nowadays all the people are preferring this diamonds only it's look like total real diamonds are here but really then I also feel like I should buy something"
+      },
+      {
+        "id": "S67",
+        "cue_ids": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "start_ms": 182220,
+        "end_ms": 248280,
+        "text": "pretty and a delicate piece yeah this one is simple [Music] yeah it looks so pretty yeah wow exciting now as tempted as I was I was able to pull myself away without making any purchases but companies like green Labs say the price point is in the early attraction to prospective buyers like Ritu I see a situation where people are going to all over the world are going to get more conscious about climate change about extracting too many too much from the natural from the earth and because of this there may be a situation where the dependence of the industry on the natural mind diamonds is going to be less and people will be going looking more towards lab grown diamonds and that is where a big boom in the lab grown Diamond industry is going to happen well it seems like that boom may already be underway while lab prone diamonds are"
+      },
+      {
+        "id": "S91",
+        "cue_ids": [
+          91,
+          92,
+          93,
+          94
+        ],
+        "start_ms": 248280,
+        "end_ms": 259738,
+        "text": "the Machinery have been around for a while the cost of producing them has passed every four years since the start of the century"
+      },
+      {
+        "id": "S96",
+        "cue_ids": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "start_ms": 259738,
+        "end_ms": 270180,
+        "text": "billion dollars while that's a fraction of sales of natural Diamonds the demand for these lab-grown counterparts is a forecast to"
+      },
+      {
+        "id": "S101",
+        "cue_ids": [
+          101,
+          102,
+          103,
+          104
+        ],
+        "start_ms": 270180,
+        "end_ms": 280919,
+        "text": "India now produces around 3 million lab-grown diamonds a year that's around 15 percent of Global Production"
+      },
+      {
+        "id": "S106",
+        "cue_ids": [
+          106,
+          107,
+          108,
+          109
+        ],
+        "start_ms": 280919,
+        "end_ms": 291000,
+        "text": "to create a lab-grown diamond which has led to questions about how sustainable the industry really is now when we're talking about"
+      },
+      {
+        "id": "S111",
+        "cue_ids": [
+          111,
+          112,
+          113,
+          114
+        ],
+        "start_ms": 291000,
+        "end_ms": 302820,
+        "text": "things that people say oh you use electricity you can't be sustainable but here at greenlab we have fields of solar and wind we are 100 on green energy now"
+      },
+      {
+        "id": "S116",
+        "cue_ids": [
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ],
+        "start_ms": 302820,
+        "end_ms": 322699,
+        "text": "miles away green lab says the 25 megawatt that the site can produce is fed back into the National Grid but while lab-grown diamonds offer a cheaper and arguably more sustainable option we'll have to wait a little longer to see whether the bulk off would be consumency I do"
+      }
+    ],
+    "text": "S3 [00:00:06.120 --> 00:00:38.640] capital of India the busy Street here are full of sellers peddling these precious gems [Music] but I heard about one company that's looking to innovate by no longer extracting diamonds from the Earth but rather growing them in a lab green lab started as a company importing\nS13 [00:00:38.640 --> 00:01:21.060] and Polished but a few years ago it shifted to a process that they say was faster cheaper and more sustainable and as with many processes it all starts with a single seed but just how do you grow a diamond Sangeet where are we what is this room all about so this room is our heart of green lab as it is the growing unit so we have seeds which are 7mm 8mm 20 mm up to 20 mm 30 mm as well seeds are basically uh diamonds it's a single crystal diamond plate so once the plate is placed in the in the reactors uh we start to give it the right\nS30 [00:01:24.060 --> 00:01:53.399] the conditions that are needed for natural diamonds to form a natural gas such as methane is pumped in and broken down into carbon atoms these accumulate on top of the crystal to form a rough diamond so rather than thousands of years these lab-grown diamonds are grown in around 6 weeks so a mine diamond rough and a lab Diamond rough once it's given to a cutting and polishing tape it doesn't matter to them whether it's mind or off\nS44 [00:01:55.619 --> 00:02:12.860] once it's polished nobody can identify whether it's a mine diamond or a lab Diamond green lab says it's currently growing around 225 000 carats a month but is anyone actually buying them I hit the streets of Surat to find out\nS50 [00:02:16.390 --> 00:02:59.940] [Music] so what are you looking for actually we are looking for a lab grown Diamond Jewelry she is my sister and uh yeah why are you gifting her actually this jewelry is a pocket-friendly jewelry for us and it will not make a big hole in my pocket the pink your sister would be happy that you're buying something very less pricey yes yes yes nowadays all the people are preferring this diamonds only it's look like total real diamonds are here but really then I also feel like I should buy something\nS67 [00:03:02.220 --> 00:04:08.280] pretty and a delicate piece yeah this one is simple [Music] yeah it looks so pretty yeah wow exciting now as tempted as I was I was able to pull myself away without making any purchases but companies like green Labs say the price point is in the early attraction to prospective buyers like Ritu I see a situation where people are going to all over the world are going to get more conscious about climate change about extracting too many too much from the natural from the earth and because of this there may be a situation where the dependence of the industry on the natural mind diamonds is going to be less and people will be going looking more towards lab grown diamonds and that is where a big boom in the lab grown Diamond industry is going to happen well it seems like that boom may already be underway while lab prone diamonds are\nS91 [00:04:08.280 --> 00:04:19.738] the Machinery have been around for a while the cost of producing them has passed every four years since the start of the century\nS96 [00:04:19.738 --> 00:04:30.180] billion dollars while that's a fraction of sales of natural Diamonds the demand for these lab-grown counterparts is a forecast to\nS101 [00:04:30.180 --> 00:04:40.919] India now produces around 3 million lab-grown diamonds a year that's around 15 percent of Global Production\nS106 [00:04:40.919 --> 00:04:51.000] to create a lab-grown diamond which has led to questions about how sustainable the industry really is now when we're talking about\nS111 [00:04:51.000 --> 00:05:02.820] things that people say oh you use electricity you can't be sustainable but here at greenlab we have fields of solar and wind we are 100 on green energy now\nS116 [00:05:02.820 --> 00:05:22.699] miles away green lab says the 25 megawatt that the site can produce is fed back into the National Grid but while lab-grown diamonds offer a cheaper and arguably more sustainable option we'll have to wait a little longer to see whether the bulk off would be consumency I do",
+    "text_tokens": 1155,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      3,
+      7,
+      8,
+      11,
+      13,
+      16,
+      17,
+      20,
+      23,
+      24,
+      27,
+      30,
+      33,
+      34,
+      37,
+      38,
+      41,
+      44,
+      47,
+      52,
+      53,
+      56,
+      57,
+      60,
+      61,
+      64,
+      67,
+      70,
+      73,
+      74,
+      77,
+      78,
+      81,
+      82,
+      85,
+      86,
+      89,
+      91,
+      94,
+      96,
+      99,
+      101,
+      104,
+      106,
+      109,
+      111,
+      114,
+      116,
+      119,
+      120,
+      123
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "b3a685ea287234c0312dff37d472f9fde58533d2817c52a646e9c09b142847f2"
+}

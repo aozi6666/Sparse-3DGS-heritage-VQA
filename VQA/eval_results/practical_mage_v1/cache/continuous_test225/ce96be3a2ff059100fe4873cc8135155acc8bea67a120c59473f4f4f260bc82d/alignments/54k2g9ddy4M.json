@@ -1,0 +1,1598 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "54k2g9ddy4M",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54k2g9ddy4M.srt",
+        "status": "available",
+        "bytes": 124630,
+        "sha256": "b654425e8b08696367821760f16a85582dc4df77c81a7c8800bb844bd22831d3",
+        "cues": 1124,
+        "nonempty_cues": 1124
+      },
+      "frame_indices": [
+        0,
+        2626,
+        5252,
+        7879,
+        10505,
+        13131,
+        15757,
+        18383,
+        21010,
+        23636,
+        26262,
+        28888,
+        31514,
+        34141,
+        36767,
+        39393,
+        42019,
+        44645,
+        47271,
+        49898,
+        52524,
+        55150,
+        57776,
+        60402,
+        63029,
+        65655,
+        68281,
+        70907,
+        73533,
+        76160,
+        78786,
+        81412
+      ],
+      "frame_seconds": [
+        0.0,
+        87.533333,
+        175.066667,
+        262.633333,
+        350.166667,
+        437.7,
+        525.233333,
+        612.766667,
+        700.333333,
+        787.866667,
+        875.4,
+        962.933333,
+        1050.466667,
+        1138.033333,
+        1225.566667,
+        1313.1,
+        1400.633333,
+        1488.166667,
+        1575.7,
+        1663.266667,
+        1750.8,
+        1838.333333,
+        1925.866667,
+        2013.4,
+        2100.966667,
+        2188.5,
+        2276.033333,
+        2363.566667,
+        2451.1,
+        2538.666667,
+        2626.2,
+        2713.733333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          35,
+          36
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          112,
+          113
+        ],
+        [
+          145,
+          146
+        ],
+        [
+          180,
+          181
+        ],
+        [
+          215,
+          216
+        ],
+        [
+          249,
+          250
+        ],
+        [
+          287,
+          288
+        ],
+        [
+          322,
+          323
+        ],
+        [
+          359,
+          360
+        ],
+        [
+          395,
+          396
+        ],
+        [
+          432,
+          433
+        ],
+        [
+          468,
+          469
+        ],
+        [
+          498,
+          499
+        ],
+        [
+          534,
+          535
+        ],
+        [
+          564,
+          565
+        ],
+        [
+          600,
+          601
+        ],
+        [
+          635,
+          636
+        ],
+        [
+          672,
+          673
+        ],
+        [
+          711,
+          712
+        ],
+        [
+          750,
+          751
+        ],
+        [
+          791,
+          792
+        ],
+        [
+          836,
+          837
+        ],
+        [
+          878,
+          879
+        ],
+        [
+          915,
+          916
+        ],
+        [
+          946,
+          947
+        ],
+        [
+          984,
+          985
+        ],
+        [
+          1021,
+          1022
+        ],
+        [
+          1056,
+          1057
+        ],
+        [
+          1088,
+          1089
+        ],
+        [
+          1124
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 35,
+          "start_ms": 84520,
+          "end_ms": 87680,
+          "text": "concern for children and people who"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 86520,
+          "end_ms": 90240,
+          "text": "haven't been"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 171120,
+          "end_ms": 175319,
+          "text": "unfortunately the consequence of that"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 173280,
+          "end_ms": 177840,
+          "text": "more severe cases and you know"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 259320,
+          "end_ms": 263919,
+          "text": "Toronto the Quebec Corners office has"
+        },
+        {
+          "cue_id": 113,
+          "start_ms": 261759,
+          "end_ms": 266600,
+          "text": "opened an investigation into the death"
+        },
+        {
+          "cue_id": 145,
+          "start_ms": 347050,
+          "end_ms": 351319,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 348840,
+          "end_ms": 354159,
+          "text": "reaction outside the Art Gallery of"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 433120,
+          "end_ms": 437720,
+          "text": "Palestinian activist says anger with"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 434960,
+          "end_ms": 440199,
+          "text": "Ottawa has boiled over I think that it's"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 521080,
+          "end_ms": 527080,
+          "text": "contests over the past week we been sort"
+        },
+        {
+          "cue_id": 216,
+          "start_ms": 524640,
+          "end_ms": 530720,
+          "text": "of in a rocket we've been launching like"
+        },
+        {
+          "cue_id": 249,
+          "start_ms": 610279,
+          "end_ms": 615399,
+          "text": "on the campaign Trail is likely nearing"
+        },
+        {
+          "cue_id": 250,
+          "start_ms": 612600,
+          "end_ms": 617279,
+          "text": "its end and Katie Donald Trump's also"
+        },
+        {
+          "cue_id": 287,
+          "start_ms": 696480,
+          "end_ms": 702920,
+          "text": "shocked um I didn't expect things to be"
+        },
+        {
+          "cue_id": 288,
+          "start_ms": 700120,
+          "end_ms": 706760,
+          "text": "or the charges to be that high I am not"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 781839,
+          "end_ms": 788279,
+          "text": "airline tickets Sophia Harris CBC News"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 785880,
+          "end_ms": 791800,
+          "text": "Vancouver officials in Malaysia are"
+        },
+        {
+          "cue_id": 359,
+          "start_ms": 872160,
+          "end_ms": 879079,
+          "text": "and that combined with the high wind"
+        },
+        {
+          "cue_id": 360,
+          "start_ms": 873959,
+          "end_ms": 882079,
+          "text": "speeds um just led to some impressive"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 957920,
+          "end_ms": 963319,
+          "text": "already killed two people scores of"
+        },
+        {
+          "cue_id": 396,
+          "start_ms": 959920,
+          "end_ms": 965720,
+          "text": "livestock and destroyed more than 500"
+        },
+        {
+          "cue_id": 432,
+          "start_ms": 1046839,
+          "end_ms": 1051799,
+          "text": "specify instead he point pointed to the"
+        },
+        {
+          "cue_id": 433,
+          "start_ms": 1049000,
+          "end_ms": 1054000,
+          "text": "need for early Wildfire detection and"
+        },
+        {
+          "cue_id": 468,
+          "start_ms": 1134200,
+          "end_ms": 1139360,
+          "text": "son on his deathbed has suddenly"
+        },
+        {
+          "cue_id": 469,
+          "start_ms": 1136440,
+          "end_ms": 1141960,
+          "text": "discovered that he's still alive"
+        },
+        {
+          "cue_id": 498,
+          "start_ms": 1221720,
+          "end_ms": 1226679,
+          "text": "January to see Shawn was there in"
+        },
+        {
+          "cue_id": 499,
+          "start_ms": 1224440,
+          "end_ms": 1228679,
+          "text": "critical condition she rushed to his"
+        },
+        {
+          "cue_id": 534,
+          "start_ms": 1310640,
+          "end_ms": 1315640,
+          "text": "getting makeing it right with my parents"
+        },
+        {
+          "cue_id": 535,
+          "start_ms": 1312159,
+          "end_ms": 1318679,
+          "text": "and my and my family and um getting back"
+        },
+        {
+          "cue_id": 564,
+          "start_ms": 1397080,
+          "end_ms": 1401919,
+          "text": "next self tapes have become the new"
+        },
+        {
+          "cue_id": 565,
+          "start_ms": 1399799,
+          "end_ms": 1403760,
+          "text": "normal for actors trying to book roles"
+        },
+        {
+          "cue_id": 600,
+          "start_ms": 1485360,
+          "end_ms": 1488679,
+          "text": "they'll be like oh you're coming out of"
+        },
+        {
+          "cue_id": 601,
+          "start_ms": 1486880,
+          "end_ms": 1490000,
+          "text": "a car and there's a person walking"
+        },
+        {
+          "cue_id": 635,
+          "start_ms": 1571600,
+          "end_ms": 1577039,
+          "text": "University of Florida pool where the"
+        },
+        {
+          "cue_id": 636,
+          "start_ms": 1573960,
+          "end_ms": 1581480,
+          "text": "expectations of Excellence are made very"
+        },
+        {
+          "cue_id": 672,
+          "start_ms": 1660320,
+          "end_ms": 1665039,
+          "text": "medal how did that feel at that moment I"
+        },
+        {
+          "cue_id": 673,
+          "start_ms": 1663159,
+          "end_ms": 1668360,
+          "text": "mean it it it it felt great cuz the race"
+        },
+        {
+          "cue_id": 711,
+          "start_ms": 1745679,
+          "end_ms": 1753000,
+          "text": "that they've been at 2327 a new Canadian"
+        },
+        {
+          "cue_id": 712,
+          "start_ms": 1749360,
+          "end_ms": 1755320,
+          "text": "record for Joshua Alando you are going"
+        },
+        {
+          "cue_id": 750,
+          "start_ms": 1835440,
+          "end_ms": 1839720,
+          "text": "ocean why do you think we're not seeing"
+        },
+        {
+          "cue_id": 751,
+          "start_ms": 1837159,
+          "end_ms": 1841640,
+          "text": "more Elite swimmers from the Caribbean"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 1922799,
+          "end_ms": 1927200,
+          "text": "first and foremost that you are an elite"
+        },
+        {
+          "cue_id": 792,
+          "start_ms": 1924480,
+          "end_ms": 1929120,
+          "text": "swimmer who is on this upward rise but"
+        },
+        {
+          "cue_id": 836,
+          "start_ms": 2010440,
+          "end_ms": 2014480,
+          "text": "about him first and some I just really"
+        },
+        {
+          "cue_id": 837,
+          "start_ms": 2012279,
+          "end_ms": 2015880,
+          "text": "connected uh with him on how cuz"
+        },
+        {
+          "cue_id": 878,
+          "start_ms": 2098720,
+          "end_ms": 2102839,
+          "text": "Olympic Games you know there's obviously"
+        },
+        {
+          "cue_id": 879,
+          "start_ms": 2100720,
+          "end_ms": 2104520,
+          "text": "some meets getting ready the training uh"
+        },
+        {
+          "cue_id": 915,
+          "start_ms": 2184319,
+          "end_ms": 2189079,
+          "text": "study in the city my daughter she says"
+        },
+        {
+          "cue_id": 916,
+          "start_ms": 2186480,
+          "end_ms": 2190839,
+          "text": "she she's scared but you know excited at"
+        },
+        {
+          "cue_id": 946,
+          "start_ms": 2268640,
+          "end_ms": 2276280,
+          "text": "we use we use it only lasted about 45"
+        },
+        {
+          "cue_id": 947,
+          "start_ms": 2272880,
+          "end_ms": 2278000,
+          "text": "minutes so even if we had fire trucks"
+        },
+        {
+          "cue_id": 984,
+          "start_ms": 2359720,
+          "end_ms": 2365000,
+          "text": "Nation waited a decade for its new"
+        },
+        {
+          "cue_id": 985,
+          "start_ms": 2361760,
+          "end_ms": 2365000,
+          "text": "school after it burned"
+        },
+        {
+          "cue_id": 1021,
+          "start_ms": 2447720,
+          "end_ms": 2452880,
+          "text": "would serve as a base for the school's"
+        },
+        {
+          "cue_id": 1022,
+          "start_ms": 2450000,
+          "end_ms": 2454760,
+          "text": "landbased learning program and extending"
+        },
+        {
+          "cue_id": 1056,
+          "start_ms": 2534440,
+          "end_ms": 2539359,
+          "text": "Peak into your pet's mind how's business"
+        },
+        {
+          "cue_id": 1057,
+          "start_ms": 2537720,
+          "end_ms": 2541760,
+          "text": "these days how would you describe it"
+        },
+        {
+          "cue_id": 1088,
+          "start_ms": 2620240,
+          "end_ms": 2626760,
+          "text": "that was unaware of their presence I"
+        },
+        {
+          "cue_id": 1089,
+          "start_ms": 2622440,
+          "end_ms": 2626760,
+          "text": "didn't know we had goats oh it was a"
+        },
+        {
+          "cue_id": 1124,
+          "start_ms": 2712720,
+          "end_ms": 2715720,
+          "text": "night"
+        }
+      ],
+      "text": "concern for children and people who\nhaven't been\nunfortunately the consequence of that\nmore severe cases and you know\nToronto the Quebec Corners office has\nopened an investigation into the death\n[Music]\nreaction outside the Art Gallery of\nPalestinian activist says anger with\nOttawa has boiled over I think that it's\ncontests over the past week we been sort\nof in a rocket we've been launching like\non the campaign Trail is likely nearing\nits end and Katie Donald Trump's also\nshocked um I didn't expect things to be\nor the charges to be that high I am not\nairline tickets Sophia Harris CBC News\nVancouver officials in Malaysia are\nand that combined with the high wind\nspeeds um just led to some impressive\nalready killed two people scores of\nlivestock and destroyed more than 500\nspecify instead he point pointed to the\nneed for early Wildfire detection and\nson on his deathbed has suddenly\ndiscovered that he's still alive\nJanuary to see Shawn was there in\ncritical condition she rushed to his\ngetting makeing it right with my parents\nand my and my family and um getting back\nnext self tapes have become the new\nnormal for actors trying to book roles\nthey'll be like oh you're coming out of\na car and there's a person walking\nUniversity of Florida pool where the\nexpectations of Excellence are made very\nmedal how did that feel at that moment I\nmean it it it it felt great cuz the race\nthat they've been at 2327 a new Canadian\nrecord for Joshua Alando you are going\nocean why do you think we're not seeing\nmore Elite swimmers from the Caribbean\nfirst and foremost that you are an elite\nswimmer who is on this upward rise but\nabout him first and some I just really\nconnected uh with him on how cuz\nOlympic Games you know there's obviously\nsome meets getting ready the training uh\nstudy in the city my daughter she says\nshe she's scared but you know excited at\nwe use we use it only lasted about 45\nminutes so even if we had fire trucks\nNation waited a decade for its new\nschool after it burned\nwould serve as a base for the school's\nlandbased learning program and extending\nPeak into your pet's mind how's business\nthese days how would you describe it\nthat was unaware of their presence I\ndidn't know we had goats oh it was a\nnight",
+      "text_tokens": 524,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "54k2g9ddy4M",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54k2g9ddy4M.srt",
+          "status": "available",
+          "bytes": 124630,
+          "sha256": "b654425e8b08696367821760f16a85582dc4df77c81a7c8800bb844bd22831d3",
+          "cues": 1124,
+          "nonempty_cues": 1124
+        },
+        "frame_indices": [
+          0,
+          2626,
+          5252,
+          7879,
+          10505,
+          13131,
+          15757,
+          18383,
+          21010,
+          23636,
+          26262,
+          28888,
+          31514,
+          34141,
+          36767,
+          39393,
+          42019,
+          44645,
+          47271,
+          49898,
+          52524,
+          55150,
+          57776,
+          60402,
+          63029,
+          65655,
+          68281,
+          70907,
+          73533,
+          76160,
+          78786,
+          81412
+        ],
+        "frame_seconds": [
+          0.0,
+          87.533333,
+          175.066667,
+          262.633333,
+          350.166667,
+          437.7,
+          525.233333,
+          612.766667,
+          700.333333,
+          787.866667,
+          875.4,
+          962.933333,
+          1050.466667,
+          1138.033333,
+          1225.566667,
+          1313.1,
+          1400.633333,
+          1488.166667,
+          1575.7,
+          1663.266667,
+          1750.8,
+          1838.333333,
+          1925.866667,
+          2013.4,
+          2100.966667,
+          2188.5,
+          2276.033333,
+          2363.566667,
+          2451.1,
+          2538.666667,
+          2626.2,
+          2713.733333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            35,
+            36
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            112,
+            113
+          ],
+          [
+            145,
+            146
+          ],
+          [
+            180,
+            181
+          ],
+          [
+            215,
+            216
+          ],
+          [
+            249,
+            250
+          ],
+          [
+            287,
+            288
+          ],
+          [
+            322,
+            323
+          ],
+          [
+            359,
+            360
+          ],
+          [
+            395,
+            396
+          ],
+          [
+            432,
+            433
+          ],
+          [
+            468,
+            469
+          ],
+          [
+            498,
+            499
+          ],
+          [
+            534,
+            535
+          ],
+          [
+            564,
+            565
+          ],
+          [
+            600,
+            601
+          ],
+          [
+            635,
+            636
+          ],
+          [
+            672,
+            673
+          ],
+          [
+            711,
+            712
+          ],
+          [
+            750,
+            751
+          ],
+          [
+            791,
+            792
+          ],
+          [
+            836,
+            837
+          ],
+          [
+            878,
+            879
+          ],
+          [
+            915,
+            916
+          ],
+          [
+            946,
+            947
+          ],
+          [
+            984,
+            985
+          ],
+          [
+            1021,
+            1022
+          ],
+          [
+            1056,
+            1057
+          ],
+          [
+            1088,
+            1089
+          ],
+          [
+            1124
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 35,
+            "start_ms": 84520,
+            "end_ms": 87680,
+            "text": "concern for children and people who"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 86520,
+            "end_ms": 90240,
+            "text": "haven't been"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 171120,
+            "end_ms": 175319,
+            "text": "unfortunately the consequence of that"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 173280,
+            "end_ms": 177840,
+            "text": "more severe cases and you know"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 259320,
+            "end_ms": 263919,
+            "text": "Toronto the Quebec Corners office has"
+          },
+          {
+            "cue_id": 113,
+            "start_ms": 261759,
+            "end_ms": 266600,
+            "text": "opened an investigation into the death"
+          },
+          {
+            "cue_id": 145,
+            "start_ms": 347050,
+            "end_ms": 351319,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 146,
+            "start_ms": 348840,
+            "end_ms": 354159,
+            "text": "reaction outside the Art Gallery of"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 433120,
+            "end_ms": 437720,
+            "text": "Palestinian activist says anger with"
+          },
+          {
+            "cue_id": 181,
+            "start_ms": 434960,
+            "end_ms": 440199,
+            "text": "Ottawa has boiled over I think that it's"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 521080,
+            "end_ms": 527080,
+            "text": "contests over the past week we been sort"
+          },
+          {
+            "cue_id": 216,
+            "start_ms": 524640,
+            "end_ms": 530720,
+            "text": "of in a rocket we've been launching like"
+          },
+          {
+            "cue_id": 249,
+            "start_ms": 610279,
+            "end_ms": 615399,
+            "text": "on the campaign Trail is likely nearing"
+          },
+          {
+            "cue_id": 250,
+            "start_ms": 612600,
+            "end_ms": 617279,
+            "text": "its end and Katie Donald Trump's also"
+          },
+          {
+            "cue_id": 287,
+            "start_ms": 696480,
+            "end_ms": 702920,
+            "text": "shocked um I didn't expect things to be"
+          },
+          {
+            "cue_id": 288,
+            "start_ms": 700120,
+            "end_ms": 706760,
+            "text": "or the charges to be that high I am not"
+          },
+          {
+            "cue_id": 322,
+            "start_ms": 781839,
+            "end_ms": 788279,
+            "text": "airline tickets Sophia Harris CBC News"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 785880,
+            "end_ms": 791800,
+            "text": "Vancouver officials in Malaysia are"
+          },
+          {
+            "cue_id": 359,
+            "start_ms": 872160,
+            "end_ms": 879079,
+            "text": "and that combined with the high wind"
+          },
+          {
+            "cue_id": 360,
+            "start_ms": 873959,
+            "end_ms": 882079,
+            "text": "speeds um just led to some impressive"
+          },
+          {
+            "cue_id": 395,
+            "start_ms": 957920,
+            "end_ms": 963319,
+            "text": "already killed two people scores of"
+          },
+          {
+            "cue_id": 396,
+            "start_ms": 959920,
+            "end_ms": 965720,
+            "text": "livestock and destroyed more than 500"
+          },
+          {
+            "cue_id": 432,
+            "start_ms": 1046839,
+            "end_ms": 1051799,
+            "text": "specify instead he point pointed to the"
+          },
+          {
+            "cue_id": 433,
+            "start_ms": 1049000,
+            "end_ms": 1054000,
+            "text": "need for early Wildfire detection and"
+          },
+          {
+            "cue_id": 468,
+            "start_ms": 1134200,
+            "end_ms": 1139360,
+            "text": "son on his deathbed has suddenly"
+          },
+          {
+            "cue_id": 469,
+            "start_ms": 1136440,
+            "end_ms": 1141960,
+            "text": "discovered that he's still alive"
+          },
+          {
+            "cue_id": 498,
+            "start_ms": 1221720,
+            "end_ms": 1226679,
+            "text": "January to see Shawn was there in"
+          },
+          {
+            "cue_id": 499,
+            "start_ms": 1224440,
+            "end_ms": 1228679,
+            "text": "critical condition she rushed to his"
+          },
+          {
+            "cue_id": 534,
+            "start_ms": 1310640,
+            "end_ms": 1315640,
+            "text": "getting makeing it right with my parents"
+          },
+          {
+            "cue_id": 535,
+            "start_ms": 1312159,
+            "end_ms": 1318679,
+            "text": "and my and my family and um getting back"
+          },
+          {
+            "cue_id": 564,
+            "start_ms": 1397080,
+            "end_ms": 1401919,
+            "text": "next self tapes have become the new"
+          },
+          {
+            "cue_id": 565,
+            "start_ms": 1399799,
+            "end_ms": 1403760,
+            "text": "normal for actors trying to book roles"
+          },
+          {
+            "cue_id": 600,
+            "start_ms": 1485360,
+            "end_ms": 1488679,
+            "text": "they'll be like oh you're coming out of"
+          },
+          {
+            "cue_id": 601,
+            "start_ms": 1486880,
+            "end_ms": 1490000,
+            "text": "a car and there's a person walking"
+          },
+          {
+            "cue_id": 635,
+            "start_ms": 1571600,
+            "end_ms": 1577039,
+            "text": "University of Florida pool where the"
+          },
+          {
+            "cue_id": 636,
+            "start_ms": 1573960,
+            "end_ms": 1581480,
+            "text": "expectations of Excellence are made very"
+          },
+          {
+            "cue_id": 672,
+            "start_ms": 1660320,
+            "end_ms": 1665039,
+            "text": "medal how did that feel at that moment I"
+          },
+          {
+            "cue_id": 673,
+            "start_ms": 1663159,
+            "end_ms": 1668360,
+            "text": "mean it it it it felt great cuz the race"
+          },
+          {
+            "cue_id": 711,
+            "start_ms": 1745679,
+            "end_ms": 1753000,
+            "text": "that they've been at 2327 a new Canadian"
+          },
+          {
+            "cue_id": 712,
+            "start_ms": 1749360,
+            "end_ms": 1755320,
+            "text": "record for Joshua Alando you are going"
+          },
+          {
+            "cue_id": 750,
+            "start_ms": 1835440,
+            "end_ms": 1839720,
+            "text": "ocean why do you think we're not seeing"
+          },
+          {
+            "cue_id": 751,
+            "start_ms": 1837159,
+            "end_ms": 1841640,
+            "text": "more Elite swimmers from the Caribbean"
+          },
+          {
+            "cue_id": 791,
+            "start_ms": 1922799,
+            "end_ms": 1927200,
+            "text": "first and foremost that you are an elite"
+          },
+          {
+            "cue_id": 792,
+            "start_ms": 1924480,
+            "end_ms": 1929120,
+            "text": "swimmer who is on this upward rise but"
+          },
+          {
+            "cue_id": 836,
+            "start_ms": 2010440,
+            "end_ms": 2014480,
+            "text": "about him first and some I just really"
+          },
+          {
+            "cue_id": 837,
+            "start_ms": 2012279,
+            "end_ms": 2015880,
+            "text": "connected uh with him on how cuz"
+          },
+          {
+            "cue_id": 878,
+            "start_ms": 2098720,
+            "end_ms": 2102839,
+            "text": "Olympic Games you know there's obviously"
+          },
+          {
+            "cue_id": 879,
+            "start_ms": 2100720,
+            "end_ms": 2104520,
+            "text": "some meets getting ready the training uh"
+          },
+          {
+            "cue_id": 915,
+            "start_ms": 2184319,
+            "end_ms": 2189079,
+            "text": "study in the city my daughter she says"
+          },
+          {
+            "cue_id": 916,
+            "start_ms": 2186480,
+            "end_ms": 2190839,
+            "text": "she she's scared but you know excited at"
+          },
+          {
+            "cue_id": 946,
+            "start_ms": 2268640,
+            "end_ms": 2276280,
+            "text": "we use we use it only lasted about 45"
+          },
+          {
+            "cue_id": 947,
+            "start_ms": 2272880,
+            "end_ms": 2278000,
+            "text": "minutes so even if we had fire trucks"
+          },
+          {
+            "cue_id": 984,
+            "start_ms": 2359720,
+            "end_ms": 2365000,
+            "text": "Nation waited a decade for its new"
+          },
+          {
+            "cue_id": 985,
+            "start_ms": 2361760,
+            "end_ms": 2365000,
+            "text": "school after it burned"
+          },
+          {
+            "cue_id": 1021,
+            "start_ms": 2447720,
+            "end_ms": 2452880,
+            "text": "would serve as a base for the school's"
+          },
+          {
+            "cue_id": 1022,
+            "start_ms": 2450000,
+            "end_ms": 2454760,
+            "text": "landbased learning program and extending"
+          },
+          {
+            "cue_id": 1056,
+            "start_ms": 2534440,
+            "end_ms": 2539359,
+            "text": "Peak into your pet's mind how's business"
+          },
+          {
+            "cue_id": 1057,
+            "start_ms": 2537720,
+            "end_ms": 2541760,
+            "text": "these days how would you describe it"
+          },
+          {
+            "cue_id": 1088,
+            "start_ms": 2620240,
+            "end_ms": 2626760,
+            "text": "that was unaware of their presence I"
+          },
+          {
+            "cue_id": 1089,
+            "start_ms": 2622440,
+            "end_ms": 2626760,
+            "text": "didn't know we had goats oh it was a"
+          },
+          {
+            "cue_id": 1124,
+            "start_ms": 2712720,
+            "end_ms": 2715720,
+            "text": "night"
+          }
+        ],
+        "text": "concern for children and people who\nhaven't been\nunfortunately the consequence of that\nmore severe cases and you know\nToronto the Quebec Corners office has\nopened an investigation into the death\n[Music]\nreaction outside the Art Gallery of\nPalestinian activist says anger with\nOttawa has boiled over I think that it's\ncontests over the past week we been sort\nof in a rocket we've been launching like\non the campaign Trail is likely nearing\nits end and Katie Donald Trump's also\nshocked um I didn't expect things to be\nor the charges to be that high I am not\nairline tickets Sophia Harris CBC News\nVancouver officials in Malaysia are\nand that combined with the high wind\nspeeds um just led to some impressive\nalready killed two people scores of\nlivestock and destroyed more than 500\nspecify instead he point pointed to the\nneed for early Wildfire detection and\nson on his deathbed has suddenly\ndiscovered that he's still alive\nJanuary to see Shawn was there in\ncritical condition she rushed to his\ngetting makeing it right with my parents\nand my and my family and um getting back\nnext self tapes have become the new\nnormal for actors trying to book roles\nthey'll be like oh you're coming out of\na car and there's a person walking\nUniversity of Florida pool where the\nexpectations of Excellence are made very\nmedal how did that feel at that moment I\nmean it it it it felt great cuz the race\nthat they've been at 2327 a new Canadian\nrecord for Joshua Alando you are going\nocean why do you think we're not seeing\nmore Elite swimmers from the Caribbean\nfirst and foremost that you are an elite\nswimmer who is on this upward rise but\nabout him first and some I just really\nconnected uh with him on how cuz\nOlympic Games you know there's obviously\nsome meets getting ready the training uh\nstudy in the city my daughter she says\nshe she's scared but you know excited at\nwe use we use it only lasted about 45\nminutes so even if we had fire trucks\nNation waited a decade for its new\nschool after it burned\nwould serve as a base for the school's\nlandbased learning program and extending\nPeak into your pet's mind how's business\nthese days how would you describe it\nthat was unaware of their presence I\ndidn't know we had goats oh it was a\nnight",
+        "text_tokens": 524,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35,
+            36,
+            37
+          ],
+          "start_ms": 82680,
+          "end_ms": 92399,
+          "text": "Katie Nicholson shows us there is concern for children and people who haven't been vaccinated Benjamin dermer's daughter is"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 169560,
+          "end_ms": 180040,
+          "text": "to start to see more cases and unfortunately the consequence of that more severe cases and you know potentially very young people um ending"
+        },
+        {
+          "id": "S111",
+          "cue_ids": [
+            111,
+            112,
+            113,
+            114
+          ],
+          "start_ms": 257238,
+          "end_ms": 268479,
+          "text": "Nicholson reporting from Toronto the Quebec Corners office has opened an investigation into the death of a patient in a Montreal Area Hospital"
+        },
+        {
+          "id": "S144",
+          "cue_ids": [
+            144,
+            145,
+            146,
+            147
+          ],
+          "start_ms": 343039,
+          "end_ms": 356720,
+          "text": "entrance JP Tasker now with their [Music] reaction outside the Art Gallery of Ontario about 400 Pro Palestinian"
+        },
+        {
+          "id": "S179",
+          "cue_ids": [
+            179,
+            180,
+            181,
+            182
+          ],
+          "start_ms": 430360,
+          "end_ms": 442879,
+          "text": "diplomatic consequences this Pro Palestinian activist says anger with Ottawa has boiled over I think that it's coming off the backs of people feeling"
+        },
+        {
+          "id": "S214",
+          "cue_ids": [
+            214,
+            215,
+            216,
+            217
+          ],
+          "start_ms": 517959,
+          "end_ms": 532920,
+          "text": "15 states in one territory hold their contests over the past week we been sort of in a rocket we've been launching like a rocket oh it's great to see all of you"
+        },
+        {
+          "id": "S248",
+          "cue_ids": [
+            248,
+            249,
+            250,
+            251
+          ],
+          "start_ms": 607320,
+          "end_ms": 620000,
+          "text": "out of her hat on super Tuesday her time on the campaign Trail is likely nearing its end and Katie Donald Trump's also preparing for what could be more good"
+        },
+        {
+          "id": "S286",
+          "cue_ids": [
+            286,
+            287,
+            288,
+            289
+          ],
+          "start_ms": 693839,
+          "end_ms": 709000,
+          "text": "a trip his family can't take I was shocked um I didn't expect things to be or the charges to be that high I am not very happy with that Air Canada and"
+        },
+        {
+          "id": "S321",
+          "cue_ids": [
+            321,
+            322,
+            323,
+            324
+          ],
+          "start_ms": 779360,
+          "end_ms": 793600,
+          "text": "but it came at the price of four unused airline tickets Sophia Harris CBC News Vancouver officials in Malaysia are pushing for a renewed search for MH370"
+        },
+        {
+          "id": "S358",
+          "cue_ids": [
+            358,
+            359,
+            360,
+            361
+          ],
+          "start_ms": 869360,
+          "end_ms": 884320,
+          "text": "period of time the majority of it fell and that combined with the high wind speeds um just led to some impressive results in some spots drifts piled up"
+        },
+        {
+          "id": "S394",
+          "cue_ids": [
+            394,
+            395,
+            396,
+            397
+          ],
+          "start_ms": 954440,
+          "end_ms": 967720,
+          "text": "Creek Fire is just 15% contained it's already killed two people scores of livestock and destroyed more than 500 structures some Canadian communities are"
+        },
+        {
+          "id": "S431",
+          "cue_ids": [
+            431,
+            432,
+            433,
+            434
+          ],
+          "start_ms": 1043839,
+          "end_ms": 1056520,
+          "text": "new strategy was haret sagin didn't specify instead he point pointed to the need for early Wildfire detection and what individuals can do to protect their"
+        },
+        {
+          "id": "S467",
+          "cue_ids": [
+            467,
+            468,
+            469,
+            470
+          ],
+          "start_ms": 1131799,
+          "end_ms": 1144840,
+          "text": "cause a woman who thought she saw her son on his deathbed has suddenly discovered that he's still alive sea came to the phone and we were"
+        },
+        {
+          "id": "S497",
+          "cue_ids": [
+            497,
+            498,
+            499,
+            500
+          ],
+          "start_ms": 1219679,
+          "end_ms": 1230880,
+          "text": "when ottawa's mafor hospital called in January to see Shawn was there in critical condition she rushed to his side he was laying in the bed with the"
+        },
+        {
+          "id": "S533",
+          "cue_ids": [
+            533,
+            534,
+            535,
+            536
+          ],
+          "start_ms": 1307400,
+          "end_ms": 1320720,
+          "text": "that it offers a second chance I means getting makeing it right with my parents and my and my family and um getting back to be part of part of my family Insley"
+        },
+        {
+          "id": "S564",
+          "cue_ids": [
+            564,
+            565,
+            566
+          ],
+          "start_ms": 1397080,
+          "end_ms": 1405960,
+          "text": "next self tapes have become the new normal for actors trying to book roles in Hollywood and while they help"
+        },
+        {
+          "id": "S599",
+          "cue_ids": [
+            599,
+            600,
+            601,
+            602
+          ],
+          "start_ms": 1482520,
+          "end_ms": 1493200,
+          "text": "again with a bigger net C bigger asks they'll be like oh you're coming out of a car and there's a person walking toward board you and there a stranger"
+        },
+        {
+          "id": "S634",
+          "cue_ids": [
+            634,
+            635,
+            636,
+            637
+          ],
+          "start_ms": 1569840,
+          "end_ms": 1581480,
+          "text": "he took a break from training at the University of Florida pool where the expectations of Excellence are made very clear 3 2 1 test"
+        },
+        {
+          "id": "S671",
+          "cue_ids": [
+            671,
+            672,
+            673,
+            674
+          ],
+          "start_ms": 1658039,
+          "end_ms": 1670519,
+          "text": "that you've won this breakthrough gold medal how did that feel at that moment I mean it it it it felt great cuz the race was really close um I don't know just"
+        },
+        {
+          "id": "S710",
+          "cue_ids": [
+            710,
+            711,
+            712,
+            713
+          ],
+          "start_ms": 1743360,
+          "end_ms": 1757360,
+          "text": "me more fuel to try and get to the level that they've been at 2327 a new Canadian record for Joshua Alando you are going to become known more and more in Canada"
+        },
+        {
+          "id": "S749",
+          "cue_ids": [
+            749,
+            750,
+            751,
+            752
+          ],
+          "start_ms": 1833120,
+          "end_ms": 1844640,
+          "text": "these islands surrounded by beautiful ocean why do you think we're not seeing more Elite swimmers from the Caribbean um I don't you're you're getting more"
+        },
+        {
+          "id": "S790",
+          "cue_ids": [
+            790,
+            791,
+            792,
+            793
+          ],
+          "start_ms": 1919760,
+          "end_ms": 1930799,
+          "text": "read any biography of you it mentions first and foremost that you are an elite swimmer who is on this upward rise but the other thing it always points out is"
+        },
+        {
+          "id": "S835",
+          "cue_ids": [
+            835,
+            836,
+            837,
+            838
+          ],
+          "start_ms": 2008600,
+          "end_ms": 2017639,
+          "text": "of I think I I watched a documentary about him first and some I just really connected uh with him on how cuz obviously he he was different from a lot"
+        },
+        {
+          "id": "S877",
+          "cue_ids": [
+            877,
+            878,
+            879,
+            880
+          ],
+          "start_ms": 2097160,
+          "end_ms": 2106800,
+          "text": "steps leading up to going Olympics G Olympic Games you know there's obviously some meets getting ready the training uh you know weight room whatever it is and"
+        },
+        {
+          "id": "S914",
+          "cue_ids": [
+            914,
+            915,
+            916,
+            917
+          ],
+          "start_ms": 2182240,
+          "end_ms": 2193119,
+          "text": "children some have been flown out to study in the city my daughter she says she she's scared but you know excited at the same time but they have good reason"
+        },
+        {
+          "id": "S945",
+          "cue_ids": [
+            945,
+            946,
+            947,
+            948
+          ],
+          "start_ms": 2265520,
+          "end_ms": 2280000,
+          "text": "this uh water reservoir down there that we use we use it only lasted about 45 minutes so even if we had fire trucks that are"
+        },
+        {
+          "id": "S983",
+          "cue_ids": [
+            983,
+            984,
+            985,
+            986
+          ],
+          "start_ms": 2356760,
+          "end_ms": 2372160,
+          "text": "to push for quick action PanAm First Nation waited a decade for its new school after it burned down last fall Waka First Nation held a"
+        },
+        {
+          "id": "S1020",
+          "cue_ids": [
+            1020,
+            1021,
+            1022,
+            1023
+          ],
+          "start_ms": 2446000,
+          "end_ms": 2457680,
+          "text": "Treatment Center in the community which would serve as a base for the school's landbased learning program and extending the Community Hall to make room for"
+        },
+        {
+          "id": "S1055",
+          "cue_ids": [
+            1055,
+            1056,
+            1057,
+            1058
+          ],
+          "start_ms": 2532200,
+          "end_ms": 2544960,
+          "text": "you're willing to pay for a paranormal Peak into your pet's mind how's business these days how would you describe it absolutely phenomenal on the upswing all"
+        },
+        {
+          "id": "S1087",
+          "cue_ids": [
+            1087,
+            1088,
+            1089,
+            1090
+          ],
+          "start_ms": 2617720,
+          "end_ms": 2632760,
+          "text": "than 60 goats taking over a community that was unaware of their presence I didn't know we had goats oh it was a mess kind of cute go goats go back to"
+        },
+        {
+          "id": "S1124",
+          "cue_ids": [
+            1124
+          ],
+          "start_ms": 2712720,
+          "end_ms": 2715720,
+          "text": "night"
+        }
+      ],
+      "text": "S34 [00:01:22.680 --> 00:01:32.399] Katie Nicholson shows us there is concern for children and people who haven't been vaccinated Benjamin dermer's daughter is\nS71 [00:02:49.560 --> 00:03:00.040] to start to see more cases and unfortunately the consequence of that more severe cases and you know potentially very young people um ending\nS111 [00:04:17.238 --> 00:04:28.479] Nicholson reporting from Toronto the Quebec Corners office has opened an investigation into the death of a patient in a Montreal Area Hospital\nS144 [00:05:43.039 --> 00:05:56.720] entrance JP Tasker now with their [Music] reaction outside the Art Gallery of Ontario about 400 Pro Palestinian\nS179 [00:07:10.360 --> 00:07:22.879] diplomatic consequences this Pro Palestinian activist says anger with Ottawa has boiled over I think that it's coming off the backs of people feeling\nS214 [00:08:37.959 --> 00:08:52.920] 15 states in one territory hold their contests over the past week we been sort of in a rocket we've been launching like a rocket oh it's great to see all of you\nS248 [00:10:07.320 --> 00:10:20.000] out of her hat on super Tuesday her time on the campaign Trail is likely nearing its end and Katie Donald Trump's also preparing for what could be more good\nS286 [00:11:33.839 --> 00:11:49.000] a trip his family can't take I was shocked um I didn't expect things to be or the charges to be that high I am not very happy with that Air Canada and\nS321 [00:12:59.360 --> 00:13:13.600] but it came at the price of four unused airline tickets Sophia Harris CBC News Vancouver officials in Malaysia are pushing for a renewed search for MH370\nS358 [00:14:29.360 --> 00:14:44.320] period of time the majority of it fell and that combined with the high wind speeds um just led to some impressive results in some spots drifts piled up\nS394 [00:15:54.440 --> 00:16:07.720] Creek Fire is just 15% contained it's already killed two people scores of livestock and destroyed more than 500 structures some Canadian communities are\nS431 [00:17:23.839 --> 00:17:36.520] new strategy was haret sagin didn't specify instead he point pointed to the need for early Wildfire detection and what individuals can do to protect their\nS467 [00:18:51.799 --> 00:19:04.840] cause a woman who thought she saw her son on his deathbed has suddenly discovered that he's still alive sea came to the phone and we were\nS497 [00:20:19.679 --> 00:20:30.880] when ottawa's mafor hospital called in January to see Shawn was there in critical condition she rushed to his side he was laying in the bed with the\nS533 [00:21:47.400 --> 00:22:00.720] that it offers a second chance I means getting makeing it right with my parents and my and my family and um getting back to be part of part of my family Insley\nS564 [00:23:17.080 --> 00:23:25.960] next self tapes have become the new normal for actors trying to book roles in Hollywood and while they help\nS599 [00:24:42.520 --> 00:24:53.200] again with a bigger net C bigger asks they'll be like oh you're coming out of a car and there's a person walking toward board you and there a stranger\nS634 [00:26:09.840 --> 00:26:21.480] he took a break from training at the University of Florida pool where the expectations of Excellence are made very clear 3 2 1 test\nS671 [00:27:38.039 --> 00:27:50.519] that you've won this breakthrough gold medal how did that feel at that moment I mean it it it it felt great cuz the race was really close um I don't know just\nS710 [00:29:03.360 --> 00:29:17.360] me more fuel to try and get to the level that they've been at 2327 a new Canadian record for Joshua Alando you are going to become known more and more in Canada\nS749 [00:30:33.120 --> 00:30:44.640] these islands surrounded by beautiful ocean why do you think we're not seeing more Elite swimmers from the Caribbean um I don't you're you're getting more\nS790 [00:31:59.760 --> 00:32:10.799] read any biography of you it mentions first and foremost that you are an elite swimmer who is on this upward rise but the other thing it always points out is\nS835 [00:33:28.600 --> 00:33:37.639] of I think I I watched a documentary about him first and some I just really connected uh with him on how cuz obviously he he was different from a lot\nS877 [00:34:57.160 --> 00:35:06.800] steps leading up to going Olympics G Olympic Games you know there's obviously some meets getting ready the training uh you know weight room whatever it is and\nS914 [00:36:22.240 --> 00:36:33.119] children some have been flown out to study in the city my daughter she says she she's scared but you know excited at the same time but they have good reason\nS945 [00:37:45.520 --> 00:38:00.000] this uh water reservoir down there that we use we use it only lasted about 45 minutes so even if we had fire trucks that are\nS983 [00:39:16.760 --> 00:39:32.160] to push for quick action PanAm First Nation waited a decade for its new school after it burned down last fall Waka First Nation held a\nS1020 [00:40:46.000 --> 00:40:57.680] Treatment Center in the community which would serve as a base for the school's landbased learning program and extending the Community Hall to make room for\nS1055 [00:42:12.200 --> 00:42:24.960] you're willing to pay for a paranormal Peak into your pet's mind how's business these days how would you describe it absolutely phenomenal on the upswing all\nS1087 [00:43:37.720 --> 00:43:52.760] than 60 goats taking over a community that was unaware of their presence I didn't know we had goats oh it was a mess kind of cute go goats go back to\nS1124 [00:45:12.720 --> 00:45:15.720] night",
+      "text_tokens": 1923,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        34,
+        37,
+        71,
+        74,
+        111,
+        114,
+        144,
+        147,
+        179,
+        182,
+        214,
+        217,
+        248,
+        251,
+        286,
+        289,
+        321,
+        324,
+        358,
+        361,
+        394,
+        397,
+        431,
+        434,
+        467,
+        470,
+        497,
+        500,
+        533,
+        536,
+        566,
+        599,
+        602,
+        634,
+        637,
+        671,
+        674,
+        710,
+        713,
+        749,
+        752,
+        790,
+        793,
+        835,
+        838,
+        877,
+        880,
+        914,
+        917,
+        945,
+        948,
+        983,
+        986,
+        1020,
+        1023,
+        1055,
+        1058,
+        1087,
+        1090
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ed85bf3d2908ea748447944bd9073640596c0c05824808b3516c355618af22b7"
+}

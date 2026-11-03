@@ -1,0 +1,52 @@
+{
+  "docs/SUMMARY_mage_subtitle_final_results_20261103.md": {
+    "before_sha256": null,
+    "after_sha256": "a0e0243e007027c8158fbff99e1333c706150b6e3b21aa92705a7fe7e588d293",
+    "snapshot": null
+  },
+  "docs/SUMMARY_heritage_mage_aligned_subtitles.md": {
+    "before_sha256": "71790e97c06a219f0c94e662ec29992f0e25dc8ced7aa6f1c891f5512967d4f2",
+    "after_sha256": "05b7c4df0a18c60b9efdeff02b291fcd4a6cc8e1505a5fb93d9b301ebbc0eca4",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/SUMMARY_heritage_mage_aligned_subtitles.md"
+  },
+  "docs/SUMMARY_mage_subtitles_deepseek_review_20261103.md": {
+    "before_sha256": "bffa3061b0064bec3c12e93c447fe9a2828e7790b99408f15a50c51c5bb467e8",
+    "after_sha256": "95d18ec57f83133b9ea28ba8decc8b4b67a5ca1908e2436d2396fe2c665ec984",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/SUMMARY_mage_subtitles_deepseek_review_20261103.md"
+  },
+  "docs/PLAN_r2v_practical_accuracy_gain.md": {
+    "before_sha256": "4b0c9d6e841f6e2740d1fdead483b6b9dc202835563926078416a7b78dbfb56f",
+    "after_sha256": "d6c3f4f69ed22b4512eb8b504a46a3f33de14925c67bc87a60a9b7ecb5098617",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/PLAN_r2v_practical_accuracy_gain.md"
+  },
+  "docs/PLAN_continuous_deepseek_pilot.md": {
+    "before_sha256": "d39b5c0784370e9889c356916ff5fdf41e3fab1330926344960329a1954ada13",
+    "after_sha256": "6c4e5204da0aeea85752d9993d1c10e7535f6ef51faf990edc0c393816ef5ea1",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/PLAN_continuous_deepseek_pilot.md"
+  },
+  "docs/PLAN_subtitle_budget_short_completion.md": {
+    "before_sha256": "86878bfc64fdafe3edf877844ce474128c717efa5813401d1ba7bb99020c0f0f",
+    "after_sha256": "80b1d889b37f603061025b42649414b5be67a97d5be06bc05d871e1e0790f737",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/PLAN_subtitle_budget_short_completion.md"
+  },
+  "docs/PLAN_continuous_val90_fixed2048.md": {
+    "before_sha256": "d92646d2f2458bbf2e8bf74bb95cae06722cab5f7e178ce1ad1cea23491be1ea",
+    "after_sha256": "a1aae72349e16668f57d473ccf85950826d2ccbcf77e798b33ee5df6b3983975",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/PLAN_continuous_val90_fixed2048.md"
+  },
+  "docs/PLAN_continuous_test225_fixed2048.md": {
+    "before_sha256": "4e661250306ff850ee75e777cf5fbe4421b25beab43bca3b79e903dcdc7ba1c7",
+    "after_sha256": "181560393dd5eabd3f7848c81ebd4e14aa03a6f25d891caa9a0c27ddf9ac4181",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/docs/PLAN_continuous_test225_fixed2048.md"
+  },
+  "README.md": {
+    "before_sha256": "32e14448e1ae61b746a6664db0f931cb02e44f86021e14b6481838c89f1554ba",
+    "after_sha256": "d078dd82ae1187c6964a267a79199bb00211a249f0071328fd31c0af72ef780e",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/README.md"
+  },
+  "VQA/README.md": {
+    "before_sha256": "fa8f41b7b621dd31731656da3971916e4eb883dde815a65e7ebbb119b659b9be",
+    "after_sha256": "fc0e67af5bd67569738189a60328f7e7513fd0b7314fb9f9022fbc02bfce953d",
+    "snapshot": "VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/docs_before_update/VQA/README.md"
+  }
+}

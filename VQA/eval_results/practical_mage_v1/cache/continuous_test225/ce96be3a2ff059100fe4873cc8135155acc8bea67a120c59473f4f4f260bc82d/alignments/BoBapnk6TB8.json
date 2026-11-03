@@ -1,0 +1,981 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "BoBapnk6TB8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BoBapnk6TB8.srt",
+        "status": "available",
+        "bytes": 73403,
+        "sha256": "f5e14c225ee52205aac09367e6f4d003a7d35079fd52a49dac99a125a4c6e88d",
+        "cues": 558,
+        "nonempty_cues": 558
+      },
+      "frame_indices": [
+        0,
+        2292,
+        4584,
+        6876,
+        9168,
+        11460,
+        13751,
+        16043,
+        18335,
+        20627,
+        22919,
+        25211,
+        27503,
+        29795,
+        32087,
+        34379,
+        36670,
+        38962,
+        41254,
+        43546,
+        45838,
+        48130,
+        50422,
+        52714,
+        55006,
+        57298,
+        59589,
+        61881,
+        64173,
+        66465,
+        68757,
+        71049
+      ],
+      "frame_seconds": [
+        0.0,
+        91.68,
+        183.36,
+        275.04,
+        366.72,
+        458.4,
+        550.04,
+        641.72,
+        733.4,
+        825.08,
+        916.76,
+        1008.44,
+        1100.12,
+        1191.8,
+        1283.48,
+        1375.16,
+        1466.8,
+        1558.48,
+        1650.16,
+        1741.84,
+        1833.52,
+        1925.2,
+        2016.88,
+        2108.56,
+        2200.24,
+        2291.92,
+        2383.56,
+        2475.24,
+        2566.92,
+        2658.6,
+        2750.28,
+        2841.96
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          19
+        ],
+        [
+          36
+        ],
+        [
+          54
+        ],
+        [],
+        [],
+        [
+          110
+        ],
+        [
+          130
+        ],
+        [
+          149
+        ],
+        [
+          167
+        ],
+        [
+          183
+        ],
+        [
+          201
+        ],
+        [
+          217
+        ],
+        [
+          236
+        ],
+        [
+          252
+        ],
+        [
+          267
+        ],
+        [
+          283
+        ],
+        [
+          299
+        ],
+        [
+          317
+        ],
+        [
+          336
+        ],
+        [],
+        [
+          370
+        ],
+        [
+          388
+        ],
+        [
+          410
+        ],
+        [],
+        [
+          448
+        ],
+        [
+          468
+        ],
+        [
+          488
+        ],
+        [
+          506
+        ],
+        [
+          526
+        ],
+        [
+          546
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 19,
+          "start_ms": 90289,
+          "end_ms": 95161,
+          "text": "♪ ♪"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 182281,
+          "end_ms": 187854,
+          "text": "And recreated accurately for the first time a sight that once dazzled the world."
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 274139,
+          "end_ms": 277909,
+          "text": "it finally collapses after it's struck by an earthquake."
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 547946,
+          "end_ms": 550683,
+          "text": "but no blocks found underwater indicated the walls sloped."
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 635801,
+          "end_ms": 641740,
+          "text": "-By joining this huge fragment almost 12 meters long together with all the other fragments,"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 728727,
+          "end_ms": 733532,
+          "text": "And does it truly deserve its title as a wonder of the Ancient world?"
+        },
+        {
+          "cue_id": 167,
+          "start_ms": 823889,
+          "end_ms": 827759,
+          "text": "So is the Pharos shaped like this?"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 914813,
+          "end_ms": 917816,
+          "text": "NARRATOR: It's a huge leap forward."
+        },
+        {
+          "cue_id": 201,
+          "start_ms": 1005069,
+          "end_ms": 1010275,
+          "text": "the Pharos satisfies all of those ancient criteria of innovative design,"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 1098663,
+          "end_ms": 1104803,
+          "text": "Egyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years."
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 1190956,
+          "end_ms": 1194693,
+          "text": "drained of sand, grain by grain"
+        },
+        {
+          "cue_id": 252,
+          "start_ms": 1280679,
+          "end_ms": 1285517,
+          "text": "-It's almost like taking a sports car today and burying it in the desert somewhere."
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 1372804,
+          "end_ms": 1377776,
+          "text": "-Ceremonies took place in here, focused on this king as a kind of divine figure."
+        },
+        {
+          "cue_id": 283,
+          "start_ms": 1463795,
+          "end_ms": 1467299,
+          "text": "Creating 14 boat graves."
+        },
+        {
+          "cue_id": 299,
+          "start_ms": 1558322,
+          "end_ms": 1562493,
+          "text": "from here to the other world, where he would have his eternal life."
+        },
+        {
+          "cue_id": 317,
+          "start_ms": 1646777,
+          "end_ms": 1650181,
+          "text": "not seen for thousands of years."
+        },
+        {
+          "cue_id": 336,
+          "start_ms": 1739937,
+          "end_ms": 1743842,
+          "text": "and the tombs of the royal boats."
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 1923120,
+          "end_ms": 1925923,
+          "text": "Viewing them on the lakebed is impossible."
+        },
+        {
+          "cue_id": 388,
+          "start_ms": 2016247,
+          "end_ms": 2019717,
+          "text": "-This represents the edge of the known world to the Egyptians."
+        },
+        {
+          "cue_id": 410,
+          "start_ms": 2105402,
+          "end_ms": 2109006,
+          "text": "Ancient Egypt is about to unleash on its enemy."
+        },
+        {
+          "cue_id": 448,
+          "start_ms": 2291488,
+          "end_ms": 2294324,
+          "text": "A clue comes from a fort inscription."
+        },
+        {
+          "cue_id": 468,
+          "start_ms": 2379609,
+          "end_ms": 2383580,
+          "text": "Draining the water from Lake Nasser, reveals traces of Fort Buhen,"
+        },
+        {
+          "cue_id": 488,
+          "start_ms": 2470434,
+          "end_ms": 2476406,
+          "text": "STEVEN: What's unbelievable is if I told you, that all of the features that you find in"
+        },
+        {
+          "cue_id": 506,
+          "start_ms": 2564361,
+          "end_ms": 2568365,
+          "text": "for the number of people who would have lived at Buhen and that's an important clue for"
+        },
+        {
+          "cue_id": 526,
+          "start_ms": 2655852,
+          "end_ms": 2658922,
+          "text": "-This space was a barracks house, and this is a pattern"
+        },
+        {
+          "cue_id": 546,
+          "start_ms": 2748845,
+          "end_ms": 2752315,
+          "text": "-You can see how this architecture enables this activity and really this"
+        }
+      ],
+      "text": "♪ ♪\nAnd recreated accurately for the first time a sight that once dazzled the world.\nit finally collapses after it's struck by an earthquake.\nbut no blocks found underwater indicated the walls sloped.\n-By joining this huge fragment almost 12 meters long together with all the other fragments,\nAnd does it truly deserve its title as a wonder of the Ancient world?\nSo is the Pharos shaped like this?\nNARRATOR: It's a huge leap forward.\nthe Pharos satisfies all of those ancient criteria of innovative design,\nEgyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years.\ndrained of sand, grain by grain\n-It's almost like taking a sports car today and burying it in the desert somewhere.\n-Ceremonies took place in here, focused on this king as a kind of divine figure.\nCreating 14 boat graves.\nfrom here to the other world, where he would have his eternal life.\nnot seen for thousands of years.\nand the tombs of the royal boats.\nViewing them on the lakebed is impossible.\n-This represents the edge of the known world to the Egyptians.\nAncient Egypt is about to unleash on its enemy.\nA clue comes from a fort inscription.\nDraining the water from Lake Nasser, reveals traces of Fort Buhen,\nSTEVEN: What's unbelievable is if I told you, that all of the features that you find in\nfor the number of people who would have lived at Buhen and that's an important clue for\n-This space was a barracks house, and this is a pattern\n-You can see how this architecture enables this activity and really this",
+      "text_tokens": 341,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "BoBapnk6TB8",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BoBapnk6TB8.srt",
+          "status": "available",
+          "bytes": 73403,
+          "sha256": "f5e14c225ee52205aac09367e6f4d003a7d35079fd52a49dac99a125a4c6e88d",
+          "cues": 558,
+          "nonempty_cues": 558
+        },
+        "frame_indices": [
+          0,
+          2292,
+          4584,
+          6876,
+          9168,
+          11460,
+          13751,
+          16043,
+          18335,
+          20627,
+          22919,
+          25211,
+          27503,
+          29795,
+          32087,
+          34379,
+          36670,
+          38962,
+          41254,
+          43546,
+          45838,
+          48130,
+          50422,
+          52714,
+          55006,
+          57298,
+          59589,
+          61881,
+          64173,
+          66465,
+          68757,
+          71049
+        ],
+        "frame_seconds": [
+          0.0,
+          91.68,
+          183.36,
+          275.04,
+          366.72,
+          458.4,
+          550.04,
+          641.72,
+          733.4,
+          825.08,
+          916.76,
+          1008.44,
+          1100.12,
+          1191.8,
+          1283.48,
+          1375.16,
+          1466.8,
+          1558.48,
+          1650.16,
+          1741.84,
+          1833.52,
+          1925.2,
+          2016.88,
+          2108.56,
+          2200.24,
+          2291.92,
+          2383.56,
+          2475.24,
+          2566.92,
+          2658.6,
+          2750.28,
+          2841.96
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            19
+          ],
+          [
+            36
+          ],
+          [
+            54
+          ],
+          [],
+          [],
+          [
+            110
+          ],
+          [
+            130
+          ],
+          [
+            149
+          ],
+          [
+            167
+          ],
+          [
+            183
+          ],
+          [
+            201
+          ],
+          [
+            217
+          ],
+          [
+            236
+          ],
+          [
+            252
+          ],
+          [
+            267
+          ],
+          [
+            283
+          ],
+          [
+            299
+          ],
+          [
+            317
+          ],
+          [
+            336
+          ],
+          [],
+          [
+            370
+          ],
+          [
+            388
+          ],
+          [
+            410
+          ],
+          [],
+          [
+            448
+          ],
+          [
+            468
+          ],
+          [
+            488
+          ],
+          [
+            506
+          ],
+          [
+            526
+          ],
+          [
+            546
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 19,
+            "start_ms": 90289,
+            "end_ms": 95161,
+            "text": "♪ ♪"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 182281,
+            "end_ms": 187854,
+            "text": "And recreated accurately for the first time a sight that once dazzled the world."
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 274139,
+            "end_ms": 277909,
+            "text": "it finally collapses after it's struck by an earthquake."
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 547946,
+            "end_ms": 550683,
+            "text": "but no blocks found underwater indicated the walls sloped."
+          },
+          {
+            "cue_id": 130,
+            "start_ms": 635801,
+            "end_ms": 641740,
+            "text": "-By joining this huge fragment almost 12 meters long together with all the other fragments,"
+          },
+          {
+            "cue_id": 149,
+            "start_ms": 728727,
+            "end_ms": 733532,
+            "text": "And does it truly deserve its title as a wonder of the Ancient world?"
+          },
+          {
+            "cue_id": 167,
+            "start_ms": 823889,
+            "end_ms": 827759,
+            "text": "So is the Pharos shaped like this?"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 914813,
+            "end_ms": 917816,
+            "text": "NARRATOR: It's a huge leap forward."
+          },
+          {
+            "cue_id": 201,
+            "start_ms": 1005069,
+            "end_ms": 1010275,
+            "text": "the Pharos satisfies all of those ancient criteria of innovative design,"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 1098663,
+            "end_ms": 1104803,
+            "text": "Egyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years."
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 1190956,
+            "end_ms": 1194693,
+            "text": "drained of sand, grain by grain"
+          },
+          {
+            "cue_id": 252,
+            "start_ms": 1280679,
+            "end_ms": 1285517,
+            "text": "-It's almost like taking a sports car today and burying it in the desert somewhere."
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 1372804,
+            "end_ms": 1377776,
+            "text": "-Ceremonies took place in here, focused on this king as a kind of divine figure."
+          },
+          {
+            "cue_id": 283,
+            "start_ms": 1463795,
+            "end_ms": 1467299,
+            "text": "Creating 14 boat graves."
+          },
+          {
+            "cue_id": 299,
+            "start_ms": 1558322,
+            "end_ms": 1562493,
+            "text": "from here to the other world, where he would have his eternal life."
+          },
+          {
+            "cue_id": 317,
+            "start_ms": 1646777,
+            "end_ms": 1650181,
+            "text": "not seen for thousands of years."
+          },
+          {
+            "cue_id": 336,
+            "start_ms": 1739937,
+            "end_ms": 1743842,
+            "text": "and the tombs of the royal boats."
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 1923120,
+            "end_ms": 1925923,
+            "text": "Viewing them on the lakebed is impossible."
+          },
+          {
+            "cue_id": 388,
+            "start_ms": 2016247,
+            "end_ms": 2019717,
+            "text": "-This represents the edge of the known world to the Egyptians."
+          },
+          {
+            "cue_id": 410,
+            "start_ms": 2105402,
+            "end_ms": 2109006,
+            "text": "Ancient Egypt is about to unleash on its enemy."
+          },
+          {
+            "cue_id": 448,
+            "start_ms": 2291488,
+            "end_ms": 2294324,
+            "text": "A clue comes from a fort inscription."
+          },
+          {
+            "cue_id": 468,
+            "start_ms": 2379609,
+            "end_ms": 2383580,
+            "text": "Draining the water from Lake Nasser, reveals traces of Fort Buhen,"
+          },
+          {
+            "cue_id": 488,
+            "start_ms": 2470434,
+            "end_ms": 2476406,
+            "text": "STEVEN: What's unbelievable is if I told you, that all of the features that you find in"
+          },
+          {
+            "cue_id": 506,
+            "start_ms": 2564361,
+            "end_ms": 2568365,
+            "text": "for the number of people who would have lived at Buhen and that's an important clue for"
+          },
+          {
+            "cue_id": 526,
+            "start_ms": 2655852,
+            "end_ms": 2658922,
+            "text": "-This space was a barracks house, and this is a pattern"
+          },
+          {
+            "cue_id": 546,
+            "start_ms": 2748845,
+            "end_ms": 2752315,
+            "text": "-You can see how this architecture enables this activity and really this"
+          }
+        ],
+        "text": "♪ ♪\nAnd recreated accurately for the first time a sight that once dazzled the world.\nit finally collapses after it's struck by an earthquake.\nbut no blocks found underwater indicated the walls sloped.\n-By joining this huge fragment almost 12 meters long together with all the other fragments,\nAnd does it truly deserve its title as a wonder of the Ancient world?\nSo is the Pharos shaped like this?\nNARRATOR: It's a huge leap forward.\nthe Pharos satisfies all of those ancient criteria of innovative design,\nEgyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years.\ndrained of sand, grain by grain\n-It's almost like taking a sports car today and burying it in the desert somewhere.\n-Ceremonies took place in here, focused on this king as a kind of divine figure.\nCreating 14 boat graves.\nfrom here to the other world, where he would have his eternal life.\nnot seen for thousands of years.\nand the tombs of the royal boats.\nViewing them on the lakebed is impossible.\n-This represents the edge of the known world to the Egyptians.\nAncient Egypt is about to unleash on its enemy.\nA clue comes from a fort inscription.\nDraining the water from Lake Nasser, reveals traces of Fort Buhen,\nSTEVEN: What's unbelievable is if I told you, that all of the features that you find in\nfor the number of people who would have lived at Buhen and that's an important clue for\n-This space was a barracks house, and this is a pattern\n-You can see how this architecture enables this activity and really this",
+        "text_tokens": 341,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S19",
+          "cue_ids": [
+            19,
+            20
+          ],
+          "start_ms": 90289,
+          "end_ms": 97163,
+          "text": "♪ ♪ NARRATOR: Ancient Egypt..."
+        },
+        {
+          "id": "S35",
+          "cue_ids": [
+            35,
+            36,
+            37
+          ],
+          "start_ms": 174507,
+          "end_ms": 192625,
+          "text": "of the Pharos be brought back to life from the seas around Alexandria Harbor? And recreated accurately for the first time a sight that once dazzled the world. -The Pharos ranked as one of the seven wonders of the ancient world because it was"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54
+          ],
+          "start_ms": 269268,
+          "end_ms": 277909,
+          "text": "The land beneath it slowly subsides into the sea, and in the 14th century it finally collapses after it's struck by an earthquake."
+        },
+        {
+          "id": "S109",
+          "cue_ids": [
+            109,
+            110,
+            111
+          ],
+          "start_ms": 544409,
+          "end_ms": 554253,
+          "text": "We've even found blocks that might have formed the corner stones, but no blocks found underwater indicated the walls sloped. The walls were straight."
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131
+          ],
+          "start_ms": 635801,
+          "end_ms": 644310,
+          "text": "-By joining this huge fragment almost 12 meters long together with all the other fragments, we can reconstruct a door."
+        },
+        {
+          "id": "S148",
+          "cue_ids": [
+            148,
+            149
+          ],
+          "start_ms": 725924,
+          "end_ms": 733532,
+          "text": "But what does the rest of the Pharos look like? And does it truly deserve its title as a wonder of the Ancient world?"
+        },
+        {
+          "id": "S166",
+          "cue_ids": [
+            166,
+            167,
+            168
+          ],
+          "start_ms": 820285,
+          "end_ms": 833932,
+          "text": "Alexandria's most famous building. So is the Pharos shaped like this? To solve this mystery, Isabelle needs to compare her 3D data with historical"
+        },
+        {
+          "id": "S183",
+          "cue_ids": [
+            183,
+            184
+          ],
+          "start_ms": 914813,
+          "end_ms": 921786,
+          "text": "NARRATOR: It's a huge leap forward. Converting medieval units into accurate modern measurement"
+        },
+        {
+          "id": "S200",
+          "cue_ids": [
+            200,
+            201,
+            202
+          ],
+          "start_ms": 999598,
+          "end_ms": 1014213,
+          "text": "STEVEN: The ancients determined the seven wonders because they met certain criterias, and so the Pharos satisfies all of those ancient criteria of innovative design, that was actually built, that was actually towering."
+        },
+        {
+          "id": "S217",
+          "cue_ids": [
+            217
+          ],
+          "start_ms": 1098663,
+          "end_ms": 1104803,
+          "text": "Egyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years."
+        },
+        {
+          "id": "S235",
+          "cue_ids": [
+            235,
+            236,
+            237
+          ],
+          "start_ms": 1185417,
+          "end_ms": 1198630,
+          "text": "Combining this data with the latest computer imaging allows the Egyptian desert to be drained of sand, grain by grain to solve an ancient mystery."
+        },
+        {
+          "id": "S251",
+          "cue_ids": [
+            251,
+            252
+          ],
+          "start_ms": 1275440,
+          "end_ms": 1285517,
+          "text": "NARRATOR: 5,000 years ago, this is cutting edge nautical technology. -It's almost like taking a sports car today and burying it in the desert somewhere."
+        },
+        {
+          "id": "S266",
+          "cue_ids": [
+            266,
+            267,
+            268
+          ],
+          "start_ms": 1366598,
+          "end_ms": 1384616,
+          "text": "NARRATOR: Excavations here uncover ancient pots that once contained food and beer. -Ceremonies took place in here, focused on this king as a kind of divine figure. Somehow these boats are part of this religious expression"
+        },
+        {
+          "id": "S282",
+          "cue_ids": [
+            282,
+            283
+          ],
+          "start_ms": 1459257,
+          "end_ms": 1467299,
+          "text": "And all are covered in a layer of white plaster. Creating 14 boat graves."
+        },
+        {
+          "id": "S298",
+          "cue_ids": [
+            298,
+            299,
+            300
+          ],
+          "start_ms": 1552684,
+          "end_ms": 1567465,
+          "text": "-This is the spot where the king ended his life in this world and made the transition from here to the other world, where he would have his eternal life. NARRATOR: The tomb is designed to ensure the dead Pharaoh passes into another"
+        },
+        {
+          "id": "S316",
+          "cue_ids": [
+            316,
+            317,
+            318
+          ],
+          "start_ms": 1642106,
+          "end_ms": 1654318,
+          "text": "It detects variations in the soil's magnetic field to reveal structures underground, not seen for thousands of years. ALEX: We walk over it every day, but what we don't see is all of this."
+        },
+        {
+          "id": "S335",
+          "cue_ids": [
+            335,
+            336
+          ],
+          "start_ms": 1736300,
+          "end_ms": 1743842,
+          "text": "And nearby, more ritual enclosures where Pharaohs are worshipped and the tombs of the royal boats."
+        },
+        {
+          "id": "S369",
+          "cue_ids": [
+            369,
+            370,
+            371
+          ],
+          "start_ms": 1917981,
+          "end_ms": 1930461,
+          "text": "their exact purpose, a mystery to archaeologists. Viewing them on the lakebed is impossible. Sediment makes the waters impenetrable to cameras."
+        },
+        {
+          "id": "S388",
+          "cue_ids": [
+            388,
+            389
+          ],
+          "start_ms": 2016247,
+          "end_ms": 2022853,
+          "text": "-This represents the edge of the known world to the Egyptians. Egypt is behind me up the Nile, that's the familiar world,"
+        },
+        {
+          "id": "S409",
+          "cue_ids": [
+            409,
+            410
+          ],
+          "start_ms": 2102833,
+          "end_ms": 2109006,
+          "text": "But it's barely a fraction of the military might Ancient Egypt is about to unleash on its enemy."
+        },
+        {
+          "id": "S448",
+          "cue_ids": [
+            448,
+            449
+          ],
+          "start_ms": 2291488,
+          "end_ms": 2297194,
+          "text": "A clue comes from a fort inscription. It reveals that much of the frontier is created to"
+        },
+        {
+          "id": "S467",
+          "cue_ids": [
+            467,
+            468,
+            469
+          ],
+          "start_ms": 2373737,
+          "end_ms": 2387017,
+          "text": "Hidden inside it is evidence of Ancient Egypt's military secrets. Draining the water from Lake Nasser, reveals traces of Fort Buhen, not seen for more than 50 years."
+        },
+        {
+          "id": "S487",
+          "cue_ids": [
+            487,
+            488,
+            489
+          ],
+          "start_ms": 2466496,
+          "end_ms": 2481345,
+          "text": "that it makes any raid on it, futile. STEVEN: What's unbelievable is if I told you, that all of the features that you find in mediaeval European forts were already in place"
+        },
+        {
+          "id": "S505",
+          "cue_ids": [
+            505,
+            506,
+            507
+          ],
+          "start_ms": 2560457,
+          "end_ms": 2572068,
+          "text": "-The size of those granaries means that they could hold way more food than is necessary for the number of people who would have lived at Buhen and that's an important clue for us in terms of the economic activity that's going on."
+        },
+        {
+          "id": "S526",
+          "cue_ids": [
+            526,
+            527
+          ],
+          "start_ms": 2655852,
+          "end_ms": 2661924,
+          "text": "-This space was a barracks house, and this is a pattern we see repeated throughout the fortress."
+        },
+        {
+          "id": "S545",
+          "cue_ids": [
+            545,
+            546,
+            547
+          ],
+          "start_ms": 2744207,
+          "end_ms": 2757287,
+          "text": "the building of the great pyramids. -You can see how this architecture enables this activity and really this bustling city on the edge of the Nile here at the edge of the world."
+        }
+      ],
+      "text": "S19 [00:01:30.289 --> 00:01:37.163] ♪ ♪ NARRATOR: Ancient Egypt...\nS35 [00:02:54.507 --> 00:03:12.625] of the Pharos be brought back to life from the seas around Alexandria Harbor? And recreated accurately for the first time a sight that once dazzled the world. -The Pharos ranked as one of the seven wonders of the ancient world because it was\nS53 [00:04:29.268 --> 00:04:37.909] The land beneath it slowly subsides into the sea, and in the 14th century it finally collapses after it's struck by an earthquake.\nS109 [00:09:04.409 --> 00:09:14.253] We've even found blocks that might have formed the corner stones, but no blocks found underwater indicated the walls sloped. The walls were straight.\nS130 [00:10:35.801 --> 00:10:44.310] -By joining this huge fragment almost 12 meters long together with all the other fragments, we can reconstruct a door.\nS148 [00:12:05.924 --> 00:12:13.532] But what does the rest of the Pharos look like? And does it truly deserve its title as a wonder of the Ancient world?\nS166 [00:13:40.285 --> 00:13:53.932] Alexandria's most famous building. So is the Pharos shaped like this? To solve this mystery, Isabelle needs to compare her 3D data with historical\nS183 [00:15:14.813 --> 00:15:21.786] NARRATOR: It's a huge leap forward. Converting medieval units into accurate modern measurement\nS200 [00:16:39.598 --> 00:16:54.213] STEVEN: The ancients determined the seven wonders because they met certain criterias, and so the Pharos satisfies all of those ancient criteria of innovative design, that was actually built, that was actually towering.\nS217 [00:18:18.663 --> 00:18:24.803] Egyptologist Matthew Adams has excavated Abydos' mysterious boats for 30 years.\nS235 [00:19:45.417 --> 00:19:58.630] Combining this data with the latest computer imaging allows the Egyptian desert to be drained of sand, grain by grain to solve an ancient mystery.\nS251 [00:21:15.440 --> 00:21:25.517] NARRATOR: 5,000 years ago, this is cutting edge nautical technology. -It's almost like taking a sports car today and burying it in the desert somewhere.\nS266 [00:22:46.598 --> 00:23:04.616] NARRATOR: Excavations here uncover ancient pots that once contained food and beer. -Ceremonies took place in here, focused on this king as a kind of divine figure. Somehow these boats are part of this religious expression\nS282 [00:24:19.257 --> 00:24:27.299] And all are covered in a layer of white plaster. Creating 14 boat graves.\nS298 [00:25:52.684 --> 00:26:07.465] -This is the spot where the king ended his life in this world and made the transition from here to the other world, where he would have his eternal life. NARRATOR: The tomb is designed to ensure the dead Pharaoh passes into another\nS316 [00:27:22.106 --> 00:27:34.318] It detects variations in the soil's magnetic field to reveal structures underground, not seen for thousands of years. ALEX: We walk over it every day, but what we don't see is all of this.\nS335 [00:28:56.300 --> 00:29:03.842] And nearby, more ritual enclosures where Pharaohs are worshipped and the tombs of the royal boats.\nS369 [00:31:57.981 --> 00:32:10.461] their exact purpose, a mystery to archaeologists. Viewing them on the lakebed is impossible. Sediment makes the waters impenetrable to cameras.\nS388 [00:33:36.247 --> 00:33:42.853] -This represents the edge of the known world to the Egyptians. Egypt is behind me up the Nile, that's the familiar world,\nS409 [00:35:02.833 --> 00:35:09.006] But it's barely a fraction of the military might Ancient Egypt is about to unleash on its enemy.\nS448 [00:38:11.488 --> 00:38:17.194] A clue comes from a fort inscription. It reveals that much of the frontier is created to\nS467 [00:39:33.737 --> 00:39:47.017] Hidden inside it is evidence of Ancient Egypt's military secrets. Draining the water from Lake Nasser, reveals traces of Fort Buhen, not seen for more than 50 years.\nS487 [00:41:06.496 --> 00:41:21.345] that it makes any raid on it, futile. STEVEN: What's unbelievable is if I told you, that all of the features that you find in mediaeval European forts were already in place\nS505 [00:42:40.457 --> 00:42:52.068] -The size of those granaries means that they could hold way more food than is necessary for the number of people who would have lived at Buhen and that's an important clue for us in terms of the economic activity that's going on.\nS526 [00:44:15.852 --> 00:44:21.924] -This space was a barracks house, and this is a pattern we see repeated throughout the fortress.\nS545 [00:45:44.207 --> 00:45:57.287] the building of the great pyramids. -You can see how this architecture enables this activity and really this bustling city on the edge of the Nile here at the edge of the world.",
+      "text_tokens": 1648,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        20,
+        35,
+        37,
+        53,
+        109,
+        111,
+        131,
+        148,
+        166,
+        168,
+        184,
+        200,
+        202,
+        235,
+        237,
+        251,
+        266,
+        268,
+        282,
+        298,
+        300,
+        316,
+        318,
+        335,
+        369,
+        371,
+        389,
+        409,
+        449,
+        467,
+        469,
+        487,
+        489,
+        505,
+        507,
+        527,
+        545,
+        547
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "999b7cbb0a789d68b2a84a62768134dc4bc7a7dd699ed11a605745f2d104be38"
+}

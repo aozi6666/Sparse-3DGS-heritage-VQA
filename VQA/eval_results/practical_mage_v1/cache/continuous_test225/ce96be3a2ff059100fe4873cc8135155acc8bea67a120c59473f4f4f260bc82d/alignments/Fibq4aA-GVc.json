@@ -1,0 +1,1474 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "Fibq4aA-GVc",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Fibq4aA-GVc.srt",
+        "status": "available",
+        "bytes": 121905,
+        "sha256": "491123cbafdd050c24dfd4cf980335e44dc77c6d184808521c7330134b0268e7",
+        "cues": 1147,
+        "nonempty_cues": 1147
+      },
+      "frame_indices": [
+        0,
+        2712,
+        5424,
+        8136,
+        10848,
+        13560,
+        16271,
+        18983,
+        21695,
+        24407,
+        27119,
+        29831,
+        32543,
+        35255,
+        37967,
+        40679,
+        43390,
+        46102,
+        48814,
+        51526,
+        54238,
+        56950,
+        59662,
+        62374,
+        65086,
+        67798,
+        70509,
+        73221,
+        75933,
+        78645,
+        81357,
+        84069
+      ],
+      "frame_seconds": [
+        0.0,
+        113.113,
+        226.226,
+        339.339,
+        452.452,
+        565.565,
+        678.636292,
+        791.749292,
+        904.862292,
+        1017.975292,
+        1131.088292,
+        1244.201292,
+        1357.314292,
+        1470.427292,
+        1583.540292,
+        1696.653292,
+        1809.724583,
+        1922.837583,
+        2035.950583,
+        2149.063583,
+        2262.176583,
+        2375.289583,
+        2488.402583,
+        2601.515583,
+        2714.628583,
+        2827.741583,
+        2940.812875,
+        3053.925875,
+        3167.038875,
+        3280.151875,
+        3393.264875,
+        3506.377875
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          39,
+          40
+        ],
+        [
+          74,
+          75
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          130,
+          131
+        ],
+        [
+          163,
+          164
+        ],
+        [
+          202
+        ],
+        [
+          237,
+          238
+        ],
+        [
+          273,
+          274
+        ],
+        [
+          305
+        ],
+        [
+          340,
+          341
+        ],
+        [],
+        [
+          405,
+          406
+        ],
+        [
+          444,
+          445
+        ],
+        [
+          483
+        ],
+        [
+          533,
+          534
+        ],
+        [
+          564,
+          565
+        ],
+        [],
+        [
+          641,
+          642
+        ],
+        [
+          671,
+          672
+        ],
+        [
+          722,
+          723
+        ],
+        [
+          764,
+          765
+        ],
+        [
+          804,
+          805
+        ],
+        [
+          848,
+          849
+        ],
+        [
+          888,
+          889
+        ],
+        [
+          922,
+          923
+        ],
+        [
+          960,
+          961
+        ],
+        [
+          1003,
+          1004
+        ],
+        [
+          1042,
+          1043
+        ],
+        [
+          1077,
+          1078
+        ],
+        [
+          1113,
+          1114
+        ],
+        [
+          1146,
+          1147
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 39,
+          "start_ms": 109960,
+          "end_ms": 113600,
+          "text": "and some of them will be bad and if we"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 111479,
+          "end_ms": 117560,
+          "text": "do not complete the challenge we get"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 220840,
+          "end_ms": 228280,
+          "text": "another card that's what I'm saying dude"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 223720,
+          "end_ms": 229120,
+          "text": "this is nice this is a Vibe if I've seen"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 335919,
+          "end_ms": 341360,
+          "text": "right just time to pull another"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 338919,
+          "end_ms": 345360,
+          "text": "card what does it"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 448319,
+          "end_ms": 457159,
+          "text": "cured stay"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 451900,
+          "end_ms": 461560,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 561640,
+          "end_ms": 568680,
+          "text": "bottle we don't have a restroom on this"
+        },
+        {
+          "cue_id": 164,
+          "start_ms": 563800,
+          "end_ms": 571480,
+          "text": "bus we don't have a restroom oh my gosh"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 675880,
+          "end_ms": 681639,
+          "text": "any Gabe I think it's time pull a card"
+        },
+        {
+          "cue_id": 237,
+          "start_ms": 786199,
+          "end_ms": 794040,
+          "text": "Texas how long Nathan 30 business days"
+        },
+        {
+          "cue_id": 238,
+          "start_ms": 789639,
+          "end_ms": 794040,
+          "text": "oh and that's coming from the op"
+        },
+        {
+          "cue_id": 273,
+          "start_ms": 901399,
+          "end_ms": 906360,
+          "text": "this video continues or it's over it's"
+        },
+        {
+          "cue_id": 274,
+          "start_ms": 903959,
+          "end_ms": 908959,
+          "text": "up to you listen I brought my own"
+        },
+        {
+          "cue_id": 305,
+          "start_ms": 1017480,
+          "end_ms": 1022399,
+          "text": "oranges"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 1128480,
+          "end_ms": 1132840,
+          "text": "double Ducker bus and we get to watch"
+        },
+        {
+          "cue_id": 341,
+          "start_ms": 1130720,
+          "end_ms": 1134520,
+          "text": "the sun go down while we're at it come"
+        },
+        {
+          "cue_id": 405,
+          "start_ms": 1354279,
+          "end_ms": 1359200,
+          "text": "a small one you want to go eat some"
+        },
+        {
+          "cue_id": 406,
+          "start_ms": 1355559,
+          "end_ms": 1362600,
+          "text": "shrimp on the Bobby oh yeah oh yeah oh"
+        },
+        {
+          "cue_id": 444,
+          "start_ms": 1465279,
+          "end_ms": 1470799,
+          "text": "brother let it cook that's what we're"
+        },
+        {
+          "cue_id": 445,
+          "start_ms": 1467600,
+          "end_ms": 1473120,
+          "text": "doing put the cheese in for you want to"
+        },
+        {
+          "cue_id": 483,
+          "start_ms": 1582080,
+          "end_ms": 1586640,
+          "text": "quick three in a"
+        },
+        {
+          "cue_id": 533,
+          "start_ms": 1694120,
+          "end_ms": 1700000,
+          "text": "oh 2"
+        },
+        {
+          "cue_id": 534,
+          "start_ms": 1696519,
+          "end_ms": 1702559,
+          "text": "oh 3 oh why does it roll like"
+        },
+        {
+          "cue_id": 564,
+          "start_ms": 1807519,
+          "end_ms": 1811640,
+          "text": "in except for that one right"
+        },
+        {
+          "cue_id": 565,
+          "start_ms": 1809279,
+          "end_ms": 1813399,
+          "text": "there oh I made that one in too here I"
+        },
+        {
+          "cue_id": 641,
+          "start_ms": 2030440,
+          "end_ms": 2040159,
+          "text": "tree oh my gosh the bus is Too"
+        },
+        {
+          "cue_id": 642,
+          "start_ms": 2035080,
+          "end_ms": 2042039,
+          "text": "Tall they dead oh dang look at this that"
+        },
+        {
+          "cue_id": 671,
+          "start_ms": 2144680,
+          "end_ms": 2149200,
+          "text": "appreciate"
+        },
+        {
+          "cue_id": 672,
+          "start_ms": 2145760,
+          "end_ms": 2152000,
+          "text": "it perfect one down we just need four"
+        },
+        {
+          "cue_id": 722,
+          "start_ms": 2258839,
+          "end_ms": 2263200,
+          "text": "because we want to try to improve them"
+        },
+        {
+          "cue_id": 723,
+          "start_ms": 2261079,
+          "end_ms": 2265839,
+          "text": "and make them better but they're good"
+        },
+        {
+          "cue_id": 764,
+          "start_ms": 2370520,
+          "end_ms": 2376800,
+          "text": "this is what we call Turkey bowling what"
+        },
+        {
+          "cue_id": 765,
+          "start_ms": 2374520,
+          "end_ms": 2376800,
+          "text": "here we"
+        },
+        {
+          "cue_id": 804,
+          "start_ms": 2485760,
+          "end_ms": 2489800,
+          "text": "we're stopping"
+        },
+        {
+          "cue_id": 805,
+          "start_ms": 2487680,
+          "end_ms": 2491079,
+          "text": "there's a guy in the road our our"
+        },
+        {
+          "cue_id": 848,
+          "start_ms": 2596760,
+          "end_ms": 2602000,
+          "text": "ostrich would be good ostrich yeah all"
+        },
+        {
+          "cue_id": 849,
+          "start_ms": 2599400,
+          "end_ms": 2604920,
+          "text": "right what the heck is that why is there"
+        },
+        {
+          "cue_id": 888,
+          "start_ms": 2710640,
+          "end_ms": 2715400,
+          "text": "actually be really cool we don't see an"
+        },
+        {
+          "cue_id": 889,
+          "start_ms": 2712440,
+          "end_ms": 2718240,
+          "text": "animal we get kicked off inside the"
+        },
+        {
+          "cue_id": 922,
+          "start_ms": 2823800,
+          "end_ms": 2828800,
+          "text": "guess bro these animals want nothing to"
+        },
+        {
+          "cue_id": 923,
+          "start_ms": 2825920,
+          "end_ms": 2831720,
+          "text": "do with us oh that one's pooping all"
+        },
+        {
+          "cue_id": 960,
+          "start_ms": 2938119,
+          "end_ms": 2942799,
+          "text": "why are you running"
+        },
+        {
+          "cue_id": 961,
+          "start_ms": 2940240,
+          "end_ms": 2945640,
+          "text": "away bro come on we have to feed a"
+        },
+        {
+          "cue_id": 1003,
+          "start_ms": 3049640,
+          "end_ms": 3054240,
+          "text": "make him come to Papa yeah there you go"
+        },
+        {
+          "cue_id": 1004,
+          "start_ms": 3052720,
+          "end_ms": 3057880,
+          "text": "you know you want some food you know"
+        },
+        {
+          "cue_id": 1042,
+          "start_ms": 3162839,
+          "end_ms": 3171160,
+          "text": "go this is an invasive species all right"
+        },
+        {
+          "cue_id": 1043,
+          "start_ms": 3166760,
+          "end_ms": 3174720,
+          "text": "I think he's done bye Mr uh ostrich you"
+        },
+        {
+          "cue_id": 1077,
+          "start_ms": 3274960,
+          "end_ms": 3282880,
+          "text": "oh yeah come here come here come here oh"
+        },
+        {
+          "cue_id": 1078,
+          "start_ms": 3278440,
+          "end_ms": 3282880,
+          "text": "yes yeah I got it oh"
+        },
+        {
+          "cue_id": 1113,
+          "start_ms": 3389520,
+          "end_ms": 3393680,
+          "text": "sound linky it just sounds like Pistons"
+        },
+        {
+          "cue_id": 1114,
+          "start_ms": 3391440,
+          "end_ms": 3395200,
+          "text": "actuating or something he says it sounds"
+        },
+        {
+          "cue_id": 1146,
+          "start_ms": 3503359,
+          "end_ms": 3508359,
+          "text": "it uh"
+        },
+        {
+          "cue_id": 1147,
+          "start_ms": 3505280,
+          "end_ms": 3508359,
+          "text": "get me off this bus"
+        }
+      ],
+      "text": "and some of them will be bad and if we\ndo not complete the challenge we get\nanother card that's what I'm saying dude\nthis is nice this is a Vibe if I've seen\nright just time to pull another\ncard what does it\ncured stay\n[Music]\nbottle we don't have a restroom on this\nbus we don't have a restroom oh my gosh\nany Gabe I think it's time pull a card\nTexas how long Nathan 30 business days\noh and that's coming from the op\nthis video continues or it's over it's\nup to you listen I brought my own\noranges\ndouble Ducker bus and we get to watch\nthe sun go down while we're at it come\na small one you want to go eat some\nshrimp on the Bobby oh yeah oh yeah oh\nbrother let it cook that's what we're\ndoing put the cheese in for you want to\nquick three in a\noh 2\noh 3 oh why does it roll like\nin except for that one right\nthere oh I made that one in too here I\ntree oh my gosh the bus is Too\nTall they dead oh dang look at this that\nappreciate\nit perfect one down we just need four\nbecause we want to try to improve them\nand make them better but they're good\nthis is what we call Turkey bowling what\nhere we\nwe're stopping\nthere's a guy in the road our our\nostrich would be good ostrich yeah all\nright what the heck is that why is there\nactually be really cool we don't see an\nanimal we get kicked off inside the\nguess bro these animals want nothing to\ndo with us oh that one's pooping all\nwhy are you running\naway bro come on we have to feed a\nmake him come to Papa yeah there you go\nyou know you want some food you know\ngo this is an invasive species all right\nI think he's done bye Mr uh ostrich you\noh yeah come here come here come here oh\nyes yeah I got it oh\nsound linky it just sounds like Pistons\nactuating or something he says it sounds\nit uh\nget me off this bus",
+      "text_tokens": 471,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Fibq4aA-GVc",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Fibq4aA-GVc.srt",
+          "status": "available",
+          "bytes": 121905,
+          "sha256": "491123cbafdd050c24dfd4cf980335e44dc77c6d184808521c7330134b0268e7",
+          "cues": 1147,
+          "nonempty_cues": 1147
+        },
+        "frame_indices": [
+          0,
+          2712,
+          5424,
+          8136,
+          10848,
+          13560,
+          16271,
+          18983,
+          21695,
+          24407,
+          27119,
+          29831,
+          32543,
+          35255,
+          37967,
+          40679,
+          43390,
+          46102,
+          48814,
+          51526,
+          54238,
+          56950,
+          59662,
+          62374,
+          65086,
+          67798,
+          70509,
+          73221,
+          75933,
+          78645,
+          81357,
+          84069
+        ],
+        "frame_seconds": [
+          0.0,
+          113.113,
+          226.226,
+          339.339,
+          452.452,
+          565.565,
+          678.636292,
+          791.749292,
+          904.862292,
+          1017.975292,
+          1131.088292,
+          1244.201292,
+          1357.314292,
+          1470.427292,
+          1583.540292,
+          1696.653292,
+          1809.724583,
+          1922.837583,
+          2035.950583,
+          2149.063583,
+          2262.176583,
+          2375.289583,
+          2488.402583,
+          2601.515583,
+          2714.628583,
+          2827.741583,
+          2940.812875,
+          3053.925875,
+          3167.038875,
+          3280.151875,
+          3393.264875,
+          3506.377875
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            39,
+            40
+          ],
+          [
+            74,
+            75
+          ],
+          [
+            103,
+            104
+          ],
+          [
+            130,
+            131
+          ],
+          [
+            163,
+            164
+          ],
+          [
+            202
+          ],
+          [
+            237,
+            238
+          ],
+          [
+            273,
+            274
+          ],
+          [
+            305
+          ],
+          [
+            340,
+            341
+          ],
+          [],
+          [
+            405,
+            406
+          ],
+          [
+            444,
+            445
+          ],
+          [
+            483
+          ],
+          [
+            533,
+            534
+          ],
+          [
+            564,
+            565
+          ],
+          [],
+          [
+            641,
+            642
+          ],
+          [
+            671,
+            672
+          ],
+          [
+            722,
+            723
+          ],
+          [
+            764,
+            765
+          ],
+          [
+            804,
+            805
+          ],
+          [
+            848,
+            849
+          ],
+          [
+            888,
+            889
+          ],
+          [
+            922,
+            923
+          ],
+          [
+            960,
+            961
+          ],
+          [
+            1003,
+            1004
+          ],
+          [
+            1042,
+            1043
+          ],
+          [
+            1077,
+            1078
+          ],
+          [
+            1113,
+            1114
+          ],
+          [
+            1146,
+            1147
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 39,
+            "start_ms": 109960,
+            "end_ms": 113600,
+            "text": "and some of them will be bad and if we"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 111479,
+            "end_ms": 117560,
+            "text": "do not complete the challenge we get"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 220840,
+            "end_ms": 228280,
+            "text": "another card that's what I'm saying dude"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 223720,
+            "end_ms": 229120,
+            "text": "this is nice this is a Vibe if I've seen"
+          },
+          {
+            "cue_id": 103,
+            "start_ms": 335919,
+            "end_ms": 341360,
+            "text": "right just time to pull another"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 338919,
+            "end_ms": 345360,
+            "text": "card what does it"
+          },
+          {
+            "cue_id": 130,
+            "start_ms": 448319,
+            "end_ms": 457159,
+            "text": "cured stay"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 451900,
+            "end_ms": 461560,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 561640,
+            "end_ms": 568680,
+            "text": "bottle we don't have a restroom on this"
+          },
+          {
+            "cue_id": 164,
+            "start_ms": 563800,
+            "end_ms": 571480,
+            "text": "bus we don't have a restroom oh my gosh"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 675880,
+            "end_ms": 681639,
+            "text": "any Gabe I think it's time pull a card"
+          },
+          {
+            "cue_id": 237,
+            "start_ms": 786199,
+            "end_ms": 794040,
+            "text": "Texas how long Nathan 30 business days"
+          },
+          {
+            "cue_id": 238,
+            "start_ms": 789639,
+            "end_ms": 794040,
+            "text": "oh and that's coming from the op"
+          },
+          {
+            "cue_id": 273,
+            "start_ms": 901399,
+            "end_ms": 906360,
+            "text": "this video continues or it's over it's"
+          },
+          {
+            "cue_id": 274,
+            "start_ms": 903959,
+            "end_ms": 908959,
+            "text": "up to you listen I brought my own"
+          },
+          {
+            "cue_id": 305,
+            "start_ms": 1017480,
+            "end_ms": 1022399,
+            "text": "oranges"
+          },
+          {
+            "cue_id": 340,
+            "start_ms": 1128480,
+            "end_ms": 1132840,
+            "text": "double Ducker bus and we get to watch"
+          },
+          {
+            "cue_id": 341,
+            "start_ms": 1130720,
+            "end_ms": 1134520,
+            "text": "the sun go down while we're at it come"
+          },
+          {
+            "cue_id": 405,
+            "start_ms": 1354279,
+            "end_ms": 1359200,
+            "text": "a small one you want to go eat some"
+          },
+          {
+            "cue_id": 406,
+            "start_ms": 1355559,
+            "end_ms": 1362600,
+            "text": "shrimp on the Bobby oh yeah oh yeah oh"
+          },
+          {
+            "cue_id": 444,
+            "start_ms": 1465279,
+            "end_ms": 1470799,
+            "text": "brother let it cook that's what we're"
+          },
+          {
+            "cue_id": 445,
+            "start_ms": 1467600,
+            "end_ms": 1473120,
+            "text": "doing put the cheese in for you want to"
+          },
+          {
+            "cue_id": 483,
+            "start_ms": 1582080,
+            "end_ms": 1586640,
+            "text": "quick three in a"
+          },
+          {
+            "cue_id": 533,
+            "start_ms": 1694120,
+            "end_ms": 1700000,
+            "text": "oh 2"
+          },
+          {
+            "cue_id": 534,
+            "start_ms": 1696519,
+            "end_ms": 1702559,
+            "text": "oh 3 oh why does it roll like"
+          },
+          {
+            "cue_id": 564,
+            "start_ms": 1807519,
+            "end_ms": 1811640,
+            "text": "in except for that one right"
+          },
+          {
+            "cue_id": 565,
+            "start_ms": 1809279,
+            "end_ms": 1813399,
+            "text": "there oh I made that one in too here I"
+          },
+          {
+            "cue_id": 641,
+            "start_ms": 2030440,
+            "end_ms": 2040159,
+            "text": "tree oh my gosh the bus is Too"
+          },
+          {
+            "cue_id": 642,
+            "start_ms": 2035080,
+            "end_ms": 2042039,
+            "text": "Tall they dead oh dang look at this that"
+          },
+          {
+            "cue_id": 671,
+            "start_ms": 2144680,
+            "end_ms": 2149200,
+            "text": "appreciate"
+          },
+          {
+            "cue_id": 672,
+            "start_ms": 2145760,
+            "end_ms": 2152000,
+            "text": "it perfect one down we just need four"
+          },
+          {
+            "cue_id": 722,
+            "start_ms": 2258839,
+            "end_ms": 2263200,
+            "text": "because we want to try to improve them"
+          },
+          {
+            "cue_id": 723,
+            "start_ms": 2261079,
+            "end_ms": 2265839,
+            "text": "and make them better but they're good"
+          },
+          {
+            "cue_id": 764,
+            "start_ms": 2370520,
+            "end_ms": 2376800,
+            "text": "this is what we call Turkey bowling what"
+          },
+          {
+            "cue_id": 765,
+            "start_ms": 2374520,
+            "end_ms": 2376800,
+            "text": "here we"
+          },
+          {
+            "cue_id": 804,
+            "start_ms": 2485760,
+            "end_ms": 2489800,
+            "text": "we're stopping"
+          },
+          {
+            "cue_id": 805,
+            "start_ms": 2487680,
+            "end_ms": 2491079,
+            "text": "there's a guy in the road our our"
+          },
+          {
+            "cue_id": 848,
+            "start_ms": 2596760,
+            "end_ms": 2602000,
+            "text": "ostrich would be good ostrich yeah all"
+          },
+          {
+            "cue_id": 849,
+            "start_ms": 2599400,
+            "end_ms": 2604920,
+            "text": "right what the heck is that why is there"
+          },
+          {
+            "cue_id": 888,
+            "start_ms": 2710640,
+            "end_ms": 2715400,
+            "text": "actually be really cool we don't see an"
+          },
+          {
+            "cue_id": 889,
+            "start_ms": 2712440,
+            "end_ms": 2718240,
+            "text": "animal we get kicked off inside the"
+          },
+          {
+            "cue_id": 922,
+            "start_ms": 2823800,
+            "end_ms": 2828800,
+            "text": "guess bro these animals want nothing to"
+          },
+          {
+            "cue_id": 923,
+            "start_ms": 2825920,
+            "end_ms": 2831720,
+            "text": "do with us oh that one's pooping all"
+          },
+          {
+            "cue_id": 960,
+            "start_ms": 2938119,
+            "end_ms": 2942799,
+            "text": "why are you running"
+          },
+          {
+            "cue_id": 961,
+            "start_ms": 2940240,
+            "end_ms": 2945640,
+            "text": "away bro come on we have to feed a"
+          },
+          {
+            "cue_id": 1003,
+            "start_ms": 3049640,
+            "end_ms": 3054240,
+            "text": "make him come to Papa yeah there you go"
+          },
+          {
+            "cue_id": 1004,
+            "start_ms": 3052720,
+            "end_ms": 3057880,
+            "text": "you know you want some food you know"
+          },
+          {
+            "cue_id": 1042,
+            "start_ms": 3162839,
+            "end_ms": 3171160,
+            "text": "go this is an invasive species all right"
+          },
+          {
+            "cue_id": 1043,
+            "start_ms": 3166760,
+            "end_ms": 3174720,
+            "text": "I think he's done bye Mr uh ostrich you"
+          },
+          {
+            "cue_id": 1077,
+            "start_ms": 3274960,
+            "end_ms": 3282880,
+            "text": "oh yeah come here come here come here oh"
+          },
+          {
+            "cue_id": 1078,
+            "start_ms": 3278440,
+            "end_ms": 3282880,
+            "text": "yes yeah I got it oh"
+          },
+          {
+            "cue_id": 1113,
+            "start_ms": 3389520,
+            "end_ms": 3393680,
+            "text": "sound linky it just sounds like Pistons"
+          },
+          {
+            "cue_id": 1114,
+            "start_ms": 3391440,
+            "end_ms": 3395200,
+            "text": "actuating or something he says it sounds"
+          },
+          {
+            "cue_id": 1146,
+            "start_ms": 3503359,
+            "end_ms": 3508359,
+            "text": "it uh"
+          },
+          {
+            "cue_id": 1147,
+            "start_ms": 3505280,
+            "end_ms": 3508359,
+            "text": "get me off this bus"
+          }
+        ],
+        "text": "and some of them will be bad and if we\ndo not complete the challenge we get\nanother card that's what I'm saying dude\nthis is nice this is a Vibe if I've seen\nright just time to pull another\ncard what does it\ncured stay\n[Music]\nbottle we don't have a restroom on this\nbus we don't have a restroom oh my gosh\nany Gabe I think it's time pull a card\nTexas how long Nathan 30 business days\noh and that's coming from the op\nthis video continues or it's over it's\nup to you listen I brought my own\noranges\ndouble Ducker bus and we get to watch\nthe sun go down while we're at it come\na small one you want to go eat some\nshrimp on the Bobby oh yeah oh yeah oh\nbrother let it cook that's what we're\ndoing put the cheese in for you want to\nquick three in a\noh 2\noh 3 oh why does it roll like\nin except for that one right\nthere oh I made that one in too here I\ntree oh my gosh the bus is Too\nTall they dead oh dang look at this that\nappreciate\nit perfect one down we just need four\nbecause we want to try to improve them\nand make them better but they're good\nthis is what we call Turkey bowling what\nhere we\nwe're stopping\nthere's a guy in the road our our\nostrich would be good ostrich yeah all\nright what the heck is that why is there\nactually be really cool we don't see an\nanimal we get kicked off inside the\nguess bro these animals want nothing to\ndo with us oh that one's pooping all\nwhy are you running\naway bro come on we have to feed a\nmake him come to Papa yeah there you go\nyou know you want some food you know\ngo this is an invasive species all right\nI think he's done bye Mr uh ostrich you\noh yeah come here come here come here oh\nyes yeah I got it oh\nsound linky it just sounds like Pistons\nactuating or something he says it sounds\nit uh\nget me off this bus",
+        "text_tokens": 471,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 108640,
+          "end_ms": 122320,
+          "text": "some of these challenges will be good and some of them will be bad and if we do not complete the challenge we get kicked off the bus the first challenge"
+        },
+        {
+          "id": "S73",
+          "cue_ids": [
+            73,
+            74,
+            75,
+            76
+          ],
+          "start_ms": 218439,
+          "end_ms": 233360,
+          "text": "is complete another 50 Mi and we'll pull another card that's what I'm saying dude this is nice this is a Vibe if I've seen one"
+        },
+        {
+          "id": "S102",
+          "cue_ids": [
+            102,
+            103,
+            104,
+            105
+          ],
+          "start_ms": 335120,
+          "end_ms": 348600,
+          "text": "all right just time to pull another card what does it say shave someone's head wait shave"
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132
+          ],
+          "start_ms": 448319,
+          "end_ms": 464199,
+          "text": "cured stay [Music] boy is such a Vibe dude so beautiful"
+        },
+        {
+          "id": "S162",
+          "cue_ids": [
+            162,
+            163,
+            164,
+            165
+          ],
+          "start_ms": 559000,
+          "end_ms": 571480,
+          "text": "are you doing about to go pee in a bottle we don't have a restroom on this bus we don't have a restroom oh my gosh yo what is that that"
+        },
+        {
+          "id": "S201",
+          "cue_ids": [
+            201,
+            202,
+            203
+          ],
+          "start_ms": 671360,
+          "end_ms": 687079,
+          "text": "to see if they got any Gabe I think it's time pull a card pull a card"
+        },
+        {
+          "id": "S236",
+          "cue_ids": [
+            236,
+            237,
+            238,
+            239
+          ],
+          "start_ms": 784160,
+          "end_ms": 800160,
+          "text": "you know how long it takes to get out of Texas how long Nathan 30 business days oh and that's coming from the op [Music]"
+        },
+        {
+          "id": "S272",
+          "cue_ids": [
+            272,
+            273,
+            274,
+            275
+          ],
+          "start_ms": 896800,
+          "end_ms": 911360,
+          "text": "over no what no James it's up to you this video continues or it's over it's up to you listen I brought my own golfball bro that's an orange orange you"
+        },
+        {
+          "id": "S305",
+          "cue_ids": [
+            305,
+            306
+          ],
+          "start_ms": 1017480,
+          "end_ms": 1025799,
+          "text": "oranges oh"
+        },
+        {
+          "id": "S339",
+          "cue_ids": [
+            339,
+            340,
+            341,
+            342
+          ],
+          "start_ms": 1126159,
+          "end_ms": 1137200,
+          "text": "get to eat a ton of ice cream on a double Ducker bus and we get to watch the sun go down while we're at it come on this is going to be"
+        },
+        {
+          "id": "S404",
+          "cue_ids": [
+            404,
+            405,
+            406,
+            407
+          ],
+          "start_ms": 1350240,
+          "end_ms": 1365640,
+          "text": "now oh I at well we saw a big Gator and a small one you want to go eat some shrimp on the Bobby oh yeah oh yeah oh yeah oh that's nice that's nice right"
+        },
+        {
+          "id": "S443",
+          "cue_ids": [
+            443,
+            444,
+            445,
+            446
+          ],
+          "start_ms": 1462200,
+          "end_ms": 1477520,
+          "text": "the process has begun let it cook brother let it cook that's what we're doing put the cheese in for you want to put the cheese in early this dude's"
+        },
+        {
+          "id": "S483",
+          "cue_ids": [
+            483,
+            484
+          ],
+          "start_ms": 1582080,
+          "end_ms": 1588120,
+          "text": "quick three in a row been on this bus for so long we're"
+        },
+        {
+          "id": "S532",
+          "cue_ids": [
+            532,
+            533,
+            534,
+            535
+          ],
+          "start_ms": 1691039,
+          "end_ms": 1705799,
+          "text": "go wow 1 oh 2 oh 3 oh why does it roll like that oh my"
+        },
+        {
+          "id": "S563",
+          "cue_ids": [
+            563,
+            564,
+            565,
+            566
+          ],
+          "start_ms": 1805559,
+          "end_ms": 1816360,
+          "text": "mine in oh wait I made every single ball in except for that one right there oh I made that one in too here I got"
+        },
+        {
+          "id": "S640",
+          "cue_ids": [
+            640,
+            641,
+            642,
+            643
+          ],
+          "start_ms": 2027080,
+          "end_ms": 2045039,
+          "text": "It Broken Oh tree tree tree Omar tree oh my gosh the bus is Too Tall they dead oh dang look at this that bus going the other way literally hit"
+        },
+        {
+          "id": "S670",
+          "cue_ids": [
+            670,
+            671,
+            672,
+            673
+          ],
+          "start_ms": 2142200,
+          "end_ms": 2154280,
+          "text": "yeah yeah no serious thank you we appreciate it perfect one down we just need four more people we just put these in Walmart"
+        },
+        {
+          "id": "S721",
+          "cue_ids": [
+            721,
+            722,
+            723,
+            724
+          ],
+          "start_ms": 2256920,
+          "end_ms": 2269240,
+          "text": "too like if people hate it tell me because we want to try to improve them and make them better but they're good hey y'all can I use y'all for a second"
+        },
+        {
+          "id": "S764",
+          "cue_ids": [
+            764,
+            765,
+            766
+          ],
+          "start_ms": 2370520,
+          "end_ms": 2381400,
+          "text": "this is what we call Turkey bowling what here we go oh oh it came back with all right"
+        },
+        {
+          "id": "S803",
+          "cue_ids": [
+            803,
+            804,
+            805,
+            806
+          ],
+          "start_ms": 2482520,
+          "end_ms": 2494560,
+          "text": "call it says bus stopping that means we're stopping there's a guy in the road our our vehicle's"
+        },
+        {
+          "id": "S847",
+          "cue_ids": [
+            847,
+            848,
+            849,
+            850
+          ],
+          "start_ms": 2594119,
+          "end_ms": 2604920,
+          "text": "or should we go for like a ostrich ostrich would be good ostrich yeah all right what the heck is that why is there a horse in on the"
+        },
+        {
+          "id": "S887",
+          "cue_ids": [
+            887,
+            888,
+            889,
+            890
+          ],
+          "start_ms": 2707559,
+          "end_ms": 2720640,
+          "text": "made it so far yo yo yo yo that might actually be really cool we don't see an animal we get kicked off inside the Safari we become an animal we become the"
+        },
+        {
+          "id": "S921",
+          "cue_ids": [
+            921,
+            922,
+            923,
+            924
+          ],
+          "start_ms": 2818720,
+          "end_ms": 2831720,
+          "text": "I mean that would have been my guess bro these animals want nothing to do with us oh that one's pooping all right you ready yeah play"
+        },
+        {
+          "id": "S959",
+          "cue_ids": [
+            959,
+            960,
+            961,
+            962
+          ],
+          "start_ms": 2934599,
+          "end_ms": 2946680,
+          "text": "face no where's he going he's running why are you running away bro come on we have to feed a giraffe oh come on I know you're hungry"
+        },
+        {
+          "id": "S1002",
+          "cue_ids": [
+            1002,
+            1003,
+            1004,
+            1005
+          ],
+          "start_ms": 3047720,
+          "end_ms": 3059400,
+          "text": "next to him and make him come to you make him come to Papa yeah there you go you know you want some food you know you're hungry come here little boy come"
+        },
+        {
+          "id": "S1041",
+          "cue_ids": [
+            1041,
+            1042,
+            1043,
+            1044
+          ],
+          "start_ms": 3159160,
+          "end_ms": 3176280,
+          "text": "sir I'm glad I don't have Team bro oh my go this is an invasive species all right I think he's done bye Mr uh ostrich you have a nice day oh it's popping a squat"
+        },
+        {
+          "id": "S1077",
+          "cue_ids": [
+            1077,
+            1078,
+            1079
+          ],
+          "start_ms": 3274960,
+          "end_ms": 3287359,
+          "text": "oh yeah come here come here come here oh yes yeah I got it oh yes look at this thing oh my gosh look"
+        },
+        {
+          "id": "S1112",
+          "cue_ids": [
+            1112,
+            1113,
+            1114,
+            1115
+          ],
+          "start_ms": 3388280,
+          "end_ms": 3397400,
+          "text": "hearing a little bit but it doesn't sound linky it just sounds like Pistons actuating or something he says it sounds like it's actuating but it's not like"
+        },
+        {
+          "id": "S1145",
+          "cue_ids": [
+            1145,
+            1146,
+            1147
+          ],
+          "start_ms": 3500799,
+          "end_ms": 3508359,
+          "text": "we did it uh get me off this bus"
+        }
+      ],
+      "text": "S38 [00:01:48.640 --> 00:02:02.320] some of these challenges will be good and some of them will be bad and if we do not complete the challenge we get kicked off the bus the first challenge\nS73 [00:03:38.439 --> 00:03:53.360] is complete another 50 Mi and we'll pull another card that's what I'm saying dude this is nice this is a Vibe if I've seen one\nS102 [00:05:35.120 --> 00:05:48.600] all right just time to pull another card what does it say shave someone's head wait shave\nS130 [00:07:28.319 --> 00:07:44.199] cured stay [Music] boy is such a Vibe dude so beautiful\nS162 [00:09:19.000 --> 00:09:31.480] are you doing about to go pee in a bottle we don't have a restroom on this bus we don't have a restroom oh my gosh yo what is that that\nS201 [00:11:11.360 --> 00:11:27.079] to see if they got any Gabe I think it's time pull a card pull a card\nS236 [00:13:04.160 --> 00:13:20.160] you know how long it takes to get out of Texas how long Nathan 30 business days oh and that's coming from the op [Music]\nS272 [00:14:56.800 --> 00:15:11.360] over no what no James it's up to you this video continues or it's over it's up to you listen I brought my own golfball bro that's an orange orange you\nS305 [00:16:57.480 --> 00:17:05.799] oranges oh\nS339 [00:18:46.159 --> 00:18:57.200] get to eat a ton of ice cream on a double Ducker bus and we get to watch the sun go down while we're at it come on this is going to be\nS404 [00:22:30.240 --> 00:22:45.640] now oh I at well we saw a big Gator and a small one you want to go eat some shrimp on the Bobby oh yeah oh yeah oh yeah oh that's nice that's nice right\nS443 [00:24:22.200 --> 00:24:37.520] the process has begun let it cook brother let it cook that's what we're doing put the cheese in for you want to put the cheese in early this dude's\nS483 [00:26:22.080 --> 00:26:28.120] quick three in a row been on this bus for so long we're\nS532 [00:28:11.039 --> 00:28:25.799] go wow 1 oh 2 oh 3 oh why does it roll like that oh my\nS563 [00:30:05.559 --> 00:30:16.360] mine in oh wait I made every single ball in except for that one right there oh I made that one in too here I got\nS640 [00:33:47.080 --> 00:34:05.039] It Broken Oh tree tree tree Omar tree oh my gosh the bus is Too Tall they dead oh dang look at this that bus going the other way literally hit\nS670 [00:35:42.200 --> 00:35:54.280] yeah yeah no serious thank you we appreciate it perfect one down we just need four more people we just put these in Walmart\nS721 [00:37:36.920 --> 00:37:49.240] too like if people hate it tell me because we want to try to improve them and make them better but they're good hey y'all can I use y'all for a second\nS764 [00:39:30.520 --> 00:39:41.400] this is what we call Turkey bowling what here we go oh oh it came back with all right\nS803 [00:41:22.520 --> 00:41:34.560] call it says bus stopping that means we're stopping there's a guy in the road our our vehicle's\nS847 [00:43:14.119 --> 00:43:24.920] or should we go for like a ostrich ostrich would be good ostrich yeah all right what the heck is that why is there a horse in on the\nS887 [00:45:07.559 --> 00:45:20.640] made it so far yo yo yo yo that might actually be really cool we don't see an animal we get kicked off inside the Safari we become an animal we become the\nS921 [00:46:58.720 --> 00:47:11.720] I mean that would have been my guess bro these animals want nothing to do with us oh that one's pooping all right you ready yeah play\nS959 [00:48:54.599 --> 00:49:06.680] face no where's he going he's running why are you running away bro come on we have to feed a giraffe oh come on I know you're hungry\nS1002 [00:50:47.720 --> 00:50:59.400] next to him and make him come to you make him come to Papa yeah there you go you know you want some food you know you're hungry come here little boy come\nS1041 [00:52:39.160 --> 00:52:56.280] sir I'm glad I don't have Team bro oh my go this is an invasive species all right I think he's done bye Mr uh ostrich you have a nice day oh it's popping a squat\nS1077 [00:54:34.960 --> 00:54:47.359] oh yeah come here come here come here oh yes yeah I got it oh yes look at this thing oh my gosh look\nS1112 [00:56:28.280 --> 00:56:37.400] hearing a little bit but it doesn't sound linky it just sounds like Pistons actuating or something he says it sounds like it's actuating but it's not like\nS1145 [00:58:20.799 --> 00:58:28.359] we did it uh get me off this bus",
+      "text_tokens": 1742,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        38,
+        41,
+        73,
+        76,
+        102,
+        105,
+        132,
+        162,
+        165,
+        201,
+        203,
+        236,
+        239,
+        272,
+        275,
+        306,
+        339,
+        342,
+        404,
+        407,
+        443,
+        446,
+        484,
+        532,
+        535,
+        563,
+        566,
+        640,
+        643,
+        670,
+        673,
+        721,
+        724,
+        766,
+        803,
+        806,
+        847,
+        850,
+        887,
+        890,
+        921,
+        924,
+        959,
+        962,
+        1002,
+        1005,
+        1041,
+        1044,
+        1079,
+        1112,
+        1115,
+        1145
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9e7e75a1635f1c81c8dcf621925698132b052e6bab06207b6b9f758a8900d170"
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "425f0d0272db5d5e5daf7c1f2efe3dc2a9dcf33ed7bf0308ecbccc1076672ac3",
+  "response": {
+    "id": "d52964f6-ee0e-462a-b8ee-6a2c0eadb45d",
+    "object": "chat.completion",
+    "created": 1793675865,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S2\",\"quote\":\"AND YES, IT IS VERY HARD FOR US TO BE UP HERE DOING THEATER IN THIS CURRENT POLITICAL CLIMATE.\"},{\"block_id\":\"S15\",\"quote\":\"THE PROGRAM SAYS TONIGHT'S PROCEEDS GO TO STANDING ROCK.\"},{\"block_id\":\"S61\",\"quote\":\"BLACK LIVES MATTER!\"}],\"frame_ids\":[\"F570\",\"F1140\",\"F4561\"],\"windows\":[],\"notes\":\"Student-written/directed showcase explicitly references political climate, Standing Rock, and Black Lives Matter, supporting social justice as the primary theme.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8580,
+      "completion_tokens": 150,
+      "total_tokens": 8730,
+      "prompt_tokens_details": {
+        "cached_tokens": 1536
+      },
+      "prompt_cache_hit_tokens": 1536,
+      "prompt_cache_miss_tokens": 7044
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.5599829014390707
+}

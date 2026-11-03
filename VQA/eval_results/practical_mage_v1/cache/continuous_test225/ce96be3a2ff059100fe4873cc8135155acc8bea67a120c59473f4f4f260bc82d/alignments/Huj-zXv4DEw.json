@@ -1,0 +1,929 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "Huj-zXv4DEw",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Huj-zXv4DEw.srt",
+        "status": "available",
+        "bytes": 8381,
+        "sha256": "3ec4021b385c56581670dbb243dd2d5dc0eca51ae8e57fd91716a1addb6d82bd",
+        "cues": 95,
+        "nonempty_cues": 95
+      },
+      "frame_indices": [
+        0,
+        617,
+        1233,
+        1850,
+        2466,
+        3083,
+        3699,
+        4316,
+        4932,
+        5549,
+        6165,
+        6782,
+        7399,
+        8015,
+        8632,
+        9248,
+        9865,
+        10481,
+        11098,
+        11714,
+        12331,
+        12948,
+        13564,
+        14181,
+        14797,
+        15414,
+        16030,
+        16647,
+        17263,
+        17880,
+        18496,
+        19113
+      ],
+      "frame_seconds": [
+        0.0,
+        20.587233,
+        41.1411,
+        61.728333,
+        82.2822,
+        102.869433,
+        123.4233,
+        144.010533,
+        164.5644,
+        185.151633,
+        205.7055,
+        226.292733,
+        246.879967,
+        267.433833,
+        288.021067,
+        308.574933,
+        329.162167,
+        349.716033,
+        370.303267,
+        390.857133,
+        411.444367,
+        432.0316,
+        452.585467,
+        473.1727,
+        493.726567,
+        514.3138,
+        534.867667,
+        555.4549,
+        576.008767,
+        596.596,
+        617.149867,
+        637.7371
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [],
+        [
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          18
+        ],
+        [
+          22,
+          23
+        ],
+        [],
+        [],
+        [
+          30,
+          31
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          36,
+          37
+        ],
+        [],
+        [],
+        [],
+        [
+          50,
+          51
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          54
+        ],
+        [
+          56
+        ],
+        [],
+        [],
+        [
+          62,
+          63
+        ],
+        [
+          65
+        ],
+        [
+          67
+        ],
+        [],
+        [
+          71,
+          72
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          77
+        ],
+        [
+          79
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          94,
+          95
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 3,
+          "start_ms": 4530,
+          "end_ms": 28739,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 33720,
+          "end_ms": 43250,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 79440,
+          "end_ms": 91030,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 98640,
+          "end_ms": 103759,
+          "text": "hi"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 100400,
+          "end_ms": 105479,
+          "text": "hey what is this"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 122100,
+          "end_ms": 125119,
+          "text": "every time I"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 131920,
+          "end_ms": 144050,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 143340,
+          "end_ms": 157978,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 195180,
+          "end_ms": 232159,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 196590,
+          "end_ms": 234420,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 240500,
+          "end_ms": 248879,
+          "text": "I could do it too be nice I know how to"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 245280,
+          "end_ms": 250670,
+          "text": "hiss just like you yeah"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 318440,
+          "end_ms": 351589,
+          "text": "absolutely perfect"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 321170,
+          "end_ms": 351589,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 368400,
+          "end_ms": 371120,
+          "text": "there we go"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 387590,
+          "end_ms": 404280,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 447400,
+          "end_ms": 454699,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 451699,
+          "end_ms": 454699,
+          "text": "all right"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 460060,
+          "end_ms": 482720,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 483710,
+          "end_ms": 497529,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 528140,
+          "end_ms": 552720,
+          "text": "thank you"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 529540,
+          "end_ms": 553260,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 552720,
+          "end_ms": 559450,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 553260,
+          "end_ms": 559450,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 567460,
+          "end_ms": 595500,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 595740,
+          "end_ms": 600480,
+          "text": "so"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 613680,
+          "end_ms": 617820,
+          "text": "Harry the Hedgehog as Coco is not"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 615839,
+          "end_ms": 619500,
+          "text": "playing games here Bob but it looks like"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 632890,
+          "end_ms": 638040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 635040,
+          "end_ms": 638040,
+          "text": "foreign"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Music]\nhi\nhey what is this\nevery time I\n[Music]\n[Applause]\nforeign\n[Music]\nI could do it too be nice I know how to\nhiss just like you yeah\nabsolutely perfect\n[Music]\nthere we go\n[Music]\n[Music]\nall right\n[Music]\n[Music]\nthank you\n[Music]\n[Applause]\n[Music]\n[Music]\nso\nHarry the Hedgehog as Coco is not\nplaying games here Bob but it looks like\n[Music]\nforeign",
+      "text_tokens": 119,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Huj-zXv4DEw",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Huj-zXv4DEw.srt",
+          "status": "available",
+          "bytes": 8381,
+          "sha256": "3ec4021b385c56581670dbb243dd2d5dc0eca51ae8e57fd91716a1addb6d82bd",
+          "cues": 95,
+          "nonempty_cues": 95
+        },
+        "frame_indices": [
+          0,
+          617,
+          1233,
+          1850,
+          2466,
+          3083,
+          3699,
+          4316,
+          4932,
+          5549,
+          6165,
+          6782,
+          7399,
+          8015,
+          8632,
+          9248,
+          9865,
+          10481,
+          11098,
+          11714,
+          12331,
+          12948,
+          13564,
+          14181,
+          14797,
+          15414,
+          16030,
+          16647,
+          17263,
+          17880,
+          18496,
+          19113
+        ],
+        "frame_seconds": [
+          0.0,
+          20.587233,
+          41.1411,
+          61.728333,
+          82.2822,
+          102.869433,
+          123.4233,
+          144.010533,
+          164.5644,
+          185.151633,
+          205.7055,
+          226.292733,
+          246.879967,
+          267.433833,
+          288.021067,
+          308.574933,
+          329.162167,
+          349.716033,
+          370.303267,
+          390.857133,
+          411.444367,
+          432.0316,
+          452.585467,
+          473.1727,
+          493.726567,
+          514.3138,
+          534.867667,
+          555.4549,
+          576.008767,
+          596.596,
+          617.149867,
+          637.7371
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            3
+          ],
+          [
+            6
+          ],
+          [],
+          [
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            18
+          ],
+          [
+            22,
+            23
+          ],
+          [],
+          [],
+          [
+            30,
+            31
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            36,
+            37
+          ],
+          [],
+          [],
+          [],
+          [
+            50,
+            51
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            54
+          ],
+          [
+            56
+          ],
+          [],
+          [],
+          [
+            62,
+            63
+          ],
+          [
+            65
+          ],
+          [
+            67
+          ],
+          [],
+          [
+            71,
+            72
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            77
+          ],
+          [
+            79
+          ],
+          [
+            85,
+            86
+          ],
+          [
+            94,
+            95
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 3,
+            "start_ms": 4530,
+            "end_ms": 28739,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 33720,
+            "end_ms": 43250,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 79440,
+            "end_ms": 91030,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 98640,
+            "end_ms": 103759,
+            "text": "hi"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 100400,
+            "end_ms": 105479,
+            "text": "hey what is this"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 122100,
+            "end_ms": 125119,
+            "text": "every time I"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 131920,
+            "end_ms": 144050,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 143340,
+            "end_ms": 157978,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 195180,
+            "end_ms": 232159,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 196590,
+            "end_ms": 234420,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 240500,
+            "end_ms": 248879,
+            "text": "I could do it too be nice I know how to"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 245280,
+            "end_ms": 250670,
+            "text": "hiss just like you yeah"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 318440,
+            "end_ms": 351589,
+            "text": "absolutely perfect"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 321170,
+            "end_ms": 351589,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 368400,
+            "end_ms": 371120,
+            "text": "there we go"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 387590,
+            "end_ms": 404280,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 447400,
+            "end_ms": 454699,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 451699,
+            "end_ms": 454699,
+            "text": "all right"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 460060,
+            "end_ms": 482720,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 483710,
+            "end_ms": 497529,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 528140,
+            "end_ms": 552720,
+            "text": "thank you"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 529540,
+            "end_ms": 553260,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 552720,
+            "end_ms": 559450,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 553260,
+            "end_ms": 559450,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 567460,
+            "end_ms": 595500,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 595740,
+            "end_ms": 600480,
+            "text": "so"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 613680,
+            "end_ms": 617820,
+            "text": "Harry the Hedgehog as Coco is not"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 615839,
+            "end_ms": 619500,
+            "text": "playing games here Bob but it looks like"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 632890,
+            "end_ms": 638040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 635040,
+            "end_ms": 638040,
+            "text": "foreign"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Music]\nhi\nhey what is this\nevery time I\n[Music]\n[Applause]\nforeign\n[Music]\nI could do it too be nice I know how to\nhiss just like you yeah\nabsolutely perfect\n[Music]\nthere we go\n[Music]\n[Music]\nall right\n[Music]\n[Music]\nthank you\n[Music]\n[Applause]\n[Music]\n[Music]\nso\nHarry the Hedgehog as Coco is not\nplaying games here Bob but it looks like\n[Music]\nforeign",
+        "text_tokens": 119,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S2",
+          "cue_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_ms": 1439,
+          "end_ms": 47120,
+          "text": "foreign [Music] thank you thank you [Music] keep going"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 79440,
+          "end_ms": 91030,
+          "text": "[Music]"
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13,
+            14,
+            15
+          ],
+          "start_ms": 98640,
+          "end_ms": 108020,
+          "text": "hi hey what is this what do you think you'd be a little"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19
+          ],
+          "start_ms": 108560,
+          "end_ms": 130380,
+          "text": "[Music] every time I try to attempt some drinking water"
+        },
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "start_ms": 130380,
+          "end_ms": 157978,
+          "text": "I can't even make a video [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 187800,
+          "end_ms": 236819,
+          "text": "[Music] foreign [Music] I'm still cutting your nails you like to"
+        },
+        {
+          "id": "S35",
+          "cue_ids": [
+            35,
+            36,
+            37,
+            38
+          ],
+          "start_ms": 238320,
+          "end_ms": 252400,
+          "text": "[Music] I could do it too be nice I know how to hiss just like you yeah I could do it too"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51
+          ],
+          "start_ms": 316800,
+          "end_ms": 351589,
+          "text": "perfect absolutely perfect [Music]"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55
+          ],
+          "start_ms": 356909,
+          "end_ms": 375740,
+          "text": "[Music] there we go teamwork guys teamwork"
+        },
+        {
+          "id": "S56",
+          "cue_ids": [
+            56,
+            57
+          ],
+          "start_ms": 387590,
+          "end_ms": 407639,
+          "text": "[Music] [Applause]"
+        },
+        {
+          "id": "S62",
+          "cue_ids": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "start_ms": 447400,
+          "end_ms": 497529,
+          "text": "[Music] all right hey [Music] oh good she put it in [Music]"
+        },
+        {
+          "id": "S70",
+          "cue_ids": [
+            70,
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 518330,
+          "end_ms": 559450,
+          "text": "[Music] thank you [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S76",
+          "cue_ids": [
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "start_ms": 564300,
+          "end_ms": 600480,
+          "text": "foreign [Music] sovereign so cool"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "start_ms": 611220,
+          "end_ms": 621720,
+          "text": "it down no problem and boom down goes Harry the Hedgehog as Coco is not playing games here Bob but it looks like she figures it out and missed the"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95
+          ],
+          "start_ms": 628860,
+          "end_ms": 638040,
+          "text": "the clock and There She Goes [Music] foreign"
+        }
+      ],
+      "text": "S2 [00:00:01.439 --> 00:00:47.120] foreign [Music] thank you thank you [Music] keep going\nS12 [00:01:19.440 --> 00:01:31.030] [Music]\nS13 [00:01:38.640 --> 00:01:48.020] hi hey what is this what do you think you'd be a little\nS17 [00:01:48.560 --> 00:02:10.380] [Music] every time I try to attempt some drinking water\nS21 [00:02:10.380 --> 00:02:37.978] I can't even make a video [Music] [Applause] [Music]\nS29 [00:03:07.800 --> 00:03:56.819] [Music] foreign [Music] I'm still cutting your nails you like to\nS35 [00:03:58.320 --> 00:04:12.400] [Music] I could do it too be nice I know how to hiss just like you yeah I could do it too\nS49 [00:05:16.800 --> 00:05:51.589] perfect absolutely perfect [Music]\nS53 [00:05:56.909 --> 00:06:15.740] [Music] there we go teamwork guys teamwork\nS56 [00:06:27.590 --> 00:06:47.639] [Music] [Applause]\nS62 [00:07:27.400 --> 00:08:17.529] [Music] all right hey [Music] oh good she put it in [Music]\nS70 [00:08:38.330 --> 00:09:19.450] [Music] thank you [Music] [Applause] [Music]\nS76 [00:09:24.300 --> 00:10:00.480] foreign [Music] sovereign so cool\nS84 [00:10:11.220 --> 00:10:21.720] it down no problem and boom down goes Harry the Hedgehog as Coco is not playing games here Bob but it looks like she figures it out and missed the\nS93 [00:10:28.860 --> 00:10:38.040] the clock and There She Goes [Music] foreign",
+      "text_tokens": 678,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        4,
+        5,
+        7,
+        15,
+        17,
+        19,
+        21,
+        24,
+        29,
+        32,
+        35,
+        38,
+        49,
+        53,
+        55,
+        57,
+        64,
+        66,
+        70,
+        76,
+        78,
+        80,
+        84,
+        87,
+        93
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "2a6f000d573e93bb582885d3408131f418be504ae5655025bd0302f6317a5ffc"
+}

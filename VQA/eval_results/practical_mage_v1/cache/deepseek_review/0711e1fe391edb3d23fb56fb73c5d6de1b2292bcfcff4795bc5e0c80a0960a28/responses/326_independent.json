@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "8faac9afa0693b274c8c36d60b47446b7b5a0f405043bc51358c9aeb9339a134",
+  "response": {
+    "id": "490c0786-f595-451e-91cd-957511bf1541",
+    "object": "chat.completion",
+    "created": 1793675843,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S248\",\"quote\":\"tangar roa's niece Cindy bonato sings it in the\"},{\"block_id\":\"S255\",\"quote\":\"night my people in my future my country on my own stand firm and staying strong Until the End of\"},{\"block_id\":\"S260\",\"quote\":\"the rising wave will kill a soul and we cry yeah we cry to the Lord to help me through\"}],\"frame_ids\":[\"F17446\",\"F18047\",\"F18649\"],\"windows\":[],\"notes\":\"Subtitles indicate Cindy sings near the end, but the lyrics shown concern people, country, rising waves, and crying to the Lord—not clearly any of the listed emotions. No dense window covers the actual singing; cannot establish the expressed emotion among options.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9262,
+      "completion_tokens": 182,
+      "total_tokens": 9444,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9134
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.208799896761775
+}

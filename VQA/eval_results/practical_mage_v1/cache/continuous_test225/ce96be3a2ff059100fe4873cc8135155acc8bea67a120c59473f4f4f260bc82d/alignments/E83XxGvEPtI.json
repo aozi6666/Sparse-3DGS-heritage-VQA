@@ -1,0 +1,1583 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "E83XxGvEPtI",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/E83XxGvEPtI.srt",
+        "status": "available",
+        "bytes": 131757,
+        "sha256": "de488eecdd7a09c0156bfbb062f422b7ff0ea51007f85259f5d48a6ac132d2d9",
+        "cues": 1188,
+        "nonempty_cues": 1188
+      },
+      "frame_indices": [
+        0,
+        1929,
+        3858,
+        5787,
+        7716,
+        9645,
+        11574,
+        13503,
+        15432,
+        17361,
+        19290,
+        21219,
+        23148,
+        25077,
+        27006,
+        28935,
+        30864,
+        32793,
+        34722,
+        36651,
+        38580,
+        40509,
+        42438,
+        44367,
+        46296,
+        48225,
+        50154,
+        52083,
+        54012,
+        55941,
+        57870,
+        59799
+      ],
+      "frame_seconds": [
+        0.0,
+        64.3643,
+        128.7286,
+        193.0929,
+        257.4572,
+        321.8215,
+        386.1858,
+        450.5501,
+        514.9144,
+        579.2787,
+        643.643,
+        708.0073,
+        772.3716,
+        836.7359,
+        901.1002,
+        965.4645,
+        1029.8288,
+        1094.1931,
+        1158.5574,
+        1222.9217,
+        1287.286,
+        1351.6503,
+        1416.0146,
+        1480.3789,
+        1544.7432,
+        1609.1075,
+        1673.4718,
+        1737.8361,
+        1802.2004,
+        1866.5647,
+        1930.929,
+        1995.2933
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          28,
+          29
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          144,
+          145
+        ],
+        [
+          183,
+          184
+        ],
+        [
+          224,
+          225
+        ],
+        [
+          265,
+          266
+        ],
+        [
+          303,
+          304
+        ],
+        [
+          347,
+          348
+        ],
+        [
+          391,
+          392
+        ],
+        [
+          430,
+          431
+        ],
+        [
+          470,
+          471
+        ],
+        [
+          505
+        ],
+        [
+          540,
+          541
+        ],
+        [
+          582,
+          583
+        ],
+        [
+          622,
+          623
+        ],
+        [
+          658,
+          659
+        ],
+        [
+          699,
+          700
+        ],
+        [
+          732,
+          733
+        ],
+        [
+          775,
+          776
+        ],
+        [
+          817,
+          818
+        ],
+        [
+          855,
+          856
+        ],
+        [
+          897,
+          898
+        ],
+        [
+          932,
+          933
+        ],
+        [
+          964,
+          965
+        ],
+        [
+          1003,
+          1004
+        ],
+        [
+          1043,
+          1044
+        ],
+        [
+          1068
+        ],
+        [
+          1104,
+          1105
+        ],
+        [
+          1145,
+          1146
+        ],
+        [
+          1187,
+          1188
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 28,
+          "start_ms": 61039,
+          "end_ms": 64479,
+          "text": "2022 now that i'm doing this full time"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 63199,
+          "end_ms": 65600,
+          "text": "first off i just want to say thank you"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 126880,
+          "end_ms": 129679,
+          "text": "doing a vlog this is another reason i"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 128318,
+          "end_ms": 131120,
+          "text": "wanted to record this video because i"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 191519,
+          "end_ms": 195680,
+          "text": "also have this every morning sheer"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 193040,
+          "end_ms": 197120,
+          "text": "protein bar we got 190 calories and 19"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 255200,
+          "end_ms": 257680,
+          "text": "lot of people don't realize so if you"
+        },
+        {
+          "cue_id": 145,
+          "start_ms": 256320,
+          "end_ms": 259199,
+          "text": "guys are new here or if you just don't"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 318320,
+          "end_ms": 321919,
+          "text": "here's what i mean by um news articles"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 320560,
+          "end_ms": 323440,
+          "text": "we have a whole bunch of news articles"
+        },
+        {
+          "cue_id": 224,
+          "start_ms": 383120,
+          "end_ms": 386240,
+          "text": "happened to me that's either funny"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 384880,
+          "end_ms": 387680,
+          "text": "relatable that i think will have"
+        },
+        {
+          "cue_id": 265,
+          "start_ms": 449360,
+          "end_ms": 451759,
+          "text": "my mom was doing something in the"
+        },
+        {
+          "cue_id": 266,
+          "start_ms": 450400,
+          "end_ms": 453520,
+          "text": "kitchen my dad was watching a hockey"
+        },
+        {
+          "cue_id": 303,
+          "start_ms": 513679,
+          "end_ms": 516320,
+          "text": "gonna explain it to you this is gonna be"
+        },
+        {
+          "cue_id": 304,
+          "start_ms": 514880,
+          "end_ms": 518159,
+          "text": "like a story time now i'm gonna tell you"
+        },
+        {
+          "cue_id": 347,
+          "start_ms": 577360,
+          "end_ms": 579839,
+          "text": "shark take pictures that made million"
+        },
+        {
+          "cue_id": 348,
+          "start_ms": 578720,
+          "end_ms": 581120,
+          "text": "and i technically already knew i was"
+        },
+        {
+          "cue_id": 391,
+          "start_ms": 640880,
+          "end_ms": 644720,
+          "text": "this cat just lays around so funny she's"
+        },
+        {
+          "cue_id": 392,
+          "start_ms": 642959,
+          "end_ms": 646720,
+          "text": "always in the weirdest position then"
+        },
+        {
+          "cue_id": 430,
+          "start_ms": 705440,
+          "end_ms": 708160,
+          "text": "see a house tour and once again i want"
+        },
+        {
+          "cue_id": 431,
+          "start_ms": 706959,
+          "end_ms": 709600,
+          "text": "you guys to know that i'm grateful"
+        },
+        {
+          "cue_id": 470,
+          "start_ms": 770399,
+          "end_ms": 775440,
+          "text": "going to send it to my manager and now"
+        },
+        {
+          "cue_id": 471,
+          "start_ms": 771760,
+          "end_ms": 778800,
+          "text": "it is 2 40 so let's have some lunch"
+        },
+        {
+          "cue_id": 505,
+          "start_ms": 835360,
+          "end_ms": 839199,
+          "text": "i was about to say maybe i'll eat it"
+        },
+        {
+          "cue_id": 540,
+          "start_ms": 897680,
+          "end_ms": 901120,
+          "text": "like comedy slash relatable one for my"
+        },
+        {
+          "cue_id": 541,
+          "start_ms": 899440,
+          "end_ms": 902320,
+          "text": "main channel first and sometimes i do"
+        },
+        {
+          "cue_id": 582,
+          "start_ms": 963199,
+          "end_ms": 966000,
+          "text": "over here you guys are gonna get an"
+        },
+        {
+          "cue_id": 583,
+          "start_ms": 964480,
+          "end_ms": 967600,
+          "text": "unedited video that's what you guys can"
+        },
+        {
+          "cue_id": 622,
+          "start_ms": 1027679,
+          "end_ms": 1030559,
+          "text": "three which"
+        },
+        {
+          "cue_id": 623,
+          "start_ms": 1028880,
+          "end_ms": 1033039,
+          "text": "three would deck that's how it sounded"
+        },
+        {
+          "cue_id": 658,
+          "start_ms": 1092400,
+          "end_ms": 1095440,
+          "text": "i guess it's been like an hour i just"
+        },
+        {
+          "cue_id": 659,
+          "start_ms": 1093600,
+          "end_ms": 1097120,
+          "text": "got off the phone shane he's a nice man"
+        },
+        {
+          "cue_id": 699,
+          "start_ms": 1156559,
+          "end_ms": 1158880,
+          "text": "video to find out i'm going to get the"
+        },
+        {
+          "cue_id": 700,
+          "start_ms": 1157840,
+          "end_ms": 1160320,
+          "text": "audio let me put the headset up all"
+        },
+        {
+          "cue_id": 732,
+          "start_ms": 1220640,
+          "end_ms": 1223840,
+          "text": "got that and then we got for my main"
+        },
+        {
+          "cue_id": 733,
+          "start_ms": 1222320,
+          "end_ms": 1225360,
+          "text": "channel the gold one and now we have a"
+        },
+        {
+          "cue_id": 775,
+          "start_ms": 1285520,
+          "end_ms": 1288240,
+          "text": "davidson merch hoodie link down below in"
+        },
+        {
+          "cue_id": 776,
+          "start_ms": 1287039,
+          "end_ms": 1289679,
+          "text": "the description down below link down"
+        },
+        {
+          "cue_id": 817,
+          "start_ms": 1348960,
+          "end_ms": 1352080,
+          "text": "so your teacher"
+        },
+        {
+          "cue_id": 818,
+          "start_ms": 1350240,
+          "end_ms": 1353919,
+          "text": "i'm already mad i took one take and i'm"
+        },
+        {
+          "cue_id": 855,
+          "start_ms": 1414799,
+          "end_ms": 1417200,
+          "text": "but my parents told me they're gonna"
+        },
+        {
+          "cue_id": 856,
+          "start_ms": 1415840,
+          "end_ms": 1418640,
+          "text": "start eating we're having leftovers from"
+        },
+        {
+          "cue_id": 897,
+          "start_ms": 1478720,
+          "end_ms": 1481919,
+          "text": "boom now we just got that so then"
+        },
+        {
+          "cue_id": 898,
+          "start_ms": 1480240,
+          "end_ms": 1483120,
+          "text": "whatever i put it over it'll show the"
+        },
+        {
+          "cue_id": 932,
+          "start_ms": 1540240,
+          "end_ms": 1546760,
+          "text": "write an essay about someone else what"
+        },
+        {
+          "cue_id": 933,
+          "start_ms": 1542880,
+          "end_ms": 1546760,
+          "text": "now go redo it"
+        },
+        {
+          "cue_id": 964,
+          "start_ms": 1606320,
+          "end_ms": 1609279,
+          "text": "it's adorable that has a camera on it"
+        },
+        {
+          "cue_id": 965,
+          "start_ms": 1607919,
+          "end_ms": 1610720,
+          "text": "and whenever it detects motion or"
+        },
+        {
+          "cue_id": 1003,
+          "start_ms": 1672000,
+          "end_ms": 1675120,
+          "text": "don't know how motivational would be but"
+        },
+        {
+          "cue_id": 1004,
+          "start_ms": 1673440,
+          "end_ms": 1677360,
+          "text": "sometimes i edit them the day of that"
+        },
+        {
+          "cue_id": 1043,
+          "start_ms": 1735279,
+          "end_ms": 1739520,
+          "text": "legs pull push legs rest or like i said"
+        },
+        {
+          "cue_id": 1044,
+          "start_ms": 1737679,
+          "end_ms": 1740559,
+          "text": "i don't do the sixth day so today is"
+        },
+        {
+          "cue_id": 1068,
+          "start_ms": 1800950,
+          "end_ms": 1805839,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 1104,
+          "start_ms": 1862720,
+          "end_ms": 1867360,
+          "text": "it's currently 2 40 am i just finished"
+        },
+        {
+          "cue_id": 1105,
+          "start_ms": 1865519,
+          "end_ms": 1868880,
+          "text": "the gaming video and i always send the"
+        },
+        {
+          "cue_id": 1145,
+          "start_ms": 1927360,
+          "end_ms": 1931279,
+          "text": "concludes a day in the life of a content"
+        },
+        {
+          "cue_id": 1146,
+          "start_ms": 1929360,
+          "end_ms": 1932320,
+          "text": "career 2022 but every content creator's"
+        },
+        {
+          "cue_id": 1187,
+          "start_ms": 1992720,
+          "end_ms": 1997120,
+          "text": "another episode and i'll see you guys in"
+        },
+        {
+          "cue_id": 1188,
+          "start_ms": 1994240,
+          "end_ms": 1997120,
+          "text": "the next one"
+        }
+      ],
+      "text": "2022 now that i'm doing this full time\nfirst off i just want to say thank you\ndoing a vlog this is another reason i\nwanted to record this video because i\nalso have this every morning sheer\nprotein bar we got 190 calories and 19\nlot of people don't realize so if you\nguys are new here or if you just don't\nhere's what i mean by um news articles\nwe have a whole bunch of news articles\nhappened to me that's either funny\nrelatable that i think will have\nmy mom was doing something in the\nkitchen my dad was watching a hockey\ngonna explain it to you this is gonna be\nlike a story time now i'm gonna tell you\nshark take pictures that made million\nand i technically already knew i was\nthis cat just lays around so funny she's\nalways in the weirdest position then\nsee a house tour and once again i want\nyou guys to know that i'm grateful\ngoing to send it to my manager and now\nit is 2 40 so let's have some lunch\ni was about to say maybe i'll eat it\nlike comedy slash relatable one for my\nmain channel first and sometimes i do\nover here you guys are gonna get an\nunedited video that's what you guys can\nthree which\nthree would deck that's how it sounded\ni guess it's been like an hour i just\ngot off the phone shane he's a nice man\nvideo to find out i'm going to get the\naudio let me put the headset up all\ngot that and then we got for my main\nchannel the gold one and now we have a\ndavidson merch hoodie link down below in\nthe description down below link down\nso your teacher\ni'm already mad i took one take and i'm\nbut my parents told me they're gonna\nstart eating we're having leftovers from\nboom now we just got that so then\nwhatever i put it over it'll show the\nwrite an essay about someone else what\nnow go redo it\nit's adorable that has a camera on it\nand whenever it detects motion or\ndon't know how motivational would be but\nsometimes i edit them the day of that\nlegs pull push legs rest or like i said\ni don't do the sixth day so today is\n[Applause]\nit's currently 2 40 am i just finished\nthe gaming video and i always send the\nconcludes a day in the life of a content\ncareer 2022 but every content creator's\nanother episode and i'll see you guys in\nthe next one",
+      "text_tokens": 560,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "E83XxGvEPtI",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/E83XxGvEPtI.srt",
+          "status": "available",
+          "bytes": 131757,
+          "sha256": "de488eecdd7a09c0156bfbb062f422b7ff0ea51007f85259f5d48a6ac132d2d9",
+          "cues": 1188,
+          "nonempty_cues": 1188
+        },
+        "frame_indices": [
+          0,
+          1929,
+          3858,
+          5787,
+          7716,
+          9645,
+          11574,
+          13503,
+          15432,
+          17361,
+          19290,
+          21219,
+          23148,
+          25077,
+          27006,
+          28935,
+          30864,
+          32793,
+          34722,
+          36651,
+          38580,
+          40509,
+          42438,
+          44367,
+          46296,
+          48225,
+          50154,
+          52083,
+          54012,
+          55941,
+          57870,
+          59799
+        ],
+        "frame_seconds": [
+          0.0,
+          64.3643,
+          128.7286,
+          193.0929,
+          257.4572,
+          321.8215,
+          386.1858,
+          450.5501,
+          514.9144,
+          579.2787,
+          643.643,
+          708.0073,
+          772.3716,
+          836.7359,
+          901.1002,
+          965.4645,
+          1029.8288,
+          1094.1931,
+          1158.5574,
+          1222.9217,
+          1287.286,
+          1351.6503,
+          1416.0146,
+          1480.3789,
+          1544.7432,
+          1609.1075,
+          1673.4718,
+          1737.8361,
+          1802.2004,
+          1866.5647,
+          1930.929,
+          1995.2933
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            28,
+            29
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            103,
+            104
+          ],
+          [
+            144,
+            145
+          ],
+          [
+            183,
+            184
+          ],
+          [
+            224,
+            225
+          ],
+          [
+            265,
+            266
+          ],
+          [
+            303,
+            304
+          ],
+          [
+            347,
+            348
+          ],
+          [
+            391,
+            392
+          ],
+          [
+            430,
+            431
+          ],
+          [
+            470,
+            471
+          ],
+          [
+            505
+          ],
+          [
+            540,
+            541
+          ],
+          [
+            582,
+            583
+          ],
+          [
+            622,
+            623
+          ],
+          [
+            658,
+            659
+          ],
+          [
+            699,
+            700
+          ],
+          [
+            732,
+            733
+          ],
+          [
+            775,
+            776
+          ],
+          [
+            817,
+            818
+          ],
+          [
+            855,
+            856
+          ],
+          [
+            897,
+            898
+          ],
+          [
+            932,
+            933
+          ],
+          [
+            964,
+            965
+          ],
+          [
+            1003,
+            1004
+          ],
+          [
+            1043,
+            1044
+          ],
+          [
+            1068
+          ],
+          [
+            1104,
+            1105
+          ],
+          [
+            1145,
+            1146
+          ],
+          [
+            1187,
+            1188
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 28,
+            "start_ms": 61039,
+            "end_ms": 64479,
+            "text": "2022 now that i'm doing this full time"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 63199,
+            "end_ms": 65600,
+            "text": "first off i just want to say thank you"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 126880,
+            "end_ms": 129679,
+            "text": "doing a vlog this is another reason i"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 128318,
+            "end_ms": 131120,
+            "text": "wanted to record this video because i"
+          },
+          {
+            "cue_id": 103,
+            "start_ms": 191519,
+            "end_ms": 195680,
+            "text": "also have this every morning sheer"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 193040,
+            "end_ms": 197120,
+            "text": "protein bar we got 190 calories and 19"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 255200,
+            "end_ms": 257680,
+            "text": "lot of people don't realize so if you"
+          },
+          {
+            "cue_id": 145,
+            "start_ms": 256320,
+            "end_ms": 259199,
+            "text": "guys are new here or if you just don't"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 318320,
+            "end_ms": 321919,
+            "text": "here's what i mean by um news articles"
+          },
+          {
+            "cue_id": 184,
+            "start_ms": 320560,
+            "end_ms": 323440,
+            "text": "we have a whole bunch of news articles"
+          },
+          {
+            "cue_id": 224,
+            "start_ms": 383120,
+            "end_ms": 386240,
+            "text": "happened to me that's either funny"
+          },
+          {
+            "cue_id": 225,
+            "start_ms": 384880,
+            "end_ms": 387680,
+            "text": "relatable that i think will have"
+          },
+          {
+            "cue_id": 265,
+            "start_ms": 449360,
+            "end_ms": 451759,
+            "text": "my mom was doing something in the"
+          },
+          {
+            "cue_id": 266,
+            "start_ms": 450400,
+            "end_ms": 453520,
+            "text": "kitchen my dad was watching a hockey"
+          },
+          {
+            "cue_id": 303,
+            "start_ms": 513679,
+            "end_ms": 516320,
+            "text": "gonna explain it to you this is gonna be"
+          },
+          {
+            "cue_id": 304,
+            "start_ms": 514880,
+            "end_ms": 518159,
+            "text": "like a story time now i'm gonna tell you"
+          },
+          {
+            "cue_id": 347,
+            "start_ms": 577360,
+            "end_ms": 579839,
+            "text": "shark take pictures that made million"
+          },
+          {
+            "cue_id": 348,
+            "start_ms": 578720,
+            "end_ms": 581120,
+            "text": "and i technically already knew i was"
+          },
+          {
+            "cue_id": 391,
+            "start_ms": 640880,
+            "end_ms": 644720,
+            "text": "this cat just lays around so funny she's"
+          },
+          {
+            "cue_id": 392,
+            "start_ms": 642959,
+            "end_ms": 646720,
+            "text": "always in the weirdest position then"
+          },
+          {
+            "cue_id": 430,
+            "start_ms": 705440,
+            "end_ms": 708160,
+            "text": "see a house tour and once again i want"
+          },
+          {
+            "cue_id": 431,
+            "start_ms": 706959,
+            "end_ms": 709600,
+            "text": "you guys to know that i'm grateful"
+          },
+          {
+            "cue_id": 470,
+            "start_ms": 770399,
+            "end_ms": 775440,
+            "text": "going to send it to my manager and now"
+          },
+          {
+            "cue_id": 471,
+            "start_ms": 771760,
+            "end_ms": 778800,
+            "text": "it is 2 40 so let's have some lunch"
+          },
+          {
+            "cue_id": 505,
+            "start_ms": 835360,
+            "end_ms": 839199,
+            "text": "i was about to say maybe i'll eat it"
+          },
+          {
+            "cue_id": 540,
+            "start_ms": 897680,
+            "end_ms": 901120,
+            "text": "like comedy slash relatable one for my"
+          },
+          {
+            "cue_id": 541,
+            "start_ms": 899440,
+            "end_ms": 902320,
+            "text": "main channel first and sometimes i do"
+          },
+          {
+            "cue_id": 582,
+            "start_ms": 963199,
+            "end_ms": 966000,
+            "text": "over here you guys are gonna get an"
+          },
+          {
+            "cue_id": 583,
+            "start_ms": 964480,
+            "end_ms": 967600,
+            "text": "unedited video that's what you guys can"
+          },
+          {
+            "cue_id": 622,
+            "start_ms": 1027679,
+            "end_ms": 1030559,
+            "text": "three which"
+          },
+          {
+            "cue_id": 623,
+            "start_ms": 1028880,
+            "end_ms": 1033039,
+            "text": "three would deck that's how it sounded"
+          },
+          {
+            "cue_id": 658,
+            "start_ms": 1092400,
+            "end_ms": 1095440,
+            "text": "i guess it's been like an hour i just"
+          },
+          {
+            "cue_id": 659,
+            "start_ms": 1093600,
+            "end_ms": 1097120,
+            "text": "got off the phone shane he's a nice man"
+          },
+          {
+            "cue_id": 699,
+            "start_ms": 1156559,
+            "end_ms": 1158880,
+            "text": "video to find out i'm going to get the"
+          },
+          {
+            "cue_id": 700,
+            "start_ms": 1157840,
+            "end_ms": 1160320,
+            "text": "audio let me put the headset up all"
+          },
+          {
+            "cue_id": 732,
+            "start_ms": 1220640,
+            "end_ms": 1223840,
+            "text": "got that and then we got for my main"
+          },
+          {
+            "cue_id": 733,
+            "start_ms": 1222320,
+            "end_ms": 1225360,
+            "text": "channel the gold one and now we have a"
+          },
+          {
+            "cue_id": 775,
+            "start_ms": 1285520,
+            "end_ms": 1288240,
+            "text": "davidson merch hoodie link down below in"
+          },
+          {
+            "cue_id": 776,
+            "start_ms": 1287039,
+            "end_ms": 1289679,
+            "text": "the description down below link down"
+          },
+          {
+            "cue_id": 817,
+            "start_ms": 1348960,
+            "end_ms": 1352080,
+            "text": "so your teacher"
+          },
+          {
+            "cue_id": 818,
+            "start_ms": 1350240,
+            "end_ms": 1353919,
+            "text": "i'm already mad i took one take and i'm"
+          },
+          {
+            "cue_id": 855,
+            "start_ms": 1414799,
+            "end_ms": 1417200,
+            "text": "but my parents told me they're gonna"
+          },
+          {
+            "cue_id": 856,
+            "start_ms": 1415840,
+            "end_ms": 1418640,
+            "text": "start eating we're having leftovers from"
+          },
+          {
+            "cue_id": 897,
+            "start_ms": 1478720,
+            "end_ms": 1481919,
+            "text": "boom now we just got that so then"
+          },
+          {
+            "cue_id": 898,
+            "start_ms": 1480240,
+            "end_ms": 1483120,
+            "text": "whatever i put it over it'll show the"
+          },
+          {
+            "cue_id": 932,
+            "start_ms": 1540240,
+            "end_ms": 1546760,
+            "text": "write an essay about someone else what"
+          },
+          {
+            "cue_id": 933,
+            "start_ms": 1542880,
+            "end_ms": 1546760,
+            "text": "now go redo it"
+          },
+          {
+            "cue_id": 964,
+            "start_ms": 1606320,
+            "end_ms": 1609279,
+            "text": "it's adorable that has a camera on it"
+          },
+          {
+            "cue_id": 965,
+            "start_ms": 1607919,
+            "end_ms": 1610720,
+            "text": "and whenever it detects motion or"
+          },
+          {
+            "cue_id": 1003,
+            "start_ms": 1672000,
+            "end_ms": 1675120,
+            "text": "don't know how motivational would be but"
+          },
+          {
+            "cue_id": 1004,
+            "start_ms": 1673440,
+            "end_ms": 1677360,
+            "text": "sometimes i edit them the day of that"
+          },
+          {
+            "cue_id": 1043,
+            "start_ms": 1735279,
+            "end_ms": 1739520,
+            "text": "legs pull push legs rest or like i said"
+          },
+          {
+            "cue_id": 1044,
+            "start_ms": 1737679,
+            "end_ms": 1740559,
+            "text": "i don't do the sixth day so today is"
+          },
+          {
+            "cue_id": 1068,
+            "start_ms": 1800950,
+            "end_ms": 1805839,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 1104,
+            "start_ms": 1862720,
+            "end_ms": 1867360,
+            "text": "it's currently 2 40 am i just finished"
+          },
+          {
+            "cue_id": 1105,
+            "start_ms": 1865519,
+            "end_ms": 1868880,
+            "text": "the gaming video and i always send the"
+          },
+          {
+            "cue_id": 1145,
+            "start_ms": 1927360,
+            "end_ms": 1931279,
+            "text": "concludes a day in the life of a content"
+          },
+          {
+            "cue_id": 1146,
+            "start_ms": 1929360,
+            "end_ms": 1932320,
+            "text": "career 2022 but every content creator's"
+          },
+          {
+            "cue_id": 1187,
+            "start_ms": 1992720,
+            "end_ms": 1997120,
+            "text": "another episode and i'll see you guys in"
+          },
+          {
+            "cue_id": 1188,
+            "start_ms": 1994240,
+            "end_ms": 1997120,
+            "text": "the next one"
+          }
+        ],
+        "text": "2022 now that i'm doing this full time\nfirst off i just want to say thank you\ndoing a vlog this is another reason i\nwanted to record this video because i\nalso have this every morning sheer\nprotein bar we got 190 calories and 19\nlot of people don't realize so if you\nguys are new here or if you just don't\nhere's what i mean by um news articles\nwe have a whole bunch of news articles\nhappened to me that's either funny\nrelatable that i think will have\nmy mom was doing something in the\nkitchen my dad was watching a hockey\ngonna explain it to you this is gonna be\nlike a story time now i'm gonna tell you\nshark take pictures that made million\nand i technically already knew i was\nthis cat just lays around so funny she's\nalways in the weirdest position then\nsee a house tour and once again i want\nyou guys to know that i'm grateful\ngoing to send it to my manager and now\nit is 2 40 so let's have some lunch\ni was about to say maybe i'll eat it\nlike comedy slash relatable one for my\nmain channel first and sometimes i do\nover here you guys are gonna get an\nunedited video that's what you guys can\nthree which\nthree would deck that's how it sounded\ni guess it's been like an hour i just\ngot off the phone shane he's a nice man\nvideo to find out i'm going to get the\naudio let me put the headset up all\ngot that and then we got for my main\nchannel the gold one and now we have a\ndavidson merch hoodie link down below in\nthe description down below link down\nso your teacher\ni'm already mad i took one take and i'm\nbut my parents told me they're gonna\nstart eating we're having leftovers from\nboom now we just got that so then\nwhatever i put it over it'll show the\nwrite an essay about someone else what\nnow go redo it\nit's adorable that has a camera on it\nand whenever it detects motion or\ndon't know how motivational would be but\nsometimes i edit them the day of that\nlegs pull push legs rest or like i said\ni don't do the sixth day so today is\n[Applause]\nit's currently 2 40 am i just finished\nthe gaming video and i always send the\nconcludes a day in the life of a content\ncareer 2022 but every content creator's\nanother episode and i'll see you guys in\nthe next one",
+        "text_tokens": 560,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_ms": 59359,
+          "end_ms": 67040,
+          "text": "graduated i decided i'll make one for 2022 now that i'm doing this full time first off i just want to say thank you guys because i wouldn't be able to do"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 125520,
+          "end_ms": 132640,
+          "text": "do every morning look at this we're doing a vlog this is another reason i wanted to record this video because i want to do a vlog i haven't done many"
+        },
+        {
+          "id": "S102",
+          "cue_ids": [
+            102,
+            103,
+            104,
+            105
+          ],
+          "start_ms": 189680,
+          "end_ms": 199840,
+          "text": "calories and 18 grams of protein and i also have this every morning sheer protein bar we got 190 calories and 19 grams of protein that's how you get"
+        },
+        {
+          "id": "S143",
+          "cue_ids": [
+            143,
+            144,
+            145,
+            146
+          ],
+          "start_ms": 253439,
+          "end_ms": 260720,
+          "text": "than the actual filming takes which a lot of people don't realize so if you guys are new here or if you just don't know i record two tick tocks every"
+        },
+        {
+          "id": "S183",
+          "cue_ids": [
+            183,
+            184,
+            185
+          ],
+          "start_ms": 318320,
+          "end_ms": 324639,
+          "text": "here's what i mean by um news articles we have a whole bunch of news articles on the same topic eight rejected shark"
+        },
+        {
+          "id": "S223",
+          "cue_ids": [
+            223,
+            224,
+            225,
+            226
+          ],
+          "start_ms": 381520,
+          "end_ms": 389039,
+          "text": "young lad try to think of something that happened to me that's either funny relatable that i think will have happened to some of you guys as well"
+        },
+        {
+          "id": "S264",
+          "cue_ids": [
+            264,
+            265,
+            266,
+            267
+          ],
+          "start_ms": 447280,
+          "end_ms": 455039,
+          "text": "in real life not exactly like that but my mom was doing something in the kitchen my dad was watching a hockey game and then he started going wow"
+        },
+        {
+          "id": "S302",
+          "cue_ids": [
+            302,
+            303,
+            304,
+            305
+          ],
+          "start_ms": 512000,
+          "end_ms": 519519,
+          "text": "video but i might do a video on it i'm gonna explain it to you this is gonna be like a story time now i'm gonna tell you guys what the video idea is and then"
+        },
+        {
+          "id": "S346",
+          "cue_ids": [
+            346,
+            347,
+            348,
+            349
+          ],
+          "start_ms": 575920,
+          "end_ms": 582480,
+          "text": "already knew i was going to do rejected shark take pictures that made million and i technically already knew i was going to do this i already had the idea"
+        },
+        {
+          "id": "S390",
+          "cue_ids": [
+            390,
+            391,
+            392,
+            393
+          ],
+          "start_ms": 639200,
+          "end_ms": 648320,
+          "text": "one scene in the video look at my cat this cat just lays around so funny she's always in the weirdest position then over here we have nibbles we have this"
+        },
+        {
+          "id": "S429",
+          "cue_ids": [
+            429,
+            430,
+            431,
+            432
+          ],
+          "start_ms": 704320,
+          "end_ms": 711040,
+          "text": "know in the comments if you guys want to see a house tour and once again i want you guys to know that i'm grateful because literally like if it were for"
+        },
+        {
+          "id": "S469",
+          "cue_ids": [
+            469,
+            470,
+            471,
+            472
+          ],
+          "start_ms": 768560,
+          "end_ms": 781040,
+          "text": "and so i just re-edited it and now i'm going to send it to my manager and now it is 2 40 so let's have some lunch where is the bacon oh baby we got the"
+        },
+        {
+          "id": "S504",
+          "cue_ids": [
+            504,
+            505,
+            506
+          ],
+          "start_ms": 831440,
+          "end_ms": 841199,
+          "text": "i'm gonna do this live on camera i was about to say maybe i'll eat it with the stuff on it but ah man it just"
+        },
+        {
+          "id": "S539",
+          "cue_ids": [
+            539,
+            540,
+            541,
+            542
+          ],
+          "start_ms": 896160,
+          "end_ms": 903839,
+          "text": "depends on the day sometimes i do the like comedy slash relatable one for my main channel first and sometimes i do the second channel first and that's what"
+        },
+        {
+          "id": "S581",
+          "cue_ids": [
+            581,
+            582,
+            583,
+            584
+          ],
+          "start_ms": 962000,
+          "end_ms": 968959,
+          "text": "behind the scenes cuz that would be like over here you guys are gonna get an unedited video that's what you guys can get so right now on this monitor you"
+        },
+        {
+          "id": "S621",
+          "cue_ids": [
+            621,
+            622,
+            623,
+            624
+          ],
+          "start_ms": 1025439,
+          "end_ms": 1034640,
+          "text": "three rejected three which three would deck that's how it sounded to me so i'm gonna redo it again"
+        },
+        {
+          "id": "S657",
+          "cue_ids": [
+            657,
+            658,
+            659,
+            660
+          ],
+          "start_ms": 1089120,
+          "end_ms": 1098559,
+          "text": "okay cool cool all right it is now 4 47 i guess it's been like an hour i just got off the phone shane he's a nice man i actually have to shoot one scene for"
+        },
+        {
+          "id": "S698",
+          "cue_ids": [
+            698,
+            699,
+            700,
+            701
+          ],
+          "start_ms": 1155200,
+          "end_ms": 1162400,
+          "text": "audio because you'll have to watch the video to find out i'm going to get the audio let me put the headset up all right you guys get to see it though hold"
+        },
+        {
+          "id": "S731",
+          "cue_ids": [
+            731,
+            732,
+            733,
+            734
+          ],
+          "start_ms": 1219440,
+          "end_ms": 1226880,
+          "text": "years i would ever get that and then we got that and then we got for my main channel the gold one and now we have a second one so thank you guys so much"
+        },
+        {
+          "id": "S774",
+          "cue_ids": [
+            774,
+            775,
+            776,
+            777
+          ],
+          "start_ms": 1283919,
+          "end_ms": 1291440,
+          "text": "let's get the outfit on we got the luke davidson merch hoodie link down below in the description down below link down below in the description down below okay"
+        },
+        {
+          "id": "S816",
+          "cue_ids": [
+            816,
+            817,
+            818,
+            819
+          ],
+          "start_ms": 1347600,
+          "end_ms": 1355840,
+          "text": "it's a math question so your teacher i'm already mad i took one take and i'm already mad when i'm recording i get mad"
+        },
+        {
+          "id": "S854",
+          "cue_ids": [
+            854,
+            855,
+            856,
+            857
+          ],
+          "start_ms": 1413280,
+          "end_ms": 1420400,
+          "text": "to the bathroom before i started editing but my parents told me they're gonna start eating we're having leftovers from last night but that is one thing that"
+        },
+        {
+          "id": "S896",
+          "cue_ids": [
+            896,
+            897,
+            898,
+            899
+          ],
+          "start_ms": 1476720,
+          "end_ms": 1484320,
+          "text": "choose the color i pick green boom now we just got that so then whatever i put it over it'll show the clock so that's what i'm going to do i'm"
+        },
+        {
+          "id": "S931",
+          "cue_ids": [
+            931,
+            932,
+            933
+          ],
+          "start_ms": 1538559,
+          "end_ms": 1546760,
+          "text": "what do you mean you were supposed to write an essay about someone else what now go redo it"
+        },
+        {
+          "id": "S963",
+          "cue_ids": [
+            963,
+            964,
+            965,
+            966
+          ],
+          "start_ms": 1604799,
+          "end_ms": 1612240,
+          "text": "doorbell so if you don't know what it is it's adorable that has a camera on it and whenever it detects motion or someone rings the doorbell it says a"
+        },
+        {
+          "id": "S1002",
+          "cue_ids": [
+            1002,
+            1003,
+            1004,
+            1005
+          ],
+          "start_ms": 1670880,
+          "end_ms": 1678960,
+          "text": "speech for you guys well actually i don't know how motivational would be but sometimes i edit them the day of that i'm posting because the day before i"
+        },
+        {
+          "id": "S1042",
+          "cue_ids": [
+            1042,
+            1043,
+            1044,
+            1045
+          ],
+          "start_ms": 1733279,
+          "end_ms": 1741679,
+          "text": "and today is pull day i do pull push legs pull push legs rest or like i said i don't do the sixth day so today is poland if you guys don't know what that"
+        },
+        {
+          "id": "S1067",
+          "cue_ids": [
+            1067,
+            1068,
+            1069
+          ],
+          "start_ms": 1797700,
+          "end_ms": 1805839,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S1103",
+          "cue_ids": [
+            1103,
+            1104,
+            1105,
+            1106
+          ],
+          "start_ms": 1859440,
+          "end_ms": 1870799,
+          "text": "youtube channel down below it's currently 2 40 am i just finished the gaming video and i always send the video at night time like i leave my"
+        },
+        {
+          "id": "S1144",
+          "cue_ids": [
+            1144,
+            1145,
+            1146,
+            1147
+          ],
+          "start_ms": 1926080,
+          "end_ms": 1933919,
+          "text": "busy day for me so i guess that concludes a day in the life of a content career 2022 but every content creator's day is different like if you're a"
+        },
+        {
+          "id": "S1186",
+          "cue_ids": [
+            1186,
+            1187,
+            1188
+          ],
+          "start_ms": 1991679,
+          "end_ms": 1997120,
+          "text": "post notifications so you never miss another episode and i'll see you guys in the next one"
+        }
+      ],
+      "text": "S27 [00:00:59.359 --> 00:01:07.040] graduated i decided i'll make one for 2022 now that i'm doing this full time first off i just want to say thank you guys because i wouldn't be able to do\nS71 [00:02:05.520 --> 00:02:12.640] do every morning look at this we're doing a vlog this is another reason i wanted to record this video because i want to do a vlog i haven't done many\nS102 [00:03:09.680 --> 00:03:19.840] calories and 18 grams of protein and i also have this every morning sheer protein bar we got 190 calories and 19 grams of protein that's how you get\nS143 [00:04:13.439 --> 00:04:20.720] than the actual filming takes which a lot of people don't realize so if you guys are new here or if you just don't know i record two tick tocks every\nS183 [00:05:18.320 --> 00:05:24.639] here's what i mean by um news articles we have a whole bunch of news articles on the same topic eight rejected shark\nS223 [00:06:21.520 --> 00:06:29.039] young lad try to think of something that happened to me that's either funny relatable that i think will have happened to some of you guys as well\nS264 [00:07:27.280 --> 00:07:35.039] in real life not exactly like that but my mom was doing something in the kitchen my dad was watching a hockey game and then he started going wow\nS302 [00:08:32.000 --> 00:08:39.519] video but i might do a video on it i'm gonna explain it to you this is gonna be like a story time now i'm gonna tell you guys what the video idea is and then\nS346 [00:09:35.920 --> 00:09:42.480] already knew i was going to do rejected shark take pictures that made million and i technically already knew i was going to do this i already had the idea\nS390 [00:10:39.200 --> 00:10:48.320] one scene in the video look at my cat this cat just lays around so funny she's always in the weirdest position then over here we have nibbles we have this\nS429 [00:11:44.320 --> 00:11:51.040] know in the comments if you guys want to see a house tour and once again i want you guys to know that i'm grateful because literally like if it were for\nS469 [00:12:48.560 --> 00:13:01.040] and so i just re-edited it and now i'm going to send it to my manager and now it is 2 40 so let's have some lunch where is the bacon oh baby we got the\nS504 [00:13:51.440 --> 00:14:01.199] i'm gonna do this live on camera i was about to say maybe i'll eat it with the stuff on it but ah man it just\nS539 [00:14:56.160 --> 00:15:03.839] depends on the day sometimes i do the like comedy slash relatable one for my main channel first and sometimes i do the second channel first and that's what\nS581 [00:16:02.000 --> 00:16:08.959] behind the scenes cuz that would be like over here you guys are gonna get an unedited video that's what you guys can get so right now on this monitor you\nS621 [00:17:05.439 --> 00:17:14.640] three rejected three which three would deck that's how it sounded to me so i'm gonna redo it again\nS657 [00:18:09.120 --> 00:18:18.559] okay cool cool all right it is now 4 47 i guess it's been like an hour i just got off the phone shane he's a nice man i actually have to shoot one scene for\nS698 [00:19:15.200 --> 00:19:22.400] audio because you'll have to watch the video to find out i'm going to get the audio let me put the headset up all right you guys get to see it though hold\nS731 [00:20:19.440 --> 00:20:26.880] years i would ever get that and then we got that and then we got for my main channel the gold one and now we have a second one so thank you guys so much\nS774 [00:21:23.919 --> 00:21:31.440] let's get the outfit on we got the luke davidson merch hoodie link down below in the description down below link down below in the description down below okay\nS816 [00:22:27.600 --> 00:22:35.840] it's a math question so your teacher i'm already mad i took one take and i'm already mad when i'm recording i get mad\nS854 [00:23:33.280 --> 00:23:40.400] to the bathroom before i started editing but my parents told me they're gonna start eating we're having leftovers from last night but that is one thing that\nS896 [00:24:36.720 --> 00:24:44.320] choose the color i pick green boom now we just got that so then whatever i put it over it'll show the clock so that's what i'm going to do i'm\nS931 [00:25:38.559 --> 00:25:46.760] what do you mean you were supposed to write an essay about someone else what now go redo it\nS963 [00:26:44.799 --> 00:26:52.240] doorbell so if you don't know what it is it's adorable that has a camera on it and whenever it detects motion or someone rings the doorbell it says a\nS1002 [00:27:50.880 --> 00:27:58.960] speech for you guys well actually i don't know how motivational would be but sometimes i edit them the day of that i'm posting because the day before i\nS1042 [00:28:53.279 --> 00:29:01.679] and today is pull day i do pull push legs pull push legs rest or like i said i don't do the sixth day so today is poland if you guys don't know what that\nS1067 [00:29:57.700 --> 00:30:05.839] [Music] [Applause] [Music]\nS1103 [00:30:59.440 --> 00:31:10.799] youtube channel down below it's currently 2 40 am i just finished the gaming video and i always send the video at night time like i leave my\nS1144 [00:32:06.080 --> 00:32:13.919] busy day for me so i guess that concludes a day in the life of a content career 2022 but every content creator's day is different like if you're a\nS1186 [00:33:11.679 --> 00:33:17.120] post notifications so you never miss another episode and i'll see you guys in the next one",
+      "text_tokens": 2000,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        27,
+        30,
+        71,
+        74,
+        102,
+        105,
+        143,
+        146,
+        185,
+        223,
+        226,
+        264,
+        267,
+        302,
+        305,
+        346,
+        349,
+        390,
+        393,
+        429,
+        432,
+        469,
+        472,
+        504,
+        506,
+        539,
+        542,
+        581,
+        584,
+        621,
+        624,
+        657,
+        660,
+        698,
+        701,
+        731,
+        734,
+        774,
+        777,
+        816,
+        819,
+        854,
+        857,
+        896,
+        899,
+        931,
+        963,
+        966,
+        1002,
+        1005,
+        1042,
+        1045,
+        1067,
+        1069,
+        1103,
+        1106,
+        1144,
+        1147,
+        1186
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "081fee163a9a0b76de82c1f5e9544f13697c3bf88bbec9cd06164ff34117412f"
+}

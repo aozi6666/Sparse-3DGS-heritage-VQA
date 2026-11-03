@@ -1,0 +1,639 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "5-4Od1qn53s",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/5-4Od1qn53s.srt",
+        "status": "available",
+        "bytes": 3000,
+        "sha256": "392799926906f31d1a0b9e11dae65000ad3f7335e0d8957fb4365a55ec04851c",
+        "cues": 24,
+        "nonempty_cues": 24
+      },
+      "frame_indices": [
+        0,
+        59,
+        118,
+        177,
+        236,
+        295,
+        354,
+        413,
+        472,
+        531,
+        590,
+        649,
+        708,
+        767,
+        826,
+        885,
+        944,
+        1003,
+        1062,
+        1121,
+        1180,
+        1239,
+        1298,
+        1357,
+        1416,
+        1475,
+        1534,
+        1593,
+        1652,
+        1711,
+        1770,
+        1829
+      ],
+      "frame_seconds": [
+        0.0,
+        2.36,
+        4.72,
+        7.08,
+        9.44,
+        11.8,
+        14.16,
+        16.52,
+        18.88,
+        21.24,
+        23.6,
+        25.96,
+        28.32,
+        30.68,
+        33.04,
+        35.4,
+        37.76,
+        40.12,
+        42.48,
+        44.84,
+        47.2,
+        49.56,
+        51.92,
+        54.28,
+        56.64,
+        59.0,
+        61.36,
+        63.72,
+        66.08,
+        68.44,
+        70.8,
+        73.16
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [],
+        [
+          18
+        ],
+        [
+          18
+        ],
+        [
+          19
+        ],
+        [
+          20
+        ],
+        [
+          21
+        ],
+        [
+          22
+        ],
+        [
+          22
+        ],
+        [
+          23
+        ],
+        [
+          24
+        ],
+        [
+          24
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 720,
+          "end_ms": 5048,
+          "text": "Welcome to Bangkok, one of Kiwi.com's most popular destinations."
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 6784,
+          "end_ms": 9411,
+          "text": "from the Grand Palace to its thousands of temples."
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9411,
+          "end_ms": 12000,
+          "text": "This is Wat Pho with its giant reclining Buddha --"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 15853,
+          "end_ms": 17548,
+          "text": "Here, if you're nimble,"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 17548,
+          "end_ms": 20940,
+          "text": "you can climb the steep, narrow central spire for views across the city."
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 22380,
+          "end_ms": 26857,
+          "text": "Night time in Bangkok is sometimes not for the faint-hearted, but there's so much going on --"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 26857,
+          "end_ms": 29680,
+          "text": "from the 'red light district' known as Soi Cowboy"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 29680,
+          "end_ms": 31680,
+          "text": "named after the cowboy-hat-wearing American"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 31738,
+          "end_ms": 34020,
+          "text": "who opened a bar here in the 1970s,"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 34020,
+          "end_ms": 37915,
+          "text": "to the Ratchada Night Market and the late-night food stands."
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 37915,
+          "end_ms": 40542,
+          "text": "Speaking of food, you'll get your fill in Bangkok."
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 40542,
+          "end_ms": 42710,
+          "text": "street food is virtually a religion here,"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 42710,
+          "end_ms": 46862,
+          "text": "with fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn."
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 49400,
+          "end_ms": 52233,
+          "text": "can I interest you in a deep-fried scorpion?"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52233,
+          "end_ms": 56411,
+          "text": "Bangkok is built on water, and the rivers and canals that flow through the city"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 56411,
+          "end_ms": 58115,
+          "text": "also mean transport and trade."
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 58115,
+          "end_ms": 60360,
+          "text": "Drift down through the Floating Market"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 60360,
+          "end_ms": 64019,
+          "text": "where everything from hats to habaneros are on sale from the riverboat retailers."
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 64980,
+          "end_ms": 66715,
+          "text": "So, that's Bangkok --"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 66715,
+          "end_ms": 70920,
+          "text": "a spicy multicultural mashup of a city just waiting to be explored!"
+        }
+      ],
+      "text": "Welcome to Bangkok, one of Kiwi.com's most popular destinations.\nfrom the Grand Palace to its thousands of temples.\nThis is Wat Pho with its giant reclining Buddha --\nHere, if you're nimble,\nyou can climb the steep, narrow central spire for views across the city.\nNight time in Bangkok is sometimes not for the faint-hearted, but there's so much going on --\nfrom the 'red light district' known as Soi Cowboy\nnamed after the cowboy-hat-wearing American\nwho opened a bar here in the 1970s,\nto the Ratchada Night Market and the late-night food stands.\nSpeaking of food, you'll get your fill in Bangkok.\nstreet food is virtually a religion here,\nwith fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn.\ncan I interest you in a deep-fried scorpion?\nBangkok is built on water, and the rivers and canals that flow through the city\nalso mean transport and trade.\nDrift down through the Floating Market\nwhere everything from hats to habaneros are on sale from the riverboat retailers.\nSo, that's Bangkok --\na spicy multicultural mashup of a city just waiting to be explored!",
+      "text_tokens": 250,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "5-4Od1qn53s",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/5-4Od1qn53s.srt",
+          "status": "available",
+          "bytes": 3000,
+          "sha256": "392799926906f31d1a0b9e11dae65000ad3f7335e0d8957fb4365a55ec04851c",
+          "cues": 24,
+          "nonempty_cues": 24
+        },
+        "frame_indices": [
+          0,
+          59,
+          118,
+          177,
+          236,
+          295,
+          354,
+          413,
+          472,
+          531,
+          590,
+          649,
+          708,
+          767,
+          826,
+          885,
+          944,
+          1003,
+          1062,
+          1121,
+          1180,
+          1239,
+          1298,
+          1357,
+          1416,
+          1475,
+          1534,
+          1593,
+          1652,
+          1711,
+          1770,
+          1829
+        ],
+        "frame_seconds": [
+          0.0,
+          2.36,
+          4.72,
+          7.08,
+          9.44,
+          11.8,
+          14.16,
+          16.52,
+          18.88,
+          21.24,
+          23.6,
+          25.96,
+          28.32,
+          30.68,
+          33.04,
+          35.4,
+          37.76,
+          40.12,
+          42.48,
+          44.84,
+          47.2,
+          49.56,
+          51.92,
+          54.28,
+          56.64,
+          59.0,
+          61.36,
+          63.72,
+          66.08,
+          68.44,
+          70.8,
+          73.16
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            13
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ],
+          [
+            15
+          ],
+          [
+            16
+          ],
+          [],
+          [
+            18
+          ],
+          [
+            18
+          ],
+          [
+            19
+          ],
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            22
+          ],
+          [
+            22
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ],
+          [
+            24
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 720,
+            "end_ms": 5048,
+            "text": "Welcome to Bangkok, one of Kiwi.com's most popular destinations."
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 6784,
+            "end_ms": 9411,
+            "text": "from the Grand Palace to its thousands of temples."
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9411,
+            "end_ms": 12000,
+            "text": "This is Wat Pho with its giant reclining Buddha --"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 15853,
+            "end_ms": 17548,
+            "text": "Here, if you're nimble,"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 17548,
+            "end_ms": 20940,
+            "text": "you can climb the steep, narrow central spire for views across the city."
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 22380,
+            "end_ms": 26857,
+            "text": "Night time in Bangkok is sometimes not for the faint-hearted, but there's so much going on --"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 26857,
+            "end_ms": 29680,
+            "text": "from the 'red light district' known as Soi Cowboy"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 29680,
+            "end_ms": 31680,
+            "text": "named after the cowboy-hat-wearing American"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 31738,
+            "end_ms": 34020,
+            "text": "who opened a bar here in the 1970s,"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 34020,
+            "end_ms": 37915,
+            "text": "to the Ratchada Night Market and the late-night food stands."
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 37915,
+            "end_ms": 40542,
+            "text": "Speaking of food, you'll get your fill in Bangkok."
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 40542,
+            "end_ms": 42710,
+            "text": "street food is virtually a religion here,"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 42710,
+            "end_ms": 46862,
+            "text": "with fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn."
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 49400,
+            "end_ms": 52233,
+            "text": "can I interest you in a deep-fried scorpion?"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52233,
+            "end_ms": 56411,
+            "text": "Bangkok is built on water, and the rivers and canals that flow through the city"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 56411,
+            "end_ms": 58115,
+            "text": "also mean transport and trade."
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 58115,
+            "end_ms": 60360,
+            "text": "Drift down through the Floating Market"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 60360,
+            "end_ms": 64019,
+            "text": "where everything from hats to habaneros are on sale from the riverboat retailers."
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 64980,
+            "end_ms": 66715,
+            "text": "So, that's Bangkok --"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 66715,
+            "end_ms": 70920,
+            "text": "a spicy multicultural mashup of a city just waiting to be explored!"
+          }
+        ],
+        "text": "Welcome to Bangkok, one of Kiwi.com's most popular destinations.\nfrom the Grand Palace to its thousands of temples.\nThis is Wat Pho with its giant reclining Buddha --\nHere, if you're nimble,\nyou can climb the steep, narrow central spire for views across the city.\nNight time in Bangkok is sometimes not for the faint-hearted, but there's so much going on --\nfrom the 'red light district' known as Soi Cowboy\nnamed after the cowboy-hat-wearing American\nwho opened a bar here in the 1970s,\nto the Ratchada Night Market and the late-night food stands.\nSpeaking of food, you'll get your fill in Bangkok.\nstreet food is virtually a religion here,\nwith fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn.\ncan I interest you in a deep-fried scorpion?\nBangkok is built on water, and the rivers and canals that flow through the city\nalso mean transport and trade.\nDrift down through the Floating Market\nwhere everything from hats to habaneros are on sale from the riverboat retailers.\nSo, that's Bangkok --\na spicy multicultural mashup of a city just waiting to be explored!",
+        "text_tokens": 250,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "start_ms": 720,
+          "end_ms": 70920,
+          "text": "Welcome to Bangkok, one of Kiwi.com's most popular destinations. Bangkok lives and breathes history, from the Grand Palace to its thousands of temples. This is Wat Pho with its giant reclining Buddha -- one of the largest Buddha statues in Thailand, and the huge What Arun. Here, if you're nimble, you can climb the steep, narrow central spire for views across the city. Night time in Bangkok is sometimes not for the faint-hearted, but there's so much going on -- from the 'red light district' known as Soi Cowboy named after the cowboy-hat-wearing American who opened a bar here in the 1970s, to the Ratchada Night Market and the late-night food stands. Speaking of food, you'll get your fill in Bangkok. street food is virtually a religion here, with fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn. Oh, and if you're feeling adventurous, can I interest you in a deep-fried scorpion? Bangkok is built on water, and the rivers and canals that flow through the city also mean transport and trade. Drift down through the Floating Market where everything from hats to habaneros are on sale from the riverboat retailers. So, that's Bangkok -- a spicy multicultural mashup of a city just waiting to be explored!"
+        }
+      ],
+      "text": "S1 [00:00:00.720 --> 00:01:10.920] Welcome to Bangkok, one of Kiwi.com's most popular destinations. Bangkok lives and breathes history, from the Grand Palace to its thousands of temples. This is Wat Pho with its giant reclining Buddha -- one of the largest Buddha statues in Thailand, and the huge What Arun. Here, if you're nimble, you can climb the steep, narrow central spire for views across the city. Night time in Bangkok is sometimes not for the faint-hearted, but there's so much going on -- from the 'red light district' known as Soi Cowboy named after the cowboy-hat-wearing American who opened a bar here in the 1970s, to the Ratchada Night Market and the late-night food stands. Speaking of food, you'll get your fill in Bangkok. street food is virtually a religion here, with fresh fruit and vegetables, spicy meats, and succulent seafood everywhere you turn. Oh, and if you're feeling adventurous, can I interest you in a deep-fried scorpion? Bangkok is built on water, and the rivers and canals that flow through the city also mean transport and trade. Drift down through the Floating Market where everything from hats to habaneros are on sale from the riverboat retailers. So, that's Bangkok -- a spicy multicultural mashup of a city just waiting to be explored!",
+      "text_tokens": 307,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        5,
+        6,
+        17
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f16096fe3d6e0e1b84776a5e8d64e6de68d081e844b08c188fcdc141f4fbf741"
+}

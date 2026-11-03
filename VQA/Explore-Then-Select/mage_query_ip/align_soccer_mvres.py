@@ -1,7 +1,7 @@
-"""Soccer CPU alignment for codec MV/residual vs pixel proxy.
+"""Soccer：codec bitcost / 像素 proxy 对齐（CPU）。
 
-Writes a compact per-patch score file. Does not generate unless ``--generate``.
-Agent does not run this — see COMMANDS.md.
+【主路径不用】服务于已失败的 bitcost / 「真 MV」探路；默认不跑。
+见 COMMANDS 历史说明；Agent 不代跑。
 """
 
 from __future__ import annotations

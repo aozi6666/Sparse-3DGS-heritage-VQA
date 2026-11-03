@@ -1,0 +1,845 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "eWUAB194qhU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eWUAB194qhU.srt",
+        "status": "available",
+        "bytes": 9435,
+        "sha256": "ad7652283e930ddfb91943a3c8d188b381d4f86dde184e5c466f8e56a328b4ae",
+        "cues": 66,
+        "nonempty_cues": 66
+      },
+      "frame_indices": [
+        0,
+        227,
+        454,
+        682,
+        909,
+        1136,
+        1363,
+        1591,
+        1818,
+        2045,
+        2272,
+        2499,
+        2727,
+        2954,
+        3181,
+        3408,
+        3636,
+        3863,
+        4090,
+        4317,
+        4545,
+        4772,
+        4999,
+        5226,
+        5453,
+        5681,
+        5908,
+        6135,
+        6362,
+        6590,
+        6817,
+        7044
+      ],
+      "frame_seconds": [
+        0.0,
+        9.458333,
+        18.916667,
+        28.416667,
+        37.875,
+        47.333333,
+        56.791667,
+        66.291667,
+        75.75,
+        85.208333,
+        94.66666699999999,
+        104.125,
+        113.625,
+        123.083333,
+        132.541667,
+        142.0,
+        151.5,
+        160.958333,
+        170.416667,
+        179.875,
+        189.375,
+        198.833333,
+        208.291667,
+        217.75,
+        227.208333,
+        236.708333,
+        246.166667,
+        255.625,
+        265.083333,
+        274.583333,
+        284.041667,
+        293.5
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          9
+        ],
+        [
+          11
+        ],
+        [
+          13
+        ],
+        [
+          15
+        ],
+        [
+          17
+        ],
+        [
+          19
+        ],
+        [
+          22
+        ],
+        [
+          24
+        ],
+        [
+          25
+        ],
+        [
+          27
+        ],
+        [
+          29
+        ],
+        [
+          32
+        ],
+        [
+          34
+        ],
+        [
+          37
+        ],
+        [
+          39
+        ],
+        [
+          41
+        ],
+        [
+          43
+        ],
+        [
+          45
+        ],
+        [
+          47
+        ],
+        [
+          49
+        ],
+        [
+          51
+        ],
+        [
+          53
+        ],
+        [
+          56
+        ],
+        [
+          58
+        ],
+        [
+          60
+        ],
+        [
+          62
+        ],
+        [
+          65
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 2,
+          "start_ms": 4444,
+          "end_ms": 10193,
+          "text": "as it supplies every tiny corner of your body with nutrients and oxygen."
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 15924,
+          "end_ms": 20464,
+          "text": "There's another plumbing system working right alongside your circulatory system, and without"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 24454,
+          "end_ms": 29924,
+          "text": "This critical and often overlooked aspect of anatomy is the lymphatic system."
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 35604,
+          "end_ms": 40594,
+          "text": "and organs, such as the spleen and thymus, extending throughout the body."
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 45504,
+          "end_ms": 51244,
+          "text": "First, it returns excess body fluid back into the bloodstream."
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 55493,
+          "end_ms": 60273,
+          "text": "Tiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 61273,
+          "end_ms": 67154,
+          "text": "However, due to the blood pressure, fluid plasma also leaks out of the capillaries."
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 71313,
+          "end_ms": 77124,
+          "text": "This fluid mainly contains water, nutrients, gasses, ions and proteins."
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 82434,
+          "end_ms": 85374,
+          "text": "3 liters will not be reabsorbed by the blood vessels."
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 94624,
+          "end_ms": 98144,
+          "text": "redepositing it into the circulatory system."
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 103743,
+          "end_ms": 108523,
+          "text": "the excess fluid, now called the lymph, can empty back into a vein."
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 108523,
+          "end_ms": 114453,
+          "text": "One of the major ducts in the body is the thoracic duct, located around your chest."
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 118883,
+          "end_ms": 123704,
+          "text": "First, it prevents the fluid from causing cells to swell or become damaged."
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 129054,
+          "end_ms": 133664,
+          "text": "blood could become thicker, affecting how well the circulatory system transports oxygen"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 140364,
+          "end_ms": 145844,
+          "text": "Now, you might be wondering how the lymph moves from the vessels to the duct if there"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 148124,
+          "end_ms": 152254,
+          "text": "Well, something is pushing it, just not your heart."
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 160463,
+          "end_ms": 165644,
+          "text": "lymph drains back into your blood, ultimately improving your blood circulation."
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 170114,
+          "end_ms": 172043,
+          "text": "and nutrients."
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 179243,
+          "end_ms": 183534,
+          "text": "Bacteria can quietly hide among your cells and enter your body through the large pores"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 185444,
+          "end_ms": 190073,
+          "text": "The result of this infiltration could be serious illness."
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 196714,
+          "end_ms": 202194,
+          "text": "The lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes,"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 207554,
+          "end_ms": 212164,
+          "text": "When they encounter a bacteria, the immune cells such as dendritic cells neutralize the"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 216254,
+          "end_ms": 220993,
+          "text": "The lymph organs, including the spleen and thymus, are key sites where these immune cells"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 225474,
+          "end_ms": 229744,
+          "text": "When you have a throat infection, bacteria and white blood cells accumulate in the lymph"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 233244,
+          "end_ms": 238573,
+          "text": "These swollen glands can block your throat, making it difficult or even painful to swallow."
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 244784,
+          "end_ms": 250353,
+          "text": "Lastly, the lymphatic system plays a role in absorbing digested fats."
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 254504,
+          "end_ms": 259014,
+          "text": "However, this also makes blobs of fat too large to enter the capillaries."
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 263344,
+          "end_ms": 268084,
+          "text": "The fat blobs are then transferred to the veins at the thoracic duct."
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 272304,
+          "end_ms": 276424,
+          "text": "and you wouldn't be able to meet your nutritional needs – not to mention that you would likely"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 282824,
+          "end_ms": 287464,
+          "text": "Just follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and"
+        }
+      ],
+      "text": "as it supplies every tiny corner of your body with nutrients and oxygen.\nThere's another plumbing system working right alongside your circulatory system, and without\nThis critical and often overlooked aspect of anatomy is the lymphatic system.\nand organs, such as the spleen and thymus, extending throughout the body.\nFirst, it returns excess body fluid back into the bloodstream.\nTiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need\nHowever, due to the blood pressure, fluid plasma also leaks out of the capillaries.\nThis fluid mainly contains water, nutrients, gasses, ions and proteins.\n3 liters will not be reabsorbed by the blood vessels.\nredepositing it into the circulatory system.\nthe excess fluid, now called the lymph, can empty back into a vein.\nOne of the major ducts in the body is the thoracic duct, located around your chest.\nFirst, it prevents the fluid from causing cells to swell or become damaged.\nblood could become thicker, affecting how well the circulatory system transports oxygen\nNow, you might be wondering how the lymph moves from the vessels to the duct if there\nWell, something is pushing it, just not your heart.\nlymph drains back into your blood, ultimately improving your blood circulation.\nand nutrients.\nBacteria can quietly hide among your cells and enter your body through the large pores\nThe result of this infiltration could be serious illness.\nThe lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes,\nWhen they encounter a bacteria, the immune cells such as dendritic cells neutralize the\nThe lymph organs, including the spleen and thymus, are key sites where these immune cells\nWhen you have a throat infection, bacteria and white blood cells accumulate in the lymph\nThese swollen glands can block your throat, making it difficult or even painful to swallow.\nLastly, the lymphatic system plays a role in absorbing digested fats.\nHowever, this also makes blobs of fat too large to enter the capillaries.\nThe fat blobs are then transferred to the veins at the thoracic duct.\nand you wouldn't be able to meet your nutritional needs – not to mention that you would likely\nJust follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and",
+      "text_tokens": 471,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eWUAB194qhU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eWUAB194qhU.srt",
+          "status": "available",
+          "bytes": 9435,
+          "sha256": "ad7652283e930ddfb91943a3c8d188b381d4f86dde184e5c466f8e56a328b4ae",
+          "cues": 66,
+          "nonempty_cues": 66
+        },
+        "frame_indices": [
+          0,
+          227,
+          454,
+          682,
+          909,
+          1136,
+          1363,
+          1591,
+          1818,
+          2045,
+          2272,
+          2499,
+          2727,
+          2954,
+          3181,
+          3408,
+          3636,
+          3863,
+          4090,
+          4317,
+          4545,
+          4772,
+          4999,
+          5226,
+          5453,
+          5681,
+          5908,
+          6135,
+          6362,
+          6590,
+          6817,
+          7044
+        ],
+        "frame_seconds": [
+          0.0,
+          9.458333,
+          18.916667,
+          28.416667,
+          37.875,
+          47.333333,
+          56.791667,
+          66.291667,
+          75.75,
+          85.208333,
+          94.66666699999999,
+          104.125,
+          113.625,
+          123.083333,
+          132.541667,
+          142.0,
+          151.5,
+          160.958333,
+          170.416667,
+          179.875,
+          189.375,
+          198.833333,
+          208.291667,
+          217.75,
+          227.208333,
+          236.708333,
+          246.166667,
+          255.625,
+          265.083333,
+          274.583333,
+          284.041667,
+          293.5
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            2
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            13
+          ],
+          [
+            15
+          ],
+          [
+            17
+          ],
+          [
+            19
+          ],
+          [
+            22
+          ],
+          [
+            24
+          ],
+          [
+            25
+          ],
+          [
+            27
+          ],
+          [
+            29
+          ],
+          [
+            32
+          ],
+          [
+            34
+          ],
+          [
+            37
+          ],
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            43
+          ],
+          [
+            45
+          ],
+          [
+            47
+          ],
+          [
+            49
+          ],
+          [
+            51
+          ],
+          [
+            53
+          ],
+          [
+            56
+          ],
+          [
+            58
+          ],
+          [
+            60
+          ],
+          [
+            62
+          ],
+          [
+            65
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 2,
+            "start_ms": 4444,
+            "end_ms": 10193,
+            "text": "as it supplies every tiny corner of your body with nutrients and oxygen."
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 15924,
+            "end_ms": 20464,
+            "text": "There's another plumbing system working right alongside your circulatory system, and without"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 24454,
+            "end_ms": 29924,
+            "text": "This critical and often overlooked aspect of anatomy is the lymphatic system."
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 35604,
+            "end_ms": 40594,
+            "text": "and organs, such as the spleen and thymus, extending throughout the body."
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 45504,
+            "end_ms": 51244,
+            "text": "First, it returns excess body fluid back into the bloodstream."
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 55493,
+            "end_ms": 60273,
+            "text": "Tiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 61273,
+            "end_ms": 67154,
+            "text": "However, due to the blood pressure, fluid plasma also leaks out of the capillaries."
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 71313,
+            "end_ms": 77124,
+            "text": "This fluid mainly contains water, nutrients, gasses, ions and proteins."
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 82434,
+            "end_ms": 85374,
+            "text": "3 liters will not be reabsorbed by the blood vessels."
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 94624,
+            "end_ms": 98144,
+            "text": "redepositing it into the circulatory system."
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 103743,
+            "end_ms": 108523,
+            "text": "the excess fluid, now called the lymph, can empty back into a vein."
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 108523,
+            "end_ms": 114453,
+            "text": "One of the major ducts in the body is the thoracic duct, located around your chest."
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 118883,
+            "end_ms": 123704,
+            "text": "First, it prevents the fluid from causing cells to swell or become damaged."
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 129054,
+            "end_ms": 133664,
+            "text": "blood could become thicker, affecting how well the circulatory system transports oxygen"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 140364,
+            "end_ms": 145844,
+            "text": "Now, you might be wondering how the lymph moves from the vessels to the duct if there"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 148124,
+            "end_ms": 152254,
+            "text": "Well, something is pushing it, just not your heart."
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 160463,
+            "end_ms": 165644,
+            "text": "lymph drains back into your blood, ultimately improving your blood circulation."
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 170114,
+            "end_ms": 172043,
+            "text": "and nutrients."
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 179243,
+            "end_ms": 183534,
+            "text": "Bacteria can quietly hide among your cells and enter your body through the large pores"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 185444,
+            "end_ms": 190073,
+            "text": "The result of this infiltration could be serious illness."
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 196714,
+            "end_ms": 202194,
+            "text": "The lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes,"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 207554,
+            "end_ms": 212164,
+            "text": "When they encounter a bacteria, the immune cells such as dendritic cells neutralize the"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 216254,
+            "end_ms": 220993,
+            "text": "The lymph organs, including the spleen and thymus, are key sites where these immune cells"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 225474,
+            "end_ms": 229744,
+            "text": "When you have a throat infection, bacteria and white blood cells accumulate in the lymph"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 233244,
+            "end_ms": 238573,
+            "text": "These swollen glands can block your throat, making it difficult or even painful to swallow."
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 244784,
+            "end_ms": 250353,
+            "text": "Lastly, the lymphatic system plays a role in absorbing digested fats."
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 254504,
+            "end_ms": 259014,
+            "text": "However, this also makes blobs of fat too large to enter the capillaries."
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 263344,
+            "end_ms": 268084,
+            "text": "The fat blobs are then transferred to the veins at the thoracic duct."
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 272304,
+            "end_ms": 276424,
+            "text": "and you wouldn't be able to meet your nutritional needs – not to mention that you would likely"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 282824,
+            "end_ms": 287464,
+            "text": "Just follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and"
+          }
+        ],
+        "text": "as it supplies every tiny corner of your body with nutrients and oxygen.\nThere's another plumbing system working right alongside your circulatory system, and without\nThis critical and often overlooked aspect of anatomy is the lymphatic system.\nand organs, such as the spleen and thymus, extending throughout the body.\nFirst, it returns excess body fluid back into the bloodstream.\nTiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need\nHowever, due to the blood pressure, fluid plasma also leaks out of the capillaries.\nThis fluid mainly contains water, nutrients, gasses, ions and proteins.\n3 liters will not be reabsorbed by the blood vessels.\nredepositing it into the circulatory system.\nthe excess fluid, now called the lymph, can empty back into a vein.\nOne of the major ducts in the body is the thoracic duct, located around your chest.\nFirst, it prevents the fluid from causing cells to swell or become damaged.\nblood could become thicker, affecting how well the circulatory system transports oxygen\nNow, you might be wondering how the lymph moves from the vessels to the duct if there\nWell, something is pushing it, just not your heart.\nlymph drains back into your blood, ultimately improving your blood circulation.\nand nutrients.\nBacteria can quietly hide among your cells and enter your body through the large pores\nThe result of this infiltration could be serious illness.\nThe lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes,\nWhen they encounter a bacteria, the immune cells such as dendritic cells neutralize the\nThe lymph organs, including the spleen and thymus, are key sites where these immune cells\nWhen you have a throat infection, bacteria and white blood cells accumulate in the lymph\nThese swollen glands can block your throat, making it difficult or even painful to swallow.\nLastly, the lymphatic system plays a role in absorbing digested fats.\nHowever, this also makes blobs of fat too large to enter the capillaries.\nThe fat blobs are then transferred to the veins at the thoracic duct.\nand you wouldn't be able to meet your nutritional needs – not to mention that you would likely\nJust follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and",
+        "text_tokens": 471,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "start_ms": 194,
+          "end_ms": 288484,
+          "text": "You're probably familiar with the circulatory system and the blood that flows through it, as it supplies every tiny corner of your body with nutrients and oxygen. You can see your blood after you get hurt, but blood isn’t the only fluid circulating in your body. There's another plumbing system working right alongside your circulatory system, and without it, you would be dead within 24 hours. This critical and often overlooked aspect of anatomy is the lymphatic system. The lymphatic system consists of a complex network of lymphatic vessels, glands or nodes, and organs, such as the spleen and thymus, extending throughout the body. To understand its importance, we simply need to examine its three main functions. First, it returns excess body fluid back into the bloodstream. Blood loses a certain volume of fluid because capillaries are leaky. Tiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need them. However, due to the blood pressure, fluid plasma also leaks out of the capillaries. About 20 liters of fluid leaks out of the capillaries every day. This fluid mainly contains water, nutrients, gasses, ions and proteins. Of that amount, 17 liters will be reabsorbed into the venous end of the capillaries, but 3 liters will not be reabsorbed by the blood vessels. That’s where the lymphatic system comes into play. Lymphatic vessels zig zag around the capillaries, collecting the excess fluid, and eventually redepositing it into the circulatory system. The lymphatic vessels merge into larger lymphatic trunks, and then reach a lymphatic duct, where the excess fluid, now called the lymph, can empty back into a vein. One of the major ducts in the body is the thoracic duct, located around your chest. It's important for this excess fluid to return to the bloodstream for several reasons. First, it prevents the fluid from causing cells to swell or become damaged. Second, if fluid doesn't re-enter the circulatory system at the same rate that it leaves, the blood could become thicker, affecting how well the circulatory system transports oxygen and nutrients. Lastly, the fluid contains waste molecules and toxins that the body needs to eliminate Now, you might be wondering how the lymph moves from the vessels to the duct if there is no heart to pump the lymph around? Well, something is pushing it, just not your heart. Every time you move your body, the lymph within the vessels moves. This is yet another reason why you should exercise—it speeds up the rate at which lymph drains back into your blood, ultimately improving your blood circulation. Better blood circulation means all the cells in your body receive more essential oxygen and nutrients. Second, the lymphatic system assists the immune system in catching any invading bacteria. Bacteria can quietly hide among your cells and enter your body through the large pores of the lymphatic vessels. The result of this infiltration could be serious illness. However, along the lymphatic vessels are immune checkpoints called lymph nodes. The lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes, such as B-cells and T-cells, patrolling the node for any intruders. When they encounter a bacteria, the immune cells such as dendritic cells neutralize the threat, while also clearing any other toxins or foreign matter in the lymph. The lymph organs, including the spleen and thymus, are key sites where these immune cells mature into cells that are capable of fighting infections. When you have a throat infection, bacteria and white blood cells accumulate in the lymph nodes in your throat, causing them to swell. These swollen glands can block your throat, making it difficult or even painful to swallow. This is why doctors often check for swollen throat lymph nodes to determine whether you have an infection. Lastly, the lymphatic system plays a role in absorbing digested fats. Digested fats are covered in proteins and salts that help them dissolve in water. However, this also makes blobs of fat too large to enter the capillaries. Instead, the fats enter through the large lymphatic vessels. The fat blobs are then transferred to the veins at the thoracic duct. Without the lymphatic system, your blood would become thicker, your immune system would suffer, and you wouldn't be able to meet your nutritional needs – not to mention that you would likely be dead within 24 hours. The good news is that maintaining a healthy lymphatic system is fairly simple. Just follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and eat nutritious food!"
+        }
+      ],
+      "text": "S1 [00:00:00.194 --> 00:04:48.484] You're probably familiar with the circulatory system and the blood that flows through it, as it supplies every tiny corner of your body with nutrients and oxygen. You can see your blood after you get hurt, but blood isn’t the only fluid circulating in your body. There's another plumbing system working right alongside your circulatory system, and without it, you would be dead within 24 hours. This critical and often overlooked aspect of anatomy is the lymphatic system. The lymphatic system consists of a complex network of lymphatic vessels, glands or nodes, and organs, such as the spleen and thymus, extending throughout the body. To understand its importance, we simply need to examine its three main functions. First, it returns excess body fluid back into the bloodstream. Blood loses a certain volume of fluid because capillaries are leaky. Tiny pores allow nutrients and oxygen to exit the capillaries and reach the cells that need them. However, due to the blood pressure, fluid plasma also leaks out of the capillaries. About 20 liters of fluid leaks out of the capillaries every day. This fluid mainly contains water, nutrients, gasses, ions and proteins. Of that amount, 17 liters will be reabsorbed into the venous end of the capillaries, but 3 liters will not be reabsorbed by the blood vessels. That’s where the lymphatic system comes into play. Lymphatic vessels zig zag around the capillaries, collecting the excess fluid, and eventually redepositing it into the circulatory system. The lymphatic vessels merge into larger lymphatic trunks, and then reach a lymphatic duct, where the excess fluid, now called the lymph, can empty back into a vein. One of the major ducts in the body is the thoracic duct, located around your chest. It's important for this excess fluid to return to the bloodstream for several reasons. First, it prevents the fluid from causing cells to swell or become damaged. Second, if fluid doesn't re-enter the circulatory system at the same rate that it leaves, the blood could become thicker, affecting how well the circulatory system transports oxygen and nutrients. Lastly, the fluid contains waste molecules and toxins that the body needs to eliminate Now, you might be wondering how the lymph moves from the vessels to the duct if there is no heart to pump the lymph around? Well, something is pushing it, just not your heart. Every time you move your body, the lymph within the vessels moves. This is yet another reason why you should exercise—it speeds up the rate at which lymph drains back into your blood, ultimately improving your blood circulation. Better blood circulation means all the cells in your body receive more essential oxygen and nutrients. Second, the lymphatic system assists the immune system in catching any invading bacteria. Bacteria can quietly hide among your cells and enter your body through the large pores of the lymphatic vessels. The result of this infiltration could be serious illness. However, along the lymphatic vessels are immune checkpoints called lymph nodes. The lymph nodes have immune cells such as macrophages, dendritic cells, and lymphocytes, such as B-cells and T-cells, patrolling the node for any intruders. When they encounter a bacteria, the immune cells such as dendritic cells neutralize the threat, while also clearing any other toxins or foreign matter in the lymph. The lymph organs, including the spleen and thymus, are key sites where these immune cells mature into cells that are capable of fighting infections. When you have a throat infection, bacteria and white blood cells accumulate in the lymph nodes in your throat, causing them to swell. These swollen glands can block your throat, making it difficult or even painful to swallow. This is why doctors often check for swollen throat lymph nodes to determine whether you have an infection. Lastly, the lymphatic system plays a role in absorbing digested fats. Digested fats are covered in proteins and salts that help them dissolve in water. However, this also makes blobs of fat too large to enter the capillaries. Instead, the fats enter through the large lymphatic vessels. The fat blobs are then transferred to the veins at the thoracic duct. Without the lymphatic system, your blood would become thicker, your immune system would suffer, and you wouldn't be able to meet your nutritional needs – not to mention that you would likely be dead within 24 hours. The good news is that maintaining a healthy lymphatic system is fairly simple. Just follow your doctor's orders, get a nourishing amount of sleep,, exercise regularly, and eat nutritious food!",
+      "text_tokens": 978,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        26,
+        28,
+        30,
+        31,
+        33,
+        35,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        55,
+        57,
+        59,
+        61,
+        63,
+        64,
+        66
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e2de91bd90a7134562ffaf593354203518078b4c2ac20ee523a77d944feac3fd"
+}

@@ -1,0 +1,903 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "HdBsD5VspVM",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HdBsD5VspVM.srt",
+        "status": "available",
+        "bytes": 3869,
+        "sha256": "16a08027f4fe6e61926d62f6fc0856a4bc5d428e0f2ab4f59c1bb6d1a584a34e",
+        "cues": 35,
+        "nonempty_cues": 35
+      },
+      "frame_indices": [
+        0,
+        75,
+        151,
+        226,
+        301,
+        377,
+        452,
+        527,
+        603,
+        678,
+        754,
+        829,
+        904,
+        980,
+        1055,
+        1130,
+        1206,
+        1281,
+        1356,
+        1432,
+        1507,
+        1582,
+        1658,
+        1733,
+        1809,
+        1884,
+        1959,
+        2035,
+        2110,
+        2185,
+        2261,
+        2336
+      ],
+      "frame_seconds": [
+        0.0,
+        2.502503,
+        5.038372,
+        7.540874,
+        10.043377,
+        12.579246,
+        15.081748,
+        17.584251,
+        20.12012,
+        22.622623,
+        25.158492,
+        27.660994,
+        30.163497,
+        32.699366,
+        35.201869,
+        37.704371,
+        40.24024,
+        42.742743,
+        45.245245,
+        47.781114,
+        50.283617,
+        52.786119,
+        55.321989,
+        57.824491,
+        60.36036,
+        62.862863,
+        65.365365,
+        67.901235,
+        70.403737,
+        72.90624,
+        75.442109,
+        77.944611
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          34,
+          35
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 120,
+          "end_ms": 4560,
+          "text": "finally some good news for ad carries"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2360,
+          "end_ms": 6759,
+          "text": "infinity edge and a few more crit items"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 4560,
+          "end_ms": 8360,
+          "text": "just got some really nice Buffs look how"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6759,
+          "end_ms": 10519,
+          "text": "many people are very happy about the"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 8360,
+          "end_ms": 12519,
+          "text": "infinity edge changes so for Infinity"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 10519,
+          "end_ms": 14559,
+          "text": "Edge it hasn't been that great since the"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 12519,
+          "end_ms": 16720,
+          "text": "item rework and it just got a pretty"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 14559,
+          "end_ms": 18880,
+          "text": "damn cool buff you know how AP from ad"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 16720,
+          "end_ms": 20800,
+          "text": "and crit it also increases the crit"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 18880,
+          "end_ms": 24240,
+          "text": "damage you do well that got increased"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 20800,
+          "end_ms": 26160,
+          "text": "from 40% bonus crit damage to 50% bonus"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 24240,
+          "end_ms": 28320,
+          "text": "crit damage So when you buy Infinity"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 26160,
+          "end_ms": 31599,
+          "text": "Edge instead of now doing"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 28320,
+          "end_ms": 34040,
+          "text": "215% damage with crit you will do"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 31599,
+          "end_ms": 35920,
+          "text": "225% which is quite noticeable it's"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 34040,
+          "end_ms": 38120,
+          "text": "going to be very useful on 8 carries"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 35920,
+          "end_ms": 40320,
+          "text": "like gin or Draven but also on the Wind"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 38120,
+          "end_ms": 42200,
+          "text": "Bros Yasuo and Theon of course apart"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 40320,
+          "end_ms": 45360,
+          "text": "from that Lord Dominic's regards got"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 42200,
+          "end_ms": 47360,
+          "text": "more armor pen from 30% to 35% mortal"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 45360,
+          "end_ms": 50719,
+          "text": "reminder got the same buff armor pen"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 47360,
+          "end_ms": 52960,
+          "text": "from 30% to 35% and navori quick blade"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 50719,
+          "end_ms": 56160,
+          "text": "is now built differently with a BF sword"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 52960,
+          "end_ms": 58239,
+          "text": "and it gives five more ad from 60 to 65"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 56160,
+          "end_ms": 60239,
+          "text": "but at the same gold cost all of those"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 58239,
+          "end_ms": 62199,
+          "text": "items are at the same gold cost so free"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 60239,
+          "end_ms": 64239,
+          "text": "Buffs for ad carries and the wind Ross"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 62199,
+          "end_ms": 66200,
+          "text": "well yon is getting his second legendary"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 64239,
+          "end_ms": 68159,
+          "text": "skin so what did you expect so what do"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 66200,
+          "end_ms": 70520,
+          "text": "you think will this be enough to make ad"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 68159,
+          "end_ms": 72600,
+          "text": "car is not the least popular role now or"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 70520,
+          "end_ms": 74360,
+          "text": "will this just make yon and yaso even"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 72600,
+          "end_ms": 76439,
+          "text": "more annoying than they already are"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 74360,
+          "end_ms": 79920,
+          "text": "leave a like or I'll Nerf your nose and"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 76439,
+          "end_ms": 79920,
+          "text": "thanks for watching meow"
+        }
+      ],
+      "text": "finally some good news for ad carries\ninfinity edge and a few more crit items\njust got some really nice Buffs look how\nmany people are very happy about the\ninfinity edge changes so for Infinity\nEdge it hasn't been that great since the\nitem rework and it just got a pretty\ndamn cool buff you know how AP from ad\nand crit it also increases the crit\ndamage you do well that got increased\nfrom 40% bonus crit damage to 50% bonus\ncrit damage So when you buy Infinity\nEdge instead of now doing\n215% damage with crit you will do\n225% which is quite noticeable it's\ngoing to be very useful on 8 carries\nlike gin or Draven but also on the Wind\nBros Yasuo and Theon of course apart\nfrom that Lord Dominic's regards got\nmore armor pen from 30% to 35% mortal\nreminder got the same buff armor pen\nfrom 30% to 35% and navori quick blade\nis now built differently with a BF sword\nand it gives five more ad from 60 to 65\nbut at the same gold cost all of those\nitems are at the same gold cost so free\nBuffs for ad carries and the wind Ross\nwell yon is getting his second legendary\nskin so what did you expect so what do\nyou think will this be enough to make ad\ncar is not the least popular role now or\nwill this just make yon and yaso even\nmore annoying than they already are\nleave a like or I'll Nerf your nose and\nthanks for watching meow",
+      "text_tokens": 347,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HdBsD5VspVM",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HdBsD5VspVM.srt",
+          "status": "available",
+          "bytes": 3869,
+          "sha256": "16a08027f4fe6e61926d62f6fc0856a4bc5d428e0f2ab4f59c1bb6d1a584a34e",
+          "cues": 35,
+          "nonempty_cues": 35
+        },
+        "frame_indices": [
+          0,
+          75,
+          151,
+          226,
+          301,
+          377,
+          452,
+          527,
+          603,
+          678,
+          754,
+          829,
+          904,
+          980,
+          1055,
+          1130,
+          1206,
+          1281,
+          1356,
+          1432,
+          1507,
+          1582,
+          1658,
+          1733,
+          1809,
+          1884,
+          1959,
+          2035,
+          2110,
+          2185,
+          2261,
+          2336
+        ],
+        "frame_seconds": [
+          0.0,
+          2.502503,
+          5.038372,
+          7.540874,
+          10.043377,
+          12.579246,
+          15.081748,
+          17.584251,
+          20.12012,
+          22.622623,
+          25.158492,
+          27.660994,
+          30.163497,
+          32.699366,
+          35.201869,
+          37.704371,
+          40.24024,
+          42.742743,
+          45.245245,
+          47.781114,
+          50.283617,
+          52.786119,
+          55.321989,
+          57.824491,
+          60.36036,
+          62.862863,
+          65.365365,
+          67.901235,
+          70.403737,
+          72.90624,
+          75.442109,
+          77.944611
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 120,
+            "end_ms": 4560,
+            "text": "finally some good news for ad carries"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2360,
+            "end_ms": 6759,
+            "text": "infinity edge and a few more crit items"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 4560,
+            "end_ms": 8360,
+            "text": "just got some really nice Buffs look how"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6759,
+            "end_ms": 10519,
+            "text": "many people are very happy about the"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 8360,
+            "end_ms": 12519,
+            "text": "infinity edge changes so for Infinity"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 10519,
+            "end_ms": 14559,
+            "text": "Edge it hasn't been that great since the"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 12519,
+            "end_ms": 16720,
+            "text": "item rework and it just got a pretty"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 14559,
+            "end_ms": 18880,
+            "text": "damn cool buff you know how AP from ad"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 16720,
+            "end_ms": 20800,
+            "text": "and crit it also increases the crit"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 18880,
+            "end_ms": 24240,
+            "text": "damage you do well that got increased"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 20800,
+            "end_ms": 26160,
+            "text": "from 40% bonus crit damage to 50% bonus"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 24240,
+            "end_ms": 28320,
+            "text": "crit damage So when you buy Infinity"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 26160,
+            "end_ms": 31599,
+            "text": "Edge instead of now doing"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 28320,
+            "end_ms": 34040,
+            "text": "215% damage with crit you will do"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 31599,
+            "end_ms": 35920,
+            "text": "225% which is quite noticeable it's"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 34040,
+            "end_ms": 38120,
+            "text": "going to be very useful on 8 carries"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 35920,
+            "end_ms": 40320,
+            "text": "like gin or Draven but also on the Wind"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 38120,
+            "end_ms": 42200,
+            "text": "Bros Yasuo and Theon of course apart"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 40320,
+            "end_ms": 45360,
+            "text": "from that Lord Dominic's regards got"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 42200,
+            "end_ms": 47360,
+            "text": "more armor pen from 30% to 35% mortal"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 45360,
+            "end_ms": 50719,
+            "text": "reminder got the same buff armor pen"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 47360,
+            "end_ms": 52960,
+            "text": "from 30% to 35% and navori quick blade"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 50719,
+            "end_ms": 56160,
+            "text": "is now built differently with a BF sword"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 52960,
+            "end_ms": 58239,
+            "text": "and it gives five more ad from 60 to 65"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 56160,
+            "end_ms": 60239,
+            "text": "but at the same gold cost all of those"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 58239,
+            "end_ms": 62199,
+            "text": "items are at the same gold cost so free"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 60239,
+            "end_ms": 64239,
+            "text": "Buffs for ad carries and the wind Ross"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 62199,
+            "end_ms": 66200,
+            "text": "well yon is getting his second legendary"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 64239,
+            "end_ms": 68159,
+            "text": "skin so what did you expect so what do"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 66200,
+            "end_ms": 70520,
+            "text": "you think will this be enough to make ad"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 68159,
+            "end_ms": 72600,
+            "text": "car is not the least popular role now or"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 70520,
+            "end_ms": 74360,
+            "text": "will this just make yon and yaso even"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 72600,
+            "end_ms": 76439,
+            "text": "more annoying than they already are"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 74360,
+            "end_ms": 79920,
+            "text": "leave a like or I'll Nerf your nose and"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 76439,
+            "end_ms": 79920,
+            "text": "thanks for watching meow"
+          }
+        ],
+        "text": "finally some good news for ad carries\ninfinity edge and a few more crit items\njust got some really nice Buffs look how\nmany people are very happy about the\ninfinity edge changes so for Infinity\nEdge it hasn't been that great since the\nitem rework and it just got a pretty\ndamn cool buff you know how AP from ad\nand crit it also increases the crit\ndamage you do well that got increased\nfrom 40% bonus crit damage to 50% bonus\ncrit damage So when you buy Infinity\nEdge instead of now doing\n215% damage with crit you will do\n225% which is quite noticeable it's\ngoing to be very useful on 8 carries\nlike gin or Draven but also on the Wind\nBros Yasuo and Theon of course apart\nfrom that Lord Dominic's regards got\nmore armor pen from 30% to 35% mortal\nreminder got the same buff armor pen\nfrom 30% to 35% and navori quick blade\nis now built differently with a BF sword\nand it gives five more ad from 60 to 65\nbut at the same gold cost all of those\nitems are at the same gold cost so free\nBuffs for ad carries and the wind Ross\nwell yon is getting his second legendary\nskin so what did you expect so what do\nyou think will this be enough to make ad\ncar is not the least popular role now or\nwill this just make yon and yaso even\nmore annoying than they already are\nleave a like or I'll Nerf your nose and\nthanks for watching meow",
+        "text_tokens": 347,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "start_ms": 120,
+          "end_ms": 79920,
+          "text": "finally some good news for ad carries infinity edge and a few more crit items just got some really nice Buffs look how many people are very happy about the infinity edge changes so for Infinity Edge it hasn't been that great since the item rework and it just got a pretty damn cool buff you know how AP from ad and crit it also increases the crit damage you do well that got increased from 40% bonus crit damage to 50% bonus crit damage So when you buy Infinity Edge instead of now doing 215% damage with crit you will do 225% which is quite noticeable it's going to be very useful on 8 carries like gin or Draven but also on the Wind Bros Yasuo and Theon of course apart from that Lord Dominic's regards got more armor pen from 30% to 35% mortal reminder got the same buff armor pen from 30% to 35% and navori quick blade is now built differently with a BF sword and it gives five more ad from 60 to 65 but at the same gold cost all of those items are at the same gold cost so free Buffs for ad carries and the wind Ross well yon is getting his second legendary skin so what did you expect so what do you think will this be enough to make ad car is not the least popular role now or will this just make yon and yaso even more annoying than they already are leave a like or I'll Nerf your nose and thanks for watching meow"
+        }
+      ],
+      "text": "S1 [00:00:00.120 --> 00:01:19.920] finally some good news for ad carries infinity edge and a few more crit items just got some really nice Buffs look how many people are very happy about the infinity edge changes so for Infinity Edge it hasn't been that great since the item rework and it just got a pretty damn cool buff you know how AP from ad and crit it also increases the crit damage you do well that got increased from 40% bonus crit damage to 50% bonus crit damage So when you buy Infinity Edge instead of now doing 215% damage with crit you will do 225% which is quite noticeable it's going to be very useful on 8 carries like gin or Draven but also on the Wind Bros Yasuo and Theon of course apart from that Lord Dominic's regards got more armor pen from 30% to 35% mortal reminder got the same buff armor pen from 30% to 35% and navori quick blade is now built differently with a BF sword and it gives five more ad from 60 to 65 but at the same gold cost all of those items are at the same gold cost so free Buffs for ad carries and the wind Ross well yon is getting his second legendary skin so what did you expect so what do you think will this be enough to make ad car is not the least popular role now or will this just make yon and yaso even more annoying than they already are leave a like or I'll Nerf your nose and thanks for watching meow",
+      "text_tokens": 344,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "8d13ff4f230f7e1118ff873a524ad35179593cd06cdaa0763dd13185f9a4c8ee"
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "32bffbf2486c306ee2a6058afbcefa58e43404a4ac702dbe31aa9b0f4b19990d",
+  "response": {
+    "id": "7f8ea27e-cfd0-4d76-b0d6-ef03739a6e9e",
+    "object": "chat.completion",
+    "created": 1793676013,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"C\",\"supported\":true,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S45\",\"quote\":\"his goals were clear saving the club from the accumulated debts\"},{\"block_id\":\"S78\",\"quote\":\"florentino's number one goal was still\"},{\"block_id\":\"S594\",\"quote\":\"the biggest evidence of the president's commercial and marketing intentions\"}],\"frame_ids\":[\"F3360\",\"F5040\",\"F21840\",\"F23520\",\"F50400\"],\"windows\":[],\"notes\":\"Frames show Florentino Pérez (man with glasses) as president; subtitles reference his goals of clearing debts and commercial/marketing intentions, and signing stars like Figo/Ronaldo. No subtitle explicitly states the campaign promise of bringing famous stars plus financial assurances, so complete=false.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9160,
+      "completion_tokens": 172,
+      "total_tokens": 9332,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9032
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.3507961332798004
+}

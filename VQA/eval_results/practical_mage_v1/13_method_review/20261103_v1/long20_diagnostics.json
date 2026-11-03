@@ -1,0 +1,1337 @@
+{
+  "long_flow": {
+    "same_as_base": 6,
+    "valid_abstention": 9,
+    "invalid_first_pass": 1,
+    "verification_rejected": 3,
+    "no_eligible_dense_window": 1
+  },
+  "cases": [
+    {
+      "index": "483",
+      "video_id": "H8fGd3fCJbg",
+      "question": "Based on the video, what is not true about the artwork \"Apollo and Daphne\"?",
+      "options": [
+        " Apollo didn't touch Daphne's skin physically.",
+        " Apollo tried to grab Daphne.",
+        " Apollo had curly hair in the sculpture.",
+        " Daphne's fingertips took root."
+      ],
+      "task_type": "Action Recognition",
+      "gt": "D",
+      "baseline": "C",
+      "aligned": "B",
+      "continuous": "B",
+      "api": "C",
+      "system": "C",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "C",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [
+          {
+            "block_id": "S153",
+            "quote": "At first glance it seems there is body contact between the two figures but actually they don't touch at all"
+          },
+          {
+            "block_id": "S178",
+            "quote": "Apollo's hair by contrast, is a thick mop of curls"
+          }
+        ],
+        "frame_ids": [
+          "F29664",
+          "F38389",
+          "F40134",
+          "F52348"
+        ],
+        "windows": [],
+        "notes": "Subtitles state the figures do not touch (supports A, refutes B) and that Apollo's hair is a thick mop of curls (supports C). Frames show Daphne's hand/arm transforming into branches/roots (supports D). Thus C is the only statement contradicted by the evidence."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 1804.9031,
+      "global_max_gap_s": 58.224833333333436,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "273a0edb10c3e53cbdb4ab61789f376d9fbe057a4b9ae2dc15fda7f2955c285b",
+        "verify": null
+      }
+    },
+    {
+      "index": "486",
+      "video_id": "ElWG0_kjy_Y",
+      "question": "What is the main idea of the video?",
+      "options": [
+        " Da Vinci's tragic life journey.",
+        " Da Vinci's talent in both art and science.",
+        " Whose portrait is Mona Lisa?",
+        " Da Vinci's masterpiece-Mona Lisa."
+      ],
+      "task_type": "Information Synopsis",
+      "gt": "D",
+      "baseline": "B",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "B",
+      "system": "B",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "B",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [
+          {
+            "block_id": "S24",
+            "quote": "He believed that ideas formulated in one realm could - and should, inform the other. He would take all his scientific knowledge and apply it to the Mona Lisa"
+          },
+          {
+            "block_id": "S269",
+            "quote": "The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the ability to combine intellect with imagination. Art and science are perfectly blended in a single work"
+          }
+        ],
+        "frame_ids": [
+          "F3816",
+          "F13354",
+          "F43879",
+          "F57233"
+        ],
+        "windows": [],
+        "notes": "Subtitles explicitly state Leonardo combined art and science, applying scientific knowledge to the Mona Lisa and blending art and science in a single work. Frames show his engineering/notebook drawings alongside the painting, supporting the art-and-science theme."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 1973.340007,
+      "global_max_gap_s": 63.66366366366378,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "6c07120a94146574bc9b2eb9f7f9cf369c355d8fd9a488a21942664ea265bd80",
+        "verify": null
+      }
+    },
+    {
+      "index": "524",
+      "video_id": "eqJPDJr_irE",
+      "question": "What is the main focus of the argument in the second case based on the content of the video?",
+      "options": [
+        " Whether the man is the biological father of his son.",
+        " Whether the man is the biological father of twins.",
+        " Whether the man is the unfaithful to his wife in marriage.",
+        " Whether the man is the biological father of his daughter."
+      ],
+      "task_type": "Information Synopsis",
+      "gt": "B",
+      "baseline": "B",
+      "aligned": "B",
+      "continuous": "B",
+      "api": "B",
+      "system": "B",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "B",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [
+          {
+            "block_id": "S630",
+            "quote": "this court has heard a case where twins could potentially"
+          },
+          {
+            "block_id": "S651",
+            "quote": "related to beautiful twins Christian and Christiana and their mother Miss Davis says she believes that the twins were fathered by two different men"
+          },
+          {
+            "block_id": "S422",
+            "quote": "find out if they're mine or Not"
+          }
+        ],
+        "frame_ids": [
+          "F46319",
+          "F50179",
+          "F30879"
+        ],
+        "windows": [],
+        "notes": "Second case (Johnson v. Davis) concerns twins Christian and Christiana; mother claims twins fathered by two different men, and Mr. Johnson seeks to find out if they are his. Focus is whether the man is biological father of the twins."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 1996.2943,
+      "global_max_gap_s": 64.39766666666674,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "48ed344dbb93a7981362397196a9b272ba6da9135b083ea4af48d314a17b3583",
+        "verify": null
+      }
+    },
+    {
+      "index": "549",
+      "video_id": "HTv4z899xgA",
+      "question": "Before Jane spills the nail polish, why does Grayson, who is wearing a black suit and a red tie, sit on the couch with a grim expression?",
+      "options": [
+        " Because Grayson discovered that a stranger had broken into the house.",
+        " Because Grayson was facing trouble at work.",
+        " Because Grayson couldn't accept the fact that his girlfriend Deb had gained weight.",
+        " Because Grayson's girlfriend Deb died in a car accident."
+      ],
+      "task_type": "Action Reasoning",
+      "gt": "D",
+      "baseline": "D",
+      "aligned": "C",
+      "continuous": "C",
+      "api": "D",
+      "system": "D",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "D",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [
+          {
+            "block_id": "S422",
+            "quote": "my best friend was adam she died this morning i know"
+          },
+          {
+            "block_id": "S850",
+            "quote": "people say there are five stages of grief denial anger bargaining depression and acceptance"
+          }
+        ],
+        "frame_ids": [
+          "F33169",
+          "F61915",
+          "F64126"
+        ],
+        "windows": [],
+        "notes": "Subtitles establish Deb died that morning and grief stages; Grayson's grim demeanor is consistent with mourning Deb's death, though no frame directly shows him in black suit/red tie on the couch."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2859.064542,
+      "global_max_gap_s": 92.25883333333337,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "af1accba43a6dcfd1c958266f616a45191742e90f46cf504439c00a536fde633",
+        "verify": null
+      }
+    },
+    {
+      "index": "558",
+      "video_id": "eAIKvD_gLJo",
+      "question": "Based on the early part of the video, what can we infer as the reason for the sudden surge in popularity of crystals and gemstones?",
+      "options": [
+        " A whole new variety of crystals and gemstones has emerged.",
+        " Enhanced accessibility and affordability of gemstones.",
+        " Social media promotion.",
+        " Growing interest in holistic wellness and alternative spirituality."
+      ],
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "baseline": "D",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "D",
+      "system": "D",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "D",
+        "supported": true,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S44",
+            "quote": "for their various spiritual effects. She uses them while meditating."
+          },
+          {
+            "block_id": "S22",
+            "quote": "I feel like they hold a very, very, very beautiful energy."
+          }
+        ],
+        "frame_ids": [
+          "F0",
+          "F2053",
+          "F4106"
+        ],
+        "windows": [],
+        "notes": "Early subtitles link crystals to spiritual effects and meditation, and a speaker describes their 'energy,' supporting growing interest in holistic wellness/alternative spirituality. Social media is also shown (F2053, S22 mentions influencers), so the single best inference is D, though evidence is partial."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2545.92,
+      "global_max_gap_s": 82.15999999999997,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "e1d28e56309e5163f2039b023c900fd3e1141d68aac27c58e767587cdd1774dc",
+        "verify": null
+      }
+    },
+    {
+      "index": "559",
+      "video_id": "eAIKvD_gLJo",
+      "question": "Based on the content of the video, why did the local government send an entourage to follow the reporter?",
+      "options": [
+        " To guide them.",
+        " To influence what they hear from the miners.",
+        " To help them with licensing issues.",
+        " To ensure their safety."
+      ],
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "baseline": "B",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "",
+      "system": "B",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F22585",
+          "F26691",
+          "F63648"
+        ],
+        "windows": [],
+        "notes": "No supplied subtitle or frame directly states why the local government sent an entourage to follow the reporter; the question's premise is not evidenced."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2545.92,
+      "global_max_gap_s": 82.15999999999997,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "145314a39cd95d6c0c5abce4aec0ee79ace7303a578c57e0e32e1ded65422a0f",
+        "verify": null
+      }
+    },
+    {
+      "index": "576",
+      "video_id": "EFQtbZQ74Eg",
+      "question": "Why did Rookie flash over the wall at the beginning of the game?",
+      "options": [
+        " He is surrounded by enemies.",
+        " He is in a hurry to go.",
+        " The cost of flash is low.",
+        " He wants to attack the enemy."
+      ],
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "baseline": "D",
+      "aligned": "B",
+      "continuous": "A",
+      "api": "",
+      "system": "D",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F0",
+          "F2061",
+          "F4123",
+          "F6184"
+        ],
+        "windows": [],
+        "notes": "No supplied frame or subtitle shows Rookie flashing over a wall at the beginning of the game, nor any stated reason for such a flash. Early frames show champion select and early laning without that event."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2132.098765,
+      "global_max_gap_s": 68.80213546880219,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "abfced1d4c7ff658ae8d142bef5c160a91b0d8acee0e8ccfa4d015b126d77dfd",
+        "verify": null
+      }
+    },
+    {
+      "index": "579",
+      "video_id": "HT2iYl6E_Vo",
+      "question": "What are the comparative strengths of each team?",
+      "options": [
+        " The level is comparable.",
+        " Team TL has a higher level.",
+        " Team G2 has a higher level.",
+        " None of the above."
+      ],
+      "task_type": "Action Reasoning",
+      "gt": "A",
+      "baseline": "B",
+      "aligned": "A",
+      "continuous": "B",
+      "api": "",
+      "system": "B",
+      "reason": "invalid_first_pass",
+      "independent": {
+        "answer": "A",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [
+          {
+            "block_id": "S1143",
+            "quote": "refusing to let G2 have that lead for even a moment"
+          }
+        ],
+        "frame_ids": [
+          "F2991",
+          "F5983",
+          "F11965",
+          "F14956",
+          "F20939",
+          "F23930",
+          "F32904",
+          "F38886",
+          "F41878",
+          "F44869",
+          "F47860",
+          "F53843",
+          "F62816",
+          "F65808",
+          "F68799",
+          "F71790",
+          "F74781",
+          "F77773",
+          "F80764",
+          "F86746",
+          "F89738",
+          "F92729"
+        ],
+        "windows": [],
+        "notes": "Scoreboard frames show G2 and Liquid trading rounds closely (e.g., 2-0, 3-4, 5-6, 6-6, 10-6, 12-7, 9-9, 9-12), and S1143 notes neither team allowed the other a lasting lead, indicating comparable level."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [
+          "frame citation not supplied"
+        ],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 3094.060727,
+      "global_max_gap_s": 99.83316649983323,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "4bf72223bc82a8e14747b943e266c22dbefa63891cebbfef0466e259d448607f",
+        "verify": null
+      }
+    },
+    {
+      "index": "595",
+      "video_id": "bFuVjFacj_E",
+      "question": "Why was the man with glass selected as the president of the club according to the video?",
+      "options": [
+        " His promise to build a new stadium for the club.",
+        " His commitment to maintaining the club's traditional playing style.",
+        " His promise to bring famous football stars and financial assurances to the club.",
+        " His proven track record in successfully managing other sports organizations and his vision for international expansion of the club's brand."
+      ],
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "baseline": "D",
+      "aligned": "C",
+      "continuous": "C",
+      "api": "C",
+      "system": "D",
+      "reason": "verification_rejected",
+      "independent": {
+        "answer": "C",
+        "supported": true,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S45",
+            "quote": "his goals were clear saving the club from the accumulated debts"
+          },
+          {
+            "block_id": "S78",
+            "quote": "florentino's number one goal was still"
+          },
+          {
+            "block_id": "S594",
+            "quote": "the biggest evidence of the president's commercial and marketing intentions"
+          }
+        ],
+        "frame_ids": [
+          "F3360",
+          "F5040",
+          "F21840",
+          "F23520",
+          "F50400"
+        ],
+        "windows": [],
+        "notes": "Frames show Florentino Pérez (man with glasses) as president; subtitles reference his goals of clearing debts and commercial/marketing intentions, and signing stars like Figo/Ronaldo. No subtitle explicitly states the campaign promise of bringing famous stars plus financial assurances, so complete=false."
+      },
+      "verify": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S45",
+            "quote": "his goals were clear saving the club from the accumulated debts"
+          },
+          {
+            "block_id": "S78",
+            "quote": "florentino's number one goal was still"
+          },
+          {
+            "block_id": "S594",
+            "quote": "the biggest evidence of the president's commercial and marketing intentions"
+          }
+        ],
+        "frame_ids": [
+          "F3360",
+          "F21840",
+          "F23520",
+          "F50400"
+        ],
+        "windows": [],
+        "notes": "Frames show Florentino Pérez (man with glasses) and commercial/revenue graphics, and subtitles mention debt-clearing goals and commercial intentions. However, no supplied subtitle or frame explicitly states the campaign promise of bringing famous football stars plus financial assurances as the reason he was selected president, so option C is not directly supported."
+      },
+      "errors": {
+        "independent": [],
+        "verify": []
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2172.17,
+      "global_max_gap_s": 70.07000000000016,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "067b162f2247540ad73d932db734475fb5e9ec62d6a85ada9b32d6ac4124dfc4",
+        "verify": "88a8d61b08bf6ec0f8abac1eb40952b06177e9283d4f16822294f993cd4359b9"
+      }
+    },
+    {
+      "index": "596",
+      "video_id": "bFuVjFacj_E",
+      "question": "Why did Florentino Perez fail to create a well-rounded team capable of competing?",
+      "options": [
+        " An overemphasis on a defensive strategy, neglecting the offensive capabilities.",
+        " A strict adherence to playing homegrown talent at the expense of experienced players.",
+        " The decision to prioritize youth development over signing experienced stars.",
+        " The team's imbalance is due to the lack of a true defensive-minded midfielder."
+      ],
+      "task_type": "Object Reasoning",
+      "gt": "D",
+      "baseline": "C",
+      "aligned": "C",
+      "continuous": "C",
+      "api": "D",
+      "system": "C",
+      "reason": "verification_rejected",
+      "independent": {
+        "answer": "D",
+        "supported": true,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S368",
+            "quote": "in the transfer market which was a sensible move as del bosque was begging for new defenders"
+          },
+          {
+            "block_id": "S405",
+            "quote": "but instead of buying defenders and closing the gaps within the team perez wanted ronaldo to be the newest"
+          }
+        ],
+        "frame_ids": [
+          "F20160",
+          "F23520"
+        ],
+        "windows": [],
+        "notes": "Subtitles indicate Perez neglected defensive gaps (del Bosque begging for defenders) and prioritized signing attackers like Ronaldo, supporting team imbalance due to missing defensive midfielder; no explicit mention of a 'defensive-minded midfielder' specifically."
+      },
+      "verify": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S368",
+            "quote": "in the transfer market which was a sensible move as del bosque was begging for new defenders"
+          },
+          {
+            "block_id": "S405",
+            "quote": "but instead of buying defenders and closing the gaps within the team perez wanted ronaldo to be the newest"
+          }
+        ],
+        "frame_ids": [
+          "F20160",
+          "F23520"
+        ],
+        "windows": [],
+        "notes": "Subtitles show Perez neglected defensive gaps and prioritized signing attackers like Ronaldo, indicating imbalance, but no evidence specifically identifies the lack of a true defensive-minded midfielder as the cause. Option D's specific claim is not directly supported."
+      },
+      "errors": {
+        "independent": [],
+        "verify": []
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2172.17,
+      "global_max_gap_s": 70.07000000000016,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "37dcefeef46477f2eb9e45ab0bd7cd2f5c0039e08edbb108a132efe36b1b0420",
+        "verify": "ab106be7659e83e8a4abae19d4b61ac8d2b7a5c0a5bce59beff4fcb0f742de4a"
+      }
+    },
+    {
+      "index": "601",
+      "video_id": "i1p5PAgNvR0",
+      "question": "How many of Liverpool's number 11, Salah's goals are featured in the video?",
+      "options": [
+        " 10.",
+        " 25.",
+        " 200.",
+        " 50."
+      ],
+      "task_type": "Counting Problem",
+      "gt": "C",
+      "baseline": "A",
+      "aligned": "B",
+      "continuous": "B",
+      "api": "",
+      "system": "A",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S215",
+            "quote": "Salah [Applause] scores down to Salah goal 43"
+          },
+          {
+            "block_id": "S119",
+            "quote": "Muhammad Salah equals the record for"
+          }
+        ],
+        "frame_ids": [
+          "F37078",
+          "F24718",
+          "F16994"
+        ],
+        "windows": [],
+        "notes": "Subtitles and frames show multiple Salah goals and his No. 11 shirt, but no supplied evidence states a total count of Salah's No. 11 goals featured; options 10/25/200/50 cannot be verified."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 1915.68,
+      "global_max_gap_s": 61.80000000000018,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "ed9cbbd24ac5cc08783d67a8096dfa6d0c595fc12dab68ed416670847a0f84fd",
+        "verify": null
+      }
+    },
+    {
+      "index": "607",
+      "video_id": "HKbJtgUrHGk",
+      "question": "How many balls does the woman in pink pitch?",
+      "options": [
+        " 5.",
+        " 4.",
+        " 3.",
+        " She is just sitting and does not pitch a ball."
+      ],
+      "task_type": "Counting Problem",
+      "gt": "D",
+      "baseline": "D",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "D",
+      "system": "D",
+      "reason": "same_as_base",
+      "independent": {
+        "answer": "D",
+        "supported": true,
+        "complete": true,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F4580",
+          "F13741",
+          "F16031",
+          "F27482",
+          "F29772",
+          "F41223",
+          "F48093",
+          "F54964",
+          "F57254",
+          "F59544",
+          "F64125",
+          "F66415"
+        ],
+        "windows": [],
+        "notes": "The woman in pink is consistently shown seated on the bench holding a green bat, not pitching; no frame shows her pitching a ball."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2368.8665,
+      "global_max_gap_s": 76.44303333333346,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "61ee0873c90355dcadb76236e045786e7476b3cd3cac04771d4c7d0b3f00b123",
+        "verify": null
+      }
+    },
+    {
+      "index": "626",
+      "video_id": "D97vMwfWxvI",
+      "question": "Which tool is used in the first magic?",
+      "options": [
+        " A string.",
+        " A coin.",
+        " A hat.",
+        " A pair of glasses."
+      ],
+      "task_type": "Object Recognition",
+      "gt": "A",
+      "baseline": "A",
+      "aligned": "A",
+      "continuous": "A",
+      "api": "",
+      "system": "A",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F0",
+          "F2415"
+        ],
+        "windows": [],
+        "notes": "The earliest sampled frames show a marker pen, not any of the listed options (string, coin, hat, glasses). No supplied frame or subtitle establishes which tool is used in the first magic trick."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2495.066667,
+      "global_max_gap_s": 80.5,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "40246e0da183ce3558536227972e118a81f36c905dfd753d12a38642bf21ef35",
+        "verify": null
+      }
+    },
+    {
+      "index": "629",
+      "video_id": "_eJsOYC8SVU",
+      "question": "What do the first and the fifth segments of magic in this video have in common?",
+      "options": [
+        " They include the same tools for magic.",
+        " They both need an assistant.",
+        " They happen in the same place.",
+        " They both require several demonstrations."
+      ],
+      "task_type": "Object Reasoning",
+      "gt": "C",
+      "baseline": "D",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "",
+      "system": "D",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F0",
+          "F2768",
+          "F5537",
+          "F11074",
+          "F27684",
+          "F38757",
+          "F49831",
+          "F60905",
+          "F74746"
+        ],
+        "windows": [],
+        "notes": "Sparse samples show multiple magic segments in different settings (chalkboard room, outdoor table, blue-lit room, red-table room), but the video does not label which is the 'first' or 'fifth' segment, so the shared property cannot be established."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 3579.409167,
+      "global_max_gap_s": 115.49037500000031,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "090fb9b9eb5f9a280f39afeaae8f2882ab7c0a947c9d0353f35c7ec98458f3be",
+        "verify": null
+      }
+    },
+    {
+      "index": "654",
+      "video_id": "c03YTDzmsK8",
+      "question": "What are the correct steps to make the adorable rabbit?\n(a) Making a white tail from a microfiber duster mop pad.\n(b) Cutting off the tinsel from the original rabbit.\n(c) Wrapping the brown yarn across the rabbit.\n(d) Making a cute little lace bow and tie it to the rabbit.",
+      "options": [
+        " (a)(c)(b)(d).",
+        " (b)(c)(a)(d).",
+        " (b)(a)(d)(c).",
+        " (c)(b)(a)(d)."
+      ],
+      "task_type": "Temporal Reasoning",
+      "gt": "B",
+      "baseline": "B",
+      "aligned": "A",
+      "continuous": "B",
+      "api": "",
+      "system": "B",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S83",
+            "quote": "I'm going to pull my brown yarn right across that"
+          },
+          {
+            "block_id": "S296",
+            "quote": "for your bow use whatever ribbon that's going to to match your Decor"
+          },
+          {
+            "block_id": "S612",
+            "quote": "tight kind of wrap that and put a little thing of hot glue for the end of my little tail right here kind of"
+          }
+        ],
+        "frame_ids": [
+          "F6882",
+          "F11469",
+          "F20645",
+          "F22938",
+          "F25232",
+          "F27526",
+          "F29820"
+        ],
+        "windows": [],
+        "notes": "Frames show brown yarn wrapping (F6882, F11469), white fluffy tail (F20645, F22938), and lace bow (F25232, F27526, F29820). No direct evidence of cutting tinsel off an original rabbit or of the exact ordering among all four steps; sparse samples cannot establish sequence."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2370.3,
+      "global_max_gap_s": 76.4666666666667,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "ff3d1cecb737eaed5d78e1b7749243b664915649acf6ba26a58169e2a5acf261",
+        "verify": null
+      }
+    },
+    {
+      "index": "674",
+      "video_id": "eno3UMEMQJI",
+      "question": "What did the male protagonist in the video do immediately after finishing his personal report at the meeting?",
+      "options": [
+        " Play games.",
+        " Watch a friend unbox a watch.",
+        " Have lunch.",
+        " Chat with many friends."
+      ],
+      "task_type": "Action Recognition",
+      "gt": "C",
+      "baseline": "D",
+      "aligned": "C",
+      "continuous": "C",
+      "api": "B",
+      "system": "D",
+      "reason": "no_eligible_dense_window",
+      "independent": {
+        "answer": "B",
+        "supported": true,
+        "complete": false,
+        "subtitle_quotes": [],
+        "frame_ids": [
+          "F45878",
+          "F47872",
+          "F49867",
+          "F51862"
+        ],
+        "windows": [],
+        "notes": "Frames show a Garmin watch being unboxed and placed on a wrist (F45878-F51862), consistent with watching a friend unbox a watch. However, the meeting/personal-report context and immediate ordering are not established by the sparse samples or subtitles, so completeness is not supported."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2063.227833,
+      "global_max_gap_s": 66.56650000000013,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "73a14fadb8709abad61eadd05ce6dc1bb080483f6b8ff8861b2d5ed2ace2e8f8",
+        "verify": null
+      }
+    },
+    {
+      "index": "704",
+      "video_id": "elprD1hnDyU",
+      "question": "On which days of the week does the woman in the video take a rest?",
+      "options": [
+        " Saturday, Monday.",
+        " Thursday, Tuesday.",
+        " Thursday, Saturday.",
+        " Saturday, Sunday."
+      ],
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "baseline": "D",
+      "aligned": "C",
+      "continuous": "D",
+      "api": "",
+      "system": "D",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S978",
+            "quote": "Sunday so yeah this is the last workout of my working out week I'll be having two rest days this week one tomorrow and then I'd had one yesterday as you guys"
+          }
+        ],
+        "frame_ids": [
+          "F56832"
+        ],
+        "windows": [],
+        "notes": "S978 indicates the speaker is on Sunday, has two rest days this week (one tomorrow, one yesterday), but does not name the specific rest days as Thursday/Saturday or Saturday/Sunday. No subtitle or frame explicitly states which weekdays are rest days, so the options cannot be confirmed."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2710.44,
+      "global_max_gap_s": 87.44000000000005,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "f04813312f1dea80476fcb52fb1483335586cc32788a8532c6e91d418c358b47",
+        "verify": null
+      }
+    },
+    {
+      "index": "710",
+      "video_id": "bIQf1HwEqHU",
+      "question": "Which of the following options describes the video's heroine's description of the giveaway in the correct order of presentation?",
+      "options": [
+        " Gatorade merch, adidas runners shoes, garmin watch, shokz run belt, rudy project yonder and casey shades, miam book.",
+        " Gatorade merch, adidas runners shoes, miam book, garmin watch, shokz run belt, rudy project yonder and casey shades.",
+        " Gatorade merch, miam book, garmin watch, shokz run belt, rudy project yonder and casey shades, adidas runners shoes.",
+        " Gatorade merch, miam book, garmin watch, shokz run belt, adidas runners shoes, rudy project yonder and casey shades."
+      ],
+      "task_type": "Temporal Reasoning",
+      "gt": "C",
+      "baseline": "C",
+      "aligned": "B",
+      "continuous": "C",
+      "api": "D",
+      "system": "C",
+      "reason": "verification_rejected",
+      "independent": {
+        "answer": "D",
+        "supported": true,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S604",
+            "quote": "oh my God I completely forgot we are doing a giveaway as I was editing"
+          },
+          {
+            "block_id": "S627",
+            "quote": "also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone"
+          },
+          {
+            "block_id": "S651",
+            "quote": "two lers again one with a 10.5 shoe size and one with a 7.5 shoe size"
+          }
+        ],
+        "frame_ids": [
+          "F44590",
+          "F46182",
+          "F47775"
+        ],
+        "windows": [
+          {
+            "start": 1788.0,
+            "end": 1796.0
+          },
+          {
+            "start": 1855.0,
+            "end": 1863.0
+          }
+        ],
+        "notes": "F44590 on-screen giveaway list shows order: 1 Gatorade merch, 2 MIAM book, 3 Garmin watch, 4 Shokz run belt. S627 confirms Shokz race belt after the book/watch items; S651 mentions Adidas shoe sizes, and F46182 shows Adidas box plus book and Gatorade bottles. This supports D's order (Gatorade, MIAM book, Garmin watch, Shokz run belt, Adidas runners, Rudy shades), though the Rudy shades position is not directly evidenced in the supplied frames."
+      },
+      "verify": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S604",
+            "quote": "oh my God I completely forgot we are doing a giveaway as I was editing"
+          },
+          {
+            "block_id": "S627",
+            "quote": "also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone"
+          },
+          {
+            "block_id": "S651",
+            "quote": "two lers again one with a 10.5 shoe size and one with a 7.5 shoe size"
+          }
+        ],
+        "frame_ids": [
+          "F44505",
+          "F44590",
+          "F46182"
+        ],
+        "windows": [
+          {
+            "start": 1788.0,
+            "end": 1796.0
+          },
+          {
+            "start": 1855.0,
+            "end": 1863.0
+          }
+        ],
+        "notes": "On-screen list (F44505/F44590) shows only 4 items: 1 Gatorade merch, 2 MIAM book, 3 Garmin watch, 4 Shokz run belt. S627 confirms Shokz belt; S651 mentions Adidas shoe sizes. No supplied evidence establishes the position of the Rudy Project shades relative to the Adidas shoes, so the full ordering in options A-D cannot be verified."
+      },
+      "errors": {
+        "independent": [],
+        "verify": []
+      },
+      "had_dense": true,
+      "overridden": false,
+      "duration_s": 2059.015292,
+      "global_max_gap_s": 66.44137500000011,
+      "dense_frames": 32,
+      "response_sha256": {
+        "independent": "ff688f06238fdaddbfd839d65681aad9a463c9e3294b5c73234ae6a5a5abfc38",
+        "verify": "2b5bd7b62f9a80030aaff48d8ba569bacdc68473d79dc9ecf61931edffb2aec9"
+      }
+    },
+    {
+      "index": "711",
+      "video_id": "f-1xE_5uXDg",
+      "question": "Based on the video, why did Miranda mention many things related to Sicily?",
+      "options": [
+        " Because Sicily is Miranda's father's hometown.",
+        " Because Sicily is Miranda's birthplace.",
+        " Because Sicily is Miranda's mother's hometown.",
+        " Because Miranda likes the sea of Sicily."
+      ],
+      "task_type": "Action Reasoning",
+      "gt": "B",
+      "baseline": "A",
+      "aligned": "D",
+      "continuous": "B",
+      "api": "",
+      "system": "A",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S24",
+            "quote": "cresciuta in sicilia in questo piccolo paesino"
+          }
+        ],
+        "frame_ids": [
+          "F2446"
+        ],
+        "windows": [],
+        "notes": "Miranda states she grew up in Sicily (S24, F2446), but no supplied subtitle or frame states whether Sicily is her father's or mother's hometown, her birthplace, or that she likes its sea; the options' specific reasons are not evidenced."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2527.933333,
+      "global_max_gap_s": 81.56666666666706,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "6a4e3208e02172852e29a727fcb8a551a1a73ff371bf5870da55f58806abbb85",
+        "verify": null
+      }
+    },
+    {
+      "index": "713",
+      "video_id": "f-1xE_5uXDg",
+      "question": "How many questions did the man in the pink shirt ask Miranda in the video?",
+      "options": [
+        " 8.",
+        " 9.",
+        " 7.",
+        " 6."
+      ],
+      "task_type": "Counting Problem",
+      "gt": "A",
+      "baseline": "A",
+      "aligned": "D",
+      "continuous": "D",
+      "api": "",
+      "system": "A",
+      "reason": "valid_abstention",
+      "independent": {
+        "answer": "INSUFFICIENT",
+        "supported": false,
+        "complete": false,
+        "subtitle_quotes": [
+          {
+            "block_id": "S556",
+            "quote": "adesso passiamo alla domanda numero 6"
+          }
+        ],
+        "frame_ids": [
+          "F0",
+          "F48928"
+        ],
+        "windows": [],
+        "notes": "The man in the pink shirt is the host, and S556 mentions moving to 'question number 6,' but the sparse samples do not show or count all questions he asked Miranda; no dense window covers the full video, so the total cannot be established."
+      },
+      "verify": null,
+      "errors": {
+        "independent": [],
+        "verify": [
+          "not requested"
+        ]
+      },
+      "had_dense": false,
+      "overridden": false,
+      "duration_s": 2527.933333,
+      "global_max_gap_s": 81.56666666666706,
+      "dense_frames": 0,
+      "response_sha256": {
+        "independent": "8a65565f57bc65c8aec0025372f7078274785547cad75775e00f1075ac991337",
+        "verify": null
+      }
+    }
+  ],
+  "direct_source_diagnostics": {
+    "video_id": "bFuVjFacj_E",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bFuVjFacj_E.srt",
+      "status": "available",
+      "bytes": 100717,
+      "sha256": "e9f62ef538534cc3c9e2b0ee9467c4e6bdda5a82307f953e8d029351be560113",
+      "cues": 978,
+      "nonempty_cues": 978
+    },
+    "continuous_text_tokens": 1735,
+    "omitted_budget_neighbor_ids": [],
+    "campaign_cues": [
+      {
+        "cue_id": 51,
+        "start_ms": 148160,
+        "end_ms": 151840,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 52,
+        "start_ms": 151200,
+        "end_ms": 154959,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 151840,
+        "end_ms": 158000,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 154959,
+        "end_ms": 159280,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 158000,
+        "end_ms": 161840,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 56,
+        "start_ms": 159280,
+        "end_ms": 163040,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 161840,
+        "end_ms": 165599,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 163040,
+        "end_ms": 166640,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 165599,
+        "end_ms": 169680,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 166640,
+        "end_ms": 170879,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 169680,
+        "end_ms": 174079,
+        "was_supplied": false
+      }
+    ],
+    "midfielder_cues": [
+      {
+        "cue_id": 748,
+        "start_ms": 1653120,
+        "end_ms": 1657600,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 749,
+        "start_ms": 1655520,
+        "end_ms": 1658960,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 750,
+        "start_ms": 1657600,
+        "end_ms": 1661760,
+        "was_supplied": false
+      },
+      {
+        "cue_id": 751,
+        "start_ms": 1658960,
+        "end_ms": 1664000,
+        "was_supplied": false
+      }
+    ],
+    "interpretation": "Direct evidence exists in full local SRT but is outside the frame-hit+neighbor context. No budget trimming for this video. This is diagnostic evidence, not a tested Agent improvement."
+  },
+  "format_issue": {
+    "index": "579",
+    "frame_citations": 22,
+    "implemented_cap": 16,
+    "unsupplied_frame_ids": [],
+    "errors": [
+      "frame citation not supplied"
+    ],
+    "status": "not fixed or rescored; retain audit.passed=false"
+  }
+}

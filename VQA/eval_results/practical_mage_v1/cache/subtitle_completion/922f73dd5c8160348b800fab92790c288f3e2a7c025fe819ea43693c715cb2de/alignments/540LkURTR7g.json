@@ -1,0 +1,930 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "540LkURTR7g",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/540LkURTR7g.srt",
+        "status": "available",
+        "bytes": 4151,
+        "sha256": "47200d61fd144948673508658533075b2c636d3a0fb350282c970242f27fa371",
+        "cues": 38,
+        "nonempty_cues": 38
+      },
+      "frame_indices": [
+        0,
+        77,
+        153,
+        230,
+        307,
+        384,
+        460,
+        537,
+        614,
+        691,
+        767,
+        844,
+        921,
+        998,
+        1074,
+        1151,
+        1228,
+        1305,
+        1381,
+        1458,
+        1535,
+        1612,
+        1688,
+        1765,
+        1842,
+        1919,
+        1995,
+        2072,
+        2149,
+        2226,
+        2302,
+        2379
+      ],
+      "frame_seconds": [
+        0.0,
+        2.569233,
+        5.1051,
+        7.674333,
+        10.243567,
+        12.8128,
+        15.348667,
+        17.9179,
+        20.487133,
+        23.056367,
+        25.592233,
+        28.161467,
+        30.7307,
+        33.299933,
+        35.8358,
+        38.405033,
+        40.974267,
+        43.5435,
+        46.079367,
+        48.6486,
+        51.217833,
+        53.787067,
+        56.322933,
+        58.892167,
+        61.4614,
+        64.030633,
+        66.5665,
+        69.135733,
+        71.704967,
+        74.27420000000001,
+        76.810067,
+        79.3793
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          37,
+          38
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 30,
+          "end_ms": 3899,
+          "text": "did you know the average person should"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 1979,
+          "end_ms": 4890,
+          "text": "consume between nine and thirteen cups"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 3899,
+          "end_ms": 6690,
+          "text": "of water in a day"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 4890,
+          "end_ms": 9360,
+          "text": "that may sound overwhelming but it's"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 6690,
+          "end_ms": 11849,
+          "text": "dependent on your age activity level and"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 9360,
+          "end_ms": 13469,
+          "text": "some medications that you take I find"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 11849,
+          "end_ms": 15089,
+          "text": "water super beneficial when you're"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 13469,
+          "end_ms": 16500,
+          "text": "trying to lose weight drinking it"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 15089,
+          "end_ms": 19260,
+          "text": "throughout the day helps to keep you"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 16500,
+          "end_ms": 21060,
+          "text": "full for no calories here are five tips"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 19260,
+          "end_ms": 23070,
+          "text": "to trick you into drinking more water"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 21060,
+          "end_ms": 25019,
+          "text": "throughout the day I find that drinking"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 23070,
+          "end_ms": 26970,
+          "text": "more water is super easy to do when you"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 25019,
+          "end_ms": 28949,
+          "text": "carry a tall drinking glass or a bottle"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 26970,
+          "end_ms": 30689,
+          "text": "with you sometimes one that fits easily"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 28949,
+          "end_ms": 33000,
+          "text": "into a purse or a backpack can be a"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 30689,
+          "end_ms": 34559,
+          "text": "simple solution consider trying zero"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 33000,
+          "end_ms": 36570,
+          "text": "calorie drink mixes they come in"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 34559,
+          "end_ms": 38460,
+          "text": "powdered and liquid options and are easy"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 36570,
+          "end_ms": 40320,
+          "text": "to take on the go looking for a more"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 38460,
+          "end_ms": 42840,
+          "text": "subtle flavor try adding fresh produce"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 40320,
+          "end_ms": 45030,
+          "text": "to your water lemons limes and even"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 42840,
+          "end_ms": 47399,
+          "text": "cucumbers give just a hint of flavor to"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 45030,
+          "end_ms": 49800,
+          "text": "a nice iced water unsweetened tea is a"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 47399,
+          "end_ms": 52110,
+          "text": "great option all varieties as long as"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 49800,
+          "end_ms": 53489,
+          "text": "it's unsweetened is super hydrating and"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 52110,
+          "end_ms": 55949,
+          "text": "definitely provides an antioxidant"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 53489,
+          "end_ms": 57449,
+          "text": "benefit tea can't have a diuretic effect"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 55949,
+          "end_ms": 59280,
+          "text": "which mean you might be using the"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 57449,
+          "end_ms": 62129,
+          "text": "bathroom more but new studies show it's"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 59280,
+          "end_ms": 62940,
+          "text": "just as hydrating as water find normal"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 62129,
+          "end_ms": 64769,
+          "text": "water boring"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 62940,
+          "end_ms": 66960,
+          "text": "you're in luck sparkling water is"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 64769,
+          "end_ms": 69210,
+          "text": "everywhere these days and it still keeps"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 66960,
+          "end_ms": 70439,
+          "text": "you super hydrated but be sure to check"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 69210,
+          "end_ms": 72780,
+          "text": "the label you want to look for a"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 70439,
+          "end_ms": 76250,
+          "text": "sugar-free variety with no sodium for"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 72780,
+          "end_ms": 76250,
+          "text": "the best hydration option"
+        }
+      ],
+      "text": "did you know the average person should\nconsume between nine and thirteen cups\nof water in a day\nthat may sound overwhelming but it's\ndependent on your age activity level and\nsome medications that you take I find\nwater super beneficial when you're\ntrying to lose weight drinking it\nthroughout the day helps to keep you\nfull for no calories here are five tips\nto trick you into drinking more water\nthroughout the day I find that drinking\nmore water is super easy to do when you\ncarry a tall drinking glass or a bottle\nwith you sometimes one that fits easily\ninto a purse or a backpack can be a\nsimple solution consider trying zero\ncalorie drink mixes they come in\npowdered and liquid options and are easy\nto take on the go looking for a more\nsubtle flavor try adding fresh produce\nto your water lemons limes and even\ncucumbers give just a hint of flavor to\na nice iced water unsweetened tea is a\ngreat option all varieties as long as\nit's unsweetened is super hydrating and\ndefinitely provides an antioxidant\nbenefit tea can't have a diuretic effect\nwhich mean you might be using the\nbathroom more but new studies show it's\njust as hydrating as water find normal\nwater boring\nyou're in luck sparkling water is\neverywhere these days and it still keeps\nyou super hydrated but be sure to check\nthe label you want to look for a\nsugar-free variety with no sodium for\nthe best hydration option",
+      "text_tokens": 322,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "540LkURTR7g",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/540LkURTR7g.srt",
+          "status": "available",
+          "bytes": 4151,
+          "sha256": "47200d61fd144948673508658533075b2c636d3a0fb350282c970242f27fa371",
+          "cues": 38,
+          "nonempty_cues": 38
+        },
+        "frame_indices": [
+          0,
+          77,
+          153,
+          230,
+          307,
+          384,
+          460,
+          537,
+          614,
+          691,
+          767,
+          844,
+          921,
+          998,
+          1074,
+          1151,
+          1228,
+          1305,
+          1381,
+          1458,
+          1535,
+          1612,
+          1688,
+          1765,
+          1842,
+          1919,
+          1995,
+          2072,
+          2149,
+          2226,
+          2302,
+          2379
+        ],
+        "frame_seconds": [
+          0.0,
+          2.569233,
+          5.1051,
+          7.674333,
+          10.243567,
+          12.8128,
+          15.348667,
+          17.9179,
+          20.487133,
+          23.056367,
+          25.592233,
+          28.161467,
+          30.7307,
+          33.299933,
+          35.8358,
+          38.405033,
+          40.974267,
+          43.5435,
+          46.079367,
+          48.6486,
+          51.217833,
+          53.787067,
+          56.322933,
+          58.892167,
+          61.4614,
+          64.030633,
+          66.5665,
+          69.135733,
+          71.704967,
+          74.27420000000001,
+          76.810067,
+          79.3793
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 30,
+            "end_ms": 3899,
+            "text": "did you know the average person should"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 1979,
+            "end_ms": 4890,
+            "text": "consume between nine and thirteen cups"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 3899,
+            "end_ms": 6690,
+            "text": "of water in a day"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 4890,
+            "end_ms": 9360,
+            "text": "that may sound overwhelming but it's"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 6690,
+            "end_ms": 11849,
+            "text": "dependent on your age activity level and"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 9360,
+            "end_ms": 13469,
+            "text": "some medications that you take I find"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 11849,
+            "end_ms": 15089,
+            "text": "water super beneficial when you're"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 13469,
+            "end_ms": 16500,
+            "text": "trying to lose weight drinking it"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 15089,
+            "end_ms": 19260,
+            "text": "throughout the day helps to keep you"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 16500,
+            "end_ms": 21060,
+            "text": "full for no calories here are five tips"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 19260,
+            "end_ms": 23070,
+            "text": "to trick you into drinking more water"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 21060,
+            "end_ms": 25019,
+            "text": "throughout the day I find that drinking"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 23070,
+            "end_ms": 26970,
+            "text": "more water is super easy to do when you"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 25019,
+            "end_ms": 28949,
+            "text": "carry a tall drinking glass or a bottle"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 26970,
+            "end_ms": 30689,
+            "text": "with you sometimes one that fits easily"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 28949,
+            "end_ms": 33000,
+            "text": "into a purse or a backpack can be a"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 30689,
+            "end_ms": 34559,
+            "text": "simple solution consider trying zero"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 33000,
+            "end_ms": 36570,
+            "text": "calorie drink mixes they come in"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 34559,
+            "end_ms": 38460,
+            "text": "powdered and liquid options and are easy"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 36570,
+            "end_ms": 40320,
+            "text": "to take on the go looking for a more"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 38460,
+            "end_ms": 42840,
+            "text": "subtle flavor try adding fresh produce"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 40320,
+            "end_ms": 45030,
+            "text": "to your water lemons limes and even"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 42840,
+            "end_ms": 47399,
+            "text": "cucumbers give just a hint of flavor to"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 45030,
+            "end_ms": 49800,
+            "text": "a nice iced water unsweetened tea is a"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 47399,
+            "end_ms": 52110,
+            "text": "great option all varieties as long as"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 49800,
+            "end_ms": 53489,
+            "text": "it's unsweetened is super hydrating and"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 52110,
+            "end_ms": 55949,
+            "text": "definitely provides an antioxidant"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 53489,
+            "end_ms": 57449,
+            "text": "benefit tea can't have a diuretic effect"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 55949,
+            "end_ms": 59280,
+            "text": "which mean you might be using the"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 57449,
+            "end_ms": 62129,
+            "text": "bathroom more but new studies show it's"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 59280,
+            "end_ms": 62940,
+            "text": "just as hydrating as water find normal"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 62129,
+            "end_ms": 64769,
+            "text": "water boring"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 62940,
+            "end_ms": 66960,
+            "text": "you're in luck sparkling water is"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 64769,
+            "end_ms": 69210,
+            "text": "everywhere these days and it still keeps"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 66960,
+            "end_ms": 70439,
+            "text": "you super hydrated but be sure to check"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 69210,
+            "end_ms": 72780,
+            "text": "the label you want to look for a"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 70439,
+            "end_ms": 76250,
+            "text": "sugar-free variety with no sodium for"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 72780,
+            "end_ms": 76250,
+            "text": "the best hydration option"
+          }
+        ],
+        "text": "did you know the average person should\nconsume between nine and thirteen cups\nof water in a day\nthat may sound overwhelming but it's\ndependent on your age activity level and\nsome medications that you take I find\nwater super beneficial when you're\ntrying to lose weight drinking it\nthroughout the day helps to keep you\nfull for no calories here are five tips\nto trick you into drinking more water\nthroughout the day I find that drinking\nmore water is super easy to do when you\ncarry a tall drinking glass or a bottle\nwith you sometimes one that fits easily\ninto a purse or a backpack can be a\nsimple solution consider trying zero\ncalorie drink mixes they come in\npowdered and liquid options and are easy\nto take on the go looking for a more\nsubtle flavor try adding fresh produce\nto your water lemons limes and even\ncucumbers give just a hint of flavor to\na nice iced water unsweetened tea is a\ngreat option all varieties as long as\nit's unsweetened is super hydrating and\ndefinitely provides an antioxidant\nbenefit tea can't have a diuretic effect\nwhich mean you might be using the\nbathroom more but new studies show it's\njust as hydrating as water find normal\nwater boring\nyou're in luck sparkling water is\neverywhere these days and it still keeps\nyou super hydrated but be sure to check\nthe label you want to look for a\nsugar-free variety with no sodium for\nthe best hydration option",
+        "text_tokens": 322,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "start_ms": 30,
+          "end_ms": 76250,
+          "text": "did you know the average person should consume between nine and thirteen cups of water in a day that may sound overwhelming but it's dependent on your age activity level and some medications that you take I find water super beneficial when you're trying to lose weight drinking it throughout the day helps to keep you full for no calories here are five tips to trick you into drinking more water throughout the day I find that drinking more water is super easy to do when you carry a tall drinking glass or a bottle with you sometimes one that fits easily into a purse or a backpack can be a simple solution consider trying zero calorie drink mixes they come in powdered and liquid options and are easy to take on the go looking for a more subtle flavor try adding fresh produce to your water lemons limes and even cucumbers give just a hint of flavor to a nice iced water unsweetened tea is a great option all varieties as long as it's unsweetened is super hydrating and definitely provides an antioxidant benefit tea can't have a diuretic effect which mean you might be using the bathroom more but new studies show it's just as hydrating as water find normal water boring you're in luck sparkling water is everywhere these days and it still keeps you super hydrated but be sure to check the label you want to look for a sugar-free variety with no sodium for the best hydration option"
+        }
+      ],
+      "text": "S1 [00:00:00.030 --> 00:01:16.250] did you know the average person should consume between nine and thirteen cups of water in a day that may sound overwhelming but it's dependent on your age activity level and some medications that you take I find water super beneficial when you're trying to lose weight drinking it throughout the day helps to keep you full for no calories here are five tips to trick you into drinking more water throughout the day I find that drinking more water is super easy to do when you carry a tall drinking glass or a bottle with you sometimes one that fits easily into a purse or a backpack can be a simple solution consider trying zero calorie drink mixes they come in powdered and liquid options and are easy to take on the go looking for a more subtle flavor try adding fresh produce to your water lemons limes and even cucumbers give just a hint of flavor to a nice iced water unsweetened tea is a great option all varieties as long as it's unsweetened is super hydrating and definitely provides an antioxidant benefit tea can't have a diuretic effect which mean you might be using the bathroom more but new studies show it's just as hydrating as water find normal water boring you're in luck sparkling water is everywhere these days and it still keeps you super hydrated but be sure to check the label you want to look for a sugar-free variety with no sodium for the best hydration option",
+      "text_tokens": 303,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "76536283d96c1398b2ac91d391e53f3b56cc3ad357cfa9701723276f0331c408"
+}

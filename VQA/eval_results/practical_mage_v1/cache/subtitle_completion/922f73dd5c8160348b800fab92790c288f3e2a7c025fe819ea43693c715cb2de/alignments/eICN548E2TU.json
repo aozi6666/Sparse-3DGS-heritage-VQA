@@ -1,0 +1,717 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "eICN548E2TU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eICN548E2TU.srt",
+        "status": "available",
+        "bytes": 2235,
+        "sha256": "12bf303108e8671fb9082ec63f661ced91d33ad2f64e6f3024bd4a095854d37c",
+        "cues": 21,
+        "nonempty_cues": 21
+      },
+      "frame_indices": [
+        0,
+        41,
+        81,
+        122,
+        162,
+        203,
+        243,
+        284,
+        324,
+        365,
+        405,
+        446,
+        486,
+        527,
+        567,
+        608,
+        648,
+        689,
+        729,
+        770,
+        810,
+        851,
+        891,
+        932,
+        972,
+        1013,
+        1053,
+        1094,
+        1134,
+        1175,
+        1215,
+        1256
+      ],
+      "frame_seconds": [
+        0.0,
+        1.710042,
+        3.378375,
+        5.088417,
+        6.75675,
+        8.466792,
+        10.135125,
+        11.845167,
+        13.5135,
+        15.223542,
+        16.891875,
+        18.601917,
+        20.27025,
+        21.980292,
+        23.648625,
+        25.358667,
+        27.027,
+        28.737042,
+        30.405375,
+        32.115417,
+        33.78375,
+        35.493792,
+        37.162125,
+        38.872167,
+        40.5405,
+        42.250542,
+        43.918875,
+        45.628917,
+        47.29725,
+        49.007292,
+        50.675625,
+        52.385667
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 840,
+          "end_ms": 7080,
+          "text": "would you like some tea yes thank you"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 4640,
+          "end_ms": 9679,
+          "text": "cookies no thank"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7080,
+          "end_ms": 12679,
+          "text": "you uh did you read the Wasteland"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9679,
+          "end_ms": 15480,
+          "text": "through to the end yeah I understand it"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 12679,
+          "end_ms": 18800,
+          "text": "that's why we're here I read it four"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 15480,
+          "end_ms": 22600,
+          "text": "times it Bears repeated readings you"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 18800,
+          "end_ms": 25439,
+          "text": "know I I felt like he was Professor"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 22600,
+          "end_ms": 28279,
+          "text": "showing off how smart he was oh and then"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 25439,
+          "end_ms": 31279,
+          "text": "maybe he was drunk I think TS Elliot was"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 28279,
+          "end_ms": 32640,
+          "text": "a rather sober man h"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 31279,
+          "end_ms": 34360,
+          "text": "when I read old poems like the old"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 32640,
+          "end_ms": 35760,
+          "text": "English poems Mr Hoffman assigns they"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 34360,
+          "end_ms": 38280,
+          "text": "don't seem old but when I read the"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 35760,
+          "end_ms": 39760,
+          "text": "Wasteland it seems old to me but it was"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 38280,
+          "end_ms": 41039,
+          "text": "written in the modern era I don't think"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 39760,
+          "end_ms": 42399,
+          "text": "anybody's going to read it in a 100"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 41039,
+          "end_ms": 45920,
+          "text": "years why not I don't know I looked at"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 42399,
+          "end_ms": 47960,
+          "text": "his picture huh he looks like an"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 45920,
+          "end_ms": 51359,
+          "text": "Undertaker I think a poem that won't be"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 47960,
+          "end_ms": 54359,
+          "text": "good in 100 years isn't good"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 51359,
+          "end_ms": 54359,
+          "text": "now"
+        }
+      ],
+      "text": "would you like some tea yes thank you\ncookies no thank\nyou uh did you read the Wasteland\nthrough to the end yeah I understand it\nthat's why we're here I read it four\ntimes it Bears repeated readings you\nknow I I felt like he was Professor\nshowing off how smart he was oh and then\nmaybe he was drunk I think TS Elliot was\na rather sober man h\nwhen I read old poems like the old\nEnglish poems Mr Hoffman assigns they\ndon't seem old but when I read the\nWasteland it seems old to me but it was\nwritten in the modern era I don't think\nanybody's going to read it in a 100\nyears why not I don't know I looked at\nhis picture huh he looks like an\nUndertaker I think a poem that won't be\ngood in 100 years isn't good\nnow",
+      "text_tokens": 191,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eICN548E2TU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eICN548E2TU.srt",
+          "status": "available",
+          "bytes": 2235,
+          "sha256": "12bf303108e8671fb9082ec63f661ced91d33ad2f64e6f3024bd4a095854d37c",
+          "cues": 21,
+          "nonempty_cues": 21
+        },
+        "frame_indices": [
+          0,
+          41,
+          81,
+          122,
+          162,
+          203,
+          243,
+          284,
+          324,
+          365,
+          405,
+          446,
+          486,
+          527,
+          567,
+          608,
+          648,
+          689,
+          729,
+          770,
+          810,
+          851,
+          891,
+          932,
+          972,
+          1013,
+          1053,
+          1094,
+          1134,
+          1175,
+          1215,
+          1256
+        ],
+        "frame_seconds": [
+          0.0,
+          1.710042,
+          3.378375,
+          5.088417,
+          6.75675,
+          8.466792,
+          10.135125,
+          11.845167,
+          13.5135,
+          15.223542,
+          16.891875,
+          18.601917,
+          20.27025,
+          21.980292,
+          23.648625,
+          25.358667,
+          27.027,
+          28.737042,
+          30.405375,
+          32.115417,
+          33.78375,
+          35.493792,
+          37.162125,
+          38.872167,
+          40.5405,
+          42.250542,
+          43.918875,
+          45.628917,
+          47.29725,
+          49.007292,
+          50.675625,
+          52.385667
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 840,
+            "end_ms": 7080,
+            "text": "would you like some tea yes thank you"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 4640,
+            "end_ms": 9679,
+            "text": "cookies no thank"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7080,
+            "end_ms": 12679,
+            "text": "you uh did you read the Wasteland"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9679,
+            "end_ms": 15480,
+            "text": "through to the end yeah I understand it"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 12679,
+            "end_ms": 18800,
+            "text": "that's why we're here I read it four"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 15480,
+            "end_ms": 22600,
+            "text": "times it Bears repeated readings you"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 18800,
+            "end_ms": 25439,
+            "text": "know I I felt like he was Professor"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 22600,
+            "end_ms": 28279,
+            "text": "showing off how smart he was oh and then"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 25439,
+            "end_ms": 31279,
+            "text": "maybe he was drunk I think TS Elliot was"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 28279,
+            "end_ms": 32640,
+            "text": "a rather sober man h"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 31279,
+            "end_ms": 34360,
+            "text": "when I read old poems like the old"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 32640,
+            "end_ms": 35760,
+            "text": "English poems Mr Hoffman assigns they"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 34360,
+            "end_ms": 38280,
+            "text": "don't seem old but when I read the"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 35760,
+            "end_ms": 39760,
+            "text": "Wasteland it seems old to me but it was"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 38280,
+            "end_ms": 41039,
+            "text": "written in the modern era I don't think"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 39760,
+            "end_ms": 42399,
+            "text": "anybody's going to read it in a 100"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 41039,
+            "end_ms": 45920,
+            "text": "years why not I don't know I looked at"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 42399,
+            "end_ms": 47960,
+            "text": "his picture huh he looks like an"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 45920,
+            "end_ms": 51359,
+            "text": "Undertaker I think a poem that won't be"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 47960,
+            "end_ms": 54359,
+            "text": "good in 100 years isn't good"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 51359,
+            "end_ms": 54359,
+            "text": "now"
+          }
+        ],
+        "text": "would you like some tea yes thank you\ncookies no thank\nyou uh did you read the Wasteland\nthrough to the end yeah I understand it\nthat's why we're here I read it four\ntimes it Bears repeated readings you\nknow I I felt like he was Professor\nshowing off how smart he was oh and then\nmaybe he was drunk I think TS Elliot was\na rather sober man h\nwhen I read old poems like the old\nEnglish poems Mr Hoffman assigns they\ndon't seem old but when I read the\nWasteland it seems old to me but it was\nwritten in the modern era I don't think\nanybody's going to read it in a 100\nyears why not I don't know I looked at\nhis picture huh he looks like an\nUndertaker I think a poem that won't be\ngood in 100 years isn't good\nnow",
+        "text_tokens": 191,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 840,
+          "end_ms": 54359,
+          "text": "would you like some tea yes thank you cookies no thank you uh did you read the Wasteland through to the end yeah I understand it that's why we're here I read it four times it Bears repeated readings you know I I felt like he was Professor showing off how smart he was oh and then maybe he was drunk I think TS Elliot was a rather sober man h when I read old poems like the old English poems Mr Hoffman assigns they don't seem old but when I read the Wasteland it seems old to me but it was written in the modern era I don't think anybody's going to read it in a 100 years why not I don't know I looked at his picture huh he looks like an Undertaker I think a poem that won't be good in 100 years isn't good now"
+        }
+      ],
+      "text": "S1 [00:00:00.840 --> 00:00:54.359] would you like some tea yes thank you cookies no thank you uh did you read the Wasteland through to the end yeah I understand it that's why we're here I read it four times it Bears repeated readings you know I I felt like he was Professor showing off how smart he was oh and then maybe he was drunk I think TS Elliot was a rather sober man h when I read old poems like the old English poems Mr Hoffman assigns they don't seem old but when I read the Wasteland it seems old to me but it was written in the modern era I don't think anybody's going to read it in a 100 years why not I don't know I looked at his picture huh he looks like an Undertaker I think a poem that won't be good in 100 years isn't good now",
+      "text_tokens": 198,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ba84e1642cc4d00b6a07e34ddda2266d66ec6eb8af81a705fd62725d424d588c"
+}

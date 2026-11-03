@@ -1,0 +1,25 @@
+{
+  "n": 200,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "queryip",
+    "queryip_dyn",
+    "queryip_sta"
+  ],
+  "tag": "n200_kr075_ab",
+  "acc": {
+    "queryip": 0.635,
+    "queryip_dyn": 0.635,
+    "queryip_sta": 0.64
+  },
+  "correct": {
+    "queryip": 127,
+    "queryip_dyn": 127,
+    "queryip_sta": 128
+  },
+  "jsonl": "VQA/eval_results/queryip_samek/ab_fixed_n200/Mage-VL-QueryIP_short60_samek4_n200_kr075_ab.jsonl",
+  "partial": false,
+  "done": 200,
+  "target": 200
+}

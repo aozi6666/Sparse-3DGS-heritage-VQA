@@ -1,0 +1,1035 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "HnS87Tw4amM",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HnS87Tw4amM.srt",
+        "status": "available",
+        "bytes": 39538,
+        "sha256": "48856734a7b3218ceab95b407e4d13b16797133bc26a49ac497a345353417eb7",
+        "cues": 237,
+        "nonempty_cues": 237
+      },
+      "frame_indices": [
+        0,
+        1452,
+        2905,
+        4357,
+        5810,
+        7262,
+        8715,
+        10167,
+        11620,
+        13072,
+        14525,
+        15977,
+        17430,
+        18882,
+        20335,
+        21787,
+        23240,
+        24692,
+        26145,
+        27597,
+        29050,
+        30502,
+        31955,
+        33407,
+        34860,
+        36312,
+        37765,
+        39217,
+        40670,
+        42122,
+        43575,
+        45027
+      ],
+      "frame_seconds": [
+        0.0,
+        58.08,
+        116.2,
+        174.28,
+        232.4,
+        290.48,
+        348.6,
+        406.68,
+        464.8,
+        522.88,
+        581.0,
+        639.08,
+        697.2,
+        755.28,
+        813.4,
+        871.48,
+        929.6,
+        987.68,
+        1045.8,
+        1103.88,
+        1162.0,
+        1220.08,
+        1278.2,
+        1336.28,
+        1394.4,
+        1452.48,
+        1510.6,
+        1568.68,
+        1626.8,
+        1684.88,
+        1743.0,
+        1801.08
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          7
+        ],
+        [
+          16
+        ],
+        [
+          25
+        ],
+        [
+          34
+        ],
+        [
+          42
+        ],
+        [
+          48
+        ],
+        [
+          55
+        ],
+        [
+          63
+        ],
+        [
+          70
+        ],
+        [
+          79
+        ],
+        [
+          87
+        ],
+        [
+          95
+        ],
+        [
+          102
+        ],
+        [
+          110
+        ],
+        [
+          120
+        ],
+        [
+          128
+        ],
+        [
+          136
+        ],
+        [
+          141
+        ],
+        [
+          149
+        ],
+        [
+          157
+        ],
+        [
+          163
+        ],
+        [
+          171
+        ],
+        [
+          178
+        ],
+        [],
+        [
+          193
+        ],
+        [],
+        [
+          206
+        ],
+        [
+          215
+        ],
+        [
+          223
+        ],
+        [
+          230
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 7,
+          "start_ms": 53120,
+          "end_ms": 59760,
+          "text": "is about how to descale and decalcify your washing machine if you live in a hard water"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 111840,
+          "end_ms": 118400,
+          "text": "machine because it's uneconomical to do but with machines being more environmental friendly now"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 168240,
+          "end_ms": 174480,
+          "text": "or some strong detergents if it speckles on your clothes it will discolor the clothing"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 231280,
+          "end_ms": 241360,
+          "text": "constantly use an abrasive material on the actual seal and really it's a lot of work where you could"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 286800,
+          "end_ms": 295840,
+          "text": "but i'm just quickly going to show you how much work is involved in this"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 344400,
+          "end_ms": 350480,
+          "text": "and that's it the door seals off and there was no fast forwarding or anything else in this video but"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 399760,
+          "end_ms": 408800,
+          "text": "solution and by having this removed already it will not contaminate the bleach too much where"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 461360,
+          "end_ms": 469440,
+          "text": "it comes to mold that is this bad and what we're going to do now is if you've got a bucket at home"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 518000,
+          "end_ms": 526240,
+          "text": "soap draw into here and leave this soaking and hopefully we can remove all the mold off this"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 580160,
+          "end_ms": 586400,
+          "text": "spider and the bearings so you can't replace it now a set of bearings for the washing machine"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 634320,
+          "end_ms": 641600,
+          "text": "as i'll show you later in the video is use another household product with some old rags to clean as"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 691600,
+          "end_ms": 698000,
+          "text": "so as you can see here is the sunpose and there is a lot of dirt within this"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 751120,
+          "end_ms": 757760,
+          "text": "be getting an incorrect water level in the machine and this may stop the clothing washing efficiently"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 807520,
+          "end_ms": 813840,
+          "text": "line up this one's actually clear no blockage in there"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 868320,
+          "end_ms": 872320,
+          "text": "uh 50 percent of the lifespan because while you've got the machine apart"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 928880,
+          "end_ms": 932880,
+          "text": "and what we'll do once we've reassembled the machine i will"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 983920,
+          "end_ms": 990160,
+          "text": "it just dissolves by the rub of my gloves i'm going to submerse that in some warm water"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 1039760,
+          "end_ms": 1046000,
+          "text": "but all that mold that was on here has completely gone"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 1102560,
+          "end_ms": 1113680,
+          "text": "a toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up"
+        },
+        {
+          "cue_id": 157,
+          "start_ms": 1160320,
+          "end_ms": 1166080,
+          "text": "i forgot to mention was it's worth taking the filter out and making sure there's no debris"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 1217120,
+          "end_ms": 1222800,
+          "text": "of calcium there's a little bit at the back here but if you do see this calcium buildup in this you"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 1278080,
+          "end_ms": 1285600,
+          "text": "phosphatic acid now this is very very strong and you want to use this in a ventilated room but if"
+        },
+        {
+          "cue_id": 178,
+          "start_ms": 1334560,
+          "end_ms": 1341280,
+          "text": "now the simplest way to solve this problem is select your machine to a boil wash"
+        },
+        {
+          "cue_id": 193,
+          "start_ms": 1451360,
+          "end_ms": 1457440,
+          "text": "mold out of the machine and we're about to clean the drum completely the best way of maintaining"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 1564480,
+          "end_ms": 1572000,
+          "text": "half above the door seal now we're going to let this machine heat up until you can actually feel"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 1622160,
+          "end_ms": 1631040,
+          "text": "running for about 35 minutes and what i'm going to do is just turn the power off and leave it soak"
+        },
+        {
+          "cue_id": 223,
+          "start_ms": 1681680,
+          "end_ms": 1688320,
+          "text": "empty because it's got to the point and you can see the water coming out of here"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 1735680,
+          "end_ms": 1744240,
+          "text": "the machine this will maintain the machine on a weekly basis once every month do a boil wash with"
+        }
+      ],
+      "text": "is about how to descale and decalcify your washing machine if you live in a hard water\nmachine because it's uneconomical to do but with machines being more environmental friendly now\nor some strong detergents if it speckles on your clothes it will discolor the clothing\nconstantly use an abrasive material on the actual seal and really it's a lot of work where you could\nbut i'm just quickly going to show you how much work is involved in this\nand that's it the door seals off and there was no fast forwarding or anything else in this video but\nsolution and by having this removed already it will not contaminate the bleach too much where\nit comes to mold that is this bad and what we're going to do now is if you've got a bucket at home\nsoap draw into here and leave this soaking and hopefully we can remove all the mold off this\nspider and the bearings so you can't replace it now a set of bearings for the washing machine\nas i'll show you later in the video is use another household product with some old rags to clean as\nso as you can see here is the sunpose and there is a lot of dirt within this\nbe getting an incorrect water level in the machine and this may stop the clothing washing efficiently\nline up this one's actually clear no blockage in there\nuh 50 percent of the lifespan because while you've got the machine apart\nand what we'll do once we've reassembled the machine i will\nit just dissolves by the rub of my gloves i'm going to submerse that in some warm water\nbut all that mold that was on here has completely gone\na toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up\ni forgot to mention was it's worth taking the filter out and making sure there's no debris\nof calcium there's a little bit at the back here but if you do see this calcium buildup in this you\nphosphatic acid now this is very very strong and you want to use this in a ventilated room but if\nnow the simplest way to solve this problem is select your machine to a boil wash\nmold out of the machine and we're about to clean the drum completely the best way of maintaining\nhalf above the door seal now we're going to let this machine heat up until you can actually feel\nrunning for about 35 minutes and what i'm going to do is just turn the power off and leave it soak\nempty because it's got to the point and you can see the water coming out of here\nthe machine this will maintain the machine on a weekly basis once every month do a boil wash with",
+      "text_tokens": 558,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HnS87Tw4amM",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HnS87Tw4amM.srt",
+          "status": "available",
+          "bytes": 39538,
+          "sha256": "48856734a7b3218ceab95b407e4d13b16797133bc26a49ac497a345353417eb7",
+          "cues": 237,
+          "nonempty_cues": 237
+        },
+        "frame_indices": [
+          0,
+          1452,
+          2905,
+          4357,
+          5810,
+          7262,
+          8715,
+          10167,
+          11620,
+          13072,
+          14525,
+          15977,
+          17430,
+          18882,
+          20335,
+          21787,
+          23240,
+          24692,
+          26145,
+          27597,
+          29050,
+          30502,
+          31955,
+          33407,
+          34860,
+          36312,
+          37765,
+          39217,
+          40670,
+          42122,
+          43575,
+          45027
+        ],
+        "frame_seconds": [
+          0.0,
+          58.08,
+          116.2,
+          174.28,
+          232.4,
+          290.48,
+          348.6,
+          406.68,
+          464.8,
+          522.88,
+          581.0,
+          639.08,
+          697.2,
+          755.28,
+          813.4,
+          871.48,
+          929.6,
+          987.68,
+          1045.8,
+          1103.88,
+          1162.0,
+          1220.08,
+          1278.2,
+          1336.28,
+          1394.4,
+          1452.48,
+          1510.6,
+          1568.68,
+          1626.8,
+          1684.88,
+          1743.0,
+          1801.08
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            7
+          ],
+          [
+            16
+          ],
+          [
+            25
+          ],
+          [
+            34
+          ],
+          [
+            42
+          ],
+          [
+            48
+          ],
+          [
+            55
+          ],
+          [
+            63
+          ],
+          [
+            70
+          ],
+          [
+            79
+          ],
+          [
+            87
+          ],
+          [
+            95
+          ],
+          [
+            102
+          ],
+          [
+            110
+          ],
+          [
+            120
+          ],
+          [
+            128
+          ],
+          [
+            136
+          ],
+          [
+            141
+          ],
+          [
+            149
+          ],
+          [
+            157
+          ],
+          [
+            163
+          ],
+          [
+            171
+          ],
+          [
+            178
+          ],
+          [],
+          [
+            193
+          ],
+          [],
+          [
+            206
+          ],
+          [
+            215
+          ],
+          [
+            223
+          ],
+          [
+            230
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 7,
+            "start_ms": 53120,
+            "end_ms": 59760,
+            "text": "is about how to descale and decalcify your washing machine if you live in a hard water"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 111840,
+            "end_ms": 118400,
+            "text": "machine because it's uneconomical to do but with machines being more environmental friendly now"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 168240,
+            "end_ms": 174480,
+            "text": "or some strong detergents if it speckles on your clothes it will discolor the clothing"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 231280,
+            "end_ms": 241360,
+            "text": "constantly use an abrasive material on the actual seal and really it's a lot of work where you could"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 286800,
+            "end_ms": 295840,
+            "text": "but i'm just quickly going to show you how much work is involved in this"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 344400,
+            "end_ms": 350480,
+            "text": "and that's it the door seals off and there was no fast forwarding or anything else in this video but"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 399760,
+            "end_ms": 408800,
+            "text": "solution and by having this removed already it will not contaminate the bleach too much where"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 461360,
+            "end_ms": 469440,
+            "text": "it comes to mold that is this bad and what we're going to do now is if you've got a bucket at home"
+          },
+          {
+            "cue_id": 70,
+            "start_ms": 518000,
+            "end_ms": 526240,
+            "text": "soap draw into here and leave this soaking and hopefully we can remove all the mold off this"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 580160,
+            "end_ms": 586400,
+            "text": "spider and the bearings so you can't replace it now a set of bearings for the washing machine"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 634320,
+            "end_ms": 641600,
+            "text": "as i'll show you later in the video is use another household product with some old rags to clean as"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 691600,
+            "end_ms": 698000,
+            "text": "so as you can see here is the sunpose and there is a lot of dirt within this"
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 751120,
+            "end_ms": 757760,
+            "text": "be getting an incorrect water level in the machine and this may stop the clothing washing efficiently"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 807520,
+            "end_ms": 813840,
+            "text": "line up this one's actually clear no blockage in there"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 868320,
+            "end_ms": 872320,
+            "text": "uh 50 percent of the lifespan because while you've got the machine apart"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 928880,
+            "end_ms": 932880,
+            "text": "and what we'll do once we've reassembled the machine i will"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 983920,
+            "end_ms": 990160,
+            "text": "it just dissolves by the rub of my gloves i'm going to submerse that in some warm water"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 1039760,
+            "end_ms": 1046000,
+            "text": "but all that mold that was on here has completely gone"
+          },
+          {
+            "cue_id": 149,
+            "start_ms": 1102560,
+            "end_ms": 1113680,
+            "text": "a toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up"
+          },
+          {
+            "cue_id": 157,
+            "start_ms": 1160320,
+            "end_ms": 1166080,
+            "text": "i forgot to mention was it's worth taking the filter out and making sure there's no debris"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 1217120,
+            "end_ms": 1222800,
+            "text": "of calcium there's a little bit at the back here but if you do see this calcium buildup in this you"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 1278080,
+            "end_ms": 1285600,
+            "text": "phosphatic acid now this is very very strong and you want to use this in a ventilated room but if"
+          },
+          {
+            "cue_id": 178,
+            "start_ms": 1334560,
+            "end_ms": 1341280,
+            "text": "now the simplest way to solve this problem is select your machine to a boil wash"
+          },
+          {
+            "cue_id": 193,
+            "start_ms": 1451360,
+            "end_ms": 1457440,
+            "text": "mold out of the machine and we're about to clean the drum completely the best way of maintaining"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 1564480,
+            "end_ms": 1572000,
+            "text": "half above the door seal now we're going to let this machine heat up until you can actually feel"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 1622160,
+            "end_ms": 1631040,
+            "text": "running for about 35 minutes and what i'm going to do is just turn the power off and leave it soak"
+          },
+          {
+            "cue_id": 223,
+            "start_ms": 1681680,
+            "end_ms": 1688320,
+            "text": "empty because it's got to the point and you can see the water coming out of here"
+          },
+          {
+            "cue_id": 230,
+            "start_ms": 1735680,
+            "end_ms": 1744240,
+            "text": "the machine this will maintain the machine on a weekly basis once every month do a boil wash with"
+          }
+        ],
+        "text": "is about how to descale and decalcify your washing machine if you live in a hard water\nmachine because it's uneconomical to do but with machines being more environmental friendly now\nor some strong detergents if it speckles on your clothes it will discolor the clothing\nconstantly use an abrasive material on the actual seal and really it's a lot of work where you could\nbut i'm just quickly going to show you how much work is involved in this\nand that's it the door seals off and there was no fast forwarding or anything else in this video but\nsolution and by having this removed already it will not contaminate the bleach too much where\nit comes to mold that is this bad and what we're going to do now is if you've got a bucket at home\nsoap draw into here and leave this soaking and hopefully we can remove all the mold off this\nspider and the bearings so you can't replace it now a set of bearings for the washing machine\nas i'll show you later in the video is use another household product with some old rags to clean as\nso as you can see here is the sunpose and there is a lot of dirt within this\nbe getting an incorrect water level in the machine and this may stop the clothing washing efficiently\nline up this one's actually clear no blockage in there\nuh 50 percent of the lifespan because while you've got the machine apart\nand what we'll do once we've reassembled the machine i will\nit just dissolves by the rub of my gloves i'm going to submerse that in some warm water\nbut all that mold that was on here has completely gone\na toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up\ni forgot to mention was it's worth taking the filter out and making sure there's no debris\nof calcium there's a little bit at the back here but if you do see this calcium buildup in this you\nphosphatic acid now this is very very strong and you want to use this in a ventilated room but if\nnow the simplest way to solve this problem is select your machine to a boil wash\nmold out of the machine and we're about to clean the drum completely the best way of maintaining\nhalf above the door seal now we're going to let this machine heat up until you can actually feel\nrunning for about 35 minutes and what i'm going to do is just turn the power off and leave it soak\nempty because it's got to the point and you can see the water coming out of here\nthe machine this will maintain the machine on a weekly basis once every month do a boil wash with",
+        "text_tokens": 558,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S6",
+          "cue_ids": [
+            6,
+            7
+          ],
+          "start_ms": 45760,
+          "end_ms": 59760,
+          "text": "but this is a much more in-depth video on how to do the job properly the next video in the series is about how to descale and decalcify your washing machine if you live in a hard water"
+        },
+        {
+          "id": "S15",
+          "cue_ids": [
+            15,
+            16,
+            17
+          ],
+          "start_ms": 106160,
+          "end_ms": 125200,
+          "text": "designed so you aren't able to change the bearings on the washing machine and you have to buy a new machine because it's uneconomical to do but with machines being more environmental friendly now and we're washing at much lower temperatures things like mold and grime and these type of"
+        },
+        {
+          "id": "S25",
+          "cue_ids": [
+            25,
+            26
+          ],
+          "start_ms": 168240,
+          "end_ms": 179040,
+          "text": "or some strong detergents if it speckles on your clothes it will discolor the clothing so rather than destroying a perfectly good shirt i've changed in some old clothing"
+        },
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35
+          ],
+          "start_ms": 231280,
+          "end_ms": 248640,
+          "text": "constantly use an abrasive material on the actual seal and really it's a lot of work where you could simply take the seal off the machine which will give you access to other components in the machine"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42
+          ],
+          "start_ms": 286800,
+          "end_ms": 295840,
+          "text": "but i'm just quickly going to show you how much work is involved in this"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49
+          ],
+          "start_ms": 344400,
+          "end_ms": 356800,
+          "text": "and that's it the door seals off and there was no fast forwarding or anything else in this video but if we have a look at the door seal and i bring this closely to the camera because if you were"
+        },
+        {
+          "id": "S55",
+          "cue_ids": [
+            55,
+            56
+          ],
+          "start_ms": 399760,
+          "end_ms": 415680,
+          "text": "solution and by having this removed already it will not contaminate the bleach too much where it's unable to dissolve all the material so just quickly go around clean up the door seal"
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63,
+            64
+          ],
+          "start_ms": 461360,
+          "end_ms": 475280,
+          "text": "it comes to mold that is this bad and what we're going to do now is if you've got a bucket at home which is about the same size as the door seal you will only need two or three bottles of this"
+        },
+        {
+          "id": "S69",
+          "cue_ids": [
+            69,
+            70
+          ],
+          "start_ms": 510720,
+          "end_ms": 526240,
+          "text": "i'm also you can see the state of this water i'm also going to put the soap draw into here and leave this soaking and hopefully we can remove all the mold off this"
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79
+          ],
+          "start_ms": 571360,
+          "end_ms": 586400,
+          "text": "the machine they actually seal the drum in two halves to stop you getting access to the drum spider and the bearings so you can't replace it now a set of bearings for the washing machine"
+        },
+        {
+          "id": "S86",
+          "cue_ids": [
+            86,
+            87,
+            88
+          ],
+          "start_ms": 625920,
+          "end_ms": 647920,
+          "text": "nowadays you've got to buy the whole drum so also we can't clean inside this area uh all we can do as i'll show you later in the video is use another household product with some old rags to clean as best as we can with agitation and chemicals so what we're quickly going to have a look at"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95,
+            96
+          ],
+          "start_ms": 691600,
+          "end_ms": 707920,
+          "text": "so as you can see here is the sunpose and there is a lot of dirt within this this ball is an anti-siphon hole anti-siphon ball it's designed to float when your machine"
+        },
+        {
+          "id": "S102",
+          "cue_ids": [
+            102,
+            103
+          ],
+          "start_ms": 751120,
+          "end_ms": 764000,
+          "text": "be getting an incorrect water level in the machine and this may stop the clothing washing efficiently so we're going to take off all these metal clips and i'm going to leave this soak overnight while"
+        },
+        {
+          "id": "S109",
+          "cue_ids": [
+            109,
+            110
+          ],
+          "start_ms": 798800,
+          "end_ms": 813840,
+          "text": "going in and now we'll quickly have a look inside the pressure bowl most of the hoses line up this one's actually clear no blockage in there"
+        },
+        {
+          "id": "S119",
+          "cue_ids": [
+            119,
+            120,
+            121
+          ],
+          "start_ms": 861680,
+          "end_ms": 878000,
+          "text": "has carbon brushes it's well worth inspecting the carbon brushes to make sure that they're at least uh 50 percent of the lifespan because while you've got the machine apart uh it's a very quick and easy process and a set of carbon brushes is only going to"
+        },
+        {
+          "id": "S128",
+          "cue_ids": [
+            128
+          ],
+          "start_ms": 928880,
+          "end_ms": 932880,
+          "text": "and what we'll do once we've reassembled the machine i will"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136
+          ],
+          "start_ms": 977280,
+          "end_ms": 990160,
+          "text": "there's still a little bit of stuff on the outside but you can see how well it just dissolves by the rub of my gloves i'm going to submerse that in some warm water"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141
+          ],
+          "start_ms": 1039760,
+          "end_ms": 1046000,
+          "text": "but all that mold that was on here has completely gone"
+        },
+        {
+          "id": "S148",
+          "cue_ids": [
+            148,
+            149,
+            150
+          ],
+          "start_ms": 1095360,
+          "end_ms": 1121360,
+          "text": "just really go around the whole machine leave it stand for an hour then do it again and then with a toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up all this and if you do find you have a lot of calcium in here what i suggest you use is the"
+        },
+        {
+          "id": "S157",
+          "cue_ids": [
+            157,
+            158
+          ],
+          "start_ms": 1160320,
+          "end_ms": 1172480,
+          "text": "i forgot to mention was it's worth taking the filter out and making sure there's no debris in there and it's nice and clean if it's full of lime scale or you've got a lime scale build"
+        },
+        {
+          "id": "S163",
+          "cue_ids": [
+            163,
+            164
+          ],
+          "start_ms": 1217120,
+          "end_ms": 1229040,
+          "text": "of calcium there's a little bit at the back here but if you do see this calcium buildup in this you will need to take the soap box off and watch the next video on how to remove all the calcification"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171
+          ],
+          "start_ms": 1269120,
+          "end_ms": 1285600,
+          "text": "shouldn't be used on rubber surfaces the other one is a phosphate acid i believe yeah that's correct phosphatic acid now this is very very strong and you want to use this in a ventilated room but if"
+        },
+        {
+          "id": "S177",
+          "cue_ids": [
+            177,
+            178
+          ],
+          "start_ms": 1328320,
+          "end_ms": 1341280,
+          "text": "really that has got a bit of grime still on there is the between the inner and outer drum now the simplest way to solve this problem is select your machine to a boil wash"
+        },
+        {
+          "id": "S192",
+          "cue_ids": [
+            192,
+            193,
+            194
+          ],
+          "start_ms": 1444000,
+          "end_ms": 1464800,
+          "text": "but we'll leave it to fill to its normal level now while it's doing this we've cleared all the mold out of the machine and we're about to clean the drum completely the best way of maintaining your machine is to actually after every wash just with a dry cloth dry out the door seal"
+        },
+        {
+          "id": "S206",
+          "cue_ids": [
+            206,
+            207
+          ],
+          "start_ms": 1564480,
+          "end_ms": 1578960,
+          "text": "half above the door seal now we're going to let this machine heat up until you can actually feel the glass is warm now at that point it might be worth switching the machine off for an hour to let"
+        },
+        {
+          "id": "S215",
+          "cue_ids": [
+            215,
+            216
+          ],
+          "start_ms": 1622160,
+          "end_ms": 1640720,
+          "text": "running for about 35 minutes and what i'm going to do is just turn the power off and leave it soak and just for 30 minutes or so just to let this hot water really absorb as much of the dirt and"
+        },
+        {
+          "id": "S222",
+          "cue_ids": [
+            222,
+            223
+          ],
+          "start_ms": 1676080,
+          "end_ms": 1688320,
+          "text": "so we can capture the water so you can actually see how bad it is okay the machine's about to empty because it's got to the point and you can see the water coming out of here"
+        },
+        {
+          "id": "S230",
+          "cue_ids": [
+            230,
+            231
+          ],
+          "start_ms": 1735680,
+          "end_ms": 1750720,
+          "text": "the machine this will maintain the machine on a weekly basis once every month do a boil wash with some old rags and a couple of dishwasher tablets and this will remove most of the sediment from"
+        }
+      ],
+      "text": "S6 [00:00:45.760 --> 00:00:59.760] but this is a much more in-depth video on how to do the job properly the next video in the series is about how to descale and decalcify your washing machine if you live in a hard water\nS15 [00:01:46.160 --> 00:02:05.200] designed so you aren't able to change the bearings on the washing machine and you have to buy a new machine because it's uneconomical to do but with machines being more environmental friendly now and we're washing at much lower temperatures things like mold and grime and these type of\nS25 [00:02:48.240 --> 00:02:59.040] or some strong detergents if it speckles on your clothes it will discolor the clothing so rather than destroying a perfectly good shirt i've changed in some old clothing\nS34 [00:03:51.280 --> 00:04:08.640] constantly use an abrasive material on the actual seal and really it's a lot of work where you could simply take the seal off the machine which will give you access to other components in the machine\nS42 [00:04:46.800 --> 00:04:55.840] but i'm just quickly going to show you how much work is involved in this\nS48 [00:05:44.400 --> 00:05:56.800] and that's it the door seals off and there was no fast forwarding or anything else in this video but if we have a look at the door seal and i bring this closely to the camera because if you were\nS55 [00:06:39.760 --> 00:06:55.680] solution and by having this removed already it will not contaminate the bleach too much where it's unable to dissolve all the material so just quickly go around clean up the door seal\nS63 [00:07:41.360 --> 00:07:55.280] it comes to mold that is this bad and what we're going to do now is if you've got a bucket at home which is about the same size as the door seal you will only need two or three bottles of this\nS69 [00:08:30.720 --> 00:08:46.240] i'm also you can see the state of this water i'm also going to put the soap draw into here and leave this soaking and hopefully we can remove all the mold off this\nS78 [00:09:31.360 --> 00:09:46.400] the machine they actually seal the drum in two halves to stop you getting access to the drum spider and the bearings so you can't replace it now a set of bearings for the washing machine\nS86 [00:10:25.920 --> 00:10:47.920] nowadays you've got to buy the whole drum so also we can't clean inside this area uh all we can do as i'll show you later in the video is use another household product with some old rags to clean as best as we can with agitation and chemicals so what we're quickly going to have a look at\nS95 [00:11:31.600 --> 00:11:47.920] so as you can see here is the sunpose and there is a lot of dirt within this this ball is an anti-siphon hole anti-siphon ball it's designed to float when your machine\nS102 [00:12:31.120 --> 00:12:44.000] be getting an incorrect water level in the machine and this may stop the clothing washing efficiently so we're going to take off all these metal clips and i'm going to leave this soak overnight while\nS109 [00:13:18.800 --> 00:13:33.840] going in and now we'll quickly have a look inside the pressure bowl most of the hoses line up this one's actually clear no blockage in there\nS119 [00:14:21.680 --> 00:14:38.000] has carbon brushes it's well worth inspecting the carbon brushes to make sure that they're at least uh 50 percent of the lifespan because while you've got the machine apart uh it's a very quick and easy process and a set of carbon brushes is only going to\nS128 [00:15:28.880 --> 00:15:32.880] and what we'll do once we've reassembled the machine i will\nS135 [00:16:17.280 --> 00:16:30.160] there's still a little bit of stuff on the outside but you can see how well it just dissolves by the rub of my gloves i'm going to submerse that in some warm water\nS141 [00:17:19.760 --> 00:17:26.000] but all that mold that was on here has completely gone\nS148 [00:18:15.360 --> 00:18:41.360] just really go around the whole machine leave it stand for an hour then do it again and then with a toothbrush or an old toothbrush a brush or any other cleaning implement just go around clean up all this and if you do find you have a lot of calcium in here what i suggest you use is the\nS157 [00:19:20.320 --> 00:19:32.480] i forgot to mention was it's worth taking the filter out and making sure there's no debris in there and it's nice and clean if it's full of lime scale or you've got a lime scale build\nS163 [00:20:17.120 --> 00:20:29.040] of calcium there's a little bit at the back here but if you do see this calcium buildup in this you will need to take the soap box off and watch the next video on how to remove all the calcification\nS170 [00:21:09.120 --> 00:21:25.600] shouldn't be used on rubber surfaces the other one is a phosphate acid i believe yeah that's correct phosphatic acid now this is very very strong and you want to use this in a ventilated room but if\nS177 [00:22:08.320 --> 00:22:21.280] really that has got a bit of grime still on there is the between the inner and outer drum now the simplest way to solve this problem is select your machine to a boil wash\nS192 [00:24:04.000 --> 00:24:24.800] but we'll leave it to fill to its normal level now while it's doing this we've cleared all the mold out of the machine and we're about to clean the drum completely the best way of maintaining your machine is to actually after every wash just with a dry cloth dry out the door seal\nS206 [00:26:04.480 --> 00:26:18.960] half above the door seal now we're going to let this machine heat up until you can actually feel the glass is warm now at that point it might be worth switching the machine off for an hour to let\nS215 [00:27:02.160 --> 00:27:20.720] running for about 35 minutes and what i'm going to do is just turn the power off and leave it soak and just for 30 minutes or so just to let this hot water really absorb as much of the dirt and\nS222 [00:27:56.080 --> 00:28:08.320] so we can capture the water so you can actually see how bad it is okay the machine's about to empty because it's got to the point and you can see the water coming out of here\nS230 [00:28:55.680 --> 00:29:10.720] the machine this will maintain the machine on a weekly basis once every month do a boil wash with some old rags and a couple of dishwasher tablets and this will remove most of the sediment from",
+      "text_tokens": 2035,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        6,
+        15,
+        17,
+        26,
+        35,
+        49,
+        56,
+        64,
+        69,
+        78,
+        86,
+        88,
+        96,
+        103,
+        109,
+        119,
+        121,
+        135,
+        148,
+        150,
+        158,
+        164,
+        170,
+        177,
+        192,
+        194,
+        207,
+        216,
+        222,
+        231
+      ],
+      "omitted_neighbor_ids": [
+        8,
+        24,
+        33,
+        54,
+        62,
+        71,
+        80,
+        94,
+        101,
+        111,
+        129,
+        140,
+        156,
+        162,
+        172,
+        179,
+        205,
+        214,
+        229
+      ]
+    }
+  },
+  "evidence_sha256": "07eafce673e0be2e1d948ce9f35e8566252213b5f459645f28f68f558f739c0e"
+}

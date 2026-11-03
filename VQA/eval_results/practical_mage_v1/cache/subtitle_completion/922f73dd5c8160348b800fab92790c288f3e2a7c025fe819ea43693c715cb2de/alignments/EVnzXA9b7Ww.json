@@ -1,0 +1,638 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "EVnzXA9b7Ww",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EVnzXA9b7Ww.srt",
+        "status": "available",
+        "bytes": 1616,
+        "sha256": "2976a942337254dcc07c8267f8b490578b13e984a2a252e8095de97642b09a28",
+        "cues": 18,
+        "nonempty_cues": 18
+      },
+      "frame_indices": [
+        0,
+        81,
+        162,
+        243,
+        325,
+        406,
+        487,
+        568,
+        649,
+        730,
+        811,
+        892,
+        974,
+        1055,
+        1136,
+        1217,
+        1298,
+        1379,
+        1460,
+        1541,
+        1623,
+        1704,
+        1785,
+        1866,
+        1947,
+        2028,
+        2109,
+        2190,
+        2272,
+        2353,
+        2434,
+        2515
+      ],
+      "frame_seconds": [
+        0.0,
+        3.24,
+        6.48,
+        9.72,
+        13.0,
+        16.24,
+        19.48,
+        22.72,
+        25.96,
+        29.2,
+        32.44,
+        35.68,
+        38.96,
+        42.2,
+        45.44,
+        48.68,
+        51.92,
+        55.16,
+        58.4,
+        61.64,
+        64.92,
+        68.16,
+        71.4,
+        74.64,
+        77.88,
+        81.12,
+        84.36,
+        87.6,
+        90.88,
+        94.12,
+        97.36,
+        100.6
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        [
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [],
+        [
+          9
+        ],
+        [],
+        [
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          17
+        ],
+        [
+          17
+        ],
+        [
+          17
+        ],
+        [
+          17
+        ],
+        [],
+        [],
+        [],
+        [
+          18
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 5360,
+          "end_ms": 9980,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 19460,
+          "end_ms": 24540,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 31250,
+          "end_ms": 36300,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 35450,
+          "end_ms": 38239,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 36300,
+          "end_ms": 41160,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 38239,
+          "end_ms": 41860,
+          "text": "wow"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 41160,
+          "end_ms": 50340,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 41860,
+          "end_ms": 50340,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 52800,
+          "end_ms": 55900,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 60480,
+          "end_ms": 64000,
+          "text": "otto you attempted the guinness world"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 62079,
+          "end_ms": 65840,
+          "text": "records title for the longest human"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 64000,
+          "end_ms": 67119,
+          "text": "tunnel traveled through by a dog on a"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 65840,
+          "end_ms": 70840,
+          "text": "skateboard"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 67119,
+          "end_ms": 72560,
+          "text": "the minimum to beat was 30 people"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 70840,
+          "end_ms": 76119,
+          "text": "congratulations you're now a guinness"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 72560,
+          "end_ms": 76119,
+          "text": "world records title"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 76170,
+          "end_ms": 88539,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 99759,
+          "end_ms": 101840,
+          "text": "foreign"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\nwow\n[Music]\n[Applause]\n[Applause]\notto you attempted the guinness world\nrecords title for the longest human\ntunnel traveled through by a dog on a\nskateboard\nthe minimum to beat was 30 people\ncongratulations you're now a guinness\nworld records title\n[Applause]\nforeign",
+      "text_tokens": 92,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EVnzXA9b7Ww",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EVnzXA9b7Ww.srt",
+          "status": "available",
+          "bytes": 1616,
+          "sha256": "2976a942337254dcc07c8267f8b490578b13e984a2a252e8095de97642b09a28",
+          "cues": 18,
+          "nonempty_cues": 18
+        },
+        "frame_indices": [
+          0,
+          81,
+          162,
+          243,
+          325,
+          406,
+          487,
+          568,
+          649,
+          730,
+          811,
+          892,
+          974,
+          1055,
+          1136,
+          1217,
+          1298,
+          1379,
+          1460,
+          1541,
+          1623,
+          1704,
+          1785,
+          1866,
+          1947,
+          2028,
+          2109,
+          2190,
+          2272,
+          2353,
+          2434,
+          2515
+        ],
+        "frame_seconds": [
+          0.0,
+          3.24,
+          6.48,
+          9.72,
+          13.0,
+          16.24,
+          19.48,
+          22.72,
+          25.96,
+          29.2,
+          32.44,
+          35.68,
+          38.96,
+          42.2,
+          45.44,
+          48.68,
+          51.92,
+          55.16,
+          58.4,
+          61.64,
+          64.92,
+          68.16,
+          71.4,
+          74.64,
+          77.88,
+          81.12,
+          84.36,
+          87.6,
+          90.88,
+          94.12,
+          97.36,
+          100.6
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [],
+          [
+            9
+          ],
+          [],
+          [
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [],
+          [],
+          [],
+          [
+            18
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 5360,
+            "end_ms": 9980,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 19460,
+            "end_ms": 24540,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 31250,
+            "end_ms": 36300,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 35450,
+            "end_ms": 38239,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 36300,
+            "end_ms": 41160,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 38239,
+            "end_ms": 41860,
+            "text": "wow"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 41160,
+            "end_ms": 50340,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 41860,
+            "end_ms": 50340,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 52800,
+            "end_ms": 55900,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 60480,
+            "end_ms": 64000,
+            "text": "otto you attempted the guinness world"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 62079,
+            "end_ms": 65840,
+            "text": "records title for the longest human"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 64000,
+            "end_ms": 67119,
+            "text": "tunnel traveled through by a dog on a"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 65840,
+            "end_ms": 70840,
+            "text": "skateboard"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 67119,
+            "end_ms": 72560,
+            "text": "the minimum to beat was 30 people"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 70840,
+            "end_ms": 76119,
+            "text": "congratulations you're now a guinness"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 72560,
+            "end_ms": 76119,
+            "text": "world records title"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 76170,
+            "end_ms": 88539,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 99759,
+            "end_ms": 101840,
+            "text": "foreign"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\nwow\n[Music]\n[Applause]\n[Applause]\notto you attempted the guinness world\nrecords title for the longest human\ntunnel traveled through by a dog on a\nskateboard\nthe minimum to beat was 30 people\ncongratulations you're now a guinness\nworld records title\n[Applause]\nforeign",
+        "text_tokens": 92,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 5360,
+          "end_ms": 9980,
+          "text": "[Music]"
+        },
+        {
+          "id": "S2",
+          "cue_ids": [
+            2
+          ],
+          "start_ms": 19460,
+          "end_ms": 24540,
+          "text": "[Music]"
+        },
+        {
+          "id": "S3",
+          "cue_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_ms": 31250,
+          "end_ms": 50340,
+          "text": "[Music] [Applause] [Music] wow [Music] [Applause]"
+        },
+        {
+          "id": "S9",
+          "cue_ids": [
+            9
+          ],
+          "start_ms": 52800,
+          "end_ms": 55900,
+          "text": "[Applause]"
+        },
+        {
+          "id": "S10",
+          "cue_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "start_ms": 60480,
+          "end_ms": 88539,
+          "text": "otto you attempted the guinness world records title for the longest human tunnel traveled through by a dog on a skateboard the minimum to beat was 30 people congratulations you're now a guinness world records title [Applause]"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18
+          ],
+          "start_ms": 99759,
+          "end_ms": 101840,
+          "text": "foreign"
+        }
+      ],
+      "text": "S1 [00:00:05.360 --> 00:00:09.980] [Music]\nS2 [00:00:19.460 --> 00:00:24.540] [Music]\nS3 [00:00:31.250 --> 00:00:50.340] [Music] [Applause] [Music] wow [Music] [Applause]\nS9 [00:00:52.800 --> 00:00:55.900] [Applause]\nS10 [00:01:00.480 --> 00:01:28.539] otto you attempted the guinness world records title for the longest human tunnel traveled through by a dog on a skateboard the minimum to beat was 30 people congratulations you're now a guinness world records title [Applause]\nS18 [00:01:39.759 --> 00:01:41.840] foreign",
+      "text_tokens": 261,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "623cd039cf64ae45c0ac2576e001925e14c0a239d9eb7fbb4c5d9a7a49d5f4eb"
+}

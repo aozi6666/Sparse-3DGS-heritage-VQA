@@ -1,0 +1,164 @@
+{
+  "signature": "ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275",
+  "baseline_signature": "86f337f035388253a22e9dcb7d7a6977005aae4ab1273fa75313735ba5ab2c16",
+  "stage": "dev60",
+  "interpretation": "Development screening only; not independent evidence of gains.",
+  "audit": {
+    "passed": true,
+    "errors": [],
+    "N": 180,
+    "note": "Time endpoint audit does not prove every intermediate timestamp; native sampling is unchanged."
+  },
+  "methods": {
+    "codec32": {
+      "N": 180,
+      "correct": 111,
+      "invalid": 0,
+      "vs": {
+        "codec32": {
+          "rescue": 0,
+          "harm": 0,
+          "net": 0,
+          "delta_pp": 0.0,
+          "video_cluster_bootstrap_95ci_pp": [
+            0.0,
+            0.0
+          ],
+          "questionwise_mcnemar_exact_p": 1.0,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        },
+        "frames32": {
+          "rescue": 13,
+          "harm": 12,
+          "net": 1,
+          "delta_pp": 0.5555555555555556,
+          "video_cluster_bootstrap_95ci_pp": [
+            -3.888888888888889,
+            5.0
+          ],
+          "questionwise_mcnemar_exact_p": 1,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        }
+      },
+      "cost": {
+        "model_calls": 180,
+        "visual_tokens": 853392,
+        "inference_s": 165.6027590315789,
+        "preprocess_s": 3171.7643054798245,
+        "peak_allocated_gib": 10.689126968383789,
+        "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+      },
+      "by_duration": {
+        "long": {
+          "N": 84,
+          "correct": 48
+        },
+        "medium": {
+          "N": 96,
+          "correct": 63
+        }
+      },
+      "accuracy": 0.6166666666666667
+    },
+    "frames32": {
+      "N": 180,
+      "correct": 110,
+      "invalid": 0,
+      "vs": {
+        "codec32": {
+          "rescue": 12,
+          "harm": 13,
+          "net": -1,
+          "delta_pp": -0.5555555555555556,
+          "video_cluster_bootstrap_95ci_pp": [
+            -5.0,
+            3.888888888888889
+          ],
+          "questionwise_mcnemar_exact_p": 1,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        },
+        "frames32": {
+          "rescue": 0,
+          "harm": 0,
+          "net": 0,
+          "delta_pp": 0.0,
+          "video_cluster_bootstrap_95ci_pp": [
+            0.0,
+            0.0
+          ],
+          "questionwise_mcnemar_exact_p": 1.0,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        }
+      },
+      "cost": {
+        "model_calls": 180,
+        "visual_tokens": 828672,
+        "inference_s": 122.5736694149673,
+        "preprocess_s": 186.21700746193528,
+        "peak_allocated_gib": 10.313128471374512,
+        "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+      },
+      "by_duration": {
+        "long": {
+          "N": 84,
+          "correct": 50
+        },
+        "medium": {
+          "N": 96,
+          "correct": 60
+        }
+      },
+      "accuracy": 0.6111111111111112
+    },
+    "frames64": {
+      "N": 180,
+      "correct": 112,
+      "invalid": 0,
+      "vs": {
+        "codec32": {
+          "rescue": 17,
+          "harm": 16,
+          "net": 1,
+          "delta_pp": 0.5555555555555556,
+          "video_cluster_bootstrap_95ci_pp": [
+            -5.555555555555555,
+            6.680555555555354
+          ],
+          "questionwise_mcnemar_exact_p": 1,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        },
+        "frames32": {
+          "rescue": 12,
+          "harm": 10,
+          "net": 2,
+          "delta_pp": 1.1111111111111112,
+          "video_cluster_bootstrap_95ci_pp": [
+            -3.888888888888889,
+            6.111111111111111
+          ],
+          "questionwise_mcnemar_exact_p": 0.8318119049072266,
+          "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+        }
+      },
+      "cost": {
+        "model_calls": 180,
+        "visual_tokens": 1657344,
+        "inference_s": 258.2511375602335,
+        "preprocess_s": 344.6018444560468,
+        "peak_allocated_gib": 11.78422212600708,
+        "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+      },
+      "by_duration": {
+        "long": {
+          "N": 84,
+          "correct": 51
+        },
+        "medium": {
+          "N": 96,
+          "correct": 61
+        }
+      },
+      "accuracy": 0.6222222222222222
+    }
+  }
+}

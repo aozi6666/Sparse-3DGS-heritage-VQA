@@ -1,0 +1,490 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "B6fvT2LKEDI",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/B6fvT2LKEDI.srt",
+      "status": "available",
+      "bytes": 72145,
+      "sha256": "72f2e6e76be906c7099991f5aa36d4798e892df05d7edcc2d8f205033019a003",
+      "cues": 741,
+      "nonempty_cues": 741
+    },
+    "frame_indices": [
+      0,
+      2131,
+      4261,
+      6392,
+      8522,
+      10653,
+      12783,
+      14914,
+      17044,
+      19175,
+      21305,
+      23436,
+      25566,
+      27697,
+      29827,
+      31958,
+      34088,
+      36219,
+      38349,
+      40480,
+      42610,
+      44741,
+      46871,
+      49002,
+      51132,
+      53263,
+      55393,
+      57524,
+      59654,
+      61785,
+      63915,
+      66046
+    ],
+    "frame_seconds": [
+      0.0,
+      88.880458,
+      177.719208,
+      266.599667,
+      355.438417,
+      444.318875,
+      533.157625,
+      622.038083,
+      710.876833,
+      799.757292,
+      888.596042,
+      977.4765,
+      1066.31525,
+      1155.195708,
+      1244.034458,
+      1332.914917,
+      1421.753667,
+      1510.634125,
+      1599.472875,
+      1688.353333,
+      1777.192083,
+      1866.072542,
+      1954.911292,
+      2043.79175,
+      2132.6305,
+      2221.510958,
+      2310.349708,
+      2399.230167,
+      2488.068917,
+      2576.949375,
+      2665.788125,
+      2754.668583
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        29,
+        30
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        64,
+        65
+      ],
+      [
+        77,
+        78
+      ],
+      [
+        103,
+        104
+      ],
+      [],
+      [
+        142,
+        143
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        191
+      ],
+      [
+        206
+      ],
+      [
+        240,
+        241
+      ],
+      [],
+      [],
+      [
+        297,
+        298
+      ],
+      [
+        320
+      ],
+      [
+        338
+      ],
+      [],
+      [
+        373
+      ],
+      [
+        389,
+        390
+      ],
+      [
+        413,
+        414
+      ],
+      [
+        428,
+        429
+      ],
+      [
+        451,
+        452
+      ],
+      [
+        490,
+        491
+      ],
+      [
+        511,
+        512
+      ],
+      [
+        528,
+        529
+      ],
+      [
+        560
+      ],
+      [
+        582,
+        583
+      ],
+      [
+        617,
+        618
+      ],
+      [
+        658,
+        659
+      ],
+      [
+        702,
+        703
+      ],
+      [
+        740,
+        741
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 29,
+        "start_ms": 76910,
+        "end_ms": 91090,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 82860,
+        "end_ms": 91090,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 165680,
+        "end_ms": 178400,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 177100,
+        "end_ms": 185840,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 252840,
+        "end_ms": 269540,
+        "text": "yours"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 254879,
+        "end_ms": 275869,
+        "text": "i'm so excited i love dancing"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 350840,
+        "end_ms": 377440,
+        "text": "wow"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 352630,
+        "end_ms": 380560,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 437599,
+        "end_ms": 445360,
+        "text": "okay we have to vote"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 440800,
+        "end_ms": 447919,
+        "text": "howie yes"
+      },
+      {
+        "cue_id": 142,
+        "start_ms": 603760,
+        "end_ms": 627860,
+        "text": "foreign"
+      },
+      {
+        "cue_id": 143,
+        "start_ms": 604940,
+        "end_ms": 627860,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 709120,
+        "end_ms": 711920,
+        "text": "the end of your leg it looks like your"
+      },
+      {
+        "cue_id": 163,
+        "start_ms": 710399,
+        "end_ms": 713519,
+        "text": "knee is bent the wrong way"
+      },
+      {
+        "cue_id": 191,
+        "start_ms": 796399,
+        "end_ms": 801839,
+        "text": "what's he doing"
+      },
+      {
+        "cue_id": 206,
+        "start_ms": 873330,
+        "end_ms": 896049,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 240,
+        "start_ms": 970800,
+        "end_ms": 978560,
+        "text": "thank you so much let's vote guys"
+      },
+      {
+        "cue_id": 241,
+        "start_ms": 975279,
+        "end_ms": 982560,
+        "text": "yes yes"
+      },
+      {
+        "cue_id": 297,
+        "start_ms": 1241919,
+        "end_ms": 1245039,
+        "text": "i'd have to tell you also girls you have"
+      },
+      {
+        "cue_id": 298,
+        "start_ms": 1244000,
+        "end_ms": 1247039,
+        "text": "amazing energy"
+      },
+      {
+        "cue_id": 320,
+        "start_ms": 1320960,
+        "end_ms": 1335520,
+        "text": "you know how i feel"
+      },
+      {
+        "cue_id": 338,
+        "start_ms": 1420600,
+        "end_ms": 1431840,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 373,
+        "start_ms": 1596840,
+        "end_ms": 1599840,
+        "text": "watching"
+      },
+      {
+        "cue_id": 389,
+        "start_ms": 1683360,
+        "end_ms": 1688720,
+        "text": "and really legitimately you will bend"
+      },
+      {
+        "cue_id": 390,
+        "start_ms": 1685279,
+        "end_ms": 1688720,
+        "text": "over backwards to win this thing"
+      },
+      {
+        "cue_id": 413,
+        "start_ms": 1766130,
+        "end_ms": 1778250,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 414,
+        "start_ms": 1772960,
+        "end_ms": 1781230,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 428,
+        "start_ms": 1856580,
+        "end_ms": 1875620,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 429,
+        "start_ms": 1859990,
+        "end_ms": 1876840,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 451,
+        "start_ms": 1951760,
+        "end_ms": 1956799,
+        "text": "do you have to have something special in"
+      },
+      {
+        "cue_id": 452,
+        "start_ms": 1954880,
+        "end_ms": 1957360,
+        "text": "the way your body is to be able to do"
+      },
+      {
+        "cue_id": 490,
+        "start_ms": 2039440,
+        "end_ms": 2047840,
+        "text": "love your act"
+      },
+      {
+        "cue_id": 491,
+        "start_ms": 2040559,
+        "end_ms": 2047840,
+        "text": "which is why you have four yeses"
+      },
+      {
+        "cue_id": 511,
+        "start_ms": 2128960,
+        "end_ms": 2145839,
+        "text": "the normal laws of physics don't apply"
+      },
+      {
+        "cue_id": 512,
+        "start_ms": 2130880,
+        "end_ms": 2145839,
+        "text": "to this cow"
+      },
+      {
+        "cue_id": 528,
+        "start_ms": 2219880,
+        "end_ms": 2224140,
+        "text": "spellbinding"
+      },
+      {
+        "cue_id": 529,
+        "start_ms": 2221130,
+        "end_ms": 2226880,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 560,
+        "start_ms": 2307180,
+        "end_ms": 2311160,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 582,
+        "start_ms": 2396880,
+        "end_ms": 2400000,
+        "text": "what you were about to do next and it"
+      },
+      {
+        "cue_id": 583,
+        "start_ms": 2398800,
+        "end_ms": 2403359,
+        "text": "was like oh no"
+      },
+      {
+        "cue_id": 617,
+        "start_ms": 2484240,
+        "end_ms": 2490530,
+        "text": "won't want to miss"
+      },
+      {
+        "cue_id": 618,
+        "start_ms": 2486920,
+        "end_ms": 2490530,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 658,
+        "start_ms": 2572960,
+        "end_ms": 2577280,
+        "text": "epic moments"
+      },
+      {
+        "cue_id": 659,
+        "start_ms": 2574240,
+        "end_ms": 2578880,
+        "text": "on these shows but the best part is"
+      },
+      {
+        "cue_id": 702,
+        "start_ms": 2662400,
+        "end_ms": 2666960,
+        "text": "and"
+      },
+      {
+        "cue_id": 703,
+        "start_ms": 2662800,
+        "end_ms": 2669119,
+        "text": "so much more by the fans for the fans"
+      },
+      {
+        "cue_id": 740,
+        "start_ms": 2748630,
+        "end_ms": 2756640,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 741,
+        "start_ms": 2754560,
+        "end_ms": 2756640,
+        "text": "you"
+      }
+    ],
+    "text": "[Applause]\n[Music]\n[Applause]\n[Music]\nyours\ni'm so excited i love dancing\nwow\n[Applause]\nokay we have to vote\nhowie yes\nforeign\n[Applause]\nthe end of your leg it looks like your\nknee is bent the wrong way\nwhat's he doing\n[Applause]\nthank you so much let's vote guys\nyes yes\ni'd have to tell you also girls you have\namazing energy\nyou know how i feel\n[Music]\nwatching\nand really legitimately you will bend\nover backwards to win this thing\n[Applause]\n[Music]\n[Music]\n[Applause]\ndo you have to have something special in\nthe way your body is to be able to do\nlove your act\nwhich is why you have four yeses\nthe normal laws of physics don't apply\nto this cow\nspellbinding\n[Applause]\n[Music]\nwhat you were about to do next and it\nwas like oh no\nwon't want to miss\n[Music]\nepic moments\non these shows but the best part is\nand\nso much more by the fans for the fans\n[Music]\nyou",
+    "text_tokens": 258,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "774da3a7c8ab0106989aa7e9bbc71e292bfb56ebc49c67873c00ecaa2cde405a",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

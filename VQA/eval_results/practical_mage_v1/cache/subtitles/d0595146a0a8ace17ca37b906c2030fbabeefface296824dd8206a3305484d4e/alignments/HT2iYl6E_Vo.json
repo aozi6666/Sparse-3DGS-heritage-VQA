@@ -1,0 +1,544 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "HT2iYl6E_Vo",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HT2iYl6E_Vo.srt",
+      "status": "available",
+      "bytes": 134448,
+      "sha256": "b5181846515e77154f6c4593f00a4d8230e6e05c9421e8cc4d64f63754ece737",
+      "cues": 1225,
+      "nonempty_cues": 1225
+    },
+    "frame_indices": [
+      0,
+      2991,
+      5983,
+      8974,
+      11965,
+      14956,
+      17948,
+      20939,
+      23930,
+      26921,
+      29913,
+      32904,
+      35895,
+      38886,
+      41878,
+      44869,
+      47860,
+      50851,
+      53843,
+      56834,
+      59825,
+      62816,
+      65808,
+      68799,
+      71790,
+      74781,
+      77773,
+      80764,
+      83755,
+      86746,
+      89738,
+      92729
+    ],
+    "frame_seconds": [
+      0.0,
+      99.7998,
+      199.632966,
+      299.432766,
+      399.232566,
+      499.032366,
+      598.865532,
+      698.665332,
+      798.465132,
+      898.264932,
+      998.098098,
+      1097.897898,
+      1197.697698,
+      1297.497497,
+      1397.330664,
+      1497.130464,
+      1596.930264,
+      1696.730063,
+      1796.56323,
+      1896.36303,
+      1996.162829,
+      2095.962629,
+      2195.795796,
+      2295.595596,
+      2395.395395,
+      2495.195195,
+      2595.028362,
+      2694.828161,
+      2794.627961,
+      2894.427761,
+      2994.260928,
+      3094.060727
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        42,
+        43
+      ],
+      [
+        82,
+        83
+      ],
+      [
+        121,
+        122
+      ],
+      [
+        161,
+        162
+      ],
+      [
+        204,
+        205
+      ],
+      [
+        246,
+        247
+      ],
+      [
+        289
+      ],
+      [
+        328,
+        329
+      ],
+      [
+        367,
+        368
+      ],
+      [
+        408,
+        409
+      ],
+      [
+        449,
+        450
+      ],
+      [
+        489,
+        490
+      ],
+      [
+        530,
+        531
+      ],
+      [
+        568
+      ],
+      [
+        608,
+        609
+      ],
+      [
+        643,
+        644
+      ],
+      [
+        681,
+        682
+      ],
+      [],
+      [
+        768,
+        769
+      ],
+      [
+        804,
+        805
+      ],
+      [
+        839,
+        840
+      ],
+      [
+        881,
+        882
+      ],
+      [
+        923,
+        924
+      ],
+      [
+        958,
+        959
+      ],
+      [
+        999,
+        1000
+      ],
+      [
+        1034,
+        1035
+      ],
+      [
+        1071,
+        1072
+      ],
+      [
+        1103,
+        1104
+      ],
+      [
+        1144,
+        1145
+      ],
+      [
+        1188,
+        1189
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 42,
+        "start_ms": 96479,
+        "end_ms": 101759,
+        "text": "so time is of the essence here as they"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 99039,
+        "end_ms": 103479,
+        "text": "look to move in they get their control"
+      },
+      {
+        "cue_id": 82,
+        "start_ms": 195400,
+        "end_ms": 199640,
+        "text": "Twist is on the big RP up on Longs side"
+      },
+      {
+        "cue_id": 83,
+        "start_ms": 197599,
+        "end_ms": 201799,
+        "text": "he's got the kill and the round in the"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 295320,
+        "end_ms": 301639,
+        "text": "it's still seconds milliseconds off of"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 298800,
+        "end_ms": 301639,
+        "text": "the round"
+      },
+      {
+        "cue_id": 161,
+        "start_ms": 396199,
+        "end_ms": 400479,
+        "text": "but this B site is just thwart with"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 397759,
+        "end_ms": 402919,
+        "text": "danger Nico spamming not quite finding"
+      },
+      {
+        "cue_id": 204,
+        "start_ms": 497520,
+        "end_ms": 501840,
+        "text": "last time doesn't look like it's going"
+      },
+      {
+        "cue_id": 205,
+        "start_ms": 498800,
+        "end_ms": 504199,
+        "text": "to come back to haunt them as G2 have no"
+      },
+      {
+        "cue_id": 246,
+        "start_ms": 594079,
+        "end_ms": 600600,
+        "text": "liquid bleed out in this round no"
+      },
+      {
+        "cue_id": 247,
+        "start_ms": 596920,
+        "end_ms": 602640,
+        "text": "survivors whatever you did on"
+      },
+      {
+        "cue_id": 289,
+        "start_ms": 698600,
+        "end_ms": 703639,
+        "text": "them oh the the nade stack on the"
+      },
+      {
+        "cue_id": 328,
+        "start_ms": 792000,
+        "end_ms": 799320,
+        "text": "thought they had liquid's number but Naf"
+      },
+      {
+        "cue_id": 329,
+        "start_ms": 794680,
+        "end_ms": 801120,
+        "text": "repels them oh Mony can't close the gap"
+      },
+      {
+        "cue_id": 367,
+        "start_ms": 895160,
+        "end_ms": 900160,
+        "text": "to dry so that will be a plant for G2"
+      },
+      {
+        "cue_id": 368,
+        "start_ms": 897560,
+        "end_ms": 902560,
+        "text": "Ted up yeah Kinder kind of risks the"
+      },
+      {
+        "cue_id": 408,
+        "start_ms": 995279,
+        "end_ms": 999800,
+        "text": "support from km moving in but it's going"
+      },
+      {
+        "cue_id": 409,
+        "start_ms": 997000,
+        "end_ms": 1002160,
+        "text": "to get here too late not destined to be"
+      },
+      {
+        "cue_id": 449,
+        "start_ms": 1094960,
+        "end_ms": 1099400,
+        "text": "there can't quite get a beat on him NEX"
+      },
+      {
+        "cue_id": 450,
+        "start_ms": 1097320,
+        "end_ms": 1102200,
+        "text": "we trade that out and now it's na again"
+      },
+      {
+        "cue_id": 489,
+        "start_ms": 1195720,
+        "end_ms": 1200640,
+        "text": "skulls can swing off contact they can"
+      },
+      {
+        "cue_id": 490,
+        "start_ms": 1197559,
+        "end_ms": 1200640,
+        "text": "Peak together"
+      },
+      {
+        "cue_id": 530,
+        "start_ms": 1293919,
+        "end_ms": 1299279,
+        "text": "no idea until it's too"
+      },
+      {
+        "cue_id": 531,
+        "start_ms": 1297320,
+        "end_ms": 1304120,
+        "text": "late oh that's"
+      },
+      {
+        "cue_id": 568,
+        "start_ms": 1394880,
+        "end_ms": 1401320,
+        "text": "made what a play Oh even this is awkward"
+      },
+      {
+        "cue_id": 608,
+        "start_ms": 1493279,
+        "end_ms": 1497360,
+        "text": "a Molotov but might not get to use it"
+      },
+      {
+        "cue_id": 609,
+        "start_ms": 1495399,
+        "end_ms": 1499960,
+        "text": "exit getting thrown on B bomb spotted"
+      },
+      {
+        "cue_id": 643,
+        "start_ms": 1592520,
+        "end_ms": 1598600,
+        "text": "competitive in this game it's on this"
+      },
+      {
+        "cue_id": 644,
+        "start_ms": 1595520,
+        "end_ms": 1600159,
+        "text": "round and once again G2 how many numbers"
+      },
+      {
+        "cue_id": 681,
+        "start_ms": 1694279,
+        "end_ms": 1699159,
+        "text": "going to get wrapped on and Nexa will"
+      },
+      {
+        "cue_id": 682,
+        "start_ms": 1695840,
+        "end_ms": 1702640,
+        "text": "finish the job as G2 Sprint towards the"
+      },
+      {
+        "cue_id": 768,
+        "start_ms": 1892880,
+        "end_ms": 1898000,
+        "text": "going to clutch up to keep Team Liquid"
+      },
+      {
+        "cue_id": 769,
+        "start_ms": 1895000,
+        "end_ms": 1900840,
+        "text": "on Anubis and he'll manage it Team"
+      },
+      {
+        "cue_id": 804,
+        "start_ms": 1993120,
+        "end_ms": 1997080,
+        "text": "bought out for"
+      },
+      {
+        "cue_id": 805,
+        "start_ms": 1994880,
+        "end_ms": 2000399,
+        "text": "twists I saw him warming up with that"
+      },
+      {
+        "cue_id": 839,
+        "start_ms": 2093679,
+        "end_ms": 2096639,
+        "text": "after all but he's done enough to win"
+      },
+      {
+        "cue_id": 840,
+        "start_ms": 2095199,
+        "end_ms": 2098680,
+        "text": "the round for Team"
+      },
+      {
+        "cue_id": 881,
+        "start_ms": 2192160,
+        "end_ms": 2197319,
+        "text": "wild man finally spammed out as hookie"
+      },
+      {
+        "cue_id": 882,
+        "start_ms": 2194720,
+        "end_ms": 2199520,
+        "text": "gets him by chance but it's just hoie"
+      },
+      {
+        "cue_id": 923,
+        "start_ms": 2294480,
+        "end_ms": 2298040,
+        "text": "fli the"
+      },
+      {
+        "cue_id": 924,
+        "start_ms": 2295480,
+        "end_ms": 2299319,
+        "text": "script after yakinda does that liquid"
+      },
+      {
+        "cue_id": 958,
+        "start_ms": 2392040,
+        "end_ms": 2397599,
+        "text": "next Keen to deliver secures that opener"
+      },
+      {
+        "cue_id": 959,
+        "start_ms": 2395119,
+        "end_ms": 2399400,
+        "text": "onto twist but blinded by the FL flash"
+      },
+      {
+        "cue_id": 999,
+        "start_ms": 2491720,
+        "end_ms": 2496520,
+        "text": "cleared out by"
+      },
+      {
+        "cue_id": 1000,
+        "start_ms": 2493200,
+        "end_ms": 2498560,
+        "text": "Nexa and even as Naf responds with one"
+      },
+      {
+        "cue_id": 1034,
+        "start_ms": 2590400,
+        "end_ms": 2595680,
+        "text": "to Arms to bring them back in but no"
+      },
+      {
+        "cue_id": 1035,
+        "start_ms": 2592440,
+        "end_ms": 2598200,
+        "text": "kill presented yet skulls Falls as Mony"
+      },
+      {
+        "cue_id": 1071,
+        "start_ms": 2691960,
+        "end_ms": 2696440,
+        "text": "tears through Team Liquid what a"
+      },
+      {
+        "cue_id": 1072,
+        "start_ms": 2693839,
+        "end_ms": 2700000,
+        "text": "fantastic round for Nico do get flash"
+      },
+      {
+        "cue_id": 1103,
+        "start_ms": 2789440,
+        "end_ms": 2795599,
+        "text": "involved this one gets closed out"
+      },
+      {
+        "cue_id": 1104,
+        "start_ms": 2791640,
+        "end_ms": 2795599,
+        "text": "cleanly G2 right back to"
+      },
+      {
+        "cue_id": 1144,
+        "start_ms": 2891319,
+        "end_ms": 2896680,
+        "text": "even a moment what great routing for nap"
+      },
+      {
+        "cue_id": 1145,
+        "start_ms": 2894040,
+        "end_ms": 2898880,
+        "text": "as well to go back porch side through"
+      },
+      {
+        "cue_id": 1188,
+        "start_ms": 2991079,
+        "end_ms": 2994920,
+        "text": "irretrievable they will try and get a"
+      },
+      {
+        "cue_id": 1189,
+        "start_ms": 2993079,
+        "end_ms": 2997760,
+        "text": "handle on it but Naf does not give them"
+      }
+    ],
+    "text": "so time is of the essence here as they\nlook to move in they get their control\nTwist is on the big RP up on Longs side\nhe's got the kill and the round in the\nit's still seconds milliseconds off of\nthe round\nbut this B site is just thwart with\ndanger Nico spamming not quite finding\nlast time doesn't look like it's going\nto come back to haunt them as G2 have no\nliquid bleed out in this round no\nsurvivors whatever you did on\nthem oh the the nade stack on the\nthought they had liquid's number but Naf\nrepels them oh Mony can't close the gap\nto dry so that will be a plant for G2\nTed up yeah Kinder kind of risks the\nsupport from km moving in but it's going\nto get here too late not destined to be\nthere can't quite get a beat on him NEX\nwe trade that out and now it's na again\nskulls can swing off contact they can\nPeak together\nno idea until it's too\nlate oh that's\nmade what a play Oh even this is awkward\na Molotov but might not get to use it\nexit getting thrown on B bomb spotted\ncompetitive in this game it's on this\nround and once again G2 how many numbers\ngoing to get wrapped on and Nexa will\nfinish the job as G2 Sprint towards the\ngoing to clutch up to keep Team Liquid\non Anubis and he'll manage it Team\nbought out for\ntwists I saw him warming up with that\nafter all but he's done enough to win\nthe round for Team\nwild man finally spammed out as hookie\ngets him by chance but it's just hoie\nfli the\nscript after yakinda does that liquid\nnext Keen to deliver secures that opener\nonto twist but blinded by the FL flash\ncleared out by\nNexa and even as Naf responds with one\nto Arms to bring them back in but no\nkill presented yet skulls Falls as Mony\ntears through Team Liquid what a\nfantastic round for Nico do get flash\ninvolved this one gets closed out\ncleanly G2 right back to\neven a moment what great routing for nap\nas well to go back porch side through\nirretrievable they will try and get a\nhandle on it but Naf does not give them",
+    "text_tokens": 508,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "09e00b3e9226bf638600337fe5868dd96b78716c65b447d8667a7993707f54b2"
+}

@@ -1,0 +1,331 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "dphq5X-rMew",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dphq5X-rMew.srt",
+      "status": "available",
+      "bytes": 15799,
+      "sha256": "db6551cfd920d61e4569339ece001552229b698351c1a84da9091d1a31d84d12",
+      "cues": 125,
+      "nonempty_cues": 125
+    },
+    "frame_indices": [
+      0,
+      321,
+      641,
+      962,
+      1282,
+      1603,
+      1923,
+      2244,
+      2564,
+      2885,
+      3205,
+      3526,
+      3847,
+      4167,
+      4488,
+      4808,
+      5129,
+      5449,
+      5770,
+      6090,
+      6411,
+      6732,
+      7052,
+      7373,
+      7693,
+      8014,
+      8334,
+      8655,
+      8975,
+      9296,
+      9616,
+      9937
+    ],
+    "frame_seconds": [
+      0.0,
+      13.388375,
+      26.735042,
+      40.123417,
+      53.470083,
+      66.858458,
+      80.205125,
+      93.5935,
+      106.940167,
+      120.328542,
+      133.675208,
+      147.063583,
+      160.451958,
+      173.79862500000002,
+      187.187,
+      200.533667,
+      213.922042,
+      227.268708,
+      240.657083,
+      254.00375,
+      267.392125,
+      280.7805,
+      294.127167,
+      307.515542,
+      320.862208,
+      334.250583,
+      347.59725000000003,
+      360.985625,
+      374.332292,
+      387.720667,
+      401.067333,
+      414.455708
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        5
+      ],
+      [
+        9
+      ],
+      [
+        14
+      ],
+      [],
+      [
+        20
+      ],
+      [
+        24
+      ],
+      [
+        28
+      ],
+      [
+        32
+      ],
+      [
+        36
+      ],
+      [
+        40
+      ],
+      [
+        46
+      ],
+      [],
+      [
+        55
+      ],
+      [
+        59
+      ],
+      [
+        63
+      ],
+      [
+        68
+      ],
+      [
+        72
+      ],
+      [
+        76
+      ],
+      [
+        80
+      ],
+      [
+        84
+      ],
+      [
+        88
+      ],
+      [
+        91
+      ],
+      [
+        95
+      ],
+      [],
+      [
+        105
+      ],
+      [
+        109
+      ],
+      [
+        114
+      ],
+      [
+        117
+      ],
+      [
+        122
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 5,
+        "start_ms": 11770,
+        "end_ms": 13920,
+        "text": "To find the ruins of a lost city"
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 24221,
+        "end_ms": 27859,
+        "text": "But Fawcett never found Z, or any other city."
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 39756,
+        "end_ms": 41947,
+        "text": "These ditches and mounds are man-made."
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 65710,
+        "end_ms": 68505,
+        "text": "centuries before the Spaniards came, still stand...\""
+      },
+      {
+        "cue_id": 24,
+        "start_ms": 80088,
+        "end_ms": 83030,
+        "text": "some of whom, had long-ago built huge cities."
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 93079,
+        "end_ms": 95557,
+        "text": "and featured well-planned roads and neighborhoods."
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 106488,
+        "end_ms": 108890,
+        "text": "\"And washes it away at night.\""
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 118369,
+        "end_ms": 121821,
+        "text": "so many Europeans set off in search of El Dorado."
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 132671,
+        "end_ms": 134666,
+        "text": "Spanish explorers claimed to see:"
+      },
+      {
+        "cue_id": 46,
+        "start_ms": 146450,
+        "end_ms": 149470,
+        "text": "Explorations continued over the next 200 years or so"
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 172021,
+        "end_ms": 176240,
+        "text": "But he couldn’t find any of the things the early Europeans observed."
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 184429,
+        "end_ms": 188456,
+        "text": "This seemed to support what had become a near consensus among experts at the time:"
+      },
+      {
+        "cue_id": 63,
+        "start_ms": 196880,
+        "end_ms": 200776,
+        "text": "only a couple hundred-thousand people lived in the entire Amazon rainforest."
+      },
+      {
+        "cue_id": 68,
+        "start_ms": 212755,
+        "end_ms": 215504,
+        "text": "But Fawcett was determined to prove cities existed."
+      },
+      {
+        "cue_id": 72,
+        "start_ms": 226840,
+        "end_ms": 232060,
+        "text": "For next several decades, the Amazon was believed to have always been relatively empty."
+      },
+      {
+        "cue_id": 76,
+        "start_ms": 238929,
+        "end_ms": 242930,
+        "text": "In the 1960s, scientists discovered patches of extremely fertile soil."
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 252690,
+        "end_ms": 255110,
+        "text": "Further studies revealed it was created by human waste"
+      },
+      {
+        "cue_id": 84,
+        "start_ms": 265820,
+        "end_ms": 269484,
+        "text": "The next clue Fawcett missed would’ve also been hard to spot."
+      },
+      {
+        "cue_id": 88,
+        "start_ms": 278760,
+        "end_ms": 283063,
+        "text": "Working with the local indigenous people, they investigated these very long ditches."
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 291872,
+        "end_ms": 295000,
+        "text": "And some were roads that led to more settlements."
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 303870,
+        "end_ms": 308280,
+        "text": "50,000 people between 1250 and 1650 AD."
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 331108,
+        "end_ms": 335300,
+        "text": "A network of trenches, here, date back to 200 - 1200AD"
+      },
+      {
+        "cue_id": 109,
+        "start_ms": 344500,
+        "end_ms": 349500,
+        "text": "to reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall."
+      },
+      {
+        "cue_id": 114,
+        "start_ms": 360530,
+        "end_ms": 365130,
+        "text": "because an estimated 80-95% had died from smallpox and measles"
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 371356,
+        "end_ms": 375680,
+        "text": "And he didn’t find stone ruins because, unlike Cusco and Tenochtitlan"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 385660,
+        "end_ms": 388010,
+        "text": "that appeared to be untouched by humans"
+      }
+    ],
+    "text": "To find the ruins of a lost city\nBut Fawcett never found Z, or any other city.\nThese ditches and mounds are man-made.\ncenturies before the Spaniards came, still stand...\"\nsome of whom, had long-ago built huge cities.\nand featured well-planned roads and neighborhoods.\n\"And washes it away at night.\"\nso many Europeans set off in search of El Dorado.\nSpanish explorers claimed to see:\nExplorations continued over the next 200 years or so\nBut he couldn’t find any of the things the early Europeans observed.\nThis seemed to support what had become a near consensus among experts at the time:\nonly a couple hundred-thousand people lived in the entire Amazon rainforest.\nBut Fawcett was determined to prove cities existed.\nFor next several decades, the Amazon was believed to have always been relatively empty.\nIn the 1960s, scientists discovered patches of extremely fertile soil.\nFurther studies revealed it was created by human waste\nThe next clue Fawcett missed would’ve also been hard to spot.\nWorking with the local indigenous people, they investigated these very long ditches.\nAnd some were roads that led to more settlements.\n50,000 people between 1250 and 1650 AD.\nA network of trenches, here, date back to 200 - 1200AD\nto reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall.\nbecause an estimated 80-95% had died from smallpox and measles\nAnd he didn’t find stone ruins because, unlike Cusco and Tenochtitlan\nthat appeared to be untouched by humans",
+    "text_tokens": 355,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "fa4e5e2d2a82375c7e04ea22f7b901e001f03f82f34f25192f21437d8e205b71"
+}

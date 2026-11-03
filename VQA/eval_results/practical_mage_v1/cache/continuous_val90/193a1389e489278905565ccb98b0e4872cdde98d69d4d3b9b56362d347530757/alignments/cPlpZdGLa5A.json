@@ -1,0 +1,591 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "cPlpZdGLa5A",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/cPlpZdGLa5A.srt",
+        "status": "available",
+        "bytes": 13212,
+        "sha256": "cf9ade6c084e0f93452be87484b1e2ffc84408c8de44541127f21e6b25f38f47",
+        "cues": 146,
+        "nonempty_cues": 146
+      },
+      "frame_indices": [
+        0,
+        414,
+        828,
+        1242,
+        1655,
+        2069,
+        2483,
+        2897,
+        3311,
+        3725,
+        4138,
+        4552,
+        4966,
+        5380,
+        5794,
+        6208,
+        6621,
+        7035,
+        7449,
+        7863,
+        8277,
+        8691,
+        9104,
+        9518,
+        9932,
+        10346,
+        10760,
+        11174,
+        11587,
+        12001,
+        12415,
+        12829
+      ],
+      "frame_seconds": [
+        0.0,
+        16.56,
+        33.12,
+        49.68,
+        66.2,
+        82.76,
+        99.32,
+        115.88,
+        132.44,
+        149.0,
+        165.52,
+        182.08,
+        198.64,
+        215.2,
+        231.76,
+        248.32,
+        264.84,
+        281.4,
+        297.96,
+        314.52,
+        331.08,
+        347.64,
+        364.16,
+        380.72,
+        397.28,
+        413.84000000000003,
+        430.4,
+        446.96,
+        463.48,
+        480.04,
+        496.6,
+        513.16
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          6
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          27
+        ],
+        [
+          32
+        ],
+        [],
+        [
+          45
+        ],
+        [
+          50
+        ],
+        [],
+        [
+          60
+        ],
+        [
+          63
+        ],
+        [
+          72
+        ],
+        [],
+        [
+          82
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          102
+        ],
+        [
+          109
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          140
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 6,
+          "start_ms": 32200,
+          "end_ms": 33400,
+          "text": "I'm Jamal Musiala."
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 114840,
+          "end_ms": 117400,
+          "text": "Bro this is tough!"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 131280,
+          "end_ms": 132520,
+          "text": "Here we go."
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 165520,
+          "end_ms": 168000,
+          "text": "1...2...3...4...5...6"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 182000,
+          "end_ms": 182880,
+          "text": "Look at that."
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 214640,
+          "end_ms": 216800,
+          "text": "That's five for six."
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 230640,
+          "end_ms": 231800,
+          "text": "You missed only one!"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 248240,
+          "end_ms": 250440,
+          "text": "That's tough."
+        },
+        {
+          "cue_id": 82,
+          "start_ms": 280480,
+          "end_ms": 282040,
+          "text": "More legs."
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 362600,
+          "end_ms": 365000,
+          "text": "Oh, those little jellies."
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 380040,
+          "end_ms": 380840,
+          "text": "Should I go first?"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 479640,
+          "end_ms": 480400,
+          "text": "But now!"
+        }
+      ],
+      "text": "I'm Jamal Musiala.\nBro this is tough!\nHere we go.\n1...2...3...4...5...6\nLook at that.\nThat's five for six.\nYou missed only one!\nThat's tough.\nMore legs.\nOh, those little jellies.\nShould I go first?\nBut now!",
+      "text_tokens": 66,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "cPlpZdGLa5A",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/cPlpZdGLa5A.srt",
+          "status": "available",
+          "bytes": 13212,
+          "sha256": "cf9ade6c084e0f93452be87484b1e2ffc84408c8de44541127f21e6b25f38f47",
+          "cues": 146,
+          "nonempty_cues": 146
+        },
+        "frame_indices": [
+          0,
+          414,
+          828,
+          1242,
+          1655,
+          2069,
+          2483,
+          2897,
+          3311,
+          3725,
+          4138,
+          4552,
+          4966,
+          5380,
+          5794,
+          6208,
+          6621,
+          7035,
+          7449,
+          7863,
+          8277,
+          8691,
+          9104,
+          9518,
+          9932,
+          10346,
+          10760,
+          11174,
+          11587,
+          12001,
+          12415,
+          12829
+        ],
+        "frame_seconds": [
+          0.0,
+          16.56,
+          33.12,
+          49.68,
+          66.2,
+          82.76,
+          99.32,
+          115.88,
+          132.44,
+          149.0,
+          165.52,
+          182.08,
+          198.64,
+          215.2,
+          231.76,
+          248.32,
+          264.84,
+          281.4,
+          297.96,
+          314.52,
+          331.08,
+          347.64,
+          364.16,
+          380.72,
+          397.28,
+          413.84000000000003,
+          430.4,
+          446.96,
+          463.48,
+          480.04,
+          496.6,
+          513.16
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            6
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            27
+          ],
+          [
+            32
+          ],
+          [],
+          [
+            45
+          ],
+          [
+            50
+          ],
+          [],
+          [
+            60
+          ],
+          [
+            63
+          ],
+          [
+            72
+          ],
+          [],
+          [
+            82
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            102
+          ],
+          [
+            109
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            140
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 6,
+            "start_ms": 32200,
+            "end_ms": 33400,
+            "text": "I'm Jamal Musiala."
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 114840,
+            "end_ms": 117400,
+            "text": "Bro this is tough!"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 131280,
+            "end_ms": 132520,
+            "text": "Here we go."
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 165520,
+            "end_ms": 168000,
+            "text": "1...2...3...4...5...6"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 182000,
+            "end_ms": 182880,
+            "text": "Look at that."
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 214640,
+            "end_ms": 216800,
+            "text": "That's five for six."
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 230640,
+            "end_ms": 231800,
+            "text": "You missed only one!"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 248240,
+            "end_ms": 250440,
+            "text": "That's tough."
+          },
+          {
+            "cue_id": 82,
+            "start_ms": 280480,
+            "end_ms": 282040,
+            "text": "More legs."
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 362600,
+            "end_ms": 365000,
+            "text": "Oh, those little jellies."
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 380040,
+            "end_ms": 380840,
+            "text": "Should I go first?"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 479640,
+            "end_ms": 480400,
+            "text": "But now!"
+          }
+        ],
+        "text": "I'm Jamal Musiala.\nBro this is tough!\nHere we go.\n1...2...3...4...5...6\nLook at that.\nThat's five for six.\nYou missed only one!\nThat's tough.\nMore legs.\nOh, those little jellies.\nShould I go first?\nBut now!",
+        "text_tokens": 66,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S5",
+          "cue_ids": [
+            5,
+            6,
+            7
+          ],
+          "start_ms": 30720,
+          "end_ms": 35080,
+          "text": "I'm Alphonso Davies. I'm Jamal Musiala. And this is Phonzy vs. Jamal."
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28
+          ],
+          "start_ms": 114840,
+          "end_ms": 118920,
+          "text": "Bro this is tough! Further than you think."
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33
+          ],
+          "start_ms": 128000,
+          "end_ms": 135440,
+          "text": "Try to push more through the legs. Here we go. One for luck."
+        },
+        {
+          "id": "S44",
+          "cue_ids": [
+            44,
+            45,
+            46
+          ],
+          "start_ms": 163920,
+          "end_ms": 169400,
+          "text": "Rhythm! So my rhythm would be: 1...2...3...4...5...6 Set!"
+        },
+        {
+          "id": "S50",
+          "cue_ids": [
+            50,
+            51
+          ],
+          "start_ms": 182000,
+          "end_ms": 185160,
+          "text": "Look at that. That's nice!"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61
+          ],
+          "start_ms": 214640,
+          "end_ms": 219480,
+          "text": "That's five for six. Five for seven."
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63,
+            64
+          ],
+          "start_ms": 230640,
+          "end_ms": 233560,
+          "text": "You missed only one! Two more!"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73
+          ],
+          "start_ms": 247440,
+          "end_ms": 253960,
+          "text": "He can't beat that! That's tough. Two dribbles."
+        },
+        {
+          "id": "S82",
+          "cue_ids": [
+            82,
+            83
+          ],
+          "start_ms": 280480,
+          "end_ms": 283200,
+          "text": "More legs. Five for six."
+        },
+        {
+          "id": "S101",
+          "cue_ids": [
+            101,
+            102
+          ],
+          "start_ms": 362040,
+          "end_ms": 365000,
+          "text": "Jelly. Oh, those little jellies."
+        },
+        {
+          "id": "S108",
+          "cue_ids": [
+            108,
+            109,
+            110
+          ],
+          "start_ms": 377240,
+          "end_ms": 382000,
+          "text": "Ooh, and reverse. Should I go first? Yeah go ahead!"
+        },
+        {
+          "id": "S139",
+          "cue_ids": [
+            139,
+            140,
+            141
+          ],
+          "start_ms": 478000,
+          "end_ms": 481600,
+          "text": "a little bit rusty in the beginning. But now! Better and better."
+        }
+      ],
+      "text": "S5 [00:00:30.720 --> 00:00:35.080] I'm Alphonso Davies. I'm Jamal Musiala. And this is Phonzy vs. Jamal.\nS27 [00:01:54.840 --> 00:01:58.920] Bro this is tough! Further than you think.\nS31 [00:02:08.000 --> 00:02:15.440] Try to push more through the legs. Here we go. One for luck.\nS44 [00:02:43.920 --> 00:02:49.400] Rhythm! So my rhythm would be: 1...2...3...4...5...6 Set!\nS50 [00:03:02.000 --> 00:03:05.160] Look at that. That's nice!\nS60 [00:03:34.640 --> 00:03:39.480] That's five for six. Five for seven.\nS63 [00:03:50.640 --> 00:03:53.560] You missed only one! Two more!\nS71 [00:04:07.440 --> 00:04:13.960] He can't beat that! That's tough. Two dribbles.\nS82 [00:04:40.480 --> 00:04:43.200] More legs. Five for six.\nS101 [00:06:02.040 --> 00:06:05.000] Jelly. Oh, those little jellies.\nS108 [00:06:17.240 --> 00:06:22.000] Ooh, and reverse. Should I go first? Yeah go ahead!\nS139 [00:07:58.000 --> 00:08:01.600] a little bit rusty in the beginning. But now! Better and better.",
+      "text_tokens": 533,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        5,
+        7,
+        28,
+        31,
+        33,
+        44,
+        46,
+        51,
+        61,
+        64,
+        71,
+        73,
+        83,
+        101,
+        108,
+        110,
+        139,
+        141
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "fd71df962606f32c4af14e21785638d96914e028f14dc854317b3dd56d724bad"
+}

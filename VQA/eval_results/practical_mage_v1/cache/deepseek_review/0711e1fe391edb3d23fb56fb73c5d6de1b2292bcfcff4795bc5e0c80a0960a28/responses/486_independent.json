@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "eb06bfb7fa0b28ef8e0e818b1befb88a7f030501eb444533a177fb428955435c",
+  "response": {
+    "id": "f7e47001-df6b-4702-a341-0edd69545141",
+    "object": "chat.completion",
+    "created": 1793675940,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"B\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S24\",\"quote\":\"He believed that ideas formulated in one realm could - and should, inform the other. He would take all his scientific knowledge and apply it to the Mona Lisa\"},{\"block_id\":\"S269\",\"quote\":\"The Mona Lisa embodies Leonardo da Vinci's belief that everything is connected. He had the ability to combine intellect with imagination. Art and science are perfectly blended in a single work\"}],\"frame_ids\":[\"F3816\",\"F13354\",\"F43879\",\"F57233\"],\"windows\":[],\"notes\":\"Subtitles explicitly state Leonardo combined art and science, applying scientific knowledge to the Mona Lisa and blending art and science in a single work. Frames show his engineering/notebook drawings alongside the painting, supporting the art-and-science theme.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9232,
+      "completion_tokens": 181,
+      "total_tokens": 9413,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9104
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.290071366354823
+}

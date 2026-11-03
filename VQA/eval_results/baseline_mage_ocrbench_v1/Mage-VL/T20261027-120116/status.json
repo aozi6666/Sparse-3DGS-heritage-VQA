@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "eval_id": "T20261027-120116",
+  "created_at": "2026-10-27T12:01:16.258875+08:00",
+  "datasets": {
+    "OCRBench": {
+      "status": "done",
+      "prediction_file": "Mage-VL_OCRBench.xlsx",
+      "dataset_alias_name": "OCRBench",
+      "dataset_name": "OCRBench",
+      "updated_at": "2026-10-27T12:02:45.864401+08:00",
+      "judge_model": "",
+      "reuse_aux": "all",
+      "dataset_class_name": "OCRBench",
+      "error_message": "image file is truncated"
+    }
+  },
+  "model_name": "Mage-VL",
+  "commit": "d255de5a",
+  "argv": [
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/VLMEvalKit/run.py",
+    "--model",
+    "Mage-VL",
+    "--data",
+    "OCRBench",
+    "--work-dir",
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/baseline_mage_ocrbench_v1"
+  ],
+  "api_mode": false,
+  "world_size": 1,
+  "pred_format": "xlsx",
+  "eval_format": "csv",
+  "mode": "all",
+  "reuse": false,
+  "reuse_aux": "all",
+  "updated_at": "2026-10-27T12:02:45.864337+08:00"
+}

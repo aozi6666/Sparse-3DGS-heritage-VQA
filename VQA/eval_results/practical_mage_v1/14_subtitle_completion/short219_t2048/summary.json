@@ -1,0 +1,304 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "scope": "short",
+  "tokens": 2048,
+  "N": 219,
+  "interpretation": "Development/coverage only, not independent test. Budget changes never selected per question.",
+  "audit": {
+    "passed": true,
+    "errors": [],
+    "complete_units": 657,
+    "invalid": 0,
+    "origins": {
+      "reused_old": 18,
+      "generated": 537,
+      "reused_current_no_sub": 102
+    }
+  },
+  "overall": {
+    "N": 219,
+    "videos": 73,
+    "methods": {
+      "no_sub": {
+        "correct": 171,
+        "accuracy": 0.7808219178082192,
+        "invalid": 0
+      },
+      "aligned": {
+        "correct": 173,
+        "accuracy": 0.7899543378995434,
+        "invalid": 0
+      },
+      "continuous": {
+        "correct": 175,
+        "accuracy": 0.7990867579908676,
+        "invalid": 0,
+        "vs": {
+          "no_sub": {
+            "rescue": 8,
+            "harm": 4,
+            "net": 4,
+            "delta_pp": 1.82648401826484,
+            "video_cluster_bootstrap_95ci_pp": [
+              -1.36986301369863,
+              5.0228310502283104
+            ],
+            "questionwise_mcnemar_exact_p": 0.3876953125,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "aligned": {
+            "rescue": 3,
+            "harm": 1,
+            "net": 2,
+            "delta_pp": 0.91324200913242,
+            "video_cluster_bootstrap_95ci_pp": [
+              -0.91324200913242,
+              2.73972602739726
+            ],
+            "questionwise_mcnemar_exact_p": 0.625,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        }
+      }
+    }
+  },
+  "by_duration": {
+    "short": {
+      "N": 219,
+      "videos": 73,
+      "methods": {
+        "no_sub": {
+          "correct": 171,
+          "accuracy": 0.7808219178082192,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 173,
+          "accuracy": 0.7899543378995434,
+          "invalid": 0
+        },
+        "continuous": {
+          "correct": 175,
+          "accuracy": 0.7990867579908676,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 8,
+              "harm": 4,
+              "net": 4,
+              "delta_pp": 1.82648401826484,
+              "video_cluster_bootstrap_95ci_pp": [
+                -1.36986301369863,
+                5.0228310502283104
+              ],
+              "questionwise_mcnemar_exact_p": 0.3876953125,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 3,
+              "harm": 1,
+              "net": 2,
+              "delta_pp": 0.91324200913242,
+              "video_cluster_bootstrap_95ci_pp": [
+                -0.91324200913242,
+                2.73972602739726
+              ],
+              "questionwise_mcnemar_exact_p": 0.625,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    }
+  },
+  "groups": {
+    "used": {
+      "N": 168,
+      "videos": 56,
+      "methods": {
+        "no_sub": {
+          "correct": 134,
+          "accuracy": 0.7976190476190477,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 136,
+          "accuracy": 0.8095238095238095,
+          "invalid": 0
+        },
+        "continuous": {
+          "correct": 138,
+          "accuracy": 0.8214285714285714,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 8,
+              "harm": 4,
+              "net": 4,
+              "delta_pp": 2.380952380952381,
+              "video_cluster_bootstrap_95ci_pp": [
+                -1.1904761904761905,
+                6.5476190476190474
+              ],
+              "questionwise_mcnemar_exact_p": 0.3876953125,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 3,
+              "harm": 1,
+              "net": 2,
+              "delta_pp": 1.1904761904761905,
+              "video_cluster_bootstrap_95ci_pp": [
+                -1.1904761904761905,
+                3.5714285714285716
+              ],
+              "questionwise_mcnemar_exact_p": 0.625,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    },
+    "missing": {
+      "N": 51,
+      "videos": 17,
+      "methods": {
+        "no_sub": {
+          "correct": 37,
+          "accuracy": 0.7254901960784313,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 37,
+          "accuracy": 0.7254901960784313,
+          "invalid": 0
+        },
+        "continuous": {
+          "correct": 37,
+          "accuracy": 0.7254901960784313,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    },
+    "empty": {
+      "N": 0,
+      "methods": {}
+    },
+    "no_hit": {
+      "N": 0,
+      "methods": {}
+    },
+    "beyond_smoke213": {
+      "N": 213,
+      "videos": 71,
+      "methods": {
+        "no_sub": {
+          "correct": 167,
+          "accuracy": 0.784037558685446,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 169,
+          "accuracy": 0.7934272300469484,
+          "invalid": 0
+        },
+        "continuous": {
+          "correct": 171,
+          "accuracy": 0.8028169014084507,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 8,
+              "harm": 4,
+              "net": 4,
+              "delta_pp": 1.8779342723004695,
+              "video_cluster_bootstrap_95ci_pp": [
+                -0.9389671361502347,
+                5.164319248826291
+              ],
+              "questionwise_mcnemar_exact_p": 0.3876953125,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 3,
+              "harm": 1,
+              "net": 2,
+              "delta_pp": 0.9389671361502347,
+              "video_cluster_bootstrap_95ci_pp": [
+                -0.9389671361502347,
+                2.816901408450704
+              ],
+              "questionwise_mcnemar_exact_p": 0.625,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    }
+  },
+  "cost": {
+    "no_sub": {
+      "logical_answers": 219,
+      "new_generation_calls": 213,
+      "reused_answers": 6,
+      "logical_visual_tokens": 1009152,
+      "subtitle_tokens": 0,
+      "input_tokens": 1093964,
+      "new_inference_s": 139.67378468997777,
+      "peak_new_generation_gib": 10.312827110290527
+    },
+    "aligned": {
+      "logical_answers": 219,
+      "new_generation_calls": 162,
+      "reused_answers": 57,
+      "logical_visual_tokens": 1009152,
+      "subtitle_tokens": 33360,
+      "input_tokens": 1128797,
+      "new_inference_s": 108.43753656931221,
+      "peak_new_generation_gib": 10.314974308013916
+    },
+    "continuous": {
+      "logical_answers": 219,
+      "new_generation_calls": 162,
+      "reused_answers": 57,
+      "logical_visual_tokens": 1009152,
+      "subtitle_tokens": 40986,
+      "input_tokens": 1136423,
+      "new_inference_s": 108.66375591233373,
+      "peak_new_generation_gib": 10.314974308013916
+    },
+    "shared_preprocess_s": 531.42468701303,
+    "note": "Only newly completed generation time; preprocessing includes extra native-input audits. Reused answers retain logical visual/text cost; not a controlled deployment speed benchmark."
+  },
+  "subtitle_video_status": {
+    "used": 56,
+    "missing": 17
+  },
+  "budget_omitted_neighbor_videos": 0
+}

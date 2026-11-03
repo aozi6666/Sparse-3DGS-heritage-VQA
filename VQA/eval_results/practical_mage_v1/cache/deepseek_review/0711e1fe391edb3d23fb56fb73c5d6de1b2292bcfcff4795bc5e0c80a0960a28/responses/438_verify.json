@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "d92f15c4684c6c980fd547860ce5acb2e1280dbddb9b10033e3cba2678d96bd4",
+  "response": {
+    "id": "6e31ae60-352e-42ef-95ff-7b6834dcd71c",
+    "object": "chat.completion",
+    "created": 1793675886,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"C\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S153\",\"quote\":\"he wanted to run and then jump can I run sideways yeah yes but but can you can you maybe just like run and like jump like right over over the mark\"}],\"frame_ids\":[\"F13787\",\"F13768\",\"F13756\"],\"windows\":[{\"start\":395.0,\"end\":403.0},{\"start\":570.0,\"end\":578.0}],\"notes\":\"S153 describes the #9 GlamBOT subject wanting to run and jump over the mark. Dense frames F13756-F13787 show the person mid-run/jump over the marker, matching option C.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 15763,
+      "completion_tokens": 154,
+      "total_tokens": 15917,
+      "prompt_tokens_details": {
+        "cached_tokens": 2176
+      },
+      "prompt_cache_hit_tokens": 2176,
+      "prompt_cache_miss_tokens": 13587
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.3607851397246122
+}

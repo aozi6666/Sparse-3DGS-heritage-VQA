@@ -1,35 +1,27 @@
-# Mage Query-IP 选区 MVP（本目录）
+# Mage Query-IP 选区（本目录）
 
-对齐 [`docs/PLAN_mage_query_IP_select.md`](../../docs/PLAN_mage_query_IP_select.md) **§0 / §5.5**。
+对齐 [`docs/PLAN_mage_query_IP_select.md`](../../docs/PLAN_mage_query_IP_select.md) **结论与后续**。
 
-## 做什么
+## 主路径
 
 ```text
-Mage codec（cv-preinfer 出 canvas + src_positions）
-  → 问题类型 static/dynamic（关键词）
-  → 同 K 四路选区：
-       prefix / random
-       queryip          = α·motion_proxy + β·residual_proxy
-       queryip_bitcost  = α·official_bitcost + β·0
-  → 稠密打包 canvas → Mage-ViT + Qwen3 解码
+Mage codec → proxy queryip（运动/残差）同 K top-K → 稠密打包 → Mage-ViT + Qwen3
+对照：同 K prefix / random
 ```
 
-- **不重训**；**不改** `VQA/mage_vl/` 源码（仅 import + 包装）。
-- **不做** QuoTA / FlexSelect / 原 ETS LLaVA 评测；路线 A 真 MV **已归档**。
-- 完整上游 Explore-Then-Select 树在仓外：`/root/autodl-tmp/Explore-Then-Select`。
+- **主推** `queryip`（约 +4 pp vs random @ n=200）。**不重训**；不改 `mage_vl/` 源码。
+- **已停：** CLIP 帧/区域/edge 语义选区；bitcost 主推；真 MV；完整 v2。
+- 失败模块文件头有 **【主路径不用】** 中文注释，代码保留供复现。
 
 ## 目录
 
 | 路径 | 说明 |
 |------|------|
-| `mage_query_ip/question_type.py` | 静/动分类 + α/β 表 |
-| `mage_query_ip/codec_reweight.py` | canvas 旧路径 + patch 级 **proxy** 同 K |
-| `mage_query_ip/mvres_score.py` | 官方 **bitcost** 打分 / `select_patches_bitcost` |
-| `mage_query_ip/mage_forward.py` | Mage 加载；`encode_codec` / `run_select_mode`（四模式） |
-| `mage_query_ip/smoke_soccer_samek.py` | soccer 同 K **四路** → `SAMEK4_*` + json |
-| `mage_query_ip/eval_short60_samek.py` | short 前 60 题四路 Acc → samek4 jsonl |
-| `scripts/smoke_soccer_samek.sh` | 四路入口（Agent 不代跑） |
-| `COMMANDS.md` | **你要执行的全部终端命令** |
+| `mage_query_ip/codec_reweight.py` | **主推** proxy 同 K + pack |
+| `mage_query_ip/mage_forward.py` / `eval_short60_samek.py` | 推理与评测 |
+| `mage_query_ip/question_type.py` | 静/动 α/β（不作贡献，默认权重仍用） |
+| `mage_query_ip/{clip_frame,frame_budget,region_clip,mvres}*.py` | **归档** 失败消融 |
+| `COMMANDS.md` | 终端命令（Agent 不代跑 Acc） |
 
 评测适配（VLMEvalKit）：模型名 `Mage-VL-QueryIP`，见 `VQA/VLMEvalKit/vlmeval/vlm/mage_vl_query_ip.py`（全量行 B 仍为 canvas proxy）。
 

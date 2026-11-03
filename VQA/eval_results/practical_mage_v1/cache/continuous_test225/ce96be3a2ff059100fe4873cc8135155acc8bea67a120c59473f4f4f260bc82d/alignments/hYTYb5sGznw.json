@@ -1,0 +1,1070 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "hYTYb5sGznw",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hYTYb5sGznw.srt",
+        "status": "available",
+        "bytes": 9061,
+        "sha256": "20cdd307251550f4937296dedb75f4e17bbbc7adbfd1d960645d28da49f34d78",
+        "cues": 96,
+        "nonempty_cues": 96
+      },
+      "frame_indices": [
+        0,
+        418,
+        835,
+        1253,
+        1670,
+        2088,
+        2506,
+        2923,
+        3341,
+        3759,
+        4176,
+        4594,
+        5011,
+        5429,
+        5847,
+        6264,
+        6682,
+        7099,
+        7517,
+        7935,
+        8352,
+        8770,
+        9187,
+        9605,
+        10023,
+        10440,
+        10858,
+        11276,
+        11693,
+        12111,
+        12528,
+        12946
+      ],
+      "frame_seconds": [
+        0.0,
+        13.947267,
+        27.861167,
+        41.808433,
+        55.722333,
+        69.6696,
+        83.616867,
+        97.530767,
+        111.47803300000001,
+        125.4253,
+        139.3392,
+        153.28646700000002,
+        167.200367,
+        181.147633,
+        195.0949,
+        209.0088,
+        222.956067,
+        236.869967,
+        250.817233,
+        264.7645,
+        278.6784,
+        292.625667,
+        306.539567,
+        320.486833,
+        334.4341,
+        348.348,
+        362.295267,
+        376.242533,
+        390.156433,
+        404.1037,
+        418.0176,
+        431.964867
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          22,
+          23
+        ],
+        [],
+        [
+          28,
+          29
+        ],
+        [
+          32,
+          33
+        ],
+        [],
+        [
+          35
+        ],
+        [
+          38,
+          39
+        ],
+        [],
+        [
+          44
+        ],
+        [],
+        [
+          45
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          53,
+          54
+        ],
+        [],
+        [
+          59,
+          60
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          71,
+          72
+        ],
+        [
+          75,
+          76
+        ],
+        [],
+        [
+          82,
+          83
+        ],
+        [
+          86,
+          87
+        ],
+        [
+          90
+        ],
+        [
+          94,
+          95
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 13310,
+          "end_ms": 17600,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 27240,
+          "end_ms": 30809,
+          "text": "couple"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 27620,
+          "end_ms": 30809,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 38700,
+          "end_ms": 45500,
+          "text": "arm day"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 40800,
+          "end_ms": 45500,
+          "text": "is the little girl over there is"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 52280,
+          "end_ms": 55920,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 53480,
+          "end_ms": 58199,
+          "text": "yes I'm sorry she gave me a beautiful"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 66180,
+          "end_ms": 71039,
+          "text": "come on down come on down"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 68820,
+          "end_ms": 73280,
+          "text": "how long have you guys been performing"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 94220,
+          "end_ms": 99380,
+          "text": "looks like you're gonna do that"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 95880,
+          "end_ms": 99380,
+          "text": "ventriloquist act that you did"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 106500,
+          "end_ms": 121159,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 109070,
+          "end_ms": 121159,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 138300,
+          "end_ms": 140599,
+          "text": "oh"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 151980,
+          "end_ms": 155060,
+          "text": "my God"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 152590,
+          "end_ms": 158379,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 177210,
+          "end_ms": 186399,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 196820,
+          "end_ms": 218849,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 219710,
+          "end_ms": 223440,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 221490,
+          "end_ms": 224170,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 230660,
+          "end_ms": 237420,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 234990,
+          "end_ms": 238140,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 237420,
+          "end_ms": 271140,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 238140,
+          "end_ms": 274820,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 289800,
+          "end_ms": 294180,
+          "text": "the fact that you're able to hang"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 292080,
+          "end_ms": 296940,
+          "text": "yourself outside sideways with your wife"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 303419,
+          "end_ms": 308100,
+          "text": "presenting your judges with the"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 305220,
+          "end_ms": 310199,
+          "text": "firstborn to win the contest"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 316880,
+          "end_ms": 322740,
+          "text": "Heidi I mean I see muscles but most"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 320160,
+          "end_ms": 324960,
+          "text": "importantly I see so much grace it was"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 328740,
+          "end_ms": 334800,
+          "text": "before truly unique very very special"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 331979,
+          "end_ms": 337800,
+          "text": "moment thank you Simon I don't love"
+        },
+        {
+          "cue_id": 82,
+          "start_ms": 357780,
+          "end_ms": 362660,
+          "text": "least four years to Perfection it and to"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 360120,
+          "end_ms": 362660,
+          "text": "make it work"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 369780,
+          "end_ms": 376580,
+          "text": "Heidi a really really really big scene"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 374000,
+          "end_ms": 380130,
+          "text": "yeah"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 387000,
+          "end_ms": 390380,
+          "text": "give the baby back"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 399290,
+          "end_ms": 406769,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 399580,
+          "end_ms": 406769,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "[Applause]\ncouple\n[Applause]\narm day\nis the little girl over there is\n[Applause]\nyes I'm sorry she gave me a beautiful\ncome on down come on down\nhow long have you guys been performing\nlooks like you're gonna do that\nventriloquist act that you did\n[Applause]\n[Music]\noh\nmy God\n[Applause]\n[Applause]\n[Applause]\n[Music]\n[Applause]\n[Applause]\n[Music]\nforeign\n[Applause]\nthe fact that you're able to hang\nyourself outside sideways with your wife\npresenting your judges with the\nfirstborn to win the contest\nHeidi I mean I see muscles but most\nimportantly I see so much grace it was\nbefore truly unique very very special\nmoment thank you Simon I don't love\nleast four years to Perfection it and to\nmake it work\nHeidi a really really really big scene\nyeah\ngive the baby back\n[Music]\n[Applause]",
+      "text_tokens": 227,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "hYTYb5sGznw",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hYTYb5sGznw.srt",
+          "status": "available",
+          "bytes": 9061,
+          "sha256": "20cdd307251550f4937296dedb75f4e17bbbc7adbfd1d960645d28da49f34d78",
+          "cues": 96,
+          "nonempty_cues": 96
+        },
+        "frame_indices": [
+          0,
+          418,
+          835,
+          1253,
+          1670,
+          2088,
+          2506,
+          2923,
+          3341,
+          3759,
+          4176,
+          4594,
+          5011,
+          5429,
+          5847,
+          6264,
+          6682,
+          7099,
+          7517,
+          7935,
+          8352,
+          8770,
+          9187,
+          9605,
+          10023,
+          10440,
+          10858,
+          11276,
+          11693,
+          12111,
+          12528,
+          12946
+        ],
+        "frame_seconds": [
+          0.0,
+          13.947267,
+          27.861167,
+          41.808433,
+          55.722333,
+          69.6696,
+          83.616867,
+          97.530767,
+          111.47803300000001,
+          125.4253,
+          139.3392,
+          153.28646700000002,
+          167.200367,
+          181.147633,
+          195.0949,
+          209.0088,
+          222.956067,
+          236.869967,
+          250.817233,
+          264.7645,
+          278.6784,
+          292.625667,
+          306.539567,
+          320.486833,
+          334.4341,
+          348.348,
+          362.295267,
+          376.242533,
+          390.156433,
+          404.1037,
+          418.0176,
+          431.964867
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            4
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            22,
+            23
+          ],
+          [],
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            33
+          ],
+          [],
+          [
+            35
+          ],
+          [
+            38,
+            39
+          ],
+          [],
+          [
+            44
+          ],
+          [],
+          [
+            45
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            51,
+            52
+          ],
+          [
+            53,
+            54
+          ],
+          [
+            53,
+            54
+          ],
+          [],
+          [
+            59,
+            60
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            71,
+            72
+          ],
+          [
+            75,
+            76
+          ],
+          [],
+          [
+            82,
+            83
+          ],
+          [
+            86,
+            87
+          ],
+          [
+            90
+          ],
+          [
+            94,
+            95
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 4,
+            "start_ms": 13310,
+            "end_ms": 17600,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 27240,
+            "end_ms": 30809,
+            "text": "couple"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 27620,
+            "end_ms": 30809,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 38700,
+            "end_ms": 45500,
+            "text": "arm day"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 40800,
+            "end_ms": 45500,
+            "text": "is the little girl over there is"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 52280,
+            "end_ms": 55920,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 53480,
+            "end_ms": 58199,
+            "text": "yes I'm sorry she gave me a beautiful"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 66180,
+            "end_ms": 71039,
+            "text": "come on down come on down"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 68820,
+            "end_ms": 73280,
+            "text": "how long have you guys been performing"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 94220,
+            "end_ms": 99380,
+            "text": "looks like you're gonna do that"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 95880,
+            "end_ms": 99380,
+            "text": "ventriloquist act that you did"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 106500,
+            "end_ms": 121159,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 109070,
+            "end_ms": 121159,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 138300,
+            "end_ms": 140599,
+            "text": "oh"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 151980,
+            "end_ms": 155060,
+            "text": "my God"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 152590,
+            "end_ms": 158379,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 177210,
+            "end_ms": 186399,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 196820,
+            "end_ms": 218849,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 219710,
+            "end_ms": 223440,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 221490,
+            "end_ms": 224170,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 230660,
+            "end_ms": 237420,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 234990,
+            "end_ms": 238140,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 237420,
+            "end_ms": 271140,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 238140,
+            "end_ms": 274820,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 289800,
+            "end_ms": 294180,
+            "text": "the fact that you're able to hang"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 292080,
+            "end_ms": 296940,
+            "text": "yourself outside sideways with your wife"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 303419,
+            "end_ms": 308100,
+            "text": "presenting your judges with the"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 305220,
+            "end_ms": 310199,
+            "text": "firstborn to win the contest"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 316880,
+            "end_ms": 322740,
+            "text": "Heidi I mean I see muscles but most"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 320160,
+            "end_ms": 324960,
+            "text": "importantly I see so much grace it was"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 328740,
+            "end_ms": 334800,
+            "text": "before truly unique very very special"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 331979,
+            "end_ms": 337800,
+            "text": "moment thank you Simon I don't love"
+          },
+          {
+            "cue_id": 82,
+            "start_ms": 357780,
+            "end_ms": 362660,
+            "text": "least four years to Perfection it and to"
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 360120,
+            "end_ms": 362660,
+            "text": "make it work"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 369780,
+            "end_ms": 376580,
+            "text": "Heidi a really really really big scene"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 374000,
+            "end_ms": 380130,
+            "text": "yeah"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 387000,
+            "end_ms": 390380,
+            "text": "give the baby back"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 399290,
+            "end_ms": 406769,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 399580,
+            "end_ms": 406769,
+            "text": "[Applause]"
+          }
+        ],
+        "text": "[Applause]\ncouple\n[Applause]\narm day\nis the little girl over there is\n[Applause]\nyes I'm sorry she gave me a beautiful\ncome on down come on down\nhow long have you guys been performing\nlooks like you're gonna do that\nventriloquist act that you did\n[Applause]\n[Music]\noh\nmy God\n[Applause]\n[Applause]\n[Applause]\n[Music]\n[Applause]\n[Applause]\n[Music]\nforeign\n[Applause]\nthe fact that you're able to hang\nyourself outside sideways with your wife\npresenting your judges with the\nfirstborn to win the contest\nHeidi I mean I see muscles but most\nimportantly I see so much grace it was\nbefore truly unique very very special\nmoment thank you Simon I don't love\nleast four years to Perfection it and to\nmake it work\nHeidi a really really really big scene\nyeah\ngive the baby back\n[Music]\n[Applause]",
+        "text_tokens": 227,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S3",
+          "cue_ids": [
+            3,
+            4,
+            5
+          ],
+          "start_ms": 8220,
+          "end_ms": 21859,
+          "text": "name is Colombia [Applause] Colombia"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "start_ms": 25380,
+          "end_ms": 60300,
+          "text": "you guys I'm guessing you guys are a couple [Applause] they've been together for nine years wow I was gonna say they met at the gym on arm day is the little girl over there is [Applause] oh sorry this morning [Applause] yes I'm sorry she gave me a beautiful painting outside of the theater this"
+        },
+        {
+          "id": "S22",
+          "cue_ids": [
+            22,
+            23,
+            24
+          ],
+          "start_ms": 66180,
+          "end_ms": 73280,
+          "text": "come on down come on down how long have you guys been performing together"
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29
+          ],
+          "start_ms": 85140,
+          "end_ms": 99380,
+          "text": "[Applause] looks like you're gonna do that ventriloquist act that you did"
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33
+          ],
+          "start_ms": 105360,
+          "end_ms": 121159,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S35",
+          "cue_ids": [
+            35
+          ],
+          "start_ms": 138300,
+          "end_ms": 140599,
+          "text": "oh"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 148060,
+          "end_ms": 158379,
+          "text": "[Applause] my God [Applause] [Music]"
+        },
+        {
+          "id": "S44",
+          "cue_ids": [
+            44
+          ],
+          "start_ms": 177210,
+          "end_ms": 186399,
+          "text": "[Applause]"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 196820,
+          "end_ms": 227380,
+          "text": "[Applause] [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S50",
+          "cue_ids": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "start_ms": 227390,
+          "end_ms": 278040,
+          "text": "[Music] [Applause] [Music] foreign [Applause] [Music]"
+        },
+        {
+          "id": "S59",
+          "cue_ids": [
+            59,
+            60,
+            61
+          ],
+          "start_ms": 289800,
+          "end_ms": 298860,
+          "text": "the fact that you're able to hang yourself outside sideways with your wife standing on you I've never seen that and"
+        },
+        {
+          "id": "S64",
+          "cue_ids": [
+            64,
+            65,
+            66,
+            67
+          ],
+          "start_ms": 301320,
+          "end_ms": 313740,
+          "text": "surprising me and just the move of presenting your judges with the firstborn to win the contest is a move that has never been done"
+        },
+        {
+          "id": "S70",
+          "cue_ids": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "start_ms": 314840,
+          "end_ms": 342120,
+          "text": "your gift Heidi I mean I see muscles but most importantly I see so much grace it was So Graceful how you it was a beautiful day and sideways we have never seen this before truly unique very very special moment thank you Simon I don't love these kind of Acts having said that that"
+        },
+        {
+          "id": "S81",
+          "cue_ids": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "start_ms": 354360,
+          "end_ms": 395880,
+          "text": "she stands on top of him it took them at least four years to Perfection it and to make it work amazing Howie your boat see Heidi a really really really big scene yeah it's a very big sea thanks [Applause] give the baby back you'll have to give her back"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95
+          ],
+          "start_ms": 395880,
+          "end_ms": 406769,
+          "text": "Philadelphia [Music] [Applause]"
+        }
+      ],
+      "text": "S3 [00:00:08.220 --> 00:00:21.859] name is Colombia [Applause] Colombia\nS8 [00:00:25.380 --> 00:01:00.300] you guys I'm guessing you guys are a couple [Applause] they've been together for nine years wow I was gonna say they met at the gym on arm day is the little girl over there is [Applause] oh sorry this morning [Applause] yes I'm sorry she gave me a beautiful painting outside of the theater this\nS22 [00:01:06.180 --> 00:01:13.280] come on down come on down how long have you guys been performing together\nS27 [00:01:25.140 --> 00:01:39.380] [Applause] looks like you're gonna do that ventriloquist act that you did\nS31 [00:01:45.360 --> 00:02:01.159] [Music] [Applause] [Music]\nS35 [00:02:18.300 --> 00:02:20.599] oh\nS37 [00:02:28.060 --> 00:02:38.379] [Applause] my God [Applause] [Music]\nS44 [00:02:57.210 --> 00:03:06.399] [Applause]\nS45 [00:03:16.820 --> 00:03:47.380] [Applause] [Music] [Applause] [Music]\nS50 [00:03:47.390 --> 00:04:38.040] [Music] [Applause] [Music] foreign [Applause] [Music]\nS59 [00:04:49.800 --> 00:04:58.860] the fact that you're able to hang yourself outside sideways with your wife standing on you I've never seen that and\nS64 [00:05:01.320 --> 00:05:13.740] surprising me and just the move of presenting your judges with the firstborn to win the contest is a move that has never been done\nS70 [00:05:14.840 --> 00:05:42.120] your gift Heidi I mean I see muscles but most importantly I see so much grace it was So Graceful how you it was a beautiful day and sideways we have never seen this before truly unique very very special moment thank you Simon I don't love these kind of Acts having said that that\nS81 [00:05:54.360 --> 00:06:35.880] she stands on top of him it took them at least four years to Perfection it and to make it work amazing Howie your boat see Heidi a really really really big scene yeah it's a very big sea thanks [Applause] give the baby back you'll have to give her back\nS93 [00:06:35.880 --> 00:06:46.769] Philadelphia [Music] [Applause]",
+      "text_tokens": 828,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        3,
+        5,
+        8,
+        11,
+        12,
+        15,
+        16,
+        19,
+        24,
+        27,
+        31,
+        37,
+        40,
+        48,
+        50,
+        55,
+        61,
+        64,
+        67,
+        70,
+        73,
+        74,
+        77,
+        81,
+        84,
+        85,
+        88,
+        89,
+        91,
+        93
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "4f168dbd93b57c931c05f234ab0923cba57ef56cc51199f89a0a4d5e48102913"
+}

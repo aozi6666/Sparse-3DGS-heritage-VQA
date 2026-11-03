@@ -1,0 +1,1104 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "e3fz3dqhN44",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/e3fz3dqhN44.srt",
+        "status": "available",
+        "bytes": 38567,
+        "sha256": "61eafde3a0db97731b0c4a2964470170dd466ca902428f8f85fa58e6d443eb87",
+        "cues": 270,
+        "nonempty_cues": 270
+      },
+      "frame_indices": [
+        0,
+        1056,
+        2112,
+        3168,
+        4224,
+        5280,
+        6336,
+        7392,
+        8448,
+        9504,
+        10560,
+        11616,
+        12672,
+        13728,
+        14784,
+        15840,
+        16895,
+        17951,
+        19007,
+        20063,
+        21119,
+        22175,
+        23231,
+        24287,
+        25343,
+        26399,
+        27455,
+        28511,
+        29567,
+        30623,
+        31679,
+        32735
+      ],
+      "frame_seconds": [
+        0.0,
+        35.2352,
+        70.4704,
+        105.7056,
+        140.9408,
+        176.176,
+        211.4112,
+        246.6464,
+        281.8816,
+        317.1168,
+        352.352,
+        387.5872,
+        422.8224,
+        458.0576,
+        493.2928,
+        528.528,
+        563.729833,
+        598.965033,
+        634.200233,
+        669.435433,
+        704.670633,
+        739.905833,
+        775.141033,
+        810.376233,
+        845.611433,
+        880.846633,
+        916.081833,
+        951.317033,
+        986.552233,
+        1021.787433,
+        1057.022633,
+        1092.257833
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          15
+        ],
+        [
+          23
+        ],
+        [],
+        [
+          39
+        ],
+        [
+          52
+        ],
+        [
+          60
+        ],
+        [
+          71
+        ],
+        [
+          79
+        ],
+        [
+          85
+        ],
+        [
+          94
+        ],
+        [
+          106
+        ],
+        [
+          114
+        ],
+        [
+          121
+        ],
+        [
+          131
+        ],
+        [
+          141
+        ],
+        [
+          154
+        ],
+        [
+          164
+        ],
+        [
+          169
+        ],
+        [
+          177
+        ],
+        [
+          186
+        ],
+        [
+          194
+        ],
+        [
+          200
+        ],
+        [
+          206
+        ],
+        [
+          214
+        ],
+        [
+          221
+        ],
+        [
+          229
+        ],
+        [
+          236
+        ],
+        [
+          245
+        ],
+        [
+          252
+        ],
+        [
+          261
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 2127,
+          "text": "So, this is it!"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 35185,
+          "end_ms": 39871,
+          "text": "I see a lot of news about quantum computers and it's always extremely confusing"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 69000,
+          "end_ms": 71141,
+          "text": "think you really understand how they work..."
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 140269,
+          "end_ms": 143100,
+          "text": "they're letting us see this computer because"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 176026,
+          "end_ms": 179290,
+          "text": "What is most interesting to you about quantum computing?"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 209760,
+          "end_ms": 211600,
+          "text": "coming with us as we figure this out."
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 244380,
+          "end_ms": 248542,
+          "text": "and how you get around depends on how good you are at doing math..."
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 280740,
+          "end_ms": 285720,
+          "text": "can get farther faster and we can access areas that were previously inaccessible. But there were"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 312840,
+          "end_ms": 320040,
+          "text": "BOATS. A boat is not necessarily better than a car, they're just built for totally different terrain."
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 349320,
+          "end_ms": 355320,
+          "text": "this is a better thing to offer the audience, like to offer you guys instead of like \"quantum"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 387232,
+          "end_ms": 389038,
+          "text": "Here we go."
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 421560,
+          "end_ms": 424860,
+          "text": "sometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 454740,
+          "end_ms": 459420,
+          "text": "don't they offer a 30-day money-back guarantee. So go check them out. Now back to the story..."
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 488280,
+          "end_ms": 496500,
+          "text": "This is our Watson setup... no please go ahead... this is where the Watson AI was displayed"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 525540,
+          "end_ms": 529478,
+          "text": "So inside that is 15 millikelvin? Yep."
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 563640,
+          "end_ms": 569760,
+          "text": "they do their their quantum stuff and it comes up and it goes to these room temperature control"
+        },
+        {
+          "cue_id": 164,
+          "start_ms": 598140,
+          "end_ms": 603600,
+          "text": "of them in your computer. And they can either be in the state zero or one. We call it the ground state"
+        },
+        {
+          "cue_id": 169,
+          "start_ms": 628500,
+          "end_ms": 634260,
+          "text": "be really likely to be one which means a higher energy wave and each qubit has a probability of"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 665602,
+          "end_ms": 671122,
+          "text": "It's a common misconception that quantum computers \"try all the options.\" That's not right."
+        },
+        {
+          "cue_id": 186,
+          "start_ms": 702120,
+          "end_ms": 708379,
+          "text": "structure in tons of data. And if you're interested we can close it back up..."
+        },
+        {
+          "cue_id": 194,
+          "start_ms": 737709,
+          "end_ms": 743520,
+          "text": "We just don't normally see it but if you look at like a molecular level and like the atomic"
+        },
+        {
+          "cue_id": 200,
+          "start_ms": 775020,
+          "end_ms": 779100,
+          "text": "we could make if we could better predict the way that nature behaves at a molecular scale."
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 810127,
+          "end_ms": 811117,
+          "text": "\"Break encryption...\""
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 842760,
+          "end_ms": 848040,
+          "text": "really large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\""
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 879121,
+          "end_ms": 883440,
+          "text": "But we haven't done that yet. That's one of the ones that requires probably like"
+        },
+        {
+          "cue_id": 229,
+          "start_ms": 914506,
+          "end_ms": 918900,
+          "text": "Probably. Not all at once yeah but gradually you're going to see people"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 950580,
+          "end_ms": 955200,
+          "text": "Yeah, we are just skimming the surface. We're going to keep iterating and improving"
+        },
+        {
+          "cue_id": 245,
+          "start_ms": 984360,
+          "end_ms": 989022,
+          "text": "understand that this is a fundamentally different technology. Like it just looks so weird."
+        },
+        {
+          "cue_id": 252,
+          "start_ms": 1016100,
+          "end_ms": 1022160,
+          "text": "our exploration of other fields of mathematics and physics and science was equivalent to other"
+        },
+        {
+          "cue_id": 261,
+          "start_ms": 1053000,
+          "end_ms": 1058700,
+          "text": "want to learn what we are and like learn more about the world we live in. And the fact is:"
+        }
+      ],
+      "text": "So, this is it!\nI see a lot of news about quantum computers and it's always extremely confusing\nthink you really understand how they work...\nthey're letting us see this computer because\nWhat is most interesting to you about quantum computing?\ncoming with us as we figure this out.\nand how you get around depends on how good you are at doing math...\ncan get farther faster and we can access areas that were previously inaccessible. But there were\nBOATS. A boat is not necessarily better than a car, they're just built for totally different terrain.\nthis is a better thing to offer the audience, like to offer you guys instead of like \"quantum\nHere we go.\nsometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually\ndon't they offer a 30-day money-back guarantee. So go check them out. Now back to the story...\nThis is our Watson setup... no please go ahead... this is where the Watson AI was displayed\nSo inside that is 15 millikelvin? Yep.\nthey do their their quantum stuff and it comes up and it goes to these room temperature control\nof them in your computer. And they can either be in the state zero or one. We call it the ground state\nbe really likely to be one which means a higher energy wave and each qubit has a probability of\nIt's a common misconception that quantum computers \"try all the options.\" That's not right.\nstructure in tons of data. And if you're interested we can close it back up...\nWe just don't normally see it but if you look at like a molecular level and like the atomic\nwe could make if we could better predict the way that nature behaves at a molecular scale.\n\"Break encryption...\"\nreally large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\"\nBut we haven't done that yet. That's one of the ones that requires probably like\nProbably. Not all at once yeah but gradually you're going to see people\nYeah, we are just skimming the surface. We're going to keep iterating and improving\nunderstand that this is a fundamentally different technology. Like it just looks so weird.\nour exploration of other fields of mathematics and physics and science was equivalent to other\nwant to learn what we are and like learn more about the world we live in. And the fact is:",
+      "text_tokens": 494,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "e3fz3dqhN44",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/e3fz3dqhN44.srt",
+          "status": "available",
+          "bytes": 38567,
+          "sha256": "61eafde3a0db97731b0c4a2964470170dd466ca902428f8f85fa58e6d443eb87",
+          "cues": 270,
+          "nonempty_cues": 270
+        },
+        "frame_indices": [
+          0,
+          1056,
+          2112,
+          3168,
+          4224,
+          5280,
+          6336,
+          7392,
+          8448,
+          9504,
+          10560,
+          11616,
+          12672,
+          13728,
+          14784,
+          15840,
+          16895,
+          17951,
+          19007,
+          20063,
+          21119,
+          22175,
+          23231,
+          24287,
+          25343,
+          26399,
+          27455,
+          28511,
+          29567,
+          30623,
+          31679,
+          32735
+        ],
+        "frame_seconds": [
+          0.0,
+          35.2352,
+          70.4704,
+          105.7056,
+          140.9408,
+          176.176,
+          211.4112,
+          246.6464,
+          281.8816,
+          317.1168,
+          352.352,
+          387.5872,
+          422.8224,
+          458.0576,
+          493.2928,
+          528.528,
+          563.729833,
+          598.965033,
+          634.200233,
+          669.435433,
+          704.670633,
+          739.905833,
+          775.141033,
+          810.376233,
+          845.611433,
+          880.846633,
+          916.081833,
+          951.317033,
+          986.552233,
+          1021.787433,
+          1057.022633,
+          1092.257833
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            15
+          ],
+          [
+            23
+          ],
+          [],
+          [
+            39
+          ],
+          [
+            52
+          ],
+          [
+            60
+          ],
+          [
+            71
+          ],
+          [
+            79
+          ],
+          [
+            85
+          ],
+          [
+            94
+          ],
+          [
+            106
+          ],
+          [
+            114
+          ],
+          [
+            121
+          ],
+          [
+            131
+          ],
+          [
+            141
+          ],
+          [
+            154
+          ],
+          [
+            164
+          ],
+          [
+            169
+          ],
+          [
+            177
+          ],
+          [
+            186
+          ],
+          [
+            194
+          ],
+          [
+            200
+          ],
+          [
+            206
+          ],
+          [
+            214
+          ],
+          [
+            221
+          ],
+          [
+            229
+          ],
+          [
+            236
+          ],
+          [
+            245
+          ],
+          [
+            252
+          ],
+          [
+            261
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 2127,
+            "text": "So, this is it!"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 35185,
+            "end_ms": 39871,
+            "text": "I see a lot of news about quantum computers and it's always extremely confusing"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 69000,
+            "end_ms": 71141,
+            "text": "think you really understand how they work..."
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 140269,
+            "end_ms": 143100,
+            "text": "they're letting us see this computer because"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 176026,
+            "end_ms": 179290,
+            "text": "What is most interesting to you about quantum computing?"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 209760,
+            "end_ms": 211600,
+            "text": "coming with us as we figure this out."
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 244380,
+            "end_ms": 248542,
+            "text": "and how you get around depends on how good you are at doing math..."
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 280740,
+            "end_ms": 285720,
+            "text": "can get farther faster and we can access areas that were previously inaccessible. But there were"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 312840,
+            "end_ms": 320040,
+            "text": "BOATS. A boat is not necessarily better than a car, they're just built for totally different terrain."
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 349320,
+            "end_ms": 355320,
+            "text": "this is a better thing to offer the audience, like to offer you guys instead of like \"quantum"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 387232,
+            "end_ms": 389038,
+            "text": "Here we go."
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 421560,
+            "end_ms": 424860,
+            "text": "sometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 454740,
+            "end_ms": 459420,
+            "text": "don't they offer a 30-day money-back guarantee. So go check them out. Now back to the story..."
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 488280,
+            "end_ms": 496500,
+            "text": "This is our Watson setup... no please go ahead... this is where the Watson AI was displayed"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 525540,
+            "end_ms": 529478,
+            "text": "So inside that is 15 millikelvin? Yep."
+          },
+          {
+            "cue_id": 154,
+            "start_ms": 563640,
+            "end_ms": 569760,
+            "text": "they do their their quantum stuff and it comes up and it goes to these room temperature control"
+          },
+          {
+            "cue_id": 164,
+            "start_ms": 598140,
+            "end_ms": 603600,
+            "text": "of them in your computer. And they can either be in the state zero or one. We call it the ground state"
+          },
+          {
+            "cue_id": 169,
+            "start_ms": 628500,
+            "end_ms": 634260,
+            "text": "be really likely to be one which means a higher energy wave and each qubit has a probability of"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 665602,
+            "end_ms": 671122,
+            "text": "It's a common misconception that quantum computers \"try all the options.\" That's not right."
+          },
+          {
+            "cue_id": 186,
+            "start_ms": 702120,
+            "end_ms": 708379,
+            "text": "structure in tons of data. And if you're interested we can close it back up..."
+          },
+          {
+            "cue_id": 194,
+            "start_ms": 737709,
+            "end_ms": 743520,
+            "text": "We just don't normally see it but if you look at like a molecular level and like the atomic"
+          },
+          {
+            "cue_id": 200,
+            "start_ms": 775020,
+            "end_ms": 779100,
+            "text": "we could make if we could better predict the way that nature behaves at a molecular scale."
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 810127,
+            "end_ms": 811117,
+            "text": "\"Break encryption...\""
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 842760,
+            "end_ms": 848040,
+            "text": "really large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\""
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 879121,
+            "end_ms": 883440,
+            "text": "But we haven't done that yet. That's one of the ones that requires probably like"
+          },
+          {
+            "cue_id": 229,
+            "start_ms": 914506,
+            "end_ms": 918900,
+            "text": "Probably. Not all at once yeah but gradually you're going to see people"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 950580,
+            "end_ms": 955200,
+            "text": "Yeah, we are just skimming the surface. We're going to keep iterating and improving"
+          },
+          {
+            "cue_id": 245,
+            "start_ms": 984360,
+            "end_ms": 989022,
+            "text": "understand that this is a fundamentally different technology. Like it just looks so weird."
+          },
+          {
+            "cue_id": 252,
+            "start_ms": 1016100,
+            "end_ms": 1022160,
+            "text": "our exploration of other fields of mathematics and physics and science was equivalent to other"
+          },
+          {
+            "cue_id": 261,
+            "start_ms": 1053000,
+            "end_ms": 1058700,
+            "text": "want to learn what we are and like learn more about the world we live in. And the fact is:"
+          }
+        ],
+        "text": "So, this is it!\nI see a lot of news about quantum computers and it's always extremely confusing\nthink you really understand how they work...\nthey're letting us see this computer because\nWhat is most interesting to you about quantum computing?\ncoming with us as we figure this out.\nand how you get around depends on how good you are at doing math...\ncan get farther faster and we can access areas that were previously inaccessible. But there were\nBOATS. A boat is not necessarily better than a car, they're just built for totally different terrain.\nthis is a better thing to offer the audience, like to offer you guys instead of like \"quantum\nHere we go.\nsometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually\ndon't they offer a 30-day money-back guarantee. So go check them out. Now back to the story...\nThis is our Watson setup... no please go ahead... this is where the Watson AI was displayed\nSo inside that is 15 millikelvin? Yep.\nthey do their their quantum stuff and it comes up and it goes to these room temperature control\nof them in your computer. And they can either be in the state zero or one. We call it the ground state\nbe really likely to be one which means a higher energy wave and each qubit has a probability of\nIt's a common misconception that quantum computers \"try all the options.\" That's not right.\nstructure in tons of data. And if you're interested we can close it back up...\nWe just don't normally see it but if you look at like a molecular level and like the atomic\nwe could make if we could better predict the way that nature behaves at a molecular scale.\n\"Break encryption...\"\nreally large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\"\nBut we haven't done that yet. That's one of the ones that requires probably like\nProbably. Not all at once yeah but gradually you're going to see people\nYeah, we are just skimming the surface. We're going to keep iterating and improving\nunderstand that this is a fundamentally different technology. Like it just looks so weird.\nour exploration of other fields of mathematics and physics and science was equivalent to other\nwant to learn what we are and like learn more about the world we live in. And the fact is:",
+        "text_tokens": 494,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 4127,
+          "text": "So, this is it! This... this is a quantum computer?"
+        },
+        {
+          "id": "S14",
+          "cue_ids": [
+            14,
+            15
+          ],
+          "start_ms": 33899,
+          "end_ms": 39871,
+          "text": "\"Quantum Supremacy...\" I see a lot of news about quantum computers and it's always extremely confusing"
+        },
+        {
+          "id": "S22",
+          "cue_ids": [
+            22,
+            23,
+            24
+          ],
+          "start_ms": 63660,
+          "end_ms": 75886,
+          "text": "build and how we understand the world. They're kept at temperatures colder than space... but if you think you really understand how they work... you're probably wrong. At least, I didn't. And that's where this video starts."
+        },
+        {
+          "id": "S39",
+          "cue_ids": [
+            39,
+            40
+          ],
+          "start_ms": 140269,
+          "end_ms": 147420,
+          "text": "they're letting us see this computer because it is to my knowledge the largest quantum computer that exists which I say with"
+        },
+        {
+          "id": "S51",
+          "cue_ids": [
+            51,
+            52,
+            53
+          ],
+          "start_ms": 175470,
+          "end_ms": 185160,
+          "text": "This is the real deal. What is most interesting to you about quantum computing? It's definitely on the edge of my expertise, I would say. I'm really curious about"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61
+          ],
+          "start_ms": 209760,
+          "end_ms": 213213,
+          "text": "coming with us as we figure this out. Exploratory explainer!"
+        },
+        {
+          "id": "S70",
+          "cue_ids": [
+            70,
+            71
+          ],
+          "start_ms": 242125,
+          "end_ms": 248542,
+          "text": "Imagine that you're on a video game map and how you get around depends on how good you are at doing math..."
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79,
+            80
+          ],
+          "start_ms": 275460,
+          "end_ms": 290400,
+          "text": "new areas on our mathematical map. Instead of walking everywhere we can now ride horses. We can get farther faster and we can access areas that were previously inaccessible. But there were still parts of the map that our computers couldn't access. Luckily, computers just kept getting better"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85
+          ],
+          "start_ms": 306960,
+          "end_ms": 320040,
+          "text": "said was really important to understand is that quantum computers are not faster cars. They're BOATS. A boat is not necessarily better than a car, they're just built for totally different terrain."
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95
+          ],
+          "start_ms": 343500,
+          "end_ms": 358554,
+          "text": "This is why I think a quantum computer is never gonna \"beat\" an iPhone. But I think that this is a better thing to offer the audience, like to offer you guys instead of like \"quantum computers or just another exciting computer.\""
+        },
+        {
+          "id": "S106",
+          "cue_ids": [
+            106,
+            107
+          ],
+          "start_ms": 387232,
+          "end_ms": 393720,
+          "text": "Here we go. Okay before we get to IBM, I want to show you something: So I travel a lot for Huge If True"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115
+          ],
+          "start_ms": 417120,
+          "end_ms": 429900,
+          "text": "it to the United States, I can be at home online even when I'm traveling, which is really nice. But sometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually at home. You might not realize that a lot of things (like airline flights especially) are priced"
+        },
+        {
+          "id": "S121",
+          "cue_ids": [
+            121
+          ],
+          "start_ms": 454740,
+          "end_ms": 459420,
+          "text": "don't they offer a 30-day money-back guarantee. So go check them out. Now back to the story..."
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132
+          ],
+          "start_ms": 487432,
+          "end_ms": 499759,
+          "text": "What's goin' on here? This is our Watson setup... no please go ahead... this is where the Watson AI was displayed and it competed on Jeopardy with Ken Jennings..."
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142
+          ],
+          "start_ms": 525540,
+          "end_ms": 531478,
+          "text": "So inside that is 15 millikelvin? Yep. [That is very cold]"
+        },
+        {
+          "id": "S153",
+          "cue_ids": [
+            153,
+            154,
+            155
+          ],
+          "start_ms": 559797,
+          "end_ms": 573098,
+          "text": "down through the fridge into the processor and then they do their their quantum stuff and it comes up and it goes to these room temperature control electronics and they turn it into things that humans can understand."
+        },
+        {
+          "id": "S164",
+          "cue_ids": [
+            164,
+            165
+          ],
+          "start_ms": 598140,
+          "end_ms": 609120,
+          "text": "of them in your computer. And they can either be in the state zero or one. We call it the ground state or the excited state. And everything that you type into your computer, all words, all numbers, all"
+        },
+        {
+          "id": "S168",
+          "cue_ids": [
+            168,
+            169
+          ],
+          "start_ms": 622320,
+          "end_ms": 634260,
+          "text": "like a wave: A qubit could be really likely to be zero which means a lower energy wave. Or it could be really likely to be one which means a higher energy wave and each qubit has a probability of"
+        },
+        {
+          "id": "S176",
+          "cue_ids": [
+            176,
+            177,
+            178
+          ],
+          "start_ms": 661431,
+          "end_ms": 675954,
+          "text": "Basically, you are altering the probabilities while you're running an algorithm... It's a common misconception that quantum computers \"try all the options.\" That's not right. This is simplified but it's more like a quantum computer kind of watches the pond..."
+        },
+        {
+          "id": "S185",
+          "cue_ids": [
+            185,
+            186
+          ],
+          "start_ms": 697740,
+          "end_ms": 708379,
+          "text": "phone is perfectly good at that. But the things that quantum computers are good at is finding structure in tons of data. And if you're interested we can close it back up..."
+        },
+        {
+          "id": "S193",
+          "cue_ids": [
+            193,
+            194,
+            195
+          ],
+          "start_ms": 732537,
+          "end_ms": 749940,
+          "text": "So nature fundamentally is quantum and it obeys quantum physics. We just don't normally see it but if you look at like a molecular level and like the atomic structure of molecules, everything has to follow the laws of quantum physics. It's really hard"
+        },
+        {
+          "id": "S200",
+          "cue_ids": [
+            200
+          ],
+          "start_ms": 775020,
+          "end_ms": 779100,
+          "text": "we could make if we could better predict the way that nature behaves at a molecular scale."
+        },
+        {
+          "id": "S205",
+          "cue_ids": [
+            205,
+            206,
+            207
+          ],
+          "start_ms": 808606,
+          "end_ms": 812650,
+          "text": "\"Completely new encryption algorithms\" \"Break encryption...\" \"Quantum resistant encryption...\""
+        },
+        {
+          "id": "S213",
+          "cue_ids": [
+            213,
+            214
+          ],
+          "start_ms": 835500,
+          "end_ms": 848040,
+          "text": "Peter Shore, super nice guy. He invented an algorithm which basically can find factors, prime factors, for really large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\""
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222
+          ],
+          "start_ms": 874594,
+          "end_ms": 887035,
+          "text": "quantum computer to actually do this has a big, obvious advantage. But we haven't done that yet. That's one of the ones that requires probably like a million qubits or more to do, but we're working up to it."
+        },
+        {
+          "id": "S229",
+          "cue_ids": [
+            229,
+            230
+          ],
+          "start_ms": 914506,
+          "end_ms": 924300,
+          "text": "Probably. Not all at once yeah but gradually you're going to see people do it. We're progressing at an incredibly fast rate. We're solving problems that people didn't"
+        },
+        {
+          "id": "S235",
+          "cue_ids": [
+            235,
+            236,
+            237
+          ],
+          "start_ms": 942900,
+          "end_ms": 961140,
+          "text": "analogy slightly that it's a \"submarine\" because there are sort of different levels of quantum computing... Yeah, we are just skimming the surface. We're going to keep iterating and improving upon this technology every single year and we're probably going to discover like new"
+        },
+        {
+          "id": "S245",
+          "cue_ids": [
+            245,
+            246
+          ],
+          "start_ms": 984360,
+          "end_ms": 993780,
+          "text": "understand that this is a fundamentally different technology. Like it just looks so weird. I'm really glad I got to finish exploring that analogy and fully understand it too and adjust it"
+        },
+        {
+          "id": "S251",
+          "cue_ids": [
+            251,
+            252
+          ],
+          "start_ms": 1013573,
+          "end_ms": 1022160,
+          "text": "I think we can keep almost all of it which is that our exploration of other fields of mathematics and physics and science was equivalent to other"
+        },
+        {
+          "id": "S260",
+          "cue_ids": [
+            260,
+            261,
+            262
+          ],
+          "start_ms": 1049040,
+          "end_ms": 1061100,
+          "text": "better things. But it's also beautiful because like part of the human experience is you just want to learn what we are and like learn more about the world we live in. And the fact is: The world is quantum mechanical."
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:04.127] So, this is it! This... this is a quantum computer?\nS14 [00:00:33.899 --> 00:00:39.871] \"Quantum Supremacy...\" I see a lot of news about quantum computers and it's always extremely confusing\nS22 [00:01:03.660 --> 00:01:15.886] build and how we understand the world. They're kept at temperatures colder than space... but if you think you really understand how they work... you're probably wrong. At least, I didn't. And that's where this video starts.\nS39 [00:02:20.269 --> 00:02:27.420] they're letting us see this computer because it is to my knowledge the largest quantum computer that exists which I say with\nS51 [00:02:55.470 --> 00:03:05.160] This is the real deal. What is most interesting to you about quantum computing? It's definitely on the edge of my expertise, I would say. I'm really curious about\nS60 [00:03:29.760 --> 00:03:33.213] coming with us as we figure this out. Exploratory explainer!\nS70 [00:04:02.125 --> 00:04:08.542] Imagine that you're on a video game map and how you get around depends on how good you are at doing math...\nS78 [00:04:35.460 --> 00:04:50.400] new areas on our mathematical map. Instead of walking everywhere we can now ride horses. We can get farther faster and we can access areas that were previously inaccessible. But there were still parts of the map that our computers couldn't access. Luckily, computers just kept getting better\nS84 [00:05:06.960 --> 00:05:20.040] said was really important to understand is that quantum computers are not faster cars. They're BOATS. A boat is not necessarily better than a car, they're just built for totally different terrain.\nS93 [00:05:43.500 --> 00:05:58.554] This is why I think a quantum computer is never gonna \"beat\" an iPhone. But I think that this is a better thing to offer the audience, like to offer you guys instead of like \"quantum computers or just another exciting computer.\"\nS106 [00:06:27.232 --> 00:06:33.720] Here we go. Okay before we get to IBM, I want to show you something: So I travel a lot for Huge If True\nS113 [00:06:57.120 --> 00:07:09.900] it to the United States, I can be at home online even when I'm traveling, which is really nice. But sometimes I want the opposite: I want my computer to think that I'm somewhere else when I'm actually at home. You might not realize that a lot of things (like airline flights especially) are priced\nS121 [00:07:34.740 --> 00:07:39.420] don't they offer a 30-day money-back guarantee. So go check them out. Now back to the story...\nS130 [00:08:07.432 --> 00:08:19.759] What's goin' on here? This is our Watson setup... no please go ahead... this is where the Watson AI was displayed and it competed on Jeopardy with Ken Jennings...\nS141 [00:08:45.540 --> 00:08:51.478] So inside that is 15 millikelvin? Yep. [That is very cold]\nS153 [00:09:19.797 --> 00:09:33.098] down through the fridge into the processor and then they do their their quantum stuff and it comes up and it goes to these room temperature control electronics and they turn it into things that humans can understand.\nS164 [00:09:58.140 --> 00:10:09.120] of them in your computer. And they can either be in the state zero or one. We call it the ground state or the excited state. And everything that you type into your computer, all words, all numbers, all\nS168 [00:10:22.320 --> 00:10:34.260] like a wave: A qubit could be really likely to be zero which means a lower energy wave. Or it could be really likely to be one which means a higher energy wave and each qubit has a probability of\nS176 [00:11:01.431 --> 00:11:15.954] Basically, you are altering the probabilities while you're running an algorithm... It's a common misconception that quantum computers \"try all the options.\" That's not right. This is simplified but it's more like a quantum computer kind of watches the pond...\nS185 [00:11:37.740 --> 00:11:48.379] phone is perfectly good at that. But the things that quantum computers are good at is finding structure in tons of data. And if you're interested we can close it back up...\nS193 [00:12:12.537 --> 00:12:29.940] So nature fundamentally is quantum and it obeys quantum physics. We just don't normally see it but if you look at like a molecular level and like the atomic structure of molecules, everything has to follow the laws of quantum physics. It's really hard\nS200 [00:12:55.020 --> 00:12:59.100] we could make if we could better predict the way that nature behaves at a molecular scale.\nS205 [00:13:28.606 --> 00:13:32.650] \"Completely new encryption algorithms\" \"Break encryption...\" \"Quantum resistant encryption...\"\nS213 [00:13:55.500 --> 00:14:08.040] Peter Shore, super nice guy. He invented an algorithm which basically can find factors, prime factors, for really large numbers. Why does anyone care about this? Because that's the basis for \"RSA encryption\"\nS220 [00:14:34.594 --> 00:14:47.035] quantum computer to actually do this has a big, obvious advantage. But we haven't done that yet. That's one of the ones that requires probably like a million qubits or more to do, but we're working up to it.\nS229 [00:15:14.506 --> 00:15:24.300] Probably. Not all at once yeah but gradually you're going to see people do it. We're progressing at an incredibly fast rate. We're solving problems that people didn't\nS235 [00:15:42.900 --> 00:16:01.140] analogy slightly that it's a \"submarine\" because there are sort of different levels of quantum computing... Yeah, we are just skimming the surface. We're going to keep iterating and improving upon this technology every single year and we're probably going to discover like new\nS245 [00:16:24.360 --> 00:16:33.780] understand that this is a fundamentally different technology. Like it just looks so weird. I'm really glad I got to finish exploring that analogy and fully understand it too and adjust it\nS251 [00:16:53.573 --> 00:17:02.160] I think we can keep almost all of it which is that our exploration of other fields of mathematics and physics and science was equivalent to other\nS260 [00:17:29.040 --> 00:17:41.100] better things. But it's also beautiful because like part of the human experience is you just want to learn what we are and like learn more about the world we live in. And the fact is: The world is quantum mechanical.",
+      "text_tokens": 2045,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        14,
+        22,
+        24,
+        40,
+        51,
+        53,
+        61,
+        70,
+        78,
+        80,
+        84,
+        93,
+        95,
+        107,
+        113,
+        115,
+        130,
+        132,
+        142,
+        153,
+        155,
+        165,
+        168,
+        176,
+        178,
+        185,
+        193,
+        195,
+        205,
+        207,
+        213,
+        220,
+        222,
+        230,
+        235,
+        237,
+        246,
+        251,
+        260,
+        262
+      ],
+      "omitted_neighbor_ids": [
+        16,
+        38,
+        59,
+        72,
+        86,
+        105,
+        120,
+        140,
+        163,
+        170,
+        187,
+        199,
+        215,
+        228,
+        244,
+        253
+      ]
+    }
+  },
+  "evidence_sha256": "616256edb51870be420ec16949f32dad42d63e543bb8aa7f5e8489a7f18ccd1d"
+}

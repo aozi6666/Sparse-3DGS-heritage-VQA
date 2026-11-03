@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "bd91b1b209ea6084744561892613b0249fd32301437b84943a6d580d1802704a",
+  "response": {
+    "id": "424459ce-b8e5-4f1e-96f5-ecb3aeeb0e7e",
+    "object": "chat.completion",
+    "created": 1793675890,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"D\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S106\",\"quote\":\"cardi be's outfit was insane in the best way it was like a waterfall of fabric that was floating in the air\"}],\"frame_ids\":[\"F6434\",\"F6894\"],\"windows\":[],\"notes\":\"Subtitle S106 describes Cardi B's outfit as a 'waterfall of fabric' floating in the air, matching option D. Frames F6434 and F6894 show Cardi B in a sculptural blue dress with flowing fabric.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8986,
+      "completion_tokens": 121,
+      "total_tokens": 9107,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 8858
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.251564981415868
+}

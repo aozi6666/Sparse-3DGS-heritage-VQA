@@ -1,0 +1,963 @@
+{
+  "tsv_sha256": "4561edc65eb3a1ea71267fe096fdd334832b4bcd29f4ef0e78c6e65af01a8265",
+  "inputs_sha256": "4cef983e5db3599c6a071069659beb89c9e8b246ebd2fbc663bdd73084c8f3a4",
+  "splits_sha256": "53d6040b0ac13464adb68173d43c518948d10de7f61886fda04899d4ba24b22a",
+  "labels_sha256": "654dd7487926b70bff15fa896d27ab98c95e774deb10b72ef2b74f624d14a41a",
+  "seed": 0,
+  "legacy_smoke_sha256": "40690054eb4cadb881d2b633825ed01d73252219fc1f2aa55a07e735d90a5579",
+  "note": "short is previously used; medium/long split is video-disjoint; test remains unopened",
+  "videos": {
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fFjv93ACGo8.mp4": {
+      "bytes": 17126035,
+      "mtime_ns": 1790756535434050122
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HIjX8OPuf-w.mp4": {
+      "bytes": 9815375,
+      "mtime_ns": 1790758571333910600
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HwnB8aCn8yE.mp4": {
+      "bytes": 3744854,
+      "mtime_ns": 1790758506031675038
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/24i4ncHuf6A.mp4": {
+      "bytes": 3127891,
+      "mtime_ns": 1790738467449426473
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/40BlVzjxu-I.mp4": {
+      "bytes": 13553677,
+      "mtime_ns": 1790742554536725914
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eXKE0nAMmg4.mp4": {
+      "bytes": 6948388,
+      "mtime_ns": 1790756467943609840
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ebzbKa32kuk.mp4": {
+      "bytes": 8243419,
+      "mtime_ns": 1790755221187296151
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/39HTpUG1MwQ.mp4": {
+      "bytes": 10653237,
+      "mtime_ns": 1790742233948779244
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/blSnLEZe-sI.mp4": {
+      "bytes": 3917002,
+      "mtime_ns": 1790753695201585907
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EQ-67udZEeg.mp4": {
+      "bytes": 5505092,
+      "mtime_ns": 1790756457563231942
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fo0Hmch2YS0.mp4": {
+      "bytes": 9153361,
+      "mtime_ns": 1790756482236128998
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/DF_J3vCcbBA.mp4": {
+      "bytes": 11968531,
+      "mtime_ns": 1790755257228231218
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/D52rTzibFRc.mp4": {
+      "bytes": 5431759,
+      "mtime_ns": 1790755187470423045
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eTLMWnsStuk.mp4": {
+      "bytes": 3206276,
+      "mtime_ns": 1790756440934625064
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fo-mVfOsC-E.mp4": {
+      "bytes": 2307888,
+      "mtime_ns": 1790756431938295935
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CezlmUwMXNo.mp4": {
+      "bytes": 2109631,
+      "mtime_ns": 1790753662973203176
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HvjgQqNOq9A.mp4": {
+      "bytes": 3410019,
+      "mtime_ns": 1790758502711561254
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/540LkURTR7g.mp4": {
+      "bytes": 9131508,
+      "mtime_ns": 1790741771190278063
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/21q-lDikdBg.mp4": {
+      "bytes": 6380534,
+      "mtime_ns": 1790740227404274789
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FjS2LzrHEO8.mp4": {
+      "bytes": 6328020,
+      "mtime_ns": 1790756463775458184
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hUrjmA0fhsc.mp4": {
+      "bytes": 9372079,
+      "mtime_ns": 1790758567549781173
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c9arR8T0Qts.mp4": {
+      "bytes": 20399693,
+      "mtime_ns": 1790753926889093154
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3rTsETO3s9U.mp4": {
+      "bytes": 2286494,
+      "mtime_ns": 1790737455306307634
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/drbi6HK1gSc.mp4": {
+      "bytes": 2535837,
+      "mtime_ns": 1790755156441621063
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/djr6T2C8Gfs.mp4": {
+      "bytes": 3124674,
+      "mtime_ns": 1790755162181769311
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Ij-FYOrklFE.mp4": {
+      "bytes": 22910728,
+      "mtime_ns": 1790758691037998066
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/56yT3H_DjVE.mp4": {
+      "bytes": 12989173,
+      "mtime_ns": 1790742550116723476
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/_cZXyj6rYVg.mp4": {
+      "bytes": 4616143,
+      "mtime_ns": 1790755179502216953
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bYXhA8VG8Lw.mp4": {
+      "bytes": 7419086,
+      "mtime_ns": 1790753770850595341
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2Qno7H4BwAU.mp4": {
+      "bytes": 5608754,
+      "mtime_ns": 1790739822565776187
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HmnKbBmYii8.mp4": {
+      "bytes": 2555249,
+      "mtime_ns": 1790758490439140562
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HqAfzcJurMM.mp4": {
+      "bytes": 14551433,
+      "mtime_ns": 1790758618371518269
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/43wqf_KhiUo.mp4": {
+      "bytes": 13904951,
+      "mtime_ns": 1790742558748728304
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c0siCya457M.mp4": {
+      "bytes": 15679496,
+      "mtime_ns": 1790753893696520714
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EJ_yarUrgVQ.mp4": {
+      "bytes": 14667630,
+      "mtime_ns": 1790755283132904370
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HdBsD5VspVM.mp4": {
+      "bytes": 7037220,
+      "mtime_ns": 1790758542428921612
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4V6G0qYVoBg.mp4": {
+      "bytes": 4952890,
+      "mtime_ns": 1790739487839970403
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fJ-hp5Jlbv0.mp4": {
+      "bytes": 6286624,
+      "mtime_ns": 1790756462739420471
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dIPNQRVqJmY.mp4": {
+      "bytes": 10826786,
+      "mtime_ns": 1790755248067993393
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BkiTScinYOQ.mp4": {
+      "bytes": 17234857,
+      "mtime_ns": 1790753904472704333
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ByUONqA1IJY.mp4": {
+      "bytes": 21302632,
+      "mtime_ns": 1790753933037201374
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2yGaTOzaGIA.mp4": {
+      "bytes": 3926022,
+      "mtime_ns": 1790738925890479459
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ejFVFtJdP3s.mp4": {
+      "bytes": 30191296,
+      "mtime_ns": 1790755417573229243
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/DK6bKtXUE1c.mp4": {
+      "bytes": 13059410,
+      "mtime_ns": 1790755268080513117
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CHlJdMVLV2s.mp4": {
+      "bytes": 5042109,
+      "mtime_ns": 1790753719633895519
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/E895PNqSgEI.mp4": {
+      "bytes": 4755177,
+      "mtime_ns": 1790755182006281708
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fkJv7LRa6Pc.mp4": {
+      "bytes": 2810650,
+      "mtime_ns": 1790756436570465473
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/54YD3Gv-3MI.mp4": {
+      "bytes": 11171184,
+      "mtime_ns": 1790742380796690312
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2QTiAmvygC4.mp4": {
+      "bytes": 5718887,
+      "mtime_ns": 1790739822833773492
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HiJb_2dvuHc.mp4": {
+      "bytes": 7593753,
+      "mtime_ns": 1790758547449093439
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eICN548E2TU.mp4": {
+      "bytes": 2865512,
+      "mtime_ns": 1790755159249693579
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EVnzXA9b7Ww.mp4": {
+      "bytes": 14351167,
+      "mtime_ns": 1790756516141355391
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4H8hcvNeWtg.mp4": {
+      "bytes": 8587755,
+      "mtime_ns": 1790741510168574647
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/44ivpEIcBhE.mp4": {
+      "bytes": 5019835,
+      "mtime_ns": 1790739618584784105
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dH8l--46j6s.mp4": {
+      "bytes": 19586671,
+      "mtime_ns": 1790755327639677168
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BrrDT_uYQsg.mp4": {
+      "bytes": 15374566,
+      "mtime_ns": 1790753890836472347
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/D61jenC5oBA.mp4": {
+      "bytes": 9214327,
+      "mtime_ns": 1790755229907522230
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c9oXTCVcTSE.mp4": {
+      "bytes": 6826766,
+      "mtime_ns": 1790753759310431902
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FlcVBKTSjRs.mp4": {
+      "bytes": 2423881,
+      "mtime_ns": 1790756432766326252
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BiJtPU9uP0c.mp4": {
+      "bytes": 14969065,
+      "mtime_ns": 1790753888356430536
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/IKtnfFHjERg.mp4": {
+      "bytes": 5145472,
+      "mtime_ns": 1790758524052292406
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B_OL2TSrpKM.mp4": {
+      "bytes": 7338100,
+      "mtime_ns": 1790753760938454760
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4twBzf6ngSc.mp4": {
+      "bytes": 13799314,
+      "mtime_ns": 1790742557540727612
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2iHmlBmLKUE.mp4": {
+      "bytes": 6175560,
+      "mtime_ns": 1790740111812270772
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CQUphYL0vY8.mp4": {
+      "bytes": 14511205,
+      "mtime_ns": 1790755282288882425
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3E4Zca1p64s.mp4": {
+      "bytes": 12569645,
+      "mtime_ns": 1790742507176703615
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/5-4Od1qn53s.mp4": {
+      "bytes": 21075489,
+      "mtime_ns": 1790742612848764496
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2gFxZmb0dMo.mp4": {
+      "bytes": 21106856,
+      "mtime_ns": 1790742611500763476
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/27YZLpw0M98.mp4": {
+      "bytes": 10556002,
+      "mtime_ns": 1790742220836793739
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hsKmC7RwHvo.mp4": {
+      "bytes": 16555644,
+      "mtime_ns": 1790758638656210946
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/DoFmXBjRGmk.mp4": {
+      "bytes": 28504727,
+      "mtime_ns": 1790755402236313921
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bHt0Riqz0qo.mp4": {
+      "bytes": 10098794,
+      "mtime_ns": 1790753814711245238
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4ZK-m01XSQ8.mp4": {
+      "bytes": 10132661,
+      "mtime_ns": 1790742060733077530
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dphq5X-rMew.mp4": {
+      "bytes": 97090981,
+      "mtime_ns": 1790755802705050536
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4jmMWohs1XM.mp4": {
+      "bytes": 17354583,
+      "mtime_ns": 1790742585652745051
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/IaTaaNinolU.mp4": {
+      "bytes": 15648764,
+      "mtime_ns": 1790758628363859530
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Bkheu99K5lY.mp4": {
+      "bytes": 55597751,
+      "mtime_ns": 1790754194866335766
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eWUAB194qhU.mp4": {
+      "bytes": 30115091,
+      "mtime_ns": 1790756608328656301
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CxBbw8eT624.mp4": {
+      "bytes": 42045669,
+      "mtime_ns": 1790755498977893588
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ckn9zybpYZ8.mp4": {
+      "bytes": 19447131,
+      "mtime_ns": 1790753921192993491
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3uV8XZcIBbk.mp4": {
+      "bytes": 138115547,
+      "mtime_ns": 1790743126250110668
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/cMim0uU1yzA.mp4": {
+      "bytes": 33841919,
+      "mtime_ns": 1790755443494748973
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/257wV-AbKaE.mp4": {
+      "bytes": 21599935,
+      "mtime_ns": 1790742614832766010
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CC9VeHrI3Es.mp4": {
+      "bytes": 16469073,
+      "mtime_ns": 1790753899064611908
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HLxvq_M4218.mp4": {
+      "bytes": 17165464,
+      "mtime_ns": 1790758641936322920
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/e-P5IFTqB98.mp4": {
+      "bytes": 17915992,
+      "mtime_ns": 1790756539238186853
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HooZ84rpovQ.mp4": {
+      "bytes": 43643341,
+      "mtime_ns": 1790758834735249261
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/DI6SemRT2iY.mp4": {
+      "bytes": 29469014,
+      "mtime_ns": 1790755410344799371
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HwpzzAefx9M.mp4": {
+      "bytes": 18883251,
+      "mtime_ns": 1790758657876866961
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3fQxvz4ENDg.mp4": {
+      "bytes": 25551887,
+      "mtime_ns": 1790742640148786429
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/IGyx5UEwgtA.mp4": {
+      "bytes": 24679048,
+      "mtime_ns": 1790758705062476172
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Hel5dqvImSw.mp4": {
+      "bytes": 21955757,
+      "mtime_ns": 1790758681941687883
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ce_uHxXsUWA.mp4": {
+      "bytes": 43156043,
+      "mtime_ns": 1790754065871689182
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BxrolAZXZFg.mp4": {
+      "bytes": 96910518,
+      "mtime_ns": 1790754415151240866
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2Bns2m5Bg4M.mp4": {
+      "bytes": 17834681,
+      "mtime_ns": 1790742588168746746
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/e3fz3dqhN44.mp4": {
+      "bytes": 48703834,
+      "mtime_ns": 1790755545148406828
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ECgVLceb_LE.mp4": {
+      "bytes": 76826301,
+      "mtime_ns": 1790755705028494999
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bepwr1-CNRU.mp4": {
+      "bytes": 31388781,
+      "mtime_ns": 1790753996634358378
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/edAu5_O4C54.mp4": {
+      "bytes": 44659198,
+      "mtime_ns": 1790755517702923657
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dcYgBU4t98E.mp4": {
+      "bytes": 39832853,
+      "mtime_ns": 1790755484169068090
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2za5RwplXdI.mp4": {
+      "bytes": 27121481,
+      "mtime_ns": 1790742649276794280
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/I5cFBi02O34.mp4": {
+      "bytes": 30640999,
+      "mtime_ns": 1790758749539991483
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/44G3dPME330.mp4": {
+      "bytes": 26434132,
+      "mtime_ns": 1790742645336790860
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/iC54QQSe4_I.mp4": {
+      "bytes": 14646777,
+      "mtime_ns": 1790758619939571827
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4aPxxE345OM.mp4": {
+      "bytes": 19531864,
+      "mtime_ns": 1790742601336755966
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hjNX33W-99I.mp4": {
+      "bytes": 24627244,
+      "mtime_ns": 1790758703570425313
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HeEyJo838PA.mp4": {
+      "bytes": 79228385,
+      "mtime_ns": 1790759001372948334
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B7-6lRo2m4Y.mp4": {
+      "bytes": 16402161,
+      "mtime_ns": 1790753897840591067
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3EQLFHRHpag.mp4": {
+      "bytes": 71386200,
+      "mtime_ns": 1790742881301067316
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FEzcqbzTwvA.mp4": {
+      "bytes": 64522682,
+      "mtime_ns": 1790756777298600807
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FkZn5u3MIiY.mp4": {
+      "bytes": 41441501,
+      "mtime_ns": 1790756670578860663
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HK13nVxBYxI.mp4": {
+      "bytes": 49153642,
+      "mtime_ns": 1790758862634139101
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dTUaWnvIOp4.mp4": {
+      "bytes": 25544521,
+      "mtime_ns": 1790755379034905442
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/20gUIdXGuAs.mp4": {
+      "bytes": 56299047,
+      "mtime_ns": 1790742809340969105
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/erjwCQ-UZyw.mp4": {
+      "bytes": 154178387,
+      "mtime_ns": 1790757787850578312
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/IN8t1d3pRMY.mp4": {
+      "bytes": 71488666,
+      "mtime_ns": 1790758966879778210
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/cPlpZdGLa5A.mp4": {
+      "bytes": 59975676,
+      "mtime_ns": 1790755611127851946
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EavQ0LtEICY.mp4": {
+      "bytes": 143020711,
+      "mtime_ns": 1790755976500609638
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2NOcM1HoRRg.mp4": {
+      "bytes": 153800740,
+      "mtime_ns": 1790743165935404870
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2Gg4OQo7-zA.mp4": {
+      "bytes": 128305624,
+      "mtime_ns": 1790743096597089945
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hwloS0JY6Ms.mp4": {
+      "bytes": 101182628,
+      "mtime_ns": 1790759084367761799
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bOUSkh5PInA.mp4": {
+      "bytes": 49367802,
+      "mtime_ns": 1790754163145666884
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/e-XGSYnhUjg.mp4": {
+      "bytes": 52928931,
+      "mtime_ns": 1790756725968807561
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Hw5qjcnhrW4.mp4": {
+      "bytes": 23022162,
+      "mtime_ns": 1790758690765988791
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/DfZIv2FKWj4.mp4": {
+      "bytes": 64721081,
+      "mtime_ns": 1790755636849152341
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c66RN87YjNE.mp4": {
+      "bytes": 179789327,
+      "mtime_ns": 1790754763327633288
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hQYRDNl-lGI.mp4": {
+      "bytes": 175584927,
+      "mtime_ns": 1790759305559248905
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CwzjlmBLfrQ.mp4": {
+      "bytes": 15239623,
+      "mtime_ns": 1790755290045214143
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/-3t1rj8g6yg.mp4": {
+      "bytes": 48276336,
+      "mtime_ns": 1790742769132919112
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/323v_FtWqvo.mp4": {
+      "bytes": 22612976,
+      "mtime_ns": 1790742622164771716
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BEIVOKz4zXw.mp4": {
+      "bytes": 87892478,
+      "mtime_ns": 1790754357209911919
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dez7DLniEJA.mp4": {
+      "bytes": 30786775,
+      "mtime_ns": 1790755421445458416
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/F4v0BZtrSbY.mp4": {
+      "bytes": 61191327,
+      "mtime_ns": 1790756763002102343
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/iC56xtbUOnM.mp4": {
+      "bytes": 39083116,
+      "mtime_ns": 1790758808838009611
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hYTYb5sGznw.mp4": {
+      "bytes": 24057897,
+      "mtime_ns": 1790758699258278320
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dy8AvyRlXpQ.mp4": {
+      "bytes": 75198584,
+      "mtime_ns": 1790755693963962284
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hZ8DmOpRTVc.mp4": {
+      "bytes": 40841993,
+      "mtime_ns": 1790758818278465945
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/I0xrbzYT4Sc.mp4": {
+      "bytes": 59796024,
+      "mtime_ns": 1790758915238025332
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EFD9BLgMVK8.mp4": {
+      "bytes": 54488733,
+      "mtime_ns": 1790755578570172371
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HZJXPm0nhgY.mp4": {
+      "bytes": 40705857,
+      "mtime_ns": 1790758817834228844
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3EQzRz-V7uE.mp4": {
+      "bytes": 59008536,
+      "mtime_ns": 1790742824064988320
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/biiLScgI3u4.mp4": {
+      "bytes": 10975277,
+      "mtime_ns": 1790753826783431747
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/-c8eATXUui8.mp4": {
+      "bytes": 81395827,
+      "mtime_ns": 1790754321893114341
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FcP0mzWFCQU.mp4": {
+      "bytes": 50757384,
+      "mtime_ns": 1790756716280467946
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3x8pvm0g5AU.mp4": {
+      "bytes": 78228597,
+      "mtime_ns": 1790742911325111313
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/_CqKv0Y1FB0.mp4": {
+      "bytes": 10484541,
+      "mtime_ns": 1790755242115838918
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/-fbRaGwfqRw.mp4": {
+      "bytes": 46263730,
+      "mtime_ns": 1790756694079688272
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3m29MQ-qPfg.mp4": {
+      "bytes": 136544107,
+      "mtime_ns": 1790743121745958668
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4ME5ZfDg2aw.mp4": {
+      "bytes": 50364898,
+      "mtime_ns": 1790742780988933466
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Huj-zXv4DEw.mp4": {
+      "bytes": 81528181,
+      "mtime_ns": 1790759010205247873
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/IjSISLZCKPs.mp4": {
+      "bytes": 33540204,
+      "mtime_ns": 1790758771288731940
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BVJGvKaFG7U.mp4": {
+      "bytes": 34399463,
+      "mtime_ns": 1790754016762738026
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/cFqLEwAvaHI.mp4": {
+      "bytes": 17154288,
+      "mtime_ns": 1790753905688725190
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2ka5AleJ48I.mp4": {
+      "bytes": 96809655,
+      "mtime_ns": 1790742988049230939
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FMdEkj5HEqg.mp4": {
+      "bytes": 77253587,
+      "mtime_ns": 1790756826568313141
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/InHaW59CmDw.mp4": {
+      "bytes": 45445440,
+      "mtime_ns": 1790758844164281654
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/cVIfe0Gxa64.mp4": {
+      "bytes": 23943370,
+      "mtime_ns": 1790755366026102756
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/I48vtTxdaeQ.mp4": {
+      "bytes": 39814445,
+      "mtime_ns": 1790758811554877383
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fFYNmVb3NCQ.mp4": {
+      "bytes": 24898700,
+      "mtime_ns": 1790756579531630130
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BoBapnk6TB8.mp4": {
+      "bytes": 200967934,
+      "mtime_ns": 1790754811536836209
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HProiNnmGwI.mp4": {
+      "bytes": 405248878,
+      "mtime_ns": 1790759535509875907
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/H8fGd3fCJbg.mp4": {
+      "bytes": 90711310,
+      "mtime_ns": 1790759044958426185
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ElWG0_kjy_Y.mp4": {
+      "bytes": 211594190,
+      "mtime_ns": 1790757927259559125
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B6tQyCH5hQM.mp4": {
+      "bytes": 170396262,
+      "mtime_ns": 1790754733394890411
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/iCQmfRMwHfA.mp4": {
+      "bytes": 57961604,
+      "mtime_ns": 1790758907581765344
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BjmPvovl-V4.mp4": {
+      "bytes": 173613738,
+      "mtime_ns": 1790754743435139235
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FQd5bo9nIZs.mp4": {
+      "bytes": 134474191,
+      "mtime_ns": 1790757026195176971
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Ei-TcECJVXU.mp4": {
+      "bytes": 191800956,
+      "mtime_ns": 1790756136039082094
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EVBCLAaflaw.mp4": {
+      "bytes": 98946723,
+      "mtime_ns": 1790756907311102460
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c08Zzc0xepI.mp4": {
+      "bytes": 265034649,
+      "mtime_ns": 1790754907651255706
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4iC9Qi3y9q8.mp4": {
+      "bytes": 96320346,
+      "mtime_ns": 1790742986365228210
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/55Jas5HrzcQ.mp4": {
+      "bytes": 178068708,
+      "mtime_ns": 1790743221537090550
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HvKpnaXYUPU.mp4": {
+      "bytes": 253593229,
+      "mtime_ns": 1790759424671416258
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CoPfYGgzCkM.mp4": {
+      "bytes": 110160150,
+      "mtime_ns": 1790755858551548338
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eqJPDJr_irE.mp4": {
+      "bytes": 107528312,
+      "mtime_ns": 1790756938136162369
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/C6aeL83z_9Y.mp4": {
+      "bytes": 166269470,
+      "mtime_ns": 1790754718642525483
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HnS87Tw4amM.mp4": {
+      "bytes": 187367529,
+      "mtime_ns": 1790759329348053355
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eKVTFXQPAhs.mp4": {
+      "bytes": 117102693,
+      "mtime_ns": 1790755887132800006
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dXUXfyiX2lA.mp4": {
+      "bytes": 145368678,
+      "mtime_ns": 1790755985276975936
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/I4yye8mUzWg.mp4": {
+      "bytes": 202720937,
+      "mtime_ns": 1790759354044888379
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/I2dv1jNM7gM.mp4": {
+      "bytes": 133048359,
+      "mtime_ns": 1790759188919302540
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/-dfvdKf-KR0.mp4": {
+      "bytes": 168377723,
+      "mtime_ns": 1790756067288338659
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HP_J8x9lsUg.mp4": {
+      "bytes": 160662594,
+      "mtime_ns": 1790759269742037447
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HTv4z899xgA.mp4": {
+      "bytes": 182542118,
+      "mtime_ns": 1790759319967736163
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/ctqn-UJGX5M.mp4": {
+      "bytes": 103409766,
+      "mtime_ns": 1790755828554215570
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B9He5DVePvk.mp4": {
+      "bytes": 189532388,
+      "mtime_ns": 1790754788340256446
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eAIKvD_gLJo.mp4": {
+      "bytes": 202363284,
+      "mtime_ns": 1790756154703816254
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B7Hh0PY1kks.mp4": {
+      "bytes": 275305224,
+      "mtime_ns": 1790754920567582795
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/54H8ppxnp8I.mp4": {
+      "bytes": 109960794,
+      "mtime_ns": 1790743038338939197
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/54k2g9ddy4M.mp4": {
+      "bytes": 424403085,
+      "mtime_ns": 1790748448015381943
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/E-YnmCB6yjo.mp4": {
+      "bytes": 174933038,
+      "mtime_ns": 1790757841436502034
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bBazRZOxl-k.mp4": {
+      "bytes": 153673574,
+      "mtime_ns": 1790754670941351262
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EFQtbZQ74Eg.mp4": {
+      "bytes": 413183008,
+      "mtime_ns": 1790756407701406358
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HT2iYl6E_Vo.mp4": {
+      "bytes": 783157714,
+      "mtime_ns": 1790759717447842846
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/cy40DIzOUow.mp4": {
+      "bytes": 174940564,
+      "mtime_ns": 1790756089437229509
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4od5mdtEp-E.mp4": {
+      "bytes": 567757401,
+      "mtime_ns": 1790749611543077294
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4qYqPmIO0v0.mp4": {
+      "bytes": 914492603,
+      "mtime_ns": 1790749760095345352
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EeTmrsVW8qE.mp4": {
+      "bytes": 383654123,
+      "mtime_ns": 1790756381792450587
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bFuVjFacj_E.mp4": {
+      "bytes": 190048663,
+      "mtime_ns": 1790754788948271621
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HGv87QeBYnc.mp4": {
+      "bytes": 253747601,
+      "mtime_ns": 1790759424539423871
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/i1p5PAgNvR0.mp4": {
+      "bytes": 634547757,
+      "mtime_ns": 1790759647365778748
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Bgh-2z6P0ao.mp4": {
+      "bytes": 434074859,
+      "mtime_ns": 1790755000637619552
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HKbJtgUrHGk.mp4": {
+      "bytes": 251782460,
+      "mtime_ns": 1790759422247556432
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BrjwEoPXyxA.mp4": {
+      "bytes": 736021647,
+      "mtime_ns": 1790755128748906611
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/1wzgMHrkrys.mp4": {
+      "bytes": 175952044,
+      "mtime_ns": 1790743217032959225
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/FkrIcmXvv18.mp4": {
+      "bytes": 437980237,
+      "mtime_ns": 1790758289684230913
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/i7ivyMFsw-w.mp4": {
+      "bytes": 138957628,
+      "mtime_ns": 1790759210936047728
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/hIJtZN8w03A.mp4": {
+      "bytes": 162356810,
+      "mtime_ns": 1790759275374227968
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/D97vMwfWxvI.mp4": {
+      "bytes": 224820629,
+      "mtime_ns": 1790756186885072210
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/_eJsOYC8SVU.mp4": {
+      "bytes": 432194690,
+      "mtime_ns": 1790756415141679896
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/D0ZMmQjKn2Q.mp4": {
+      "bytes": 96298527,
+      "mtime_ns": 1790755797936833890
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Cb91B0wZYLE.mp4": {
+      "bytes": 178794631,
+      "mtime_ns": 1790754759851546855
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eQGSbBANfVg.mp4": {
+      "bytes": 198796834,
+      "mtime_ns": 1790757899450571543
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/C8Rk__S06_M.mp4": {
+      "bytes": 126355440,
+      "mtime_ns": 1790754557718603714
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dLjOLXmu68M.mp4": {
+      "bytes": 155582017,
+      "mtime_ns": 1790756022458513562
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/B6fvT2LKEDI.mp4": {
+      "bytes": 244495726,
+      "mtime_ns": 1790754883042633741
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/BlTCkMMJM6o.mp4": {
+      "bytes": 247740833,
+      "mtime_ns": 1790754887978758367
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EuBhksmj0sQ.mp4": {
+      "bytes": 528668261,
+      "mtime_ns": 1790758351022348212
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/c03YTDzmsK8.mp4": {
+      "bytes": 277181920,
+      "mtime_ns": 1790754922331627499
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3MJNKd10kxM.mp4": {
+      "bytes": 412327443,
+      "mtime_ns": 1790748230861986758
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/dXBREPP1hfo.mp4": {
+      "bytes": 90592670,
+      "mtime_ns": 1790755771967644069
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4VniCsSusJs.mp4": {
+      "bytes": 256403968,
+      "mtime_ns": 1790743338136203653
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/CKYw_RG7i7w.mp4": {
+      "bytes": 389265761,
+      "mtime_ns": 1790756387484661010
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fLO5Ww0V2qU.mp4": {
+      "bytes": 537222788,
+      "mtime_ns": 1790758355142490222
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eno3UMEMQJI.mp4": {
+      "bytes": 348523071,
+      "mtime_ns": 1790758178268368081
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/E83XxGvEPtI.mp4": {
+      "bytes": 177516832,
+      "mtime_ns": 1790756096149498133
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/3HEYqZgC4ko.mp4": {
+      "bytes": 168107535,
+      "mtime_ns": 1790743201636503502
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/25Pt1AZO9EM.mp4": {
+      "bytes": 92269189,
+      "mtime_ns": 1790742969385200940
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eZ5lFBPpRkM.mp4": {
+      "bytes": 495189739,
+      "mtime_ns": 1790758336037831519
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/Fibq4aA-GVc.mp4": {
+      "bytes": 460939867,
+      "mtime_ns": 1790758311736992838
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/4IenX7OHumk.mp4": {
+      "bytes": 334502767,
+      "mtime_ns": 1790743429362303468
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/eZ2Rt2DVGdU.mp4": {
+      "bytes": 319382996,
+      "mtime_ns": 1790758133854821235
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/2LDriAWltwM.mp4": {
+      "bytes": 206602377,
+      "mtime_ns": 1790743268146399017
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EhLOdDfaC7Y.mp4": {
+      "bytes": 417579235,
+      "mtime_ns": 1790756409333466395
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/elprD1hnDyU.mp4": {
+      "bytes": 200482755,
+      "mtime_ns": 1790756151739699950
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/EP2rD6lr2Xk.mp4": {
+      "bytes": 339625671,
+      "mtime_ns": 1790758166339953060
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/bIQf1HwEqHU.mp4": {
+      "bytes": 197307987,
+      "mtime_ns": 1790754805532685978
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/f-1xE_5uXDg.mp4": {
+      "bytes": 145392764,
+      "mtime_ns": 1790757759977572619
+    }
+  }
+}

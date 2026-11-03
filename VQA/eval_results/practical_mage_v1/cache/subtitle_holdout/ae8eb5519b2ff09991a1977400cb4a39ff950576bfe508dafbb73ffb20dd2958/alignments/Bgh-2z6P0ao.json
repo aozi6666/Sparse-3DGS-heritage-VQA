@@ -1,0 +1,469 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "Bgh-2z6P0ao",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Bgh-2z6P0ao.srt",
+      "status": "available",
+      "bytes": 61543,
+      "sha256": "d803353a1bf920c5d5b842548dd6c4229c07b99bc0ef0e04de8064dc2efb5bf9",
+      "cues": 590,
+      "nonempty_cues": 590
+    },
+    "frame_indices": [
+      0,
+      1920,
+      3840,
+      5761,
+      7681,
+      9601,
+      11521,
+      13441,
+      15362,
+      17282,
+      19202,
+      21122,
+      23042,
+      24963,
+      26883,
+      28803,
+      30723,
+      32643,
+      34563,
+      36484,
+      38404,
+      40324,
+      42244,
+      44164,
+      46085,
+      48005,
+      49925,
+      51845,
+      53765,
+      55686,
+      57606,
+      59526
+    ],
+    "frame_seconds": [
+      0.0,
+      64.0,
+      128.0,
+      192.033333,
+      256.03333299999997,
+      320.03333299999997,
+      384.03333299999997,
+      448.03333299999997,
+      512.066667,
+      576.066667,
+      640.066667,
+      704.066667,
+      768.066667,
+      832.1,
+      896.1,
+      960.1,
+      1024.1,
+      1088.1,
+      1152.1,
+      1216.133333,
+      1280.133333,
+      1344.133333,
+      1408.133333,
+      1472.133333,
+      1536.166667,
+      1600.166667,
+      1664.166667,
+      1728.166667,
+      1792.166667,
+      1856.2,
+      1920.2,
+      1984.2
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        13,
+        14
+      ],
+      [],
+      [
+        48
+      ],
+      [
+        69
+      ],
+      [
+        98,
+        99
+      ],
+      [
+        121,
+        122
+      ],
+      [],
+      [
+        158,
+        159
+      ],
+      [
+        182
+      ],
+      [
+        205
+      ],
+      [
+        225,
+        226
+      ],
+      [
+        245
+      ],
+      [
+        259
+      ],
+      [
+        277,
+        278
+      ],
+      [
+        296,
+        297
+      ],
+      [
+        321,
+        322
+      ],
+      [
+        339,
+        340
+      ],
+      [
+        357,
+        358
+      ],
+      [
+        370
+      ],
+      [
+        389,
+        390
+      ],
+      [
+        402
+      ],
+      [
+        426
+      ],
+      [
+        444,
+        445
+      ],
+      [],
+      [
+        479,
+        480
+      ],
+      [
+        499,
+        500
+      ],
+      [
+        519,
+        520
+      ],
+      [
+        538,
+        539
+      ],
+      [],
+      [
+        572,
+        573
+      ],
+      [
+        589,
+        590
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 13,
+        "start_ms": 58920,
+        "end_ms": 67080,
+        "text": "this straight at it there the defending"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 62760,
+        "end_ms": 69840,
+        "text": "Champion taking the attack to F"
+      },
+      {
+        "cue_id": 48,
+        "start_ms": 191519,
+        "end_ms": 197440,
+        "text": "whole oh well I think with regards to"
+      },
+      {
+        "cue_id": 69,
+        "start_ms": 254439,
+        "end_ms": 258478,
+        "text": "men yeah you talk about I think what"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 315759,
+        "end_ms": 321639,
+        "text": "to play my shot one by one play my shot"
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 317600,
+        "end_ms": 324000,
+        "text": "play my shot we Paz it up as mere table"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 381120,
+        "end_ms": 386680,
+        "text": "possible easier to come in over the ball"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 383360,
+        "end_ms": 386680,
+        "text": "with a counter if it's"
+      },
+      {
+        "cue_id": 158,
+        "start_ms": 508000,
+        "end_ms": 512279,
+        "text": "had yeah the way he comes firing out of"
+      },
+      {
+        "cue_id": 159,
+        "start_ms": 510599,
+        "end_ms": 514919,
+        "text": "the blocks and it's the"
+      },
+      {
+        "cue_id": 182,
+        "start_ms": 573120,
+        "end_ms": 578440,
+        "text": "what but again say here as they come to"
+      },
+      {
+        "cue_id": 205,
+        "start_ms": 638560,
+        "end_ms": 642160,
+        "text": "angle go pick up the"
+      },
+      {
+        "cue_id": 225,
+        "start_ms": 701040,
+        "end_ms": 705680,
+        "text": "overlooked because of his speed at the"
+      },
+      {
+        "cue_id": 226,
+        "start_ms": 702959,
+        "end_ms": 707320,
+        "text": "back of the table he barely even have a"
+      },
+      {
+        "cue_id": 245,
+        "start_ms": 760580,
+        "end_ms": 768759,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 259,
+        "start_ms": 829000,
+        "end_ms": 832320,
+        "text": "timeout not"
+      },
+      {
+        "cue_id": 277,
+        "start_ms": 891920,
+        "end_ms": 897480,
+        "text": "nothing indeed that is the case and one"
+      },
+      {
+        "cue_id": 278,
+        "start_ms": 895079,
+        "end_ms": 899199,
+        "text": "pumps the fist knew the importance of"
+      },
+      {
+        "cue_id": 296,
+        "start_ms": 957600,
+        "end_ms": 961600,
+        "text": "suggestion"
+      },
+      {
+        "cue_id": 297,
+        "start_ms": 959279,
+        "end_ms": 963000,
+        "text": "and also the fact as well as we reflect"
+      },
+      {
+        "cue_id": 321,
+        "start_ms": 1021959,
+        "end_ms": 1027799,
+        "text": "as he saw it go past him not for the"
+      },
+      {
+        "cue_id": 322,
+        "start_ms": 1023720,
+        "end_ms": 1027799,
+        "text": "first time which kind of an"
+      },
+      {
+        "cue_id": 339,
+        "start_ms": 1084710,
+        "end_ms": 1090120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 340,
+        "start_ms": 1087960,
+        "end_ms": 1093440,
+        "text": "trying to change the serves up as"
+      },
+      {
+        "cue_id": 357,
+        "start_ms": 1145280,
+        "end_ms": 1152120,
+        "text": "winner yeah cuz he worked the space"
+      },
+      {
+        "cue_id": 358,
+        "start_ms": 1147760,
+        "end_ms": 1152120,
+        "text": "exactly to play into fine"
+      },
+      {
+        "cue_id": 370,
+        "start_ms": 1208670,
+        "end_ms": 1216999,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 389,
+        "start_ms": 1274760,
+        "end_ms": 1281960,
+        "text": "controlled that subtle change of uh"
+      },
+      {
+        "cue_id": 390,
+        "start_ms": 1278960,
+        "end_ms": 1281960,
+        "text": "Direction"
+      },
+      {
+        "cue_id": 402,
+        "start_ms": 1341919,
+        "end_ms": 1349279,
+        "text": "shot look at the exaggerated movement"
+      },
+      {
+        "cue_id": 426,
+        "start_ms": 1406880,
+        "end_ms": 1409880,
+        "text": "seven"
+      },
+      {
+        "cue_id": 444,
+        "start_ms": 1468360,
+        "end_ms": 1472840,
+        "text": "everyone here and around the world just"
+      },
+      {
+        "cue_id": 445,
+        "start_ms": 1470559,
+        "end_ms": 1475360,
+        "text": "enjoying what these two are bringing on"
+      },
+      {
+        "cue_id": 479,
+        "start_ms": 1596840,
+        "end_ms": 1603480,
+        "text": "it defend his"
+      },
+      {
+        "cue_id": 480,
+        "start_ms": 1599360,
+        "end_ms": 1606399,
+        "text": "title oh oh well he might be three down"
+      },
+      {
+        "cue_id": 499,
+        "start_ms": 1661320,
+        "end_ms": 1665080,
+        "text": "up now he's going to say in terms of"
+      },
+      {
+        "cue_id": 500,
+        "start_ms": 1663360,
+        "end_ms": 1668240,
+        "text": "their uh the head-to-head between the"
+      },
+      {
+        "cue_id": 519,
+        "start_ms": 1724679,
+        "end_ms": 1730840,
+        "text": "case yeah if you if you better done"
+      },
+      {
+        "cue_id": 520,
+        "start_ms": 1726880,
+        "end_ms": 1730840,
+        "text": "wrong to win the first three games happy"
+      },
+      {
+        "cue_id": 538,
+        "start_ms": 1789559,
+        "end_ms": 1793519,
+        "text": "Vice world champion but you just don't"
+      },
+      {
+        "cue_id": 539,
+        "start_ms": 1791080,
+        "end_ms": 1795480,
+        "text": "get the time you do need a bit of time"
+      },
+      {
+        "cue_id": 572,
+        "start_ms": 1914600,
+        "end_ms": 1922120,
+        "text": "seat belt shot there on the lean"
+      },
+      {
+        "cue_id": 573,
+        "start_ms": 1917880,
+        "end_ms": 1922120,
+        "text": "still pings it down the shorter"
+      },
+      {
+        "cue_id": 589,
+        "start_ms": 1978880,
+        "end_ms": 1986159,
+        "text": "performance of utter Brilliance"
+      },
+      {
+        "cue_id": 590,
+        "start_ms": 1981639,
+        "end_ms": 1986159,
+        "text": "excellence and determination"
+      }
+    ],
+    "text": "this straight at it there the defending\nChampion taking the attack to F\nwhole oh well I think with regards to\nmen yeah you talk about I think what\nto play my shot one by one play my shot\nplay my shot we Paz it up as mere table\npossible easier to come in over the ball\nwith a counter if it's\nhad yeah the way he comes firing out of\nthe blocks and it's the\nwhat but again say here as they come to\nangle go pick up the\noverlooked because of his speed at the\nback of the table he barely even have a\n[Applause]\ntimeout not\nnothing indeed that is the case and one\npumps the fist knew the importance of\nsuggestion\nand also the fact as well as we reflect\nas he saw it go past him not for the\nfirst time which kind of an\n[Music]\ntrying to change the serves up as\nwinner yeah cuz he worked the space\nexactly to play into fine\n[Applause]\ncontrolled that subtle change of uh\nDirection\nshot look at the exaggerated movement\nseven\neveryone here and around the world just\nenjoying what these two are bringing on\nit defend his\ntitle oh oh well he might be three down\nup now he's going to say in terms of\ntheir uh the head-to-head between the\ncase yeah if you if you better done\nwrong to win the first three games happy\nVice world champion but you just don't\nget the time you do need a bit of time\nseat belt shot there on the lean\nstill pings it down the shorter\nperformance of utter Brilliance\nexcellence and determination",
+    "text_tokens": 349,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "20a9941b58bf0ee418eadcdc6fdc69e1748100e4efef6e1169a48897e5049bf2",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

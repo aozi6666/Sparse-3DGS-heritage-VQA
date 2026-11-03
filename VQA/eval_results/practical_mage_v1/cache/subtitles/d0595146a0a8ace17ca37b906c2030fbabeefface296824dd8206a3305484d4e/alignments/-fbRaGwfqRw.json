@@ -1,0 +1,551 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "-fbRaGwfqRw",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/-fbRaGwfqRw.srt",
+      "status": "available",
+      "bytes": 24789,
+      "sha256": "b1f3d7f507cab0e7df645277f402aec1d7cbbcaa500971d9d7f281ad7202516e",
+      "cues": 229,
+      "nonempty_cues": 229
+    },
+    "frame_indices": [
+      0,
+      460,
+      919,
+      1379,
+      1838,
+      2298,
+      2757,
+      3217,
+      3677,
+      4136,
+      4596,
+      5055,
+      5515,
+      5975,
+      6434,
+      6894,
+      7353,
+      7813,
+      8272,
+      8732,
+      9192,
+      9651,
+      10111,
+      10570,
+      11030,
+      11490,
+      11949,
+      12409,
+      12868,
+      13328,
+      13787,
+      14247
+    ],
+    "frame_seconds": [
+      0.0,
+      19.185833,
+      38.329958,
+      57.515792,
+      76.65991700000001,
+      95.84575000000001,
+      114.989875,
+      134.175708,
+      153.361542,
+      172.50566700000002,
+      191.6915,
+      210.835625,
+      230.021458,
+      249.207292,
+      268.351417,
+      287.53725,
+      306.681375,
+      325.867208,
+      345.011333,
+      364.197167,
+      383.383,
+      402.527125,
+      421.712958,
+      440.857083,
+      460.042917,
+      479.22875,
+      498.372875,
+      517.558708,
+      536.702833,
+      555.888667,
+      575.032792,
+      594.218625
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        7,
+        8
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        34,
+        35
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        49,
+        50
+      ],
+      [],
+      [
+        64,
+        65
+      ],
+      [
+        70,
+        71
+      ],
+      [
+        80,
+        81
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        95,
+        96
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        107,
+        108
+      ],
+      [],
+      [
+        120,
+        121
+      ],
+      [
+        130,
+        131
+      ],
+      [
+        134,
+        135
+      ],
+      [
+        143,
+        144
+      ],
+      [
+        149,
+        150
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        165,
+        166
+      ],
+      [
+        168
+      ],
+      [
+        177,
+        178
+      ],
+      [
+        188,
+        189
+      ],
+      [
+        196,
+        197
+      ],
+      [
+        204,
+        205
+      ],
+      [
+        206,
+        207
+      ],
+      [
+        216,
+        217
+      ],
+      [
+        222,
+        223
+      ],
+      [
+        228,
+        229
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 7,
+        "start_ms": 14080,
+        "end_ms": 21240,
+        "text": "absolute perfect incredible stunning"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 17439,
+        "end_ms": 21240,
+        "text": "epic Glam Bots I've shot this"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 36120,
+        "end_ms": 39840,
+        "text": "from Tik Tok which for me having started"
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 37879,
+        "end_ms": 42360,
+        "text": "this as a director is a crazy thought"
+      },
+      {
+        "cue_id": 24,
+        "start_ms": 54760,
+        "end_ms": 58559,
+        "text": "absolute best and the number one many"
+      },
+      {
+        "cue_id": 25,
+        "start_ms": 56719,
+        "end_ms": 60039,
+        "text": "people loved it I loved it but some"
+      },
+      {
+        "cue_id": 34,
+        "start_ms": 73479,
+        "end_ms": 78400,
+        "text": "got no less than 10,000 messages asking"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 76200,
+        "end_ms": 80560,
+        "text": "me to shoot Anita I think Brazilian fans"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 91960,
+        "end_ms": 97509,
+        "text": "after NBD and I think that this is just"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 94720,
+        "end_ms": 103970,
+        "text": "a super special one"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 113119,
+        "end_ms": 116560,
+        "text": "his message congrats on the podcast and"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 114799,
+        "end_ms": 118119,
+        "text": "the book too I mean everything's been"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 151200,
+        "end_ms": 153800,
+        "text": "we're in it I love her career I love"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 152720,
+        "end_ms": 155280,
+        "text": "everything that's going on I was so"
+      },
+      {
+        "cue_id": 70,
+        "start_ms": 168000,
+        "end_ms": 173480,
+        "text": "time number seven is hiy Bailey I think"
+      },
+      {
+        "cue_id": 71,
+        "start_ms": 171040,
+        "end_ms": 174959,
+        "text": "I met hie in 2014 for a Covergirl shoot"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 187360,
+        "end_ms": 192040,
+        "text": "I'll yeah look give me a little I love"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 190000,
+        "end_ms": 193360,
+        "text": "it it wasn't like a huge dress toss it"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 202170,
+        "end_ms": 211079,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 87,
+        "start_ms": 208680,
+        "end_ms": 214360,
+        "text": "action"
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 226360,
+        "end_ms": 230760,
+        "text": "on the mark right there the sweetest"
+      },
+      {
+        "cue_id": 96,
+        "start_ms": 228200,
+        "end_ms": 232920,
+        "text": "giantest man ever is a legend this guy's"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 244080,
+        "end_ms": 254150,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 245350,
+        "end_ms": 254150,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 107,
+        "start_ms": 265120,
+        "end_ms": 269639,
+        "text": "outfit was insane in the best way it was"
+      },
+      {
+        "cue_id": 108,
+        "start_ms": 267400,
+        "end_ms": 271400,
+        "text": "like a waterfall of fabric that was"
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 301680,
+        "end_ms": 307280,
+        "text": "Dawn as a we lad I was like Wow and now"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 305000,
+        "end_ms": 308880,
+        "text": "to shoot her at the Oscars this year was"
+      },
+      {
+        "cue_id": 130,
+        "start_ms": 320080,
+        "end_ms": 326639,
+        "text": "threw in the hair toss just last minute"
+      },
+      {
+        "cue_id": 131,
+        "start_ms": 322160,
+        "end_ms": 326639,
+        "text": "which blew my mind oh Selma"
+      },
+      {
+        "cue_id": 134,
+        "start_ms": 340759,
+        "end_ms": 346080,
+        "text": "we are in the top three most epic Glam"
+      },
+      {
+        "cue_id": 135,
+        "start_ms": 343159,
+        "end_ms": 349600,
+        "text": "bots of 2023 starting with the number"
+      },
+      {
+        "cue_id": 143,
+        "start_ms": 360479,
+        "end_ms": 365919,
+        "text": "what the best way is for you to"
+      },
+      {
+        "cue_id": 144,
+        "start_ms": 363280,
+        "end_ms": 368000,
+        "text": "move oh my God I yeah I will take I will"
+      },
+      {
+        "cue_id": 149,
+        "start_ms": 374560,
+        "end_ms": 387420,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 150,
+        "start_ms": 376140,
+        "end_ms": 387420,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 154,
+        "start_ms": 396880,
+        "end_ms": 402639,
+        "text": "jump can I run sideways yeah yes but but"
+      },
+      {
+        "cue_id": 155,
+        "start_ms": 401039,
+        "end_ms": 405000,
+        "text": "can you can you maybe just like run and"
+      },
+      {
+        "cue_id": 165,
+        "start_ms": 418400,
+        "end_ms": 422199,
+        "text": "action"
+      },
+      {
+        "cue_id": 166,
+        "start_ms": 421319,
+        "end_ms": 425199,
+        "text": "that's"
+      },
+      {
+        "cue_id": 168,
+        "start_ms": 427140,
+        "end_ms": 444400,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 177,
+        "start_ms": 456759,
+        "end_ms": 460400,
+        "text": "eye roll she walked forward people on"
+      },
+      {
+        "cue_id": 178,
+        "start_ms": 458599,
+        "end_ms": 463039,
+        "text": "the internet caught this I did not catch"
+      },
+      {
+        "cue_id": 188,
+        "start_ms": 476720,
+        "end_ms": 480120,
+        "text": "in the edit it's literally the first"
+      },
+      {
+        "cue_id": 189,
+        "start_ms": 478400,
+        "end_ms": 482080,
+        "text": "thing that happens when approving the"
+      },
+      {
+        "cue_id": 196,
+        "start_ms": 495319,
+        "end_ms": 499360,
+        "text": "this was absolutely perfect her dress"
+      },
+      {
+        "cue_id": 197,
+        "start_ms": 497240,
+        "end_ms": 502280,
+        "text": "toss was incredible the dress is red but"
+      },
+      {
+        "cue_id": 204,
+        "start_ms": 511360,
+        "end_ms": 517559,
+        "text": "number one GL B of the entire year"
+      },
+      {
+        "cue_id": 205,
+        "start_ms": 514559,
+        "end_ms": 517559,
+        "text": "action"
+      },
+      {
+        "cue_id": 206,
+        "start_ms": 517700,
+        "end_ms": 538519,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 207,
+        "start_ms": 535560,
+        "end_ms": 540519,
+        "text": "amazing that was the top 10 best Glam"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 552760,
+        "end_ms": 556880,
+        "text": "pick the top 10 did I mess it up did I"
+      },
+      {
+        "cue_id": 217,
+        "start_ms": 554399,
+        "end_ms": 558320,
+        "text": "get it right let me know and also"
+      },
+      {
+        "cue_id": 222,
+        "start_ms": 568120,
+        "end_ms": 578850,
+        "text": "go"
+      },
+      {
+        "cue_id": 223,
+        "start_ms": 570380,
+        "end_ms": 578850,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 228,
+        "start_ms": 589920,
+        "end_ms": 596200,
+        "text": "coming we got fun stuff coming I will"
+      },
+      {
+        "cue_id": 229,
+        "start_ms": 591680,
+        "end_ms": 596200,
+        "text": "see you guys 2024 peace"
+      }
+    ],
+    "text": "absolute perfect incredible stunning\nepic Glam Bots I've shot this\nfrom Tik Tok which for me having started\nthis as a director is a crazy thought\nabsolute best and the number one many\npeople loved it I loved it but some\ngot no less than 10,000 messages asking\nme to shoot Anita I think Brazilian fans\nafter NBD and I think that this is just\na super special one\nhis message congrats on the podcast and\nthe book too I mean everything's been\nwe're in it I love her career I love\neverything that's going on I was so\ntime number seven is hiy Bailey I think\nI met hie in 2014 for a Covergirl shoot\nI'll yeah look give me a little I love\nit it wasn't like a huge dress toss it\n[Music]\naction\non the mark right there the sweetest\ngiantest man ever is a legend this guy's\n[Applause]\n[Music]\noutfit was insane in the best way it was\nlike a waterfall of fabric that was\nDawn as a we lad I was like Wow and now\nto shoot her at the Oscars this year was\nthrew in the hair toss just last minute\nwhich blew my mind oh Selma\nwe are in the top three most epic Glam\nbots of 2023 starting with the number\nwhat the best way is for you to\nmove oh my God I yeah I will take I will\n[Applause]\n[Music]\njump can I run sideways yeah yes but but\ncan you can you maybe just like run and\naction\nthat's\n[Music]\neye roll she walked forward people on\nthe internet caught this I did not catch\nin the edit it's literally the first\nthing that happens when approving the\nthis was absolutely perfect her dress\ntoss was incredible the dress is red but\nnumber one GL B of the entire year\naction\n[Music]\namazing that was the top 10 best Glam\npick the top 10 did I mess it up did I\nget it right let me know and also\ngo\n[Music]\ncoming we got fun stuff coming I will\nsee you guys 2024 peace",
+    "text_tokens": 470,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "29944d15695f01fc472b0a84c3cfe435b7fe046587a4b29ac0f1c2731d8b88ee"
+}

@@ -1,0 +1,984 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "f-1xE_5uXDg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/f-1xE_5uXDg.srt",
+        "status": "available",
+        "bytes": 93661,
+        "sha256": "36f265414ae71ae7158031f6725691b6278fae66f7839343f115410c61994e55",
+        "cues": 869,
+        "nonempty_cues": 869
+      },
+      "frame_indices": [
+        0,
+        2446,
+        4893,
+        7339,
+        9786,
+        12232,
+        14678,
+        17125,
+        19571,
+        22017,
+        24464,
+        26910,
+        29357,
+        31803,
+        34249,
+        36696,
+        39142,
+        41589,
+        44035,
+        46481,
+        48928,
+        51374,
+        53821,
+        56267,
+        58713,
+        61160,
+        63606,
+        66052,
+        68499,
+        70945,
+        73392,
+        75838
+      ],
+      "frame_seconds": [
+        0.0,
+        81.533333,
+        163.1,
+        244.633333,
+        326.2,
+        407.733333,
+        489.266667,
+        570.833333,
+        652.366667,
+        733.9,
+        815.466667,
+        897.0,
+        978.566667,
+        1060.1,
+        1141.633333,
+        1223.2,
+        1304.733333,
+        1386.3,
+        1467.833333,
+        1549.366667,
+        1630.933333,
+        1712.466667,
+        1794.033333,
+        1875.566667,
+        1957.1,
+        2038.666667,
+        2120.2,
+        2201.733333,
+        2283.3,
+        2364.833333,
+        2446.4,
+        2527.933333
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          79
+        ],
+        [
+          106,
+          107
+        ],
+        [
+          132,
+          133
+        ],
+        [
+          157,
+          158
+        ],
+        [
+          186,
+          187
+        ],
+        [
+          213,
+          214
+        ],
+        [
+          242,
+          243
+        ],
+        [
+          273,
+          274
+        ],
+        [
+          302,
+          303
+        ],
+        [
+          334,
+          335
+        ],
+        [
+          362,
+          363
+        ],
+        [
+          390,
+          391
+        ],
+        [
+          415,
+          416
+        ],
+        [],
+        [
+          469,
+          470
+        ],
+        [
+          497,
+          498
+        ],
+        [
+          529,
+          530
+        ],
+        [
+          557,
+          558
+        ],
+        [
+          582,
+          583
+        ],
+        [
+          609,
+          610
+        ],
+        [
+          635,
+          636
+        ],
+        [
+          663,
+          664
+        ],
+        [
+          691,
+          692
+        ],
+        [
+          720,
+          721
+        ],
+        [
+          754,
+          755
+        ],
+        [
+          783,
+          784
+        ],
+        [
+          808,
+          809
+        ],
+        [
+          842,
+          843
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 4770,
+          "text": "buongiorno a tutti carissimi e allora"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 78030,
+          "end_ms": 83520,
+          "text": "paesino e mezzo alle montagne"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 80600,
+          "end_ms": 87900,
+          "text": "influenze di messina che si chiama"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 156920,
+          "end_ms": 163549,
+          "text": "stato strano perché abbiamo iniziato"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 160430,
+          "end_ms": 167720,
+          "text": "come una lezione normale presentando se"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 243639,
+          "end_ms": 249769,
+          "text": "ok allora ragazzi"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 321669,
+          "end_ms": 326240,
+          "text": "molti"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 323289,
+          "end_ms": 328780,
+          "text": "molti autori se si va in sé uno scritto"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 404430,
+          "end_ms": 411020,
+          "text": "mi avvicino sandro bisogno di quel"
+        },
+        {
+          "cue_id": 133,
+          "start_ms": 407580,
+          "end_ms": 415820,
+          "text": "rumore di sentirlo"
+        },
+        {
+          "cue_id": 157,
+          "start_ms": 484440,
+          "end_ms": 489900,
+          "text": "non è neanche un clima tropicale è vero"
+        },
+        {
+          "cue_id": 158,
+          "start_ms": 486660,
+          "end_ms": 493520,
+          "text": "che fa più caldo d'inverno e meno rigido"
+        },
+        {
+          "cue_id": 186,
+          "start_ms": 566330,
+          "end_ms": 572080,
+          "text": "domande anche per aiutarvi e allora che"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 570230,
+          "end_ms": 574910,
+          "text": "consiglio daresti a chi è ancora"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 648570,
+          "end_ms": 653970,
+          "text": "volte magari qualcuno si sente"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 650130,
+          "end_ms": 656940,
+          "text": "mortificato ma non è necessario io lo"
+        },
+        {
+          "cue_id": 242,
+          "start_ms": 733110,
+          "end_ms": 737310,
+          "text": "di"
+        },
+        {
+          "cue_id": 243,
+          "start_ms": 733820,
+          "end_ms": 739380,
+          "text": "riderci su anche non possiamo dirvi che"
+        },
+        {
+          "cue_id": 273,
+          "start_ms": 811640,
+          "end_ms": 815840,
+          "text": "magari"
+        },
+        {
+          "cue_id": 274,
+          "start_ms": 812690,
+          "end_ms": 817870,
+          "text": "oddio non è più così forte ma ovviamente"
+        },
+        {
+          "cue_id": 302,
+          "start_ms": 890450,
+          "end_ms": 897720,
+          "text": "non non c'è un unico italiano"
+        },
+        {
+          "cue_id": 303,
+          "start_ms": 894710,
+          "end_ms": 900410,
+          "text": "siamo tutti influenzati da altre"
+        },
+        {
+          "cue_id": 334,
+          "start_ms": 974790,
+          "end_ms": 979410,
+          "text": "ascoltare ed è la ragione per cui anche"
+        },
+        {
+          "cue_id": 335,
+          "start_ms": 976830,
+          "end_ms": 982200,
+          "text": "invitato mira oggi che ha una cadenza"
+        },
+        {
+          "cue_id": 362,
+          "start_ms": 1057840,
+          "end_ms": 1063060,
+          "text": "sono quelle cose che non puoi tradurre"
+        },
+        {
+          "cue_id": 363,
+          "start_ms": 1060000,
+          "end_ms": 1064950,
+          "text": "esattamente in un'altra lingua e che"
+        },
+        {
+          "cue_id": 390,
+          "start_ms": 1137660,
+          "end_ms": 1144050,
+          "text": "riapertura di italiano per la vita che"
+        },
+        {
+          "cue_id": 391,
+          "start_ms": 1140690,
+          "end_ms": 1146300,
+          "text": "riaprirà alle 11 settembre e fino al 20"
+        },
+        {
+          "cue_id": 415,
+          "start_ms": 1216980,
+          "end_ms": 1225520,
+          "text": "quindi se vi piace la natura davvero è"
+        },
+        {
+          "cue_id": 416,
+          "start_ms": 1219770,
+          "end_ms": 1228020,
+          "text": "perfetto e una volta era famoso per"
+        },
+        {
+          "cue_id": 469,
+          "start_ms": 1383899,
+          "end_ms": 1387619,
+          "text": "ok potuto il pesce essendo circondata"
+        },
+        {
+          "cue_id": 470,
+          "start_ms": 1386059,
+          "end_ms": 1389049,
+          "text": "dal mare"
+        },
+        {
+          "cue_id": 497,
+          "start_ms": 1465769,
+          "end_ms": 1468580,
+          "text": "importante"
+        },
+        {
+          "cue_id": 498,
+          "start_ms": 1466820,
+          "end_ms": 1471309,
+          "text": "non mi ricordo a chi lo aveva detto"
+        },
+        {
+          "cue_id": 529,
+          "start_ms": 1546630,
+          "end_ms": 1552470,
+          "text": "mai nella mia vita perché stavo questa"
+        },
+        {
+          "cue_id": 530,
+          "start_ms": 1548910,
+          "end_ms": 1555510,
+          "text": "grande motivazione di voler"
+        },
+        {
+          "cue_id": 557,
+          "start_ms": 1623970,
+          "end_ms": 1631410,
+          "text": "mira perfetto allora e adesso passiamo"
+        },
+        {
+          "cue_id": 558,
+          "start_ms": 1628440,
+          "end_ms": 1633510,
+          "text": "alla domanda numero 6"
+        },
+        {
+          "cue_id": 582,
+          "start_ms": 1702950,
+          "end_ms": 1712620,
+          "text": "alcune aree e di riscoperto il nuoto"
+        },
+        {
+          "cue_id": 583,
+          "start_ms": 1709490,
+          "end_ms": 1715410,
+          "text": "il nuoto ammira questa novità anche per"
+        },
+        {
+          "cue_id": 609,
+          "start_ms": 1790290,
+          "end_ms": 1794430,
+          "text": "perché mi incuriosisce molto e che è"
+        },
+        {
+          "cue_id": 610,
+          "start_ms": 1792780,
+          "end_ms": 1796290,
+          "text": "studiato giapponese"
+        },
+        {
+          "cue_id": 635,
+          "start_ms": 1872180,
+          "end_ms": 1877460,
+          "text": "molto più tempo di quello che ci"
+        },
+        {
+          "cue_id": 636,
+          "start_ms": 1874500,
+          "end_ms": 1881520,
+          "text": "metteresti con altre lingue perché"
+        },
+        {
+          "cue_id": 663,
+          "start_ms": 1952170,
+          "end_ms": 1957790,
+          "text": "infatti perché mentre con le lingue e"
+        },
+        {
+          "cue_id": 664,
+          "start_ms": 1955120,
+          "end_ms": 1959860,
+          "text": "latine possiamo volta inventare lì o lo"
+        },
+        {
+          "cue_id": 691,
+          "start_ms": 2035220,
+          "end_ms": 2041929,
+          "text": "errori ma parlano tranquillamente andrà"
+        },
+        {
+          "cue_id": 692,
+          "start_ms": 2038610,
+          "end_ms": 2045210,
+          "text": "adesso anch'io più vergogna"
+        },
+        {
+          "cue_id": 720,
+          "start_ms": 2115950,
+          "end_ms": 2121109,
+          "text": "dove uno può connettersi in qualsiasi"
+        },
+        {
+          "cue_id": 721,
+          "start_ms": 2118950,
+          "end_ms": 2122670,
+          "text": "orario del giorno e poi mettersi"
+        },
+        {
+          "cue_id": 754,
+          "start_ms": 2198470,
+          "end_ms": 2203060,
+          "text": "possibilità per avere uno stress"
+        },
+        {
+          "cue_id": 755,
+          "start_ms": 2200420,
+          "end_ms": 2205580,
+          "text": "gestibile non ha senso buttarsi in una"
+        },
+        {
+          "cue_id": 783,
+          "start_ms": 2273580,
+          "end_ms": 2283490,
+          "text": "come fosse un po sì si accavalla perché"
+        },
+        {
+          "cue_id": 784,
+          "start_ms": 2278930,
+          "end_ms": 2284990,
+          "text": "questa cosa di essere costanti grazie"
+        },
+        {
+          "cue_id": 808,
+          "start_ms": 2359349,
+          "end_ms": 2365959,
+          "text": "ognuno di noi ha come base siamo pigri"
+        },
+        {
+          "cue_id": 809,
+          "start_ms": 2361999,
+          "end_ms": 2367579,
+          "text": "non è inutile dire bugie ma noi esseri"
+        },
+        {
+          "cue_id": 842,
+          "start_ms": 2442070,
+          "end_ms": 2449210,
+          "text": "di cuore per aver partecipato oggi so"
+        },
+        {
+          "cue_id": 843,
+          "start_ms": 2445700,
+          "end_ms": 2451310,
+          "text": "che è una cosa per te non naturale ma"
+        }
+      ],
+      "text": "buongiorno a tutti carissimi e allora\npaesino e mezzo alle montagne\ninfluenze di messina che si chiama\nstato strano perché abbiamo iniziato\ncome una lezione normale presentando se\nok allora ragazzi\nmolti\nmolti autori se si va in sé uno scritto\nmi avvicino sandro bisogno di quel\nrumore di sentirlo\nnon è neanche un clima tropicale è vero\nche fa più caldo d'inverno e meno rigido\ndomande anche per aiutarvi e allora che\nconsiglio daresti a chi è ancora\nvolte magari qualcuno si sente\nmortificato ma non è necessario io lo\ndi\nriderci su anche non possiamo dirvi che\nmagari\noddio non è più così forte ma ovviamente\nnon non c'è un unico italiano\nsiamo tutti influenzati da altre\nascoltare ed è la ragione per cui anche\ninvitato mira oggi che ha una cadenza\nsono quelle cose che non puoi tradurre\nesattamente in un'altra lingua e che\nriapertura di italiano per la vita che\nriaprirà alle 11 settembre e fino al 20\nquindi se vi piace la natura davvero è\nperfetto e una volta era famoso per\nok potuto il pesce essendo circondata\ndal mare\nimportante\nnon mi ricordo a chi lo aveva detto\nmai nella mia vita perché stavo questa\ngrande motivazione di voler\nmira perfetto allora e adesso passiamo\nalla domanda numero 6\nalcune aree e di riscoperto il nuoto\nil nuoto ammira questa novità anche per\nperché mi incuriosisce molto e che è\nstudiato giapponese\nmolto più tempo di quello che ci\nmetteresti con altre lingue perché\ninfatti perché mentre con le lingue e\nlatine possiamo volta inventare lì o lo\nerrori ma parlano tranquillamente andrà\nadesso anch'io più vergogna\ndove uno può connettersi in qualsiasi\norario del giorno e poi mettersi\npossibilità per avere uno stress\ngestibile non ha senso buttarsi in una\ncome fosse un po sì si accavalla perché\nquesta cosa di essere costanti grazie\nognuno di noi ha come base siamo pigri\nnon è inutile dire bugie ma noi esseri\ndi cuore per aver partecipato oggi so\nche è una cosa per te non naturale ma",
+      "text_tokens": 598,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S1",
+        "cue_ids": [
+          1,
+          2
+        ],
+        "start_ms": 0,
+        "end_ms": 8069,
+        "text": "buongiorno a tutti carissimi e allora oggi è un momento molto speciale sono"
+      },
+      {
+        "id": "S24",
+        "cue_ids": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "start_ms": 73920,
+        "end_ms": 92750,
+        "text": "cresciuta in sicilia in questo piccolo paesino e mezzo alle montagne influenze di messina che si chiama giustolisi e niente nel suo vivo in"
+      },
+      {
+        "id": "S49",
+        "cue_ids": [
+          49,
+          50,
+          51,
+          52
+        ],
+        "start_ms": 153049,
+        "end_ms": 170269,
+        "text": "continuare nova in realtà è stato è stato strano perché abbiamo iniziato come una lezione normale presentando se tutto è a un certo punto i summit ok ok"
+      },
+      {
+        "id": "S78",
+        "cue_ids": [
+          78,
+          79,
+          80
+        ],
+        "start_ms": 238489,
+        "end_ms": 252500,
+        "text": "è così difficile dai ci siamo ok allora ragazzi detto ciò allora essendo mira una"
+      },
+      {
+        "id": "S105",
+        "cue_ids": [
+          105,
+          106,
+          107,
+          108
+        ],
+        "start_ms": 319330,
+        "end_ms": 331990,
+        "text": "non lo so è difficile da descrivere molti molti autori se si va in sé uno scritto sulla sicilia difatti"
+      },
+      {
+        "id": "S131",
+        "cue_ids": [
+          131,
+          132,
+          133,
+          134
+        ],
+        "start_ms": 401909,
+        "end_ms": 415820,
+        "text": "mare ma quando mi è possibile mi avvicino sandro bisogno di quel rumore di sentirlo chi non al mare dentro per capire"
+      },
+      {
+        "id": "S156",
+        "cue_ids": [
+          156,
+          157,
+          158,
+          159
+        ],
+        "start_ms": 481020,
+        "end_ms": 498180,
+        "text": "meno frequenza non è come al nord però non è neanche un clima tropicale è vero che fa più caldo d'inverno e meno rigido più corto però c'è l'inferno"
+      },
+      {
+        "id": "S185",
+        "cue_ids": [
+          185,
+          186,
+          187,
+          188
+        ],
+        "start_ms": 563690,
+        "end_ms": 577280,
+        "text": "importante per voi quindi ho messo varie domande anche per aiutarvi e allora che consiglio daresti a chi è ancora bloccato o ha paura di parlare in"
+      },
+      {
+        "id": "S212",
+        "cue_ids": [
+          212,
+          213,
+          214,
+          215
+        ],
+        "start_ms": 643890,
+        "end_ms": 659250,
+        "text": "chiedo cosa volevi dire è vero che a volte magari qualcuno si sente mortificato ma non è necessario io lo faccio semplicemente per per aiutare e"
+      },
+      {
+        "id": "S241",
+        "cue_ids": [
+          241,
+          242,
+          243,
+          244
+        ],
+        "start_ms": 729840,
+        "end_ms": 741620,
+        "text": "questo punto su principalmente sul fatto di riderci su anche non possiamo dirvi che non succederà se forse ci ha messo anche"
+      },
+      {
+        "id": "S272",
+        "cue_ids": [
+          272,
+          273,
+          274,
+          275
+        ],
+        "start_ms": 809170,
+        "end_ms": 821210,
+        "text": "esatto esatto magari oddio non è più così forte ma ovviamente c'è"
+      },
+      {
+        "id": "S301",
+        "cue_ids": [
+          301,
+          302,
+          303,
+          304
+        ],
+        "start_ms": 889230,
+        "end_ms": 900410,
+        "text": "normale non non c'è un unico italiano siamo tutti influenzati da altre caratteristiche"
+      },
+      {
+        "id": "S333",
+        "cue_ids": [
+          333,
+          334,
+          335,
+          336
+        ],
+        "start_ms": 972120,
+        "end_ms": 984540,
+        "text": "ascoltare il consiglio che ti darei ascoltare ed è la ragione per cui anche invitato mira oggi che ha una cadenza diversa dalla mia perché siciliana e"
+      },
+      {
+        "id": "S361",
+        "cue_ids": [
+          361,
+          362,
+          363,
+          364
+        ],
+        "start_ms": 1054810,
+        "end_ms": 1068840,
+        "text": "dire porta e come dire o pota insomma sono quelle cose che non puoi tradurre esattamente in un'altra lingua e che vengono portate magari da un po il"
+      },
+      {
+        "id": "S389",
+        "cue_ids": [
+          389,
+          390,
+          391,
+          392
+        ],
+        "start_ms": 1135380,
+        "end_ms": 1149450,
+        "text": "sapete c'è la lista d'attesa per la riapertura di italiano per la vita che riaprirà alle 11 settembre e fino al 20 settembre all'interno troverete tutti"
+      },
+      {
+        "id": "S414",
+        "cue_ids": [
+          414,
+          415,
+          416,
+          417
+        ],
+        "start_ms": 1216350,
+        "end_ms": 1229820,
+        "text": "nebrodi quindi se vi piace la natura davvero è perfetto e una volta era famoso per per le campane"
+      },
+      {
+        "id": "S468",
+        "cue_ids": [
+          468,
+          469,
+          470,
+          471
+        ],
+        "start_ms": 1380240,
+        "end_ms": 1392440,
+        "text": "italia ma gelata siciliana spesso è ok ok potuto il pesce essendo circondata dal mare mi sembra giusto"
+      },
+      {
+        "id": "S496",
+        "cue_ids": [
+          496,
+          497,
+          498,
+          499
+        ],
+        "start_ms": 1462950,
+        "end_ms": 1472929,
+        "text": "un motivo per continuare questo molto importante non mi ricordo a chi lo aveva detto tra giulia barbara"
+      },
+      {
+        "id": "S528",
+        "cue_ids": [
+          528,
+          529,
+          530,
+          531
+        ],
+        "start_ms": 1542760,
+        "end_ms": 1558020,
+        "text": "lo spagnolo sono stata costante come non mai nella mia vita perché stavo questa grande motivazione di voler capire la cultura perché all'inizio mi"
+      },
+      {
+        "id": "S556",
+        "cue_ids": [
+          556,
+          557,
+          558,
+          559
+        ],
+        "start_ms": 1620880,
+        "end_ms": 1636600,
+        "text": "se c'è quella motivazione quindi bene mira perfetto allora e adesso passiamo alla domanda numero 6 bella questa bella conosciamo un po"
+      },
+      {
+        "id": "S582",
+        "cue_ids": [
+          582,
+          583,
+          584
+        ],
+        "start_ms": 1702950,
+        "end_ms": 1719480,
+        "text": "alcune aree e di riscoperto il nuoto il nuoto ammira questa novità anche per me adesso diventi una grande nuotatrice"
+      },
+      {
+        "id": "S608",
+        "cue_ids": [
+          608,
+          609,
+          610,
+          611
+        ],
+        "start_ms": 1787500,
+        "end_ms": 1797820,
+        "text": "domanda ti chiedo anche perché sta perché mi incuriosisce molto e che è studiato giapponese la ragione per cui l'ha studiata era"
+      },
+      {
+        "id": "S634",
+        "cue_ids": [
+          634,
+          635,
+          636,
+          637
+        ],
+        "start_ms": 1867780,
+        "end_ms": 1884880,
+        "text": "vuole molto più tempo da molto più tempo di quello che ci metteresti con altre lingue perché devi devi proprio iniziare a pensare un"
+      },
+      {
+        "id": "S662",
+        "cue_ids": [
+          662,
+          663,
+          664,
+          665
+        ],
+        "start_ms": 1947940,
+        "end_ms": 1962130,
+        "text": "non c'è un altro infatti perché mentre con le lingue e latine possiamo volta inventare lì o lo sa io non lo sai anche a livello di"
+      },
+      {
+        "id": "S690",
+        "cue_ids": [
+          690,
+          691,
+          692,
+          693
+        ],
+        "start_ms": 2032880,
+        "end_ms": 2048690,
+        "text": "sentito che anche gli altri fanno degli errori ma parlano tranquillamente andrà adesso anch'io più vergogna vi facciamo tutti gli errori prendono"
+      },
+      {
+        "id": "S719",
+        "cue_ids": [
+          719,
+          720,
+          721,
+          722
+        ],
+        "start_ms": 2113339,
+        "end_ms": 2126810,
+        "text": "salotto il salotto è un salotto virtuale dove uno può connettersi in qualsiasi orario del giorno e poi mettersi d'accordo anche con gli altri compagni"
+      },
+      {
+        "id": "S753",
+        "cue_ids": [
+          753,
+          754,
+          755,
+          756
+        ],
+        "start_ms": 2195620,
+        "end_ms": 2207440,
+        "text": "zona di di confort deve avere varie possibilità per avere uno stress gestibile non ha senso buttarsi in una situazione così stressante da andare in"
+      },
+      {
+        "id": "S782",
+        "cue_ids": [
+          782,
+          783,
+          784,
+          785
+        ],
+        "start_ms": 2271580,
+        "end_ms": 2287720,
+        "text": "qualsiasi cosa come fosse un po sì si accavalla perché questa cosa di essere costanti grazie alla motivazione"
+      },
+      {
+        "id": "S807",
+        "cue_ids": [
+          807,
+          808,
+          809,
+          810
+        ],
+        "start_ms": 2356869,
+        "end_ms": 2369019,
+        "text": "importante sì perché la verità che ognuno di noi ha come base siamo pigri non è inutile dire bugie ma noi esseri umani di base siamo pigri perché"
+      },
+      {
+        "id": "S841",
+        "cue_ids": [
+          841,
+          842,
+          843,
+          844
+        ],
+        "start_ms": 2439690,
+        "end_ms": 2453440,
+        "text": "grandissima mira allora io ti ringrazio di cuore per aver partecipato oggi so che è una cosa per te non naturale ma come ti ho detto fare questo tipo di"
+      }
+    ],
+    "text": "S1 [00:00:00.000 --> 00:00:08.069] buongiorno a tutti carissimi e allora oggi è un momento molto speciale sono\nS24 [00:01:13.920 --> 00:01:32.750] cresciuta in sicilia in questo piccolo paesino e mezzo alle montagne influenze di messina che si chiama giustolisi e niente nel suo vivo in\nS49 [00:02:33.049 --> 00:02:50.269] continuare nova in realtà è stato è stato strano perché abbiamo iniziato come una lezione normale presentando se tutto è a un certo punto i summit ok ok\nS78 [00:03:58.489 --> 00:04:12.500] è così difficile dai ci siamo ok allora ragazzi detto ciò allora essendo mira una\nS105 [00:05:19.330 --> 00:05:31.990] non lo so è difficile da descrivere molti molti autori se si va in sé uno scritto sulla sicilia difatti\nS131 [00:06:41.909 --> 00:06:55.820] mare ma quando mi è possibile mi avvicino sandro bisogno di quel rumore di sentirlo chi non al mare dentro per capire\nS156 [00:08:01.020 --> 00:08:18.180] meno frequenza non è come al nord però non è neanche un clima tropicale è vero che fa più caldo d'inverno e meno rigido più corto però c'è l'inferno\nS185 [00:09:23.690 --> 00:09:37.280] importante per voi quindi ho messo varie domande anche per aiutarvi e allora che consiglio daresti a chi è ancora bloccato o ha paura di parlare in\nS212 [00:10:43.890 --> 00:10:59.250] chiedo cosa volevi dire è vero che a volte magari qualcuno si sente mortificato ma non è necessario io lo faccio semplicemente per per aiutare e\nS241 [00:12:09.840 --> 00:12:21.620] questo punto su principalmente sul fatto di riderci su anche non possiamo dirvi che non succederà se forse ci ha messo anche\nS272 [00:13:29.170 --> 00:13:41.210] esatto esatto magari oddio non è più così forte ma ovviamente c'è\nS301 [00:14:49.230 --> 00:15:00.410] normale non non c'è un unico italiano siamo tutti influenzati da altre caratteristiche\nS333 [00:16:12.120 --> 00:16:24.540] ascoltare il consiglio che ti darei ascoltare ed è la ragione per cui anche invitato mira oggi che ha una cadenza diversa dalla mia perché siciliana e\nS361 [00:17:34.810 --> 00:17:48.840] dire porta e come dire o pota insomma sono quelle cose che non puoi tradurre esattamente in un'altra lingua e che vengono portate magari da un po il\nS389 [00:18:55.380 --> 00:19:09.450] sapete c'è la lista d'attesa per la riapertura di italiano per la vita che riaprirà alle 11 settembre e fino al 20 settembre all'interno troverete tutti\nS414 [00:20:16.350 --> 00:20:29.820] nebrodi quindi se vi piace la natura davvero è perfetto e una volta era famoso per per le campane\nS468 [00:23:00.240 --> 00:23:12.440] italia ma gelata siciliana spesso è ok ok potuto il pesce essendo circondata dal mare mi sembra giusto\nS496 [00:24:22.950 --> 00:24:32.929] un motivo per continuare questo molto importante non mi ricordo a chi lo aveva detto tra giulia barbara\nS528 [00:25:42.760 --> 00:25:58.020] lo spagnolo sono stata costante come non mai nella mia vita perché stavo questa grande motivazione di voler capire la cultura perché all'inizio mi\nS556 [00:27:00.880 --> 00:27:16.600] se c'è quella motivazione quindi bene mira perfetto allora e adesso passiamo alla domanda numero 6 bella questa bella conosciamo un po\nS582 [00:28:22.950 --> 00:28:39.480] alcune aree e di riscoperto il nuoto il nuoto ammira questa novità anche per me adesso diventi una grande nuotatrice\nS608 [00:29:47.500 --> 00:29:57.820] domanda ti chiedo anche perché sta perché mi incuriosisce molto e che è studiato giapponese la ragione per cui l'ha studiata era\nS634 [00:31:07.780 --> 00:31:24.880] vuole molto più tempo da molto più tempo di quello che ci metteresti con altre lingue perché devi devi proprio iniziare a pensare un\nS662 [00:32:27.940 --> 00:32:42.130] non c'è un altro infatti perché mentre con le lingue e latine possiamo volta inventare lì o lo sa io non lo sai anche a livello di\nS690 [00:33:52.880 --> 00:34:08.690] sentito che anche gli altri fanno degli errori ma parlano tranquillamente andrà adesso anch'io più vergogna vi facciamo tutti gli errori prendono\nS719 [00:35:13.339 --> 00:35:26.810] salotto il salotto è un salotto virtuale dove uno può connettersi in qualsiasi orario del giorno e poi mettersi d'accordo anche con gli altri compagni\nS753 [00:36:35.620 --> 00:36:47.440] zona di di confort deve avere varie possibilità per avere uno stress gestibile non ha senso buttarsi in una situazione così stressante da andare in\nS782 [00:37:51.580 --> 00:38:07.720] qualsiasi cosa come fosse un po sì si accavalla perché questa cosa di essere costanti grazie alla motivazione\nS807 [00:39:16.869 --> 00:39:29.019] importante sì perché la verità che ognuno di noi ha come base siamo pigri non è inutile dire bugie ma noi esseri umani di base siamo pigri perché\nS841 [00:40:39.690 --> 00:40:53.440] grandissima mira allora io ti ringrazio di cuore per aver partecipato oggi so che è una cosa per te non naturale ma come ti ho detto fare questo tipo di",
+    "text_tokens": 1994,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      2,
+      24,
+      27,
+      49,
+      52,
+      78,
+      80,
+      105,
+      108,
+      131,
+      134,
+      156,
+      159,
+      185,
+      188,
+      212,
+      215,
+      241,
+      244,
+      272,
+      275,
+      301,
+      304,
+      333,
+      336,
+      361,
+      364,
+      389,
+      392,
+      414,
+      417,
+      468,
+      471,
+      496,
+      499,
+      528,
+      531,
+      556,
+      559,
+      584,
+      608,
+      611,
+      634,
+      637,
+      662,
+      665,
+      690,
+      693,
+      719,
+      722,
+      753,
+      756,
+      782,
+      785,
+      807,
+      810,
+      841,
+      844
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "d54809ffd6d7b73184402be3401753d742360f258dd38ddf21020c4a0b739593"
+}

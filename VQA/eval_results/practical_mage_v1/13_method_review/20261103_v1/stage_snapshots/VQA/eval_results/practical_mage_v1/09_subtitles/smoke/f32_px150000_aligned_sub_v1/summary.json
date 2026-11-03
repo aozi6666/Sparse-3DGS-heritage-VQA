@@ -1,0 +1,195 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "stage": "smoke",
+  "N": 6,
+  "interpretation": "Additional subtitle modality, development only; not a pure-visual algorithm improvement.",
+  "audit": {
+    "passed": true,
+    "errors": [],
+    "complete_units": 6,
+    "invalid": 0,
+    "subtitle_question_status": {
+      "used": 6
+    },
+    "subtitle_video_status": {
+      "used": 2
+    },
+    "native_sampled_frames": 64,
+    "sampled_frames_with_subtitle": 62,
+    "subtitle_cues_available": 88,
+    "subtitle_cues_selected": 87,
+    "text_tokens_per_video_max": 475,
+    "note": "Timestamp overlap is audited; it does not certify subtitle transcription or decoded pixel correctness."
+  },
+  "overall": {
+    "N": 6,
+    "videos": 2,
+    "methods": {
+      "codec32_no_sub": {
+        "correct": 5,
+        "accuracy": 0.8333333333333334,
+        "invalid": 0
+      },
+      "frames32_no_sub": {
+        "correct": 4,
+        "accuracy": 0.6666666666666666,
+        "invalid": 0
+      },
+      "frames32_aligned_sub": {
+        "correct": 4,
+        "accuracy": 0.6666666666666666,
+        "invalid": 0,
+        "vs": {
+          "frames32_no_sub": {
+            "rescue": 0,
+            "harm": 0,
+            "net": 0,
+            "delta_pp": 0.0,
+            "video_cluster_bootstrap_95ci_pp": [
+              0.0,
+              0.0
+            ],
+            "questionwise_mcnemar_exact_p": 1.0,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "codec32_no_sub": {
+            "rescue": 1,
+            "harm": 2,
+            "net": -1,
+            "delta_pp": -16.666666666666668,
+            "video_cluster_bootstrap_95ci_pp": [
+              -33.333333333333336,
+              0.0
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        }
+      }
+    }
+  },
+  "groups": {
+    "used": {
+      "N": 6,
+      "videos": 2,
+      "methods": {
+        "codec32_no_sub": {
+          "correct": 5,
+          "accuracy": 0.8333333333333334,
+          "invalid": 0
+        },
+        "frames32_no_sub": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "invalid": 0
+        },
+        "frames32_aligned_sub": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "invalid": 0,
+          "vs": {
+            "frames32_no_sub": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "codec32_no_sub": {
+              "rescue": 1,
+              "harm": 2,
+              "net": -1,
+              "delta_pp": -16.666666666666668,
+              "video_cluster_bootstrap_95ci_pp": [
+                -33.333333333333336,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    },
+    "missing": {
+      "N": 0,
+      "methods": {}
+    },
+    "empty": {
+      "N": 0,
+      "methods": {}
+    },
+    "no_hit": {
+      "N": 0,
+      "methods": {}
+    }
+  },
+  "cost": {
+    "logical_answer_calls": 6,
+    "new_answer_calls": 6,
+    "reused_no_sub_answers": 0,
+    "extra_smoke_control_calls": 6,
+    "logical_visual_tokens": 27648,
+    "newly_generated_answer_visual_tokens": 27648,
+    "subtitle_tokens_sum_over_questions": 2253,
+    "new_answer_inference_s": 4.441338546574116,
+    "extra_smoke_control_s": 4.818543788045645,
+    "preprocess_s": 5.278544459491968,
+    "peak_allocated_gib": 10.314976692199707,
+    "note": "Baseline answers reused only when input has no aligned subtitle. Logical costs still count those visual answers. Cached preprocessing is charged to first question; these times are not a controlled speedup benchmark."
+  },
+  "by_duration": {
+    "short": {
+      "N": 6,
+      "videos": 2,
+      "methods": {
+        "codec32_no_sub": {
+          "correct": 5,
+          "accuracy": 0.8333333333333334,
+          "invalid": 0
+        },
+        "frames32_no_sub": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "invalid": 0
+        },
+        "frames32_aligned_sub": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "invalid": 0,
+          "vs": {
+            "frames32_no_sub": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "codec32_no_sub": {
+              "rescue": 1,
+              "harm": 2,
+              "net": -1,
+              "delta_pp": -16.666666666666668,
+              "video_cluster_bootstrap_95ci_pp": [
+                -33.333333333333336,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "5617540377b48d5c1b076ee6109440c1fb403bbb7f32fc6ac7a145665da8f692",
+  "response": {
+    "id": "9bc6bed9-e9ad-41fc-bedf-cba57dfb9e4e",
+    "object": "chat.completion",
+    "created": 1793676084,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S83\",\"quote\":\"I'm going to pull my brown yarn right across that\"},{\"block_id\":\"S296\",\"quote\":\"for your bow use whatever ribbon that's going to to match your Decor\"},{\"block_id\":\"S612\",\"quote\":\"tight kind of wrap that and put a little thing of hot glue for the end of my little tail right here kind of\"}],\"frame_ids\":[\"F6882\",\"F11469\",\"F20645\",\"F22938\",\"F25232\",\"F27526\",\"F29820\"],\"windows\":[],\"notes\":\"Frames show brown yarn wrapping (F6882, F11469), white fluffy tail (F20645, F22938), and lace bow (F25232, F27526, F29820). No direct evidence of cutting tinsel off an original rabbit or of the exact ordering among all four steps; sparse samples cannot establish sequence.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9235,
+      "completion_tokens": 214,
+      "total_tokens": 9449,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 9107
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.2969238851219416
+}

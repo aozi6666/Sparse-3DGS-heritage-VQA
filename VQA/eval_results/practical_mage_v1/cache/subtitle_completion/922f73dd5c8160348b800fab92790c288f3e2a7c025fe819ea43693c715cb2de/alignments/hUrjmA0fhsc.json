@@ -1,0 +1,778 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "hUrjmA0fhsc",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hUrjmA0fhsc.srt",
+        "status": "available",
+        "bytes": 4241,
+        "sha256": "4a47765944b93db3df7e64ff0f8f53d32d1ad3008fd6d6498901fc1895b87077",
+        "cues": 38,
+        "nonempty_cues": 38
+      },
+      "frame_indices": [
+        0,
+        69,
+        137,
+        206,
+        275,
+        344,
+        412,
+        481,
+        550,
+        619,
+        687,
+        756,
+        825,
+        894,
+        962,
+        1031,
+        1100,
+        1169,
+        1237,
+        1306,
+        1375,
+        1444,
+        1512,
+        1581,
+        1650,
+        1719,
+        1787,
+        1856,
+        1925,
+        1994,
+        2062,
+        2131
+      ],
+      "frame_seconds": [
+        0.0,
+        2.875,
+        5.708333,
+        8.583333,
+        11.458333,
+        14.333333,
+        17.166667,
+        20.041667,
+        22.916667,
+        25.791667,
+        28.625,
+        31.5,
+        34.375,
+        37.25,
+        40.083333,
+        42.958333,
+        45.833333,
+        48.708333,
+        51.541667,
+        54.416667,
+        57.291667,
+        60.166667,
+        63.0,
+        65.875,
+        68.75,
+        71.625,
+        74.458333,
+        77.333333,
+        80.208333,
+        83.083333,
+        85.916667,
+        88.791667
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ],
+        [
+          19
+        ],
+        [
+          20
+        ],
+        [
+          22
+        ],
+        [
+          23
+        ],
+        [
+          24
+        ],
+        [
+          25
+        ],
+        [
+          26
+        ],
+        [
+          28
+        ],
+        [
+          29
+        ],
+        [
+          30
+        ],
+        [
+          31
+        ],
+        [
+          32
+        ],
+        [
+          34
+        ],
+        [
+          36
+        ],
+        [
+          38
+        ],
+        [
+          38
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 333,
+          "end_ms": 4204,
+          "text": "♪ ♪"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 5638,
+          "end_ms": 7440,
+          "text": "To initiate available Super Cruise"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 7440,
+          "end_ms": 9743,
+          "text": "hands-free driver assistances technology,"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 9743,
+          "end_ms": 11678,
+          "text": "press the Adaptive Cruise Control button"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 13480,
+          "end_ms": 15615,
+          "text": "When the Super Cruise icon turns white,"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 16983,
+          "end_ms": 18985,
+          "text": "while centering yourself in the lane."
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 18985,
+          "end_ms": 22455,
+          "text": "Wait for the steering wheel bars and icon to turn green."
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 22455,
+          "end_ms": 25191,
+          "text": "Take your hands off the wheel, and enjoy the ride."
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 25191,
+          "end_ms": 28461,
+          "text": "To use Lane Change on Demand, tap the turn signal."
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 28461,
+          "end_ms": 30764,
+          "text": "Or enable Automatic Lane Change,"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 30764,
+          "end_ms": 32866,
+          "text": "where Super Cruise will automatically activate"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 32866,
+          "end_ms": 35235,
+          "text": "the turn signal and change langes for you"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 35235,
+          "end_ms": 38104,
+          "text": "if the system determines the situation is optimal."
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 38104,
+          "end_ms": 40673,
+          "text": "The driver attention camera system tracks your eyes"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 42575,
+          "end_ms": 44744,
+          "text": "and alerts you if it detects a problem."
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 44744,
+          "end_ms": 45845,
+          "text": "When the steering wheel light bar"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 47347,
+          "end_ms": 50283,
+          "text": "it is telling you to pay more attention to the road."
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 50283,
+          "end_ms": 51951,
+          "text": "Should the steering wheel light bar"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 51951,
+          "end_ms": 55889,
+          "text": "start blinking red along with beeps or seat vibrations,"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 55889,
+          "end_ms": 58425,
+          "text": "you need to immediately take control of steering."
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 58425,
+          "end_ms": 61594,
+          "text": "If you don't, a voice prompt will tell you to take over."
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 62929,
+          "end_ms": 65565,
+          "text": "your LYRIQ will gradually come to a stop in its lane,"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 65565,
+          "end_ms": 68368,
+          "text": "and you will be contacted by an OnStar advisor."
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 68368,
+          "end_ms": 70069,
+          "text": "To disengage Super Cruise,"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 70069,
+          "end_ms": 72005,
+          "text": "press the steering wheel button or pull the"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 72005,
+          "end_ms": 75375,
+          "text": "Regen On-Demand paddle with your hands firmly on the wheel."
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 76743,
+          "end_ms": 77977,
+          "text": "by pressing the brake pedal"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 79879,
+          "end_ms": 81081,
+          "text": "For more details,"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 82649,
+          "end_ms": 86686,
+          "text": "♪ ♪"
+        }
+      ],
+      "text": "♪ ♪\nTo initiate available Super Cruise\nhands-free driver assistances technology,\npress the Adaptive Cruise Control button\nWhen the Super Cruise icon turns white,\nwhile centering yourself in the lane.\nWait for the steering wheel bars and icon to turn green.\nTake your hands off the wheel, and enjoy the ride.\nTo use Lane Change on Demand, tap the turn signal.\nOr enable Automatic Lane Change,\nwhere Super Cruise will automatically activate\nthe turn signal and change langes for you\nif the system determines the situation is optimal.\nThe driver attention camera system tracks your eyes\nand alerts you if it detects a problem.\nWhen the steering wheel light bar\nit is telling you to pay more attention to the road.\nShould the steering wheel light bar\nstart blinking red along with beeps or seat vibrations,\nyou need to immediately take control of steering.\nIf you don't, a voice prompt will tell you to take over.\nyour LYRIQ will gradually come to a stop in its lane,\nand you will be contacted by an OnStar advisor.\nTo disengage Super Cruise,\npress the steering wheel button or pull the\nRegen On-Demand paddle with your hands firmly on the wheel.\nby pressing the brake pedal\nFor more details,\n♪ ♪",
+      "text_tokens": 254,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "hUrjmA0fhsc",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/hUrjmA0fhsc.srt",
+          "status": "available",
+          "bytes": 4241,
+          "sha256": "4a47765944b93db3df7e64ff0f8f53d32d1ad3008fd6d6498901fc1895b87077",
+          "cues": 38,
+          "nonempty_cues": 38
+        },
+        "frame_indices": [
+          0,
+          69,
+          137,
+          206,
+          275,
+          344,
+          412,
+          481,
+          550,
+          619,
+          687,
+          756,
+          825,
+          894,
+          962,
+          1031,
+          1100,
+          1169,
+          1237,
+          1306,
+          1375,
+          1444,
+          1512,
+          1581,
+          1650,
+          1719,
+          1787,
+          1856,
+          1925,
+          1994,
+          2062,
+          2131
+        ],
+        "frame_seconds": [
+          0.0,
+          2.875,
+          5.708333,
+          8.583333,
+          11.458333,
+          14.333333,
+          17.166667,
+          20.041667,
+          22.916667,
+          25.791667,
+          28.625,
+          31.5,
+          34.375,
+          37.25,
+          40.083333,
+          42.958333,
+          45.833333,
+          48.708333,
+          51.541667,
+          54.416667,
+          57.291667,
+          60.166667,
+          63.0,
+          65.875,
+          68.75,
+          71.625,
+          74.458333,
+          77.333333,
+          80.208333,
+          83.083333,
+          85.916667,
+          88.791667
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ],
+          [
+            15
+          ],
+          [
+            16
+          ],
+          [
+            17
+          ],
+          [
+            19
+          ],
+          [
+            20
+          ],
+          [
+            22
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ],
+          [
+            25
+          ],
+          [
+            26
+          ],
+          [
+            28
+          ],
+          [
+            29
+          ],
+          [
+            30
+          ],
+          [
+            31
+          ],
+          [
+            32
+          ],
+          [
+            34
+          ],
+          [
+            36
+          ],
+          [
+            38
+          ],
+          [
+            38
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 333,
+            "end_ms": 4204,
+            "text": "♪ ♪"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 5638,
+            "end_ms": 7440,
+            "text": "To initiate available Super Cruise"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 7440,
+            "end_ms": 9743,
+            "text": "hands-free driver assistances technology,"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 9743,
+            "end_ms": 11678,
+            "text": "press the Adaptive Cruise Control button"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 13480,
+            "end_ms": 15615,
+            "text": "When the Super Cruise icon turns white,"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 16983,
+            "end_ms": 18985,
+            "text": "while centering yourself in the lane."
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 18985,
+            "end_ms": 22455,
+            "text": "Wait for the steering wheel bars and icon to turn green."
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 22455,
+            "end_ms": 25191,
+            "text": "Take your hands off the wheel, and enjoy the ride."
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 25191,
+            "end_ms": 28461,
+            "text": "To use Lane Change on Demand, tap the turn signal."
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 28461,
+            "end_ms": 30764,
+            "text": "Or enable Automatic Lane Change,"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 30764,
+            "end_ms": 32866,
+            "text": "where Super Cruise will automatically activate"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 32866,
+            "end_ms": 35235,
+            "text": "the turn signal and change langes for you"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 35235,
+            "end_ms": 38104,
+            "text": "if the system determines the situation is optimal."
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 38104,
+            "end_ms": 40673,
+            "text": "The driver attention camera system tracks your eyes"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 42575,
+            "end_ms": 44744,
+            "text": "and alerts you if it detects a problem."
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 44744,
+            "end_ms": 45845,
+            "text": "When the steering wheel light bar"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 47347,
+            "end_ms": 50283,
+            "text": "it is telling you to pay more attention to the road."
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 50283,
+            "end_ms": 51951,
+            "text": "Should the steering wheel light bar"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 51951,
+            "end_ms": 55889,
+            "text": "start blinking red along with beeps or seat vibrations,"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 55889,
+            "end_ms": 58425,
+            "text": "you need to immediately take control of steering."
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 58425,
+            "end_ms": 61594,
+            "text": "If you don't, a voice prompt will tell you to take over."
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 62929,
+            "end_ms": 65565,
+            "text": "your LYRIQ will gradually come to a stop in its lane,"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 65565,
+            "end_ms": 68368,
+            "text": "and you will be contacted by an OnStar advisor."
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 68368,
+            "end_ms": 70069,
+            "text": "To disengage Super Cruise,"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 70069,
+            "end_ms": 72005,
+            "text": "press the steering wheel button or pull the"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 72005,
+            "end_ms": 75375,
+            "text": "Regen On-Demand paddle with your hands firmly on the wheel."
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 76743,
+            "end_ms": 77977,
+            "text": "by pressing the brake pedal"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 79879,
+            "end_ms": 81081,
+            "text": "For more details,"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 82649,
+            "end_ms": 86686,
+            "text": "♪ ♪"
+          }
+        ],
+        "text": "♪ ♪\nTo initiate available Super Cruise\nhands-free driver assistances technology,\npress the Adaptive Cruise Control button\nWhen the Super Cruise icon turns white,\nwhile centering yourself in the lane.\nWait for the steering wheel bars and icon to turn green.\nTake your hands off the wheel, and enjoy the ride.\nTo use Lane Change on Demand, tap the turn signal.\nOr enable Automatic Lane Change,\nwhere Super Cruise will automatically activate\nthe turn signal and change langes for you\nif the system determines the situation is optimal.\nThe driver attention camera system tracks your eyes\nand alerts you if it detects a problem.\nWhen the steering wheel light bar\nit is telling you to pay more attention to the road.\nShould the steering wheel light bar\nstart blinking red along with beeps or seat vibrations,\nyou need to immediately take control of steering.\nIf you don't, a voice prompt will tell you to take over.\nyour LYRIQ will gradually come to a stop in its lane,\nand you will be contacted by an OnStar advisor.\nTo disengage Super Cruise,\npress the steering wheel button or pull the\nRegen On-Demand paddle with your hands firmly on the wheel.\nby pressing the brake pedal\nFor more details,\n♪ ♪",
+        "text_tokens": 254,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "start_ms": 333,
+          "end_ms": 86686,
+          "text": "♪ ♪ Freedom is calling. To initiate available Super Cruise hands-free driver assistances technology, press the Adaptive Cruise Control button while on compatible roads. When the Super Cruise icon turns white, press the Super Cruise button while centering yourself in the lane. Wait for the steering wheel bars and icon to turn green. Take your hands off the wheel, and enjoy the ride. To use Lane Change on Demand, tap the turn signal. Or enable Automatic Lane Change, where Super Cruise will automatically activate the turn signal and change langes for you if the system determines the situation is optimal. The driver attention camera system tracks your eyes to make sure you're focused on the road and alerts you if it detects a problem. When the steering wheel light bar starts blinking green, it is telling you to pay more attention to the road. Should the steering wheel light bar start blinking red along with beeps or seat vibrations, you need to immediately take control of steering. If you don't, a voice prompt will tell you to take over. And if you still don't respond, your LYRIQ will gradually come to a stop in its lane, and you will be contacted by an OnStar advisor. To disengage Super Cruise, press the steering wheel button or pull the Regen On-Demand paddle with your hands firmly on the wheel. You can also turn off the system by pressing the brake pedal with your hands firmly on the wheel. For more details, see your vehicle Owner's Manual. ♪ ♪"
+        }
+      ],
+      "text": "S1 [00:00:00.333 --> 00:01:26.686] ♪ ♪ Freedom is calling. To initiate available Super Cruise hands-free driver assistances technology, press the Adaptive Cruise Control button while on compatible roads. When the Super Cruise icon turns white, press the Super Cruise button while centering yourself in the lane. Wait for the steering wheel bars and icon to turn green. Take your hands off the wheel, and enjoy the ride. To use Lane Change on Demand, tap the turn signal. Or enable Automatic Lane Change, where Super Cruise will automatically activate the turn signal and change langes for you if the system determines the situation is optimal. The driver attention camera system tracks your eyes to make sure you're focused on the road and alerts you if it detects a problem. When the steering wheel light bar starts blinking green, it is telling you to pay more attention to the road. Should the steering wheel light bar start blinking red along with beeps or seat vibrations, you need to immediately take control of steering. If you don't, a voice prompt will tell you to take over. And if you still don't respond, your LYRIQ will gradually come to a stop in its lane, and you will be contacted by an OnStar advisor. To disengage Super Cruise, press the steering wheel button or pull the Regen On-Demand paddle with your hands firmly on the wheel. You can also turn off the system by pressing the brake pedal with your hands firmly on the wheel. For more details, see your vehicle Owner's Manual. ♪ ♪",
+      "text_tokens": 333,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        6,
+        8,
+        18,
+        21,
+        27,
+        33,
+        35,
+        37
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "84d5134839de7b447fcae4b600e778bbf325d623fdf01e1aaf05138aafda4094"
+}

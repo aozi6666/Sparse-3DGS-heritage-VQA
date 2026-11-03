@@ -1,0 +1,1176 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "2Gg4OQo7-zA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2Gg4OQo7-zA.srt",
+        "status": "available",
+        "bytes": 21305,
+        "sha256": "e1d68e0b2576fc215ff1165a7f55502c495f4c895f1b599890a32bdb899adaf3",
+        "cues": 222,
+        "nonempty_cues": 222
+      },
+      "frame_indices": [
+        0,
+        675,
+        1350,
+        2026,
+        2701,
+        3376,
+        4051,
+        4726,
+        5402,
+        6077,
+        6752,
+        7427,
+        8102,
+        8778,
+        9453,
+        10128,
+        10803,
+        11478,
+        12153,
+        12829,
+        13504,
+        14179,
+        14854,
+        15529,
+        16205,
+        16880,
+        17555,
+        18230,
+        18905,
+        19581,
+        20256,
+        20931
+      ],
+      "frame_seconds": [
+        0.0,
+        27.0,
+        54.0,
+        81.03999999999999,
+        108.03999999999999,
+        135.04,
+        162.04,
+        189.04,
+        216.07999999999998,
+        243.08,
+        270.08,
+        297.08,
+        324.08,
+        351.12,
+        378.12,
+        405.12,
+        432.12,
+        459.12,
+        486.12,
+        513.16,
+        540.16,
+        567.16,
+        594.16,
+        621.16,
+        648.2,
+        675.2,
+        702.2,
+        729.2,
+        756.2,
+        783.24,
+        810.24,
+        837.24
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          28
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          52
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          70,
+          71
+        ],
+        [
+          80
+        ],
+        [
+          89,
+          90
+        ],
+        [
+          98
+        ],
+        [
+          106
+        ],
+        [],
+        [],
+        [],
+        [
+          121
+        ],
+        [
+          129
+        ],
+        [
+          135
+        ],
+        [
+          141
+        ],
+        [],
+        [
+          152
+        ],
+        [],
+        [
+          164,
+          165
+        ],
+        [
+          174,
+          175
+        ],
+        [
+          183
+        ],
+        [],
+        [
+          201,
+          202
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          215,
+          216
+        ],
+        [
+          221,
+          222
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 16379,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 17700,
+          "end_ms": 27329,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 41059,
+          "end_ms": 54440,
+          "text": "and whilst it was a good save by taparel"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 45770,
+          "end_ms": 56120,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 74470,
+          "end_ms": 81060,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 78539,
+          "end_ms": 82619,
+          "text": "hesitation from taparel"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 107780,
+          "end_ms": 116180,
+          "text": "after years of waiting and wondering"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 131038,
+          "end_ms": 135200,
+          "text": "it's why"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 133080,
+          "end_ms": 137819,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 157620,
+          "end_ms": 163560,
+          "text": "fine save from Marcos"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 159900,
+          "end_ms": 166860,
+          "text": "this or that now Rivaldo oh and can't"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 186260,
+          "end_ms": 193080,
+          "text": "for the second time in the space of a"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 215040,
+          "end_ms": 219200,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 216000,
+          "end_ms": 222450,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 236579,
+          "end_ms": 245000,
+          "text": "for matarazzi"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 239959,
+          "end_ms": 245000,
+          "text": "the moment of near instant redention"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 268380,
+          "end_ms": 273680,
+          "text": "so he was about to provide his career"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 295040,
+          "end_ms": 298800,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 296460,
+          "end_ms": 301610,
+          "text": "it's career but never like this he's"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 322800,
+          "end_ms": 328460,
+          "text": "scores"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 348380,
+          "end_ms": 351560,
+          "text": "Italy win"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 458539,
+          "end_ms": 465360,
+          "text": "who should have opened the story"
+        },
+        {
+          "cue_id": 129,
+          "start_ms": 481890,
+          "end_ms": 486480,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 510760,
+          "end_ms": 514130,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 537980,
+          "end_ms": 542180,
+          "text": "the French are screaming at ball"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 591180,
+          "end_ms": 595160,
+          "text": "play with the world at his feet"
+        },
+        {
+          "cue_id": 164,
+          "start_ms": 645300,
+          "end_ms": 650600,
+          "text": "unless he turns it out to Alvarez who"
+        },
+        {
+          "cue_id": 165,
+          "start_ms": 647940,
+          "end_ms": 650600,
+          "text": "gets it through"
+        },
+        {
+          "cue_id": 174,
+          "start_ms": 672540,
+          "end_ms": 676339,
+          "text": "rounds down and that's got to be a"
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 673920,
+          "end_ms": 676339,
+          "text": "penalty"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 701339,
+          "end_ms": 705980,
+          "text": "in a Flash in a heartbeat"
+        },
+        {
+          "cue_id": 201,
+          "start_ms": 752240,
+          "end_ms": 756260,
+          "text": "hey"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 753860,
+          "end_ms": 760560,
+          "text": "is the man"
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 778160,
+          "end_ms": 785629,
+          "text": "saved by Martinez"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 781100,
+          "end_ms": 785629,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 804079,
+          "end_ms": 813110,
+          "text": "Kings of football for the third time"
+        },
+        {
+          "cue_id": 216,
+          "start_ms": 808940,
+          "end_ms": 817250,
+          "text": "and the tears will fall"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 830779,
+          "end_ms": 839110,
+          "text": "subscribe now"
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 832440,
+          "end_ms": 839110,
+          "text": "[Music]"
+        }
+      ],
+      "text": "foreign\n[Applause]\nand whilst it was a good save by taparel\n[Applause]\n[Applause]\nhesitation from taparel\nafter years of waiting and wondering\nit's why\n[Music]\nfine save from Marcos\nthis or that now Rivaldo oh and can't\nfor the second time in the space of a\nforeign\n[Music]\nfor matarazzi\nthe moment of near instant redention\nso he was about to provide his career\n[Music]\nit's career but never like this he's\nscores\nItaly win\nwho should have opened the story\n[Music]\n[Applause]\nthe French are screaming at ball\nplay with the world at his feet\nunless he turns it out to Alvarez who\ngets it through\nrounds down and that's got to be a\npenalty\nin a Flash in a heartbeat\nhey\nis the man\nsaved by Martinez\n[Music]\nKings of football for the third time\nand the tears will fall\nsubscribe now\n[Music]",
+      "text_tokens": 218,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "2Gg4OQo7-zA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2Gg4OQo7-zA.srt",
+          "status": "available",
+          "bytes": 21305,
+          "sha256": "e1d68e0b2576fc215ff1165a7f55502c495f4c895f1b599890a32bdb899adaf3",
+          "cues": 222,
+          "nonempty_cues": 222
+        },
+        "frame_indices": [
+          0,
+          675,
+          1350,
+          2026,
+          2701,
+          3376,
+          4051,
+          4726,
+          5402,
+          6077,
+          6752,
+          7427,
+          8102,
+          8778,
+          9453,
+          10128,
+          10803,
+          11478,
+          12153,
+          12829,
+          13504,
+          14179,
+          14854,
+          15529,
+          16205,
+          16880,
+          17555,
+          18230,
+          18905,
+          19581,
+          20256,
+          20931
+        ],
+        "frame_seconds": [
+          0.0,
+          27.0,
+          54.0,
+          81.03999999999999,
+          108.03999999999999,
+          135.04,
+          162.04,
+          189.04,
+          216.07999999999998,
+          243.08,
+          270.08,
+          297.08,
+          324.08,
+          351.12,
+          378.12,
+          405.12,
+          432.12,
+          459.12,
+          486.12,
+          513.16,
+          540.16,
+          567.16,
+          594.16,
+          621.16,
+          648.2,
+          675.2,
+          702.2,
+          729.2,
+          756.2,
+          783.24,
+          810.24,
+          837.24
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            28
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            52
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            70,
+            71
+          ],
+          [
+            80
+          ],
+          [
+            89,
+            90
+          ],
+          [
+            98
+          ],
+          [
+            106
+          ],
+          [],
+          [],
+          [],
+          [
+            121
+          ],
+          [
+            129
+          ],
+          [
+            135
+          ],
+          [
+            141
+          ],
+          [],
+          [
+            152
+          ],
+          [],
+          [
+            164,
+            165
+          ],
+          [
+            174,
+            175
+          ],
+          [
+            183
+          ],
+          [],
+          [
+            201,
+            202
+          ],
+          [
+            208,
+            209
+          ],
+          [
+            215,
+            216
+          ],
+          [
+            221,
+            222
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 16379,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 17700,
+            "end_ms": 27329,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 41059,
+            "end_ms": 54440,
+            "text": "and whilst it was a good save by taparel"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 45770,
+            "end_ms": 56120,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 74470,
+            "end_ms": 81060,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 78539,
+            "end_ms": 82619,
+            "text": "hesitation from taparel"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 107780,
+            "end_ms": 116180,
+            "text": "after years of waiting and wondering"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 131038,
+            "end_ms": 135200,
+            "text": "it's why"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 133080,
+            "end_ms": 137819,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 157620,
+            "end_ms": 163560,
+            "text": "fine save from Marcos"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 159900,
+            "end_ms": 166860,
+            "text": "this or that now Rivaldo oh and can't"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 186260,
+            "end_ms": 193080,
+            "text": "for the second time in the space of a"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 215040,
+            "end_ms": 219200,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 216000,
+            "end_ms": 222450,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 70,
+            "start_ms": 236579,
+            "end_ms": 245000,
+            "text": "for matarazzi"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 239959,
+            "end_ms": 245000,
+            "text": "the moment of near instant redention"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 268380,
+            "end_ms": 273680,
+            "text": "so he was about to provide his career"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 295040,
+            "end_ms": 298800,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 296460,
+            "end_ms": 301610,
+            "text": "it's career but never like this he's"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 322800,
+            "end_ms": 328460,
+            "text": "scores"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 348380,
+            "end_ms": 351560,
+            "text": "Italy win"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 458539,
+            "end_ms": 465360,
+            "text": "who should have opened the story"
+          },
+          {
+            "cue_id": 129,
+            "start_ms": 481890,
+            "end_ms": 486480,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 510760,
+            "end_ms": 514130,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 537980,
+            "end_ms": 542180,
+            "text": "the French are screaming at ball"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 591180,
+            "end_ms": 595160,
+            "text": "play with the world at his feet"
+          },
+          {
+            "cue_id": 164,
+            "start_ms": 645300,
+            "end_ms": 650600,
+            "text": "unless he turns it out to Alvarez who"
+          },
+          {
+            "cue_id": 165,
+            "start_ms": 647940,
+            "end_ms": 650600,
+            "text": "gets it through"
+          },
+          {
+            "cue_id": 174,
+            "start_ms": 672540,
+            "end_ms": 676339,
+            "text": "rounds down and that's got to be a"
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 673920,
+            "end_ms": 676339,
+            "text": "penalty"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 701339,
+            "end_ms": 705980,
+            "text": "in a Flash in a heartbeat"
+          },
+          {
+            "cue_id": 201,
+            "start_ms": 752240,
+            "end_ms": 756260,
+            "text": "hey"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 753860,
+            "end_ms": 760560,
+            "text": "is the man"
+          },
+          {
+            "cue_id": 208,
+            "start_ms": 778160,
+            "end_ms": 785629,
+            "text": "saved by Martinez"
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 781100,
+            "end_ms": 785629,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 804079,
+            "end_ms": 813110,
+            "text": "Kings of football for the third time"
+          },
+          {
+            "cue_id": 216,
+            "start_ms": 808940,
+            "end_ms": 817250,
+            "text": "and the tears will fall"
+          },
+          {
+            "cue_id": 221,
+            "start_ms": 830779,
+            "end_ms": 839110,
+            "text": "subscribe now"
+          },
+          {
+            "cue_id": 222,
+            "start_ms": 832440,
+            "end_ms": 839110,
+            "text": "[Music]"
+          }
+        ],
+        "text": "foreign\n[Applause]\nand whilst it was a good save by taparel\n[Applause]\n[Applause]\nhesitation from taparel\nafter years of waiting and wondering\nit's why\n[Music]\nfine save from Marcos\nthis or that now Rivaldo oh and can't\nfor the second time in the space of a\nforeign\n[Music]\nfor matarazzi\nthe moment of near instant redention\nso he was about to provide his career\n[Music]\nit's career but never like this he's\nscores\nItaly win\nwho should have opened the story\n[Music]\n[Applause]\nthe French are screaming at ball\nplay with the world at his feet\nunless he turns it out to Alvarez who\ngets it through\nrounds down and that's got to be a\npenalty\nin a Flash in a heartbeat\nhey\nis the man\nsaved by Martinez\n[Music]\nKings of football for the third time\nand the tears will fall\nsubscribe now\n[Music]",
+        "text_tokens": 218,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_ms": 0,
+          "end_ms": 32700,
+          "text": "foreign [Music] [Applause] to the T"
+        },
+        {
+          "id": "S9",
+          "cue_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_ms": 37340,
+          "end_ms": 59719,
+          "text": "now give us here's an opportunity and whilst it was a good save by taparel [Applause] Ronaldo"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 70680,
+          "end_ms": 85619,
+          "text": "size of red people hesitated [Applause] hesitation from taparel so there was"
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29
+          ],
+          "start_ms": 102079,
+          "end_ms": 116180,
+          "text": "exit three and secures the World Cup after years of waiting and wondering now tears of pure joy"
+        },
+        {
+          "id": "S33",
+          "cue_ids": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "start_ms": 128419,
+          "end_ms": 140520,
+          "text": "slipping it through Ronaldo's in and it's why [Music] we've got our video beautiful form over"
+        },
+        {
+          "id": "S43",
+          "cue_ids": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "start_ms": 155400,
+          "end_ms": 169220,
+          "text": "stunning swerving strike and an equally fine save from Marcos this or that now Rivaldo oh and can't spilled it Ronaldo to make the"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53
+          ],
+          "start_ms": 186260,
+          "end_ms": 195180,
+          "text": "for the second time in the space of a dozen second half Oliver beerhoff Spot"
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "start_ms": 211260,
+          "end_ms": 225300,
+          "text": "feed in the final for the fourth time foreign [Music] ER who takes it on and goes down penalty"
+        },
+        {
+          "id": "S69",
+          "cue_ids": [
+            69,
+            70,
+            71
+          ],
+          "start_ms": 234000,
+          "end_ms": 245000,
+          "text": "from the right side of the line for matarazzi the moment of near instant redention"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80,
+            81
+          ],
+          "start_ms": 264840,
+          "end_ms": 273680,
+          "text": "what to say so he was about to provide his career with the perfect endings"
+        },
+        {
+          "id": "S88",
+          "cue_ids": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "start_ms": 294300,
+          "end_ms": 307580,
+          "text": "the attorney [Music] it's career but never like this he's done it now emphatically one one"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99
+          ],
+          "start_ms": 320580,
+          "end_ms": 328460,
+          "text": "out scores no Keepers keeping that one out"
+        },
+        {
+          "id": "S105",
+          "cue_ids": [
+            105,
+            106,
+            107
+          ],
+          "start_ms": 345180,
+          "end_ms": 357290,
+          "text": "so so close now Italy win your scores he went for the blast"
+        },
+        {
+          "id": "S121",
+          "cue_ids": [
+            121,
+            122
+          ],
+          "start_ms": 458539,
+          "end_ms": 467380,
+          "text": "who should have opened the story it up close with the take against the"
+        },
+        {
+          "id": "S128",
+          "cue_ids": [
+            128,
+            129
+          ],
+          "start_ms": 476880,
+          "end_ms": 486480,
+          "text": "but their water Target area [Music]"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136
+          ],
+          "start_ms": 510760,
+          "end_ms": 519380,
+          "text": "[Applause] in the World Cup final"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142
+          ],
+          "start_ms": 537980,
+          "end_ms": 545720,
+          "text": "the French are screaming at ball he's given a penalty"
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151,
+            152
+          ],
+          "start_ms": 584060,
+          "end_ms": 595160,
+          "text": "kicks the ultimate Teenage kick play with the world at his feet"
+        },
+        {
+          "id": "S163",
+          "cue_ids": [
+            163,
+            164,
+            165,
+            166
+          ],
+          "start_ms": 638770,
+          "end_ms": 654200,
+          "text": "[Applause] unless he turns it out to Alvarez who gets it through looking at Di Maria"
+        },
+        {
+          "id": "S173",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176
+          ],
+          "start_ms": 670260,
+          "end_ms": 680880,
+          "text": "he's been beaten Now by Tehran and to rounds down and that's got to be a penalty to get the game back on"
+        },
+        {
+          "id": "S182",
+          "cue_ids": [
+            182,
+            183,
+            184
+          ],
+          "start_ms": 692140,
+          "end_ms": 712200,
+          "text": "[Applause] in a Flash in a heartbeat Messi finds McAllister and Messi now"
+        },
+        {
+          "id": "S200",
+          "cue_ids": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "start_ms": 750320,
+          "end_ms": 763079,
+          "text": "[Music] hey is the man a hat-trick in the biggest game of all"
+        },
+        {
+          "id": "S207",
+          "cue_ids": [
+            207,
+            208,
+            209,
+            210
+          ],
+          "start_ms": 776580,
+          "end_ms": 790279,
+          "text": "[Music] saved by Martinez [Music] white"
+        },
+        {
+          "id": "S214",
+          "cue_ids": [
+            214,
+            215,
+            216,
+            217
+          ],
+          "start_ms": 800080,
+          "end_ms": 825200,
+          "text": "[Applause] Kings of football for the third time and the tears will fall [Applause]"
+        },
+        {
+          "id": "S220",
+          "cue_ids": [
+            220,
+            221,
+            222
+          ],
+          "start_ms": 828420,
+          "end_ms": 839110,
+          "text": "home of quality football videos subscribe now [Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:32.700] foreign [Music] [Applause] to the T\nS9 [00:00:37.340 --> 00:00:59.719] now give us here's an opportunity and whilst it was a good save by taparel [Applause] Ronaldo\nS18 [00:01:10.680 --> 00:01:25.619] size of red people hesitated [Applause] hesitation from taparel so there was\nS27 [00:01:42.079 --> 00:01:56.180] exit three and secures the World Cup after years of waiting and wondering now tears of pure joy\nS33 [00:02:08.419 --> 00:02:20.520] slipping it through Ronaldo's in and it's why [Music] we've got our video beautiful form over\nS43 [00:02:35.400 --> 00:02:49.220] stunning swerving strike and an equally fine save from Marcos this or that now Rivaldo oh and can't spilled it Ronaldo to make the\nS52 [00:03:06.260 --> 00:03:15.180] for the second time in the space of a dozen second half Oliver beerhoff Spot\nS61 [00:03:31.260 --> 00:03:45.300] feed in the final for the fourth time foreign [Music] ER who takes it on and goes down penalty\nS69 [00:03:54.000 --> 00:04:05.000] from the right side of the line for matarazzi the moment of near instant redention\nS79 [00:04:24.840 --> 00:04:33.680] what to say so he was about to provide his career with the perfect endings\nS88 [00:04:54.300 --> 00:05:07.580] the attorney [Music] it's career but never like this he's done it now emphatically one one\nS97 [00:05:20.580 --> 00:05:28.460] out scores no Keepers keeping that one out\nS105 [00:05:45.180 --> 00:05:57.290] so so close now Italy win your scores he went for the blast\nS121 [00:07:38.539 --> 00:07:47.380] who should have opened the story it up close with the take against the\nS128 [00:07:56.880 --> 00:08:06.480] but their water Target area [Music]\nS135 [00:08:30.760 --> 00:08:39.380] [Applause] in the World Cup final\nS141 [00:08:57.980 --> 00:09:05.720] the French are screaming at ball he's given a penalty\nS151 [00:09:44.060 --> 00:09:55.160] kicks the ultimate Teenage kick play with the world at his feet\nS163 [00:10:38.770 --> 00:10:54.200] [Applause] unless he turns it out to Alvarez who gets it through looking at Di Maria\nS173 [00:11:10.260 --> 00:11:20.880] he's been beaten Now by Tehran and to rounds down and that's got to be a penalty to get the game back on\nS182 [00:11:32.140 --> 00:11:52.200] [Applause] in a Flash in a heartbeat Messi finds McAllister and Messi now\nS200 [00:12:30.320 --> 00:12:43.079] [Music] hey is the man a hat-trick in the biggest game of all\nS207 [00:12:56.580 --> 00:13:10.279] [Music] saved by Martinez [Music] white\nS214 [00:13:20.080 --> 00:13:45.200] [Applause] Kings of football for the third time and the tears will fall [Applause]\nS220 [00:13:48.420 --> 00:13:59.110] home of quality football videos subscribe now [Music]",
+      "text_tokens": 1221,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        4,
+        9,
+        12,
+        18,
+        21,
+        27,
+        29,
+        33,
+        36,
+        43,
+        46,
+        53,
+        61,
+        64,
+        69,
+        79,
+        81,
+        88,
+        91,
+        97,
+        99,
+        105,
+        107,
+        122,
+        128,
+        136,
+        142,
+        151,
+        163,
+        166,
+        173,
+        176,
+        182,
+        184,
+        200,
+        203,
+        207,
+        210,
+        214,
+        217,
+        220
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "fc43329e0bcc647c330e9b0cde2a5fb8b9bde2c0b3e79b3dc27d3571c33383f0"
+}

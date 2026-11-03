@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "3e291a2358723d9c2ef5ebfe9058caa7867c169a2b9cb7b1f7f9bd751a433c34",
+  "response": {
+    "id": "5eafda08-73e7-439e-8717-7abefa7df03d",
+    "object": "chat.completion",
+    "created": 1793675967,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"D\",\"supported\":true,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S44\",\"quote\":\"for their various spiritual effects. She uses them while meditating.\"},{\"block_id\":\"S22\",\"quote\":\"I feel like they hold a very, very, very beautiful energy.\"}],\"frame_ids\":[\"F0\",\"F2053\",\"F4106\"],\"windows\":[],\"notes\":\"Early subtitles link crystals to spiritual effects and meditation, and a speaker describes their 'energy,' supporting growing interest in holistic wellness/alternative spirituality. Social media is also shown (F2053, S22 mentions influencers), so the single best inference is D, though evidence is partial.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8512,
+      "completion_tokens": 146,
+      "total_tokens": 8658,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 8384
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.2532320637255907
+}

@@ -1,0 +1,364 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "scope": "budget",
+  "tokens": 3072,
+  "N": 180,
+  "interpretation": "Development/coverage only, not independent test. Budget changes never selected per question.",
+  "audit": {
+    "passed": true,
+    "errors": [],
+    "complete_units": 180,
+    "invalid": 0,
+    "origins": {
+      "reused_old": 156,
+      "generated": 24
+    }
+  },
+  "overall": {
+    "N": 180,
+    "videos": 60,
+    "methods": {
+      "no_sub": {
+        "correct": 110,
+        "accuracy": 0.6111111111111112,
+        "invalid": 0
+      },
+      "aligned": {
+        "correct": 117,
+        "accuracy": 0.65,
+        "invalid": 0
+      },
+      "continuous_2048": {
+        "correct": 119,
+        "accuracy": 0.6611111111111111,
+        "invalid": 0
+      },
+      "continuous_3072": {
+        "correct": 117,
+        "accuracy": 0.65,
+        "invalid": 0,
+        "vs": {
+          "no_sub": {
+            "rescue": 19,
+            "harm": 12,
+            "net": 7,
+            "delta_pp": 3.888888888888889,
+            "video_cluster_bootstrap_95ci_pp": [
+              -2.7777777777777777,
+              10.555555555555555
+            ],
+            "questionwise_mcnemar_exact_p": 0.28104151505976915,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "aligned": {
+            "rescue": 9,
+            "harm": 9,
+            "net": 0,
+            "delta_pp": 0.0,
+            "video_cluster_bootstrap_95ci_pp": [
+              -3.888888888888889,
+              4.444444444444445
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "continuous_2048": {
+            "rescue": 0,
+            "harm": 2,
+            "net": -2,
+            "delta_pp": -1.1111111111111112,
+            "video_cluster_bootstrap_95ci_pp": [
+              -2.7777777777777777,
+              0.0
+            ],
+            "questionwise_mcnemar_exact_p": 0.5,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        }
+      }
+    }
+  },
+  "by_duration": {
+    "long": {
+      "N": 84,
+      "videos": 28,
+      "methods": {
+        "no_sub": {
+          "correct": 50,
+          "accuracy": 0.5952380952380952,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 50,
+          "accuracy": 0.5952380952380952,
+          "invalid": 0
+        },
+        "continuous_2048": {
+          "correct": 50,
+          "accuracy": 0.5952380952380952,
+          "invalid": 0
+        },
+        "continuous_3072": {
+          "correct": 50,
+          "accuracy": 0.5952380952380952,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 8,
+              "harm": 8,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                -8.333333333333334,
+                7.142857142857143
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 7,
+              "harm": 7,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                -7.142857142857143,
+                5.9523809523809526
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "continuous_2048": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    },
+    "medium": {
+      "N": 96,
+      "videos": 32,
+      "methods": {
+        "no_sub": {
+          "correct": 60,
+          "accuracy": 0.625,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 67,
+          "accuracy": 0.6979166666666666,
+          "invalid": 0
+        },
+        "continuous_2048": {
+          "correct": 69,
+          "accuracy": 0.71875,
+          "invalid": 0
+        },
+        "continuous_3072": {
+          "correct": 67,
+          "accuracy": 0.6979166666666666,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 11,
+              "harm": 4,
+              "net": 7,
+              "delta_pp": 7.291666666666667,
+              "video_cluster_bootstrap_95ci_pp": [
+                -1.0416666666666667,
+                16.666666666666668
+              ],
+              "questionwise_mcnemar_exact_p": 0.11846923828125,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 2,
+              "harm": 2,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                -4.166666666666667,
+                5.208333333333333
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "continuous_2048": {
+              "rescue": 0,
+              "harm": 2,
+              "net": -2,
+              "delta_pp": -2.0833333333333335,
+              "video_cluster_bootstrap_95ci_pp": [
+                -5.208333333333333,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 0.5,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    }
+  },
+  "groups": {
+    "changed24": {
+      "N": 24,
+      "videos": 8,
+      "methods": {
+        "no_sub": {
+          "correct": 18,
+          "accuracy": 0.75,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 18,
+          "accuracy": 0.75,
+          "invalid": 0
+        },
+        "continuous_2048": {
+          "correct": 19,
+          "accuracy": 0.7916666666666666,
+          "invalid": 0
+        },
+        "continuous_3072": {
+          "correct": 17,
+          "accuracy": 0.7083333333333334,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 2,
+              "harm": 3,
+              "net": -1,
+              "delta_pp": -4.166666666666667,
+              "video_cluster_bootstrap_95ci_pp": [
+                -20.833333333333332,
+                12.5
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 1,
+              "harm": 2,
+              "net": -1,
+              "delta_pp": -4.166666666666667,
+              "video_cluster_bootstrap_95ci_pp": [
+                -16.666666666666668,
+                8.333333333333334
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "continuous_2048": {
+              "rescue": 0,
+              "harm": 2,
+              "net": -2,
+              "delta_pp": -8.333333333333334,
+              "video_cluster_bootstrap_95ci_pp": [
+                -20.833333333333332,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 0.5,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    },
+    "verified_reuse156": {
+      "N": 156,
+      "videos": 52,
+      "methods": {
+        "no_sub": {
+          "correct": 92,
+          "accuracy": 0.5897435897435898,
+          "invalid": 0
+        },
+        "aligned": {
+          "correct": 99,
+          "accuracy": 0.6346153846153846,
+          "invalid": 0
+        },
+        "continuous_2048": {
+          "correct": 100,
+          "accuracy": 0.6410256410256411,
+          "invalid": 0
+        },
+        "continuous_3072": {
+          "correct": 100,
+          "accuracy": 0.6410256410256411,
+          "invalid": 0,
+          "vs": {
+            "no_sub": {
+              "rescue": 17,
+              "harm": 9,
+              "net": 8,
+              "delta_pp": 5.128205128205129,
+              "video_cluster_bootstrap_95ci_pp": [
+                -1.2820512820512822,
+                12.179487179487179
+              ],
+              "questionwise_mcnemar_exact_p": 0.16863754391670227,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "aligned": {
+              "rescue": 8,
+              "harm": 7,
+              "net": 1,
+              "delta_pp": 0.6410256410256411,
+              "video_cluster_bootstrap_95ci_pp": [
+                -3.2051282051282053,
+                5.128205128205129
+              ],
+              "questionwise_mcnemar_exact_p": 1,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            },
+            "continuous_2048": {
+              "rescue": 0,
+              "harm": 0,
+              "net": 0,
+              "delta_pp": 0.0,
+              "video_cluster_bootstrap_95ci_pp": [
+                0.0,
+                0.0
+              ],
+              "questionwise_mcnemar_exact_p": 1.0,
+              "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+            }
+          }
+        }
+      }
+    }
+  },
+  "cost": {
+    "continuous": {
+      "logical_answers": 180,
+      "new_generation_calls": 24,
+      "reused_answers": 156,
+      "logical_visual_tokens": 828672,
+      "subtitle_tokens": 240063,
+      "input_tokens": 1149927,
+      "new_inference_s": 22.086997285485268,
+      "peak_new_generation_gib": 10.548652172088623
+    },
+    "shared_preprocess_s": 414.36664143390954,
+    "note": "Only newly completed generation time; preprocessing includes extra native-input audits. Reused answers retain logical visual/text cost; not a controlled deployment speed benchmark."
+  },
+  "budget_control": {
+    "old_tokens": 2048,
+    "new_tokens": 3072,
+    "changed_videos": 8,
+    "changed_questions": 24,
+    "reused_questions": 156,
+    "all_reused_tensor_equal": true,
+    "note": "Reused questions reconstruct inputs without new answer generation; budget does not retrieve evidence away from sampled frames."
+  }
+}

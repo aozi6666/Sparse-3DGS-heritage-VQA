@@ -1,0 +1,557 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "-3t1rj8g6yg",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/-3t1rj8g6yg.srt",
+      "status": "available",
+      "bytes": 14560,
+      "sha256": "421a73dcf4fef3539cca8242a2c394cec9ac1ea2fa4a5ab78875fbe3b2738b61",
+      "cues": 133,
+      "nonempty_cues": 133
+    },
+    "frame_indices": [
+      0,
+      262,
+      524,
+      786,
+      1048,
+      1310,
+      1572,
+      1834,
+      2096,
+      2358,
+      2620,
+      2882,
+      3144,
+      3406,
+      3668,
+      3930,
+      4192,
+      4454,
+      4716,
+      4978,
+      5240,
+      5502,
+      5764,
+      6026,
+      6288,
+      6550,
+      6812,
+      7074,
+      7336,
+      7598,
+      7860,
+      8122
+    ],
+    "frame_seconds": [
+      0.0,
+      10.48,
+      20.96,
+      31.44,
+      41.92,
+      52.4,
+      62.88,
+      73.36,
+      83.84,
+      94.32,
+      104.8,
+      115.28,
+      125.76,
+      136.24,
+      146.72,
+      157.2,
+      167.68,
+      178.16,
+      188.64,
+      199.12,
+      209.6,
+      220.07999999999998,
+      230.56,
+      241.04,
+      251.52,
+      262.0,
+      272.48,
+      282.96,
+      293.44,
+      303.92,
+      314.4,
+      324.88
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        7
+      ],
+      [],
+      [
+        13,
+        14
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        29,
+        30
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        39,
+        40
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        53
+      ],
+      [
+        56
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        64,
+        65
+      ],
+      [
+        68,
+        69
+      ],
+      [
+        72,
+        73
+      ],
+      [
+        77,
+        78
+      ],
+      [
+        80,
+        81
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        91,
+        92
+      ],
+      [
+        96,
+        97
+      ],
+      [
+        101,
+        102
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        109,
+        110
+      ],
+      [
+        114,
+        115
+      ],
+      [
+        117,
+        118
+      ],
+      [
+        121,
+        122
+      ],
+      [
+        125,
+        126
+      ],
+      [
+        131,
+        132
+      ],
+      [
+        132,
+        133
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 2,
+        "start_ms": 5549,
+        "end_ms": 11309,
+        "text": "live performance in a cinema environment"
+      },
+      {
+        "cue_id": 3,
+        "start_ms": 8870,
+        "end_ms": 13019,
+        "text": "it's a whole new experience for those"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 15299,
+        "end_ms": 21420,
+        "text": "action on stage someone in Australia in"
+      },
+      {
+        "cue_id": 7,
+        "start_ms": 19800,
+        "end_ms": 23699,
+        "text": "New Zealand on a small little village in"
+      },
+      {
+        "cue_id": 13,
+        "start_ms": 38089,
+        "end_ms": 42769,
+        "text": "as an entire team that we're at the"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 40370,
+        "end_ms": 44629,
+        "text": "theater the morning of camera hustle one"
+      },
+      {
+        "cue_id": 19,
+        "start_ms": 49190,
+        "end_ms": 53329,
+        "text": "include seat removals we then rigged the"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 51019,
+        "end_ms": 54530,
+        "text": "cameras onto these platforms once these"
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 56059,
+        "end_ms": 64819,
+        "text": "communication lines between the"
+      },
+      {
+        "cue_id": 24,
+        "start_ms": 57979,
+        "end_ms": 66110,
+        "text": "auditorium and the OB truck so the great"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 71360,
+        "end_ms": 74690,
+        "text": "the theatre we've worked in a number of"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 72710,
+        "end_ms": 75979,
+        "text": "times before over the 10 years coming to"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 80990,
+        "end_ms": 85069,
+        "text": "exactly as a normal performance word in"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 83090,
+        "end_ms": 87020,
+        "text": "costume full technical support"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 90289,
+        "end_ms": 96020,
+        "text": "the camera director is basically being"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 92509,
+        "end_ms": 97819,
+        "text": "in charge of the transfer from the"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 102229,
+        "end_ms": 105200,
+        "text": "sense of where you want to put the"
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 103429,
+        "end_ms": 106789,
+        "text": "cameras whether you want the cameras to"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 112610,
+        "end_ms": 117299,
+        "text": "from the back of the auditorium"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 114960,
+        "end_ms": 118950,
+        "text": "you literally start going through the"
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 124600,
+        "end_ms": 129970,
+        "text": "today we all come and watch it projected"
+      },
+      {
+        "cue_id": 56,
+        "start_ms": 134310,
+        "end_ms": 137800,
+        "text": "we go around the room afterwards and"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 144760,
+        "end_ms": 154060,
+        "text": "their own thing to make the next one"
+      },
+      {
+        "cue_id": 63,
+        "start_ms": 146620,
+        "end_ms": 156640,
+        "text": "better if person sitting in stalls in"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 154060,
+        "end_ms": 159340,
+        "text": "the Ollivier theater doesn't see the"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 156640,
+        "end_ms": 161920,
+        "text": "lace of the way I would like the person"
+      },
+      {
+        "cue_id": 68,
+        "start_ms": 164290,
+        "end_ms": 168850,
+        "text": "absolutely sure that even on a tighter"
+      },
+      {
+        "cue_id": 69,
+        "start_ms": 167230,
+        "end_ms": 171480,
+        "text": "close-up we won't be able to see the"
+      },
+      {
+        "cue_id": 72,
+        "start_ms": 174760,
+        "end_ms": 179140,
+        "text": "the time where we take all the notes and"
+      },
+      {
+        "cue_id": 73,
+        "start_ms": 176319,
+        "end_ms": 180700,
+        "text": "we start our planning those notes will"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 185260,
+        "end_ms": 192360,
+        "text": "worked or not"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 187650,
+        "end_ms": 194940,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 194940,
+        "end_ms": 199200,
+        "text": "production be this incredibly complex"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 196890,
+        "end_ms": 200640,
+        "text": "event there's so much going on my job is"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 206849,
+        "end_ms": 210180,
+        "text": "welcome the audience in the theater"
+      },
+      {
+        "cue_id": 87,
+        "start_ms": 208010,
+        "end_ms": 211950,
+        "text": "welcome the audience watching worldwide"
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 215340,
+        "end_ms": 222599,
+        "text": "unfold"
+      },
+      {
+        "cue_id": 92,
+        "start_ms": 216850,
+        "end_ms": 224700,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 96,
+        "start_ms": 227879,
+        "end_ms": 231299,
+        "text": "position we check all the smaller"
+      },
+      {
+        "cue_id": 97,
+        "start_ms": 229650,
+        "end_ms": 233340,
+        "text": "details and that everything looks good"
+      },
+      {
+        "cue_id": 101,
+        "start_ms": 238049,
+        "end_ms": 241170,
+        "text": "I've got a friend he lives in Sydney he"
+      },
+      {
+        "cue_id": 102,
+        "start_ms": 239760,
+        "end_ms": 243360,
+        "text": "was like I saw one of your owns he lives"
+      },
+      {
+        "cue_id": 105,
+        "start_ms": 245489,
+        "end_ms": 252780,
+        "text": "to see today we are going to be"
+      },
+      {
+        "cue_id": 106,
+        "start_ms": 249989,
+        "end_ms": 254840,
+        "text": "broadcasting the Lehmann trilogy the"
+      },
+      {
+        "cue_id": 109,
+        "start_ms": 258209,
+        "end_ms": 263970,
+        "text": "have to make sure that our cinema can"
+      },
+      {
+        "cue_id": 110,
+        "start_ms": 261149,
+        "end_ms": 265680,
+        "text": "tune into the broadcasts you want the"
+      },
+      {
+        "cue_id": 114,
+        "start_ms": 269160,
+        "end_ms": 274740,
+        "text": "watching the show live in that venue"
+      },
+      {
+        "cue_id": 115,
+        "start_ms": 271699,
+        "end_ms": 278470,
+        "text": "hello and welcome to the Piccadilly"
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 278470,
+        "end_ms": 283230,
+        "text": "the Lehmann trilogy directed for the"
+      },
+      {
+        "cue_id": 118,
+        "start_ms": 280450,
+        "end_ms": 283230,
+        "text": "National Theatre"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 291419,
+        "end_ms": 294900,
+        "text": "performance that you would normally do"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 292770,
+        "end_ms": 297599,
+        "text": "and of course that's the point about nt9"
+      },
+      {
+        "cue_id": 125,
+        "start_ms": 301050,
+        "end_ms": 304800,
+        "text": "will see what you will see on stage you"
+      },
+      {
+        "cue_id": 126,
+        "start_ms": 302699,
+        "end_ms": 306270,
+        "text": "have to go to the theater the only"
+      },
+      {
+        "cue_id": 131,
+        "start_ms": 311729,
+        "end_ms": 317940,
+        "text": "game loving it in finland"
+      },
+      {
+        "cue_id": 132,
+        "start_ms": 314370,
+        "end_ms": 326740,
+        "text": "now that's truly that's"
+      },
+      {
+        "cue_id": 133,
+        "start_ms": 317940,
+        "end_ms": 326740,
+        "text": "[Music]"
+      }
+    ],
+    "text": "live performance in a cinema environment\nit's a whole new experience for those\naction on stage someone in Australia in\nNew Zealand on a small little village in\nas an entire team that we're at the\ntheater the morning of camera hustle one\ninclude seat removals we then rigged the\ncameras onto these platforms once these\ncommunication lines between the\nauditorium and the OB truck so the great\nthe theatre we've worked in a number of\ntimes before over the 10 years coming to\nexactly as a normal performance word in\ncostume full technical support\nthe camera director is basically being\nin charge of the transfer from the\nsense of where you want to put the\ncameras whether you want the cameras to\nfrom the back of the auditorium\nyou literally start going through the\ntoday we all come and watch it projected\nwe go around the room afterwards and\ntheir own thing to make the next one\nbetter if person sitting in stalls in\nthe Ollivier theater doesn't see the\nlace of the way I would like the person\nabsolutely sure that even on a tighter\nclose-up we won't be able to see the\nthe time where we take all the notes and\nwe start our planning those notes will\nworked or not\n[Music]\nproduction be this incredibly complex\nevent there's so much going on my job is\nwelcome the audience in the theater\nwelcome the audience watching worldwide\nunfold\n[Music]\nposition we check all the smaller\ndetails and that everything looks good\nI've got a friend he lives in Sydney he\nwas like I saw one of your owns he lives\nto see today we are going to be\nbroadcasting the Lehmann trilogy the\nhave to make sure that our cinema can\ntune into the broadcasts you want the\nwatching the show live in that venue\nhello and welcome to the Piccadilly\nthe Lehmann trilogy directed for the\nNational Theatre\nperformance that you would normally do\nand of course that's the point about nt9\nwill see what you will see on stage you\nhave to go to the theater the only\ngame loving it in finland\nnow that's truly that's\n[Music]",
+    "text_tokens": 458,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "65b2e6b4f4305f5dcc74064dd220176ed27ed25ff76b4165862f936141f15419",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

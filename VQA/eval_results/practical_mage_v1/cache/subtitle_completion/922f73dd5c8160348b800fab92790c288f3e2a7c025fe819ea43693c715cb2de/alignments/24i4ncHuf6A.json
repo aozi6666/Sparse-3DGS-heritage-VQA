@@ -1,0 +1,561 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "24i4ncHuf6A",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/24i4ncHuf6A.srt",
+        "status": "available",
+        "bytes": 2253,
+        "sha256": "834cfd5acac897f575d0d27fae795d9e5db94f2eafc305d5ab4af15cab694f81",
+        "cues": 15,
+        "nonempty_cues": 15
+      },
+      "frame_indices": [
+        0,
+        90,
+        180,
+        270,
+        359,
+        449,
+        539,
+        629,
+        719,
+        809,
+        898,
+        988,
+        1078,
+        1168,
+        1258,
+        1348,
+        1437,
+        1527,
+        1617,
+        1707,
+        1797,
+        1887,
+        1976,
+        2066,
+        2156,
+        2246,
+        2336,
+        2426,
+        2515,
+        2605,
+        2695,
+        2785
+      ],
+      "frame_seconds": [
+        0.0,
+        3.6,
+        7.2,
+        10.8,
+        14.36,
+        17.96,
+        21.56,
+        25.16,
+        28.76,
+        32.36,
+        35.92,
+        39.52,
+        43.12,
+        46.72,
+        50.32,
+        53.92,
+        57.48,
+        61.08,
+        64.68,
+        68.28,
+        71.88,
+        75.48,
+        79.03999999999999,
+        82.64,
+        86.24,
+        89.84,
+        93.44,
+        97.03999999999999,
+        100.6,
+        104.2,
+        107.8,
+        111.4
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [],
+        [
+          11
+        ],
+        [],
+        [
+          12
+        ],
+        [
+          12
+        ],
+        [],
+        [
+          13
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 1360,
+          "end_ms": 4680,
+          "text": "What caused the devastating First World War?"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 5860,
+          "end_ms": 9900,
+          "text": "You may be aware of the assassination of Archduke Franz Ferdinand."
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 10420,
+          "end_ms": 16720,
+          "text": "This was, in fact, the trigger which set off the war from a number of underlying causes."
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 17740,
+          "end_ms": 24740,
+          "text": "These were: Militarism, Alliances, Imperialism, and Nationalism."
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 25900,
+          "end_ms": 31580,
+          "text": "Militarism created an arms race out of competition and fear of neighboring nations."
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 32259,
+          "end_ms": 38000,
+          "text": "Germany tried to compete in a naval race with Britain, building more and more ships."
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 39140,
+          "end_ms": 43640,
+          "text": "Alliances were created to check the balance of power between nations."
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 44660,
+          "end_ms": 51180,
+          "text": "in 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance."
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 51940,
+          "end_ms": 59040,
+          "text": "France, Britain, and Russia reacted in 1907 by creating the Triple Entente."
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 60760,
+          "end_ms": 64540,
+          "text": "Imperialism caused another type of competition and disagreement."
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 65000,
+          "end_ms": 71440,
+          "text": "The British and French empires made Germany jealous as it tried to colonize parts of Africa."
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 72760,
+          "end_ms": 81660,
+          "text": "Nationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia."
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 85140,
+          "end_ms": 91240,
+          "text": "Seven young Bosnian Serbs, who were part of the nationalist Black Hand,"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 91240,
+          "end_ms": 97080,
+          "text": "planned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary."
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 97880,
+          "end_ms": 103720,
+          "text": "Get your copy of Simple History: World War I, available on Amazon now."
+        }
+      ],
+      "text": "What caused the devastating First World War?\nYou may be aware of the assassination of Archduke Franz Ferdinand.\nThis was, in fact, the trigger which set off the war from a number of underlying causes.\nThese were: Militarism, Alliances, Imperialism, and Nationalism.\nMilitarism created an arms race out of competition and fear of neighboring nations.\nGermany tried to compete in a naval race with Britain, building more and more ships.\nAlliances were created to check the balance of power between nations.\nin 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance.\nFrance, Britain, and Russia reacted in 1907 by creating the Triple Entente.\nImperialism caused another type of competition and disagreement.\nThe British and French empires made Germany jealous as it tried to colonize parts of Africa.\nNationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia.\nSeven young Bosnian Serbs, who were part of the nationalist Black Hand,\nplanned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary.\nGet your copy of Simple History: World War I, available on Amazon now.",
+      "text_tokens": 254,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "24i4ncHuf6A",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/24i4ncHuf6A.srt",
+          "status": "available",
+          "bytes": 2253,
+          "sha256": "834cfd5acac897f575d0d27fae795d9e5db94f2eafc305d5ab4af15cab694f81",
+          "cues": 15,
+          "nonempty_cues": 15
+        },
+        "frame_indices": [
+          0,
+          90,
+          180,
+          270,
+          359,
+          449,
+          539,
+          629,
+          719,
+          809,
+          898,
+          988,
+          1078,
+          1168,
+          1258,
+          1348,
+          1437,
+          1527,
+          1617,
+          1707,
+          1797,
+          1887,
+          1976,
+          2066,
+          2156,
+          2246,
+          2336,
+          2426,
+          2515,
+          2605,
+          2695,
+          2785
+        ],
+        "frame_seconds": [
+          0.0,
+          3.6,
+          7.2,
+          10.8,
+          14.36,
+          17.96,
+          21.56,
+          25.16,
+          28.76,
+          32.36,
+          35.92,
+          39.52,
+          43.12,
+          46.72,
+          50.32,
+          53.92,
+          57.48,
+          61.08,
+          64.68,
+          68.28,
+          71.88,
+          75.48,
+          79.03999999999999,
+          82.64,
+          86.24,
+          89.84,
+          93.44,
+          97.03999999999999,
+          100.6,
+          104.2,
+          107.8,
+          111.4
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [],
+          [
+            11
+          ],
+          [],
+          [
+            12
+          ],
+          [
+            12
+          ],
+          [],
+          [
+            13
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ],
+          [
+            14
+          ],
+          [
+            15
+          ],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 1360,
+            "end_ms": 4680,
+            "text": "What caused the devastating First World War?"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 5860,
+            "end_ms": 9900,
+            "text": "You may be aware of the assassination of Archduke Franz Ferdinand."
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 10420,
+            "end_ms": 16720,
+            "text": "This was, in fact, the trigger which set off the war from a number of underlying causes."
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 17740,
+            "end_ms": 24740,
+            "text": "These were: Militarism, Alliances, Imperialism, and Nationalism."
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 25900,
+            "end_ms": 31580,
+            "text": "Militarism created an arms race out of competition and fear of neighboring nations."
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 32259,
+            "end_ms": 38000,
+            "text": "Germany tried to compete in a naval race with Britain, building more and more ships."
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 39140,
+            "end_ms": 43640,
+            "text": "Alliances were created to check the balance of power between nations."
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 44660,
+            "end_ms": 51180,
+            "text": "in 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance."
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 51940,
+            "end_ms": 59040,
+            "text": "France, Britain, and Russia reacted in 1907 by creating the Triple Entente."
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 60760,
+            "end_ms": 64540,
+            "text": "Imperialism caused another type of competition and disagreement."
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 65000,
+            "end_ms": 71440,
+            "text": "The British and French empires made Germany jealous as it tried to colonize parts of Africa."
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 72760,
+            "end_ms": 81660,
+            "text": "Nationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia."
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 85140,
+            "end_ms": 91240,
+            "text": "Seven young Bosnian Serbs, who were part of the nationalist Black Hand,"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 91240,
+            "end_ms": 97080,
+            "text": "planned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary."
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 97880,
+            "end_ms": 103720,
+            "text": "Get your copy of Simple History: World War I, available on Amazon now."
+          }
+        ],
+        "text": "What caused the devastating First World War?\nYou may be aware of the assassination of Archduke Franz Ferdinand.\nThis was, in fact, the trigger which set off the war from a number of underlying causes.\nThese were: Militarism, Alliances, Imperialism, and Nationalism.\nMilitarism created an arms race out of competition and fear of neighboring nations.\nGermany tried to compete in a naval race with Britain, building more and more ships.\nAlliances were created to check the balance of power between nations.\nin 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance.\nFrance, Britain, and Russia reacted in 1907 by creating the Triple Entente.\nImperialism caused another type of competition and disagreement.\nThe British and French empires made Germany jealous as it tried to colonize parts of Africa.\nNationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia.\nSeven young Bosnian Serbs, who were part of the nationalist Black Hand,\nplanned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary.\nGet your copy of Simple History: World War I, available on Amazon now.",
+        "text_tokens": 254,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_ms": 1360,
+          "end_ms": 81660,
+          "text": "What caused the devastating First World War? You may be aware of the assassination of Archduke Franz Ferdinand. This was, in fact, the trigger which set off the war from a number of underlying causes. These were: Militarism, Alliances, Imperialism, and Nationalism. Militarism created an arms race out of competition and fear of neighboring nations. Germany tried to compete in a naval race with Britain, building more and more ships. Alliances were created to check the balance of power between nations. in 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance. France, Britain, and Russia reacted in 1907 by creating the Triple Entente. Imperialism caused another type of competition and disagreement. The British and French empires made Germany jealous as it tried to colonize parts of Africa. Nationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia."
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13,
+            14,
+            15
+          ],
+          "start_ms": 85140,
+          "end_ms": 103720,
+          "text": "Seven young Bosnian Serbs, who were part of the nationalist Black Hand, planned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary. Get your copy of Simple History: World War I, available on Amazon now."
+        }
+      ],
+      "text": "S1 [00:00:01.360 --> 00:01:21.660] What caused the devastating First World War? You may be aware of the assassination of Archduke Franz Ferdinand. This was, in fact, the trigger which set off the war from a number of underlying causes. These were: Militarism, Alliances, Imperialism, and Nationalism. Militarism created an arms race out of competition and fear of neighboring nations. Germany tried to compete in a naval race with Britain, building more and more ships. Alliances were created to check the balance of power between nations. in 1882, Germany, Austria-Hungary, and Italy formed the Triple Alliance. France, Britain, and Russia reacted in 1907 by creating the Triple Entente. Imperialism caused another type of competition and disagreement. The British and French empires made Germany jealous as it tried to colonize parts of Africa. Nationalism created the feeling that countries were better than others, and promoted the anti-Austro-Hungarian sentiments in Serbia.\nS13 [00:01:25.140 --> 00:01:43.720] Seven young Bosnian Serbs, who were part of the nationalist Black Hand, planned to assassinate Franz Ferdinand, heir to the throne of Austria-Hungary. Get your copy of Simple History: World War I, available on Amazon now.",
+      "text_tokens": 312,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "fad56cc4cea87bfd3dc0d513412bad892abd5c5e80cbd3a5c3cb912c445a632f"
+}

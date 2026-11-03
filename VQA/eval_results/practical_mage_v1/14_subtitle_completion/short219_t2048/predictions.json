@@ -1,0 +1,3506 @@
+[
+  {
+    "index": "0",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "4cc50243b435a07e82f187ac275ba705cda020eb560367ab2253f835e2ca722d",
+      "aligned": "88d4f3e43dca9584c230cf073b7d139544e0024b08cbc0ba551e8ebfabef1ab4",
+      "continuous": "33018bb1613633ce53e13b94f96e6d007ec577c17ed0b1b5a2be5432c81301ea"
+    }
+  },
+  {
+    "index": "1",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "d6abf395140e5069ed104e008882aaa3f9cfbfe023867281b84f4e15299d2e9a",
+      "aligned": "a1b90fa5bc2dd5c6d55cdde10247c4d416db114fc27141be78011ab1ca6a15e9",
+      "continuous": "17072c018d8e57a767b82631816506517ff374ed5555392f81160db9867c27c1"
+    }
+  },
+  {
+    "index": "2",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "49f806c66b7cb824171d14e8d9f1fcdc9fd64d4134edf24556b754bc0d1823b5",
+      "aligned": "baf9a1b4733fe17f2c517abb399ef82bb5d7574dd7af129bad46e494e8f3ed28",
+      "continuous": "3efb4f6daf95625a611b44c6c801847e723c7a8c576357f5090878b4d8ffc81f"
+    }
+  },
+  {
+    "index": "3",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "79ba96611344fb78a5720f30d605a8644971b01b0404f5a70d08bcc71688c382",
+      "aligned": "b9958e1f9ae2e6ae12dc426ab45da585bd075112c207edc354d1ef7e045f2dbd",
+      "continuous": "a12fb35de5d98593e63ebc476ad64459a79cbba94e3406c5eee5915a271cb200"
+    }
+  },
+  {
+    "index": "4",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "2ff8e7abc533397002d9372fca46f4e06a945fd3a87006f0925cfa53f8c8ad15",
+      "aligned": "177cd18b7f68cac1c327f4345385469c88b7981b718b7f5726f93b15828fbfd6",
+      "continuous": "03b30ac7622d6a72fba80f154857279c291cab253edb7ab58f8be4adde17aacc"
+    }
+  },
+  {
+    "index": "5",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "64d5bf2ca841140fec166624eb58e9611c279fde4ca7b7c97bea068b3880b407",
+      "aligned": "81c785e0e447473db05071d7e2dda43a42069d4cafc648ca88a0698a120d19e0",
+      "continuous": "e8d9575d18b740f015ec18f8b2c4ea3a7c1863e6f12227bd91f8a2a4e804d639"
+    }
+  },
+  {
+    "index": "6",
+    "video_id": "HwnB8aCn8yE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "0795b0dd3a8987c5718a62d33835535c6ea54e92ff08c5eb054c9b512c3b478b",
+      "aligned": "fa950d4b22b1d8beb1d99f5563fa124ea744e1ae8c9ace7b1892aa10efb90d97",
+      "continuous": "4f33660adb7850577085613cf328e1236d073cf8021e2bb5bf75291847dc4d3e"
+    }
+  },
+  {
+    "index": "7",
+    "video_id": "HwnB8aCn8yE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "cec6fdca2c54bede9d16916dd23f1aef1e57486adefd1851224cfab6274ad7ee",
+      "aligned": "34820053d078f4f2ca5e9e09b64b392ba4d82039af338d2a214b9f6b67d903d8",
+      "continuous": "e74413f7e2e20f10cd55b48a1a2ff73b631c6956fa6443864d27247b96798475"
+    }
+  },
+  {
+    "index": "8",
+    "video_id": "HwnB8aCn8yE",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "96c4bd050edf71bf9b43dcbfd95022de6288c81ceb80e5d693d67204f94b6cce",
+      "aligned": "4f87065c00b180fa8f67424d2e6703e326eafbfcdccff4eea10b1f54c45a556f",
+      "continuous": "81e9dd7de5b5f8cc4f4805d5fdff0956b000177e69953b46a1996d74d1d253f9"
+    }
+  },
+  {
+    "index": "9",
+    "video_id": "24i4ncHuf6A",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7a824165450877cef59df0efa511b052356cd165c8901cc2cd2b02b6f149da30",
+      "aligned": "093cdb4ccec28b7e4111e29373acca58ad6820c39718e8cd051f27a9dd191e28",
+      "continuous": "3630c0f5ed14931de2b5ef52daec710e5d8e3de61b2ae6e047fb8b392d2bb6cb"
+    }
+  },
+  {
+    "index": "10",
+    "video_id": "24i4ncHuf6A",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "9f92a54161fea8ae6bc1cf61518c0e9a8840f854ec39129be63e0d815f5269db",
+      "aligned": "cbd524321db0b47dac5a7e25a3b770a1c608e1eafb2aefcd214daa2fea6f266e",
+      "continuous": "64948118c5baa9e09c454a661ac526df0327d62322434cff239fc521ae4b50c1"
+    }
+  },
+  {
+    "index": "11",
+    "video_id": "24i4ncHuf6A",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7ad5540c0f5c59ff0602e6607f9afa85eeaab0219d8efe628ba453b215ee3294",
+      "aligned": "4fe1f1d8d0d18ed7641ff357b6c8b6a25af4efb01acef12bc941625b2febd636",
+      "continuous": "53f613abb456455ac59b2cb69118a7e2204f2b0ea71dcfcf1ca871922273fcfc"
+    }
+  },
+  {
+    "index": "12",
+    "video_id": "40BlVzjxu-I",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "a63d207ae9ccfd47d8b971dda6de84bc0784183a4f3dfceb83679c19001bfb68",
+      "aligned": "0131199053609d0178f95d80a76907efceb4cde25b8a7cc08986d1d35ced4e9c",
+      "continuous": "666f618d27fb04d2cd72040ff8f6be7fba273754867d6d2e94e292f7e15c37dd"
+    }
+  },
+  {
+    "index": "13",
+    "video_id": "40BlVzjxu-I",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "ba5def1b47b5fc83205036dbc9ecc8656c219ecf6d3bb5c83103f0aed34be3e5",
+      "aligned": "ff49130bbe4ac0be301130ad48461c716faa4029549cc4b84549819261de7050",
+      "continuous": "ee55fcb7d8dd0f0d91a2d1caaa0942fb2456361255839bde76ae4c9b94def902"
+    }
+  },
+  {
+    "index": "14",
+    "video_id": "40BlVzjxu-I",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "62c99c077aec2b77c299d99d556a0b130d375e902da22455da64b12222450c69",
+      "aligned": "1afce3854a0b31443c4fc1aa3811f22a437f1f1bc99f9ea9e9e52c215934090e",
+      "continuous": "963b796ac040df68103c78261ed7240842f8a076b5cd3976abfe6e2fd05eaf85"
+    }
+  },
+  {
+    "index": "15",
+    "video_id": "eXKE0nAMmg4",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "d2c0bad08ee4ff67fe17f6fc21371c54fd79a3660d13eba3a9550368c31cf7b6",
+      "aligned": "72f2fae828d82139f0c256cd039243e155467a53bddf1d96550a08b7ac7c2bfd",
+      "continuous": "089eae85e0c0c48e40913285613da402456a8a8123df686c9e12f26feebd1929"
+    }
+  },
+  {
+    "index": "16",
+    "video_id": "eXKE0nAMmg4",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "05d920ea63abdcdb8db671a0afa2d09cbe57398d3a931ef3107eebbd257dd523",
+      "aligned": "20d37d97f877f738b8d25b49331c645a8cbafae53f36d0605db90bbdae15b01c",
+      "continuous": "36ba95ed8d0c4f7e108f9cc7f9199bfc7a68efa0d15e6962ae18a5bd5556011b"
+    }
+  },
+  {
+    "index": "17",
+    "video_id": "eXKE0nAMmg4",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "7085a9a79359b14efe661fffe45d4c7528e0ce0c2fc96c0538a62de695a67a83",
+      "aligned": "aec73ce086e0dfe9e06dd30dcca45066ff67b5417c7e64d92507bdf4877e1e3c",
+      "continuous": "e32086963de8e29c33c7ef415abfe50b34211deaddb35a99bf6c5ade12065dbc"
+    }
+  },
+  {
+    "index": "18",
+    "video_id": "ebzbKa32kuk",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "30c4bb46989e8662238a62b479e5e2b89efd7618574b3a0b02d33d177e566eef",
+      "aligned": "50e91591b8709253123ab129ba8318018acce49b9a70ba5c98e3c03c3f35c79a",
+      "continuous": "a02680657039c59b52b423a7b42e3b1c197004b8945f0e1e5c7f31a2274ff152"
+    }
+  },
+  {
+    "index": "19",
+    "video_id": "ebzbKa32kuk",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "ac47f3f4412ca836817d06a76c15e7cb5371c6a382d2053d0a7d1e0c60ef23a6",
+      "aligned": "3a56885369aaaddbddfb79d048cf53f66a1e6e100da12a767fae4d48c389873c",
+      "continuous": "787f1258caa45f09c4fcff7cfbd6f57e6d19f414f8c3b02e164ce06d665c83a4"
+    }
+  },
+  {
+    "index": "20",
+    "video_id": "ebzbKa32kuk",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "7e4554adc6cb4135558be2e5bc467ac3c117719c68e282bdb1781b74c6b5faeb",
+      "aligned": "d424dfad7d1c654fb031ac22e95fdd0d173c45054e919f5f27714ed975ba6343",
+      "continuous": "bcbf58902bea225177988f55dfd5092fb52dc1f22b5e5c4759253310833041f5"
+    }
+  },
+  {
+    "index": "21",
+    "video_id": "39HTpUG1MwQ",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "578489985b6429392c1b04438b88763fbb7dc880f760756e07d7014644d7095d",
+      "aligned": "2f633adfc12628b1bdbd4e8fc795806cc1c3e393de3fdc5533087b9a26e2bb27",
+      "continuous": "07d67fba157fac31521c7d8d5d0fcf6be2d1cadfa23ca1f410e5a81e96a85b96"
+    }
+  },
+  {
+    "index": "22",
+    "video_id": "39HTpUG1MwQ",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "c815428e70bfa809655a282f333a50610fcf475199f132d4a255556c98b3e5be",
+      "aligned": "25f86e55e28387aaad8d4efa2ca72b662ecab275e864275caf04b4c0bbef860e",
+      "continuous": "8ab036b57d96a0d778da1333e7bc04eeb6af3420670e02a3abf1a2d6f91d3445"
+    }
+  },
+  {
+    "index": "23",
+    "video_id": "39HTpUG1MwQ",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7b648d501411abb13f0ad44447f9d41b906c27fd229e078672cc3ad9f454d551",
+      "aligned": "bf6d0e65e67a30ea87719a4fec7e213deb537b80acaf4f77962b070e8e9f3c22",
+      "continuous": "879441ae8868215baac392dcac4e8909a198b99670cd00992c510509d576f101"
+    }
+  },
+  {
+    "index": "24",
+    "video_id": "blSnLEZe-sI",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "4ef0b7e2309eded18da3b63d47c179c208b38772a2e9228d8b43b2ee4cc0c67d",
+      "aligned": "2d9765bd0a84e0ff9835298818409bc08eb9a5097c540a10976ace768f8561a7",
+      "continuous": "28bf076a14c6ea072fdd9c6331a29df39759be36b2b48aa273d47e6916e72052"
+    }
+  },
+  {
+    "index": "25",
+    "video_id": "blSnLEZe-sI",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "14e1b8340ac406b24851e34d245575a5d91dbc3df11e5f194356e401d8456524",
+      "aligned": "2c02a23b2cd0e28864b5bc638a32e4d51010e90aade1e270587b3652f3e76d4a",
+      "continuous": "76b9d75f1baf90dde9f520c1ecf24bdcb7f86ff592e25fce863b58feee113839"
+    }
+  },
+  {
+    "index": "26",
+    "video_id": "blSnLEZe-sI",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "f92bff017861f9457ec53b5abadd5a05e49d5264bddad7811314bc42d39afd10",
+      "aligned": "b978e7c33bcd42fd05a10aa8dd5a6a034e5d41e5abe2d7b6da375103547742cf",
+      "continuous": "c5f30c2887a31882a754548f84773d13da8a549f06a71368bfec3ab34855d9ae"
+    }
+  },
+  {
+    "index": "27",
+    "video_id": "EQ-67udZEeg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "93d3114c6395048a98bd3e57d7a09de806e775492ea2d82e767055a99950dd51",
+      "aligned": "3fe58738e88ddc191f5affffb89e1317a068ea709e12679a54563b1c564f529f",
+      "continuous": "6792773767e4678d84cfeae8905aea51e57d11ac313bef6dce9da95080aab159"
+    }
+  },
+  {
+    "index": "28",
+    "video_id": "EQ-67udZEeg",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "fccdd2fc1fcf7702072a85f08dbcaa1cfb3033287ac0d1895f5d7cb2524adcf0",
+      "aligned": "b7271febc15cecd4cc26ba599d145ce43f480b8205259c7b8e7d659834051d68",
+      "continuous": "da89c143b305d4df9c81063373372b23bfd462681068c7fe30d034823474ae6b"
+    }
+  },
+  {
+    "index": "29",
+    "video_id": "EQ-67udZEeg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "e450a2c6ada138de4eb7ff70f4b9a1be059c7c254d15d8a90e7891071d83e137",
+      "aligned": "cfa08b0b6433af964a1061de5d55dccace38862aef78bca45cd167e535f5b5ba",
+      "continuous": "607933b1e601331454ce9c1f1c95c8d628999ccbb0ccf5bec6008e05e8e892fe"
+    }
+  },
+  {
+    "index": "30",
+    "video_id": "fo0Hmch2YS0",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "6a61eecefc52f517a4ca8590052d68126a7f2ca3a8dd35e8e2a04bca142bca10",
+      "aligned": "810786ac130cfe3eeea322fd9dea105d8a4cfed5a1abc3870819d6208ad34076",
+      "continuous": "27aaa7462c64443f8299dcf888fdb1fc8397f2ae6d94ea2c807637ccca626495"
+    }
+  },
+  {
+    "index": "31",
+    "video_id": "fo0Hmch2YS0",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "aedf9ee3eefb714531a23ade5ea7b8b42059fbda4f5180ebd7fb7db57a961c03",
+      "aligned": "b2d1b600f489aae6518bb3f5b0dc21561ae41278fc05b7d4932b72d36bbbb460",
+      "continuous": "fda9153be904845a83671f7dde5d3ec81d9d09e09f2257049c03cdc21557b4db"
+    }
+  },
+  {
+    "index": "32",
+    "video_id": "fo0Hmch2YS0",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "1f986181d011ca6a520e2d5eeb9cf90e85804f31ce7cf43b03b656d95620049d",
+      "aligned": "966b75123e4e9b543509f5b56b5c8b5a8288ef365408186b2e8997cb05cfbd0f",
+      "continuous": "9118a8efb4d85e684fcd2aa7e4594875753cddccc39c279ddb06087e63a513c2"
+    }
+  },
+  {
+    "index": "33",
+    "video_id": "DF_J3vCcbBA",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "c321bda9622243fcc8937755c70291c86e7bac8fa9ad53b24ca855e30903cbc9",
+      "aligned": "78c1a5242604a6d589989d4afe9a7ecc5873a155a393ccb28ad3b3b2fdef9899",
+      "continuous": "4cac864128c5d64b0c7e9a72f9cdb4b0c75457f6ba8413e74108ec207aec93ab"
+    }
+  },
+  {
+    "index": "34",
+    "video_id": "DF_J3vCcbBA",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "8690340a62d1e96d9801ccfd286918560769d433dda275e5285266d27be914ab",
+      "aligned": "2c49a436c158ceee7726f8da86d4c61f5a5a80583fce216e215f725fd7d862fe",
+      "continuous": "05841cce1ac1bd7731ab1ea1bb121e4e1b368c4a26873bfce3192b24c15c316e"
+    }
+  },
+  {
+    "index": "35",
+    "video_id": "DF_J3vCcbBA",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "c0af4accb62f20f390891c2867c0bd997b935d819c5c4b4b24557e3a6f2c6d26",
+      "aligned": "e566571c39a5a68612d9459cdf454719a0e082525440a5cc30342849b7aea453",
+      "continuous": "8dd26d6148b3db861995c7606760f3b429dc5b5a5d82e089489fe286ffda9f37"
+    }
+  },
+  {
+    "index": "36",
+    "video_id": "D52rTzibFRc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "cb399a7005c867829b2453b85d8dfa50ebca58fa8d38efb1f73fcd375fc42e96",
+      "aligned": "95de95667429734469b02bca660aa95d069c0b05de3f07a8f19cec87c575c558",
+      "continuous": "431e02f050c196213f4b8808d07015542d01b0d88ec26baa582f820961ea1329"
+    }
+  },
+  {
+    "index": "37",
+    "video_id": "D52rTzibFRc",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "c92644978946b21f7376bf8adc45e574f8adcc07814502794b0d2f9028897813",
+      "aligned": "67112351f202f04891b968c01d895c276f5fbcd0f62753b988f6c82af980868d",
+      "continuous": "80a55e6f384a969fd36e7da77185c7a44c0b30c527a124b23c5d85f7dcd8671c"
+    }
+  },
+  {
+    "index": "38",
+    "video_id": "D52rTzibFRc",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "8444dbef574789a0de0c180f184dc63962d4c3296e3f74c7534cb7bb858b6bf0",
+      "aligned": "4c4e80114488e8856dc15b41063c4df9776451fd1ea3c7b2de3715daa37136e0",
+      "continuous": "6827760918d31d249f9a65ef363c5dc87c053ebb0f29e97a31f56c986d81b339"
+    }
+  },
+  {
+    "index": "39",
+    "video_id": "eTLMWnsStuk",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "3126e67ce5a60dafdd038551ff44acc1ebbe02c9ed596a3980e858dc9d27a367",
+      "aligned": "b3e6ad2e81179c8401a685429998269735b841e858e1c05ab5179fe96d6bf5ee",
+      "continuous": "b3113d93cc7326b89533831b2930ddb15035c268640154994fcd40b9bd1b66ff"
+    }
+  },
+  {
+    "index": "40",
+    "video_id": "eTLMWnsStuk",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "60d14501e0081079d52d6eb6920bafb49ea1a42a489a920371de7270b83c0fdb",
+      "aligned": "127c1b6c147672f26cfcc6fc87b7540feafa85100e3f4e464bd3f350ddc3a454",
+      "continuous": "3b06b3e209edf011d901d052bf0345046cc2a307a76e4edbe1dc09e100f278d5"
+    }
+  },
+  {
+    "index": "41",
+    "video_id": "eTLMWnsStuk",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "ccd15169e11452cd79677ed48f3d159cfb0c772ac55afab7f5703687afec0954",
+      "aligned": "5433eb4463227ebbc57230c8b92e2d2b53f9a2d6ce5f043a558e6959d7257f04",
+      "continuous": "c5827a36aa07a28545401e300f267d1435aed9dea386aefc287a677e7596d987"
+    }
+  },
+  {
+    "index": "42",
+    "video_id": "fo-mVfOsC-E",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "a07d78bb96633859f01acbbd594567b1f4056da020c276582264d8641637faee",
+      "aligned": "c4bba4d15c39b18caab4b4049dbeb71ec27cd0e8c88afef43bc8263cb723ea3a",
+      "continuous": "0ae3246dd4bc3eb95a8a9da91cb2bfd3d32ea7be067491f086ec7049c400b1a4"
+    }
+  },
+  {
+    "index": "43",
+    "video_id": "fo-mVfOsC-E",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "4b70ebcaf9317023e805d5eb35f38160ed2b054de4f1a17fd50f107508e87468",
+      "aligned": "720a6cbef14942d5241e91d3b5f34478a3b0154817095311223cebe9a74498d5",
+      "continuous": "bb6d325fc73bac23ead5024289dfbea1bffef2d3c08b88cccd04c161d075e6af"
+    }
+  },
+  {
+    "index": "44",
+    "video_id": "fo-mVfOsC-E",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "4920f57a0424ebb56a98f396bca33cd3bdbde07187195e48a6e3e163041ca9b4",
+      "aligned": "7bb09cd6557a56c19351feeccb2456fb6932a94eb8daf0dccd2d6c23dbd69017",
+      "continuous": "d905c1e8c704b8d27c5a5963a2bd84c663fd1d003b57823656e0426507fc510b"
+    }
+  },
+  {
+    "index": "45",
+    "video_id": "CezlmUwMXNo",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "dc4c12017ecad741f6c6d3a0584621e51ca29cfde6b4be04f2f0f0b3108c2236",
+      "aligned": "4854fbc52d3a742d659b945430bb401d0a64b3f1e0e5b2454b7b1d37226b3160",
+      "continuous": "b58e96a077d09b0b85fb1f71aac9a307ec4132011799fd8fc3e01dbf1767d693"
+    }
+  },
+  {
+    "index": "46",
+    "video_id": "CezlmUwMXNo",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "03cb6e7659cdca4a34c3e3a13780411f12fa000bfceaabd4a4c24bc85c3131f7",
+      "aligned": "e3ff430efcc1b928b75af82bf35305079642724941e7c6f55d2ebfeb425da159",
+      "continuous": "80b12d54e5e78a1af7476ccc0d581be8b7d66fd9e1fb6d15d9ac037d23f566ed"
+    }
+  },
+  {
+    "index": "47",
+    "video_id": "CezlmUwMXNo",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "891e5f3e53dc1a8fefeb6c89606b8a200b8cd6376b2d0d6ecf4089f7367fb3b7",
+      "aligned": "247ed6e0e6cfd6b9be376ee8de9e4af4794e369d456a42fd689aad4d949b3690",
+      "continuous": "f562c55667fbd570e103636035528c97ded326ba0b2975dd997aea0b35d3c8b3"
+    }
+  },
+  {
+    "index": "48",
+    "video_id": "HvjgQqNOq9A",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "995cbea37257bff467ae00b722aa71f0e3aae43e2a93dd3659dd87797f3f481a",
+      "aligned": "d122a57fe2c8df49995ee5c71446d1cb74cf42069c4e486f3daadffaf5eca88c",
+      "continuous": "cc27e6c89e719c9dda8f4a61e8e69c2462e9058177371e0de9bc0339390d900e"
+    }
+  },
+  {
+    "index": "49",
+    "video_id": "HvjgQqNOq9A",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "852bf466f06a6784afca5a506b96c6f01d2acb852f6a120c973d30c9205909ea",
+      "aligned": "3a23d1acdf02ba30659a338d5e38739377c7b9fa490f6c67fdab7d6b0d714add",
+      "continuous": "1ab8bd9c39c506a56c2b37906af8ff952806a078127582dc642250e9cc0e60b1"
+    }
+  },
+  {
+    "index": "50",
+    "video_id": "HvjgQqNOq9A",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "9092bdf3b8f81f38ff3abef0c9ff1b2b590f469313eb343abfff21b2ba6b7831",
+      "aligned": "c879519bf73e977cb93912eb2e515241e570bdf8ff603355e7f8d187024e1e3b",
+      "continuous": "db74be9392b3d5a69739bf0b2a8c1d920421c844faa47909119553a0677a700c"
+    }
+  },
+  {
+    "index": "51",
+    "video_id": "540LkURTR7g",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "6b01692ee7ad3825d3c0dd9ab100d05e427a68a43b119b14ef71082ee60b57a8",
+      "aligned": "4da45c50266db900f9322edbda323b93ba91f05c68e6fd1a0cd8754a6a936185",
+      "continuous": "75b1e23cdfc033f4cf7825e787204a7f1acd79386cd20109b5e6ea60e6ee25f7"
+    }
+  },
+  {
+    "index": "52",
+    "video_id": "540LkURTR7g",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "8a6e36a57618f10059fea600df236cb49123186935111727a3b58fb4da087ed3",
+      "aligned": "51c3f051ad530c258b1cfaf98efa9a6f9dea7a5c0aa5372c0afd25b9d52505a9",
+      "continuous": "239c0d9ac13017051308082478c3508ef25c9b96f12e8aea0c1b6aeb05e39558"
+    }
+  },
+  {
+    "index": "53",
+    "video_id": "540LkURTR7g",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "fd40f57a931cc85b9858aa8bdc34fd6b61fc621195bda6271457105423be0a6a",
+      "aligned": "4d57d4f8e08156d8c8e546910bae798b84306d5c4e7652fe301b11c6ecc09c42",
+      "continuous": "2f9cfb34741b355ef78580d98f90fea7c3925326f45a32a53b8483205c2a1c01"
+    }
+  },
+  {
+    "index": "54",
+    "video_id": "21q-lDikdBg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "b85fb5f2b96e625bfa330502c99df910dbba3253cc218a2555f2f381d9676bda",
+      "aligned": "893f25c3189cb35a126f2fab1f5ac0c8ad51bb6f381e096c65f5a9c462375fa9",
+      "continuous": "7c2a8e6ee5eaa5e9cc46c17f4f5ca683c35b609c41a512241b9449197bf4b8dc"
+    }
+  },
+  {
+    "index": "55",
+    "video_id": "21q-lDikdBg",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "fa0358f332cb19562e062c29f9c45d118d39f372342a920fc8779271e5a9ab6a",
+      "aligned": "dce3334fcd623995d2eac5f77e6c4f419f73b98f60e2e78c0316e6c536185bc4",
+      "continuous": "272d816ddc499d47df1bd1a71cf81ef230b6b239bf780cd804c3f86badf8b671"
+    }
+  },
+  {
+    "index": "56",
+    "video_id": "21q-lDikdBg",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "c430e52b3e0014653c2e794df496f2bd0d18f690a48803128c307b529733b6b1",
+      "aligned": "eae9390421dfc11addc8064e2b0f6928ebf84a7174aefe97014465687aac647a",
+      "continuous": "c99d2f169de08bd0a4617d0a74e70dcc67de1c227e24d9e123d350b4382f3a8d"
+    }
+  },
+  {
+    "index": "57",
+    "video_id": "FjS2LzrHEO8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "b505f513163b781a2afdf3de1fa06bdae3cb093659bbcefd1cb8998a80b53664",
+      "aligned": "b6f571ceb30e1fa1a12dd94807dbf42af2e9572743214eeeada922545de3d351",
+      "continuous": "8c9877db88d306a0a206caf0018c68b5ce24bfe8632fe1b50a5ca639e2ccc38d"
+    }
+  },
+  {
+    "index": "58",
+    "video_id": "FjS2LzrHEO8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "1c8135ad4dbb76a394a9e1c3f397757c9ecf97bd4c7c33cab80e25d6bf9554dd",
+      "aligned": "fa225412a4a92d72efcbeb5e45912dbb744fa408888587526efd8dd125a7352b",
+      "continuous": "540eea669f861ff6952115cc63616bc82b4ff785fde88bac2b4d63268db1ec09"
+    }
+  },
+  {
+    "index": "59",
+    "video_id": "FjS2LzrHEO8",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "b6e663d2678c8f90ea8d953ede57c587674700014417ac309c21a983e27a5f00",
+      "aligned": "051d46abeb0f89aeb2263c6219e38f3652a13a970f3cd7a26e0872a21c50b8e4",
+      "continuous": "71e970aef0061e56f7714a14b2fc9c27e45d13b9c642a8acd84c1d6336567060"
+    }
+  },
+  {
+    "index": "60",
+    "video_id": "hUrjmA0fhsc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "0cc3cf67f1f7babaf82d0261c80c8f16b3f6b78b46f497b847a1da2eec1ae459",
+      "aligned": "9259a33bf8844f095e5700baac3a4ffe8da51a8c6dda578436dd6bb2488c7dbb",
+      "continuous": "612ebaa0618a441e187738bc673c899a35c5d4310b513c3313668758f5aa572f"
+    }
+  },
+  {
+    "index": "61",
+    "video_id": "hUrjmA0fhsc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "fd99e09bd214bf3752798174f01311c24bb1ebb9aae0e41bfc15f10f914f2a57",
+      "aligned": "e4b696f17e13d218ff047ae417db58b4d826ad8edca8c83b08a469f16ff0dfd0",
+      "continuous": "ebb771a9173bb59a95d141a496630ab737afa768512c3a6979837546d727422f"
+    }
+  },
+  {
+    "index": "62",
+    "video_id": "hUrjmA0fhsc",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "f5fc6d17bf38f2c86cfc37ecd2ca7d944b80ebdd897ff073575a1c3d257474c7",
+      "aligned": "5cbebab49e5aaac633c15ca577be1c25ba4ec960af3aaaddc6bfdd89fad6cfec",
+      "continuous": "a79d8b7ef90f531959e79e52d98f555fc6f5e18860a38aca6119e5148ed87af0"
+    }
+  },
+  {
+    "index": "63",
+    "video_id": "c9arR8T0Qts",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "0dd9e3217fc01c3b9a7abd62e62de4ea0ef93f7dd2bcb1b0fe28c6a6adab9652",
+      "aligned": "5f4bcfea8b0f8ee5911edfd6f82ea0bf5febb2b674dd04240d47f45b03b2eb66",
+      "continuous": "9e616b633fd8ebe1d6294b6a02c3dcf88089ebb0acfb951cc6fcb7e7f7ad7449"
+    }
+  },
+  {
+    "index": "64",
+    "video_id": "c9arR8T0Qts",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "2f93f18ffe911f8b6639dabbc1e347bccfc0883f5ac65f128e1584a0468beef1",
+      "aligned": "571c4149f8e6afa68f3fda136fe0b972b19d0852ccb4413adbfd2cf9dc77dadd",
+      "continuous": "3d30ab12ecb3ab1a822bbe657b1890eaae79458354ff116cbb71b7a6d9bf47ce"
+    }
+  },
+  {
+    "index": "65",
+    "video_id": "c9arR8T0Qts",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "50d96f741d3bdc5ac1b17b41c688bb4fca1ef3b1e7828438ba78f47fa376ad72",
+      "aligned": "c3fcde2ccb554d0ed4da61623b595127b9ef620061059a3e45b39a18b40dc3d4",
+      "continuous": "05b2d8a11b23f173ee892518b43b5cad5b21b21919a8e16040eb246444a4e0a7"
+    }
+  },
+  {
+    "index": "66",
+    "video_id": "3rTsETO3s9U",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "aaf53bcf874c19335df11dd9e32e332a5fb0107e73ba62d2ba2ab0bff0c9961e",
+      "aligned": "8f43291654ba645f661c6eb3c33f98e850860418aef7e0a4ca96a302707cd22f",
+      "continuous": "a2e7057b78796483a6965efba48381fb0f7cfa9b80f1b03474af558d17d4a2eb"
+    }
+  },
+  {
+    "index": "67",
+    "video_id": "3rTsETO3s9U",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "aff90ad095b56c181344bcfbf6be325923f0ea483b0a5abe5ce6da40ddb8b001",
+      "aligned": "ee3bfaa68fe8c86947917990f7127b2645b858db9127d699622e6ed7f843969d",
+      "continuous": "58703e3b3b00c7fe067a053c675352ec2c4acd479b39b37ae7e9ca36d56ec410"
+    }
+  },
+  {
+    "index": "68",
+    "video_id": "3rTsETO3s9U",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "dfe3ae3e73ba76c8157fdf425a9fcd17a8937f46e4b763bf6aa6b7d5d5b065dc",
+      "aligned": "dadcf66822ed678a7e03f2b20ea73504f179452dd9b3c67e9127af4d60adbf56",
+      "continuous": "e823cae8dc1282d240323ff903c605c907cd191d7535cca3b32f7a77c65ad798"
+    }
+  },
+  {
+    "index": "69",
+    "video_id": "drbi6HK1gSc",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "d7d7a0e9b6ce92209ba280855df361c559ee246fa60e012703efe230f98a2a8f",
+      "aligned": "d81ff3fd8dda0f3edcb135b638da1c5d076f67e722333d5d24c6c9d0a4af0fad",
+      "continuous": "efd0480edaeb6a7de6a05104e4a92b466b14a74515f1905343e88e17c4ffac0d"
+    }
+  },
+  {
+    "index": "70",
+    "video_id": "drbi6HK1gSc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "2649e21f9d330c6373fa0fefc8d75bcd5b4719488e0cc9a83b578937060d3e44",
+      "aligned": "6a74b623f328773f88e90351cc9adab26f2367fe06cebef8ca4d699ff317e666",
+      "continuous": "ec41b50481744b7a5bc0e49a4576e77ece71c5cc91bfa4854ca469c28a9dc640"
+    }
+  },
+  {
+    "index": "71",
+    "video_id": "drbi6HK1gSc",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "a710e13ab847b819892e0edf43ecfecff1253a6458ae4f40aa81ea98f6cf22fd",
+      "aligned": "d358e6018c77017851326788e1e255c0569d759137bb9cea0ccdd76168b6f6bd",
+      "continuous": "ba56a51ab1a06772b18816720c1b7b6aacd20eae58ad448d793643103685dc9f"
+    }
+  },
+  {
+    "index": "72",
+    "video_id": "djr6T2C8Gfs",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "16885bf5e7ff2f724a0f8a44fd1a4656a15be08f3fa09ac27a48b3568a2111d3",
+      "aligned": "406704a5538c1c480ff745f85fc556bca86fcafe1d76068942b069a777ad8ac8",
+      "continuous": "c52d07fbe61b5b1d456f0766a64dd891c24e317a489ff93761aead5baedb24fa"
+    }
+  },
+  {
+    "index": "73",
+    "video_id": "djr6T2C8Gfs",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "57c617256831c3dd5ddf0d1d05376184ab04e8ad162dbca6f69ba29a542cf68d",
+      "aligned": "f4af2ace43023c3e969f5add22b0a4e7820fceadd2846fdefb556863ccf0f6d7",
+      "continuous": "ffd26dd15f1bf5a38041fa89141602837dd265af35aee1763ab67c7bb7a51a1b"
+    }
+  },
+  {
+    "index": "74",
+    "video_id": "djr6T2C8Gfs",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "be0d7b18a092ee38cd4f0a73ebc9ce4b03351a98e6f03fa2b575b8f79632c7dc",
+      "aligned": "04fea8f4f4d09243d08aca7eee75640e2ebc9f6dfe62e3facea5935231701bcf",
+      "continuous": "914cb6f8e23019952c986769e883f217d84442d377f8df51d01d640a8a099a05"
+    }
+  },
+  {
+    "index": "75",
+    "video_id": "Ij-FYOrklFE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "3b4d680899590023c126b264965d71c9bf9f993577e11ada130beb39aa79fe5a",
+      "aligned": "4695d8ff8d33e497aa3341a09504bc779e8bcbd98e4dd7900c68b9e7149d3c0f",
+      "continuous": "b69ac7836d9bb49d43904bb969c2876d1071170c73e9adae1aeff72fca9377e1"
+    }
+  },
+  {
+    "index": "76",
+    "video_id": "Ij-FYOrklFE",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "1aa30d15022e661da6eb3c9d6e42f82520f1d9de4f875cc072044c31d40fccf3",
+      "aligned": "bdaa3f0eca1c8c179088f6f8fe68cb3cf01d8241f01fd74b0b90a5fc468349ee",
+      "continuous": "cdc55e6e925b33369c6bb0626682fc99ca49c5e0ad53aff957f31f676a9f1b05"
+    }
+  },
+  {
+    "index": "77",
+    "video_id": "Ij-FYOrklFE",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "2f7ee911dbd9abd53fdafe9f05ee8a2161486fb1fe913d8ce9a8d64b189952c5",
+      "aligned": "ce2038aedd7958523819ea432b0205a209943326b31bb0d5ebba8f3060b6522c",
+      "continuous": "ef12ce7b7980edfe656b6108916919ded28493633813898a35097edfeb716dec"
+    }
+  },
+  {
+    "index": "78",
+    "video_id": "56yT3H_DjVE",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "16aeec2d11f6b27667be92e63782ca440788a443e644f75814701bcae185ba14",
+      "aligned": "8cf9d38753939ce4be9eee83ace6df9931b9619a5699dfb6f1fe70d2246fb2b6",
+      "continuous": "b7cc70dbcabfda64f60a6a7dc45ae6a866733e11889ff6657bdc8765fc86ebcc"
+    }
+  },
+  {
+    "index": "79",
+    "video_id": "56yT3H_DjVE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "34148b860dd5802572db02a73c922d1be2cbdc7b44d1a469da120cbdd5b147ef",
+      "aligned": "d39e1dd33dcbf5ce5e555cf724cc7fd91996ce069446054314bd8bf5148894c6",
+      "continuous": "040e9b5c793022d69aff5d703645fc2a3ec425f34e350aa3beacd3fb39e81cbb"
+    }
+  },
+  {
+    "index": "80",
+    "video_id": "56yT3H_DjVE",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "cd2b16931bb06ddde6806d189bf9b9cef098756d338a1886755658ee662cf0bd",
+      "aligned": "9b2e819b06312d499b06360666004f16d95418425f60a3164f7cffa83fc8725e",
+      "continuous": "549737b841b2b7cc84619c926d03d154854e126125adadd70158742d01908558"
+    }
+  },
+  {
+    "index": "81",
+    "video_id": "_cZXyj6rYVg",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "c5e54b06ec8d703367b210339b5cdb2f032c74d32899f236b2391536208fc150",
+      "aligned": "a82b2895ef86e7eb5e15c9b8094a73f6c062c93ad1d7b05c2afd7a9da352da47",
+      "continuous": "82bbba442cbcc2d161c402805cd614d4bad13c3c647ccc45b0c663245b882f0d"
+    }
+  },
+  {
+    "index": "82",
+    "video_id": "_cZXyj6rYVg",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "e6cad5c74f93c6549ddf4bd76926c5403e43dfa3ccaa557526a9c1d29041de58",
+      "aligned": "7ebfe669bc5214a0ec7dbd18406f371ab1cfd7e68110424d82f3a5777c33411e",
+      "continuous": "1d8c1999a6b7ad6c07db62374e055bd2698479f9af93f7f8b4d76a9cd130789b"
+    }
+  },
+  {
+    "index": "83",
+    "video_id": "_cZXyj6rYVg",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "8f551964e1be68c6df598bbba308e660a49e534508a3912a5ede27a67161e320",
+      "aligned": "f5c42e82cb4233b397fa452226d398ce5c77f725a5d079681b89d45d02b25e06",
+      "continuous": "385e5594e8b0d7e27f8803492baf9e9ba05309d1a55345e190fef119025f139e"
+    }
+  },
+  {
+    "index": "84",
+    "video_id": "bYXhA8VG8Lw",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "357d406bff147e56483b7f227e5129bedbb6416677972c44102fb9984739803e",
+      "aligned": "be28128e2afdb801992b20ed9df7f8a1ac72c9c8d02f438d261dd4e70318fc04",
+      "continuous": "518242e033202fe3357e9664750e9903f1446f0b50e84a4d986b1fba62b41152"
+    }
+  },
+  {
+    "index": "85",
+    "video_id": "bYXhA8VG8Lw",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "df576964e45883913245954e3a997da25f8ebbcca6308a4849836ff35ee724c2",
+      "aligned": "a3a7c0422def06b91067d3e440cff987466f9e86cd9766bd165bf7ab87759607",
+      "continuous": "2c84643972c494de22438e1195980d577cfcbf3779034053603822f77369acab"
+    }
+  },
+  {
+    "index": "86",
+    "video_id": "bYXhA8VG8Lw",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "26c375baa80445765375b113027ef3db1aec4a37dbdc52246084a058938a0d2c",
+      "aligned": "1a7db0713a7c7ce1a71a68004de30e9e4186ae2341397d4d53a335475545aca7",
+      "continuous": "6f447474c7b1c4d33c9b2e33c3f1cc8610c499ae26ae496b4b0f57ffbafadc4c"
+    }
+  },
+  {
+    "index": "87",
+    "video_id": "2Qno7H4BwAU",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "4c752bcf35e0c010c4e35eea1cc461739da1967158cf11208b2f5a93662d431c",
+      "aligned": "8cd3e878ad2b64f052fc31c9d5f0f25d4cf0311b6f1171c29521012f37cbd450",
+      "continuous": "173db866beb7ce944fd35a9129d5e707b62afe6911a3b7d111f7963773a8c2e3"
+    }
+  },
+  {
+    "index": "88",
+    "video_id": "2Qno7H4BwAU",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "e4962f3768d6c0b1d228b937eb556d1acbf44549cbe742765ee54565aac26f0a",
+      "aligned": "7dd1ffa134cede27ce8e8570633b15b3d0ae0ed4ee214b93f7c90cda917e022a",
+      "continuous": "8901d63ed2c1e178a9f2c590c32154072671aa0de83475302153215ab52d2eb3"
+    }
+  },
+  {
+    "index": "89",
+    "video_id": "2Qno7H4BwAU",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "7a71d5dfc1966718988c9486c54d28404e2f164cfabae51c27bde5e6e3243818",
+      "aligned": "094c4b6f715b06cb4096c4cf703d0dabb478d01af8c61dfcf24831f0341bd8b1",
+      "continuous": "dd76cbd88310b408d2a0fabeeb3a6219c0d5d5ca663dac8b2b3e4f8291122352"
+    }
+  },
+  {
+    "index": "90",
+    "video_id": "HmnKbBmYii8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "3c006b1e02f33367df529801631efcc5bcecc6f481b85a623ea792fb965f588c",
+      "aligned": "c295195d050302b25ef33bd3b0c25add0e8b3f3aefd56b1492ec15c4d950c365",
+      "continuous": "e821329cef9d89526fdd9ab204780151ad65ccb662689712c8d4c4425bad56b4"
+    }
+  },
+  {
+    "index": "91",
+    "video_id": "HmnKbBmYii8",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "d23ca09c04c5bbebd403401179099eef79edcfb6e1af98198c196e17e4011e56",
+      "aligned": "d66bb383de1eefeba1cf5cde0104a6eb05a427f6fc713eb19837e2130e7d31f5",
+      "continuous": "032ea1bc6deda3d3921b45fe2c3569f778a20b660dfa70d5233531fdb1cef8cd"
+    }
+  },
+  {
+    "index": "92",
+    "video_id": "HmnKbBmYii8",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "66a9beca475be9f597b6600c82ce6c2bf43ac0027aff52062c286853b97875ce",
+      "aligned": "1afc9b88b14cbe6043ee9717e39527c8fb54d40c98f2a544431ce7c683fee975",
+      "continuous": "bd072cb2e4195303d19e87ad6dd31b68f8ccb307d24cf80f5ce086acd709a386"
+    }
+  },
+  {
+    "index": "93",
+    "video_id": "HqAfzcJurMM",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "4b7b5afda9b2c5aa122f6a1933addcebc4d245eb0ad797e108a3b7a3bab8a3b8",
+      "aligned": "0f689b7bd06af1970c40d1fd11d0f860ffb1fdb633dca5f4c70e925166ef38d4",
+      "continuous": "60aee9b4102ef905962a0ce2b40bffc2d5689297c32ec545857ee5b62d3adc85"
+    }
+  },
+  {
+    "index": "94",
+    "video_id": "HqAfzcJurMM",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "48cfe6c791415fc84128f050dedf226c6d077e4bea78ce83b3f689339d192a1f",
+      "aligned": "a902787f438239c5da97e23b42841696cb18a1e89c26d7c4fafdb7aede7517df",
+      "continuous": "ec4c7f7cd33de6e183c0117d312e9e5a6e6974caa0f869c5a379e05ddf5bd572"
+    }
+  },
+  {
+    "index": "95",
+    "video_id": "HqAfzcJurMM",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "e5684ee8d4109120d5f76c71d652c470fda24b55c8842d51f954e44c7a9d1235",
+      "aligned": "2df356333c4276e5f339aad5d199566a5771a7464038c5a266d8397c64623139",
+      "continuous": "b0808b5087cd081cc07591b703e22fa438f9494dda9421450c7182a259f8380c"
+    }
+  },
+  {
+    "index": "96",
+    "video_id": "43wqf_KhiUo",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "1a65d677c74ef6fc6d0ade644bb9379129e631270666d8dafad1371189f88ddb",
+      "aligned": "e449daefb8b7b25f5f7798d5af7cc99018dc53b925323474bd4323c07045d923",
+      "continuous": "c4856284ba97aceb8652c46a963be61fe8c584df8a5d6b7d5aae20ff31e84673"
+    }
+  },
+  {
+    "index": "97",
+    "video_id": "43wqf_KhiUo",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "b894a157236a82540928bce75249505052a42d6f4ee1106c9c2ac09fe9167ee0",
+      "aligned": "59a8d2a4aef1d99068179121886b0d7dfb2a2e126fd5c031f5fba4717ce42533",
+      "continuous": "1c8e9ed03d738ea3b5dcd46aa33393096f072ea3dfbac83bfd434c286652667c"
+    }
+  },
+  {
+    "index": "98",
+    "video_id": "43wqf_KhiUo",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "d1515b3649f9886f8312682347f3f9baaa5a7716e46e4d139b61bdee60937a4e",
+      "aligned": "9ecd56778ab80508d2f90db0c106fa7f9ed3fd8cce376a243ea4889c7bfb98eb",
+      "continuous": "73f8577541b91f32c30c8e79b01568f970413df9b1f9f55df5d4633603a11678"
+    }
+  },
+  {
+    "index": "99",
+    "video_id": "c0siCya457M",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "db3d6d79e007ee96682065060b7c8dbdca5b1cb08146b11c49cf5528b430c5db",
+      "aligned": "1ff58c882fa068a580595819e35386226094f5f5d7fc6837948ca88b2994427c",
+      "continuous": "4836b1390403af9192e0a0937874d19e1f9d29e749fbdea53d4030214b736448"
+    }
+  },
+  {
+    "index": "100",
+    "video_id": "c0siCya457M",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "0856c7b54cea22b0d7678597106c5f652c00e1cc1adc5f09af7b2095878ca751",
+      "aligned": "21b3642fbdf2a0ffac11d544bcbd4980817cc9f607eadc24c2bab037e20f2dbd",
+      "continuous": "1d61ec776ef413c12bbd2c5755cf8393805bcfddd20e5b7b3096edeaf7bc07d9"
+    }
+  },
+  {
+    "index": "101",
+    "video_id": "c0siCya457M",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "463676ef87d24776f99d88e2259abc8f75dad72f9db46dfcdde91a23adeac9e5",
+      "aligned": "544dfe93b9ab078feff13bf45ac6394a125b722fc4d34bbc758812eb3d58d097",
+      "continuous": "0dce2aa8adb9002e56bf55d22cc2c94f3868df96f2dab0d593f2793a45703f23"
+    }
+  },
+  {
+    "index": "102",
+    "video_id": "EJ_yarUrgVQ",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "a740998f6761b1b217f753700d27e46cb4ddd7dcc3c41ac9b117478de7616fed",
+      "aligned": "9b8544e6b65deb0b251cad9f8710a96c1a3d52bc5ae3cb66be09879fdda94e3e",
+      "continuous": "edcd57018d26673194919f298361b97abd8bdcfb19c3ab1f9f506c7859b5ed75"
+    }
+  },
+  {
+    "index": "103",
+    "video_id": "EJ_yarUrgVQ",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "50c9c3a0a5348a44c5de2583c125043b9e52debd512543721a79e0e8a78e6f09",
+      "aligned": "b900052c62a689a3094bb0bf3ce6739d7aeb8c41bb15edfb9d43d9378f7515da",
+      "continuous": "469786dcf42dbb9fbbde12dc2bd59cff1ba67e366f1322752ef637fcc210e2c0"
+    }
+  },
+  {
+    "index": "104",
+    "video_id": "EJ_yarUrgVQ",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "4fc97eb8bc993816380be03196f8d02d800b04c3703190e911f4da4ef36e19b1",
+      "aligned": "599834f98daaae279f993d2dad51a471889fdcebb0a6c68062db32f69dd56796",
+      "continuous": "fde4c5c759aa5a9b454a2f36fbd62f530f80462e5548d96fcadc73edb0c6835e"
+    }
+  },
+  {
+    "index": "105",
+    "video_id": "HdBsD5VspVM",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "dc7355bcf155420f366a769d2ae622c7bef2f774cb452ce1df9a587143fd3278",
+      "aligned": "36103e9c49c24711a5e3d8a2f57b3f0f425b927ec17410666473999fa4f44cd4",
+      "continuous": "bb2eb92ac69c355ffca4186453fac5bc9b27561d9045af493c787d15f2043a3a"
+    }
+  },
+  {
+    "index": "106",
+    "video_id": "HdBsD5VspVM",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "3a4aa622be3a96c61c20215983359fd6426fbaa4f515518a83c0821ad72080ec",
+      "aligned": "e7da060e0f4c97efdbd99615d05c493d933fd196d1b7ec95cb0f9fdc2ced26a8",
+      "continuous": "8cbc88c8471c70e7c2f6bc7840fb9f0130a46cae50f040743b5f800f17503eb4"
+    }
+  },
+  {
+    "index": "107",
+    "video_id": "HdBsD5VspVM",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "28e38136602eff5c9f756663d23eb4bbe10c19fc1bf592381a3e7ecfbe91ed9d",
+      "aligned": "82555ebb06f30cba85c6f80d5442fff7d77066a9ddc4f0bf8e579634dd6c7854",
+      "continuous": "2fcf7212dd6c7e2d6258ae8fcf9224a92b68f8a1949abafea47176983cb5e1f8"
+    }
+  },
+  {
+    "index": "108",
+    "video_id": "4V6G0qYVoBg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "5a93a46abd108c7defee1fe9a8e89ad44552dcf2528e24d73cf284401e91d41d",
+      "aligned": "4a90222b416b45487699a858e9b6f226589af2b88187c5350acb828274e4367b",
+      "continuous": "7a68f863ff3ae11e5275edfdf17020e35c22320cbc2863f1b12fd7d30e723eab"
+    }
+  },
+  {
+    "index": "109",
+    "video_id": "4V6G0qYVoBg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "2f45810df0f369c5ffa5d001a25d77e03406969a169524fd366be2c26787ff11",
+      "aligned": "337d9b01c5dec2f92dcbf35a7904812646108957918139ffbc57dc16f1c29981",
+      "continuous": "6c15b505b36310ae85d16d084a99a53bd1c986c9c24587c1f354edbf14ae69c0"
+    }
+  },
+  {
+    "index": "110",
+    "video_id": "4V6G0qYVoBg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "e078b5c11fd8cba6281d74193909d2603717201f96683c108b1c017b101340b1",
+      "aligned": "57f75f21ce57f69bdcf8804cd7d135b9fd59aacb9d84e95bd94ff0907cf6255b",
+      "continuous": "c7bf5e42eb4a81bad328e1ff4b8efac272fc9382f6ab3040c600eea0557bf322"
+    }
+  },
+  {
+    "index": "111",
+    "video_id": "fJ-hp5Jlbv0",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "2ecfeaa5089b4aa76435a1d577bc7c57658f9039c2e986cb53aa036ec1774539",
+      "aligned": "eca70bd3c383df150c1bd86b9b5a9abd1c96bc9bccde9d6e86ed8ade3e4b978b",
+      "continuous": "ed3c33fee607ad12565ccb9113920717d7d51829bb8633246e2ff93f04b3fa3e"
+    }
+  },
+  {
+    "index": "112",
+    "video_id": "fJ-hp5Jlbv0",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "32181bc7d42809e0fe0ca9e08218f896fb9e0e93a6fbbf386a865adca14f5e25",
+      "aligned": "d45f6fa33ff915418ec431c9c724f17098b23baa45412d0293684af0c64d5718",
+      "continuous": "4daf2ce50431dcfdad51909d7472542041315aa9f6b3cf6335299afeb2e30bdb"
+    }
+  },
+  {
+    "index": "113",
+    "video_id": "fJ-hp5Jlbv0",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "644f6ad33d7303f14c76cddb039e6c2575e95df21f4d250db04b0ac9bfe69865",
+      "aligned": "e3448b1b277c0ea09873b79eaeac3919f1b73083d2162b0167504f468898d176",
+      "continuous": "3fddcb8696ccb8312c04197f4c94257f5fc5b9684f2adcf051247bc329b24eae"
+    }
+  },
+  {
+    "index": "114",
+    "video_id": "dIPNQRVqJmY",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "6ff3e6fdbc6abb2fefadbcfce84316f974f615b623c9a489e6a994a004f126cc",
+      "aligned": "b270eca004bad9d973f23554c09da888a81fc75c9e5375216be252478e7c3b76",
+      "continuous": "c30e5dfe287af1125115e3ded0bc744da7449a2636061f5b14557a1c9dfa9413"
+    }
+  },
+  {
+    "index": "115",
+    "video_id": "dIPNQRVqJmY",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "1df935d5817951161a85f5121cc0038a21124fbbf40c7175bea46f9eff949520",
+      "aligned": "fe3e10061b4cf78d72b45eba868f15a59685947beabb294d47035a6c22212ffb",
+      "continuous": "12629166d7bded4380150f731fff11e763a9201ab2415d0b70fa60a730d1e32a"
+    }
+  },
+  {
+    "index": "116",
+    "video_id": "dIPNQRVqJmY",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "a6dea7c81e9e039512232b74e6d39da577d70d596be4c77480e74049a125490c",
+      "aligned": "f03b7529deb9ab71e6ac043a31383283f52f6daa7e70b18baa49c22f4c4e8e49",
+      "continuous": "2285da985a0bf173eb83019a9757c985036871c828bde75a4876a5ef8b912057"
+    }
+  },
+  {
+    "index": "117",
+    "video_id": "BkiTScinYOQ",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7711367b76125c7dd369d4be287050d47ef2857db6422d8cb7e74bab48c5d346",
+      "aligned": "9abdb07448a50a3b803913fd2401373925314ed2bd6444d31e296d722bd2a4ec",
+      "continuous": "e246997b59cf4024546eda9808d84c59b9ac739169c2cf85c5163765b6446214"
+    }
+  },
+  {
+    "index": "118",
+    "video_id": "BkiTScinYOQ",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "2f84469a7d47c9ec0d1603e39d4b2ec393e2b8820f59c08dbce766eecd22c7cc",
+      "aligned": "5b7eee1a02871c62f05b670b2e0d6e6d71cc006d7ebb6696fd4ff83d69a286c4",
+      "continuous": "a393b682ee49bdc5053326bb925f6e1c0b749b465c4a77a5b0cc676ee0f58b68"
+    }
+  },
+  {
+    "index": "119",
+    "video_id": "BkiTScinYOQ",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "4af8ff11521489b5ba6567785cb6e2008248222dde50155c73f649a7f014b559",
+      "aligned": "0a8b1df3cd8e7e544f450c373fde5660f9728c2412d0c3dd3cbf4d7815a2417a",
+      "continuous": "12000bdc02498b17075746599d96843ae7bfadf64a57ec8b06f99ad6a8a6951c"
+    }
+  },
+  {
+    "index": "120",
+    "video_id": "ByUONqA1IJY",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "2d12091d6a9c0e694cc27535fd355a62f88c1225294fb9ffe2c772d1b4374f15",
+      "aligned": "6ea53cfef2388affa3588c59a487c1e13825b9f6fb79c5c56c73d5e7ab99cbf9",
+      "continuous": "8d0cbf5450e34d73a684657f2ac7e1eb4b7a142e0884f45c0773e7844d8c6bc2"
+    }
+  },
+  {
+    "index": "121",
+    "video_id": "ByUONqA1IJY",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "b86db5216eadbd597ca47bc7d2492b4abd7cd8da184e45d208450d61642096c2",
+      "aligned": "f3e965ff90802f95f7d1cf1297193645342f8c48e55cef8dfc2186066825c257",
+      "continuous": "c2c2ac130fbddd5277880ff1d2a00c2e4923253f505d5dca2fe80f3a148360e4"
+    }
+  },
+  {
+    "index": "122",
+    "video_id": "ByUONqA1IJY",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "2f196afecb7544d93de2750cc9050a2737ea8b8f80b4fb812d8c0731d1302c7b",
+      "aligned": "ca964794e7445396eb566d1f96fd3241ff7cb76d669e97afc1beda8216d154fe",
+      "continuous": "f1e6f276f99e7d69e992ec289c8cb023d25f086cdf4e56f6315c9e0896cc4983"
+    }
+  },
+  {
+    "index": "123",
+    "video_id": "2yGaTOzaGIA",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "1ef3ef17d650f6338480827b39cfd020a312ddae948cb0f04c334b64a3457f28",
+      "aligned": "c3e6260b176568aa4207445d329e3d73668d5ca015c643c4072a903073937a12",
+      "continuous": "d8994abe4cf2f6af4068ad36294a85ff999ee108ccb4499a497d65c63100c2e5"
+    }
+  },
+  {
+    "index": "124",
+    "video_id": "2yGaTOzaGIA",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "268226a0fb76d8b977ae9301d7f5073e99076e5de6d1668f27e05899547d080d",
+      "aligned": "3105f59dd79490b91478777bed27445ef6ef67158c418f309b1be326ce4cd36f",
+      "continuous": "12ecdfc3ca29ffa04e65cc4abd16dc7fc864bfbd55f546b280a08d6bed29dccc"
+    }
+  },
+  {
+    "index": "125",
+    "video_id": "2yGaTOzaGIA",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "e02a7f64082493edbc25e88f671e1a49bf4abfaa059a96a8d0a9ed0f82cbdae0",
+      "aligned": "08c4b03512f94d59d9f72203711136c135e78019c8f989881ca361a71f05b3b3",
+      "continuous": "6e81847fdcd54fa5c6ab4504bb137deff99b3a0a72b2866c08fc67442d19a444"
+    }
+  },
+  {
+    "index": "126",
+    "video_id": "ejFVFtJdP3s",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "aca07307bf360e3831f83ca9b16f3fc592aacd8680d7e9479202aafd4658b94c",
+      "aligned": "dd8081486e71a1a5647df0649192aa64100127dbba20cb2c0dad1022aaaf3c56",
+      "continuous": "a6e790fcd1d25c5f0194510ef07b7e5124f395f9a09556af5a2f1dd76d462f45"
+    }
+  },
+  {
+    "index": "127",
+    "video_id": "ejFVFtJdP3s",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "c47692359b8d27eb97ee8e4d8131e4fb8a73732ce20b30d75cae5d7be5cdfc9f",
+      "aligned": "b0c352f826f694998845292a57292f4e653dfd81812bc382a90c1caa556488c8",
+      "continuous": "429fbafddb6e425f086004c34e6a5221dd1829ff2ce56dae2696458d066bc8f1"
+    }
+  },
+  {
+    "index": "128",
+    "video_id": "ejFVFtJdP3s",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "04a688926f9f11df1ebd01972cf573bc1cacaa466b0949165b6b6dd71081794a",
+      "aligned": "bdf13ceb8431437758d010ebca5e4d53cbd92eebe8c51e5b0eeea3b03c0c031c",
+      "continuous": "f445aff78505f87605292a2372869a7669a0f8c2a5e7a0d9b9cb761468359f6e"
+    }
+  },
+  {
+    "index": "129",
+    "video_id": "DK6bKtXUE1c",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "d466f4225d779485087b16d00106cfd24db2dd836078e04c5c463d09a18b9750",
+      "aligned": "922ae2db290ea861985b2d76ca0d02dca4f7f24bd7d0ebbb25195009ee1a112a",
+      "continuous": "58f8c7214e10baf00aeff323ee8bf30c89677631a770209efabc1dd8190fbec6"
+    }
+  },
+  {
+    "index": "130",
+    "video_id": "DK6bKtXUE1c",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "180afaca75bbb5c9661ab768ce41c2dfcc2607efaa19ae4bda230b5614a05648",
+      "aligned": "f1f8f865f1fa214922bb98ad3b015af8cefa8c04a62f8d72561cba6c8ed28780",
+      "continuous": "79b25dd2f0d3b6222667dff6620bce0af4120ab0fed5b74fb270dde889954752"
+    }
+  },
+  {
+    "index": "131",
+    "video_id": "DK6bKtXUE1c",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "2f3364cc40c32f45e313a0bc996e3ea673aa93e3b72a053d4955187d4a7b90c1",
+      "aligned": "248d0130e2e18e2be0526b12b4397c8d7f867ede258836d2c01ea90fa7a351c7",
+      "continuous": "49d31c7b783a5770e527c5eaa27add13eedf2e6f25e7fe346be68e859faa7845"
+    }
+  },
+  {
+    "index": "132",
+    "video_id": "CHlJdMVLV2s",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7cb33836e74bcda070b2b25a09f594878a4fe229c47157d7f4be068b91b48a93",
+      "aligned": "ae6936711ffde12efcab6c4273a3959887ca811763ffc3aa56a05cc6455cef9c",
+      "continuous": "e2df4d6d3aa353499248554ec4bd9e0e535e0e29e080c0cff8488a63f89830b3"
+    }
+  },
+  {
+    "index": "133",
+    "video_id": "CHlJdMVLV2s",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "a10e0b2f717a78c4c18a0623d4f459b1b49d1f18ada47eb7fb81bbfa6eb08d3c",
+      "aligned": "50c1b061b9055b025da168da7b647bef8e43d4ac40ea59fd5042f1fb51e63d05",
+      "continuous": "d47908c5e8fe1956a54e94d060dfed07a2b5fc8b318b3eb6d027bd5ff2d0b833"
+    }
+  },
+  {
+    "index": "134",
+    "video_id": "CHlJdMVLV2s",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "f8b5c64ad4fe3aa11a8562eee5003d46bd91fdc2c29eaa85336c212bd6d62dd8",
+      "aligned": "5f5a7feb05f0cf6b241d5e34936ee4af6f361a60cda07a8cd4f9e024471da849",
+      "continuous": "b65a0b51ff11da6963eda008ca3991a755fc0011b89416459060f92eccb772b6"
+    }
+  },
+  {
+    "index": "135",
+    "video_id": "E895PNqSgEI",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "5081442b520ccc89dbfe23f621cf47e3d4e63f8d99f88a4c7f12c5a89e642b14",
+      "aligned": "76197d33f6f58b26091161b886daca8e0c4f65021248011a4785168a0d2e4a4b",
+      "continuous": "7a0b16004a39c3f72162242d1bf8609b28fd548decc5e81e948b7e5ee64e375c"
+    }
+  },
+  {
+    "index": "136",
+    "video_id": "E895PNqSgEI",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "1f8e5ae697ac30ca6442d4e78cef15097c4da7b78264c08aff5586ecbaeb4fba",
+      "aligned": "5135d871640618f41c68d86845dfd71f932ffb6dc205107567ee34defe975e0a",
+      "continuous": "0b826d3bc09d11ceedd232ce6d8738517095c8f323689905e32bcedff2ef399e"
+    }
+  },
+  {
+    "index": "137",
+    "video_id": "E895PNqSgEI",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "be023d7447b312038a5608aa97f8cb6a1ad308aec0bef55f072b83b2e020eb88",
+      "aligned": "6945cc11c4e2e0e9971b940169736aa15a7e23e698fc9d034900973c35d26cdd",
+      "continuous": "00acd17035c40d65601acdc9f48eaf15d160649f160598c3302e11f57a5389b9"
+    }
+  },
+  {
+    "index": "138",
+    "video_id": "fkJv7LRa6Pc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "2733f1e363fffe665478dcb5762d5da8833cd2242c45d14af0f7d6e4d512825a",
+      "aligned": "1582130d9c06a04ec4d10e42594c0bf7f4cb3e9d08602af9176537149843c889",
+      "continuous": "d3cd59ca6680cf818b0e42d3a4c2b18ecfd0d1f41d99ca5c156a81539cd4cd75"
+    }
+  },
+  {
+    "index": "139",
+    "video_id": "fkJv7LRa6Pc",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "60ef813d4121c1b9fe3e5dd9cc40a6b567884e7ce47eb6ae76edfdfd3870ca4b",
+      "aligned": "f686b4c1b523bacad0ff4b8fc8dc07e9d20e67eea9345c9897c606f8daa7b8c5",
+      "continuous": "f337becdbcfa4c692e6204ac83fbe4093a1f34d4db1337e3286635270a8b521a"
+    }
+  },
+  {
+    "index": "140",
+    "video_id": "fkJv7LRa6Pc",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "27ef86ceaca76ee45c1fb70764f13bdcff222bc4051c1556f1d8f62aab896ddb",
+      "aligned": "8e09a7d4d6469a0c3fb474f27c1f4aaac11dc632c614caf268fdaa5133dc42f8",
+      "continuous": "e8f744be8cb8a8e58992d1235b42ba0a6f34dce46a4604b3b25cdd960577bfc1"
+    }
+  },
+  {
+    "index": "141",
+    "video_id": "54YD3Gv-3MI",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "d27da786a6be556be5873fbc30a059ed991a8fa123883bb62b5bf415e2d226cb",
+      "aligned": "e000537781adc599cb7a7addbd45cccbac7d77d78055dffa503e911a448da6a9",
+      "continuous": "0cfcf99afa9881c1c412dbb7cdb0330a89f9a9aa417f0be1ae2b9b7b27778bb6"
+    }
+  },
+  {
+    "index": "142",
+    "video_id": "54YD3Gv-3MI",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "cb9c5315cb94964cb4385f1267b6d2e793a565ed584b8dd8e3bdab288d61d146",
+      "aligned": "2fee5e97028772468788b0f9d5eecc66ce004a84b4df113c779b577950cef8b8",
+      "continuous": "3d360a45fa1ee8fe3b2d5b4b546bd21ba7ac4ebc91ab525836e9fd45935b8173"
+    }
+  },
+  {
+    "index": "143",
+    "video_id": "54YD3Gv-3MI",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "5960e419b00fff70ade644d241be14d79ebbd027c609638e0e92dd4a35d9f30e",
+      "aligned": "23b0ccd2d5dbeff2157a08a29a54ae98625c27f91339232e2d5324fa29d33895",
+      "continuous": "0411affd87cf32ba6f90a84585bad8bd1a2e57b0914216248beaf95c127a705b"
+    }
+  },
+  {
+    "index": "144",
+    "video_id": "2QTiAmvygC4",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "71a15134e7e116f0a56b8f976159a105015aca5c99b45c396d047b4b3cdf7140",
+      "aligned": "4a16a932e8b46fde2914748b5ddd961d50afb179f009919893b7a26ea6ae778f",
+      "continuous": "420c63f907b5b6426453101f2f23893c470d197f8b378af7f069f9e882587d4b"
+    }
+  },
+  {
+    "index": "145",
+    "video_id": "2QTiAmvygC4",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "d1b490df1aaf57767c763c219493c931a0264dfca40a810fcaa0c1b8d82c0977",
+      "aligned": "bb82b7ac709e97525077b5fb593ee0a6bbea6bc7385a184d8e7bd99c9ca49022",
+      "continuous": "d759ee64ffd247a51a7ef06c7c2169027ebfb06f875fc22dc22389ad81a18a91"
+    }
+  },
+  {
+    "index": "146",
+    "video_id": "2QTiAmvygC4",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "c8c86ab773b0be3ea3c83d73362324dda977eb664d86af6c33cf7c9d5456b6b3",
+      "aligned": "ce759f76e1b4a60beb9eaec0393c165efd13c0f5e488314748d56053fe07c9af",
+      "continuous": "c580df34337c9238b6dbc1f03a84b58f1bbab23b51d49b79bf83215a1a5143c4"
+    }
+  },
+  {
+    "index": "147",
+    "video_id": "HiJb_2dvuHc",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "3c2f65e47eae13a3116bfae5f8d55858eb8778c166254af70938368144c6b991",
+      "aligned": "d29f80d160d84dfcace26d7e96cf931d5703c58f73b01292263c9c4f75b588b8",
+      "continuous": "04897de3ed59af8dea14a8622baa5de9a23a9e9b343b46cdd186f62dea3e9fb6"
+    }
+  },
+  {
+    "index": "148",
+    "video_id": "HiJb_2dvuHc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "618e9b221cee5acade3373a465ec6ea8892326344cb96c6891ad1f57cc36e8b5",
+      "aligned": "4c979ed223559136b9cc36f21965dcb3c57c53a36d599eb492b3bdc85c4871b2",
+      "continuous": "edae34dbb55b8893d4f2539005b98243cec090d4f99814e032a21dd5d753ad0c"
+    }
+  },
+  {
+    "index": "149",
+    "video_id": "HiJb_2dvuHc",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "8f8578249540b2dbeb36312f492727c85993a07017fe146a8ffadb845438bf77",
+      "aligned": "b9a14aadcc4f3c10301331575d11780cc4e919c2282eacf5bfcdd37537be89db",
+      "continuous": "79e2e72dfe36647caede0724766827ce9fdbf95ca8850c3fe6f1a340f6193ff7"
+    }
+  },
+  {
+    "index": "150",
+    "video_id": "eICN548E2TU",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "fc6ac3c7f642bacd4953517aa74af215b310044b41efe5d3679921cce4ec5235",
+      "aligned": "26170784c5b2c75b95c704855d4c8d0000b1d2168086fc36128a6ff2f6b0e7bd",
+      "continuous": "8d9befec208b39c36c0e55bca46dc390483701e528b295b90f54502e08abca4e"
+    }
+  },
+  {
+    "index": "151",
+    "video_id": "eICN548E2TU",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "098827e04f4f40f1317b680e3ac04f3e2fe393192730507877cdeee0b8249799",
+      "aligned": "294d05a4ed0feb103ac1168ae00160a82d72f8033cac94729b273dc34c1b61f5",
+      "continuous": "390b63a5c8983dbc11c11dd0573aeed1295e1a06d9165a73de20c49b1d76310e"
+    }
+  },
+  {
+    "index": "152",
+    "video_id": "eICN548E2TU",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "2995238d416ae6c742ec017116969c2e3a35c33f6d724d277cf63184dc535c4d",
+      "aligned": "d4c5d96179c6da08f6b3e0b35b684b9b4ad8fe694f2e064e34dc8b551f06b32e",
+      "continuous": "53ccf964a26ad26d98055ca7695030785b8e918b10b5867ee9b75abb19a94808"
+    }
+  },
+  {
+    "index": "153",
+    "video_id": "EVnzXA9b7Ww",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "9d667a99ec3c8bd90f87f841da08ad73d320e145b96c6484ecd4e4a7c8d1aaba",
+      "aligned": "15c511434b75640df3ba103b4be3b3738f38e1960c584489ac6bcbcce6e40cbd",
+      "continuous": "b2d373f0cf03d479178b4eda39662f499332b43455c98ddaac92e3a7804d6c73"
+    }
+  },
+  {
+    "index": "154",
+    "video_id": "EVnzXA9b7Ww",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "25db9e8e1aad2b4faa86ac39ee92bee1f3dbff13991623d22755b113819dc793",
+      "aligned": "cb3680e5bb9b92b430f075df850020805ffa4c11e9738cc67ba0b5e4dd61e364",
+      "continuous": "c64944c72e170befc7d5cbe52871fe5a08868f637ed2564372cb5844842c5816"
+    }
+  },
+  {
+    "index": "155",
+    "video_id": "EVnzXA9b7Ww",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "2c400ac5f567cba04a5d3c7976ba77cad8e79d4134070b2cc687f53a786e5740",
+      "aligned": "cb3279365043bb3ce4c57edb163f684350fd535c89bf027e49dc9a7b0860a56b",
+      "continuous": "c3cd1458c4c340fcd8a5511741d31624f0b2911fcc00ff50598352555e61d46e"
+    }
+  },
+  {
+    "index": "156",
+    "video_id": "4H8hcvNeWtg",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "55f29affc65df3f106bfedb619297426fc8518d0714c3f6e3ebceeeebfa2966e",
+      "aligned": "e1b4b8662235f441ecf6717e5f7eb8bf8a1830bca3c312106daa2e7f8b30c5c4",
+      "continuous": "c1141a749cd70a17b7c9c2bd6d9d059667b0abe03c757426afd86008fded8a31"
+    }
+  },
+  {
+    "index": "157",
+    "video_id": "4H8hcvNeWtg",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "8ef23a4491d5d7b9b785e3a9e03b209d69d8553a8862598a72bac2380ab63aaa",
+      "aligned": "ae3f9f6b5e0366deb23b01d3c0889e0294da14678ee82a360d667c55614f0a65",
+      "continuous": "bbc315bd60739c70593befa5bf463fada66d5991546800e5ba4f8a310d8fb80c"
+    }
+  },
+  {
+    "index": "158",
+    "video_id": "4H8hcvNeWtg",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "6dda9409cde8c4d235324f0203aacb6a0c90b2cf97b4190f6f40bf948ca765f5",
+      "aligned": "de13e1f3cb45620c8083b1813af1e40511201efffbe90e5a6b5bb77fd13a1d2d",
+      "continuous": "47f18f483b0c877c49595e3376d34b77310c808fdaa84dff6010bd4dff1e76bb"
+    }
+  },
+  {
+    "index": "159",
+    "video_id": "44ivpEIcBhE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "cae7bcd0ea8f16e279c8e562995b5edb70f611d82f39ea0e50b41d38c246eff1",
+      "aligned": "be9711efe3f76fb1822ffb672d4bf9a2fbbf6c0e5dfb40f7e9c469016235d9d6",
+      "continuous": "5e65580b12e52cf915129b15691cf2c20c5402b1d90cd41311ca7e3f43cce331"
+    }
+  },
+  {
+    "index": "160",
+    "video_id": "44ivpEIcBhE",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "1e454699ad459bcd7c9dcf472cd56cb458506eba01ef742dbccf2cb304f3b0a6",
+      "aligned": "fef603652c545035578ad55b1647dc56f0dcbdba787d944400fc0981798aa057",
+      "continuous": "b96680fcdac90491d1d079ca86860cfb26ec178f2f040d3a02f23d3e3b5e31b8"
+    }
+  },
+  {
+    "index": "161",
+    "video_id": "44ivpEIcBhE",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "2ed95d8ab35e2c5956bae465abc136cf92b232557acf4c52e15d342a46954b45",
+      "aligned": "a0a9964881669e2357e31a6160b29cca58c4f90b3acba044adac1e15706ccb8b",
+      "continuous": "edcc2a46a0bab6108d4c54d715792c3cafbfe6c90ac1d83c6cca8cbe018d7466"
+    }
+  },
+  {
+    "index": "162",
+    "video_id": "dH8l--46j6s",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "a22f69db1ede53dccdc00a40a12f6732775594b62f822840ae9a52e214cf7d31",
+      "aligned": "c5ff875b918b430b0d72748230e6094daf9a22c658cba6d7f1aec3f2898c705d",
+      "continuous": "3e554028f2941b86505427b1d0df816c759b0c4083985b7a7812b7e4f452abef"
+    }
+  },
+  {
+    "index": "163",
+    "video_id": "dH8l--46j6s",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "b86b9655dc4068064ad29d6e98f085b0d896e81b1806fadd2dcf7883421d2b32",
+      "aligned": "873b2b075af611a62c24577422741c24a6f3cf4bde1845d587db4f4f09d7d563",
+      "continuous": "0040d3f65ea591ded8c167f65055bfa5cdad82b3a369a1601085509f87eda454"
+    }
+  },
+  {
+    "index": "164",
+    "video_id": "dH8l--46j6s",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "5eb1d56129a0de4014a1ce9cfdce780c1b6cbe940560bb38e84207063bf4fe77",
+      "aligned": "ff9158d51084cfd82906c4ebda509b90a9792bce9b9c38d9f4335a6c8c0798a7",
+      "continuous": "5d0b792ed38426d74681125d3cfeeb1cdc897e0408b3ae4de0c9636b93161fc2"
+    }
+  },
+  {
+    "index": "165",
+    "video_id": "BrrDT_uYQsg",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "48e7be8ff2691217ccfb30295e29fa9b77640a03aa0e9b7009c346efd3aa402f",
+      "aligned": "1928f952683273f5a6020a76dab322767633346f52583c65306be27f0e02491f",
+      "continuous": "f600f0606e8c20ecf3dfaa85e962f1ca229db00e5fb501db9937d70ea13b64b3"
+    }
+  },
+  {
+    "index": "166",
+    "video_id": "BrrDT_uYQsg",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "e3c9359ca398048c595b148beb6ec785a7060cbbe564e1f9f7800f8fc410392d",
+      "aligned": "ec377e2e076b82d85d64036b01384cb9cb4d2134ef381f1dc0a21d92d28a7b50",
+      "continuous": "91b51f6dab2b9ceaace40a6b4f47108b6b797ca344c8346c37791fcadf4bd824"
+    }
+  },
+  {
+    "index": "167",
+    "video_id": "BrrDT_uYQsg",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "86cfd06295cffcb89c638841dad9c411404ff56f195fa01b24e1b3cdd3e6ea9a",
+      "aligned": "22b216c882db28c3ad1029f8d8ea865492a3ab12488ed709612def678262b21d",
+      "continuous": "f691c9f96ef6ba159f79fc928562a2b528a15feb70dc03f621292df86e356d75"
+    }
+  },
+  {
+    "index": "168",
+    "video_id": "D61jenC5oBA",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "dcb4f8bb72ba67d4e845e187fc85b9bc44a53d999937607ff8269e22489c5abc",
+      "aligned": "7f269ca3eeb608141f4d63ff18a8f88353e1942c4ededac28152d32ed335b7ed",
+      "continuous": "a0bec1bf04fdcc75558598b988dca10f91da8e6b5f262a2926c025f17fd5fff4"
+    }
+  },
+  {
+    "index": "169",
+    "video_id": "D61jenC5oBA",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "c1df02bb7f0e53f1feba4e7fde7e1e098d39fadca1053230f1256e290bb93b4c",
+      "aligned": "a4e5a776da57c9788da10e0b6cec375d512750513d75f31b5b1b0bba2529a225",
+      "continuous": "631d7b73fac36666b655a6449eab30cb8b5686ccfbe17da453d69bf283f40d66"
+    }
+  },
+  {
+    "index": "170",
+    "video_id": "D61jenC5oBA",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "6ac256277925a2b884af096d5b93f97af328b2dc23c3da051bf86d979b7dae5f",
+      "aligned": "b741bd7a8bd2e509a2bbf23a57241b92ebfd36323ad19001efe2c8e238ad7dbf",
+      "continuous": "0d2f867700b2db46c1d5d46dd67df49e73880bf76dc7b778b54d56350a8ba5fe"
+    }
+  },
+  {
+    "index": "171",
+    "video_id": "c9oXTCVcTSE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "9bcf0506ac3b99cedae1f97a01e1a20f43b111d2c87282da21b5e2cea91a5128",
+      "aligned": "383902ffd170fb294683dcb2086e826ff1449fed3adb0e732d09eb73a651d959",
+      "continuous": "22413d896ddfb8c8c4e14b9a7ea6ec1f3ab968d9c7e77a4dedd1416639510ad5"
+    }
+  },
+  {
+    "index": "172",
+    "video_id": "c9oXTCVcTSE",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "d502c5d99622a87481ea2370d060dd3fad6e560572c6e86cb447dc740c27caaa",
+      "aligned": "1cd59615de9bb029c30345c027ca814b91995af747beb940a97abcf16092cbf7",
+      "continuous": "8ff3ee1575b9b317e340048f05325507e7374dab2a236c1ef09f77a53017d3fd"
+    }
+  },
+  {
+    "index": "173",
+    "video_id": "c9oXTCVcTSE",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "b407549773eb6f40108e32aa8459a412045512087ea0d46a20d825cbca201b4c",
+      "aligned": "8c83a0121f2ad28cce0e487f9e28121a8b6a324d9a95cfff9a64ffb3326ffca6",
+      "continuous": "d55a013a87bb492d88a35625280544242384b41c5df053cf36d17a74cbcd4c70"
+    }
+  },
+  {
+    "index": "174",
+    "video_id": "FlcVBKTSjRs",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "96e6bfacd3f83ec0fc1955d1ea8c90e55b9fb0631523f81a7742c99108d7bcc9",
+      "aligned": "045261a1f560337a5d42f6a895ffd44e0d1fa94cb8e284356892bd999ac967ed",
+      "continuous": "6e1f4c098d3dd16748493ffa2b0c521599b475514d5391f25672b33de5a7af90"
+    }
+  },
+  {
+    "index": "175",
+    "video_id": "FlcVBKTSjRs",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "707ac0a4f1d3ff5f133988bf06507b2e169f5a2c58785692ba5cadd402d6f099",
+      "aligned": "a657197e4166c7e1be87d761bdfacf0d38dc12d45fa9cf48e2419f542c0dc163",
+      "continuous": "dedf4e7bf2f2f877e06a747c5d25394f04e71d79244e3f2ebcb0aa30e8a7de9d"
+    }
+  },
+  {
+    "index": "176",
+    "video_id": "FlcVBKTSjRs",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "8595f3dc9e0e26253d8e8aa8c38e92f64c0c1c0094510961368212e8b37befce",
+      "aligned": "7d5eb4dde776e75275990eb324606d31d6d3fddf80b175eb18ff784342b9760f",
+      "continuous": "2239f51f465b48a1f50f0cad9f6afd7eeaad70a9846d0fdbafaa5029fc75d38a"
+    }
+  },
+  {
+    "index": "177",
+    "video_id": "BiJtPU9uP0c",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "1270d3bc02ce8f934e1bb47dea0767e9c76247d1ab1d0870e36a7e089cf3b246",
+      "aligned": "171023d5e31fb59e8c8a8374f3849b0d08f6fbdff07fa94d7c75c1e006264866",
+      "continuous": "75f3d0cb0d8b9594fc7cf4e96e72edf3f862c854c1ea0a77c3f95a59afdc3dc6"
+    }
+  },
+  {
+    "index": "178",
+    "video_id": "BiJtPU9uP0c",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "a8d78fa301d3e4cc10ecc7440fb6e21692f8014f33b26956ec1a2921a8067736",
+      "aligned": "054d2f951cd8f9d599135af9c6411405b1beb447336032187cd5354015449fb1",
+      "continuous": "65bd5cc621bfdd1f5751dd7810ae2d9cfca595d5e3608369e93842336c33d4bc"
+    }
+  },
+  {
+    "index": "179",
+    "video_id": "BiJtPU9uP0c",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "5fe6893372dda95e23d797d567425175df86963c68dfbbe626f9dc59b2345993",
+      "aligned": "811fc843b5d6fbe46565d162290c3ea08b2660b03cb104e0190ce971912c42d9",
+      "continuous": "dda53e37d8075f6b7d1d5ae0c397eab0cf991f27c3c9dd398ace4f0a866843f4"
+    }
+  },
+  {
+    "index": "180",
+    "video_id": "IKtnfFHjERg",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "d023ee8547eeedf0caba1e8d9474ff1fa82eee9eb357114b85589def9849159e",
+      "aligned": "8d0384032f156052deb479a82eb977f5288cb8053c9d74c9803502ffb9e419ce",
+      "continuous": "f33eb5642d80aa002c43575c536342fc5cb8f6c8c71969b52d7e55937ca56608"
+    }
+  },
+  {
+    "index": "181",
+    "video_id": "IKtnfFHjERg",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "d2d7a34860f72f72ef3330a09276c5c45f2cbd0f2904eb241d2920d7b1ef355d",
+      "aligned": "2a7bbaa39f8d2755bef694b800ed2f79a6eacde3b1e358ba46ad9877cbc2941b",
+      "continuous": "47592fba967f82c00105a8703d09694279a3172cd3429b5c9df3d4666fbf0457"
+    }
+  },
+  {
+    "index": "182",
+    "video_id": "IKtnfFHjERg",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "43463255854c43128d659ac127f685ac7643eba4054ee5d750f6461397d664f0",
+      "aligned": "a25ad56b89a33e9135ca81f9bec09340c5e1e771d40ab496c1d488dec1fa3b8f",
+      "continuous": "f51ace03fd1ec65209678570f95a2a94344613c94a255efdef5116741f480821"
+    }
+  },
+  {
+    "index": "183",
+    "video_id": "B_OL2TSrpKM",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "c90a91e47409d4319fe506fdcd35ace9c31db5883c8ec655300b9da08bbe7fe1",
+      "aligned": "32aec87da2d964d20d784ab2a1e49895530a0185face7c185cfdc6e3d2869284",
+      "continuous": "cc9efb25300b686b89a9a6ecd58cd4c6793ba6ee9563232b18d24a331af08559"
+    }
+  },
+  {
+    "index": "184",
+    "video_id": "B_OL2TSrpKM",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "d898e83817a2c3f7ceb02406d4798d7a8c0afad2b671ad14b9efec4f272f3100",
+      "aligned": "288da77f60c618096baea95cf878917ec83aa1a01a765950061029054c713414",
+      "continuous": "9035cff19c19cb09550a7dcce452b6c0ad6c880208788655891aaa7daf713566"
+    }
+  },
+  {
+    "index": "185",
+    "video_id": "B_OL2TSrpKM",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "d6ce95f1bb0255da5a3cc2ee70fb6eaef7fcb8d9f945ef2fbaf33da2988eb4ad",
+      "aligned": "bdca2047735ea23cd85988a2a6039f90254f1536b907c24db35ff52532225d6b",
+      "continuous": "f2718d62ca4394d54c59a8814a5eb8b12b2b77afe82da69e4395899051cedac6"
+    }
+  },
+  {
+    "index": "186",
+    "video_id": "4twBzf6ngSc",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "6b917c82e0ae515c7228a130289966610d727c6f910719ec55a56df18111c325",
+      "aligned": "2809d9a61fa4ac614daa4882f97b724ecf4ef591751ed6162bf4bad91a0f3f4e",
+      "continuous": "7c6bce4ee99b39db86c845d2c2cb91f7bec0b6d60130548a334e745fa4b6a185"
+    }
+  },
+  {
+    "index": "187",
+    "video_id": "4twBzf6ngSc",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "5e6342aa0ec3673c7acce241465b19e15bf995934030c3b3da88682d0e61464f",
+      "aligned": "a6bea6edba9aea2f3e29fe7bbb560b647941e3b4ce8924221ae8891d34c08f5a",
+      "continuous": "b761ad29141aaf119d41189e66dfc5061b200fc2bc7d8d0abe5c7d075e8eee84"
+    }
+  },
+  {
+    "index": "188",
+    "video_id": "4twBzf6ngSc",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "d3c66748263e4049740d3609334744c69ed33a4142fed1522c42c51f13326e96",
+      "aligned": "01577a132ee8e0dd2636138c2a42d89ed1e9ef7f8f6c71c7cc2f7bb3177f81ba",
+      "continuous": "b1f6a7c4a9e8ff79e036805a97b3d4a012605f0c6e523cfac1c4f7f08843dd19"
+    }
+  },
+  {
+    "index": "189",
+    "video_id": "2iHmlBmLKUE",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "ecff5b5930b13ef53b765f4109c61365c574cf4e11f5305cf842c647ecb3374c",
+      "aligned": "711e1df80279c014299527c809b35f13e49575279ccea7e33b90e12987259f1c",
+      "continuous": "4ead44256471a4739364b94deafc7805530e9bd93b383297aa5c43e460d988f6"
+    }
+  },
+  {
+    "index": "190",
+    "video_id": "2iHmlBmLKUE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "c1780eca7ae11533f7e7df6f2bbce6f86697fcfc680d07504f41eb6c72d52030",
+      "aligned": "774baf7702625fd37689fd8b26df520f6d096641242984b968d7b81d6d5db52f",
+      "continuous": "e6733e0c64b7150f51af27dcc2dcdc409a34fee30b7d34af59c5bcca6eb96af9"
+    }
+  },
+  {
+    "index": "191",
+    "video_id": "2iHmlBmLKUE",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "b44f5e287887eb84efc447201fce6ac49bf244bf6815fc106794e543d1c2fd9a",
+      "aligned": "834711e04337a84acb89f4be54cd61d608ddc9234f6afbe6badf007e8855f8df",
+      "continuous": "dc90883230eaaddbb3b620a7264155918d7aefaf1e5ee771f5e14d50e6e31d01"
+    }
+  },
+  {
+    "index": "192",
+    "video_id": "CQUphYL0vY8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "51dcdabb3c1121a6a657fea19a4536f000a2951716115a3319dedc6b76fcfff4",
+      "aligned": "9d0cd11f640869b5aaf4a96d32f790d5e7a8b078b46c8d4a6b15f48d414b5792",
+      "continuous": "819090eea5f5677bfc43c4f39884203ffe32920a10bea4b1aebd0150ed72dcbd"
+    }
+  },
+  {
+    "index": "193",
+    "video_id": "CQUphYL0vY8",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "64d88e966507a172b1a3a88ce10f63dd8df3567ce4527d8cabe0ff6293d7b64d",
+      "aligned": "9fdcb36727d5a5a3b428775752bfcb88b12c1d1dc181c69833f29c0d3f4ac190",
+      "continuous": "643022c4c41a9f57af9619bb98f2e61f8a6271f31ea381101cf52ce4c08919c9"
+    }
+  },
+  {
+    "index": "194",
+    "video_id": "CQUphYL0vY8",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "ef8834c2f9b55dd3bdb8dea96d4c718e0c8fe1ac392f824c837893686602cef8",
+      "aligned": "3a93394e6f359c7706367c72d36cb4e77fc15d0debfe0e172a0cc2383d2fb18e",
+      "continuous": "55dcd20282b74052069974454eb6e88e700ccc49328b16f1d51244912fb8dede"
+    }
+  },
+  {
+    "index": "195",
+    "video_id": "3E4Zca1p64s",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "20d82bbdf4904ef82e955f8444200e168f1371f400ed877eb0a2ed13a41a5578",
+      "aligned": "85c1191cd2fe117da0d740f7080ad33b72b7230467f0e17cb392b8a7e1c617bf",
+      "continuous": "488c56fdb53a48a1cac3b66a9f7aa0f04c706a3f7a237c02f3a09b92b3b94a36"
+    }
+  },
+  {
+    "index": "196",
+    "video_id": "3E4Zca1p64s",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "241d952c0be1e33fbeb52a7385c2822f66c846f00a9192e17629f185197b2003",
+      "aligned": "b74caaae4224434264bfd15230e99a9a5b3bd1a98b913fe70234400ab20be6e4",
+      "continuous": "5878db3e1ce5fe51e065440a8861f3ca221ff81a301d43db5ea23a7f34da253d"
+    }
+  },
+  {
+    "index": "197",
+    "video_id": "3E4Zca1p64s",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "979deb3fd8d5e21c127afce30fc0e699d60a9e6e26522e0af4d946c8fc045f57",
+      "aligned": "817c6ada0b7174192b0d871bf409fb26219358d6f0a500323e016c4abce1a0eb",
+      "continuous": "8f74f8626d4075d42947a687728ca9168da871c394ae47852131d159ffa2ca12"
+    }
+  },
+  {
+    "index": "198",
+    "video_id": "5-4Od1qn53s",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "f2becb65f4326e9d910e86d7db02bf651a9ec9e906859752660bb13817fd403d",
+      "aligned": "4d14d69e3da97b8e1b1116a282d2300bd90143306ab663d3be98e3f7df182c1f",
+      "continuous": "b18fcc26eeeaf1f23fd4142d0084fa95b67b819695e8345e8ed634a04b461caf"
+    }
+  },
+  {
+    "index": "199",
+    "video_id": "5-4Od1qn53s",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "66f19dca87b7a1d263741a36230f0b888fb3b7ef0cdf965504931884d3dcda1b",
+      "aligned": "4f2d862465944b1fb63234259a43e071411cf50698b46b37ec173e3f0463436b",
+      "continuous": "778220ca7f195fa0e2a967d01cca16a103f119b648047bed1492017089716678"
+    }
+  },
+  {
+    "index": "200",
+    "video_id": "5-4Od1qn53s",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "6426ea99bd70644e78701d9fdd024fed7ee43147772d6a1458b70e2537419afd",
+      "aligned": "8b4f2436ab11b8a08735099f192a642ca167e2dab43528dd5e692f280e7f053d",
+      "continuous": "38cd0eca204bdbab832e312f380484992a080370e678ee659d61e3157a096c33"
+    }
+  },
+  {
+    "index": "201",
+    "video_id": "2gFxZmb0dMo",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "b593d1dc7d1a9bd921ad50e3dac439309ac9aa0beb8c8faeb8397dc1b8628b10",
+      "aligned": "8059a680e1f095acf3238ec240ba233030a700cb9fa0572588ca7ea8dc238fda",
+      "continuous": "10327c9563f3efe440ba244e5cac3274bc38359befb99f7e56222796f8c6fea8"
+    }
+  },
+  {
+    "index": "202",
+    "video_id": "2gFxZmb0dMo",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "2b80e518c584cd1273347b1350da40e4f8283b1bc8a7b64c63c1a8001cd3a656",
+      "aligned": "255e3aede6ca7d88224d1743c46bc9ed3e9b189b1db277f2cb9dd8eba3155b0f",
+      "continuous": "a1e9bf6b1bb86d70a470995d0b8fd0431c591316e36e21be30d7aa0288f55541"
+    }
+  },
+  {
+    "index": "203",
+    "video_id": "2gFxZmb0dMo",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "b2fa116c7e18bebf6be6cbf74b3048dc15d01d608fb3dbc4af21d1474a538141",
+      "aligned": "a49fa5f907e581790edea6cee8cb9f249b0ca5e1deee9810193b98c986217833",
+      "continuous": "041296b865da0fc3c550fb30e5ef4bcd3ec13ca107f35a45e45c98b325646bdb"
+    }
+  },
+  {
+    "index": "204",
+    "video_id": "27YZLpw0M98",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "2c515af1d8845a9782d5dab7306aa64dee4c833b7d2cde3fa518e48314d84cf8",
+      "aligned": "5c9865cba79f7e826a6b11b546fff1127df1b4e581c8c5c3b9fefac05bad5d12",
+      "continuous": "68f6e59d2ebd5e0ce6fe8152216ffc9551e06a4c99c34983b2124c076fa28e07"
+    }
+  },
+  {
+    "index": "205",
+    "video_id": "27YZLpw0M98",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "7d153fe2074b20970980db936fc08c8d0519aeb27dd5289f56ea778f6ee799e0",
+      "aligned": "f4fe3ffb8b352de587ce4b35d7dbbc7159e7d9781bf626a130c80c1a83025921",
+      "continuous": "6287373167663e7d5bc3f2016bc65ecb68e87e602c5cd0bc05a263aefda4b352"
+    }
+  },
+  {
+    "index": "206",
+    "video_id": "27YZLpw0M98",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "82ea513bcae1da986b91e5e3771349648f65727ab1b3abed873e6a85bdabd9e7",
+      "aligned": "20556859c44c426ca94ac5f9a3ae4eb31574c59486b2ae6af9438fabb98a36a4",
+      "continuous": "848ffd0927b969694c6a4aa5d5557075a601ce418984889329af028bed4563d1"
+    }
+  },
+  {
+    "index": "207",
+    "video_id": "hsKmC7RwHvo",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "34f1604168335055ef25a48d6018ba8062e24144176e224f8aae455088fafc0e",
+      "aligned": "303563d21fe6ba6166be343cd9935b5e2edb1e425bc47d5f093605bf4d65ea47",
+      "continuous": "11d616b715df7ac78faad5f47aeb890068e2a4807226f687e7f2629c98303fe0"
+    }
+  },
+  {
+    "index": "208",
+    "video_id": "hsKmC7RwHvo",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "1c850528f1509ff1c099f8779730a69814fecbd911dc04d46896ee078989c9a6",
+      "aligned": "a1e992e0d4879da99ff41569e13ee92fd105715bbfe8b7bdfdad1ac05748861d",
+      "continuous": "20e27a18a42d805cbfd17abb13980f7d044629dee1e00b31617fefd505d1c27b"
+    }
+  },
+  {
+    "index": "209",
+    "video_id": "hsKmC7RwHvo",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "471d92f0a98492731990f0984e1ebf5f29259a2dd684a4e580f1da10d38fb769",
+      "aligned": "3676c74fbe79f5f52b5fffae15e77f4f08b247c913e6011df7a50eb2171a4b60",
+      "continuous": "3bfadc2e2a872bfc4fc86f3c7e40143646de64fa99289acc610e25c0f9f8c3be"
+    }
+  },
+  {
+    "index": "210",
+    "video_id": "DoFmXBjRGmk",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "69a7c97c46364c85c748f06711e99ad81559c575eb44eaebdf04f6da86132f97",
+      "aligned": "9107a50f0be38d68a9b5ae376a64ce3df5379637b6faa883b298eb4eb7468abb",
+      "continuous": "e59f28dc05e7d3700c45310ceb2ae40da6df1200ccdef3fddbfd989eee5ef2b1"
+    }
+  },
+  {
+    "index": "211",
+    "video_id": "DoFmXBjRGmk",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "B",
+      "aligned": "B",
+      "continuous": "B"
+    },
+    "record_sha256": {
+      "no_sub": "0b56af86f815169c2689ff1dc332f335e7d8e0410b62cbeb6a583b41c76b98ae",
+      "aligned": "5e31c1b2958fc64480fac2a571d000c37ee56e57847f6ce230f4e29ffb906952",
+      "continuous": "a21820715cc91bbc962c834e37e7641354d59c59b7380916f5419310d5228fb8"
+    }
+  },
+  {
+    "index": "212",
+    "video_id": "DoFmXBjRGmk",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "d5db8b250870ada58c212ca9c2a504a3c54e23833831541689385f83aee5dd02",
+      "aligned": "9ef08c5e2e79ffd37dc36bfe186c1ec5473d14e2c6f713d1cc263db0871b18dd",
+      "continuous": "9a88389f5a9b9c9f0fd69b56d3dd3018b9944b3d02b75d145b471db0c929cff8"
+    }
+  },
+  {
+    "index": "213",
+    "video_id": "bHt0Riqz0qo",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "no_sub": "C",
+      "aligned": "C",
+      "continuous": "C"
+    },
+    "record_sha256": {
+      "no_sub": "ad5388263ba76b71523d20426507755cae6d42c7bd2ffc803e413995da48d265",
+      "aligned": "5739695a4c6c0ce8dac05e7a79f748b1763700f2bcbd98ff38e79d08a8d4a0a1",
+      "continuous": "bf5897b5e0498b49cbd0437b0202390a3afb6c01345b25be45ae03894494df74"
+    }
+  },
+  {
+    "index": "214",
+    "video_id": "bHt0Riqz0qo",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "4a9a1f1246a37533377d8b9a3e9ec960755a72c32bafc83fac03a6ee453d7a11",
+      "aligned": "2f633b1dc05c4c32b4ab0b5996d07e1dc41ead6fdc27fa405b1be585409cdb32",
+      "continuous": "07a2cebc2283ea00746da31127e5e2139efae42e50822858b45e4884200814a5"
+    }
+  },
+  {
+    "index": "215",
+    "video_id": "bHt0Riqz0qo",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "c579b1c3b32d17bb78b6d1b5202e6ed889d653a56882f4b54e5a65692d51cbbc",
+      "aligned": "c2e81865c17846263c1948e9cc1e0da5fc7c75900297691b7ff4df7443710cf5",
+      "continuous": "50ba64b165bbe1b88461954a5ad4c76cc4fa897ae33a81cce1951f206370c705"
+    }
+  },
+  {
+    "index": "216",
+    "video_id": "4ZK-m01XSQ8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "A",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "a0d66deb53c49a76b473c7b6269a23da3cf9e975287c7a435ee3f3f7d35f5c77",
+      "aligned": "a342e4c98989f9f271b9098d80272e2d70d90e1785330a6e7f76de4fd70dc0a2",
+      "continuous": "84f7ee8924c737e6c60628a0e455ac6e47197d74fc1cf7359c61e85ea0b65f70"
+    }
+  },
+  {
+    "index": "217",
+    "video_id": "4ZK-m01XSQ8",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "no_sub": "D",
+      "aligned": "D",
+      "continuous": "D"
+    },
+    "record_sha256": {
+      "no_sub": "695d89c7e30caf18d43a99f1649124fa13e6fe15864eaa6af8b9d66f9cac0a67",
+      "aligned": "00d617735c383cc0316de10024034d4b868d29b8d1e65940250d9969be1d898b",
+      "continuous": "08eb157a2d75fd2c2b64a38afd82fbea0f388c56477c68c2b30f13b204f9cc5a"
+    }
+  },
+  {
+    "index": "218",
+    "video_id": "4ZK-m01XSQ8",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "no_sub": "A",
+      "aligned": "B",
+      "continuous": "A"
+    },
+    "record_sha256": {
+      "no_sub": "54be9d3486f2f2bf71c41cf2b08ea00990c13421a8a282bd579091f34c381e42",
+      "aligned": "048568241c93ea7dfe4d1fae201a580c6bd2d32fd2db2c82b1c726e96a9eff94",
+      "continuous": "92bff25969f712bac9cae223af299e45d44182ad1c54a5e31903f593460e9156"
+    }
+  }
+]

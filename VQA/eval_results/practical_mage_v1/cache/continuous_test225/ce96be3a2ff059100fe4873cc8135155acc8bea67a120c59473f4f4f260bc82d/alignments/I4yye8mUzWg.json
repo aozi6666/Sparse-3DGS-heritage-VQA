@@ -1,0 +1,1216 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "I4yye8mUzWg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I4yye8mUzWg.srt",
+        "status": "available",
+        "bytes": 61296,
+        "sha256": "791a61e38458d8f34c8da26139e34bb89fe7d8cf6166ccefa5864168b574f3fb",
+        "cues": 605,
+        "nonempty_cues": 605
+      },
+      "frame_indices": [
+        0,
+        2193,
+        4385,
+        6578,
+        8770,
+        10963,
+        13156,
+        15348,
+        17541,
+        19734,
+        21926,
+        24119,
+        26311,
+        28504,
+        30697,
+        32889,
+        35082,
+        37274,
+        39467,
+        41660,
+        43852,
+        46045,
+        48237,
+        50430,
+        52623,
+        54815,
+        57008,
+        59201,
+        61393,
+        63586,
+        65778,
+        67971
+      ],
+      "frame_seconds": [
+        0.0,
+        73.1,
+        146.166667,
+        219.26666699999998,
+        292.333333,
+        365.433333,
+        438.53333299999997,
+        511.6,
+        584.7,
+        657.8,
+        730.866667,
+        803.966667,
+        877.033333,
+        950.133333,
+        1023.233333,
+        1096.3,
+        1169.4,
+        1242.466667,
+        1315.566667,
+        1388.666667,
+        1461.733333,
+        1534.833333,
+        1607.9,
+        1681.0,
+        1754.1,
+        1827.166667,
+        1900.266667,
+        1973.366667,
+        2046.433333,
+        2119.533333,
+        2192.6,
+        2265.7
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          19,
+          20
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          68,
+          69
+        ],
+        [],
+        [
+          101,
+          102
+        ],
+        [
+          125,
+          126
+        ],
+        [
+          150,
+          151
+        ],
+        [
+          176,
+          177
+        ],
+        [
+          205,
+          206
+        ],
+        [
+          223,
+          224
+        ],
+        [
+          241,
+          242
+        ],
+        [
+          262
+        ],
+        [
+          276,
+          277
+        ],
+        [
+          295,
+          296
+        ],
+        [
+          321,
+          322
+        ],
+        [
+          341
+        ],
+        [
+          364,
+          365
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          417
+        ],
+        [],
+        [],
+        [
+          465,
+          466
+        ],
+        [],
+        [],
+        [
+          512,
+          513
+        ],
+        [
+          527,
+          528
+        ],
+        [
+          544
+        ],
+        [
+          562,
+          563
+        ],
+        [],
+        [],
+        [
+          605
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 19,
+          "start_ms": 68479,
+          "end_ms": 73520,
+          "text": "right you play it every day multiple"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 70560,
+          "end_ms": 77320,
+          "text": "times a day yeah I do it gets me pumped"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 144680,
+          "end_ms": 148440,
+          "text": "going to"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 145480,
+          "end_ms": 150040,
+          "text": "work wa what's happening to my body"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 212079,
+          "end_ms": 219480,
+          "text": "eyes when we're"
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 215120,
+          "end_ms": 222560,
+          "text": "dancing the night begin to"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 361639,
+          "end_ms": 368440,
+          "text": "There Is No Escape Metal Man soon the"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 365000,
+          "end_ms": 368440,
+          "text": "night will shine no"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 436080,
+          "end_ms": 439520,
+          "text": "famous musicians love more than"
+        },
+        {
+          "cue_id": 126,
+          "start_ms": 437440,
+          "end_ms": 442120,
+          "text": "fulfilling the weird requests of random"
+        },
+        {
+          "cue_id": 150,
+          "start_ms": 507240,
+          "end_ms": 512599,
+          "text": "as quickly as they had come"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 509879,
+          "end_ms": 516640,
+          "text": "I never thought I'd hear that song again"
+        },
+        {
+          "cue_id": 176,
+          "start_ms": 580200,
+          "end_ms": 588920,
+          "text": "the say two names game oh I adore the"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 582959,
+          "end_ms": 588920,
+          "text": "two name game Jasper Cornelia Dagmar"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 654880,
+          "end_ms": 658040,
+          "text": "forever"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 656520,
+          "end_ms": 661040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 223,
+          "start_ms": 726959,
+          "end_ms": 731360,
+          "text": "starting to wonder if maybe I dreamed at"
+        },
+        {
+          "cue_id": 224,
+          "start_ms": 728800,
+          "end_ms": 736040,
+          "text": "all it's no dream Billy I never thought"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 799600,
+          "end_ms": 808160,
+          "text": "feeling new all"
+        },
+        {
+          "cue_id": 242,
+          "start_ms": 803079,
+          "end_ms": 812040,
+          "text": "inun the Melo shines over you let the"
+        },
+        {
+          "cue_id": 262,
+          "start_ms": 876440,
+          "end_ms": 882399,
+          "text": "come on and go with"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 940839,
+          "end_ms": 954460,
+          "text": "words music will set you"
+        },
+        {
+          "cue_id": 277,
+          "start_ms": 944240,
+          "end_ms": 957589,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 295,
+          "start_ms": 1019040,
+          "end_ms": 1024520,
+          "text": "so many of the unpleasant odors o ve"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 1022600,
+          "end_ms": 1026720,
+          "text": "that was me I've been eating a lot of"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 1089679,
+          "end_ms": 1097400,
+          "text": "late for the meal of the supper"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 1094000,
+          "end_ms": 1099720,
+          "text": "booo prepare to enter a world of music"
+        },
+        {
+          "cue_id": 341,
+          "start_ms": 1167240,
+          "end_ms": 1170240,
+          "text": "before"
+        },
+        {
+          "cue_id": 364,
+          "start_ms": 1237559,
+          "end_ms": 1242720,
+          "text": "break not when the freedom of this world"
+        },
+        {
+          "cue_id": 365,
+          "start_ms": 1239720,
+          "end_ms": 1245039,
+          "text": "depends on us finding those"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 1311679,
+          "end_ms": 1316320,
+          "text": "ultral laac to be"
+        },
+        {
+          "cue_id": 395,
+          "start_ms": 1313520,
+          "end_ms": 1318200,
+          "text": "destroyed that's wicked yo how can you"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 1386350,
+          "end_ms": 1389660,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 465,
+          "start_ms": 1603720,
+          "end_ms": 1608840,
+          "text": "attack this entire Factory Yes sounds"
+        },
+        {
+          "cue_id": 466,
+          "start_ms": 1606840,
+          "end_ms": 1612880,
+          "text": "like my kind of"
+        },
+        {
+          "cue_id": 512,
+          "start_ms": 1823159,
+          "end_ms": 1830039,
+          "text": "we cannot retrieve the stem without our"
+        },
+        {
+          "cue_id": 513,
+          "start_ms": 1825600,
+          "end_ms": 1833519,
+          "text": "superpowers but we can with the power of"
+        },
+        {
+          "cue_id": 527,
+          "start_ms": 1887720,
+          "end_ms": 1906669,
+          "text": "trust the"
+        },
+        {
+          "cue_id": 528,
+          "start_ms": 1889070,
+          "end_ms": 1906669,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 544,
+          "start_ms": 1971840,
+          "end_ms": 1980880,
+          "text": "Miracle e e r this can't be I destroy"
+        },
+        {
+          "cue_id": 562,
+          "start_ms": 2044000,
+          "end_ms": 2048759,
+          "text": "it what's"
+        },
+        {
+          "cue_id": 563,
+          "start_ms": 2045680,
+          "end_ms": 2048759,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 605,
+          "start_ms": 2264680,
+          "end_ms": 2267680,
+          "text": "inside"
+        }
+      ],
+      "text": "right you play it every day multiple\ntimes a day yeah I do it gets me pumped\ngoing to\nwork wa what's happening to my body\neyes when we're\ndancing the night begin to\nThere Is No Escape Metal Man soon the\nnight will shine no\nfamous musicians love more than\nfulfilling the weird requests of random\nas quickly as they had come\nI never thought I'd hear that song again\nthe say two names game oh I adore the\ntwo name game Jasper Cornelia Dagmar\nforever\n[Music]\nstarting to wonder if maybe I dreamed at\nall it's no dream Billy I never thought\nfeeling new all\ninun the Melo shines over you let the\ncome on and go with\nwords music will set you\n[Music]\nso many of the unpleasant odors o ve\nthat was me I've been eating a lot of\nlate for the meal of the supper\nbooo prepare to enter a world of music\nbefore\nbreak not when the freedom of this world\ndepends on us finding those\nultral laac to be\ndestroyed that's wicked yo how can you\n[Music]\nattack this entire Factory Yes sounds\nlike my kind of\nwe cannot retrieve the stem without our\nsuperpowers but we can with the power of\ntrust the\n[Music]\nMiracle e e r this can't be I destroy\nit what's\n[Music]\ninside",
+      "text_tokens": 298,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "I4yye8mUzWg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I4yye8mUzWg.srt",
+          "status": "available",
+          "bytes": 61296,
+          "sha256": "791a61e38458d8f34c8da26139e34bb89fe7d8cf6166ccefa5864168b574f3fb",
+          "cues": 605,
+          "nonempty_cues": 605
+        },
+        "frame_indices": [
+          0,
+          2193,
+          4385,
+          6578,
+          8770,
+          10963,
+          13156,
+          15348,
+          17541,
+          19734,
+          21926,
+          24119,
+          26311,
+          28504,
+          30697,
+          32889,
+          35082,
+          37274,
+          39467,
+          41660,
+          43852,
+          46045,
+          48237,
+          50430,
+          52623,
+          54815,
+          57008,
+          59201,
+          61393,
+          63586,
+          65778,
+          67971
+        ],
+        "frame_seconds": [
+          0.0,
+          73.1,
+          146.166667,
+          219.26666699999998,
+          292.333333,
+          365.433333,
+          438.53333299999997,
+          511.6,
+          584.7,
+          657.8,
+          730.866667,
+          803.966667,
+          877.033333,
+          950.133333,
+          1023.233333,
+          1096.3,
+          1169.4,
+          1242.466667,
+          1315.566667,
+          1388.666667,
+          1461.733333,
+          1534.833333,
+          1607.9,
+          1681.0,
+          1754.1,
+          1827.166667,
+          1900.266667,
+          1973.366667,
+          2046.433333,
+          2119.533333,
+          2192.6,
+          2265.7
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            19,
+            20
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            68,
+            69
+          ],
+          [],
+          [
+            101,
+            102
+          ],
+          [
+            125,
+            126
+          ],
+          [
+            150,
+            151
+          ],
+          [
+            176,
+            177
+          ],
+          [
+            205,
+            206
+          ],
+          [
+            223,
+            224
+          ],
+          [
+            241,
+            242
+          ],
+          [
+            262
+          ],
+          [
+            276,
+            277
+          ],
+          [
+            295,
+            296
+          ],
+          [
+            321,
+            322
+          ],
+          [
+            341
+          ],
+          [
+            364,
+            365
+          ],
+          [
+            394,
+            395
+          ],
+          [
+            417
+          ],
+          [],
+          [],
+          [
+            465,
+            466
+          ],
+          [],
+          [],
+          [
+            512,
+            513
+          ],
+          [
+            527,
+            528
+          ],
+          [
+            544
+          ],
+          [
+            562,
+            563
+          ],
+          [],
+          [],
+          [
+            605
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 19,
+            "start_ms": 68479,
+            "end_ms": 73520,
+            "text": "right you play it every day multiple"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 70560,
+            "end_ms": 77320,
+            "text": "times a day yeah I do it gets me pumped"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 144680,
+            "end_ms": 148440,
+            "text": "going to"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 145480,
+            "end_ms": 150040,
+            "text": "work wa what's happening to my body"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 212079,
+            "end_ms": 219480,
+            "text": "eyes when we're"
+          },
+          {
+            "cue_id": 69,
+            "start_ms": 215120,
+            "end_ms": 222560,
+            "text": "dancing the night begin to"
+          },
+          {
+            "cue_id": 101,
+            "start_ms": 361639,
+            "end_ms": 368440,
+            "text": "There Is No Escape Metal Man soon the"
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 365000,
+            "end_ms": 368440,
+            "text": "night will shine no"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 436080,
+            "end_ms": 439520,
+            "text": "famous musicians love more than"
+          },
+          {
+            "cue_id": 126,
+            "start_ms": 437440,
+            "end_ms": 442120,
+            "text": "fulfilling the weird requests of random"
+          },
+          {
+            "cue_id": 150,
+            "start_ms": 507240,
+            "end_ms": 512599,
+            "text": "as quickly as they had come"
+          },
+          {
+            "cue_id": 151,
+            "start_ms": 509879,
+            "end_ms": 516640,
+            "text": "I never thought I'd hear that song again"
+          },
+          {
+            "cue_id": 176,
+            "start_ms": 580200,
+            "end_ms": 588920,
+            "text": "the say two names game oh I adore the"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 582959,
+            "end_ms": 588920,
+            "text": "two name game Jasper Cornelia Dagmar"
+          },
+          {
+            "cue_id": 205,
+            "start_ms": 654880,
+            "end_ms": 658040,
+            "text": "forever"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 656520,
+            "end_ms": 661040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 223,
+            "start_ms": 726959,
+            "end_ms": 731360,
+            "text": "starting to wonder if maybe I dreamed at"
+          },
+          {
+            "cue_id": 224,
+            "start_ms": 728800,
+            "end_ms": 736040,
+            "text": "all it's no dream Billy I never thought"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 799600,
+            "end_ms": 808160,
+            "text": "feeling new all"
+          },
+          {
+            "cue_id": 242,
+            "start_ms": 803079,
+            "end_ms": 812040,
+            "text": "inun the Melo shines over you let the"
+          },
+          {
+            "cue_id": 262,
+            "start_ms": 876440,
+            "end_ms": 882399,
+            "text": "come on and go with"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 940839,
+            "end_ms": 954460,
+            "text": "words music will set you"
+          },
+          {
+            "cue_id": 277,
+            "start_ms": 944240,
+            "end_ms": 957589,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 295,
+            "start_ms": 1019040,
+            "end_ms": 1024520,
+            "text": "so many of the unpleasant odors o ve"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 1022600,
+            "end_ms": 1026720,
+            "text": "that was me I've been eating a lot of"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 1089679,
+            "end_ms": 1097400,
+            "text": "late for the meal of the supper"
+          },
+          {
+            "cue_id": 322,
+            "start_ms": 1094000,
+            "end_ms": 1099720,
+            "text": "booo prepare to enter a world of music"
+          },
+          {
+            "cue_id": 341,
+            "start_ms": 1167240,
+            "end_ms": 1170240,
+            "text": "before"
+          },
+          {
+            "cue_id": 364,
+            "start_ms": 1237559,
+            "end_ms": 1242720,
+            "text": "break not when the freedom of this world"
+          },
+          {
+            "cue_id": 365,
+            "start_ms": 1239720,
+            "end_ms": 1245039,
+            "text": "depends on us finding those"
+          },
+          {
+            "cue_id": 394,
+            "start_ms": 1311679,
+            "end_ms": 1316320,
+            "text": "ultral laac to be"
+          },
+          {
+            "cue_id": 395,
+            "start_ms": 1313520,
+            "end_ms": 1318200,
+            "text": "destroyed that's wicked yo how can you"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 1386350,
+            "end_ms": 1389660,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 465,
+            "start_ms": 1603720,
+            "end_ms": 1608840,
+            "text": "attack this entire Factory Yes sounds"
+          },
+          {
+            "cue_id": 466,
+            "start_ms": 1606840,
+            "end_ms": 1612880,
+            "text": "like my kind of"
+          },
+          {
+            "cue_id": 512,
+            "start_ms": 1823159,
+            "end_ms": 1830039,
+            "text": "we cannot retrieve the stem without our"
+          },
+          {
+            "cue_id": 513,
+            "start_ms": 1825600,
+            "end_ms": 1833519,
+            "text": "superpowers but we can with the power of"
+          },
+          {
+            "cue_id": 527,
+            "start_ms": 1887720,
+            "end_ms": 1906669,
+            "text": "trust the"
+          },
+          {
+            "cue_id": 528,
+            "start_ms": 1889070,
+            "end_ms": 1906669,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 544,
+            "start_ms": 1971840,
+            "end_ms": 1980880,
+            "text": "Miracle e e r this can't be I destroy"
+          },
+          {
+            "cue_id": 562,
+            "start_ms": 2044000,
+            "end_ms": 2048759,
+            "text": "it what's"
+          },
+          {
+            "cue_id": 563,
+            "start_ms": 2045680,
+            "end_ms": 2048759,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 605,
+            "start_ms": 2264680,
+            "end_ms": 2267680,
+            "text": "inside"
+          }
+        ],
+        "text": "right you play it every day multiple\ntimes a day yeah I do it gets me pumped\ngoing to\nwork wa what's happening to my body\neyes when we're\ndancing the night begin to\nThere Is No Escape Metal Man soon the\nnight will shine no\nfamous musicians love more than\nfulfilling the weird requests of random\nas quickly as they had come\nI never thought I'd hear that song again\nthe say two names game oh I adore the\ntwo name game Jasper Cornelia Dagmar\nforever\n[Music]\nstarting to wonder if maybe I dreamed at\nall it's no dream Billy I never thought\nfeeling new all\ninun the Melo shines over you let the\ncome on and go with\nwords music will set you\n[Music]\nso many of the unpleasant odors o ve\nthat was me I've been eating a lot of\nlate for the meal of the supper\nbooo prepare to enter a world of music\nbefore\nbreak not when the freedom of this world\ndepends on us finding those\nultral laac to be\ndestroyed that's wicked yo how can you\n[Music]\nattack this entire Factory Yes sounds\nlike my kind of\nwe cannot retrieve the stem without our\nsuperpowers but we can with the power of\ntrust the\n[Music]\nMiracle e e r this can't be I destroy\nit what's\n[Music]\ninside",
+        "text_tokens": 298,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S18",
+          "cue_ids": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 65519,
+          "end_ms": 79320,
+          "text": "topic of the song it's pretty great right you play it every day multiple times a day yeah I do it gets me pumped up bro what's so special about that song"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 142480,
+          "end_ms": 153040,
+          "text": "with your heart not your ears it's not going to work wa what's happening to my body that's the block going on at temporary"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68,
+            69,
+            70
+          ],
+          "start_ms": 208599,
+          "end_ms": 226599,
+          "text": "I see the story in your eyes when we're dancing the night begin to shine night begins to"
+        },
+        {
+          "id": "S100",
+          "cue_ids": [
+            100,
+            101,
+            102
+          ],
+          "start_ms": 358479,
+          "end_ms": 368440,
+          "text": "no There Is No Escape Metal Man soon the night will shine no"
+        },
+        {
+          "id": "S124",
+          "cue_ids": [
+            124,
+            125,
+            126,
+            127
+          ],
+          "start_ms": 433840,
+          "end_ms": 446039,
+          "text": "they do that because there's nothing famous musicians love more than fulfilling the weird requests of random fans let me tell you a story Little"
+        },
+        {
+          "id": "S149",
+          "cue_ids": [
+            149,
+            150,
+            151,
+            152
+          ],
+          "start_ms": 503120,
+          "end_ms": 519599,
+          "text": "world and then like that be disappeared as quickly as they had come I never thought I'd hear that song again but you brought it right to me now I'll"
+        },
+        {
+          "id": "S175",
+          "cue_ids": [
+            175,
+            176,
+            177,
+            178
+          ],
+          "start_ms": 578120,
+          "end_ms": 595040,
+          "text": "reunion Oh I thought we was just playing the say two names game oh I adore the two name game Jasper Cornelia Dagmar Donald I can't believe be is back"
+        },
+        {
+          "id": "S204",
+          "cue_ids": [
+            204,
+            205,
+            206,
+            207
+          ],
+          "start_ms": 653240,
+          "end_ms": 661040,
+          "text": "forever forever [Music] forever"
+        },
+        {
+          "id": "S222",
+          "cue_ids": [
+            222,
+            223,
+            224,
+            225
+          ],
+          "start_ms": 723720,
+          "end_ms": 736040,
+          "text": "you did it we've been away so long I was starting to wonder if maybe I dreamed at all it's no dream Billy I never thought we'd come back and you'll wish you never"
+        },
+        {
+          "id": "S240",
+          "cue_ids": [
+            240,
+            241,
+            242,
+            243
+          ],
+          "start_ms": 795639,
+          "end_ms": 814610,
+          "text": "dream life is here for us to seee feeling new all inun the Melo shines over you let the music make your morning Groove with the"
+        },
+        {
+          "id": "S262",
+          "cue_ids": [
+            262,
+            263
+          ],
+          "start_ms": 876440,
+          "end_ms": 888839,
+          "text": "come on and go with me say the"
+        },
+        {
+          "id": "S275",
+          "cue_ids": [
+            275,
+            276,
+            277,
+            278
+          ],
+          "start_ms": 938839,
+          "end_ms": 957589,
+          "text": "you words music will set you [Music] [Applause]"
+        },
+        {
+          "id": "S294",
+          "cue_ids": [
+            294,
+            295,
+            296,
+            297
+          ],
+          "start_ms": 1015720,
+          "end_ms": 1029599,
+          "text": "hasn't changed a bit yet I do not recall so many of the unpleasant odors o ve that was me I've been eating a lot of fiber on the account of my poor"
+        },
+        {
+          "id": "S320",
+          "cue_ids": [
+            320,
+            321,
+            322,
+            323
+          ],
+          "start_ms": 1086600,
+          "end_ms": 1099720,
+          "text": "be back by three we do not wish to be late for the meal of the supper booo prepare to enter a world of music and"
+        },
+        {
+          "id": "S341",
+          "cue_ids": [
+            341
+          ],
+          "start_ms": 1167240,
+          "end_ms": 1170240,
+          "text": "before"
+        },
+        {
+          "id": "S363",
+          "cue_ids": [
+            363,
+            364,
+            365,
+            366
+          ],
+          "start_ms": 1234320,
+          "end_ms": 1246960,
+          "text": "music it's so hot can't we take some break not when the freedom of this world depends on us finding those stems any luck with the radio I'm"
+        },
+        {
+          "id": "S393",
+          "cue_ids": [
+            393,
+            394,
+            395,
+            396
+          ],
+          "start_ms": 1309679,
+          "end_ms": 1320200,
+          "text": "the songs the sheriff delivers them to ultral laac to be destroyed that's wicked yo how can you profit from the destruction of music you"
+        },
+        {
+          "id": "S417",
+          "cue_ids": [
+            417
+          ],
+          "start_ms": 1386350,
+          "end_ms": 1389660,
+          "text": "[Music]"
+        },
+        {
+          "id": "S464",
+          "cue_ids": [
+            464,
+            465,
+            466,
+            467
+          ],
+          "start_ms": 1601640,
+          "end_ms": 1617039,
+          "text": "lifeblood of this reality you want us to attack this entire Factory Yes sounds like my kind of party time to close up shop Fulon the"
+        },
+        {
+          "id": "S511",
+          "cue_ids": [
+            511,
+            512,
+            513,
+            514
+          ],
+          "start_ms": 1819440,
+          "end_ms": 1836240,
+          "text": "key give it a rest bro yes friend cyborg we cannot retrieve the stem without our superpowers but we can with the power of music trust me and if you can't do that"
+        },
+        {
+          "id": "S526",
+          "cue_ids": [
+            526,
+            527,
+            528
+          ],
+          "start_ms": 1886320,
+          "end_ms": 1906669,
+          "text": "we cannot do it trust the [Music]"
+        },
+        {
+          "id": "S544",
+          "cue_ids": [
+            544,
+            545
+          ],
+          "start_ms": 1971840,
+          "end_ms": 1983960,
+          "text": "Miracle e e r this can't be I destroy your music e e r is music and music can"
+        },
+        {
+          "id": "S561",
+          "cue_ids": [
+            561,
+            562,
+            563,
+            564
+          ],
+          "start_ms": 2039720,
+          "end_ms": 2055199,
+          "text": "eer it's the last song they're playing it what's [Music] happening you"
+        },
+        {
+          "id": "S605",
+          "cue_ids": [
+            605
+          ],
+          "start_ms": 2264680,
+          "end_ms": 2267680,
+          "text": "inside"
+        }
+      ],
+      "text": "S18 [00:01:05.519 --> 00:01:19.320] topic of the song it's pretty great right you play it every day multiple times a day yeah I do it gets me pumped up bro what's so special about that song\nS45 [00:02:22.480 --> 00:02:33.040] with your heart not your ears it's not going to work wa what's happening to my body that's the block going on at temporary\nS67 [00:03:28.599 --> 00:03:46.599] I see the story in your eyes when we're dancing the night begin to shine night begins to\nS100 [00:05:58.479 --> 00:06:08.440] no There Is No Escape Metal Man soon the night will shine no\nS124 [00:07:13.840 --> 00:07:26.039] they do that because there's nothing famous musicians love more than fulfilling the weird requests of random fans let me tell you a story Little\nS149 [00:08:23.120 --> 00:08:39.599] world and then like that be disappeared as quickly as they had come I never thought I'd hear that song again but you brought it right to me now I'll\nS175 [00:09:38.120 --> 00:09:55.040] reunion Oh I thought we was just playing the say two names game oh I adore the two name game Jasper Cornelia Dagmar Donald I can't believe be is back\nS204 [00:10:53.240 --> 00:11:01.040] forever forever [Music] forever\nS222 [00:12:03.720 --> 00:12:16.040] you did it we've been away so long I was starting to wonder if maybe I dreamed at all it's no dream Billy I never thought we'd come back and you'll wish you never\nS240 [00:13:15.639 --> 00:13:34.610] dream life is here for us to seee feeling new all inun the Melo shines over you let the music make your morning Groove with the\nS262 [00:14:36.440 --> 00:14:48.839] come on and go with me say the\nS275 [00:15:38.839 --> 00:15:57.589] you words music will set you [Music] [Applause]\nS294 [00:16:55.720 --> 00:17:09.599] hasn't changed a bit yet I do not recall so many of the unpleasant odors o ve that was me I've been eating a lot of fiber on the account of my poor\nS320 [00:18:06.600 --> 00:18:19.720] be back by three we do not wish to be late for the meal of the supper booo prepare to enter a world of music and\nS341 [00:19:27.240 --> 00:19:30.240] before\nS363 [00:20:34.320 --> 00:20:46.960] music it's so hot can't we take some break not when the freedom of this world depends on us finding those stems any luck with the radio I'm\nS393 [00:21:49.679 --> 00:22:00.200] the songs the sheriff delivers them to ultral laac to be destroyed that's wicked yo how can you profit from the destruction of music you\nS417 [00:23:06.350 --> 00:23:09.660] [Music]\nS464 [00:26:41.640 --> 00:26:57.039] lifeblood of this reality you want us to attack this entire Factory Yes sounds like my kind of party time to close up shop Fulon the\nS511 [00:30:19.440 --> 00:30:36.240] key give it a rest bro yes friend cyborg we cannot retrieve the stem without our superpowers but we can with the power of music trust me and if you can't do that\nS526 [00:31:26.320 --> 00:31:46.669] we cannot do it trust the [Music]\nS544 [00:32:51.840 --> 00:33:03.960] Miracle e e r this can't be I destroy your music e e r is music and music can\nS561 [00:33:59.720 --> 00:34:15.199] eer it's the last song they're playing it what's [Music] happening you\nS605 [00:37:44.680 --> 00:37:47.680] inside",
+      "text_tokens": 1302,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        18,
+        21,
+        45,
+        48,
+        67,
+        70,
+        100,
+        124,
+        127,
+        149,
+        152,
+        175,
+        178,
+        204,
+        207,
+        222,
+        225,
+        240,
+        243,
+        263,
+        275,
+        278,
+        294,
+        297,
+        320,
+        323,
+        363,
+        366,
+        393,
+        396,
+        464,
+        467,
+        511,
+        514,
+        526,
+        545,
+        561,
+        564
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e3f8a0c628abcaf8854444fc10ca6edb3fd6eebf2a59a5877dc324ec99f49d2c"
+}

@@ -1,0 +1,712 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "54YD3Gv-3MI",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54YD3Gv-3MI.srt",
+        "status": "available",
+        "bytes": 2251,
+        "sha256": "c615241586d6e44c6539f67f1c3d4ce70e6add880f2944819807c2757d6a70c4",
+        "cues": 22,
+        "nonempty_cues": 22
+      },
+      "frame_indices": [
+        0,
+        63,
+        127,
+        190,
+        254,
+        317,
+        381,
+        444,
+        508,
+        571,
+        635,
+        698,
+        762,
+        825,
+        889,
+        952,
+        1016,
+        1079,
+        1143,
+        1206,
+        1270,
+        1333,
+        1397,
+        1460,
+        1524,
+        1587,
+        1651,
+        1714,
+        1778,
+        1841,
+        1905,
+        1968
+      ],
+      "frame_seconds": [
+        0.0,
+        2.1021,
+        4.237567,
+        6.339667,
+        8.475133,
+        10.577233,
+        12.7127,
+        14.8148,
+        16.950267,
+        19.052367,
+        21.187833,
+        23.289933,
+        25.4254,
+        27.5275,
+        29.662967,
+        31.765067,
+        33.900533,
+        36.002633,
+        38.1381,
+        40.2402,
+        42.375667,
+        44.477767,
+        46.613233,
+        48.715333,
+        50.8508,
+        52.9529,
+        55.088367,
+        57.190467,
+        59.325933,
+        61.428033,
+        63.5635,
+        65.6656
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          21
+        ],
+        [],
+        [],
+        [],
+        [
+          22
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 3600,
+          "end_ms": 7839,
+          "text": "and they're away cleanly for this heat"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 5920,
+          "end_ms": 10400,
+          "text": "number two of the men's 500 meters four"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7839,
+          "end_ms": 12320,
+          "text": "and a half laps around the track"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 10400,
+          "end_ms": 14920,
+          "text": "and they will be flying four laps to go"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 12320,
+          "end_ms": 18160,
+          "text": "now look at that speed 43.3"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 14920,
+          "end_ms": 20480,
+          "text": "kilometers of china has the lead right"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 18160,
+          "end_ms": 23359,
+          "text": "behind him is"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 20480,
+          "end_ms": 27119,
+          "text": "latvia's robert's venus and we have one"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 23359,
+          "end_ms": 28080,
+          "text": "racer down and out the kazakhstan is out"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 27119,
+          "end_ms": 30720,
+          "text": "and"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 28080,
+          "end_ms": 33280,
+          "text": "struggling around the outside of the"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 30720,
+          "end_ms": 36640,
+          "text": "track but uh wu da jing has opened up a"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 33280,
+          "end_ms": 39120,
+          "text": "sizable lead over robert's phoenix"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 36640,
+          "end_ms": 41520,
+          "text": "korean racer huang de hong trying to"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 39120,
+          "end_ms": 42960,
+          "text": "catch him on the final turnover is he"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 41520,
+          "end_ms": 45200,
+          "text": "going to catch him"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 42960,
+          "end_ms": 49039,
+          "text": "photo finish"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 45200,
+          "end_ms": 49039,
+          "text": "it looks like hwang got through"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 49120,
+          "end_ms": 52480,
+          "text": "but wu da jing"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 50879,
+          "end_ms": 57960,
+          "text": "the definite winner of that heat and"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 52480,
+          "end_ms": 57960,
+          "text": "look at the look on his face"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 65519,
+          "end_ms": 67600,
+          "text": "you"
+        }
+      ],
+      "text": "and they're away cleanly for this heat\nnumber two of the men's 500 meters four\nand a half laps around the track\nand they will be flying four laps to go\nnow look at that speed 43.3\nkilometers of china has the lead right\nbehind him is\nlatvia's robert's venus and we have one\nracer down and out the kazakhstan is out\nand\nstruggling around the outside of the\ntrack but uh wu da jing has opened up a\nsizable lead over robert's phoenix\nkorean racer huang de hong trying to\ncatch him on the final turnover is he\ngoing to catch him\nphoto finish\nit looks like hwang got through\nbut wu da jing\nthe definite winner of that heat and\nlook at the look on his face\nyou",
+      "text_tokens": 179,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "54YD3Gv-3MI",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54YD3Gv-3MI.srt",
+          "status": "available",
+          "bytes": 2251,
+          "sha256": "c615241586d6e44c6539f67f1c3d4ce70e6add880f2944819807c2757d6a70c4",
+          "cues": 22,
+          "nonempty_cues": 22
+        },
+        "frame_indices": [
+          0,
+          63,
+          127,
+          190,
+          254,
+          317,
+          381,
+          444,
+          508,
+          571,
+          635,
+          698,
+          762,
+          825,
+          889,
+          952,
+          1016,
+          1079,
+          1143,
+          1206,
+          1270,
+          1333,
+          1397,
+          1460,
+          1524,
+          1587,
+          1651,
+          1714,
+          1778,
+          1841,
+          1905,
+          1968
+        ],
+        "frame_seconds": [
+          0.0,
+          2.1021,
+          4.237567,
+          6.339667,
+          8.475133,
+          10.577233,
+          12.7127,
+          14.8148,
+          16.950267,
+          19.052367,
+          21.187833,
+          23.289933,
+          25.4254,
+          27.5275,
+          29.662967,
+          31.765067,
+          33.900533,
+          36.002633,
+          38.1381,
+          40.2402,
+          42.375667,
+          44.477767,
+          46.613233,
+          48.715333,
+          50.8508,
+          52.9529,
+          55.088367,
+          57.190467,
+          59.325933,
+          61.428033,
+          63.5635,
+          65.6656
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            20,
+            21
+          ],
+          [],
+          [],
+          [],
+          [
+            22
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 3600,
+            "end_ms": 7839,
+            "text": "and they're away cleanly for this heat"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 5920,
+            "end_ms": 10400,
+            "text": "number two of the men's 500 meters four"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7839,
+            "end_ms": 12320,
+            "text": "and a half laps around the track"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 10400,
+            "end_ms": 14920,
+            "text": "and they will be flying four laps to go"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 12320,
+            "end_ms": 18160,
+            "text": "now look at that speed 43.3"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 14920,
+            "end_ms": 20480,
+            "text": "kilometers of china has the lead right"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 18160,
+            "end_ms": 23359,
+            "text": "behind him is"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 20480,
+            "end_ms": 27119,
+            "text": "latvia's robert's venus and we have one"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 23359,
+            "end_ms": 28080,
+            "text": "racer down and out the kazakhstan is out"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 27119,
+            "end_ms": 30720,
+            "text": "and"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 28080,
+            "end_ms": 33280,
+            "text": "struggling around the outside of the"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 30720,
+            "end_ms": 36640,
+            "text": "track but uh wu da jing has opened up a"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 33280,
+            "end_ms": 39120,
+            "text": "sizable lead over robert's phoenix"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 36640,
+            "end_ms": 41520,
+            "text": "korean racer huang de hong trying to"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 39120,
+            "end_ms": 42960,
+            "text": "catch him on the final turnover is he"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 41520,
+            "end_ms": 45200,
+            "text": "going to catch him"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 42960,
+            "end_ms": 49039,
+            "text": "photo finish"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 45200,
+            "end_ms": 49039,
+            "text": "it looks like hwang got through"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 49120,
+            "end_ms": 52480,
+            "text": "but wu da jing"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 50879,
+            "end_ms": 57960,
+            "text": "the definite winner of that heat and"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 52480,
+            "end_ms": 57960,
+            "text": "look at the look on his face"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 65519,
+            "end_ms": 67600,
+            "text": "you"
+          }
+        ],
+        "text": "and they're away cleanly for this heat\nnumber two of the men's 500 meters four\nand a half laps around the track\nand they will be flying four laps to go\nnow look at that speed 43.3\nkilometers of china has the lead right\nbehind him is\nlatvia's robert's venus and we have one\nracer down and out the kazakhstan is out\nand\nstruggling around the outside of the\ntrack but uh wu da jing has opened up a\nsizable lead over robert's phoenix\nkorean racer huang de hong trying to\ncatch him on the final turnover is he\ngoing to catch him\nphoto finish\nit looks like hwang got through\nbut wu da jing\nthe definite winner of that heat and\nlook at the look on his face\nyou",
+        "text_tokens": 179,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 3600,
+          "end_ms": 57960,
+          "text": "and they're away cleanly for this heat number two of the men's 500 meters four and a half laps around the track and they will be flying four laps to go now look at that speed 43.3 kilometers of china has the lead right behind him is latvia's robert's venus and we have one racer down and out the kazakhstan is out and struggling around the outside of the track but uh wu da jing has opened up a sizable lead over robert's phoenix korean racer huang de hong trying to catch him on the final turnover is he going to catch him photo finish it looks like hwang got through but wu da jing the definite winner of that heat and look at the look on his face"
+        },
+        {
+          "id": "S22",
+          "cue_ids": [
+            22
+          ],
+          "start_ms": 65519,
+          "end_ms": 67600,
+          "text": "you"
+        }
+      ],
+      "text": "S1 [00:00:03.600 --> 00:00:57.960] and they're away cleanly for this heat number two of the men's 500 meters four and a half laps around the track and they will be flying four laps to go now look at that speed 43.3 kilometers of china has the lead right behind him is latvia's robert's venus and we have one racer down and out the kazakhstan is out and struggling around the outside of the track but uh wu da jing has opened up a sizable lead over robert's phoenix korean racer huang de hong trying to catch him on the final turnover is he going to catch him photo finish it looks like hwang got through but wu da jing the definite winner of that heat and look at the look on his face\nS22 [00:01:05.519 --> 00:01:07.600] you",
+      "text_tokens": 215,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ce8b0007b273e879ae26d770f0cbd8ae8fe6ab59d1983b00dee8d8870665b31e"
+}

@@ -1,0 +1,25 @@
+{
+  "n": 200,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "queryip",
+    "queryip_region",
+    "queryip_region_shuf"
+  ],
+  "tag": "n200_kr075_region_v1",
+  "acc": {
+    "queryip": 0.635,
+    "queryip_region": 0.585,
+    "queryip_region_shuf": 0.605
+  },
+  "correct": {
+    "queryip": 127,
+    "queryip_region": 117,
+    "queryip_region_shuf": 121
+  },
+  "jsonl": "VQA/eval_results/queryip_samek/region_sem_n200/Mage-VL-QueryIP_short60_samek4_n200_kr075_region_v1.jsonl",
+  "partial": false,
+  "done": 200,
+  "target": 200
+}

@@ -1,0 +1,69 @@
+{
+  "protocol": 1,
+  "phase": "smoke",
+  "model": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models",
+  "data_root": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME",
+  "tsv_sha256": "4561edc65eb3a1ea71267fe096fdd334832b4bcd29f4ef0e78c6e65af01a8265",
+  "indices": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "prompt": "These are the frames of a video. Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option.\n{question}\n{options}",
+  "prompt_sha256": "0f7f414f9c1c6b266203f72b91e52b371ff1da2cbb0cd7e72284538b27b81234",
+  "max_pixels": 150000,
+  "min_pixels": 3136,
+  "num_frames": 32,
+  "codec": {
+    "engine": "hevc",
+    "target_canvas": 32,
+    "patch": 16,
+    "group_size": 32,
+    "images_per_group": 4,
+    "spatial_mask_mode": "off"
+  },
+  "do_sample": false,
+  "max_new_tokens": 32,
+  "use_subtitle": false,
+  "seed": 0,
+  "sampling": "TSV first N short rows",
+  "git_commit": "5bc2f0b9374040b79345e96398d2908a17635934",
+  "script_sha256": "f988d47f23c53c5ecfb3c7592f31bdc159226493cd249bcb253e0090a7a667d4",
+  "summary_script_sha256": "6c614cae32c1d3812e215112607875f9c65c0e6324e1ddcf32f38af21a15dd90",
+  "model_sources_sha256": {
+    "config.json": "fd4621212569e893ce2caa110431fde73f3cc1a1d92e1b8320bb4e0cfbcad34a",
+    "processing_mage_vl.py": "2649113685f95754a1862f7c9e3c02fd6845c32610c68f8a6de418f62f6ebba5",
+    "modeling_mage_vl.py": "3fe8bb1e40fa38db4ae08da097ee1238aa4258c4d454e66fe93a44d08ab641ec",
+    "video_processing_mage_vl.py": "67f28ea772c260b131983e8a90ad15948134a1baa769bfe6adbf0dd383541acb",
+    "codec_video_processing_mage_vl.py": "f3bff7fe00f84a91d542e08561d5d819dd6a4b4192cf075858eb8c495f9e0b02",
+    "preprocessor_config.json": "86401f541a46dee7689e84444b87cfa556e1575f1994a446582dc58d919cc69e",
+    "video_preprocessor_config.json": "9d8345e0c7be09da56d8ea535fa6a5fa1a35728ccec9e7dbffa030ba34ce4a72",
+    "generation_config.json": "8b9afb365eaab1c8fc2395f618067ee2307b9821e207f12c5c52cf371a14b0e0",
+    "model.safetensors.index.json": "2cad26f4364750d9b0551dff11e776837b9ef822fe29e068f68d935a8e65cc54"
+  },
+  "weights": {
+    "model-00001-of-00002.safetensors": {
+      "bytes": 4967403560,
+      "mtime_ns": 1790995391468161570
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 4516272328,
+      "mtime_ns": 1790650478888965243
+    }
+  },
+  "videos": {
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/fFjv93ACGo8.mp4": {
+      "bytes": 17126035,
+      "mtime_ns": 1790756535434050122
+    },
+    "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/video/HIjX8OPuf-w.mp4": {
+      "bytes": 9815375,
+      "mtime_ns": 1790758571333910600
+    }
+  },
+  "cache_root": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/outputs/r2v_codec_cache",
+  "min_free_gb": 10.0
+}

@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "16a7812e65b615c105a13448af756852765805985f5e471ea1a090ddc8683967",
+  "response": {
+    "id": "104b0014-e0ea-42dd-a670-a71385681126",
+    "object": "chat.completion",
+    "created": 1793675908,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[\"F5942\",\"F6225\",\"F6508\"],\"windows\":[],\"notes\":\"Sparse samples show elephants and birds (F5942) and a baby elephant near birds (F6225), but no frame shows a baby elephant chasing ducks or the outcome; no dense window supplied to verify the action.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6997,
+      "completion_tokens": 94,
+      "total_tokens": 7091,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 6869
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.6143638417124748
+}

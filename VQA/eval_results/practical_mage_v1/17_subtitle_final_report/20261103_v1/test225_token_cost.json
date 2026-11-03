@@ -1,0 +1,38 @@
+[
+  {
+    "method": "no_sub",
+    "questions": 225,
+    "visual_tokens": 1036800,
+    "subtitle_tokens": 0,
+    "input_tokens": 1136682,
+    "input_tokens_per_question": 5051.92,
+    "new_answer_calls": 225,
+    "reused_answers": 0,
+    "new_inference_s": 148.6394700985402,
+    "peak_new_generation_gib": 10.313988208770752
+  },
+  {
+    "method": "aligned",
+    "questions": 225,
+    "visual_tokens": 1036800,
+    "subtitle_tokens": 79260,
+    "input_tokens": 1217715,
+    "input_tokens_per_question": 5412.066666666667,
+    "new_answer_calls": 204,
+    "reused_answers": 21,
+    "new_inference_s": 142.58497238904238,
+    "peak_new_generation_gib": 10.315910816192627
+  },
+  {
+    "method": "continuous",
+    "questions": 225,
+    "visual_tokens": 1036800,
+    "subtitle_tokens": 304368,
+    "input_tokens": 1442820,
+    "input_tokens_per_question": 6412.533333333334,
+    "new_answer_calls": 204,
+    "reused_answers": 21,
+    "new_inference_s": 165.98622538521886,
+    "peak_new_generation_gib": 10.401156425476074
+  }
+]

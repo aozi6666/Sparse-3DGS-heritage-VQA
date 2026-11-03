@@ -1,0 +1,529 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "I0xrbzYT4Sc",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I0xrbzYT4Sc.srt",
+      "status": "available",
+      "bytes": 22594,
+      "sha256": "b98ee9e083997fc0bc4a1dd92db6d06f6ec1317df7cc3b190b609821894c05f6",
+      "cues": 216,
+      "nonempty_cues": 216
+    },
+    "frame_indices": [
+      0,
+      461,
+      922,
+      1382,
+      1843,
+      2304,
+      2765,
+      3226,
+      3686,
+      4147,
+      4608,
+      5069,
+      5530,
+      5990,
+      6451,
+      6912,
+      7373,
+      7834,
+      8295,
+      8755,
+      9216,
+      9677,
+      10138,
+      10599,
+      11059,
+      11520,
+      11981,
+      12442,
+      12903,
+      13363,
+      13824,
+      14285
+    ],
+    "frame_seconds": [
+      0.0,
+      15.382033,
+      30.764067,
+      46.112733,
+      61.494767,
+      76.8768,
+      92.25883300000001,
+      107.640867,
+      122.989533,
+      138.371567,
+      153.7536,
+      169.13563299999998,
+      184.517667,
+      199.866333,
+      215.248367,
+      230.6304,
+      246.012433,
+      261.394467,
+      276.7765,
+      292.125167,
+      307.5072,
+      322.889233,
+      338.271267,
+      353.6533,
+      369.001967,
+      384.384,
+      399.766033,
+      415.14806699999997,
+      430.5301,
+      445.878767,
+      461.2608,
+      476.642833
+    ],
+    "frame_cue_ids": [
+      [],
+      [],
+      [],
+      [
+        11,
+        12
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        53,
+        54
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        70,
+        71
+      ],
+      [
+        75,
+        76
+      ],
+      [
+        82,
+        83
+      ],
+      [
+        89,
+        90
+      ],
+      [
+        97,
+        98
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        111,
+        112
+      ],
+      [
+        121
+      ],
+      [
+        128,
+        129
+      ],
+      [
+        134,
+        135
+      ],
+      [
+        136
+      ],
+      [
+        144,
+        145
+      ],
+      [
+        152,
+        153
+      ],
+      [
+        158,
+        159
+      ],
+      [
+        167,
+        168
+      ],
+      [],
+      [
+        177,
+        178
+      ],
+      [
+        186,
+        187
+      ],
+      [
+        196,
+        197
+      ],
+      [
+        204,
+        205
+      ],
+      [
+        212,
+        213
+      ],
+      [
+        215,
+        216
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 11,
+        "start_ms": 44399,
+        "end_ms": 47760,
+        "text": "one foot of the seat your hands on your"
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 46000,
+        "end_ms": 48559,
+        "text": "hips and look over at people and make"
+      },
+      {
+        "cue_id": 19,
+        "start_ms": 59039,
+        "end_ms": 64080,
+        "text": "over at the crowd right there"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 60559,
+        "end_ms": 67280,
+        "text": "number two for william vanderbilt and"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 74080,
+        "end_ms": 77759,
+        "text": "not even holding on to the bike you know"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 75759,
+        "end_ms": 78479,
+        "text": "what that is that's a no handed candy"
+      },
+      {
+        "cue_id": 37,
+        "start_ms": 91039,
+        "end_ms": 94000,
+        "text": "style right"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 91920,
+        "end_ms": 95039,
+        "text": "you're holding on to a 250 pound you're"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 104229,
+        "end_ms": 109600,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 107119,
+        "end_ms": 110720,
+        "text": "you get him on a motorcycle he does this"
+      },
+      {
+        "cue_id": 53,
+        "start_ms": 120719,
+        "end_ms": 124399,
+        "text": "let's analyze it right here"
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 122880,
+        "end_ms": 126799,
+        "text": "watch the extension okay look where his"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 135280,
+        "end_ms": 138720,
+        "text": "putting his feet on he's just trying to"
+      },
+      {
+        "cue_id": 63,
+        "start_ms": 137280,
+        "end_ms": 141520,
+        "text": "get the back end down"
+      },
+      {
+        "cue_id": 70,
+        "start_ms": 151760,
+        "end_ms": 155680,
+        "text": "coming down from that that"
+      },
+      {
+        "cue_id": 71,
+        "start_ms": 153120,
+        "end_ms": 158720,
+        "text": "says everything about the impact we're"
+      },
+      {
+        "cue_id": 75,
+        "start_ms": 164959,
+        "end_ms": 170640,
+        "text": "bringing to the party here's the utah"
+      },
+      {
+        "cue_id": 76,
+        "start_ms": 166480,
+        "end_ms": 173680,
+        "text": "motorsports campus oh"
+      },
+      {
+        "cue_id": 82,
+        "start_ms": 183760,
+        "end_ms": 185599,
+        "text": "your"
+      },
+      {
+        "cue_id": 83,
+        "start_ms": 184000,
+        "end_ms": 187040,
+        "text": "bars all the way around like that on a"
+      },
+      {
+        "cue_id": 89,
+        "start_ms": 197920,
+        "end_ms": 201280,
+        "text": "that a decade in the bmx world right"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 199840,
+        "end_ms": 202879,
+        "text": "there when you swing yourself around the"
+      },
+      {
+        "cue_id": 97,
+        "start_ms": 210480,
+        "end_ms": 217430,
+        "text": "that is an"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 211610,
+        "end_ms": 217430,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 227599,
+        "end_ms": 231760,
+        "text": "front flip rotation yeah but he made"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 229920,
+        "end_ms": 233439,
+        "text": "he made that he made short work of that"
+      },
+      {
+        "cue_id": 111,
+        "start_ms": 244000,
+        "end_ms": 246799,
+        "text": "stepped it up last year"
+      },
+      {
+        "cue_id": 112,
+        "start_ms": 245200,
+        "end_ms": 248239,
+        "text": "and walked out of here with the big win"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 260160,
+        "end_ms": 264000,
+        "text": "he's already made it into round number"
+      },
+      {
+        "cue_id": 128,
+        "start_ms": 275040,
+        "end_ms": 278720,
+        "text": "the downside can"
+      },
+      {
+        "cue_id": 129,
+        "start_ms": 276320,
+        "end_ms": 280000,
+        "text": "take a look at it right here i love it"
+      },
+      {
+        "cue_id": 134,
+        "start_ms": 285280,
+        "end_ms": 297840,
+        "text": "hey i've got the height"
+      },
+      {
+        "cue_id": 135,
+        "start_ms": 286479,
+        "end_ms": 297840,
+        "text": "and i've got the tricks"
+      },
+      {
+        "cue_id": 136,
+        "start_ms": 302950,
+        "end_ms": 308540,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 144,
+        "start_ms": 320639,
+        "end_ms": 324240,
+        "text": "onto the flag at the end of the level"
+      },
+      {
+        "cue_id": 145,
+        "start_ms": 322639,
+        "end_ms": 326560,
+        "text": "like that's just it you're trying to get"
+      },
+      {
+        "cue_id": 152,
+        "start_ms": 335520,
+        "end_ms": 340400,
+        "text": "ken's jumping tires ken block over the"
+      },
+      {
+        "cue_id": 153,
+        "start_ms": 337759,
+        "end_ms": 343360,
+        "text": "big jump with three tires oh"
+      },
+      {
+        "cue_id": 158,
+        "start_ms": 350000,
+        "end_ms": 354000,
+        "text": "tyres"
+      },
+      {
+        "cue_id": 159,
+        "start_ms": 350479,
+        "end_ms": 356240,
+        "text": "is brave astronomers should get this"
+      },
+      {
+        "cue_id": 167,
+        "start_ms": 366160,
+        "end_ms": 370160,
+        "text": "that brilliant pass on up and he's gonna"
+      },
+      {
+        "cue_id": 168,
+        "start_ms": 367680,
+        "end_ms": 372000,
+        "text": "put the flop test but watch this"
+      },
+      {
+        "cue_id": 177,
+        "start_ms": 396400,
+        "end_ms": 402639,
+        "text": "of travis pascana and that's"
+      },
+      {
+        "cue_id": 178,
+        "start_ms": 399759,
+        "end_ms": 404080,
+        "text": "gonna make him very very happy indeed"
+      },
+      {
+        "cue_id": 186,
+        "start_ms": 413680,
+        "end_ms": 416479,
+        "text": "his own event"
+      },
+      {
+        "cue_id": 187,
+        "start_ms": 414479,
+        "end_ms": 417680,
+        "text": "he's deep in term one so kevin hansen's"
+      },
+      {
+        "cue_id": 196,
+        "start_ms": 428800,
+        "end_ms": 432880,
+        "text": "on the edge"
+      },
+      {
+        "cue_id": 197,
+        "start_ms": 429520,
+        "end_ms": 435840,
+        "text": "oh wow this is going to be close"
+      },
+      {
+        "cue_id": 204,
+        "start_ms": 444400,
+        "end_ms": 448000,
+        "text": "everybody now has taken both the"
+      },
+      {
+        "cue_id": 205,
+        "start_ms": 445759,
+        "end_ms": 450560,
+        "text": "tabletop and the yokohama joker"
+      },
+      {
+        "cue_id": 212,
+        "start_ms": 458639,
+        "end_ms": 463039,
+        "text": "and undercut you"
+      },
+      {
+        "cue_id": 213,
+        "start_ms": 460080,
+        "end_ms": 465680,
+        "text": "oh it's going to be so close just not"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 465680,
+        "end_ms": 478479,
+        "text": "kevin hansen is going to win your 2019"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 470479,
+        "end_ms": 478479,
+        "text": "nitro rallycross"
+      }
+    ],
+    "text": "one foot of the seat your hands on your\nhips and look over at people and make\nover at the crowd right there\nnumber two for william vanderbilt and\nnot even holding on to the bike you know\nwhat that is that's a no handed candy\nstyle right\nyou're holding on to a 250 pound you're\n[Music]\nyou get him on a motorcycle he does this\nlet's analyze it right here\nwatch the extension okay look where his\nputting his feet on he's just trying to\nget the back end down\ncoming down from that that\nsays everything about the impact we're\nbringing to the party here's the utah\nmotorsports campus oh\nyour\nbars all the way around like that on a\nthat a decade in the bmx world right\nthere when you swing yourself around the\nthat is an\n[Music]\nfront flip rotation yeah but he made\nhe made that he made short work of that\nstepped it up last year\nand walked out of here with the big win\nhe's already made it into round number\nthe downside can\ntake a look at it right here i love it\nhey i've got the height\nand i've got the tricks\n[Music]\nonto the flag at the end of the level\nlike that's just it you're trying to get\nken's jumping tires ken block over the\nbig jump with three tires oh\ntyres\nis brave astronomers should get this\nthat brilliant pass on up and he's gonna\nput the flop test but watch this\nof travis pascana and that's\ngonna make him very very happy indeed\nhis own event\nhe's deep in term one so kevin hansen's\non the edge\noh wow this is going to be close\neverybody now has taken both the\ntabletop and the yokohama joker\nand undercut you\noh it's going to be so close just not\nkevin hansen is going to win your 2019\nnitro rallycross",
+    "text_tokens": 427,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "15f813f9cfb0692cf5105b5188b8909d663ef422bf287a4d62bc920343699188"
+}

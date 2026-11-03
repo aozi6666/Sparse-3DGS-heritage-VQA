@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "69c190bcd32ff90c68de2028fd71bc3ef73d0e97ee0f01f26205cdb318540cc0",
+  "response": {
+    "id": "89bf4387-d8e8-47fa-a7cb-9be5c37d5899",
+    "object": "chat.completion",
+    "created": 1793675548,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S113\",\"quote\":\"And he didn’t find stone ruins because, unlike Cusco and Tenochtitlan the Amazon’s indigenous people built with wood and earth,\"}],\"frame_ids\":[\"F2244\",\"F8975\"],\"windows\":[],\"notes\":\"S113 directly contrasts Cusco/Tenochtitlan with Amazonian settlements, stating the latter were built with wood and earth, explaining why they are not easily found.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 9130,
+      "completion_tokens": 116,
+      "total_tokens": 9246,
+      "prompt_tokens_details": {
+        "cached_tokens": 2176
+      },
+      "prompt_cache_hit_tokens": 2176,
+      "prompt_cache_miss_tokens": 6954
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.322603402659297
+}

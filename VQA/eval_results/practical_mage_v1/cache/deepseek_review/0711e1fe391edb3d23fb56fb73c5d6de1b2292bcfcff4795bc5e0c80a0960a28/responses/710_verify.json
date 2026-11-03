@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "409c344c0fa162ce6feef6a6e18910ae30e1204d7f2def364c48b9a51962204c",
+  "response": {
+    "id": "b79bf892-f1d0-4dab-a518-ad3cb0e54a64",
+    "object": "chat.completion",
+    "created": 1793676128,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S604\",\"quote\":\"oh my God I completely forgot we are doing a giveaway as I was editing\"},{\"block_id\":\"S627\",\"quote\":\"also be getting a race belt these are super essential this one is from shocks and it's a running belt that while you're running you can keep your phone\"},{\"block_id\":\"S651\",\"quote\":\"two lers again one with a 10.5 shoe size and one with a 7.5 shoe size\"}],\"frame_ids\":[\"F44505\",\"F44590\",\"F46182\"],\"windows\":[{\"start\":1788.0,\"end\":1796.0},{\"start\":1855.0,\"end\":1863.0}],\"notes\":\"On-screen list (F44505/F44590) shows only 4 items: 1 Gatorade merch, 2 MIAM book, 3 Garmin watch, 4 Shokz run belt. S627 confirms Shokz belt; S651 mentions Adidas shoe sizes. No supplied evidence establishes the position of the Rudy Project shades relative to the Adidas shoes, so the full ordering in options A-D cannot be verified.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 16391,
+      "completion_tokens": 267,
+      "total_tokens": 16658,
+      "prompt_tokens_details": {
+        "cached_tokens": 2560
+      },
+      "prompt_cache_hit_tokens": 2560,
+      "prompt_cache_miss_tokens": 13831
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 3.1738653127104044
+}

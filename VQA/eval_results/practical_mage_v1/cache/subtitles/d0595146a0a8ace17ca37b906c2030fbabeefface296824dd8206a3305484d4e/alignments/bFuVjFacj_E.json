@@ -1,0 +1,574 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "bFuVjFacj_E",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bFuVjFacj_E.srt",
+      "status": "available",
+      "bytes": 100717,
+      "sha256": "e9f62ef538534cc3c9e2b0ee9467c4e6bdda5a82307f953e8d029351be560113",
+      "cues": 978,
+      "nonempty_cues": 978
+    },
+    "frame_indices": [
+      0,
+      1680,
+      3360,
+      5040,
+      6720,
+      8400,
+      10080,
+      11760,
+      13440,
+      15120,
+      16800,
+      18480,
+      20160,
+      21840,
+      23520,
+      25200,
+      26880,
+      28560,
+      30240,
+      31920,
+      33600,
+      35280,
+      36960,
+      38640,
+      40320,
+      42000,
+      43680,
+      45360,
+      47040,
+      48720,
+      50400,
+      52080
+    ],
+    "frame_seconds": [
+      0.0,
+      70.07,
+      140.14,
+      210.21,
+      280.28,
+      350.35,
+      420.42,
+      490.49,
+      560.56,
+      630.63,
+      700.7,
+      770.77,
+      840.84,
+      910.91,
+      980.98,
+      1051.05,
+      1121.12,
+      1191.19,
+      1261.26,
+      1331.33,
+      1401.4,
+      1471.47,
+      1541.54,
+      1611.61,
+      1681.68,
+      1751.75,
+      1821.82,
+      1891.89,
+      1961.96,
+      2032.03,
+      2102.1,
+      2172.17
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        16
+      ],
+      [
+        46,
+        47
+      ],
+      [
+        79,
+        80
+      ],
+      [
+        112,
+        113
+      ],
+      [
+        144,
+        145
+      ],
+      [
+        180,
+        181
+      ],
+      [
+        215,
+        216
+      ],
+      [
+        245,
+        246
+      ],
+      [
+        282,
+        283
+      ],
+      [
+        312,
+        313
+      ],
+      [
+        343,
+        344
+      ],
+      [
+        369,
+        370
+      ],
+      [
+        406,
+        407
+      ],
+      [
+        438,
+        439
+      ],
+      [
+        472,
+        473
+      ],
+      [
+        499,
+        500
+      ],
+      [
+        530,
+        531
+      ],
+      [
+        564,
+        565
+      ],
+      [
+        595,
+        596
+      ],
+      [
+        628,
+        629
+      ],
+      [
+        662,
+        663
+      ],
+      [
+        691,
+        692
+      ],
+      [
+        724,
+        725
+      ],
+      [
+        761,
+        762
+      ],
+      [
+        795,
+        796
+      ],
+      [
+        826,
+        827
+      ],
+      [
+        855,
+        856
+      ],
+      [
+        890,
+        891
+      ],
+      [
+        926,
+        927
+      ],
+      [
+        957,
+        958
+      ],
+      [
+        978
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 16,
+        "start_ms": 67930,
+        "end_ms": 71289,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 46,
+        "start_ms": 138400,
+        "end_ms": 141200,
+        "text": "clear"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 139040,
+        "end_ms": 143920,
+        "text": "saving the club from the accumulated"
+      },
+      {
+        "cue_id": 79,
+        "start_ms": 206319,
+        "end_ms": 211440,
+        "text": "history who agrees on selling 50"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 208959,
+        "end_ms": 213760,
+        "text": "of his image rights to the club but"
+      },
+      {
+        "cue_id": 112,
+        "start_ms": 277360,
+        "end_ms": 282000,
+        "text": "led by vicente del bosque"
+      },
+      {
+        "cue_id": 113,
+        "start_ms": 279360,
+        "end_ms": 282560,
+        "text": "madrid started the season exceptionally"
+      },
+      {
+        "cue_id": 144,
+        "start_ms": 347360,
+        "end_ms": 351199,
+        "text": "asian market"
+      },
+      {
+        "cue_id": 145,
+        "start_ms": 348720,
+        "end_ms": 354080,
+        "text": "but florentino came back to receive the"
+      },
+      {
+        "cue_id": 180,
+        "start_ms": 417440,
+        "end_ms": 420960,
+        "text": "by watching a single 15-minute video of"
+      },
+      {
+        "cue_id": 181,
+        "start_ms": 420160,
+        "end_ms": 424240,
+        "text": "the foe"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 488400,
+        "end_ms": 491120,
+        "text": "a new training ground for a cheaper"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 490319,
+        "end_ms": 493599,
+        "text": "price"
+      },
+      {
+        "cue_id": 245,
+        "start_ms": 558240,
+        "end_ms": 562320,
+        "text": "year"
+      },
+      {
+        "cue_id": 246,
+        "start_ms": 558880,
+        "end_ms": 563440,
+        "text": "after taxes perez and madrid planned for"
+      },
+      {
+        "cue_id": 282,
+        "start_ms": 627279,
+        "end_ms": 631680,
+        "text": "because of suspension after being sent"
+      },
+      {
+        "cue_id": 283,
+        "start_ms": 629680,
+        "end_ms": 633360,
+        "text": "off with juve last season"
+      },
+      {
+        "cue_id": 312,
+        "start_ms": 697680,
+        "end_ms": 702240,
+        "text": "against the odds el super dipor managed"
+      },
+      {
+        "cue_id": 313,
+        "start_ms": 700399,
+        "end_ms": 704959,
+        "text": "to crash madrid's party"
+      },
+      {
+        "cue_id": 343,
+        "start_ms": 767600,
+        "end_ms": 771040,
+        "text": "after madrid achieved their fifth title"
+      },
+      {
+        "cue_id": 344,
+        "start_ms": 770079,
+        "end_ms": 773360,
+        "text": "in scotland"
+      },
+      {
+        "cue_id": 369,
+        "start_ms": 837760,
+        "end_ms": 841199,
+        "text": "sensible move"
+      },
+      {
+        "cue_id": 370,
+        "start_ms": 838959,
+        "end_ms": 842160,
+        "text": "as del bosque was begging for new"
+      },
+      {
+        "cue_id": 406,
+        "start_ms": 907120,
+        "end_ms": 911360,
+        "text": "but instead of buying defenders and"
+      },
+      {
+        "cue_id": 407,
+        "start_ms": 909199,
+        "end_ms": 913920,
+        "text": "closing the gaps within the team"
+      },
+      {
+        "cue_id": 438,
+        "start_ms": 977279,
+        "end_ms": 981120,
+        "text": "price was dropping"
+      },
+      {
+        "cue_id": 439,
+        "start_ms": 978800,
+        "end_ms": 984000,
+        "text": "and in the end marathi agreed to sell"
+      },
+      {
+        "cue_id": 472,
+        "start_ms": 1047520,
+        "end_ms": 1052080,
+        "text": "madrid went back to tokyo again to"
+      },
+      {
+        "cue_id": 473,
+        "start_ms": 1050160,
+        "end_ms": 1054720,
+        "text": "compete for the intercontinental"
+      },
+      {
+        "cue_id": 499,
+        "start_ms": 1115520,
+        "end_ms": 1121840,
+        "text": "he's made space for himself ronaldo"
+      },
+      {
+        "cue_id": 500,
+        "start_ms": 1118799,
+        "end_ms": 1124000,
+        "text": "pick that out what a trick"
+      },
+      {
+        "cue_id": 530,
+        "start_ms": 1186480,
+        "end_ms": 1191440,
+        "text": "after crashing out of the copa del rey"
+      },
+      {
+        "cue_id": 531,
+        "start_ms": 1188880,
+        "end_ms": 1193840,
+        "text": "losing by four goals against majorca"
+      },
+      {
+        "cue_id": 564,
+        "start_ms": 1259679,
+        "end_ms": 1263520,
+        "text": "was very tense"
+      },
+      {
+        "cue_id": 565,
+        "start_ms": 1261039,
+        "end_ms": 1266240,
+        "text": "as there were many arguments initiated"
+      },
+      {
+        "cue_id": 595,
+        "start_ms": 1328640,
+        "end_ms": 1333360,
+        "text": "commercial and marketing intentions"
+      },
+      {
+        "cue_id": 596,
+        "start_ms": 1331039,
+        "end_ms": 1335520,
+        "text": "was the decision to discard one of the"
+      },
+      {
+        "cue_id": 628,
+        "start_ms": 1397120,
+        "end_ms": 1401600,
+        "text": "madrid as they visited"
+      },
+      {
+        "cue_id": 629,
+        "start_ms": 1399039,
+        "end_ms": 1403120,
+        "text": "numerous east asian countries on tour"
+      },
+      {
+        "cue_id": 662,
+        "start_ms": 1467840,
+        "end_ms": 1472230,
+        "text": "and now monaco had to score three goals"
+      },
+      {
+        "cue_id": 663,
+        "start_ms": 1470400,
+        "end_ms": 1475260,
+        "text": "to advance"
+      },
+      {
+        "cue_id": 691,
+        "start_ms": 1538960,
+        "end_ms": 1542960,
+        "text": "reinforced the defense with samuel"
+      },
+      {
+        "cue_id": 692,
+        "start_ms": 1541039,
+        "end_ms": 1544880,
+        "text": "to enter the upcoming presidential"
+      },
+      {
+        "cue_id": 724,
+        "start_ms": 1609760,
+        "end_ms": 1612960,
+        "text": "with madrid"
+      },
+      {
+        "cue_id": 725,
+        "start_ms": 1610720,
+        "end_ms": 1615039,
+        "text": "but the solution to that problem could"
+      },
+      {
+        "cue_id": 761,
+        "start_ms": 1678559,
+        "end_ms": 1682399,
+        "text": "as a football director"
+      },
+      {
+        "cue_id": 762,
+        "start_ms": 1680080,
+        "end_ms": 1684640,
+        "text": "and immediately after taking the job"
+      },
+      {
+        "cue_id": 795,
+        "start_ms": 1749919,
+        "end_ms": 1754480,
+        "text": "brazilian manager"
+      },
+      {
+        "cue_id": 796,
+        "start_ms": 1751360,
+        "end_ms": 1757440,
+        "text": "after being subbed in for the last eight"
+      },
+      {
+        "cue_id": 826,
+        "start_ms": 1817840,
+        "end_ms": 1822320,
+        "text": "went back to england"
+      },
+      {
+        "cue_id": 827,
+        "start_ms": 1819679,
+        "end_ms": 1823600,
+        "text": "as for the arrivals los blancos didn't"
+      },
+      {
+        "cue_id": 855,
+        "start_ms": 1887440,
+        "end_ms": 1892240,
+        "text": "of punishing the madrid players"
+      },
+      {
+        "cue_id": 856,
+        "start_ms": 1889440,
+        "end_ms": 1893279,
+        "text": "rather than a gesture of respect handed"
+      },
+      {
+        "cue_id": 890,
+        "start_ms": 1959679,
+        "end_ms": 1963039,
+        "text": "love"
+      },
+      {
+        "cue_id": 891,
+        "start_ms": 1960159,
+        "end_ms": 1963679,
+        "text": "since he came to the club and the courts"
+      },
+      {
+        "cue_id": 926,
+        "start_ms": 2030559,
+        "end_ms": 2033760,
+        "text": "in the season"
+      },
+      {
+        "cue_id": 927,
+        "start_ms": 2031440,
+        "end_ms": 2034640,
+        "text": "which could act as a summary for his"
+      },
+      {
+        "cue_id": 957,
+        "start_ms": 2098000,
+        "end_ms": 2103280,
+        "text": "contracts with 42"
+      },
+      {
+        "cue_id": 958,
+        "start_ms": 2100320,
+        "end_ms": 2105760,
+        "text": "but all of that shifted in 2006 as"
+      },
+      {
+        "cue_id": 978,
+        "start_ms": 2172079,
+        "end_ms": 2174160,
+        "text": "you"
+      }
+    ],
+    "text": "[Applause]\nclear\nsaving the club from the accumulated\nhistory who agrees on selling 50\nof his image rights to the club but\nled by vicente del bosque\nmadrid started the season exceptionally\nasian market\nbut florentino came back to receive the\nby watching a single 15-minute video of\nthe foe\na new training ground for a cheaper\nprice\nyear\nafter taxes perez and madrid planned for\nbecause of suspension after being sent\noff with juve last season\nagainst the odds el super dipor managed\nto crash madrid's party\nafter madrid achieved their fifth title\nin scotland\nsensible move\nas del bosque was begging for new\nbut instead of buying defenders and\nclosing the gaps within the team\nprice was dropping\nand in the end marathi agreed to sell\nmadrid went back to tokyo again to\ncompete for the intercontinental\nhe's made space for himself ronaldo\npick that out what a trick\nafter crashing out of the copa del rey\nlosing by four goals against majorca\nwas very tense\nas there were many arguments initiated\ncommercial and marketing intentions\nwas the decision to discard one of the\nmadrid as they visited\nnumerous east asian countries on tour\nand now monaco had to score three goals\nto advance\nreinforced the defense with samuel\nto enter the upcoming presidential\nwith madrid\nbut the solution to that problem could\nas a football director\nand immediately after taking the job\nbrazilian manager\nafter being subbed in for the last eight\nwent back to england\nas for the arrivals los blancos didn't\nof punishing the madrid players\nrather than a gesture of respect handed\nlove\nsince he came to the club and the courts\nin the season\nwhich could act as a summary for his\ncontracts with 42\nbut all of that shifted in 2006 as\nyou",
+    "text_tokens": 411,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "57f5b8ccdf3f0433ec4b52567a2119fbe15d64d36f45becdb056fab960c2d77e"
+}

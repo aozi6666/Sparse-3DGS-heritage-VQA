@@ -1,0 +1,1508 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "Ei-TcECJVXU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Ei-TcECJVXU.srt",
+        "status": "available",
+        "bytes": 100484,
+        "sha256": "da6036d7bc35a8b6e519544f1b625e2ec765fe7dbbd1558390cd0be0c13aa177",
+        "cues": 935,
+        "nonempty_cues": 935
+      },
+      "frame_indices": [
+        0,
+        2575,
+        5151,
+        7726,
+        10302,
+        12877,
+        15453,
+        18028,
+        20604,
+        23179,
+        25755,
+        28330,
+        30905,
+        33481,
+        36056,
+        38632,
+        41207,
+        43783,
+        46358,
+        48934,
+        51509,
+        54084,
+        56660,
+        59235,
+        61811,
+        64386,
+        66962,
+        69537,
+        72113,
+        74688,
+        77264,
+        79839
+      ],
+      "frame_seconds": [
+        0.0,
+        85.919167,
+        171.8717,
+        257.790867,
+        343.7434,
+        429.662567,
+        515.6151,
+        601.534267,
+        687.4868,
+        773.405967,
+        859.3585,
+        945.277667,
+        1031.196833,
+        1117.149367,
+        1203.068533,
+        1289.021067,
+        1374.940233,
+        1460.892767,
+        1546.811933,
+        1632.764467,
+        1718.683633,
+        1804.6028,
+        1890.555333,
+        1976.4745,
+        2062.427033,
+        2148.3462,
+        2234.298733,
+        2320.2179,
+        2406.170433,
+        2492.0896,
+        2578.042133,
+        2663.9613
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          24,
+          25
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          78,
+          79
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          138,
+          139
+        ],
+        [
+          171,
+          172
+        ],
+        [],
+        [
+          226,
+          227
+        ],
+        [
+          255,
+          256
+        ],
+        [
+          285,
+          286
+        ],
+        [
+          318,
+          319
+        ],
+        [
+          351,
+          352
+        ],
+        [
+          381
+        ],
+        [
+          408,
+          409
+        ],
+        [
+          438,
+          439
+        ],
+        [
+          469,
+          470
+        ],
+        [
+          497,
+          498
+        ],
+        [
+          527,
+          528
+        ],
+        [
+          558,
+          559
+        ],
+        [
+          588,
+          589
+        ],
+        [
+          623,
+          624
+        ],
+        [
+          653,
+          654
+        ],
+        [
+          680,
+          681
+        ],
+        [
+          716,
+          717
+        ],
+        [
+          749,
+          750
+        ],
+        [],
+        [
+          813,
+          814
+        ],
+        [
+          843,
+          844
+        ],
+        [
+          876,
+          877
+        ],
+        [
+          910,
+          911
+        ],
+        [
+          934,
+          935
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 24,
+          "start_ms": 82880,
+          "end_ms": 88250,
+          "text": "planets and"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 85050,
+          "end_ms": 88250,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 167200,
+          "end_ms": 172360,
+          "text": "astronauts need if it"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 170239,
+          "end_ms": 175599,
+          "text": "fails they"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 253640,
+          "end_ms": 259680,
+          "text": "1998 hadn't been that long since the end"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 257160,
+          "end_ms": 263400,
+          "text": "of Communism in Russia and here we were"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 340080,
+          "end_ms": 344800,
+          "text": "round and our hatches are all square I"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 343319,
+          "end_ms": 346360,
+          "text": "mean this is fundamental to the"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 425120,
+          "end_ms": 430400,
+          "text": "quarters but every one of the modules"
+        },
+        {
+          "cue_id": 139,
+          "start_ms": 427759,
+          "end_ms": 432680,
+          "text": "was constructed on Earth and it takes a"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 510879,
+          "end_ms": 516559,
+          "text": "today the ISS is"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 513719,
+          "end_ms": 519479,
+          "text": "enormous by far the largest space"
+        },
+        {
+          "cue_id": 226,
+          "start_ms": 684200,
+          "end_ms": 690519,
+          "text": "is successful there's a price to pay the"
+        },
+        {
+          "cue_id": 227,
+          "start_ms": 687440,
+          "end_ms": 692040,
+          "text": "cost of each mission is colossal almost"
+        },
+        {
+          "cue_id": 255,
+          "start_ms": 768079,
+          "end_ms": 774000,
+          "text": "positive electrode the hydrogen at the"
+        },
+        {
+          "cue_id": 256,
+          "start_ms": 771199,
+          "end_ms": 775720,
+          "text": "negative but again being in space turns"
+        },
+        {
+          "cue_id": 285,
+          "start_ms": 855680,
+          "end_ms": 860560,
+          "text": "hole there is so much space junk up"
+        },
+        {
+          "cue_id": 286,
+          "start_ms": 858920,
+          "end_ms": 862440,
+          "text": "there now there's the potential for it"
+        },
+        {
+          "cue_id": 318,
+          "start_ms": 942279,
+          "end_ms": 946839,
+          "text": "trees going by your window none of that"
+        },
+        {
+          "cue_id": 319,
+          "start_ms": 945040,
+          "end_ms": 949440,
+          "text": "exists in"
+        },
+        {
+          "cue_id": 351,
+          "start_ms": 1027319,
+          "end_ms": 1033720,
+          "text": "space debris is 11 minutes from now no"
+        },
+        {
+          "cue_id": 352,
+          "start_ms": 1030799,
+          "end_ms": 1037679,
+          "text": "one knows how big this object"
+        },
+        {
+          "cue_id": 381,
+          "start_ms": 1117039,
+          "end_ms": 1119799,
+          "text": "looks like that's"
+        },
+        {
+          "cue_id": 408,
+          "start_ms": 1199440,
+          "end_ms": 1204200,
+          "text": "which has different layers of Kevlar"
+        },
+        {
+          "cue_id": 409,
+          "start_ms": 1201799,
+          "end_ms": 1206400,
+          "text": "that that can rip as a bullet enters it"
+        },
+        {
+          "cue_id": 438,
+          "start_ms": 1284799,
+          "end_ms": 1289120,
+          "text": "you think about it you know that a whole"
+        },
+        {
+          "cue_id": 439,
+          "start_ms": 1286760,
+          "end_ms": 1292000,
+          "text": "bunch of sheets of of aluminum"
+        },
+        {
+          "cue_id": 469,
+          "start_ms": 1369960,
+          "end_ms": 1376039,
+          "text": "and that propellant isn't"
+        },
+        {
+          "cue_id": 470,
+          "start_ms": 1373640,
+          "end_ms": 1379320,
+          "text": "infinite it all has to be set up from"
+        },
+        {
+          "cue_id": 497,
+          "start_ms": 1455880,
+          "end_ms": 1461840,
+          "text": "move that doesn't use"
+        },
+        {
+          "cue_id": 498,
+          "start_ms": 1458600,
+          "end_ms": 1464400,
+          "text": "propellant the solution for keeping the"
+        },
+        {
+          "cue_id": 527,
+          "start_ms": 1545120,
+          "end_ms": 1549799,
+          "text": "around you know I would slow the"
+        },
+        {
+          "cue_id": 528,
+          "start_ms": 1546640,
+          "end_ms": 1552679,
+          "text": "gyroscope around and then woo I would do"
+        },
+        {
+          "cue_id": 558,
+          "start_ms": 1626240,
+          "end_ms": 1634240,
+          "text": "120 KW ample for all the iss's needs and"
+        },
+        {
+          "cue_id": 559,
+          "start_ms": 1631360,
+          "end_ms": 1636880,
+          "text": "the equivalent of powering 40 homes in"
+        },
+        {
+          "cue_id": 588,
+          "start_ms": 1712720,
+          "end_ms": 1718880,
+          "text": "moments conversely when in sunlight the"
+        },
+        {
+          "cue_id": 589,
+          "start_ms": 1716080,
+          "end_ms": 1720600,
+          "text": "temperature can soar temperature and"
+        },
+        {
+          "cue_id": 623,
+          "start_ms": 1799679,
+          "end_ms": 1804919,
+          "text": "is just put it through a a water cooling"
+        },
+        {
+          "cue_id": 624,
+          "start_ms": 1802840,
+          "end_ms": 1807039,
+          "text": "system and then get rid of that excess"
+        },
+        {
+          "cue_id": 653,
+          "start_ms": 1886919,
+          "end_ms": 1890760,
+          "text": "a amonia is spotted leaking out of one"
+        },
+        {
+          "cue_id": 654,
+          "start_ms": 1889000,
+          "end_ms": 1893679,
+          "text": "of the cooling"
+        },
+        {
+          "cue_id": 680,
+          "start_ms": 1971679,
+          "end_ms": 1976559,
+          "text": "station you're going to monitor for an"
+        },
+        {
+          "cue_id": 681,
+          "start_ms": 1973720,
+          "end_ms": 1980080,
+          "text": "ammonia leak if uh some reason a flowing"
+        },
+        {
+          "cue_id": 716,
+          "start_ms": 2059960,
+          "end_ms": 2064079,
+          "text": "the water vapor that gets out into the"
+        },
+        {
+          "cue_id": 717,
+          "start_ms": 2061879,
+          "end_ms": 2065359,
+          "text": "air and we're constantly ventilating the"
+        },
+        {
+          "cue_id": 749,
+          "start_ms": 2145440,
+          "end_ms": 2149599,
+          "text": "the space station so that's why this is"
+        },
+        {
+          "cue_id": 750,
+          "start_ms": 2147400,
+          "end_ms": 2152680,
+          "text": "a dark fluid instead of what you would"
+        },
+        {
+          "cue_id": 813,
+          "start_ms": 2317000,
+          "end_ms": 2322960,
+          "text": "International Space Station so one are"
+        },
+        {
+          "cue_id": 814,
+          "start_ms": 2320119,
+          "end_ms": 2325480,
+          "text": "via satellites a network of high orbit"
+        },
+        {
+          "cue_id": 843,
+          "start_ms": 2397920,
+          "end_ms": 2407160,
+          "text": "3 2 1 engine ignition lift off of the"
+        },
+        {
+          "cue_id": 844,
+          "start_ms": 2403680,
+          "end_ms": 2409520,
+          "text": "falcon9 rocket the ISS may still be in"
+        },
+        {
+          "cue_id": 876,
+          "start_ms": 2487839,
+          "end_ms": 2494000,
+          "text": "that have so far been to the space"
+        },
+        {
+          "cue_id": 877,
+          "start_ms": 2491160,
+          "end_ms": 2496119,
+          "text": "station we've been very privileged we've"
+        },
+        {
+          "cue_id": 910,
+          "start_ms": 2575280,
+          "end_ms": 2579319,
+          "text": "focus is on long-term self-sufficiency"
+        },
+        {
+          "cue_id": 911,
+          "start_ms": 2577839,
+          "end_ms": 2581640,
+          "text": "for"
+        },
+        {
+          "cue_id": 934,
+          "start_ms": 2652080,
+          "end_ms": 2665920,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 935,
+          "start_ms": 2662920,
+          "end_ms": 2665920,
+          "text": "for"
+        }
+      ],
+      "text": "planets and\n[Music]\nastronauts need if it\nfails they\n1998 hadn't been that long since the end\nof Communism in Russia and here we were\nround and our hatches are all square I\nmean this is fundamental to the\nquarters but every one of the modules\nwas constructed on Earth and it takes a\ntoday the ISS is\nenormous by far the largest space\nis successful there's a price to pay the\ncost of each mission is colossal almost\npositive electrode the hydrogen at the\nnegative but again being in space turns\nhole there is so much space junk up\nthere now there's the potential for it\ntrees going by your window none of that\nexists in\nspace debris is 11 minutes from now no\none knows how big this object\nlooks like that's\nwhich has different layers of Kevlar\nthat that can rip as a bullet enters it\nyou think about it you know that a whole\nbunch of sheets of of aluminum\nand that propellant isn't\ninfinite it all has to be set up from\nmove that doesn't use\npropellant the solution for keeping the\naround you know I would slow the\ngyroscope around and then woo I would do\n120 KW ample for all the iss's needs and\nthe equivalent of powering 40 homes in\nmoments conversely when in sunlight the\ntemperature can soar temperature and\nis just put it through a a water cooling\nsystem and then get rid of that excess\na amonia is spotted leaking out of one\nof the cooling\nstation you're going to monitor for an\nammonia leak if uh some reason a flowing\nthe water vapor that gets out into the\nair and we're constantly ventilating the\nthe space station so that's why this is\na dark fluid instead of what you would\nInternational Space Station so one are\nvia satellites a network of high orbit\n3 2 1 engine ignition lift off of the\nfalcon9 rocket the ISS may still be in\nthat have so far been to the space\nstation we've been very privileged we've\nfocus is on long-term self-sufficiency\nfor\n[Music]\nfor",
+      "text_tokens": 461,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Ei-TcECJVXU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Ei-TcECJVXU.srt",
+          "status": "available",
+          "bytes": 100484,
+          "sha256": "da6036d7bc35a8b6e519544f1b625e2ec765fe7dbbd1558390cd0be0c13aa177",
+          "cues": 935,
+          "nonempty_cues": 935
+        },
+        "frame_indices": [
+          0,
+          2575,
+          5151,
+          7726,
+          10302,
+          12877,
+          15453,
+          18028,
+          20604,
+          23179,
+          25755,
+          28330,
+          30905,
+          33481,
+          36056,
+          38632,
+          41207,
+          43783,
+          46358,
+          48934,
+          51509,
+          54084,
+          56660,
+          59235,
+          61811,
+          64386,
+          66962,
+          69537,
+          72113,
+          74688,
+          77264,
+          79839
+        ],
+        "frame_seconds": [
+          0.0,
+          85.919167,
+          171.8717,
+          257.790867,
+          343.7434,
+          429.662567,
+          515.6151,
+          601.534267,
+          687.4868,
+          773.405967,
+          859.3585,
+          945.277667,
+          1031.196833,
+          1117.149367,
+          1203.068533,
+          1289.021067,
+          1374.940233,
+          1460.892767,
+          1546.811933,
+          1632.764467,
+          1718.683633,
+          1804.6028,
+          1890.555333,
+          1976.4745,
+          2062.427033,
+          2148.3462,
+          2234.298733,
+          2320.2179,
+          2406.170433,
+          2492.0896,
+          2578.042133,
+          2663.9613
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            24,
+            25
+          ],
+          [
+            48,
+            49
+          ],
+          [
+            78,
+            79
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            138,
+            139
+          ],
+          [
+            171,
+            172
+          ],
+          [],
+          [
+            226,
+            227
+          ],
+          [
+            255,
+            256
+          ],
+          [
+            285,
+            286
+          ],
+          [
+            318,
+            319
+          ],
+          [
+            351,
+            352
+          ],
+          [
+            381
+          ],
+          [
+            408,
+            409
+          ],
+          [
+            438,
+            439
+          ],
+          [
+            469,
+            470
+          ],
+          [
+            497,
+            498
+          ],
+          [
+            527,
+            528
+          ],
+          [
+            558,
+            559
+          ],
+          [
+            588,
+            589
+          ],
+          [
+            623,
+            624
+          ],
+          [
+            653,
+            654
+          ],
+          [
+            680,
+            681
+          ],
+          [
+            716,
+            717
+          ],
+          [
+            749,
+            750
+          ],
+          [],
+          [
+            813,
+            814
+          ],
+          [
+            843,
+            844
+          ],
+          [
+            876,
+            877
+          ],
+          [
+            910,
+            911
+          ],
+          [
+            934,
+            935
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 24,
+            "start_ms": 82880,
+            "end_ms": 88250,
+            "text": "planets and"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 85050,
+            "end_ms": 88250,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 167200,
+            "end_ms": 172360,
+            "text": "astronauts need if it"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 170239,
+            "end_ms": 175599,
+            "text": "fails they"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 253640,
+            "end_ms": 259680,
+            "text": "1998 hadn't been that long since the end"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 257160,
+            "end_ms": 263400,
+            "text": "of Communism in Russia and here we were"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 340080,
+            "end_ms": 344800,
+            "text": "round and our hatches are all square I"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 343319,
+            "end_ms": 346360,
+            "text": "mean this is fundamental to the"
+          },
+          {
+            "cue_id": 138,
+            "start_ms": 425120,
+            "end_ms": 430400,
+            "text": "quarters but every one of the modules"
+          },
+          {
+            "cue_id": 139,
+            "start_ms": 427759,
+            "end_ms": 432680,
+            "text": "was constructed on Earth and it takes a"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 510879,
+            "end_ms": 516559,
+            "text": "today the ISS is"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 513719,
+            "end_ms": 519479,
+            "text": "enormous by far the largest space"
+          },
+          {
+            "cue_id": 226,
+            "start_ms": 684200,
+            "end_ms": 690519,
+            "text": "is successful there's a price to pay the"
+          },
+          {
+            "cue_id": 227,
+            "start_ms": 687440,
+            "end_ms": 692040,
+            "text": "cost of each mission is colossal almost"
+          },
+          {
+            "cue_id": 255,
+            "start_ms": 768079,
+            "end_ms": 774000,
+            "text": "positive electrode the hydrogen at the"
+          },
+          {
+            "cue_id": 256,
+            "start_ms": 771199,
+            "end_ms": 775720,
+            "text": "negative but again being in space turns"
+          },
+          {
+            "cue_id": 285,
+            "start_ms": 855680,
+            "end_ms": 860560,
+            "text": "hole there is so much space junk up"
+          },
+          {
+            "cue_id": 286,
+            "start_ms": 858920,
+            "end_ms": 862440,
+            "text": "there now there's the potential for it"
+          },
+          {
+            "cue_id": 318,
+            "start_ms": 942279,
+            "end_ms": 946839,
+            "text": "trees going by your window none of that"
+          },
+          {
+            "cue_id": 319,
+            "start_ms": 945040,
+            "end_ms": 949440,
+            "text": "exists in"
+          },
+          {
+            "cue_id": 351,
+            "start_ms": 1027319,
+            "end_ms": 1033720,
+            "text": "space debris is 11 minutes from now no"
+          },
+          {
+            "cue_id": 352,
+            "start_ms": 1030799,
+            "end_ms": 1037679,
+            "text": "one knows how big this object"
+          },
+          {
+            "cue_id": 381,
+            "start_ms": 1117039,
+            "end_ms": 1119799,
+            "text": "looks like that's"
+          },
+          {
+            "cue_id": 408,
+            "start_ms": 1199440,
+            "end_ms": 1204200,
+            "text": "which has different layers of Kevlar"
+          },
+          {
+            "cue_id": 409,
+            "start_ms": 1201799,
+            "end_ms": 1206400,
+            "text": "that that can rip as a bullet enters it"
+          },
+          {
+            "cue_id": 438,
+            "start_ms": 1284799,
+            "end_ms": 1289120,
+            "text": "you think about it you know that a whole"
+          },
+          {
+            "cue_id": 439,
+            "start_ms": 1286760,
+            "end_ms": 1292000,
+            "text": "bunch of sheets of of aluminum"
+          },
+          {
+            "cue_id": 469,
+            "start_ms": 1369960,
+            "end_ms": 1376039,
+            "text": "and that propellant isn't"
+          },
+          {
+            "cue_id": 470,
+            "start_ms": 1373640,
+            "end_ms": 1379320,
+            "text": "infinite it all has to be set up from"
+          },
+          {
+            "cue_id": 497,
+            "start_ms": 1455880,
+            "end_ms": 1461840,
+            "text": "move that doesn't use"
+          },
+          {
+            "cue_id": 498,
+            "start_ms": 1458600,
+            "end_ms": 1464400,
+            "text": "propellant the solution for keeping the"
+          },
+          {
+            "cue_id": 527,
+            "start_ms": 1545120,
+            "end_ms": 1549799,
+            "text": "around you know I would slow the"
+          },
+          {
+            "cue_id": 528,
+            "start_ms": 1546640,
+            "end_ms": 1552679,
+            "text": "gyroscope around and then woo I would do"
+          },
+          {
+            "cue_id": 558,
+            "start_ms": 1626240,
+            "end_ms": 1634240,
+            "text": "120 KW ample for all the iss's needs and"
+          },
+          {
+            "cue_id": 559,
+            "start_ms": 1631360,
+            "end_ms": 1636880,
+            "text": "the equivalent of powering 40 homes in"
+          },
+          {
+            "cue_id": 588,
+            "start_ms": 1712720,
+            "end_ms": 1718880,
+            "text": "moments conversely when in sunlight the"
+          },
+          {
+            "cue_id": 589,
+            "start_ms": 1716080,
+            "end_ms": 1720600,
+            "text": "temperature can soar temperature and"
+          },
+          {
+            "cue_id": 623,
+            "start_ms": 1799679,
+            "end_ms": 1804919,
+            "text": "is just put it through a a water cooling"
+          },
+          {
+            "cue_id": 624,
+            "start_ms": 1802840,
+            "end_ms": 1807039,
+            "text": "system and then get rid of that excess"
+          },
+          {
+            "cue_id": 653,
+            "start_ms": 1886919,
+            "end_ms": 1890760,
+            "text": "a amonia is spotted leaking out of one"
+          },
+          {
+            "cue_id": 654,
+            "start_ms": 1889000,
+            "end_ms": 1893679,
+            "text": "of the cooling"
+          },
+          {
+            "cue_id": 680,
+            "start_ms": 1971679,
+            "end_ms": 1976559,
+            "text": "station you're going to monitor for an"
+          },
+          {
+            "cue_id": 681,
+            "start_ms": 1973720,
+            "end_ms": 1980080,
+            "text": "ammonia leak if uh some reason a flowing"
+          },
+          {
+            "cue_id": 716,
+            "start_ms": 2059960,
+            "end_ms": 2064079,
+            "text": "the water vapor that gets out into the"
+          },
+          {
+            "cue_id": 717,
+            "start_ms": 2061879,
+            "end_ms": 2065359,
+            "text": "air and we're constantly ventilating the"
+          },
+          {
+            "cue_id": 749,
+            "start_ms": 2145440,
+            "end_ms": 2149599,
+            "text": "the space station so that's why this is"
+          },
+          {
+            "cue_id": 750,
+            "start_ms": 2147400,
+            "end_ms": 2152680,
+            "text": "a dark fluid instead of what you would"
+          },
+          {
+            "cue_id": 813,
+            "start_ms": 2317000,
+            "end_ms": 2322960,
+            "text": "International Space Station so one are"
+          },
+          {
+            "cue_id": 814,
+            "start_ms": 2320119,
+            "end_ms": 2325480,
+            "text": "via satellites a network of high orbit"
+          },
+          {
+            "cue_id": 843,
+            "start_ms": 2397920,
+            "end_ms": 2407160,
+            "text": "3 2 1 engine ignition lift off of the"
+          },
+          {
+            "cue_id": 844,
+            "start_ms": 2403680,
+            "end_ms": 2409520,
+            "text": "falcon9 rocket the ISS may still be in"
+          },
+          {
+            "cue_id": 876,
+            "start_ms": 2487839,
+            "end_ms": 2494000,
+            "text": "that have so far been to the space"
+          },
+          {
+            "cue_id": 877,
+            "start_ms": 2491160,
+            "end_ms": 2496119,
+            "text": "station we've been very privileged we've"
+          },
+          {
+            "cue_id": 910,
+            "start_ms": 2575280,
+            "end_ms": 2579319,
+            "text": "focus is on long-term self-sufficiency"
+          },
+          {
+            "cue_id": 911,
+            "start_ms": 2577839,
+            "end_ms": 2581640,
+            "text": "for"
+          },
+          {
+            "cue_id": 934,
+            "start_ms": 2652080,
+            "end_ms": 2665920,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 935,
+            "start_ms": 2662920,
+            "end_ms": 2665920,
+            "text": "for"
+          }
+        ],
+        "text": "planets and\n[Music]\nastronauts need if it\nfails they\n1998 hadn't been that long since the end\nof Communism in Russia and here we were\nround and our hatches are all square I\nmean this is fundamental to the\nquarters but every one of the modules\nwas constructed on Earth and it takes a\ntoday the ISS is\nenormous by far the largest space\nis successful there's a price to pay the\ncost of each mission is colossal almost\npositive electrode the hydrogen at the\nnegative but again being in space turns\nhole there is so much space junk up\nthere now there's the potential for it\ntrees going by your window none of that\nexists in\nspace debris is 11 minutes from now no\none knows how big this object\nlooks like that's\nwhich has different layers of Kevlar\nthat that can rip as a bullet enters it\nyou think about it you know that a whole\nbunch of sheets of of aluminum\nand that propellant isn't\ninfinite it all has to be set up from\nmove that doesn't use\npropellant the solution for keeping the\naround you know I would slow the\ngyroscope around and then woo I would do\n120 KW ample for all the iss's needs and\nthe equivalent of powering 40 homes in\nmoments conversely when in sunlight the\ntemperature can soar temperature and\nis just put it through a a water cooling\nsystem and then get rid of that excess\na amonia is spotted leaking out of one\nof the cooling\nstation you're going to monitor for an\nammonia leak if uh some reason a flowing\nthe water vapor that gets out into the\nair and we're constantly ventilating the\nthe space station so that's why this is\na dark fluid instead of what you would\nInternational Space Station so one are\nvia satellites a network of high orbit\n3 2 1 engine ignition lift off of the\nfalcon9 rocket the ISS may still be in\nthat have so far been to the space\nstation we've been very privileged we've\nfocus is on long-term self-sufficiency\nfor\n[Music]\nfor",
+        "text_tokens": 461,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "start_ms": 80680,
+          "end_ms": 91840,
+          "text": "will help our species reach other planets and [Music] Beyond"
+        },
+        {
+          "id": "S47",
+          "cue_ids": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "start_ms": 164920,
+          "end_ms": 178440,
+          "text": "ISS has to provide everything its astronauts need if it fails they die a human being can only survive for 3"
+        },
+        {
+          "id": "S77",
+          "cue_ids": [
+            77,
+            78,
+            79,
+            80
+          ],
+          "start_ms": 249010,
+          "end_ms": 266440,
+          "text": "[Music] 1998 hadn't been that long since the end of Communism in Russia and here we were building a joint Russian us space"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 336680,
+          "end_ms": 349199,
+          "text": "together the Russian hatches are all round and our hatches are all square I mean this is fundamental to the International Space Station and what you"
+        },
+        {
+          "id": "S137",
+          "cue_ids": [
+            137,
+            138,
+            139,
+            140
+          ],
+          "start_ms": 422199,
+          "end_ms": 435280,
+          "text": "Laboratories and bigger living quarters but every one of the modules was constructed on Earth and it takes a Supreme International effort to launch"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172,
+            173
+          ],
+          "start_ms": 508240,
+          "end_ms": 519479,
+          "text": "space today the ISS is enormous by far the largest space station ever"
+        },
+        {
+          "id": "S225",
+          "cue_ids": [
+            225,
+            226,
+            227,
+            228
+          ],
+          "start_ms": 681480,
+          "end_ms": 694519,
+          "text": "planned but even when a cargo delivery is successful there's a price to pay the cost of each mission is colossal almost $200"
+        },
+        {
+          "id": "S254",
+          "cue_ids": [
+            254,
+            255,
+            256,
+            257
+          ],
+          "start_ms": 766079,
+          "end_ms": 780360,
+          "text": "oxygen comes off as Bubbles at the positive electrode the hydrogen at the negative but again being in space turns something that's straightforward on"
+        },
+        {
+          "id": "S284",
+          "cue_ids": [
+            284,
+            285,
+            286,
+            287
+          ],
+          "start_ms": 853079,
+          "end_ms": 864920,
+          "text": "breach in its hole there is so much space junk up there now there's the potential for it to puncture the outer wall of space"
+        },
+        {
+          "id": "S317",
+          "cue_ids": [
+            317,
+            318,
+            319,
+            320
+          ],
+          "start_ms": 939920,
+          "end_ms": 952240,
+          "text": "wind going by you have Billboards or trees going by your window none of that exists in Space the only way you get a visceral"
+        },
+        {
+          "id": "S350",
+          "cue_ids": [
+            350,
+            351,
+            352,
+            353
+          ],
+          "start_ms": 1025559,
+          "end_ms": 1040160,
+          "text": "closest approach of this fragment of space debris is 11 minutes from now no one knows how big this object is of the station well you you do what"
+        },
+        {
+          "id": "S381",
+          "cue_ids": [
+            381
+          ],
+          "start_ms": 1117039,
+          "end_ms": 1119799,
+          "text": "looks like that's"
+        },
+        {
+          "id": "S407",
+          "cue_ids": [
+            407,
+            408,
+            409,
+            410
+          ],
+          "start_ms": 1197039,
+          "end_ms": 1209440,
+          "text": "vest so just like a bulletproof vest which has different layers of Kevlar that that can rip as a bullet enters it the ISS has different layers in its"
+        },
+        {
+          "id": "S437",
+          "cue_ids": [
+            437,
+            438,
+            439,
+            440
+          ],
+          "start_ms": 1282320,
+          "end_ms": 1294240,
+          "text": "hull it's kind of counterintuitive when you think about it you know that a whole bunch of sheets of of aluminum foil uh could somehow give you more"
+        },
+        {
+          "id": "S468",
+          "cue_ids": [
+            468,
+            469,
+            470,
+            471
+          ],
+          "start_ms": 1367520,
+          "end_ms": 1381240,
+          "text": "and those Rockets are using propellant and that propellant isn't infinite it all has to be set up from Earth at a cost of 10,000 ,000 per pound"
+        },
+        {
+          "id": "S496",
+          "cue_ids": [
+            496,
+            497,
+            498,
+            499
+          ],
+          "start_ms": 1452960,
+          "end_ms": 1469120,
+          "text": "Earth what the ISS needs is a way to move that doesn't use propellant the solution for keeping the ISS in the right altitude and also on"
+        },
+        {
+          "id": "S526",
+          "cue_ids": [
+            526,
+            527,
+            528,
+            529
+          ],
+          "start_ms": 1542840,
+          "end_ms": 1556159,
+          "text": "gyroscope the chair would start to spin around you know I would slow the gyroscope around and then woo I would do a big spin because that angular momentum"
+        },
+        {
+          "id": "S557",
+          "cue_ids": [
+            557,
+            558,
+            559,
+            560
+          ],
+          "start_ms": 1622760,
+          "end_ms": 1640039,
+          "text": "do in space together they can generate 120 KW ample for all the iss's needs and the equivalent of powering 40 homes in order to maximize the power you're"
+        },
+        {
+          "id": "S587",
+          "cue_ids": [
+            587,
+            588,
+            589,
+            590
+          ],
+          "start_ms": 1708640,
+          "end_ms": 1723159,
+          "text": "would kill astronauts in a matter of moments conversely when in sunlight the temperature can soar temperature and managing temperature on the ISS is very"
+        },
+        {
+          "id": "S622",
+          "cue_ids": [
+            622,
+            623,
+            624,
+            625
+          ],
+          "start_ms": 1798000,
+          "end_ms": 1809600,
+          "text": "ideally what you'd like to be able to do is just put it through a a water cooling system and then get rid of that excess heat if they tried to get rid of that"
+        },
+        {
+          "id": "S652",
+          "cue_ids": [
+            652,
+            653,
+            654,
+            655
+          ],
+          "start_ms": 1882679,
+          "end_ms": 1897000,
+          "text": "contact in May 2013 for reasons unknown a amonia is spotted leaking out of one of the cooling pipes there is no alternative but for"
+        },
+        {
+          "id": "S679",
+          "cue_ids": [
+            679,
+            680,
+            681,
+            682
+          ],
+          "start_ms": 1969240,
+          "end_ms": 1982320,
+          "text": "might have to evacuate the space station you're going to monitor for an ammonia leak if uh some reason a flowing leak is observed immediately sto turning"
+        },
+        {
+          "id": "S715",
+          "cue_ids": [
+            715,
+            716,
+            717,
+            718
+          ],
+          "start_ms": 2057800,
+          "end_ms": 2067839,
+          "text": "off of your off of the surface so that's the water vapor that gets out into the air and we're constantly ventilating the air through the"
+        },
+        {
+          "id": "S748",
+          "cue_ids": [
+            748,
+            749,
+            750,
+            751
+          ],
+          "start_ms": 2142560,
+          "end_ms": 2154880,
+          "text": "that's uh definitely a bad situation on the space station so that's why this is a dark fluid instead of what you would normally think of as urine clearly that"
+        },
+        {
+          "id": "S812",
+          "cue_ids": [
+            812,
+            813,
+            814,
+            815
+          ],
+          "start_ms": 2314839,
+          "end_ms": 2327920,
+          "text": "are able to use to communicate with the International Space Station so one are via satellites a network of high orbit satellites relay radio data between the"
+        },
+        {
+          "id": "S842",
+          "cue_ids": [
+            842,
+            843,
+            844,
+            845
+          ],
+          "start_ms": 2394960,
+          "end_ms": 2412160,
+          "text": "to the International Space Station 3 2 1 engine ignition lift off of the falcon9 rocket the ISS may still be in our local space neighborhood with the"
+        },
+        {
+          "id": "S875",
+          "cue_ids": [
+            875,
+            876,
+            877,
+            878
+          ],
+          "start_ms": 2485200,
+          "end_ms": 2497440,
+          "text": "house far more than than the 220 people that have so far been to the space station we've been very privileged we've we've seen our home planet from a very"
+        },
+        {
+          "id": "S909",
+          "cue_ids": [
+            909,
+            910,
+            911,
+            912
+          ],
+          "start_ms": 2571640,
+          "end_ms": 2584559,
+          "text": "back from Fitness to food production the focus is on long-term self-sufficiency for astronauts and we are developing the"
+        },
+        {
+          "id": "S934",
+          "cue_ids": [
+            934,
+            935
+          ],
+          "start_ms": 2652080,
+          "end_ms": 2665920,
+          "text": "[Music] for"
+        }
+      ],
+      "text": "S23 [00:01:20.680 --> 00:01:31.840] will help our species reach other planets and [Music] Beyond\nS47 [00:02:44.920 --> 00:02:58.440] ISS has to provide everything its astronauts need if it fails they die a human being can only survive for 3\nS77 [00:04:09.010 --> 00:04:26.440] [Music] 1998 hadn't been that long since the end of Communism in Russia and here we were building a joint Russian us space\nS107 [00:05:36.680 --> 00:05:49.199] together the Russian hatches are all round and our hatches are all square I mean this is fundamental to the International Space Station and what you\nS137 [00:07:02.199 --> 00:07:15.280] Laboratories and bigger living quarters but every one of the modules was constructed on Earth and it takes a Supreme International effort to launch\nS170 [00:08:28.240 --> 00:08:39.479] space today the ISS is enormous by far the largest space station ever\nS225 [00:11:21.480 --> 00:11:34.519] planned but even when a cargo delivery is successful there's a price to pay the cost of each mission is colossal almost $200\nS254 [00:12:46.079 --> 00:13:00.360] oxygen comes off as Bubbles at the positive electrode the hydrogen at the negative but again being in space turns something that's straightforward on\nS284 [00:14:13.079 --> 00:14:24.920] breach in its hole there is so much space junk up there now there's the potential for it to puncture the outer wall of space\nS317 [00:15:39.920 --> 00:15:52.240] wind going by you have Billboards or trees going by your window none of that exists in Space the only way you get a visceral\nS350 [00:17:05.559 --> 00:17:20.160] closest approach of this fragment of space debris is 11 minutes from now no one knows how big this object is of the station well you you do what\nS381 [00:18:37.039 --> 00:18:39.799] looks like that's\nS407 [00:19:57.039 --> 00:20:09.440] vest so just like a bulletproof vest which has different layers of Kevlar that that can rip as a bullet enters it the ISS has different layers in its\nS437 [00:21:22.320 --> 00:21:34.240] hull it's kind of counterintuitive when you think about it you know that a whole bunch of sheets of of aluminum foil uh could somehow give you more\nS468 [00:22:47.520 --> 00:23:01.240] and those Rockets are using propellant and that propellant isn't infinite it all has to be set up from Earth at a cost of 10,000 ,000 per pound\nS496 [00:24:12.960 --> 00:24:29.120] Earth what the ISS needs is a way to move that doesn't use propellant the solution for keeping the ISS in the right altitude and also on\nS526 [00:25:42.840 --> 00:25:56.159] gyroscope the chair would start to spin around you know I would slow the gyroscope around and then woo I would do a big spin because that angular momentum\nS557 [00:27:02.760 --> 00:27:20.039] do in space together they can generate 120 KW ample for all the iss's needs and the equivalent of powering 40 homes in order to maximize the power you're\nS587 [00:28:28.640 --> 00:28:43.159] would kill astronauts in a matter of moments conversely when in sunlight the temperature can soar temperature and managing temperature on the ISS is very\nS622 [00:29:58.000 --> 00:30:09.600] ideally what you'd like to be able to do is just put it through a a water cooling system and then get rid of that excess heat if they tried to get rid of that\nS652 [00:31:22.679 --> 00:31:37.000] contact in May 2013 for reasons unknown a amonia is spotted leaking out of one of the cooling pipes there is no alternative but for\nS679 [00:32:49.240 --> 00:33:02.320] might have to evacuate the space station you're going to monitor for an ammonia leak if uh some reason a flowing leak is observed immediately sto turning\nS715 [00:34:17.800 --> 00:34:27.839] off of your off of the surface so that's the water vapor that gets out into the air and we're constantly ventilating the air through the\nS748 [00:35:42.560 --> 00:35:54.880] that's uh definitely a bad situation on the space station so that's why this is a dark fluid instead of what you would normally think of as urine clearly that\nS812 [00:38:34.839 --> 00:38:47.920] are able to use to communicate with the International Space Station so one are via satellites a network of high orbit satellites relay radio data between the\nS842 [00:39:54.960 --> 00:40:12.160] to the International Space Station 3 2 1 engine ignition lift off of the falcon9 rocket the ISS may still be in our local space neighborhood with the\nS875 [00:41:25.200 --> 00:41:37.440] house far more than than the 220 people that have so far been to the space station we've been very privileged we've we've seen our home planet from a very\nS909 [00:42:51.640 --> 00:43:04.559] back from Fitness to food production the focus is on long-term self-sufficiency for astronauts and we are developing the\nS934 [00:44:12.080 --> 00:44:25.920] [Music] for",
+      "text_tokens": 1727,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        23,
+        26,
+        47,
+        50,
+        77,
+        80,
+        107,
+        110,
+        137,
+        140,
+        170,
+        173,
+        225,
+        228,
+        254,
+        257,
+        284,
+        287,
+        317,
+        320,
+        350,
+        353,
+        407,
+        410,
+        437,
+        440,
+        468,
+        471,
+        496,
+        499,
+        526,
+        529,
+        557,
+        560,
+        587,
+        590,
+        622,
+        625,
+        652,
+        655,
+        679,
+        682,
+        715,
+        718,
+        748,
+        751,
+        812,
+        815,
+        842,
+        845,
+        875,
+        878,
+        909,
+        912
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "faba01d8c50f57dc9b40f7a391ef5aa9e4de20307f70a296f2a893a3bccc9b03"
+}

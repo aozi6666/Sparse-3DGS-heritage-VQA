@@ -1,0 +1,1354 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "-dfvdKf-KR0",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/-dfvdKf-KR0.srt",
+        "status": "available",
+        "bytes": 132718,
+        "sha256": "e979cc20d63f7caf740ac7aeead908e840c4d75480e840c0f9699b493b91121a",
+        "cues": 1263,
+        "nonempty_cues": 1263
+      },
+      "frame_indices": [
+        0,
+        2528,
+        5056,
+        7584,
+        10111,
+        12639,
+        15167,
+        17695,
+        20223,
+        22751,
+        25278,
+        27806,
+        30334,
+        32862,
+        35390,
+        37918,
+        40445,
+        42973,
+        45501,
+        48029,
+        50557,
+        53085,
+        55612,
+        58140,
+        60668,
+        63196,
+        65724,
+        68252,
+        70779,
+        73307,
+        75835,
+        78363
+      ],
+      "frame_seconds": [
+        0.0,
+        105.43866700000001,
+        210.877333,
+        316.316,
+        421.712958,
+        527.151625,
+        632.590292,
+        738.028958,
+        843.467625,
+        948.906292,
+        1054.30325,
+        1159.741917,
+        1265.180583,
+        1370.61925,
+        1476.057917,
+        1581.496583,
+        1686.893542,
+        1792.332208,
+        1897.770875,
+        2003.209542,
+        2108.648208,
+        2214.086875,
+        2319.483833,
+        2424.9225,
+        2530.361167,
+        2635.799833,
+        2741.2385,
+        2846.677167,
+        2952.074125,
+        3057.512792,
+        3162.951458,
+        3268.390125
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          26,
+          27
+        ],
+        [
+          75,
+          76
+        ],
+        [
+          97
+        ],
+        [
+          122,
+          123
+        ],
+        [
+          175,
+          176
+        ],
+        [
+          217,
+          218
+        ],
+        [
+          254,
+          255
+        ],
+        [],
+        [
+          326,
+          327
+        ],
+        [
+          370,
+          371
+        ],
+        [
+          411,
+          412
+        ],
+        [
+          448,
+          449
+        ],
+        [
+          470
+        ],
+        [],
+        [
+          557,
+          558
+        ],
+        [
+          605,
+          606
+        ],
+        [
+          647,
+          648
+        ],
+        [
+          697,
+          698
+        ],
+        [
+          744,
+          745
+        ],
+        [
+          781,
+          782
+        ],
+        [
+          830,
+          831
+        ],
+        [
+          885,
+          886
+        ],
+        [
+          934
+        ],
+        [
+          979,
+          980
+        ],
+        [
+          1025,
+          1026
+        ],
+        [
+          1062,
+          1063
+        ],
+        [
+          1109
+        ],
+        [],
+        [
+          1182
+        ],
+        [
+          1226,
+          1227
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 26,
+          "start_ms": 101880,
+          "end_ms": 106259,
+          "text": "for the last three hours well Gerald I"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 104280,
+          "end_ms": 107820,
+          "text": "specialize in troubled situations and"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 206760,
+          "end_ms": 211140,
+          "text": "with my manhood to put it out there"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 209280,
+          "end_ms": 213800,
+          "text": "now get your ass in there and close the"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 311510,
+          "end_ms": 333369,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 419460,
+          "end_ms": 423419,
+          "text": "kidding me we've been over this okay if"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 421500,
+          "end_ms": 424800,
+          "text": "she knew you'd know I do know the woman"
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 524700,
+          "end_ms": 529399,
+          "text": "about you"
+        },
+        {
+          "cue_id": 176,
+          "start_ms": 526380,
+          "end_ms": 529399,
+          "text": "what was Harvard like"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 629160,
+          "end_ms": 634920,
+          "text": "see it turns out this restaurant"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 631920,
+          "end_ms": 638060,
+          "text": "I kept feeding this Mr Fenton drinks"
+        },
+        {
+          "cue_id": 254,
+          "start_ms": 735480,
+          "end_ms": 740240,
+          "text": "put me in charge of recruiting now not"
+        },
+        {
+          "cue_id": 255,
+          "start_ms": 737160,
+          "end_ms": 740240,
+          "text": "to worry you are off the hook"
+        },
+        {
+          "cue_id": 326,
+          "start_ms": 945779,
+          "end_ms": 951019,
+          "text": "in the fourth"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 947940,
+          "end_ms": 951019,
+          "text": "this is his number"
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 1051260,
+          "end_ms": 1055760,
+          "text": "bluffed him that's not leverage it is if"
+        },
+        {
+          "cue_id": 371,
+          "start_ms": 1053600,
+          "end_ms": 1057980,
+          "text": "he believes it and if it fails he fires"
+        },
+        {
+          "cue_id": 411,
+          "start_ms": 1155600,
+          "end_ms": 1160539,
+          "text": "process this bomb that you dropped on me"
+        },
+        {
+          "cue_id": 412,
+          "start_ms": 1157700,
+          "end_ms": 1160539,
+          "text": "I had a nightmare"
+        },
+        {
+          "cue_id": 448,
+          "start_ms": 1257559,
+          "end_ms": 1265539,
+          "text": "OK is so long while only Fool's gone I"
+        },
+        {
+          "cue_id": 449,
+          "start_ms": 1262039,
+          "end_ms": 1265539,
+          "text": "shook the angel and yeah"
+        },
+        {
+          "cue_id": 470,
+          "start_ms": 1362460,
+          "end_ms": 1371700,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 557,
+          "start_ms": 1579860,
+          "end_ms": 1583340,
+          "text": "it with Gillis"
+        },
+        {
+          "cue_id": 558,
+          "start_ms": 1581179,
+          "end_ms": 1586039,
+          "text": "hey Amy yeah thank you mushrooms they're"
+        },
+        {
+          "cue_id": 605,
+          "start_ms": 1680020,
+          "end_ms": 1687700,
+          "text": "you can't even take care of yourself"
+        },
+        {
+          "cue_id": 606,
+          "start_ms": 1683779,
+          "end_ms": 1687700,
+          "text": "sorry Harvey you're on your own"
+        },
+        {
+          "cue_id": 647,
+          "start_ms": 1789200,
+          "end_ms": 1794059,
+          "text": "you just don't want it to burst you"
+        },
+        {
+          "cue_id": 648,
+          "start_ms": 1791840,
+          "end_ms": 1795740,
+          "text": "and you're okay with that"
+        },
+        {
+          "cue_id": 697,
+          "start_ms": 1894860,
+          "end_ms": 1899240,
+          "text": "said welcome to team lit"
+        },
+        {
+          "cue_id": 698,
+          "start_ms": 1897440,
+          "end_ms": 1901179,
+          "text": "two minutes later I come back and there"
+        },
+        {
+          "cue_id": 744,
+          "start_ms": 2000039,
+          "end_ms": 2003400,
+          "text": "so"
+        },
+        {
+          "cue_id": 745,
+          "start_ms": 2001960,
+          "end_ms": 2009849,
+          "text": "if you're gonna go just go"
+        },
+        {
+          "cue_id": 781,
+          "start_ms": 2105760,
+          "end_ms": 2109000,
+          "text": "where the hell are you going"
+        },
+        {
+          "cue_id": 782,
+          "start_ms": 2107200,
+          "end_ms": 2110859,
+          "text": "where do you think I'm going"
+        },
+        {
+          "cue_id": 830,
+          "start_ms": 2210099,
+          "end_ms": 2214240,
+          "text": "because this entire firm is a ghost town"
+        },
+        {
+          "cue_id": 831,
+          "start_ms": 2212140,
+          "end_ms": 2215740,
+          "text": "and I'm sorry Mike's in prison but if we"
+        },
+        {
+          "cue_id": 885,
+          "start_ms": 2317079,
+          "end_ms": 2321280,
+          "text": "Hide Your Dragon or I'm gonna Wang Chung"
+        },
+        {
+          "cue_id": 886,
+          "start_ms": 2319060,
+          "end_ms": 2323020,
+          "text": "your ass out of here Lewis calm down"
+        },
+        {
+          "cue_id": 934,
+          "start_ms": 2424599,
+          "end_ms": 2429640,
+          "text": "oh and uh if the car's too much I can"
+        },
+        {
+          "cue_id": 979,
+          "start_ms": 2524859,
+          "end_ms": 2532699,
+          "text": "people for a long time"
+        },
+        {
+          "cue_id": 980,
+          "start_ms": 2526770,
+          "end_ms": 2532699,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 1025,
+          "start_ms": 2629440,
+          "end_ms": 2636220,
+          "text": "yourself into Zane Specter or inspector"
+        },
+        {
+          "cue_id": 1026,
+          "start_ms": 2632619,
+          "end_ms": 2639640,
+          "text": "saying lit either way"
+        },
+        {
+          "cue_id": 1062,
+          "start_ms": 2737440,
+          "end_ms": 2741700,
+          "text": "I get it but we had an agreement and I"
+        },
+        {
+          "cue_id": 1063,
+          "start_ms": 2740440,
+          "end_ms": 2744280,
+          "text": "want your word right now you're going to"
+        },
+        {
+          "cue_id": 1109,
+          "start_ms": 2844359,
+          "end_ms": 2849579,
+          "text": "I'm gonna miss her too"
+        },
+        {
+          "cue_id": 1182,
+          "start_ms": 3055920,
+          "end_ms": 3061020,
+          "text": "are you expecting someone no"
+        },
+        {
+          "cue_id": 1226,
+          "start_ms": 3160380,
+          "end_ms": 3163020,
+          "text": "other's egos I'm just as good at"
+        },
+        {
+          "cue_id": 1227,
+          "start_ms": 3161460,
+          "end_ms": 3164400,
+          "text": "releasing as either one of you"
+        }
+      ],
+      "text": "for the last three hours well Gerald I\nspecialize in troubled situations and\nwith my manhood to put it out there\nnow get your ass in there and close the\n[Music]\nkidding me we've been over this okay if\nshe knew you'd know I do know the woman\nabout you\nwhat was Harvard like\nsee it turns out this restaurant\nI kept feeding this Mr Fenton drinks\nput me in charge of recruiting now not\nto worry you are off the hook\nin the fourth\nthis is his number\nbluffed him that's not leverage it is if\nhe believes it and if it fails he fires\nprocess this bomb that you dropped on me\nI had a nightmare\nOK is so long while only Fool's gone I\nshook the angel and yeah\n[Music]\nit with Gillis\nhey Amy yeah thank you mushrooms they're\nyou can't even take care of yourself\nsorry Harvey you're on your own\nyou just don't want it to burst you\nand you're okay with that\nsaid welcome to team lit\ntwo minutes later I come back and there\nso\nif you're gonna go just go\nwhere the hell are you going\nwhere do you think I'm going\nbecause this entire firm is a ghost town\nand I'm sorry Mike's in prison but if we\nHide Your Dragon or I'm gonna Wang Chung\nyour ass out of here Lewis calm down\noh and uh if the car's too much I can\npeople for a long time\n[Music]\nyourself into Zane Specter or inspector\nsaying lit either way\nI get it but we had an agreement and I\nwant your word right now you're going to\nI'm gonna miss her too\nare you expecting someone no\nother's egos I'm just as good at\nreleasing as either one of you",
+      "text_tokens": 384,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "-dfvdKf-KR0",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/-dfvdKf-KR0.srt",
+          "status": "available",
+          "bytes": 132718,
+          "sha256": "e979cc20d63f7caf740ac7aeead908e840c4d75480e840c0f9699b493b91121a",
+          "cues": 1263,
+          "nonempty_cues": 1263
+        },
+        "frame_indices": [
+          0,
+          2528,
+          5056,
+          7584,
+          10111,
+          12639,
+          15167,
+          17695,
+          20223,
+          22751,
+          25278,
+          27806,
+          30334,
+          32862,
+          35390,
+          37918,
+          40445,
+          42973,
+          45501,
+          48029,
+          50557,
+          53085,
+          55612,
+          58140,
+          60668,
+          63196,
+          65724,
+          68252,
+          70779,
+          73307,
+          75835,
+          78363
+        ],
+        "frame_seconds": [
+          0.0,
+          105.43866700000001,
+          210.877333,
+          316.316,
+          421.712958,
+          527.151625,
+          632.590292,
+          738.028958,
+          843.467625,
+          948.906292,
+          1054.30325,
+          1159.741917,
+          1265.180583,
+          1370.61925,
+          1476.057917,
+          1581.496583,
+          1686.893542,
+          1792.332208,
+          1897.770875,
+          2003.209542,
+          2108.648208,
+          2214.086875,
+          2319.483833,
+          2424.9225,
+          2530.361167,
+          2635.799833,
+          2741.2385,
+          2846.677167,
+          2952.074125,
+          3057.512792,
+          3162.951458,
+          3268.390125
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            26,
+            27
+          ],
+          [
+            75,
+            76
+          ],
+          [
+            97
+          ],
+          [
+            122,
+            123
+          ],
+          [
+            175,
+            176
+          ],
+          [
+            217,
+            218
+          ],
+          [
+            254,
+            255
+          ],
+          [],
+          [
+            326,
+            327
+          ],
+          [
+            370,
+            371
+          ],
+          [
+            411,
+            412
+          ],
+          [
+            448,
+            449
+          ],
+          [
+            470
+          ],
+          [],
+          [
+            557,
+            558
+          ],
+          [
+            605,
+            606
+          ],
+          [
+            647,
+            648
+          ],
+          [
+            697,
+            698
+          ],
+          [
+            744,
+            745
+          ],
+          [
+            781,
+            782
+          ],
+          [
+            830,
+            831
+          ],
+          [
+            885,
+            886
+          ],
+          [
+            934
+          ],
+          [
+            979,
+            980
+          ],
+          [
+            1025,
+            1026
+          ],
+          [
+            1062,
+            1063
+          ],
+          [
+            1109
+          ],
+          [],
+          [
+            1182
+          ],
+          [
+            1226,
+            1227
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 26,
+            "start_ms": 101880,
+            "end_ms": 106259,
+            "text": "for the last three hours well Gerald I"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 104280,
+            "end_ms": 107820,
+            "text": "specialize in troubled situations and"
+          },
+          {
+            "cue_id": 75,
+            "start_ms": 206760,
+            "end_ms": 211140,
+            "text": "with my manhood to put it out there"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 209280,
+            "end_ms": 213800,
+            "text": "now get your ass in there and close the"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 311510,
+            "end_ms": 333369,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 122,
+            "start_ms": 419460,
+            "end_ms": 423419,
+            "text": "kidding me we've been over this okay if"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 421500,
+            "end_ms": 424800,
+            "text": "she knew you'd know I do know the woman"
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 524700,
+            "end_ms": 529399,
+            "text": "about you"
+          },
+          {
+            "cue_id": 176,
+            "start_ms": 526380,
+            "end_ms": 529399,
+            "text": "what was Harvard like"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 629160,
+            "end_ms": 634920,
+            "text": "see it turns out this restaurant"
+          },
+          {
+            "cue_id": 218,
+            "start_ms": 631920,
+            "end_ms": 638060,
+            "text": "I kept feeding this Mr Fenton drinks"
+          },
+          {
+            "cue_id": 254,
+            "start_ms": 735480,
+            "end_ms": 740240,
+            "text": "put me in charge of recruiting now not"
+          },
+          {
+            "cue_id": 255,
+            "start_ms": 737160,
+            "end_ms": 740240,
+            "text": "to worry you are off the hook"
+          },
+          {
+            "cue_id": 326,
+            "start_ms": 945779,
+            "end_ms": 951019,
+            "text": "in the fourth"
+          },
+          {
+            "cue_id": 327,
+            "start_ms": 947940,
+            "end_ms": 951019,
+            "text": "this is his number"
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 1051260,
+            "end_ms": 1055760,
+            "text": "bluffed him that's not leverage it is if"
+          },
+          {
+            "cue_id": 371,
+            "start_ms": 1053600,
+            "end_ms": 1057980,
+            "text": "he believes it and if it fails he fires"
+          },
+          {
+            "cue_id": 411,
+            "start_ms": 1155600,
+            "end_ms": 1160539,
+            "text": "process this bomb that you dropped on me"
+          },
+          {
+            "cue_id": 412,
+            "start_ms": 1157700,
+            "end_ms": 1160539,
+            "text": "I had a nightmare"
+          },
+          {
+            "cue_id": 448,
+            "start_ms": 1257559,
+            "end_ms": 1265539,
+            "text": "OK is so long while only Fool's gone I"
+          },
+          {
+            "cue_id": 449,
+            "start_ms": 1262039,
+            "end_ms": 1265539,
+            "text": "shook the angel and yeah"
+          },
+          {
+            "cue_id": 470,
+            "start_ms": 1362460,
+            "end_ms": 1371700,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 557,
+            "start_ms": 1579860,
+            "end_ms": 1583340,
+            "text": "it with Gillis"
+          },
+          {
+            "cue_id": 558,
+            "start_ms": 1581179,
+            "end_ms": 1586039,
+            "text": "hey Amy yeah thank you mushrooms they're"
+          },
+          {
+            "cue_id": 605,
+            "start_ms": 1680020,
+            "end_ms": 1687700,
+            "text": "you can't even take care of yourself"
+          },
+          {
+            "cue_id": 606,
+            "start_ms": 1683779,
+            "end_ms": 1687700,
+            "text": "sorry Harvey you're on your own"
+          },
+          {
+            "cue_id": 647,
+            "start_ms": 1789200,
+            "end_ms": 1794059,
+            "text": "you just don't want it to burst you"
+          },
+          {
+            "cue_id": 648,
+            "start_ms": 1791840,
+            "end_ms": 1795740,
+            "text": "and you're okay with that"
+          },
+          {
+            "cue_id": 697,
+            "start_ms": 1894860,
+            "end_ms": 1899240,
+            "text": "said welcome to team lit"
+          },
+          {
+            "cue_id": 698,
+            "start_ms": 1897440,
+            "end_ms": 1901179,
+            "text": "two minutes later I come back and there"
+          },
+          {
+            "cue_id": 744,
+            "start_ms": 2000039,
+            "end_ms": 2003400,
+            "text": "so"
+          },
+          {
+            "cue_id": 745,
+            "start_ms": 2001960,
+            "end_ms": 2009849,
+            "text": "if you're gonna go just go"
+          },
+          {
+            "cue_id": 781,
+            "start_ms": 2105760,
+            "end_ms": 2109000,
+            "text": "where the hell are you going"
+          },
+          {
+            "cue_id": 782,
+            "start_ms": 2107200,
+            "end_ms": 2110859,
+            "text": "where do you think I'm going"
+          },
+          {
+            "cue_id": 830,
+            "start_ms": 2210099,
+            "end_ms": 2214240,
+            "text": "because this entire firm is a ghost town"
+          },
+          {
+            "cue_id": 831,
+            "start_ms": 2212140,
+            "end_ms": 2215740,
+            "text": "and I'm sorry Mike's in prison but if we"
+          },
+          {
+            "cue_id": 885,
+            "start_ms": 2317079,
+            "end_ms": 2321280,
+            "text": "Hide Your Dragon or I'm gonna Wang Chung"
+          },
+          {
+            "cue_id": 886,
+            "start_ms": 2319060,
+            "end_ms": 2323020,
+            "text": "your ass out of here Lewis calm down"
+          },
+          {
+            "cue_id": 934,
+            "start_ms": 2424599,
+            "end_ms": 2429640,
+            "text": "oh and uh if the car's too much I can"
+          },
+          {
+            "cue_id": 979,
+            "start_ms": 2524859,
+            "end_ms": 2532699,
+            "text": "people for a long time"
+          },
+          {
+            "cue_id": 980,
+            "start_ms": 2526770,
+            "end_ms": 2532699,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 1025,
+            "start_ms": 2629440,
+            "end_ms": 2636220,
+            "text": "yourself into Zane Specter or inspector"
+          },
+          {
+            "cue_id": 1026,
+            "start_ms": 2632619,
+            "end_ms": 2639640,
+            "text": "saying lit either way"
+          },
+          {
+            "cue_id": 1062,
+            "start_ms": 2737440,
+            "end_ms": 2741700,
+            "text": "I get it but we had an agreement and I"
+          },
+          {
+            "cue_id": 1063,
+            "start_ms": 2740440,
+            "end_ms": 2744280,
+            "text": "want your word right now you're going to"
+          },
+          {
+            "cue_id": 1109,
+            "start_ms": 2844359,
+            "end_ms": 2849579,
+            "text": "I'm gonna miss her too"
+          },
+          {
+            "cue_id": 1182,
+            "start_ms": 3055920,
+            "end_ms": 3061020,
+            "text": "are you expecting someone no"
+          },
+          {
+            "cue_id": 1226,
+            "start_ms": 3160380,
+            "end_ms": 3163020,
+            "text": "other's egos I'm just as good at"
+          },
+          {
+            "cue_id": 1227,
+            "start_ms": 3161460,
+            "end_ms": 3164400,
+            "text": "releasing as either one of you"
+          }
+        ],
+        "text": "for the last three hours well Gerald I\nspecialize in troubled situations and\nwith my manhood to put it out there\nnow get your ass in there and close the\n[Music]\nkidding me we've been over this okay if\nshe knew you'd know I do know the woman\nabout you\nwhat was Harvard like\nsee it turns out this restaurant\nI kept feeding this Mr Fenton drinks\nput me in charge of recruiting now not\nto worry you are off the hook\nin the fourth\nthis is his number\nbluffed him that's not leverage it is if\nhe believes it and if it fails he fires\nprocess this bomb that you dropped on me\nI had a nightmare\nOK is so long while only Fool's gone I\nshook the angel and yeah\n[Music]\nit with Gillis\nhey Amy yeah thank you mushrooms they're\nyou can't even take care of yourself\nsorry Harvey you're on your own\nyou just don't want it to burst you\nand you're okay with that\nsaid welcome to team lit\ntwo minutes later I come back and there\nso\nif you're gonna go just go\nwhere the hell are you going\nwhere do you think I'm going\nbecause this entire firm is a ghost town\nand I'm sorry Mike's in prison but if we\nHide Your Dragon or I'm gonna Wang Chung\nyour ass out of here Lewis calm down\noh and uh if the car's too much I can\npeople for a long time\n[Music]\nyourself into Zane Specter or inspector\nsaying lit either way\nI get it but we had an agreement and I\nwant your word right now you're going to\nI'm gonna miss her too\nare you expecting someone no\nother's egos I'm just as good at\nreleasing as either one of you",
+        "text_tokens": 384,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S25",
+          "cue_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "start_ms": 100799,
+          "end_ms": 109320,
+          "text": "best closer where the hell you've been for the last three hours well Gerald I specialize in troubled situations and when I left here at 7 pm this deal"
+        },
+        {
+          "id": "S74",
+          "cue_ids": [
+            74,
+            75,
+            76,
+            77
+          ],
+          "start_ms": 204959,
+          "end_ms": 213800,
+          "text": "pansy for you but I'm comfortable enough with my manhood to put it out there now get your ass in there and close the goddamn deal"
+        },
+        {
+          "id": "S96",
+          "cue_ids": [
+            96,
+            97,
+            98
+          ],
+          "start_ms": 306139,
+          "end_ms": 335900,
+          "text": "hey stop you and the cat [Music] thank you"
+        },
+        {
+          "id": "S121",
+          "cue_ids": [
+            121,
+            122,
+            123,
+            124
+          ],
+          "start_ms": 417539,
+          "end_ms": 426840,
+          "text": "holding on my Swinton merger are you kidding me we've been over this okay if she knew you'd know I do know the woman barely knows my name and she just"
+        },
+        {
+          "id": "S174",
+          "cue_ids": [
+            174,
+            175,
+            176
+          ],
+          "start_ms": 522479,
+          "end_ms": 529399,
+          "text": "well enough about me I want to hear about you what was Harvard like"
+        },
+        {
+          "id": "S216",
+          "cue_ids": [
+            216,
+            217,
+            218,
+            219
+          ],
+          "start_ms": 626700,
+          "end_ms": 638060,
+          "text": "that I realized that we had a case see it turns out this restaurant I kept feeding this Mr Fenton drinks long after they knew"
+        },
+        {
+          "id": "S253",
+          "cue_ids": [
+            253,
+            254,
+            255,
+            256
+          ],
+          "start_ms": 734100,
+          "end_ms": 746180,
+          "text": "I hope this doesn't mean you're gonna put me in charge of recruiting now not to worry you are off the hook Harvey one more thing"
+        },
+        {
+          "id": "S325",
+          "cue_ids": [
+            325,
+            326,
+            327,
+            328
+          ],
+          "start_ms": 944339,
+          "end_ms": 956220,
+          "text": "you want Darren Williams playing for you in the fourth this is his number even if you had another offer which you"
+        },
+        {
+          "id": "S369",
+          "cue_ids": [
+            369,
+            370,
+            371,
+            372
+          ],
+          "start_ms": 1048740,
+          "end_ms": 1060500,
+          "text": "it's complicated simplify it for me I bluffed him that's not leverage it is if he believes it and if it fails he fires us and takes 10 other players with him"
+        },
+        {
+          "id": "S410",
+          "cue_ids": [
+            410,
+            411,
+            412,
+            413
+          ],
+          "start_ms": 1153140,
+          "end_ms": 1165820,
+          "text": "time that's what I needed it for to process this bomb that you dropped on me I had a nightmare you asked why I'm here that's why I"
+        },
+        {
+          "id": "S447",
+          "cue_ids": [
+            447,
+            448,
+            449
+          ],
+          "start_ms": 1255679,
+          "end_ms": 1265539,
+          "text": "do OK is so long while only Fool's gone I shook the angel and yeah"
+        },
+        {
+          "id": "S470",
+          "cue_ids": [
+            470
+          ],
+          "start_ms": 1362460,
+          "end_ms": 1371700,
+          "text": "[Music]"
+        },
+        {
+          "id": "S556",
+          "cue_ids": [
+            556,
+            557,
+            558,
+            559
+          ],
+          "start_ms": 1577340,
+          "end_ms": 1587419,
+          "text": "it's okay you know why because I killed it with Gillis hey Amy yeah thank you mushrooms they're good for you scream you"
+        },
+        {
+          "id": "S604",
+          "cue_ids": [
+            604,
+            605,
+            606
+          ],
+          "start_ms": 1678799,
+          "end_ms": 1687700,
+          "text": "care of it you can't even take care of yourself sorry Harvey you're on your own"
+        },
+        {
+          "id": "S646",
+          "cue_ids": [
+            646,
+            647,
+            648,
+            649
+          ],
+          "start_ms": 1787100,
+          "end_ms": 1797539,
+          "text": "bubble around us you just don't want it to burst you and you're okay with that Rachel you just agreed to spend the rest"
+        },
+        {
+          "id": "S696",
+          "cue_ids": [
+            696,
+            697,
+            698,
+            699
+          ],
+          "start_ms": 1892279,
+          "end_ms": 1905320,
+          "text": "room I went to get Mike this cake that said welcome to team lit two minutes later I come back and there they are high-fiving"
+        },
+        {
+          "id": "S743",
+          "cue_ids": [
+            743,
+            744,
+            745,
+            746
+          ],
+          "start_ms": 1996500,
+          "end_ms": 2009849,
+          "text": "other don't move on at all so if you're gonna go just go [Music]"
+        },
+        {
+          "id": "S781",
+          "cue_ids": [
+            781,
+            782,
+            783
+          ],
+          "start_ms": 2105760,
+          "end_ms": 2112839,
+          "text": "where the hell are you going where do you think I'm going going home Lewis oh don't you get it"
+        },
+        {
+          "id": "S829",
+          "cue_ids": [
+            829,
+            830,
+            831,
+            832
+          ],
+          "start_ms": 2208240,
+          "end_ms": 2217420,
+          "text": "damn it Harvey pick up the goddamn phone because this entire firm is a ghost town and I'm sorry Mike's in prison but if we don't figure something out what you and"
+        },
+        {
+          "id": "S884",
+          "cue_ids": [
+            884,
+            885,
+            886,
+            887
+          ],
+          "start_ms": 2315400,
+          "end_ms": 2324520,
+          "text": "anything so Crouch your tiger Hide Your Dragon or I'm gonna Wang Chung your ass out of here Lewis calm down clearly there's some mistake no one at"
+        },
+        {
+          "id": "S933",
+          "cue_ids": [
+            933,
+            934,
+            935
+          ],
+          "start_ms": 2420760,
+          "end_ms": 2432359,
+          "text": "Thursday oh and uh if the car's too much I can always have Ray Drive"
+        },
+        {
+          "id": "S978",
+          "cue_ids": [
+            978,
+            979,
+            980,
+            981
+          ],
+          "start_ms": 2522940,
+          "end_ms": 2538420,
+          "text": "could replace me and help a lot of people for a long time [Music] is that from me no actually it's for me"
+        },
+        {
+          "id": "S1024",
+          "cue_ids": [
+            1024,
+            1025,
+            1026,
+            1027
+          ],
+          "start_ms": 2626800,
+          "end_ms": 2642640,
+          "text": "I got myself into I'll tell you what got yourself into Zane Specter or inspector saying lit either way late comes last"
+        },
+        {
+          "id": "S1061",
+          "cue_ids": [
+            1061,
+            1062,
+            1063,
+            1064
+          ],
+          "start_ms": 2736300,
+          "end_ms": 2746579,
+          "text": "all right I get it but we had an agreement and I want your word right now you're going to honor it you have my word your name goes"
+        },
+        {
+          "id": "S1109",
+          "cue_ids": [
+            1109,
+            1110
+          ],
+          "start_ms": 2844359,
+          "end_ms": 2851200,
+          "text": "I'm gonna miss her too I'm not sure which is worse finding out"
+        },
+        {
+          "id": "S1181",
+          "cue_ids": [
+            1181,
+            1182,
+            1183
+          ],
+          "start_ms": 3052140,
+          "end_ms": 3063660,
+          "text": "over here are you expecting someone no but I do know who it is and it's bad how"
+        },
+        {
+          "id": "S1225",
+          "cue_ids": [
+            1225,
+            1226,
+            1227,
+            1228
+          ],
+          "start_ms": 3158220,
+          "end_ms": 3166940,
+          "text": "yourself you please stop stroking each other's egos I'm just as good at releasing as either one of you in fact I haven't went out this morning"
+        }
+      ],
+      "text": "S25 [00:01:40.799 --> 00:01:49.320] best closer where the hell you've been for the last three hours well Gerald I specialize in troubled situations and when I left here at 7 pm this deal\nS74 [00:03:24.959 --> 00:03:33.800] pansy for you but I'm comfortable enough with my manhood to put it out there now get your ass in there and close the goddamn deal\nS96 [00:05:06.139 --> 00:05:35.900] hey stop you and the cat [Music] thank you\nS121 [00:06:57.539 --> 00:07:06.840] holding on my Swinton merger are you kidding me we've been over this okay if she knew you'd know I do know the woman barely knows my name and she just\nS174 [00:08:42.479 --> 00:08:49.399] well enough about me I want to hear about you what was Harvard like\nS216 [00:10:26.700 --> 00:10:38.060] that I realized that we had a case see it turns out this restaurant I kept feeding this Mr Fenton drinks long after they knew\nS253 [00:12:14.100 --> 00:12:26.180] I hope this doesn't mean you're gonna put me in charge of recruiting now not to worry you are off the hook Harvey one more thing\nS325 [00:15:44.339 --> 00:15:56.220] you want Darren Williams playing for you in the fourth this is his number even if you had another offer which you\nS369 [00:17:28.740 --> 00:17:40.500] it's complicated simplify it for me I bluffed him that's not leverage it is if he believes it and if it fails he fires us and takes 10 other players with him\nS410 [00:19:13.140 --> 00:19:25.820] time that's what I needed it for to process this bomb that you dropped on me I had a nightmare you asked why I'm here that's why I\nS447 [00:20:55.679 --> 00:21:05.539] do OK is so long while only Fool's gone I shook the angel and yeah\nS470 [00:22:42.460 --> 00:22:51.700] [Music]\nS556 [00:26:17.340 --> 00:26:27.419] it's okay you know why because I killed it with Gillis hey Amy yeah thank you mushrooms they're good for you scream you\nS604 [00:27:58.799 --> 00:28:07.700] care of it you can't even take care of yourself sorry Harvey you're on your own\nS646 [00:29:47.100 --> 00:29:57.539] bubble around us you just don't want it to burst you and you're okay with that Rachel you just agreed to spend the rest\nS696 [00:31:32.279 --> 00:31:45.320] room I went to get Mike this cake that said welcome to team lit two minutes later I come back and there they are high-fiving\nS743 [00:33:16.500 --> 00:33:29.849] other don't move on at all so if you're gonna go just go [Music]\nS781 [00:35:05.760 --> 00:35:12.839] where the hell are you going where do you think I'm going going home Lewis oh don't you get it\nS829 [00:36:48.240 --> 00:36:57.420] damn it Harvey pick up the goddamn phone because this entire firm is a ghost town and I'm sorry Mike's in prison but if we don't figure something out what you and\nS884 [00:38:35.400 --> 00:38:44.520] anything so Crouch your tiger Hide Your Dragon or I'm gonna Wang Chung your ass out of here Lewis calm down clearly there's some mistake no one at\nS933 [00:40:20.760 --> 00:40:32.359] Thursday oh and uh if the car's too much I can always have Ray Drive\nS978 [00:42:02.940 --> 00:42:18.420] could replace me and help a lot of people for a long time [Music] is that from me no actually it's for me\nS1024 [00:43:46.800 --> 00:44:02.640] I got myself into I'll tell you what got yourself into Zane Specter or inspector saying lit either way late comes last\nS1061 [00:45:36.300 --> 00:45:46.579] all right I get it but we had an agreement and I want your word right now you're going to honor it you have my word your name goes\nS1109 [00:47:24.359 --> 00:47:31.200] I'm gonna miss her too I'm not sure which is worse finding out\nS1181 [00:50:52.140 --> 00:51:03.660] over here are you expecting someone no but I do know who it is and it's bad how\nS1225 [00:52:38.220 --> 00:52:46.940] yourself you please stop stroking each other's egos I'm just as good at releasing as either one of you in fact I haven't went out this morning",
+      "text_tokens": 1540,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        25,
+        28,
+        74,
+        77,
+        96,
+        98,
+        121,
+        124,
+        174,
+        216,
+        219,
+        253,
+        256,
+        325,
+        328,
+        369,
+        372,
+        410,
+        413,
+        447,
+        556,
+        559,
+        604,
+        646,
+        649,
+        696,
+        699,
+        743,
+        746,
+        783,
+        829,
+        832,
+        884,
+        887,
+        933,
+        935,
+        978,
+        981,
+        1024,
+        1027,
+        1061,
+        1064,
+        1110,
+        1181,
+        1183,
+        1225,
+        1228
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "1019d987a025d68e055420886531d04786e96dc61ae64573668084bad145f82e"
+}

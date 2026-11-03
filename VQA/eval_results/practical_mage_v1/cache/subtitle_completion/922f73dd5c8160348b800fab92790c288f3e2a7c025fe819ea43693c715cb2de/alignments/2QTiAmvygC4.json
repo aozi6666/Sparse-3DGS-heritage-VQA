@@ -1,0 +1,695 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "2QTiAmvygC4",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2QTiAmvygC4.srt",
+        "status": "available",
+        "bytes": 1773,
+        "sha256": "f534971bc1aeaff9315960543ab46abbd755f1bb576f2a4af8605f9a29e1f7c5",
+        "cues": 21,
+        "nonempty_cues": 21
+      },
+      "frame_indices": [
+        0,
+        83,
+        166,
+        250,
+        333,
+        416,
+        499,
+        583,
+        666,
+        749,
+        832,
+        915,
+        999,
+        1082,
+        1165,
+        1248,
+        1332,
+        1415,
+        1498,
+        1581,
+        1665,
+        1748,
+        1831,
+        1914,
+        1997,
+        2081,
+        2164,
+        2247,
+        2330,
+        2414,
+        2497,
+        2580
+      ],
+      "frame_seconds": [
+        0.0,
+        2.769433,
+        5.538867,
+        8.341667,
+        11.1111,
+        13.880533,
+        16.649967,
+        19.452767,
+        22.2222,
+        24.991633,
+        27.761067,
+        30.5305,
+        33.3333,
+        36.102733,
+        38.872167,
+        41.6416,
+        44.4444,
+        47.213833,
+        49.983267,
+        52.7527,
+        55.5555,
+        58.324933,
+        61.094367,
+        63.8638,
+        66.633233,
+        69.436033,
+        72.205467,
+        74.9749,
+        77.744333,
+        80.547133,
+        83.31656699999999,
+        86.086
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [],
+        [],
+        [
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          21
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 240,
+          "end_ms": 5759,
+          "text": "and now singing one of the great tv"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2560,
+          "end_ms": 9240,
+          "text": "theme songs ever grammy and oscar winner"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 5759,
+          "end_ms": 9240,
+          "text": "jennifer hudson"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 15690,
+          "end_ms": 21090,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 18720,
+          "end_ms": 30480,
+          "text": "is"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 21090,
+          "end_ms": 30660,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 30480,
+          "end_ms": 34520,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 30660,
+          "end_ms": 34520,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 37560,
+          "end_ms": 40609,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 40879,
+          "end_ms": 46179,
+          "text": "out of here"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 42990,
+          "end_ms": 46179,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 47160,
+          "end_ms": 51719,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 48719,
+          "end_ms": 51719,
+          "text": "is"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 52070,
+          "end_ms": 54790,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 53970,
+          "end_ms": 58460,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 54790,
+          "end_ms": 61869,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 58460,
+          "end_ms": 61869,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 62470,
+          "end_ms": 67690,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 64690,
+          "end_ms": 70980,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 67690,
+          "end_ms": 82690,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 70980,
+          "end_ms": 82690,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "and now singing one of the great tv\ntheme songs ever grammy and oscar winner\njennifer hudson\n[Music]\nis\n[Music]\n[Applause]\n[Music]\n[Music]\nout of here\n[Applause]\n[Music]\nis\n[Music]\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Applause]",
+      "text_tokens": 89,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "2QTiAmvygC4",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2QTiAmvygC4.srt",
+          "status": "available",
+          "bytes": 1773,
+          "sha256": "f534971bc1aeaff9315960543ab46abbd755f1bb576f2a4af8605f9a29e1f7c5",
+          "cues": 21,
+          "nonempty_cues": 21
+        },
+        "frame_indices": [
+          0,
+          83,
+          166,
+          250,
+          333,
+          416,
+          499,
+          583,
+          666,
+          749,
+          832,
+          915,
+          999,
+          1082,
+          1165,
+          1248,
+          1332,
+          1415,
+          1498,
+          1581,
+          1665,
+          1748,
+          1831,
+          1914,
+          1997,
+          2081,
+          2164,
+          2247,
+          2330,
+          2414,
+          2497,
+          2580
+        ],
+        "frame_seconds": [
+          0.0,
+          2.769433,
+          5.538867,
+          8.341667,
+          11.1111,
+          13.880533,
+          16.649967,
+          19.452767,
+          22.2222,
+          24.991633,
+          27.761067,
+          30.5305,
+          33.3333,
+          36.102733,
+          38.872167,
+          41.6416,
+          44.4444,
+          47.213833,
+          49.983267,
+          52.7527,
+          55.5555,
+          58.324933,
+          61.094367,
+          63.8638,
+          66.633233,
+          69.436033,
+          72.205467,
+          74.9749,
+          77.744333,
+          80.547133,
+          83.31656699999999,
+          86.086
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          [
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            20,
+            21
+          ],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 240,
+            "end_ms": 5759,
+            "text": "and now singing one of the great tv"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2560,
+            "end_ms": 9240,
+            "text": "theme songs ever grammy and oscar winner"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 5759,
+            "end_ms": 9240,
+            "text": "jennifer hudson"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 15690,
+            "end_ms": 21090,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 18720,
+            "end_ms": 30480,
+            "text": "is"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 21090,
+            "end_ms": 30660,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 30480,
+            "end_ms": 34520,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 30660,
+            "end_ms": 34520,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 37560,
+            "end_ms": 40609,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 40879,
+            "end_ms": 46179,
+            "text": "out of here"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 42990,
+            "end_ms": 46179,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 47160,
+            "end_ms": 51719,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 48719,
+            "end_ms": 51719,
+            "text": "is"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 52070,
+            "end_ms": 54790,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 53970,
+            "end_ms": 58460,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 54790,
+            "end_ms": 61869,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 58460,
+            "end_ms": 61869,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 62470,
+            "end_ms": 67690,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 64690,
+            "end_ms": 70980,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 67690,
+            "end_ms": 82690,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 70980,
+            "end_ms": 82690,
+            "text": "[Applause]"
+          }
+        ],
+        "text": "and now singing one of the great tv\ntheme songs ever grammy and oscar winner\njennifer hudson\n[Music]\nis\n[Music]\n[Applause]\n[Music]\n[Music]\nout of here\n[Applause]\n[Music]\nis\n[Music]\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Applause]",
+        "text_tokens": 89,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3
+          ],
+          "start_ms": 240,
+          "end_ms": 9240,
+          "text": "and now singing one of the great tv theme songs ever grammy and oscar winner jennifer hudson"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_ms": 15690,
+          "end_ms": 34520,
+          "text": "[Music] is [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S9",
+          "cue_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 37560,
+          "end_ms": 82690,
+          "text": "[Music] out of here [Applause] [Music] is [Music] [Applause] [Music] [Applause] [Music] [Applause] [Music] [Applause]"
+        }
+      ],
+      "text": "S1 [00:00:00.240 --> 00:00:09.240] and now singing one of the great tv theme songs ever grammy and oscar winner jennifer hudson\nS4 [00:00:15.690 --> 00:00:34.520] [Music] is [Music] [Applause] [Music]\nS9 [00:00:37.560 --> 00:01:22.690] [Music] out of here [Applause] [Music] is [Music] [Applause] [Music] [Applause] [Music] [Applause] [Music] [Applause]",
+      "text_tokens": 174,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "495bf13eb9074c77b74e46e2aace23c90854e7f9a78c24701bd9d5793f068001"
+}

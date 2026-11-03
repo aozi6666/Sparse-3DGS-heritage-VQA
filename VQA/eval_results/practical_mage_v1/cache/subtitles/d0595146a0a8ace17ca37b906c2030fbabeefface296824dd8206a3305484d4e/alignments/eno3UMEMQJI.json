@@ -1,0 +1,329 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "eno3UMEMQJI",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eno3UMEMQJI.srt",
+      "status": "available",
+      "bytes": 36948,
+      "sha256": "48b3ca6625e55a450d29428346720014f7d6dd4349dcdcd0708df5950c3d4828",
+      "cues": 378,
+      "nonempty_cues": 378
+    },
+    "frame_indices": [
+      0,
+      1995,
+      3989,
+      5984,
+      7979,
+      9973,
+      11968,
+      13963,
+      15957,
+      17952,
+      19947,
+      21941,
+      23936,
+      25931,
+      27925,
+      29920,
+      31915,
+      33910,
+      35904,
+      37899,
+      39894,
+      41888,
+      43883,
+      45878,
+      47872,
+      49867,
+      51862,
+      53856,
+      55851,
+      57846,
+      59840,
+      61835
+    ],
+    "frame_seconds": [
+      0.0,
+      66.5665,
+      133.099633,
+      199.666133,
+      266.232633,
+      332.765767,
+      399.332267,
+      465.898767,
+      532.4319,
+      598.9984,
+      665.5649,
+      732.098033,
+      798.664533,
+      865.231033,
+      931.764167,
+      998.330667,
+      1064.897167,
+      1131.463667,
+      1197.9968,
+      1264.5633,
+      1331.1298,
+      1397.662933,
+      1464.229433,
+      1530.795933,
+      1597.329067,
+      1663.895567,
+      1730.462067,
+      1796.9952,
+      1863.5617,
+      1930.1282,
+      1996.661333,
+      2063.227833
+    ],
+    "frame_cue_ids": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        38,
+        39
+      ],
+      [
+        57,
+        58
+      ],
+      [],
+      [
+        86
+      ],
+      [
+        98,
+        99
+      ],
+      [
+        121,
+        122
+      ],
+      [],
+      [
+        158,
+        159
+      ],
+      [
+        172
+      ],
+      [],
+      [
+        203,
+        204
+      ],
+      [
+        224
+      ],
+      [
+        238
+      ],
+      [],
+      [
+        259,
+        260
+      ],
+      [
+        284,
+        285
+      ],
+      [
+        309,
+        310
+      ],
+      [],
+      [],
+      [
+        335
+      ],
+      [
+        344
+      ],
+      [],
+      [],
+      [
+        363
+      ],
+      [
+        370,
+        371
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 38,
+        "start_ms": 396900,
+        "end_ms": 401280,
+        "text": "thing that is like kind of important and"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 399000,
+        "end_ms": 402419,
+        "text": "can be tied to any kind of action I"
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 462720,
+        "end_ms": 468199,
+        "text": "will all already be there"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 465120,
+        "end_ms": 468199,
+        "text": "in the UI"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 597180,
+        "end_ms": 602580,
+        "text": "maybe some mistake"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 660899,
+        "end_ms": 666360,
+        "text": "and warnings those things will be in the"
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 663120,
+        "end_ms": 669140,
+        "text": "model so whatever is text is coming here"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 728820,
+        "end_ms": 732920,
+        "text": "it"
+      },
+      {
+        "cue_id": 122,
+        "start_ms": 730019,
+        "end_ms": 732920,
+        "text": "so maybe we"
+      },
+      {
+        "cue_id": 158,
+        "start_ms": 863279,
+        "end_ms": 868440,
+        "text": "room kit will"
+      },
+      {
+        "cue_id": 159,
+        "start_ms": 865079,
+        "end_ms": 872660,
+        "text": "room kit will get to know about"
+      },
+      {
+        "cue_id": 172,
+        "start_ms": 928199,
+        "end_ms": 935639,
+        "text": "then we essentially have a way"
+      },
+      {
+        "cue_id": 203,
+        "start_ms": 1060440,
+        "end_ms": 1067520,
+        "text": "message to Matthew that your"
+      },
+      {
+        "cue_id": 204,
+        "start_ms": 1064059,
+        "end_ms": 1071419,
+        "text": "request is declined and he will lower"
+      },
+      {
+        "cue_id": 224,
+        "start_ms": 1128660,
+        "end_ms": 1135260,
+        "text": "to me to me at least like it seems like"
+      },
+      {
+        "cue_id": 238,
+        "start_ms": 1197900,
+        "end_ms": 1200080,
+        "text": "foreign"
+      },
+      {
+        "cue_id": 259,
+        "start_ms": 1328520,
+        "end_ms": 1331580,
+        "text": "and the"
+      },
+      {
+        "cue_id": 260,
+        "start_ms": 1329539,
+        "end_ms": 1332780,
+        "text": "L and then naming also works you"
+      },
+      {
+        "cue_id": 284,
+        "start_ms": 1394039,
+        "end_ms": 1399280,
+        "text": "like what's the change in the"
+      },
+      {
+        "cue_id": 285,
+        "start_ms": 1397580,
+        "end_ms": 1401720,
+        "text": "logic now"
+      },
+      {
+        "cue_id": 309,
+        "start_ms": 1462080,
+        "end_ms": 1465620,
+        "text": "versions right"
+      },
+      {
+        "cue_id": 310,
+        "start_ms": 1463580,
+        "end_ms": 1469880,
+        "text": "what we are saying is they"
+      },
+      {
+        "cue_id": 335,
+        "start_ms": 1663559,
+        "end_ms": 1666559,
+        "text": "speakers"
+      },
+      {
+        "cue_id": 344,
+        "start_ms": 1727450,
+        "end_ms": 1733619,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 363,
+        "start_ms": 1928690,
+        "end_ms": 1931779,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 370,
+        "start_ms": 1990200,
+        "end_ms": 1998840,
+        "text": "with"
+      },
+      {
+        "cue_id": 371,
+        "start_ms": 1992900,
+        "end_ms": 1999840,
+        "text": "[Music]"
+      }
+    ],
+    "text": "thing that is like kind of important and\ncan be tied to any kind of action I\nwill all already be there\nin the UI\nmaybe some mistake\nand warnings those things will be in the\nmodel so whatever is text is coming here\nit\nso maybe we\nroom kit will\nroom kit will get to know about\nthen we essentially have a way\nmessage to Matthew that your\nrequest is declined and he will lower\nto me to me at least like it seems like\nforeign\nand the\nL and then naming also works you\nlike what's the change in the\nlogic now\nversions right\nwhat we are saying is they\nspeakers\n[Music]\n[Music]\nwith\n[Music]",
+    "text_tokens": 149,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "ffb956ab3e5b18f8a1aa5360ae2ab5b4ec48e672b42e01776345026a4f1b3983"
+}

@@ -1,0 +1,664 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "dphq5X-rMew",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dphq5X-rMew.srt",
+        "status": "available",
+        "bytes": 15799,
+        "sha256": "db6551cfd920d61e4569339ece001552229b698351c1a84da9091d1a31d84d12",
+        "cues": 125,
+        "nonempty_cues": 125
+      },
+      "frame_indices": [
+        0,
+        321,
+        641,
+        962,
+        1282,
+        1603,
+        1923,
+        2244,
+        2564,
+        2885,
+        3205,
+        3526,
+        3847,
+        4167,
+        4488,
+        4808,
+        5129,
+        5449,
+        5770,
+        6090,
+        6411,
+        6732,
+        7052,
+        7373,
+        7693,
+        8014,
+        8334,
+        8655,
+        8975,
+        9296,
+        9616,
+        9937
+      ],
+      "frame_seconds": [
+        0.0,
+        13.388375,
+        26.735042,
+        40.123417,
+        53.470083,
+        66.858458,
+        80.205125,
+        93.5935,
+        106.940167,
+        120.328542,
+        133.675208,
+        147.063583,
+        160.451958,
+        173.79862500000002,
+        187.187,
+        200.533667,
+        213.922042,
+        227.268708,
+        240.657083,
+        254.00375,
+        267.392125,
+        280.7805,
+        294.127167,
+        307.515542,
+        320.862208,
+        334.250583,
+        347.59725000000003,
+        360.985625,
+        374.332292,
+        387.720667,
+        401.067333,
+        414.455708
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          5
+        ],
+        [
+          9
+        ],
+        [
+          14
+        ],
+        [],
+        [
+          20
+        ],
+        [
+          24
+        ],
+        [
+          28
+        ],
+        [
+          32
+        ],
+        [
+          36
+        ],
+        [
+          40
+        ],
+        [
+          46
+        ],
+        [],
+        [
+          55
+        ],
+        [
+          59
+        ],
+        [
+          63
+        ],
+        [
+          68
+        ],
+        [
+          72
+        ],
+        [
+          76
+        ],
+        [
+          80
+        ],
+        [
+          84
+        ],
+        [
+          88
+        ],
+        [
+          91
+        ],
+        [
+          95
+        ],
+        [],
+        [
+          105
+        ],
+        [
+          109
+        ],
+        [
+          114
+        ],
+        [
+          117
+        ],
+        [
+          122
+        ],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 5,
+          "start_ms": 11770,
+          "end_ms": 13920,
+          "text": "To find the ruins of a lost city"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 24221,
+          "end_ms": 27859,
+          "text": "But Fawcett never found Z, or any other city."
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 39756,
+          "end_ms": 41947,
+          "text": "These ditches and mounds are man-made."
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 65710,
+          "end_ms": 68505,
+          "text": "centuries before the Spaniards came, still stand...\""
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 80088,
+          "end_ms": 83030,
+          "text": "some of whom, had long-ago built huge cities."
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 93079,
+          "end_ms": 95557,
+          "text": "and featured well-planned roads and neighborhoods."
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 106488,
+          "end_ms": 108890,
+          "text": "\"And washes it away at night.\""
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 118369,
+          "end_ms": 121821,
+          "text": "so many Europeans set off in search of El Dorado."
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 132671,
+          "end_ms": 134666,
+          "text": "Spanish explorers claimed to see:"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 146450,
+          "end_ms": 149470,
+          "text": "Explorations continued over the next 200 years or so"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 172021,
+          "end_ms": 176240,
+          "text": "But he couldn’t find any of the things the early Europeans observed."
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 184429,
+          "end_ms": 188456,
+          "text": "This seemed to support what had become a near consensus among experts at the time:"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 196880,
+          "end_ms": 200776,
+          "text": "only a couple hundred-thousand people lived in the entire Amazon rainforest."
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 212755,
+          "end_ms": 215504,
+          "text": "But Fawcett was determined to prove cities existed."
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 226840,
+          "end_ms": 232060,
+          "text": "For next several decades, the Amazon was believed to have always been relatively empty."
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 238929,
+          "end_ms": 242930,
+          "text": "In the 1960s, scientists discovered patches of extremely fertile soil."
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 252690,
+          "end_ms": 255110,
+          "text": "Further studies revealed it was created by human waste"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 265820,
+          "end_ms": 269484,
+          "text": "The next clue Fawcett missed would’ve also been hard to spot."
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 278760,
+          "end_ms": 283063,
+          "text": "Working with the local indigenous people, they investigated these very long ditches."
+        },
+        {
+          "cue_id": 91,
+          "start_ms": 291872,
+          "end_ms": 295000,
+          "text": "And some were roads that led to more settlements."
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 303870,
+          "end_ms": 308280,
+          "text": "50,000 people between 1250 and 1650 AD."
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 331108,
+          "end_ms": 335300,
+          "text": "A network of trenches, here, date back to 200 - 1200AD"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 344500,
+          "end_ms": 349500,
+          "text": "to reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall."
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 360530,
+          "end_ms": 365130,
+          "text": "because an estimated 80-95% had died from smallpox and measles"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 371356,
+          "end_ms": 375680,
+          "text": "And he didn’t find stone ruins because, unlike Cusco and Tenochtitlan"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 385660,
+          "end_ms": 388010,
+          "text": "that appeared to be untouched by humans"
+        }
+      ],
+      "text": "To find the ruins of a lost city\nBut Fawcett never found Z, or any other city.\nThese ditches and mounds are man-made.\ncenturies before the Spaniards came, still stand...\"\nsome of whom, had long-ago built huge cities.\nand featured well-planned roads and neighborhoods.\n\"And washes it away at night.\"\nso many Europeans set off in search of El Dorado.\nSpanish explorers claimed to see:\nExplorations continued over the next 200 years or so\nBut he couldn’t find any of the things the early Europeans observed.\nThis seemed to support what had become a near consensus among experts at the time:\nonly a couple hundred-thousand people lived in the entire Amazon rainforest.\nBut Fawcett was determined to prove cities existed.\nFor next several decades, the Amazon was believed to have always been relatively empty.\nIn the 1960s, scientists discovered patches of extremely fertile soil.\nFurther studies revealed it was created by human waste\nThe next clue Fawcett missed would’ve also been hard to spot.\nWorking with the local indigenous people, they investigated these very long ditches.\nAnd some were roads that led to more settlements.\n50,000 people between 1250 and 1650 AD.\nA network of trenches, here, date back to 200 - 1200AD\nto reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall.\nbecause an estimated 80-95% had died from smallpox and measles\nAnd he didn’t find stone ruins because, unlike Cusco and Tenochtitlan\nthat appeared to be untouched by humans",
+      "text_tokens": 355,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S4",
+        "cue_ids": [
+          4,
+          5,
+          6
+        ],
+        "start_ms": 7930,
+        "end_ms": 16137,
+        "text": "He was on his eighth expedition in the Amazon, and he had one objective: To find the ruins of a lost city that he called “Z”."
+      },
+      {
+        "id": "S8",
+        "cue_ids": [
+          8,
+          9,
+          10
+        ],
+        "start_ms": 19658,
+        "end_ms": 29721,
+        "text": "that there were once large cities, filled with people, deep in the Amazon. But Fawcett never found Z, or any other city. And for decades after his disappearance,"
+      },
+      {
+        "id": "S13",
+        "cue_ids": [
+          13,
+          14,
+          15
+        ],
+        "start_ms": 36000,
+        "end_ms": 44692,
+        "text": "Until recently, when scientists began finding these. These ditches and mounds are man-made. And they’re all over the rainforest."
+      },
+      {
+        "id": "S19",
+        "cue_ids": [
+          19,
+          20,
+          21
+        ],
+        "start_ms": 62231,
+        "end_ms": 74197,
+        "text": "\"Many fine massive walls built by the ancient inhabitants centuries before the Spaniards came, still stand...\" In the 16th century, European colonizers poured into Central and South America"
+      },
+      {
+        "id": "S23",
+        "cue_ids": [
+          23,
+          24,
+          25
+        ],
+        "start_ms": 77908,
+        "end_ms": 87801,
+        "text": "They encountered many groups of indigenous people some of whom, had long-ago built huge cities. Like Tenochtitlan, founded by the Mexica people around 1325 AD."
+      },
+      {
+        "id": "S27",
+        "cue_ids": [
+          27,
+          28,
+          29
+        ],
+        "start_ms": 91243,
+        "end_ms": 100000,
+        "text": "The cities were constructed with stone and featured well-planned roads and neighborhoods. The Europeans took over both of them, and by the middle of the 16th century"
+      },
+      {
+        "id": "S31",
+        "cue_ids": [
+          31,
+          32,
+          33
+        ],
+        "start_ms": 102639,
+        "end_ms": 112053,
+        "text": "\"A great Lord... goes about continually covered in gold dust.\" \"And washes it away at night.\" Those rumors eventually became the legend of El Dorado"
+      },
+      {
+        "id": "S35",
+        "cue_ids": [
+          35,
+          36,
+          37
+        ],
+        "start_ms": 115491,
+        "end_ms": 123629,
+        "text": "These impressive cities made a golden city seem plausible so many Europeans set off in search of El Dorado. But they all failed."
+      },
+      {
+        "id": "S39",
+        "cue_ids": [
+          39,
+          40,
+          41
+        ],
+        "start_ms": 127809,
+        "end_ms": 136551,
+        "text": "No one found a golden city, but they did record signs that one could exist. Spanish explorers claimed to see: “Cities that glistened in white.”"
+      },
+      {
+        "id": "S45",
+        "cue_ids": [
+          45,
+          46,
+          47
+        ],
+        "start_ms": 142902,
+        "end_ms": 151950,
+        "text": "“Very large towns, to such an extent that they were astounded.” Explorations continued over the next 200 years or so but by the 19th century, the legend of el Dorado"
+      },
+      {
+        "id": "S54",
+        "cue_ids": [
+          54,
+          55,
+          56
+        ],
+        "start_ms": 169874,
+        "end_ms": 178890,
+        "text": "And the southern Amazon, in Brazil. But he couldn’t find any of the things the early Europeans observed. He met indigenous people, but described them in his letters"
+      },
+      {
+        "id": "S58",
+        "cue_ids": [
+          58,
+          59,
+          60
+        ],
+        "start_ms": 181872,
+        "end_ms": 192969,
+        "text": "And he didn’t find any sign of stone ruins. This seemed to support what had become a near consensus among experts at the time: That this rainforest was too inhospitable to support large, complex societies."
+      },
+      {
+        "id": "S62",
+        "cue_ids": [
+          62,
+          63,
+          64
+        ],
+        "start_ms": 194259,
+        "end_ms": 203670,
+        "text": "Modern research estimates that around Fawcett’s time only a couple hundred-thousand people lived in the entire Amazon rainforest. More racist theories, at that time, held that these indigenous people"
+      },
+      {
+        "id": "S67",
+        "cue_ids": [
+          67,
+          68,
+          69
+        ],
+        "start_ms": 210140,
+        "end_ms": 218999,
+        "text": "to support the necessary large-scale agriculture. But Fawcett was determined to prove cities existed. And in the final letter to his wife, Fawcett assured her by writing:"
+      },
+      {
+        "id": "S71",
+        "cue_ids": [
+          71,
+          72,
+          73
+        ],
+        "start_ms": 222230,
+        "end_ms": 234670,
+        "text": "Then left his camp here and was never seen again. For next several decades, the Amazon was believed to have always been relatively empty. But it turns out Fawcett was looking in the right place"
+      },
+      {
+        "id": "S75",
+        "cue_ids": [
+          75,
+          76,
+          77
+        ],
+        "start_ms": 236596,
+        "end_ms": 246329,
+        "text": "One clue Fawcett missed was in the soil. In the 1960s, scientists discovered patches of extremely fertile soil. Analysis showed it contained much more nutrients than usual."
+      },
+      {
+        "id": "S79",
+        "cue_ids": [
+          79,
+          80,
+          81
+        ],
+        "start_ms": 248621,
+        "end_ms": 257440,
+        "text": "And found lots of it in the Amazon, especially along rivers. Further studies revealed it was created by human waste or the intentional burning of the forest"
+      },
+      {
+        "id": "S83",
+        "cue_ids": [
+          83,
+          84,
+          85
+        ],
+        "start_ms": 259906,
+        "end_ms": 272350,
+        "text": "Terra Preta was evidence that large-scale agriculture was possible in the Amazon. The next clue Fawcett missed would’ve also been hard to spot. In the 1990s, along the Xingu river in Brazil"
+      },
+      {
+        "id": "S87",
+        "cue_ids": [
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        "start_ms": 275150,
+        "end_ms": 299369,
+        "text": "Dr. Michael Heckenberger, made a remarkable discovery. Working with the local indigenous people, they investigated these very long ditches. And, after mapping them, realized these ditches were signs of a large settlement. They were the remnants of carefully designed walls, centered around a plaza. And some were roads that led to more settlements. In fact, just this part of the Amazon, about the size of New Jersey,"
+      },
+      {
+        "id": "S94",
+        "cue_ids": [
+          94,
+          95,
+          96
+        ],
+        "start_ms": 301599,
+        "end_ms": 310100,
+        "text": "that experts believe could have been home to at least 50,000 people between 1250 and 1650 AD. These settlements were designed to get the most"
+      },
+      {
+        "id": "S104",
+        "cue_ids": [
+          104,
+          105,
+          106
+        ],
+        "start_ms": 328660,
+        "end_ms": 338466,
+        "text": "of large settlements all over the Amazon. A network of trenches, here, date back to 200 - 1200AD and suggest settlements that could’ve supported 60,000 people."
+      },
+      {
+        "id": "S108",
+        "cue_ids": [
+          108,
+          109,
+          110
+        ],
+        "start_ms": 341800,
+        "end_ms": 352773,
+        "text": "And in Bolivia, scientists recently used satellite technology to reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall. All these discoveries are leading experts to form a new consensus"
+      },
+      {
+        "id": "S113",
+        "cue_ids": [
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ],
+        "start_ms": 357670,
+        "end_ms": 378630,
+        "text": "Fawcett didn’t find large populations of indigenous people because an estimated 80-95% had died from smallpox and measles spread by the first generation of European colonizers between the 16th and 17th centuries. And he didn’t find stone ruins because, unlike Cusco and Tenochtitlan the Amazon’s indigenous people built with wood and earth,"
+      },
+      {
+        "id": "S121",
+        "cue_ids": [
+          121,
+          122,
+          123
+        ],
+        "start_ms": 383480,
+        "end_ms": 391486,
+        "text": "and swaths of infertile soil that appeared to be untouched by humans when, in fact, humans had been engineering it for centuries."
+      }
+    ],
+    "text": "S4 [00:00:07.930 --> 00:00:16.137] He was on his eighth expedition in the Amazon, and he had one objective: To find the ruins of a lost city that he called “Z”.\nS8 [00:00:19.658 --> 00:00:29.721] that there were once large cities, filled with people, deep in the Amazon. But Fawcett never found Z, or any other city. And for decades after his disappearance,\nS13 [00:00:36.000 --> 00:00:44.692] Until recently, when scientists began finding these. These ditches and mounds are man-made. And they’re all over the rainforest.\nS19 [00:01:02.231 --> 00:01:14.197] \"Many fine massive walls built by the ancient inhabitants centuries before the Spaniards came, still stand...\" In the 16th century, European colonizers poured into Central and South America\nS23 [00:01:17.908 --> 00:01:27.801] They encountered many groups of indigenous people some of whom, had long-ago built huge cities. Like Tenochtitlan, founded by the Mexica people around 1325 AD.\nS27 [00:01:31.243 --> 00:01:40.000] The cities were constructed with stone and featured well-planned roads and neighborhoods. The Europeans took over both of them, and by the middle of the 16th century\nS31 [00:01:42.639 --> 00:01:52.053] \"A great Lord... goes about continually covered in gold dust.\" \"And washes it away at night.\" Those rumors eventually became the legend of El Dorado\nS35 [00:01:55.491 --> 00:02:03.629] These impressive cities made a golden city seem plausible so many Europeans set off in search of El Dorado. But they all failed.\nS39 [00:02:07.809 --> 00:02:16.551] No one found a golden city, but they did record signs that one could exist. Spanish explorers claimed to see: “Cities that glistened in white.”\nS45 [00:02:22.902 --> 00:02:31.950] “Very large towns, to such an extent that they were astounded.” Explorations continued over the next 200 years or so but by the 19th century, the legend of el Dorado\nS54 [00:02:49.874 --> 00:02:58.890] And the southern Amazon, in Brazil. But he couldn’t find any of the things the early Europeans observed. He met indigenous people, but described them in his letters\nS58 [00:03:01.872 --> 00:03:12.969] And he didn’t find any sign of stone ruins. This seemed to support what had become a near consensus among experts at the time: That this rainforest was too inhospitable to support large, complex societies.\nS62 [00:03:14.259 --> 00:03:23.670] Modern research estimates that around Fawcett’s time only a couple hundred-thousand people lived in the entire Amazon rainforest. More racist theories, at that time, held that these indigenous people\nS67 [00:03:30.140 --> 00:03:38.999] to support the necessary large-scale agriculture. But Fawcett was determined to prove cities existed. And in the final letter to his wife, Fawcett assured her by writing:\nS71 [00:03:42.230 --> 00:03:54.670] Then left his camp here and was never seen again. For next several decades, the Amazon was believed to have always been relatively empty. But it turns out Fawcett was looking in the right place\nS75 [00:03:56.596 --> 00:04:06.329] One clue Fawcett missed was in the soil. In the 1960s, scientists discovered patches of extremely fertile soil. Analysis showed it contained much more nutrients than usual.\nS79 [00:04:08.621 --> 00:04:17.440] And found lots of it in the Amazon, especially along rivers. Further studies revealed it was created by human waste or the intentional burning of the forest\nS83 [00:04:19.906 --> 00:04:32.350] Terra Preta was evidence that large-scale agriculture was possible in the Amazon. The next clue Fawcett missed would’ve also been hard to spot. In the 1990s, along the Xingu river in Brazil\nS87 [00:04:35.150 --> 00:04:59.369] Dr. Michael Heckenberger, made a remarkable discovery. Working with the local indigenous people, they investigated these very long ditches. And, after mapping them, realized these ditches were signs of a large settlement. They were the remnants of carefully designed walls, centered around a plaza. And some were roads that led to more settlements. In fact, just this part of the Amazon, about the size of New Jersey,\nS94 [00:05:01.599 --> 00:05:10.100] that experts believe could have been home to at least 50,000 people between 1250 and 1650 AD. These settlements were designed to get the most\nS104 [00:05:28.660 --> 00:05:38.466] of large settlements all over the Amazon. A network of trenches, here, date back to 200 - 1200AD and suggest settlements that could’ve supported 60,000 people.\nS108 [00:05:41.800 --> 00:05:52.773] And in Bolivia, scientists recently used satellite technology to reveal remnants of U-shaped buildings on the top of pyramids 22 meters tall. All these discoveries are leading experts to form a new consensus\nS113 [00:05:57.670 --> 00:06:18.630] Fawcett didn’t find large populations of indigenous people because an estimated 80-95% had died from smallpox and measles spread by the first generation of European colonizers between the 16th and 17th centuries. And he didn’t find stone ruins because, unlike Cusco and Tenochtitlan the Amazon’s indigenous people built with wood and earth,\nS121 [00:06:23.480 --> 00:06:31.486] and swaths of infertile soil that appeared to be untouched by humans when, in fact, humans had been engineering it for centuries.",
+    "text_tokens": 1725,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      4,
+      6,
+      8,
+      10,
+      13,
+      15,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      45,
+      47,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      67,
+      69,
+      71,
+      73,
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      89,
+      90,
+      92,
+      94,
+      96,
+      104,
+      106,
+      108,
+      110,
+      113,
+      115,
+      116,
+      118,
+      121,
+      123
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "c45732ce005f5960149c4f1b6a5604da935afa08cf958b679d62af45108cd2eb"
+}

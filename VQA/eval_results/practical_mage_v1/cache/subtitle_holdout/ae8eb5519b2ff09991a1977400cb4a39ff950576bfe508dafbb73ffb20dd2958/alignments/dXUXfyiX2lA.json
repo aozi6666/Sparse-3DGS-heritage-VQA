@@ -1,0 +1,321 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "dXUXfyiX2lA",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dXUXfyiX2lA.srt",
+      "status": "available",
+      "bytes": 16318,
+      "sha256": "a7f042a02e3b856eddfc54490c64d149826f20ccca4bcdc0376a7aec26a00cd5",
+      "cues": 198,
+      "nonempty_cues": 198
+    },
+    "frame_indices": [
+      0,
+      1510,
+      3019,
+      4529,
+      6039,
+      7548,
+      9058,
+      10568,
+      12077,
+      13587,
+      15097,
+      16606,
+      18116,
+      19626,
+      21135,
+      22645,
+      24155,
+      25665,
+      27174,
+      28684,
+      30194,
+      31703,
+      33213,
+      34723,
+      36232,
+      37742,
+      39252,
+      40761,
+      42271,
+      43781,
+      45290,
+      46800
+    ],
+    "frame_seconds": [
+      0.0,
+      62.916667,
+      125.791667,
+      188.708333,
+      251.625,
+      314.5,
+      377.416667,
+      440.333333,
+      503.208333,
+      566.125,
+      629.041667,
+      691.916667,
+      754.833333,
+      817.75,
+      880.625,
+      943.541667,
+      1006.458333,
+      1069.375,
+      1132.25,
+      1195.166667,
+      1258.083333,
+      1320.958333,
+      1383.875,
+      1446.791667,
+      1509.666667,
+      1572.583333,
+      1635.5,
+      1698.375,
+      1761.291667,
+      1824.208333,
+      1887.083333,
+      1950.0
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        7,
+        8
+      ],
+      [],
+      [
+        20
+      ],
+      [],
+      [
+        38
+      ],
+      [
+        47
+      ],
+      [],
+      [],
+      [
+        65,
+        66
+      ],
+      [
+        74
+      ],
+      [
+        81
+      ],
+      [
+        86
+      ],
+      [],
+      [
+        98,
+        99
+      ],
+      [
+        104
+      ],
+      [
+        107
+      ],
+      [],
+      [
+        117
+      ],
+      [],
+      [
+        130
+      ],
+      [
+        139
+      ],
+      [],
+      [
+        151,
+        152
+      ],
+      [],
+      [],
+      [
+        169
+      ],
+      [],
+      [],
+      [
+        184,
+        185
+      ],
+      [
+        189
+      ],
+      [
+        197,
+        198
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 7,
+        "start_ms": 41680,
+        "end_ms": 70169,
+        "text": "h h"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 45060,
+        "end_ms": 70169,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 188320,
+        "end_ms": 191690,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 308630,
+        "end_ms": 328160,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 375599,
+        "end_ms": 378599,
+        "text": "oh no my"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 563230,
+        "end_ms": 568969,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 565830,
+        "end_ms": 568969,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 74,
+        "start_ms": 626970,
+        "end_ms": 632620,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 690080,
+        "end_ms": 693649,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 739670,
+        "end_ms": 781120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 877300,
+        "end_ms": 883560,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 880560,
+        "end_ms": 883560,
+        "text": "oh"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 936790,
+        "end_ms": 961040,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 107,
+        "start_ms": 985350,
+        "end_ms": 1018550,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 117,
+        "start_ms": 1128070,
+        "end_ms": 1134190,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 130,
+        "start_ms": 1257159,
+        "end_ms": 1267280,
+        "text": "woke up this morning morning on the"
+      },
+      {
+        "cue_id": 139,
+        "start_ms": 1318320,
+        "end_ms": 1325479,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 151,
+        "start_ms": 1441810,
+        "end_ms": 1447400,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 152,
+        "start_ms": 1443710,
+        "end_ms": 1447400,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 169,
+        "start_ms": 1585990,
+        "end_ms": 1662919,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 184,
+        "start_ms": 1821700,
+        "end_ms": 1834200,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 185,
+        "start_ms": 1823990,
+        "end_ms": 1834200,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 189,
+        "start_ms": 1875340,
+        "end_ms": 1888930,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 197,
+        "start_ms": 1948080,
+        "end_ms": 1951860,
+        "text": "and"
+      },
+      {
+        "cue_id": 198,
+        "start_ms": 1949370,
+        "end_ms": 1951860,
+        "text": "[Music]"
+      }
+    ],
+    "text": "h h\n[Music]\n[Music]\n[Music]\noh no my\n[Music]\n[Applause]\n[Music]\n[Music]\n[Music]\n[Applause]\noh\n[Music]\n[Music]\n[Music]\nwoke up this morning morning on the\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Music]\nand\n[Music]",
+    "text_tokens": 87,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "659d66d9589c18be9390a49f823d6d4fbecdf89c24664825c6cc60d5a874c7b1",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "323v_FtWqvo",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/323v_FtWqvo.srt",
+      "status": "available",
+      "bytes": 8699,
+      "sha256": "b5091cbe39c81cab8c836a61ba8b03b52d724de672d1c3121c6cb1322dad043a",
+      "cues": 76,
+      "nonempty_cues": 76
+    },
+    "frame_indices": [
+      0,
+      285,
+      570,
+      855,
+      1140,
+      1425,
+      1710,
+      1995,
+      2281,
+      2566,
+      2851,
+      3136,
+      3421,
+      3706,
+      3991,
+      4276,
+      4561,
+      4846,
+      5131,
+      5416,
+      5701,
+      5986,
+      6271,
+      6556,
+      6842,
+      7127,
+      7412,
+      7697,
+      7982,
+      8267,
+      8552,
+      8837
+    ],
+    "frame_seconds": [
+      0.0,
+      9.5095,
+      19.019,
+      28.5285,
+      38.038,
+      47.5475,
+      57.057,
+      66.5665,
+      76.10936699999999,
+      85.618867,
+      95.128367,
+      104.637867,
+      114.147367,
+      123.656867,
+      133.166367,
+      142.675867,
+      152.18536699999999,
+      161.694867,
+      171.204367,
+      180.713867,
+      190.223367,
+      199.732867,
+      209.242367,
+      218.751867,
+      228.294733,
+      237.804233,
+      247.313733,
+      256.823233,
+      266.332733,
+      275.842233,
+      285.351733,
+      294.86123299999997
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        3
+      ],
+      [
+        6
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        12
+      ],
+      [
+        16
+      ],
+      [
+        18
+      ],
+      [
+        21
+      ],
+      [
+        24
+      ],
+      [
+        26
+      ],
+      [
+        28
+      ],
+      [
+        30
+      ],
+      [
+        31
+      ],
+      [
+        35
+      ],
+      [
+        39
+      ],
+      [
+        40
+      ],
+      [
+        41
+      ],
+      [
+        45
+      ],
+      [
+        47
+      ],
+      [
+        49
+      ],
+      [
+        52
+      ],
+      [
+        55
+      ],
+      [
+        58
+      ],
+      [
+        62
+      ],
+      [
+        65
+      ],
+      [
+        66
+      ],
+      [
+        68
+      ],
+      [
+        70
+      ],
+      [
+        73
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 3,
+        "start_ms": 6606,
+        "end_ms": 11544,
+        "text": "THE STUDENTS. >> AND YES, IT IS VERY HARD FOR"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 17150,
+        "end_ms": 19686,
+        "text": "ARTISTS CANNOT AND WILL NOT BE SILENCED."
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 27494,
+        "end_ms": 37771,
+        "text": "♪♪♪ >> WE OPEN ON A VERY DARK DAY"
+      },
+      {
+        "cue_id": 10,
+        "start_ms": 37771,
+        "end_ms": 40306,
+        "text": "FOR THE WORLD. OKAY, JEWS."
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 45645,
+        "end_ms": 48581,
+        "text": ">> YES, HONEY, THAT'S THE RULES OF THE HOLOCAUST."
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 55989,
+        "end_ms": 63196,
+        "text": ">> SURPRISE! ♪♪♪"
+      },
+      {
+        "cue_id": 18,
+        "start_ms": 65465,
+        "end_ms": 69135,
+        "text": "ARE. >> THAT ONE KIND OF MADE A GOOD"
+      },
+      {
+        "cue_id": 21,
+        "start_ms": 74107,
+        "end_ms": 76976,
+        "text": ">> LOOK, LOOK! IT'S KYLIE JENNER!"
+      },
+      {
+        "cue_id": 24,
+        "start_ms": 83883,
+        "end_ms": 87353,
+        "text": "CAN I GET A SELFIE? CAN GET A SELFIE?"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 91324,
+        "end_ms": 96963,
+        "text": ">> EH, NO THANKS. WOW!"
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 101901,
+        "end_ms": 105071,
+        "text": "PROCEEDS GO TO STANDING ROCK. LET'S GET THOSE NATIVE AMERICANS"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 109008,
+        "end_ms": 115281,
+        "text": "WHAT'S HAPPENING THERE. >> ME HOW."
+      },
+      {
+        "cue_id": 31,
+        "start_ms": 115281,
+        "end_ms": 124991,
+        "text": "MY WAY PEROT IN SHOE. >> NAI SA NON PEROT MAI."
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 132565,
+        "end_ms": 133600,
+        "text": ">> UH, NO. >> IS IT BECAUSE WE WERE"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 142442,
+        "end_ms": 145845,
+        "text": ">> THAT WAS NOT MANDARIN. I HEARD THEM SAY \"DOG\" IN"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 145845,
+        "end_ms": 155121,
+        "text": "SPANISH A FEW TIMES. ♪♪♪"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 155121,
+        "end_ms": 164531,
+        "text": ">> YEP, YOU GUESSED IT. I HAVE AIDS."
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 170336,
+        "end_ms": 175241,
+        "text": ">> THIS ONE'S ACTUALLY NICE. >> I'M OKAY WITH AIDS."
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 180213,
+        "end_ms": 182215,
+        "text": "AND I WISH EVERYONE IN THE WORLD HAD AIDS TOO."
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 189055,
+        "end_ms": 191257,
+        "text": ">> THAT SORT OF BECAME PRO-GETTING AIDS."
+      },
+      {
+        "cue_id": 52,
+        "start_ms": 198965,
+        "end_ms": 200767,
+        "text": ">> HEY, GUYS. FOR THIS NEXT PART WE'RE GOING"
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 207640,
+        "end_ms": 210843,
+        "text": "THIS NEXT SCENE. >> BASKETBALL."
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 218017,
+        "end_ms": 221187,
+        "text": ">> A KID AT SCHOOL CALLED ME A FAIRY."
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 227727,
+        "end_ms": 230063,
+        "text": ">> OF COURSE. NOW GO WASH UP FOR DINNER."
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 236202,
+        "end_ms": 239572,
+        "text": ">> THAT'S IT. >> I PAID $1,000 FOR THAT IMPROV"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 239572,
+        "end_ms": 251451,
+        "text": "CLASS. ♪♪♪"
+      },
+      {
+        "cue_id": 68,
+        "start_ms": 255421,
+        "end_ms": 260959,
+        "text": "SHOOTING, MORE KISSING? >> BLACK LIVES MATTER!"
+      },
+      {
+        "cue_id": 70,
+        "start_ms": 262729,
+        "end_ms": 266532,
+        "text": ">> THAT WAS THEIR BLACK LIVES MATTER SCENE?"
+      },
+      {
+        "cue_id": 73,
+        "start_ms": 273473,
+        "end_ms": 276142,
+        "text": ">> THANK YOU. THAT'S OUR SHOW."
+      }
+    ],
+    "text": "THE STUDENTS. >> AND YES, IT IS VERY HARD FOR\nARTISTS CANNOT AND WILL NOT BE SILENCED.\n♪♪♪ >> WE OPEN ON A VERY DARK DAY\nFOR THE WORLD. OKAY, JEWS.\n>> YES, HONEY, THAT'S THE RULES OF THE HOLOCAUST.\n>> SURPRISE! ♪♪♪\nARE. >> THAT ONE KIND OF MADE A GOOD\n>> LOOK, LOOK! IT'S KYLIE JENNER!\nCAN I GET A SELFIE? CAN GET A SELFIE?\n>> EH, NO THANKS. WOW!\nPROCEEDS GO TO STANDING ROCK. LET'S GET THOSE NATIVE AMERICANS\nWHAT'S HAPPENING THERE. >> ME HOW.\nMY WAY PEROT IN SHOE. >> NAI SA NON PEROT MAI.\n>> UH, NO. >> IS IT BECAUSE WE WERE\n>> THAT WAS NOT MANDARIN. I HEARD THEM SAY \"DOG\" IN\nSPANISH A FEW TIMES. ♪♪♪\n>> YEP, YOU GUESSED IT. I HAVE AIDS.\n>> THIS ONE'S ACTUALLY NICE. >> I'M OKAY WITH AIDS.\nAND I WISH EVERYONE IN THE WORLD HAD AIDS TOO.\n>> THAT SORT OF BECAME PRO-GETTING AIDS.\n>> HEY, GUYS. FOR THIS NEXT PART WE'RE GOING\nTHIS NEXT SCENE. >> BASKETBALL.\n>> A KID AT SCHOOL CALLED ME A FAIRY.\n>> OF COURSE. NOW GO WASH UP FOR DINNER.\n>> THAT'S IT. >> I PAID $1,000 FOR THAT IMPROV\nCLASS. ♪♪♪\nSHOOTING, MORE KISSING? >> BLACK LIVES MATTER!\n>> THAT WAS THEIR BLACK LIVES MATTER SCENE?\n>> THANK YOU. THAT'S OUR SHOW.",
+    "text_tokens": 399,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "71d029fa39639c5a76dea601da779f301496c0311ee21caf0437c5af52504698"
+}

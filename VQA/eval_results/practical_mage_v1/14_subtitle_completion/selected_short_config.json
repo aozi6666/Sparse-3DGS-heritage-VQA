@@ -1,0 +1,13 @@
+{
+  "version": "fixed_short_subtitle_configuration_v1",
+  "tokens": 2048,
+  "budget_candidate_sha256": "7e1166b9277f737e31c35484bdcf37cde78883a04af64f3ea0c0f3abb8222a5b",
+  "budget_summary_sha256": "5e78a570add94a0e6ad99d3b52dce8d019eb94a0667550517edddd760e8fb63b",
+  "source_script_sha256": {
+    "subtitle_completion_common.py": "cf514a0dc225a72b2c21658e912ff8d67ef90bbe0ade687c93812b0e8ff2a245",
+    "subtitle_completion_run.py": "e2097bc1d8de1665d1da228bf0bc14f7ebfb97f6d7a20828413debed6f73cab8",
+    "subtitle_completion_analyze.py": "8628eb6b9aeec5ae8459490494dbd87fd30170accba7599b2d1e85300b4c8928"
+  },
+  "short_sources_sha256": "aae46c05944cd46a06d003e080b0d2afbb0699b730294ed284795a45290f1e56",
+  "selection": "User explicitly selects one development configuration before any short219 score is inspected; no per-question selection or automatic budget scan."
+}

@@ -1,0 +1,543 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "elprD1hnDyU",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/elprD1hnDyU.srt",
+      "status": "available",
+      "bytes": 130489,
+      "sha256": "869adda7b7aae2921a5249e4383500416ffc7203fbece7834d7a472ac1f82604",
+      "cues": 1171,
+      "nonempty_cues": 1171
+    },
+    "frame_indices": [
+      0,
+      2186,
+      4372,
+      6558,
+      8743,
+      10929,
+      13115,
+      15301,
+      17487,
+      19673,
+      21858,
+      24044,
+      26230,
+      28416,
+      30602,
+      32788,
+      34973,
+      37159,
+      39345,
+      41531,
+      43717,
+      45903,
+      48088,
+      50274,
+      52460,
+      54646,
+      56832,
+      59018,
+      61203,
+      63389,
+      65575,
+      67761
+    ],
+    "frame_seconds": [
+      0.0,
+      87.44,
+      174.88,
+      262.32,
+      349.72,
+      437.16,
+      524.6,
+      612.04,
+      699.48,
+      786.92,
+      874.32,
+      961.76,
+      1049.2,
+      1136.64,
+      1224.08,
+      1311.52,
+      1398.92,
+      1486.36,
+      1573.8,
+      1661.24,
+      1748.68,
+      1836.12,
+      1923.52,
+      2010.96,
+      2098.4,
+      2185.84,
+      2273.28,
+      2360.72,
+      2448.12,
+      2535.56,
+      2623.0,
+      2710.44
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        34,
+        35
+      ],
+      [
+        77,
+        78
+      ],
+      [
+        119,
+        120
+      ],
+      [
+        164,
+        165
+      ],
+      [
+        207,
+        208
+      ],
+      [
+        247,
+        248
+      ],
+      [],
+      [
+        325,
+        326
+      ],
+      [
+        363,
+        364
+      ],
+      [
+        406,
+        407
+      ],
+      [
+        441,
+        442
+      ],
+      [
+        476,
+        477
+      ],
+      [
+        517,
+        518
+      ],
+      [
+        557,
+        558
+      ],
+      [
+        597,
+        598
+      ],
+      [
+        639,
+        640
+      ],
+      [
+        676,
+        677
+      ],
+      [
+        715,
+        716
+      ],
+      [
+        750,
+        751
+      ],
+      [
+        783,
+        784
+      ],
+      [
+        824,
+        825
+      ],
+      [
+        862,
+        863
+      ],
+      [
+        899,
+        900
+      ],
+      [],
+      [],
+      [
+        979,
+        980
+      ],
+      [
+        1022,
+        1023
+      ],
+      [
+        1059,
+        1060
+      ],
+      [
+        1098,
+        1099
+      ],
+      [
+        1129,
+        1130
+      ],
+      [
+        1170,
+        1171
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 34,
+        "start_ms": 83700,
+        "end_ms": 88560,
+        "text": "actually hasn't changed too much"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 86158,
+        "end_ms": 90479,
+        "text": "um since the last time I did these one"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 171720,
+        "end_ms": 176340,
+        "text": "fallen off in your routine then why is"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 173819,
+        "end_ms": 177959,
+        "text": "that and then reset once you've analyzed"
+      },
+      {
+        "cue_id": 119,
+        "start_ms": 258298,
+        "end_ms": 262860,
+        "text": "oxy shred flavors that I've ever tried"
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 260100,
+        "end_ms": 264540,
+        "text": "I've just mixed it with my creatine as"
+      },
+      {
+        "cue_id": 164,
+        "start_ms": 346020,
+        "end_ms": 351300,
+        "text": "recommend writing down"
+      },
+      {
+        "cue_id": 165,
+        "start_ms": 348479,
+        "end_ms": 354000,
+        "text": "everything before you go in I do have a"
+      },
+      {
+        "cue_id": 207,
+        "start_ms": 433319,
+        "end_ms": 438300,
+        "text": "workout is equally as important so the"
+      },
+      {
+        "cue_id": 208,
+        "start_ms": 435900,
+        "end_ms": 439560,
+        "text": "reason we do a dynamic warm-up is to get"
+      },
+      {
+        "cue_id": 247,
+        "start_ms": 520500,
+        "end_ms": 524640,
+        "text": "so important when doing a glute day this"
+      },
+      {
+        "cue_id": 248,
+        "start_ms": 523140,
+        "end_ms": 526680,
+        "text": "is just the best advice that I would"
+      },
+      {
+        "cue_id": 325,
+        "start_ms": 696660,
+        "end_ms": 700920,
+        "text": "during this exercise like it was"
+      },
+      {
+        "cue_id": 326,
+        "start_ms": 698519,
+        "end_ms": 703140,
+        "text": "actually insane like it it was crazy so"
+      },
+      {
+        "cue_id": 363,
+        "start_ms": 782880,
+        "end_ms": 787019,
+        "text": "adding holds everything like that all"
+      },
+      {
+        "cue_id": 364,
+        "start_ms": 784980,
+        "end_ms": 789180,
+        "text": "right like day yesterday it was so good"
+      },
+      {
+        "cue_id": 406,
+        "start_ms": 871860,
+        "end_ms": 875399,
+        "text": "always put it at the start of your"
+      },
+      {
+        "cue_id": 407,
+        "start_ms": 873660,
+        "end_ms": 878519,
+        "text": "workout not even just bench press that"
+      },
+      {
+        "cue_id": 441,
+        "start_ms": 959100,
+        "end_ms": 963180,
+        "text": "want to have a little bit of an arch it"
+      },
+      {
+        "cue_id": 442,
+        "start_ms": 960540,
+        "end_ms": 964320,
+        "text": "does really help and I also a big piece"
+      },
+      {
+        "cue_id": 476,
+        "start_ms": 1043339,
+        "end_ms": 1049460,
+        "text": "up to the 20 kgs and I'm pretty sure I"
+      },
+      {
+        "cue_id": 477,
+        "start_ms": 1045919,
+        "end_ms": 1051260,
+        "text": "got five maybe six um with 20 kgs that"
+      },
+      {
+        "cue_id": 517,
+        "start_ms": 1133160,
+        "end_ms": 1137059,
+        "text": "you're bending your arms so much then"
+      },
+      {
+        "cue_id": 518,
+        "start_ms": 1134840,
+        "end_ms": 1138919,
+        "text": "please just lower the weight I also see"
+      },
+      {
+        "cue_id": 557,
+        "start_ms": 1219020,
+        "end_ms": 1224360,
+        "text": "doing cable tricep extensions and we're"
+      },
+      {
+        "cue_id": 558,
+        "start_ms": 1222020,
+        "end_ms": 1226880,
+        "text": "going to be doing three sets of 10 to 12"
+      },
+      {
+        "cue_id": 597,
+        "start_ms": 1307760,
+        "end_ms": 1312020,
+        "text": "some Peach Blossom effortless shorts on"
+      },
+      {
+        "cue_id": 598,
+        "start_ms": 1310520,
+        "end_ms": 1313159,
+        "text": "keep an eye out for the end of this"
+      },
+      {
+        "cue_id": 639,
+        "start_ms": 1395299,
+        "end_ms": 1399440,
+        "text": "milligrams of caffeine in per scoop so I"
+      },
+      {
+        "cue_id": 640,
+        "start_ms": 1397880,
+        "end_ms": 1402380,
+        "text": "do like to use it as a pre-workout"
+      },
+      {
+        "cue_id": 676,
+        "start_ms": 1481760,
+        "end_ms": 1487340,
+        "text": "massive load on and this is just the"
+      },
+      {
+        "cue_id": 677,
+        "start_ms": 1484340,
+        "end_ms": 1489500,
+        "text": "type of variation that I would do more"
+      },
+      {
+        "cue_id": 715,
+        "start_ms": 1571400,
+        "end_ms": 1575659,
+        "text": "you're welcome"
+      },
+      {
+        "cue_id": 716,
+        "start_ms": 1573020,
+        "end_ms": 1578480,
+        "text": "moving into a yet again another deadly"
+      },
+      {
+        "cue_id": 750,
+        "start_ms": 1656360,
+        "end_ms": 1661460,
+        "text": "between each one to just once again"
+      },
+      {
+        "cue_id": 751,
+        "start_ms": 1659240,
+        "end_ms": 1664820,
+        "text": "murder your legs"
+      },
+      {
+        "cue_id": 783,
+        "start_ms": 1746960,
+        "end_ms": 1751039,
+        "text": "first time I've never actually tried"
+      },
+      {
+        "cue_id": 784,
+        "start_ms": 1748039,
+        "end_ms": 1752299,
+        "text": "that flavor before and unreal I mean all"
+      },
+      {
+        "cue_id": 824,
+        "start_ms": 1834320,
+        "end_ms": 1838340,
+        "text": "upper body movement to really just help"
+      },
+      {
+        "cue_id": 825,
+        "start_ms": 1836059,
+        "end_ms": 1840440,
+        "text": "you build up strength however I just I"
+      },
+      {
+        "cue_id": 862,
+        "start_ms": 1920659,
+        "end_ms": 1925580,
+        "text": "also find really helps just to increase"
+      },
+      {
+        "cue_id": 863,
+        "start_ms": 1923120,
+        "end_ms": 1927919,
+        "text": "that connection in the Target muscle as"
+      },
+      {
+        "cue_id": 899,
+        "start_ms": 2007600,
+        "end_ms": 2011620,
+        "text": "where you want to move your body with"
+      },
+      {
+        "cue_id": 900,
+        "start_ms": 2009399,
+        "end_ms": 2014320,
+        "text": "the movement I also see so many people"
+      },
+      {
+        "cue_id": 979,
+        "start_ms": 2268420,
+        "end_ms": 2273520,
+        "text": "of my working out week I'll be having"
+      },
+      {
+        "cue_id": 980,
+        "start_ms": 2270520,
+        "end_ms": 2275320,
+        "text": "two rest days this week one tomorrow and"
+      },
+      {
+        "cue_id": 1022,
+        "start_ms": 2358300,
+        "end_ms": 2363040,
+        "text": "movements in there and you guys have"
+      },
+      {
+        "cue_id": 1023,
+        "start_ms": 2360339,
+        "end_ms": 2365320,
+        "text": "already seen my leg day warm-ups in this"
+      },
+      {
+        "cue_id": 1059,
+        "start_ms": 2444280,
+        "end_ms": 2448359,
+        "text": "the movement as slow and controlled as"
+      },
+      {
+        "cue_id": 1060,
+        "start_ms": 2445960,
+        "end_ms": 2450280,
+        "text": "possible keep it in neutral spine and"
+      },
+      {
+        "cue_id": 1098,
+        "start_ms": 2531640,
+        "end_ms": 2536500,
+        "text": "as I usually would if I was training"
+      },
+      {
+        "cue_id": 1099,
+        "start_ms": 2533920,
+        "end_ms": 2539079,
+        "text": "quads for example or glutes I was just"
+      },
+      {
+        "cue_id": 1129,
+        "start_ms": 2619660,
+        "end_ms": 2623560,
+        "text": "week goes like that sometimes it's for"
+      },
+      {
+        "cue_id": 1130,
+        "start_ms": 2621339,
+        "end_ms": 2625780,
+        "text": "this sometimes six days sometimes even"
+      },
+      {
+        "cue_id": 1170,
+        "start_ms": 2705700,
+        "end_ms": 2710760,
+        "text": "thank you"
+      },
+      {
+        "cue_id": 1171,
+        "start_ms": 2707700,
+        "end_ms": 2710760,
+        "text": "[Music]"
+      }
+    ],
+    "text": "actually hasn't changed too much\num since the last time I did these one\nfallen off in your routine then why is\nthat and then reset once you've analyzed\noxy shred flavors that I've ever tried\nI've just mixed it with my creatine as\nrecommend writing down\neverything before you go in I do have a\nworkout is equally as important so the\nreason we do a dynamic warm-up is to get\nso important when doing a glute day this\nis just the best advice that I would\nduring this exercise like it was\nactually insane like it it was crazy so\nadding holds everything like that all\nright like day yesterday it was so good\nalways put it at the start of your\nworkout not even just bench press that\nwant to have a little bit of an arch it\ndoes really help and I also a big piece\nup to the 20 kgs and I'm pretty sure I\ngot five maybe six um with 20 kgs that\nyou're bending your arms so much then\nplease just lower the weight I also see\ndoing cable tricep extensions and we're\ngoing to be doing three sets of 10 to 12\nsome Peach Blossom effortless shorts on\nkeep an eye out for the end of this\nmilligrams of caffeine in per scoop so I\ndo like to use it as a pre-workout\nmassive load on and this is just the\ntype of variation that I would do more\nyou're welcome\nmoving into a yet again another deadly\nbetween each one to just once again\nmurder your legs\nfirst time I've never actually tried\nthat flavor before and unreal I mean all\nupper body movement to really just help\nyou build up strength however I just I\nalso find really helps just to increase\nthat connection in the Target muscle as\nwhere you want to move your body with\nthe movement I also see so many people\nof my working out week I'll be having\ntwo rest days this week one tomorrow and\nmovements in there and you guys have\nalready seen my leg day warm-ups in this\nthe movement as slow and controlled as\npossible keep it in neutral spine and\nas I usually would if I was training\nquads for example or glutes I was just\nweek goes like that sometimes it's for\nthis sometimes six days sometimes even\nthank you\n[Music]",
+    "text_tokens": 498,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "723a9c316b8595c38c750d601014a002ef9fa2e247f566cd9868cbdcc045540c"
+}

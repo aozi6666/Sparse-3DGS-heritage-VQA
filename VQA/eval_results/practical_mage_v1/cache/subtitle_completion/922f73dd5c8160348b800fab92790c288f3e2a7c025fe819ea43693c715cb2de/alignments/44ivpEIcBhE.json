@@ -1,0 +1,704 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "44ivpEIcBhE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/44ivpEIcBhE.srt",
+        "status": "available",
+        "bytes": 1994,
+        "sha256": "9f5fa9a363a67616c7d5e84d26162b0d0aba19c60163acf805b892b9bf3935ba",
+        "cues": 23,
+        "nonempty_cues": 23
+      },
+      "frame_indices": [
+        0,
+        91,
+        182,
+        272,
+        363,
+        454,
+        545,
+        636,
+        726,
+        817,
+        908,
+        999,
+        1090,
+        1180,
+        1271,
+        1362,
+        1453,
+        1544,
+        1635,
+        1725,
+        1816,
+        1907,
+        1998,
+        2089,
+        2179,
+        2270,
+        2361,
+        2452,
+        2543,
+        2633,
+        2724,
+        2815
+      ],
+      "frame_seconds": [
+        0.0,
+        3.64,
+        7.28,
+        10.88,
+        14.52,
+        18.16,
+        21.8,
+        25.44,
+        29.04,
+        32.68,
+        36.32,
+        39.96,
+        43.6,
+        47.2,
+        50.84,
+        54.48,
+        58.12,
+        61.76,
+        65.4,
+        69.0,
+        72.64,
+        76.28,
+        79.92,
+        83.56,
+        87.16,
+        90.8,
+        94.44,
+        98.08,
+        101.72,
+        105.32,
+        108.96000000000001,
+        112.6
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19
+        ],
+        [
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [],
+        [
+          22
+        ],
+        [],
+        [
+          23
+        ],
+        [
+          23
+        ],
+        [
+          23
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 5920,
+          "end_ms": 13550,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 14360,
+          "end_ms": 21500,
+          "text": "couldn't hold me back"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 17520,
+          "end_ms": 26480,
+          "text": "I'm gonna rip him off"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 21500,
+          "end_ms": 30000,
+          "text": "taking their time around behind my back"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 26480,
+          "end_ms": 34020,
+          "text": "and I'm talking to myself at night"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 30000,
+          "end_ms": 35640,
+          "text": "because I can't fall get"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 35640,
+          "end_ms": 40790,
+          "text": "today"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 36270,
+          "end_ms": 47630,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 40790,
+          "end_ms": 47630,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 50980,
+          "end_ms": 55260,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 56350,
+          "end_ms": 59090,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 59090,
+          "end_ms": 63760,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 60950,
+          "end_ms": 65319,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 63760,
+          "end_ms": 72140,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 65319,
+          "end_ms": 77420,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 72140,
+          "end_ms": 77420,
+          "text": "the mess is coming from my bones"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 77610,
+          "end_ms": 88090,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 85520,
+          "end_ms": 91989,
+          "text": "on you"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 88090,
+          "end_ms": 91989,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 97320,
+          "end_ms": 100320,
+          "text": "again"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 103900,
+          "end_ms": 114289,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "[Music]\ncouldn't hold me back\nI'm gonna rip him off\ntaking their time around behind my back\nand I'm talking to myself at night\nbecause I can't fall get\ntoday\n[Music]\n[Applause]\n[Applause]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]\nthe mess is coming from my bones\n[Applause]\non you\n[Music]\nagain\n[Applause]",
+      "text_tokens": 100,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "44ivpEIcBhE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/44ivpEIcBhE.srt",
+          "status": "available",
+          "bytes": 1994,
+          "sha256": "9f5fa9a363a67616c7d5e84d26162b0d0aba19c60163acf805b892b9bf3935ba",
+          "cues": 23,
+          "nonempty_cues": 23
+        },
+        "frame_indices": [
+          0,
+          91,
+          182,
+          272,
+          363,
+          454,
+          545,
+          636,
+          726,
+          817,
+          908,
+          999,
+          1090,
+          1180,
+          1271,
+          1362,
+          1453,
+          1544,
+          1635,
+          1725,
+          1816,
+          1907,
+          1998,
+          2089,
+          2179,
+          2270,
+          2361,
+          2452,
+          2543,
+          2633,
+          2724,
+          2815
+        ],
+        "frame_seconds": [
+          0.0,
+          3.64,
+          7.28,
+          10.88,
+          14.52,
+          18.16,
+          21.8,
+          25.44,
+          29.04,
+          32.68,
+          36.32,
+          39.96,
+          43.6,
+          47.2,
+          50.84,
+          54.48,
+          58.12,
+          61.76,
+          65.4,
+          69.0,
+          72.64,
+          76.28,
+          79.92,
+          83.56,
+          87.16,
+          90.8,
+          94.44,
+          98.08,
+          101.72,
+          105.32,
+          108.96000000000001,
+          112.6
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19
+          ],
+          [
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [],
+          [
+            22
+          ],
+          [],
+          [
+            23
+          ],
+          [
+            23
+          ],
+          [
+            23
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 5920,
+            "end_ms": 13550,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 14360,
+            "end_ms": 21500,
+            "text": "couldn't hold me back"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 17520,
+            "end_ms": 26480,
+            "text": "I'm gonna rip him off"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 21500,
+            "end_ms": 30000,
+            "text": "taking their time around behind my back"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 26480,
+            "end_ms": 34020,
+            "text": "and I'm talking to myself at night"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 30000,
+            "end_ms": 35640,
+            "text": "because I can't fall get"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 35640,
+            "end_ms": 40790,
+            "text": "today"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 36270,
+            "end_ms": 47630,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 40790,
+            "end_ms": 47630,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 50980,
+            "end_ms": 55260,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 56350,
+            "end_ms": 59090,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 59090,
+            "end_ms": 63760,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 60950,
+            "end_ms": 65319,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 63760,
+            "end_ms": 72140,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 65319,
+            "end_ms": 77420,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 72140,
+            "end_ms": 77420,
+            "text": "the mess is coming from my bones"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 77610,
+            "end_ms": 88090,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 85520,
+            "end_ms": 91989,
+            "text": "on you"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 88090,
+            "end_ms": 91989,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 97320,
+            "end_ms": 100320,
+            "text": "again"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 103900,
+            "end_ms": 114289,
+            "text": "[Applause]"
+          }
+        ],
+        "text": "[Music]\ncouldn't hold me back\nI'm gonna rip him off\ntaking their time around behind my back\nand I'm talking to myself at night\nbecause I can't fall get\ntoday\n[Music]\n[Applause]\n[Applause]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]\nthe mess is coming from my bones\n[Applause]\non you\n[Music]\nagain\n[Applause]",
+        "text_tokens": 100,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 5920,
+          "end_ms": 47630,
+          "text": "[Music] couldn't hold me back I'm gonna rip him off taking their time around behind my back and I'm talking to myself at night because I can't fall get it today [Music] [Applause]"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 50980,
+          "end_ms": 91989,
+          "text": "[Applause] [Music] [Applause] [Music] [Applause] [Music] [Applause] the mess is coming from my bones [Applause] on you [Music]"
+        },
+        {
+          "id": "S22",
+          "cue_ids": [
+            22
+          ],
+          "start_ms": 97320,
+          "end_ms": 100320,
+          "text": "again"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23
+          ],
+          "start_ms": 103900,
+          "end_ms": 114289,
+          "text": "[Applause]"
+        }
+      ],
+      "text": "S1 [00:00:05.920 --> 00:00:47.630] [Music] couldn't hold me back I'm gonna rip him off taking their time around behind my back and I'm talking to myself at night because I can't fall get it today [Music] [Applause]\nS11 [00:00:50.980 --> 00:01:31.989] [Applause] [Music] [Applause] [Music] [Applause] [Music] [Applause] the mess is coming from my bones [Applause] on you [Music]\nS22 [00:01:37.320 --> 00:01:40.320] again\nS23 [00:01:43.900 --> 00:01:54.289] [Applause]",
+      "text_tokens": 221,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        7,
+        13
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f863aec7966022ed93437d730a0f2584c3672f2e4e8e2f54d9c291a8d92905be"
+}

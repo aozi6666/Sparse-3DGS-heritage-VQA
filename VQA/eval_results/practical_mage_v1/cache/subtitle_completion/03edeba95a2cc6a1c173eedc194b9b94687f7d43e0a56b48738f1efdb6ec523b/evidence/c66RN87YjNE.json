@@ -1,0 +1,868 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "c66RN87YjNE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/c66RN87YjNE.srt",
+        "status": "available",
+        "bytes": 14280,
+        "sha256": "7cbaa3afaa1965476842c471672c5ad25d918a1e29547fcb42d9000f69be64a9",
+        "cues": 151,
+        "nonempty_cues": 151
+      },
+      "frame_indices": [
+        0,
+        621,
+        1242,
+        1864,
+        2485,
+        3106,
+        3727,
+        4349,
+        4970,
+        5591,
+        6212,
+        6833,
+        7455,
+        8076,
+        8697,
+        9318,
+        9940,
+        10561,
+        11182,
+        11803,
+        12425,
+        13046,
+        13667,
+        14288,
+        14909,
+        15531,
+        16152,
+        16773,
+        17394,
+        18016,
+        18637,
+        19258
+      ],
+      "frame_seconds": [
+        0.0,
+        20.7,
+        41.4,
+        62.133333,
+        82.833333,
+        103.533333,
+        124.233333,
+        144.966667,
+        165.666667,
+        186.366667,
+        207.066667,
+        227.76666699999998,
+        248.5,
+        269.2,
+        289.9,
+        310.6,
+        331.333333,
+        352.03333299999997,
+        372.733333,
+        393.433333,
+        414.166667,
+        434.866667,
+        455.566667,
+        476.266667,
+        496.96666700000003,
+        517.7,
+        538.4,
+        559.1,
+        579.8,
+        600.533333,
+        621.233333,
+        641.933333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          6,
+          7
+        ],
+        [],
+        [
+          18,
+          19
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          43
+        ],
+        [],
+        [
+          56,
+          57
+        ],
+        [
+          65,
+          66
+        ],
+        [],
+        [],
+        [
+          73,
+          74
+        ],
+        [
+          79
+        ],
+        [
+          86
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          116,
+          117
+        ],
+        [
+          123,
+          124
+        ],
+        [
+          130,
+          131
+        ],
+        [
+          137,
+          138
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          148
+        ],
+        [],
+        [
+          151
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 6,
+          "start_ms": 17119,
+          "end_ms": 22080,
+          "text": "range of his weapons again"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 19680,
+          "end_ms": 24320,
+          "text": "absolutely brilliant there"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 59920,
+          "end_ms": 63680,
+          "text": "this is a clean winner and there's"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 61120,
+          "end_ms": 65840,
+          "text": "nobody there nobody at all that's a"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 164160,
+          "end_ms": 167280,
+          "text": "oh yeah i'll have that"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 204000,
+          "end_ms": 209120,
+          "text": "courtesy of some phenomenal defense and"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 206239,
+          "end_ms": 211280,
+          "text": "it's always best when a mega rally is"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 226000,
+          "end_ms": 230159,
+          "text": "line shot"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 227200,
+          "end_ms": 232640,
+          "text": "oh that's a beauty"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 279900,
+          "end_ms": 290830,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 289520,
+          "end_ms": 291230,
+          "text": "again"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 309360,
+          "end_ms": 312720,
+          "text": "japan yeah in complete control of the"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 329600,
+          "end_ms": 334320,
+          "text": "64 points in three matches in leipzig"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 350159,
+          "end_ms": 354639,
+          "text": "burma over there they'll bring it"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 351680,
+          "end_ms": 356880,
+          "text": "nearside nishida"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 369680,
+          "end_ms": 373680,
+          "text": "everything they could just to keep it"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 371120,
+          "end_ms": 375520,
+          "text": "alive block after block coming in but"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 391199,
+          "end_ms": 396800,
+          "text": "oh"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 392840,
+          "end_ms": 400090,
+          "text": "man sometimes there are no words"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 410159,
+          "end_ms": 415599,
+          "text": "let's see he's right there and then"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 412880,
+          "end_ms": 415599,
+          "text": "start a step"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 432220,
+          "end_ms": 434880,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 433520,
+          "end_ms": 437520,
+          "text": "a couple of big bodies in front of him"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 451599,
+          "end_ms": 457510,
+          "text": "kids"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 454210,
+          "end_ms": 457510,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 148,
+          "start_ms": 598880,
+          "end_ms": 619559,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 151,
+          "start_ms": 640000,
+          "end_ms": 643240,
+          "text": "in country"
+        }
+      ],
+      "text": "range of his weapons again\nabsolutely brilliant there\nthis is a clean winner and there's\nnobody there nobody at all that's a\noh yeah i'll have that\ncourtesy of some phenomenal defense and\nit's always best when a mega rally is\nline shot\noh that's a beauty\n[Music]\nagain\njapan yeah in complete control of the\n64 points in three matches in leipzig\nburma over there they'll bring it\nnearside nishida\neverything they could just to keep it\nalive block after block coming in but\noh\nman sometimes there are no words\nlet's see he's right there and then\nstart a step\n[Music]\na couple of big bodies in front of him\nkids\n[Music]\nforeign\nin country",
+      "text_tokens": 164,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "c66RN87YjNE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/c66RN87YjNE.srt",
+          "status": "available",
+          "bytes": 14280,
+          "sha256": "7cbaa3afaa1965476842c471672c5ad25d918a1e29547fcb42d9000f69be64a9",
+          "cues": 151,
+          "nonempty_cues": 151
+        },
+        "frame_indices": [
+          0,
+          621,
+          1242,
+          1864,
+          2485,
+          3106,
+          3727,
+          4349,
+          4970,
+          5591,
+          6212,
+          6833,
+          7455,
+          8076,
+          8697,
+          9318,
+          9940,
+          10561,
+          11182,
+          11803,
+          12425,
+          13046,
+          13667,
+          14288,
+          14909,
+          15531,
+          16152,
+          16773,
+          17394,
+          18016,
+          18637,
+          19258
+        ],
+        "frame_seconds": [
+          0.0,
+          20.7,
+          41.4,
+          62.133333,
+          82.833333,
+          103.533333,
+          124.233333,
+          144.966667,
+          165.666667,
+          186.366667,
+          207.066667,
+          227.76666699999998,
+          248.5,
+          269.2,
+          289.9,
+          310.6,
+          331.333333,
+          352.03333299999997,
+          372.733333,
+          393.433333,
+          414.166667,
+          434.866667,
+          455.566667,
+          476.266667,
+          496.96666700000003,
+          517.7,
+          538.4,
+          559.1,
+          579.8,
+          600.533333,
+          621.233333,
+          641.933333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            6,
+            7
+          ],
+          [],
+          [
+            18,
+            19
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            43
+          ],
+          [],
+          [
+            56,
+            57
+          ],
+          [
+            65,
+            66
+          ],
+          [],
+          [],
+          [
+            73,
+            74
+          ],
+          [
+            79
+          ],
+          [
+            86
+          ],
+          [
+            96,
+            97
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            116,
+            117
+          ],
+          [
+            123,
+            124
+          ],
+          [
+            130,
+            131
+          ],
+          [
+            137,
+            138
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            148
+          ],
+          [],
+          [
+            151
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 6,
+            "start_ms": 17119,
+            "end_ms": 22080,
+            "text": "range of his weapons again"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 19680,
+            "end_ms": 24320,
+            "text": "absolutely brilliant there"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 59920,
+            "end_ms": 63680,
+            "text": "this is a clean winner and there's"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 61120,
+            "end_ms": 65840,
+            "text": "nobody there nobody at all that's a"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 164160,
+            "end_ms": 167280,
+            "text": "oh yeah i'll have that"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 204000,
+            "end_ms": 209120,
+            "text": "courtesy of some phenomenal defense and"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 206239,
+            "end_ms": 211280,
+            "text": "it's always best when a mega rally is"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 226000,
+            "end_ms": 230159,
+            "text": "line shot"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 227200,
+            "end_ms": 232640,
+            "text": "oh that's a beauty"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 279900,
+            "end_ms": 290830,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 289520,
+            "end_ms": 291230,
+            "text": "again"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 309360,
+            "end_ms": 312720,
+            "text": "japan yeah in complete control of the"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 329600,
+            "end_ms": 334320,
+            "text": "64 points in three matches in leipzig"
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 350159,
+            "end_ms": 354639,
+            "text": "burma over there they'll bring it"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 351680,
+            "end_ms": 356880,
+            "text": "nearside nishida"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 369680,
+            "end_ms": 373680,
+            "text": "everything they could just to keep it"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 371120,
+            "end_ms": 375520,
+            "text": "alive block after block coming in but"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 391199,
+            "end_ms": 396800,
+            "text": "oh"
+          },
+          {
+            "cue_id": 117,
+            "start_ms": 392840,
+            "end_ms": 400090,
+            "text": "man sometimes there are no words"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 410159,
+            "end_ms": 415599,
+            "text": "let's see he's right there and then"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 412880,
+            "end_ms": 415599,
+            "text": "start a step"
+          },
+          {
+            "cue_id": 130,
+            "start_ms": 432220,
+            "end_ms": 434880,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 433520,
+            "end_ms": 437520,
+            "text": "a couple of big bodies in front of him"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 451599,
+            "end_ms": 457510,
+            "text": "kids"
+          },
+          {
+            "cue_id": 138,
+            "start_ms": 454210,
+            "end_ms": 457510,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 148,
+            "start_ms": 598880,
+            "end_ms": 619559,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 151,
+            "start_ms": 640000,
+            "end_ms": 643240,
+            "text": "in country"
+          }
+        ],
+        "text": "range of his weapons again\nabsolutely brilliant there\nthis is a clean winner and there's\nnobody there nobody at all that's a\noh yeah i'll have that\ncourtesy of some phenomenal defense and\nit's always best when a mega rally is\nline shot\noh that's a beauty\n[Music]\nagain\njapan yeah in complete control of the\n64 points in three matches in leipzig\nburma over there they'll bring it\nnearside nishida\neverything they could just to keep it\nalive block after block coming in but\noh\nman sometimes there are no words\nlet's see he's right there and then\nstart a step\n[Music]\na couple of big bodies in front of him\nkids\n[Music]\nforeign\nin country",
+        "text_tokens": 164,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S5",
+          "cue_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_ms": 15360,
+          "end_ms": 25920,
+          "text": "he's showing it full range of his weapons again absolutely brilliant there defended as if their lives depended on"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 57600,
+          "end_ms": 67070,
+          "text": "unless you've got a blocker in place this is a clean winner and there's nobody there nobody at all that's a breakdown defensively for iran"
+        },
+        {
+          "id": "S43",
+          "cue_ids": [
+            43,
+            44
+          ],
+          "start_ms": 164160,
+          "end_ms": 172720,
+          "text": "oh yeah i'll have that no careful approach set up play needed"
+        },
+        {
+          "id": "S55",
+          "cue_ids": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "start_ms": 201920,
+          "end_ms": 215440,
+          "text": "mega rally developing then courtesy of some phenomenal defense and it's always best when a mega rally is finished with something special"
+        },
+        {
+          "id": "S64",
+          "cue_ids": [
+            64,
+            65,
+            66,
+            67
+          ],
+          "start_ms": 223760,
+          "end_ms": 235040,
+          "text": "and then this finish what's a wonderful line shot oh that's a beauty percentage"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 277600,
+          "end_ms": 294519,
+          "text": "absolutely [Music] again [Music]"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80
+          ],
+          "start_ms": 309360,
+          "end_ms": 314960,
+          "text": "japan yeah in complete control of the set again"
+        },
+        {
+          "id": "S86",
+          "cue_ids": [
+            86,
+            87
+          ],
+          "start_ms": 329600,
+          "end_ms": 336159,
+          "text": "64 points in three matches in leipzig it's been a very very productive"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "start_ms": 348159,
+          "end_ms": 359199,
+          "text": "denied again that's brilliant stuff from burma over there they'll bring it nearside nishida somehow it's kept alive brilliant from"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106
+          ],
+          "start_ms": 367520,
+          "end_ms": 376800,
+          "text": "they did everything everything they could just to keep it alive block after block coming in but they could never get control of that"
+        },
+        {
+          "id": "S115",
+          "cue_ids": [
+            115,
+            116,
+            117,
+            118
+          ],
+          "start_ms": 389360,
+          "end_ms": 402880,
+          "text": "well oh man sometimes there are no words that was one of those times nasheeda"
+        },
+        {
+          "id": "S122",
+          "cue_ids": [
+            122,
+            123,
+            124
+          ],
+          "start_ms": 406960,
+          "end_ms": 415599,
+          "text": "first tempo let's see he's right there and then start a step"
+        },
+        {
+          "id": "S129",
+          "cue_ids": [
+            129,
+            130,
+            131,
+            132
+          ],
+          "start_ms": 430400,
+          "end_ms": 439930,
+          "text": "powering through there [Music] a couple of big bodies in front of him there leona lucarelli"
+        },
+        {
+          "id": "S136",
+          "cue_ids": [
+            136,
+            137,
+            138
+          ],
+          "start_ms": 446830,
+          "end_ms": 457510,
+          "text": "[Music] kids [Music]"
+        },
+        {
+          "id": "S148",
+          "cue_ids": [
+            148,
+            149
+          ],
+          "start_ms": 598880,
+          "end_ms": 619559,
+          "text": "foreign [Music]"
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151
+          ],
+          "start_ms": 640000,
+          "end_ms": 643240,
+          "text": "in country"
+        }
+      ],
+      "text": "S5 [00:00:15.360 --> 00:00:25.920] he's showing it full range of his weapons again absolutely brilliant there defended as if their lives depended on\nS17 [00:00:57.600 --> 00:01:07.070] unless you've got a blocker in place this is a clean winner and there's nobody there nobody at all that's a breakdown defensively for iran\nS43 [00:02:44.160 --> 00:02:52.720] oh yeah i'll have that no careful approach set up play needed\nS55 [00:03:21.920 --> 00:03:35.440] mega rally developing then courtesy of some phenomenal defense and it's always best when a mega rally is finished with something special\nS64 [00:03:43.760 --> 00:03:55.040] and then this finish what's a wonderful line shot oh that's a beauty percentage\nS72 [00:04:37.600 --> 00:04:54.519] absolutely [Music] again [Music]\nS79 [00:05:09.360 --> 00:05:14.960] japan yeah in complete control of the set again\nS86 [00:05:29.600 --> 00:05:36.159] 64 points in three matches in leipzig it's been a very very productive\nS95 [00:05:48.159 --> 00:05:59.199] denied again that's brilliant stuff from burma over there they'll bring it nearside nishida somehow it's kept alive brilliant from\nS103 [00:06:07.520 --> 00:06:16.800] they did everything everything they could just to keep it alive block after block coming in but they could never get control of that\nS115 [00:06:29.360 --> 00:06:42.880] well oh man sometimes there are no words that was one of those times nasheeda\nS122 [00:06:46.960 --> 00:06:55.599] first tempo let's see he's right there and then start a step\nS129 [00:07:10.400 --> 00:07:19.930] powering through there [Music] a couple of big bodies in front of him there leona lucarelli\nS136 [00:07:26.830 --> 00:07:37.510] [Music] kids [Music]\nS148 [00:09:58.880 --> 00:10:19.559] foreign [Music]\nS151 [00:10:40.000 --> 00:10:43.240] in country",
+      "text_tokens": 765,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        5,
+        8,
+        17,
+        20,
+        44,
+        55,
+        58,
+        64,
+        67,
+        72,
+        75,
+        80,
+        87,
+        95,
+        98,
+        103,
+        106,
+        115,
+        118,
+        122,
+        129,
+        132,
+        136,
+        149
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "a9939b872d528d2e2e61e28e1551087c2681e435dfb9ceca6ac3a4f1ba515eee"
+}

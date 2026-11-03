@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "09d4216a3057f48473be8ae2bde6cc301af08e3a3d08ce20c2cfdae77ce6051d",
+  "response": {
+    "id": "64df5ba5-93b4-468d-8872-b60fca1b4ac1",
+    "object": "chat.completion",
+    "created": 1793675812,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[\"F9682\",\"F10070\",\"F11619\"],\"windows\":[],\"notes\":\"Frames show a crowned dragon/monster and the hero, but no supplied subtitle or frame establishes why the hero takes the last monster back; none of the option reasons is directly evidenced.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7711,
+      "completion_tokens": 87,
+      "total_tokens": 7798,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7583
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.4761614706367254
+}

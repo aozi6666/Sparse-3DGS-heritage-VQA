@@ -1,0 +1,509 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "39HTpUG1MwQ",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/39HTpUG1MwQ.srt",
+        "status": "available",
+        "bytes": 1898,
+        "sha256": "3b0250e7a0945f4dc7e663560574ce6a449fb1c99414f17c22bfab97c49f02ea",
+        "cues": 11,
+        "nonempty_cues": 11
+      },
+      "frame_indices": [
+        0,
+        83,
+        165,
+        248,
+        330,
+        413,
+        495,
+        578,
+        661,
+        743,
+        826,
+        908,
+        991,
+        1074,
+        1156,
+        1239,
+        1321,
+        1404,
+        1486,
+        1569,
+        1652,
+        1734,
+        1817,
+        1899,
+        1982,
+        2065,
+        2147,
+        2230,
+        2312,
+        2395,
+        2477,
+        2560
+      ],
+      "frame_seconds": [
+        0.0,
+        3.32,
+        6.6,
+        9.92,
+        13.2,
+        16.52,
+        19.8,
+        23.12,
+        26.44,
+        29.72,
+        33.04,
+        36.32,
+        39.64,
+        42.96,
+        46.24,
+        49.56,
+        52.84,
+        56.16,
+        59.44,
+        62.76,
+        66.08,
+        69.36,
+        72.68,
+        75.96000000000001,
+        79.28,
+        82.6,
+        85.88,
+        89.2,
+        92.47999999999999,
+        95.8,
+        99.08,
+        102.4
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 7540,
+          "end_ms": 15190,
+          "text": "Our body is made up of trillions of cells. They all require energy to function. This energy is"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 15190,
+          "end_ms": 21520,
+          "text": "created within ourselves, in the mitochondria. Here, food is converted into chemical energy"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 21520,
+          "end_ms": 31870,
+          "text": "called ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 31870,
+          "end_ms": 38740,
+          "text": "membranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 38740,
+          "end_ms": 48250,
+          "text": "the so called matrix. The area between these membranes is called the inter membrane space. ATP"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 48250,
+          "end_ms": 54460,
+          "text": "is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 54460,
+          "end_ms": 65590,
+          "text": "phosphorylation, involving several membrane protein complexes. Nutrients provide high-energy"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 65590,
+          "end_ms": 72490,
+          "text": "electrons in the form of NADH, which are used by the protein complexes to pump protons from the"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 72490,
+          "end_ms": 80890,
+          "text": "matrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 80890,
+          "end_ms": 89170,
+          "text": "positively charged protons are attracted to the more negative matrix. When the protons re-enter"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 89170,
+          "end_ms": 94660,
+          "text": "the matrix through the ATP synthase protein complex, they catalyze the production of ATP."
+        }
+      ],
+      "text": "Our body is made up of trillions of cells. They all require energy to function. This energy is\ncreated within ourselves, in the mitochondria. Here, food is converted into chemical energy\ncalled ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two\nmembranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding\nthe so called matrix. The area between these membranes is called the inter membrane space. ATP\nis generated at the inner membrane of mitochondria by an efficient mechanism called oxidative\nphosphorylation, involving several membrane protein complexes. Nutrients provide high-energy\nelectrons in the form of NADH, which are used by the protein complexes to pump protons from the\nmatrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the\npositively charged protons are attracted to the more negative matrix. When the protons re-enter\nthe matrix through the ATP synthase protein complex, they catalyze the production of ATP.",
+      "text_tokens": 220,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "39HTpUG1MwQ",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/39HTpUG1MwQ.srt",
+          "status": "available",
+          "bytes": 1898,
+          "sha256": "3b0250e7a0945f4dc7e663560574ce6a449fb1c99414f17c22bfab97c49f02ea",
+          "cues": 11,
+          "nonempty_cues": 11
+        },
+        "frame_indices": [
+          0,
+          83,
+          165,
+          248,
+          330,
+          413,
+          495,
+          578,
+          661,
+          743,
+          826,
+          908,
+          991,
+          1074,
+          1156,
+          1239,
+          1321,
+          1404,
+          1486,
+          1569,
+          1652,
+          1734,
+          1817,
+          1899,
+          1982,
+          2065,
+          2147,
+          2230,
+          2312,
+          2395,
+          2477,
+          2560
+        ],
+        "frame_seconds": [
+          0.0,
+          3.32,
+          6.6,
+          9.92,
+          13.2,
+          16.52,
+          19.8,
+          23.12,
+          26.44,
+          29.72,
+          33.04,
+          36.32,
+          39.64,
+          42.96,
+          46.24,
+          49.56,
+          52.84,
+          56.16,
+          59.44,
+          62.76,
+          66.08,
+          69.36,
+          72.68,
+          75.96000000000001,
+          79.28,
+          82.6,
+          85.88,
+          89.2,
+          92.47999999999999,
+          95.8,
+          99.08,
+          102.4
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            5
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 7540,
+            "end_ms": 15190,
+            "text": "Our body is made up of trillions of cells. They all require energy to function. This energy is"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 15190,
+            "end_ms": 21520,
+            "text": "created within ourselves, in the mitochondria. Here, food is converted into chemical energy"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 21520,
+            "end_ms": 31870,
+            "text": "called ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 31870,
+            "end_ms": 38740,
+            "text": "membranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 38740,
+            "end_ms": 48250,
+            "text": "the so called matrix. The area between these membranes is called the inter membrane space. ATP"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 48250,
+            "end_ms": 54460,
+            "text": "is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 54460,
+            "end_ms": 65590,
+            "text": "phosphorylation, involving several membrane protein complexes. Nutrients provide high-energy"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 65590,
+            "end_ms": 72490,
+            "text": "electrons in the form of NADH, which are used by the protein complexes to pump protons from the"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 72490,
+            "end_ms": 80890,
+            "text": "matrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 80890,
+            "end_ms": 89170,
+            "text": "positively charged protons are attracted to the more negative matrix. When the protons re-enter"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 89170,
+            "end_ms": 94660,
+            "text": "the matrix through the ATP synthase protein complex, they catalyze the production of ATP."
+          }
+        ],
+        "text": "Our body is made up of trillions of cells. They all require energy to function. This energy is\ncreated within ourselves, in the mitochondria. Here, food is converted into chemical energy\ncalled ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two\nmembranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding\nthe so called matrix. The area between these membranes is called the inter membrane space. ATP\nis generated at the inner membrane of mitochondria by an efficient mechanism called oxidative\nphosphorylation, involving several membrane protein complexes. Nutrients provide high-energy\nelectrons in the form of NADH, which are used by the protein complexes to pump protons from the\nmatrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the\npositively charged protons are attracted to the more negative matrix. When the protons re-enter\nthe matrix through the ATP synthase protein complex, they catalyze the production of ATP.",
+        "text_tokens": 220,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 7540,
+          "end_ms": 94660,
+          "text": "Our body is made up of trillions of cells. They all require energy to function. This energy is created within ourselves, in the mitochondria. Here, food is converted into chemical energy called ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two membranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding the so called matrix. The area between these membranes is called the inter membrane space. ATP is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative phosphorylation, involving several membrane protein complexes. Nutrients provide high-energy electrons in the form of NADH, which are used by the protein complexes to pump protons from the matrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the positively charged protons are attracted to the more negative matrix. When the protons re-enter the matrix through the ATP synthase protein complex, they catalyze the production of ATP."
+        }
+      ],
+      "text": "S1 [00:00:07.540 --> 00:01:34.660] Our body is made up of trillions of cells. They all require energy to function. This energy is created within ourselves, in the mitochondria. Here, food is converted into chemical energy called ATP. ATP is released by the mitochondria, so cells can use it. Mitochondria consists of two membranes, an outer membrane separating it from the cytosol, and an inner membrane surrounding the so called matrix. The area between these membranes is called the inter membrane space. ATP is generated at the inner membrane of mitochondria by an efficient mechanism called oxidative phosphorylation, involving several membrane protein complexes. Nutrients provide high-energy electrons in the form of NADH, which are used by the protein complexes to pump protons from the matrix to the intermembrane space. This continuous pumping, creates a proton gradient, where the positively charged protons are attracted to the more negative matrix. When the protons re-enter the matrix through the ATP synthase protein complex, they catalyze the production of ATP.",
+      "text_tokens": 234,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "495beed5b0b942c08c9072c21a1500d4e4299821dafd11ba664765eaa594e737"
+}

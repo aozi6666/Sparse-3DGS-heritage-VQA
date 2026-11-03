@@ -1,0 +1,716 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "drbi6HK1gSc",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/drbi6HK1gSc.srt",
+        "status": "available",
+        "bytes": 2143,
+        "sha256": "dea01bd524265d1987c8061e2e16291314913a427f2582cecfa3afdc018f75b8",
+        "cues": 22,
+        "nonempty_cues": 22
+      },
+      "frame_indices": [
+        0,
+        63,
+        127,
+        190,
+        254,
+        317,
+        381,
+        444,
+        508,
+        571,
+        635,
+        698,
+        762,
+        825,
+        889,
+        952,
+        1016,
+        1079,
+        1143,
+        1206,
+        1270,
+        1333,
+        1397,
+        1460,
+        1524,
+        1587,
+        1651,
+        1714,
+        1778,
+        1841,
+        1905,
+        1968
+      ],
+      "frame_seconds": [
+        0.0,
+        2.625,
+        5.291667,
+        7.916667,
+        10.583333,
+        13.208333,
+        15.875,
+        18.5,
+        21.166667,
+        23.791667,
+        26.458333,
+        29.083333,
+        31.75,
+        34.375,
+        37.041667,
+        39.666667,
+        42.333333,
+        44.958333,
+        47.625,
+        50.25,
+        52.916667,
+        55.541667,
+        58.208333,
+        60.833333,
+        63.5,
+        66.125,
+        68.791667,
+        71.416667,
+        74.083333,
+        76.708333,
+        79.375,
+        82.0
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [],
+        [],
+        [],
+        [
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 1120,
+          "end_ms": 7040,
+          "text": "can't the future just wait"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 4240,
+          "end_ms": 9920,
+          "text": "can't the deadlines come fashionably"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7040,
+          "end_ms": 13200,
+          "text": "late i could push every goal back"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9920,
+          "end_ms": 17039,
+          "text": "take control back if they'd roll back"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13200,
+          "end_ms": 20240,
+          "text": "the rate at which time starts to fly"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 17039,
+          "end_ms": 23519,
+          "text": "never landing or standing by"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 20240,
+          "end_ms": 27039,
+          "text": "never taking a break"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 23519,
+          "end_ms": 31840,
+          "text": "ever making me retry"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 27039,
+          "end_ms": 31840,
+          "text": "we nickel and dime every quarter to two"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 32640,
+          "end_ms": 36250,
+          "text": "but maybe it's time to let time pass"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 35680,
+          "end_ms": 40559,
+          "text": "through"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 36250,
+          "end_ms": 43180,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 40559,
+          "end_ms": 48320,
+          "text": "if the future is bright"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 43180,
+          "end_ms": 48320,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 57280,
+          "end_ms": 62960,
+          "text": "but it's clear back there what's ahead"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 60559,
+          "end_ms": 66479,
+          "text": "no one knows"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 62960,
+          "end_ms": 70840,
+          "text": "but it's closing in we swear"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 66479,
+          "end_ms": 72159,
+          "text": "still not in my prime i have so much to"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 70840,
+          "end_ms": 77119,
+          "text": "do"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 72159,
+          "end_ms": 77119,
+          "text": "but maybe it's time to let time pass"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 77800,
+          "end_ms": 83840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 80840,
+          "end_ms": 83840,
+          "text": "through"
+        }
+      ],
+      "text": "can't the future just wait\ncan't the deadlines come fashionably\nlate i could push every goal back\ntake control back if they'd roll back\nthe rate at which time starts to fly\nnever landing or standing by\nnever taking a break\never making me retry\nwe nickel and dime every quarter to two\nbut maybe it's time to let time pass\nthrough\n[Music]\nif the future is bright\n[Music]\nbut it's clear back there what's ahead\nno one knows\nbut it's closing in we swear\nstill not in my prime i have so much to\ndo\nbut maybe it's time to let time pass\n[Music]\nthrough",
+      "text_tokens": 139,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "drbi6HK1gSc",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/drbi6HK1gSc.srt",
+          "status": "available",
+          "bytes": 2143,
+          "sha256": "dea01bd524265d1987c8061e2e16291314913a427f2582cecfa3afdc018f75b8",
+          "cues": 22,
+          "nonempty_cues": 22
+        },
+        "frame_indices": [
+          0,
+          63,
+          127,
+          190,
+          254,
+          317,
+          381,
+          444,
+          508,
+          571,
+          635,
+          698,
+          762,
+          825,
+          889,
+          952,
+          1016,
+          1079,
+          1143,
+          1206,
+          1270,
+          1333,
+          1397,
+          1460,
+          1524,
+          1587,
+          1651,
+          1714,
+          1778,
+          1841,
+          1905,
+          1968
+        ],
+        "frame_seconds": [
+          0.0,
+          2.625,
+          5.291667,
+          7.916667,
+          10.583333,
+          13.208333,
+          15.875,
+          18.5,
+          21.166667,
+          23.791667,
+          26.458333,
+          29.083333,
+          31.75,
+          34.375,
+          37.041667,
+          39.666667,
+          42.333333,
+          44.958333,
+          47.625,
+          50.25,
+          52.916667,
+          55.541667,
+          58.208333,
+          60.833333,
+          63.5,
+          66.125,
+          68.791667,
+          71.416667,
+          74.083333,
+          76.708333,
+          79.375,
+          82.0
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            13,
+            14
+          ],
+          [],
+          [],
+          [],
+          [
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21
+          ],
+          [
+            21,
+            22
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 1120,
+            "end_ms": 7040,
+            "text": "can't the future just wait"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 4240,
+            "end_ms": 9920,
+            "text": "can't the deadlines come fashionably"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7040,
+            "end_ms": 13200,
+            "text": "late i could push every goal back"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9920,
+            "end_ms": 17039,
+            "text": "take control back if they'd roll back"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 13200,
+            "end_ms": 20240,
+            "text": "the rate at which time starts to fly"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 17039,
+            "end_ms": 23519,
+            "text": "never landing or standing by"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 20240,
+            "end_ms": 27039,
+            "text": "never taking a break"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 23519,
+            "end_ms": 31840,
+            "text": "ever making me retry"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 27039,
+            "end_ms": 31840,
+            "text": "we nickel and dime every quarter to two"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 32640,
+            "end_ms": 36250,
+            "text": "but maybe it's time to let time pass"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 35680,
+            "end_ms": 40559,
+            "text": "through"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 36250,
+            "end_ms": 43180,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 40559,
+            "end_ms": 48320,
+            "text": "if the future is bright"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 43180,
+            "end_ms": 48320,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 57280,
+            "end_ms": 62960,
+            "text": "but it's clear back there what's ahead"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 60559,
+            "end_ms": 66479,
+            "text": "no one knows"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 62960,
+            "end_ms": 70840,
+            "text": "but it's closing in we swear"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 66479,
+            "end_ms": 72159,
+            "text": "still not in my prime i have so much to"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 70840,
+            "end_ms": 77119,
+            "text": "do"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 72159,
+            "end_ms": 77119,
+            "text": "but maybe it's time to let time pass"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 77800,
+            "end_ms": 83840,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 80840,
+            "end_ms": 83840,
+            "text": "through"
+          }
+        ],
+        "text": "can't the future just wait\ncan't the deadlines come fashionably\nlate i could push every goal back\ntake control back if they'd roll back\nthe rate at which time starts to fly\nnever landing or standing by\nnever taking a break\never making me retry\nwe nickel and dime every quarter to two\nbut maybe it's time to let time pass\nthrough\n[Music]\nif the future is bright\n[Music]\nbut it's clear back there what's ahead\nno one knows\nbut it's closing in we swear\nstill not in my prime i have so much to\ndo\nbut maybe it's time to let time pass\n[Music]\nthrough",
+        "text_tokens": 139,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "start_ms": 1120,
+          "end_ms": 48320,
+          "text": "can't the future just wait can't the deadlines come fashionably late i could push every goal back take control back if they'd roll back the rate at which time starts to fly never landing or standing by never taking a break ever making me retry we nickel and dime every quarter to two but maybe it's time to let time pass through [Music] if the future is bright [Music]"
+        },
+        {
+          "id": "S15",
+          "cue_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 57280,
+          "end_ms": 83840,
+          "text": "but it's clear back there what's ahead no one knows but it's closing in we swear still not in my prime i have so much to do but maybe it's time to let time pass [Music] through"
+        }
+      ],
+      "text": "S1 [00:00:01.120 --> 00:00:48.320] can't the future just wait can't the deadlines come fashionably late i could push every goal back take control back if they'd roll back the rate at which time starts to fly never landing or standing by never taking a break ever making me retry we nickel and dime every quarter to two but maybe it's time to let time pass through [Music] if the future is bright [Music]\nS15 [00:00:57.280 --> 00:01:23.840] but it's clear back there what's ahead no one knows but it's closing in we swear still not in my prime i have so much to do but maybe it's time to let time pass [Music] through",
+      "text_tokens": 182,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "f594d72ffbce5230a9f83b18f4062b9211cf0fadccb26b16c8fe3c7763b1d5dd"
+}

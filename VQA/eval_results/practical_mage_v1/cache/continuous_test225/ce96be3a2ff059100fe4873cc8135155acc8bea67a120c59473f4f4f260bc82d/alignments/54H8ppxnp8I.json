@@ -1,0 +1,1617 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "54H8ppxnp8I",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54H8ppxnp8I.srt",
+        "status": "available",
+        "bytes": 96609,
+        "sha256": "bd5e8940c15df7748c38a8273711885f04cb9968d413069ec91fd5fae374a5b9",
+        "cues": 874,
+        "nonempty_cues": 874
+      },
+      "frame_indices": [
+        0,
+        1648,
+        3295,
+        4943,
+        6590,
+        8238,
+        9885,
+        11533,
+        13180,
+        14828,
+        16475,
+        18123,
+        19770,
+        21418,
+        23065,
+        24713,
+        26360,
+        28008,
+        29655,
+        31303,
+        32950,
+        34598,
+        36245,
+        37893,
+        39540,
+        41188,
+        42835,
+        44483,
+        46130,
+        47778,
+        49425,
+        51073
+      ],
+      "frame_seconds": [
+        0.0,
+        68.666667,
+        137.291667,
+        205.958333,
+        274.583333,
+        343.25,
+        411.875,
+        480.541667,
+        549.166667,
+        617.833333,
+        686.458333,
+        755.125,
+        823.75,
+        892.416667,
+        961.041667,
+        1029.708333,
+        1098.333333,
+        1167.0,
+        1235.625,
+        1304.291667,
+        1372.916667,
+        1441.583333,
+        1510.208333,
+        1578.875,
+        1647.5,
+        1716.166667,
+        1784.791667,
+        1853.458333,
+        1922.083333,
+        1990.75,
+        2059.375,
+        2128.041667
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          29,
+          30
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          142,
+          143
+        ],
+        [
+          172,
+          173
+        ],
+        [
+          202,
+          203
+        ],
+        [
+          235,
+          236
+        ],
+        [
+          267,
+          268
+        ],
+        [
+          293,
+          294
+        ],
+        [
+          316,
+          317
+        ],
+        [
+          342,
+          343
+        ],
+        [
+          368,
+          369
+        ],
+        [
+          400,
+          401
+        ],
+        [
+          436,
+          437
+        ],
+        [
+          467,
+          468
+        ],
+        [
+          495,
+          496
+        ],
+        [
+          528,
+          529
+        ],
+        [
+          553,
+          554
+        ],
+        [
+          575,
+          576
+        ],
+        [
+          603,
+          604
+        ],
+        [
+          624,
+          625
+        ],
+        [
+          650,
+          651
+        ],
+        [
+          676,
+          677
+        ],
+        [
+          708,
+          709
+        ],
+        [
+          734,
+          735
+        ],
+        [
+          758,
+          759
+        ],
+        [
+          783,
+          784
+        ],
+        [
+          814,
+          815
+        ],
+        [
+          842,
+          843
+        ],
+        [
+          873,
+          874
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 29,
+          "start_ms": 65720,
+          "end_ms": 69720,
+          "text": "who think there's a lot more going on"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 67320,
+          "end_ms": 72600,
+          "text": "the men who are struggling who can't get"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 133440,
+          "end_ms": 139720,
+          "text": "topics like gender boys and girls have"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 136640,
+          "end_ms": 142879,
+          "text": "very different opinions so what's going"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 201599,
+          "end_ms": 208360,
+          "text": "so do you also see this divide in your"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 205239,
+          "end_ms": 211840,
+          "text": "day-to-day job yes there there's"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 267840,
+          "end_ms": 275240,
+          "text": "think is the most common reaction you"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 270160,
+          "end_ms": 277680,
+          "text": "might get men's issues really yes well"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 341120,
+          "end_ms": 345360,
+          "text": "absolutely I think this is a really"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 342759,
+          "end_ms": 347639,
+          "text": "critical issue many people feel that"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 408680,
+          "end_ms": 413680,
+          "text": "education because some of the findings"
+        },
+        {
+          "cue_id": 173,
+          "start_ms": 410919,
+          "end_ms": 416800,
+          "text": "you have there are mindboggling boys and"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 477960,
+          "end_ms": 483360,
+          "text": "essentially why is there is"
+        },
+        {
+          "cue_id": 203,
+          "start_ms": 480440,
+          "end_ms": 486159,
+          "text": "happening I think one big reason is that"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 545480,
+          "end_ms": 549320,
+          "text": "even though wages are rising it's much"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 547360,
+          "end_ms": 551399,
+          "text": "much harder for young people to buy a"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 615920,
+          "end_ms": 620120,
+          "text": "absolutely"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 616959,
+          "end_ms": 622760,
+          "text": "better so we covered education we"
+        },
+        {
+          "cue_id": 293,
+          "start_ms": 681519,
+          "end_ms": 686839,
+          "text": "not clear to them that they are needed"
+        },
+        {
+          "cue_id": 294,
+          "start_ms": 684440,
+          "end_ms": 689040,
+          "text": "you know do their kids need them does"
+        },
+        {
+          "cue_id": 316,
+          "start_ms": 749199,
+          "end_ms": 756800,
+          "text": "diagnose and fix cars with their bare"
+        },
+        {
+          "cue_id": 317,
+          "start_ms": 753160,
+          "end_ms": 759800,
+          "text": "hands uh I I don't have those abilities"
+        },
+        {
+          "cue_id": 342,
+          "start_ms": 820880,
+          "end_ms": 825480,
+          "text": "stand to"
+        },
+        {
+          "cue_id": 343,
+          "start_ms": 822320,
+          "end_ms": 829320,
+          "text": "gain um so sure you men are no longer"
+        },
+        {
+          "cue_id": 368,
+          "start_ms": 887959,
+          "end_ms": 893680,
+          "text": "that sense of strife and the and one of"
+        },
+        {
+          "cue_id": 369,
+          "start_ms": 890680,
+          "end_ms": 895519,
+          "text": "the biggest blowbacks to inability to"
+        },
+        {
+          "cue_id": 400,
+          "start_ms": 957959,
+          "end_ms": 961800,
+          "text": "employment for workingclass men but in"
+        },
+        {
+          "cue_id": 401,
+          "start_ms": 960160,
+          "end_ms": 963639,
+          "text": "the US in particular there also issue"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1027480,
+          "end_ms": 1031000,
+          "text": "life right it's structural there are"
+        },
+        {
+          "cue_id": 437,
+          "start_ms": 1029559,
+          "end_ms": 1032839,
+          "text": "structural barriers to women's"
+        },
+        {
+          "cue_id": 467,
+          "start_ms": 1095799,
+          "end_ms": 1099880,
+          "text": "upper middle class men who are super"
+        },
+        {
+          "cue_id": 468,
+          "start_ms": 1097960,
+          "end_ms": 1101200,
+          "text": "feminist much more lik to be feminists"
+        },
+        {
+          "cue_id": 495,
+          "start_ms": 1162440,
+          "end_ms": 1167559,
+          "text": "goods and gains for you come at my"
+        },
+        {
+          "cue_id": 496,
+          "start_ms": 1165200,
+          "end_ms": 1169120,
+          "text": "expense well I think that the danger of"
+        },
+        {
+          "cue_id": 528,
+          "start_ms": 1230480,
+          "end_ms": 1236480,
+          "text": "a misogynist reactionary right or do we"
+        },
+        {
+          "cue_id": 529,
+          "start_ms": 1233840,
+          "end_ms": 1237720,
+          "text": "say look that's a tough change no"
+        },
+        {
+          "cue_id": 553,
+          "start_ms": 1299400,
+          "end_ms": 1308159,
+          "text": "what makes femininity toxic is"
+        },
+        {
+          "cue_id": 554,
+          "start_ms": 1302840,
+          "end_ms": 1310000,
+          "text": "prescribing um just one way one role to"
+        },
+        {
+          "cue_id": 575,
+          "start_ms": 1369400,
+          "end_ms": 1374640,
+          "text": "has become increasingly negative we're"
+        },
+        {
+          "cue_id": 576,
+          "start_ms": 1371840,
+          "end_ms": 1376760,
+          "text": "also spending more time on our phones"
+        },
+        {
+          "cue_id": 603,
+          "start_ms": 1440240,
+          "end_ms": 1443159,
+          "text": "because of the economic resentment"
+        },
+        {
+          "cue_id": 604,
+          "start_ms": 1441559,
+          "end_ms": 1445840,
+          "text": "because of the zeros some mentalities"
+        },
+        {
+          "cue_id": 624,
+          "start_ms": 1503000,
+          "end_ms": 1512320,
+          "text": "who feel that he uh he is not just um"
+        },
+        {
+          "cue_id": 625,
+          "start_ms": 1508760,
+          "end_ms": 1517120,
+          "text": "important but profound in some"
+        },
+        {
+          "cue_id": 650,
+          "start_ms": 1574799,
+          "end_ms": 1579559,
+          "text": "they're finding a market is"
+        },
+        {
+          "cue_id": 651,
+          "start_ms": 1576679,
+          "end_ms": 1582279,
+          "text": "because there are a lot of questions"
+        },
+        {
+          "cue_id": 676,
+          "start_ms": 1644000,
+          "end_ms": 1649200,
+          "text": "say well you know he he does this one"
+        },
+        {
+          "cue_id": 677,
+          "start_ms": 1647080,
+          "end_ms": 1651520,
+          "text": "thing well there's nobody who is there"
+        },
+        {
+          "cue_id": 708,
+          "start_ms": 1712279,
+          "end_ms": 1716519,
+          "text": "say that the government and other"
+        },
+        {
+          "cue_id": 709,
+          "start_ms": 1714640,
+          "end_ms": 1719679,
+          "text": "institutions aren't paying enough"
+        },
+        {
+          "cue_id": 734,
+          "start_ms": 1780240,
+          "end_ms": 1787679,
+          "text": "are uncomfortable with as men we we are"
+        },
+        {
+          "cue_id": 735,
+          "start_ms": 1783919,
+          "end_ms": 1790200,
+          "text": "often so used to moving through the"
+        },
+        {
+          "cue_id": 758,
+          "start_ms": 1847640,
+          "end_ms": 1855120,
+          "text": "should expect the system to change and I"
+        },
+        {
+          "cue_id": 759,
+          "start_ms": 1850600,
+          "end_ms": 1857799,
+          "text": "don't know how but perhaps phrases like"
+        },
+        {
+          "cue_id": 783,
+          "start_ms": 1917720,
+          "end_ms": 1923880,
+          "text": "um I would use the word inoculate or"
+        },
+        {
+          "cue_id": 784,
+          "start_ms": 1921000,
+          "end_ms": 1927120,
+          "text": "vaccinate them against some of these"
+        },
+        {
+          "cue_id": 814,
+          "start_ms": 1986919,
+          "end_ms": 1991120,
+          "text": "to weaponize this or exploit this or"
+        },
+        {
+          "cue_id": 815,
+          "start_ms": 1989159,
+          "end_ms": 1992440,
+          "text": "profit from this in one way or another"
+        },
+        {
+          "cue_id": 842,
+          "start_ms": 2054199,
+          "end_ms": 2060440,
+          "text": "boring I think one thing to appreciate"
+        },
+        {
+          "cue_id": 843,
+          "start_ms": 2058000,
+          "end_ms": 2062359,
+          "text": "is that there's polarization between"
+        },
+        {
+          "cue_id": 873,
+          "start_ms": 2122359,
+          "end_ms": 2130040,
+          "text": "fascinating topic thank you all right"
+        },
+        {
+          "cue_id": 874,
+          "start_ms": 2125400,
+          "end_ms": 2130040,
+          "text": "that was fun Take Care by bye"
+        }
+      ],
+      "text": "who think there's a lot more going on\nthe men who are struggling who can't get\ntopics like gender boys and girls have\nvery different opinions so what's going\nso do you also see this divide in your\nday-to-day job yes there there's\nthink is the most common reaction you\nmight get men's issues really yes well\nabsolutely I think this is a really\ncritical issue many people feel that\neducation because some of the findings\nyou have there are mindboggling boys and\nessentially why is there is\nhappening I think one big reason is that\neven though wages are rising it's much\nmuch harder for young people to buy a\nabsolutely\nbetter so we covered education we\nnot clear to them that they are needed\nyou know do their kids need them does\ndiagnose and fix cars with their bare\nhands uh I I don't have those abilities\nstand to\ngain um so sure you men are no longer\nthat sense of strife and the and one of\nthe biggest blowbacks to inability to\nemployment for workingclass men but in\nthe US in particular there also issue\nlife right it's structural there are\nstructural barriers to women's\nupper middle class men who are super\nfeminist much more lik to be feminists\ngoods and gains for you come at my\nexpense well I think that the danger of\na misogynist reactionary right or do we\nsay look that's a tough change no\nwhat makes femininity toxic is\nprescribing um just one way one role to\nhas become increasingly negative we're\nalso spending more time on our phones\nbecause of the economic resentment\nbecause of the zeros some mentalities\nwho feel that he uh he is not just um\nimportant but profound in some\nthey're finding a market is\nbecause there are a lot of questions\nsay well you know he he does this one\nthing well there's nobody who is there\nsay that the government and other\ninstitutions aren't paying enough\nare uncomfortable with as men we we are\noften so used to moving through the\nshould expect the system to change and I\ndon't know how but perhaps phrases like\num I would use the word inoculate or\nvaccinate them against some of these\nto weaponize this or exploit this or\nprofit from this in one way or another\nboring I think one thing to appreciate\nis that there's polarization between\nfascinating topic thank you all right\nthat was fun Take Care by bye",
+      "text_tokens": 520,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "54H8ppxnp8I",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/54H8ppxnp8I.srt",
+          "status": "available",
+          "bytes": 96609,
+          "sha256": "bd5e8940c15df7748c38a8273711885f04cb9968d413069ec91fd5fae374a5b9",
+          "cues": 874,
+          "nonempty_cues": 874
+        },
+        "frame_indices": [
+          0,
+          1648,
+          3295,
+          4943,
+          6590,
+          8238,
+          9885,
+          11533,
+          13180,
+          14828,
+          16475,
+          18123,
+          19770,
+          21418,
+          23065,
+          24713,
+          26360,
+          28008,
+          29655,
+          31303,
+          32950,
+          34598,
+          36245,
+          37893,
+          39540,
+          41188,
+          42835,
+          44483,
+          46130,
+          47778,
+          49425,
+          51073
+        ],
+        "frame_seconds": [
+          0.0,
+          68.666667,
+          137.291667,
+          205.958333,
+          274.583333,
+          343.25,
+          411.875,
+          480.541667,
+          549.166667,
+          617.833333,
+          686.458333,
+          755.125,
+          823.75,
+          892.416667,
+          961.041667,
+          1029.708333,
+          1098.333333,
+          1167.0,
+          1235.625,
+          1304.291667,
+          1372.916667,
+          1441.583333,
+          1510.208333,
+          1578.875,
+          1647.5,
+          1716.166667,
+          1784.791667,
+          1853.458333,
+          1922.083333,
+          1990.75,
+          2059.375,
+          2128.041667
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            29,
+            30
+          ],
+          [
+            57,
+            58
+          ],
+          [
+            85,
+            86
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            142,
+            143
+          ],
+          [
+            172,
+            173
+          ],
+          [
+            202,
+            203
+          ],
+          [
+            235,
+            236
+          ],
+          [
+            267,
+            268
+          ],
+          [
+            293,
+            294
+          ],
+          [
+            316,
+            317
+          ],
+          [
+            342,
+            343
+          ],
+          [
+            368,
+            369
+          ],
+          [
+            400,
+            401
+          ],
+          [
+            436,
+            437
+          ],
+          [
+            467,
+            468
+          ],
+          [
+            495,
+            496
+          ],
+          [
+            528,
+            529
+          ],
+          [
+            553,
+            554
+          ],
+          [
+            575,
+            576
+          ],
+          [
+            603,
+            604
+          ],
+          [
+            624,
+            625
+          ],
+          [
+            650,
+            651
+          ],
+          [
+            676,
+            677
+          ],
+          [
+            708,
+            709
+          ],
+          [
+            734,
+            735
+          ],
+          [
+            758,
+            759
+          ],
+          [
+            783,
+            784
+          ],
+          [
+            814,
+            815
+          ],
+          [
+            842,
+            843
+          ],
+          [
+            873,
+            874
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 29,
+            "start_ms": 65720,
+            "end_ms": 69720,
+            "text": "who think there's a lot more going on"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 67320,
+            "end_ms": 72600,
+            "text": "the men who are struggling who can't get"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 133440,
+            "end_ms": 139720,
+            "text": "topics like gender boys and girls have"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 136640,
+            "end_ms": 142879,
+            "text": "very different opinions so what's going"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 201599,
+            "end_ms": 208360,
+            "text": "so do you also see this divide in your"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 205239,
+            "end_ms": 211840,
+            "text": "day-to-day job yes there there's"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 267840,
+            "end_ms": 275240,
+            "text": "think is the most common reaction you"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 270160,
+            "end_ms": 277680,
+            "text": "might get men's issues really yes well"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 341120,
+            "end_ms": 345360,
+            "text": "absolutely I think this is a really"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 342759,
+            "end_ms": 347639,
+            "text": "critical issue many people feel that"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 408680,
+            "end_ms": 413680,
+            "text": "education because some of the findings"
+          },
+          {
+            "cue_id": 173,
+            "start_ms": 410919,
+            "end_ms": 416800,
+            "text": "you have there are mindboggling boys and"
+          },
+          {
+            "cue_id": 202,
+            "start_ms": 477960,
+            "end_ms": 483360,
+            "text": "essentially why is there is"
+          },
+          {
+            "cue_id": 203,
+            "start_ms": 480440,
+            "end_ms": 486159,
+            "text": "happening I think one big reason is that"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 545480,
+            "end_ms": 549320,
+            "text": "even though wages are rising it's much"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 547360,
+            "end_ms": 551399,
+            "text": "much harder for young people to buy a"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 615920,
+            "end_ms": 620120,
+            "text": "absolutely"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 616959,
+            "end_ms": 622760,
+            "text": "better so we covered education we"
+          },
+          {
+            "cue_id": 293,
+            "start_ms": 681519,
+            "end_ms": 686839,
+            "text": "not clear to them that they are needed"
+          },
+          {
+            "cue_id": 294,
+            "start_ms": 684440,
+            "end_ms": 689040,
+            "text": "you know do their kids need them does"
+          },
+          {
+            "cue_id": 316,
+            "start_ms": 749199,
+            "end_ms": 756800,
+            "text": "diagnose and fix cars with their bare"
+          },
+          {
+            "cue_id": 317,
+            "start_ms": 753160,
+            "end_ms": 759800,
+            "text": "hands uh I I don't have those abilities"
+          },
+          {
+            "cue_id": 342,
+            "start_ms": 820880,
+            "end_ms": 825480,
+            "text": "stand to"
+          },
+          {
+            "cue_id": 343,
+            "start_ms": 822320,
+            "end_ms": 829320,
+            "text": "gain um so sure you men are no longer"
+          },
+          {
+            "cue_id": 368,
+            "start_ms": 887959,
+            "end_ms": 893680,
+            "text": "that sense of strife and the and one of"
+          },
+          {
+            "cue_id": 369,
+            "start_ms": 890680,
+            "end_ms": 895519,
+            "text": "the biggest blowbacks to inability to"
+          },
+          {
+            "cue_id": 400,
+            "start_ms": 957959,
+            "end_ms": 961800,
+            "text": "employment for workingclass men but in"
+          },
+          {
+            "cue_id": 401,
+            "start_ms": 960160,
+            "end_ms": 963639,
+            "text": "the US in particular there also issue"
+          },
+          {
+            "cue_id": 436,
+            "start_ms": 1027480,
+            "end_ms": 1031000,
+            "text": "life right it's structural there are"
+          },
+          {
+            "cue_id": 437,
+            "start_ms": 1029559,
+            "end_ms": 1032839,
+            "text": "structural barriers to women's"
+          },
+          {
+            "cue_id": 467,
+            "start_ms": 1095799,
+            "end_ms": 1099880,
+            "text": "upper middle class men who are super"
+          },
+          {
+            "cue_id": 468,
+            "start_ms": 1097960,
+            "end_ms": 1101200,
+            "text": "feminist much more lik to be feminists"
+          },
+          {
+            "cue_id": 495,
+            "start_ms": 1162440,
+            "end_ms": 1167559,
+            "text": "goods and gains for you come at my"
+          },
+          {
+            "cue_id": 496,
+            "start_ms": 1165200,
+            "end_ms": 1169120,
+            "text": "expense well I think that the danger of"
+          },
+          {
+            "cue_id": 528,
+            "start_ms": 1230480,
+            "end_ms": 1236480,
+            "text": "a misogynist reactionary right or do we"
+          },
+          {
+            "cue_id": 529,
+            "start_ms": 1233840,
+            "end_ms": 1237720,
+            "text": "say look that's a tough change no"
+          },
+          {
+            "cue_id": 553,
+            "start_ms": 1299400,
+            "end_ms": 1308159,
+            "text": "what makes femininity toxic is"
+          },
+          {
+            "cue_id": 554,
+            "start_ms": 1302840,
+            "end_ms": 1310000,
+            "text": "prescribing um just one way one role to"
+          },
+          {
+            "cue_id": 575,
+            "start_ms": 1369400,
+            "end_ms": 1374640,
+            "text": "has become increasingly negative we're"
+          },
+          {
+            "cue_id": 576,
+            "start_ms": 1371840,
+            "end_ms": 1376760,
+            "text": "also spending more time on our phones"
+          },
+          {
+            "cue_id": 603,
+            "start_ms": 1440240,
+            "end_ms": 1443159,
+            "text": "because of the economic resentment"
+          },
+          {
+            "cue_id": 604,
+            "start_ms": 1441559,
+            "end_ms": 1445840,
+            "text": "because of the zeros some mentalities"
+          },
+          {
+            "cue_id": 624,
+            "start_ms": 1503000,
+            "end_ms": 1512320,
+            "text": "who feel that he uh he is not just um"
+          },
+          {
+            "cue_id": 625,
+            "start_ms": 1508760,
+            "end_ms": 1517120,
+            "text": "important but profound in some"
+          },
+          {
+            "cue_id": 650,
+            "start_ms": 1574799,
+            "end_ms": 1579559,
+            "text": "they're finding a market is"
+          },
+          {
+            "cue_id": 651,
+            "start_ms": 1576679,
+            "end_ms": 1582279,
+            "text": "because there are a lot of questions"
+          },
+          {
+            "cue_id": 676,
+            "start_ms": 1644000,
+            "end_ms": 1649200,
+            "text": "say well you know he he does this one"
+          },
+          {
+            "cue_id": 677,
+            "start_ms": 1647080,
+            "end_ms": 1651520,
+            "text": "thing well there's nobody who is there"
+          },
+          {
+            "cue_id": 708,
+            "start_ms": 1712279,
+            "end_ms": 1716519,
+            "text": "say that the government and other"
+          },
+          {
+            "cue_id": 709,
+            "start_ms": 1714640,
+            "end_ms": 1719679,
+            "text": "institutions aren't paying enough"
+          },
+          {
+            "cue_id": 734,
+            "start_ms": 1780240,
+            "end_ms": 1787679,
+            "text": "are uncomfortable with as men we we are"
+          },
+          {
+            "cue_id": 735,
+            "start_ms": 1783919,
+            "end_ms": 1790200,
+            "text": "often so used to moving through the"
+          },
+          {
+            "cue_id": 758,
+            "start_ms": 1847640,
+            "end_ms": 1855120,
+            "text": "should expect the system to change and I"
+          },
+          {
+            "cue_id": 759,
+            "start_ms": 1850600,
+            "end_ms": 1857799,
+            "text": "don't know how but perhaps phrases like"
+          },
+          {
+            "cue_id": 783,
+            "start_ms": 1917720,
+            "end_ms": 1923880,
+            "text": "um I would use the word inoculate or"
+          },
+          {
+            "cue_id": 784,
+            "start_ms": 1921000,
+            "end_ms": 1927120,
+            "text": "vaccinate them against some of these"
+          },
+          {
+            "cue_id": 814,
+            "start_ms": 1986919,
+            "end_ms": 1991120,
+            "text": "to weaponize this or exploit this or"
+          },
+          {
+            "cue_id": 815,
+            "start_ms": 1989159,
+            "end_ms": 1992440,
+            "text": "profit from this in one way or another"
+          },
+          {
+            "cue_id": 842,
+            "start_ms": 2054199,
+            "end_ms": 2060440,
+            "text": "boring I think one thing to appreciate"
+          },
+          {
+            "cue_id": 843,
+            "start_ms": 2058000,
+            "end_ms": 2062359,
+            "text": "is that there's polarization between"
+          },
+          {
+            "cue_id": 873,
+            "start_ms": 2122359,
+            "end_ms": 2130040,
+            "text": "fascinating topic thank you all right"
+          },
+          {
+            "cue_id": 874,
+            "start_ms": 2125400,
+            "end_ms": 2130040,
+            "text": "that was fun Take Care by bye"
+          }
+        ],
+        "text": "who think there's a lot more going on\nthe men who are struggling who can't get\ntopics like gender boys and girls have\nvery different opinions so what's going\nso do you also see this divide in your\nday-to-day job yes there there's\nthink is the most common reaction you\nmight get men's issues really yes well\nabsolutely I think this is a really\ncritical issue many people feel that\neducation because some of the findings\nyou have there are mindboggling boys and\nessentially why is there is\nhappening I think one big reason is that\neven though wages are rising it's much\nmuch harder for young people to buy a\nabsolutely\nbetter so we covered education we\nnot clear to them that they are needed\nyou know do their kids need them does\ndiagnose and fix cars with their bare\nhands uh I I don't have those abilities\nstand to\ngain um so sure you men are no longer\nthat sense of strife and the and one of\nthe biggest blowbacks to inability to\nemployment for workingclass men but in\nthe US in particular there also issue\nlife right it's structural there are\nstructural barriers to women's\nupper middle class men who are super\nfeminist much more lik to be feminists\ngoods and gains for you come at my\nexpense well I think that the danger of\na misogynist reactionary right or do we\nsay look that's a tough change no\nwhat makes femininity toxic is\nprescribing um just one way one role to\nhas become increasingly negative we're\nalso spending more time on our phones\nbecause of the economic resentment\nbecause of the zeros some mentalities\nwho feel that he uh he is not just um\nimportant but profound in some\nthey're finding a market is\nbecause there are a lot of questions\nsay well you know he he does this one\nthing well there's nobody who is there\nsay that the government and other\ninstitutions aren't paying enough\nare uncomfortable with as men we we are\noften so used to moving through the\nshould expect the system to change and I\ndon't know how but perhaps phrases like\num I would use the word inoculate or\nvaccinate them against some of these\nto weaponize this or exploit this or\nprofit from this in one way or another\nboring I think one thing to appreciate\nis that there's polarization between\nfascinating topic thank you all right\nthat was fun Take Care by bye",
+        "text_tokens": 520,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "start_ms": 63640,
+          "end_ms": 74680,
+          "text": "person alive but I spoke to some experts who think there's a lot more going on the men who are struggling who can't get status who then feel insulted when this"
+        },
+        {
+          "id": "S56",
+          "cue_ids": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "start_ms": 130959,
+          "end_ms": 146200,
+          "text": "generations not one because on some topics like gender boys and girls have very different opinions so what's going on so if we look at South Korea China"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "start_ms": 199000,
+          "end_ms": 214239,
+          "text": "generations and talk with them every day so do you also see this divide in your day-to-day job yes there there's absolutely a gender divide I see it in"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 266080,
+          "end_ms": 280159,
+          "text": "want to know your response to what I think is the most common reaction you might get men's issues really yes well really is a quite a that's quite a"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143,
+            144
+          ],
+          "start_ms": 339120,
+          "end_ms": 349199,
+          "text": "insights of the women's movement absolutely I think this is a really critical issue many people feel that they're struggling so right now here in"
+        },
+        {
+          "id": "S171",
+          "cue_ids": [
+            171,
+            172,
+            173,
+            174
+          ],
+          "start_ms": 406599,
+          "end_ms": 419720,
+          "text": "do men face and I'd like to start with education because some of the findings you have there are mindboggling boys and men are behind in education at every"
+        },
+        {
+          "id": "S201",
+          "cue_ids": [
+            201,
+            202,
+            203,
+            204
+          ],
+          "start_ms": 475240,
+          "end_ms": 487680,
+          "text": "it's like there's a worldwide gender gap essentially why is there is happening I think one big reason is that girls will typically just mature a"
+        },
+        {
+          "id": "S234",
+          "cue_ids": [
+            234,
+            235,
+            236,
+            237
+          ],
+          "start_ms": 543079,
+          "end_ms": 553160,
+          "text": "skyrocketed and young people's wages even though wages are rising it's much much harder for young people to buy a house um and that's the case in many"
+        },
+        {
+          "id": "S266",
+          "cue_ids": [
+            266,
+            267,
+            268,
+            269
+          ],
+          "start_ms": 613959,
+          "end_ms": 624800,
+          "text": "they're doing absolutely better off absolutely better so we covered education we covered the economic situation but"
+        },
+        {
+          "id": "S292",
+          "cue_ids": [
+            292,
+            293,
+            294,
+            295
+          ],
+          "start_ms": 679720,
+          "end_ms": 691000,
+          "text": "say that for a lot of men right now it's not clear to them that they are needed you know do their kids need them does their wife or girlfriend need them do"
+        },
+        {
+          "id": "S315",
+          "cue_ids": [
+            315,
+            316,
+            317,
+            318
+          ],
+          "start_ms": 746720,
+          "end_ms": 763480,
+          "text": "mining um you know they could would diagnose and fix cars with their bare hands uh I I don't have those abilities I can't possibly live up to whatever"
+        },
+        {
+          "id": "S341",
+          "cue_ids": [
+            341,
+            342,
+            343,
+            344
+          ],
+          "start_ms": 818360,
+          "end_ms": 831759,
+          "text": "it as an opportunity look at what you stand to gain um so sure you men are no longer the default bread winner um that means"
+        },
+        {
+          "id": "S367",
+          "cue_ids": [
+            367,
+            368,
+            369,
+            370
+          ],
+          "start_ms": 885040,
+          "end_ms": 897720,
+          "text": "keep up with other men then he may feel that sense of strife and the and one of the biggest blowbacks to inability to achieve status or relative status among"
+        },
+        {
+          "id": "S399",
+          "cue_ids": [
+            399,
+            400,
+            401,
+            402
+          ],
+          "start_ms": 955000,
+          "end_ms": 965839,
+          "text": "are much bigger in education and employment for workingclass men but in the US in particular there also issue for black men especially the G the"
+        },
+        {
+          "id": "S435",
+          "cue_ids": [
+            435,
+            436,
+            437,
+            438
+          ],
+          "start_ms": 1025119,
+          "end_ms": 1035280,
+          "text": "employers treat the think about family life right it's structural there are structural barriers to women's inequality well in just the same way in"
+        },
+        {
+          "id": "S466",
+          "cue_ids": [
+            466,
+            467,
+            468,
+            469
+          ],
+          "start_ms": 1093960,
+          "end_ms": 1103159,
+          "text": "there which is that actually kind of upper middle class men who are super feminist much more lik to be feminists and don't have this view that men should"
+        },
+        {
+          "id": "S494",
+          "cue_ids": [
+            494,
+            495,
+            496,
+            497
+          ],
+          "start_ms": 1160600,
+          "end_ms": 1170640,
+          "text": "idea that there is a fixed basket of goods and gains for you come at my expense well I think that the danger of zero something thinking is present is"
+        },
+        {
+          "id": "S527",
+          "cue_ids": [
+            527,
+            528,
+            529,
+            530
+          ],
+          "start_ms": 1228480,
+          "end_ms": 1240360,
+          "text": "with this transition is by default just a misogynist reactionary right or do we say look that's a tough change no question we've lost some kind of"
+        },
+        {
+          "id": "S552",
+          "cue_ids": [
+            552,
+            553,
+            554,
+            555
+          ],
+          "start_ms": 1296919,
+          "end_ms": 1313840,
+          "text": "toxic um for that matter I would argue what makes femininity toxic is prescribing um just one way one role to operate in the world to move through"
+        },
+        {
+          "id": "S574",
+          "cue_ids": [
+            574,
+            575,
+            576,
+            577
+          ],
+          "start_ms": 1365919,
+          "end_ms": 1379440,
+          "text": "there so over the past 30 40 years media has become increasingly negative we're also spending more time on our phones and that means we can self- select into"
+        },
+        {
+          "id": "S602",
+          "cue_ids": [
+            602,
+            603,
+            604,
+            605
+          ],
+          "start_ms": 1438400,
+          "end_ms": 1448279,
+          "text": "being challenged or criticized so it's because of the economic resentment because of the zeros some mentalities because of the technological shifts then"
+        },
+        {
+          "id": "S623",
+          "cue_ids": [
+            623,
+            624,
+            625,
+            626
+          ],
+          "start_ms": 1499520,
+          "end_ms": 1518960,
+          "text": "don't just listen to him but idolize him who feel that he uh he is not just um important but profound in some way uh and that you know he he speaks"
+        },
+        {
+          "id": "S649",
+          "cue_ids": [
+            649,
+            650,
+            651,
+            652
+          ],
+          "start_ms": 1573279,
+          "end_ms": 1584480,
+          "text": "they are finding a market the reason they're finding a market is because there are a lot of questions that young men are struggling boys and"
+        },
+        {
+          "id": "S675",
+          "cue_ids": [
+            675,
+            676,
+            677,
+            678
+          ],
+          "start_ms": 1640399,
+          "end_ms": 1654679,
+          "text": "drug which is why I I would hesitate to say well you know he he does this one thing well there's nobody who is there just to learn how to um be an accountant"
+        },
+        {
+          "id": "S707",
+          "cue_ids": [
+            707,
+            708,
+            709,
+            710
+          ],
+          "start_ms": 1709919,
+          "end_ms": 1722240,
+          "text": "can pick up followers because when they say that the government and other institutions aren't paying enough attention to their issues they're"
+        },
+        {
+          "id": "S733",
+          "cue_ids": [
+            733,
+            734,
+            735,
+            736
+          ],
+          "start_ms": 1776279,
+          "end_ms": 1793799,
+          "text": "willingness to enter spaces that they are uncomfortable with as men we we are often so used to moving through the world with a certain level of"
+        },
+        {
+          "id": "S757",
+          "cue_ids": [
+            757,
+            758,
+            759,
+            760
+          ],
+          "start_ms": 1846120,
+          "end_ms": 1860200,
+          "text": "that's expecting too much perhaps we should expect the system to change and I don't know how but perhaps phrases like Boys Don't Cry can't you study like"
+        },
+        {
+          "id": "S782",
+          "cue_ids": [
+            782,
+            783,
+            784,
+            785
+          ],
+          "start_ms": 1916120,
+          "end_ms": 1930320,
+          "text": "that may um I would use the word inoculate or vaccinate them against some of these ideas uh because frankly it's never too"
+        },
+        {
+          "id": "S813",
+          "cue_ids": [
+            813,
+            814,
+            815,
+            816
+          ],
+          "start_ms": 1984799,
+          "end_ms": 1994440,
+          "text": "Warriors away from the people who want to weaponize this or exploit this or profit from this in one way or another and just straightforwardly and"
+        },
+        {
+          "id": "S841",
+          "cue_ids": [
+            841,
+            842,
+            843,
+            844
+          ],
+          "start_ms": 2050239,
+          "end_ms": 2064800,
+          "text": "most of us are really boring I think one thing to appreciate is that there's polarization between young men and women is partly a function"
+        },
+        {
+          "id": "S872",
+          "cue_ids": [
+            872,
+            873,
+            874
+          ],
+          "start_ms": 2119119,
+          "end_ms": 2130040,
+          "text": "difficult but also very important and fascinating topic thank you all right that was fun Take Care by bye"
+        }
+      ],
+      "text": "S28 [00:01:03.640 --> 00:01:14.680] person alive but I spoke to some experts who think there's a lot more going on the men who are struggling who can't get status who then feel insulted when this\nS56 [00:02:10.959 --> 00:02:26.200] generations not one because on some topics like gender boys and girls have very different opinions so what's going on so if we look at South Korea China\nS84 [00:03:19.000 --> 00:03:34.239] generations and talk with them every day so do you also see this divide in your day-to-day job yes there there's absolutely a gender divide I see it in\nS107 [00:04:26.080 --> 00:04:40.159] want to know your response to what I think is the most common reaction you might get men's issues really yes well really is a quite a that's quite a\nS141 [00:05:39.120 --> 00:05:49.199] insights of the women's movement absolutely I think this is a really critical issue many people feel that they're struggling so right now here in\nS171 [00:06:46.599 --> 00:06:59.720] do men face and I'd like to start with education because some of the findings you have there are mindboggling boys and men are behind in education at every\nS201 [00:07:55.240 --> 00:08:07.680] it's like there's a worldwide gender gap essentially why is there is happening I think one big reason is that girls will typically just mature a\nS234 [00:09:03.079 --> 00:09:13.160] skyrocketed and young people's wages even though wages are rising it's much much harder for young people to buy a house um and that's the case in many\nS266 [00:10:13.959 --> 00:10:24.800] they're doing absolutely better off absolutely better so we covered education we covered the economic situation but\nS292 [00:11:19.720 --> 00:11:31.000] say that for a lot of men right now it's not clear to them that they are needed you know do their kids need them does their wife or girlfriend need them do\nS315 [00:12:26.720 --> 00:12:43.480] mining um you know they could would diagnose and fix cars with their bare hands uh I I don't have those abilities I can't possibly live up to whatever\nS341 [00:13:38.360 --> 00:13:51.759] it as an opportunity look at what you stand to gain um so sure you men are no longer the default bread winner um that means\nS367 [00:14:45.040 --> 00:14:57.720] keep up with other men then he may feel that sense of strife and the and one of the biggest blowbacks to inability to achieve status or relative status among\nS399 [00:15:55.000 --> 00:16:05.839] are much bigger in education and employment for workingclass men but in the US in particular there also issue for black men especially the G the\nS435 [00:17:05.119 --> 00:17:15.280] employers treat the think about family life right it's structural there are structural barriers to women's inequality well in just the same way in\nS466 [00:18:13.960 --> 00:18:23.159] there which is that actually kind of upper middle class men who are super feminist much more lik to be feminists and don't have this view that men should\nS494 [00:19:20.600 --> 00:19:30.640] idea that there is a fixed basket of goods and gains for you come at my expense well I think that the danger of zero something thinking is present is\nS527 [00:20:28.480 --> 00:20:40.360] with this transition is by default just a misogynist reactionary right or do we say look that's a tough change no question we've lost some kind of\nS552 [00:21:36.919 --> 00:21:53.840] toxic um for that matter I would argue what makes femininity toxic is prescribing um just one way one role to operate in the world to move through\nS574 [00:22:45.919 --> 00:22:59.440] there so over the past 30 40 years media has become increasingly negative we're also spending more time on our phones and that means we can self- select into\nS602 [00:23:58.400 --> 00:24:08.279] being challenged or criticized so it's because of the economic resentment because of the zeros some mentalities because of the technological shifts then\nS623 [00:24:59.520 --> 00:25:18.960] don't just listen to him but idolize him who feel that he uh he is not just um important but profound in some way uh and that you know he he speaks\nS649 [00:26:13.279 --> 00:26:24.480] they are finding a market the reason they're finding a market is because there are a lot of questions that young men are struggling boys and\nS675 [00:27:20.399 --> 00:27:34.679] drug which is why I I would hesitate to say well you know he he does this one thing well there's nobody who is there just to learn how to um be an accountant\nS707 [00:28:29.919 --> 00:28:42.240] can pick up followers because when they say that the government and other institutions aren't paying enough attention to their issues they're\nS733 [00:29:36.279 --> 00:29:53.799] willingness to enter spaces that they are uncomfortable with as men we we are often so used to moving through the world with a certain level of\nS757 [00:30:46.120 --> 00:31:00.200] that's expecting too much perhaps we should expect the system to change and I don't know how but perhaps phrases like Boys Don't Cry can't you study like\nS782 [00:31:56.120 --> 00:32:10.320] that may um I would use the word inoculate or vaccinate them against some of these ideas uh because frankly it's never too\nS813 [00:33:04.799 --> 00:33:14.440] Warriors away from the people who want to weaponize this or exploit this or profit from this in one way or another and just straightforwardly and\nS841 [00:34:10.239 --> 00:34:24.800] most of us are really boring I think one thing to appreciate is that there's polarization between young men and women is partly a function\nS872 [00:35:19.119 --> 00:35:30.040] difficult but also very important and fascinating topic thank you all right that was fun Take Care by bye",
+      "text_tokens": 1916,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        28,
+        31,
+        56,
+        59,
+        84,
+        87,
+        107,
+        110,
+        141,
+        144,
+        171,
+        174,
+        201,
+        204,
+        234,
+        237,
+        266,
+        269,
+        292,
+        295,
+        315,
+        318,
+        341,
+        344,
+        367,
+        370,
+        399,
+        402,
+        435,
+        438,
+        466,
+        469,
+        494,
+        497,
+        527,
+        530,
+        552,
+        555,
+        574,
+        577,
+        602,
+        605,
+        623,
+        626,
+        649,
+        652,
+        675,
+        678,
+        707,
+        710,
+        733,
+        736,
+        757,
+        760,
+        782,
+        785,
+        813,
+        816,
+        841,
+        844,
+        872
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "12832a2c3c617a22df111e6547d4d359e57e0da1ef5ddbee1abb7c1294a3fa4e"
+}

@@ -1,0 +1,1541 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "Cb91B0wZYLE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Cb91B0wZYLE.srt",
+        "status": "available",
+        "bytes": 66647,
+        "sha256": "dfec61e7e3b95368267e52cdf11377b136f9e589ce20691f8b109fa3f5e0051e",
+        "cues": 665,
+        "nonempty_cues": 665
+      },
+      "frame_indices": [
+        0,
+        1950,
+        3899,
+        5849,
+        7798,
+        9748,
+        11697,
+        13647,
+        15597,
+        17546,
+        19496,
+        21445,
+        23395,
+        25345,
+        27294,
+        29244,
+        31193,
+        33143,
+        35092,
+        37042,
+        38992,
+        40941,
+        42891,
+        44840,
+        46790,
+        48740,
+        50689,
+        52639,
+        54588,
+        56538,
+        58487,
+        60437
+      ],
+      "frame_seconds": [
+        0.0,
+        65.065,
+        130.096633,
+        195.161633,
+        260.193267,
+        325.258267,
+        390.2899,
+        455.3549,
+        520.4199,
+        585.451533,
+        650.516533,
+        715.548167,
+        780.613167,
+        845.678167,
+        910.7098,
+        975.7748,
+        1040.806433,
+        1105.871433,
+        1170.903067,
+        1235.968067,
+        1301.033067,
+        1366.0647,
+        1431.1297,
+        1496.161333,
+        1561.226333,
+        1626.291333,
+        1691.322967,
+        1756.387967,
+        1821.4196,
+        1886.4846,
+        1951.516233,
+        2016.5812329999999
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          18,
+          19
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          55,
+          56
+        ],
+        [
+          68
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          115,
+          116
+        ],
+        [
+          135,
+          136
+        ],
+        [
+          162,
+          163
+        ],
+        [
+          183,
+          184
+        ],
+        [
+          200,
+          201
+        ],
+        [
+          224,
+          225
+        ],
+        [
+          249,
+          250
+        ],
+        [
+          270,
+          271
+        ],
+        [],
+        [
+          313,
+          314
+        ],
+        [
+          334,
+          335
+        ],
+        [
+          358,
+          359
+        ],
+        [
+          375,
+          376
+        ],
+        [
+          393,
+          394
+        ],
+        [
+          417,
+          418
+        ],
+        [
+          436,
+          437
+        ],
+        [
+          461,
+          462
+        ],
+        [
+          486,
+          487
+        ],
+        [
+          513,
+          514
+        ],
+        [
+          532,
+          533
+        ],
+        [
+          557,
+          558
+        ],
+        [
+          578,
+          579
+        ],
+        [
+          601,
+          602
+        ],
+        [
+          627,
+          628
+        ],
+        [
+          644,
+          645
+        ],
+        [
+          665
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 18,
+          "start_ms": 59280,
+          "end_ms": 67760,
+          "text": "so these are the exact coins from"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 62320,
+          "end_ms": 71680,
+          "text": "inside my wallet and i am going to take"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 126000,
+          "end_ms": 131520,
+          "text": "to the other side let's try this again"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 130080,
+          "end_ms": 132800,
+          "text": "and if you actually listen very"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 191239,
+          "end_ms": 199840,
+          "text": "everybody everybody everybody everybody"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 194080,
+          "end_ms": 199840,
+          "text": "everybody everybody"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 256720,
+          "end_ms": 264560,
+          "text": "so make sure you are all ducked into bed"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 321120,
+          "end_ms": 325440,
+          "text": "later on tonight i'm going to be"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 323840,
+          "end_ms": 328800,
+          "text": "teaching you"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 383360,
+          "end_ms": 390960,
+          "text": "for this next trick"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 387360,
+          "end_ms": 394880,
+          "text": "i need a very special"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 450080,
+          "end_ms": 457280,
+          "text": "our two black jacks face up"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 453840,
+          "end_ms": 460400,
+          "text": "and put the joker face down"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 517919,
+          "end_ms": 521919,
+          "text": "you want a stick okay that's a great"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 520159,
+          "end_ms": 525920,
+          "text": "choice because what we're gonna do"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 579760,
+          "end_ms": 587519,
+          "text": "and that's because it can actually"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 583200,
+          "end_ms": 590640,
+          "text": "transform into"
+        },
+        {
+          "cue_id": 200,
+          "start_ms": 643600,
+          "end_ms": 651440,
+          "text": "a pile full of diamonds"
+        },
+        {
+          "cue_id": 201,
+          "start_ms": 647920,
+          "end_ms": 654880,
+          "text": "and we also have a pile full"
+        },
+        {
+          "cue_id": 224,
+          "start_ms": 709360,
+          "end_ms": 715920,
+          "text": "completely random so we have no idea"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 712720,
+          "end_ms": 717040,
+          "text": "where any guard is and the first way i'm"
+        },
+        {
+          "cue_id": 249,
+          "start_ms": 778160,
+          "end_ms": 782560,
+          "text": "want we can give them"
+        },
+        {
+          "cue_id": 250,
+          "start_ms": 779760,
+          "end_ms": 782560,
+          "text": "some guts"
+        },
+        {
+          "cue_id": 270,
+          "start_ms": 840320,
+          "end_ms": 847279,
+          "text": "these back to where we started"
+        },
+        {
+          "cue_id": 271,
+          "start_ms": 843760,
+          "end_ms": 850959,
+          "text": "into three piles"
+        },
+        {
+          "cue_id": 313,
+          "start_ms": 972399,
+          "end_ms": 977519,
+          "text": "mathematics"
+        },
+        {
+          "cue_id": 314,
+          "start_ms": 973920,
+          "end_ms": 979519,
+          "text": "works for this trick"
+        },
+        {
+          "cue_id": 334,
+          "start_ms": 1036640,
+          "end_ms": 1041359,
+          "text": "take out oh did i miss any no i got the"
+        },
+        {
+          "cue_id": 335,
+          "start_ms": 1039359,
+          "end_ms": 1045119,
+          "text": "ace"
+        },
+        {
+          "cue_id": 358,
+          "start_ms": 1102640,
+          "end_ms": 1109120,
+          "text": "let's try this again with the do"
+        },
+        {
+          "cue_id": 359,
+          "start_ms": 1105840,
+          "end_ms": 1113679,
+          "text": "we go d w"
+        },
+        {
+          "cue_id": 375,
+          "start_ms": 1166559,
+          "end_ms": 1174000,
+          "text": "the nine d e"
+        },
+        {
+          "cue_id": 376,
+          "start_ms": 1170240,
+          "end_ms": 1179120,
+          "text": "n there's ten"
+        },
+        {
+          "cue_id": 393,
+          "start_ms": 1231840,
+          "end_ms": 1238320,
+          "text": "then stay tuned because"
+        },
+        {
+          "cue_id": 394,
+          "start_ms": 1233600,
+          "end_ms": 1238320,
+          "text": "it's so so so easy to do"
+        },
+        {
+          "cue_id": 417,
+          "start_ms": 1296799,
+          "end_ms": 1305039,
+          "text": "six queen"
+        },
+        {
+          "cue_id": 418,
+          "start_ms": 1300320,
+          "end_ms": 1308559,
+          "text": "a's seven eight and three"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1357600,
+          "end_ms": 1366080,
+          "text": "d w o the next card's a 2"
+        },
+        {
+          "cue_id": 437,
+          "start_ms": 1361679,
+          "end_ms": 1368880,
+          "text": "d h r e e and then we go back to the top"
+        },
+        {
+          "cue_id": 461,
+          "start_ms": 1429520,
+          "end_ms": 1433760,
+          "text": "spectator"
+        },
+        {
+          "cue_id": 462,
+          "start_ms": 1431039,
+          "end_ms": 1436720,
+          "text": "say you've got a deck of cards and"
+        },
+        {
+          "cue_id": 486,
+          "start_ms": 1494559,
+          "end_ms": 1498159,
+          "text": "important"
+        },
+        {
+          "cue_id": 487,
+          "start_ms": 1495679,
+          "end_ms": 1500000,
+          "text": "that you do it like this you see the"
+        },
+        {
+          "cue_id": 513,
+          "start_ms": 1555840,
+          "end_ms": 1562880,
+          "text": "you can go through and show their random"
+        },
+        {
+          "cue_id": 514,
+          "start_ms": 1558720,
+          "end_ms": 1566559,
+          "text": "then cut the five to the bottom like so"
+        },
+        {
+          "cue_id": 532,
+          "start_ms": 1620960,
+          "end_ms": 1626559,
+          "text": "q u d e n"
+        },
+        {
+          "cue_id": 533,
+          "start_ms": 1624640,
+          "end_ms": 1628320,
+          "text": "and for the last card if you want you"
+        },
+        {
+          "cue_id": 557,
+          "start_ms": 1688960,
+          "end_ms": 1692880,
+          "text": "and what we are going to need for this"
+        },
+        {
+          "cue_id": 558,
+          "start_ms": 1690559,
+          "end_ms": 1696320,
+          "text": "trick is"
+        },
+        {
+          "cue_id": 578,
+          "start_ms": 1755520,
+          "end_ms": 1759919,
+          "text": "piles"
+        },
+        {
+          "cue_id": 579,
+          "start_ms": 1756320,
+          "end_ms": 1763200,
+          "text": "like so now if you notice"
+        },
+        {
+          "cue_id": 601,
+          "start_ms": 1814720,
+          "end_ms": 1821840,
+          "text": "what i'm gonna do is take our"
+        },
+        {
+          "cue_id": 602,
+          "start_ms": 1818159,
+          "end_ms": 1823840,
+          "text": "a spoil put the ace of clubs above it to"
+        },
+        {
+          "cue_id": 627,
+          "start_ms": 1879919,
+          "end_ms": 1887120,
+          "text": "random guards they have followed"
+        },
+        {
+          "cue_id": 628,
+          "start_ms": 1883200,
+          "end_ms": 1890840,
+          "text": "the random leader the three of diamonds"
+        },
+        {
+          "cue_id": 644,
+          "start_ms": 1947519,
+          "end_ms": 1952320,
+          "text": "big thumbs up on tonight's video your"
+        },
+        {
+          "cue_id": 645,
+          "start_ms": 1950240,
+          "end_ms": 1954640,
+          "text": "support really means a lot"
+        },
+        {
+          "cue_id": 665,
+          "start_ms": 2015399,
+          "end_ms": 2018399,
+          "text": "member"
+        }
+      ],
+      "text": "so these are the exact coins from\ninside my wallet and i am going to take\nto the other side let's try this again\nand if you actually listen very\neverybody everybody everybody everybody\neverybody everybody\nso make sure you are all ducked into bed\nlater on tonight i'm going to be\nteaching you\nfor this next trick\ni need a very special\nour two black jacks face up\nand put the joker face down\nyou want a stick okay that's a great\nchoice because what we're gonna do\nand that's because it can actually\ntransform into\na pile full of diamonds\nand we also have a pile full\ncompletely random so we have no idea\nwhere any guard is and the first way i'm\nwant we can give them\nsome guts\nthese back to where we started\ninto three piles\nmathematics\nworks for this trick\ntake out oh did i miss any no i got the\nace\nlet's try this again with the do\nwe go d w\nthe nine d e\nn there's ten\nthen stay tuned because\nit's so so so easy to do\nsix queen\na's seven eight and three\nd w o the next card's a 2\nd h r e e and then we go back to the top\nspectator\nsay you've got a deck of cards and\nimportant\nthat you do it like this you see the\nyou can go through and show their random\nthen cut the five to the bottom like so\nq u d e n\nand for the last card if you want you\nand what we are going to need for this\ntrick is\npiles\nlike so now if you notice\nwhat i'm gonna do is take our\na spoil put the ace of clubs above it to\nrandom guards they have followed\nthe random leader the three of diamonds\nbig thumbs up on tonight's video your\nsupport really means a lot\nmember",
+      "text_tokens": 408,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Cb91B0wZYLE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Cb91B0wZYLE.srt",
+          "status": "available",
+          "bytes": 66647,
+          "sha256": "dfec61e7e3b95368267e52cdf11377b136f9e589ce20691f8b109fa3f5e0051e",
+          "cues": 665,
+          "nonempty_cues": 665
+        },
+        "frame_indices": [
+          0,
+          1950,
+          3899,
+          5849,
+          7798,
+          9748,
+          11697,
+          13647,
+          15597,
+          17546,
+          19496,
+          21445,
+          23395,
+          25345,
+          27294,
+          29244,
+          31193,
+          33143,
+          35092,
+          37042,
+          38992,
+          40941,
+          42891,
+          44840,
+          46790,
+          48740,
+          50689,
+          52639,
+          54588,
+          56538,
+          58487,
+          60437
+        ],
+        "frame_seconds": [
+          0.0,
+          65.065,
+          130.096633,
+          195.161633,
+          260.193267,
+          325.258267,
+          390.2899,
+          455.3549,
+          520.4199,
+          585.451533,
+          650.516533,
+          715.548167,
+          780.613167,
+          845.678167,
+          910.7098,
+          975.7748,
+          1040.806433,
+          1105.871433,
+          1170.903067,
+          1235.968067,
+          1301.033067,
+          1366.0647,
+          1431.1297,
+          1496.161333,
+          1561.226333,
+          1626.291333,
+          1691.322967,
+          1756.387967,
+          1821.4196,
+          1886.4846,
+          1951.516233,
+          2016.5812329999999
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            18,
+            19
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            55,
+            56
+          ],
+          [
+            68
+          ],
+          [
+            94,
+            95
+          ],
+          [
+            115,
+            116
+          ],
+          [
+            135,
+            136
+          ],
+          [
+            162,
+            163
+          ],
+          [
+            183,
+            184
+          ],
+          [
+            200,
+            201
+          ],
+          [
+            224,
+            225
+          ],
+          [
+            249,
+            250
+          ],
+          [
+            270,
+            271
+          ],
+          [],
+          [
+            313,
+            314
+          ],
+          [
+            334,
+            335
+          ],
+          [
+            358,
+            359
+          ],
+          [
+            375,
+            376
+          ],
+          [
+            393,
+            394
+          ],
+          [
+            417,
+            418
+          ],
+          [
+            436,
+            437
+          ],
+          [
+            461,
+            462
+          ],
+          [
+            486,
+            487
+          ],
+          [
+            513,
+            514
+          ],
+          [
+            532,
+            533
+          ],
+          [
+            557,
+            558
+          ],
+          [
+            578,
+            579
+          ],
+          [
+            601,
+            602
+          ],
+          [
+            627,
+            628
+          ],
+          [
+            644,
+            645
+          ],
+          [
+            665
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 18,
+            "start_ms": 59280,
+            "end_ms": 67760,
+            "text": "so these are the exact coins from"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 62320,
+            "end_ms": 71680,
+            "text": "inside my wallet and i am going to take"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 126000,
+            "end_ms": 131520,
+            "text": "to the other side let's try this again"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 130080,
+            "end_ms": 132800,
+            "text": "and if you actually listen very"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 191239,
+            "end_ms": 199840,
+            "text": "everybody everybody everybody everybody"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 194080,
+            "end_ms": 199840,
+            "text": "everybody everybody"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 256720,
+            "end_ms": 264560,
+            "text": "so make sure you are all ducked into bed"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 321120,
+            "end_ms": 325440,
+            "text": "later on tonight i'm going to be"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 323840,
+            "end_ms": 328800,
+            "text": "teaching you"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 383360,
+            "end_ms": 390960,
+            "text": "for this next trick"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 387360,
+            "end_ms": 394880,
+            "text": "i need a very special"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 450080,
+            "end_ms": 457280,
+            "text": "our two black jacks face up"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 453840,
+            "end_ms": 460400,
+            "text": "and put the joker face down"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 517919,
+            "end_ms": 521919,
+            "text": "you want a stick okay that's a great"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 520159,
+            "end_ms": 525920,
+            "text": "choice because what we're gonna do"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 579760,
+            "end_ms": 587519,
+            "text": "and that's because it can actually"
+          },
+          {
+            "cue_id": 184,
+            "start_ms": 583200,
+            "end_ms": 590640,
+            "text": "transform into"
+          },
+          {
+            "cue_id": 200,
+            "start_ms": 643600,
+            "end_ms": 651440,
+            "text": "a pile full of diamonds"
+          },
+          {
+            "cue_id": 201,
+            "start_ms": 647920,
+            "end_ms": 654880,
+            "text": "and we also have a pile full"
+          },
+          {
+            "cue_id": 224,
+            "start_ms": 709360,
+            "end_ms": 715920,
+            "text": "completely random so we have no idea"
+          },
+          {
+            "cue_id": 225,
+            "start_ms": 712720,
+            "end_ms": 717040,
+            "text": "where any guard is and the first way i'm"
+          },
+          {
+            "cue_id": 249,
+            "start_ms": 778160,
+            "end_ms": 782560,
+            "text": "want we can give them"
+          },
+          {
+            "cue_id": 250,
+            "start_ms": 779760,
+            "end_ms": 782560,
+            "text": "some guts"
+          },
+          {
+            "cue_id": 270,
+            "start_ms": 840320,
+            "end_ms": 847279,
+            "text": "these back to where we started"
+          },
+          {
+            "cue_id": 271,
+            "start_ms": 843760,
+            "end_ms": 850959,
+            "text": "into three piles"
+          },
+          {
+            "cue_id": 313,
+            "start_ms": 972399,
+            "end_ms": 977519,
+            "text": "mathematics"
+          },
+          {
+            "cue_id": 314,
+            "start_ms": 973920,
+            "end_ms": 979519,
+            "text": "works for this trick"
+          },
+          {
+            "cue_id": 334,
+            "start_ms": 1036640,
+            "end_ms": 1041359,
+            "text": "take out oh did i miss any no i got the"
+          },
+          {
+            "cue_id": 335,
+            "start_ms": 1039359,
+            "end_ms": 1045119,
+            "text": "ace"
+          },
+          {
+            "cue_id": 358,
+            "start_ms": 1102640,
+            "end_ms": 1109120,
+            "text": "let's try this again with the do"
+          },
+          {
+            "cue_id": 359,
+            "start_ms": 1105840,
+            "end_ms": 1113679,
+            "text": "we go d w"
+          },
+          {
+            "cue_id": 375,
+            "start_ms": 1166559,
+            "end_ms": 1174000,
+            "text": "the nine d e"
+          },
+          {
+            "cue_id": 376,
+            "start_ms": 1170240,
+            "end_ms": 1179120,
+            "text": "n there's ten"
+          },
+          {
+            "cue_id": 393,
+            "start_ms": 1231840,
+            "end_ms": 1238320,
+            "text": "then stay tuned because"
+          },
+          {
+            "cue_id": 394,
+            "start_ms": 1233600,
+            "end_ms": 1238320,
+            "text": "it's so so so easy to do"
+          },
+          {
+            "cue_id": 417,
+            "start_ms": 1296799,
+            "end_ms": 1305039,
+            "text": "six queen"
+          },
+          {
+            "cue_id": 418,
+            "start_ms": 1300320,
+            "end_ms": 1308559,
+            "text": "a's seven eight and three"
+          },
+          {
+            "cue_id": 436,
+            "start_ms": 1357600,
+            "end_ms": 1366080,
+            "text": "d w o the next card's a 2"
+          },
+          {
+            "cue_id": 437,
+            "start_ms": 1361679,
+            "end_ms": 1368880,
+            "text": "d h r e e and then we go back to the top"
+          },
+          {
+            "cue_id": 461,
+            "start_ms": 1429520,
+            "end_ms": 1433760,
+            "text": "spectator"
+          },
+          {
+            "cue_id": 462,
+            "start_ms": 1431039,
+            "end_ms": 1436720,
+            "text": "say you've got a deck of cards and"
+          },
+          {
+            "cue_id": 486,
+            "start_ms": 1494559,
+            "end_ms": 1498159,
+            "text": "important"
+          },
+          {
+            "cue_id": 487,
+            "start_ms": 1495679,
+            "end_ms": 1500000,
+            "text": "that you do it like this you see the"
+          },
+          {
+            "cue_id": 513,
+            "start_ms": 1555840,
+            "end_ms": 1562880,
+            "text": "you can go through and show their random"
+          },
+          {
+            "cue_id": 514,
+            "start_ms": 1558720,
+            "end_ms": 1566559,
+            "text": "then cut the five to the bottom like so"
+          },
+          {
+            "cue_id": 532,
+            "start_ms": 1620960,
+            "end_ms": 1626559,
+            "text": "q u d e n"
+          },
+          {
+            "cue_id": 533,
+            "start_ms": 1624640,
+            "end_ms": 1628320,
+            "text": "and for the last card if you want you"
+          },
+          {
+            "cue_id": 557,
+            "start_ms": 1688960,
+            "end_ms": 1692880,
+            "text": "and what we are going to need for this"
+          },
+          {
+            "cue_id": 558,
+            "start_ms": 1690559,
+            "end_ms": 1696320,
+            "text": "trick is"
+          },
+          {
+            "cue_id": 578,
+            "start_ms": 1755520,
+            "end_ms": 1759919,
+            "text": "piles"
+          },
+          {
+            "cue_id": 579,
+            "start_ms": 1756320,
+            "end_ms": 1763200,
+            "text": "like so now if you notice"
+          },
+          {
+            "cue_id": 601,
+            "start_ms": 1814720,
+            "end_ms": 1821840,
+            "text": "what i'm gonna do is take our"
+          },
+          {
+            "cue_id": 602,
+            "start_ms": 1818159,
+            "end_ms": 1823840,
+            "text": "a spoil put the ace of clubs above it to"
+          },
+          {
+            "cue_id": 627,
+            "start_ms": 1879919,
+            "end_ms": 1887120,
+            "text": "random guards they have followed"
+          },
+          {
+            "cue_id": 628,
+            "start_ms": 1883200,
+            "end_ms": 1890840,
+            "text": "the random leader the three of diamonds"
+          },
+          {
+            "cue_id": 644,
+            "start_ms": 1947519,
+            "end_ms": 1952320,
+            "text": "big thumbs up on tonight's video your"
+          },
+          {
+            "cue_id": 645,
+            "start_ms": 1950240,
+            "end_ms": 1954640,
+            "text": "support really means a lot"
+          },
+          {
+            "cue_id": 665,
+            "start_ms": 2015399,
+            "end_ms": 2018399,
+            "text": "member"
+          }
+        ],
+        "text": "so these are the exact coins from\ninside my wallet and i am going to take\nto the other side let's try this again\nand if you actually listen very\neverybody everybody everybody everybody\neverybody everybody\nso make sure you are all ducked into bed\nlater on tonight i'm going to be\nteaching you\nfor this next trick\ni need a very special\nour two black jacks face up\nand put the joker face down\nyou want a stick okay that's a great\nchoice because what we're gonna do\nand that's because it can actually\ntransform into\na pile full of diamonds\nand we also have a pile full\ncompletely random so we have no idea\nwhere any guard is and the first way i'm\nwant we can give them\nsome guts\nthese back to where we started\ninto three piles\nmathematics\nworks for this trick\ntake out oh did i miss any no i got the\nace\nlet's try this again with the do\nwe go d w\nthe nine d e\nn there's ten\nthen stay tuned because\nit's so so so easy to do\nsix queen\na's seven eight and three\nd w o the next card's a 2\nd h r e e and then we go back to the top\nspectator\nsay you've got a deck of cards and\nimportant\nthat you do it like this you see the\nyou can go through and show their random\nthen cut the five to the bottom like so\nq u d e n\nand for the last card if you want you\nand what we are going to need for this\ntrick is\npiles\nlike so now if you notice\nwhat i'm gonna do is take our\na spoil put the ace of clubs above it to\nrandom guards they have followed\nthe random leader the three of diamonds\nbig thumbs up on tonight's video your\nsupport really means a lot\nmember",
+        "text_tokens": 408,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 55840,
+          "end_ms": 74799,
+          "text": "teleporting teleport so these are the exact coins from inside my wallet and i am going to take one two three"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 122719,
+          "end_ms": 137120,
+          "text": "teleports across to the other side let's try this again and if you actually listen very carefully"
+        },
+        {
+          "id": "S54",
+          "cue_ids": [
+            54,
+            55,
+            56
+          ],
+          "start_ms": 186090,
+          "end_ms": 199840,
+          "text": "[Music] everybody everybody everybody everybody everybody everybody"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68,
+            69
+          ],
+          "start_ms": 250879,
+          "end_ms": 268479,
+          "text": "will fool you so make sure you are all ducked into bed you've got your earphones on"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95,
+            96
+          ],
+          "start_ms": 319840,
+          "end_ms": 330560,
+          "text": "of tutorials later on tonight i'm going to be teaching you a really smart card trick that's really"
+        },
+        {
+          "id": "S114",
+          "cue_ids": [
+            114,
+            115,
+            116,
+            117
+          ],
+          "start_ms": 375280,
+          "end_ms": 399440,
+          "text": "and enjoy the magic show for this next trick i need a very special wild card a wild card a very special"
+        },
+        {
+          "id": "S134",
+          "cue_ids": [
+            134,
+            135,
+            136,
+            137
+          ],
+          "start_ms": 448400,
+          "end_ms": 461360,
+          "text": "cards up is we're going to take our two black jacks face up and put the joker face down in between like so and that will go on"
+        },
+        {
+          "id": "S161",
+          "cue_ids": [
+            161,
+            162,
+            163,
+            164
+          ],
+          "start_ms": 514559,
+          "end_ms": 529360,
+          "text": "or do you want to stick with the seven you want a stick okay that's a great choice because what we're gonna do is we're gonna take ear seven"
+        },
+        {
+          "id": "S182",
+          "cue_ids": [
+            182,
+            183,
+            184,
+            185
+          ],
+          "start_ms": 578560,
+          "end_ms": 593760,
+          "text": "card and that's because it can actually transform into other guards you see"
+        },
+        {
+          "id": "S199",
+          "cue_ids": [
+            199,
+            200,
+            201,
+            202
+          ],
+          "start_ms": 639920,
+          "end_ms": 654880,
+          "text": "and the two other piles we have a pile full of diamonds and we also have a pile full of gloves"
+        },
+        {
+          "id": "S223",
+          "cue_ids": [
+            223,
+            224,
+            225,
+            226
+          ],
+          "start_ms": 708320,
+          "end_ms": 720320,
+          "text": "cards completely random so we have no idea where any guard is and the first way i'm gonna do that"
+        },
+        {
+          "id": "S248",
+          "cue_ids": [
+            248,
+            249,
+            250,
+            251
+          ],
+          "start_ms": 776320,
+          "end_ms": 789600,
+          "text": "we can even mix them up in any way we want we can give them some guts there's our king got a good god"
+        },
+        {
+          "id": "S269",
+          "cue_ids": [
+            269,
+            270,
+            271,
+            272
+          ],
+          "start_ms": 837279,
+          "end_ms": 854079,
+          "text": "because what i'm gonna do now is deal these back to where we started into three piles we'll go file number one file number two"
+        },
+        {
+          "id": "S312",
+          "cue_ids": [
+            312,
+            313,
+            314,
+            315
+          ],
+          "start_ms": 969120,
+          "end_ms": 980880,
+          "text": "but i will also actually explain how the mathematics works for this trick now for this trick i'm going to be using"
+        },
+        {
+          "id": "S333",
+          "cue_ids": [
+            333,
+            334,
+            335,
+            336
+          ],
+          "start_ms": 1035199,
+          "end_ms": 1045119,
+          "text": "my stomach makes noises take out oh did i miss any no i got the ace um then we got these seven"
+        },
+        {
+          "id": "S357",
+          "cue_ids": [
+            357,
+            358,
+            359,
+            360
+          ],
+          "start_ms": 1101600,
+          "end_ms": 1116720,
+          "text": "right let's try this again with the do we go d w o i know the top card"
+        },
+        {
+          "id": "S374",
+          "cue_ids": [
+            374,
+            375,
+            376,
+            377
+          ],
+          "start_ms": 1162400,
+          "end_ms": 1179120,
+          "text": "and i n e gives us the nine d e n there's ten now we have jack so j a c"
+        },
+        {
+          "id": "S392",
+          "cue_ids": [
+            392,
+            393,
+            394,
+            395
+          ],
+          "start_ms": 1230080,
+          "end_ms": 1242559,
+          "text": "but if you do want to know how it's done then stay tuned because it's so so so easy to do all right you guys ready you can"
+        },
+        {
+          "id": "S416",
+          "cue_ids": [
+            416,
+            417,
+            418,
+            419
+          ],
+          "start_ms": 1293440,
+          "end_ms": 1311919,
+          "text": "do four six queen a's seven eight and three so again the order"
+        },
+        {
+          "id": "S435",
+          "cue_ids": [
+            435,
+            436,
+            437,
+            438
+          ],
+          "start_ms": 1354480,
+          "end_ms": 1371039,
+          "text": "the next card's an a's d w o the next card's a 2 d h r e e and then we go back to the top the next card's at 3. now you have to"
+        },
+        {
+          "id": "S460",
+          "cue_ids": [
+            460,
+            461,
+            462,
+            463
+          ],
+          "start_ms": 1426480,
+          "end_ms": 1440559,
+          "text": "on the bottom now you can go up to your spectator say you've got a deck of cards and here's the cool part of this trick"
+        },
+        {
+          "id": "S485",
+          "cue_ids": [
+            485,
+            486,
+            487,
+            488
+          ],
+          "start_ms": 1492320,
+          "end_ms": 1503600,
+          "text": "now when you take out the clubs it's important that you do it like this you see the reason we reverse the order"
+        },
+        {
+          "id": "S512",
+          "cue_ids": [
+            512,
+            513,
+            514,
+            515
+          ],
+          "start_ms": 1553279,
+          "end_ms": 1570000,
+          "text": "you want the five to be on the bottom so you can go through and show their random then cut the five to the bottom like so that way it will still be in our order"
+        },
+        {
+          "id": "S531",
+          "cue_ids": [
+            531,
+            532,
+            533,
+            534
+          ],
+          "start_ms": 1617200,
+          "end_ms": 1632320,
+          "text": "j a c k q u d e n and for the last card if you want you can just turn it over"
+        },
+        {
+          "id": "S556",
+          "cue_ids": [
+            556,
+            557,
+            558,
+            559
+          ],
+          "start_ms": 1685120,
+          "end_ms": 1699600,
+          "text": "the four aces and what we are going to need for this trick is three random cards for each"
+        },
+        {
+          "id": "S577",
+          "cue_ids": [
+            577,
+            578,
+            579,
+            580
+          ],
+          "start_ms": 1753279,
+          "end_ms": 1766159,
+          "text": "and i'm just gonna gather up all the piles like so now if you notice we will have an ace every"
+        },
+        {
+          "id": "S600",
+          "cue_ids": [
+            600,
+            601,
+            602,
+            603
+          ],
+          "start_ms": 1811440,
+          "end_ms": 1825120,
+          "text": "ace nice now what i'm gonna do is take our a spoil put the ace of clubs above it to mark it as the ace so you don't lose"
+        },
+        {
+          "id": "S626",
+          "cue_ids": [
+            626,
+            627,
+            628,
+            629
+          ],
+          "start_ms": 1875600,
+          "end_ms": 1894960,
+          "text": "they have no turned into three random guards they have followed the random leader the three of diamonds and the three random guards have also"
+        },
+        {
+          "id": "S643",
+          "cue_ids": [
+            643,
+            644,
+            645,
+            646
+          ],
+          "start_ms": 1943760,
+          "end_ms": 1956960,
+          "text": "and also drop a big thumbs up on tonight's video your support really means a lot and i really do enjoy making these card"
+        },
+        {
+          "id": "S664",
+          "cue_ids": [
+            664,
+            665
+          ],
+          "start_ms": 2008480,
+          "end_ms": 2018399,
+          "text": "thank you all so much for becoming a member"
+        }
+      ],
+      "text": "S17 [00:00:55.840 --> 00:01:14.799] teleporting teleport so these are the exact coins from inside my wallet and i am going to take one two three\nS37 [00:02:02.719 --> 00:02:17.120] teleports across to the other side let's try this again and if you actually listen very carefully\nS54 [00:03:06.090 --> 00:03:19.840] [Music] everybody everybody everybody everybody everybody everybody\nS67 [00:04:10.879 --> 00:04:28.479] will fool you so make sure you are all ducked into bed you've got your earphones on\nS93 [00:05:19.840 --> 00:05:30.560] of tutorials later on tonight i'm going to be teaching you a really smart card trick that's really\nS114 [00:06:15.280 --> 00:06:39.440] and enjoy the magic show for this next trick i need a very special wild card a wild card a very special\nS134 [00:07:28.400 --> 00:07:41.360] cards up is we're going to take our two black jacks face up and put the joker face down in between like so and that will go on\nS161 [00:08:34.559 --> 00:08:49.360] or do you want to stick with the seven you want a stick okay that's a great choice because what we're gonna do is we're gonna take ear seven\nS182 [00:09:38.560 --> 00:09:53.760] card and that's because it can actually transform into other guards you see\nS199 [00:10:39.920 --> 00:10:54.880] and the two other piles we have a pile full of diamonds and we also have a pile full of gloves\nS223 [00:11:48.320 --> 00:12:00.320] cards completely random so we have no idea where any guard is and the first way i'm gonna do that\nS248 [00:12:56.320 --> 00:13:09.600] we can even mix them up in any way we want we can give them some guts there's our king got a good god\nS269 [00:13:57.279 --> 00:14:14.079] because what i'm gonna do now is deal these back to where we started into three piles we'll go file number one file number two\nS312 [00:16:09.120 --> 00:16:20.880] but i will also actually explain how the mathematics works for this trick now for this trick i'm going to be using\nS333 [00:17:15.199 --> 00:17:25.119] my stomach makes noises take out oh did i miss any no i got the ace um then we got these seven\nS357 [00:18:21.600 --> 00:18:36.720] right let's try this again with the do we go d w o i know the top card\nS374 [00:19:22.400 --> 00:19:39.120] and i n e gives us the nine d e n there's ten now we have jack so j a c\nS392 [00:20:30.080 --> 00:20:42.559] but if you do want to know how it's done then stay tuned because it's so so so easy to do all right you guys ready you can\nS416 [00:21:33.440 --> 00:21:51.919] do four six queen a's seven eight and three so again the order\nS435 [00:22:34.480 --> 00:22:51.039] the next card's an a's d w o the next card's a 2 d h r e e and then we go back to the top the next card's at 3. now you have to\nS460 [00:23:46.480 --> 00:24:00.559] on the bottom now you can go up to your spectator say you've got a deck of cards and here's the cool part of this trick\nS485 [00:24:52.320 --> 00:25:03.600] now when you take out the clubs it's important that you do it like this you see the reason we reverse the order\nS512 [00:25:53.279 --> 00:26:10.000] you want the five to be on the bottom so you can go through and show their random then cut the five to the bottom like so that way it will still be in our order\nS531 [00:26:57.200 --> 00:27:12.320] j a c k q u d e n and for the last card if you want you can just turn it over\nS556 [00:28:05.120 --> 00:28:19.600] the four aces and what we are going to need for this trick is three random cards for each\nS577 [00:29:13.279 --> 00:29:26.159] and i'm just gonna gather up all the piles like so now if you notice we will have an ace every\nS600 [00:30:11.440 --> 00:30:25.120] ace nice now what i'm gonna do is take our a spoil put the ace of clubs above it to mark it as the ace so you don't lose\nS626 [00:31:15.600 --> 00:31:34.960] they have no turned into three random guards they have followed the random leader the three of diamonds and the three random guards have also\nS643 [00:32:23.760 --> 00:32:36.960] and also drop a big thumbs up on tonight's video your support really means a lot and i really do enjoy making these card\nS664 [00:33:28.480 --> 00:33:38.399] thank you all so much for becoming a member",
+      "text_tokens": 1682,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        17,
+        20,
+        37,
+        40,
+        54,
+        67,
+        69,
+        93,
+        96,
+        114,
+        117,
+        134,
+        137,
+        161,
+        164,
+        182,
+        185,
+        199,
+        202,
+        223,
+        226,
+        248,
+        251,
+        269,
+        272,
+        312,
+        315,
+        333,
+        336,
+        357,
+        360,
+        374,
+        377,
+        392,
+        395,
+        416,
+        419,
+        435,
+        438,
+        460,
+        463,
+        485,
+        488,
+        512,
+        515,
+        531,
+        534,
+        556,
+        559,
+        577,
+        580,
+        600,
+        603,
+        626,
+        629,
+        643,
+        646,
+        664
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e01e26ad74ef5bd3f252ac7aaf7ae68894a55ab03857e982f2542dbe39eb6f58"
+}

@@ -1,0 +1,1583 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "3MJNKd10kxM",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3MJNKd10kxM.srt",
+        "status": "available",
+        "bytes": 69211,
+        "sha256": "989db5ef32cf0edf4b53591ce926893aad696f32ee1e054e0432635ba7fd7c15",
+        "cues": 627,
+        "nonempty_cues": 627
+      },
+      "frame_indices": [
+        0,
+        1868,
+        3737,
+        5605,
+        7473,
+        9342,
+        11210,
+        13078,
+        14947,
+        16815,
+        18684,
+        20552,
+        22420,
+        24289,
+        26157,
+        28025,
+        29894,
+        31762,
+        33630,
+        35499,
+        37367,
+        39235,
+        41104,
+        42972,
+        44841,
+        46709,
+        48577,
+        50446,
+        52314,
+        54182,
+        56051,
+        57919
+      ],
+      "frame_seconds": [
+        0.0,
+        62.266667,
+        124.566667,
+        186.833333,
+        249.1,
+        311.4,
+        373.666667,
+        435.933333,
+        498.233333,
+        560.5,
+        622.8,
+        685.066667,
+        747.333333,
+        809.633333,
+        871.9,
+        934.166667,
+        996.466667,
+        1058.733333,
+        1121.0,
+        1183.3,
+        1245.566667,
+        1307.833333,
+        1370.133333,
+        1432.4,
+        1494.7,
+        1556.966667,
+        1619.233333,
+        1681.533333,
+        1743.8,
+        1806.066667,
+        1868.366667,
+        1930.633333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          21,
+          22
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          63
+        ],
+        [
+          76,
+          77
+        ],
+        [
+          98,
+          99
+        ],
+        [
+          112,
+          113
+        ],
+        [
+          135,
+          136
+        ],
+        [
+          153,
+          154
+        ],
+        [
+          176,
+          177
+        ],
+        [
+          194,
+          195
+        ],
+        [
+          218,
+          219
+        ],
+        [
+          240,
+          241
+        ],
+        [
+          264,
+          265
+        ],
+        [
+          276,
+          277
+        ],
+        [
+          299,
+          300
+        ],
+        [
+          321,
+          322
+        ],
+        [
+          341,
+          342
+        ],
+        [
+          363,
+          364
+        ],
+        [
+          380,
+          381
+        ],
+        [
+          400,
+          401
+        ],
+        [
+          415,
+          416
+        ],
+        [
+          438,
+          439
+        ],
+        [
+          461,
+          462
+        ],
+        [
+          477,
+          478
+        ],
+        [
+          498,
+          499
+        ],
+        [
+          519,
+          520
+        ],
+        [
+          543,
+          544
+        ],
+        [
+          561,
+          562
+        ],
+        [
+          584,
+          585
+        ],
+        [
+          608,
+          609
+        ],
+        [
+          627
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 21,
+          "start_ms": 57480,
+          "end_ms": 62640,
+          "text": "you have from the Valentine section um"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 60320,
+          "end_ms": 65720,
+          "text": "or you can definitely cut it out of foam"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 120200,
+          "end_ms": 125360,
+          "text": "heart just in different places kind of"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 122479,
+          "end_ms": 129800,
+          "text": "like where it would be kind of like a"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 185170,
+          "end_ms": 201939,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 243480,
+          "end_ms": 249159,
+          "text": "nicely so if you don't have you know a"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 246519,
+          "end_ms": 251959,
+          "text": "drill or don't want to pull it out uh"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 305120,
+          "end_ms": 312400,
+          "text": "bendable and I really like you know the"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 308919,
+          "end_ms": 313680,
+          "text": "the grade that it is and so I just am"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 369000,
+          "end_ms": 374240,
+          "text": "blossoms from the Dollar Tree as well as"
+        },
+        {
+          "cue_id": 113,
+          "start_ms": 371880,
+          "end_ms": 378039,
+          "text": "some of these pink wild flowers The"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 432360,
+          "end_ms": 438360,
+          "text": "wispiness uh to the project and I just"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 435879,
+          "end_ms": 438360,
+          "text": "like that"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 493680,
+          "end_ms": 498520,
+          "text": "encourage you to think outside of the"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 495280,
+          "end_ms": 501400,
+          "text": "box and use what you may already have so"
+        },
+        {
+          "cue_id": 176,
+          "start_ms": 554600,
+          "end_ms": 560680,
+          "text": "little knot and then I'm going to cover"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 556959,
+          "end_ms": 562880,
+          "text": "up that hole that's in the wood heart"
+        },
+        {
+          "cue_id": 194,
+          "start_ms": 616279,
+          "end_ms": 624519,
+          "text": "section so I am Cho chalking up to a bad"
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 620680,
+          "end_ms": 625880,
+          "text": "can uh when I previously did this uh"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 680519,
+          "end_ms": 686959,
+          "text": "love using it but that's a little update"
+        },
+        {
+          "cue_id": 219,
+          "start_ms": 682399,
+          "end_ms": 690040,
+          "text": "for you different textures and Greenery"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 742320,
+          "end_ms": 747760,
+          "text": "I I do have these signs in my Amazon"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 745040,
+          "end_ms": 749399,
+          "text": "shop but I they're a little bit longer"
+        },
+        {
+          "cue_id": 264,
+          "start_ms": 806480,
+          "end_ms": 812480,
+          "text": "some stain to it with a baby WI"
+        },
+        {
+          "cue_id": 265,
+          "start_ms": 809399,
+          "end_ms": 814720,
+          "text": "and then um once I get that all stained"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 867279,
+          "end_ms": 873000,
+          "text": "glue the Styrofoam in the bucket and so"
+        },
+        {
+          "cue_id": 277,
+          "start_ms": 870600,
+          "end_ms": 875839,
+          "text": "as I was looking at this I was thinking"
+        },
+        {
+          "cue_id": 299,
+          "start_ms": 931360,
+          "end_ms": 936480,
+          "text": "distressing have some of that natural"
+        },
+        {
+          "cue_id": 300,
+          "start_ms": 933519,
+          "end_ms": 938600,
+          "text": "wood come through so I'm just taking my"
+        },
+        {
+          "cue_id": 321,
+          "start_ms": 991480,
+          "end_ms": 997240,
+          "text": "attach the plant label to the back of my"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 994279,
+          "end_ms": 1000279,
+          "text": "bunny um the plant label is just a tad"
+        },
+        {
+          "cue_id": 341,
+          "start_ms": 1053440,
+          "end_ms": 1059120,
+          "text": "Tree and I just decided to add it to my"
+        },
+        {
+          "cue_id": 342,
+          "start_ms": 1057039,
+          "end_ms": 1060600,
+          "text": "little tin bucket Arrangement here"
+        },
+        {
+          "cue_id": 363,
+          "start_ms": 1114880,
+          "end_ms": 1121280,
+          "text": "into the styrofoam now um I got my steel"
+        },
+        {
+          "cue_id": 364,
+          "start_ms": 1118120,
+          "end_ms": 1123840,
+          "text": "piix machine from Hobby Lobby um it is"
+        },
+        {
+          "cue_id": 380,
+          "start_ms": 1178039,
+          "end_ms": 1184200,
+          "text": "hot gluing them randomly sporadically"
+        },
+        {
+          "cue_id": 381,
+          "start_ms": 1181520,
+          "end_ms": 1186919,
+          "text": "throughout the little grass um I've"
+        },
+        {
+          "cue_id": 400,
+          "start_ms": 1239320,
+          "end_ms": 1256430,
+          "text": "they look really"
+        },
+        {
+          "cue_id": 401,
+          "start_ms": 1240980,
+          "end_ms": 1256430,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 415,
+          "start_ms": 1304600,
+          "end_ms": 1309000,
+          "text": "I decided to go with the medium tin"
+        },
+        {
+          "cue_id": 416,
+          "start_ms": 1306720,
+          "end_ms": 1311240,
+          "text": "Bucket from Hobby Lobby instead of just"
+        },
+        {
+          "cue_id": 438,
+          "start_ms": 1366200,
+          "end_ms": 1372360,
+          "text": "using some Excel Seer I love the fine"
+        },
+        {
+          "cue_id": 439,
+          "start_ms": 1369200,
+          "end_ms": 1374480,
+          "text": "Excel Seer it's kind of like hey also"
+        },
+        {
+          "cue_id": 461,
+          "start_ms": 1426200,
+          "end_ms": 1434159,
+          "text": "place in the styrofoam and this is just"
+        },
+        {
+          "cue_id": 462,
+          "start_ms": 1429840,
+          "end_ms": 1437360,
+          "text": "the perfect little floral arrangement to"
+        },
+        {
+          "cue_id": 477,
+          "start_ms": 1490320,
+          "end_ms": 1496200,
+          "text": "take my pen something that I can see and"
+        },
+        {
+          "cue_id": 478,
+          "start_ms": 1493480,
+          "end_ms": 1498120,
+          "text": "then just um carefully draw around the"
+        },
+        {
+          "cue_id": 498,
+          "start_ms": 1550159,
+          "end_ms": 1557080,
+          "text": "peel up for the banner of uh in front of"
+        },
+        {
+          "cue_id": 499,
+          "start_ms": 1554440,
+          "end_ms": 1560600,
+          "text": "my basket what I started with is this"
+        },
+        {
+          "cue_id": 519,
+          "start_ms": 1613120,
+          "end_ms": 1619279,
+          "text": "I'm just using this uh purple color it's"
+        },
+        {
+          "cue_id": 520,
+          "start_ms": 1616640,
+          "end_ms": 1622600,
+          "text": "uh the color lav lavender and I just"
+        },
+        {
+          "cue_id": 543,
+          "start_ms": 1678399,
+          "end_ms": 1683600,
+          "text": "left it the color that it is and so then"
+        },
+        {
+          "cue_id": 544,
+          "start_ms": 1680880,
+          "end_ms": 1686399,
+          "text": "I'm just going to glue these uh penants"
+        },
+        {
+          "cue_id": 561,
+          "start_ms": 1741279,
+          "end_ms": 1747039,
+          "text": "I have the best luck finding it at"
+        },
+        {
+          "cue_id": 562,
+          "start_ms": 1743399,
+          "end_ms": 1750360,
+          "text": "Joann's craft store and uh what I do is"
+        },
+        {
+          "cue_id": 584,
+          "start_ms": 1802360,
+          "end_ms": 1807240,
+          "text": "my bunny stands up and that you know"
+        },
+        {
+          "cue_id": 585,
+          "start_ms": 1804440,
+          "end_ms": 1808840,
+          "text": "everything is you know proportion so"
+        },
+        {
+          "cue_id": 608,
+          "start_ms": 1864519,
+          "end_ms": 1869320,
+          "text": "from Walmart and so I just crisscross"
+        },
+        {
+          "cue_id": 609,
+          "start_ms": 1867039,
+          "end_ms": 1872320,
+          "text": "those until I like the look and then I"
+        },
+        {
+          "cue_id": 627,
+          "start_ms": 1929600,
+          "end_ms": 1932600,
+          "text": "for"
+        }
+      ],
+      "text": "you have from the Valentine section um\nor you can definitely cut it out of foam\nheart just in different places kind of\nlike where it would be kind of like a\n[Music]\nnicely so if you don't have you know a\ndrill or don't want to pull it out uh\nbendable and I really like you know the\nthe grade that it is and so I just am\nblossoms from the Dollar Tree as well as\nsome of these pink wild flowers The\nwispiness uh to the project and I just\nlike that\nencourage you to think outside of the\nbox and use what you may already have so\nlittle knot and then I'm going to cover\nup that hole that's in the wood heart\nsection so I am Cho chalking up to a bad\ncan uh when I previously did this uh\nlove using it but that's a little update\nfor you different textures and Greenery\nI I do have these signs in my Amazon\nshop but I they're a little bit longer\nsome stain to it with a baby WI\nand then um once I get that all stained\nglue the Styrofoam in the bucket and so\nas I was looking at this I was thinking\ndistressing have some of that natural\nwood come through so I'm just taking my\nattach the plant label to the back of my\nbunny um the plant label is just a tad\nTree and I just decided to add it to my\nlittle tin bucket Arrangement here\ninto the styrofoam now um I got my steel\npiix machine from Hobby Lobby um it is\nhot gluing them randomly sporadically\nthroughout the little grass um I've\nthey look really\n[Music]\nI decided to go with the medium tin\nBucket from Hobby Lobby instead of just\nusing some Excel Seer I love the fine\nExcel Seer it's kind of like hey also\nplace in the styrofoam and this is just\nthe perfect little floral arrangement to\ntake my pen something that I can see and\nthen just um carefully draw around the\npeel up for the banner of uh in front of\nmy basket what I started with is this\nI'm just using this uh purple color it's\nuh the color lav lavender and I just\nleft it the color that it is and so then\nI'm just going to glue these uh penants\nI have the best luck finding it at\nJoann's craft store and uh what I do is\nmy bunny stands up and that you know\neverything is you know proportion so\nfrom Walmart and so I just crisscross\nthose until I like the look and then I\nfor",
+      "text_tokens": 559,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "3MJNKd10kxM",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3MJNKd10kxM.srt",
+          "status": "available",
+          "bytes": 69211,
+          "sha256": "989db5ef32cf0edf4b53591ce926893aad696f32ee1e054e0432635ba7fd7c15",
+          "cues": 627,
+          "nonempty_cues": 627
+        },
+        "frame_indices": [
+          0,
+          1868,
+          3737,
+          5605,
+          7473,
+          9342,
+          11210,
+          13078,
+          14947,
+          16815,
+          18684,
+          20552,
+          22420,
+          24289,
+          26157,
+          28025,
+          29894,
+          31762,
+          33630,
+          35499,
+          37367,
+          39235,
+          41104,
+          42972,
+          44841,
+          46709,
+          48577,
+          50446,
+          52314,
+          54182,
+          56051,
+          57919
+        ],
+        "frame_seconds": [
+          0.0,
+          62.266667,
+          124.566667,
+          186.833333,
+          249.1,
+          311.4,
+          373.666667,
+          435.933333,
+          498.233333,
+          560.5,
+          622.8,
+          685.066667,
+          747.333333,
+          809.633333,
+          871.9,
+          934.166667,
+          996.466667,
+          1058.733333,
+          1121.0,
+          1183.3,
+          1245.566667,
+          1307.833333,
+          1370.133333,
+          1432.4,
+          1494.7,
+          1556.966667,
+          1619.233333,
+          1681.533333,
+          1743.8,
+          1806.066667,
+          1868.366667,
+          1930.633333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            21,
+            22
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            63
+          ],
+          [
+            76,
+            77
+          ],
+          [
+            98,
+            99
+          ],
+          [
+            112,
+            113
+          ],
+          [
+            135,
+            136
+          ],
+          [
+            153,
+            154
+          ],
+          [
+            176,
+            177
+          ],
+          [
+            194,
+            195
+          ],
+          [
+            218,
+            219
+          ],
+          [
+            240,
+            241
+          ],
+          [
+            264,
+            265
+          ],
+          [
+            276,
+            277
+          ],
+          [
+            299,
+            300
+          ],
+          [
+            321,
+            322
+          ],
+          [
+            341,
+            342
+          ],
+          [
+            363,
+            364
+          ],
+          [
+            380,
+            381
+          ],
+          [
+            400,
+            401
+          ],
+          [
+            415,
+            416
+          ],
+          [
+            438,
+            439
+          ],
+          [
+            461,
+            462
+          ],
+          [
+            477,
+            478
+          ],
+          [
+            498,
+            499
+          ],
+          [
+            519,
+            520
+          ],
+          [
+            543,
+            544
+          ],
+          [
+            561,
+            562
+          ],
+          [
+            584,
+            585
+          ],
+          [
+            608,
+            609
+          ],
+          [
+            627
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 21,
+            "start_ms": 57480,
+            "end_ms": 62640,
+            "text": "you have from the Valentine section um"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 60320,
+            "end_ms": 65720,
+            "text": "or you can definitely cut it out of foam"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 120200,
+            "end_ms": 125360,
+            "text": "heart just in different places kind of"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 122479,
+            "end_ms": 129800,
+            "text": "like where it would be kind of like a"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 185170,
+            "end_ms": 201939,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 243480,
+            "end_ms": 249159,
+            "text": "nicely so if you don't have you know a"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 246519,
+            "end_ms": 251959,
+            "text": "drill or don't want to pull it out uh"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 305120,
+            "end_ms": 312400,
+            "text": "bendable and I really like you know the"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 308919,
+            "end_ms": 313680,
+            "text": "the grade that it is and so I just am"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 369000,
+            "end_ms": 374240,
+            "text": "blossoms from the Dollar Tree as well as"
+          },
+          {
+            "cue_id": 113,
+            "start_ms": 371880,
+            "end_ms": 378039,
+            "text": "some of these pink wild flowers The"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 432360,
+            "end_ms": 438360,
+            "text": "wispiness uh to the project and I just"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 435879,
+            "end_ms": 438360,
+            "text": "like that"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 493680,
+            "end_ms": 498520,
+            "text": "encourage you to think outside of the"
+          },
+          {
+            "cue_id": 154,
+            "start_ms": 495280,
+            "end_ms": 501400,
+            "text": "box and use what you may already have so"
+          },
+          {
+            "cue_id": 176,
+            "start_ms": 554600,
+            "end_ms": 560680,
+            "text": "little knot and then I'm going to cover"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 556959,
+            "end_ms": 562880,
+            "text": "up that hole that's in the wood heart"
+          },
+          {
+            "cue_id": 194,
+            "start_ms": 616279,
+            "end_ms": 624519,
+            "text": "section so I am Cho chalking up to a bad"
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 620680,
+            "end_ms": 625880,
+            "text": "can uh when I previously did this uh"
+          },
+          {
+            "cue_id": 218,
+            "start_ms": 680519,
+            "end_ms": 686959,
+            "text": "love using it but that's a little update"
+          },
+          {
+            "cue_id": 219,
+            "start_ms": 682399,
+            "end_ms": 690040,
+            "text": "for you different textures and Greenery"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 742320,
+            "end_ms": 747760,
+            "text": "I I do have these signs in my Amazon"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 745040,
+            "end_ms": 749399,
+            "text": "shop but I they're a little bit longer"
+          },
+          {
+            "cue_id": 264,
+            "start_ms": 806480,
+            "end_ms": 812480,
+            "text": "some stain to it with a baby WI"
+          },
+          {
+            "cue_id": 265,
+            "start_ms": 809399,
+            "end_ms": 814720,
+            "text": "and then um once I get that all stained"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 867279,
+            "end_ms": 873000,
+            "text": "glue the Styrofoam in the bucket and so"
+          },
+          {
+            "cue_id": 277,
+            "start_ms": 870600,
+            "end_ms": 875839,
+            "text": "as I was looking at this I was thinking"
+          },
+          {
+            "cue_id": 299,
+            "start_ms": 931360,
+            "end_ms": 936480,
+            "text": "distressing have some of that natural"
+          },
+          {
+            "cue_id": 300,
+            "start_ms": 933519,
+            "end_ms": 938600,
+            "text": "wood come through so I'm just taking my"
+          },
+          {
+            "cue_id": 321,
+            "start_ms": 991480,
+            "end_ms": 997240,
+            "text": "attach the plant label to the back of my"
+          },
+          {
+            "cue_id": 322,
+            "start_ms": 994279,
+            "end_ms": 1000279,
+            "text": "bunny um the plant label is just a tad"
+          },
+          {
+            "cue_id": 341,
+            "start_ms": 1053440,
+            "end_ms": 1059120,
+            "text": "Tree and I just decided to add it to my"
+          },
+          {
+            "cue_id": 342,
+            "start_ms": 1057039,
+            "end_ms": 1060600,
+            "text": "little tin bucket Arrangement here"
+          },
+          {
+            "cue_id": 363,
+            "start_ms": 1114880,
+            "end_ms": 1121280,
+            "text": "into the styrofoam now um I got my steel"
+          },
+          {
+            "cue_id": 364,
+            "start_ms": 1118120,
+            "end_ms": 1123840,
+            "text": "piix machine from Hobby Lobby um it is"
+          },
+          {
+            "cue_id": 380,
+            "start_ms": 1178039,
+            "end_ms": 1184200,
+            "text": "hot gluing them randomly sporadically"
+          },
+          {
+            "cue_id": 381,
+            "start_ms": 1181520,
+            "end_ms": 1186919,
+            "text": "throughout the little grass um I've"
+          },
+          {
+            "cue_id": 400,
+            "start_ms": 1239320,
+            "end_ms": 1256430,
+            "text": "they look really"
+          },
+          {
+            "cue_id": 401,
+            "start_ms": 1240980,
+            "end_ms": 1256430,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 415,
+            "start_ms": 1304600,
+            "end_ms": 1309000,
+            "text": "I decided to go with the medium tin"
+          },
+          {
+            "cue_id": 416,
+            "start_ms": 1306720,
+            "end_ms": 1311240,
+            "text": "Bucket from Hobby Lobby instead of just"
+          },
+          {
+            "cue_id": 438,
+            "start_ms": 1366200,
+            "end_ms": 1372360,
+            "text": "using some Excel Seer I love the fine"
+          },
+          {
+            "cue_id": 439,
+            "start_ms": 1369200,
+            "end_ms": 1374480,
+            "text": "Excel Seer it's kind of like hey also"
+          },
+          {
+            "cue_id": 461,
+            "start_ms": 1426200,
+            "end_ms": 1434159,
+            "text": "place in the styrofoam and this is just"
+          },
+          {
+            "cue_id": 462,
+            "start_ms": 1429840,
+            "end_ms": 1437360,
+            "text": "the perfect little floral arrangement to"
+          },
+          {
+            "cue_id": 477,
+            "start_ms": 1490320,
+            "end_ms": 1496200,
+            "text": "take my pen something that I can see and"
+          },
+          {
+            "cue_id": 478,
+            "start_ms": 1493480,
+            "end_ms": 1498120,
+            "text": "then just um carefully draw around the"
+          },
+          {
+            "cue_id": 498,
+            "start_ms": 1550159,
+            "end_ms": 1557080,
+            "text": "peel up for the banner of uh in front of"
+          },
+          {
+            "cue_id": 499,
+            "start_ms": 1554440,
+            "end_ms": 1560600,
+            "text": "my basket what I started with is this"
+          },
+          {
+            "cue_id": 519,
+            "start_ms": 1613120,
+            "end_ms": 1619279,
+            "text": "I'm just using this uh purple color it's"
+          },
+          {
+            "cue_id": 520,
+            "start_ms": 1616640,
+            "end_ms": 1622600,
+            "text": "uh the color lav lavender and I just"
+          },
+          {
+            "cue_id": 543,
+            "start_ms": 1678399,
+            "end_ms": 1683600,
+            "text": "left it the color that it is and so then"
+          },
+          {
+            "cue_id": 544,
+            "start_ms": 1680880,
+            "end_ms": 1686399,
+            "text": "I'm just going to glue these uh penants"
+          },
+          {
+            "cue_id": 561,
+            "start_ms": 1741279,
+            "end_ms": 1747039,
+            "text": "I have the best luck finding it at"
+          },
+          {
+            "cue_id": 562,
+            "start_ms": 1743399,
+            "end_ms": 1750360,
+            "text": "Joann's craft store and uh what I do is"
+          },
+          {
+            "cue_id": 584,
+            "start_ms": 1802360,
+            "end_ms": 1807240,
+            "text": "my bunny stands up and that you know"
+          },
+          {
+            "cue_id": 585,
+            "start_ms": 1804440,
+            "end_ms": 1808840,
+            "text": "everything is you know proportion so"
+          },
+          {
+            "cue_id": 608,
+            "start_ms": 1864519,
+            "end_ms": 1869320,
+            "text": "from Walmart and so I just crisscross"
+          },
+          {
+            "cue_id": 609,
+            "start_ms": 1867039,
+            "end_ms": 1872320,
+            "text": "those until I like the look and then I"
+          },
+          {
+            "cue_id": 627,
+            "start_ms": 1929600,
+            "end_ms": 1932600,
+            "text": "for"
+          }
+        ],
+        "text": "you have from the Valentine section um\nor you can definitely cut it out of foam\nheart just in different places kind of\nlike where it would be kind of like a\n[Music]\nnicely so if you don't have you know a\ndrill or don't want to pull it out uh\nbendable and I really like you know the\nthe grade that it is and so I just am\nblossoms from the Dollar Tree as well as\nsome of these pink wild flowers The\nwispiness uh to the project and I just\nlike that\nencourage you to think outside of the\nbox and use what you may already have so\nlittle knot and then I'm going to cover\nup that hole that's in the wood heart\nsection so I am Cho chalking up to a bad\ncan uh when I previously did this uh\nlove using it but that's a little update\nfor you different textures and Greenery\nI I do have these signs in my Amazon\nshop but I they're a little bit longer\nsome stain to it with a baby WI\nand then um once I get that all stained\nglue the Styrofoam in the bucket and so\nas I was looking at this I was thinking\ndistressing have some of that natural\nwood come through so I'm just taking my\nattach the plant label to the back of my\nbunny um the plant label is just a tad\nTree and I just decided to add it to my\nlittle tin bucket Arrangement here\ninto the styrofoam now um I got my steel\npiix machine from Hobby Lobby um it is\nhot gluing them randomly sporadically\nthroughout the little grass um I've\nthey look really\n[Music]\nI decided to go with the medium tin\nBucket from Hobby Lobby instead of just\nusing some Excel Seer I love the fine\nExcel Seer it's kind of like hey also\nplace in the styrofoam and this is just\nthe perfect little floral arrangement to\ntake my pen something that I can see and\nthen just um carefully draw around the\npeel up for the banner of uh in front of\nmy basket what I started with is this\nI'm just using this uh purple color it's\nuh the color lav lavender and I just\nleft it the color that it is and so then\nI'm just going to glue these uh penants\nI have the best luck finding it at\nJoann's craft store and uh what I do is\nmy bunny stands up and that you know\neverything is you know proportion so\nfrom Walmart and so I just crisscross\nthose until I like the look and then I\nfor",
+        "text_tokens": 559,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S20",
+          "cue_ids": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "start_ms": 54399,
+          "end_ms": 68200,
+          "text": "can use maybe some leftover hearts that you have from the Valentine section um or you can definitely cut it out of foam board or cardboard or something that's a"
+        },
+        {
+          "id": "S43",
+          "cue_ids": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "start_ms": 117079,
+          "end_ms": 133400,
+          "text": "around and then I will go back over the heart just in different places kind of like where it would be kind of like a board uh or shiplap kind of look and"
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63
+          ],
+          "start_ms": 185170,
+          "end_ms": 201939,
+          "text": "[Music]"
+        },
+        {
+          "id": "S75",
+          "cue_ids": [
+            75,
+            76,
+            77,
+            78
+          ],
+          "start_ms": 241000,
+          "end_ms": 254319,
+          "text": "um it pokes through this wood quite nicely so if you don't have you know a drill or don't want to pull it out uh you can maybe try to see if you can get"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99,
+            100
+          ],
+          "start_ms": 300960,
+          "end_ms": 317240,
+          "text": "use and it is soft and it's pliable it's bendable and I really like you know the the grade that it is and so I just am putting that through there and then I'm"
+        },
+        {
+          "id": "S111",
+          "cue_ids": [
+            111,
+            112,
+            113,
+            114
+          ],
+          "start_ms": 365680,
+          "end_ms": 380800,
+          "text": "filling up my pockets I have some cherry blossoms from the Dollar Tree as well as some of these pink wild flowers The Greenery is from Walmart it is the"
+        },
+        {
+          "id": "S134",
+          "cue_ids": [
+            134,
+            135,
+            136,
+            137
+          ],
+          "start_ms": 429479,
+          "end_ms": 450330,
+          "text": "heart and I think it provides a whip wispiness uh to the project and I just like that [Music]"
+        },
+        {
+          "id": "S152",
+          "cue_ids": [
+            152,
+            153,
+            154,
+            155
+          ],
+          "start_ms": 491520,
+          "end_ms": 504400,
+          "text": "ideas that I like to share so I encourage you to think outside of the box and use what you may already have so I just painted the heart with some Royal"
+        },
+        {
+          "id": "S175",
+          "cue_ids": [
+            175,
+            176,
+            177,
+            178
+          ],
+          "start_ms": 552399,
+          "end_ms": 564550,
+          "text": "and then tie it together just make a little knot and then I'm going to cover up that hole that's in the wood heart and then I'm going to put on a cute"
+        },
+        {
+          "id": "S193",
+          "cue_ids": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "start_ms": 613720,
+          "end_ms": 628600,
+          "text": "grocery store it is in the automotive section so I am Cho chalking up to a bad can uh when I previously did this uh little floral"
+        },
+        {
+          "id": "S217",
+          "cue_ids": [
+            217,
+            218,
+            219,
+            220
+          ],
+          "start_ms": 677680,
+          "end_ms": 691920,
+          "text": "containers you can fill up and so I just love using it but that's a little update for you different textures and Greenery some pit berries uh just different"
+        },
+        {
+          "id": "S239",
+          "cue_ids": [
+            239,
+            240,
+            241,
+            242
+          ],
+          "start_ms": 738880,
+          "end_ms": 751480,
+          "text": "not a fan okay so um one of these signs I I do have these signs in my Amazon shop but I they're a little bit longer and so I had to"
+        },
+        {
+          "id": "S263",
+          "cue_ids": [
+            263,
+            264,
+            265,
+            266
+          ],
+          "start_ms": 802800,
+          "end_ms": 817720,
+          "text": "then just cut a point at the end I added some stain to it with a baby WI and then um once I get that all stained then I will add just a little bit of dry"
+        },
+        {
+          "id": "S275",
+          "cue_ids": [
+            275,
+            276,
+            277,
+            278
+          ],
+          "start_ms": 864160,
+          "end_ms": 877920,
+          "text": "and uh using some aen tacky glue I just glue the Styrofoam in the bucket and so as I was looking at this I was thinking this may be a little bit small so the"
+        },
+        {
+          "id": "S298",
+          "cue_ids": [
+            298,
+            299,
+            300,
+            301
+          ],
+          "start_ms": 928920,
+          "end_ms": 940839,
+          "text": "to rough um give a little bit of distressing have some of that natural wood come through so I'm just taking my little sanding tool and I'm just going"
+        },
+        {
+          "id": "S320",
+          "cue_ids": [
+            320,
+            321,
+            322,
+            323
+          ],
+          "start_ms": 988199,
+          "end_ms": 1001959,
+          "text": "below of exactly which one I use to attach the plant label to the back of my bunny um the plant label is just a tad long so I cut it off with my scissors"
+        },
+        {
+          "id": "S340",
+          "cue_ids": [
+            340,
+            341,
+            342,
+            343
+          ],
+          "start_ms": 1051360,
+          "end_ms": 1063640,
+          "text": "this green exceler comes from the Dollar Tree and I just decided to add it to my little tin bucket Arrangement here because I thought that it would give it"
+        },
+        {
+          "id": "S362",
+          "cue_ids": [
+            362,
+            363,
+            364,
+            365
+          ],
+          "start_ms": 1112640,
+          "end_ms": 1125919,
+          "text": "little Greenery so that I could stick it into the styrofoam now um I got my steel piix machine from Hobby Lobby um it is not definitely anything that you need to"
+        },
+        {
+          "id": "S379",
+          "cue_ids": [
+            379,
+            380,
+            381,
+            382
+          ],
+          "start_ms": 1174880,
+          "end_ms": 1189559,
+          "text": "pink cherry blossoms from the stem just hot gluing them randomly sporadically throughout the little grass um I've decided to do that to have a little"
+        },
+        {
+          "id": "S399",
+          "cue_ids": [
+            399,
+            400,
+            401,
+            402
+          ],
+          "start_ms": 1236919,
+          "end_ms": 1262720,
+          "text": "styrofoam placing them where I think they look really [Music] cute baby's breath is just what this"
+        },
+        {
+          "id": "S414",
+          "cue_ids": [
+            414,
+            415,
+            416,
+            417
+          ],
+          "start_ms": 1301880,
+          "end_ms": 1314240,
+          "text": "Greenery the bunny I'm really glad that I decided to go with the medium tin Bucket from Hobby Lobby instead of just trying to cram all of this stuff into"
+        },
+        {
+          "id": "S437",
+          "cue_ids": [
+            437,
+            438,
+            439,
+            440
+          ],
+          "start_ms": 1364279,
+          "end_ms": 1376279,
+          "text": "some of the styrofoam and then now I'm using some Excel Seer I love the fine Excel Seer it's kind of like hey also people ask uh what is Excel SE it's kind"
+        },
+        {
+          "id": "S460",
+          "cue_ids": [
+            460,
+            461,
+            462,
+            463
+          ],
+          "start_ms": 1422840,
+          "end_ms": 1439880,
+          "text": "helps with uh securing my florals in place in the styrofoam and this is just the perfect little floral arrangement to add a bit of pink and spring into my"
+        },
+        {
+          "id": "S476",
+          "cue_ids": [
+            476,
+            477,
+            478,
+            479
+          ],
+          "start_ms": 1488240,
+          "end_ms": 1500320,
+          "text": "specific part of the paper so I just take my pen something that I can see and then just um carefully draw around the bunny and then I will cut it out with"
+        },
+        {
+          "id": "S497",
+          "cue_ids": [
+            497,
+            498,
+            499,
+            500
+          ],
+          "start_ms": 1547480,
+          "end_ms": 1562919,
+          "text": "been doing this I do not have any paper peel up for the banner of uh in front of my basket what I started with is this piece of burlap now this burlap um is"
+        },
+        {
+          "id": "S518",
+          "cue_ids": [
+            518,
+            519,
+            520,
+            521
+          ],
+          "start_ms": 1610360,
+          "end_ms": 1624760,
+          "text": "got these letters from Hobby Lobby and I'm just using this uh purple color it's uh the color lav lavender and I just gave that one coat of uh lavender color"
+        },
+        {
+          "id": "S542",
+          "cue_ids": [
+            542,
+            543,
+            544,
+            545
+          ],
+          "start_ms": 1675399,
+          "end_ms": 1689760,
+          "text": "do anything to the basket this is this I left it the color that it is and so then I'm just going to glue these uh penants uh to make the banner to spell hop on"
+        },
+        {
+          "id": "S560",
+          "cue_ids": [
+            560,
+            561,
+            562,
+            563
+          ],
+          "start_ms": 1739279,
+          "end_ms": 1752840,
+          "text": "here it's kind of like Spanish moss and I have the best luck finding it at Joann's craft store and uh what I do is just cover up that styrofoam and just"
+        },
+        {
+          "id": "S583",
+          "cue_ids": [
+            583,
+            584,
+            585,
+            586
+          ],
+          "start_ms": 1800120,
+          "end_ms": 1811799,
+          "text": "to my bunny but I want to make sure that my bunny stands up and that you know everything is you know proportion so that he doesn't lean one way or the"
+        },
+        {
+          "id": "S607",
+          "cue_ids": [
+            607,
+            608,
+            609,
+            610
+          ],
+          "start_ms": 1862039,
+          "end_ms": 1874799,
+          "text": "that white and pink pom pom ribbon I got from Walmart and so I just crisscross those until I like the look and then I get the best hold with a uh pipe cleaner"
+        },
+        {
+          "id": "S626",
+          "cue_ids": [
+            626,
+            627
+          ],
+          "start_ms": 1923780,
+          "end_ms": 1932600,
+          "text": "[Music] for"
+        }
+      ],
+      "text": "S20 [00:00:54.399 --> 00:01:08.200] can use maybe some leftover hearts that you have from the Valentine section um or you can definitely cut it out of foam board or cardboard or something that's a\nS43 [00:01:57.079 --> 00:02:13.400] around and then I will go back over the heart just in different places kind of like where it would be kind of like a board uh or shiplap kind of look and\nS63 [00:03:05.170 --> 00:03:21.939] [Music]\nS75 [00:04:01.000 --> 00:04:14.319] um it pokes through this wood quite nicely so if you don't have you know a drill or don't want to pull it out uh you can maybe try to see if you can get\nS97 [00:05:00.960 --> 00:05:17.240] use and it is soft and it's pliable it's bendable and I really like you know the the grade that it is and so I just am putting that through there and then I'm\nS111 [00:06:05.680 --> 00:06:20.800] filling up my pockets I have some cherry blossoms from the Dollar Tree as well as some of these pink wild flowers The Greenery is from Walmart it is the\nS134 [00:07:09.479 --> 00:07:30.330] heart and I think it provides a whip wispiness uh to the project and I just like that [Music]\nS152 [00:08:11.520 --> 00:08:24.400] ideas that I like to share so I encourage you to think outside of the box and use what you may already have so I just painted the heart with some Royal\nS175 [00:09:12.399 --> 00:09:24.550] and then tie it together just make a little knot and then I'm going to cover up that hole that's in the wood heart and then I'm going to put on a cute\nS193 [00:10:13.720 --> 00:10:28.600] grocery store it is in the automotive section so I am Cho chalking up to a bad can uh when I previously did this uh little floral\nS217 [00:11:17.680 --> 00:11:31.920] containers you can fill up and so I just love using it but that's a little update for you different textures and Greenery some pit berries uh just different\nS239 [00:12:18.880 --> 00:12:31.480] not a fan okay so um one of these signs I I do have these signs in my Amazon shop but I they're a little bit longer and so I had to\nS263 [00:13:22.800 --> 00:13:37.720] then just cut a point at the end I added some stain to it with a baby WI and then um once I get that all stained then I will add just a little bit of dry\nS275 [00:14:24.160 --> 00:14:37.920] and uh using some aen tacky glue I just glue the Styrofoam in the bucket and so as I was looking at this I was thinking this may be a little bit small so the\nS298 [00:15:28.920 --> 00:15:40.839] to rough um give a little bit of distressing have some of that natural wood come through so I'm just taking my little sanding tool and I'm just going\nS320 [00:16:28.199 --> 00:16:41.959] below of exactly which one I use to attach the plant label to the back of my bunny um the plant label is just a tad long so I cut it off with my scissors\nS340 [00:17:31.360 --> 00:17:43.640] this green exceler comes from the Dollar Tree and I just decided to add it to my little tin bucket Arrangement here because I thought that it would give it\nS362 [00:18:32.640 --> 00:18:45.919] little Greenery so that I could stick it into the styrofoam now um I got my steel piix machine from Hobby Lobby um it is not definitely anything that you need to\nS379 [00:19:34.880 --> 00:19:49.559] pink cherry blossoms from the stem just hot gluing them randomly sporadically throughout the little grass um I've decided to do that to have a little\nS399 [00:20:36.919 --> 00:21:02.720] styrofoam placing them where I think they look really [Music] cute baby's breath is just what this\nS414 [00:21:41.880 --> 00:21:54.240] Greenery the bunny I'm really glad that I decided to go with the medium tin Bucket from Hobby Lobby instead of just trying to cram all of this stuff into\nS437 [00:22:44.279 --> 00:22:56.279] some of the styrofoam and then now I'm using some Excel Seer I love the fine Excel Seer it's kind of like hey also people ask uh what is Excel SE it's kind\nS460 [00:23:42.840 --> 00:23:59.880] helps with uh securing my florals in place in the styrofoam and this is just the perfect little floral arrangement to add a bit of pink and spring into my\nS476 [00:24:48.240 --> 00:25:00.320] specific part of the paper so I just take my pen something that I can see and then just um carefully draw around the bunny and then I will cut it out with\nS497 [00:25:47.480 --> 00:26:02.919] been doing this I do not have any paper peel up for the banner of uh in front of my basket what I started with is this piece of burlap now this burlap um is\nS518 [00:26:50.360 --> 00:27:04.760] got these letters from Hobby Lobby and I'm just using this uh purple color it's uh the color lav lavender and I just gave that one coat of uh lavender color\nS542 [00:27:55.399 --> 00:28:09.760] do anything to the basket this is this I left it the color that it is and so then I'm just going to glue these uh penants uh to make the banner to spell hop on\nS560 [00:28:59.279 --> 00:29:12.840] here it's kind of like Spanish moss and I have the best luck finding it at Joann's craft store and uh what I do is just cover up that styrofoam and just\nS583 [00:30:00.120 --> 00:30:11.799] to my bunny but I want to make sure that my bunny stands up and that you know everything is you know proportion so that he doesn't lean one way or the\nS607 [00:31:02.039 --> 00:31:14.799] that white and pink pom pom ribbon I got from Walmart and so I just crisscross those until I like the look and then I get the best hold with a uh pipe cleaner\nS626 [00:32:03.780 --> 00:32:12.600] [Music] for",
+      "text_tokens": 2005,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        20,
+        23,
+        43,
+        46,
+        75,
+        78,
+        97,
+        100,
+        111,
+        114,
+        134,
+        137,
+        152,
+        155,
+        175,
+        178,
+        193,
+        196,
+        217,
+        220,
+        239,
+        242,
+        263,
+        266,
+        275,
+        278,
+        298,
+        301,
+        320,
+        323,
+        340,
+        343,
+        362,
+        365,
+        379,
+        382,
+        399,
+        402,
+        414,
+        417,
+        437,
+        440,
+        460,
+        463,
+        476,
+        479,
+        497,
+        500,
+        518,
+        521,
+        542,
+        545,
+        560,
+        563,
+        583,
+        586,
+        607,
+        610,
+        626
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "528eb460044800ddb616db6a9e4af22ee5bba99d9034599f845deb5a4d20bbb5"
+}

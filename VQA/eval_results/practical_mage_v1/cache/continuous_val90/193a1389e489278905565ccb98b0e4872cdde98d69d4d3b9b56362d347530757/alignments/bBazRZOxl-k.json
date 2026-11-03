@@ -1,0 +1,1575 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "bBazRZOxl-k",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bBazRZOxl-k.srt",
+        "status": "available",
+        "bytes": 120178,
+        "sha256": "aca83ef084f6ec01fa15e5560972da692426b0ce343f3f222148900d8bab96b5",
+        "cues": 1085,
+        "nonempty_cues": 1085
+      },
+      "frame_indices": [
+        0,
+        2668,
+        5336,
+        8004,
+        10672,
+        13340,
+        16007,
+        18675,
+        21343,
+        24011,
+        26679,
+        29347,
+        32015,
+        34683,
+        37351,
+        40019,
+        42686,
+        45354,
+        48022,
+        50690,
+        53358,
+        56026,
+        58694,
+        61362,
+        64030,
+        66698,
+        69365,
+        72033,
+        74701,
+        77369,
+        80037,
+        82705
+      ],
+      "frame_seconds": [
+        0.0,
+        88.933333,
+        177.866667,
+        266.8,
+        355.733333,
+        444.666667,
+        533.566667,
+        622.5,
+        711.433333,
+        800.366667,
+        889.3,
+        978.233333,
+        1067.166667,
+        1156.1,
+        1245.033333,
+        1333.966667,
+        1422.866667,
+        1511.8,
+        1600.733333,
+        1689.666667,
+        1778.6,
+        1867.533333,
+        1956.466667,
+        2045.4,
+        2134.333333,
+        2223.266667,
+        2312.166667,
+        2401.1,
+        2490.033333,
+        2578.966667,
+        2667.9,
+        2756.833333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          33,
+          34
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          107,
+          108
+        ],
+        [
+          138,
+          139
+        ],
+        [
+          171,
+          172
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          246,
+          247
+        ],
+        [
+          281,
+          282
+        ],
+        [
+          318,
+          319
+        ],
+        [
+          356,
+          357
+        ],
+        [
+          392,
+          393
+        ],
+        [
+          430,
+          431
+        ],
+        [
+          458,
+          459
+        ],
+        [
+          495,
+          496
+        ],
+        [
+          530,
+          531
+        ],
+        [
+          563,
+          564
+        ],
+        [
+          597,
+          598
+        ],
+        [
+          627,
+          628
+        ],
+        [
+          660,
+          661
+        ],
+        [
+          700,
+          701
+        ],
+        [
+          731,
+          732
+        ],
+        [
+          764,
+          765
+        ],
+        [
+          794,
+          795
+        ],
+        [
+          827,
+          828
+        ],
+        [
+          864,
+          865
+        ],
+        [
+          908,
+          909
+        ],
+        [
+          943,
+          944
+        ],
+        [
+          982,
+          983
+        ],
+        [
+          1022,
+          1023
+        ],
+        [
+          1057,
+          1058
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 33,
+          "start_ms": 84119,
+          "end_ms": 89960,
+          "text": "flights currently off the table as armed"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 86720,
+          "end_ms": 92079,
+          "text": "groups attack the capitals port and its"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 174800,
+          "end_ms": 179599,
+          "text": "country's prime minister Ariel HRI is"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 177560,
+          "end_ms": 181440,
+          "text": "exiled threatened with death if he"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 261759,
+          "end_ms": 267360,
+          "text": "tragic the Muslim holy month begins amid"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 265040,
+          "end_ms": 270440,
+          "text": "more reports of starvation death and"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 351440,
+          "end_ms": 357280,
+          "text": "young what will stop the war is God"
+        },
+        {
+          "cue_id": 139,
+          "start_ms": 354360,
+          "end_ms": 359720,
+          "text": "Almighty says this man God and the"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 439560,
+          "end_ms": 445160,
+          "text": "an edge to them and at this one in"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 442199,
+          "end_ms": 448960,
+          "text": "Georgia he seemed more aggressive than"
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 531320,
+          "end_ms": 535480,
+          "text": "shouldn't have used illegal I should"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 532680,
+          "end_ms": 537000,
+          "text": "it's undocumented and look when I spoke"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 616480,
+          "end_ms": 622519,
+          "text": "Blood Sweat and toil had come to an"
+        },
+        {
+          "cue_id": 247,
+          "start_ms": 620040,
+          "end_ms": 625680,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 281,
+          "start_ms": 708560,
+          "end_ms": 713000,
+          "text": "says without the sacrifice of Canadian"
+        },
+        {
+          "cue_id": 282,
+          "start_ms": 710519,
+          "end_ms": 717399,
+          "text": "soldiers she wouldn't be who she is"
+        },
+        {
+          "cue_id": 318,
+          "start_ms": 798240,
+          "end_ms": 802120,
+          "text": "counterpart in an emergency meeting"
+        },
+        {
+          "cue_id": 319,
+          "start_ms": 800240,
+          "end_ms": 804800,
+          "text": "saying those drugs can't end up in the"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 885199,
+          "end_ms": 890320,
+          "text": "sword says toxicology tests revealed"
+        },
+        {
+          "cue_id": 357,
+          "start_ms": 887680,
+          "end_ms": 892360,
+          "text": "cocaine MDMA and hydromorphone in her"
+        },
+        {
+          "cue_id": 392,
+          "start_ms": 974639,
+          "end_ms": 979839,
+          "text": "bison and 60 elk with little moisture in"
+        },
+        {
+          "cue_id": 393,
+          "start_ms": 977560,
+          "end_ms": 982759,
+          "text": "the ground feed has been hard to grow"
+        },
+        {
+          "cue_id": 430,
+          "start_ms": 1064440,
+          "end_ms": 1069320,
+          "text": "they usually figure out a way to to get"
+        },
+        {
+          "cue_id": 431,
+          "start_ms": 1067000,
+          "end_ms": 1071919,
+          "text": "over the hurdles and and find a way to"
+        },
+        {
+          "cue_id": 458,
+          "start_ms": 1151960,
+          "end_ms": 1156600,
+          "text": "in Hollywood tonight so Eli walk us"
+        },
+        {
+          "cue_id": 459,
+          "start_ms": 1154000,
+          "end_ms": 1156600,
+          "text": "through the big"
+        },
+        {
+          "cue_id": 495,
+          "start_ms": 1242159,
+          "end_ms": 1247080,
+          "text": "repair shop beautiful touching film"
+        },
+        {
+          "cue_id": 496,
+          "start_ms": 1244679,
+          "end_ms": 1249600,
+          "text": "about how instruments that kids play in"
+        },
+        {
+          "cue_id": 530,
+          "start_ms": 1330919,
+          "end_ms": 1337360,
+          "text": "the cancer go away weighing the cost of"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1333440,
+          "end_ms": 1339720,
+          "text": "more care there wasn't a huge chance of"
+        },
+        {
+          "cue_id": 563,
+          "start_ms": 1420400,
+          "end_ms": 1425360,
+          "text": "Toronto Blue Jay's spring training in"
+        },
+        {
+          "cue_id": 564,
+          "start_ms": 1422200,
+          "end_ms": 1428559,
+          "text": "denan Florida came just days after"
+        },
+        {
+          "cue_id": 597,
+          "start_ms": 1508760,
+          "end_ms": 1514240,
+          "text": "story for him to compete with a Canadian"
+        },
+        {
+          "cue_id": 598,
+          "start_ms": 1511399,
+          "end_ms": 1516720,
+          "text": "team and he's able to find his way back"
+        },
+        {
+          "cue_id": 627,
+          "start_ms": 1596960,
+          "end_ms": 1603120,
+          "text": "years to live many patients seek out new"
+        },
+        {
+          "cue_id": 628,
+          "start_ms": 1600120,
+          "end_ms": 1606360,
+          "text": "cancer drugs hoping they'll help but"
+        },
+        {
+          "cue_id": 660,
+          "start_ms": 1685679,
+          "end_ms": 1690600,
+          "text": "let's find out what it"
+        },
+        {
+          "cue_id": 661,
+          "start_ms": 1688330,
+          "end_ms": 1693600,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 700,
+          "start_ms": 1773559,
+          "end_ms": 1779279,
+          "text": "Advanced gastric cancer has about 6 to"
+        },
+        {
+          "cue_id": 701,
+          "start_ms": 1776360,
+          "end_ms": 1781000,
+          "text": "12 months survival there is a new drug"
+        },
+        {
+          "cue_id": 731,
+          "start_ms": 1861840,
+          "end_ms": 1868639,
+          "text": "recalibrate what it is they're looking"
+        },
+        {
+          "cue_id": 732,
+          "start_ms": 1864960,
+          "end_ms": 1870679,
+          "text": "for in those new drugs treatments are"
+        },
+        {
+          "cue_id": 764,
+          "start_ms": 1953720,
+          "end_ms": 1959000,
+          "text": "time does this treatment offer and what"
+        },
+        {
+          "cue_id": 765,
+          "start_ms": 1956320,
+          "end_ms": 1961279,
+          "text": "are the real costs and benefits for"
+        },
+        {
+          "cue_id": 794,
+          "start_ms": 2041639,
+          "end_ms": 2046840,
+          "text": "everyone involved Tom is remarkable he"
+        },
+        {
+          "cue_id": 795,
+          "start_ms": 2044159,
+          "end_ms": 2049119,
+          "text": "knows exactly what he wants to do but he"
+        },
+        {
+          "cue_id": 827,
+          "start_ms": 2131960,
+          "end_ms": 2135440,
+          "text": "station in Renfrew near Ottawa I'm in"
+        },
+        {
+          "cue_id": 828,
+          "start_ms": 2133760,
+          "end_ms": 2137359,
+          "text": "the cross country checkup Studio here in"
+        },
+        {
+          "cue_id": 864,
+          "start_ms": 2220119,
+          "end_ms": 2223880,
+          "text": "customers uh we have two customers we"
+        },
+        {
+          "cue_id": 865,
+          "start_ms": 2222040,
+          "end_ms": 2225920,
+          "text": "have listeners and we have advertisers"
+        },
+        {
+          "cue_id": 908,
+          "start_ms": 2309280,
+          "end_ms": 2312880,
+          "text": "the community they'll take care of you"
+        },
+        {
+          "cue_id": 909,
+          "start_ms": 2311200,
+          "end_ms": 2315400,
+          "text": "and we're looking at the Raiders regular"
+        },
+        {
+          "cue_id": 943,
+          "start_ms": 2398119,
+          "end_ms": 2401839,
+          "text": "talking about and it's about the people"
+        },
+        {
+          "cue_id": 944,
+          "start_ms": 2399880,
+          "end_ms": 2404960,
+          "text": "that are consuming it liking those"
+        },
+        {
+          "cue_id": 982,
+          "start_ms": 2484440,
+          "end_ms": 2491200,
+          "text": "that people have it's being part of an"
+        },
+        {
+          "cue_id": 983,
+          "start_ms": 2487560,
+          "end_ms": 2492880,
+          "text": "event where someone raises money for a"
+        },
+        {
+          "cue_id": 1022,
+          "start_ms": 2576280,
+          "end_ms": 2581520,
+          "text": "email of listeners upset that she was"
+        },
+        {
+          "cue_id": 1023,
+          "start_ms": 2578599,
+          "end_ms": 2584240,
+          "text": "saying the name wrong which is great"
+        },
+        {
+          "cue_id": 1057,
+          "start_ms": 2664559,
+          "end_ms": 2668240,
+          "text": "decided that I would uh take a quick"
+        },
+        {
+          "cue_id": 1058,
+          "start_ms": 2666240,
+          "end_ms": 2669880,
+          "text": "video of it and uh that's when I ended"
+        }
+      ],
+      "text": "flights currently off the table as armed\ngroups attack the capitals port and its\ncountry's prime minister Ariel HRI is\nexiled threatened with death if he\ntragic the Muslim holy month begins amid\nmore reports of starvation death and\nyoung what will stop the war is God\nAlmighty says this man God and the\nan edge to them and at this one in\nGeorgia he seemed more aggressive than\nshouldn't have used illegal I should\nit's undocumented and look when I spoke\nBlood Sweat and toil had come to an\n[Music]\nsays without the sacrifice of Canadian\nsoldiers she wouldn't be who she is\ncounterpart in an emergency meeting\nsaying those drugs can't end up in the\nsword says toxicology tests revealed\ncocaine MDMA and hydromorphone in her\nbison and 60 elk with little moisture in\nthe ground feed has been hard to grow\nthey usually figure out a way to to get\nover the hurdles and and find a way to\nin Hollywood tonight so Eli walk us\nthrough the big\nrepair shop beautiful touching film\nabout how instruments that kids play in\nthe cancer go away weighing the cost of\nmore care there wasn't a huge chance of\nToronto Blue Jay's spring training in\ndenan Florida came just days after\nstory for him to compete with a Canadian\nteam and he's able to find his way back\nyears to live many patients seek out new\ncancer drugs hoping they'll help but\nlet's find out what it\n[Music]\nAdvanced gastric cancer has about 6 to\n12 months survival there is a new drug\nrecalibrate what it is they're looking\nfor in those new drugs treatments are\ntime does this treatment offer and what\nare the real costs and benefits for\neveryone involved Tom is remarkable he\nknows exactly what he wants to do but he\nstation in Renfrew near Ottawa I'm in\nthe cross country checkup Studio here in\ncustomers uh we have two customers we\nhave listeners and we have advertisers\nthe community they'll take care of you\nand we're looking at the Raiders regular\ntalking about and it's about the people\nthat are consuming it liking those\nthat people have it's being part of an\nevent where someone raises money for a\nemail of listeners upset that she was\nsaying the name wrong which is great\ndecided that I would uh take a quick\nvideo of it and uh that's when I ended",
+      "text_tokens": 516,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "bBazRZOxl-k",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/bBazRZOxl-k.srt",
+          "status": "available",
+          "bytes": 120178,
+          "sha256": "aca83ef084f6ec01fa15e5560972da692426b0ce343f3f222148900d8bab96b5",
+          "cues": 1085,
+          "nonempty_cues": 1085
+        },
+        "frame_indices": [
+          0,
+          2668,
+          5336,
+          8004,
+          10672,
+          13340,
+          16007,
+          18675,
+          21343,
+          24011,
+          26679,
+          29347,
+          32015,
+          34683,
+          37351,
+          40019,
+          42686,
+          45354,
+          48022,
+          50690,
+          53358,
+          56026,
+          58694,
+          61362,
+          64030,
+          66698,
+          69365,
+          72033,
+          74701,
+          77369,
+          80037,
+          82705
+        ],
+        "frame_seconds": [
+          0.0,
+          88.933333,
+          177.866667,
+          266.8,
+          355.733333,
+          444.666667,
+          533.566667,
+          622.5,
+          711.433333,
+          800.366667,
+          889.3,
+          978.233333,
+          1067.166667,
+          1156.1,
+          1245.033333,
+          1333.966667,
+          1422.866667,
+          1511.8,
+          1600.733333,
+          1689.666667,
+          1778.6,
+          1867.533333,
+          1956.466667,
+          2045.4,
+          2134.333333,
+          2223.266667,
+          2312.166667,
+          2401.1,
+          2490.033333,
+          2578.966667,
+          2667.9,
+          2756.833333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            33,
+            34
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            107,
+            108
+          ],
+          [
+            138,
+            139
+          ],
+          [
+            171,
+            172
+          ],
+          [
+            208,
+            209
+          ],
+          [
+            246,
+            247
+          ],
+          [
+            281,
+            282
+          ],
+          [
+            318,
+            319
+          ],
+          [
+            356,
+            357
+          ],
+          [
+            392,
+            393
+          ],
+          [
+            430,
+            431
+          ],
+          [
+            458,
+            459
+          ],
+          [
+            495,
+            496
+          ],
+          [
+            530,
+            531
+          ],
+          [
+            563,
+            564
+          ],
+          [
+            597,
+            598
+          ],
+          [
+            627,
+            628
+          ],
+          [
+            660,
+            661
+          ],
+          [
+            700,
+            701
+          ],
+          [
+            731,
+            732
+          ],
+          [
+            764,
+            765
+          ],
+          [
+            794,
+            795
+          ],
+          [
+            827,
+            828
+          ],
+          [
+            864,
+            865
+          ],
+          [
+            908,
+            909
+          ],
+          [
+            943,
+            944
+          ],
+          [
+            982,
+            983
+          ],
+          [
+            1022,
+            1023
+          ],
+          [
+            1057,
+            1058
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 33,
+            "start_ms": 84119,
+            "end_ms": 89960,
+            "text": "flights currently off the table as armed"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 86720,
+            "end_ms": 92079,
+            "text": "groups attack the capitals port and its"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 174800,
+            "end_ms": 179599,
+            "text": "country's prime minister Ariel HRI is"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 177560,
+            "end_ms": 181440,
+            "text": "exiled threatened with death if he"
+          },
+          {
+            "cue_id": 107,
+            "start_ms": 261759,
+            "end_ms": 267360,
+            "text": "tragic the Muslim holy month begins amid"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 265040,
+            "end_ms": 270440,
+            "text": "more reports of starvation death and"
+          },
+          {
+            "cue_id": 138,
+            "start_ms": 351440,
+            "end_ms": 357280,
+            "text": "young what will stop the war is God"
+          },
+          {
+            "cue_id": 139,
+            "start_ms": 354360,
+            "end_ms": 359720,
+            "text": "Almighty says this man God and the"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 439560,
+            "end_ms": 445160,
+            "text": "an edge to them and at this one in"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 442199,
+            "end_ms": 448960,
+            "text": "Georgia he seemed more aggressive than"
+          },
+          {
+            "cue_id": 208,
+            "start_ms": 531320,
+            "end_ms": 535480,
+            "text": "shouldn't have used illegal I should"
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 532680,
+            "end_ms": 537000,
+            "text": "it's undocumented and look when I spoke"
+          },
+          {
+            "cue_id": 246,
+            "start_ms": 616480,
+            "end_ms": 622519,
+            "text": "Blood Sweat and toil had come to an"
+          },
+          {
+            "cue_id": 247,
+            "start_ms": 620040,
+            "end_ms": 625680,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 281,
+            "start_ms": 708560,
+            "end_ms": 713000,
+            "text": "says without the sacrifice of Canadian"
+          },
+          {
+            "cue_id": 282,
+            "start_ms": 710519,
+            "end_ms": 717399,
+            "text": "soldiers she wouldn't be who she is"
+          },
+          {
+            "cue_id": 318,
+            "start_ms": 798240,
+            "end_ms": 802120,
+            "text": "counterpart in an emergency meeting"
+          },
+          {
+            "cue_id": 319,
+            "start_ms": 800240,
+            "end_ms": 804800,
+            "text": "saying those drugs can't end up in the"
+          },
+          {
+            "cue_id": 356,
+            "start_ms": 885199,
+            "end_ms": 890320,
+            "text": "sword says toxicology tests revealed"
+          },
+          {
+            "cue_id": 357,
+            "start_ms": 887680,
+            "end_ms": 892360,
+            "text": "cocaine MDMA and hydromorphone in her"
+          },
+          {
+            "cue_id": 392,
+            "start_ms": 974639,
+            "end_ms": 979839,
+            "text": "bison and 60 elk with little moisture in"
+          },
+          {
+            "cue_id": 393,
+            "start_ms": 977560,
+            "end_ms": 982759,
+            "text": "the ground feed has been hard to grow"
+          },
+          {
+            "cue_id": 430,
+            "start_ms": 1064440,
+            "end_ms": 1069320,
+            "text": "they usually figure out a way to to get"
+          },
+          {
+            "cue_id": 431,
+            "start_ms": 1067000,
+            "end_ms": 1071919,
+            "text": "over the hurdles and and find a way to"
+          },
+          {
+            "cue_id": 458,
+            "start_ms": 1151960,
+            "end_ms": 1156600,
+            "text": "in Hollywood tonight so Eli walk us"
+          },
+          {
+            "cue_id": 459,
+            "start_ms": 1154000,
+            "end_ms": 1156600,
+            "text": "through the big"
+          },
+          {
+            "cue_id": 495,
+            "start_ms": 1242159,
+            "end_ms": 1247080,
+            "text": "repair shop beautiful touching film"
+          },
+          {
+            "cue_id": 496,
+            "start_ms": 1244679,
+            "end_ms": 1249600,
+            "text": "about how instruments that kids play in"
+          },
+          {
+            "cue_id": 530,
+            "start_ms": 1330919,
+            "end_ms": 1337360,
+            "text": "the cancer go away weighing the cost of"
+          },
+          {
+            "cue_id": 531,
+            "start_ms": 1333440,
+            "end_ms": 1339720,
+            "text": "more care there wasn't a huge chance of"
+          },
+          {
+            "cue_id": 563,
+            "start_ms": 1420400,
+            "end_ms": 1425360,
+            "text": "Toronto Blue Jay's spring training in"
+          },
+          {
+            "cue_id": 564,
+            "start_ms": 1422200,
+            "end_ms": 1428559,
+            "text": "denan Florida came just days after"
+          },
+          {
+            "cue_id": 597,
+            "start_ms": 1508760,
+            "end_ms": 1514240,
+            "text": "story for him to compete with a Canadian"
+          },
+          {
+            "cue_id": 598,
+            "start_ms": 1511399,
+            "end_ms": 1516720,
+            "text": "team and he's able to find his way back"
+          },
+          {
+            "cue_id": 627,
+            "start_ms": 1596960,
+            "end_ms": 1603120,
+            "text": "years to live many patients seek out new"
+          },
+          {
+            "cue_id": 628,
+            "start_ms": 1600120,
+            "end_ms": 1606360,
+            "text": "cancer drugs hoping they'll help but"
+          },
+          {
+            "cue_id": 660,
+            "start_ms": 1685679,
+            "end_ms": 1690600,
+            "text": "let's find out what it"
+          },
+          {
+            "cue_id": 661,
+            "start_ms": 1688330,
+            "end_ms": 1693600,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 700,
+            "start_ms": 1773559,
+            "end_ms": 1779279,
+            "text": "Advanced gastric cancer has about 6 to"
+          },
+          {
+            "cue_id": 701,
+            "start_ms": 1776360,
+            "end_ms": 1781000,
+            "text": "12 months survival there is a new drug"
+          },
+          {
+            "cue_id": 731,
+            "start_ms": 1861840,
+            "end_ms": 1868639,
+            "text": "recalibrate what it is they're looking"
+          },
+          {
+            "cue_id": 732,
+            "start_ms": 1864960,
+            "end_ms": 1870679,
+            "text": "for in those new drugs treatments are"
+          },
+          {
+            "cue_id": 764,
+            "start_ms": 1953720,
+            "end_ms": 1959000,
+            "text": "time does this treatment offer and what"
+          },
+          {
+            "cue_id": 765,
+            "start_ms": 1956320,
+            "end_ms": 1961279,
+            "text": "are the real costs and benefits for"
+          },
+          {
+            "cue_id": 794,
+            "start_ms": 2041639,
+            "end_ms": 2046840,
+            "text": "everyone involved Tom is remarkable he"
+          },
+          {
+            "cue_id": 795,
+            "start_ms": 2044159,
+            "end_ms": 2049119,
+            "text": "knows exactly what he wants to do but he"
+          },
+          {
+            "cue_id": 827,
+            "start_ms": 2131960,
+            "end_ms": 2135440,
+            "text": "station in Renfrew near Ottawa I'm in"
+          },
+          {
+            "cue_id": 828,
+            "start_ms": 2133760,
+            "end_ms": 2137359,
+            "text": "the cross country checkup Studio here in"
+          },
+          {
+            "cue_id": 864,
+            "start_ms": 2220119,
+            "end_ms": 2223880,
+            "text": "customers uh we have two customers we"
+          },
+          {
+            "cue_id": 865,
+            "start_ms": 2222040,
+            "end_ms": 2225920,
+            "text": "have listeners and we have advertisers"
+          },
+          {
+            "cue_id": 908,
+            "start_ms": 2309280,
+            "end_ms": 2312880,
+            "text": "the community they'll take care of you"
+          },
+          {
+            "cue_id": 909,
+            "start_ms": 2311200,
+            "end_ms": 2315400,
+            "text": "and we're looking at the Raiders regular"
+          },
+          {
+            "cue_id": 943,
+            "start_ms": 2398119,
+            "end_ms": 2401839,
+            "text": "talking about and it's about the people"
+          },
+          {
+            "cue_id": 944,
+            "start_ms": 2399880,
+            "end_ms": 2404960,
+            "text": "that are consuming it liking those"
+          },
+          {
+            "cue_id": 982,
+            "start_ms": 2484440,
+            "end_ms": 2491200,
+            "text": "that people have it's being part of an"
+          },
+          {
+            "cue_id": 983,
+            "start_ms": 2487560,
+            "end_ms": 2492880,
+            "text": "event where someone raises money for a"
+          },
+          {
+            "cue_id": 1022,
+            "start_ms": 2576280,
+            "end_ms": 2581520,
+            "text": "email of listeners upset that she was"
+          },
+          {
+            "cue_id": 1023,
+            "start_ms": 2578599,
+            "end_ms": 2584240,
+            "text": "saying the name wrong which is great"
+          },
+          {
+            "cue_id": 1057,
+            "start_ms": 2664559,
+            "end_ms": 2668240,
+            "text": "decided that I would uh take a quick"
+          },
+          {
+            "cue_id": 1058,
+            "start_ms": 2666240,
+            "end_ms": 2669880,
+            "text": "video of it and uh that's when I ended"
+          }
+        ],
+        "text": "flights currently off the table as armed\ngroups attack the capitals port and its\ncountry's prime minister Ariel HRI is\nexiled threatened with death if he\ntragic the Muslim holy month begins amid\nmore reports of starvation death and\nyoung what will stop the war is God\nAlmighty says this man God and the\nan edge to them and at this one in\nGeorgia he seemed more aggressive than\nshouldn't have used illegal I should\nit's undocumented and look when I spoke\nBlood Sweat and toil had come to an\n[Music]\nsays without the sacrifice of Canadian\nsoldiers she wouldn't be who she is\ncounterpart in an emergency meeting\nsaying those drugs can't end up in the\nsword says toxicology tests revealed\ncocaine MDMA and hydromorphone in her\nbison and 60 elk with little moisture in\nthe ground feed has been hard to grow\nthey usually figure out a way to to get\nover the hurdles and and find a way to\nin Hollywood tonight so Eli walk us\nthrough the big\nrepair shop beautiful touching film\nabout how instruments that kids play in\nthe cancer go away weighing the cost of\nmore care there wasn't a huge chance of\nToronto Blue Jay's spring training in\ndenan Florida came just days after\nstory for him to compete with a Canadian\nteam and he's able to find his way back\nyears to live many patients seek out new\ncancer drugs hoping they'll help but\nlet's find out what it\n[Music]\nAdvanced gastric cancer has about 6 to\n12 months survival there is a new drug\nrecalibrate what it is they're looking\nfor in those new drugs treatments are\ntime does this treatment offer and what\nare the real costs and benefits for\neveryone involved Tom is remarkable he\nknows exactly what he wants to do but he\nstation in Renfrew near Ottawa I'm in\nthe cross country checkup Studio here in\ncustomers uh we have two customers we\nhave listeners and we have advertisers\nthe community they'll take care of you\nand we're looking at the Raiders regular\ntalking about and it's about the people\nthat are consuming it liking those\nthat people have it's being part of an\nevent where someone raises money for a\nemail of listeners upset that she was\nsaying the name wrong which is great\ndecided that I would uh take a quick\nvideo of it and uh that's when I ended",
+        "text_tokens": 516,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S32",
+          "cue_ids": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "start_ms": 81280,
+          "end_ms": 94439,
+          "text": "been closed since last month evacuation flights currently off the table as armed groups attack the capitals port and its airport civilians are getting caught in"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 172319,
+          "end_ms": 184360,
+          "text": "main port and Airport are shut down the country's prime minister Ariel HRI is exiled threatened with death if he return turns the country is now"
+        },
+        {
+          "id": "S106",
+          "cue_ids": [
+            106,
+            107,
+            108,
+            109
+          ],
+          "start_ms": 259478,
+          "end_ms": 273039,
+          "text": "of Ramadan and the situation is very tragic the Muslim holy month begins amid more reports of starvation death and destruction as Israel's war with M"
+        },
+        {
+          "id": "S137",
+          "cue_ids": [
+            137,
+            138,
+            139,
+            140
+          ],
+          "start_ms": 348759,
+          "end_ms": 361280,
+          "text": "sometimes not only the young what will stop the war is God Almighty says this man God and the resistance a reference to Armed"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172,
+            173
+          ],
+          "start_ms": 436560,
+          "end_ms": 452520,
+          "text": "rallies in his speeches there's always an edge to them and at this one in Georgia he seemed more aggressive than usual everything Joe Biden touches turns"
+        },
+        {
+          "id": "S207",
+          "cue_ids": [
+            207,
+            208,
+            209,
+            210
+          ],
+          "start_ms": 529200,
+          "end_ms": 538320,
+          "text": "says he regrets his words and I shouldn't have used illegal I should it's undocumented and look when I spoke about the difference between Trump and"
+        },
+        {
+          "id": "S245",
+          "cue_ids": [
+            245,
+            246,
+            247,
+            248
+          ],
+          "start_ms": 613560,
+          "end_ms": 628640,
+          "text": "Afghanistan lower Canadian flag The Blood Sweat and toil had come to an [Music] end for Canada the war may have ended a"
+        },
+        {
+          "id": "S280",
+          "cue_ids": [
+            280,
+            281,
+            282,
+            283
+          ],
+          "start_ms": 706120,
+          "end_ms": 721639,
+          "text": "Afghan journalist who now lives here and says without the sacrifice of Canadian soldiers she wouldn't be who she is today with Canada's intervention I was"
+        },
+        {
+          "id": "S317",
+          "cue_ids": [
+            317,
+            318,
+            319,
+            320
+          ],
+          "start_ms": 796600,
+          "end_ms": 807440,
+          "text": "agreeing to hear out his Alberta counterpart in an emergency meeting saying those drugs can't end up in the wrong hands it's an essential part of"
+        },
+        {
+          "id": "S355",
+          "cue_ids": [
+            355,
+            356,
+            357,
+            358
+          ],
+          "start_ms": 882399,
+          "end_ms": 894720,
+          "text": "daughter Camila overdosed two years ago sword says toxicology tests revealed cocaine MDMA and hydromorphone in her system we just wanted to brush it under"
+        },
+        {
+          "id": "S391",
+          "cue_ids": [
+            391,
+            392,
+            393,
+            394
+          ],
+          "start_ms": 971680,
+          "end_ms": 985920,
+          "text": "guon has already sold off 50 cows 30 bison and 60 elk with little moisture in the ground feed has been hard to grow and water sources are drying up my Creek"
+        },
+        {
+          "id": "S429",
+          "cue_ids": [
+            429,
+            430,
+            431,
+            432
+          ],
+          "start_ms": 1062160,
+          "end_ms": 1074799,
+          "text": "most farmers are pretty resilient they they usually figure out a way to to get over the hurdles and and find a way to make it work work that could use some"
+        },
+        {
+          "id": "S457",
+          "cue_ids": [
+            457,
+            458,
+            459,
+            460
+          ],
+          "start_ms": 1149280,
+          "end_ms": 1162600,
+          "text": "actor Eli glasner is covering the Oscars in Hollywood tonight so Eli walk us through the big Winners Oppenheimer came in leading and"
+        },
+        {
+          "id": "S494",
+          "cue_ids": [
+            494,
+            495,
+            496,
+            497
+          ],
+          "start_ms": 1239640,
+          "end_ms": 1251320,
+          "text": "made a new film co-directing The Last repair shop beautiful touching film about how instruments that kids play in music programs here in Los Angeles get"
+        },
+        {
+          "id": "S529",
+          "cue_ids": [
+            529,
+            530,
+            531,
+            532
+          ],
+          "start_ms": 1328679,
+          "end_ms": 1342240,
+          "text": "treatment the chemotherapy will not make the cancer go away weighing the cost of more care there wasn't a huge chance of things getting much"
+        },
+        {
+          "id": "S562",
+          "cue_ids": [
+            562,
+            563,
+            564,
+            565
+          ],
+          "start_ms": 1417320,
+          "end_ms": 1431559,
+          "text": "blue of his hometown team an invite to Toronto Blue Jay's spring training in denan Florida came just days after posting this sad picture missing ball he"
+        },
+        {
+          "id": "S596",
+          "cue_ids": [
+            596,
+            597,
+            598,
+            599
+          ],
+          "start_ms": 1506720,
+          "end_ms": 1519880,
+          "text": "better year ahead it would be a nice story for him to compete with a Canadian team and he's able to find his way back and Achieve something as great as you"
+        },
+        {
+          "id": "S626",
+          "cue_ids": [
+            626,
+            627,
+            628,
+            629
+          ],
+          "start_ms": 1593840,
+          "end_ms": 1608880,
+          "text": "before our eyes with weeks months or years to live many patients seek out new cancer drugs hoping they'll help but some doctors argue many new drugs offer"
+        },
+        {
+          "id": "S659",
+          "cue_ids": [
+            659,
+            660,
+            661,
+            662
+          ],
+          "start_ms": 1683159,
+          "end_ms": 1695840,
+          "text": "they call it common sense oncology so let's find out what it [Music] means when we arriv Dr Christopher Booth"
+        },
+        {
+          "id": "S699",
+          "cue_ids": [
+            699,
+            700,
+            701,
+            702
+          ],
+          "start_ms": 1771720,
+          "end_ms": 1783360,
+          "text": "to give you an example a patient with Advanced gastric cancer has about 6 to 12 months survival there is a new drug it requires patients to come into the"
+        },
+        {
+          "id": "S730",
+          "cue_ids": [
+            730,
+            731,
+            732,
+            733
+          ],
+          "start_ms": 1858679,
+          "end_ms": 1873200,
+          "text": "and for Regulators is make them want to recalibrate what it is they're looking for in those new drugs treatments are advancing but there might not be as many"
+        },
+        {
+          "id": "S763",
+          "cue_ids": [
+            763,
+            764,
+            765,
+            766
+          ],
+          "start_ms": 1950760,
+          "end_ms": 1963840,
+          "text": "more questions of doctors like how much time does this treatment offer and what are the real costs and benefits for patients not having treatment isn't"
+        },
+        {
+          "id": "S793",
+          "cue_ids": [
+            793,
+            794,
+            795,
+            796
+          ],
+          "start_ms": 2038799,
+          "end_ms": 2050960,
+          "text": "accept these are tough conversations for everyone involved Tom is remarkable he knows exactly what he wants to do but he told us his son questioned his decision"
+        },
+        {
+          "id": "S826",
+          "cue_ids": [
+            826,
+            827,
+            828,
+            829
+          ],
+          "start_ms": 2129960,
+          "end_ms": 2141079,
+          "text": "winners John you're at your radio station in Renfrew near Ottawa I'm in the cross country checkup Studio here in Vancouver let's talk a little radio"
+        },
+        {
+          "id": "S863",
+          "cue_ids": [
+            863,
+            864,
+            865,
+            866
+          ],
+          "start_ms": 2217839,
+          "end_ms": 2227960,
+          "text": "run a good business that helps our customers uh we have two customers we have listeners and we have advertisers so can we help our advertisers sell more"
+        },
+        {
+          "id": "S907",
+          "cue_ids": [
+            907,
+            908,
+            909,
+            910
+          ],
+          "start_ms": 2307079,
+          "end_ms": 2318079,
+          "text": "successful run at if you give a lot to the community they'll take care of you and we're looking at the Raiders regular season wrapping up tomorrow night at"
+        },
+        {
+          "id": "S942",
+          "cue_ids": [
+            942,
+            943,
+            944,
+            945
+          ],
+          "start_ms": 2395839,
+          "end_ms": 2407319,
+          "text": "for you it's about what the people are talking about and it's about the people that are consuming it liking those people so a spreadsheet can't do that so"
+        },
+        {
+          "id": "S981",
+          "cue_ids": [
+            981,
+            982,
+            983,
+            984
+          ],
+          "start_ms": 2481200,
+          "end_ms": 2494720,
+          "text": "exciting it's answering the questions that people have it's being part of an event where someone raises money for a hospital or you help a child who's"
+        },
+        {
+          "id": "S1021",
+          "cue_ids": [
+            1021,
+            1022,
+            1023,
+            1024
+          ],
+          "start_ms": 2573319,
+          "end_ms": 2586520,
+          "text": "done that I had email after email after email of listeners upset that she was saying the name wrong which is great because if they didn't care they"
+        },
+        {
+          "id": "S1056",
+          "cue_ids": [
+            1056,
+            1057,
+            1058,
+            1059
+          ],
+          "start_ms": 2662079,
+          "end_ms": 2672760,
+          "text": "that there was a tri 7 300 ER so I decided that I would uh take a quick video of it and uh that's when I ended up snapping the photo of the lightning"
+        }
+      ],
+      "text": "S32 [00:01:21.280 --> 00:01:34.439] been closed since last month evacuation flights currently off the table as armed groups attack the capitals port and its airport civilians are getting caught in\nS71 [00:02:52.319 --> 00:03:04.360] main port and Airport are shut down the country's prime minister Ariel HRI is exiled threatened with death if he return turns the country is now\nS106 [00:04:19.478 --> 00:04:33.039] of Ramadan and the situation is very tragic the Muslim holy month begins amid more reports of starvation death and destruction as Israel's war with M\nS137 [00:05:48.759 --> 00:06:01.280] sometimes not only the young what will stop the war is God Almighty says this man God and the resistance a reference to Armed\nS170 [00:07:16.560 --> 00:07:32.520] rallies in his speeches there's always an edge to them and at this one in Georgia he seemed more aggressive than usual everything Joe Biden touches turns\nS207 [00:08:49.200 --> 00:08:58.320] says he regrets his words and I shouldn't have used illegal I should it's undocumented and look when I spoke about the difference between Trump and\nS245 [00:10:13.560 --> 00:10:28.640] Afghanistan lower Canadian flag The Blood Sweat and toil had come to an [Music] end for Canada the war may have ended a\nS280 [00:11:46.120 --> 00:12:01.639] Afghan journalist who now lives here and says without the sacrifice of Canadian soldiers she wouldn't be who she is today with Canada's intervention I was\nS317 [00:13:16.600 --> 00:13:27.440] agreeing to hear out his Alberta counterpart in an emergency meeting saying those drugs can't end up in the wrong hands it's an essential part of\nS355 [00:14:42.399 --> 00:14:54.720] daughter Camila overdosed two years ago sword says toxicology tests revealed cocaine MDMA and hydromorphone in her system we just wanted to brush it under\nS391 [00:16:11.680 --> 00:16:25.920] guon has already sold off 50 cows 30 bison and 60 elk with little moisture in the ground feed has been hard to grow and water sources are drying up my Creek\nS429 [00:17:42.160 --> 00:17:54.799] most farmers are pretty resilient they they usually figure out a way to to get over the hurdles and and find a way to make it work work that could use some\nS457 [00:19:09.280 --> 00:19:22.600] actor Eli glasner is covering the Oscars in Hollywood tonight so Eli walk us through the big Winners Oppenheimer came in leading and\nS494 [00:20:39.640 --> 00:20:51.320] made a new film co-directing The Last repair shop beautiful touching film about how instruments that kids play in music programs here in Los Angeles get\nS529 [00:22:08.679 --> 00:22:22.240] treatment the chemotherapy will not make the cancer go away weighing the cost of more care there wasn't a huge chance of things getting much\nS562 [00:23:37.320 --> 00:23:51.559] blue of his hometown team an invite to Toronto Blue Jay's spring training in denan Florida came just days after posting this sad picture missing ball he\nS596 [00:25:06.720 --> 00:25:19.880] better year ahead it would be a nice story for him to compete with a Canadian team and he's able to find his way back and Achieve something as great as you\nS626 [00:26:33.840 --> 00:26:48.880] before our eyes with weeks months or years to live many patients seek out new cancer drugs hoping they'll help but some doctors argue many new drugs offer\nS659 [00:28:03.159 --> 00:28:15.840] they call it common sense oncology so let's find out what it [Music] means when we arriv Dr Christopher Booth\nS699 [00:29:31.720 --> 00:29:43.360] to give you an example a patient with Advanced gastric cancer has about 6 to 12 months survival there is a new drug it requires patients to come into the\nS730 [00:30:58.679 --> 00:31:13.200] and for Regulators is make them want to recalibrate what it is they're looking for in those new drugs treatments are advancing but there might not be as many\nS763 [00:32:30.760 --> 00:32:43.840] more questions of doctors like how much time does this treatment offer and what are the real costs and benefits for patients not having treatment isn't\nS793 [00:33:58.799 --> 00:34:10.960] accept these are tough conversations for everyone involved Tom is remarkable he knows exactly what he wants to do but he told us his son questioned his decision\nS826 [00:35:29.960 --> 00:35:41.079] winners John you're at your radio station in Renfrew near Ottawa I'm in the cross country checkup Studio here in Vancouver let's talk a little radio\nS863 [00:36:57.839 --> 00:37:07.960] run a good business that helps our customers uh we have two customers we have listeners and we have advertisers so can we help our advertisers sell more\nS907 [00:38:27.079 --> 00:38:38.079] successful run at if you give a lot to the community they'll take care of you and we're looking at the Raiders regular season wrapping up tomorrow night at\nS942 [00:39:55.839 --> 00:40:07.319] for you it's about what the people are talking about and it's about the people that are consuming it liking those people so a spreadsheet can't do that so\nS981 [00:41:21.200 --> 00:41:34.720] exciting it's answering the questions that people have it's being part of an event where someone raises money for a hospital or you help a child who's\nS1021 [00:42:53.319 --> 00:43:06.520] done that I had email after email after email of listeners upset that she was saying the name wrong which is great because if they didn't care they\nS1056 [00:44:22.079 --> 00:44:32.760] that there was a tri 7 300 ER so I decided that I would uh take a quick video of it and uh that's when I ended up snapping the photo of the lightning",
+      "text_tokens": 1875,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        32,
+        35,
+        71,
+        74,
+        106,
+        109,
+        137,
+        140,
+        170,
+        173,
+        207,
+        210,
+        245,
+        248,
+        280,
+        283,
+        317,
+        320,
+        355,
+        358,
+        391,
+        394,
+        429,
+        432,
+        457,
+        460,
+        494,
+        497,
+        529,
+        532,
+        562,
+        565,
+        596,
+        599,
+        626,
+        629,
+        659,
+        662,
+        699,
+        702,
+        730,
+        733,
+        763,
+        766,
+        793,
+        796,
+        826,
+        829,
+        863,
+        866,
+        907,
+        910,
+        942,
+        945,
+        981,
+        984,
+        1021,
+        1024,
+        1056,
+        1059
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "e26c2fc2e685ba88a44365784cb6ada120cf699a1b087bd6d835fc68a644c148"
+}

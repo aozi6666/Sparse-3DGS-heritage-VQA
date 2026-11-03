@@ -1,0 +1,522 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "djr6T2C8Gfs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/djr6T2C8Gfs.srt",
+        "status": "available",
+        "bytes": 805,
+        "sha256": "7e6fc57c8eb49bdff0c9b673a14d654987a7af22a024fae2f1979ea1ede07158",
+        "cues": 10,
+        "nonempty_cues": 10
+      },
+      "frame_indices": [
+        0,
+        56,
+        113,
+        169,
+        225,
+        281,
+        338,
+        394,
+        450,
+        507,
+        563,
+        619,
+        675,
+        732,
+        788,
+        844,
+        901,
+        957,
+        1013,
+        1070,
+        1126,
+        1182,
+        1238,
+        1295,
+        1351,
+        1407,
+        1464,
+        1520,
+        1576,
+        1632,
+        1689,
+        1745
+      ],
+      "frame_seconds": [
+        0.0,
+        2.335667,
+        4.713042,
+        7.048708,
+        9.384375,
+        11.720042,
+        14.097417,
+        16.433083,
+        18.76875,
+        21.146125,
+        23.481792,
+        25.817458,
+        28.153125,
+        30.5305,
+        32.866167,
+        35.201833,
+        37.579208,
+        39.914875,
+        42.250542,
+        44.627917,
+        46.963583,
+        49.29925,
+        51.634917,
+        54.012292,
+        56.347958,
+        58.683625,
+        61.061,
+        63.396667,
+        65.732333,
+        68.068,
+        70.445375,
+        72.781042
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10
+        ],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 1180,
+          "end_ms": 9240,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 7280,
+          "end_ms": 16949,
+          "text": "thank you"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 9240,
+          "end_ms": 16949,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 20140,
+          "end_ms": 30779,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 27779,
+          "end_ms": 30779,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 32159,
+          "end_ms": 34460,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 36150,
+          "end_ms": 46090,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 48860,
+          "end_ms": 64459,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 61920,
+          "end_ms": 64459,
+          "text": "all right"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 64500,
+          "end_ms": 67500,
+          "text": "foreign"
+        }
+      ],
+      "text": "[Music]\nthank you\n[Music]\n[Music]\nforeign\nforeign\n[Music]\n[Music]\nall right\nforeign",
+      "text_tokens": 26,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "djr6T2C8Gfs",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/djr6T2C8Gfs.srt",
+          "status": "available",
+          "bytes": 805,
+          "sha256": "7e6fc57c8eb49bdff0c9b673a14d654987a7af22a024fae2f1979ea1ede07158",
+          "cues": 10,
+          "nonempty_cues": 10
+        },
+        "frame_indices": [
+          0,
+          56,
+          113,
+          169,
+          225,
+          281,
+          338,
+          394,
+          450,
+          507,
+          563,
+          619,
+          675,
+          732,
+          788,
+          844,
+          901,
+          957,
+          1013,
+          1070,
+          1126,
+          1182,
+          1238,
+          1295,
+          1351,
+          1407,
+          1464,
+          1520,
+          1576,
+          1632,
+          1689,
+          1745
+        ],
+        "frame_seconds": [
+          0.0,
+          2.335667,
+          4.713042,
+          7.048708,
+          9.384375,
+          11.720042,
+          14.097417,
+          16.433083,
+          18.76875,
+          21.146125,
+          23.481792,
+          25.817458,
+          28.153125,
+          30.5305,
+          32.866167,
+          35.201833,
+          37.579208,
+          39.914875,
+          42.250542,
+          44.627917,
+          46.963583,
+          49.29925,
+          51.634917,
+          54.012292,
+          56.347958,
+          58.683625,
+          61.061,
+          63.396667,
+          65.732333,
+          68.068,
+          70.445375,
+          72.781042
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6
+          ],
+          [],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10
+          ],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 1180,
+            "end_ms": 9240,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 7280,
+            "end_ms": 16949,
+            "text": "thank you"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 9240,
+            "end_ms": 16949,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 20140,
+            "end_ms": 30779,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 27779,
+            "end_ms": 30779,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 32159,
+            "end_ms": 34460,
+            "text": "foreign"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 36150,
+            "end_ms": 46090,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 48860,
+            "end_ms": 64459,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 61920,
+            "end_ms": 64459,
+            "text": "all right"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 64500,
+            "end_ms": 67500,
+            "text": "foreign"
+          }
+        ],
+        "text": "[Music]\nthank you\n[Music]\n[Music]\nforeign\nforeign\n[Music]\n[Music]\nall right\nforeign",
+        "text_tokens": 26,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3
+          ],
+          "start_ms": 1180,
+          "end_ms": 16949,
+          "text": "[Music] thank you [Music]"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_ms": 20140,
+          "end_ms": 46090,
+          "text": "[Music] foreign foreign [Music]"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10
+          ],
+          "start_ms": 48860,
+          "end_ms": 67500,
+          "text": "[Music] all right foreign"
+        }
+      ],
+      "text": "S1 [00:00:01.180 --> 00:00:16.949] [Music] thank you [Music]\nS4 [00:00:20.140 --> 00:00:46.090] [Music] foreign foreign [Music]\nS8 [00:00:48.860 --> 00:01:07.500] [Music] all right foreign",
+      "text_tokens": 112,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "412ab99fe52a7c737a1e302111d7ea159da85b940430b6592d9d9ceab5a5f8ef"
+}

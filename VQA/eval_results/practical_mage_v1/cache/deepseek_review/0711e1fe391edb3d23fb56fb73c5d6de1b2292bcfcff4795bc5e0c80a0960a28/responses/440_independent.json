@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "6a09e3233ac08d14477d2f84cedef9b2c1b467900f1e623d79a832db666b28a2",
+  "response": {
+    "id": "accf2aaf-53a5-49ae-b51c-ecfa94769618",
+    "object": "chat.completion",
+    "created": 1793675895,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"C\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S129\",\"quote\":\"threw in the hair toss just last minute which blew my mind oh Selma action\"},{\"block_id\":\"S176\",\"quote\":\"side she looked around she gave a little eye roll she walked forward people on the internet caught this I did not catch this truth be told the environment\"}],\"frame_ids\":[\"F7353\",\"F7813\"],\"windows\":[{\"start\":300.0,\"end\":308.0},{\"start\":455.0,\"end\":463.0}],\"notes\":\"Subtitle S129 names Selma (Salma Hayek) with a last-minute hair toss; S176 describes an eye roll and forward movement that the speaker 'did not catch,' matching the 'almost miss' description. Frames F7353/F7813 show the red-dress Glambot segment.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8948,
+      "completion_tokens": 193,
+      "total_tokens": 9141,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 8820
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.9937824793159962
+}

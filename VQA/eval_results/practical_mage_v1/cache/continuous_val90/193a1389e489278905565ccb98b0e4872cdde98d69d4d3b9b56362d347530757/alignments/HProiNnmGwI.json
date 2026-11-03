@@ -1,0 +1,419 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "HProiNnmGwI",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HProiNnmGwI.srt",
+        "status": "available",
+        "bytes": 21776,
+        "sha256": "8b5189311fa94ff9ab3b8ac91e76b7ae9241ad662d5b931976a9e5ff85f84d6d",
+        "cues": 170,
+        "nonempty_cues": 168
+      },
+      "frame_indices": [
+        0,
+        2282,
+        4564,
+        6847,
+        9129,
+        11411,
+        13693,
+        15976,
+        18258,
+        20540,
+        22822,
+        25104,
+        27387,
+        29669,
+        31951,
+        34233,
+        36516,
+        38798,
+        41080,
+        43362,
+        45645,
+        47927,
+        50209,
+        52491,
+        54773,
+        57056,
+        59338,
+        61620,
+        63902,
+        66185,
+        68467,
+        70749
+      ],
+      "frame_seconds": [
+        0.0,
+        91.28,
+        182.56,
+        273.88,
+        365.16,
+        456.44,
+        547.72,
+        639.04,
+        730.32,
+        821.6,
+        912.88,
+        1004.16,
+        1095.48,
+        1186.76,
+        1278.04,
+        1369.32,
+        1460.64,
+        1551.92,
+        1643.2,
+        1734.48,
+        1825.8,
+        1917.08,
+        2008.36,
+        2099.64,
+        2190.92,
+        2282.24,
+        2373.52,
+        2464.8,
+        2556.08,
+        2647.4,
+        2738.68,
+        2829.96
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          31
+        ],
+        [
+          39
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          64
+        ],
+        [],
+        [
+          76
+        ],
+        [],
+        [
+          89
+        ],
+        [
+          98
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 31,
+          "start_ms": 544120,
+          "end_ms": 548600,
+          "text": "Lay the prosperity and cultural riches of the Muslim world"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 637460,
+          "end_ms": 642680,
+          "text": "The most significant & serious expansion was an Asia minor"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 1093900,
+          "end_ms": 1097940,
+          "text": "An old monk called Peter the Hermit"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 1277760,
+          "end_ms": 1282980,
+          "text": "The people crusade reached the Byzantine capital, Constantinople"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 1451860,
+          "end_ms": 1465080,
+          "text": "A year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 1547040,
+          "end_ms": 1552820,
+          "text": "Robert duke of Normandy, Brother of King William the second of England"
+        }
+      ],
+      "text": "Lay the prosperity and cultural riches of the Muslim world\nThe most significant & serious expansion was an Asia minor\nAn old monk called Peter the Hermit\nThe people crusade reached the Byzantine capital, Constantinople\nA year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades\nRobert duke of Normandy, Brother of King William the second of England",
+      "text_tokens": 84,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "HProiNnmGwI",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HProiNnmGwI.srt",
+          "status": "available",
+          "bytes": 21776,
+          "sha256": "8b5189311fa94ff9ab3b8ac91e76b7ae9241ad662d5b931976a9e5ff85f84d6d",
+          "cues": 170,
+          "nonempty_cues": 168
+        },
+        "frame_indices": [
+          0,
+          2282,
+          4564,
+          6847,
+          9129,
+          11411,
+          13693,
+          15976,
+          18258,
+          20540,
+          22822,
+          25104,
+          27387,
+          29669,
+          31951,
+          34233,
+          36516,
+          38798,
+          41080,
+          43362,
+          45645,
+          47927,
+          50209,
+          52491,
+          54773,
+          57056,
+          59338,
+          61620,
+          63902,
+          66185,
+          68467,
+          70749
+        ],
+        "frame_seconds": [
+          0.0,
+          91.28,
+          182.56,
+          273.88,
+          365.16,
+          456.44,
+          547.72,
+          639.04,
+          730.32,
+          821.6,
+          912.88,
+          1004.16,
+          1095.48,
+          1186.76,
+          1278.04,
+          1369.32,
+          1460.64,
+          1551.92,
+          1643.2,
+          1734.48,
+          1825.8,
+          1917.08,
+          2008.36,
+          2099.64,
+          2190.92,
+          2282.24,
+          2373.52,
+          2464.8,
+          2556.08,
+          2647.4,
+          2738.68,
+          2829.96
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            31
+          ],
+          [
+            39
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            64
+          ],
+          [],
+          [
+            76
+          ],
+          [],
+          [
+            89
+          ],
+          [
+            98
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 31,
+            "start_ms": 544120,
+            "end_ms": 548600,
+            "text": "Lay the prosperity and cultural riches of the Muslim world"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 637460,
+            "end_ms": 642680,
+            "text": "The most significant & serious expansion was an Asia minor"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 1093900,
+            "end_ms": 1097940,
+            "text": "An old monk called Peter the Hermit"
+          },
+          {
+            "cue_id": 76,
+            "start_ms": 1277760,
+            "end_ms": 1282980,
+            "text": "The people crusade reached the Byzantine capital, Constantinople"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 1451860,
+            "end_ms": 1465080,
+            "text": "A year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 1547040,
+            "end_ms": 1552820,
+            "text": "Robert duke of Normandy, Brother of King William the second of England"
+          }
+        ],
+        "text": "Lay the prosperity and cultural riches of the Muslim world\nThe most significant & serious expansion was an Asia minor\nAn old monk called Peter the Hermit\nThe people crusade reached the Byzantine capital, Constantinople\nA year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades\nRobert duke of Normandy, Brother of King William the second of England",
+        "text_tokens": 84,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S31",
+          "cue_ids": [
+            31
+          ],
+          "start_ms": 544120,
+          "end_ms": 548600,
+          "text": "Lay the prosperity and cultural riches of the Muslim world"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40
+          ],
+          "start_ms": 631220,
+          "end_ms": 646380,
+          "text": "The Saljooks began expending their empire in all directions The most significant & serious expansion was an Asia minor Against the Christian's Byzantine Empire"
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63,
+            64
+          ],
+          "start_ms": 1086400,
+          "end_ms": 1097940,
+          "text": "They found the leader prepared to guide them immediately to the East An old monk called Peter the Hermit"
+        },
+        {
+          "id": "S75",
+          "cue_ids": [
+            75,
+            76,
+            77
+          ],
+          "start_ms": 1270460,
+          "end_ms": 1288900,
+          "text": "After over four months of exhausting marching across Europe The people crusade reached the Byzantine capital, Constantinople The crossing point to Asia and the holy land"
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89
+          ],
+          "start_ms": 1451860,
+          "end_ms": 1465080,
+          "text": "A year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99
+          ],
+          "start_ms": 1542280,
+          "end_ms": 1557200,
+          "text": "And brother King Philips the first of France Robert duke of Normandy, Brother of King William the second of England Bohemond the Norman, Prince of Toronto"
+        }
+      ],
+      "text": "S31 [00:09:04.120 --> 00:09:08.600] Lay the prosperity and cultural riches of the Muslim world\nS38 [00:10:31.220 --> 00:10:46.380] The Saljooks began expending their empire in all directions The most significant & serious expansion was an Asia minor Against the Christian's Byzantine Empire\nS63 [00:18:06.400 --> 00:18:17.940] They found the leader prepared to guide them immediately to the East An old monk called Peter the Hermit\nS75 [00:21:10.460 --> 00:21:28.900] After over four months of exhausting marching across Europe The people crusade reached the Byzantine capital, Constantinople The crossing point to Asia and the holy land\nS89 [00:24:11.860 --> 00:24:25.080] A year earlier, pope Urban the second had declared the war to reconquer the holy land from the Muslims The Crusades\nS97 [00:25:42.280 --> 00:25:57.200] And brother King Philips the first of France Robert duke of Normandy, Brother of King William the second of England Bohemond the Norman, Prince of Toronto",
+      "text_tokens": 335,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        38,
+        40,
+        63,
+        75,
+        77,
+        97,
+        99
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "a75744e6a524277692c0ca9708140e315570cd6f8ac410ea39bccc242125e87c"
+}

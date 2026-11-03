@@ -1,0 +1,660 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "ejFVFtJdP3s",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ejFVFtJdP3s.srt",
+        "status": "available",
+        "bytes": 2221,
+        "sha256": "7d5d71f2e9021aae1056346ad69e1c55cac40e8ceab612f708a04583cca3d788",
+        "cues": 22,
+        "nonempty_cues": 22
+      },
+      "frame_indices": [
+        0,
+        101,
+        203,
+        304,
+        405,
+        506,
+        608,
+        709,
+        810,
+        911,
+        1013,
+        1114,
+        1215,
+        1316,
+        1418,
+        1519,
+        1620,
+        1721,
+        1823,
+        1924,
+        2025,
+        2126,
+        2228,
+        2329,
+        2430,
+        2531,
+        2633,
+        2734,
+        2835,
+        2936,
+        3038,
+        3139
+      ],
+      "frame_seconds": [
+        0.0,
+        3.370033,
+        6.773433,
+        10.143467,
+        13.5135,
+        16.883533,
+        20.286933,
+        23.656967,
+        27.027,
+        30.397033,
+        33.800433,
+        37.170467,
+        40.5405,
+        43.910533,
+        47.313933,
+        50.683967,
+        54.054,
+        57.424033,
+        60.827433,
+        64.197467,
+        67.5675,
+        70.937533,
+        74.340933,
+        77.710967,
+        81.081,
+        84.451033,
+        87.854433,
+        91.224467,
+        94.5945,
+        97.964533,
+        101.367933,
+        104.737967
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [],
+        [
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          12
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 3280,
+          "end_ms": 7600,
+          "text": "and he's down there in lane seven an"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 5359,
+          "end_ms": 8559,
+          "text": "unusual position for phelps second from"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7600,
+          "end_ms": 10480,
+          "text": "the bottom"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 8559,
+          "end_ms": 12559,
+          "text": "right down there near the bottom it's"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 12559,
+          "end_ms": 17880,
+          "text": "said it"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 13440,
+          "end_ms": 17880,
+          "text": "he just needs to find his legs"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 21920,
+          "end_ms": 25680,
+          "text": "but there's no doubt he will not be"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 23840,
+          "end_ms": 27519,
+          "text": "first going into this one tim phillips"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 25680,
+          "end_ms": 31720,
+          "text": "looks good in lane five"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 27519,
+          "end_ms": 31720,
+          "text": "stutterfield has the lead"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 56160,
+          "end_ms": 59399,
+          "text": "a second"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 77360,
+          "end_ms": 83200,
+          "text": "well you just said you're never going to"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 79200,
+          "end_ms": 83200,
+          "text": "start stop doubting it now"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 83360,
+          "end_ms": 87920,
+          "text": "as once again"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 85520,
+          "end_ms": 90400,
+          "text": "proves when it's all on the line he's"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 87920,
+          "end_ms": 93280,
+          "text": "got something special"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 90400,
+          "end_ms": 96240,
+          "text": "he will indeed swim for his fourth"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 93280,
+          "end_ms": 98479,
+          "text": "olympic gold medal in this one like the"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 96240,
+          "end_ms": 101920,
+          "text": "200 i am"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 98479,
+          "end_ms": 106560,
+          "text": "no swimmer from the united states has"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 101920,
+          "end_ms": 106560,
+          "text": "ever won four in a row"
+        }
+      ],
+      "text": "and he's down there in lane seven an\nunusual position for phelps second from\nthe bottom\nright down there near the bottom it's\nsaid it\nhe just needs to find his legs\nbut there's no doubt he will not be\nfirst going into this one tim phillips\nlooks good in lane five\nstutterfield has the lead\na second\nwell you just said you're never going to\nstart stop doubting it now\nas once again\nproves when it's all on the line he's\ngot something special\nhe will indeed swim for his fourth\nolympic gold medal in this one like the\n200 i am\nno swimmer from the united states has\never won four in a row",
+      "text_tokens": 155,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ejFVFtJdP3s",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ejFVFtJdP3s.srt",
+          "status": "available",
+          "bytes": 2221,
+          "sha256": "7d5d71f2e9021aae1056346ad69e1c55cac40e8ceab612f708a04583cca3d788",
+          "cues": 22,
+          "nonempty_cues": 22
+        },
+        "frame_indices": [
+          0,
+          101,
+          203,
+          304,
+          405,
+          506,
+          608,
+          709,
+          810,
+          911,
+          1013,
+          1114,
+          1215,
+          1316,
+          1418,
+          1519,
+          1620,
+          1721,
+          1823,
+          1924,
+          2025,
+          2126,
+          2228,
+          2329,
+          2430,
+          2531,
+          2633,
+          2734,
+          2835,
+          2936,
+          3038,
+          3139
+        ],
+        "frame_seconds": [
+          0.0,
+          3.370033,
+          6.773433,
+          10.143467,
+          13.5135,
+          16.883533,
+          20.286933,
+          23.656967,
+          27.027,
+          30.397033,
+          33.800433,
+          37.170467,
+          40.5405,
+          43.910533,
+          47.313933,
+          50.683967,
+          54.054,
+          57.424033,
+          60.827433,
+          64.197467,
+          67.5675,
+          70.937533,
+          74.340933,
+          77.710967,
+          81.081,
+          84.451033,
+          87.854433,
+          91.224467,
+          94.5945,
+          97.964533,
+          101.367933,
+          104.737967
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [],
+          [
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            12
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 3280,
+            "end_ms": 7600,
+            "text": "and he's down there in lane seven an"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 5359,
+            "end_ms": 8559,
+            "text": "unusual position for phelps second from"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7600,
+            "end_ms": 10480,
+            "text": "the bottom"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 8559,
+            "end_ms": 12559,
+            "text": "right down there near the bottom it's"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 12559,
+            "end_ms": 17880,
+            "text": "said it"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 13440,
+            "end_ms": 17880,
+            "text": "he just needs to find his legs"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 21920,
+            "end_ms": 25680,
+            "text": "but there's no doubt he will not be"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 23840,
+            "end_ms": 27519,
+            "text": "first going into this one tim phillips"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 25680,
+            "end_ms": 31720,
+            "text": "looks good in lane five"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 27519,
+            "end_ms": 31720,
+            "text": "stutterfield has the lead"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 56160,
+            "end_ms": 59399,
+            "text": "a second"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 77360,
+            "end_ms": 83200,
+            "text": "well you just said you're never going to"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 79200,
+            "end_ms": 83200,
+            "text": "start stop doubting it now"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 83360,
+            "end_ms": 87920,
+            "text": "as once again"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 85520,
+            "end_ms": 90400,
+            "text": "proves when it's all on the line he's"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 87920,
+            "end_ms": 93280,
+            "text": "got something special"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 90400,
+            "end_ms": 96240,
+            "text": "he will indeed swim for his fourth"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 93280,
+            "end_ms": 98479,
+            "text": "olympic gold medal in this one like the"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 96240,
+            "end_ms": 101920,
+            "text": "200 i am"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 98479,
+            "end_ms": 106560,
+            "text": "no swimmer from the united states has"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 101920,
+            "end_ms": 106560,
+            "text": "ever won four in a row"
+          }
+        ],
+        "text": "and he's down there in lane seven an\nunusual position for phelps second from\nthe bottom\nright down there near the bottom it's\nsaid it\nhe just needs to find his legs\nbut there's no doubt he will not be\nfirst going into this one tim phillips\nlooks good in lane five\nstutterfield has the lead\na second\nwell you just said you're never going to\nstart stop doubting it now\nas once again\nproves when it's all on the line he's\ngot something special\nhe will indeed swim for his fourth\nolympic gold medal in this one like the\n200 i am\nno swimmer from the united states has\never won four in a row",
+        "text_tokens": 155,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_ms": 3280,
+          "end_ms": 17880,
+          "text": "and he's down there in lane seven an unusual position for phelps second from the bottom right down there near the bottom it's all about the finishing speed and you said it he just needs to find his legs"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 21920,
+          "end_ms": 31720,
+          "text": "but there's no doubt he will not be first going into this one tim phillips looks good in lane five stutterfield has the lead"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 56160,
+          "end_ms": 59399,
+          "text": "a second"
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 77360,
+          "end_ms": 106560,
+          "text": "well you just said you're never going to start stop doubting it now as once again proves when it's all on the line he's got something special he will indeed swim for his fourth olympic gold medal in this one like the 200 i am no swimmer from the united states has ever won four in a row"
+        }
+      ],
+      "text": "S1 [00:00:03.280 --> 00:00:17.880] and he's down there in lane seven an unusual position for phelps second from the bottom right down there near the bottom it's all about the finishing speed and you said it he just needs to find his legs\nS8 [00:00:21.920 --> 00:00:31.720] but there's no doubt he will not be first going into this one tim phillips looks good in lane five stutterfield has the lead\nS12 [00:00:56.160 --> 00:00:59.399] a second\nS13 [00:01:17.360 --> 00:01:46.560] well you just said you're never going to start stop doubting it now as once again proves when it's all on the line he's got something special he will indeed swim for his fourth olympic gold medal in this one like the 200 i am no swimmer from the united states has ever won four in a row",
+      "text_tokens": 265,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        5
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "59c36b43c10b51487bac7b8b6e04bbd453abdf7bcc09dca53ecff6e1a6e2a08f"
+}

@@ -1,0 +1,332 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "dXBREPP1hfo",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dXBREPP1hfo.srt",
+        "status": "available",
+        "bytes": 675,
+        "sha256": "530ceb2071b1f4cf6dff135ecc17ff8e731758fd7142709826d4248a519ff42f",
+        "cues": 6,
+        "nonempty_cues": 6
+      },
+      "frame_indices": [
+        0,
+        1850,
+        3700,
+        5549,
+        7399,
+        9249,
+        11099,
+        12948,
+        14798,
+        16648,
+        18498,
+        20348,
+        22197,
+        24047,
+        25897,
+        27747,
+        29596,
+        31446,
+        33296,
+        35146,
+        36995,
+        38845,
+        40695,
+        42545,
+        44395,
+        46244,
+        48094,
+        49944,
+        51794,
+        53643,
+        55493,
+        57343
+      ],
+      "frame_seconds": [
+        0.0,
+        61.666667,
+        123.333333,
+        184.966667,
+        246.633333,
+        308.3,
+        369.966667,
+        431.6,
+        493.266667,
+        554.933333,
+        616.6,
+        678.266667,
+        739.9,
+        801.566667,
+        863.233333,
+        924.9,
+        986.533333,
+        1048.2,
+        1109.866667,
+        1171.533333,
+        1233.166667,
+        1294.833333,
+        1356.5,
+        1418.166667,
+        1479.833333,
+        1541.466667,
+        1603.133333,
+        1664.8,
+        1726.466667,
+        1788.1,
+        1849.766667,
+        1911.433333
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          4
+        ],
+        [],
+        [
+          6
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 3003,
+          "text": "❤️ Welcome to Cardboard World ❤️"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 1748307,
+          "end_ms": 1791939,
+          "text": "❤️ Don't forget LIKE and SHARE my video babe ❤️"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 1860594,
+          "end_ms": 1918337,
+          "text": "Like and Share, Love you ❤️"
+        }
+      ],
+      "text": "❤️ Welcome to Cardboard World ❤️\n❤️ Don't forget LIKE and SHARE my video babe ❤️\nLike and Share, Love you ❤️",
+      "text_tokens": 32,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "dXBREPP1hfo",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dXBREPP1hfo.srt",
+          "status": "available",
+          "bytes": 675,
+          "sha256": "530ceb2071b1f4cf6dff135ecc17ff8e731758fd7142709826d4248a519ff42f",
+          "cues": 6,
+          "nonempty_cues": 6
+        },
+        "frame_indices": [
+          0,
+          1850,
+          3700,
+          5549,
+          7399,
+          9249,
+          11099,
+          12948,
+          14798,
+          16648,
+          18498,
+          20348,
+          22197,
+          24047,
+          25897,
+          27747,
+          29596,
+          31446,
+          33296,
+          35146,
+          36995,
+          38845,
+          40695,
+          42545,
+          44395,
+          46244,
+          48094,
+          49944,
+          51794,
+          53643,
+          55493,
+          57343
+        ],
+        "frame_seconds": [
+          0.0,
+          61.666667,
+          123.333333,
+          184.966667,
+          246.633333,
+          308.3,
+          369.966667,
+          431.6,
+          493.266667,
+          554.933333,
+          616.6,
+          678.266667,
+          739.9,
+          801.566667,
+          863.233333,
+          924.9,
+          986.533333,
+          1048.2,
+          1109.866667,
+          1171.533333,
+          1233.166667,
+          1294.833333,
+          1356.5,
+          1418.166667,
+          1479.833333,
+          1541.466667,
+          1603.133333,
+          1664.8,
+          1726.466667,
+          1788.1,
+          1849.766667,
+          1911.433333
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            4
+          ],
+          [],
+          [
+            6
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 3003,
+            "text": "❤️ Welcome to Cardboard World ❤️"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 1748307,
+            "end_ms": 1791939,
+            "text": "❤️ Don't forget LIKE and SHARE my video babe ❤️"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 1860594,
+            "end_ms": 1918337,
+            "text": "Like and Share, Love you ❤️"
+          }
+        ],
+        "text": "❤️ Welcome to Cardboard World ❤️\n❤️ Don't forget LIKE and SHARE my video babe ❤️\nLike and Share, Love you ❤️",
+        "text_tokens": 32,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 0,
+          "end_ms": 3003,
+          "text": "❤️ Welcome to Cardboard World ❤️"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5
+          ],
+          "start_ms": 1748307,
+          "end_ms": 1846671,
+          "text": "❤️ Don't forget LIKE and SHARE my video babe ❤️ Thank you for Watching"
+        },
+        {
+          "id": "S6",
+          "cue_ids": [
+            6
+          ],
+          "start_ms": 1860594,
+          "end_ms": 1918337,
+          "text": "Like and Share, Love you ❤️"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:03.003] ❤️ Welcome to Cardboard World ❤️\nS4 [00:29:08.307 --> 00:30:46.671] ❤️ Don't forget LIKE and SHARE my video babe ❤️ Thank you for Watching\nS6 [00:31:00.594 --> 00:31:58.337] Like and Share, Love you ❤️",
+      "text_tokens": 126,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        5
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "0e142b65af760ccd6c097f95bc083fac00edbd1d5fed8969043fb1c2af6484d3"
+}

@@ -1,0 +1,486 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "i1p5PAgNvR0",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/i1p5PAgNvR0.srt",
+      "status": "available",
+      "bytes": 62213,
+      "sha256": "bc724d8599343a2cbc713b60fb9de5028277d80bda490a028c2dd7a241a4941b",
+      "cues": 610,
+      "nonempty_cues": 610
+    },
+    "frame_indices": [
+      0,
+      1545,
+      3090,
+      4635,
+      6180,
+      7725,
+      9269,
+      10814,
+      12359,
+      13904,
+      15449,
+      16994,
+      18539,
+      20084,
+      21629,
+      23174,
+      24718,
+      26263,
+      27808,
+      29353,
+      30898,
+      32443,
+      33988,
+      35533,
+      37078,
+      38623,
+      40167,
+      41712,
+      43257,
+      44802,
+      46347,
+      47892
+    ],
+    "frame_seconds": [
+      0.0,
+      61.8,
+      123.6,
+      185.4,
+      247.2,
+      309.0,
+      370.76,
+      432.56,
+      494.36,
+      556.16,
+      617.96,
+      679.76,
+      741.56,
+      803.36,
+      865.16,
+      926.96,
+      988.72,
+      1050.52,
+      1112.32,
+      1174.12,
+      1235.92,
+      1297.72,
+      1359.52,
+      1421.32,
+      1483.12,
+      1544.92,
+      1606.68,
+      1668.48,
+      1730.28,
+      1792.08,
+      1853.88,
+      1915.68
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        19,
+        20
+      ],
+      [
+        40,
+        41
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        80,
+        81
+      ],
+      [],
+      [
+        120,
+        121
+      ],
+      [
+        136,
+        137
+      ],
+      [
+        159
+      ],
+      [
+        179
+      ],
+      [
+        198,
+        199
+      ],
+      [
+        216,
+        217
+      ],
+      [],
+      [
+        253
+      ],
+      [
+        273,
+        274
+      ],
+      [],
+      [
+        315,
+        316
+      ],
+      [
+        338,
+        339
+      ],
+      [
+        358,
+        359
+      ],
+      [
+        378,
+        379
+      ],
+      [
+        393,
+        394
+      ],
+      [
+        416,
+        417
+      ],
+      [
+        439,
+        440
+      ],
+      [
+        460,
+        461
+      ],
+      [
+        477,
+        478
+      ],
+      [
+        497,
+        498
+      ],
+      [
+        516,
+        517
+      ],
+      [
+        535,
+        536
+      ],
+      [
+        555
+      ],
+      [],
+      [
+        594
+      ],
+      [
+        610
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 19,
+        "start_ms": 56440,
+        "end_ms": 62039,
+        "text": "shho for Salah oh that's brilliant"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 60540,
+        "end_ms": 64040,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 118840,
+        "end_ms": 125039,
+        "text": "Salah"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 121399,
+        "end_ms": 128580,
+        "text": "and Salah is there oh what a"
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 180120,
+        "end_ms": 186440,
+        "text": "there's the goal Muhammad Salah scored"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 183239,
+        "end_ms": 189560,
+        "text": "again and on towards Salah and Salah and"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 240280,
+        "end_ms": 249480,
+        "text": "Salah that's an amazing goal it's a work"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 244000,
+        "end_ms": 249480,
+        "text": "of Genius it's a moment of absolute"
+      },
+      {
+        "cue_id": 120,
+        "start_ms": 367759,
+        "end_ms": 372720,
+        "text": "Salah steps away from Rodriguez on"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 370599,
+        "end_ms": 375520,
+        "text": "towards Muhammad Salah big moment"
+      },
+      {
+        "cue_id": 136,
+        "start_ms": 426800,
+        "end_ms": 433639,
+        "text": "Salah well shakiri looking to light up"
+      },
+      {
+        "cue_id": 137,
+        "start_ms": 429160,
+        "end_ms": 433639,
+        "text": "his debut Liverpool will"
+      },
+      {
+        "cue_id": 159,
+        "start_ms": 492520,
+        "end_ms": 497440,
+        "text": "scores Sal off trying to make it four"
+      },
+      {
+        "cue_id": 179,
+        "start_ms": 554399,
+        "end_ms": 559940,
+        "text": "in that's for firmino and he does get"
+      },
+      {
+        "cue_id": 198,
+        "start_ms": 614079,
+        "end_ms": 619839,
+        "text": "goal Muhammad Salah wants a goal in the"
+      },
+      {
+        "cue_id": 199,
+        "start_ms": 617959,
+        "end_ms": 623360,
+        "text": "biggest game of his"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 674450,
+        "end_ms": 682630,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 217,
+        "start_ms": 677839,
+        "end_ms": 685519,
+        "text": "scores down to Salah goal 43"
+      },
+      {
+        "cue_id": 253,
+        "start_ms": 801920,
+        "end_ms": 807760,
+        "text": "sure well that's loose it comes to ker"
+      },
+      {
+        "cue_id": 273,
+        "start_ms": 861480,
+        "end_ms": 866480,
+        "text": "Level come out to Curtis Jones who helps"
+      },
+      {
+        "cue_id": 274,
+        "start_ms": 864560,
+        "end_ms": 869199,
+        "text": "the ball away and all of a sudden"
+      },
+      {
+        "cue_id": 315,
+        "start_ms": 984800,
+        "end_ms": 991319,
+        "text": "classic"
+      },
+      {
+        "cue_id": 316,
+        "start_ms": 987120,
+        "end_ms": 993920,
+        "text": "Liverpool Big G games need big moments"
+      },
+      {
+        "cue_id": 338,
+        "start_ms": 1045199,
+        "end_ms": 1050720,
+        "text": "and that's jinny vanalden flying through"
+      },
+      {
+        "cue_id": 339,
+        "start_ms": 1047439,
+        "end_ms": 1052919,
+        "text": "Midfield and finding Dogo jot and doo"
+      },
+      {
+        "cue_id": 358,
+        "start_ms": 1107320,
+        "end_ms": 1112640,
+        "text": "anfield"
+      },
+      {
+        "cue_id": 359,
+        "start_ms": 1109559,
+        "end_ms": 1115440,
+        "text": "Joel matip now support from Alexander"
+      },
+      {
+        "cue_id": 378,
+        "start_ms": 1169480,
+        "end_ms": 1177640,
+        "text": "see a better goal in such a"
+      },
+      {
+        "cue_id": 379,
+        "start_ms": 1173640,
+        "end_ms": 1182159,
+        "text": "game the man is simply incredible it's a"
+      },
+      {
+        "cue_id": 393,
+        "start_ms": 1229000,
+        "end_ms": 1237240,
+        "text": "is Liverpool's calmest and most composed"
+      },
+      {
+        "cue_id": 394,
+        "start_ms": 1232679,
+        "end_ms": 1237240,
+        "text": "player and Muhammad Salah scores for"
+      },
+      {
+        "cue_id": 416,
+        "start_ms": 1294799,
+        "end_ms": 1297840,
+        "text": "Oman he's got the over J at the back"
+      },
+      {
+        "cue_id": 417,
+        "start_ms": 1296480,
+        "end_ms": 1301279,
+        "text": "post he might not need him here though"
+      },
+      {
+        "cue_id": 439,
+        "start_ms": 1355919,
+        "end_ms": 1362080,
+        "text": "Liverpool Alexander"
+      },
+      {
+        "cue_id": 440,
+        "start_ms": 1358000,
+        "end_ms": 1364240,
+        "text": "Arnold he's looking for van djk and"
+      },
+      {
+        "cue_id": 460,
+        "start_ms": 1418600,
+        "end_ms": 1423960,
+        "text": "you"
+      },
+      {
+        "cue_id": 461,
+        "start_ms": 1420720,
+        "end_ms": 1426600,
+        "text": "like Alexander Arnold takes and there's"
+      },
+      {
+        "cue_id": 477,
+        "start_ms": 1479840,
+        "end_ms": 1485200,
+        "text": "Salah who's taken the ball down and"
+      },
+      {
+        "cue_id": 478,
+        "start_ms": 1482799,
+        "end_ms": 1489720,
+        "text": "stabbed it"
+      },
+      {
+        "cue_id": 497,
+        "start_ms": 1542240,
+        "end_ms": 1547039,
+        "text": "is and Van dijk's header and the"
+      },
+      {
+        "cue_id": 498,
+        "start_ms": 1544760,
+        "end_ms": 1550039,
+        "text": "goalkeeper keeps it out but he doesn't"
+      },
+      {
+        "cue_id": 516,
+        "start_ms": 1603790,
+        "end_ms": 1610159,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 517,
+        "start_ms": 1605919,
+        "end_ms": 1610159,
+        "text": "go oh Beautiful"
+      },
+      {
+        "cue_id": 535,
+        "start_ms": 1665720,
+        "end_ms": 1669679,
+        "text": "Liverpool Jones for"
+      },
+      {
+        "cue_id": 536,
+        "start_ms": 1668250,
+        "end_ms": 1672799,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 555,
+        "start_ms": 1727960,
+        "end_ms": 1733840,
+        "text": "scores and it's safe by Netto and Salah"
+      },
+      {
+        "cue_id": 594,
+        "start_ms": 1852799,
+        "end_ms": 1856919,
+        "text": "Liverpool and that's Cody gakpo Simas"
+      },
+      {
+        "cue_id": 610,
+        "start_ms": 1914679,
+        "end_ms": 1917679,
+        "text": "sight"
+      }
+    ],
+    "text": "shho for Salah oh that's brilliant\n[Applause]\nSalah\nand Salah is there oh what a\nthere's the goal Muhammad Salah scored\nagain and on towards Salah and Salah and\nSalah that's an amazing goal it's a work\nof Genius it's a moment of absolute\nSalah steps away from Rodriguez on\ntowards Muhammad Salah big moment\nSalah well shakiri looking to light up\nhis debut Liverpool will\nscores Sal off trying to make it four\nin that's for firmino and he does get\ngoal Muhammad Salah wants a goal in the\nbiggest game of his\n[Applause]\nscores down to Salah goal 43\nsure well that's loose it comes to ker\nLevel come out to Curtis Jones who helps\nthe ball away and all of a sudden\nclassic\nLiverpool Big G games need big moments\nand that's jinny vanalden flying through\nMidfield and finding Dogo jot and doo\nanfield\nJoel matip now support from Alexander\nsee a better goal in such a\ngame the man is simply incredible it's a\nis Liverpool's calmest and most composed\nplayer and Muhammad Salah scores for\nOman he's got the over J at the back\npost he might not need him here though\nLiverpool Alexander\nArnold he's looking for van djk and\nyou\nlike Alexander Arnold takes and there's\nSalah who's taken the ball down and\nstabbed it\nis and Van dijk's header and the\ngoalkeeper keeps it out but he doesn't\n[Applause]\ngo oh Beautiful\nLiverpool Jones for\n[Music]\nscores and it's safe by Netto and Salah\nLiverpool and that's Cody gakpo Simas\nsight",
+    "text_tokens": 369,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "8cd93e76472300060003ca9665b2a73a1587b00ca1b33faf7de3159354835a49"
+}

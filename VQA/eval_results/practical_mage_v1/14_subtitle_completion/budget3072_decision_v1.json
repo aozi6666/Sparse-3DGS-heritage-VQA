@@ -1,0 +1,34 @@
+{
+  "version": "budget3072_review_v1",
+  "summary_sha256": "5e78a570add94a0e6ad99d3b52dce8d019eb94a0667550517edddd760e8fb63b",
+  "audit_passed": true,
+  "changed_predictions": [
+    {
+      "index": "459",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "gt": "C",
+      "old": "C",
+      "new": "D"
+    },
+    {
+      "index": "474",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "gt": "D",
+      "old": "D",
+      "new": "B"
+    },
+    {
+      "index": "484",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "gt": "D",
+      "old": "C",
+      "new": "B"
+    }
+  ],
+  "recommended_tokens": 2048,
+  "reason": "3072:117/180 vs2048:119/180;0rescue2harm;long unchanged50/84;extra text2.35%;retain3072 as negative ablation.",
+  "next_stage": "short219 three-arm coverage evaluation,not independent test;noAgent/API/test225"
+}

@@ -1,0 +1,592 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "iCQmfRMwHfA",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/iCQmfRMwHfA.srt",
+      "status": "available",
+      "bytes": 83501,
+      "sha256": "fa802686c46bd956843c1b9ef331fadf3f83e8edf41f8942688e96ecfc56e385",
+      "cues": 752,
+      "nonempty_cues": 752
+    },
+    "frame_indices": [
+      0,
+      1681,
+      3362,
+      5043,
+      6724,
+      8405,
+      10086,
+      11767,
+      13447,
+      15128,
+      16809,
+      18490,
+      20171,
+      21852,
+      23533,
+      25214,
+      26895,
+      28576,
+      30257,
+      31938,
+      33619,
+      35300,
+      36981,
+      38662,
+      40342,
+      42023,
+      43704,
+      45385,
+      47066,
+      48747,
+      50428,
+      52109
+    ],
+    "frame_seconds": [
+      0.0,
+      67.24,
+      134.48,
+      201.72,
+      268.96,
+      336.2,
+      403.44,
+      470.68,
+      537.88,
+      605.12,
+      672.36,
+      739.6,
+      806.84,
+      874.08,
+      941.32,
+      1008.56,
+      1075.8,
+      1143.04,
+      1210.28,
+      1277.52,
+      1344.76,
+      1412.0,
+      1479.24,
+      1546.48,
+      1613.68,
+      1680.92,
+      1748.16,
+      1815.4,
+      1882.64,
+      1949.88,
+      2017.12,
+      2084.36
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        15,
+        16
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        61,
+        62
+      ],
+      [
+        85,
+        86
+      ],
+      [
+        110,
+        111
+      ],
+      [
+        134,
+        135
+      ],
+      [
+        161,
+        162
+      ],
+      [
+        188,
+        189
+      ],
+      [
+        215,
+        216
+      ],
+      [
+        241,
+        242
+      ],
+      [
+        269,
+        270
+      ],
+      [
+        300,
+        301
+      ],
+      [
+        322,
+        323
+      ],
+      [
+        345,
+        346
+      ],
+      [
+        371,
+        372
+      ],
+      [
+        395,
+        396
+      ],
+      [
+        423,
+        424
+      ],
+      [
+        445,
+        446
+      ],
+      [
+        464,
+        465
+      ],
+      [
+        492,
+        493
+      ],
+      [
+        516,
+        517
+      ],
+      [
+        538,
+        539
+      ],
+      [
+        562,
+        563
+      ],
+      [
+        586,
+        587
+      ],
+      [
+        610,
+        611
+      ],
+      [
+        631,
+        632
+      ],
+      [
+        656,
+        657
+      ],
+      [
+        680,
+        681
+      ],
+      [
+        705,
+        706
+      ],
+      [
+        731,
+        732
+      ],
+      [
+        751,
+        752
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 15,
+        "start_ms": 63949,
+        "end_ms": 67670,
+        "text": "to be anywhere to talk about is being"
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 65300,
+        "end_ms": 69380,
+        "text": "sent to Siberia and I took this off my"
+      },
+      {
+        "cue_id": 37,
+        "start_ms": 127789,
+        "end_ms": 135680,
+        "text": "emotion so much fighting it comes down"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 130310,
+        "end_ms": 137720,
+        "text": "to egos industry and me now eating real"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 197750,
+        "end_ms": 202670,
+        "text": "moderation doesn't hurt but over time"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 200000,
+        "end_ms": 204800,
+        "text": "you end up with one clear outcome your"
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 266419,
+        "end_ms": 271690,
+        "text": "it's based on making food tastier"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 268400,
+        "end_ms": 275000,
+        "text": "improving shelf life and profitability"
+      },
+      {
+        "cue_id": 110,
+        "start_ms": 332830,
+        "end_ms": 336840,
+        "text": "industry to change and corporations to"
+      },
+      {
+        "cue_id": 111,
+        "start_ms": 335110,
+        "end_ms": 341400,
+        "text": "change because they're driven by profit"
+      },
+      {
+        "cue_id": 134,
+        "start_ms": 399540,
+        "end_ms": 403860,
+        "text": "getting heavier their needs of filing"
+      },
+      {
+        "cue_id": 135,
+        "start_ms": 401640,
+        "end_ms": 405690,
+        "text": "joints are failing"
+      },
+      {
+        "cue_id": 161,
+        "start_ms": 466280,
+        "end_ms": 472200,
+        "text": "reverse it then that becomes a model to"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 470340,
+        "end_ms": 474390,
+        "text": "prevent virtually all modern disease and"
+      },
+      {
+        "cue_id": 188,
+        "start_ms": 534300,
+        "end_ms": 538620,
+        "text": "and I'm not that smart"
+      },
+      {
+        "cue_id": 189,
+        "start_ms": 536370,
+        "end_ms": 540300,
+        "text": "we look at a bit of evidence so here's"
+      },
+      {
+        "cue_id": 215,
+        "start_ms": 601769,
+        "end_ms": 607559,
+        "text": "there but it's just not going to work so"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 604379,
+        "end_ms": 610410,
+        "text": "look what we do we're lemmings about to"
+      },
+      {
+        "cue_id": 241,
+        "start_ms": 668560,
+        "end_ms": 673420,
+        "text": "chemicals that are in our food chain"
+      },
+      {
+        "cue_id": 242,
+        "start_ms": 670090,
+        "end_ms": 675280,
+        "text": "it's just disturbing the bowel organisms"
+      },
+      {
+        "cue_id": 269,
+        "start_ms": 735670,
+        "end_ms": 740710,
+        "text": "got honey which is a little bit higher"
+      },
+      {
+        "cue_id": 270,
+        "start_ms": 738310,
+        "end_ms": 742210,
+        "text": "and fructose than glucose and that's why"
+      },
+      {
+        "cue_id": 300,
+        "start_ms": 803450,
+        "end_ms": 808160,
+        "text": "and muscle under the influence of"
+      },
+      {
+        "cue_id": 301,
+        "start_ms": 805670,
+        "end_ms": 810530,
+        "text": "insulin and if we take in too much the"
+      },
+      {
+        "cue_id": 322,
+        "start_ms": 871730,
+        "end_ms": 875660,
+        "text": "butter"
+      },
+      {
+        "cue_id": 323,
+        "start_ms": 872120,
+        "end_ms": 878990,
+        "text": "it's nothing natural about it so the"
+      },
+      {
+        "cue_id": 345,
+        "start_ms": 935990,
+        "end_ms": 943100,
+        "text": "free radical or at least so at every"
+      },
+      {
+        "cue_id": 346,
+        "start_ms": 940640,
+        "end_ms": 946550,
+        "text": "double bond if they become oxidized it"
+      },
+      {
+        "cue_id": 371,
+        "start_ms": 1003970,
+        "end_ms": 1009970,
+        "text": "you put too much glucose in you actually"
+      },
+      {
+        "cue_id": 372,
+        "start_ms": 1006450,
+        "end_ms": 1011709,
+        "text": "create an alcohol pathway and the liver"
+      },
+      {
+        "cue_id": 395,
+        "start_ms": 1070030,
+        "end_ms": 1077080,
+        "text": "oxide if you inhibit it with uric acid"
+      },
+      {
+        "cue_id": 396,
+        "start_ms": 1073090,
+        "end_ms": 1077740,
+        "text": "then you start affecting the blood flow"
+      },
+      {
+        "cue_id": 423,
+        "start_ms": 1138580,
+        "end_ms": 1143650,
+        "text": "hormone which makes the tummy Rumble so"
+      },
+      {
+        "cue_id": 424,
+        "start_ms": 1140500,
+        "end_ms": 1146920,
+        "text": "we've got here sugar fructose is"
+      },
+      {
+        "cue_id": 445,
+        "start_ms": 1206320,
+        "end_ms": 1213549,
+        "text": "is in them is reflected in what we eat"
+      },
+      {
+        "cue_id": 446,
+        "start_ms": 1209309,
+        "end_ms": 1217840,
+        "text": "it's either a saturated fat or it's a"
+      },
+      {
+        "cue_id": 464,
+        "start_ms": 1270070,
+        "end_ms": 1278349,
+        "text": "a small dense LDLs end up and they end"
+      },
+      {
+        "cue_id": 465,
+        "start_ms": 1272590,
+        "end_ms": 1280269,
+        "text": "up in the blood vessel wall complex"
+      },
+      {
+        "cue_id": 492,
+        "start_ms": 1342050,
+        "end_ms": 1347020,
+        "text": "real clincher for me so that when we"
+      },
+      {
+        "cue_id": 493,
+        "start_ms": 1344390,
+        "end_ms": 1351620,
+        "text": "have in nature a high dose of fructose"
+      },
+      {
+        "cue_id": 516,
+        "start_ms": 1407120,
+        "end_ms": 1412960,
+        "text": "and our mitochondria are now filled up"
+      },
+      {
+        "cue_id": 517,
+        "start_ms": 1409070,
+        "end_ms": 1415190,
+        "text": "with a polyunsaturated oil is that a"
+      },
+      {
+        "cue_id": 538,
+        "start_ms": 1473660,
+        "end_ms": 1479330,
+        "text": "carbohydrate gets converted into"
+      },
+      {
+        "cue_id": 539,
+        "start_ms": 1475370,
+        "end_ms": 1481490,
+        "text": "fructose polyol conversion along the way"
+      },
+      {
+        "cue_id": 562,
+        "start_ms": 1542450,
+        "end_ms": 1549350,
+        "text": "as a mechanism okay as a potential"
+      },
+      {
+        "cue_id": 563,
+        "start_ms": 1546020,
+        "end_ms": 1550910,
+        "text": "mechanism have you got any Association"
+      },
+      {
+        "cue_id": 586,
+        "start_ms": 1609730,
+        "end_ms": 1615700,
+        "text": "Chicken went from cooking in lard to"
+      },
+      {
+        "cue_id": 587,
+        "start_ms": 1612370,
+        "end_ms": 1619450,
+        "text": "cooking in a seed oil all that time and"
+      },
+      {
+        "cue_id": 610,
+        "start_ms": 1676570,
+        "end_ms": 1683400,
+        "text": "I've continued on multiple studies so in"
+      },
+      {
+        "cue_id": 611,
+        "start_ms": 1680140,
+        "end_ms": 1686640,
+        "text": "1960 about 8% of our body fat was"
+      },
+      {
+        "cue_id": 631,
+        "start_ms": 1742179,
+        "end_ms": 1749020,
+        "text": "inflammation right throughout the body"
+      },
+      {
+        "cue_id": 632,
+        "start_ms": 1744580,
+        "end_ms": 1751960,
+        "text": "more oxygen free radical release I think"
+      },
+      {
+        "cue_id": 656,
+        "start_ms": 1810400,
+        "end_ms": 1817420,
+        "text": "food they also have a great commitment"
+      },
+      {
+        "cue_id": 657,
+        "start_ms": 1814750,
+        "end_ms": 1819160,
+        "text": "to spirit and community which i think is"
+      },
+      {
+        "cue_id": 680,
+        "start_ms": 1874480,
+        "end_ms": 1883210,
+        "text": "we're talking about VCD diabetes that's"
+      },
+      {
+        "cue_id": 681,
+        "start_ms": 1878260,
+        "end_ms": 1885910,
+        "text": "my theory about further linked Ted name"
+      },
+      {
+        "cue_id": 705,
+        "start_ms": 1945220,
+        "end_ms": 1951910,
+        "text": "then it sorts itself out what's real"
+      },
+      {
+        "cue_id": 706,
+        "start_ms": 1948040,
+        "end_ms": 1954190,
+        "text": "food likes the future of eating it tends"
+      },
+      {
+        "cue_id": 731,
+        "start_ms": 2012140,
+        "end_ms": 2017150,
+        "text": "refined in excess making fat the poly"
+      },
+      {
+        "cue_id": 732,
+        "start_ms": 2014960,
+        "end_ms": 2021350,
+        "text": "unsaturated oils are tied clearly up"
+      },
+      {
+        "cue_id": 751,
+        "start_ms": 2077570,
+        "end_ms": 2084639,
+        "text": "honor amongst thieves I don't thank you"
+      },
+      {
+        "cue_id": 752,
+        "start_ms": 2081350,
+        "end_ms": 2084639,
+        "text": "all for being part of our dress"
+      }
+    ],
+    "text": "to be anywhere to talk about is being\nsent to Siberia and I took this off my\nemotion so much fighting it comes down\nto egos industry and me now eating real\nmoderation doesn't hurt but over time\nyou end up with one clear outcome your\nit's based on making food tastier\nimproving shelf life and profitability\nindustry to change and corporations to\nchange because they're driven by profit\ngetting heavier their needs of filing\njoints are failing\nreverse it then that becomes a model to\nprevent virtually all modern disease and\nand I'm not that smart\nwe look at a bit of evidence so here's\nthere but it's just not going to work so\nlook what we do we're lemmings about to\nchemicals that are in our food chain\nit's just disturbing the bowel organisms\ngot honey which is a little bit higher\nand fructose than glucose and that's why\nand muscle under the influence of\ninsulin and if we take in too much the\nbutter\nit's nothing natural about it so the\nfree radical or at least so at every\ndouble bond if they become oxidized it\nyou put too much glucose in you actually\ncreate an alcohol pathway and the liver\noxide if you inhibit it with uric acid\nthen you start affecting the blood flow\nhormone which makes the tummy Rumble so\nwe've got here sugar fructose is\nis in them is reflected in what we eat\nit's either a saturated fat or it's a\na small dense LDLs end up and they end\nup in the blood vessel wall complex\nreal clincher for me so that when we\nhave in nature a high dose of fructose\nand our mitochondria are now filled up\nwith a polyunsaturated oil is that a\ncarbohydrate gets converted into\nfructose polyol conversion along the way\nas a mechanism okay as a potential\nmechanism have you got any Association\nChicken went from cooking in lard to\ncooking in a seed oil all that time and\nI've continued on multiple studies so in\n1960 about 8% of our body fat was\ninflammation right throughout the body\nmore oxygen free radical release I think\nfood they also have a great commitment\nto spirit and community which i think is\nwe're talking about VCD diabetes that's\nmy theory about further linked Ted name\nthen it sorts itself out what's real\nfood likes the future of eating it tends\nrefined in excess making fat the poly\nunsaturated oils are tied clearly up\nhonor amongst thieves I don't thank you\nall for being part of our dress",
+    "text_tokens": 555,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "e26623fe97133cf32d9ab1dbdd59820fe8a53798d91f7ac04bd28046b1a5fa45",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

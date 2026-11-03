@@ -1,0 +1,1028 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "2ka5AleJ48I",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2ka5AleJ48I.srt",
+        "status": "available",
+        "bytes": 29140,
+        "sha256": "b5cc5f79c3c216e14f9b0afed5de02f4ec663a90df408ac7046943e90c6450f6",
+        "cues": 265,
+        "nonempty_cues": 265
+      },
+      "frame_indices": [
+        0,
+        558,
+        1117,
+        1675,
+        2233,
+        2792,
+        3350,
+        3908,
+        4467,
+        5025,
+        5584,
+        6142,
+        6700,
+        7259,
+        7817,
+        8375,
+        8934,
+        9492,
+        10050,
+        10609,
+        11167,
+        11725,
+        12284,
+        12842,
+        13401,
+        13959,
+        14517,
+        15076,
+        15634,
+        16192,
+        16751,
+        17309
+      ],
+      "frame_seconds": [
+        0.0,
+        18.6186,
+        37.270567,
+        55.889167,
+        74.507767,
+        93.159733,
+        111.778333,
+        130.396933,
+        149.0489,
+        167.6675,
+        186.319467,
+        204.938067,
+        223.556667,
+        242.208633,
+        260.827233,
+        279.445833,
+        298.0978,
+        316.7164,
+        335.335,
+        353.986967,
+        372.605567,
+        391.224167,
+        409.876133,
+        428.494733,
+        447.1467,
+        465.7653,
+        484.3839,
+        503.035867,
+        521.654467,
+        540.273067,
+        558.925033,
+        577.543633
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          5,
+          6
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          68,
+          69
+        ],
+        [
+          76,
+          77
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          111,
+          112
+        ],
+        [
+          118,
+          119
+        ],
+        [
+          127,
+          128
+        ],
+        [
+          137,
+          138
+        ],
+        [
+          146,
+          147
+        ],
+        [
+          154,
+          155
+        ],
+        [
+          163,
+          164
+        ],
+        [
+          172,
+          173
+        ],
+        [
+          181,
+          182
+        ],
+        [
+          189,
+          190
+        ],
+        [
+          198,
+          199
+        ],
+        [
+          206,
+          207
+        ],
+        [
+          213,
+          214
+        ],
+        [
+          220,
+          221
+        ],
+        [
+          230,
+          231
+        ],
+        [
+          239,
+          240
+        ],
+        [
+          247,
+          248
+        ],
+        [
+          254,
+          255
+        ],
+        [
+          264,
+          265
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 5,
+          "start_ms": 14960,
+          "end_ms": 20240,
+          "text": "dang we got a turnout today we have"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 17680,
+          "end_ms": 22400,
+          "text": "eight female competitors and 32 male"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 34800,
+          "end_ms": 39120,
+          "text": "let's get to heat one this is what"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 36719,
+          "end_ms": 41920,
+          "text": "you're fighting for a packet of run gum"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 53039,
+          "end_ms": 56399,
+          "text": "flexed on him again dylan"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 54879,
+          "end_ms": 60000,
+          "text": "nice to meet you justin last but not"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 71680,
+          "end_ms": 75039,
+          "text": "can anyone catch him with 100 meters to"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 73360,
+          "end_ms": 76960,
+          "text": "go as they come off the turn i have to"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 89680,
+          "end_ms": 94560,
+          "text": "your qualifiers into the finals ram dude"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 92799,
+          "end_ms": 96960,
+          "text": "how hard did you turn that first hundred"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 109119,
+          "end_ms": 111920,
+          "text": "you'll be ready for the finals"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 110320,
+          "end_ms": 114079,
+          "text": "congratulations there's your two"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 127360,
+          "end_ms": 131680,
+          "text": "this event be like what's your name"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 128878,
+          "end_ms": 132879,
+          "text": "again jim be like jim get on a plane get"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 145920,
+          "end_ms": 150160,
+          "text": "in lane one he is a decathlete for"
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 148160,
+          "end_ms": 152959,
+          "text": "university of oregon and he's got wheels"
+        },
+        {
+          "cue_id": 76,
+          "start_ms": 163360,
+          "end_ms": 168079,
+          "text": "for two spots arthur cam charles who's"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 166239,
+          "end_ms": 170959,
+          "text": "it gonna be oh my gosh this is the"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 182879,
+          "end_ms": 187360,
+          "text": "congrats arthur off lane draw you did"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 185680,
+          "end_ms": 189120,
+          "text": "exactly what you said you wanted to do"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 202879,
+          "end_ms": 206640,
+          "text": "his lane nice to meet you cohen what's"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 204239,
+          "end_ms": 208000,
+          "text": "your name jeff gavin lucas i've met you"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 219360,
+          "end_ms": 224879,
+          "text": "second pr dang dude six seconds what's"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 222480,
+          "end_ms": 226720,
+          "text": "the pr now one fifty one six seven hell"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 239599,
+          "end_ms": 243200,
+          "text": "champ gobbling up track in lane one who"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 241680,
+          "end_ms": 245680,
+          "text": "is this in lane three then lane three"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 256000,
+          "end_ms": 261040,
+          "text": "final times 23-4 for damari 23-7 for"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 259358,
+          "end_ms": 264320,
+          "text": "gavin those are your heat three"
+        },
+        {
+          "cue_id": 127,
+          "start_ms": 274800,
+          "end_ms": 279600,
+          "text": "heat tamari gavin i'll see you in the"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 276720,
+          "end_ms": 280960,
+          "text": "finals i'm nervous heat for my heat i'll"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 293199,
+          "end_ms": 299040,
+          "text": "right next up what's your name pj what's"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 295040,
+          "end_ms": 300479,
+          "text": "your name nice to meet you and your name"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 312560,
+          "end_ms": 317280,
+          "text": "just pulled out a secret weapon i'm"
+        },
+        {
+          "cue_id": 147,
+          "start_ms": 315440,
+          "end_ms": 319600,
+          "text": "talking about my shocks open run"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 330400,
+          "end_ms": 336080,
+          "text": "hard i work no matter how fast i sprint"
+        },
+        {
+          "cue_id": 155,
+          "start_ms": 333199,
+          "end_ms": 338000,
+          "text": "they'll stay in place with outstanding"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 350800,
+          "end_ms": 355199,
+          "text": "let's get back to the action you can see"
+        },
+        {
+          "cue_id": 164,
+          "start_ms": 352800,
+          "end_ms": 357199,
+          "text": "i've run a fantastic curve it has me in"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 369600,
+          "end_ms": 375120,
+          "text": "finals the final times phillip in 26"
+        },
+        {
+          "cue_id": 173,
+          "start_ms": 372240,
+          "end_ms": 377199,
+          "text": "flat bison in 26.5 that is the slowest"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 389520,
+          "end_ms": 391759,
+          "text": "is what you've been patiently waiting"
+        },
+        {
+          "cue_id": 182,
+          "start_ms": 390960,
+          "end_ms": 394400,
+          "text": "for"
+        },
+        {
+          "cue_id": 189,
+          "start_ms": 405440,
+          "end_ms": 410560,
+          "text": "she's lightning quick lily a new face"
+        },
+        {
+          "cue_id": 190,
+          "start_ms": 408560,
+          "end_ms": 413199,
+          "text": "amelia nice to meet you nice to meet you"
+        },
+        {
+          "cue_id": 198,
+          "start_ms": 424000,
+          "end_ms": 428720,
+          "text": "all we're just going to leave it at that"
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 426080,
+          "end_ms": 431199,
+          "text": "and now it's time for what you've all"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 444000,
+          "end_ms": 449360,
+          "text": "beat her we're about to find out they're"
+        },
+        {
+          "cue_id": 207,
+          "start_ms": 446479,
+          "end_ms": 451599,
+          "text": "off and look at theresa go"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 461759,
+          "end_ms": 466800,
+          "text": "over this event go theresa go"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 464960,
+          "end_ms": 469599,
+          "text": "we are gonna cheer her on to the finish"
+        },
+        {
+          "cue_id": 220,
+          "start_ms": 481039,
+          "end_ms": 486400,
+          "text": "the bronze medal goes to hadley 28.8"
+        },
+        {
+          "cue_id": 221,
+          "start_ms": 483759,
+          "end_ms": 488240,
+          "text": "well done ladies fresh off a break she"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 500000,
+          "end_ms": 504479,
+          "text": "you so much for joining us so much keep"
+        },
+        {
+          "cue_id": 231,
+          "start_ms": 501840,
+          "end_ms": 507039,
+          "text": "an eye on this one all right here we go"
+        },
+        {
+          "cue_id": 239,
+          "start_ms": 518640,
+          "end_ms": 522799,
+          "text": "about white lightning out in lane five"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 520479,
+          "end_ms": 524720,
+          "text": "that is gavin gavin i did not give him"
+        },
+        {
+          "cue_id": 247,
+          "start_ms": 535440,
+          "end_ms": 540720,
+          "text": "the juco champion 21-9-0 he is your"
+        },
+        {
+          "cue_id": 248,
+          "start_ms": 538399,
+          "end_ms": 543920,
+          "text": "men's champion gavin in second i did not"
+        },
+        {
+          "cue_id": 254,
+          "start_ms": 554720,
+          "end_ms": 559600,
+          "text": "the bison let's hear for cam"
+        },
+        {
+          "cue_id": 255,
+          "start_ms": 557410,
+          "end_ms": 562240,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 264,
+          "start_ms": 574880,
+          "end_ms": 579360,
+          "text": "see you there dolphin see you guys next"
+        },
+        {
+          "cue_id": 265,
+          "start_ms": 576560,
+          "end_ms": 579360,
+          "text": "week"
+        }
+      ],
+      "text": "dang we got a turnout today we have\neight female competitors and 32 male\nlet's get to heat one this is what\nyou're fighting for a packet of run gum\nflexed on him again dylan\nnice to meet you justin last but not\ncan anyone catch him with 100 meters to\ngo as they come off the turn i have to\nyour qualifiers into the finals ram dude\nhow hard did you turn that first hundred\nyou'll be ready for the finals\ncongratulations there's your two\nthis event be like what's your name\nagain jim be like jim get on a plane get\nin lane one he is a decathlete for\nuniversity of oregon and he's got wheels\nfor two spots arthur cam charles who's\nit gonna be oh my gosh this is the\ncongrats arthur off lane draw you did\nexactly what you said you wanted to do\nhis lane nice to meet you cohen what's\nyour name jeff gavin lucas i've met you\nsecond pr dang dude six seconds what's\nthe pr now one fifty one six seven hell\nchamp gobbling up track in lane one who\nis this in lane three then lane three\nfinal times 23-4 for damari 23-7 for\ngavin those are your heat three\nheat tamari gavin i'll see you in the\nfinals i'm nervous heat for my heat i'll\nright next up what's your name pj what's\nyour name nice to meet you and your name\njust pulled out a secret weapon i'm\ntalking about my shocks open run\nhard i work no matter how fast i sprint\nthey'll stay in place with outstanding\nlet's get back to the action you can see\ni've run a fantastic curve it has me in\nfinals the final times phillip in 26\nflat bison in 26.5 that is the slowest\nis what you've been patiently waiting\nfor\nshe's lightning quick lily a new face\namelia nice to meet you nice to meet you\nall we're just going to leave it at that\nand now it's time for what you've all\nbeat her we're about to find out they're\noff and look at theresa go\nover this event go theresa go\nwe are gonna cheer her on to the finish\nthe bronze medal goes to hadley 28.8\nwell done ladies fresh off a break she\nyou so much for joining us so much keep\nan eye on this one all right here we go\nabout white lightning out in lane five\nthat is gavin gavin i did not give him\nthe juco champion 21-9-0 he is your\nmen's champion gavin in second i did not\nthe bison let's hear for cam\n[Applause]\nsee you there dolphin see you guys next\nweek",
+      "text_tokens": 619,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S4",
+        "cue_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "start_ms": 8960,
+        "end_ms": 25199,
+        "text": "who showed up oh my god what up you dean dang we got a turnout today we have eight female competitors and 32 male competitors that means ladies it's your"
+      },
+      {
+        "id": "S12",
+        "cue_ids": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "start_ms": 32238,
+        "end_ms": 44160,
+        "text": "two from each heat we'll make the finals let's get to heat one this is what you're fighting for a packet of run gum this is your ticket into the final derek"
+      },
+      {
+        "id": "S20",
+        "cue_ids": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "start_ms": 51039,
+        "end_ms": 62480,
+        "text": "dylan you know he's been in a few videos flexed on him again dylan nice to meet you justin last but not least josiah all right that's heat one"
+      },
+      {
+        "id": "S28",
+        "cue_ids": [
+          28,
+          29,
+          30
+        ],
+        "start_ms": 69360,
+        "end_ms": 76960,
+        "text": "gets out hard is he going out too hard can anyone catch him with 100 meters to go as they come off the turn i have to"
+      },
+      {
+        "id": "S37",
+        "cue_ids": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "start_ms": 86799,
+        "end_ms": 98720,
+        "text": "there's one ram two josiah those are your qualifiers into the finals ram dude how hard did you turn that first hundred and when did you shut it down uh sprint"
+      },
+      {
+        "id": "S47",
+        "cue_ids": [
+          47,
+          48,
+          49,
+          50
+        ],
+        "start_ms": 108399,
+        "end_ms": 115840,
+        "text": "set you'll be ready for the finals congratulations there's your two finalists from heat one heat one was"
+      },
+      {
+        "id": "S58",
+        "cue_ids": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "start_ms": 124799,
+        "end_ms": 134640,
+        "text": "iowa he flew all the way from iowa from this event be like what's your name again jim be like jim get on a plane get your butt down here for the next time"
+      },
+      {
+        "id": "S67",
+        "cue_ids": [
+          67,
+          68,
+          69,
+          70
+        ],
+        "start_ms": 143360,
+        "end_ms": 155920,
+        "text": "heat two now make sure you watch arthur in lane one he is a decathlete for university of oregon and he's got wheels and then lane three it's the n-wack juco"
+      },
+      {
+        "id": "S75",
+        "cue_ids": [
+          75,
+          76,
+          77,
+          78
+        ],
+        "start_ms": 161280,
+        "end_ms": 173200,
+        "text": "five we have three guys fighting it out for two spots arthur cam charles who's it gonna be oh my gosh this is the closest he come on boys lean it's gonna"
+      },
+      {
+        "id": "S83",
+        "cue_ids": [
+          83,
+          84,
+          85,
+          86
+        ],
+        "start_ms": 181519,
+        "end_ms": 190720,
+        "text": "line that's your ticket to the finals congrats arthur off lane draw you did exactly what you said you wanted to do which is reel in every competitor you"
+      },
+      {
+        "id": "S93",
+        "cue_ids": [
+          93,
+          94,
+          95,
+          96
+        ],
+        "start_ms": 201120,
+        "end_ms": 208799,
+        "text": "here was kind enough to let damari share his lane nice to meet you cohen what's your name jeff gavin lucas i've met you before good to see you again what's your"
+      },
+      {
+        "id": "S102",
+        "cue_ids": [
+          102,
+          103,
+          104
+        ],
+        "start_ms": 217440,
+        "end_ms": 226720,
+        "text": "season go oh it was amazing you know six second pr dang dude six seconds what's the pr now one fifty one six seven hell"
+      },
+      {
+        "id": "S110",
+        "cue_ids": [
+          110,
+          111,
+          112,
+          113
+        ],
+        "start_ms": 237280,
+        "end_ms": 247920,
+        "text": "look at him putting on a show the state champ gobbling up track in lane one who is this in lane three then lane three that is gavin going with the state champ"
+      },
+      {
+        "id": "S117",
+        "cue_ids": [
+          117,
+          118,
+          119,
+          120
+        ],
+        "start_ms": 252400,
+        "end_ms": 267040,
+        "text": "are just jogging damari one gavin two final times 23-4 for damari 23-7 for gavin those are your heat three qualifiers and not to be outdone it is"
+      },
+      {
+        "id": "S126",
+        "cue_ids": [
+          126,
+          127,
+          128,
+          129
+        ],
+        "start_ms": 273280,
+        "end_ms": 283199,
+        "text": "thank you great running that's a tough heat tamari gavin i'll see you in the finals i'm nervous heat for my heat i'll give it everything i got you guys"
+      },
+      {
+        "id": "S136",
+        "cue_ids": [
+          136,
+          137,
+          138,
+          139
+        ],
+        "start_ms": 291600,
+        "end_ms": 302080,
+        "text": "you mario how old are you i'm 15. all right next up what's your name pj what's your name nice to meet you and your name nice to meet you luke was that your"
+      },
+      {
+        "id": "S145",
+        "cue_ids": [
+          145,
+          146,
+          147,
+          148
+        ],
+        "start_ms": 310400,
+        "end_ms": 321360,
+        "text": "guys and you may have noticed that i just pulled out a secret weapon i'm talking about my shocks open run headphones these wireless bone"
+      },
+      {
+        "id": "S153",
+        "cue_ids": [
+          153,
+          154,
+          155,
+          156
+        ],
+        "start_ms": 328320,
+        "end_ms": 339919,
+        "text": "secure fit so i know that no matter how hard i work no matter how fast i sprint they'll stay in place with outstanding sound quality i can blast my favorite"
+      },
+      {
+        "id": "S162",
+        "cue_ids": [
+          162,
+          163,
+          164
+        ],
+        "start_ms": 348960,
+        "end_ms": 357199,
+        "text": "you can get a pair for yourself now let's get back to the action you can see i've run a fantastic curve it has me in"
+      },
+      {
+        "id": "S171",
+        "cue_ids": [
+          171,
+          172,
+          173,
+          174
+        ],
+        "start_ms": 366880,
+        "end_ms": 379360,
+        "text": "big lean does manage to squeak into the finals the final times phillip in 26 flat bison in 26.5 that is the slowest heat but we have earned our way into"
+      },
+      {
+        "id": "S180",
+        "cue_ids": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "start_ms": 387039,
+        "end_ms": 396080,
+        "text": "made it let's go all right ladies this is what you've been patiently waiting for straight finals eight ladies eight lanes"
+      },
+      {
+        "id": "S188",
+        "cue_ids": [
+          188,
+          189,
+          190,
+          191
+        ],
+        "start_ms": 403360,
+        "end_ms": 414880,
+        "text": "right for the first time paris she's lightning quick lily a new face amelia nice to meet you nice to meet you hadley i'm nick she was late"
+      },
+      {
+        "id": "S197",
+        "cue_ids": [
+          197,
+          198,
+          199,
+          200
+        ],
+        "start_ms": 421199,
+        "end_ms": 434080,
+        "text": "good she did good went good so that's all we're just going to leave it at that and now it's time for what you've all been waiting for women's 200 meter"
+      },
+      {
+        "id": "S205",
+        "cue_ids": [
+          205,
+          206,
+          207,
+          208
+        ],
+        "start_ms": 441199,
+        "end_ms": 453680,
+        "text": "she is about to put on a show can anyone beat her we're about to find out they're off and look at theresa go she has already made up the stagger on"
+      },
+      {
+        "id": "S212",
+        "cue_ids": [
+          212,
+          213,
+          214,
+          215
+        ],
+        "start_ms": 458319,
+        "end_ms": 472639,
+        "text": "about 25 flat and look at her just take over this event go theresa go we are gonna cheer her on to the finish line but this is truly as i called it"
+      },
+      {
+        "id": "S219",
+        "cue_ids": [
+          219,
+          220,
+          221,
+          222
+        ],
+        "start_ms": 478159,
+        "end_ms": 489599,
+        "text": "is amelia with the silver in 28.1 and the bronze medal goes to hadley 28.8 well done ladies fresh off a break she was out for a workout how was that it"
+      },
+      {
+        "id": "S229",
+        "cue_ids": [
+          229,
+          230,
+          231
+        ],
+        "start_ms": 498160,
+        "end_ms": 507039,
+        "text": "a pair of headphones bring it in thank you so much for joining us so much keep an eye on this one all right here we go"
+      },
+      {
+        "id": "S238",
+        "cue_ids": [
+          238,
+          239,
+          240,
+          241
+        ],
+        "start_ms": 516640,
+        "end_ms": 526320,
+        "text": "cam and demar get off the line but how about white lightning out in lane five that is gavin gavin i did not give him enough credit coming off the turn it's"
+      },
+      {
+        "id": "S246",
+        "cue_ids": [
+          246,
+          247,
+          248,
+          249
+        ],
+        "start_ms": 532959,
+        "end_ms": 545839,
+        "text": "you guys come on boys lead and it is cam the juco champion 21-9-0 he is your men's champion gavin in second i did not give him enough credit 21.95 so close"
+      },
+      {
+        "id": "S253",
+        "cue_ids": [
+          253,
+          254,
+          255,
+          256
+        ],
+        "start_ms": 552000,
+        "end_ms": 563360,
+        "text": "playing track and field once again it is the bison let's hear for cam [Applause] nice job that field was stacked except"
+      },
+      {
+        "id": "S263",
+        "cue_ids": [
+          263,
+          264,
+          265
+        ],
+        "start_ms": 573839,
+        "end_ms": 579360,
+        "text": "yeah see you there dolphin see you guys next week"
+      }
+    ],
+    "text": "S4 [00:00:08.960 --> 00:00:25.199] who showed up oh my god what up you dean dang we got a turnout today we have eight female competitors and 32 male competitors that means ladies it's your\nS12 [00:00:32.238 --> 00:00:44.160] two from each heat we'll make the finals let's get to heat one this is what you're fighting for a packet of run gum this is your ticket into the final derek\nS20 [00:00:51.039 --> 00:01:02.480] dylan you know he's been in a few videos flexed on him again dylan nice to meet you justin last but not least josiah all right that's heat one\nS28 [00:01:09.360 --> 00:01:16.960] gets out hard is he going out too hard can anyone catch him with 100 meters to go as they come off the turn i have to\nS37 [00:01:26.799 --> 00:01:38.720] there's one ram two josiah those are your qualifiers into the finals ram dude how hard did you turn that first hundred and when did you shut it down uh sprint\nS47 [00:01:48.399 --> 00:01:55.840] set you'll be ready for the finals congratulations there's your two finalists from heat one heat one was\nS58 [00:02:04.799 --> 00:02:14.640] iowa he flew all the way from iowa from this event be like what's your name again jim be like jim get on a plane get your butt down here for the next time\nS67 [00:02:23.360 --> 00:02:35.920] heat two now make sure you watch arthur in lane one he is a decathlete for university of oregon and he's got wheels and then lane three it's the n-wack juco\nS75 [00:02:41.280 --> 00:02:53.200] five we have three guys fighting it out for two spots arthur cam charles who's it gonna be oh my gosh this is the closest he come on boys lean it's gonna\nS83 [00:03:01.519 --> 00:03:10.720] line that's your ticket to the finals congrats arthur off lane draw you did exactly what you said you wanted to do which is reel in every competitor you\nS93 [00:03:21.120 --> 00:03:28.799] here was kind enough to let damari share his lane nice to meet you cohen what's your name jeff gavin lucas i've met you before good to see you again what's your\nS102 [00:03:37.440 --> 00:03:46.720] season go oh it was amazing you know six second pr dang dude six seconds what's the pr now one fifty one six seven hell\nS110 [00:03:57.280 --> 00:04:07.920] look at him putting on a show the state champ gobbling up track in lane one who is this in lane three then lane three that is gavin going with the state champ\nS117 [00:04:12.400 --> 00:04:27.040] are just jogging damari one gavin two final times 23-4 for damari 23-7 for gavin those are your heat three qualifiers and not to be outdone it is\nS126 [00:04:33.280 --> 00:04:43.199] thank you great running that's a tough heat tamari gavin i'll see you in the finals i'm nervous heat for my heat i'll give it everything i got you guys\nS136 [00:04:51.600 --> 00:05:02.080] you mario how old are you i'm 15. all right next up what's your name pj what's your name nice to meet you and your name nice to meet you luke was that your\nS145 [00:05:10.400 --> 00:05:21.360] guys and you may have noticed that i just pulled out a secret weapon i'm talking about my shocks open run headphones these wireless bone\nS153 [00:05:28.320 --> 00:05:39.919] secure fit so i know that no matter how hard i work no matter how fast i sprint they'll stay in place with outstanding sound quality i can blast my favorite\nS162 [00:05:48.960 --> 00:05:57.199] you can get a pair for yourself now let's get back to the action you can see i've run a fantastic curve it has me in\nS171 [00:06:06.880 --> 00:06:19.360] big lean does manage to squeak into the finals the final times phillip in 26 flat bison in 26.5 that is the slowest heat but we have earned our way into\nS180 [00:06:27.039 --> 00:06:36.080] made it let's go all right ladies this is what you've been patiently waiting for straight finals eight ladies eight lanes\nS188 [00:06:43.360 --> 00:06:54.880] right for the first time paris she's lightning quick lily a new face amelia nice to meet you nice to meet you hadley i'm nick she was late\nS197 [00:07:01.199 --> 00:07:14.080] good she did good went good so that's all we're just going to leave it at that and now it's time for what you've all been waiting for women's 200 meter\nS205 [00:07:21.199 --> 00:07:33.680] she is about to put on a show can anyone beat her we're about to find out they're off and look at theresa go she has already made up the stagger on\nS212 [00:07:38.319 --> 00:07:52.639] about 25 flat and look at her just take over this event go theresa go we are gonna cheer her on to the finish line but this is truly as i called it\nS219 [00:07:58.159 --> 00:08:09.599] is amelia with the silver in 28.1 and the bronze medal goes to hadley 28.8 well done ladies fresh off a break she was out for a workout how was that it\nS229 [00:08:18.160 --> 00:08:27.039] a pair of headphones bring it in thank you so much for joining us so much keep an eye on this one all right here we go\nS238 [00:08:36.640 --> 00:08:46.320] cam and demar get off the line but how about white lightning out in lane five that is gavin gavin i did not give him enough credit coming off the turn it's\nS246 [00:08:52.959 --> 00:09:05.839] you guys come on boys lead and it is cam the juco champion 21-9-0 he is your men's champion gavin in second i did not give him enough credit 21.95 so close\nS253 [00:09:12.000 --> 00:09:23.360] playing track and field once again it is the bison let's hear for cam [Applause] nice job that field was stacked except\nS263 [00:09:33.839 --> 00:09:39.360] yeah see you there dolphin see you guys next week",
+    "text_tokens": 2046,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      4,
+      7,
+      12,
+      15,
+      20,
+      23,
+      28,
+      37,
+      40,
+      47,
+      50,
+      58,
+      61,
+      67,
+      70,
+      75,
+      78,
+      83,
+      86,
+      93,
+      96,
+      102,
+      110,
+      113,
+      117,
+      120,
+      126,
+      129,
+      136,
+      139,
+      145,
+      148,
+      153,
+      156,
+      162,
+      171,
+      174,
+      180,
+      183,
+      188,
+      191,
+      197,
+      200,
+      205,
+      208,
+      212,
+      215,
+      219,
+      222,
+      229,
+      238,
+      241,
+      246,
+      249,
+      253,
+      256,
+      263
+    ],
+    "omitted_neighbor_ids": [
+      31,
+      105,
+      165,
+      232
+    ]
+  },
+  "evidence_sha256": "8512c1e2b50e5f7813c0d5bf4915d72ceb53289ebfd1b9cd633c9192b90710bf"
+}

@@ -1,0 +1,343 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "I5cFBi02O34",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I5cFBi02O34.srt",
+      "status": "available",
+      "bytes": 5688,
+      "sha256": "60313b7a68996c937ea72721b62aff1e00f990838908b41bb51f0945a04f19bd",
+      "cues": 63,
+      "nonempty_cues": 63
+    },
+    "frame_indices": [
+      0,
+      387,
+      775,
+      1162,
+      1549,
+      1936,
+      2324,
+      2711,
+      3098,
+      3486,
+      3873,
+      4260,
+      4647,
+      5035,
+      5422,
+      5809,
+      6197,
+      6584,
+      6971,
+      7359,
+      7746,
+      8133,
+      8520,
+      8908,
+      9295,
+      9682,
+      10070,
+      10457,
+      10844,
+      11231,
+      11619,
+      12006
+    ],
+    "frame_seconds": [
+      0.0,
+      16.125,
+      32.291667,
+      48.416667,
+      64.541667,
+      80.666667,
+      96.83333300000001,
+      112.95833300000001,
+      129.083333,
+      145.25,
+      161.375,
+      177.5,
+      193.625,
+      209.791667,
+      225.916667,
+      242.041667,
+      258.208333,
+      274.333333,
+      290.458333,
+      306.625,
+      322.75,
+      338.875,
+      355.0,
+      371.166667,
+      387.291667,
+      403.416667,
+      419.583333,
+      435.708333,
+      451.833333,
+      467.958333,
+      484.125,
+      500.25
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        5,
+        6
+      ],
+      [],
+      [
+        14,
+        15
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        28,
+        29
+      ],
+      [],
+      [
+        32
+      ],
+      [
+        36,
+        37
+      ],
+      [],
+      [],
+      [
+        45,
+        46
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        49
+      ],
+      [
+        50
+      ],
+      [
+        50
+      ],
+      [],
+      [],
+      [],
+      [
+        56,
+        57
+      ],
+      [
+        56,
+        57
+      ],
+      [
+        58
+      ],
+      [
+        58
+      ],
+      [
+        60
+      ],
+      [
+        61,
+        62
+      ],
+      [
+        63
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 5,
+        "start_ms": 12400,
+        "end_ms": 17039,
+        "text": "by a horrifying monster"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 14799,
+        "end_ms": 18800,
+        "text": "distraught and in disarray"
+      },
+      {
+        "cue_id": 14,
+        "start_ms": 46160,
+        "end_ms": 49200,
+        "text": "pay attention in the presence of your"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 48239,
+        "end_ms": 50800,
+        "text": "king"
+      },
+      {
+        "cue_id": 21,
+        "start_ms": 61840,
+        "end_ms": 66880,
+        "text": "this is all we can do"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 64400,
+        "end_ms": 68960,
+        "text": "do you have any idea what awaits you"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 73520,
+        "end_ms": 96959,
+        "text": "i"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 75580,
+        "end_ms": 96959,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 98560,
+        "end_ms": 120819,
+        "text": "ah"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 100300,
+        "end_ms": 120819,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 138110,
+        "end_ms": 145780,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 156480,
+        "end_ms": 163599,
+        "text": "of infant a child lost looking for your"
+      },
+      {
+        "cue_id": 37,
+        "start_ms": 160480,
+        "end_ms": 165280,
+        "text": "ball of yawn little man"
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 209410,
+        "end_ms": 214799,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 46,
+        "start_ms": 209660,
+        "end_ms": 216930,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 214799,
+        "end_ms": 290649,
+        "text": "hmm"
+      },
+      {
+        "cue_id": 48,
+        "start_ms": 216930,
+        "end_ms": 290649,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 49,
+        "start_ms": 294920,
+        "end_ms": 308860,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 314460,
+        "end_ms": 347120,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 56,
+        "start_ms": 398800,
+        "end_ms": 422029,
+        "text": "uh"
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 400170,
+        "end_ms": 422029,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 425290,
+        "end_ms": 454100,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 463990,
+        "end_ms": 477058,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 481630,
+        "end_ms": 486680,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 483680,
+        "end_ms": 486680,
+        "text": "foreign"
+      },
+      {
+        "cue_id": 63,
+        "start_ms": 500080,
+        "end_ms": 502160,
+        "text": "you"
+      }
+    ],
+    "text": "by a horrifying monster\ndistraught and in disarray\npay attention in the presence of your\nking\nthis is all we can do\ndo you have any idea what awaits you\ni\n[Music]\nah\n[Music]\n[Music]\nof infant a child lost looking for your\nball of yawn little man\n[Applause]\n[Music]\nhmm\n[Music]\n[Music]\n[Music]\nuh\n[Music]\n[Music]\n[Music]\n[Music]\nforeign\nyou",
+    "text_tokens": 105,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "9eba33804939dea20c28d1833198ecc193fe928755db1dff03b4075047aa975f"
+}

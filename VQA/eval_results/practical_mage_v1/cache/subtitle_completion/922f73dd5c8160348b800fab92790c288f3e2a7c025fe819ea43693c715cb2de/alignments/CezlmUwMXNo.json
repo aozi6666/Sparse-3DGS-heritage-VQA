@@ -1,0 +1,941 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "CezlmUwMXNo",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/CezlmUwMXNo.srt",
+        "status": "available",
+        "bytes": 4066,
+        "sha256": "688b6f8518e8bb8dbc9e864c33f324630b5c30f66e96f7a4e57448eb6208afa4",
+        "cues": 39,
+        "nonempty_cues": 39
+      },
+      "frame_indices": [
+        0,
+        82,
+        165,
+        247,
+        329,
+        411,
+        494,
+        576,
+        658,
+        740,
+        823,
+        905,
+        987,
+        1069,
+        1152,
+        1234,
+        1316,
+        1398,
+        1481,
+        1563,
+        1645,
+        1727,
+        1810,
+        1892,
+        1974,
+        2056,
+        2139,
+        2221,
+        2303,
+        2385,
+        2468,
+        2550
+      ],
+      "frame_seconds": [
+        0.0,
+        2.733333,
+        5.5,
+        8.233333,
+        10.966667,
+        13.7,
+        16.466667,
+        19.2,
+        21.933333,
+        24.666667,
+        27.433333,
+        30.166667,
+        32.9,
+        35.633333,
+        38.4,
+        41.133333,
+        43.866667,
+        46.6,
+        49.366667,
+        52.1,
+        54.833333,
+        57.566667,
+        60.333333,
+        63.066667,
+        65.8,
+        68.533333,
+        71.3,
+        74.033333,
+        76.766667,
+        79.5,
+        82.266667,
+        85.0
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          37,
+          38
+        ],
+        [],
+        [],
+        [],
+        [
+          39
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 560,
+          "end_ms": 6799,
+          "text": "in 1973 the united states supreme court"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 3600,
+          "end_ms": 8160,
+          "text": "issued its decision in roe vs wade the"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 6799,
+          "end_ms": 10000,
+          "text": "effect of the court's ruling was"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 8160,
+          "end_ms": 12000,
+          "text": "immediate and far-reaching"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 10000,
+          "end_ms": 13200,
+          "text": "expanding the right to privacy under the"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 12000,
+          "end_ms": 15440,
+          "text": "14th amendment"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 13200,
+          "end_ms": 16400,
+          "text": "and altering the legal landscape on the"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 15440,
+          "end_ms": 19119,
+          "text": "issue of abortion"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 16400,
+          "end_ms": 21039,
+          "text": "across the country norma mccorvey a"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 19119,
+          "end_ms": 23600,
+          "text": "single pregnant woman in texas"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 21039,
+          "end_ms": 25680,
+          "text": "sought an abortion at the time texas law"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 23600,
+          "end_ms": 28560,
+          "text": "prohibited abortions unless performed or"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 25680,
+          "end_ms": 30960,
+          "text": "obtained to save the life of the mother"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 28560,
+          "end_ms": 32159,
+          "text": "to protect her privacy mccorvey filed"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 30960,
+          "end_ms": 34640,
+          "text": "suit in federal court"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 32159,
+          "end_ms": 36880,
+          "text": "under the name jane rowe the defendant"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 34640,
+          "end_ms": 38640,
+          "text": "was henry wade the district attorney in"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 36880,
+          "end_ms": 39840,
+          "text": "the texas county where mccorvey sought"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 38640,
+          "end_ms": 41879,
+          "text": "the abortion"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 39840,
+          "end_ms": 43040,
+          "text": "roe argued that the abortion ban was"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 41879,
+          "end_ms": 44719,
+          "text": "unconstitutional"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 43040,
+          "end_ms": 46800,
+          "text": "and asked the court to issue an order"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 44719,
+          "end_ms": 47920,
+          "text": "that would stop texas from enforcing the"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 46800,
+          "end_ms": 49440,
+          "text": "law"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 47920,
+          "end_ms": 52000,
+          "text": "the district court found the texas"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 49440,
+          "end_ms": 53920,
+          "text": "restriction on abortion unconstitutional"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 52000,
+          "end_ms": 55600,
+          "text": "on the grounds that the statute was too"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 53920,
+          "end_ms": 57440,
+          "text": "vague and overly broad"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 55600,
+          "end_ms": 59840,
+          "text": "and impinged on the rights reserved to"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 57440,
+          "end_ms": 61280,
+          "text": "people under the ninth amendment"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 59840,
+          "end_ms": 63359,
+          "text": "however the court didn't issue an"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 61280,
+          "end_ms": 64319,
+          "text": "injunction to bar texas from enforcing"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 63359,
+          "end_ms": 66640,
+          "text": "its ban"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 64319,
+          "end_ms": 67760,
+          "text": "so rose options in texas really didn't"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 66640,
+          "end_ms": 69520,
+          "text": "change"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 67760,
+          "end_ms": 71600,
+          "text": "arguing that the district court's lack"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 69520,
+          "end_ms": 75680,
+          "text": "of injunctive relief was insufficient"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 71600,
+          "end_ms": 75680,
+          "text": "roe appealed directly to the supreme"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 83799,
+          "end_ms": 86799,
+          "text": "court"
+        }
+      ],
+      "text": "in 1973 the united states supreme court\nissued its decision in roe vs wade the\neffect of the court's ruling was\nimmediate and far-reaching\nexpanding the right to privacy under the\n14th amendment\nand altering the legal landscape on the\nissue of abortion\nacross the country norma mccorvey a\nsingle pregnant woman in texas\nsought an abortion at the time texas law\nprohibited abortions unless performed or\nobtained to save the life of the mother\nto protect her privacy mccorvey filed\nsuit in federal court\nunder the name jane rowe the defendant\nwas henry wade the district attorney in\nthe texas county where mccorvey sought\nthe abortion\nroe argued that the abortion ban was\nunconstitutional\nand asked the court to issue an order\nthat would stop texas from enforcing the\nlaw\nthe district court found the texas\nrestriction on abortion unconstitutional\non the grounds that the statute was too\nvague and overly broad\nand impinged on the rights reserved to\npeople under the ninth amendment\nhowever the court didn't issue an\ninjunction to bar texas from enforcing\nits ban\nso rose options in texas really didn't\nchange\narguing that the district court's lack\nof injunctive relief was insufficient\nroe appealed directly to the supreme\ncourt",
+      "text_tokens": 280,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "CezlmUwMXNo",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/CezlmUwMXNo.srt",
+          "status": "available",
+          "bytes": 4066,
+          "sha256": "688b6f8518e8bb8dbc9e864c33f324630b5c30f66e96f7a4e57448eb6208afa4",
+          "cues": 39,
+          "nonempty_cues": 39
+        },
+        "frame_indices": [
+          0,
+          82,
+          165,
+          247,
+          329,
+          411,
+          494,
+          576,
+          658,
+          740,
+          823,
+          905,
+          987,
+          1069,
+          1152,
+          1234,
+          1316,
+          1398,
+          1481,
+          1563,
+          1645,
+          1727,
+          1810,
+          1892,
+          1974,
+          2056,
+          2139,
+          2221,
+          2303,
+          2385,
+          2468,
+          2550
+        ],
+        "frame_seconds": [
+          0.0,
+          2.733333,
+          5.5,
+          8.233333,
+          10.966667,
+          13.7,
+          16.466667,
+          19.2,
+          21.933333,
+          24.666667,
+          27.433333,
+          30.166667,
+          32.9,
+          35.633333,
+          38.4,
+          41.133333,
+          43.866667,
+          46.6,
+          49.366667,
+          52.1,
+          54.833333,
+          57.566667,
+          60.333333,
+          63.066667,
+          65.8,
+          68.533333,
+          71.3,
+          74.033333,
+          76.766667,
+          79.5,
+          82.266667,
+          85.0
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [],
+          [],
+          [],
+          [
+            39
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 560,
+            "end_ms": 6799,
+            "text": "in 1973 the united states supreme court"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 3600,
+            "end_ms": 8160,
+            "text": "issued its decision in roe vs wade the"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 6799,
+            "end_ms": 10000,
+            "text": "effect of the court's ruling was"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 8160,
+            "end_ms": 12000,
+            "text": "immediate and far-reaching"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 10000,
+            "end_ms": 13200,
+            "text": "expanding the right to privacy under the"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 12000,
+            "end_ms": 15440,
+            "text": "14th amendment"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 13200,
+            "end_ms": 16400,
+            "text": "and altering the legal landscape on the"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 15440,
+            "end_ms": 19119,
+            "text": "issue of abortion"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 16400,
+            "end_ms": 21039,
+            "text": "across the country norma mccorvey a"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 19119,
+            "end_ms": 23600,
+            "text": "single pregnant woman in texas"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 21039,
+            "end_ms": 25680,
+            "text": "sought an abortion at the time texas law"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 23600,
+            "end_ms": 28560,
+            "text": "prohibited abortions unless performed or"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 25680,
+            "end_ms": 30960,
+            "text": "obtained to save the life of the mother"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 28560,
+            "end_ms": 32159,
+            "text": "to protect her privacy mccorvey filed"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 30960,
+            "end_ms": 34640,
+            "text": "suit in federal court"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 32159,
+            "end_ms": 36880,
+            "text": "under the name jane rowe the defendant"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 34640,
+            "end_ms": 38640,
+            "text": "was henry wade the district attorney in"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 36880,
+            "end_ms": 39840,
+            "text": "the texas county where mccorvey sought"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 38640,
+            "end_ms": 41879,
+            "text": "the abortion"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 39840,
+            "end_ms": 43040,
+            "text": "roe argued that the abortion ban was"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 41879,
+            "end_ms": 44719,
+            "text": "unconstitutional"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 43040,
+            "end_ms": 46800,
+            "text": "and asked the court to issue an order"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 44719,
+            "end_ms": 47920,
+            "text": "that would stop texas from enforcing the"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 46800,
+            "end_ms": 49440,
+            "text": "law"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 47920,
+            "end_ms": 52000,
+            "text": "the district court found the texas"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 49440,
+            "end_ms": 53920,
+            "text": "restriction on abortion unconstitutional"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 52000,
+            "end_ms": 55600,
+            "text": "on the grounds that the statute was too"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 53920,
+            "end_ms": 57440,
+            "text": "vague and overly broad"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 55600,
+            "end_ms": 59840,
+            "text": "and impinged on the rights reserved to"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 57440,
+            "end_ms": 61280,
+            "text": "people under the ninth amendment"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 59840,
+            "end_ms": 63359,
+            "text": "however the court didn't issue an"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 61280,
+            "end_ms": 64319,
+            "text": "injunction to bar texas from enforcing"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 63359,
+            "end_ms": 66640,
+            "text": "its ban"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 64319,
+            "end_ms": 67760,
+            "text": "so rose options in texas really didn't"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 66640,
+            "end_ms": 69520,
+            "text": "change"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 67760,
+            "end_ms": 71600,
+            "text": "arguing that the district court's lack"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 69520,
+            "end_ms": 75680,
+            "text": "of injunctive relief was insufficient"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 71600,
+            "end_ms": 75680,
+            "text": "roe appealed directly to the supreme"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 83799,
+            "end_ms": 86799,
+            "text": "court"
+          }
+        ],
+        "text": "in 1973 the united states supreme court\nissued its decision in roe vs wade the\neffect of the court's ruling was\nimmediate and far-reaching\nexpanding the right to privacy under the\n14th amendment\nand altering the legal landscape on the\nissue of abortion\nacross the country norma mccorvey a\nsingle pregnant woman in texas\nsought an abortion at the time texas law\nprohibited abortions unless performed or\nobtained to save the life of the mother\nto protect her privacy mccorvey filed\nsuit in federal court\nunder the name jane rowe the defendant\nwas henry wade the district attorney in\nthe texas county where mccorvey sought\nthe abortion\nroe argued that the abortion ban was\nunconstitutional\nand asked the court to issue an order\nthat would stop texas from enforcing the\nlaw\nthe district court found the texas\nrestriction on abortion unconstitutional\non the grounds that the statute was too\nvague and overly broad\nand impinged on the rights reserved to\npeople under the ninth amendment\nhowever the court didn't issue an\ninjunction to bar texas from enforcing\nits ban\nso rose options in texas really didn't\nchange\narguing that the district court's lack\nof injunctive relief was insufficient\nroe appealed directly to the supreme\ncourt",
+        "text_tokens": 280,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "start_ms": 560,
+          "end_ms": 75680,
+          "text": "in 1973 the united states supreme court issued its decision in roe vs wade the effect of the court's ruling was immediate and far-reaching expanding the right to privacy under the 14th amendment and altering the legal landscape on the issue of abortion across the country norma mccorvey a single pregnant woman in texas sought an abortion at the time texas law prohibited abortions unless performed or obtained to save the life of the mother to protect her privacy mccorvey filed suit in federal court under the name jane rowe the defendant was henry wade the district attorney in the texas county where mccorvey sought the abortion roe argued that the abortion ban was unconstitutional and asked the court to issue an order that would stop texas from enforcing the law the district court found the texas restriction on abortion unconstitutional on the grounds that the statute was too vague and overly broad and impinged on the rights reserved to people under the ninth amendment however the court didn't issue an injunction to bar texas from enforcing its ban so rose options in texas really didn't change arguing that the district court's lack of injunctive relief was insufficient roe appealed directly to the supreme"
+        },
+        {
+          "id": "S39",
+          "cue_ids": [
+            39
+          ],
+          "start_ms": 83799,
+          "end_ms": 86799,
+          "text": "court"
+        }
+      ],
+      "text": "S1 [00:00:00.560 --> 00:01:15.680] in 1973 the united states supreme court issued its decision in roe vs wade the effect of the court's ruling was immediate and far-reaching expanding the right to privacy under the 14th amendment and altering the legal landscape on the issue of abortion across the country norma mccorvey a single pregnant woman in texas sought an abortion at the time texas law prohibited abortions unless performed or obtained to save the life of the mother to protect her privacy mccorvey filed suit in federal court under the name jane rowe the defendant was henry wade the district attorney in the texas county where mccorvey sought the abortion roe argued that the abortion ban was unconstitutional and asked the court to issue an order that would stop texas from enforcing the law the district court found the texas restriction on abortion unconstitutional on the grounds that the statute was too vague and overly broad and impinged on the rights reserved to people under the ninth amendment however the court didn't issue an injunction to bar texas from enforcing its ban so rose options in texas really didn't change arguing that the district court's lack of injunctive relief was insufficient roe appealed directly to the supreme\nS39 [00:01:23.799 --> 00:01:26.799] court",
+      "text_tokens": 296,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "4549f5d71ff748d29c019d0a9cf06982259dffc7437e7a531ffa8e2fa1c13e98"
+}

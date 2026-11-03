@@ -1,0 +1,1617 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "dez7DLniEJA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dez7DLniEJA.srt",
+        "status": "available",
+        "bytes": 48893,
+        "sha256": "fd682999c978517afe9aa0c92fc1c63f7bf1a297d83f84be022049b63500fa5a",
+        "cues": 443,
+        "nonempty_cues": 443
+      },
+      "frame_indices": [
+        0,
+        676,
+        1352,
+        2028,
+        2705,
+        3381,
+        4057,
+        4733,
+        5409,
+        6085,
+        6761,
+        7437,
+        8114,
+        8790,
+        9466,
+        10142,
+        10818,
+        11494,
+        12170,
+        12846,
+        13523,
+        14199,
+        14875,
+        15551,
+        16227,
+        16903,
+        17579,
+        18255,
+        18932,
+        19608,
+        20284,
+        20960
+      ],
+      "frame_seconds": [
+        0.0,
+        28.194833,
+        56.389667,
+        84.58449999999999,
+        112.821042,
+        141.015875,
+        169.210708,
+        197.405542,
+        225.60037499999999,
+        253.795208,
+        281.990042,
+        310.184875,
+        338.421417,
+        366.61625,
+        394.811083,
+        423.005917,
+        451.20074999999997,
+        479.395583,
+        507.590417,
+        535.78525,
+        564.021792,
+        592.216625,
+        620.411458,
+        648.606292,
+        676.801125,
+        704.995958,
+        733.190792,
+        761.385625,
+        789.622167,
+        817.817,
+        846.011833,
+        874.206667
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          13,
+          14
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          58,
+          59
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          86,
+          87
+        ],
+        [
+          100,
+          101
+        ],
+        [
+          114,
+          115
+        ],
+        [
+          127,
+          128
+        ],
+        [
+          141,
+          142
+        ],
+        [
+          155,
+          156
+        ],
+        [
+          170,
+          171
+        ],
+        [
+          184,
+          185
+        ],
+        [
+          198,
+          199
+        ],
+        [
+          212,
+          213
+        ],
+        [
+          226,
+          227
+        ],
+        [
+          241,
+          242
+        ],
+        [
+          256,
+          257
+        ],
+        [
+          268,
+          269
+        ],
+        [
+          282,
+          283
+        ],
+        [
+          295,
+          296
+        ],
+        [
+          311,
+          312
+        ],
+        [
+          326,
+          327
+        ],
+        [
+          340,
+          341
+        ],
+        [
+          355,
+          356
+        ],
+        [
+          370,
+          371
+        ],
+        [
+          384,
+          385
+        ],
+        [
+          398,
+          399
+        ],
+        [
+          412,
+          413
+        ],
+        [
+          426,
+          427
+        ],
+        [
+          442,
+          443
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 13,
+          "start_ms": 26000,
+          "end_ms": 29279,
+          "text": "a really cool effect where you can"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 27760,
+          "end_ms": 31760,
+          "text": "create the illusion that the card is"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 53440,
+          "end_ms": 56640,
+          "text": "change all of these moves are really"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 55199,
+          "end_ms": 58879,
+          "text": "easy and you'll be able to get them down"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 81920,
+          "end_ms": 85520,
+          "text": "anyway let's learn how to do the shake"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 83920,
+          "end_ms": 88400,
+          "text": "change so the first trick we're gonna be"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 108560,
+          "end_ms": 113200,
+          "text": "card between your thumb and middle"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 110079,
+          "end_ms": 115200,
+          "text": "finger and all you're doing is rotating"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 137760,
+          "end_ms": 142000,
+          "text": "whatever it is and as they're looking at"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 139440,
+          "end_ms": 144079,
+          "text": "this card you want to get a break under"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 167280,
+          "end_ms": 171040,
+          "text": "this means when it comes to picking up"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 168879,
+          "end_ms": 172400,
+          "text": "this card you can easily pick up"
+        },
+        {
+          "cue_id": 100,
+          "start_ms": 194000,
+          "end_ms": 198720,
+          "text": "then the hand position is this you come"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 196640,
+          "end_ms": 200879,
+          "text": "over with your thumb and middle finger"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 223760,
+          "end_ms": 228079,
+          "text": "really well so what you need to do is"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 225599,
+          "end_ms": 230159,
+          "text": "then you need to bend the cards using"
+        },
+        {
+          "cue_id": 127,
+          "start_ms": 250480,
+          "end_ms": 253920,
+          "text": "finger and bend it that way as well and"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 252239,
+          "end_ms": 256560,
+          "text": "then once you're ready all you need to"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 277600,
+          "end_ms": 282159,
+          "text": "and the big motion of you shaking your"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 279759,
+          "end_ms": 284880,
+          "text": "hand hides the small motion of you"
+        },
+        {
+          "cue_id": 155,
+          "start_ms": 307520,
+          "end_ms": 311360,
+          "text": "a red card or a red card into a black"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 309120,
+          "end_ms": 313919,
+          "text": "card as opposed to a black card into a"
+        },
+        {
+          "cue_id": 170,
+          "start_ms": 336080,
+          "end_ms": 339680,
+          "text": "television in front of large crowds of"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 337840,
+          "end_ms": 341280,
+          "text": "people and i'm even going to teach you"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 364240,
+          "end_ms": 367440,
+          "text": "really cool illusion where it looks like"
+        },
+        {
+          "cue_id": 185,
+          "start_ms": 365759,
+          "end_ms": 369520,
+          "text": "the cards going through the spectator's"
+        },
+        {
+          "cue_id": 198,
+          "start_ms": 391440,
+          "end_ms": 395199,
+          "text": "down how to do the trick and the"
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 393120,
+          "end_ms": 396720,
+          "text": "mechanics behind it so the way in which"
+        },
+        {
+          "cue_id": 212,
+          "start_ms": 420479,
+          "end_ms": 424000,
+          "text": "different ways to do this you can do a"
+        },
+        {
+          "cue_id": 213,
+          "start_ms": 421919,
+          "end_ms": 425919,
+          "text": "pinky count and get a break on the top"
+        },
+        {
+          "cue_id": 226,
+          "start_ms": 448880,
+          "end_ms": 451759,
+          "text": "where you can even look and you see"
+        },
+        {
+          "cue_id": 227,
+          "start_ms": 450000,
+          "end_ms": 453520,
+          "text": "there's two cards there and then just"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 476560,
+          "end_ms": 480000,
+          "text": "thumb so let's just go over that whole"
+        },
+        {
+          "cue_id": 242,
+          "start_ms": 478159,
+          "end_ms": 481360,
+          "text": "thing one more time you're you know"
+        },
+        {
+          "cue_id": 256,
+          "start_ms": 503840,
+          "end_ms": 509680,
+          "text": "maintains contact with the deck and all"
+        },
+        {
+          "cue_id": 257,
+          "start_ms": 506720,
+          "end_ms": 512320,
+          "text": "you're doing is painting this card back"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 531760,
+          "end_ms": 536160,
+          "text": "into another so you just do that one two"
+        },
+        {
+          "cue_id": 269,
+          "start_ms": 535279,
+          "end_ms": 537760,
+          "text": "three"
+        },
+        {
+          "cue_id": 282,
+          "start_ms": 559279,
+          "end_ms": 564160,
+          "text": "put their hand on top of the card so"
+        },
+        {
+          "cue_id": 283,
+          "start_ms": 561279,
+          "end_ms": 565839,
+          "text": "there's no way you can get to it so i"
+        },
+        {
+          "cue_id": 295,
+          "start_ms": 586480,
+          "end_ms": 592560,
+          "text": "king of diamonds meaning under their"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 588720,
+          "end_ms": 594320,
+          "text": "hand is the seven of clubs"
+        },
+        {
+          "cue_id": 311,
+          "start_ms": 617839,
+          "end_ms": 621279,
+          "text": "the move so the first thing you do is"
+        },
+        {
+          "cue_id": 312,
+          "start_ms": 619920,
+          "end_ms": 623040,
+          "text": "you need to do a double lift which is"
+        },
+        {
+          "cue_id": 326,
+          "start_ms": 646240,
+          "end_ms": 650640,
+          "text": "what they think is the king underneath"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 648240,
+          "end_ms": 652079,
+          "text": "their hand but it's actually the seven"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 673279,
+          "end_ms": 677200,
+          "text": "of diamonds then they'll remove their"
+        },
+        {
+          "cue_id": 341,
+          "start_ms": 675200,
+          "end_ms": 679519,
+          "text": "hand and you can see that they've now"
+        },
+        {
+          "cue_id": 355,
+          "start_ms": 701600,
+          "end_ms": 705440,
+          "text": "change so the pinky change is a really"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 703680,
+          "end_ms": 707440,
+          "text": "visual color change that's similar to"
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 728800,
+          "end_ms": 734079,
+          "text": "finger pulls this card down"
+        },
+        {
+          "cue_id": 371,
+          "start_ms": 731440,
+          "end_ms": 736160,
+          "text": "underneath your palm and then you square"
+        },
+        {
+          "cue_id": 384,
+          "start_ms": 758800,
+          "end_ms": 763680,
+          "text": "that happens is you hold the deck in"
+        },
+        {
+          "cue_id": 385,
+          "start_ms": 760720,
+          "end_ms": 765279,
+          "text": "this grip here so the deck is face up so"
+        },
+        {
+          "cue_id": 398,
+          "start_ms": 784720,
+          "end_ms": 790079,
+          "text": "pip is or the bottom corner"
+        },
+        {
+          "cue_id": 399,
+          "start_ms": 786880,
+          "end_ms": 792320,
+          "text": "of the card and the pad of your little"
+        },
+        {
+          "cue_id": 412,
+          "start_ms": 814639,
+          "end_ms": 818880,
+          "text": "spectators only really seeing the top"
+        },
+        {
+          "cue_id": 413,
+          "start_ms": 817120,
+          "end_ms": 820800,
+          "text": "half of the card"
+        },
+        {
+          "cue_id": 426,
+          "start_ms": 843839,
+          "end_ms": 847600,
+          "text": "sort of reveal that card you can give it"
+        },
+        {
+          "cue_id": 427,
+          "start_ms": 845600,
+          "end_ms": 849920,
+          "text": "you know the cards are nice cuts snap"
+        },
+        {
+          "cue_id": 442,
+          "start_ms": 871920,
+          "end_ms": 876079,
+          "text": "description i'll see you in the next"
+        },
+        {
+          "cue_id": 443,
+          "start_ms": 873519,
+          "end_ms": 876079,
+          "text": "video"
+        }
+      ],
+      "text": "a really cool effect where you can\ncreate the illusion that the card is\nchange all of these moves are really\neasy and you'll be able to get them down\nanyway let's learn how to do the shake\nchange so the first trick we're gonna be\ncard between your thumb and middle\nfinger and all you're doing is rotating\nwhatever it is and as they're looking at\nthis card you want to get a break under\nthis means when it comes to picking up\nthis card you can easily pick up\nthen the hand position is this you come\nover with your thumb and middle finger\nreally well so what you need to do is\nthen you need to bend the cards using\nfinger and bend it that way as well and\nthen once you're ready all you need to\nand the big motion of you shaking your\nhand hides the small motion of you\na red card or a red card into a black\ncard as opposed to a black card into a\ntelevision in front of large crowds of\npeople and i'm even going to teach you\nreally cool illusion where it looks like\nthe cards going through the spectator's\ndown how to do the trick and the\nmechanics behind it so the way in which\ndifferent ways to do this you can do a\npinky count and get a break on the top\nwhere you can even look and you see\nthere's two cards there and then just\nthumb so let's just go over that whole\nthing one more time you're you know\nmaintains contact with the deck and all\nyou're doing is painting this card back\ninto another so you just do that one two\nthree\nput their hand on top of the card so\nthere's no way you can get to it so i\nking of diamonds meaning under their\nhand is the seven of clubs\nthe move so the first thing you do is\nyou need to do a double lift which is\nwhat they think is the king underneath\ntheir hand but it's actually the seven\nof diamonds then they'll remove their\nhand and you can see that they've now\nchange so the pinky change is a really\nvisual color change that's similar to\nfinger pulls this card down\nunderneath your palm and then you square\nthat happens is you hold the deck in\nthis grip here so the deck is face up so\npip is or the bottom corner\nof the card and the pad of your little\nspectators only really seeing the top\nhalf of the card\nsort of reveal that card you can give it\nyou know the cards are nice cuts snap\ndescription i'll see you in the next\nvideo",
+      "text_tokens": 549,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "dez7DLniEJA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/dez7DLniEJA.srt",
+          "status": "available",
+          "bytes": 48893,
+          "sha256": "fd682999c978517afe9aa0c92fc1c63f7bf1a297d83f84be022049b63500fa5a",
+          "cues": 443,
+          "nonempty_cues": 443
+        },
+        "frame_indices": [
+          0,
+          676,
+          1352,
+          2028,
+          2705,
+          3381,
+          4057,
+          4733,
+          5409,
+          6085,
+          6761,
+          7437,
+          8114,
+          8790,
+          9466,
+          10142,
+          10818,
+          11494,
+          12170,
+          12846,
+          13523,
+          14199,
+          14875,
+          15551,
+          16227,
+          16903,
+          17579,
+          18255,
+          18932,
+          19608,
+          20284,
+          20960
+        ],
+        "frame_seconds": [
+          0.0,
+          28.194833,
+          56.389667,
+          84.58449999999999,
+          112.821042,
+          141.015875,
+          169.210708,
+          197.405542,
+          225.60037499999999,
+          253.795208,
+          281.990042,
+          310.184875,
+          338.421417,
+          366.61625,
+          394.811083,
+          423.005917,
+          451.20074999999997,
+          479.395583,
+          507.590417,
+          535.78525,
+          564.021792,
+          592.216625,
+          620.411458,
+          648.606292,
+          676.801125,
+          704.995958,
+          733.190792,
+          761.385625,
+          789.622167,
+          817.817,
+          846.011833,
+          874.206667
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            13,
+            14
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            45,
+            46
+          ],
+          [
+            58,
+            59
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            86,
+            87
+          ],
+          [
+            100,
+            101
+          ],
+          [
+            114,
+            115
+          ],
+          [
+            127,
+            128
+          ],
+          [
+            141,
+            142
+          ],
+          [
+            155,
+            156
+          ],
+          [
+            170,
+            171
+          ],
+          [
+            184,
+            185
+          ],
+          [
+            198,
+            199
+          ],
+          [
+            212,
+            213
+          ],
+          [
+            226,
+            227
+          ],
+          [
+            241,
+            242
+          ],
+          [
+            256,
+            257
+          ],
+          [
+            268,
+            269
+          ],
+          [
+            282,
+            283
+          ],
+          [
+            295,
+            296
+          ],
+          [
+            311,
+            312
+          ],
+          [
+            326,
+            327
+          ],
+          [
+            340,
+            341
+          ],
+          [
+            355,
+            356
+          ],
+          [
+            370,
+            371
+          ],
+          [
+            384,
+            385
+          ],
+          [
+            398,
+            399
+          ],
+          [
+            412,
+            413
+          ],
+          [
+            426,
+            427
+          ],
+          [
+            442,
+            443
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 13,
+            "start_ms": 26000,
+            "end_ms": 29279,
+            "text": "a really cool effect where you can"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 27760,
+            "end_ms": 31760,
+            "text": "create the illusion that the card is"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 53440,
+            "end_ms": 56640,
+            "text": "change all of these moves are really"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 55199,
+            "end_ms": 58879,
+            "text": "easy and you'll be able to get them down"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 81920,
+            "end_ms": 85520,
+            "text": "anyway let's learn how to do the shake"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 83920,
+            "end_ms": 88400,
+            "text": "change so the first trick we're gonna be"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 108560,
+            "end_ms": 113200,
+            "text": "card between your thumb and middle"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 110079,
+            "end_ms": 115200,
+            "text": "finger and all you're doing is rotating"
+          },
+          {
+            "cue_id": 72,
+            "start_ms": 137760,
+            "end_ms": 142000,
+            "text": "whatever it is and as they're looking at"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 139440,
+            "end_ms": 144079,
+            "text": "this card you want to get a break under"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 167280,
+            "end_ms": 171040,
+            "text": "this means when it comes to picking up"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 168879,
+            "end_ms": 172400,
+            "text": "this card you can easily pick up"
+          },
+          {
+            "cue_id": 100,
+            "start_ms": 194000,
+            "end_ms": 198720,
+            "text": "then the hand position is this you come"
+          },
+          {
+            "cue_id": 101,
+            "start_ms": 196640,
+            "end_ms": 200879,
+            "text": "over with your thumb and middle finger"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 223760,
+            "end_ms": 228079,
+            "text": "really well so what you need to do is"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 225599,
+            "end_ms": 230159,
+            "text": "then you need to bend the cards using"
+          },
+          {
+            "cue_id": 127,
+            "start_ms": 250480,
+            "end_ms": 253920,
+            "text": "finger and bend it that way as well and"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 252239,
+            "end_ms": 256560,
+            "text": "then once you're ready all you need to"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 277600,
+            "end_ms": 282159,
+            "text": "and the big motion of you shaking your"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 279759,
+            "end_ms": 284880,
+            "text": "hand hides the small motion of you"
+          },
+          {
+            "cue_id": 155,
+            "start_ms": 307520,
+            "end_ms": 311360,
+            "text": "a red card or a red card into a black"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 309120,
+            "end_ms": 313919,
+            "text": "card as opposed to a black card into a"
+          },
+          {
+            "cue_id": 170,
+            "start_ms": 336080,
+            "end_ms": 339680,
+            "text": "television in front of large crowds of"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 337840,
+            "end_ms": 341280,
+            "text": "people and i'm even going to teach you"
+          },
+          {
+            "cue_id": 184,
+            "start_ms": 364240,
+            "end_ms": 367440,
+            "text": "really cool illusion where it looks like"
+          },
+          {
+            "cue_id": 185,
+            "start_ms": 365759,
+            "end_ms": 369520,
+            "text": "the cards going through the spectator's"
+          },
+          {
+            "cue_id": 198,
+            "start_ms": 391440,
+            "end_ms": 395199,
+            "text": "down how to do the trick and the"
+          },
+          {
+            "cue_id": 199,
+            "start_ms": 393120,
+            "end_ms": 396720,
+            "text": "mechanics behind it so the way in which"
+          },
+          {
+            "cue_id": 212,
+            "start_ms": 420479,
+            "end_ms": 424000,
+            "text": "different ways to do this you can do a"
+          },
+          {
+            "cue_id": 213,
+            "start_ms": 421919,
+            "end_ms": 425919,
+            "text": "pinky count and get a break on the top"
+          },
+          {
+            "cue_id": 226,
+            "start_ms": 448880,
+            "end_ms": 451759,
+            "text": "where you can even look and you see"
+          },
+          {
+            "cue_id": 227,
+            "start_ms": 450000,
+            "end_ms": 453520,
+            "text": "there's two cards there and then just"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 476560,
+            "end_ms": 480000,
+            "text": "thumb so let's just go over that whole"
+          },
+          {
+            "cue_id": 242,
+            "start_ms": 478159,
+            "end_ms": 481360,
+            "text": "thing one more time you're you know"
+          },
+          {
+            "cue_id": 256,
+            "start_ms": 503840,
+            "end_ms": 509680,
+            "text": "maintains contact with the deck and all"
+          },
+          {
+            "cue_id": 257,
+            "start_ms": 506720,
+            "end_ms": 512320,
+            "text": "you're doing is painting this card back"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 531760,
+            "end_ms": 536160,
+            "text": "into another so you just do that one two"
+          },
+          {
+            "cue_id": 269,
+            "start_ms": 535279,
+            "end_ms": 537760,
+            "text": "three"
+          },
+          {
+            "cue_id": 282,
+            "start_ms": 559279,
+            "end_ms": 564160,
+            "text": "put their hand on top of the card so"
+          },
+          {
+            "cue_id": 283,
+            "start_ms": 561279,
+            "end_ms": 565839,
+            "text": "there's no way you can get to it so i"
+          },
+          {
+            "cue_id": 295,
+            "start_ms": 586480,
+            "end_ms": 592560,
+            "text": "king of diamonds meaning under their"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 588720,
+            "end_ms": 594320,
+            "text": "hand is the seven of clubs"
+          },
+          {
+            "cue_id": 311,
+            "start_ms": 617839,
+            "end_ms": 621279,
+            "text": "the move so the first thing you do is"
+          },
+          {
+            "cue_id": 312,
+            "start_ms": 619920,
+            "end_ms": 623040,
+            "text": "you need to do a double lift which is"
+          },
+          {
+            "cue_id": 326,
+            "start_ms": 646240,
+            "end_ms": 650640,
+            "text": "what they think is the king underneath"
+          },
+          {
+            "cue_id": 327,
+            "start_ms": 648240,
+            "end_ms": 652079,
+            "text": "their hand but it's actually the seven"
+          },
+          {
+            "cue_id": 340,
+            "start_ms": 673279,
+            "end_ms": 677200,
+            "text": "of diamonds then they'll remove their"
+          },
+          {
+            "cue_id": 341,
+            "start_ms": 675200,
+            "end_ms": 679519,
+            "text": "hand and you can see that they've now"
+          },
+          {
+            "cue_id": 355,
+            "start_ms": 701600,
+            "end_ms": 705440,
+            "text": "change so the pinky change is a really"
+          },
+          {
+            "cue_id": 356,
+            "start_ms": 703680,
+            "end_ms": 707440,
+            "text": "visual color change that's similar to"
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 728800,
+            "end_ms": 734079,
+            "text": "finger pulls this card down"
+          },
+          {
+            "cue_id": 371,
+            "start_ms": 731440,
+            "end_ms": 736160,
+            "text": "underneath your palm and then you square"
+          },
+          {
+            "cue_id": 384,
+            "start_ms": 758800,
+            "end_ms": 763680,
+            "text": "that happens is you hold the deck in"
+          },
+          {
+            "cue_id": 385,
+            "start_ms": 760720,
+            "end_ms": 765279,
+            "text": "this grip here so the deck is face up so"
+          },
+          {
+            "cue_id": 398,
+            "start_ms": 784720,
+            "end_ms": 790079,
+            "text": "pip is or the bottom corner"
+          },
+          {
+            "cue_id": 399,
+            "start_ms": 786880,
+            "end_ms": 792320,
+            "text": "of the card and the pad of your little"
+          },
+          {
+            "cue_id": 412,
+            "start_ms": 814639,
+            "end_ms": 818880,
+            "text": "spectators only really seeing the top"
+          },
+          {
+            "cue_id": 413,
+            "start_ms": 817120,
+            "end_ms": 820800,
+            "text": "half of the card"
+          },
+          {
+            "cue_id": 426,
+            "start_ms": 843839,
+            "end_ms": 847600,
+            "text": "sort of reveal that card you can give it"
+          },
+          {
+            "cue_id": 427,
+            "start_ms": 845600,
+            "end_ms": 849920,
+            "text": "you know the cards are nice cuts snap"
+          },
+          {
+            "cue_id": 442,
+            "start_ms": 871920,
+            "end_ms": 876079,
+            "text": "description i'll see you in the next"
+          },
+          {
+            "cue_id": 443,
+            "start_ms": 873519,
+            "end_ms": 876079,
+            "text": "video"
+          }
+        ],
+        "text": "a really cool effect where you can\ncreate the illusion that the card is\nchange all of these moves are really\neasy and you'll be able to get them down\nanyway let's learn how to do the shake\nchange so the first trick we're gonna be\ncard between your thumb and middle\nfinger and all you're doing is rotating\nwhatever it is and as they're looking at\nthis card you want to get a break under\nthis means when it comes to picking up\nthis card you can easily pick up\nthen the hand position is this you come\nover with your thumb and middle finger\nreally well so what you need to do is\nthen you need to bend the cards using\nfinger and bend it that way as well and\nthen once you're ready all you need to\nand the big motion of you shaking your\nhand hides the small motion of you\na red card or a red card into a black\ncard as opposed to a black card into a\ntelevision in front of large crowds of\npeople and i'm even going to teach you\nreally cool illusion where it looks like\nthe cards going through the spectator's\ndown how to do the trick and the\nmechanics behind it so the way in which\ndifferent ways to do this you can do a\npinky count and get a break on the top\nwhere you can even look and you see\nthere's two cards there and then just\nthumb so let's just go over that whole\nthing one more time you're you know\nmaintains contact with the deck and all\nyou're doing is painting this card back\ninto another so you just do that one two\nthree\nput their hand on top of the card so\nthere's no way you can get to it so i\nking of diamonds meaning under their\nhand is the seven of clubs\nthe move so the first thing you do is\nyou need to do a double lift which is\nwhat they think is the king underneath\ntheir hand but it's actually the seven\nof diamonds then they'll remove their\nhand and you can see that they've now\nchange so the pinky change is a really\nvisual color change that's similar to\nfinger pulls this card down\nunderneath your palm and then you square\nthat happens is you hold the deck in\nthis grip here so the deck is face up so\npip is or the bottom corner\nof the card and the pad of your little\nspectators only really seeing the top\nhalf of the card\nsort of reveal that card you can give it\nyou know the cards are nice cuts snap\ndescription i'll see you in the next\nvideo",
+        "text_tokens": 549,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S12",
+          "cue_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_ms": 23760,
+          "end_ms": 33280,
+          "text": "any deck of cards and i'm also teaching a really cool effect where you can create the illusion that the card is going through your spectator's hand so"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 52079,
+          "end_ms": 61280,
+          "text": "going to teach you how to do the pinky change all of these moves are really easy and you'll be able to get them down within five to ten minutes so let's go"
+        },
+        {
+          "id": "S44",
+          "cue_ids": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "start_ms": 80240,
+          "end_ms": 89520,
+          "text": "the other ones taught on this channel anyway let's learn how to do the shake change so the first trick we're gonna be learning is known as the shape change"
+        },
+        {
+          "id": "S57",
+          "cue_ids": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "start_ms": 106240,
+          "end_ms": 116799,
+          "text": "card underneath it you then hold this card between your thumb and middle finger and all you're doing is rotating the card like that"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "start_ms": 135840,
+          "end_ms": 145200,
+          "text": "to the spectator let them inspect it whatever it is and as they're looking at this card you want to get a break under the card that's on top of the deck"
+        },
+        {
+          "id": "S85",
+          "cue_ids": [
+            85,
+            86,
+            87,
+            88
+          ],
+          "start_ms": 165200,
+          "end_ms": 173920,
+          "text": "one you've just got a pinky break under this means when it comes to picking up this card you can easily pick up both cards"
+        },
+        {
+          "id": "S99",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102
+          ],
+          "start_ms": 191840,
+          "end_ms": 203920,
+          "text": "place the card on top of the deck and then the hand position is this you come over with your thumb and middle finger and you grab the opposite corners of the"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115,
+            116
+          ],
+          "start_ms": 222079,
+          "end_ms": 232400,
+          "text": "hands and i can't even reach the corner really well so what you need to do is then you need to bend the cards using your thumb and middle finger so the"
+        },
+        {
+          "id": "S126",
+          "cue_ids": [
+            126,
+            127,
+            128,
+            129
+          ],
+          "start_ms": 249439,
+          "end_ms": 259199,
+          "text": "literally just poke it with your little finger and bend it that way as well and then once you're ready all you need to do is practice taking your first finger"
+        },
+        {
+          "id": "S140",
+          "cue_ids": [
+            140,
+            141,
+            142,
+            143
+          ],
+          "start_ms": 276720,
+          "end_ms": 287120,
+          "text": "three and the big motion of you shaking your hand hides the small motion of you rotating the card so it goes one two"
+        },
+        {
+          "id": "S154",
+          "cue_ids": [
+            154,
+            155,
+            156,
+            157
+          ],
+          "start_ms": 305440,
+          "end_ms": 315919,
+          "text": "visual when you change a black card into a red card or a red card into a black card as opposed to a black card into a black card so um that's just one thing"
+        },
+        {
+          "id": "S169",
+          "cue_ids": [
+            169,
+            170,
+            171,
+            172
+          ],
+          "start_ms": 334000,
+          "end_ms": 344240,
+          "text": "effects that dynamo does on national television in front of large crowds of people and i'm even going to teach you how to read someone's mind to get"
+        },
+        {
+          "id": "S183",
+          "cue_ids": [
+            183,
+            184,
+            185,
+            186
+          ],
+          "start_ms": 363199,
+          "end_ms": 370880,
+          "text": "it and then i'm going to teach you a really cool illusion where it looks like the cards going through the spectator's hand using the paintbrush change so in"
+        },
+        {
+          "id": "S197",
+          "cue_ids": [
+            197,
+            198,
+            199,
+            200
+          ],
+          "start_ms": 389680,
+          "end_ms": 399440,
+          "text": "actually works and then i'm gonna break down how to do the trick and the mechanics behind it so the way in which this works is you get a break under the"
+        },
+        {
+          "id": "S211",
+          "cue_ids": [
+            211,
+            212,
+            213,
+            214
+          ],
+          "start_ms": 419039,
+          "end_ms": 427599,
+          "text": "top two cards there are loads of different ways to do this you can do a pinky count and get a break on the top two cards that way that's slightly more"
+        },
+        {
+          "id": "S225",
+          "cue_ids": [
+            225,
+            226,
+            227,
+            228
+          ],
+          "start_ms": 446479,
+          "end_ms": 455520,
+          "text": "riffle up the back feel for two cards where you can even look and you see there's two cards there and then just place these two cards on top of your"
+        },
+        {
+          "id": "S240",
+          "cue_ids": [
+            240,
+            241,
+            242,
+            243
+          ],
+          "start_ms": 473919,
+          "end_ms": 482639,
+          "text": "other side and rest them against your thumb so let's just go over that whole thing one more time you're you know you're doing whatever i'll show you a"
+        },
+        {
+          "id": "S255",
+          "cue_ids": [
+            255,
+            256,
+            257,
+            258
+          ],
+          "start_ms": 501199,
+          "end_ms": 514000,
+          "text": "then this portion of the card always maintains contact with the deck and all you're doing is painting this card back and forward on the deck and i'll do this"
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268,
+            269,
+            270
+          ],
+          "start_ms": 529839,
+          "end_ms": 539519,
+          "text": "that you've just transformed one card into another so you just do that one two three let me now teach you a really cool trick"
+        },
+        {
+          "id": "S281",
+          "cue_ids": [
+            281,
+            282,
+            283,
+            284
+          ],
+          "start_ms": 557200,
+          "end_ms": 567600,
+          "text": "hand face up hand and you tell them to put their hand on top of the card so there's no way you can get to it so i will use"
+        },
+        {
+          "id": "S294",
+          "cue_ids": [
+            294,
+            295,
+            296,
+            297
+          ],
+          "start_ms": 583200,
+          "end_ms": 595760,
+          "text": "hand and it visually changes into the king of diamonds meaning under their hand is the seven of clubs so here's how this magic trick works on"
+        },
+        {
+          "id": "S310",
+          "cue_ids": [
+            310,
+            311,
+            312,
+            313
+          ],
+          "start_ms": 616560,
+          "end_ms": 624640,
+          "text": "just in case you're not familiar with the move so the first thing you do is you need to do a double lift which is essentially where you turn over two"
+        },
+        {
+          "id": "S325",
+          "cue_ids": [
+            325,
+            326,
+            327,
+            328
+          ],
+          "start_ms": 642800,
+          "end_ms": 654160,
+          "text": "in reality it's two cards and you place what they think is the king underneath their hand but it's actually the seven so that's underneath the hand and will"
+        },
+        {
+          "id": "S339",
+          "cue_ids": [
+            339,
+            340,
+            341,
+            342
+          ],
+          "start_ms": 671360,
+          "end_ms": 681519,
+          "text": "seven of clubs change it into the king of diamonds then they'll remove their hand and you can see that they've now got the seven of clubs so this is a fun"
+        },
+        {
+          "id": "S354",
+          "cue_ids": [
+            354,
+            355,
+            356,
+            357
+          ],
+          "start_ms": 699600,
+          "end_ms": 708880,
+          "text": "tutorial and learn how to do the pinky change so the pinky change is a really visual color change that's similar to the cardini color change but i don't"
+        },
+        {
+          "id": "S369",
+          "cue_ids": [
+            369,
+            370,
+            371,
+            372
+          ],
+          "start_ms": 727519,
+          "end_ms": 738000,
+          "text": "click your fingers and your little finger pulls this card down underneath your palm and then you square up the cards bringing the card onto the"
+        },
+        {
+          "id": "S383",
+          "cue_ids": [
+            383,
+            384,
+            385,
+            386
+          ],
+          "start_ms": 756720,
+          "end_ms": 767519,
+          "text": "card as explained earlier and then all that happens is you hold the deck in this grip here so the deck is face up so the spectators if they were over there"
+        },
+        {
+          "id": "S397",
+          "cue_ids": [
+            397,
+            398,
+            399,
+            400
+          ],
+          "start_ms": 782240,
+          "end_ms": 795519,
+          "text": "finger to the roughly where the bottom pip is or the bottom corner of the card and the pad of your little finger is going to apply pressure to the"
+        },
+        {
+          "id": "S411",
+          "cue_ids": [
+            411,
+            412,
+            413,
+            414
+          ],
+          "start_ms": 812560,
+          "end_ms": 822399,
+          "text": "three fingers are here and you want the spectators only really seeing the top half of the card then you do apply a lot of pressure so"
+        },
+        {
+          "id": "S425",
+          "cue_ids": [
+            425,
+            426,
+            427,
+            428
+          ],
+          "start_ms": 841760,
+          "end_ms": 851600,
+          "text": "change the cards then if you want to sort of reveal that card you can give it you know the cards are nice cuts snap your fingers turn the deck over there's"
+        },
+        {
+          "id": "S441",
+          "cue_ids": [
+            441,
+            442,
+            443
+          ],
+          "start_ms": 870639,
+          "end_ms": 876079,
+          "text": "by clicking the first link in the description i'll see you in the next video"
+        }
+      ],
+      "text": "S12 [00:00:23.760 --> 00:00:33.280] any deck of cards and i'm also teaching a really cool effect where you can create the illusion that the card is going through your spectator's hand so\nS29 [00:00:52.079 --> 00:01:01.280] going to teach you how to do the pinky change all of these moves are really easy and you'll be able to get them down within five to ten minutes so let's go\nS44 [00:01:20.240 --> 00:01:29.520] the other ones taught on this channel anyway let's learn how to do the shake change so the first trick we're gonna be learning is known as the shape change\nS57 [00:01:46.240 --> 00:01:56.799] card underneath it you then hold this card between your thumb and middle finger and all you're doing is rotating the card like that\nS71 [00:02:15.840 --> 00:02:25.200] to the spectator let them inspect it whatever it is and as they're looking at this card you want to get a break under the card that's on top of the deck\nS85 [00:02:45.200 --> 00:02:53.920] one you've just got a pinky break under this means when it comes to picking up this card you can easily pick up both cards\nS99 [00:03:11.840 --> 00:03:23.920] place the card on top of the deck and then the hand position is this you come over with your thumb and middle finger and you grab the opposite corners of the\nS113 [00:03:42.079 --> 00:03:52.400] hands and i can't even reach the corner really well so what you need to do is then you need to bend the cards using your thumb and middle finger so the\nS126 [00:04:09.439 --> 00:04:19.199] literally just poke it with your little finger and bend it that way as well and then once you're ready all you need to do is practice taking your first finger\nS140 [00:04:36.720 --> 00:04:47.120] three and the big motion of you shaking your hand hides the small motion of you rotating the card so it goes one two\nS154 [00:05:05.440 --> 00:05:15.919] visual when you change a black card into a red card or a red card into a black card as opposed to a black card into a black card so um that's just one thing\nS169 [00:05:34.000 --> 00:05:44.240] effects that dynamo does on national television in front of large crowds of people and i'm even going to teach you how to read someone's mind to get\nS183 [00:06:03.199 --> 00:06:10.880] it and then i'm going to teach you a really cool illusion where it looks like the cards going through the spectator's hand using the paintbrush change so in\nS197 [00:06:29.680 --> 00:06:39.440] actually works and then i'm gonna break down how to do the trick and the mechanics behind it so the way in which this works is you get a break under the\nS211 [00:06:59.039 --> 00:07:07.599] top two cards there are loads of different ways to do this you can do a pinky count and get a break on the top two cards that way that's slightly more\nS225 [00:07:26.479 --> 00:07:35.520] riffle up the back feel for two cards where you can even look and you see there's two cards there and then just place these two cards on top of your\nS240 [00:07:53.919 --> 00:08:02.639] other side and rest them against your thumb so let's just go over that whole thing one more time you're you know you're doing whatever i'll show you a\nS255 [00:08:21.199 --> 00:08:34.000] then this portion of the card always maintains contact with the deck and all you're doing is painting this card back and forward on the deck and i'll do this\nS267 [00:08:49.839 --> 00:08:59.519] that you've just transformed one card into another so you just do that one two three let me now teach you a really cool trick\nS281 [00:09:17.200 --> 00:09:27.600] hand face up hand and you tell them to put their hand on top of the card so there's no way you can get to it so i will use\nS294 [00:09:43.200 --> 00:09:55.760] hand and it visually changes into the king of diamonds meaning under their hand is the seven of clubs so here's how this magic trick works on\nS310 [00:10:16.560 --> 00:10:24.640] just in case you're not familiar with the move so the first thing you do is you need to do a double lift which is essentially where you turn over two\nS325 [00:10:42.800 --> 00:10:54.160] in reality it's two cards and you place what they think is the king underneath their hand but it's actually the seven so that's underneath the hand and will\nS339 [00:11:11.360 --> 00:11:21.519] seven of clubs change it into the king of diamonds then they'll remove their hand and you can see that they've now got the seven of clubs so this is a fun\nS354 [00:11:39.600 --> 00:11:48.880] tutorial and learn how to do the pinky change so the pinky change is a really visual color change that's similar to the cardini color change but i don't\nS369 [00:12:07.519 --> 00:12:18.000] click your fingers and your little finger pulls this card down underneath your palm and then you square up the cards bringing the card onto the\nS383 [00:12:36.720 --> 00:12:47.519] card as explained earlier and then all that happens is you hold the deck in this grip here so the deck is face up so the spectators if they were over there\nS397 [00:13:02.240 --> 00:13:15.519] finger to the roughly where the bottom pip is or the bottom corner of the card and the pad of your little finger is going to apply pressure to the\nS411 [00:13:32.560 --> 00:13:42.399] three fingers are here and you want the spectators only really seeing the top half of the card then you do apply a lot of pressure so\nS425 [00:14:01.760 --> 00:14:11.600] change the cards then if you want to sort of reveal that card you can give it you know the cards are nice cuts snap your fingers turn the deck over there's\nS441 [00:14:30.639 --> 00:14:36.079] by clicking the first link in the description i'll see you in the next video",
+      "text_tokens": 1965,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        12,
+        15,
+        29,
+        32,
+        44,
+        47,
+        57,
+        60,
+        71,
+        74,
+        85,
+        88,
+        99,
+        102,
+        113,
+        116,
+        126,
+        129,
+        140,
+        143,
+        154,
+        157,
+        169,
+        172,
+        183,
+        186,
+        197,
+        200,
+        211,
+        214,
+        225,
+        228,
+        240,
+        243,
+        255,
+        258,
+        267,
+        270,
+        281,
+        284,
+        294,
+        297,
+        310,
+        313,
+        325,
+        328,
+        339,
+        342,
+        354,
+        357,
+        369,
+        372,
+        383,
+        386,
+        397,
+        400,
+        411,
+        414,
+        425,
+        428,
+        441
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "419cfcd718d15eadc0d659a410529f6fc8134187db8c23c50bbf51fc5ff7f344"
+}

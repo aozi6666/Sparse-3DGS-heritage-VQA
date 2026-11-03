@@ -1,0 +1,551 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "Hel5dqvImSw",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Hel5dqvImSw.srt",
+      "status": "available",
+      "bytes": 9956,
+      "sha256": "3d185c5f097fbbd86c64b2c85ecc94f7596e5a346fc17083e731cd040fc1f683",
+      "cues": 96,
+      "nonempty_cues": 96
+    },
+    "frame_indices": [
+      0,
+      207,
+      413,
+      620,
+      826,
+      1033,
+      1239,
+      1446,
+      1653,
+      1859,
+      2066,
+      2272,
+      2479,
+      2686,
+      2892,
+      3099,
+      3305,
+      3512,
+      3718,
+      3925,
+      4132,
+      4338,
+      4545,
+      4751,
+      4958,
+      5165,
+      5371,
+      5578,
+      5784,
+      5991,
+      6197,
+      6404
+    ],
+    "frame_seconds": [
+      0.0,
+      8.28,
+      16.52,
+      24.8,
+      33.04,
+      41.32,
+      49.56,
+      57.84,
+      66.12,
+      74.36,
+      82.64,
+      90.88,
+      99.16,
+      107.44,
+      115.68,
+      123.96,
+      132.2,
+      140.48,
+      148.72,
+      157.0,
+      165.28,
+      173.52,
+      181.8,
+      190.04,
+      198.32,
+      206.6,
+      214.84,
+      223.12,
+      231.36,
+      239.64,
+      247.88,
+      256.16
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        9
+      ],
+      [],
+      [
+        12,
+        13
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        29,
+        30
+      ],
+      [
+        32,
+        33
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        38,
+        39
+      ],
+      [
+        41,
+        42
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        50,
+        51
+      ],
+      [
+        54,
+        55
+      ],
+      [
+        56,
+        57
+      ],
+      [
+        60,
+        61
+      ],
+      [
+        65,
+        66
+      ],
+      [
+        67,
+        68
+      ],
+      [
+        72,
+        73
+      ],
+      [
+        75,
+        76
+      ],
+      [
+        78,
+        79
+      ],
+      [
+        81,
+        82
+      ],
+      [
+        84,
+        85
+      ],
+      [
+        87,
+        88
+      ],
+      [
+        90,
+        91
+      ],
+      [
+        93,
+        94
+      ],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 2,
+        "start_ms": 4580,
+        "end_ms": 10320,
+        "text": "now let us test your legal knowledge"
+      },
+      {
+        "cue_id": 3,
+        "start_ms": 8039,
+        "end_ms": 12960,
+        "text": "again we repeat that these are just"
+      },
+      {
+        "cue_id": 5,
+        "start_ms": 12960,
+        "end_ms": 18960,
+        "text": "what the law says for your individual"
+      },
+      {
+        "cue_id": 6,
+        "start_ms": 15660,
+        "end_ms": 20640,
+        "text": "case please contact a legal clinic such"
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 24680,
+        "end_ms": 32519,
+        "text": "416-487-6371 or the Barbara schleifer"
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 36960,
+        "end_ms": 42420,
+        "text": "after her husband sponsored her Nina"
+      },
+      {
+        "cue_id": 13,
+        "start_ms": 39960,
+        "end_ms": 45239,
+        "text": "came from Bangladesh to Canada as a"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 45239,
+        "end_ms": 51360,
+        "text": "her husband is a Canadian citizen"
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 48360,
+        "end_ms": 52860,
+        "text": "five months after she arrived Nina's"
+      },
+      {
+        "cue_id": 19,
+        "start_ms": 55079,
+        "end_ms": 59699,
+        "text": "Nina wants to leave the marriage"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 57420,
+        "end_ms": 62340,
+        "text": "but her husband told her that if she"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 62340,
+        "end_ms": 67230,
+        "text": "deported"
+      },
+      {
+        "cue_id": 23,
+        "start_ms": 64319,
+        "end_ms": 68580,
+        "text": "will Nina lose her PR in this case"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 70380,
+        "end_ms": 75840,
+        "text": "Mina will not lose her PR or get"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 73619,
+        "end_ms": 79260,
+        "text": "deported just because she leaves the"
+      },
+      {
+        "cue_id": 29,
+        "start_ms": 79260,
+        "end_ms": 84780,
+        "text": "cannot lose their status for leaving a"
+      },
+      {
+        "cue_id": 30,
+        "start_ms": 81299,
+        "end_ms": 87420,
+        "text": "marriage or relationship however Nina's"
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 87420,
+        "end_ms": 93000,
+        "text": "immigration authorities that she quote"
+      },
+      {
+        "cue_id": 33,
+        "start_ms": 89880,
+        "end_ms": 95820,
+        "text": "unquote misrepresented or lied on her"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 95820,
+        "end_ms": 100560,
+        "text": "to Canada"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 97020,
+        "end_ms": 104759,
+        "text": "in this case Nina status can be at risk"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 104759,
+        "end_ms": 110479,
+        "text": "has rights to defend herself and should"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 107039,
+        "end_ms": 112920,
+        "text": "speak to a lawyer question seven"
+      },
+      {
+        "cue_id": 41,
+        "start_ms": 112920,
+        "end_ms": 117720,
+        "text": "Pakistan"
+      },
+      {
+        "cue_id": 42,
+        "start_ms": 114539,
+        "end_ms": 120299,
+        "text": "he is a permanent resident of Canada"
+      },
+      {
+        "cue_id": 44,
+        "start_ms": 120299,
+        "end_ms": 125159,
+        "text": "to Canada"
+      },
+      {
+        "cue_id": 45,
+        "start_ms": 121979,
+        "end_ms": 127740,
+        "text": "a few months later Aisha came to Canada"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 127740,
+        "end_ms": 132780,
+        "text": "after she arrived her husband applied"
+      },
+      {
+        "cue_id": 48,
+        "start_ms": 130440,
+        "end_ms": 135360,
+        "text": "for her PR application"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 135360,
+        "end_ms": 141200,
+        "text": "the couple's relationship deteriorated"
+      },
+      {
+        "cue_id": 51,
+        "start_ms": 138959,
+        "end_ms": 144660,
+        "text": "her husband constantly fought with her"
+      },
+      {
+        "cue_id": 54,
+        "start_ms": 147480,
+        "end_ms": 151500,
+        "text": "husband"
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 148680,
+        "end_ms": 154620,
+        "text": "after she left she found out that her"
+      },
+      {
+        "cue_id": 56,
+        "start_ms": 151500,
+        "end_ms": 157079,
+        "text": "husband withdrew her PR application"
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 154620,
+        "end_ms": 158520,
+        "text": "what will happen to Aisha's status in"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 160260,
+        "end_ms": 165420,
+        "text": "if her visitor Visa is still valid Aisha"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 163620,
+        "end_ms": 166440,
+        "text": "will still have temporary status in"
+      },
+      {
+        "cue_id": 65,
+        "start_ms": 169739,
+        "end_ms": 176340,
+        "text": "even if the Visa expires Aisha will have"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 173220,
+        "end_ms": 179160,
+        "text": "90 days to restore the Visa"
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 176340,
+        "end_ms": 182040,
+        "text": "if her visa has expired and the"
+      },
+      {
+        "cue_id": 68,
+        "start_ms": 179160,
+        "end_ms": 184560,
+        "text": "restoration period is gone Aisha will"
+      },
+      {
+        "cue_id": 72,
+        "start_ms": 188040,
+        "end_ms": 191040,
+        "text": "humanitarian and compassionate"
+      },
+      {
+        "cue_id": 73,
+        "start_ms": 189660,
+        "end_ms": 194040,
+        "text": "application"
+      },
+      {
+        "cue_id": 75,
+        "start_ms": 194040,
+        "end_ms": 199980,
+        "text": "and finally question 8."
+      },
+      {
+        "cue_id": 76,
+        "start_ms": 196739,
+        "end_ms": 201780,
+        "text": "Mary's husband came from Sri Lanka on a"
+      },
+      {
+        "cue_id": 78,
+        "start_ms": 201780,
+        "end_ms": 207180,
+        "text": "Mary came with her husband on a spousal"
+      },
+      {
+        "cue_id": 79,
+        "start_ms": 204360,
+        "end_ms": 209579,
+        "text": "work permit which means her work permit"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 209579,
+        "end_ms": 215159,
+        "text": "a year after she arrived Mary's husband"
+      },
+      {
+        "cue_id": 82,
+        "start_ms": 212459,
+        "end_ms": 219300,
+        "text": "told her he wanted a divorce"
+      },
+      {
+        "cue_id": 84,
+        "start_ms": 219300,
+        "end_ms": 223980,
+        "text": "answer"
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 221579,
+        "end_ms": 226739,
+        "text": "Mary will not lose her status because"
+      },
+      {
+        "cue_id": 87,
+        "start_ms": 226739,
+        "end_ms": 231840,
+        "text": "will be valid until her husband's work"
+      },
+      {
+        "cue_id": 88,
+        "start_ms": 228840,
+        "end_ms": 234780,
+        "text": "permit is valid but if her passport"
+      },
+      {
+        "cue_id": 90,
+        "start_ms": 234780,
+        "end_ms": 240420,
+        "text": "be valid until her passport is valid"
+      },
+      {
+        "cue_id": 91,
+        "start_ms": 237780,
+        "end_ms": 243659,
+        "text": "after her work permit expires Mary"
+      },
+      {
+        "cue_id": 93,
+        "start_ms": 243659,
+        "end_ms": 248819,
+        "text": "consult a lawyer to speak about her"
+      },
+      {
+        "cue_id": 94,
+        "start_ms": 245760,
+        "end_ms": 251159,
+        "text": "options of staying in Canada she may be"
+      }
+    ],
+    "text": "now let us test your legal knowledge\nagain we repeat that these are just\nwhat the law says for your individual\ncase please contact a legal clinic such\n416-487-6371 or the Barbara schleifer\nafter her husband sponsored her Nina\ncame from Bangladesh to Canada as a\nher husband is a Canadian citizen\nfive months after she arrived Nina's\nNina wants to leave the marriage\nbut her husband told her that if she\ndeported\nwill Nina lose her PR in this case\nMina will not lose her PR or get\ndeported just because she leaves the\ncannot lose their status for leaving a\nmarriage or relationship however Nina's\nimmigration authorities that she quote\nunquote misrepresented or lied on her\nto Canada\nin this case Nina status can be at risk\nhas rights to defend herself and should\nspeak to a lawyer question seven\nPakistan\nhe is a permanent resident of Canada\nto Canada\na few months later Aisha came to Canada\nafter she arrived her husband applied\nfor her PR application\nthe couple's relationship deteriorated\nher husband constantly fought with her\nhusband\nafter she left she found out that her\nhusband withdrew her PR application\nwhat will happen to Aisha's status in\nif her visitor Visa is still valid Aisha\nwill still have temporary status in\neven if the Visa expires Aisha will have\n90 days to restore the Visa\nif her visa has expired and the\nrestoration period is gone Aisha will\nhumanitarian and compassionate\napplication\nand finally question 8.\nMary's husband came from Sri Lanka on a\nMary came with her husband on a spousal\nwork permit which means her work permit\na year after she arrived Mary's husband\ntold her he wanted a divorce\nanswer\nMary will not lose her status because\nwill be valid until her husband's work\npermit is valid but if her passport\nbe valid until her passport is valid\nafter her work permit expires Mary\nconsult a lawyer to speak about her\noptions of staying in Canada she may be",
+    "text_tokens": 434,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "fac447a9eb8ae20108c10b7b108653e77842c150accf2af134e2b091e7415a99"
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "index": "240",
+    "video_id": "3uV8XZcIBbk",
+    "duration": "medium",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 269,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "bbd59ce196dbc96b1ec93cf16a2ddf2f583f5a9fc989a1ed62914c7e872660c0",
+      "frames32_aligned_sub": "7cc4bf906ee37852aad5d000a804f719ebff31d5f665007f21723d4cb1b65f1a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3uV8XZcIBbk.json"
+  },
+  {
+    "index": "241",
+    "video_id": "3uV8XZcIBbk",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 269,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "a358f0d4e54dd99880ec4a52866b736c047100a6075591ceb8bb7dda2abaedf5",
+      "frames32_aligned_sub": "35d0459e8af64007073d8b21d53f7327fd7d7002d0d65d54e12df309e187719d"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3uV8XZcIBbk.json"
+  },
+  {
+    "index": "242",
+    "video_id": "3uV8XZcIBbk",
+    "duration": "medium",
+    "task_type": "Attribute Perception",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 269,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "e24a7bc0f35bac2d3f4e100f8f5d850391b9b8bba0d2701aceaa5c8d12c3131a",
+      "frames32_aligned_sub": "c45a7c34ab9958d6dfdf090fb04abd927641c85930cb05ed442e5bac385d0c7a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3uV8XZcIBbk.json"
+  },
+  {
+    "index": "246",
+    "video_id": "257wV-AbKaE",
+    "duration": "medium",
+    "task_type": "Information Synopsis",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 259,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "3414d0657be577bf8abbdf0721fd63ba89bcacad233a534d300453b9629676e8",
+      "frames32_aligned_sub": "e61b1e317d4562a2f79aba33216473682e48d630bebfcdec5d5646e89457560c"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/257wV-AbKaE.json"
+  },
+  {
+    "index": "247",
+    "video_id": "257wV-AbKaE",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 259,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "8e0a5bd1c450c0b0b5be1b6a654a969057450f35b50b81a6d889832cc2e4d185",
+      "frames32_aligned_sub": "34f9aeed6109f569817bd4ecc9f51d52ba63530a34b1a25c56e9b41b31391357"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/257wV-AbKaE.json"
+  },
+  {
+    "index": "248",
+    "video_id": "257wV-AbKaE",
+    "duration": "medium",
+    "task_type": "Temporal Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 259,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "309e1656e04ecaa8b0b48fafafade8bedc930da9047510674999e0b15b90e789",
+      "frames32_aligned_sub": "293758114ec4687b3ae58fa947fbca2f16109be18d6cb1547fee87372303129d"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/257wV-AbKaE.json"
+  },
+  {
+    "index": "279",
+    "video_id": "BxrolAZXZFg",
+    "duration": "medium",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 569,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "5f35f0d08afa48f1efa66f37f8190dcf98fb422415b3380756eea81f76599fbe",
+      "frames32_aligned_sub": "dedb0f74a8be363eefde8ecb332c9c1951ffcf6c68bd830af86968f4cbb90aef"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/BxrolAZXZFg.json"
+  },
+  {
+    "index": "280",
+    "video_id": "BxrolAZXZFg",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 569,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "df36e500f498b302c9d93d89ca15a1b0c10ff7231a076b10bcdbcf7844a8b85f",
+      "frames32_aligned_sub": "683bc38c713c9e46a0dc68f7b4f1b224d9a16535db5329b6df1f3e6c7daffc1e"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/BxrolAZXZFg.json"
+  },
+  {
+    "index": "281",
+    "video_id": "BxrolAZXZFg",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 569,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "32e10e39040667d745dae4225c5535b416993c9fb24b5c04fce5bc80c17f43e2",
+      "frames32_aligned_sub": "0439bcc74cc3a5af14760ae0c8b014b700978cbe7a05fbdbe37ff069780c3d89"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/BxrolAZXZFg.json"
+  },
+  {
+    "index": "288",
+    "video_id": "ECgVLceb_LE",
+    "duration": "medium",
+    "task_type": "Spatial Perception",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 459,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "632d5c7da19669ecfd1e3f3e92604c219a53804358112c444ac520f411b15d77",
+      "frames32_aligned_sub": "030fbb112c220fcfcead4bb3a10ce4c0bdeda28a967c86b61273c23c2834dcdb"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/ECgVLceb_LE.json"
+  },
+  {
+    "index": "289",
+    "video_id": "ECgVLceb_LE",
+    "duration": "medium",
+    "task_type": "Information Synopsis",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 459,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "1a39e0db131b88b99836a1a161f96260dca56b3e264dd209e7330fe7ca240bd8",
+      "frames32_aligned_sub": "d30e0da848511fe1f4d62b1e495ada217092681aedb7444df3aff69fe05977c6"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/ECgVLceb_LE.json"
+  },
+  {
+    "index": "290",
+    "video_id": "ECgVLceb_LE",
+    "duration": "medium",
+    "task_type": "Attribute Perception",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 459,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "c63836160c966202606a3a953b6fc42527df0247f3b1e880caedfb658337546b",
+      "frames32_aligned_sub": "a98cba542b3aa86d1c30ba6a7e865859aae4f06f1dc3976bb2e82abcd76c5bf2"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/ECgVLceb_LE.json"
+  },
+  {
+    "index": "309",
+    "video_id": "iC54QQSe4_I",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 230,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "9a27889765d827340d7db98173dce939f7d4ea765d912185bcf1524d6fdea99d",
+      "frames32_aligned_sub": "4d685196d7bd929bfca2da33d15845f6f707563e9b185084f9f7f80892c8579f"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iC54QQSe4_I.json"
+  },
+  {
+    "index": "310",
+    "video_id": "iC54QQSe4_I",
+    "duration": "medium",
+    "task_type": "Spatial Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 230,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "cc0a0cf9997b2e2346a4e7749d8e2f90b80db6bdcbff4f3e2f0be3a84f52b67c",
+      "frames32_aligned_sub": "e837b501f6254f0867570e9492efbb099b027f1d2b6dc25f49093553f32b6ef5"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iC54QQSe4_I.json"
+  },
+  {
+    "index": "311",
+    "video_id": "iC54QQSe4_I",
+    "duration": "medium",
+    "task_type": "Action Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 230,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "8a6021e2c765be0d392b47534d5989f31cd60ebca3948ba1d963b95b5dfb56d8",
+      "frames32_aligned_sub": "40d12b5b33bdd1b7162bf7d2c05207d4f0102b8fcf07abb96e4f78d173cf6152"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iC54QQSe4_I.json"
+  },
+  {
+    "index": "321",
+    "video_id": "B7-6lRo2m4Y",
+    "duration": "medium",
+    "task_type": "Spatial Perception",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 219,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "c1e459a584bd4e7073d81a6b8a422d703c3c1c9de101b79143a3573c35400e7b",
+      "frames32_aligned_sub": "92b1090c113a08877ac05d8c702461b36d5cc2b334cb3d8657e2dfaff0cf2d36"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B7-6lRo2m4Y.json"
+  },
+  {
+    "index": "322",
+    "video_id": "B7-6lRo2m4Y",
+    "duration": "medium",
+    "task_type": "Action Recognition",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 219,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "a54556180fd5b4c706086770a4930534cdda4aa78b360287964216b83c723643",
+      "frames32_aligned_sub": "fb69499ebdc77a2563fb3f3d00a7366727c47355b55751355ac0f10c3192eb14"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B7-6lRo2m4Y.json"
+  },
+  {
+    "index": "323",
+    "video_id": "B7-6lRo2m4Y",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 219,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "06830850afbea6be336adf8f7720f6c3e2bd2eb717e700ff4d4e8734b39c131b",
+      "frames32_aligned_sub": "c3e1a4c5d7e8901f8d8781d8622ac67be82fb3dd3095236e1216d116aa3d12c7"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B7-6lRo2m4Y.json"
+  },
+  {
+    "index": "348",
+    "video_id": "cPlpZdGLa5A",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 66,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "1304b753a0594aa84f6a2c6c257aa7544a84848023d2f41301e4c3a4fa1b5166",
+      "frames32_aligned_sub": "0e01f2b14b5b7ba97acdead7218a75cdb1c6370ba5068611073276c5e95be618"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/cPlpZdGLa5A.json"
+  },
+  {
+    "index": "349",
+    "video_id": "cPlpZdGLa5A",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 66,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "44b9d1f625d2399c40633c8bfad032887477c3c92489b3906df3434f03137d99",
+      "frames32_aligned_sub": "3e05aa22145d74a96c1f04162627db7801f4c0957f2b1a41672c9865ac7df4f2"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/cPlpZdGLa5A.json"
+  },
+  {
+    "index": "350",
+    "video_id": "cPlpZdGLa5A",
+    "duration": "medium",
+    "task_type": "Action Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 66,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "9408f1a5b758dcd8b709514f8af5e75b7150f92132a354a91001245e5fdfe1f1",
+      "frames32_aligned_sub": "46464479322139e5a01e64436b0b5c30e27d49ea0e3e607b1cdc796f38d42f79"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/cPlpZdGLa5A.json"
+  },
+  {
+    "index": "360",
+    "video_id": "hwloS0JY6Ms",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 252,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "be3a3919234521938b194c9778cd80f12b90504a3fd77c0623c025f991f33e57",
+      "frames32_aligned_sub": "88effa0ef136a12f0bb01c00a4ea906d0ce88488aa6fc68e9f61e843f42b60f8"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hwloS0JY6Ms.json"
+  },
+  {
+    "index": "361",
+    "video_id": "hwloS0JY6Ms",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 252,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "74055992ab3a89eb59edb250471a0ceea231e0d21b2bc143d73367dc4d652bd5",
+      "frames32_aligned_sub": "eff7c60a853cfaed69ce087ce56045e964337e2d776ed12ae15882dbf7b0b08d"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hwloS0JY6Ms.json"
+  },
+  {
+    "index": "362",
+    "video_id": "hwloS0JY6Ms",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 252,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f571c475a6dc57204f3bdecc57aaaa7a2efa5fdfbdfcc796fb76648bf59e9350",
+      "frames32_aligned_sub": "21c1169bec2a3e0925a445d84304c26d67cc43b80fe061f5572ceeb9f77df226"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hwloS0JY6Ms.json"
+  },
+  {
+    "index": "363",
+    "video_id": "bOUSkh5PInA",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 396,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "d5570571eec72da99df0df05cd6cb52103fe2d278bf6b39addf3c0ae631fa6b9",
+      "frames32_aligned_sub": "bae3cdffb2937628f76b8b01ab15ffa3108dfc7e19604198e74fe1cc7681cc82"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bOUSkh5PInA.json"
+  },
+  {
+    "index": "364",
+    "video_id": "bOUSkh5PInA",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 396,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "a627b9ccfb28c7280b7a9740e952fb47e612dcf8a5052ed790af43b83ab72d55",
+      "frames32_aligned_sub": "9df00c80172d7364e0ad3fc6c43030b1e26addc9e9f40b203b4acfdcedb4c597"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bOUSkh5PInA.json"
+  },
+  {
+    "index": "365",
+    "video_id": "bOUSkh5PInA",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 396,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "6b20007b9c5051f1eccf4e8d09ca6b2248c963cc8ef17af1a26abf586eff0f17",
+      "frames32_aligned_sub": "63f4bcc3f751a77bfb647b988a96c22aac1edab54a854315920008fb5a13a54a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bOUSkh5PInA.json"
+  },
+  {
+    "index": "369",
+    "video_id": "Hw5qjcnhrW4",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 188,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "2d8f52d51ad48180d522bdcbe95812c3a032208e9270f39db985146b8d5b188a",
+      "frames32_aligned_sub": "c34404ede4704a99041e212eec57a117ba66f8077564c28bd866002d8c85bb48"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Hw5qjcnhrW4.json"
+  },
+  {
+    "index": "370",
+    "video_id": "Hw5qjcnhrW4",
+    "duration": "medium",
+    "task_type": "Action Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 188,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "0de9806b00521b73c8b429d17f793ac237dd1b3e7c01ea7feb117f4ee34fba97",
+      "frames32_aligned_sub": "ad56915a03ba4131d84d21ef19853f8db6bd737eb649b4506d1a734a00b99506"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Hw5qjcnhrW4.json"
+  },
+  {
+    "index": "371",
+    "video_id": "Hw5qjcnhrW4",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 188,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "6365c722a3707bd3b05ab8f6bc4481a6218fc6d73baf3327ede41014a7942e17",
+      "frames32_aligned_sub": "f27c758a190a9e0f0af59f3a58fa8d1b29c7c57cc5e29b94d5cea98903526a21"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Hw5qjcnhrW4.json"
+  },
+  {
+    "index": "384",
+    "video_id": "-3t1rj8g6yg",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 458,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "452f004c5029eb03d455fbe02afc39f43b8225ff1859e699836f58f38e93023a",
+      "frames32_aligned_sub": "080ef47d9519d499a5014669dd9c96010b977930600f851804a4395ac31aa148"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/-3t1rj8g6yg.json"
+  },
+  {
+    "index": "385",
+    "video_id": "-3t1rj8g6yg",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 458,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "69ddac2ee0cec26f0d943dd25dcc7428427d1ac43883922936d9b3bf32a28266",
+      "frames32_aligned_sub": "329c881b31cfe6df9e3987e080a1446ea157aeb0e2d83a9fb79be330af41f0d6"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/-3t1rj8g6yg.json"
+  },
+  {
+    "index": "386",
+    "video_id": "-3t1rj8g6yg",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 458,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "46f8d868d5aeef18bfa6c0381fe36dca0ec16cef81f15f9f6955edc9ff3635d1",
+      "frames32_aligned_sub": "349604c3b016d188215e5d8dbc3af12863ad8b50fe2372565d779b789202a4c1"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/-3t1rj8g6yg.json"
+  },
+  {
+    "index": "408",
+    "video_id": "hZ8DmOpRTVc",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "C",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "51e8bcc7866824edcd4e62dda4ededde310bc895240a55cfe24cf6cd2126f9b4",
+      "frames32_aligned_sub": "dfe2c1d062864c317a924b3f82edaeb44d3681952dd0a208b3637057d601958c"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hZ8DmOpRTVc.json"
+  },
+  {
+    "index": "409",
+    "video_id": "hZ8DmOpRTVc",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "A",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f60aabf1856f1fd2a394870cd7c001c9c2625970d99da6cd6ef6b458c5dd52e4",
+      "frames32_aligned_sub": "5353ee8ea67c3c445fe5f6e664ccd4647b02e9fb6b1442ee8998d94df8d9d049"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hZ8DmOpRTVc.json"
+  },
+  {
+    "index": "410",
+    "video_id": "hZ8DmOpRTVc",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "D",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "c0dfe5ed4147a23b5348d10b337b674cec777185f32edf1f78662c46caab80c3",
+      "frames32_aligned_sub": "286c7f9561cc2f7931b0437b78b92ea2d3236a8d7a741957194b8c00f12ebb3a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/hZ8DmOpRTVc.json"
+  },
+  {
+    "index": "429",
+    "video_id": "FcP0mzWFCQU",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 309,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f16e95abb5cd1afb58700a9ec794da4f77940617b61a8876b44a084d655089f5",
+      "frames32_aligned_sub": "7b7b8f4dab549876e97cc3c18d1a2b9f9839ad341313d11d272cab36386ce682"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/FcP0mzWFCQU.json"
+  },
+  {
+    "index": "430",
+    "video_id": "FcP0mzWFCQU",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 309,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f35ea4d4acbdd45d129b7f74f202a471f5253211b1fecf2bc053570f8df274ba",
+      "frames32_aligned_sub": "9ccc9d54f16e99551ff29ecc8073efcb1ed6fb5f721114e4289af0e1eda41bdc"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/FcP0mzWFCQU.json"
+  },
+  {
+    "index": "431",
+    "video_id": "FcP0mzWFCQU",
+    "duration": "medium",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 309,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "fc7de19e6399e097703b875e921935208279360aa9f016b3226051592078a526",
+      "frames32_aligned_sub": "629c940360eba5c1af6a2cf8b6c5889f41f15ac4f925c012eb5da0d808714f45"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/FcP0mzWFCQU.json"
+  },
+  {
+    "index": "435",
+    "video_id": "_CqKv0Y1FB0",
+    "duration": "medium",
+    "task_type": "Counting Problem",
+    "gt": "A",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "6fdcefbd8d1728c9d5c5fd8a51a15657c24aec965394423c9c6b58badf8c82f1",
+      "frames32_aligned_sub": "081435cbac797fdd69d191bdaed6dd43b90c43506ac40ac12eabf0ed40714e7f"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/_CqKv0Y1FB0.json"
+  },
+  {
+    "index": "436",
+    "video_id": "_CqKv0Y1FB0",
+    "duration": "medium",
+    "task_type": "Temporal Reasoning",
+    "gt": "B",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "7e126ded0783ed010caa55a02089078c676878e3d9dd2f582bf8621c5107b788",
+      "frames32_aligned_sub": "3be70bba9d0bc9ed07dbcaf02ec714c524bdcf8b750b720ce8f67950becc0303"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/_CqKv0Y1FB0.json"
+  },
+  {
+    "index": "437",
+    "video_id": "_CqKv0Y1FB0",
+    "duration": "medium",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "574c5b1494a4981ab12f0900ed6c40285b8a9e32603a23c6ac6a2c753fa62170",
+      "frames32_aligned_sub": "a0080849a30c8fcc3f6858fb2386a1d53992680a055f14e32b1f71a4d2ee52f6"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/_CqKv0Y1FB0.json"
+  },
+  {
+    "index": "441",
+    "video_id": "3m29MQ-qPfg",
+    "duration": "medium",
+    "task_type": "OCR Problems",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 208,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f54c49a30e2e34577be5bc097bc8c7aaef9325a2492e1abd9eefe26032064e89",
+      "frames32_aligned_sub": "361b5f2027131b18f95c15ed0714075b20b31343b4c0b92631d19559194c0e7a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3m29MQ-qPfg.json"
+  },
+  {
+    "index": "442",
+    "video_id": "3m29MQ-qPfg",
+    "duration": "medium",
+    "task_type": "Action Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 208,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "d39e363defdf2ff6606dd95af8468433b474f18f961eb39549f27ada547d58f1",
+      "frames32_aligned_sub": "f989718880d4ae0c26e98d8e2143a6d1ffc857f3c605d688f904d30fe1a98ca5"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3m29MQ-qPfg.json"
+  },
+  {
+    "index": "443",
+    "video_id": "3m29MQ-qPfg",
+    "duration": "medium",
+    "task_type": "Action Recognition",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 208,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "ae15d9dc7f3aef92a09ebd29948695c9b7f485348bd6c4c778adbca4edfd2069",
+      "frames32_aligned_sub": "c90cc1cd836dd69eaa437c317ac5985fc4287dc0a51275c9f03627008dfc80fa"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/3m29MQ-qPfg.json"
+  },
+  {
+    "index": "465",
+    "video_id": "InHaW59CmDw",
+    "duration": "medium",
+    "task_type": "Temporal Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 315,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "aec5db67e0214d7e3fc7805a65e90f4e6e1a7bf160790843755698401612d6f6",
+      "frames32_aligned_sub": "6323560dc1cf66ec01217b5194008503768e0a3763facf2ee3ce14a2d372d6da"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/InHaW59CmDw.json"
+  },
+  {
+    "index": "466",
+    "video_id": "InHaW59CmDw",
+    "duration": "medium",
+    "task_type": "Object Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 315,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "2dfac3081de85fd24ad2ec9ca11d6f27f9bad09dab65e4432194959ff4bdca88",
+      "frames32_aligned_sub": "652ccf6cae8cd17a6daf9b558d22af2bdf4fd37617f4ca18a641ed5d1b7a0f00"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/InHaW59CmDw.json"
+  },
+  {
+    "index": "467",
+    "video_id": "InHaW59CmDw",
+    "duration": "medium",
+    "task_type": "Attribute Perception",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 315,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "b271f43ac123d637886044047bc9cabfb305fc73dfe72795f26ba3a9de4176b5",
+      "frames32_aligned_sub": "af4493f2b9448b594f6a8f7522546ffe4835a757bb0e94b253208504cdeaa84c"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/InHaW59CmDw.json"
+  },
+  {
+    "index": "480",
+    "video_id": "HProiNnmGwI",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 84,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "788ee792dbacf027360058baa4fc8169fd1f5bfd3588fc19a6db995ef2d69eef",
+      "frames32_aligned_sub": "7706aced83037e79d29b4273ec9dafe5952becfd4a87e9742eb4ef2e666f21ec"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HProiNnmGwI.json"
+  },
+  {
+    "index": "481",
+    "video_id": "HProiNnmGwI",
+    "duration": "long",
+    "task_type": "Attribute Perception",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 84,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "c4065122a38692e09a4d58d296b5d022e3de996a31cc46b3b79f7e63951dda7f",
+      "frames32_aligned_sub": "e6ed56a6fad61e60712497b7fb57df0193c19362d0c3dcce234ff4707527fa99"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HProiNnmGwI.json"
+  },
+  {
+    "index": "482",
+    "video_id": "HProiNnmGwI",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 84,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "ac76cbf0478ca0350cbed9c0c61ea2641670f2896b9d28dbffbdb23c8e99045a",
+      "frames32_aligned_sub": "08b079a17ca9325fed3455901e417ad664b390e0d7d6fa2381577d9faccb0da2"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HProiNnmGwI.json"
+  },
+  {
+    "index": "492",
+    "video_id": "iCQmfRMwHfA",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 555,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "eeffbff432eddf1e0317982868fb433136f1e10d4c6edfec2f222be428d614ea",
+      "frames32_aligned_sub": "802653529e10e40b59e07bc407eaea84baa5c6397a17b94c6b71bf63b586674a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iCQmfRMwHfA.json"
+  },
+  {
+    "index": "493",
+    "video_id": "iCQmfRMwHfA",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 555,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "e077828207df1fa3f4893c8e10fd6fefeec3d18c497a2932379a7e276ad778a4",
+      "frames32_aligned_sub": "4d90680268c8e1ba2ead70eb491aa83f88d09856183f0e5267a591d1f1aedb18"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iCQmfRMwHfA.json"
+  },
+  {
+    "index": "494",
+    "video_id": "iCQmfRMwHfA",
+    "duration": "long",
+    "task_type": "Object Recognition",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 555,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "1281a3ebcc5df98ee5da12c8ea7a34a50b091148836abc508b8b2113acf3d07d",
+      "frames32_aligned_sub": "79a2ccad4f2b10f781876c46af30a21d284086ab715e15c3f2d7ea09dbe52f1f"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/iCQmfRMwHfA.json"
+  },
+  {
+    "index": "534",
+    "video_id": "dXUXfyiX2lA",
+    "duration": "long",
+    "task_type": "Action Recognition",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 87,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "b8484df985d5a59bee80c05a17c875030d94466ab05741fb178f5153dcdbc0b3",
+      "frames32_aligned_sub": "14149197d15242a717bdfc5c042e1bb0103b69771bd33591b8f1e1fcb8c62d3c"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/dXUXfyiX2lA.json"
+  },
+  {
+    "index": "535",
+    "video_id": "dXUXfyiX2lA",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 87,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "ed859be9206de016b94c13d20314c93a151ca40b4e27054bc298faf0fa524f43",
+      "frames32_aligned_sub": "61231ace9908f9b6ddc8b40bb4487b243b2a942d17ea52139b8019ebf7dfc9ed"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/dXUXfyiX2lA.json"
+  },
+  {
+    "index": "536",
+    "video_id": "dXUXfyiX2lA",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 87,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "869fea189a05c4d4ff632f794427d9880421085eaeebbe487798f21dabc6b0ce",
+      "frames32_aligned_sub": "04b1569c0e55043cbe58fc75bcf00ce7c1b39264fd39c90eb4cc7e57a2ba330c"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/dXUXfyiX2lA.json"
+  },
+  {
+    "index": "540",
+    "video_id": "I2dv1jNM7gM",
+    "duration": "long",
+    "task_type": "Action Recognition",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 91,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "b5c4be6e89f623472c84c323c6b20d087ce3824f612404cbc357a6dc5ac22ba7",
+      "frames32_aligned_sub": "5e83343c7dcd541ccf2838aaf7b81fa8eab46b9af6fc756423ca72541ac48732"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/I2dv1jNM7gM.json"
+  },
+  {
+    "index": "541",
+    "video_id": "I2dv1jNM7gM",
+    "duration": "long",
+    "task_type": "Object Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 91,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "9d4b29b3b3214b1cd10c5e0322b5380f577042388e0872395356fc9ed1739d88",
+      "frames32_aligned_sub": "717ef4015a79927560318081e1b3ed85908800297b7219226e1e13ecfc2e1c20"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/I2dv1jNM7gM.json"
+  },
+  {
+    "index": "542",
+    "video_id": "I2dv1jNM7gM",
+    "duration": "long",
+    "task_type": "Action Recognition",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 91,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "6d8199727d50fd1c7450f7bf71b885477602983ca9972c06c8c7fc5a032d12a2",
+      "frames32_aligned_sub": "70c12f7964eed5648c22196dce63193667185b8730a670f7111e8d40d0cf0d33"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/I2dv1jNM7gM.json"
+  },
+  {
+    "index": "546",
+    "video_id": "HP_J8x9lsUg",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 326,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "44bfb53be80c7480b1fb9b822a78b9212c596efc8e9e65b7ec3868893d6993a6",
+      "frames32_aligned_sub": "21a96c8df6ff4bf5930731005a611e2cdbaa31a82b2d701e1265d3bfe02573ff"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HP_J8x9lsUg.json"
+  },
+  {
+    "index": "547",
+    "video_id": "HP_J8x9lsUg",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 326,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "bc412c3432983ff48cf61006e809a97b3d64652a5a696b12c104d713d0dd23cd",
+      "frames32_aligned_sub": "bf4bc168a816c55ad15ebcff000f0742c31fe904ae6cef95f3b8e412c515e803"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HP_J8x9lsUg.json"
+  },
+  {
+    "index": "548",
+    "video_id": "HP_J8x9lsUg",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 326,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "be492d1116fc676cd0a0073b36ab4abd2e3bb4198ff2b8930c448b36f33206c6",
+      "frames32_aligned_sub": "24a21e666a6425f62b886915ae0f531c172fc7eedf0c95463d4dfc15ea0db30a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/HP_J8x9lsUg.json"
+  },
+  {
+    "index": "573",
+    "video_id": "bBazRZOxl-k",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 516,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "ff02255a87effc2c227cdec5d5850a0bff3bed468ce54798f2bfdabc13aaeef0",
+      "frames32_aligned_sub": "55c6e1e81c0c21433a0006547b99f909379c61168e11549fe2d32817e3002a36"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bBazRZOxl-k.json"
+  },
+  {
+    "index": "574",
+    "video_id": "bBazRZOxl-k",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 516,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "afa7ff8a936aeabb35c958194678c978fe1243535bc25f02d34d5fbeb6108534",
+      "frames32_aligned_sub": "a34a769a50b4fdb0d3e4332572bf8036c981cf4696aeadf62b9999f29cfa25a1"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bBazRZOxl-k.json"
+  },
+  {
+    "index": "575",
+    "video_id": "bBazRZOxl-k",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 516,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "8c4d2b701f49e6fc86539e169370cc8baa4af7f8e36059ccac644095abc4f67a",
+      "frames32_aligned_sub": "194d43b4e7b159ae8e2ddedba7d894daf2cd5db0e2c123cfde849b354f4dd017"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/bBazRZOxl-k.json"
+  },
+  {
+    "index": "585",
+    "video_id": "4od5mdtEp-E",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 527,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "952d0f28ae9c9bc9b3f64eb1751ac6df3f5d4e514ff9aa7fc876e6063a2570e3",
+      "frames32_aligned_sub": "03534df6ad42f1f27f61f22f7088555be63cf5c0c5713a6ca7bbc3be5976139e"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4od5mdtEp-E.json"
+  },
+  {
+    "index": "586",
+    "video_id": "4od5mdtEp-E",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 527,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "557e06d218db8f6bb5ee4810451071499fc93d56012971e5771fc7380b804e34",
+      "frames32_aligned_sub": "59f26ef23b9300f54a74adefb8965121fe5303fca21ecdf6e9c25e8578721294"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4od5mdtEp-E.json"
+  },
+  {
+    "index": "587",
+    "video_id": "4od5mdtEp-E",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 527,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "dfd0a6218c0fedb40e5b8c5ce3a00746b786ec0daf8908504a2e24ba4f04fdac",
+      "frames32_aligned_sub": "875d31b28d7bdda4e2ec9d4f4b367594857c0460a489e6806814b8ebe73f1d6f"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4od5mdtEp-E.json"
+  },
+  {
+    "index": "603",
+    "video_id": "Bgh-2z6P0ao",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 349,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "1819582f7db2f8294807475a3d88481b296d434cdada61e201301a074d51c6e0",
+      "frames32_aligned_sub": "3909836c75f44a90af8a1202a0a4a7f11169fa61baa61a89e8e11396f16e9a7a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Bgh-2z6P0ao.json"
+  },
+  {
+    "index": "604",
+    "video_id": "Bgh-2z6P0ao",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 349,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "4d9fea1d662177dfc6faa147530dd1954a72791c809224789aa35eb4dd4a4bfb",
+      "frames32_aligned_sub": "f09f02ede386564ec68b9f198be421b795f7c9f295da8e9cfcf4640f398decc3"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Bgh-2z6P0ao.json"
+  },
+  {
+    "index": "605",
+    "video_id": "Bgh-2z6P0ao",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 349,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "913356d50ca41cd7e2c42f645f6fb85a63069c06a5bb6eae40591f86eb7d8f84",
+      "frames32_aligned_sub": "42d0c0614ed57a8b08adc3570bfd7d33b986a196bdf191288d6108b5a9cd0ad3"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Bgh-2z6P0ao.json"
+  },
+  {
+    "index": "633",
+    "video_id": "Cb91B0wZYLE",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 408,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "0e9c35f69a18835ee2b337251bc970bd95a5736494b70e2dd480b96906df016f",
+      "frames32_aligned_sub": "4ca13b52693915ad8e27258faea4733a47fee319bb2b618df48530816ea1cb44"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Cb91B0wZYLE.json"
+  },
+  {
+    "index": "634",
+    "video_id": "Cb91B0wZYLE",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 408,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "b4e933048d9a7ba881c17c580a3902e26e1b7b9e6df35aa12da95eee2752e5da",
+      "frames32_aligned_sub": "7c79a32478582b4399edab5a018e23705a71bda671f35784e5368547d6710e1b"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Cb91B0wZYLE.json"
+  },
+  {
+    "index": "635",
+    "video_id": "Cb91B0wZYLE",
+    "duration": "long",
+    "task_type": "Attribute Perception",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 408,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "cf269d91f65bab3d0891f0a8d74452b4bc21df7356192a6cc964e37981afd148",
+      "frames32_aligned_sub": "0b7e64f966422dbfc586cbf89b4f5976f9ea104787f32c251cc5e6dbc9e468c6"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/Cb91B0wZYLE.json"
+  },
+  {
+    "index": "645",
+    "video_id": "B6fvT2LKEDI",
+    "duration": "long",
+    "task_type": "Counting Problem",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 258,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "0993971e8cb2bfa7d21bd7978f1ba72d903537e29ccf3997cf67cb227603e101",
+      "frames32_aligned_sub": "95bc7c26d6eaf139650cd1dcba1a44bf0255945b41edbbee1d9ea876180cb7c3"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B6fvT2LKEDI.json"
+  },
+  {
+    "index": "646",
+    "video_id": "B6fvT2LKEDI",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 258,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "ba6e811578a255547b4293ecddece24cdd6e8eab73b29bb10682350cccf9a2aa",
+      "frames32_aligned_sub": "3c288f4517490b53282b93b0a955410ffa329e0e68adeda135ba2ba55b505cc8"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B6fvT2LKEDI.json"
+  },
+  {
+    "index": "647",
+    "video_id": "B6fvT2LKEDI",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 258,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "8160d45214c5e97ba981f1bc3694b736bf3290bb8820215ea316b4a2b2d519a8",
+      "frames32_aligned_sub": "b0c20424b92180a3cebe663340138378f998362e1b3d35b9fef5d0d73a057c3a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/B6fvT2LKEDI.json"
+  },
+  {
+    "index": "681",
+    "video_id": "25Pt1AZO9EM",
+    "duration": "long",
+    "task_type": "Action Recognition",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 96,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "a80f57c6fe8f7e975aa924f6119d100e95951f2da4639eaefe9e852d12017e42",
+      "frames32_aligned_sub": "1bf83043d3907ef179696d66b292f87d464544f306bfe21a1be69676cf02de85"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/25Pt1AZO9EM.json"
+  },
+  {
+    "index": "682",
+    "video_id": "25Pt1AZO9EM",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 96,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "51e88442e7a6c409e508b54d053f69a011a1f8e127307f9cc22ed5aa2df015bd",
+      "frames32_aligned_sub": "1f727193565d7b6bf6cdaf9cd400e91a75c64122179111a21f7c1e9ba79705c2"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/25Pt1AZO9EM.json"
+  },
+  {
+    "index": "683",
+    "video_id": "25Pt1AZO9EM",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 96,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "A"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "29157f58235b6b4716317ebd12710c1409813b7849f3cfae8536e9b89518c533",
+      "frames32_aligned_sub": "2fb52f2f46f98b33a37dfebc6660a2bbf004d03eef1c8524b05b3a664417560f"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/25Pt1AZO9EM.json"
+  },
+  {
+    "index": "684",
+    "video_id": "eZ5lFBPpRkM",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 289,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "516e589edcdda4b4a4498d8e9073f18c75c2f0c972592a124319d6cd61e2c9a6",
+      "frames32_aligned_sub": "3f4f1448f14d700d950534be3034d97487fbb8363acf6afdd30ae82f28f09aaa"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/eZ5lFBPpRkM.json"
+  },
+  {
+    "index": "685",
+    "video_id": "eZ5lFBPpRkM",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 289,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "78bb45df24ce7b678faf09c0cfbb9b18ccda5191110043f124e5f993500e2d89",
+      "frames32_aligned_sub": "8d46a81b6b503584e06b6a4d7ebffa58d9ee5031bbb68fb176e84d42e86bd230"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/eZ5lFBPpRkM.json"
+  },
+  {
+    "index": "686",
+    "video_id": "eZ5lFBPpRkM",
+    "duration": "long",
+    "task_type": "Information Synopsis",
+    "gt": "C",
+    "subtitle_status": "used",
+    "subtitle_tokens": 289,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "5352244f5ac346d5c5d97c8306ea5e51231af943df8450e07b9e03ea4a5c2289",
+      "frames32_aligned_sub": "c920fe7e07d2269226d71c6db8148841bccb1155dc8003f8eae1986066290cbb"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/eZ5lFBPpRkM.json"
+  },
+  {
+    "index": "690",
+    "video_id": "4IenX7OHumk",
+    "duration": "long",
+    "task_type": "Spatial Reasoning",
+    "gt": "B",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "04752bc5b73d64d82fecb528f2d0929b8b1406a2d3a8f01b2e0112615907e39e",
+      "frames32_aligned_sub": "e9b02681d6dcb67c7d33ded3d045a00e3d2a1830d456a0797a791567f20375bc"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4IenX7OHumk.json"
+  },
+  {
+    "index": "691",
+    "video_id": "4IenX7OHumk",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "A",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "D",
+      "frames32_aligned_sub": "D"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "70c156b601192a08ddeaa2d28e42340a27bf3c5cd67c077363a3437489a8fe0a",
+      "frames32_aligned_sub": "1569124a315fdf2633a11b0c7b0aadcd0e773606659d6b43ef7b4143d81896e6"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4IenX7OHumk.json"
+  },
+  {
+    "index": "692",
+    "video_id": "4IenX7OHumk",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "D",
+    "subtitle_status": "missing",
+    "subtitle_tokens": 0,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "a37cbb310b4e2bb0a91579e1fb2ee9ede2c238370edbc0178cbb8ca064ac350b",
+      "frames32_aligned_sub": "8e7e8fa7ef3344618c57398be8bc9567afe700ab8067ec50e758c6d590b7a28e"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/4IenX7OHumk.json"
+  },
+  {
+    "index": "696",
+    "video_id": "2LDriAWltwM",
+    "duration": "long",
+    "task_type": "Action Reasoning",
+    "gt": "A",
+    "subtitle_status": "used",
+    "subtitle_tokens": 444,
+    "predictions": {
+      "frames32_no_sub": "A",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "5f669d61869fc368b7e73edbe54244d353174f08b97c33d83c667592cbc4ed69",
+      "frames32_aligned_sub": "bed6dcdd83f90d6fd89c3424a049bda03b4d85ba438c7f226c7b88e19f713f69"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/2LDriAWltwM.json"
+  },
+  {
+    "index": "697",
+    "video_id": "2LDriAWltwM",
+    "duration": "long",
+    "task_type": "Object Reasoning",
+    "gt": "D",
+    "subtitle_status": "used",
+    "subtitle_tokens": 444,
+    "predictions": {
+      "frames32_no_sub": "C",
+      "frames32_aligned_sub": "C"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "f4251bea73a4bef1f72bad980287cbd2d9d7f4bcbac9655ee95f5a7dbb870ce1",
+      "frames32_aligned_sub": "b66ff77ab68163d430a79f50541071d2be1a04eeebe7932e0007109e24f9054a"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/2LDriAWltwM.json"
+  },
+  {
+    "index": "698",
+    "video_id": "2LDriAWltwM",
+    "duration": "long",
+    "task_type": "Temporal Reasoning",
+    "gt": "B",
+    "subtitle_status": "used",
+    "subtitle_tokens": 444,
+    "predictions": {
+      "frames32_no_sub": "B",
+      "frames32_aligned_sub": "B"
+    },
+    "record_sha256": {
+      "frames32_no_sub": "b5a73ea11cd3c3b51d07ed3acc6b857772a6725566ecd9eb422d8effeb1ccd59",
+      "frames32_aligned_sub": "c1f7bfd6f62a1ea1458090711c18c7c8a520f2dbe3fac0d18f7f2235d912e7c3"
+    },
+    "alignment": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/subtitle_holdout/ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958/alignments/2LDriAWltwM.json"
+  }
+]

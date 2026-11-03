@@ -1,0 +1,458 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "fFjv93ACGo8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/fFjv93ACGo8.srt",
+        "status": "available",
+        "bytes": 3520,
+        "sha256": "110d6ef36041668c9047d1c3547f03f5ec563e85267a4cb69990291d0fbec453",
+        "cues": 32,
+        "nonempty_cues": 32
+      },
+      "frame_indices": [
+        0,
+        72,
+        144,
+        215,
+        287,
+        359,
+        431,
+        503,
+        574,
+        646,
+        718,
+        790,
+        862,
+        933,
+        1005,
+        1077,
+        1149,
+        1221,
+        1293,
+        1364,
+        1436,
+        1508,
+        1580,
+        1652,
+        1723,
+        1795,
+        1867,
+        1939,
+        2011,
+        2082,
+        2154,
+        2226
+      ],
+      "frame_seconds": [
+        0.0,
+        2.4024,
+        4.8048,
+        7.173833,
+        9.576233,
+        11.978633,
+        14.381033,
+        16.783433,
+        19.152467,
+        21.554867,
+        23.957267,
+        26.359667,
+        28.762067,
+        31.1311,
+        33.5335,
+        35.9359,
+        38.3383,
+        40.7407,
+        43.1431,
+        45.512133,
+        47.914533,
+        50.316933,
+        52.719333,
+        55.121733,
+        57.490767,
+        59.893167,
+        62.295567,
+        64.697967,
+        67.100367,
+        69.46940000000001,
+        71.87180000000001,
+        74.27420000000001
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          31,
+          32
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 220,
+          "end_ms": 3449,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 829,
+          "end_ms": 5370,
+          "text": "and new at 6:00 we're looking at the"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 3449,
+          "end_ms": 7230,
+          "text": "seasonal displays that are popping up"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 5370,
+          "end_ms": 8880,
+          "text": "everywhere these days holiday"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 7230,
+          "end_ms": 10980,
+          "text": "decorations they've come a long way"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 8880,
+          "end_ms": 12750,
+          "text": "since they started 13 News now anchor"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 10980,
+          "end_ms": 16980,
+          "text": "Philip Townsend looked at the history"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 12750,
+          "end_ms": 19260,
+          "text": "behind Christmas ornaments whatever you"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 16980,
+          "end_ms": 21689,
+          "text": "celebrate in December it probably has"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 19260,
+          "end_ms": 23550,
+          "text": "some tradition behind it one of the most"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 21689,
+          "end_ms": 25890,
+          "text": "well known traditions during Christmas"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 23550,
+          "end_ms": 28260,
+          "text": "decorating the tree of course how did"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 25890,
+          "end_ms": 29910,
+          "text": "that start and why did we do it well the"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 28260,
+          "end_ms": 32430,
+          "text": "modern Christmas tree is believed to"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 29910,
+          "end_ms": 34980,
+          "text": "have started in 16th century Germany"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 32430,
+          "end_ms": 37230,
+          "text": "small evergreen trees were decorated"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 34980,
+          "end_ms": 39750,
+          "text": "with things like candles apples and"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 37230,
+          "end_ms": 42540,
+          "text": "berries they were called paradise trees"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 39750,
+          "end_ms": 44370,
+          "text": "in church plays the trees eventually"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 42540,
+          "end_ms": 46500,
+          "text": "made their ways into the homes of devout"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 44370,
+          "end_ms": 48989,
+          "text": "Christians a tradition that spread"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 46500,
+          "end_ms": 51300,
+          "text": "across Europe the first time they showed"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 48989,
+          "end_ms": 54239,
+          "text": "up in America likely around 18th or 19th"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 51300,
+          "end_ms": 56460,
+          "text": "century as time went on ornaments became"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 54239,
+          "end_ms": 59579,
+          "text": "more artful we started seeing tinsel and"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 56460,
+          "end_ms": 61590,
+          "text": "silk and hand blown glass bulbs and then"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 59579,
+          "end_ms": 63960,
+          "text": "launched into this big commercial"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 61590,
+          "end_ms": 65729,
+          "text": "industry of its own shedding most of its"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 63960,
+          "end_ms": 68430,
+          "text": "religious significance by the mid 20th"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 65729,
+          "end_ms": 70380,
+          "text": "century and today there's an ornament"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 68430,
+          "end_ms": 75619,
+          "text": "pretty much for anything you can think"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 70380,
+          "end_ms": 75619,
+          "text": "of for 13 News now I'm Philip tail"
+        }
+      ],
+      "text": "[Music]\nand new at 6:00 we're looking at the\nseasonal displays that are popping up\neverywhere these days holiday\ndecorations they've come a long way\nsince they started 13 News now anchor\nPhilip Townsend looked at the history\nbehind Christmas ornaments whatever you\ncelebrate in December it probably has\nsome tradition behind it one of the most\nwell known traditions during Christmas\ndecorating the tree of course how did\nthat start and why did we do it well the\nmodern Christmas tree is believed to\nhave started in 16th century Germany\nsmall evergreen trees were decorated\nwith things like candles apples and\nberries they were called paradise trees\nin church plays the trees eventually\nmade their ways into the homes of devout\nChristians a tradition that spread\nacross Europe the first time they showed\nup in America likely around 18th or 19th\ncentury as time went on ornaments became\nmore artful we started seeing tinsel and\nsilk and hand blown glass bulbs and then\nlaunched into this big commercial\nindustry of its own shedding most of its\nreligious significance by the mid 20th\ncentury and today there's an ornament\npretty much for anything you can think\nof for 13 News now I'm Philip tail",
+      "text_tokens": 276,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S1",
+        "cue_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "start_ms": 220,
+        "end_ms": 75619,
+        "text": "[Music] and new at 6:00 we're looking at the seasonal displays that are popping up everywhere these days holiday decorations they've come a long way since they started 13 News now anchor Philip Townsend looked at the history behind Christmas ornaments whatever you celebrate in December it probably has some tradition behind it one of the most well known traditions during Christmas decorating the tree of course how did that start and why did we do it well the modern Christmas tree is believed to have started in 16th century Germany small evergreen trees were decorated with things like candles apples and berries they were called paradise trees in church plays the trees eventually made their ways into the homes of devout Christians a tradition that spread across Europe the first time they showed up in America likely around 18th or 19th century as time went on ornaments became more artful we started seeing tinsel and silk and hand blown glass bulbs and then launched into this big commercial industry of its own shedding most of its religious significance by the mid 20th century and today there's an ornament pretty much for anything you can think of for 13 News now I'm Philip tail"
+      }
+    ],
+    "text": "S1 [00:00:00.220 --> 00:01:15.619] [Music] and new at 6:00 we're looking at the seasonal displays that are popping up everywhere these days holiday decorations they've come a long way since they started 13 News now anchor Philip Townsend looked at the history behind Christmas ornaments whatever you celebrate in December it probably has some tradition behind it one of the most well known traditions during Christmas decorating the tree of course how did that start and why did we do it well the modern Christmas tree is believed to have started in 16th century Germany small evergreen trees were decorated with things like candles apples and berries they were called paradise trees in church plays the trees eventually made their ways into the homes of devout Christians a tradition that spread across Europe the first time they showed up in America likely around 18th or 19th century as time went on ornaments became more artful we started seeing tinsel and silk and hand blown glass bulbs and then launched into this big commercial industry of its own shedding most of its religious significance by the mid 20th century and today there's an ornament pretty much for anything you can think of for 13 News now I'm Philip tail",
+    "text_tokens": 264,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "0da301578cd74ce25d24083e81b87c47e59ce7810976335cac18b321680f8682"
+}

@@ -1,0 +1,504 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "HKbJtgUrHGk",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HKbJtgUrHGk.srt",
+      "status": "available",
+      "bytes": 94493,
+      "sha256": "2ce4665fee916fa7a188818444c25532acdc19856fdecc14e2a4c34ca81cddc9",
+      "cues": 892,
+      "nonempty_cues": 892
+    },
+    "frame_indices": [
+      0,
+      2290,
+      4580,
+      6870,
+      9161,
+      11451,
+      13741,
+      16031,
+      18321,
+      20611,
+      22902,
+      25192,
+      27482,
+      29772,
+      32062,
+      34352,
+      36643,
+      38933,
+      41223,
+      43513,
+      45803,
+      48093,
+      50384,
+      52674,
+      54964,
+      57254,
+      59544,
+      61834,
+      64125,
+      66415,
+      68705,
+      70995
+    ],
+    "frame_seconds": [
+      0.0,
+      76.409667,
+      152.819333,
+      229.22899999999998,
+      305.672033,
+      382.0817,
+      458.49136699999997,
+      534.901033,
+      611.3107,
+      687.720367,
+      764.1634,
+      840.573067,
+      916.982733,
+      993.3924,
+      1069.802067,
+      1146.211733,
+      1222.654767,
+      1299.064433,
+      1375.4741,
+      1451.883767,
+      1528.293433,
+      1604.7031,
+      1681.146133,
+      1757.5558,
+      1833.965467,
+      1910.375133,
+      1986.7848,
+      2063.194467,
+      2139.6375,
+      2216.047167,
+      2292.456833,
+      2368.8665
+    ],
+    "frame_cue_ids": [
+      [],
+      [
+        31,
+        32
+      ],
+      [
+        61,
+        62
+      ],
+      [
+        94,
+        95
+      ],
+      [
+        121
+      ],
+      [
+        152
+      ],
+      [
+        183,
+        184
+      ],
+      [
+        218
+      ],
+      [
+        248,
+        249
+      ],
+      [
+        280,
+        281
+      ],
+      [
+        311,
+        312
+      ],
+      [
+        344,
+        345
+      ],
+      [
+        371
+      ],
+      [
+        402,
+        403
+      ],
+      [
+        428
+      ],
+      [
+        449,
+        450
+      ],
+      [
+        480
+      ],
+      [
+        507,
+        508
+      ],
+      [
+        531
+      ],
+      [
+        560,
+        561
+      ],
+      [
+        594,
+        595
+      ],
+      [
+        619
+      ],
+      [
+        647,
+        648
+      ],
+      [
+        674,
+        675
+      ],
+      [
+        703
+      ],
+      [
+        731,
+        732
+      ],
+      [
+        760,
+        761
+      ],
+      [
+        791
+      ],
+      [
+        812,
+        813
+      ],
+      [
+        840
+      ],
+      [
+        865
+      ],
+      [
+        891,
+        892
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 31,
+        "start_ms": 72200,
+        "end_ms": 78039,
+        "text": "what team forap was looking for on a two"
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 75400,
+        "end_ms": 80360,
+        "text": "count with one out cage ball is underway"
+      },
+      {
+        "cue_id": 61,
+        "start_ms": 149000,
+        "end_ms": 153000,
+        "text": "rules here's you score points in cage"
+      },
+      {
+        "cue_id": 62,
+        "start_ms": 151319,
+        "end_ms": 154160,
+        "text": "ball I mean we've seen this with Cole"
+      },
+      {
+        "cue_id": 94,
+        "start_ms": 226239,
+        "end_ms": 230799,
+        "text": "Tosh a three- pitch inning would not be"
+      },
+      {
+        "cue_id": 95,
+        "start_ms": 228720,
+        "end_ms": 232959,
+        "text": "great before the inning ends let's meet"
+      },
+      {
+        "cue_id": 121,
+        "start_ms": 302600,
+        "end_ms": 307680,
+        "text": "that's it that's it to keep cage ball"
+      },
+      {
+        "cue_id": 152,
+        "start_ms": 378400,
+        "end_ms": 382520,
+        "text": "there keep going keep going"
+      },
+      {
+        "cue_id": 183,
+        "start_ms": 454879,
+        "end_ms": 459159,
+        "text": "just Cole is the king of rolling over to"
+      },
+      {
+        "cue_id": 184,
+        "start_ms": 457360,
+        "end_ms": 460840,
+        "text": "third we saw that all last year in cage"
+      },
+      {
+        "cue_id": 218,
+        "start_ms": 532800,
+        "end_ms": 536560,
+        "text": "here it's all good that's still two"
+      },
+      {
+        "cue_id": 248,
+        "start_ms": 607240,
+        "end_ms": 611440,
+        "text": "with let's see what team Bower outage"
+      },
+      {
+        "cue_id": 249,
+        "start_ms": 609360,
+        "end_ms": 613320,
+        "text": "has pled it's first time playing cage"
+      },
+      {
+        "cue_id": 280,
+        "start_ms": 683279,
+        "end_ms": 688639,
+        "text": "Shoemaker Travis Matthew University Max"
+      },
+      {
+        "cue_id": 281,
+        "start_ms": 686040,
+        "end_ms": 691200,
+        "text": "Roberts momentum University Kyle Ley"
+      },
+      {
+        "cue_id": 311,
+        "start_ms": 761959,
+        "end_ms": 764920,
+        "text": "bit there's a lot of chatter about"
+      },
+      {
+        "cue_id": 312,
+        "start_ms": 763480,
+        "end_ms": 766680,
+        "text": "pulling my guys early and what kind of"
+      },
+      {
+        "cue_id": 344,
+        "start_ms": 837360,
+        "end_ms": 840759,
+        "text": "last year so defense is definitely going"
+      },
+      {
+        "cue_id": 345,
+        "start_ms": 839079,
+        "end_ms": 842920,
+        "text": "to be a priority for us this season"
+      },
+      {
+        "cue_id": 371,
+        "start_ms": 915399,
+        "end_ms": 922240,
+        "text": "pitch dude that was painted that was"
+      },
+      {
+        "cue_id": 402,
+        "start_ms": 988720,
+        "end_ms": 995959,
+        "text": "last it's all good we have no idea what"
+      },
+      {
+        "cue_id": 403,
+        "start_ms": 991160,
+        "end_ms": 999600,
+        "text": "this ball oh good D good pitch though up"
+      },
+      {
+        "cue_id": 428,
+        "start_ms": 1068960,
+        "end_ms": 1078960,
+        "text": "leg oh no that's strike get your pitch"
+      },
+      {
+        "cue_id": 449,
+        "start_ms": 1142880,
+        "end_ms": 1147120,
+        "text": "God team outage is not going out without"
+      },
+      {
+        "cue_id": 450,
+        "start_ms": 1145360,
+        "end_ms": 1149440,
+        "text": "a fight man I like that when you guys"
+      },
+      {
+        "cue_id": 480,
+        "start_ms": 1220080,
+        "end_ms": 1226360,
+        "text": "King dude he's him he's showing doin all"
+      },
+      {
+        "cue_id": 507,
+        "start_ms": 1293400,
+        "end_ms": 1300159,
+        "text": "yep dude how is"
+      },
+      {
+        "cue_id": 508,
+        "start_ms": 1295440,
+        "end_ms": 1300159,
+        "text": "that that that's your fault don't be"
+      },
+      {
+        "cue_id": 531,
+        "start_ms": 1372799,
+        "end_ms": 1379960,
+        "text": "right tank we love to see"
+      },
+      {
+        "cue_id": 560,
+        "start_ms": 1445559,
+        "end_ms": 1452520,
+        "text": "God got the"
+      },
+      {
+        "cue_id": 561,
+        "start_ms": 1448760,
+        "end_ms": 1454840,
+        "text": "Y oh no that's two lobs missed all right"
+      },
+      {
+        "cue_id": 594,
+        "start_ms": 1525640,
+        "end_ms": 1529960,
+        "text": "this win to Trevor for at a discount"
+      },
+      {
+        "cue_id": 595,
+        "start_ms": 1528000,
+        "end_ms": 1532080,
+        "text": "rate a ground ball double play here"
+      },
+      {
+        "cue_id": 619,
+        "start_ms": 1601279,
+        "end_ms": 1609240,
+        "text": "yes I bang I bang right oh my what a"
+      },
+      {
+        "cue_id": 647,
+        "start_ms": 1675799,
+        "end_ms": 1681440,
+        "text": "four that is four"
+      },
+      {
+        "cue_id": 648,
+        "start_ms": 1678799,
+        "end_ms": 1681440,
+        "text": "go J"
+      },
+      {
+        "cue_id": 674,
+        "start_ms": 1753559,
+        "end_ms": 1760000,
+        "text": "out he got him out only"
+      },
+      {
+        "cue_id": 675,
+        "start_ms": 1757360,
+        "end_ms": 1762200,
+        "text": "four"
+      },
+      {
+        "cue_id": 703,
+        "start_ms": 1829760,
+        "end_ms": 1834440,
+        "text": "out yes oh yeah"
+      },
+      {
+        "cue_id": 731,
+        "start_ms": 1907039,
+        "end_ms": 1911559,
+        "text": "that Eric's a bad Clubhouse it's it's"
+      },
+      {
+        "cue_id": 732,
+        "start_ms": 1909720,
+        "end_ms": 1913639,
+        "text": "it's predictable interesting going to"
+      },
+      {
+        "cue_id": 760,
+        "start_ms": 1980799,
+        "end_ms": 1989279,
+        "text": "the oh my goodness turn you want yet K"
+      },
+      {
+        "cue_id": 761,
+        "start_ms": 1986279,
+        "end_ms": 1989279,
+        "text": "oh"
+      },
+      {
+        "cue_id": 791,
+        "start_ms": 2062940,
+        "end_ms": 2067918,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 812,
+        "start_ms": 2134800,
+        "end_ms": 2141480,
+        "text": "it get on base let's go walk"
+      },
+      {
+        "cue_id": 813,
+        "start_ms": 2138000,
+        "end_ms": 2143440,
+        "text": "him unbelievable two more points he's"
+      },
+      {
+        "cue_id": 840,
+        "start_ms": 2213960,
+        "end_ms": 2220319,
+        "text": "play that pitch is unhitable apparently"
+      },
+      {
+        "cue_id": 865,
+        "start_ms": 2291440,
+        "end_ms": 2295960,
+        "text": "Ronin that's incredible that's two outs"
+      },
+      {
+        "cue_id": 891,
+        "start_ms": 2364119,
+        "end_ms": 2370839,
+        "text": "week this is"
+      },
+      {
+        "cue_id": 892,
+        "start_ms": 2365440,
+        "end_ms": 2370839,
+        "text": "bju big butts I cannot lay"
+      }
+    ],
+    "text": "what team forap was looking for on a two\ncount with one out cage ball is underway\nrules here's you score points in cage\nball I mean we've seen this with Cole\nTosh a three- pitch inning would not be\ngreat before the inning ends let's meet\nthat's it that's it to keep cage ball\nthere keep going keep going\njust Cole is the king of rolling over to\nthird we saw that all last year in cage\nhere it's all good that's still two\nwith let's see what team Bower outage\nhas pled it's first time playing cage\nShoemaker Travis Matthew University Max\nRoberts momentum University Kyle Ley\nbit there's a lot of chatter about\npulling my guys early and what kind of\nlast year so defense is definitely going\nto be a priority for us this season\npitch dude that was painted that was\nlast it's all good we have no idea what\nthis ball oh good D good pitch though up\nleg oh no that's strike get your pitch\nGod team outage is not going out without\na fight man I like that when you guys\nKing dude he's him he's showing doin all\nyep dude how is\nthat that that's your fault don't be\nright tank we love to see\nGod got the\nY oh no that's two lobs missed all right\nthis win to Trevor for at a discount\nrate a ground ball double play here\nyes I bang I bang right oh my what a\nfour that is four\ngo J\nout he got him out only\nfour\nout yes oh yeah\nthat Eric's a bad Clubhouse it's it's\nit's predictable interesting going to\nthe oh my goodness turn you want yet K\noh\n[Applause]\nit get on base let's go walk\nhim unbelievable two more points he's\nplay that pitch is unhitable apparently\nRonin that's incredible that's two outs\nweek this is\nbju big butts I cannot lay",
+    "text_tokens": 418,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "935c0367b0f04d1762a6aa188831d1535615273b692dd850e3cc60a65123660c"
+}

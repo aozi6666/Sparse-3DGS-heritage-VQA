@@ -1,0 +1,1240 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "BlTCkMMJM6o",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BlTCkMMJM6o.srt",
+        "status": "available",
+        "bytes": 43519,
+        "sha256": "6da702499497f6d5a8f7cd9cb36556d276d3ed83cca0cd49b9e913b9c8954067",
+        "cues": 484,
+        "nonempty_cues": 484
+      },
+      "frame_indices": [
+        0,
+        2571,
+        5141,
+        7712,
+        10283,
+        12854,
+        15424,
+        17995,
+        20566,
+        23136,
+        25707,
+        28278,
+        30849,
+        33419,
+        35990,
+        38561,
+        41131,
+        43702,
+        46273,
+        48843,
+        51414,
+        53985,
+        56556,
+        59126,
+        61697,
+        64268,
+        66838,
+        69409,
+        71980,
+        74551,
+        77121,
+        79692
+      ],
+      "frame_seconds": [
+        0.0,
+        107.232125,
+        214.422542,
+        321.654667,
+        428.886792,
+        536.118917,
+        643.309333,
+        750.541458,
+        857.773583,
+        964.964,
+        1072.196125,
+        1179.42825,
+        1286.660375,
+        1393.850792,
+        1501.082917,
+        1608.315042,
+        1715.505458,
+        1822.737583,
+        1929.969708,
+        2037.160125,
+        2144.39225,
+        2251.624375,
+        2358.8565,
+        2466.046917,
+        2573.279042,
+        2680.511167,
+        2787.701583,
+        2894.933708,
+        3002.165833,
+        3109.397958,
+        3216.588375,
+        3323.8205
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          6,
+          7
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          28
+        ],
+        [],
+        [
+          64
+        ],
+        [],
+        [],
+        [
+          106,
+          107
+        ],
+        [
+          134
+        ],
+        [
+          169
+        ],
+        [
+          181,
+          182
+        ],
+        [
+          196
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          219,
+          220
+        ],
+        [
+          232,
+          233
+        ],
+        [
+          240
+        ],
+        [
+          246
+        ],
+        [
+          253
+        ],
+        [
+          267
+        ],
+        [
+          297,
+          298
+        ],
+        [
+          327,
+          328
+        ],
+        [
+          349,
+          350
+        ],
+        [
+          368
+        ],
+        [
+          387
+        ],
+        [
+          404,
+          405
+        ],
+        [
+          413
+        ],
+        [
+          434,
+          435
+        ],
+        [
+          449
+        ],
+        [
+          466,
+          467
+        ],
+        [
+          472,
+          473
+        ],
+        [
+          483,
+          484
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 6,
+          "start_ms": 30080,
+          "end_ms": 113529,
+          "text": "cirque du soleil"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 44130,
+          "end_ms": 113529,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 210840,
+          "end_ms": 220230,
+          "text": "so"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 213010,
+          "end_ms": 220230,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 320080,
+          "end_ms": 325840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 523679,
+          "end_ms": 560389,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 106,
+          "start_ms": 854839,
+          "end_ms": 860409,
+          "text": "oh"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 857280,
+          "end_ms": 860409,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 134,
+          "start_ms": 963370,
+          "end_ms": 969549,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 169,
+          "start_ms": 1068980,
+          "end_ms": 1109840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 1176840,
+          "end_ms": 1187079,
+          "text": "hello"
+        },
+        {
+          "cue_id": 182,
+          "start_ms": 1178190,
+          "end_ms": 1187079,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 196,
+          "start_ms": 1286640,
+          "end_ms": 1289679,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 1389030,
+          "end_ms": 1395119,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 1391960,
+          "end_ms": 1395119,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 219,
+          "start_ms": 1454700,
+          "end_ms": 1507560,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 220,
+          "start_ms": 1500170,
+          "end_ms": 1512050,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 232,
+          "start_ms": 1582840,
+          "end_ms": 1609650,
+          "text": "family"
+        },
+        {
+          "cue_id": 233,
+          "start_ms": 1585840,
+          "end_ms": 1609650,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 1711870,
+          "end_ms": 1726730,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 1812000,
+          "end_ms": 1857500,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 253,
+          "start_ms": 1918880,
+          "end_ms": 1936090,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 2019140,
+          "end_ms": 2044359,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 297,
+          "start_ms": 2136560,
+          "end_ms": 2144480,
+          "text": "i'm a big fan i also"
+        },
+        {
+          "cue_id": 298,
+          "start_ms": 2139839,
+          "end_ms": 2146960,
+          "text": "am looking for the magnificent"
+        },
+        {
+          "cue_id": 327,
+          "start_ms": 2247200,
+          "end_ms": 2257200,
+          "text": "oh oh yes yes simba yes"
+        },
+        {
+          "cue_id": 328,
+          "start_ms": 2250680,
+          "end_ms": 2271839,
+          "text": "applause for my beautiful wife"
+        },
+        {
+          "cue_id": 349,
+          "start_ms": 2355359,
+          "end_ms": 2359760,
+          "text": "little part to spread joy"
+        },
+        {
+          "cue_id": 350,
+          "start_ms": 2357280,
+          "end_ms": 2360640,
+          "text": "even if from afar and that's what cirque"
+        },
+        {
+          "cue_id": 368,
+          "start_ms": 2464839,
+          "end_ms": 2467839,
+          "text": "is"
+        },
+        {
+          "cue_id": 387,
+          "start_ms": 2572790,
+          "end_ms": 2576579,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 404,
+          "start_ms": 2666430,
+          "end_ms": 2683749,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 405,
+          "start_ms": 2668840,
+          "end_ms": 2683749,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 413,
+          "start_ms": 2786839,
+          "end_ms": 2789839,
+          "text": "so"
+        },
+        {
+          "cue_id": 434,
+          "start_ms": 2893770,
+          "end_ms": 2897270,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 435,
+          "start_ms": 2894510,
+          "end_ms": 2900329,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 449,
+          "start_ms": 2981290,
+          "end_ms": 3005030,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 466,
+          "start_ms": 3092079,
+          "end_ms": 3121130,
+          "text": "everybody stay healthy"
+        },
+        {
+          "cue_id": 467,
+          "start_ms": 3096750,
+          "end_ms": 3121130,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 472,
+          "start_ms": 3176460,
+          "end_ms": 3233179,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 473,
+          "start_ms": 3178140,
+          "end_ms": 3233179,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 483,
+          "start_ms": 3295040,
+          "end_ms": 3325839,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 484,
+          "start_ms": 3323760,
+          "end_ms": 3325839,
+          "text": "you"
+        }
+      ],
+      "text": "cirque du soleil\n[Music]\nso\n[Music]\n[Music]\n[Music]\noh\n[Music]\n[Music]\n[Music]\nhello\n[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]\nfamily\n[Music]\n[Music]\n[Music]\n[Music]\n[Music]\ni'm a big fan i also\nam looking for the magnificent\noh oh yes yes simba yes\napplause for my beautiful wife\nlittle part to spread joy\neven if from afar and that's what cirque\nis\n[Music]\n[Applause]\n[Music]\nso\n[Music]\n[Applause]\n[Music]\neverybody stay healthy\n[Music]\n[Applause]\n[Music]\n[Music]\nyou",
+      "text_tokens": 164,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "BlTCkMMJM6o",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/BlTCkMMJM6o.srt",
+          "status": "available",
+          "bytes": 43519,
+          "sha256": "6da702499497f6d5a8f7cd9cb36556d276d3ed83cca0cd49b9e913b9c8954067",
+          "cues": 484,
+          "nonempty_cues": 484
+        },
+        "frame_indices": [
+          0,
+          2571,
+          5141,
+          7712,
+          10283,
+          12854,
+          15424,
+          17995,
+          20566,
+          23136,
+          25707,
+          28278,
+          30849,
+          33419,
+          35990,
+          38561,
+          41131,
+          43702,
+          46273,
+          48843,
+          51414,
+          53985,
+          56556,
+          59126,
+          61697,
+          64268,
+          66838,
+          69409,
+          71980,
+          74551,
+          77121,
+          79692
+        ],
+        "frame_seconds": [
+          0.0,
+          107.232125,
+          214.422542,
+          321.654667,
+          428.886792,
+          536.118917,
+          643.309333,
+          750.541458,
+          857.773583,
+          964.964,
+          1072.196125,
+          1179.42825,
+          1286.660375,
+          1393.850792,
+          1501.082917,
+          1608.315042,
+          1715.505458,
+          1822.737583,
+          1929.969708,
+          2037.160125,
+          2144.39225,
+          2251.624375,
+          2358.8565,
+          2466.046917,
+          2573.279042,
+          2680.511167,
+          2787.701583,
+          2894.933708,
+          3002.165833,
+          3109.397958,
+          3216.588375,
+          3323.8205
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            6,
+            7
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            28
+          ],
+          [],
+          [
+            64
+          ],
+          [],
+          [],
+          [
+            106,
+            107
+          ],
+          [
+            134
+          ],
+          [
+            169
+          ],
+          [
+            181,
+            182
+          ],
+          [
+            196
+          ],
+          [
+            208,
+            209
+          ],
+          [
+            219,
+            220
+          ],
+          [
+            232,
+            233
+          ],
+          [
+            240
+          ],
+          [
+            246
+          ],
+          [
+            253
+          ],
+          [
+            267
+          ],
+          [
+            297,
+            298
+          ],
+          [
+            327,
+            328
+          ],
+          [
+            349,
+            350
+          ],
+          [
+            368
+          ],
+          [
+            387
+          ],
+          [
+            404,
+            405
+          ],
+          [
+            413
+          ],
+          [
+            434,
+            435
+          ],
+          [
+            449
+          ],
+          [
+            466,
+            467
+          ],
+          [
+            472,
+            473
+          ],
+          [
+            483,
+            484
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 6,
+            "start_ms": 30080,
+            "end_ms": 113529,
+            "text": "cirque du soleil"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 44130,
+            "end_ms": 113529,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 210840,
+            "end_ms": 220230,
+            "text": "so"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 213010,
+            "end_ms": 220230,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 320080,
+            "end_ms": 325840,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 523679,
+            "end_ms": 560389,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 106,
+            "start_ms": 854839,
+            "end_ms": 860409,
+            "text": "oh"
+          },
+          {
+            "cue_id": 107,
+            "start_ms": 857280,
+            "end_ms": 860409,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 134,
+            "start_ms": 963370,
+            "end_ms": 969549,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 169,
+            "start_ms": 1068980,
+            "end_ms": 1109840,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 181,
+            "start_ms": 1176840,
+            "end_ms": 1187079,
+            "text": "hello"
+          },
+          {
+            "cue_id": 182,
+            "start_ms": 1178190,
+            "end_ms": 1187079,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 196,
+            "start_ms": 1286640,
+            "end_ms": 1289679,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 208,
+            "start_ms": 1389030,
+            "end_ms": 1395119,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 1391960,
+            "end_ms": 1395119,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 219,
+            "start_ms": 1454700,
+            "end_ms": 1507560,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 220,
+            "start_ms": 1500170,
+            "end_ms": 1512050,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 232,
+            "start_ms": 1582840,
+            "end_ms": 1609650,
+            "text": "family"
+          },
+          {
+            "cue_id": 233,
+            "start_ms": 1585840,
+            "end_ms": 1609650,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 1711870,
+            "end_ms": 1726730,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 246,
+            "start_ms": 1812000,
+            "end_ms": 1857500,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 253,
+            "start_ms": 1918880,
+            "end_ms": 1936090,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 2019140,
+            "end_ms": 2044359,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 297,
+            "start_ms": 2136560,
+            "end_ms": 2144480,
+            "text": "i'm a big fan i also"
+          },
+          {
+            "cue_id": 298,
+            "start_ms": 2139839,
+            "end_ms": 2146960,
+            "text": "am looking for the magnificent"
+          },
+          {
+            "cue_id": 327,
+            "start_ms": 2247200,
+            "end_ms": 2257200,
+            "text": "oh oh yes yes simba yes"
+          },
+          {
+            "cue_id": 328,
+            "start_ms": 2250680,
+            "end_ms": 2271839,
+            "text": "applause for my beautiful wife"
+          },
+          {
+            "cue_id": 349,
+            "start_ms": 2355359,
+            "end_ms": 2359760,
+            "text": "little part to spread joy"
+          },
+          {
+            "cue_id": 350,
+            "start_ms": 2357280,
+            "end_ms": 2360640,
+            "text": "even if from afar and that's what cirque"
+          },
+          {
+            "cue_id": 368,
+            "start_ms": 2464839,
+            "end_ms": 2467839,
+            "text": "is"
+          },
+          {
+            "cue_id": 387,
+            "start_ms": 2572790,
+            "end_ms": 2576579,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 404,
+            "start_ms": 2666430,
+            "end_ms": 2683749,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 405,
+            "start_ms": 2668840,
+            "end_ms": 2683749,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 413,
+            "start_ms": 2786839,
+            "end_ms": 2789839,
+            "text": "so"
+          },
+          {
+            "cue_id": 434,
+            "start_ms": 2893770,
+            "end_ms": 2897270,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 435,
+            "start_ms": 2894510,
+            "end_ms": 2900329,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 449,
+            "start_ms": 2981290,
+            "end_ms": 3005030,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 466,
+            "start_ms": 3092079,
+            "end_ms": 3121130,
+            "text": "everybody stay healthy"
+          },
+          {
+            "cue_id": 467,
+            "start_ms": 3096750,
+            "end_ms": 3121130,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 472,
+            "start_ms": 3176460,
+            "end_ms": 3233179,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 473,
+            "start_ms": 3178140,
+            "end_ms": 3233179,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 483,
+            "start_ms": 3295040,
+            "end_ms": 3325839,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 484,
+            "start_ms": 3323760,
+            "end_ms": 3325839,
+            "text": "you"
+          }
+        ],
+        "text": "cirque du soleil\n[Music]\nso\n[Music]\n[Music]\n[Music]\noh\n[Music]\n[Music]\n[Music]\nhello\n[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]\nfamily\n[Music]\n[Music]\n[Music]\n[Music]\n[Music]\ni'm a big fan i also\nam looking for the magnificent\noh oh yes yes simba yes\napplause for my beautiful wife\nlittle part to spread joy\neven if from afar and that's what cirque\nis\n[Music]\n[Applause]\n[Music]\nso\n[Music]\n[Applause]\n[Music]\neverybody stay healthy\n[Music]\n[Applause]\n[Music]\n[Music]\nyou",
+        "text_tokens": 164,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S5",
+          "cue_ids": [
+            5,
+            6,
+            7
+          ],
+          "start_ms": 27680,
+          "end_ms": 113529,
+          "text": "to one night for one drop imagined by cirque du soleil [Music]"
+        },
+        {
+          "id": "S16",
+          "cue_ids": [
+            16,
+            17
+          ],
+          "start_ms": 210840,
+          "end_ms": 220230,
+          "text": "so [Music]"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29
+          ],
+          "start_ms": 320080,
+          "end_ms": 325840,
+          "text": "[Music] me"
+        },
+        {
+          "id": "S64",
+          "cue_ids": [
+            64
+          ],
+          "start_ms": 523679,
+          "end_ms": 560389,
+          "text": "[Music]"
+        },
+        {
+          "id": "S106",
+          "cue_ids": [
+            106,
+            107
+          ],
+          "start_ms": 854839,
+          "end_ms": 860409,
+          "text": "oh [Music]"
+        },
+        {
+          "id": "S134",
+          "cue_ids": [
+            134,
+            135
+          ],
+          "start_ms": 963370,
+          "end_ms": 975680,
+          "text": "[Music] hi everyone i am mukta omashurik mukhtar"
+        },
+        {
+          "id": "S168",
+          "cue_ids": [
+            168,
+            169,
+            170
+          ],
+          "start_ms": 1064840,
+          "end_ms": 1109840,
+          "text": "oh [Music] do"
+        },
+        {
+          "id": "S180",
+          "cue_ids": [
+            180,
+            181,
+            182
+          ],
+          "start_ms": 1172110,
+          "end_ms": 1187079,
+          "text": "[Music] hello [Music]"
+        },
+        {
+          "id": "S196",
+          "cue_ids": [
+            196
+          ],
+          "start_ms": 1286640,
+          "end_ms": 1289679,
+          "text": "[Music]"
+        },
+        {
+          "id": "S208",
+          "cue_ids": [
+            208,
+            209,
+            210
+          ],
+          "start_ms": 1389030,
+          "end_ms": 1400050,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S218",
+          "cue_ids": [
+            218,
+            219,
+            220,
+            221
+          ],
+          "start_ms": 1453090,
+          "end_ms": 1515210,
+          "text": "[Applause] [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S231",
+          "cue_ids": [
+            231,
+            232,
+            233,
+            234
+          ],
+          "start_ms": 1578480,
+          "end_ms": 1613840,
+          "text": "and now we'd like you to meet our crazy family [Music] so"
+        },
+        {
+          "id": "S240",
+          "cue_ids": [
+            240
+          ],
+          "start_ms": 1711870,
+          "end_ms": 1726730,
+          "text": "[Music]"
+        },
+        {
+          "id": "S246",
+          "cue_ids": [
+            246
+          ],
+          "start_ms": 1812000,
+          "end_ms": 1857500,
+          "text": "[Music]"
+        },
+        {
+          "id": "S253",
+          "cue_ids": [
+            253,
+            254
+          ],
+          "start_ms": 1918880,
+          "end_ms": 1957780,
+          "text": "[Music] [Applause]"
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268
+          ],
+          "start_ms": 2019140,
+          "end_ms": 2049679,
+          "text": "[Music] i feel like this is really kind of an"
+        },
+        {
+          "id": "S296",
+          "cue_ids": [
+            296,
+            297,
+            298,
+            299
+          ],
+          "start_ms": 2132560,
+          "end_ms": 2146960,
+          "text": "and the bird of paradise hello siegfried i'm a big fan i also am looking for the magnificent lion"
+        },
+        {
+          "id": "S326",
+          "cue_ids": [
+            326,
+            327,
+            328,
+            329
+          ],
+          "start_ms": 2243599,
+          "end_ms": 2271839,
+          "text": "up leg up leg up leg up leg up oh oh yes yes simba yes applause for my beautiful wife he's very talented but there is another"
+        },
+        {
+          "id": "S348",
+          "cue_ids": [
+            348,
+            349,
+            350,
+            351
+          ],
+          "start_ms": 2353359,
+          "end_ms": 2363119,
+          "text": "important than ever that we all do our little part to spread joy even if from afar and that's what cirque du soleil"
+        },
+        {
+          "id": "S367",
+          "cue_ids": [
+            367,
+            368,
+            369
+          ],
+          "start_ms": 2460240,
+          "end_ms": 2477320,
+          "text": "[Music] is [Music]"
+        },
+        {
+          "id": "S387",
+          "cue_ids": [
+            387
+          ],
+          "start_ms": 2572790,
+          "end_ms": 2576579,
+          "text": "[Music]"
+        },
+        {
+          "id": "S403",
+          "cue_ids": [
+            403,
+            404,
+            405
+          ],
+          "start_ms": 2665940,
+          "end_ms": 2683749,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S412",
+          "cue_ids": [
+            412,
+            413
+          ],
+          "start_ms": 2782510,
+          "end_ms": 2789839,
+          "text": "[Applause] so"
+        },
+        {
+          "id": "S433",
+          "cue_ids": [
+            433,
+            434,
+            435,
+            436
+          ],
+          "start_ms": 2890830,
+          "end_ms": 2900329,
+          "text": "[Applause] [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S449",
+          "cue_ids": [
+            449,
+            450
+          ],
+          "start_ms": 2981290,
+          "end_ms": 3016060,
+          "text": "[Music] [Applause]"
+        },
+        {
+          "id": "S465",
+          "cue_ids": [
+            465,
+            466,
+            467,
+            468
+          ],
+          "start_ms": 3090240,
+          "end_ms": 3166440,
+          "text": "recommendations thanks for watching everybody stay healthy [Music] so"
+        },
+        {
+          "id": "S471",
+          "cue_ids": [
+            471,
+            472,
+            473
+          ],
+          "start_ms": 3170840,
+          "end_ms": 3233179,
+          "text": "[Music] [Applause] [Music]"
+        },
+        {
+          "id": "S482",
+          "cue_ids": [
+            482,
+            483,
+            484
+          ],
+          "start_ms": 3293930,
+          "end_ms": 3325839,
+          "text": "[Applause] [Music] you"
+        }
+      ],
+      "text": "S5 [00:00:27.680 --> 00:01:53.529] to one night for one drop imagined by cirque du soleil [Music]\nS16 [00:03:30.840 --> 00:03:40.230] so [Music]\nS28 [00:05:20.080 --> 00:05:25.840] [Music] me\nS64 [00:08:43.679 --> 00:09:20.389] [Music]\nS106 [00:14:14.839 --> 00:14:20.409] oh [Music]\nS134 [00:16:03.370 --> 00:16:15.680] [Music] hi everyone i am mukta omashurik mukhtar\nS168 [00:17:44.840 --> 00:18:29.840] oh [Music] do\nS180 [00:19:32.110 --> 00:19:47.079] [Music] hello [Music]\nS196 [00:21:26.640 --> 00:21:29.679] [Music]\nS208 [00:23:09.030 --> 00:23:20.050] [Music] [Applause] [Music]\nS218 [00:24:13.090 --> 00:25:15.210] [Applause] [Music] [Applause] [Music]\nS231 [00:26:18.480 --> 00:26:53.840] and now we'd like you to meet our crazy family [Music] so\nS240 [00:28:31.870 --> 00:28:46.730] [Music]\nS246 [00:30:12.000 --> 00:30:57.500] [Music]\nS253 [00:31:58.880 --> 00:32:37.780] [Music] [Applause]\nS267 [00:33:39.140 --> 00:34:09.679] [Music] i feel like this is really kind of an\nS296 [00:35:32.560 --> 00:35:46.960] and the bird of paradise hello siegfried i'm a big fan i also am looking for the magnificent lion\nS326 [00:37:23.599 --> 00:37:51.839] up leg up leg up leg up leg up oh oh yes yes simba yes applause for my beautiful wife he's very talented but there is another\nS348 [00:39:13.359 --> 00:39:23.119] important than ever that we all do our little part to spread joy even if from afar and that's what cirque du soleil\nS367 [00:41:00.240 --> 00:41:17.320] [Music] is [Music]\nS387 [00:42:52.790 --> 00:42:56.579] [Music]\nS403 [00:44:25.940 --> 00:44:43.749] [Music] [Applause] [Music]\nS412 [00:46:22.510 --> 00:46:29.839] [Applause] so\nS433 [00:48:10.830 --> 00:48:20.329] [Applause] [Music] [Applause] [Music]\nS449 [00:49:41.290 --> 00:50:16.060] [Music] [Applause]\nS465 [00:51:30.240 --> 00:52:46.440] recommendations thanks for watching everybody stay healthy [Music] so\nS471 [00:52:50.840 --> 00:53:53.179] [Music] [Applause] [Music]\nS482 [00:54:53.930 --> 00:55:25.839] [Applause] [Music] you",
+      "text_tokens": 1191,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        5,
+        29,
+        135,
+        168,
+        170,
+        180,
+        210,
+        218,
+        221,
+        231,
+        234,
+        254,
+        268,
+        296,
+        299,
+        326,
+        329,
+        348,
+        351,
+        367,
+        369,
+        403,
+        412,
+        433,
+        436,
+        450,
+        465,
+        468,
+        471,
+        482
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9d7a61a42bebd2703b80cb389b3f7c2668d1401a82c317d09a79f0128ef50121"
+}

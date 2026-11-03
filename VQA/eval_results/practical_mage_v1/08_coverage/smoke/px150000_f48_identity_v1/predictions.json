@@ -1,0 +1,68 @@
+[
+  {
+    "index": "0",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "codec32": "C",
+      "frames32": "B",
+      "frames48": "B"
+    }
+  },
+  {
+    "index": "1",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "A",
+    "predictions": {
+      "codec32": "A",
+      "frames32": "A",
+      "frames48": "A"
+    }
+  },
+  {
+    "index": "2",
+    "video_id": "fFjv93ACGo8",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "codec32": "D",
+      "frames32": "D",
+      "frames48": "D"
+    }
+  },
+  {
+    "index": "3",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "B",
+    "predictions": {
+      "codec32": "A",
+      "frames32": "B",
+      "frames48": "B"
+    }
+  },
+  {
+    "index": "4",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "C",
+    "predictions": {
+      "codec32": "C",
+      "frames32": "D",
+      "frames48": "C"
+    }
+  },
+  {
+    "index": "5",
+    "video_id": "HIjX8OPuf-w",
+    "duration": "short",
+    "gt": "D",
+    "predictions": {
+      "codec32": "D",
+      "frames32": "D",
+      "frames48": "D"
+    }
+  }
+]

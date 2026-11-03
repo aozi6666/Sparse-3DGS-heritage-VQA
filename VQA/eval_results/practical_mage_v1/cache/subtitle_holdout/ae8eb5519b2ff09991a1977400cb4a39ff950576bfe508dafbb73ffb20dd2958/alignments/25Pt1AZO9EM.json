@@ -1,0 +1,274 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "25Pt1AZO9EM",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/25Pt1AZO9EM.srt",
+      "status": "available",
+      "bytes": 18339,
+      "sha256": "0cd9d0df3f61260d6b10c3c1aa2582463c04bfd5e421ce6a4661cd8ed734f4e9",
+      "cues": 197,
+      "nonempty_cues": 197
+    },
+    "frame_indices": [
+      0,
+      1923,
+      3846,
+      5769,
+      7691,
+      9614,
+      11537,
+      13460,
+      15383,
+      17306,
+      19229,
+      21152,
+      23074,
+      24997,
+      26920,
+      28843,
+      30766,
+      32689,
+      34612,
+      36535,
+      38457,
+      40380,
+      42303,
+      44226,
+      46149,
+      48072,
+      49995,
+      51918,
+      53840,
+      55763,
+      57686,
+      59609
+    ],
+    "frame_seconds": [
+      0.0,
+      64.1641,
+      128.3282,
+      192.4923,
+      256.623033,
+      320.787133,
+      384.951233,
+      449.115333,
+      513.279433,
+      577.443533,
+      641.607633,
+      705.771733,
+      769.902467,
+      834.066567,
+      898.230667,
+      962.394767,
+      1026.558867,
+      1090.722967,
+      1154.887067,
+      1219.051167,
+      1283.1819,
+      1347.346,
+      1411.5101,
+      1475.6742,
+      1539.8383,
+      1604.0024,
+      1668.1665,
+      1732.3306,
+      1796.461333,
+      1860.625433,
+      1924.789533,
+      1988.953633
+    ],
+    "frame_cue_ids": [
+      [],
+      [],
+      [
+        10
+      ],
+      [],
+      [
+        27
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        58
+      ],
+      [],
+      [],
+      [],
+      [
+        80,
+        81
+      ],
+      [
+        86
+      ],
+      [],
+      [
+        97,
+        98
+      ],
+      [
+        103,
+        104
+      ],
+      [],
+      [],
+      [],
+      [
+        119
+      ],
+      [],
+      [
+        153,
+        154
+      ],
+      [
+        162,
+        163
+      ],
+      [],
+      [],
+      [
+        179
+      ],
+      [
+        186
+      ],
+      [
+        195
+      ],
+      [
+        197
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 10,
+        "start_ms": 128220,
+        "end_ms": 133620,
+        "text": "yeah"
+      },
+      {
+        "cue_id": 27,
+        "start_ms": 245190,
+        "end_ms": 269100,
+        "text": "[Laughter]"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 639810,
+        "end_ms": 643980,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 80,
+        "start_ms": 894070,
+        "end_ms": 899240,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 81,
+        "start_ms": 896180,
+        "end_ms": 899240,
+        "text": "all right"
+      },
+      {
+        "cue_id": 86,
+        "start_ms": 960660,
+        "end_ms": 964579,
+        "text": "let loose the goose"
+      },
+      {
+        "cue_id": 97,
+        "start_ms": 1084200,
+        "end_ms": 1091720,
+        "text": "inspection too come on happy come"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 1088100,
+        "end_ms": 1091720,
+        "text": "hey easy easy easy"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 1152850,
+        "end_ms": 1157360,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 1154120,
+        "end_ms": 1157360,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 119,
+        "start_ms": 1410810,
+        "end_ms": 1413970,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 153,
+        "start_ms": 1535100,
+        "end_ms": 1540140,
+        "text": "you see right here"
+      },
+      {
+        "cue_id": 154,
+        "start_ms": 1537440,
+        "end_ms": 1542059,
+        "text": "and strategy that has to go into how you"
+      },
+      {
+        "cue_id": 162,
+        "start_ms": 1600100,
+        "end_ms": 1604340,
+        "text": "look I think this is probably going to"
+      },
+      {
+        "cue_id": 163,
+        "start_ms": 1602480,
+        "end_ms": 1606520,
+        "text": "be the final cover of the book what do"
+      },
+      {
+        "cue_id": 179,
+        "start_ms": 1793179,
+        "end_ms": 1797200,
+        "text": "one or two depending on how you do it"
+      },
+      {
+        "cue_id": 186,
+        "start_ms": 1859090,
+        "end_ms": 1862170,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 195,
+        "start_ms": 1919380,
+        "end_ms": 1943380,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 197,
+        "start_ms": 1987650,
+        "end_ms": 1990809,
+        "text": "[Music]"
+      }
+    ],
+    "text": "yeah\n[Laughter]\n[Music]\n[Music]\nall right\nlet loose the goose\ninspection too come on happy come\nhey easy easy easy\n[Applause]\n[Music]\n[Music]\nyou see right here\nand strategy that has to go into how you\nlook I think this is probably going to\nbe the final cover of the book what do\none or two depending on how you do it\n[Music]\n[Music]\n[Music]",
+    "text_tokens": 96,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "15189fc12a1108521e0b9a9cc78a87ce1277e5be832042eadb26cf1f8f380089",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

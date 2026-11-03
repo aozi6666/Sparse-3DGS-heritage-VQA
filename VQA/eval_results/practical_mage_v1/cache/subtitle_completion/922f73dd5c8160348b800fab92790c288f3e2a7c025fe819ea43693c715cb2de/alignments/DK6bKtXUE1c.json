@@ -1,0 +1,562 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "DK6bKtXUE1c",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/DK6bKtXUE1c.srt",
+        "status": "available",
+        "bytes": 1247,
+        "sha256": "9b2d6226704aa08b8386e7ca04f35c22fe70f01941d8f35c2ec20aa81323329e",
+        "cues": 12,
+        "nonempty_cues": 12
+      },
+      "frame_indices": [
+        0,
+        45,
+        89,
+        134,
+        179,
+        224,
+        268,
+        313,
+        358,
+        403,
+        447,
+        492,
+        537,
+        582,
+        626,
+        671,
+        716,
+        761,
+        805,
+        850,
+        895,
+        940,
+        984,
+        1029,
+        1074,
+        1119,
+        1163,
+        1208,
+        1253,
+        1298,
+        1342,
+        1387
+      ],
+      "frame_seconds": [
+        0.0,
+        1.8,
+        3.56,
+        5.36,
+        7.16,
+        8.96,
+        10.72,
+        12.52,
+        14.32,
+        16.12,
+        17.88,
+        19.68,
+        21.48,
+        23.28,
+        25.04,
+        26.84,
+        28.64,
+        30.44,
+        32.2,
+        34.0,
+        35.8,
+        37.6,
+        39.36,
+        41.16,
+        42.96,
+        44.76,
+        46.52,
+        48.32,
+        50.12,
+        51.92,
+        53.68,
+        55.48
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          12
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 520,
+          "end_ms": 5719,
+          "text": "so miltiadis tloo the defending"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 7559,
+          "end_ms": 15840,
+          "text": "Champion wow wow wow Greek fans loved it"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 13000,
+          "end_ms": 20680,
+          "text": "that was phenomenal for"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 15840,
+          "end_ms": 23599,
+          "text": "tento Matia felani a 19yearold from"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 20680,
+          "end_ms": 25400,
+          "text": "Italy World leading Mark he shares it"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 23599,
+          "end_ms": 30160,
+          "text": "with Wayne pin of"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 25400,
+          "end_ms": 31800,
+          "text": "Jamaica oh that is very cool from fani"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 30160,
+          "end_ms": 35520,
+          "text": "we're getting to the closing stages here"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 31800,
+          "end_ms": 40160,
+          "text": "halfway through round five McLoud over 8"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 35520,
+          "end_ms": 44879,
+          "text": "m as well mardus tlu has done it again"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 40160,
+          "end_ms": 44879,
+          "text": "another global Title to"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 54440,
+          "end_ms": 57440,
+          "text": "Greece"
+        }
+      ],
+      "text": "so miltiadis tloo the defending\nChampion wow wow wow Greek fans loved it\nthat was phenomenal for\ntento Matia felani a 19yearold from\nItaly World leading Mark he shares it\nwith Wayne pin of\nJamaica oh that is very cool from fani\nwe're getting to the closing stages here\nhalfway through round five McLoud over 8\nm as well mardus tlu has done it again\nanother global Title to\nGreece",
+      "text_tokens": 104,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "DK6bKtXUE1c",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/DK6bKtXUE1c.srt",
+          "status": "available",
+          "bytes": 1247,
+          "sha256": "9b2d6226704aa08b8386e7ca04f35c22fe70f01941d8f35c2ec20aa81323329e",
+          "cues": 12,
+          "nonempty_cues": 12
+        },
+        "frame_indices": [
+          0,
+          45,
+          89,
+          134,
+          179,
+          224,
+          268,
+          313,
+          358,
+          403,
+          447,
+          492,
+          537,
+          582,
+          626,
+          671,
+          716,
+          761,
+          805,
+          850,
+          895,
+          940,
+          984,
+          1029,
+          1074,
+          1119,
+          1163,
+          1208,
+          1253,
+          1298,
+          1342,
+          1387
+        ],
+        "frame_seconds": [
+          0.0,
+          1.8,
+          3.56,
+          5.36,
+          7.16,
+          8.96,
+          10.72,
+          12.52,
+          14.32,
+          16.12,
+          17.88,
+          19.68,
+          21.48,
+          23.28,
+          25.04,
+          26.84,
+          28.64,
+          30.44,
+          32.2,
+          34.0,
+          35.8,
+          37.6,
+          39.36,
+          41.16,
+          42.96,
+          44.76,
+          46.52,
+          48.32,
+          50.12,
+          51.92,
+          53.68,
+          55.48
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            12
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 520,
+            "end_ms": 5719,
+            "text": "so miltiadis tloo the defending"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 7559,
+            "end_ms": 15840,
+            "text": "Champion wow wow wow Greek fans loved it"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 13000,
+            "end_ms": 20680,
+            "text": "that was phenomenal for"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 15840,
+            "end_ms": 23599,
+            "text": "tento Matia felani a 19yearold from"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 20680,
+            "end_ms": 25400,
+            "text": "Italy World leading Mark he shares it"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 23599,
+            "end_ms": 30160,
+            "text": "with Wayne pin of"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 25400,
+            "end_ms": 31800,
+            "text": "Jamaica oh that is very cool from fani"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 30160,
+            "end_ms": 35520,
+            "text": "we're getting to the closing stages here"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 31800,
+            "end_ms": 40160,
+            "text": "halfway through round five McLoud over 8"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 35520,
+            "end_ms": 44879,
+            "text": "m as well mardus tlu has done it again"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 40160,
+            "end_ms": 44879,
+            "text": "another global Title to"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 54440,
+            "end_ms": 57440,
+            "text": "Greece"
+          }
+        ],
+        "text": "so miltiadis tloo the defending\nChampion wow wow wow Greek fans loved it\nthat was phenomenal for\ntento Matia felani a 19yearold from\nItaly World leading Mark he shares it\nwith Wayne pin of\nJamaica oh that is very cool from fani\nwe're getting to the closing stages here\nhalfway through round five McLoud over 8\nm as well mardus tlu has done it again\nanother global Title to\nGreece",
+        "text_tokens": 104,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 520,
+          "end_ms": 44879,
+          "text": "so miltiadis tloo the defending Champion wow wow wow Greek fans loved it that was phenomenal for tento Matia felani a 19yearold from Italy World leading Mark he shares it with Wayne pin of Jamaica oh that is very cool from fani we're getting to the closing stages here halfway through round five McLoud over 8 m as well mardus tlu has done it again another global Title to"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 54440,
+          "end_ms": 57440,
+          "text": "Greece"
+        }
+      ],
+      "text": "S1 [00:00:00.520 --> 00:00:44.879] so miltiadis tloo the defending Champion wow wow wow Greek fans loved it that was phenomenal for tento Matia felani a 19yearold from Italy World leading Mark he shares it with Wayne pin of Jamaica oh that is very cool from fani we're getting to the closing stages here halfway through round five McLoud over 8 m as well mardus tlu has done it again another global Title to\nS12 [00:00:54.440 --> 00:00:57.440] Greece",
+      "text_tokens": 150,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9db98b27407da25d89b965edf84da36f7d5544fafbcfdcf290b6869e85059b2b"
+}

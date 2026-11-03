@@ -1,0 +1,468 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "56yT3H_DjVE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/56yT3H_DjVE.srt",
+        "status": "available",
+        "bytes": 702,
+        "sha256": "284c0545c904ee1deb53192cbc666dc46850213af845383fda42c0b5ebd05020",
+        "cues": 8,
+        "nonempty_cues": 8
+      },
+      "frame_indices": [
+        0,
+        36,
+        71,
+        107,
+        143,
+        178,
+        214,
+        250,
+        285,
+        321,
+        356,
+        392,
+        428,
+        463,
+        499,
+        535,
+        570,
+        606,
+        642,
+        677,
+        713,
+        749,
+        784,
+        820,
+        855,
+        891,
+        927,
+        962,
+        998,
+        1034,
+        1069,
+        1105
+      ],
+      "frame_seconds": [
+        0.0,
+        1.44,
+        2.84,
+        4.28,
+        5.72,
+        7.12,
+        8.56,
+        10.0,
+        11.4,
+        12.84,
+        14.24,
+        15.68,
+        17.12,
+        18.52,
+        19.96,
+        21.4,
+        22.8,
+        24.24,
+        25.68,
+        27.08,
+        28.52,
+        29.96,
+        31.36,
+        32.8,
+        34.2,
+        35.64,
+        37.08,
+        38.48,
+        39.92,
+        41.36,
+        42.76,
+        44.2
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [],
+        [],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 480,
+          "end_ms": 8080,
+          "text": "you finally met your match"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 3240,
+          "end_ms": 8080,
+          "text": "chameleon Not So Different you and"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 8360,
+          "end_ms": 14120,
+          "text": "I stand back I'm going to kick my"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 28960,
+          "end_ms": 31960,
+          "text": "butt"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 32280,
+          "end_ms": 37559,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 34079,
+          "end_ms": 37559,
+          "text": "oh what"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 40320,
+          "end_ms": 46160,
+          "text": "bab"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 43160,
+          "end_ms": 46160,
+          "text": "baby"
+        }
+      ],
+      "text": "you finally met your match\nchameleon Not So Different you and\nI stand back I'm going to kick my\nbutt\n[Music]\noh what\nbab\nbaby",
+      "text_tokens": 35,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "56yT3H_DjVE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/56yT3H_DjVE.srt",
+          "status": "available",
+          "bytes": 702,
+          "sha256": "284c0545c904ee1deb53192cbc666dc46850213af845383fda42c0b5ebd05020",
+          "cues": 8,
+          "nonempty_cues": 8
+        },
+        "frame_indices": [
+          0,
+          36,
+          71,
+          107,
+          143,
+          178,
+          214,
+          250,
+          285,
+          321,
+          356,
+          392,
+          428,
+          463,
+          499,
+          535,
+          570,
+          606,
+          642,
+          677,
+          713,
+          749,
+          784,
+          820,
+          855,
+          891,
+          927,
+          962,
+          998,
+          1034,
+          1069,
+          1105
+        ],
+        "frame_seconds": [
+          0.0,
+          1.44,
+          2.84,
+          4.28,
+          5.72,
+          7.12,
+          8.56,
+          10.0,
+          11.4,
+          12.84,
+          14.24,
+          15.68,
+          17.12,
+          18.52,
+          19.96,
+          21.4,
+          22.8,
+          24.24,
+          25.68,
+          27.08,
+          28.52,
+          29.96,
+          31.36,
+          32.8,
+          34.2,
+          35.64,
+          37.08,
+          38.48,
+          39.92,
+          41.36,
+          42.76,
+          44.2
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [],
+          [],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 480,
+            "end_ms": 8080,
+            "text": "you finally met your match"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 3240,
+            "end_ms": 8080,
+            "text": "chameleon Not So Different you and"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 8360,
+            "end_ms": 14120,
+            "text": "I stand back I'm going to kick my"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 28960,
+            "end_ms": 31960,
+            "text": "butt"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 32280,
+            "end_ms": 37559,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 34079,
+            "end_ms": 37559,
+            "text": "oh what"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 40320,
+            "end_ms": 46160,
+            "text": "bab"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 43160,
+            "end_ms": 46160,
+            "text": "baby"
+          }
+        ],
+        "text": "you finally met your match\nchameleon Not So Different you and\nI stand back I'm going to kick my\nbutt\n[Music]\noh what\nbab\nbaby",
+        "text_tokens": 35,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3
+          ],
+          "start_ms": 480,
+          "end_ms": 14120,
+          "text": "you finally met your match chameleon Not So Different you and I stand back I'm going to kick my"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6
+          ],
+          "start_ms": 28960,
+          "end_ms": 37559,
+          "text": "butt [Music] oh what"
+        },
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8
+          ],
+          "start_ms": 40320,
+          "end_ms": 46160,
+          "text": "bab baby"
+        }
+      ],
+      "text": "S1 [00:00:00.480 --> 00:00:14.120] you finally met your match chameleon Not So Different you and I stand back I'm going to kick my\nS4 [00:00:28.960 --> 00:00:37.559] butt [Music] oh what\nS7 [00:00:40.320 --> 00:00:46.160] bab baby",
+      "text_tokens": 121,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ab5fcd226e85202a39710ee9da5b89f9d0c3be8fe7d844a3c0b6cffde3a29d8d"
+}

@@ -1,0 +1,1602 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "CxBbw8eT624",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/CxBbw8eT624.srt",
+        "status": "available",
+        "bytes": 39727,
+        "sha256": "3efb870b058f7268b3668e2c401e808274b232333ee9cb53e2af7b727bfa7765",
+        "cues": 356,
+        "nonempty_cues": 356
+      },
+      "frame_indices": [
+        0,
+        850,
+        1699,
+        2549,
+        3399,
+        4249,
+        5098,
+        5948,
+        6798,
+        7647,
+        8497,
+        9347,
+        10197,
+        11046,
+        11896,
+        12746,
+        13595,
+        14445,
+        15295,
+        16144,
+        16994,
+        17844,
+        18694,
+        19543,
+        20393,
+        21243,
+        22092,
+        22942,
+        23792,
+        24642,
+        25491,
+        26341
+      ],
+      "frame_seconds": [
+        0.0,
+        28.361667,
+        56.689967,
+        85.051633,
+        113.41329999999999,
+        141.774967,
+        170.10326700000002,
+        198.464933,
+        226.82659999999998,
+        255.1549,
+        283.516567,
+        311.878233,
+        340.2399,
+        368.5682,
+        396.929867,
+        425.291533,
+        453.61983299999997,
+        481.9815,
+        510.343167,
+        538.671467,
+        567.033133,
+        595.3948,
+        623.756467,
+        652.084767,
+        680.446433,
+        708.8081,
+        737.1364,
+        765.498067,
+        793.859733,
+        822.2214,
+        850.5497,
+        878.911367
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          9,
+          10
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          120,
+          121
+        ],
+        [
+          131,
+          132
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          155,
+          156
+        ],
+        [
+          168,
+          169
+        ],
+        [
+          179,
+          180
+        ],
+        [
+          192,
+          193
+        ],
+        [
+          204,
+          205
+        ],
+        [
+          217,
+          218
+        ],
+        [
+          230,
+          231
+        ],
+        [
+          243,
+          244
+        ],
+        [
+          254,
+          255
+        ],
+        [
+          265,
+          266
+        ],
+        [
+          276,
+          277
+        ],
+        [
+          288,
+          289
+        ],
+        [
+          299,
+          300
+        ],
+        [
+          310,
+          311
+        ],
+        [
+          322,
+          323
+        ],
+        [
+          334,
+          335
+        ],
+        [
+          345,
+          346
+        ],
+        [
+          356
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 9,
+          "start_ms": 21800,
+          "end_ms": 28480,
+          "text": "ready for the consequences of a cyborg"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 24800,
+          "end_ms": 31960,
+          "text": "revolution neuralink has arrived now"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 53480,
+          "end_ms": 58239,
+          "text": "microscopic electrode sensors and then a"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 56239,
+          "end_ms": 60399,
+          "text": "very small battery powered computer"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 81320,
+          "end_ms": 86158,
+          "text": "Spike detection ever since the concept"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 83680,
+          "end_ms": 88880,
+          "text": "was introduced 8 years ago nurlink has"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 110360,
+          "end_ms": 114840,
+          "text": "software application that will harness"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 112360,
+          "end_ms": 117280,
+          "text": "the capability of the N1 device that is"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 136720,
+          "end_ms": 142120,
+          "text": "theory telepathy should allow the user"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 139239,
+          "end_ms": 144680,
+          "text": "to reach out and control pretty much"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 167400,
+          "end_ms": 171360,
+          "text": "the initial application that neuralink"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 169159,
+          "end_ms": 173879,
+          "text": "has demonstrated is telepathic typing"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 193080,
+          "end_ms": 198640,
+          "text": "first human neural users are doing right"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 196079,
+          "end_ms": 201159,
+          "text": "now and as Elon pointed out if you can"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 223040,
+          "end_ms": 228360,
+          "text": "neural Link's first human trials Elon"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 226159,
+          "end_ms": 230400,
+          "text": "also teased that neuralink is working on"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 251400,
+          "end_ms": 256880,
+          "text": "but in theory it is possible so with"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 254760,
+          "end_ms": 259839,
+          "text": "telepathy the nurlink device is being"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 280560,
+          "end_ms": 285039,
+          "text": "device through Bluetooth into the N1"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 283000,
+          "end_ms": 287800,
+          "text": "implant which would then convert the"
+        },
+        {
+          "cue_id": 120,
+          "start_ms": 309080,
+          "end_ms": 314880,
+          "text": "their eyes before would be able to"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 311520,
+          "end_ms": 316960,
+          "text": "visualize the world around them now this"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 336120,
+          "end_ms": 340560,
+          "text": "recognizable image and just like video"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 338880,
+          "end_ms": 343039,
+          "text": "game technology has improved over the"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 364520,
+          "end_ms": 369680,
+          "text": "design and advanced engineering so what"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 367199,
+          "end_ms": 371960,
+          "text": "makes the hover pen so electrifying well"
+        },
+        {
+          "cue_id": 155,
+          "start_ms": 393159,
+          "end_ms": 398280,
+          "text": "$99 the interstellar Edition beautifully"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 395919,
+          "end_ms": 401880,
+          "text": "captures the Earth's axis inclination at"
+        },
+        {
+          "cue_id": 168,
+          "start_ms": 423319,
+          "end_ms": 428800,
+          "text": "future Edition priced at"
+        },
+        {
+          "cue_id": 169,
+          "start_ms": 425160,
+          "end_ms": 431120,
+          "text": "$149 is a twoin one Marvel fountain pen"
+        },
+        {
+          "cue_id": 179,
+          "start_ms": 449800,
+          "end_ms": 454039,
+          "text": "offering an unrivaled writing experience"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 452240,
+          "end_ms": 456120,
+          "text": "and serving as a Timeless piece of"
+        },
+        {
+          "cue_id": 192,
+          "start_ms": 477440,
+          "end_ms": 482000,
+          "text": "world of brain computer interface elon's"
+        },
+        {
+          "cue_id": 193,
+          "start_ms": 479840,
+          "end_ms": 484400,
+          "text": "company is really just one piece of a"
+        },
+        {
+          "cue_id": 204,
+          "start_ms": 505520,
+          "end_ms": 510479,
+          "text": "synchron is another us-based BCI startup"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 508479,
+          "end_ms": 513200,
+          "text": "company that has already completed their"
+        },
+        {
+          "cue_id": 217,
+          "start_ms": 533880,
+          "end_ms": 539279,
+          "text": "is a big factor in allowing human trials"
+        },
+        {
+          "cue_id": 218,
+          "start_ms": 536240,
+          "end_ms": 540760,
+          "text": "at synchron to move at a faster pace"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 563160,
+          "end_ms": 567680,
+          "text": "device is using a primary blood vessel"
+        },
+        {
+          "cue_id": 231,
+          "start_ms": 565399,
+          "end_ms": 570680,
+          "text": "as an express lane directly from the"
+        },
+        {
+          "cue_id": 243,
+          "start_ms": 593320,
+          "end_ms": 596800,
+          "text": "let's go back to what we were just"
+        },
+        {
+          "cue_id": 244,
+          "start_ms": 594600,
+          "end_ms": 600000,
+          "text": "talking about at the beginning the first"
+        },
+        {
+          "cue_id": 254,
+          "start_ms": 620040,
+          "end_ms": 624959,
+          "text": "that's been cut into the patient's skull"
+        },
+        {
+          "cue_id": 255,
+          "start_ms": 622640,
+          "end_ms": 627480,
+          "text": "and then looking at our stod again we"
+        },
+        {
+          "cue_id": 265,
+          "start_ms": 649320,
+          "end_ms": 654800,
+          "text": "smartphone device and synchron currently"
+        },
+        {
+          "cue_id": 266,
+          "start_ms": 652000,
+          "end_ms": 657200,
+          "text": "has 10 active human patients in their"
+        },
+        {
+          "cue_id": 276,
+          "start_ms": 675760,
+          "end_ms": 680720,
+          "text": "of implant can really accomplish which"
+        },
+        {
+          "cue_id": 277,
+          "start_ms": 678320,
+          "end_ms": 682360,
+          "text": "is still cool but it doesn't exactly"
+        },
+        {
+          "cue_id": 288,
+          "start_ms": 705360,
+          "end_ms": 710639,
+          "text": "brain disease correcting mental illness"
+        },
+        {
+          "cue_id": 289,
+          "start_ms": 707639,
+          "end_ms": 713600,
+          "text": "ending obesity and interfacing the human"
+        },
+        {
+          "cue_id": 299,
+          "start_ms": 733120,
+          "end_ms": 738560,
+          "text": "as close to neuralink as anyone else has"
+        },
+        {
+          "cue_id": 300,
+          "start_ms": 735560,
+          "end_ms": 740800,
+          "text": "come this is Black Rock neurotech it"
+        },
+        {
+          "cue_id": 310,
+          "start_ms": 761600,
+          "end_ms": 765800,
+          "text": "the same category that nuring falls"
+        },
+        {
+          "cue_id": 311,
+          "start_ms": 763600,
+          "end_ms": 768199,
+          "text": "under meaning that the operation has to"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 790160,
+          "end_ms": 794680,
+          "text": "neuralink thread but even still that"
+        },
+        {
+          "cue_id": 323,
+          "start_ms": 792920,
+          "end_ms": 797399,
+          "text": "direct connection through hundreds of"
+        },
+        {
+          "cue_id": 334,
+          "start_ms": 817399,
+          "end_ms": 822480,
+          "text": "again on his own so while their"
+        },
+        {
+          "cue_id": 335,
+          "start_ms": 820240,
+          "end_ms": 825079,
+          "text": "technology approach may be a bit"
+        },
+        {
+          "cue_id": 345,
+          "start_ms": 845600,
+          "end_ms": 851120,
+          "text": "of electrodes going 2 mm deep so again"
+        },
+        {
+          "cue_id": 346,
+          "start_ms": 849040,
+          "end_ms": 853839,
+          "text": "the long-term perspective is what makes"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 877920,
+          "end_ms": 880920,
+          "text": "tuned"
+        }
+      ],
+      "text": "ready for the consequences of a cyborg\nrevolution neuralink has arrived now\nmicroscopic electrode sensors and then a\nvery small battery powered computer\nSpike detection ever since the concept\nwas introduced 8 years ago nurlink has\nsoftware application that will harness\nthe capability of the N1 device that is\ntheory telepathy should allow the user\nto reach out and control pretty much\nthe initial application that neuralink\nhas demonstrated is telepathic typing\nfirst human neural users are doing right\nnow and as Elon pointed out if you can\nneural Link's first human trials Elon\nalso teased that neuralink is working on\nbut in theory it is possible so with\ntelepathy the nurlink device is being\ndevice through Bluetooth into the N1\nimplant which would then convert the\ntheir eyes before would be able to\nvisualize the world around them now this\nrecognizable image and just like video\ngame technology has improved over the\ndesign and advanced engineering so what\nmakes the hover pen so electrifying well\n$99 the interstellar Edition beautifully\ncaptures the Earth's axis inclination at\nfuture Edition priced at\n$149 is a twoin one Marvel fountain pen\noffering an unrivaled writing experience\nand serving as a Timeless piece of\nworld of brain computer interface elon's\ncompany is really just one piece of a\nsynchron is another us-based BCI startup\ncompany that has already completed their\nis a big factor in allowing human trials\nat synchron to move at a faster pace\ndevice is using a primary blood vessel\nas an express lane directly from the\nlet's go back to what we were just\ntalking about at the beginning the first\nthat's been cut into the patient's skull\nand then looking at our stod again we\nsmartphone device and synchron currently\nhas 10 active human patients in their\nof implant can really accomplish which\nis still cool but it doesn't exactly\nbrain disease correcting mental illness\nending obesity and interfacing the human\nas close to neuralink as anyone else has\ncome this is Black Rock neurotech it\nthe same category that nuring falls\nunder meaning that the operation has to\nneuralink thread but even still that\ndirect connection through hundreds of\nagain on his own so while their\ntechnology approach may be a bit\nof electrodes going 2 mm deep so again\nthe long-term perspective is what makes\ntuned",
+      "text_tokens": 510,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "CxBbw8eT624",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/CxBbw8eT624.srt",
+          "status": "available",
+          "bytes": 39727,
+          "sha256": "3efb870b058f7268b3668e2c401e808274b232333ee9cb53e2af7b727bfa7765",
+          "cues": 356,
+          "nonempty_cues": 356
+        },
+        "frame_indices": [
+          0,
+          850,
+          1699,
+          2549,
+          3399,
+          4249,
+          5098,
+          5948,
+          6798,
+          7647,
+          8497,
+          9347,
+          10197,
+          11046,
+          11896,
+          12746,
+          13595,
+          14445,
+          15295,
+          16144,
+          16994,
+          17844,
+          18694,
+          19543,
+          20393,
+          21243,
+          22092,
+          22942,
+          23792,
+          24642,
+          25491,
+          26341
+        ],
+        "frame_seconds": [
+          0.0,
+          28.361667,
+          56.689967,
+          85.051633,
+          113.41329999999999,
+          141.774967,
+          170.10326700000002,
+          198.464933,
+          226.82659999999998,
+          255.1549,
+          283.516567,
+          311.878233,
+          340.2399,
+          368.5682,
+          396.929867,
+          425.291533,
+          453.61983299999997,
+          481.9815,
+          510.343167,
+          538.671467,
+          567.033133,
+          595.3948,
+          623.756467,
+          652.084767,
+          680.446433,
+          708.8081,
+          737.1364,
+          765.498067,
+          793.859733,
+          822.2214,
+          850.5497,
+          878.911367
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            9,
+            10
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            85,
+            86
+          ],
+          [
+            96,
+            97
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            120,
+            121
+          ],
+          [
+            131,
+            132
+          ],
+          [
+            143,
+            144
+          ],
+          [
+            155,
+            156
+          ],
+          [
+            168,
+            169
+          ],
+          [
+            179,
+            180
+          ],
+          [
+            192,
+            193
+          ],
+          [
+            204,
+            205
+          ],
+          [
+            217,
+            218
+          ],
+          [
+            230,
+            231
+          ],
+          [
+            243,
+            244
+          ],
+          [
+            254,
+            255
+          ],
+          [
+            265,
+            266
+          ],
+          [
+            276,
+            277
+          ],
+          [
+            288,
+            289
+          ],
+          [
+            299,
+            300
+          ],
+          [
+            310,
+            311
+          ],
+          [
+            322,
+            323
+          ],
+          [
+            334,
+            335
+          ],
+          [
+            345,
+            346
+          ],
+          [
+            356
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 9,
+            "start_ms": 21800,
+            "end_ms": 28480,
+            "text": "ready for the consequences of a cyborg"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 24800,
+            "end_ms": 31960,
+            "text": "revolution neuralink has arrived now"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 53480,
+            "end_ms": 58239,
+            "text": "microscopic electrode sensors and then a"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 56239,
+            "end_ms": 60399,
+            "text": "very small battery powered computer"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 81320,
+            "end_ms": 86158,
+            "text": "Spike detection ever since the concept"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 83680,
+            "end_ms": 88880,
+            "text": "was introduced 8 years ago nurlink has"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 110360,
+            "end_ms": 114840,
+            "text": "software application that will harness"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 112360,
+            "end_ms": 117280,
+            "text": "the capability of the N1 device that is"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 136720,
+            "end_ms": 142120,
+            "text": "theory telepathy should allow the user"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 139239,
+            "end_ms": 144680,
+            "text": "to reach out and control pretty much"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 167400,
+            "end_ms": 171360,
+            "text": "the initial application that neuralink"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 169159,
+            "end_ms": 173879,
+            "text": "has demonstrated is telepathic typing"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 193080,
+            "end_ms": 198640,
+            "text": "first human neural users are doing right"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 196079,
+            "end_ms": 201159,
+            "text": "now and as Elon pointed out if you can"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 223040,
+            "end_ms": 228360,
+            "text": "neural Link's first human trials Elon"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 226159,
+            "end_ms": 230400,
+            "text": "also teased that neuralink is working on"
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 251400,
+            "end_ms": 256880,
+            "text": "but in theory it is possible so with"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 254760,
+            "end_ms": 259839,
+            "text": "telepathy the nurlink device is being"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 280560,
+            "end_ms": 285039,
+            "text": "device through Bluetooth into the N1"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 283000,
+            "end_ms": 287800,
+            "text": "implant which would then convert the"
+          },
+          {
+            "cue_id": 120,
+            "start_ms": 309080,
+            "end_ms": 314880,
+            "text": "their eyes before would be able to"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 311520,
+            "end_ms": 316960,
+            "text": "visualize the world around them now this"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 336120,
+            "end_ms": 340560,
+            "text": "recognizable image and just like video"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 338880,
+            "end_ms": 343039,
+            "text": "game technology has improved over the"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 364520,
+            "end_ms": 369680,
+            "text": "design and advanced engineering so what"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 367199,
+            "end_ms": 371960,
+            "text": "makes the hover pen so electrifying well"
+          },
+          {
+            "cue_id": 155,
+            "start_ms": 393159,
+            "end_ms": 398280,
+            "text": "$99 the interstellar Edition beautifully"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 395919,
+            "end_ms": 401880,
+            "text": "captures the Earth's axis inclination at"
+          },
+          {
+            "cue_id": 168,
+            "start_ms": 423319,
+            "end_ms": 428800,
+            "text": "future Edition priced at"
+          },
+          {
+            "cue_id": 169,
+            "start_ms": 425160,
+            "end_ms": 431120,
+            "text": "$149 is a twoin one Marvel fountain pen"
+          },
+          {
+            "cue_id": 179,
+            "start_ms": 449800,
+            "end_ms": 454039,
+            "text": "offering an unrivaled writing experience"
+          },
+          {
+            "cue_id": 180,
+            "start_ms": 452240,
+            "end_ms": 456120,
+            "text": "and serving as a Timeless piece of"
+          },
+          {
+            "cue_id": 192,
+            "start_ms": 477440,
+            "end_ms": 482000,
+            "text": "world of brain computer interface elon's"
+          },
+          {
+            "cue_id": 193,
+            "start_ms": 479840,
+            "end_ms": 484400,
+            "text": "company is really just one piece of a"
+          },
+          {
+            "cue_id": 204,
+            "start_ms": 505520,
+            "end_ms": 510479,
+            "text": "synchron is another us-based BCI startup"
+          },
+          {
+            "cue_id": 205,
+            "start_ms": 508479,
+            "end_ms": 513200,
+            "text": "company that has already completed their"
+          },
+          {
+            "cue_id": 217,
+            "start_ms": 533880,
+            "end_ms": 539279,
+            "text": "is a big factor in allowing human trials"
+          },
+          {
+            "cue_id": 218,
+            "start_ms": 536240,
+            "end_ms": 540760,
+            "text": "at synchron to move at a faster pace"
+          },
+          {
+            "cue_id": 230,
+            "start_ms": 563160,
+            "end_ms": 567680,
+            "text": "device is using a primary blood vessel"
+          },
+          {
+            "cue_id": 231,
+            "start_ms": 565399,
+            "end_ms": 570680,
+            "text": "as an express lane directly from the"
+          },
+          {
+            "cue_id": 243,
+            "start_ms": 593320,
+            "end_ms": 596800,
+            "text": "let's go back to what we were just"
+          },
+          {
+            "cue_id": 244,
+            "start_ms": 594600,
+            "end_ms": 600000,
+            "text": "talking about at the beginning the first"
+          },
+          {
+            "cue_id": 254,
+            "start_ms": 620040,
+            "end_ms": 624959,
+            "text": "that's been cut into the patient's skull"
+          },
+          {
+            "cue_id": 255,
+            "start_ms": 622640,
+            "end_ms": 627480,
+            "text": "and then looking at our stod again we"
+          },
+          {
+            "cue_id": 265,
+            "start_ms": 649320,
+            "end_ms": 654800,
+            "text": "smartphone device and synchron currently"
+          },
+          {
+            "cue_id": 266,
+            "start_ms": 652000,
+            "end_ms": 657200,
+            "text": "has 10 active human patients in their"
+          },
+          {
+            "cue_id": 276,
+            "start_ms": 675760,
+            "end_ms": 680720,
+            "text": "of implant can really accomplish which"
+          },
+          {
+            "cue_id": 277,
+            "start_ms": 678320,
+            "end_ms": 682360,
+            "text": "is still cool but it doesn't exactly"
+          },
+          {
+            "cue_id": 288,
+            "start_ms": 705360,
+            "end_ms": 710639,
+            "text": "brain disease correcting mental illness"
+          },
+          {
+            "cue_id": 289,
+            "start_ms": 707639,
+            "end_ms": 713600,
+            "text": "ending obesity and interfacing the human"
+          },
+          {
+            "cue_id": 299,
+            "start_ms": 733120,
+            "end_ms": 738560,
+            "text": "as close to neuralink as anyone else has"
+          },
+          {
+            "cue_id": 300,
+            "start_ms": 735560,
+            "end_ms": 740800,
+            "text": "come this is Black Rock neurotech it"
+          },
+          {
+            "cue_id": 310,
+            "start_ms": 761600,
+            "end_ms": 765800,
+            "text": "the same category that nuring falls"
+          },
+          {
+            "cue_id": 311,
+            "start_ms": 763600,
+            "end_ms": 768199,
+            "text": "under meaning that the operation has to"
+          },
+          {
+            "cue_id": 322,
+            "start_ms": 790160,
+            "end_ms": 794680,
+            "text": "neuralink thread but even still that"
+          },
+          {
+            "cue_id": 323,
+            "start_ms": 792920,
+            "end_ms": 797399,
+            "text": "direct connection through hundreds of"
+          },
+          {
+            "cue_id": 334,
+            "start_ms": 817399,
+            "end_ms": 822480,
+            "text": "again on his own so while their"
+          },
+          {
+            "cue_id": 335,
+            "start_ms": 820240,
+            "end_ms": 825079,
+            "text": "technology approach may be a bit"
+          },
+          {
+            "cue_id": 345,
+            "start_ms": 845600,
+            "end_ms": 851120,
+            "text": "of electrodes going 2 mm deep so again"
+          },
+          {
+            "cue_id": 346,
+            "start_ms": 849040,
+            "end_ms": 853839,
+            "text": "the long-term perspective is what makes"
+          },
+          {
+            "cue_id": 356,
+            "start_ms": 877920,
+            "end_ms": 880920,
+            "text": "tuned"
+          }
+        ],
+        "text": "ready for the consequences of a cyborg\nrevolution neuralink has arrived now\nmicroscopic electrode sensors and then a\nvery small battery powered computer\nSpike detection ever since the concept\nwas introduced 8 years ago nurlink has\nsoftware application that will harness\nthe capability of the N1 device that is\ntheory telepathy should allow the user\nto reach out and control pretty much\nthe initial application that neuralink\nhas demonstrated is telepathic typing\nfirst human neural users are doing right\nnow and as Elon pointed out if you can\nneural Link's first human trials Elon\nalso teased that neuralink is working on\nbut in theory it is possible so with\ntelepathy the nurlink device is being\ndevice through Bluetooth into the N1\nimplant which would then convert the\ntheir eyes before would be able to\nvisualize the world around them now this\nrecognizable image and just like video\ngame technology has improved over the\ndesign and advanced engineering so what\nmakes the hover pen so electrifying well\n$99 the interstellar Edition beautifully\ncaptures the Earth's axis inclination at\nfuture Edition priced at\n$149 is a twoin one Marvel fountain pen\noffering an unrivaled writing experience\nand serving as a Timeless piece of\nworld of brain computer interface elon's\ncompany is really just one piece of a\nsynchron is another us-based BCI startup\ncompany that has already completed their\nis a big factor in allowing human trials\nat synchron to move at a faster pace\ndevice is using a primary blood vessel\nas an express lane directly from the\nlet's go back to what we were just\ntalking about at the beginning the first\nthat's been cut into the patient's skull\nand then looking at our stod again we\nsmartphone device and synchron currently\nhas 10 active human patients in their\nof implant can really accomplish which\nis still cool but it doesn't exactly\nbrain disease correcting mental illness\nending obesity and interfacing the human\nas close to neuralink as anyone else has\ncome this is Black Rock neurotech it\nthe same category that nuring falls\nunder meaning that the operation has to\nneuralink thread but even still that\ndirect connection through hundreds of\nagain on his own so while their\ntechnology approach may be a bit\nof electrodes going 2 mm deep so again\nthe long-term perspective is what makes\ntuned",
+        "text_tokens": 510,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 19160,
+          "end_ms": 31960,
+          "text": "into a real world that might not be ready for the consequences of a cyborg revolution neuralink has arrived now what comes next"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 50239,
+          "end_ms": 62519,
+          "text": "cerebral cortex each wire containing 16 microscopic electrode sensors and then a very small battery powered computer device was nestled inside inside this"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "start_ms": 79200,
+          "end_ms": 93439,
+          "text": "already begun to show promising neuron Spike detection ever since the concept was introduced 8 years ago nurlink has felt like a purely speculative techn"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 107240,
+          "end_ms": 119840,
+          "text": "telepathy and by that he means the first software application that will harness the capability of the N1 device that is currently resting inside the skull of at"
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "start_ms": 134440,
+          "end_ms": 146959,
+          "text": "their computer or smartphone so in theory telepathy should allow the user to reach out and control pretty much anything it is important to acknowledge"
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "start_ms": 164000,
+          "end_ms": 175720,
+          "text": "of autonomy to people who have the least the initial application that neuralink has demonstrated is telepathic typing and cursor control just by thinking"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 190760,
+          "end_ms": 203159,
+          "text": "now so this is what we can assume the first human neural users are doing right now and as Elon pointed out if you can use a smartphone you can operate any"
+        },
+        {
+          "id": "S84",
+          "cue_ids": [
+            84,
+            85,
+            86,
+            87
+          ],
+          "start_ms": 220959,
+          "end_ms": 234000,
+          "text": "not all that Elon Musk has in mind for neural Link's first human trials Elon also teased that neuralink is working on a second application that will join"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "start_ms": 248400,
+          "end_ms": 261639,
+          "text": "brain this one is a little further out but in theory it is possible so with telepathy the nurlink device is being used exclusively as a transmitter the"
+        },
+        {
+          "id": "S107",
+          "cue_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 278320,
+          "end_ms": 289840,
+          "text": "and transmit digital information from a device through Bluetooth into the N1 implant which would then convert the digital signal into neuron activations"
+        },
+        {
+          "id": "S119",
+          "cue_ids": [
+            119,
+            120,
+            121,
+            122
+          ],
+          "start_ms": 306520,
+          "end_ms": 319400,
+          "text": "so even a person who has never seen with their eyes before would be able to visualize the world around them now this won't be anything like having real"
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "start_ms": 333680,
+          "end_ms": 345560,
+          "text": "limited but you could still create a recognizable image and just like video game technology has improved over the decades to become more and more detailed"
+        },
+        {
+          "id": "S142",
+          "cue_ids": [
+            142,
+            143,
+            144,
+            145
+          ],
+          "start_ms": 361400,
+          "end_ms": 373840,
+          "text": "novi's hover pen a true symbol of sleek design and advanced engineering so what makes the hover pen so electrifying well award-winning design the interstellar"
+        },
+        {
+          "id": "S154",
+          "cue_ids": [
+            154,
+            155,
+            156,
+            157
+          ],
+          "start_ms": 390400,
+          "end_ms": 403800,
+          "text": "Enthusiast Stellar inspiration priced at $99 the interstellar Edition beautifully captures the Earth's axis inclination at a 23.5° angle the colors are simply out"
+        },
+        {
+          "id": "S167",
+          "cue_ids": [
+            167,
+            168,
+            169,
+            170
+          ],
+          "start_ms": 421720,
+          "end_ms": 433199,
+          "text": "there their latest Masterpiece the future Edition priced at $149 is a twoin one Marvel fountain pen or roller bar you get to choose with its"
+        },
+        {
+          "id": "S178",
+          "cue_ids": [
+            178,
+            179,
+            180,
+            181
+          ],
+          "start_ms": 447160,
+          "end_ms": 458560,
+          "text": "blend of Art and the mysteries of space offering an unrivaled writing experience and serving as a Timeless piece of luxury for the Tesla Titans of my"
+        },
+        {
+          "id": "S191",
+          "cue_ids": [
+            191,
+            192,
+            193,
+            194
+          ],
+          "start_ms": 475759,
+          "end_ms": 487000,
+          "text": "headline grabbing product in the modern world of brain computer interface elon's company is really just one piece of a much larger puzzle that neuroscientists"
+        },
+        {
+          "id": "S203",
+          "cue_ids": [
+            203,
+            204,
+            205,
+            206
+          ],
+          "start_ms": 502919,
+          "end_ms": 515320,
+          "text": "best chance of coming out on top synchron is another us-based BCI startup company that has already completed their first round of human trials in 2023"
+        },
+        {
+          "id": "S216",
+          "cue_ids": [
+            216,
+            217,
+            218,
+            219
+          ],
+          "start_ms": 531839,
+          "end_ms": 542920,
+          "text": "procedure being done at neuralink which is a big factor in allowing human trials at synchron to move at a faster pace instead of approaching the brain through"
+        },
+        {
+          "id": "S229",
+          "cue_ids": [
+            229,
+            230,
+            231,
+            232
+          ],
+          "start_ms": 560640,
+          "end_ms": 572640,
+          "text": "stroke in the case of the Sten Road the device is using a primary blood vessel as an express lane directly from the chest into the cerebral cortex once the"
+        },
+        {
+          "id": "S242",
+          "cue_ids": [
+            242,
+            243,
+            244,
+            245
+          ],
+          "start_ms": 590880,
+          "end_ms": 602440,
+          "text": "how does that compare to neuralink well let's go back to what we were just talking about at the beginning the first neuralink patient has had 64 tiny wires"
+        },
+        {
+          "id": "S253",
+          "cue_ids": [
+            253,
+            254,
+            255,
+            256
+          ],
+          "start_ms": 617720,
+          "end_ms": 629560,
+          "text": "distributed across the circular hole that's been cut into the patient's skull and then looking at our stod again we have 16 electrodes placed inside a blood"
+        },
+        {
+          "id": "S264",
+          "cue_ids": [
+            264,
+            265,
+            266,
+            267
+          ],
+          "start_ms": 646120,
+          "end_ms": 659560,
+          "text": "basic control over a keyboard mouse and smartphone device and synchron currently has 10 active human patients in their initial feasibility study that began in"
+        },
+        {
+          "id": "S275",
+          "cue_ids": [
+            275,
+            276,
+            277,
+            278
+          ],
+          "start_ms": 673360,
+          "end_ms": 684800,
+          "text": "is about all that this particular style of implant can really accomplish which is still cool but it doesn't exactly provide much of an outlook for the"
+        },
+        {
+          "id": "S287",
+          "cue_ids": [
+            287,
+            288,
+            289,
+            290
+          ],
+          "start_ms": 703240,
+          "end_ms": 717040,
+          "text": "lot of potential outcomes like curing brain disease correcting mental illness ending obesity and interfacing the human brain with an artificial super"
+        },
+        {
+          "id": "S298",
+          "cue_ids": [
+            298,
+            299,
+            300,
+            301
+          ],
+          "start_ms": 730480,
+          "end_ms": 743040,
+          "text": "look at another BCI technology that is as close to neuralink as anyone else has come this is Black Rock neurotech it sounds like a scary name and it kind of"
+        },
+        {
+          "id": "S309",
+          "cue_ids": [
+            309,
+            310,
+            311,
+            312
+          ],
+          "start_ms": 758160,
+          "end_ms": 770800,
+          "text": "pioneers of the invasive BCI which is the same category that nuring falls under meaning that the operation has to go in through the skull and gain access"
+        },
+        {
+          "id": "S321",
+          "cue_ids": [
+            321,
+            322,
+            323,
+            324
+          ],
+          "start_ms": 787959,
+          "end_ms": 799440,
+          "text": "penetrate as deep into the tissue as a neuralink thread but even still that direct connection through hundreds of electrode pins can provide a significant"
+        },
+        {
+          "id": "S333",
+          "cue_ids": [
+            333,
+            334,
+            335,
+            336
+          ],
+          "start_ms": 814880,
+          "end_ms": 827480,
+          "text": "his legs in a traffic accident to walk again on his own so while their technology approach may be a bit primitive by Modern Standard the list of"
+        },
+        {
+          "id": "S344",
+          "cue_ids": [
+            344,
+            345,
+            346,
+            347
+          ],
+          "start_ms": 843320,
+          "end_ms": 856399,
+          "text": "what can be accomplished with thousands of electrodes going 2 mm deep so again the long-term perspective is what makes neuralink so captivating there is no"
+        },
+        {
+          "id": "S355",
+          "cue_ids": [
+            355,
+            356
+          ],
+          "start_ms": 871680,
+          "end_ms": 880920,
+          "text": "possible with the human brain so stay tuned"
+        }
+      ],
+      "text": "S8 [00:00:19.160 --> 00:00:31.960] into a real world that might not be ready for the consequences of a cyborg revolution neuralink has arrived now what comes next\nS17 [00:00:50.239 --> 00:01:02.519] cerebral cortex each wire containing 16 microscopic electrode sensors and then a very small battery powered computer device was nestled inside inside this\nS28 [00:01:19.200 --> 00:01:33.439] already begun to show promising neuron Spike detection ever since the concept was introduced 8 years ago nurlink has felt like a purely speculative techn\nS38 [00:01:47.240 --> 00:01:59.840] telepathy and by that he means the first software application that will harness the capability of the N1 device that is currently resting inside the skull of at\nS49 [00:02:14.440 --> 00:02:26.959] their computer or smartphone so in theory telepathy should allow the user to reach out and control pretty much anything it is important to acknowledge\nS61 [00:02:44.000 --> 00:02:55.720] of autonomy to people who have the least the initial application that neuralink has demonstrated is telepathic typing and cursor control just by thinking\nS72 [00:03:10.760 --> 00:03:23.159] now so this is what we can assume the first human neural users are doing right now and as Elon pointed out if you can use a smartphone you can operate any\nS84 [00:03:40.959 --> 00:03:54.000] not all that Elon Musk has in mind for neural Link's first human trials Elon also teased that neuralink is working on a second application that will join\nS95 [00:04:08.400 --> 00:04:21.639] brain this one is a little further out but in theory it is possible so with telepathy the nurlink device is being used exclusively as a transmitter the\nS107 [00:04:38.320 --> 00:04:49.840] and transmit digital information from a device through Bluetooth into the N1 implant which would then convert the digital signal into neuron activations\nS119 [00:05:06.520 --> 00:05:19.400] so even a person who has never seen with their eyes before would be able to visualize the world around them now this won't be anything like having real\nS130 [00:05:33.680 --> 00:05:45.560] limited but you could still create a recognizable image and just like video game technology has improved over the decades to become more and more detailed\nS142 [00:06:01.400 --> 00:06:13.840] novi's hover pen a true symbol of sleek design and advanced engineering so what makes the hover pen so electrifying well award-winning design the interstellar\nS154 [00:06:30.400 --> 00:06:43.800] Enthusiast Stellar inspiration priced at $99 the interstellar Edition beautifully captures the Earth's axis inclination at a 23.5° angle the colors are simply out\nS167 [00:07:01.720 --> 00:07:13.199] there their latest Masterpiece the future Edition priced at $149 is a twoin one Marvel fountain pen or roller bar you get to choose with its\nS178 [00:07:27.160 --> 00:07:38.560] blend of Art and the mysteries of space offering an unrivaled writing experience and serving as a Timeless piece of luxury for the Tesla Titans of my\nS191 [00:07:55.759 --> 00:08:07.000] headline grabbing product in the modern world of brain computer interface elon's company is really just one piece of a much larger puzzle that neuroscientists\nS203 [00:08:22.919 --> 00:08:35.320] best chance of coming out on top synchron is another us-based BCI startup company that has already completed their first round of human trials in 2023\nS216 [00:08:51.839 --> 00:09:02.920] procedure being done at neuralink which is a big factor in allowing human trials at synchron to move at a faster pace instead of approaching the brain through\nS229 [00:09:20.640 --> 00:09:32.640] stroke in the case of the Sten Road the device is using a primary blood vessel as an express lane directly from the chest into the cerebral cortex once the\nS242 [00:09:50.880 --> 00:10:02.440] how does that compare to neuralink well let's go back to what we were just talking about at the beginning the first neuralink patient has had 64 tiny wires\nS253 [00:10:17.720 --> 00:10:29.560] distributed across the circular hole that's been cut into the patient's skull and then looking at our stod again we have 16 electrodes placed inside a blood\nS264 [00:10:46.120 --> 00:10:59.560] basic control over a keyboard mouse and smartphone device and synchron currently has 10 active human patients in their initial feasibility study that began in\nS275 [00:11:13.360 --> 00:11:24.800] is about all that this particular style of implant can really accomplish which is still cool but it doesn't exactly provide much of an outlook for the\nS287 [00:11:43.240 --> 00:11:57.040] lot of potential outcomes like curing brain disease correcting mental illness ending obesity and interfacing the human brain with an artificial super\nS298 [00:12:10.480 --> 00:12:23.040] look at another BCI technology that is as close to neuralink as anyone else has come this is Black Rock neurotech it sounds like a scary name and it kind of\nS309 [00:12:38.160 --> 00:12:50.800] pioneers of the invasive BCI which is the same category that nuring falls under meaning that the operation has to go in through the skull and gain access\nS321 [00:13:07.959 --> 00:13:19.440] penetrate as deep into the tissue as a neuralink thread but even still that direct connection through hundreds of electrode pins can provide a significant\nS333 [00:13:34.880 --> 00:13:47.480] his legs in a traffic accident to walk again on his own so while their technology approach may be a bit primitive by Modern Standard the list of\nS344 [00:14:03.320 --> 00:14:16.399] what can be accomplished with thousands of electrodes going 2 mm deep so again the long-term perspective is what makes neuralink so captivating there is no\nS355 [00:14:31.680 --> 00:14:40.920] possible with the human brain so stay tuned",
+      "text_tokens": 1896,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        8,
+        11,
+        17,
+        20,
+        28,
+        31,
+        38,
+        41,
+        49,
+        52,
+        61,
+        64,
+        72,
+        75,
+        84,
+        87,
+        95,
+        98,
+        107,
+        110,
+        119,
+        122,
+        130,
+        133,
+        142,
+        145,
+        154,
+        157,
+        167,
+        170,
+        178,
+        181,
+        191,
+        194,
+        203,
+        206,
+        216,
+        219,
+        229,
+        232,
+        242,
+        245,
+        253,
+        256,
+        264,
+        267,
+        275,
+        278,
+        287,
+        290,
+        298,
+        301,
+        309,
+        312,
+        321,
+        324,
+        333,
+        336,
+        344,
+        347,
+        355
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "9ef2b0e623d8ade1c484908357ade8c420ea58d84df0099ad195cc98a66a90b2"
+}

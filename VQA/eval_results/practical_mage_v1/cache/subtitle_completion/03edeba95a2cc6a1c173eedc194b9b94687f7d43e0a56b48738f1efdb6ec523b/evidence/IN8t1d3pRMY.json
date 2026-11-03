@@ -1,0 +1,665 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "IN8t1d3pRMY",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IN8t1d3pRMY.srt",
+        "status": "available",
+        "bytes": 4959,
+        "sha256": "302100e9581c631afe9bf9ee7582c177664fab5570edf4f7ee01e638a54ebf11",
+        "cues": 59,
+        "nonempty_cues": 59
+      },
+      "frame_indices": [
+        0,
+        470,
+        940,
+        1410,
+        1880,
+        2350,
+        2820,
+        3290,
+        3760,
+        4230,
+        4700,
+        5170,
+        5640,
+        6110,
+        6580,
+        7050,
+        7520,
+        7990,
+        8460,
+        8930,
+        9400,
+        9870,
+        10340,
+        10810,
+        11280,
+        11750,
+        12220,
+        12690,
+        13160,
+        13630,
+        14100,
+        14570
+      ],
+      "frame_seconds": [
+        0.0,
+        15.682333,
+        31.364667,
+        47.047,
+        62.729333,
+        78.411667,
+        94.094,
+        109.776333,
+        125.458667,
+        141.141,
+        156.823333,
+        172.50566700000002,
+        188.188,
+        203.870333,
+        219.55266699999999,
+        235.235,
+        250.91733299999999,
+        266.599667,
+        282.282,
+        297.964333,
+        313.646667,
+        329.329,
+        345.011333,
+        360.693667,
+        376.376,
+        392.058333,
+        407.74066700000003,
+        423.423,
+        439.105333,
+        454.787667,
+        470.47,
+        486.152333
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [],
+        [
+          12
+        ],
+        [],
+        [],
+        [],
+        [
+          18
+        ],
+        [],
+        [],
+        [],
+        [
+          22,
+          23
+        ],
+        [],
+        [],
+        [],
+        [
+          30
+        ],
+        [],
+        [],
+        [],
+        [
+          38
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          42
+        ],
+        [
+          44
+        ],
+        [],
+        [],
+        [
+          47,
+          48
+        ],
+        [],
+        [
+          52,
+          53
+        ],
+        [
+          58
+        ],
+        [
+          58,
+          59
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 5,
+          "start_ms": 26890,
+          "end_ms": 33359,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 36980,
+          "end_ms": 52600,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 77600,
+          "end_ms": 80600,
+          "text": "oh"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 139430,
+          "end_ms": 142509,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 188879,
+          "end_ms": 204400,
+          "text": "oh"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 190680,
+          "end_ms": 207400,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 258290,
+          "end_ms": 273560,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 327380,
+          "end_ms": 330589,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 337600,
+          "end_ms": 355970,
+          "text": "smoke"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 338740,
+          "end_ms": 355970,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 359600,
+          "end_ms": 362600,
+          "text": "no"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 373520,
+          "end_ms": 376520,
+          "text": "sweet"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 411520,
+          "end_ms": 427779,
+          "text": "so"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 413260,
+          "end_ms": 427779,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 451599,
+          "end_ms": 455440,
+          "text": "sorry for being told and not using them"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 453840,
+          "end_ms": 457599,
+          "text": "i promise i will"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 470190,
+          "end_ms": 488080,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 486000,
+          "end_ms": 488080,
+          "text": "you"
+        }
+      ],
+      "text": "[Music]\n[Music]\noh\n[Music]\noh\n[Music]\n[Music]\n[Music]\nsmoke\n[Music]\nno\nsweet\nso\n[Music]\nsorry for being told and not using them\ni promise i will\n[Music]\nyou",
+      "text_tokens": 55,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "IN8t1d3pRMY",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IN8t1d3pRMY.srt",
+          "status": "available",
+          "bytes": 4959,
+          "sha256": "302100e9581c631afe9bf9ee7582c177664fab5570edf4f7ee01e638a54ebf11",
+          "cues": 59,
+          "nonempty_cues": 59
+        },
+        "frame_indices": [
+          0,
+          470,
+          940,
+          1410,
+          1880,
+          2350,
+          2820,
+          3290,
+          3760,
+          4230,
+          4700,
+          5170,
+          5640,
+          6110,
+          6580,
+          7050,
+          7520,
+          7990,
+          8460,
+          8930,
+          9400,
+          9870,
+          10340,
+          10810,
+          11280,
+          11750,
+          12220,
+          12690,
+          13160,
+          13630,
+          14100,
+          14570
+        ],
+        "frame_seconds": [
+          0.0,
+          15.682333,
+          31.364667,
+          47.047,
+          62.729333,
+          78.411667,
+          94.094,
+          109.776333,
+          125.458667,
+          141.141,
+          156.823333,
+          172.50566700000002,
+          188.188,
+          203.870333,
+          219.55266699999999,
+          235.235,
+          250.91733299999999,
+          266.599667,
+          282.282,
+          297.964333,
+          313.646667,
+          329.329,
+          345.011333,
+          360.693667,
+          376.376,
+          392.058333,
+          407.74066700000003,
+          423.423,
+          439.105333,
+          454.787667,
+          470.47,
+          486.152333
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [],
+          [
+            12
+          ],
+          [],
+          [],
+          [],
+          [
+            18
+          ],
+          [],
+          [],
+          [],
+          [
+            22,
+            23
+          ],
+          [],
+          [],
+          [],
+          [
+            30
+          ],
+          [],
+          [],
+          [],
+          [
+            38
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            42
+          ],
+          [
+            44
+          ],
+          [],
+          [],
+          [
+            47,
+            48
+          ],
+          [],
+          [
+            52,
+            53
+          ],
+          [
+            58
+          ],
+          [
+            58,
+            59
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 5,
+            "start_ms": 26890,
+            "end_ms": 33359,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 36980,
+            "end_ms": 52600,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 77600,
+            "end_ms": 80600,
+            "text": "oh"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 139430,
+            "end_ms": 142509,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 188879,
+            "end_ms": 204400,
+            "text": "oh"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 190680,
+            "end_ms": 207400,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 258290,
+            "end_ms": 273560,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 327380,
+            "end_ms": 330589,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 337600,
+            "end_ms": 355970,
+            "text": "smoke"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 338740,
+            "end_ms": 355970,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 42,
+            "start_ms": 359600,
+            "end_ms": 362600,
+            "text": "no"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 373520,
+            "end_ms": 376520,
+            "text": "sweet"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 411520,
+            "end_ms": 427779,
+            "text": "so"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 413260,
+            "end_ms": 427779,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 451599,
+            "end_ms": 455440,
+            "text": "sorry for being told and not using them"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 453840,
+            "end_ms": 457599,
+            "text": "i promise i will"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 470190,
+            "end_ms": 488080,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 486000,
+            "end_ms": 488080,
+            "text": "you"
+          }
+        ],
+        "text": "[Music]\n[Music]\noh\n[Music]\noh\n[Music]\n[Music]\n[Music]\nsmoke\n[Music]\nno\nsweet\nso\n[Music]\nsorry for being told and not using them\ni promise i will\n[Music]\nyou",
+        "text_tokens": 55,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_ms": 22080,
+          "end_ms": 52600,
+          "text": "funny [Music] me [Music] what"
+        },
+        {
+          "id": "S12",
+          "cue_ids": [
+            12
+          ],
+          "start_ms": 77600,
+          "end_ms": 80600,
+          "text": "oh"
+        },
+        {
+          "id": "S18",
+          "cue_ids": [
+            18
+          ],
+          "start_ms": 139430,
+          "end_ms": 142509,
+          "text": "[Music]"
+        },
+        {
+          "id": "S22",
+          "cue_ids": [
+            22,
+            23,
+            24
+          ],
+          "start_ms": 188879,
+          "end_ms": 207400,
+          "text": "oh [Music] oh"
+        },
+        {
+          "id": "S29",
+          "cue_ids": [
+            29,
+            30,
+            31
+          ],
+          "start_ms": 254640,
+          "end_ms": 273560,
+          "text": "that's ever happened [Music] oh what does he do"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38
+          ],
+          "start_ms": 327380,
+          "end_ms": 330589,
+          "text": "[Music]"
+        },
+        {
+          "id": "S39",
+          "cue_ids": [
+            39,
+            40,
+            41
+          ],
+          "start_ms": 333420,
+          "end_ms": 355970,
+          "text": "[Music] smoke [Music]"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "start_ms": 359600,
+          "end_ms": 383279,
+          "text": "no [Music] sweet [Music]"
+        },
+        {
+          "id": "S47",
+          "cue_ids": [
+            47,
+            48
+          ],
+          "start_ms": 411520,
+          "end_ms": 427779,
+          "text": "so [Music]"
+        },
+        {
+          "id": "S51",
+          "cue_ids": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "start_ms": 449440,
+          "end_ms": 458800,
+          "text": "many great submissions you sent to me sorry for being told and not using them i promise i will every great clip will be edited and"
+        },
+        {
+          "id": "S58",
+          "cue_ids": [
+            58,
+            59
+          ],
+          "start_ms": 470190,
+          "end_ms": 488080,
+          "text": "[Music] you"
+        }
+      ],
+      "text": "S4 [00:00:22.080 --> 00:00:52.600] funny [Music] me [Music] what\nS12 [00:01:17.600 --> 00:01:20.600] oh\nS18 [00:02:19.430 --> 00:02:22.509] [Music]\nS22 [00:03:08.879 --> 00:03:27.400] oh [Music] oh\nS29 [00:04:14.640 --> 00:04:33.560] that's ever happened [Music] oh what does he do\nS38 [00:05:27.380 --> 00:05:30.589] [Music]\nS39 [00:05:33.420 --> 00:05:55.970] [Music] smoke [Music]\nS42 [00:05:59.600 --> 00:06:23.279] no [Music] sweet [Music]\nS47 [00:06:51.520 --> 00:07:07.779] so [Music]\nS51 [00:07:29.440 --> 00:07:38.800] many great submissions you sent to me sorry for being told and not using them i promise i will every great clip will be edited and\nS58 [00:07:50.190 --> 00:08:08.080] [Music] you",
+      "text_tokens": 427,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        4,
+        6,
+        8,
+        24,
+        29,
+        31,
+        39,
+        43,
+        45,
+        51,
+        54
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "75d1784408c13a4bbcb3c13810b3dfe02a52ab312297b99887eb59e03db42b98"
+}

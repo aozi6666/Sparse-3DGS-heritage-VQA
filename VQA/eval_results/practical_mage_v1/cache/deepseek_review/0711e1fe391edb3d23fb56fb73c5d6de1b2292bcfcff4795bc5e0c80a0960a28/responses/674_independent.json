@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "3ac277e7d4bd70a589dd738e1a349ad7da6ded6fdcdeccf4032ce3c85c46fa8d",
+  "response": {
+    "id": "7d49f557-d1df-454e-b8bc-658f2c48a8c4",
+    "object": "chat.completion",
+    "created": 1793676096,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"B\",\"supported\":true,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[\"F45878\",\"F47872\",\"F49867\",\"F51862\"],\"windows\":[],\"notes\":\"Frames show a Garmin watch being unboxed and placed on a wrist (F45878-F51862), consistent with watching a friend unbox a watch. However, the meeting/personal-report context and immediate ordering are not established by the sparse samples or subtitles, so completeness is not supported.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7976,
+      "completion_tokens": 112,
+      "total_tokens": 8088,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7848
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.0711125284433365
+}

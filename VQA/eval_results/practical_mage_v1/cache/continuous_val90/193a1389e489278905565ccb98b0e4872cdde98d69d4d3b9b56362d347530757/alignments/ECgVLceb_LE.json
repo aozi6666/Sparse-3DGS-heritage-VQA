@@ -1,0 +1,1385 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "ECgVLceb_LE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ECgVLceb_LE.srt",
+        "status": "available",
+        "bytes": 13291,
+        "sha256": "507e2f24b0eecb074a2ad5604d6cf1d4d00bec0828f2fabeffda9b819f972d9d",
+        "cues": 124,
+        "nonempty_cues": 124
+      },
+      "frame_indices": [
+        0,
+        309,
+        619,
+        928,
+        1237,
+        1547,
+        1856,
+        2165,
+        2475,
+        2784,
+        3094,
+        3403,
+        3712,
+        4022,
+        4331,
+        4640,
+        4950,
+        5259,
+        5568,
+        5878,
+        6187,
+        6496,
+        6806,
+        7115,
+        7425,
+        7734,
+        8043,
+        8353,
+        8662,
+        8971,
+        9281,
+        9590
+      ],
+      "frame_seconds": [
+        0.0,
+        10.3,
+        20.633333,
+        30.933333,
+        41.233333,
+        51.566667,
+        61.866667,
+        72.166667,
+        82.5,
+        92.8,
+        103.133333,
+        113.433333,
+        123.733333,
+        134.066667,
+        144.366667,
+        154.666667,
+        165.0,
+        175.3,
+        185.6,
+        195.933333,
+        206.233333,
+        216.533333,
+        226.866667,
+        237.166667,
+        247.5,
+        257.8,
+        268.1,
+        278.433333,
+        288.733333,
+        299.03333299999997,
+        309.366667,
+        319.666667
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          69,
+          70
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          79,
+          80
+        ],
+        [
+          83,
+          84
+        ],
+        [
+          88,
+          89
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          108,
+          109
+        ],
+        [
+          113,
+          114
+        ],
+        [
+          118,
+          119
+        ],
+        [
+          121
+        ],
+        [
+          123,
+          124
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 21610,
+          "end_ms": 31960,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 28960,
+          "end_ms": 31960,
+          "text": "car"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 32240,
+          "end_ms": 42399,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 46280,
+          "end_ms": 52280,
+          "text": "there it is you got to dodge"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 48079,
+          "end_ms": 53640,
+          "text": "him okay so yeah that's just to show you"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 57199,
+          "end_ms": 62680,
+          "text": "get a free haircut a couple years ago I"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 60079,
+          "end_ms": 65600,
+          "text": "filmed the X2 by the same group xang"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 70159,
+          "end_ms": 73799,
+          "text": "they've already done tests let's kind of"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 71799,
+          "end_ms": 77039,
+          "text": "go step by step starting with the carbon"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 77039,
+          "end_ms": 82680,
+          "text": "lightweight this side has green lights"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 79840,
+          "end_ms": 85720,
+          "text": "the other side has red"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 90600,
+          "end_ms": 95479,
+          "text": "kind of three-dimensional glass letters"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 92720,
+          "end_ms": 98479,
+          "text": "looks very nice I love the brake light"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 99920,
+          "end_ms": 104240,
+          "text": "when it's actually unfolded when it's"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 102240,
+          "end_ms": 106560,
+          "text": "unfolded all of this hies into this"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 111280,
+          "end_ms": 115880,
+          "text": "is not entirely finalized but that's"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 113000,
+          "end_ms": 117479,
+          "text": "what they're trying to get to by"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 120200,
+          "end_ms": 124280,
+          "text": "functional in terms of anything kind of"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 122000,
+          "end_ms": 128478,
+          "text": "uh aerodynamic but they do look pretty"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 128478,
+          "end_ms": 134680,
+          "text": "because this is both a car and a drone"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 131800,
+          "end_ms": 137680,
+          "text": "kind of thing look at that see the"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 139879,
+          "end_ms": 144760,
+          "text": "fly mode designed for low altitude"
+        },
+        {
+          "cue_id": 45,
+          "start_ms": 142519,
+          "end_ms": 147760,
+          "text": "flying the look and function are both"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 151920,
+          "end_ms": 156079,
+          "text": "helicopter my favorite feature in"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 154400,
+          "end_ms": 158280,
+          "text": "driving mode the wings are fully"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 162079,
+          "end_ms": 165959,
+          "text": "what looks like a gear selector that's"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 164239,
+          "end_ms": 167920,
+          "text": "actually a joystick you'll see you have"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 170920,
+          "end_ms": 175959,
+          "text": "probably fly this thing also the"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 172920,
+          "end_ms": 177879,
+          "text": "dashboard is a full glass piece it's"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 181280,
+          "end_ms": 186120,
+          "text": "chassis is also see-through so you look"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 182879,
+          "end_ms": 188000,
+          "text": "at the floor panels that's just glass so"
+        },
+        {
+          "cue_id": 69,
+          "start_ms": 191959,
+          "end_ms": 196519,
+          "text": "whenever you"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 193200,
+          "end_ms": 199920,
+          "text": "land and that'll pop up there you"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 201760,
+          "end_ms": 206239,
+          "text": "need"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 203799,
+          "end_ms": 208439,
+          "text": "mirrors and over at the front let's go"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 214319,
+          "end_ms": 218480,
+          "text": "paint which is pretty interesting and"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 216200,
+          "end_ms": 221079,
+          "text": "again it's got that kind of like spine"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 223159,
+          "end_ms": 228079,
+          "text": "keeps the car looking angular"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 224879,
+          "end_ms": 229439,
+          "text": "aerodynamic feels good but what's"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 232439,
+          "end_ms": 237640,
+          "text": "to cost it's like you'd imagine it would"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 234920,
+          "end_ms": 240400,
+          "text": "cost like I don't know a lot in"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 245840,
+          "end_ms": 249319,
+          "text": "around"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 246720,
+          "end_ms": 250720,
+          "text": "$142,000 by 2030 that depends on the"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 254519,
+          "end_ms": 257880,
+          "text": "this for"
+        },
+        {
+          "cue_id": 100,
+          "start_ms": 255560,
+          "end_ms": 259040,
+          "text": "$142,000 that's as much as like an"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 263919,
+          "end_ms": 268800,
+          "text": "car I'm picking the fler now you might"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 266960,
+          "end_ms": 271600,
+          "text": "be thinking this looks great but surely"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 273440,
+          "end_ms": 278440,
+          "text": "the same propellers and equivalent car"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 275600,
+          "end_ms": 280639,
+          "text": "weight of the aot EO flying car so this"
+        },
+        {
+          "cue_id": 113,
+          "start_ms": 285400,
+          "end_ms": 290159,
+          "text": "also already working on the next big"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 287360,
+          "end_ms": 292680,
+          "text": "thing a groundbreaking land aircraft"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 296680,
+          "end_ms": 301240,
+          "text": "unique design of this six-wheeler houses"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 298560,
+          "end_ms": 304520,
+          "text": "a flying vehicle inside seamlessly"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 305199,
+          "end_ms": 313600,
+          "text": "air anyways the xang aot eeve toll what"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 314130,
+          "end_ms": 321639,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 318639,
+          "end_ms": 321639,
+          "text": "car"
+        }
+      ],
+      "text": "[Music]\ncar\n[Music]\nthere it is you got to dodge\nhim okay so yeah that's just to show you\nget a free haircut a couple years ago I\nfilmed the X2 by the same group xang\nthey've already done tests let's kind of\ngo step by step starting with the carbon\nlightweight this side has green lights\nthe other side has red\nkind of three-dimensional glass letters\nlooks very nice I love the brake light\nwhen it's actually unfolded when it's\nunfolded all of this hies into this\nis not entirely finalized but that's\nwhat they're trying to get to by\nfunctional in terms of anything kind of\nuh aerodynamic but they do look pretty\nbecause this is both a car and a drone\nkind of thing look at that see the\nfly mode designed for low altitude\nflying the look and function are both\nhelicopter my favorite feature in\ndriving mode the wings are fully\nwhat looks like a gear selector that's\nactually a joystick you'll see you have\nprobably fly this thing also the\ndashboard is a full glass piece it's\nchassis is also see-through so you look\nat the floor panels that's just glass so\nwhenever you\nland and that'll pop up there you\nneed\nmirrors and over at the front let's go\npaint which is pretty interesting and\nagain it's got that kind of like spine\nkeeps the car looking angular\naerodynamic feels good but what's\nto cost it's like you'd imagine it would\ncost like I don't know a lot in\naround\n$142,000 by 2030 that depends on the\nthis for\n$142,000 that's as much as like an\ncar I'm picking the fler now you might\nbe thinking this looks great but surely\nthe same propellers and equivalent car\nweight of the aot EO flying car so this\nalso already working on the next big\nthing a groundbreaking land aircraft\nunique design of this six-wheeler houses\na flying vehicle inside seamlessly\nair anyways the xang aot eeve toll what\n[Music]\ncar",
+      "text_tokens": 459,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ECgVLceb_LE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ECgVLceb_LE.srt",
+          "status": "available",
+          "bytes": 13291,
+          "sha256": "507e2f24b0eecb074a2ad5604d6cf1d4d00bec0828f2fabeffda9b819f972d9d",
+          "cues": 124,
+          "nonempty_cues": 124
+        },
+        "frame_indices": [
+          0,
+          309,
+          619,
+          928,
+          1237,
+          1547,
+          1856,
+          2165,
+          2475,
+          2784,
+          3094,
+          3403,
+          3712,
+          4022,
+          4331,
+          4640,
+          4950,
+          5259,
+          5568,
+          5878,
+          6187,
+          6496,
+          6806,
+          7115,
+          7425,
+          7734,
+          8043,
+          8353,
+          8662,
+          8971,
+          9281,
+          9590
+        ],
+        "frame_seconds": [
+          0.0,
+          10.3,
+          20.633333,
+          30.933333,
+          41.233333,
+          51.566667,
+          61.866667,
+          72.166667,
+          82.5,
+          92.8,
+          103.133333,
+          113.433333,
+          123.733333,
+          134.066667,
+          144.366667,
+          154.666667,
+          165.0,
+          175.3,
+          185.6,
+          195.933333,
+          206.233333,
+          216.533333,
+          226.866667,
+          237.166667,
+          247.5,
+          257.8,
+          268.1,
+          278.433333,
+          288.733333,
+          299.03333299999997,
+          309.366667,
+          319.666667
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [],
+          [
+            4,
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            49,
+            50
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            59,
+            60
+          ],
+          [
+            64,
+            65
+          ],
+          [
+            69,
+            70
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            79,
+            80
+          ],
+          [
+            83,
+            84
+          ],
+          [
+            88,
+            89
+          ],
+          [
+            94,
+            95
+          ],
+          [
+            99,
+            100
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            113,
+            114
+          ],
+          [
+            118,
+            119
+          ],
+          [
+            121
+          ],
+          [
+            123,
+            124
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 4,
+            "start_ms": 21610,
+            "end_ms": 31960,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 28960,
+            "end_ms": 31960,
+            "text": "car"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 32240,
+            "end_ms": 42399,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 46280,
+            "end_ms": 52280,
+            "text": "there it is you got to dodge"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 48079,
+            "end_ms": 53640,
+            "text": "him okay so yeah that's just to show you"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 57199,
+            "end_ms": 62680,
+            "text": "get a free haircut a couple years ago I"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 60079,
+            "end_ms": 65600,
+            "text": "filmed the X2 by the same group xang"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 70159,
+            "end_ms": 73799,
+            "text": "they've already done tests let's kind of"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 71799,
+            "end_ms": 77039,
+            "text": "go step by step starting with the carbon"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 77039,
+            "end_ms": 82680,
+            "text": "lightweight this side has green lights"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 79840,
+            "end_ms": 85720,
+            "text": "the other side has red"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 90600,
+            "end_ms": 95479,
+            "text": "kind of three-dimensional glass letters"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 92720,
+            "end_ms": 98479,
+            "text": "looks very nice I love the brake light"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 99920,
+            "end_ms": 104240,
+            "text": "when it's actually unfolded when it's"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 102240,
+            "end_ms": 106560,
+            "text": "unfolded all of this hies into this"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 111280,
+            "end_ms": 115880,
+            "text": "is not entirely finalized but that's"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 113000,
+            "end_ms": 117479,
+            "text": "what they're trying to get to by"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 120200,
+            "end_ms": 124280,
+            "text": "functional in terms of anything kind of"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 122000,
+            "end_ms": 128478,
+            "text": "uh aerodynamic but they do look pretty"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 128478,
+            "end_ms": 134680,
+            "text": "because this is both a car and a drone"
+          },
+          {
+            "cue_id": 41,
+            "start_ms": 131800,
+            "end_ms": 137680,
+            "text": "kind of thing look at that see the"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 139879,
+            "end_ms": 144760,
+            "text": "fly mode designed for low altitude"
+          },
+          {
+            "cue_id": 45,
+            "start_ms": 142519,
+            "end_ms": 147760,
+            "text": "flying the look and function are both"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 151920,
+            "end_ms": 156079,
+            "text": "helicopter my favorite feature in"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 154400,
+            "end_ms": 158280,
+            "text": "driving mode the wings are fully"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 162079,
+            "end_ms": 165959,
+            "text": "what looks like a gear selector that's"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 164239,
+            "end_ms": 167920,
+            "text": "actually a joystick you'll see you have"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 170920,
+            "end_ms": 175959,
+            "text": "probably fly this thing also the"
+          },
+          {
+            "cue_id": 60,
+            "start_ms": 172920,
+            "end_ms": 177879,
+            "text": "dashboard is a full glass piece it's"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 181280,
+            "end_ms": 186120,
+            "text": "chassis is also see-through so you look"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 182879,
+            "end_ms": 188000,
+            "text": "at the floor panels that's just glass so"
+          },
+          {
+            "cue_id": 69,
+            "start_ms": 191959,
+            "end_ms": 196519,
+            "text": "whenever you"
+          },
+          {
+            "cue_id": 70,
+            "start_ms": 193200,
+            "end_ms": 199920,
+            "text": "land and that'll pop up there you"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 201760,
+            "end_ms": 206239,
+            "text": "need"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 203799,
+            "end_ms": 208439,
+            "text": "mirrors and over at the front let's go"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 214319,
+            "end_ms": 218480,
+            "text": "paint which is pretty interesting and"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 216200,
+            "end_ms": 221079,
+            "text": "again it's got that kind of like spine"
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 223159,
+            "end_ms": 228079,
+            "text": "keeps the car looking angular"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 224879,
+            "end_ms": 229439,
+            "text": "aerodynamic feels good but what's"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 232439,
+            "end_ms": 237640,
+            "text": "to cost it's like you'd imagine it would"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 234920,
+            "end_ms": 240400,
+            "text": "cost like I don't know a lot in"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 245840,
+            "end_ms": 249319,
+            "text": "around"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 246720,
+            "end_ms": 250720,
+            "text": "$142,000 by 2030 that depends on the"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 254519,
+            "end_ms": 257880,
+            "text": "this for"
+          },
+          {
+            "cue_id": 100,
+            "start_ms": 255560,
+            "end_ms": 259040,
+            "text": "$142,000 that's as much as like an"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 263919,
+            "end_ms": 268800,
+            "text": "car I'm picking the fler now you might"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 266960,
+            "end_ms": 271600,
+            "text": "be thinking this looks great but surely"
+          },
+          {
+            "cue_id": 108,
+            "start_ms": 273440,
+            "end_ms": 278440,
+            "text": "the same propellers and equivalent car"
+          },
+          {
+            "cue_id": 109,
+            "start_ms": 275600,
+            "end_ms": 280639,
+            "text": "weight of the aot EO flying car so this"
+          },
+          {
+            "cue_id": 113,
+            "start_ms": 285400,
+            "end_ms": 290159,
+            "text": "also already working on the next big"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 287360,
+            "end_ms": 292680,
+            "text": "thing a groundbreaking land aircraft"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 296680,
+            "end_ms": 301240,
+            "text": "unique design of this six-wheeler houses"
+          },
+          {
+            "cue_id": 119,
+            "start_ms": 298560,
+            "end_ms": 304520,
+            "text": "a flying vehicle inside seamlessly"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 305199,
+            "end_ms": 313600,
+            "text": "air anyways the xang aot eeve toll what"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 314130,
+            "end_ms": 321639,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 318639,
+            "end_ms": 321639,
+            "text": "car"
+          }
+        ],
+        "text": "[Music]\ncar\n[Music]\nthere it is you got to dodge\nhim okay so yeah that's just to show you\nget a free haircut a couple years ago I\nfilmed the X2 by the same group xang\nthey've already done tests let's kind of\ngo step by step starting with the carbon\nlightweight this side has green lights\nthe other side has red\nkind of three-dimensional glass letters\nlooks very nice I love the brake light\nwhen it's actually unfolded when it's\nunfolded all of this hies into this\nis not entirely finalized but that's\nwhat they're trying to get to by\nfunctional in terms of anything kind of\nuh aerodynamic but they do look pretty\nbecause this is both a car and a drone\nkind of thing look at that see the\nfly mode designed for low altitude\nflying the look and function are both\nhelicopter my favorite feature in\ndriving mode the wings are fully\nwhat looks like a gear selector that's\nactually a joystick you'll see you have\nprobably fly this thing also the\ndashboard is a full glass piece it's\nchassis is also see-through so you look\nat the floor panels that's just glass so\nwhenever you\nland and that'll pop up there you\nneed\nmirrors and over at the front let's go\npaint which is pretty interesting and\nagain it's got that kind of like spine\nkeeps the car looking angular\naerodynamic feels good but what's\nto cost it's like you'd imagine it would\ncost like I don't know a lot in\naround\n$142,000 by 2030 that depends on the\nthis for\n$142,000 that's as much as like an\ncar I'm picking the fler now you might\nbe thinking this looks great but surely\nthe same propellers and equivalent car\nweight of the aot EO flying car so this\nalso already working on the next big\nthing a groundbreaking land aircraft\nunique design of this six-wheeler houses\na flying vehicle inside seamlessly\nair anyways the xang aot eeve toll what\n[Music]\ncar",
+        "text_tokens": 459,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S4",
+          "cue_ids": [
+            4,
+            5,
+            6
+          ],
+          "start_ms": 21610,
+          "end_ms": 42399,
+          "text": "[Music] car [Music]"
+        },
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_ms": 46280,
+          "end_ms": 68080,
+          "text": "there it is you got to dodge him okay so yeah that's just to show you that the propellers work let's get over to the others oh my God going to how to get a free haircut a couple years ago I filmed the X2 by the same group xang arrow and they just made kind of the"
+        },
+        {
+          "id": "S15",
+          "cue_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "start_ms": 68080,
+          "end_ms": 86799,
+          "text": "they want this on the road by 2030 and they've already done tests let's kind of go step by step starting with the carbon fiber propellers see that lightweight this side has green lights the other side has red lights that lets people around you"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_ms": 86799,
+          "end_ms": 109000,
+          "text": "they're looking at xang in the back kind of three-dimensional glass letters looks very nice I love the brake light too with this triangle what's cool about this piece is that you don't see this when it's actually unfolded when it's unfolded all of this hies into this gigantic panel I asked them how long"
+        },
+        {
+          "id": "S32",
+          "cue_ids": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "start_ms": 109000,
+          "end_ms": 149480,
+          "text": "over 6 M but no specific length yet this is not entirely finalized but that's what they're trying to get to by 2030 Wheels they look pretty cool now not too functional in terms of anything kind of uh aerodynamic but they do look pretty nice but what I like is the cockpit because this is both a car and a drone kind of thing look at that see the steering wheel that'll now fold inward so you can switch between drive mode and fly mode designed for low altitude flying the look and function are both drone inspired with rotary Wings it"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "start_ms": 149480,
+          "end_ms": 160079,
+          "text": "a owner helicopter my favorite feature in driving mode the wings are fully concealed so it looks like any other car"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "start_ms": 160079,
+          "end_ms": 169760,
+          "text": "how do you fly this thing it's actually what looks like a gear selector that's actually a joystick you'll see you have little arrows in there you can just kind"
+        },
+        {
+          "id": "S58",
+          "cue_ids": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "start_ms": 169760,
+          "end_ms": 179760,
+          "text": "you guys that play video games could probably fly this thing also the dashboard is a full glass piece it's see-through all of that is for"
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63,
+            64,
+            65,
+            66
+          ],
+          "start_ms": 179760,
+          "end_ms": 190280,
+          "text": "you want to be able to see things the chassis is also see-through so you look at the floor panels that's just glass so when you're flying right over people's"
+        },
+        {
+          "id": "S68",
+          "cue_ids": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 190280,
+          "end_ms": 211000,
+          "text": "see that switch back to drive mod whenever you land and that'll pop up there you go ready to roll all right side view cameras because in the future we don't need mirrors and over at the front let's go this way and this is lethal by the way"
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "start_ms": 212840,
+          "end_ms": 230959,
+          "text": "a badge it's actually underneath the paint which is pretty interesting and again it's got that kind of like spine going down the middle gigantic intakes by the way linear lights everywhere keeps the car looking angular aerodynamic feels good but what's interesting is the price because when"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87,
+            88,
+            89,
+            90
+          ],
+          "start_ms": 230959,
+          "end_ms": 242640,
+          "text": "flying super car how much is this going to cost it's like you'd imagine it would cost like I don't know a lot in Lamborghini svj levels right"
+        },
+        {
+          "id": "S93",
+          "cue_ids": [
+            93,
+            94,
+            95,
+            96
+          ],
+          "start_ms": 244239,
+          "end_ms": 252400,
+          "text": "estimated price that's going to sign around $142,000 by 2030 that depends on the market that can change you know if if"
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "start_ms": 252400,
+          "end_ms": 261160,
+          "text": "up but imagine being able to buy all of this for $142,000 that's as much as like an expensive"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "start_ms": 261160,
+          "end_ms": 282520,
+          "text": "picking an S-Class or a flying superc car I'm picking the fler now you might be thinking this looks great but surely it doesn't work well actually xang aot has already run successful tests with the same propellers and equivalent car weight of the aot EO flying car so this thing can actually fly whether this"
+        },
+        {
+          "id": "S112",
+          "cue_ids": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "start_ms": 282520,
+          "end_ms": 294759,
+          "text": "legal though remains to be seen xang is also already working on the next big thing a groundbreaking land aircraft carrier modular flying car it's a"
+        },
+        {
+          "id": "S117",
+          "cue_ids": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ],
+          "start_ms": 294759,
+          "end_ms": 321639,
+          "text": "either fly or drive on the ground the unique design of this six-wheeler houses a flying vehicle inside seamlessly switching from land to air anyways the xang aot eeve toll what do you guys think how cool is this [Music] car"
+        }
+      ],
+      "text": "S4 [00:00:21.610 --> 00:00:42.399] [Music] car [Music]\nS7 [00:00:46.280 --> 00:01:08.080] there it is you got to dodge him okay so yeah that's just to show you that the propellers work let's get over to the others oh my God going to how to get a free haircut a couple years ago I filmed the X2 by the same group xang arrow and they just made kind of the\nS15 [00:01:08.080 --> 00:01:26.799] they want this on the road by 2030 and they've already done tests let's kind of go step by step starting with the carbon fiber propellers see that lightweight this side has green lights the other side has red lights that lets people around you\nS23 [00:01:26.799 --> 00:01:49.000] they're looking at xang in the back kind of three-dimensional glass letters looks very nice I love the brake light too with this triangle what's cool about this piece is that you don't see this when it's actually unfolded when it's unfolded all of this hies into this gigantic panel I asked them how long\nS32 [00:01:49.000 --> 00:02:29.480] over 6 M but no specific length yet this is not entirely finalized but that's what they're trying to get to by 2030 Wheels they look pretty cool now not too functional in terms of anything kind of uh aerodynamic but they do look pretty nice but what I like is the cockpit because this is both a car and a drone kind of thing look at that see the steering wheel that'll now fold inward so you can switch between drive mode and fly mode designed for low altitude flying the look and function are both drone inspired with rotary Wings it\nS48 [00:02:29.480 --> 00:02:40.079] a owner helicopter my favorite feature in driving mode the wings are fully concealed so it looks like any other car\nS53 [00:02:40.079 --> 00:02:49.760] how do you fly this thing it's actually what looks like a gear selector that's actually a joystick you'll see you have little arrows in there you can just kind\nS58 [00:02:49.760 --> 00:02:59.760] you guys that play video games could probably fly this thing also the dashboard is a full glass piece it's see-through all of that is for\nS63 [00:02:59.760 --> 00:03:10.280] you want to be able to see things the chassis is also see-through so you look at the floor panels that's just glass so when you're flying right over people's\nS68 [00:03:10.280 --> 00:03:31.000] see that switch back to drive mod whenever you land and that'll pop up there you go ready to roll all right side view cameras because in the future we don't need mirrors and over at the front let's go this way and this is lethal by the way\nS78 [00:03:32.840 --> 00:03:50.959] a badge it's actually underneath the paint which is pretty interesting and again it's got that kind of like spine going down the middle gigantic intakes by the way linear lights everywhere keeps the car looking angular aerodynamic feels good but what's interesting is the price because when\nS87 [00:03:50.959 --> 00:04:02.640] flying super car how much is this going to cost it's like you'd imagine it would cost like I don't know a lot in Lamborghini svj levels right\nS93 [00:04:04.239 --> 00:04:12.400] estimated price that's going to sign around $142,000 by 2030 that depends on the market that can change you know if if\nS98 [00:04:12.400 --> 00:04:21.160] up but imagine being able to buy all of this for $142,000 that's as much as like an expensive\nS103 [00:04:21.160 --> 00:04:42.520] picking an S-Class or a flying superc car I'm picking the fler now you might be thinking this looks great but surely it doesn't work well actually xang aot has already run successful tests with the same propellers and equivalent car weight of the aot EO flying car so this thing can actually fly whether this\nS112 [00:04:42.520 --> 00:04:54.759] legal though remains to be seen xang is also already working on the next big thing a groundbreaking land aircraft carrier modular flying car it's a\nS117 [00:04:54.759 --> 00:05:21.639] either fly or drive on the ground the unique design of this six-wheeler houses a flying vehicle inside seamlessly switching from land to air anyways the xang aot eeve toll what do you guys think how cool is this [Music] car",
+      "text_tokens": 1297,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        9,
+        10,
+        13,
+        15,
+        18,
+        21,
+        23,
+        26,
+        27,
+        30,
+        32,
+        35,
+        36,
+        39,
+        42,
+        43,
+        46,
+        48,
+        51,
+        53,
+        56,
+        58,
+        61,
+        63,
+        66,
+        68,
+        71,
+        72,
+        75,
+        78,
+        81,
+        82,
+        85,
+        87,
+        90,
+        93,
+        96,
+        98,
+        101,
+        103,
+        106,
+        107,
+        110,
+        112,
+        115,
+        117,
+        120,
+        122
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "97ef7b4579c068d65dad4181446e2e5dd6ddf01dc2ac3de0e6b276603c4fde0a"
+}

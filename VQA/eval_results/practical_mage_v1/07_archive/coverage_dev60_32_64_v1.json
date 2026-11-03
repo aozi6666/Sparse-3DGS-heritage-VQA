@@ -1,0 +1,2194 @@
+{
+  "signature": "ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275",
+  "stage": "dev60",
+  "summary": {
+    "signature": "ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275",
+    "baseline_signature": "86f337f035388253a22e9dcb7d7a6977005aae4ab1273fa75313735ba5ab2c16",
+    "stage": "dev60",
+    "interpretation": "Development screening only; not independent evidence of gains.",
+    "audit": {
+      "passed": true,
+      "errors": [],
+      "N": 180,
+      "note": "Time endpoint audit does not prove every intermediate timestamp; native sampling is unchanged."
+    },
+    "methods": {
+      "codec32": {
+        "N": 180,
+        "correct": 111,
+        "invalid": 0,
+        "vs": {
+          "codec32": {
+            "rescue": 0,
+            "harm": 0,
+            "net": 0,
+            "delta_pp": 0.0,
+            "video_cluster_bootstrap_95ci_pp": [
+              0.0,
+              0.0
+            ],
+            "questionwise_mcnemar_exact_p": 1.0,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "frames32": {
+            "rescue": 13,
+            "harm": 12,
+            "net": 1,
+            "delta_pp": 0.5555555555555556,
+            "video_cluster_bootstrap_95ci_pp": [
+              -3.888888888888889,
+              5.0
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        },
+        "cost": {
+          "model_calls": 180,
+          "visual_tokens": 853392,
+          "inference_s": 165.6027590315789,
+          "preprocess_s": 3171.7643054798245,
+          "peak_allocated_gib": 10.689126968383789,
+          "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+        },
+        "by_duration": {
+          "long": {
+            "N": 84,
+            "correct": 48
+          },
+          "medium": {
+            "N": 96,
+            "correct": 63
+          }
+        },
+        "accuracy": 0.6166666666666667
+      },
+      "frames32": {
+        "N": 180,
+        "correct": 110,
+        "invalid": 0,
+        "vs": {
+          "codec32": {
+            "rescue": 12,
+            "harm": 13,
+            "net": -1,
+            "delta_pp": -0.5555555555555556,
+            "video_cluster_bootstrap_95ci_pp": [
+              -5.0,
+              3.888888888888889
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "frames32": {
+            "rescue": 0,
+            "harm": 0,
+            "net": 0,
+            "delta_pp": 0.0,
+            "video_cluster_bootstrap_95ci_pp": [
+              0.0,
+              0.0
+            ],
+            "questionwise_mcnemar_exact_p": 1.0,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        },
+        "cost": {
+          "model_calls": 180,
+          "visual_tokens": 828672,
+          "inference_s": 122.5736694149673,
+          "preprocess_s": 186.21700746193528,
+          "peak_allocated_gib": 10.313128471374512,
+          "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+        },
+        "by_duration": {
+          "long": {
+            "N": 84,
+            "correct": 50
+          },
+          "medium": {
+            "N": 96,
+            "correct": 60
+          }
+        },
+        "accuracy": 0.6111111111111112
+      },
+      "frames64": {
+        "N": 180,
+        "correct": 112,
+        "invalid": 0,
+        "vs": {
+          "codec32": {
+            "rescue": 17,
+            "harm": 16,
+            "net": 1,
+            "delta_pp": 0.5555555555555556,
+            "video_cluster_bootstrap_95ci_pp": [
+              -5.555555555555555,
+              6.680555555555354
+            ],
+            "questionwise_mcnemar_exact_p": 1,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          },
+          "frames32": {
+            "rescue": 12,
+            "harm": 10,
+            "net": 2,
+            "delta_pp": 1.1111111111111112,
+            "video_cluster_bootstrap_95ci_pp": [
+              -3.888888888888889,
+              6.111111111111111
+            ],
+            "questionwise_mcnemar_exact_p": 0.8318119049072266,
+            "note": "McNemar is questionwise; clustered CI is the primary dependence-aware interval"
+          }
+        },
+        "cost": {
+          "model_calls": 180,
+          "visual_tokens": 1657344,
+          "inference_s": 258.2511375602335,
+          "preprocess_s": 344.6018444560468,
+          "peak_allocated_gib": 11.78422212600708,
+          "note": "Historical preprocessing was shared across votes; wall times are not a controlled speed benchmark."
+        },
+        "by_duration": {
+          "long": {
+            "N": 84,
+            "correct": 51
+          },
+          "medium": {
+            "N": 96,
+            "correct": 61
+          }
+        },
+        "accuracy": 0.6222222222222222
+      }
+    }
+  },
+  "predictions": [
+    {
+      "index": "219",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "220",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "221",
+      "video_id": "dphq5X-rMew",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "228",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "229",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "230",
+      "video_id": "Bkheu99K5lY",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "249",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "250",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "251",
+      "video_id": "CC9VeHrI3Es",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "258",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "259",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "260",
+      "video_id": "HooZ84rpovQ",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "261",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "262",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "263",
+      "video_id": "DI6SemRT2iY",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "264",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "265",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "266",
+      "video_id": "HwpzzAefx9M",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "273",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "274",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "275",
+      "video_id": "Hel5dqvImSw",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "291",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "292",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "C",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "293",
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "C",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "294",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "295",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "296",
+      "video_id": "edAu5_O4C54",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "297",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "298",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "299",
+      "video_id": "dcYgBU4t98E",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "303",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "304",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "305",
+      "video_id": "I5cFBi02O34",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "312",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "313",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "314",
+      "video_id": "4aPxxE345OM",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "324",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "325",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "326",
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "336",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "337",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "338",
+      "video_id": "dTUaWnvIOp4",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "345",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "346",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "347",
+      "video_id": "IN8t1d3pRMY",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "354",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "355",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "356",
+      "video_id": "2NOcM1HoRRg",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "366",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "367",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "368",
+      "video_id": "e-XGSYnhUjg",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "375",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "376",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "377",
+      "video_id": "c66RN87YjNE",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "378",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "D",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "379",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "380",
+      "video_id": "hQYRDNl-lGI",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "387",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "388",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "389",
+      "video_id": "323v_FtWqvo",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "396",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "397",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "398",
+      "video_id": "F4v0BZtrSbY",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "399",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "400",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "401",
+      "video_id": "iC56xtbUOnM",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "405",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "406",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "407",
+      "video_id": "dy8AvyRlXpQ",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "411",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "C",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "412",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "413",
+      "video_id": "I0xrbzYT4Sc",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "417",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "418",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "419",
+      "video_id": "HZJXPm0nhgY",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "423",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "424",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "425",
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "426",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "427",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "428",
+      "video_id": "-c8eATXUui8",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "438",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "B",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "439",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "440",
+      "video_id": "-fbRaGwfqRw",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "B",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "450",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "451",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "452",
+      "video_id": "IjSISLZCKPs",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "453",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "454",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "B",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "455",
+      "video_id": "BVJGvKaFG7U",
+      "duration": "medium",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "459",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "B",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "460",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "461",
+      "video_id": "2ka5AleJ48I",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "474",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "475",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "476",
+      "video_id": "fFYNmVb3NCQ",
+      "duration": "medium",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "483",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "C",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "484",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "485",
+      "video_id": "H8fGd3fCJbg",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "486",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "487",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "488",
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "504",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "505",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "506",
+      "video_id": "EVBCLAaflaw",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "513",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "514",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "515",
+      "video_id": "55Jas5HrzcQ",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "516",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "517",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "518",
+      "video_id": "HvKpnaXYUPU",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "522",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "523",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "D",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "524",
+      "video_id": "eqJPDJr_irE",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "531",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "532",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "C",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "533",
+      "video_id": "eKVTFXQPAhs",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "D",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "543",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "544",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "545",
+      "video_id": "-dfvdKf-KR0",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "549",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "550",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "551",
+      "video_id": "HTv4z899xgA",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "558",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "559",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "560",
+      "video_id": "eAIKvD_gLJo",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "576",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "577",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "578",
+      "video_id": "EFQtbZQ74Eg",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "579",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "580",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "581",
+      "video_id": "HT2iYl6E_Vo",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "594",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "595",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "596",
+      "video_id": "bFuVjFacj_E",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "C",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "600",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "601",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "A",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "602",
+      "video_id": "i1p5PAgNvR0",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "606",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "607",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "608",
+      "video_id": "HKbJtgUrHGk",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "621",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "622",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "623",
+      "video_id": "hIJtZN8w03A",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "624",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "625",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "B",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "626",
+      "video_id": "D97vMwfWxvI",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "627",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "628",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "629",
+      "video_id": "_eJsOYC8SVU",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "639",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "640",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "641",
+      "video_id": "C8Rk__S06_M",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "654",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "655",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "656",
+      "video_id": "c03YTDzmsK8",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "660",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "A",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "661",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "D",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "662",
+      "video_id": "dXBREPP1hfo",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "666",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "667",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "668",
+      "video_id": "CKYw_RG7i7w",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "669",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "670",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "671",
+      "video_id": "fLO5Ww0V2qU",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "672",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "673",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "674",
+      "video_id": "eno3UMEMQJI",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "699",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "B",
+        "frames32": "B",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "700",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "701",
+      "video_id": "EhLOdDfaC7Y",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "702",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "703",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "C"
+      }
+    },
+    {
+      "index": "704",
+      "video_id": "elprD1hnDyU",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "708",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "gt": "D",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "709",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "D",
+        "frames32": "D",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "710",
+      "video_id": "bIQf1HwEqHU",
+      "duration": "long",
+      "gt": "C",
+      "predictions": {
+        "codec32": "C",
+        "frames32": "C",
+        "frames64": "D"
+      }
+    },
+    {
+      "index": "711",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "gt": "B",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "B"
+      }
+    },
+    {
+      "index": "712",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    },
+    {
+      "index": "713",
+      "video_id": "f-1xE_5uXDg",
+      "duration": "long",
+      "gt": "A",
+      "predictions": {
+        "codec32": "A",
+        "frames32": "A",
+        "frames64": "A"
+      }
+    }
+  ],
+  "new90": {
+    "N": 90,
+    "correct": {
+      "codec32": 56,
+      "frames32": 54,
+      "frames64": 53
+    }
+  },
+  "conclusion": "Frames64:112/180 versus Frames32:110/180, +2, CI crosses zero, 2x visual tokens. New90:53 versus54, no sustained gain. Pause pure frame-count increase; no val/test/full.",
+  "files": {
+    "08_coverage/dev60/px150000_f64_identity_v1/predictions.json": {
+      "bytes": 34935,
+      "sha256": "0d62b2664b50190eb08c1acb02cb2f652c38753c2f5aaa56ebc0509065616f3e"
+    },
+    "08_coverage/dev60/px150000_f64_identity_v1/run_20261102_161602_bbe5f77d.log": {
+      "bytes": 84740,
+      "sha256": "57959ccaa7787f07506e75b54253bba7c7d80a482e2f5ae0f40e10a6c4f3ce3a"
+    },
+    "08_coverage/dev60/px150000_f64_identity_v1/run_manifest.json": {
+      "bytes": 6338,
+      "sha256": "e1571a7c2abcf365b8a18c76238832c3a5306b3e9b7d1f5b3a5111e4b9cf6b1a"
+    },
+    "08_coverage/dev60/px150000_f64_identity_v1/summary.json": {
+      "bytes": 4796,
+      "sha256": "a6e7e38082d88c85ca4b921d6de38b7ecade59d4695af616103ae8a72040520c"
+    },
+    "cache/coverage/ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275/protocol.json": {
+      "bytes": 3796,
+      "sha256": "587eba2a581c88e8c15d5bcbc5ac616483100e208f74f524516ed3a7a9040055"
+    },
+    "cache/coverage/ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275/runtime.json": {
+      "bytes": 96,
+      "sha256": "8b666a3369843cb7ee6c75d29705b83685bdd5c1a63d52ebeac965d491b1e452"
+    },
+    "cache/coverage/ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275/tokens.json": {
+      "bytes": 123,
+      "sha256": "5ca15879e4b5dcc000fbde05c44792bf70c688014b6bfd6848baf978c608bc4d"
+    },
+    "cache/coverage/ff07ace6167bae9c15f0884898dd32cb5ee1af24135dcdfb2b7405124a11c275/units.jsonl": {
+      "bytes": 596915,
+      "sha256": "6df7ded3aa12ca52816ce7a2d6510918a6a5aca0c03e26c6059031199ddf04f3"
+    }
+  },
+  "retention": "Old files remain in place; small same-disk archive, not off-machine backup."
+}

@@ -1,0 +1,880 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "eXKE0nAMmg4",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eXKE0nAMmg4.srt",
+        "status": "available",
+        "bytes": 3586,
+        "sha256": "2ff9e821d2769a0abe72113d52ab3f641b214625c6f01bd91df25a3b2c116c47",
+        "cues": 34,
+        "nonempty_cues": 34
+      },
+      "frame_indices": [
+        0,
+        99,
+        198,
+        298,
+        397,
+        496,
+        595,
+        695,
+        794,
+        893,
+        992,
+        1091,
+        1191,
+        1290,
+        1389,
+        1488,
+        1588,
+        1687,
+        1786,
+        1885,
+        1985,
+        2084,
+        2183,
+        2282,
+        2381,
+        2481,
+        2580,
+        2679,
+        2778,
+        2878,
+        2977,
+        3076
+      ],
+      "frame_seconds": [
+        0.0,
+        3.3033,
+        6.6066,
+        9.943267,
+        13.246567,
+        16.549867,
+        19.853167,
+        23.189833,
+        26.493133,
+        29.796433,
+        33.099733,
+        36.403033,
+        39.7397,
+        43.043,
+        46.3463,
+        49.6496,
+        52.986267,
+        56.289567,
+        59.592867,
+        62.896167,
+        66.232833,
+        69.536133,
+        72.839433,
+        76.14273299999999,
+        79.446033,
+        82.7827,
+        86.086,
+        89.38929999999999,
+        92.6926,
+        96.029267,
+        99.332567,
+        102.63586699999999
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [],
+        [],
+        [],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          33,
+          34
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 100,
+          "end_ms": 6270,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 2929,
+          "end_ms": 9090,
+          "text": "art connoisseurs could only watch in"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 6270,
+          "end_ms": 11640,
+          "text": "horror as an expensive piece was"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9090,
+          "end_ms": 14420,
+          "text": "shredded before their eyes"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 11640,
+          "end_ms": 17520,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 14420,
+          "end_ms": 19740,
+          "text": "no sooner did the gavel come down to"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 17520,
+          "end_ms": 23550,
+          "text": "mark the sale of Banksy's girl with"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 19740,
+          "end_ms": 26250,
+          "text": "balloon for a record 1.4 million dollars"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 23550,
+          "end_ms": 29550,
+          "text": "did the picture start to slip out of its"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 26250,
+          "end_ms": 32390,
+          "text": "frame into shreds below the anonymous"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 29550,
+          "end_ms": 35400,
+          "text": "artist claims to be behind the stunt on"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 32390,
+          "end_ms": 39600,
+          "text": "Instagram he posted a photo of his prank"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 35400,
+          "end_ms": 43220,
+          "text": "with the caption going going gone in a"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 39600,
+          "end_ms": 47219,
+          "text": "later post he explained how he did it"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 43220,
+          "end_ms": 47940,
+          "text": "and it seems this stunt was years in the"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 47219,
+          "end_ms": 50190,
+          "text": "making"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 47940,
+          "end_ms": 52469,
+          "text": "he claims he built the shredder into the"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 50190,
+          "end_ms": 54920,
+          "text": "paintings frame in case it ever sold at"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52469,
+          "end_ms": 54920,
+          "text": "auction"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 64010,
+          "end_ms": 68880,
+          "text": "witnesses couldn't believe what they"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 66120,
+          "end_ms": 71310,
+          "text": "were seeing we can only imagine what the"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 68880,
+          "end_ms": 72990,
+          "text": "buyer was thinking the person's identity"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 71310,
+          "end_ms": 75750,
+          "text": "hasn't been revealed"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 72990,
+          "end_ms": 78330,
+          "text": "Sotheby's claims it was shocked by the"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 75750,
+          "end_ms": 80220,
+          "text": "stunt the auction house is also trying"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 78330,
+          "end_ms": 82920,
+          "text": "to figure out what this means for the"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 80220,
+          "end_ms": 85530,
+          "text": "value of the painting considering the"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 82920,
+          "end_ms": 88170,
+          "text": "artist who is known for using his craft"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 85530,
+          "end_ms": 91440,
+          "text": "to pull pranks and make ideological"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 88170,
+          "end_ms": 94289,
+          "text": "points some artists speculate the value"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 91440,
+          "end_ms": 97289,
+          "text": "of girl with balloon could actually soar"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 94289,
+          "end_ms": 99729,
+          "text": "for Inside Edition dot-com I'm Mara"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 97289,
+          "end_ms": 103098,
+          "text": "montalbano"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 99729,
+          "end_ms": 103098,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Applause]\nart connoisseurs could only watch in\nhorror as an expensive piece was\nshredded before their eyes\n[Applause]\nno sooner did the gavel come down to\nmark the sale of Banksy's girl with\nballoon for a record 1.4 million dollars\ndid the picture start to slip out of its\nframe into shreds below the anonymous\nartist claims to be behind the stunt on\nInstagram he posted a photo of his prank\nwith the caption going going gone in a\nlater post he explained how he did it\nand it seems this stunt was years in the\nmaking\nhe claims he built the shredder into the\npaintings frame in case it ever sold at\nauction\nwitnesses couldn't believe what they\nwere seeing we can only imagine what the\nbuyer was thinking the person's identity\nhasn't been revealed\nSotheby's claims it was shocked by the\nstunt the auction house is also trying\nto figure out what this means for the\nvalue of the painting considering the\nartist who is known for using his craft\nto pull pranks and make ideological\npoints some artists speculate the value\nof girl with balloon could actually soar\nfor Inside Edition dot-com I'm Mara\nmontalbano\n[Music]",
+      "text_tokens": 272,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eXKE0nAMmg4",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eXKE0nAMmg4.srt",
+          "status": "available",
+          "bytes": 3586,
+          "sha256": "2ff9e821d2769a0abe72113d52ab3f641b214625c6f01bd91df25a3b2c116c47",
+          "cues": 34,
+          "nonempty_cues": 34
+        },
+        "frame_indices": [
+          0,
+          99,
+          198,
+          298,
+          397,
+          496,
+          595,
+          695,
+          794,
+          893,
+          992,
+          1091,
+          1191,
+          1290,
+          1389,
+          1488,
+          1588,
+          1687,
+          1786,
+          1885,
+          1985,
+          2084,
+          2183,
+          2282,
+          2381,
+          2481,
+          2580,
+          2679,
+          2778,
+          2878,
+          2977,
+          3076
+        ],
+        "frame_seconds": [
+          0.0,
+          3.3033,
+          6.6066,
+          9.943267,
+          13.246567,
+          16.549867,
+          19.853167,
+          23.189833,
+          26.493133,
+          29.796433,
+          33.099733,
+          36.403033,
+          39.7397,
+          43.043,
+          46.3463,
+          49.6496,
+          52.986267,
+          56.289567,
+          59.592867,
+          62.896167,
+          66.232833,
+          69.536133,
+          72.839433,
+          76.14273299999999,
+          79.446033,
+          82.7827,
+          86.086,
+          89.38929999999999,
+          92.6926,
+          96.029267,
+          99.332567,
+          102.63586699999999
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [],
+          [],
+          [],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 100,
+            "end_ms": 6270,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 2929,
+            "end_ms": 9090,
+            "text": "art connoisseurs could only watch in"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 6270,
+            "end_ms": 11640,
+            "text": "horror as an expensive piece was"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9090,
+            "end_ms": 14420,
+            "text": "shredded before their eyes"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 11640,
+            "end_ms": 17520,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 14420,
+            "end_ms": 19740,
+            "text": "no sooner did the gavel come down to"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 17520,
+            "end_ms": 23550,
+            "text": "mark the sale of Banksy's girl with"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 19740,
+            "end_ms": 26250,
+            "text": "balloon for a record 1.4 million dollars"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 23550,
+            "end_ms": 29550,
+            "text": "did the picture start to slip out of its"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 26250,
+            "end_ms": 32390,
+            "text": "frame into shreds below the anonymous"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 29550,
+            "end_ms": 35400,
+            "text": "artist claims to be behind the stunt on"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 32390,
+            "end_ms": 39600,
+            "text": "Instagram he posted a photo of his prank"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 35400,
+            "end_ms": 43220,
+            "text": "with the caption going going gone in a"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 39600,
+            "end_ms": 47219,
+            "text": "later post he explained how he did it"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 43220,
+            "end_ms": 47940,
+            "text": "and it seems this stunt was years in the"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 47219,
+            "end_ms": 50190,
+            "text": "making"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 47940,
+            "end_ms": 52469,
+            "text": "he claims he built the shredder into the"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 50190,
+            "end_ms": 54920,
+            "text": "paintings frame in case it ever sold at"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52469,
+            "end_ms": 54920,
+            "text": "auction"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 64010,
+            "end_ms": 68880,
+            "text": "witnesses couldn't believe what they"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 66120,
+            "end_ms": 71310,
+            "text": "were seeing we can only imagine what the"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 68880,
+            "end_ms": 72990,
+            "text": "buyer was thinking the person's identity"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 71310,
+            "end_ms": 75750,
+            "text": "hasn't been revealed"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 72990,
+            "end_ms": 78330,
+            "text": "Sotheby's claims it was shocked by the"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 75750,
+            "end_ms": 80220,
+            "text": "stunt the auction house is also trying"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 78330,
+            "end_ms": 82920,
+            "text": "to figure out what this means for the"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 80220,
+            "end_ms": 85530,
+            "text": "value of the painting considering the"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 82920,
+            "end_ms": 88170,
+            "text": "artist who is known for using his craft"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 85530,
+            "end_ms": 91440,
+            "text": "to pull pranks and make ideological"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 88170,
+            "end_ms": 94289,
+            "text": "points some artists speculate the value"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 91440,
+            "end_ms": 97289,
+            "text": "of girl with balloon could actually soar"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 94289,
+            "end_ms": 99729,
+            "text": "for Inside Edition dot-com I'm Mara"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 97289,
+            "end_ms": 103098,
+            "text": "montalbano"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 99729,
+            "end_ms": 103098,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Applause]\nart connoisseurs could only watch in\nhorror as an expensive piece was\nshredded before their eyes\n[Applause]\nno sooner did the gavel come down to\nmark the sale of Banksy's girl with\nballoon for a record 1.4 million dollars\ndid the picture start to slip out of its\nframe into shreds below the anonymous\nartist claims to be behind the stunt on\nInstagram he posted a photo of his prank\nwith the caption going going gone in a\nlater post he explained how he did it\nand it seems this stunt was years in the\nmaking\nhe claims he built the shredder into the\npaintings frame in case it ever sold at\nauction\nwitnesses couldn't believe what they\nwere seeing we can only imagine what the\nbuyer was thinking the person's identity\nhasn't been revealed\nSotheby's claims it was shocked by the\nstunt the auction house is also trying\nto figure out what this means for the\nvalue of the painting considering the\nartist who is known for using his craft\nto pull pranks and make ideological\npoints some artists speculate the value\nof girl with balloon could actually soar\nfor Inside Edition dot-com I'm Mara\nmontalbano\n[Music]",
+        "text_tokens": 272,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "start_ms": 100,
+          "end_ms": 54920,
+          "text": "[Applause] art connoisseurs could only watch in horror as an expensive piece was shredded before their eyes [Applause] no sooner did the gavel come down to mark the sale of Banksy's girl with balloon for a record 1.4 million dollars did the picture start to slip out of its frame into shreds below the anonymous artist claims to be behind the stunt on Instagram he posted a photo of his prank with the caption going going gone in a later post he explained how he did it and it seems this stunt was years in the making he claims he built the shredder into the paintings frame in case it ever sold at auction"
+        },
+        {
+          "id": "S20",
+          "cue_ids": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "start_ms": 64010,
+          "end_ms": 103098,
+          "text": "witnesses couldn't believe what they were seeing we can only imagine what the buyer was thinking the person's identity hasn't been revealed Sotheby's claims it was shocked by the stunt the auction house is also trying to figure out what this means for the value of the painting considering the artist who is known for using his craft to pull pranks and make ideological points some artists speculate the value of girl with balloon could actually soar for Inside Edition dot-com I'm Mara montalbano [Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.100 --> 00:00:54.920] [Applause] art connoisseurs could only watch in horror as an expensive piece was shredded before their eyes [Applause] no sooner did the gavel come down to mark the sale of Banksy's girl with balloon for a record 1.4 million dollars did the picture start to slip out of its frame into shreds below the anonymous artist claims to be behind the stunt on Instagram he posted a photo of his prank with the caption going going gone in a later post he explained how he did it and it seems this stunt was years in the making he claims he built the shredder into the paintings frame in case it ever sold at auction\nS20 [00:01:04.010 --> 00:01:43.098] witnesses couldn't believe what they were seeing we can only imagine what the buyer was thinking the person's identity hasn't been revealed Sotheby's claims it was shocked by the stunt the auction house is also trying to figure out what this means for the value of the painting considering the artist who is known for using his craft to pull pranks and make ideological points some artists speculate the value of girl with balloon could actually soar for Inside Edition dot-com I'm Mara montalbano [Music]",
+      "text_tokens": 294,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "265ceeced46973109eb2f2419f5a8420be09b5da729a63b443cc9e8c2fead49f"
+}

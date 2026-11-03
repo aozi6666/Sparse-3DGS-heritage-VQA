@@ -1,0 +1,674 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "H8fGd3fCJbg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/H8fGd3fCJbg.srt",
+        "status": "available",
+        "bytes": 44300,
+        "sha256": "9b6b391f45d9c6b4ba074710a23fbab5a0266eb2481fc2b3e9af43cde1ee27c9",
+        "cues": 251,
+        "nonempty_cues": 251
+      },
+      "frame_indices": [
+        0,
+        1745,
+        3490,
+        5235,
+        6980,
+        8725,
+        10470,
+        12215,
+        13959,
+        15704,
+        17449,
+        19194,
+        20939,
+        22684,
+        24429,
+        26174,
+        27919,
+        29664,
+        31409,
+        33154,
+        34899,
+        36644,
+        38389,
+        40134,
+        41878,
+        43623,
+        45368,
+        47113,
+        48858,
+        50603,
+        52348,
+        54093
+      ],
+      "frame_seconds": [
+        0.0,
+        58.224833,
+        116.449667,
+        174.6745,
+        232.899333,
+        291.124167,
+        349.349,
+        407.573833,
+        465.7653,
+        523.990133,
+        582.214967,
+        640.4398,
+        698.664633,
+        756.889467,
+        815.1143,
+        873.339133,
+        931.563967,
+        989.7888,
+        1048.013633,
+        1106.238467,
+        1164.4633,
+        1222.688133,
+        1280.912967,
+        1339.1378,
+        1397.329267,
+        1455.5541,
+        1513.778933,
+        1572.003767,
+        1630.2286,
+        1688.453433,
+        1746.678267,
+        1804.9031
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          9
+        ],
+        [],
+        [
+          22
+        ],
+        [
+          30
+        ],
+        [
+          39
+        ],
+        [
+          47
+        ],
+        [
+          55
+        ],
+        [
+          64
+        ],
+        [
+          72
+        ],
+        [
+          80
+        ],
+        [],
+        [
+          96
+        ],
+        [],
+        [
+          114
+        ],
+        [
+          122
+        ],
+        [
+          130
+        ],
+        [
+          139
+        ],
+        [
+          146
+        ],
+        [
+          154
+        ],
+        [
+          163
+        ],
+        [
+          171
+        ],
+        [
+          179
+        ],
+        [
+          187
+        ],
+        [
+          196
+        ],
+        [
+          205
+        ],
+        [
+          214
+        ],
+        [
+          222
+        ],
+        [
+          230
+        ],
+        [
+          237
+        ],
+        [
+          246
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 9,
+          "start_ms": 54880,
+          "end_ms": 62480,
+          "text": "hot-tempered, narcissistic man and unscrupulous in his pursuit of personal Glory. He was"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 168160,
+          "end_ms": 176320,
+          "text": "estimated that of the 100,000 citizens of Rome 4,000 of them were artists! Rome was THE place"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 227720,
+          "end_ms": 233240,
+          "text": "education. He received a classical training, studying and sketching the Greek and Roman"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 288946,
+          "end_ms": 296240,
+          "text": "Master's works, and it is said that he based his SanLorenzo on the positioning of Michelangelo's Pieta."
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 347440,
+          "end_ms": 353640,
+          "text": "expression of being tortured and yet undergoing some kind of spiritual epiphany at the same time,"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 404360,
+          "end_ms": 412000,
+          "text": "museum, where we still find Apollo and Daphne. Borghese wielded enormous power as the pope's secretary and"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 465240,
+          "end_ms": 471640,
+          "text": "Bernini cared about. This bust of the Cardinal Borghese is just as revolutionary as his other"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 516207,
+          "end_ms": 525130,
+          "text": "But before this - between 1621 and 1625, the new \"Borghese sculptor\", began to create Innovative pieces for the Cardinal"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 577520,
+          "end_ms": 583560,
+          "text": "committed to the world of theatre and illusion, putting on many productions of his own for patrons"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 691200,
+          "end_ms": 700760,
+          "text": "Catholic Souls, producing art that would instruct AND Inspire. In 1597, Cardinal Farnese commissioned"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 812963,
+          "end_ms": 820080,
+          "text": "His figures reached out into the viewer's space - in a \"frozen moment in time\" sometimes not"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 868520,
+          "end_ms": 876641,
+          "text": "a Split Second away from hurling the stone towards us the viewer. Whereas Michelangelo's David is the whole story,"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 924000,
+          "end_ms": 932720,
+          "text": "the lip, could be a realistic portrayal of the sculptor chiselling away. Chiaroscuro, the use of light"
+        },
+        {
+          "cue_id": 139,
+          "start_ms": 987400,
+          "end_ms": 994520,
+          "text": "make marble mutate so realistically, that we believe hair flows In the wind, and hard Stone really is"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 1041640,
+          "end_ms": 1049160,
+          "text": "love with Daphne. However, Daphne, who has been struck by an arrow of aversion recoils from Apollo's"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 1100320,
+          "end_ms": 1106880,
+          "text": "there is body contact between the two figures but actually they don't touch at all - flora and fauna has"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 1161720,
+          "end_ms": 1169200,
+          "text": "story from Ovid's metamorphoses, on the same theme of a Pursuit and transformation. The expression on"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 1219200,
+          "end_ms": 1226480,
+          "text": "the male protagonist leg outward and unsupported in midair, giving the statue a diagonal thrust and"
+        },
+        {
+          "cue_id": 179,
+          "start_ms": 1273640,
+          "end_ms": 1281800,
+          "text": "of highlights - suggesting she is blonde. Apollo's hair by contrast, is a thick mop of curls, achieved"
+        },
+        {
+          "cue_id": 187,
+          "start_ms": 1331960,
+          "end_ms": 1340320,
+          "text": "made it SO much better. Bernini was very conscious of us the viewer, and how we move around statuary,"
+        },
+        {
+          "cue_id": 196,
+          "start_ms": 1393040,
+          "end_ms": 1398360,
+          "text": "into the room, it was as if you were following Apollo and saw the transformation as it happened"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 1454440,
+          "end_ms": 1459920,
+          "text": "meant a group of students working together under his guidance. They all lived together,"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 1512760,
+          "end_ms": 1518960,
+          "text": "practice, and it still is. Many modern-day artists still use teams of unknown assistants."
+        },
+        {
+          "cue_id": 222,
+          "start_ms": 1571840,
+          "end_ms": 1578558,
+          "text": "David, became his greatest benefactor, employing him to redesign and in fact redefine Rome."
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 1626520,
+          "end_ms": 1633644,
+          "text": "statues for the faithful, which included one of his most controversial and possibly erotic works."
+        },
+        {
+          "cue_id": 237,
+          "start_ms": 1681880,
+          "end_ms": 1688480,
+          "text": "of each circle - designed to symbolise the motherly embrace of the church, reaching out to encircle the"
+        },
+        {
+          "cue_id": 246,
+          "start_ms": 1745960,
+          "end_ms": 1755520,
+          "text": "artists criticized by Art historians and ignored by the public, including Caravaggio. This happened more"
+        }
+      ],
+      "text": "hot-tempered, narcissistic man and unscrupulous in his pursuit of personal Glory. He was\nestimated that of the 100,000 citizens of Rome 4,000 of them were artists! Rome was THE place\neducation. He received a classical training, studying and sketching the Greek and Roman\nMaster's works, and it is said that he based his SanLorenzo on the positioning of Michelangelo's Pieta.\nexpression of being tortured and yet undergoing some kind of spiritual epiphany at the same time,\nmuseum, where we still find Apollo and Daphne. Borghese wielded enormous power as the pope's secretary and\nBernini cared about. This bust of the Cardinal Borghese is just as revolutionary as his other\nBut before this - between 1621 and 1625, the new \"Borghese sculptor\", began to create Innovative pieces for the Cardinal\ncommitted to the world of theatre and illusion, putting on many productions of his own for patrons\nCatholic Souls, producing art that would instruct AND Inspire. In 1597, Cardinal Farnese commissioned\nHis figures reached out into the viewer's space - in a \"frozen moment in time\" sometimes not\na Split Second away from hurling the stone towards us the viewer. Whereas Michelangelo's David is the whole story,\nthe lip, could be a realistic portrayal of the sculptor chiselling away. Chiaroscuro, the use of light\nmake marble mutate so realistically, that we believe hair flows In the wind, and hard Stone really is\nlove with Daphne. However, Daphne, who has been struck by an arrow of aversion recoils from Apollo's\nthere is body contact between the two figures but actually they don't touch at all - flora and fauna has\nstory from Ovid's metamorphoses, on the same theme of a Pursuit and transformation. The expression on\nthe male protagonist leg outward and unsupported in midair, giving the statue a diagonal thrust and\nof highlights - suggesting she is blonde. Apollo's hair by contrast, is a thick mop of curls, achieved\nmade it SO much better. Bernini was very conscious of us the viewer, and how we move around statuary,\ninto the room, it was as if you were following Apollo and saw the transformation as it happened\nmeant a group of students working together under his guidance. They all lived together,\npractice, and it still is. Many modern-day artists still use teams of unknown assistants.\nDavid, became his greatest benefactor, employing him to redesign and in fact redefine Rome.\nstatues for the faithful, which included one of his most controversial and possibly erotic works.\nof each circle - designed to symbolise the motherly embrace of the church, reaching out to encircle the\nartists criticized by Art historians and ignored by the public, including Caravaggio. This happened more",
+      "text_tokens": 611,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S8",
+        "cue_ids": [
+          8,
+          9
+        ],
+        "start_ms": 47160,
+        "end_ms": 62480,
+        "text": "a sculptor. And come to be seen as the embodiment of the age of the Baroque. He was also an arrogant, hot-tempered, narcissistic man and unscrupulous in his pursuit of personal Glory. He was"
+      },
+      {
+        "id": "S21",
+        "cue_ids": [
+          21,
+          22
+        ],
+        "start_ms": 162000,
+        "end_ms": 176320,
+        "text": "were building lavish churches, monuments, and Villas. And by the time Pietro arrived, it was estimated that of the 100,000 citizens of Rome 4,000 of them were artists! Rome was THE place"
+      },
+      {
+        "id": "S29",
+        "cue_ids": [
+          29,
+          30
+        ],
+        "start_ms": 221888,
+        "end_ms": 233240,
+        "text": "The pope appointed Cardinal Maffeo Barberini to watch over the Boy Wonder, and arranged for his education. He received a classical training, studying and sketching the Greek and Roman"
+      },
+      {
+        "id": "S38",
+        "cue_ids": [
+          38,
+          39
+        ],
+        "start_ms": 282360,
+        "end_ms": 296240,
+        "text": "work intensely, and spoke openly about his desire to be his equal. He was inspired by many of the Master's works, and it is said that he based his SanLorenzo on the positioning of Michelangelo's Pieta."
+      },
+      {
+        "id": "S46",
+        "cue_ids": [
+          46,
+          47
+        ],
+        "start_ms": 340080,
+        "end_ms": 353640,
+        "text": "boy at the threshold of his career is announcing to the world that he has arrived. To get the Saint's expression of being tortured and yet undergoing some kind of spiritual epiphany at the same time,"
+      },
+      {
+        "id": "S55",
+        "cue_ids": [
+          55,
+          56
+        ],
+        "start_ms": 404360,
+        "end_ms": 417520,
+        "text": "museum, where we still find Apollo and Daphne. Borghese wielded enormous power as the pope's secretary and effective head of the Vatican government, and he used the immense wealth that he acquired"
+      },
+      {
+        "id": "S64",
+        "cue_ids": [
+          64,
+          65
+        ],
+        "start_ms": 465240,
+        "end_ms": 477311,
+        "text": "Bernini cared about. This bust of the Cardinal Borghese is just as revolutionary as his other sculptures in the Borghese collection. It shows a real man rather than an idealised one."
+      },
+      {
+        "id": "S72",
+        "cue_ids": [
+          72,
+          73
+        ],
+        "start_ms": 516207,
+        "end_ms": 529960,
+        "text": "But before this - between 1621 and 1625, the new \"Borghese sculptor\", began to create Innovative pieces for the Cardinal that would become touchstones of the Baroque style. Borghese commissioned four"
+      },
+      {
+        "id": "S80",
+        "cue_ids": [
+          80,
+          81
+        ],
+        "start_ms": 577520,
+        "end_ms": 590320,
+        "text": "committed to the world of theatre and illusion, putting on many productions of his own for patrons like the Barberini family. Not just designing sets as many artists did, but also producing"
+      },
+      {
+        "id": "S96",
+        "cue_ids": [
+          96,
+          97
+        ],
+        "start_ms": 691200,
+        "end_ms": 707880,
+        "text": "Catholic Souls, producing art that would instruct AND Inspire. In 1597, Cardinal Farnese commissioned Annibale Carracci's great Masterpiece: The ceiling of The Palazzo Farnese. The most influential work of art"
+      },
+      {
+        "id": "S114",
+        "cue_ids": [
+          114,
+          115
+        ],
+        "start_ms": 812963,
+        "end_ms": 828600,
+        "text": "His figures reached out into the viewer's space - in a \"frozen moment in time\" sometimes not more than a nano-second. This extraordinary \"David\", was the last in a series of commissions by Scippionne Borghese."
+      },
+      {
+        "id": "S122",
+        "cue_ids": [
+          122,
+          123
+        ],
+        "start_ms": 868520,
+        "end_ms": 883800,
+        "text": "a Split Second away from hurling the stone towards us the viewer. Whereas Michelangelo's David is the whole story, Bernini is a frozen Split Second Michelangelo portrays thought - Bernini action."
+      },
+      {
+        "id": "S130",
+        "cue_ids": [
+          130,
+          131
+        ],
+        "start_ms": 924000,
+        "end_ms": 939880,
+        "text": "the lip, could be a realistic portrayal of the sculptor chiselling away. Chiaroscuro, the use of light and Shadow, comes into play here too. The Baroque painter Caravaggio, was the master of Chiaroscuro, and"
+      },
+      {
+        "id": "S139",
+        "cue_ids": [
+          139
+        ],
+        "start_ms": 987400,
+        "end_ms": 994520,
+        "text": "make marble mutate so realistically, that we believe hair flows In the wind, and hard Stone really is"
+      },
+      {
+        "id": "S145",
+        "cue_ids": [
+          145,
+          146
+        ],
+        "start_ms": 1035440,
+        "end_ms": 1049160,
+        "text": "associated with nature. In the myth, Apollo is struck by Cupid's arrow causing him to fall in love with Daphne. However, Daphne, who has been struck by an arrow of aversion recoils from Apollo's"
+      },
+      {
+        "id": "S153",
+        "cue_ids": [
+          153,
+          154
+        ],
+        "start_ms": 1091520,
+        "end_ms": 1106880,
+        "text": "protect - her much to the surprise of Apollo. It is a \"snapshot\", a frozen moment. At first glance it seems there is body contact between the two figures but actually they don't touch at all - flora and fauna has"
+      },
+      {
+        "id": "S162",
+        "cue_ids": [
+          162,
+          163
+        ],
+        "start_ms": 1155360,
+        "end_ms": 1169200,
+        "text": "the Vatican collection. A sculptural source is this mannerist statue which shows a different story from Ovid's metamorphoses, on the same theme of a Pursuit and transformation. The expression on"
+      },
+      {
+        "id": "S170",
+        "cue_ids": [
+          170,
+          171
+        ],
+        "start_ms": 1211880,
+        "end_ms": 1226480,
+        "text": "are designed carefully to be solid and balanced. But Bernini being Bernini, dangerously extends the male protagonist leg outward and unsupported in midair, giving the statue a diagonal thrust and"
+      },
+      {
+        "id": "S178",
+        "cue_ids": [
+          178,
+          179
+        ],
+        "start_ms": 1267200,
+        "end_ms": 1281800,
+        "text": "into which Bernini cuts the occasional contrasting groove, which catches the light, giving the illusion of highlights - suggesting she is blonde. Apollo's hair by contrast, is a thick mop of curls, achieved"
+      },
+      {
+        "id": "S186",
+        "cue_ids": [
+          186,
+          187
+        ],
+        "start_ms": 1324191,
+        "end_ms": 1340320,
+        "text": "No-one has carved marble before in such a naturalistic way as Bernini did. He didn't just create reality, he made it SO much better. Bernini was very conscious of us the viewer, and how we move around statuary,"
+      },
+      {
+        "id": "S195",
+        "cue_ids": [
+          195,
+          196
+        ],
+        "start_ms": 1386680,
+        "end_ms": 1398360,
+        "text": "Bernini planned for it to be viewed from behind and on the statue's right side, so that as you walked into the room, it was as if you were following Apollo and saw the transformation as it happened"
+      },
+      {
+        "id": "S204",
+        "cue_ids": [
+          204,
+          205
+        ],
+        "start_ms": 1447927,
+        "end_ms": 1459920,
+        "text": "Even at a young age, Bernini had an impossible workload and so created his own workshop, and this meant a group of students working together under his guidance. They all lived together,"
+      },
+      {
+        "id": "S214",
+        "cue_ids": [
+          214,
+          215
+        ],
+        "start_ms": 1512760,
+        "end_ms": 1525280,
+        "text": "practice, and it still is. Many modern-day artists still use teams of unknown assistants. It is a way for young artists to hone their craft. Finelli quit the workshop and became the first of"
+      },
+      {
+        "id": "S222",
+        "cue_ids": [
+          222,
+          223
+        ],
+        "start_ms": 1571840,
+        "end_ms": 1586440,
+        "text": "David, became his greatest benefactor, employing him to redesign and in fact redefine Rome. Like Michelangelo, he would be Rome's chief architect. So much of the theatrical Grandeur we imagine when"
+      },
+      {
+        "id": "S230",
+        "cue_ids": [
+          230,
+          231
+        ],
+        "start_ms": 1626520,
+        "end_ms": 1641531,
+        "text": "statues for the faithful, which included one of his most controversial and possibly erotic works. But perhaps there is one work of his - more than any other - that represents Bernini's Rome: St Peter's Square."
+      },
+      {
+        "id": "S237",
+        "cue_ids": [
+          237,
+          238
+        ],
+        "start_ms": 1681880,
+        "end_ms": 1695220,
+        "text": "of each circle - designed to symbolise the motherly embrace of the church, reaching out to encircle the faithful, creating a sense of security and protection for up to 100,000 visitors and pilgrims."
+      },
+      {
+        "id": "S246",
+        "cue_ids": [
+          246,
+          247
+        ],
+        "start_ms": 1745960,
+        "end_ms": 1760880,
+        "text": "artists criticized by Art historians and ignored by the public, including Caravaggio. This happened more often than not in the non-Catholic countries of Northern Europe, and particularly in Victorian"
+      }
+    ],
+    "text": "S8 [00:00:47.160 --> 00:01:02.480] a sculptor. And come to be seen as the embodiment of the age of the Baroque. He was also an arrogant, hot-tempered, narcissistic man and unscrupulous in his pursuit of personal Glory. He was\nS21 [00:02:42.000 --> 00:02:56.320] were building lavish churches, monuments, and Villas. And by the time Pietro arrived, it was estimated that of the 100,000 citizens of Rome 4,000 of them were artists! Rome was THE place\nS29 [00:03:41.888 --> 00:03:53.240] The pope appointed Cardinal Maffeo Barberini to watch over the Boy Wonder, and arranged for his education. He received a classical training, studying and sketching the Greek and Roman\nS38 [00:04:42.360 --> 00:04:56.240] work intensely, and spoke openly about his desire to be his equal. He was inspired by many of the Master's works, and it is said that he based his SanLorenzo on the positioning of Michelangelo's Pieta.\nS46 [00:05:40.080 --> 00:05:53.640] boy at the threshold of his career is announcing to the world that he has arrived. To get the Saint's expression of being tortured and yet undergoing some kind of spiritual epiphany at the same time,\nS55 [00:06:44.360 --> 00:06:57.520] museum, where we still find Apollo and Daphne. Borghese wielded enormous power as the pope's secretary and effective head of the Vatican government, and he used the immense wealth that he acquired\nS64 [00:07:45.240 --> 00:07:57.311] Bernini cared about. This bust of the Cardinal Borghese is just as revolutionary as his other sculptures in the Borghese collection. It shows a real man rather than an idealised one.\nS72 [00:08:36.207 --> 00:08:49.960] But before this - between 1621 and 1625, the new \"Borghese sculptor\", began to create Innovative pieces for the Cardinal that would become touchstones of the Baroque style. Borghese commissioned four\nS80 [00:09:37.520 --> 00:09:50.320] committed to the world of theatre and illusion, putting on many productions of his own for patrons like the Barberini family. Not just designing sets as many artists did, but also producing\nS96 [00:11:31.200 --> 00:11:47.880] Catholic Souls, producing art that would instruct AND Inspire. In 1597, Cardinal Farnese commissioned Annibale Carracci's great Masterpiece: The ceiling of The Palazzo Farnese. The most influential work of art\nS114 [00:13:32.963 --> 00:13:48.600] His figures reached out into the viewer's space - in a \"frozen moment in time\" sometimes not more than a nano-second. This extraordinary \"David\", was the last in a series of commissions by Scippionne Borghese.\nS122 [00:14:28.520 --> 00:14:43.800] a Split Second away from hurling the stone towards us the viewer. Whereas Michelangelo's David is the whole story, Bernini is a frozen Split Second Michelangelo portrays thought - Bernini action.\nS130 [00:15:24.000 --> 00:15:39.880] the lip, could be a realistic portrayal of the sculptor chiselling away. Chiaroscuro, the use of light and Shadow, comes into play here too. The Baroque painter Caravaggio, was the master of Chiaroscuro, and\nS139 [00:16:27.400 --> 00:16:34.520] make marble mutate so realistically, that we believe hair flows In the wind, and hard Stone really is\nS145 [00:17:15.440 --> 00:17:29.160] associated with nature. In the myth, Apollo is struck by Cupid's arrow causing him to fall in love with Daphne. However, Daphne, who has been struck by an arrow of aversion recoils from Apollo's\nS153 [00:18:11.520 --> 00:18:26.880] protect - her much to the surprise of Apollo. It is a \"snapshot\", a frozen moment. At first glance it seems there is body contact between the two figures but actually they don't touch at all - flora and fauna has\nS162 [00:19:15.360 --> 00:19:29.200] the Vatican collection. A sculptural source is this mannerist statue which shows a different story from Ovid's metamorphoses, on the same theme of a Pursuit and transformation. The expression on\nS170 [00:20:11.880 --> 00:20:26.480] are designed carefully to be solid and balanced. But Bernini being Bernini, dangerously extends the male protagonist leg outward and unsupported in midair, giving the statue a diagonal thrust and\nS178 [00:21:07.200 --> 00:21:21.800] into which Bernini cuts the occasional contrasting groove, which catches the light, giving the illusion of highlights - suggesting she is blonde. Apollo's hair by contrast, is a thick mop of curls, achieved\nS186 [00:22:04.191 --> 00:22:20.320] No-one has carved marble before in such a naturalistic way as Bernini did. He didn't just create reality, he made it SO much better. Bernini was very conscious of us the viewer, and how we move around statuary,\nS195 [00:23:06.680 --> 00:23:18.360] Bernini planned for it to be viewed from behind and on the statue's right side, so that as you walked into the room, it was as if you were following Apollo and saw the transformation as it happened\nS204 [00:24:07.927 --> 00:24:19.920] Even at a young age, Bernini had an impossible workload and so created his own workshop, and this meant a group of students working together under his guidance. They all lived together,\nS214 [00:25:12.760 --> 00:25:25.280] practice, and it still is. Many modern-day artists still use teams of unknown assistants. It is a way for young artists to hone their craft. Finelli quit the workshop and became the first of\nS222 [00:26:11.840 --> 00:26:26.440] David, became his greatest benefactor, employing him to redesign and in fact redefine Rome. Like Michelangelo, he would be Rome's chief architect. So much of the theatrical Grandeur we imagine when\nS230 [00:27:06.520 --> 00:27:21.531] statues for the faithful, which included one of his most controversial and possibly erotic works. But perhaps there is one work of his - more than any other - that represents Bernini's Rome: St Peter's Square.\nS237 [00:28:01.880 --> 00:28:15.220] of each circle - designed to symbolise the motherly embrace of the church, reaching out to encircle the faithful, creating a sense of security and protection for up to 100,000 visitors and pilgrims.\nS246 [00:29:05.960 --> 00:29:20.880] artists criticized by Art historians and ignored by the public, including Caravaggio. This happened more often than not in the non-Catholic countries of Northern Europe, and particularly in Victorian",
+    "text_tokens": 2016,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      8,
+      21,
+      29,
+      38,
+      46,
+      56,
+      65,
+      73,
+      81,
+      97,
+      115,
+      123,
+      131,
+      145,
+      153,
+      162,
+      170,
+      178,
+      186,
+      195,
+      204,
+      215,
+      223,
+      231,
+      238,
+      247
+    ],
+    "omitted_neighbor_ids": [
+      10,
+      23,
+      31,
+      40,
+      48,
+      54,
+      63,
+      71,
+      79,
+      95,
+      113,
+      121,
+      129,
+      138,
+      140,
+      147,
+      155,
+      164,
+      172,
+      180,
+      188,
+      197,
+      206,
+      213,
+      221,
+      229,
+      236,
+      245
+    ]
+  },
+  "evidence_sha256": "2c38e1b3c0c4317abdb79ed1906fec301abcfd8dd92bc321a4773a366dc34b1b"
+}

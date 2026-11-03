@@ -1,0 +1,323 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "edAu5_O4C54",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/edAu5_O4C54.srt",
+      "status": "available",
+      "bytes": 6607,
+      "sha256": "07a0196d28442aad226b361c7878510dfbd25e16a338415c63cbeff480d52d34",
+      "cues": 68,
+      "nonempty_cues": 68
+    },
+    "frame_indices": [
+      0,
+      256,
+      511,
+      767,
+      1023,
+      1278,
+      1534,
+      1790,
+      2045,
+      2301,
+      2557,
+      2812,
+      3068,
+      3324,
+      3579,
+      3835,
+      4091,
+      4347,
+      4602,
+      4858,
+      5114,
+      5369,
+      5625,
+      5881,
+      6136,
+      6392,
+      6648,
+      6903,
+      7159,
+      7415,
+      7670,
+      7926
+    ],
+    "frame_seconds": [
+      0.0,
+      10.677333,
+      21.312958,
+      31.990292,
+      42.667625,
+      53.30325,
+      63.980583,
+      74.657917,
+      85.293542,
+      95.970875,
+      106.648208,
+      117.283833,
+      127.961167,
+      138.6385,
+      149.274125,
+      159.951458,
+      170.628792,
+      181.306125,
+      191.94175,
+      202.619083,
+      213.296417,
+      223.932042,
+      234.609375,
+      245.286708,
+      255.922333,
+      266.599667,
+      277.277,
+      287.912625,
+      298.589958,
+      309.267292,
+      319.902917,
+      330.58025
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [],
+      [],
+      [
+        5
+      ],
+      [],
+      [],
+      [
+        7,
+        8
+      ],
+      [],
+      [
+        10,
+        11
+      ],
+      [
+        12
+      ],
+      [
+        15,
+        16
+      ],
+      [],
+      [],
+      [
+        22
+      ],
+      [],
+      [],
+      [
+        26
+      ],
+      [
+        28
+      ],
+      [],
+      [],
+      [
+        32,
+        33
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        42,
+        43
+      ],
+      [
+        47
+      ],
+      [
+        50,
+        51
+      ],
+      [
+        55
+      ],
+      [
+        57
+      ],
+      [
+        59,
+        60
+      ],
+      [],
+      [
+        64
+      ],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 2900,
+        "text": "stop Spider-Man"
+      },
+      {
+        "cue_id": 5,
+        "start_ms": 30720,
+        "end_ms": 33840,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 7,
+        "start_ms": 58879,
+        "end_ms": 65539,
+        "text": "and then I looked at my uncle and ah let"
+      },
+      {
+        "cue_id": 8,
+        "start_ms": 62160,
+        "end_ms": 65539,
+        "text": "me guess he died"
+      },
+      {
+        "cue_id": 10,
+        "start_ms": 80780,
+        "end_ms": 85400,
+        "text": "can you take a photo of this it's our"
+      },
+      {
+        "cue_id": 11,
+        "start_ms": 83039,
+        "end_ms": 85400,
+        "text": "first Chase"
+      },
+      {
+        "cue_id": 12,
+        "start_ms": 91520,
+        "end_ms": 98640,
+        "text": "miles hi I'm a huge fan of your work hey"
+      },
+      {
+        "cue_id": 15,
+        "start_ms": 103140,
+        "end_ms": 107658,
+        "text": "anything he can oh dang I pulled"
+      },
+      {
+        "cue_id": 16,
+        "start_ms": 105600,
+        "end_ms": 107658,
+        "text": "something"
+      },
+      {
+        "cue_id": 22,
+        "start_ms": 138110,
+        "end_ms": 141179,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 168810,
+        "end_ms": 173800,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 28,
+        "start_ms": 180860,
+        "end_ms": 185640,
+        "text": "thank you"
+      },
+      {
+        "cue_id": 32,
+        "start_ms": 209300,
+        "end_ms": 217140,
+        "text": "let me go crazy to run running is"
+      },
+      {
+        "cue_id": 33,
+        "start_ms": 212940,
+        "end_ms": 219420,
+        "text": "crazy thing going on I feel bad good but"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 219420,
+        "end_ms": 224819,
+        "text": "gonna win here no I don't know stop"
+      },
+      {
+        "cue_id": 36,
+        "start_ms": 221940,
+        "end_ms": 225659,
+        "text": "moving so fast no do you want to hold my"
+      },
+      {
+        "cue_id": 42,
+        "start_ms": 232079,
+        "end_ms": 236700,
+        "text": "rejuvenated you'll get more so when you"
+      },
+      {
+        "cue_id": 43,
+        "start_ms": 234360,
+        "end_ms": 237900,
+        "text": "adjust the chest with this metal you"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 242640,
+        "end_ms": 246739,
+        "text": "you're the reason I had her okay"
+      },
+      {
+        "cue_id": 50,
+        "start_ms": 251340,
+        "end_ms": 256139,
+        "text": "it's going to turn out like you and that"
+      },
+      {
+        "cue_id": 51,
+        "start_ms": 254340,
+        "end_ms": 257699,
+        "text": "got me excited because you are a"
+      },
+      {
+        "cue_id": 55,
+        "start_ms": 266280,
+        "end_ms": 272479,
+        "text": "I couldn't"
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 275460,
+        "end_ms": 282419,
+        "text": "look bad things are gonna happen it"
+      },
+      {
+        "cue_id": 59,
+        "start_ms": 282419,
+        "end_ms": 289759,
+        "text": "but good things happen too you know"
+      },
+      {
+        "cue_id": 60,
+        "start_ms": 286040,
+        "end_ms": 289759,
+        "text": "like you happen"
+      },
+      {
+        "cue_id": 64,
+        "start_ms": 306020,
+        "end_ms": 313580,
+        "text": "I didn't know if I promise you please"
+      }
+    ],
+    "text": "stop Spider-Man\n[Music]\nand then I looked at my uncle and ah let\nme guess he died\ncan you take a photo of this it's our\nfirst Chase\nmiles hi I'm a huge fan of your work hey\nanything he can oh dang I pulled\nsomething\n[Music]\n[Music]\nthank you\nlet me go crazy to run running is\ncrazy thing going on I feel bad good but\ngonna win here no I don't know stop\nmoving so fast no do you want to hold my\nrejuvenated you'll get more so when you\nadjust the chest with this metal you\nyou're the reason I had her okay\nit's going to turn out like you and that\ngot me excited because you are a\nI couldn't\nlook bad things are gonna happen it\nbut good things happen too you know\nlike you happen\nI didn't know if I promise you please",
+    "text_tokens": 191,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "6bfbd8c78f0ad225ee306bc9964daa62712f0e91d547c21cf127a605069b8ad2"
+}

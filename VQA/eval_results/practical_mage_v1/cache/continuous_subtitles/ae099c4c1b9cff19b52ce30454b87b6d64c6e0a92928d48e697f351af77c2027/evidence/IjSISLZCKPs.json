@@ -1,0 +1,620 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "IjSISLZCKPs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IjSISLZCKPs.srt",
+        "status": "available",
+        "bytes": 10471,
+        "sha256": "a448a48ecfe3ae08f5a28921a8be7b6e42d30c1789ddcd15cfb683779986b01c",
+        "cues": 113,
+        "nonempty_cues": 113
+      },
+      "frame_indices": [
+        0,
+        465,
+        931,
+        1396,
+        1861,
+        2327,
+        2792,
+        3257,
+        3723,
+        4188,
+        4653,
+        5119,
+        5584,
+        6049,
+        6515,
+        6980,
+        7445,
+        7910,
+        8376,
+        8841,
+        9306,
+        9772,
+        10237,
+        10702,
+        11168,
+        11633,
+        12098,
+        12564,
+        13029,
+        13494,
+        13960,
+        14425
+      ],
+      "frame_seconds": [
+        0.0,
+        15.5155,
+        31.064367,
+        46.579867,
+        62.095367,
+        77.644233,
+        93.159733,
+        108.67523299999999,
+        124.22409999999999,
+        139.7396,
+        155.2551,
+        170.803967,
+        186.319467,
+        201.834967,
+        217.383833,
+        232.899333,
+        248.414833,
+        263.930333,
+        279.4792,
+        294.9947,
+        310.5102,
+        326.059067,
+        341.574567,
+        357.090067,
+        372.638933,
+        388.154433,
+        403.669933,
+        419.2188,
+        434.7343,
+        450.2498,
+        465.798667,
+        481.314167
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          4,
+          5
+        ],
+        [],
+        [],
+        [
+          14
+        ],
+        [
+          17
+        ],
+        [],
+        [],
+        [],
+        [
+          29
+        ],
+        [],
+        [
+          35,
+          36
+        ],
+        [
+          42,
+          43
+        ],
+        [],
+        [
+          47
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          64,
+          65
+        ],
+        [],
+        [
+          74
+        ],
+        [
+          77
+        ],
+        [
+          81
+        ],
+        [
+          85
+        ],
+        [
+          90
+        ],
+        [
+          93
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          101
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          109
+        ],
+        [
+          112,
+          113
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 11820,
+          "end_ms": 17000,
+          "text": "Maji"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13799,
+          "end_ms": 17000,
+          "text": "did you go in the garbage"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 60059,
+          "end_ms": 65600,
+          "text": "Ben what did you do"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 75659,
+          "end_ms": 78658,
+          "text": "videos"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 138980,
+          "end_ms": 142879,
+          "text": "Monty come here right now"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 167700,
+          "end_ms": 172760,
+          "text": "naughty"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 169860,
+          "end_ms": 172760,
+          "text": "did you do that"
+        },
+        {
+          "cue_id": 42,
+          "start_ms": 183780,
+          "end_ms": 187560,
+          "text": "did you have a good day huh did you have"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 185400,
+          "end_ms": 190200,
+          "text": "a good day Daddy loves you you have a"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 204160,
+          "end_ms": 226310,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 229079,
+          "end_ms": 235200,
+          "text": "you did this"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 231840,
+          "end_ms": 237720,
+          "text": "you you chew The Chopping board Chloe"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 243200,
+          "end_ms": 249599,
+          "text": "I haven't even said anything"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 246180,
+          "end_ms": 252060,
+          "text": "boy what's that Nova"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 259160,
+          "end_ms": 263940,
+          "text": "we wish to"
+        },
+        {
+          "cue_id": 60,
+          "start_ms": 261238,
+          "end_ms": 267240,
+          "text": "and"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 275940,
+          "end_ms": 281400,
+          "text": "your ear medicine but"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 278100,
+          "end_ms": 285680,
+          "text": "we gotta do it I mean"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 308280,
+          "end_ms": 311060,
+          "text": "Casey"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 325919,
+          "end_ms": 332159,
+          "text": "did you snack on this"
+        },
+        {
+          "cue_id": 81,
+          "start_ms": 337860,
+          "end_ms": 341840,
+          "text": "oh are you pointing physique"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 354840,
+          "end_ms": 360440,
+          "text": "honey have you been a good girl or a bad"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 370560,
+          "end_ms": 374180,
+          "text": "Penny did you do this"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 386940,
+          "end_ms": 389940,
+          "text": "dude"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 399780,
+          "end_ms": 405360,
+          "text": "what did you do to that"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 402600,
+          "end_ms": 408560,
+          "text": "did you eat this slipper"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 417720,
+          "end_ms": 420380,
+          "text": "dad"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 428639,
+          "end_ms": 436940,
+          "text": "hey did you dig in the trash can"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 432419,
+          "end_ms": 436940,
+          "text": "did you dig Did You Dig"
+        },
+        {
+          "cue_id": 109,
+          "start_ms": 450000,
+          "end_ms": 452960,
+          "text": "what's this"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 461580,
+          "end_ms": 469149,
+          "text": "foreign"
+        },
+        {
+          "cue_id": 113,
+          "start_ms": 463570,
+          "end_ms": 469149,
+          "text": "[Music]"
+        }
+      ],
+      "text": "Maji\ndid you go in the garbage\nBen what did you do\nvideos\nMonty come here right now\nnaughty\ndid you do that\ndid you have a good day huh did you have\na good day Daddy loves you you have a\n[Music]\nyou did this\nyou you chew The Chopping board Chloe\nI haven't even said anything\nboy what's that Nova\nwe wish to\nand\nyour ear medicine but\nwe gotta do it I mean\nCasey\ndid you snack on this\noh are you pointing physique\nhoney have you been a good girl or a bad\nPenny did you do this\ndude\nwhat did you do to that\ndid you eat this slipper\ndad\nhey did you dig in the trash can\ndid you dig Did You Dig\nwhat's this\nforeign\n[Music]",
+      "text_tokens": 179,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S3",
+        "cue_ids": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "start_ms": 9300,
+        "end_ms": 22160,
+        "text": "what are you doing Maji did you go in the garbage come here"
+      },
+      {
+        "id": "S14",
+        "cue_ids": [
+          14,
+          15
+        ],
+        "start_ms": 60059,
+        "end_ms": 65600,
+        "text": "Ben what did you do is that your mess"
+      },
+      {
+        "id": "S16",
+        "cue_ids": [
+          16,
+          17
+        ],
+        "start_ms": 72299,
+        "end_ms": 78658,
+        "text": "is it a camouflage videos"
+      },
+      {
+        "id": "S29",
+        "cue_ids": [
+          29
+        ],
+        "start_ms": 138980,
+        "end_ms": 142879,
+        "text": "Monty come here right now"
+      },
+      {
+        "id": "S34",
+        "cue_ids": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "start_ms": 165239,
+        "end_ms": 177360,
+        "text": "you written all over it naughty did you do that call me"
+      },
+      {
+        "id": "S41",
+        "cue_ids": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "start_ms": 181980,
+        "end_ms": 192060,
+        "text": "did you have a good day come here Missy did you have a good day huh did you have a good day Daddy loves you you have a good day but who tore my pants up though"
+      },
+      {
+        "id": "S47",
+        "cue_ids": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "start_ms": 204160,
+        "end_ms": 254580,
+        "text": "[Music] what am I saying you did this you you chew The Chopping board Chloe did you do it did you do it Chloe I haven't even said anything boy what's that Nova look at me"
+      },
+      {
+        "id": "S58",
+        "cue_ids": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "start_ms": 256738,
+        "end_ms": 269240,
+        "text": "what's that we wish to and came for Julie"
+      },
+      {
+        "id": "S63",
+        "cue_ids": [
+          63,
+          64,
+          65,
+          66
+        ],
+        "start_ms": 274259,
+        "end_ms": 285680,
+        "text": "Deborah I know you don't like to take your ear medicine but we gotta do it I mean come here come on"
+      },
+      {
+        "id": "S74",
+        "cue_ids": [
+          74
+        ],
+        "start_ms": 308280,
+        "end_ms": 311060,
+        "text": "Casey"
+      },
+      {
+        "id": "S77",
+        "cue_ids": [
+          77,
+          78
+        ],
+        "start_ms": 325919,
+        "end_ms": 334020,
+        "text": "did you snack on this did you snack on this"
+      },
+      {
+        "id": "S80",
+        "cue_ids": [
+          80,
+          81,
+          82
+        ],
+        "start_ms": 334020,
+        "end_ms": 346880,
+        "text": "was it you oh are you pointing physique Maya"
+      },
+      {
+        "id": "S85",
+        "cue_ids": [
+          85,
+          86
+        ],
+        "start_ms": 354840,
+        "end_ms": 360440,
+        "text": "honey have you been a good girl or a bad girl"
+      },
+      {
+        "id": "S89",
+        "cue_ids": [
+          89,
+          90
+        ],
+        "start_ms": 366600,
+        "end_ms": 374180,
+        "text": "you've you've been bad Penny did you do this"
+      },
+      {
+        "id": "S92",
+        "cue_ids": [
+          92,
+          93
+        ],
+        "start_ms": 382919,
+        "end_ms": 389940,
+        "text": "Raider did you do this dude"
+      },
+      {
+        "id": "S95",
+        "cue_ids": [
+          95,
+          96,
+          97,
+          98
+        ],
+        "start_ms": 396900,
+        "end_ms": 408560,
+        "text": "what did you do what did you do to that did you eat this slipper Gilly did you eat it"
+      },
+      {
+        "id": "S101",
+        "cue_ids": [
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "start_ms": 417720,
+        "end_ms": 436940,
+        "text": "dad Murray hey did you take in the trash can hey did you dig in the trash can did you dig Did You Dig"
+      },
+      {
+        "id": "S108",
+        "cue_ids": [
+          108,
+          109
+        ],
+        "start_ms": 446280,
+        "end_ms": 452960,
+        "text": "Jack what's this"
+      },
+      {
+        "id": "S111",
+        "cue_ids": [
+          111,
+          112,
+          113
+        ],
+        "start_ms": 459419,
+        "end_ms": 469149,
+        "text": "what's this foreign [Music]"
+      }
+    ],
+    "text": "S3 [00:00:09.300 --> 00:00:22.160] what are you doing Maji did you go in the garbage come here\nS14 [00:01:00.059 --> 00:01:05.600] Ben what did you do is that your mess\nS16 [00:01:12.299 --> 00:01:18.658] is it a camouflage videos\nS29 [00:02:18.980 --> 00:02:22.879] Monty come here right now\nS34 [00:02:45.239 --> 00:02:57.360] you written all over it naughty did you do that call me\nS41 [00:03:01.980 --> 00:03:12.060] did you have a good day come here Missy did you have a good day huh did you have a good day Daddy loves you you have a good day but who tore my pants up though\nS47 [00:03:24.160 --> 00:04:14.580] [Music] what am I saying you did this you you chew The Chopping board Chloe did you do it did you do it Chloe I haven't even said anything boy what's that Nova look at me\nS58 [00:04:16.738 --> 00:04:29.240] what's that we wish to and came for Julie\nS63 [00:04:34.259 --> 00:04:45.680] Deborah I know you don't like to take your ear medicine but we gotta do it I mean come here come on\nS74 [00:05:08.280 --> 00:05:11.060] Casey\nS77 [00:05:25.919 --> 00:05:34.020] did you snack on this did you snack on this\nS80 [00:05:34.020 --> 00:05:46.880] was it you oh are you pointing physique Maya\nS85 [00:05:54.840 --> 00:06:00.440] honey have you been a good girl or a bad girl\nS89 [00:06:06.600 --> 00:06:14.180] you've you've been bad Penny did you do this\nS92 [00:06:22.919 --> 00:06:29.940] Raider did you do this dude\nS95 [00:06:36.900 --> 00:06:48.560] what did you do what did you do to that did you eat this slipper Gilly did you eat it\nS101 [00:06:57.720 --> 00:07:16.940] dad Murray hey did you take in the trash can hey did you dig in the trash can did you dig Did You Dig\nS108 [00:07:26.280 --> 00:07:32.960] Jack what's this\nS111 [00:07:39.419 --> 00:07:49.149] what's this foreign [Music]",
+    "text_tokens": 872,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      3,
+      6,
+      15,
+      16,
+      34,
+      37,
+      41,
+      44,
+      48,
+      51,
+      52,
+      55,
+      58,
+      61,
+      63,
+      66,
+      78,
+      80,
+      82,
+      86,
+      89,
+      92,
+      95,
+      98,
+      102,
+      103,
+      108,
+      111
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "c1eff9bbb91f53845e7c1cad9c78d3b3485a27857bf5c1e597440d233eeb45fb"
+}

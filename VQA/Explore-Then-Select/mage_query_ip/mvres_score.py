@@ -1,9 +1,7 @@
-"""Official codec bitcost scores for patches already on Mage canvases.
+"""官方 codec block bitcost 打分（已在 Mage canvas 上的 patch）。
 
-The installed ``cv_reader_fast`` exports block bitcost only. ``cv_reader_fetch_mvres``
-is broken in this package (``HAS_CV_READER`` / ``read_video_cb`` are gone) and is not used.
-There is no separate motion-vector or residual map to weight. ``s_mv`` / ``s_bit`` is
-normalized bitcost; ``s_res`` stays 0. Empty-bitcost frames score 0 (warn, no crash).
+【主路径不用】queryip_bitcost 失败消融（≤ random）。开放栈无分开的真 MV+残差。
+cv_reader_fast 仅有 bitcost；cv_reader_fetch_mvres 不可用。保留供对照复现。
 """
 
 from __future__ import annotations

@@ -1,0 +1,1089 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "ce_uHxXsUWA",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ce_uHxXsUWA.srt",
+        "status": "available",
+        "bytes": 17089,
+        "sha256": "8639ba060ec6ba5e9d57b0c54a1c08d797fe192b964702b2bec2a96d5a1aa205",
+        "cues": 99,
+        "nonempty_cues": 99
+      },
+      "frame_indices": [
+        0,
+        550,
+        1099,
+        1649,
+        2199,
+        2749,
+        3298,
+        3848,
+        4398,
+        4948,
+        5497,
+        6047,
+        6597,
+        7147,
+        7696,
+        8246,
+        8796,
+        9346,
+        9895,
+        10445,
+        10995,
+        11545,
+        12094,
+        12644,
+        13194,
+        13744,
+        14293,
+        14843,
+        15393,
+        15943,
+        16492,
+        17042
+      ],
+      "frame_seconds": [
+        0.0,
+        18.351667,
+        36.669967,
+        55.021633,
+        73.3733,
+        91.72496699999999,
+        110.043267,
+        128.394933,
+        146.7466,
+        165.098267,
+        183.416567,
+        201.768233,
+        220.1199,
+        238.471567,
+        256.789867,
+        275.141533,
+        293.4932,
+        311.844867,
+        330.163167,
+        348.514833,
+        366.8665,
+        385.218167,
+        403.536467,
+        421.888133,
+        440.2398,
+        458.591467,
+        476.909767,
+        495.261433,
+        513.6131,
+        531.964767,
+        550.283067,
+        568.634733
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          3
+        ],
+        [
+          7
+        ],
+        [
+          11
+        ],
+        [
+          14
+        ],
+        [
+          17
+        ],
+        [
+          21
+        ],
+        [
+          24
+        ],
+        [
+          27
+        ],
+        [
+          31
+        ],
+        [
+          34
+        ],
+        [
+          37
+        ],
+        [
+          40
+        ],
+        [
+          43
+        ],
+        [
+          46
+        ],
+        [
+          49
+        ],
+        [
+          53
+        ],
+        [
+          56
+        ],
+        [
+          59
+        ],
+        [
+          62
+        ],
+        [
+          65
+        ],
+        [
+          68
+        ],
+        [
+          71
+        ],
+        [
+          74
+        ],
+        [
+          77
+        ],
+        [
+          80
+        ],
+        [
+          83
+        ],
+        [
+          87
+        ],
+        [
+          90
+        ],
+        [
+          93
+        ],
+        [
+          96
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 3,
+          "start_ms": 13140,
+          "end_ms": 18840,
+          "text": "renew their passports online in August and then again in October. I did not share information"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 34440,
+          "end_ms": 39000,
+          "text": "it opens up for a limited amount of time every month. Once they get a certain number"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 53280,
+          "end_ms": 59700,
+          "text": "At the time that this video was filmed, here's who qualifies to renew their passport online. If"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 71220,
+          "end_ms": 77640,
+          "text": "in order to apply for your passport online. This is the homepage and it has changed a little bit"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 88380,
+          "end_ms": 93600,
+          "text": "and you'll see that there are two options, whereas before there used to be one. I'm an adult renewing"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 108600,
+          "end_ms": 113759,
+          "text": "Now, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 125100,
+          "end_ms": 131400,
+          "text": "the age of 25 in order to be able to do this. Your recent passport was issued over 9 years,"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 143520,
+          "end_ms": 148200,
+          "text": "birth. If you need to change any of these things, you'll have to apply through mail. You're not"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 164280,
+          "end_ms": 170160,
+          "text": "a little quicker. Then again, you're applying for a regular passport, which is most of you."
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 182640,
+          "end_ms": 189060,
+          "text": "you, it's not damaged and you've never reported it lost or stolen, and you do keep your recent"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 200460,
+          "end_ms": 204240,
+          "text": "Then, very important, you need to be able to upload a digital passport photo,"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 215220,
+          "end_ms": 221220,
+          "text": "and they will put it on a USB drive for you, which you can then upload to your application,"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 232980,
+          "end_ms": 240420,
+          "text": "travel. These are the criteria as of the time of the filming of this video that you need to meet."
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 253980,
+          "end_ms": 259560,
+          "text": "follow this link and do it to. To activate the account, they will send you a verification email,"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 272820,
+          "end_ms": 276180,
+          "text": "Again, if you can't do it during this limited release, they will open it up"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 293220,
+          "end_ms": 299400,
+          "text": "If you've waited 24 hours and still do not see the option to renew your passport online, they might"
+        },
+        {
+          "cue_id": 56,
+          "start_ms": 309540,
+          "end_ms": 314700,
+          "text": "through the mail. Either way, the processing times are the same. For more information on"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 324540,
+          "end_ms": 331440,
+          "text": "you meet the criteria. Now, can you renew a passport card online? Yes, you can renew both"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 344040,
+          "end_ms": 350400,
+          "text": "cannot do that online. For that, you'll have to apply via mail, which I explain in this video."
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 365220,
+          "end_ms": 370680,
+          "text": "then an additional $18 to $19 for that. When you are filling out your application online,"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 381840,
+          "end_ms": 387180,
+          "text": "from your bank account to theirs. For that, you'll need your bank routing number as well"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 401220,
+          "end_ms": 405420,
+          "text": "If you're mostly interested in air travel, you don't need a passport card."
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 416700,
+          "end_ms": 422700,
+          "text": "to go back to the State Department website. I'm on the homepage, click on US passports, and they now"
+        },
+        {
+          "cue_id": 77,
+          "start_ms": 434040,
+          "end_ms": 440280,
+          "text": "renewing or applying for a passport for the first time, the expedited option that you're paying"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 453420,
+          "end_ms": 458760,
+          "text": "I would recommend you mail the form instead of doing it online, because online it says,"
+        },
+        {
+          "cue_id": 83,
+          "start_ms": 471180,
+          "end_ms": 477180,
+          "text": "week that both applied for their passports and one person received it after one week and the other"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 493980,
+          "end_ms": 500520,
+          "text": "that the processing times are the same between applying via mail and online, but they also say"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 510960,
+          "end_ms": 517500,
+          "text": "be. Once the program is completely rolled out and is an option available to everybody, the timelines"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 530520,
+          "end_ms": 538020,
+          "text": "but if you have travel planned in the next six weeks, then I would recommend doing it via mail."
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 548160,
+          "end_ms": 553020,
+          "text": "able to complete it in one sitting. If you have any other questions about passports in general,"
+        }
+      ],
+      "text": "renew their passports online in August and then again in October. I did not share information\nit opens up for a limited amount of time every month. Once they get a certain number\nAt the time that this video was filmed, here's who qualifies to renew their passport online. If\nin order to apply for your passport online. This is the homepage and it has changed a little bit\nand you'll see that there are two options, whereas before there used to be one. I'm an adult renewing\nNow, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to\nthe age of 25 in order to be able to do this. Your recent passport was issued over 9 years,\nbirth. If you need to change any of these things, you'll have to apply through mail. You're not\na little quicker. Then again, you're applying for a regular passport, which is most of you.\nyou, it's not damaged and you've never reported it lost or stolen, and you do keep your recent\nThen, very important, you need to be able to upload a digital passport photo,\nand they will put it on a USB drive for you, which you can then upload to your application,\ntravel. These are the criteria as of the time of the filming of this video that you need to meet.\nfollow this link and do it to. To activate the account, they will send you a verification email,\nAgain, if you can't do it during this limited release, they will open it up\nIf you've waited 24 hours and still do not see the option to renew your passport online, they might\nthrough the mail. Either way, the processing times are the same. For more information on\nyou meet the criteria. Now, can you renew a passport card online? Yes, you can renew both\ncannot do that online. For that, you'll have to apply via mail, which I explain in this video.\nthen an additional $18 to $19 for that. When you are filling out your application online,\nfrom your bank account to theirs. For that, you'll need your bank routing number as well\nIf you're mostly interested in air travel, you don't need a passport card.\nto go back to the State Department website. I'm on the homepage, click on US passports, and they now\nrenewing or applying for a passport for the first time, the expedited option that you're paying\nI would recommend you mail the form instead of doing it online, because online it says,\nweek that both applied for their passports and one person received it after one week and the other\nthat the processing times are the same between applying via mail and online, but they also say\nbe. Once the program is completely rolled out and is an option available to everybody, the timelines\nbut if you have travel planned in the next six weeks, then I would recommend doing it via mail.\nable to complete it in one sitting. If you have any other questions about passports in general,",
+      "text_tokens": 634,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "ce_uHxXsUWA",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/ce_uHxXsUWA.srt",
+          "status": "available",
+          "bytes": 17089,
+          "sha256": "8639ba060ec6ba5e9d57b0c54a1c08d797fe192b964702b2bec2a96d5a1aa205",
+          "cues": 99,
+          "nonempty_cues": 99
+        },
+        "frame_indices": [
+          0,
+          550,
+          1099,
+          1649,
+          2199,
+          2749,
+          3298,
+          3848,
+          4398,
+          4948,
+          5497,
+          6047,
+          6597,
+          7147,
+          7696,
+          8246,
+          8796,
+          9346,
+          9895,
+          10445,
+          10995,
+          11545,
+          12094,
+          12644,
+          13194,
+          13744,
+          14293,
+          14843,
+          15393,
+          15943,
+          16492,
+          17042
+        ],
+        "frame_seconds": [
+          0.0,
+          18.351667,
+          36.669967,
+          55.021633,
+          73.3733,
+          91.72496699999999,
+          110.043267,
+          128.394933,
+          146.7466,
+          165.098267,
+          183.416567,
+          201.768233,
+          220.1199,
+          238.471567,
+          256.789867,
+          275.141533,
+          293.4932,
+          311.844867,
+          330.163167,
+          348.514833,
+          366.8665,
+          385.218167,
+          403.536467,
+          421.888133,
+          440.2398,
+          458.591467,
+          476.909767,
+          495.261433,
+          513.6131,
+          531.964767,
+          550.283067,
+          568.634733
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            3
+          ],
+          [
+            7
+          ],
+          [
+            11
+          ],
+          [
+            14
+          ],
+          [
+            17
+          ],
+          [
+            21
+          ],
+          [
+            24
+          ],
+          [
+            27
+          ],
+          [
+            31
+          ],
+          [
+            34
+          ],
+          [
+            37
+          ],
+          [
+            40
+          ],
+          [
+            43
+          ],
+          [
+            46
+          ],
+          [
+            49
+          ],
+          [
+            53
+          ],
+          [
+            56
+          ],
+          [
+            59
+          ],
+          [
+            62
+          ],
+          [
+            65
+          ],
+          [
+            68
+          ],
+          [
+            71
+          ],
+          [
+            74
+          ],
+          [
+            77
+          ],
+          [
+            80
+          ],
+          [
+            83
+          ],
+          [
+            87
+          ],
+          [
+            90
+          ],
+          [
+            93
+          ],
+          [
+            96
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 3,
+            "start_ms": 13140,
+            "end_ms": 18840,
+            "text": "renew their passports online in August and then again in October. I did not share information"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 34440,
+            "end_ms": 39000,
+            "text": "it opens up for a limited amount of time every month. Once they get a certain number"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 53280,
+            "end_ms": 59700,
+            "text": "At the time that this video was filmed, here's who qualifies to renew their passport online. If"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 71220,
+            "end_ms": 77640,
+            "text": "in order to apply for your passport online. This is the homepage and it has changed a little bit"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 88380,
+            "end_ms": 93600,
+            "text": "and you'll see that there are two options, whereas before there used to be one. I'm an adult renewing"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 108600,
+            "end_ms": 113759,
+            "text": "Now, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 125100,
+            "end_ms": 131400,
+            "text": "the age of 25 in order to be able to do this. Your recent passport was issued over 9 years,"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 143520,
+            "end_ms": 148200,
+            "text": "birth. If you need to change any of these things, you'll have to apply through mail. You're not"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 164280,
+            "end_ms": 170160,
+            "text": "a little quicker. Then again, you're applying for a regular passport, which is most of you."
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 182640,
+            "end_ms": 189060,
+            "text": "you, it's not damaged and you've never reported it lost or stolen, and you do keep your recent"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 200460,
+            "end_ms": 204240,
+            "text": "Then, very important, you need to be able to upload a digital passport photo,"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 215220,
+            "end_ms": 221220,
+            "text": "and they will put it on a USB drive for you, which you can then upload to your application,"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 232980,
+            "end_ms": 240420,
+            "text": "travel. These are the criteria as of the time of the filming of this video that you need to meet."
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 253980,
+            "end_ms": 259560,
+            "text": "follow this link and do it to. To activate the account, they will send you a verification email,"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 272820,
+            "end_ms": 276180,
+            "text": "Again, if you can't do it during this limited release, they will open it up"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 293220,
+            "end_ms": 299400,
+            "text": "If you've waited 24 hours and still do not see the option to renew your passport online, they might"
+          },
+          {
+            "cue_id": 56,
+            "start_ms": 309540,
+            "end_ms": 314700,
+            "text": "through the mail. Either way, the processing times are the same. For more information on"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 324540,
+            "end_ms": 331440,
+            "text": "you meet the criteria. Now, can you renew a passport card online? Yes, you can renew both"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 344040,
+            "end_ms": 350400,
+            "text": "cannot do that online. For that, you'll have to apply via mail, which I explain in this video."
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 365220,
+            "end_ms": 370680,
+            "text": "then an additional $18 to $19 for that. When you are filling out your application online,"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 381840,
+            "end_ms": 387180,
+            "text": "from your bank account to theirs. For that, you'll need your bank routing number as well"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 401220,
+            "end_ms": 405420,
+            "text": "If you're mostly interested in air travel, you don't need a passport card."
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 416700,
+            "end_ms": 422700,
+            "text": "to go back to the State Department website. I'm on the homepage, click on US passports, and they now"
+          },
+          {
+            "cue_id": 77,
+            "start_ms": 434040,
+            "end_ms": 440280,
+            "text": "renewing or applying for a passport for the first time, the expedited option that you're paying"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 453420,
+            "end_ms": 458760,
+            "text": "I would recommend you mail the form instead of doing it online, because online it says,"
+          },
+          {
+            "cue_id": 83,
+            "start_ms": 471180,
+            "end_ms": 477180,
+            "text": "week that both applied for their passports and one person received it after one week and the other"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 493980,
+            "end_ms": 500520,
+            "text": "that the processing times are the same between applying via mail and online, but they also say"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 510960,
+            "end_ms": 517500,
+            "text": "be. Once the program is completely rolled out and is an option available to everybody, the timelines"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 530520,
+            "end_ms": 538020,
+            "text": "but if you have travel planned in the next six weeks, then I would recommend doing it via mail."
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 548160,
+            "end_ms": 553020,
+            "text": "able to complete it in one sitting. If you have any other questions about passports in general,"
+          }
+        ],
+        "text": "renew their passports online in August and then again in October. I did not share information\nit opens up for a limited amount of time every month. Once they get a certain number\nAt the time that this video was filmed, here's who qualifies to renew their passport online. If\nin order to apply for your passport online. This is the homepage and it has changed a little bit\nand you'll see that there are two options, whereas before there used to be one. I'm an adult renewing\nNow, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to\nthe age of 25 in order to be able to do this. Your recent passport was issued over 9 years,\nbirth. If you need to change any of these things, you'll have to apply through mail. You're not\na little quicker. Then again, you're applying for a regular passport, which is most of you.\nyou, it's not damaged and you've never reported it lost or stolen, and you do keep your recent\nThen, very important, you need to be able to upload a digital passport photo,\nand they will put it on a USB drive for you, which you can then upload to your application,\ntravel. These are the criteria as of the time of the filming of this video that you need to meet.\nfollow this link and do it to. To activate the account, they will send you a verification email,\nAgain, if you can't do it during this limited release, they will open it up\nIf you've waited 24 hours and still do not see the option to renew your passport online, they might\nthrough the mail. Either way, the processing times are the same. For more information on\nyou meet the criteria. Now, can you renew a passport card online? Yes, you can renew both\ncannot do that online. For that, you'll have to apply via mail, which I explain in this video.\nthen an additional $18 to $19 for that. When you are filling out your application online,\nfrom your bank account to theirs. For that, you'll need your bank routing number as well\nIf you're mostly interested in air travel, you don't need a passport card.\nto go back to the State Department website. I'm on the homepage, click on US passports, and they now\nrenewing or applying for a passport for the first time, the expedited option that you're paying\nI would recommend you mail the form instead of doing it online, because online it says,\nweek that both applied for their passports and one person received it after one week and the other\nthat the processing times are the same between applying via mail and online, but they also say\nbe. Once the program is completely rolled out and is an option available to everybody, the timelines\nbut if you have travel planned in the next six weeks, then I would recommend doing it via mail.\nable to complete it in one sitting. If you have any other questions about passports in general,",
+        "text_tokens": 634,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S2",
+          "cue_ids": [
+            2,
+            3
+          ],
+          "start_ms": 7200,
+          "end_ms": 18840,
+          "text": "August 2022, the State Department launched a pilot program that allowed a limited number of people to renew their passports online in August and then again in October. I did not share information"
+        },
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8
+          ],
+          "start_ms": 34440,
+          "end_ms": 43740,
+          "text": "it opens up for a limited amount of time every month. Once they get a certain number of applications, they close it out for a month and then open it again the following month. Once"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12
+          ],
+          "start_ms": 53280,
+          "end_ms": 64739,
+          "text": "At the time that this video was filmed, here's who qualifies to renew their passport online. If this changes, I will publish an updated video, but if you don't see one, then this information still"
+        },
+        {
+          "id": "S14",
+          "cue_ids": [
+            14
+          ],
+          "start_ms": 71220,
+          "end_ms": 77640,
+          "text": "in order to apply for your passport online. This is the homepage and it has changed a little bit"
+        },
+        {
+          "id": "S16",
+          "cue_ids": [
+            16,
+            17
+          ],
+          "start_ms": 82020,
+          "end_ms": 93600,
+          "text": "click on get a US passport, and now, since you're renewing you'll go to, I already have a passport, and you'll see that there are two options, whereas before there used to be one. I'm an adult renewing"
+        },
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22
+          ],
+          "start_ms": 108600,
+          "end_ms": 119280,
+          "text": "Now, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to run through this, but if you want more time to read this, just head on over to the site like"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25
+          ],
+          "start_ms": 125100,
+          "end_ms": 137760,
+          "text": "the age of 25 in order to be able to do this. Your recent passport was issued over 9 years, but less than 15 years from the date you plan to submit your application, and it's okay if your"
+        },
+        {
+          "id": "S27",
+          "cue_ids": [
+            27
+          ],
+          "start_ms": 143520,
+          "end_ms": 148200,
+          "text": "birth. If you need to change any of these things, you'll have to apply through mail. You're not"
+        },
+        {
+          "id": "S30",
+          "cue_ids": [
+            30,
+            31
+          ],
+          "start_ms": 159300,
+          "end_ms": 170160,
+          "text": "then I would definitely apply via mail because there are a few different options to make it come a little quicker. Then again, you're applying for a regular passport, which is most of you."
+        },
+        {
+          "id": "S34",
+          "cue_ids": [
+            34,
+            35
+          ],
+          "start_ms": 182640,
+          "end_ms": 194640,
+          "text": "you, it's not damaged and you've never reported it lost or stolen, and you do keep your recent passport. You don't have to mail it to them when you apply online. Like I mentioned, the payment"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38
+          ],
+          "start_ms": 200460,
+          "end_ms": 209880,
+          "text": "Then, very important, you need to be able to upload a digital passport photo, and it's very easy to do this. You can do the same thing as before. You can go to a CVS, Walgreens,"
+        },
+        {
+          "id": "S40",
+          "cue_ids": [
+            40
+          ],
+          "start_ms": 215220,
+          "end_ms": 221220,
+          "text": "and they will put it on a USB drive for you, which you can then upload to your application,"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43
+          ],
+          "start_ms": 227700,
+          "end_ms": 240420,
+          "text": "the second you submit your application, that passport is no longer valid for international travel. These are the criteria as of the time of the filming of this video that you need to meet."
+        },
+        {
+          "id": "S46",
+          "cue_ids": [
+            46,
+            47
+          ],
+          "start_ms": 253980,
+          "end_ms": 264480,
+          "text": "follow this link and do it to. To activate the account, they will send you a verification email, you must click on it, and then you wait up to 24 hours for them to register your account."
+        },
+        {
+          "id": "S49",
+          "cue_ids": [
+            49
+          ],
+          "start_ms": 272820,
+          "end_ms": 276180,
+          "text": "Again, if you can't do it during this limited release, they will open it up"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53
+          ],
+          "start_ms": 287640,
+          "end_ms": 299400,
+          "text": "more frequently answered questions here, but let's get into a little bit more information. If you've waited 24 hours and still do not see the option to renew your passport online, they might"
+        },
+        {
+          "id": "S55",
+          "cue_ids": [
+            55,
+            56
+          ],
+          "start_ms": 303720,
+          "end_ms": 314700,
+          "text": "to accept. If that happens, I recommend just filing your renewal the old-fashioned way through the mail. Either way, the processing times are the same. For more information on"
+        },
+        {
+          "id": "S59",
+          "cue_ids": [
+            59,
+            60
+          ],
+          "start_ms": 324540,
+          "end_ms": 338100,
+          "text": "you meet the criteria. Now, can you renew a passport card online? Yes, you can renew both a passport and passport card online, but only if you already have one. If you only have a passport"
+        },
+        {
+          "id": "S62",
+          "cue_ids": [
+            62
+          ],
+          "start_ms": 344040,
+          "end_ms": 350400,
+          "text": "cannot do that online. For that, you'll have to apply via mail, which I explain in this video."
+        },
+        {
+          "id": "S64",
+          "cue_ids": [
+            64,
+            65
+          ],
+          "start_ms": 358320,
+          "end_ms": 370680,
+          "text": "card, plus any optional fees like expediting for $60. If you'd like one to two-day delivery, then an additional $18 to $19 for that. When you are filling out your application online,"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68
+          ],
+          "start_ms": 375720,
+          "end_ms": 387180,
+          "text": "It will have to be with a credit card or debit card or ACH, which directly transfers the funds from your bank account to theirs. For that, you'll need your bank routing number as well"
+        },
+        {
+          "id": "S71",
+          "cue_ids": [
+            71,
+            72
+          ],
+          "start_ms": 401220,
+          "end_ms": 411780,
+          "text": "If you're mostly interested in air travel, you don't need a passport card. Everyone wants to know how long it will take for their passport to get renewed. I want to show you"
+        },
+        {
+          "id": "S74",
+          "cue_ids": [
+            74
+          ],
+          "start_ms": 416700,
+          "end_ms": 422700,
+          "text": "to go back to the State Department website. I'm on the homepage, click on US passports, and they now"
+        },
+        {
+          "id": "S76",
+          "cue_ids": [
+            76,
+            77
+          ],
+          "start_ms": 428040,
+          "end_ms": 440280,
+          "text": "for renewal, if you just expand this here where it says expedited renewal, currently, whether you're renewing or applying for a passport for the first time, the expedited option that you're paying"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80
+          ],
+          "start_ms": 446220,
+          "end_ms": 458760,
+          "text": "it was much longer, and this is just a guideline, but in order to take advantage of this timeline, I would recommend you mail the form instead of doing it online, because online it says,"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84
+          ],
+          "start_ms": 471180,
+          "end_ms": 482580,
+          "text": "week that both applied for their passports and one person received it after one week and the other is going on four weeks and is still waiting. They will get it to you within that window,"
+        },
+        {
+          "id": "S87",
+          "cue_ids": [
+            87
+          ],
+          "start_ms": 493980,
+          "end_ms": 500520,
+          "text": "that the processing times are the same between applying via mail and online, but they also say"
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89,
+            90
+          ],
+          "start_ms": 505620,
+          "end_ms": 517500,
+          "text": "online. That is somewhat of a contradictory statement, and in the future, this will not be. Once the program is completely rolled out and is an option available to everybody, the timelines"
+        },
+        {
+          "id": "S92",
+          "cue_ids": [
+            92,
+            93
+          ],
+          "start_ms": 525180,
+          "end_ms": 538020,
+          "text": "phase while they're sorting out the kinks. If you're not in a rush, I would do it online, but if you have travel planned in the next six weeks, then I would recommend doing it via mail."
+        },
+        {
+          "id": "S96",
+          "cue_ids": [
+            96,
+            97
+          ],
+          "start_ms": 548160,
+          "end_ms": 557820,
+          "text": "able to complete it in one sitting. If you have any other questions about passports in general, I have several videos about applying for passports for the first time, renewals, and soon,"
+        }
+      ],
+      "text": "S2 [00:00:07.200 --> 00:00:18.840] August 2022, the State Department launched a pilot program that allowed a limited number of people to renew their passports online in August and then again in October. I did not share information\nS7 [00:00:34.440 --> 00:00:43.740] it opens up for a limited amount of time every month. Once they get a certain number of applications, they close it out for a month and then open it again the following month. Once\nS11 [00:00:53.280 --> 00:01:04.739] At the time that this video was filmed, here's who qualifies to renew their passport online. If this changes, I will publish an updated video, but if you don't see one, then this information still\nS14 [00:01:11.220 --> 00:01:17.640] in order to apply for your passport online. This is the homepage and it has changed a little bit\nS16 [00:01:22.020 --> 00:01:33.600] click on get a US passport, and now, since you're renewing you'll go to, I already have a passport, and you'll see that there are two options, whereas before there used to be one. I'm an adult renewing\nS21 [00:01:48.600 --> 00:01:59.280] Now, how do I know if I can renew online? It's laid out here pretty well, so I'm just going to run through this, but if you want more time to read this, just head on over to the site like\nS24 [00:02:05.100 --> 00:02:17.760] the age of 25 in order to be able to do this. Your recent passport was issued over 9 years, but less than 15 years from the date you plan to submit your application, and it's okay if your\nS27 [00:02:23.520 --> 00:02:28.200] birth. If you need to change any of these things, you'll have to apply through mail. You're not\nS30 [00:02:39.300 --> 00:02:50.160] then I would definitely apply via mail because there are a few different options to make it come a little quicker. Then again, you're applying for a regular passport, which is most of you.\nS34 [00:03:02.640 --> 00:03:14.640] you, it's not damaged and you've never reported it lost or stolen, and you do keep your recent passport. You don't have to mail it to them when you apply online. Like I mentioned, the payment\nS37 [00:03:20.460 --> 00:03:29.880] Then, very important, you need to be able to upload a digital passport photo, and it's very easy to do this. You can do the same thing as before. You can go to a CVS, Walgreens,\nS40 [00:03:35.220 --> 00:03:41.220] and they will put it on a USB drive for you, which you can then upload to your application,\nS42 [00:03:47.700 --> 00:04:00.420] the second you submit your application, that passport is no longer valid for international travel. These are the criteria as of the time of the filming of this video that you need to meet.\nS46 [00:04:13.980 --> 00:04:24.480] follow this link and do it to. To activate the account, they will send you a verification email, you must click on it, and then you wait up to 24 hours for them to register your account.\nS49 [00:04:32.820 --> 00:04:36.180] Again, if you can't do it during this limited release, they will open it up\nS52 [00:04:47.640 --> 00:04:59.400] more frequently answered questions here, but let's get into a little bit more information. If you've waited 24 hours and still do not see the option to renew your passport online, they might\nS55 [00:05:03.720 --> 00:05:14.700] to accept. If that happens, I recommend just filing your renewal the old-fashioned way through the mail. Either way, the processing times are the same. For more information on\nS59 [00:05:24.540 --> 00:05:38.100] you meet the criteria. Now, can you renew a passport card online? Yes, you can renew both a passport and passport card online, but only if you already have one. If you only have a passport\nS62 [00:05:44.040 --> 00:05:50.400] cannot do that online. For that, you'll have to apply via mail, which I explain in this video.\nS64 [00:05:58.320 --> 00:06:10.680] card, plus any optional fees like expediting for $60. If you'd like one to two-day delivery, then an additional $18 to $19 for that. When you are filling out your application online,\nS67 [00:06:15.720 --> 00:06:27.180] It will have to be with a credit card or debit card or ACH, which directly transfers the funds from your bank account to theirs. For that, you'll need your bank routing number as well\nS71 [00:06:41.220 --> 00:06:51.780] If you're mostly interested in air travel, you don't need a passport card. Everyone wants to know how long it will take for their passport to get renewed. I want to show you\nS74 [00:06:56.700 --> 00:07:02.700] to go back to the State Department website. I'm on the homepage, click on US passports, and they now\nS76 [00:07:08.040 --> 00:07:20.280] for renewal, if you just expand this here where it says expedited renewal, currently, whether you're renewing or applying for a passport for the first time, the expedited option that you're paying\nS79 [00:07:26.220 --> 00:07:38.760] it was much longer, and this is just a guideline, but in order to take advantage of this timeline, I would recommend you mail the form instead of doing it online, because online it says,\nS83 [00:07:51.180 --> 00:08:02.580] week that both applied for their passports and one person received it after one week and the other is going on four weeks and is still waiting. They will get it to you within that window,\nS87 [00:08:13.980 --> 00:08:20.520] that the processing times are the same between applying via mail and online, but they also say\nS89 [00:08:25.620 --> 00:08:37.500] online. That is somewhat of a contradictory statement, and in the future, this will not be. Once the program is completely rolled out and is an option available to everybody, the timelines\nS92 [00:08:45.180 --> 00:08:58.020] phase while they're sorting out the kinks. If you're not in a rush, I would do it online, but if you have travel planned in the next six weeks, then I would recommend doing it via mail.\nS96 [00:09:08.160 --> 00:09:17.820] able to complete it in one sitting. If you have any other questions about passports in general, I have several videos about applying for passports for the first time, renewals, and soon,",
+      "text_tokens": 2047,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        8,
+        12,
+        16,
+        22,
+        25,
+        30,
+        35,
+        38,
+        42,
+        47,
+        52,
+        55,
+        60,
+        64,
+        67,
+        72,
+        76,
+        79,
+        84,
+        89,
+        92,
+        97
+      ],
+      "omitted_neighbor_ids": [
+        4,
+        6,
+        10,
+        13,
+        15,
+        18,
+        20,
+        23,
+        26,
+        28,
+        32,
+        33,
+        36,
+        39,
+        41,
+        44,
+        45,
+        48,
+        50,
+        54,
+        57,
+        58,
+        61,
+        63,
+        66,
+        69,
+        70,
+        73,
+        75,
+        78,
+        81,
+        82,
+        86,
+        88,
+        91,
+        94,
+        95
+      ]
+    }
+  },
+  "evidence_sha256": "14872c72a82ce7427479144204584e19deda4bc646403ffc14228c93e2da62b9"
+}

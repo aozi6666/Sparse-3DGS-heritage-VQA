@@ -1,0 +1,30 @@
+{
+  "n": 1000,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "full_image",
+    "random_tiles",
+    "queryip_image_textseat",
+    "queryip_image_textseat_shuf"
+  ],
+  "tag": "n1000_kr075_ocrbench_v1",
+  "use_ocr": false,
+  "acc": {
+    "full_image": 0.841,
+    "random_tiles": 0.283,
+    "queryip_image_textseat": 0.373,
+    "queryip_image_textseat_shuf": 0.373
+  },
+  "correct": {
+    "full_image": 841,
+    "random_tiles": 283,
+    "queryip_image_textseat": 373,
+    "queryip_image_textseat_shuf": 373
+  },
+  "jsonl": "VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/Mage-VL-ImageQueryIP_ocrbench_v2_n1000_kr075_ocrbench_v1.jsonl",
+  "partial": false,
+  "done": 1000,
+  "target": 1000,
+  "metric": "substring_or_exact_vs_answer_list"
+}

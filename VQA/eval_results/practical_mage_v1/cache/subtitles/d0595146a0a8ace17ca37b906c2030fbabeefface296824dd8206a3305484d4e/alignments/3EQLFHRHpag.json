@@ -1,0 +1,589 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "3EQLFHRHpag",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3EQLFHRHpag.srt",
+      "status": "available",
+      "bytes": 28340,
+      "sha256": "0c22acb4d56e4f423a397a6e4a2d272c75deb07904b0fb1ff73be878a11b9fbe",
+      "cues": 262,
+      "nonempty_cues": 262
+    },
+    "frame_indices": [
+      0,
+      602,
+      1203,
+      1805,
+      2406,
+      3008,
+      3609,
+      4211,
+      4813,
+      5414,
+      6016,
+      6617,
+      7219,
+      7821,
+      8422,
+      9024,
+      9625,
+      10227,
+      10828,
+      11430,
+      12032,
+      12633,
+      13235,
+      13836,
+      14438,
+      15040,
+      15641,
+      16243,
+      16844,
+      17446,
+      18047,
+      18649
+    ],
+    "frame_seconds": [
+      0.0,
+      24.08,
+      48.12,
+      72.2,
+      96.24000000000001,
+      120.32,
+      144.36,
+      168.44,
+      192.52,
+      216.56,
+      240.64,
+      264.68,
+      288.76,
+      312.84,
+      336.88,
+      360.96,
+      385.0,
+      409.08,
+      433.12,
+      457.2,
+      481.28,
+      505.32,
+      529.4,
+      553.44,
+      577.52,
+      601.6,
+      625.64,
+      649.72,
+      673.76,
+      697.84,
+      721.88,
+      745.96
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        34,
+        35
+      ],
+      [
+        39,
+        40
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        57,
+        58
+      ],
+      [
+        66,
+        67
+      ],
+      [
+        76,
+        77
+      ],
+      [
+        84,
+        85
+      ],
+      [
+        93,
+        94
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        114,
+        115
+      ],
+      [
+        124,
+        125
+      ],
+      [
+        133,
+        134
+      ],
+      [
+        141,
+        142
+      ],
+      [
+        147,
+        148
+      ],
+      [
+        156,
+        157
+      ],
+      [
+        165,
+        166
+      ],
+      [
+        175,
+        176
+      ],
+      [
+        183
+      ],
+      [
+        190,
+        191
+      ],
+      [
+        199,
+        200
+      ],
+      [
+        208,
+        209
+      ],
+      [
+        216,
+        217
+      ],
+      [
+        224,
+        225
+      ],
+      [
+        234,
+        235
+      ],
+      [
+        241,
+        242
+      ],
+      [
+        249,
+        250
+      ],
+      [
+        256,
+        257
+      ],
+      [
+        261,
+        262
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 3080,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 9,
+        "start_ms": 20560,
+        "end_ms": 24439,
+        "text": "soon become"
+      },
+      {
+        "cue_id": 10,
+        "start_ms": 22480,
+        "end_ms": 26279,
+        "text": "uninhabitable we're not going to run"
+      },
+      {
+        "cue_id": 20,
+        "start_ms": 43719,
+        "end_ms": 49899,
+        "text": "that"
+      },
+      {
+        "cue_id": 21,
+        "start_ms": 44150,
+        "end_ms": 49899,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 25,
+        "start_ms": 71080,
+        "end_ms": 75720,
+        "text": "we"
+      },
+      {
+        "cue_id": 26,
+        "start_ms": 71840,
+        "end_ms": 77400,
+        "text": "are grow growing up the high tide just"
+      },
+      {
+        "cue_id": 34,
+        "start_ms": 92920,
+        "end_ms": 97759,
+        "text": "getting close to the road and I think"
+      },
+      {
+        "cue_id": 35,
+        "start_ms": 94920,
+        "end_ms": 101640,
+        "text": "this not um it's just the beginning"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 113799,
+        "end_ms": 121079,
+        "text": "and it's a big deal for us slowly being"
+      },
+      {
+        "cue_id": 40,
+        "start_ms": 118119,
+        "end_ms": 124600,
+        "text": "destroyed by this course of climate"
+      },
+      {
+        "cue_id": 47,
+        "start_ms": 138280,
+        "end_ms": 144640,
+        "text": "is increasing and drinking water is"
+      },
+      {
+        "cue_id": 48,
+        "start_ms": 140519,
+        "end_ms": 146239,
+        "text": "becoming salty Max's grandfather kirana"
+      },
+      {
+        "cue_id": 57,
+        "start_ms": 163360,
+        "end_ms": 169079,
+        "text": "do maybe this is climate change but what"
+      },
+      {
+        "cue_id": 58,
+        "start_ms": 165959,
+        "end_ms": 172840,
+        "text": "can we do about it nothing we can't do"
+      },
+      {
+        "cue_id": 66,
+        "start_ms": 188920,
+        "end_ms": 193599,
+        "text": "flooded together they work to build a"
+      },
+      {
+        "cue_id": 67,
+        "start_ms": 191280,
+        "end_ms": 195440,
+        "text": "wall and drain the land they want to"
+      },
+      {
+        "cue_id": 76,
+        "start_ms": 211959,
+        "end_ms": 218599,
+        "text": "how to grow food in constantly salinized"
+      },
+      {
+        "cue_id": 77,
+        "start_ms": 214760,
+        "end_ms": 220519,
+        "text": "soil pel's nephew Ralph spring is the"
+      },
+      {
+        "cue_id": 84,
+        "start_ms": 238360,
+        "end_ms": 241840,
+        "text": "a skill that every household should"
+      },
+      {
+        "cue_id": 85,
+        "start_ms": 239680,
+        "end_ms": 243799,
+        "text": "should uh should know to plant their own"
+      },
+      {
+        "cue_id": 93,
+        "start_ms": 261160,
+        "end_ms": 265000,
+        "text": "decompose and then we'll put good soil"
+      },
+      {
+        "cue_id": 94,
+        "start_ms": 263240,
+        "end_ms": 267680,
+        "text": "on top that's what we'll use for"
+      },
+      {
+        "cue_id": 103,
+        "start_ms": 286240,
+        "end_ms": 290440,
+        "text": "we we do not have the means to do that"
+      },
+      {
+        "cue_id": 104,
+        "start_ms": 288680,
+        "end_ms": 292560,
+        "text": "but there are countries in the world who"
+      },
+      {
+        "cue_id": 114,
+        "start_ms": 309919,
+        "end_ms": 314680,
+        "text": "things it's not yet clear exactly how"
+      },
+      {
+        "cue_id": 115,
+        "start_ms": 312800,
+        "end_ms": 316919,
+        "text": "the main island of teraa will be"
+      },
+      {
+        "cue_id": 124,
+        "start_ms": 332240,
+        "end_ms": 337039,
+        "text": "on these costly ideas and so far nobody"
+      },
+      {
+        "cue_id": 125,
+        "start_ms": 334759,
+        "end_ms": 340240,
+        "text": "has responded to our requests for an"
+      },
+      {
+        "cue_id": 133,
+        "start_ms": 356720,
+        "end_ms": 361960,
+        "text": "their 10-year-old daughter in a small"
+      },
+      {
+        "cue_id": 134,
+        "start_ms": 358560,
+        "end_ms": 363720,
+        "text": "house on teraa the main island of kabas"
+      },
+      {
+        "cue_id": 141,
+        "start_ms": 378720,
+        "end_ms": 387160,
+        "text": "aware of the changes that occur in their"
+      },
+      {
+        "cue_id": 142,
+        "start_ms": 382440,
+        "end_ms": 390520,
+        "text": "Island so by answering that I think uh"
+      },
+      {
+        "cue_id": 147,
+        "start_ms": 402919,
+        "end_ms": 410120,
+        "text": "course we have a a very narrow Island"
+      },
+      {
+        "cue_id": 148,
+        "start_ms": 406560,
+        "end_ms": 414240,
+        "text": "but why now you know people used to have"
+      },
+      {
+        "cue_id": 156,
+        "start_ms": 430039,
+        "end_ms": 434560,
+        "text": "many people tangaroa says you can no"
+      },
+      {
+        "cue_id": 157,
+        "start_ms": 432599,
+        "end_ms": 437319,
+        "text": "longer distinguish between the rainy and"
+      },
+      {
+        "cue_id": 165,
+        "start_ms": 451759,
+        "end_ms": 457440,
+        "text": "needs because we drink green"
+      },
+      {
+        "cue_id": 166,
+        "start_ms": 454240,
+        "end_ms": 460039,
+        "text": "water Claire and tangaroa also have a"
+      },
+      {
+        "cue_id": 175,
+        "start_ms": 478319,
+        "end_ms": 482759,
+        "text": "out"
+      },
+      {
+        "cue_id": 176,
+        "start_ms": 479879,
+        "end_ms": 486360,
+        "text": "just to make sure that our our water"
+      },
+      {
+        "cue_id": 183,
+        "start_ms": 501919,
+        "end_ms": 505840,
+        "text": "water we used to drink this"
+      },
+      {
+        "cue_id": 190,
+        "start_ms": 524839,
+        "end_ms": 530680,
+        "text": "water kirbas is full of solidarity"
+      },
+      {
+        "cue_id": 191,
+        "start_ms": 528360,
+        "end_ms": 534440,
+        "text": "tangaroa is on his way to see his friend"
+      },
+      {
+        "cue_id": 199,
+        "start_ms": 548519,
+        "end_ms": 554000,
+        "text": "built their the wall that time yeah they"
+      },
+      {
+        "cue_id": 200,
+        "start_ms": 551760,
+        "end_ms": 557640,
+        "text": "don't have a problem with the the sea"
+      },
+      {
+        "cue_id": 208,
+        "start_ms": 572680,
+        "end_ms": 578360,
+        "text": "always on the verge of"
+      },
+      {
+        "cue_id": 209,
+        "start_ms": 575720,
+        "end_ms": 580519,
+        "text": "breaking the next morning they survey"
+      },
+      {
+        "cue_id": 216,
+        "start_ms": 599920,
+        "end_ms": 604160,
+        "text": "flood this afternoon will cause even"
+      },
+      {
+        "cue_id": 217,
+        "start_ms": 601600,
+        "end_ms": 607880,
+        "text": "more damage stones will break loose and"
+      },
+      {
+        "cue_id": 224,
+        "start_ms": 620959,
+        "end_ms": 625920,
+        "text": "compared to today should that occur"
+      },
+      {
+        "cue_id": 225,
+        "start_ms": 623560,
+        "end_ms": 627839,
+        "text": "kassa's fate would be uncertain but"
+      },
+      {
+        "cue_id": 234,
+        "start_ms": 643519,
+        "end_ms": 650959,
+        "text": "disappear uh from this Earth then um we"
+      },
+      {
+        "cue_id": 235,
+        "start_ms": 648040,
+        "end_ms": 654040,
+        "text": "we will not we will be nothing because"
+      },
+      {
+        "cue_id": 241,
+        "start_ms": 667120,
+        "end_ms": 675680,
+        "text": "lowly islands like talu Marshall Island"
+      },
+      {
+        "cue_id": 242,
+        "start_ms": 671240,
+        "end_ms": 679480,
+        "text": "mivs and and kipus who already affected"
+      },
+      {
+        "cue_id": 249,
+        "start_ms": 693320,
+        "end_ms": 698200,
+        "text": "like they know what climate change means"
+      },
+      {
+        "cue_id": 250,
+        "start_ms": 695200,
+        "end_ms": 700680,
+        "text": "for kirbas tangar roa's niece Cindy"
+      },
+      {
+        "cue_id": 256,
+        "start_ms": 719839,
+        "end_ms": 727040,
+        "text": "on my"
+      },
+      {
+        "cue_id": 257,
+        "start_ms": 721079,
+        "end_ms": 729079,
+        "text": "own stand firm and staying strong Until"
+      },
+      {
+        "cue_id": 261,
+        "start_ms": 738000,
+        "end_ms": 747920,
+        "text": "cry yeah we cry to the Lord to help me"
+      },
+      {
+        "cue_id": 262,
+        "start_ms": 744920,
+        "end_ms": 747920,
+        "text": "through"
+      }
+    ],
+    "text": "[Music]\nsoon become\nuninhabitable we're not going to run\nthat\n[Music]\nwe\nare grow growing up the high tide just\ngetting close to the road and I think\nthis not um it's just the beginning\nand it's a big deal for us slowly being\ndestroyed by this course of climate\nis increasing and drinking water is\nbecoming salty Max's grandfather kirana\ndo maybe this is climate change but what\ncan we do about it nothing we can't do\nflooded together they work to build a\nwall and drain the land they want to\nhow to grow food in constantly salinized\nsoil pel's nephew Ralph spring is the\na skill that every household should\nshould uh should know to plant their own\ndecompose and then we'll put good soil\non top that's what we'll use for\nwe we do not have the means to do that\nbut there are countries in the world who\nthings it's not yet clear exactly how\nthe main island of teraa will be\non these costly ideas and so far nobody\nhas responded to our requests for an\ntheir 10-year-old daughter in a small\nhouse on teraa the main island of kabas\naware of the changes that occur in their\nIsland so by answering that I think uh\ncourse we have a a very narrow Island\nbut why now you know people used to have\nmany people tangaroa says you can no\nlonger distinguish between the rainy and\nneeds because we drink green\nwater Claire and tangaroa also have a\nout\njust to make sure that our our water\nwater we used to drink this\nwater kirbas is full of solidarity\ntangaroa is on his way to see his friend\nbuilt their the wall that time yeah they\ndon't have a problem with the the sea\nalways on the verge of\nbreaking the next morning they survey\nflood this afternoon will cause even\nmore damage stones will break loose and\ncompared to today should that occur\nkassa's fate would be uncertain but\ndisappear uh from this Earth then um we\nwe will not we will be nothing because\nlowly islands like talu Marshall Island\nmivs and and kipus who already affected\nlike they know what climate change means\nfor kirbas tangar roa's niece Cindy\non my\nown stand firm and staying strong Until\ncry yeah we cry to the Lord to help me\nthrough",
+    "text_tokens": 516,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "5631beda103237fa1f31b9fb122f80317131614f072187da93cde928a48d8f7e"
+}

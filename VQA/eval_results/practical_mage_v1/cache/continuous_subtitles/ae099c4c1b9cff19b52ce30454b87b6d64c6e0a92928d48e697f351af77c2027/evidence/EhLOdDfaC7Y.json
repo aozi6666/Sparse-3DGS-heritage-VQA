@@ -1,0 +1,703 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "EhLOdDfaC7Y",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EhLOdDfaC7Y.srt",
+        "status": "available",
+        "bytes": 59631,
+        "sha256": "732a13cbf87443d53f0da05b24d1779507e44e7715bdc236f633ff942c4ce8eb",
+        "cues": 621,
+        "nonempty_cues": 621
+      },
+      "frame_indices": [
+        0,
+        2133,
+        4267,
+        6400,
+        8533,
+        10666,
+        12800,
+        14933,
+        17066,
+        19200,
+        21333,
+        23466,
+        25599,
+        27733,
+        29866,
+        31999,
+        34133,
+        36266,
+        38399,
+        40533,
+        42666,
+        44799,
+        46932,
+        49066,
+        51199,
+        53332,
+        55466,
+        57599,
+        59732,
+        61865,
+        63999,
+        66132
+      ],
+      "frame_seconds": [
+        0.0,
+        85.32,
+        170.68,
+        256.0,
+        341.32,
+        426.64,
+        512.0,
+        597.32,
+        682.64,
+        768.0,
+        853.32,
+        938.64,
+        1023.96,
+        1109.32,
+        1194.64,
+        1279.96,
+        1365.32,
+        1450.64,
+        1535.96,
+        1621.32,
+        1706.64,
+        1791.96,
+        1877.28,
+        1962.64,
+        2047.96,
+        2133.28,
+        2218.64,
+        2303.96,
+        2389.28,
+        2474.6,
+        2559.96,
+        2645.28
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          34,
+          35
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          107,
+          108
+        ],
+        [
+          130,
+          131
+        ],
+        [
+          149
+        ],
+        [],
+        [],
+        [],
+        [
+          223
+        ],
+        [
+          236
+        ],
+        [],
+        [],
+        [
+          289
+        ],
+        [],
+        [
+          322
+        ],
+        [
+          340
+        ],
+        [
+          356
+        ],
+        [
+          376,
+          377
+        ],
+        [
+          388,
+          389
+        ],
+        [
+          400,
+          401
+        ],
+        [],
+        [
+          436
+        ],
+        [
+          450
+        ],
+        [
+          473,
+          474
+        ],
+        [
+          491,
+          492
+        ],
+        [
+          512,
+          513
+        ],
+        [
+          532,
+          533
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          575,
+          576
+        ],
+        [
+          595,
+          596
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 34,
+          "start_ms": 82039,
+          "end_ms": 85680,
+          "text": "okay well that's the influence of"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 83640,
+          "end_ms": 87640,
+          "text": "ronaldino that's the influence right"
+        },
+        {
+          "cue_id": 72,
+          "start_ms": 167959,
+          "end_ms": 172319,
+          "text": "for this for this event and I'm so grate"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 170280,
+          "end_ms": 174599,
+          "text": "for being here when we talk about French"
+        },
+        {
+          "cue_id": 107,
+          "start_ms": 253599,
+          "end_ms": 257190,
+          "text": "your door but forget all of that because"
+        },
+        {
+          "cue_id": 108,
+          "start_ms": 255360,
+          "end_ms": 259600,
+          "text": "EC said Pam"
+        },
+        {
+          "cue_id": 130,
+          "start_ms": 333440,
+          "end_ms": 345209,
+          "text": "German efficiency you get"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 335270,
+          "end_ms": 345209,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 423560,
+          "end_ms": 432130,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 223,
+          "start_ms": 765190,
+          "end_ms": 772350,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 850750,
+          "end_ms": 853789,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 289,
+          "start_ms": 1107320,
+          "end_ms": 1110640,
+          "text": "on"
+        },
+        {
+          "cue_id": 322,
+          "start_ms": 1277919,
+          "end_ms": 1283800,
+          "text": "3"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 1363840,
+          "end_ms": 1366559,
+          "text": "are let's"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 1449640,
+          "end_ms": 1451919,
+          "text": "missed"
+        },
+        {
+          "cue_id": 376,
+          "start_ms": 1532799,
+          "end_ms": 1537399,
+          "text": "I"
+        },
+        {
+          "cue_id": 377,
+          "start_ms": 1533760,
+          "end_ms": 1537399,
+          "text": "know that is a pro"
+        },
+        {
+          "cue_id": 388,
+          "start_ms": 1618559,
+          "end_ms": 1622960,
+          "text": "I don't know I don't know I don't know"
+        },
+        {
+          "cue_id": 389,
+          "start_ms": 1620440,
+          "end_ms": 1626559,
+          "text": "not anymore not"
+        },
+        {
+          "cue_id": 400,
+          "start_ms": 1698350,
+          "end_ms": 1708320,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 401,
+          "start_ms": 1703919,
+          "end_ms": 1711120,
+          "text": "re oh oh"
+        },
+        {
+          "cue_id": 436,
+          "start_ms": 1875399,
+          "end_ms": 1880240,
+          "text": "space run run"
+        },
+        {
+          "cue_id": 450,
+          "start_ms": 1957960,
+          "end_ms": 1968240,
+          "text": "oh down hands down hands down"
+        },
+        {
+          "cue_id": 473,
+          "start_ms": 2042430,
+          "end_ms": 2049719,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 474,
+          "start_ms": 2046720,
+          "end_ms": 2049719,
+          "text": "that"
+        },
+        {
+          "cue_id": 491,
+          "start_ms": 2130440,
+          "end_ms": 2135079,
+          "text": "that's a great tackle that's a great"
+        },
+        {
+          "cue_id": 492,
+          "start_ms": 2132440,
+          "end_ms": 2137400,
+          "text": "tackle came back from it from 41 to 44"
+        },
+        {
+          "cue_id": 512,
+          "start_ms": 2215680,
+          "end_ms": 2219480,
+          "text": "go"
+        },
+        {
+          "cue_id": 513,
+          "start_ms": 2217960,
+          "end_ms": 2221480,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 532,
+          "start_ms": 2300000,
+          "end_ms": 2304760,
+          "text": "final here in the final of the Pirates"
+        },
+        {
+          "cue_id": 533,
+          "start_ms": 2302400,
+          "end_ms": 2306200,
+          "text": "event I need it to be [ __ ] noisy I"
+        },
+        {
+          "cue_id": 560,
+          "start_ms": 2385319,
+          "end_ms": 2395139,
+          "text": "oh 21 let's"
+        },
+        {
+          "cue_id": 561,
+          "start_ms": 2389000,
+          "end_ms": 2395139,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 575,
+          "start_ms": 2462560,
+          "end_ms": 2481680,
+          "text": "4 three to"
+        },
+        {
+          "cue_id": 576,
+          "start_ms": 2464010,
+          "end_ms": 2484680,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 2553559,
+          "end_ms": 2562359,
+          "text": "brought nothing but absolute craziness"
+        },
+        {
+          "cue_id": 596,
+          "start_ms": 2557200,
+          "end_ms": 2562359,
+          "text": "Paris you've got your first top baller"
+        }
+      ],
+      "text": "okay well that's the influence of\nronaldino that's the influence right\nfor this for this event and I'm so grate\nfor being here when we talk about French\nyour door but forget all of that because\nEC said Pam\nGerman efficiency you get\n[Music]\n[Music]\n[Music]\n[Music]\non\n3\nare let's\nmissed\nI\nknow that is a pro\nI don't know I don't know I don't know\nnot anymore not\n[Music]\nre oh oh\nspace run run\noh down hands down hands down\n[Music]\nthat\nthat's a great tackle that's a great\ntackle came back from it from 41 to 44\ngo\n[Applause]\nfinal here in the final of the Pirates\nevent I need it to be [ __ ] noisy I\noh 21 let's\n[Music]\n4 three to\n[Music]\nbrought nothing but absolute craziness\nParis you've got your first top baller",
+      "text_tokens": 213,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S33",
+        "cue_ids": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "start_ms": 78520,
+        "end_ms": 88960,
+        "text": "Ronaldinho are you Brazilian no okay okay well that's the influence of ronaldino that's the influence right there well let me ask you a question"
+      },
+      {
+        "id": "S71",
+        "cue_ids": [
+          71,
+          72,
+          73,
+          74
+        ],
+        "start_ms": 165800,
+        "end_ms": 177040,
+        "text": "from Germany here for this yeah for this for this for this event and I'm so grate for being here when we talk about French football they they are like really good"
+      },
+      {
+        "id": "S106",
+        "cue_ids": [
+          106,
+          107,
+          108,
+          109
+        ],
+        "start_ms": 251840,
+        "end_ms": 263080,
+        "text": "lesson if you bang us down we will be at your door but forget all of that because EC said Pam [Applause]"
+      },
+      {
+        "id": "S129",
+        "cue_ids": [
+          129,
+          130,
+          131
+        ],
+        "start_ms": 331199,
+        "end_ms": 345209,
+        "text": "hold it down so yeah it's efficiency German efficiency you get [Music]"
+      },
+      {
+        "id": "S149",
+        "cue_ids": [
+          149
+        ],
+        "start_ms": 423560,
+        "end_ms": 432130,
+        "text": "[Music]"
+      },
+      {
+        "id": "S222",
+        "cue_ids": [
+          222,
+          223,
+          224
+        ],
+        "start_ms": 762240,
+        "end_ms": 775470,
+        "text": "got he's talking [Music] [Applause]"
+      },
+      {
+        "id": "S236",
+        "cue_ids": [
+          236,
+          237
+        ],
+        "start_ms": 850750,
+        "end_ms": 862440,
+        "text": "[Music] you he's going"
+      },
+      {
+        "id": "S289",
+        "cue_ids": [
+          289,
+          290
+        ],
+        "start_ms": 1107320,
+        "end_ms": 1112679,
+        "text": "on oh my"
+      },
+      {
+        "id": "S321",
+        "cue_ids": [
+          321,
+          322,
+          323
+        ],
+        "start_ms": 1273480,
+        "end_ms": 1287039,
+        "text": "know 3 3 that's I'm what's"
+      },
+      {
+        "id": "S339",
+        "cue_ids": [
+          339,
+          340,
+          341
+        ],
+        "start_ms": 1359360,
+        "end_ms": 1370240,
+        "text": "lucky you're lucky rerun here we are let's [Music]"
+      },
+      {
+        "id": "S355",
+        "cue_ids": [
+          355,
+          356,
+          357
+        ],
+        "start_ms": 1443430,
+        "end_ms": 1458320,
+        "text": "[Music] missed it"
+      },
+      {
+        "id": "S375",
+        "cue_ids": [
+          375,
+          376,
+          377
+        ],
+        "start_ms": 1529279,
+        "end_ms": 1537399,
+        "text": "ah he's out he's out this a pro ball you I know that is a pro"
+      },
+      {
+        "id": "S387",
+        "cue_ids": [
+          387,
+          388,
+          389,
+          390
+        ],
+        "start_ms": 1616600,
+        "end_ms": 1626559,
+        "text": "go I don't know I don't know I don't know not anymore not anymore got it got"
+      },
+      {
+        "id": "S399",
+        "cue_ids": [
+          399,
+          400,
+          401,
+          402
+        ],
+        "start_ms": 1695679,
+        "end_ms": 1711120,
+        "text": "wild re re [Music] re oh oh beautiful"
+      },
+      {
+        "id": "S436",
+        "cue_ids": [
+          436
+        ],
+        "start_ms": 1875399,
+        "end_ms": 1880240,
+        "text": "space run run"
+      },
+      {
+        "id": "S450",
+        "cue_ids": [
+          450,
+          451
+        ],
+        "start_ms": 1957960,
+        "end_ms": 1968240,
+        "text": "oh down hands down hands down oh he had the ball hold hold"
+      },
+      {
+        "id": "S472",
+        "cue_ids": [
+          472,
+          473,
+          474
+        ],
+        "start_ms": 2039840,
+        "end_ms": 2049719,
+        "text": "J come on I [Music] that"
+      },
+      {
+        "id": "S490",
+        "cue_ids": [
+          490,
+          491,
+          492,
+          493
+        ],
+        "start_ms": 2125440,
+        "end_ms": 2139280,
+        "text": "know oh that's a great tackle that's a great tackle came back from it from 41 to 44 that's a bad boy you're okay you're okay"
+      },
+      {
+        "id": "S512",
+        "cue_ids": [
+          512,
+          513,
+          514
+        ],
+        "start_ms": 2215680,
+        "end_ms": 2223640,
+        "text": "go [Applause] two two man listen man this ain't the"
+      },
+      {
+        "id": "S532",
+        "cue_ids": [
+          532,
+          533,
+          534
+        ],
+        "start_ms": 2300000,
+        "end_ms": 2308640,
+        "text": "final here in the final of the Pirates event I need it to be [ __ ] noisy I don't even like swearing and I know I"
+      },
+      {
+        "id": "S559",
+        "cue_ids": [
+          559,
+          560,
+          561,
+          562
+        ],
+        "start_ms": 2381000,
+        "end_ms": 2405010,
+        "text": "that oh 21 let's [Music] go two two two man it's tight"
+      },
+      {
+        "id": "S575",
+        "cue_ids": [
+          575,
+          576,
+          577
+        ],
+        "start_ms": 2462560,
+        "end_ms": 2484680,
+        "text": "4 three to [Music] move"
+      },
+      {
+        "id": "S594",
+        "cue_ids": [
+          594,
+          595,
+          596,
+          597
+        ],
+        "start_ms": 2550480,
+        "end_ms": 2568760,
+        "text": "second Euro City series in B they brought nothing but absolute craziness Paris you've got your first top baller yeah okay listen I want to say shout out"
+      }
+    ],
+    "text": "S33 [00:01:18.520 --> 00:01:28.960] Ronaldinho are you Brazilian no okay okay well that's the influence of ronaldino that's the influence right there well let me ask you a question\nS71 [00:02:45.800 --> 00:02:57.040] from Germany here for this yeah for this for this for this event and I'm so grate for being here when we talk about French football they they are like really good\nS106 [00:04:11.840 --> 00:04:23.080] lesson if you bang us down we will be at your door but forget all of that because EC said Pam [Applause]\nS129 [00:05:31.199 --> 00:05:45.209] hold it down so yeah it's efficiency German efficiency you get [Music]\nS149 [00:07:03.560 --> 00:07:12.130] [Music]\nS222 [00:12:42.240 --> 00:12:55.470] got he's talking [Music] [Applause]\nS236 [00:14:10.750 --> 00:14:22.440] [Music] you he's going\nS289 [00:18:27.320 --> 00:18:32.679] on oh my\nS321 [00:21:13.480 --> 00:21:27.039] know 3 3 that's I'm what's\nS339 [00:22:39.360 --> 00:22:50.240] lucky you're lucky rerun here we are let's [Music]\nS355 [00:24:03.430 --> 00:24:18.320] [Music] missed it\nS375 [00:25:29.279 --> 00:25:37.399] ah he's out he's out this a pro ball you I know that is a pro\nS387 [00:26:56.600 --> 00:27:06.559] go I don't know I don't know I don't know not anymore not anymore got it got\nS399 [00:28:15.679 --> 00:28:31.120] wild re re [Music] re oh oh beautiful\nS436 [00:31:15.399 --> 00:31:20.240] space run run\nS450 [00:32:37.960 --> 00:32:48.240] oh down hands down hands down oh he had the ball hold hold\nS472 [00:33:59.840 --> 00:34:09.719] J come on I [Music] that\nS490 [00:35:25.440 --> 00:35:39.280] know oh that's a great tackle that's a great tackle came back from it from 41 to 44 that's a bad boy you're okay you're okay\nS512 [00:36:55.680 --> 00:37:03.640] go [Applause] two two man listen man this ain't the\nS532 [00:38:20.000 --> 00:38:28.640] final here in the final of the Pirates event I need it to be [ __ ] noisy I don't even like swearing and I know I\nS559 [00:39:41.000 --> 00:40:05.010] that oh 21 let's [Music] go two two two man it's tight\nS575 [00:41:02.560 --> 00:41:24.680] 4 three to [Music] move\nS594 [00:42:30.480 --> 00:42:48.760] second Euro City series in B they brought nothing but absolute craziness Paris you've got your first top baller yeah okay listen I want to say shout out",
+    "text_tokens": 1117,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      33,
+      36,
+      71,
+      74,
+      106,
+      109,
+      129,
+      222,
+      224,
+      237,
+      290,
+      321,
+      323,
+      339,
+      341,
+      355,
+      357,
+      375,
+      387,
+      390,
+      399,
+      402,
+      451,
+      472,
+      490,
+      493,
+      514,
+      534,
+      559,
+      562,
+      577,
+      594,
+      597
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "5d7bf6dee326c00913a401d4b7c533c4947bc54c60821d937021f1b37f6e2079"
+}

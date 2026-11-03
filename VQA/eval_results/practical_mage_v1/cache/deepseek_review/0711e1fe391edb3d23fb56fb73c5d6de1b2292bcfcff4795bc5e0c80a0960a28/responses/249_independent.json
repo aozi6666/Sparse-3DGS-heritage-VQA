@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "155403fa1c3121b31a04ad13f09e905b6a0015b5cc213665158d3a341b988084",
+  "response": {
+    "id": "f1e3568c-86e8-43cd-bdc8-ee0a74d1fedd",
+    "object": "chat.completion",
+    "created": 1793675556,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"C\",\"supported\":true,\"complete\":true,\"subtitle_quotes\":[{\"block_id\":\"S1\",\"quote\":\"the serial company uses the same Market to buy bushels their contract protects against a high price later\"},{\"block_id\":\"S1\",\"quote\":\"the corn cereal company doesn't like those higher prices and that's why they have a Futures Contract they make money on it and can use that profit to cover the higher price of the Corn they now need to buy\"}],\"frame_ids\":[\"F3612\",\"F3870\",\"F7225\"],\"windows\":[],\"notes\":\"Subtitles state the cereal company uses the futures market to buy bushels, protecting against a high price later; frames show the cereal company's 'Contract Agree to Buy' and buying contracts. Buying futures hedges against anticipated price increases.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7964,
+      "completion_tokens": 175,
+      "total_tokens": 8139,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7836
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.192197287455201
+}

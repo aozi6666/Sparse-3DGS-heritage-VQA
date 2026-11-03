@@ -1,0 +1,632 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "FlcVBKTSjRs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FlcVBKTSjRs.srt",
+        "status": "available",
+        "bytes": 1519,
+        "sha256": "d0033c89506c582093f3ab39fab1b19b76e42f0daaf187fde33d479838f07265",
+        "cues": 16,
+        "nonempty_cues": 16
+      },
+      "frame_indices": [
+        0,
+        50,
+        101,
+        151,
+        201,
+        252,
+        302,
+        352,
+        403,
+        453,
+        503,
+        554,
+        604,
+        654,
+        705,
+        755,
+        805,
+        855,
+        906,
+        956,
+        1006,
+        1057,
+        1107,
+        1157,
+        1208,
+        1258,
+        1308,
+        1359,
+        1409,
+        1459,
+        1510,
+        1560
+      ],
+      "frame_seconds": [
+        0.0,
+        1.668333,
+        3.370033,
+        5.038367,
+        6.7067,
+        8.4084,
+        10.076733,
+        11.745067,
+        13.446767,
+        15.1151,
+        16.783433,
+        18.485133,
+        20.153467,
+        21.8218,
+        23.5235,
+        25.191833,
+        26.860167,
+        28.5285,
+        30.2302,
+        31.898533,
+        33.566867,
+        35.268567,
+        36.9369,
+        38.605233,
+        40.306933,
+        41.975267,
+        43.6436,
+        45.3453,
+        47.013633,
+        48.681967,
+        50.383667,
+        52.052
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          11
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 80,
+          "end_ms": 2879,
+          "text": "with you"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 990,
+          "end_ms": 6400,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 2879,
+          "end_ms": 8720,
+          "text": "i tried to be perfect and keep you"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 6400,
+          "end_ms": 12240,
+          "text": "happy all the time"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 8720,
+          "end_ms": 14639,
+          "text": "but i didn't know that you wanted"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 12240,
+          "end_ms": 19760,
+          "text": "somebody else"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 14639,
+          "end_ms": 23760,
+          "text": "now i don't want nothing to do with you"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 19760,
+          "end_ms": 28480,
+          "text": "it's all right it's okay i don't need"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 23760,
+          "end_ms": 31039,
+          "text": "you anyway so let me be i'm doing fine"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 28480,
+          "end_ms": 31039,
+          "text": "don't you"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 37360,
+          "end_ms": 41000,
+          "text": "it's all right"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 41120,
+          "end_ms": 46970,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 44879,
+          "end_ms": 48079,
+          "text": "i did everything for you"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 46970,
+          "end_ms": 50800,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 48079,
+          "end_ms": 53920,
+          "text": "even though you gave me nothing but"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 50800,
+          "end_ms": 53920,
+          "text": "i guess that i wasn't"
+        }
+      ],
+      "text": "with you\n[Music]\ni tried to be perfect and keep you\nhappy all the time\nbut i didn't know that you wanted\nsomebody else\nnow i don't want nothing to do with you\nit's all right it's okay i don't need\nyou anyway so let me be i'm doing fine\ndon't you\nit's all right\n[Music]\ni did everything for you\n[Music]\neven though you gave me nothing but\ni guess that i wasn't",
+      "text_tokens": 102,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "FlcVBKTSjRs",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FlcVBKTSjRs.srt",
+          "status": "available",
+          "bytes": 1519,
+          "sha256": "d0033c89506c582093f3ab39fab1b19b76e42f0daaf187fde33d479838f07265",
+          "cues": 16,
+          "nonempty_cues": 16
+        },
+        "frame_indices": [
+          0,
+          50,
+          101,
+          151,
+          201,
+          252,
+          302,
+          352,
+          403,
+          453,
+          503,
+          554,
+          604,
+          654,
+          705,
+          755,
+          805,
+          855,
+          906,
+          956,
+          1006,
+          1057,
+          1107,
+          1157,
+          1208,
+          1258,
+          1308,
+          1359,
+          1409,
+          1459,
+          1510,
+          1560
+        ],
+        "frame_seconds": [
+          0.0,
+          1.668333,
+          3.370033,
+          5.038367,
+          6.7067,
+          8.4084,
+          10.076733,
+          11.745067,
+          13.446767,
+          15.1151,
+          16.783433,
+          18.485133,
+          20.153467,
+          21.8218,
+          23.5235,
+          25.191833,
+          26.860167,
+          28.5285,
+          30.2302,
+          31.898533,
+          33.566867,
+          35.268567,
+          36.9369,
+          38.605233,
+          40.306933,
+          41.975267,
+          43.6436,
+          45.3453,
+          47.013633,
+          48.681967,
+          50.383667,
+          52.052
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 80,
+            "end_ms": 2879,
+            "text": "with you"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 990,
+            "end_ms": 6400,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 2879,
+            "end_ms": 8720,
+            "text": "i tried to be perfect and keep you"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 6400,
+            "end_ms": 12240,
+            "text": "happy all the time"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 8720,
+            "end_ms": 14639,
+            "text": "but i didn't know that you wanted"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 12240,
+            "end_ms": 19760,
+            "text": "somebody else"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 14639,
+            "end_ms": 23760,
+            "text": "now i don't want nothing to do with you"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 19760,
+            "end_ms": 28480,
+            "text": "it's all right it's okay i don't need"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 23760,
+            "end_ms": 31039,
+            "text": "you anyway so let me be i'm doing fine"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 28480,
+            "end_ms": 31039,
+            "text": "don't you"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 37360,
+            "end_ms": 41000,
+            "text": "it's all right"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 41120,
+            "end_ms": 46970,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 44879,
+            "end_ms": 48079,
+            "text": "i did everything for you"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 46970,
+            "end_ms": 50800,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 48079,
+            "end_ms": 53920,
+            "text": "even though you gave me nothing but"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 50800,
+            "end_ms": 53920,
+            "text": "i guess that i wasn't"
+          }
+        ],
+        "text": "with you\n[Music]\ni tried to be perfect and keep you\nhappy all the time\nbut i didn't know that you wanted\nsomebody else\nnow i don't want nothing to do with you\nit's all right it's okay i don't need\nyou anyway so let me be i'm doing fine\ndon't you\nit's all right\n[Music]\ni did everything for you\n[Music]\neven though you gave me nothing but\ni guess that i wasn't",
+        "text_tokens": 102,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 80,
+          "end_ms": 31039,
+          "text": "with you [Music] i tried to be perfect and keep you happy all the time but i didn't know that you wanted somebody else now i don't want nothing to do with you it's all right it's okay i don't need you anyway so let me be i'm doing fine don't you"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "start_ms": 37360,
+          "end_ms": 53920,
+          "text": "it's all right [Music] i did everything for you [Music] even though you gave me nothing but i guess that i wasn't"
+        }
+      ],
+      "text": "S1 [00:00:00.080 --> 00:00:31.039] with you [Music] i tried to be perfect and keep you happy all the time but i didn't know that you wanted somebody else now i don't want nothing to do with you it's all right it's okay i don't need you anyway so let me be i'm doing fine don't you\nS11 [00:00:37.360 --> 00:00:53.920] it's all right [Music] i did everything for you [Music] even though you gave me nothing but i guess that i wasn't",
+      "text_tokens": 151,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "7a4b4e87ff06e5c901f981358bdd5dcda5716ab5ef645621861a56dbafe383c9"
+}

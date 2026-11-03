@@ -1,0 +1,1531 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "E-YnmCB6yjo",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/E-YnmCB6yjo.srt",
+        "status": "available",
+        "bytes": 112065,
+        "sha256": "3c4babf4004b3898cfff694b894acd77beb8f4192173a34f9a1a9a2888ef1dc2",
+        "cues": 1020,
+        "nonempty_cues": 1020
+      },
+      "frame_indices": [
+        0,
+        2575,
+        5149,
+        7724,
+        10298,
+        12873,
+        15447,
+        18022,
+        20596,
+        23171,
+        25745,
+        28320,
+        30894,
+        33469,
+        36043,
+        38618,
+        41192,
+        43767,
+        46341,
+        48916,
+        51490,
+        54065,
+        56639,
+        59214,
+        61788,
+        64363,
+        66937,
+        69512,
+        72086,
+        74661,
+        77235,
+        79810
+      ],
+      "frame_seconds": [
+        0.0,
+        85.833333,
+        171.633333,
+        257.46666700000003,
+        343.266667,
+        429.1,
+        514.9,
+        600.733333,
+        686.533333,
+        772.366667,
+        858.166667,
+        944.0,
+        1029.8,
+        1115.633333,
+        1201.433333,
+        1287.266667,
+        1373.066667,
+        1458.9,
+        1544.7,
+        1630.533333,
+        1716.333333,
+        1802.166667,
+        1887.966667,
+        1973.8,
+        2059.6,
+        2145.433333,
+        2231.233333,
+        2317.066667,
+        2402.866667,
+        2488.7,
+        2574.5,
+        2660.333333
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          31,
+          32
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          101,
+          102
+        ],
+        [
+          136,
+          137
+        ],
+        [
+          171,
+          172
+        ],
+        [
+          204,
+          205
+        ],
+        [
+          240,
+          241
+        ],
+        [
+          271,
+          272
+        ],
+        [
+          304,
+          305
+        ],
+        [
+          335,
+          336
+        ],
+        [
+          370,
+          371
+        ],
+        [
+          403,
+          404
+        ],
+        [
+          437,
+          438
+        ],
+        [
+          470,
+          471
+        ],
+        [
+          503,
+          504
+        ],
+        [
+          539,
+          540
+        ],
+        [
+          574,
+          575
+        ],
+        [
+          606,
+          607
+        ],
+        [
+          637,
+          638
+        ],
+        [
+          664,
+          665
+        ],
+        [
+          694,
+          695
+        ],
+        [
+          726,
+          727
+        ],
+        [
+          756,
+          757
+        ],
+        [
+          790,
+          791
+        ],
+        [
+          823,
+          824
+        ],
+        [],
+        [
+          888,
+          889
+        ],
+        [
+          925,
+          926
+        ],
+        [
+          962,
+          963
+        ],
+        [
+          993,
+          994
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 31,
+          "start_ms": 81200,
+          "end_ms": 86320,
+          "text": "paid thousands of dollars first she"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 84039,
+          "end_ms": 88520,
+          "text": "needed an emergency csection to deliver"
+        },
+        {
+          "cue_id": 64,
+          "start_ms": 167680,
+          "end_ms": 172440,
+          "text": "situation it doesn't matter with their"
+        },
+        {
+          "cue_id": 65,
+          "start_ms": 169560,
+          "end_ms": 174159,
+          "text": "immigration status ultimately Estrada"
+        },
+        {
+          "cue_id": 101,
+          "start_ms": 254920,
+          "end_ms": 259639,
+          "text": "they're telling their story of how a"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 257079,
+          "end_ms": 262040,
+          "text": "picturesque hike turned into a desperate"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 340680,
+          "end_ms": 344960,
+          "text": "seeing those people was like Christmas"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 342080,
+          "end_ms": 347800,
+          "text": "morning I mean the group of 12 hikers"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 424560,
+          "end_ms": 430879,
+          "text": "500 are needed each day just to meet the"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 427599,
+          "end_ms": 433240,
+          "text": "most basic of needs in the United States"
+        },
+        {
+          "cue_id": 204,
+          "start_ms": 511680,
+          "end_ms": 517200,
+          "text": "a country confounded by an epidemic of"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 514599,
+          "end_ms": 519559,
+          "text": "school shootings setting a new standard"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 596519,
+          "end_ms": 600880,
+          "text": "take to stop these school shootings"
+        },
+        {
+          "cue_id": 241,
+          "start_ms": 598880,
+          "end_ms": 604800,
+          "text": "there have been more than 300 of them in"
+        },
+        {
+          "cue_id": 271,
+          "start_ms": 681760,
+          "end_ms": 688760,
+          "text": "revived here sueding a state ban at 15"
+        },
+        {
+          "cue_id": 272,
+          "start_ms": 685320,
+          "end_ms": 691160,
+          "text": "weeks the 1864 law only allows abortions"
+        },
+        {
+          "cue_id": 304,
+          "start_ms": 767000,
+          "end_ms": 772920,
+          "text": "ballot in Arizona in November tying this"
+        },
+        {
+          "cue_id": 305,
+          "start_ms": 770199,
+          "end_ms": 775560,
+          "text": "directly to the presidential election"
+        },
+        {
+          "cue_id": 335,
+          "start_ms": 853720,
+          "end_ms": 858399,
+          "text": "suspended for 9 years and counting"
+        },
+        {
+          "cue_id": 336,
+          "start_ms": 856199,
+          "end_ms": 861560,
+          "text": "Christie has been paid more than $1.5"
+        },
+        {
+          "cue_id": 370,
+          "start_ms": 940160,
+          "end_ms": 946720,
+          "text": "their outcomes Julie iron CBC News"
+        },
+        {
+          "cue_id": 371,
+          "start_ms": 943959,
+          "end_ms": 949040,
+          "text": "Ottawa a major European Court says"
+        },
+        {
+          "cue_id": 403,
+          "start_ms": 1026400,
+          "end_ms": 1030919,
+          "text": "they argue their country failed to"
+        },
+        {
+          "cue_id": 404,
+          "start_ms": 1028280,
+          "end_ms": 1032240,
+          "text": "protect them from climate change as our"
+        },
+        {
+          "cue_id": 437,
+          "start_ms": 1112520,
+          "end_ms": 1118159,
+          "text": "decision environmental lawyers say this"
+        },
+        {
+          "cue_id": 438,
+          "start_ms": 1115080,
+          "end_ms": 1120520,
+          "text": "Victory creates a precedent that will be"
+        },
+        {
+          "cue_id": 470,
+          "start_ms": 1198840,
+          "end_ms": 1203520,
+          "text": "new particle that helped explain how"
+        },
+        {
+          "cue_id": 471,
+          "start_ms": 1201080,
+          "end_ms": 1206000,
+          "text": "matter was formed after the big bang"
+        },
+        {
+          "cue_id": 503,
+          "start_ms": 1283760,
+          "end_ms": 1288600,
+          "text": "injuries spiked in the hours after"
+        },
+        {
+          "cue_id": 504,
+          "start_ms": 1286279,
+          "end_ms": 1291679,
+          "text": "yesterday's solar eclipse people"
+        },
+        {
+          "cue_id": 539,
+          "start_ms": 1369679,
+          "end_ms": 1373559,
+          "text": "Japan and Europe leaving Seafood"
+        },
+        {
+          "cue_id": 540,
+          "start_ms": 1371679,
+          "end_ms": 1376559,
+          "text": "wholesalers looking to"
+        },
+        {
+          "cue_id": 574,
+          "start_ms": 1454080,
+          "end_ms": 1460440,
+          "text": "year Kayla Hansel CBC News shelburn Nova"
+        },
+        {
+          "cue_id": 575,
+          "start_ms": 1457600,
+          "end_ms": 1463480,
+          "text": "Scotia now it's time to dig deeper into"
+        },
+        {
+          "cue_id": 606,
+          "start_ms": 1541640,
+          "end_ms": 1545320,
+          "text": "with two possible fathers she turned to"
+        },
+        {
+          "cue_id": 607,
+          "start_ms": 1544000,
+          "end_ms": 1548320,
+          "text": "Google for"
+        },
+        {
+          "cue_id": 637,
+          "start_ms": 1625039,
+          "end_ms": 1632600,
+          "text": "pregnancy do you want"
+        },
+        {
+          "cue_id": 638,
+          "start_ms": 1627880,
+          "end_ms": 1632600,
+          "text": "to be there for the"
+        },
+        {
+          "cue_id": 664,
+          "start_ms": 1712519,
+          "end_ms": 1718360,
+          "text": "are extremely reliable when done right"
+        },
+        {
+          "cue_id": 665,
+          "start_ms": 1716000,
+          "end_ms": 1721080,
+          "text": "that accuracy depends to when during the"
+        },
+        {
+          "cue_id": 694,
+          "start_ms": 1800080,
+          "end_ms": 1804200,
+          "text": "yeah it's like as soon as I saw those"
+        },
+        {
+          "cue_id": 695,
+          "start_ms": 1801399,
+          "end_ms": 1806120,
+          "text": "test results it was like a Line in the"
+        },
+        {
+          "cue_id": 726,
+          "start_ms": 1883399,
+          "end_ms": 1889320,
+          "text": "it's a it's a loss it was like a death"
+        },
+        {
+          "cue_id": 727,
+          "start_ms": 1885799,
+          "end_ms": 1891559,
+          "text": "that's how I can talk talk about it and"
+        },
+        {
+          "cue_id": 756,
+          "start_ms": 1971799,
+          "end_ms": 1976000,
+          "text": "this it sounds like the accuracy is"
+        },
+        {
+          "cue_id": 757,
+          "start_ms": 1973760,
+          "end_ms": 1978000,
+          "text": "there cuz with the prenatal the accuracy"
+        },
+        {
+          "cue_id": 790,
+          "start_ms": 2055199,
+          "end_ms": 2062760,
+          "text": "decisions off of this DNA test you know"
+        },
+        {
+          "cue_id": 791,
+          "start_ms": 2058800,
+          "end_ms": 2067359,
+          "text": "and um yeah so to find out"
+        },
+        {
+          "cue_id": 823,
+          "start_ms": 2143160,
+          "end_ms": 2147119,
+          "text": "close"
+        },
+        {
+          "cue_id": 824,
+          "start_ms": 2144280,
+          "end_ms": 2149599,
+          "text": "down I think that's like a collective"
+        },
+        {
+          "cue_id": 888,
+          "start_ms": 2311720,
+          "end_ms": 2317079,
+          "text": "proud of that because when you see smile"
+        },
+        {
+          "cue_id": 889,
+          "start_ms": 2314280,
+          "end_ms": 2319640,
+          "text": "of the kids when they Fe they smart and"
+        },
+        {
+          "cue_id": 925,
+          "start_ms": 2400079,
+          "end_ms": 2403800,
+          "text": "are children and the federal government"
+        },
+        {
+          "cue_id": 926,
+          "start_ms": 2402000,
+          "end_ms": 2405920,
+          "text": "says nearly one in four children in"
+        },
+        {
+          "cue_id": 962,
+          "start_ms": 2483839,
+          "end_ms": 2489319,
+          "text": "federal budget Advocates have long"
+        },
+        {
+          "cue_id": 963,
+          "start_ms": 2485720,
+          "end_ms": 2492720,
+          "text": "pushed for a Countrywide wide"
+        },
+        {
+          "cue_id": 993,
+          "start_ms": 2569359,
+          "end_ms": 2576040,
+          "text": "could come up and use our gym I was"
+        },
+        {
+          "cue_id": 994,
+          "start_ms": 2573280,
+          "end_ms": 2579839,
+          "text": "manager of signas Gymnastics Club and so"
+        }
+      ],
+      "text": "paid thousands of dollars first she\nneeded an emergency csection to deliver\nsituation it doesn't matter with their\nimmigration status ultimately Estrada\nthey're telling their story of how a\npicturesque hike turned into a desperate\nseeing those people was like Christmas\nmorning I mean the group of 12 hikers\n500 are needed each day just to meet the\nmost basic of needs in the United States\na country confounded by an epidemic of\nschool shootings setting a new standard\ntake to stop these school shootings\nthere have been more than 300 of them in\nrevived here sueding a state ban at 15\nweeks the 1864 law only allows abortions\nballot in Arizona in November tying this\ndirectly to the presidential election\nsuspended for 9 years and counting\nChristie has been paid more than $1.5\ntheir outcomes Julie iron CBC News\nOttawa a major European Court says\nthey argue their country failed to\nprotect them from climate change as our\ndecision environmental lawyers say this\nVictory creates a precedent that will be\nnew particle that helped explain how\nmatter was formed after the big bang\ninjuries spiked in the hours after\nyesterday's solar eclipse people\nJapan and Europe leaving Seafood\nwholesalers looking to\nyear Kayla Hansel CBC News shelburn Nova\nScotia now it's time to dig deeper into\nwith two possible fathers she turned to\nGoogle for\npregnancy do you want\nto be there for the\nare extremely reliable when done right\nthat accuracy depends to when during the\nyeah it's like as soon as I saw those\ntest results it was like a Line in the\nit's a it's a loss it was like a death\nthat's how I can talk talk about it and\nthis it sounds like the accuracy is\nthere cuz with the prenatal the accuracy\ndecisions off of this DNA test you know\nand um yeah so to find out\nclose\ndown I think that's like a collective\nproud of that because when you see smile\nof the kids when they Fe they smart and\nare children and the federal government\nsays nearly one in four children in\nfederal budget Advocates have long\npushed for a Countrywide wide\ncould come up and use our gym I was\nmanager of signas Gymnastics Club and so",
+      "text_tokens": 499,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "E-YnmCB6yjo",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/E-YnmCB6yjo.srt",
+          "status": "available",
+          "bytes": 112065,
+          "sha256": "3c4babf4004b3898cfff694b894acd77beb8f4192173a34f9a1a9a2888ef1dc2",
+          "cues": 1020,
+          "nonempty_cues": 1020
+        },
+        "frame_indices": [
+          0,
+          2575,
+          5149,
+          7724,
+          10298,
+          12873,
+          15447,
+          18022,
+          20596,
+          23171,
+          25745,
+          28320,
+          30894,
+          33469,
+          36043,
+          38618,
+          41192,
+          43767,
+          46341,
+          48916,
+          51490,
+          54065,
+          56639,
+          59214,
+          61788,
+          64363,
+          66937,
+          69512,
+          72086,
+          74661,
+          77235,
+          79810
+        ],
+        "frame_seconds": [
+          0.0,
+          85.833333,
+          171.633333,
+          257.46666700000003,
+          343.266667,
+          429.1,
+          514.9,
+          600.733333,
+          686.533333,
+          772.366667,
+          858.166667,
+          944.0,
+          1029.8,
+          1115.633333,
+          1201.433333,
+          1287.266667,
+          1373.066667,
+          1458.9,
+          1544.7,
+          1630.533333,
+          1716.333333,
+          1802.166667,
+          1887.966667,
+          1973.8,
+          2059.6,
+          2145.433333,
+          2231.233333,
+          2317.066667,
+          2402.866667,
+          2488.7,
+          2574.5,
+          2660.333333
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            31,
+            32
+          ],
+          [
+            64,
+            65
+          ],
+          [
+            101,
+            102
+          ],
+          [
+            136,
+            137
+          ],
+          [
+            171,
+            172
+          ],
+          [
+            204,
+            205
+          ],
+          [
+            240,
+            241
+          ],
+          [
+            271,
+            272
+          ],
+          [
+            304,
+            305
+          ],
+          [
+            335,
+            336
+          ],
+          [
+            370,
+            371
+          ],
+          [
+            403,
+            404
+          ],
+          [
+            437,
+            438
+          ],
+          [
+            470,
+            471
+          ],
+          [
+            503,
+            504
+          ],
+          [
+            539,
+            540
+          ],
+          [
+            574,
+            575
+          ],
+          [
+            606,
+            607
+          ],
+          [
+            637,
+            638
+          ],
+          [
+            664,
+            665
+          ],
+          [
+            694,
+            695
+          ],
+          [
+            726,
+            727
+          ],
+          [
+            756,
+            757
+          ],
+          [
+            790,
+            791
+          ],
+          [
+            823,
+            824
+          ],
+          [],
+          [
+            888,
+            889
+          ],
+          [
+            925,
+            926
+          ],
+          [
+            962,
+            963
+          ],
+          [
+            993,
+            994
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 31,
+            "start_ms": 81200,
+            "end_ms": 86320,
+            "text": "paid thousands of dollars first she"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 84039,
+            "end_ms": 88520,
+            "text": "needed an emergency csection to deliver"
+          },
+          {
+            "cue_id": 64,
+            "start_ms": 167680,
+            "end_ms": 172440,
+            "text": "situation it doesn't matter with their"
+          },
+          {
+            "cue_id": 65,
+            "start_ms": 169560,
+            "end_ms": 174159,
+            "text": "immigration status ultimately Estrada"
+          },
+          {
+            "cue_id": 101,
+            "start_ms": 254920,
+            "end_ms": 259639,
+            "text": "they're telling their story of how a"
+          },
+          {
+            "cue_id": 102,
+            "start_ms": 257079,
+            "end_ms": 262040,
+            "text": "picturesque hike turned into a desperate"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 340680,
+            "end_ms": 344960,
+            "text": "seeing those people was like Christmas"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 342080,
+            "end_ms": 347800,
+            "text": "morning I mean the group of 12 hikers"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 424560,
+            "end_ms": 430879,
+            "text": "500 are needed each day just to meet the"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 427599,
+            "end_ms": 433240,
+            "text": "most basic of needs in the United States"
+          },
+          {
+            "cue_id": 204,
+            "start_ms": 511680,
+            "end_ms": 517200,
+            "text": "a country confounded by an epidemic of"
+          },
+          {
+            "cue_id": 205,
+            "start_ms": 514599,
+            "end_ms": 519559,
+            "text": "school shootings setting a new standard"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 596519,
+            "end_ms": 600880,
+            "text": "take to stop these school shootings"
+          },
+          {
+            "cue_id": 241,
+            "start_ms": 598880,
+            "end_ms": 604800,
+            "text": "there have been more than 300 of them in"
+          },
+          {
+            "cue_id": 271,
+            "start_ms": 681760,
+            "end_ms": 688760,
+            "text": "revived here sueding a state ban at 15"
+          },
+          {
+            "cue_id": 272,
+            "start_ms": 685320,
+            "end_ms": 691160,
+            "text": "weeks the 1864 law only allows abortions"
+          },
+          {
+            "cue_id": 304,
+            "start_ms": 767000,
+            "end_ms": 772920,
+            "text": "ballot in Arizona in November tying this"
+          },
+          {
+            "cue_id": 305,
+            "start_ms": 770199,
+            "end_ms": 775560,
+            "text": "directly to the presidential election"
+          },
+          {
+            "cue_id": 335,
+            "start_ms": 853720,
+            "end_ms": 858399,
+            "text": "suspended for 9 years and counting"
+          },
+          {
+            "cue_id": 336,
+            "start_ms": 856199,
+            "end_ms": 861560,
+            "text": "Christie has been paid more than $1.5"
+          },
+          {
+            "cue_id": 370,
+            "start_ms": 940160,
+            "end_ms": 946720,
+            "text": "their outcomes Julie iron CBC News"
+          },
+          {
+            "cue_id": 371,
+            "start_ms": 943959,
+            "end_ms": 949040,
+            "text": "Ottawa a major European Court says"
+          },
+          {
+            "cue_id": 403,
+            "start_ms": 1026400,
+            "end_ms": 1030919,
+            "text": "they argue their country failed to"
+          },
+          {
+            "cue_id": 404,
+            "start_ms": 1028280,
+            "end_ms": 1032240,
+            "text": "protect them from climate change as our"
+          },
+          {
+            "cue_id": 437,
+            "start_ms": 1112520,
+            "end_ms": 1118159,
+            "text": "decision environmental lawyers say this"
+          },
+          {
+            "cue_id": 438,
+            "start_ms": 1115080,
+            "end_ms": 1120520,
+            "text": "Victory creates a precedent that will be"
+          },
+          {
+            "cue_id": 470,
+            "start_ms": 1198840,
+            "end_ms": 1203520,
+            "text": "new particle that helped explain how"
+          },
+          {
+            "cue_id": 471,
+            "start_ms": 1201080,
+            "end_ms": 1206000,
+            "text": "matter was formed after the big bang"
+          },
+          {
+            "cue_id": 503,
+            "start_ms": 1283760,
+            "end_ms": 1288600,
+            "text": "injuries spiked in the hours after"
+          },
+          {
+            "cue_id": 504,
+            "start_ms": 1286279,
+            "end_ms": 1291679,
+            "text": "yesterday's solar eclipse people"
+          },
+          {
+            "cue_id": 539,
+            "start_ms": 1369679,
+            "end_ms": 1373559,
+            "text": "Japan and Europe leaving Seafood"
+          },
+          {
+            "cue_id": 540,
+            "start_ms": 1371679,
+            "end_ms": 1376559,
+            "text": "wholesalers looking to"
+          },
+          {
+            "cue_id": 574,
+            "start_ms": 1454080,
+            "end_ms": 1460440,
+            "text": "year Kayla Hansel CBC News shelburn Nova"
+          },
+          {
+            "cue_id": 575,
+            "start_ms": 1457600,
+            "end_ms": 1463480,
+            "text": "Scotia now it's time to dig deeper into"
+          },
+          {
+            "cue_id": 606,
+            "start_ms": 1541640,
+            "end_ms": 1545320,
+            "text": "with two possible fathers she turned to"
+          },
+          {
+            "cue_id": 607,
+            "start_ms": 1544000,
+            "end_ms": 1548320,
+            "text": "Google for"
+          },
+          {
+            "cue_id": 637,
+            "start_ms": 1625039,
+            "end_ms": 1632600,
+            "text": "pregnancy do you want"
+          },
+          {
+            "cue_id": 638,
+            "start_ms": 1627880,
+            "end_ms": 1632600,
+            "text": "to be there for the"
+          },
+          {
+            "cue_id": 664,
+            "start_ms": 1712519,
+            "end_ms": 1718360,
+            "text": "are extremely reliable when done right"
+          },
+          {
+            "cue_id": 665,
+            "start_ms": 1716000,
+            "end_ms": 1721080,
+            "text": "that accuracy depends to when during the"
+          },
+          {
+            "cue_id": 694,
+            "start_ms": 1800080,
+            "end_ms": 1804200,
+            "text": "yeah it's like as soon as I saw those"
+          },
+          {
+            "cue_id": 695,
+            "start_ms": 1801399,
+            "end_ms": 1806120,
+            "text": "test results it was like a Line in the"
+          },
+          {
+            "cue_id": 726,
+            "start_ms": 1883399,
+            "end_ms": 1889320,
+            "text": "it's a it's a loss it was like a death"
+          },
+          {
+            "cue_id": 727,
+            "start_ms": 1885799,
+            "end_ms": 1891559,
+            "text": "that's how I can talk talk about it and"
+          },
+          {
+            "cue_id": 756,
+            "start_ms": 1971799,
+            "end_ms": 1976000,
+            "text": "this it sounds like the accuracy is"
+          },
+          {
+            "cue_id": 757,
+            "start_ms": 1973760,
+            "end_ms": 1978000,
+            "text": "there cuz with the prenatal the accuracy"
+          },
+          {
+            "cue_id": 790,
+            "start_ms": 2055199,
+            "end_ms": 2062760,
+            "text": "decisions off of this DNA test you know"
+          },
+          {
+            "cue_id": 791,
+            "start_ms": 2058800,
+            "end_ms": 2067359,
+            "text": "and um yeah so to find out"
+          },
+          {
+            "cue_id": 823,
+            "start_ms": 2143160,
+            "end_ms": 2147119,
+            "text": "close"
+          },
+          {
+            "cue_id": 824,
+            "start_ms": 2144280,
+            "end_ms": 2149599,
+            "text": "down I think that's like a collective"
+          },
+          {
+            "cue_id": 888,
+            "start_ms": 2311720,
+            "end_ms": 2317079,
+            "text": "proud of that because when you see smile"
+          },
+          {
+            "cue_id": 889,
+            "start_ms": 2314280,
+            "end_ms": 2319640,
+            "text": "of the kids when they Fe they smart and"
+          },
+          {
+            "cue_id": 925,
+            "start_ms": 2400079,
+            "end_ms": 2403800,
+            "text": "are children and the federal government"
+          },
+          {
+            "cue_id": 926,
+            "start_ms": 2402000,
+            "end_ms": 2405920,
+            "text": "says nearly one in four children in"
+          },
+          {
+            "cue_id": 962,
+            "start_ms": 2483839,
+            "end_ms": 2489319,
+            "text": "federal budget Advocates have long"
+          },
+          {
+            "cue_id": 963,
+            "start_ms": 2485720,
+            "end_ms": 2492720,
+            "text": "pushed for a Countrywide wide"
+          },
+          {
+            "cue_id": 993,
+            "start_ms": 2569359,
+            "end_ms": 2576040,
+            "text": "could come up and use our gym I was"
+          },
+          {
+            "cue_id": 994,
+            "start_ms": 2573280,
+            "end_ms": 2579839,
+            "text": "manager of signas Gymnastics Club and so"
+          }
+        ],
+        "text": "paid thousands of dollars first she\nneeded an emergency csection to deliver\nsituation it doesn't matter with their\nimmigration status ultimately Estrada\nthey're telling their story of how a\npicturesque hike turned into a desperate\nseeing those people was like Christmas\nmorning I mean the group of 12 hikers\n500 are needed each day just to meet the\nmost basic of needs in the United States\na country confounded by an epidemic of\nschool shootings setting a new standard\ntake to stop these school shootings\nthere have been more than 300 of them in\nrevived here sueding a state ban at 15\nweeks the 1864 law only allows abortions\nballot in Arizona in November tying this\ndirectly to the presidential election\nsuspended for 9 years and counting\nChristie has been paid more than $1.5\ntheir outcomes Julie iron CBC News\nOttawa a major European Court says\nthey argue their country failed to\nprotect them from climate change as our\ndecision environmental lawyers say this\nVictory creates a precedent that will be\nnew particle that helped explain how\nmatter was formed after the big bang\ninjuries spiked in the hours after\nyesterday's solar eclipse people\nJapan and Europe leaving Seafood\nwholesalers looking to\nyear Kayla Hansel CBC News shelburn Nova\nScotia now it's time to dig deeper into\nwith two possible fathers she turned to\nGoogle for\npregnancy do you want\nto be there for the\nare extremely reliable when done right\nthat accuracy depends to when during the\nyeah it's like as soon as I saw those\ntest results it was like a Line in the\nit's a it's a loss it was like a death\nthat's how I can talk talk about it and\nthis it sounds like the accuracy is\nthere cuz with the prenatal the accuracy\ndecisions off of this DNA test you know\nand um yeah so to find out\nclose\ndown I think that's like a collective\nproud of that because when you see smile\nof the kids when they Fe they smart and\nare children and the federal government\nsays nearly one in four children in\nfederal budget Advocates have long\npushed for a Countrywide wide\ncould come up and use our gym I was\nmanager of signas Gymnastics Club and so",
+        "text_tokens": 499,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S30",
+          "cue_ids": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "start_ms": 78840,
+          "end_ms": 90240,
+          "text": "was told she wouldn't get it unless she paid thousands of dollars first she needed an emergency csection to deliver her baby after a medical complication"
+        },
+        {
+          "id": "S63",
+          "cue_ids": [
+            63,
+            64,
+            65,
+            66
+          ],
+          "start_ms": 165720,
+          "end_ms": 176239,
+          "text": "care especially in an emergency situation it doesn't matter with their immigration status ultimately Estrada says her friend took her to another"
+        },
+        {
+          "id": "S100",
+          "cue_ids": [
+            100,
+            101,
+            102,
+            103
+          ],
+          "start_ms": 252239,
+          "end_ms": 263759,
+          "text": "in last week's deadly Taiwan earthquake they're telling their story of how a picturesque hike turned into a desperate fight to stay alive they spoke only to"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136,
+            137,
+            138
+          ],
+          "start_ms": 338120,
+          "end_ms": 350000,
+          "text": "come in that area that was like uh yeah seeing those people was like Christmas morning I mean the group of 12 hikers was then taken to a Juan hospital where"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172,
+            173
+          ],
+          "start_ms": 421360,
+          "end_ms": 435160,
+          "text": "drastic improvement but the UN has said 500 are needed each day just to meet the most basic of needs in the United States the first parents ever convicted in a"
+        },
+        {
+          "id": "S203",
+          "cue_ids": [
+            203,
+            204,
+            205,
+            206
+          ],
+          "start_ms": 509039,
+          "end_ms": 521599,
+          "text": "the out of this case has reverberated in a country confounded by an epidemic of school shootings setting a new standard for who could bear responsibility the"
+        },
+        {
+          "id": "S239",
+          "cue_ids": [
+            239,
+            240,
+            241,
+            242
+          ],
+          "start_ms": 594519,
+          "end_ms": 606560,
+          "text": "biggest question however is what will it take to stop these school shootings there have been more than 300 of them in the US since the 1999 Coline Massacre"
+        },
+        {
+          "id": "S270",
+          "cue_ids": [
+            270,
+            271,
+            272,
+            273
+          ],
+          "start_ms": 679639,
+          "end_ms": 693959,
+          "text": "sought to have the 19th century law revived here sueding a state ban at 15 weeks the 1864 law only allows abortions when the mother life is at risk no"
+        },
+        {
+          "id": "S303",
+          "cue_ids": [
+            303,
+            304,
+            305,
+            306
+          ],
+          "start_ms": 765040,
+          "end_ms": 778680,
+          "text": "the right to abortion access on the ballot in Arizona in November tying this directly to the presidential election Cameron Macintosh CBC News"
+        },
+        {
+          "id": "S334",
+          "cue_ids": [
+            334,
+            335,
+            336,
+            337
+          ],
+          "start_ms": 851320,
+          "end_ms": 863759,
+          "text": "he's a former police Union executive suspended for 9 years and counting Christie has been paid more than $1.5 million to stay home from work most"
+        },
+        {
+          "id": "S369",
+          "cue_ids": [
+            369,
+            370,
+            371,
+            372
+          ],
+          "start_ms": 937560,
+          "end_ms": 950959,
+          "text": "in terms of the scope of suspensions and their outcomes Julie iron CBC News Ottawa a major European Court says Switzerland has violated the human"
+        },
+        {
+          "id": "S402",
+          "cue_ids": [
+            402,
+            403,
+            404,
+            405
+          ],
+          "start_ms": 1024199,
+          "end_ms": 1034079,
+          "text": "celebrating a landmark Court win tonight they argue their country failed to protect them from climate change as our International climate correspondent"
+        },
+        {
+          "id": "S436",
+          "cue_ids": [
+            436,
+            437,
+            438,
+            439
+          ],
+          "start_ms": 1110559,
+          "end_ms": 1123039,
+          "text": "significance of this decision environmental lawyers say this Victory creates a precedent that will be persuasive in a rising tide of other"
+        },
+        {
+          "id": "S469",
+          "cue_ids": [
+            469,
+            470,
+            471,
+            472
+          ],
+          "start_ms": 1196720,
+          "end_ms": 1208480,
+          "text": "famously predicted the existence of a new particle that helped explain how matter was formed after the big bang known as the higs bosen sometimes called"
+        },
+        {
+          "id": "S502",
+          "cue_ids": [
+            502,
+            503,
+            504,
+            505
+          ],
+          "start_ms": 1281240,
+          "end_ms": 1294000,
+          "text": "coming Google says searches about eye injuries spiked in the hours after yesterday's solar eclipse people Googling things like why do my eyes hurt"
+        },
+        {
+          "id": "S538",
+          "cue_ids": [
+            538,
+            539,
+            540,
+            541
+          ],
+          "start_ms": 1367320,
+          "end_ms": 1379880,
+          "text": "so popular it led to over fishing in Japan and Europe leaving Seafood wholesalers looking to Canada elvers are now Canada's most"
+        },
+        {
+          "id": "S573",
+          "cue_ids": [
+            573,
+            574,
+            575,
+            576
+          ],
+          "start_ms": 1451520,
+          "end_ms": 1467600,
+          "text": "licensed Fishers catch baby eels this year Kayla Hansel CBC News shelburn Nova Scotia now it's time to dig deeper into the story shaping our"
+        },
+        {
+          "id": "S605",
+          "cue_ids": [
+            605,
+            606,
+            607,
+            608
+          ],
+          "start_ms": 1538840,
+          "end_ms": 1550600,
+          "text": "be I don't know the father of my child with two possible fathers she turned to Google for answers and found vard a lab on the"
+        },
+        {
+          "id": "S636",
+          "cue_ids": [
+            636,
+            637,
+            638,
+            639
+          ],
+          "start_ms": 1623039,
+          "end_ms": 1640919,
+          "text": "to include him in the pregnancy do you want to be there for the delivery you"
+        },
+        {
+          "id": "S663",
+          "cue_ids": [
+            663,
+            664,
+            665,
+            666
+          ],
+          "start_ms": 1709399,
+          "end_ms": 1723399,
+          "text": "Toronto says prenatal paternity tests are extremely reliable when done right that accuracy depends to when during the pregnancy you get the Mom's blood and"
+        },
+        {
+          "id": "S693",
+          "cue_ids": [
+            693,
+            694,
+            695,
+            696
+          ],
+          "start_ms": 1795919,
+          "end_ms": 1808799,
+          "text": "vguard said John Brennan was a father yeah it's like as soon as I saw those test results it was like a Line in the Sand immediately right then and there"
+        },
+        {
+          "id": "S725",
+          "cue_ids": [
+            725,
+            726,
+            727,
+            728
+          ],
+          "start_ms": 1881120,
+          "end_ms": 1892960,
+          "text": "engulfed the family there he is yeah it's a it's a loss it was like a death that's how I can talk talk about it and you just deal with it in your own way"
+        },
+        {
+          "id": "S755",
+          "cue_ids": [
+            755,
+            756,
+            757,
+            758
+          ],
+          "start_ms": 1969240,
+          "end_ms": 1979120,
+          "text": "prenatal paternity testing at least with this it sounds like the accuracy is there cuz with the prenatal the accuracy is there prenatal it was never that"
+        },
+        {
+          "id": "S789",
+          "cue_ids": [
+            789,
+            790,
+            791,
+            792
+          ],
+          "start_ms": 2051320,
+          "end_ms": 2070079,
+          "text": "my entire life decisions these huge decisions off of this DNA test you know and um yeah so to find out that it wasn't legit it was tricky that"
+        },
+        {
+          "id": "S822",
+          "cue_ids": [
+            822,
+            823,
+            824,
+            825
+          ],
+          "start_ms": 2141040,
+          "end_ms": 2151800,
+          "text": "thing I want for viaguard is for it to close down I think that's like a collective feeling I don't think"
+        },
+        {
+          "id": "S887",
+          "cue_ids": [
+            887,
+            888,
+            889,
+            890
+          ],
+          "start_ms": 2308280,
+          "end_ms": 2322440,
+          "text": "Baha kaspars starts the meal prep I'm so proud of that because when you see smile of the kids when they Fe they smart and acting good that's my uh"
+        },
+        {
+          "id": "S924",
+          "cue_ids": [
+            924,
+            925,
+            926,
+            927
+          ],
+          "start_ms": 2397839,
+          "end_ms": 2408160,
+          "text": "Canada says one-third of food bank users are children and the federal government says nearly one in four children in Canada don't get enough food even at"
+        },
+        {
+          "id": "S961",
+          "cue_ids": [
+            961,
+            962,
+            963,
+            964
+          ],
+          "start_ms": 2481520,
+          "end_ms": 2495000,
+          "text": "talked about are expected in next week's federal budget Advocates have long pushed for a Countrywide wide program up next acrobats who defected"
+        },
+        {
+          "id": "S992",
+          "cue_ids": [
+            992,
+            993,
+            994,
+            995
+          ],
+          "start_ms": 2567400,
+          "end_ms": 2582800,
+          "text": "the association was wondering if they could come up and use our gym I was manager of signas Gymnastics Club and so I said yes send them up I knew Just Two"
+        }
+      ],
+      "text": "S30 [00:01:18.840 --> 00:01:30.240] was told she wouldn't get it unless she paid thousands of dollars first she needed an emergency csection to deliver her baby after a medical complication\nS63 [00:02:45.720 --> 00:02:56.239] care especially in an emergency situation it doesn't matter with their immigration status ultimately Estrada says her friend took her to another\nS100 [00:04:12.239 --> 00:04:23.759] in last week's deadly Taiwan earthquake they're telling their story of how a picturesque hike turned into a desperate fight to stay alive they spoke only to\nS135 [00:05:38.120 --> 00:05:50.000] come in that area that was like uh yeah seeing those people was like Christmas morning I mean the group of 12 hikers was then taken to a Juan hospital where\nS170 [00:07:01.360 --> 00:07:15.160] drastic improvement but the UN has said 500 are needed each day just to meet the most basic of needs in the United States the first parents ever convicted in a\nS203 [00:08:29.039 --> 00:08:41.599] the out of this case has reverberated in a country confounded by an epidemic of school shootings setting a new standard for who could bear responsibility the\nS239 [00:09:54.519 --> 00:10:06.560] biggest question however is what will it take to stop these school shootings there have been more than 300 of them in the US since the 1999 Coline Massacre\nS270 [00:11:19.639 --> 00:11:33.959] sought to have the 19th century law revived here sueding a state ban at 15 weeks the 1864 law only allows abortions when the mother life is at risk no\nS303 [00:12:45.040 --> 00:12:58.680] the right to abortion access on the ballot in Arizona in November tying this directly to the presidential election Cameron Macintosh CBC News\nS334 [00:14:11.320 --> 00:14:23.759] he's a former police Union executive suspended for 9 years and counting Christie has been paid more than $1.5 million to stay home from work most\nS369 [00:15:37.560 --> 00:15:50.959] in terms of the scope of suspensions and their outcomes Julie iron CBC News Ottawa a major European Court says Switzerland has violated the human\nS402 [00:17:04.199 --> 00:17:14.079] celebrating a landmark Court win tonight they argue their country failed to protect them from climate change as our International climate correspondent\nS436 [00:18:30.559 --> 00:18:43.039] significance of this decision environmental lawyers say this Victory creates a precedent that will be persuasive in a rising tide of other\nS469 [00:19:56.720 --> 00:20:08.480] famously predicted the existence of a new particle that helped explain how matter was formed after the big bang known as the higs bosen sometimes called\nS502 [00:21:21.240 --> 00:21:34.000] coming Google says searches about eye injuries spiked in the hours after yesterday's solar eclipse people Googling things like why do my eyes hurt\nS538 [00:22:47.320 --> 00:22:59.880] so popular it led to over fishing in Japan and Europe leaving Seafood wholesalers looking to Canada elvers are now Canada's most\nS573 [00:24:11.520 --> 00:24:27.600] licensed Fishers catch baby eels this year Kayla Hansel CBC News shelburn Nova Scotia now it's time to dig deeper into the story shaping our\nS605 [00:25:38.840 --> 00:25:50.600] be I don't know the father of my child with two possible fathers she turned to Google for answers and found vard a lab on the\nS636 [00:27:03.039 --> 00:27:20.919] to include him in the pregnancy do you want to be there for the delivery you\nS663 [00:28:29.399 --> 00:28:43.399] Toronto says prenatal paternity tests are extremely reliable when done right that accuracy depends to when during the pregnancy you get the Mom's blood and\nS693 [00:29:55.919 --> 00:30:08.799] vguard said John Brennan was a father yeah it's like as soon as I saw those test results it was like a Line in the Sand immediately right then and there\nS725 [00:31:21.120 --> 00:31:32.960] engulfed the family there he is yeah it's a it's a loss it was like a death that's how I can talk talk about it and you just deal with it in your own way\nS755 [00:32:49.240 --> 00:32:59.120] prenatal paternity testing at least with this it sounds like the accuracy is there cuz with the prenatal the accuracy is there prenatal it was never that\nS789 [00:34:11.320 --> 00:34:30.079] my entire life decisions these huge decisions off of this DNA test you know and um yeah so to find out that it wasn't legit it was tricky that\nS822 [00:35:41.040 --> 00:35:51.800] thing I want for viaguard is for it to close down I think that's like a collective feeling I don't think\nS887 [00:38:28.280 --> 00:38:42.440] Baha kaspars starts the meal prep I'm so proud of that because when you see smile of the kids when they Fe they smart and acting good that's my uh\nS924 [00:39:57.839 --> 00:40:08.160] Canada says one-third of food bank users are children and the federal government says nearly one in four children in Canada don't get enough food even at\nS961 [00:41:21.520 --> 00:41:35.000] talked about are expected in next week's federal budget Advocates have long pushed for a Countrywide wide program up next acrobats who defected\nS992 [00:42:47.400 --> 00:43:02.800] the association was wondering if they could come up and use our gym I was manager of signas Gymnastics Club and so I said yes send them up I knew Just Two",
+      "text_tokens": 1800,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        30,
+        33,
+        63,
+        66,
+        100,
+        103,
+        135,
+        138,
+        170,
+        173,
+        203,
+        206,
+        239,
+        242,
+        270,
+        273,
+        303,
+        306,
+        334,
+        337,
+        369,
+        372,
+        402,
+        405,
+        436,
+        439,
+        469,
+        472,
+        502,
+        505,
+        538,
+        541,
+        573,
+        576,
+        605,
+        608,
+        636,
+        639,
+        663,
+        666,
+        693,
+        696,
+        725,
+        728,
+        755,
+        758,
+        789,
+        792,
+        822,
+        825,
+        887,
+        890,
+        924,
+        927,
+        961,
+        964,
+        992,
+        995
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "06a20f330cab5dfec52b1c873957c2ad2a927652f355f492ae1df4131f7aaa87"
+}

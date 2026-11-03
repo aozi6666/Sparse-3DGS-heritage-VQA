@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "0c5ec46e9c693c0b959677a0800f89668476b59a79ea4b1ec9ce6eb25d8a5ed7",
+  "response": {
+    "id": "4622fbeb-c5ff-4787-878b-3a2ddd42ce89",
+    "object": "chat.completion",
+    "created": 1793675778,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[],\"frame_ids\":[\"F1757\"],\"windows\":[],\"notes\":\"F1757 shows a boy squatting with a toy car, but no supplied frame or subtitle shows him running away/hiding or the cause (thunder, gangsters, soldiers, or broken toy). Cannot establish the reason.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8102,
+      "completion_tokens": 87,
+      "total_tokens": 8189,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7974
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 1.8129769880324602
+}

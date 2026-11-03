@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "d3698249f2448e972e66255e7a61d8492958184413d4ac2fafb31efb39c9d93a",
+  "response": {
+    "id": "90c2155e-11a9-4958-a619-560407d4d119",
+    "object": "chat.completion",
+    "created": 1793675805,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"A\",\"supported\":true,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S13\",\"quote\":\"hey pay attention in the presence of your king ah\"},{\"block_id\":\"S20\",\"quote\":\"an entire kingdom's worth of cats and this is all we can do do you have any idea what awaits you beyond the kingdom borders\"},{\"block_id\":\"S35\",\"quote\":\"you're pathetic what are you some kind of infant a child lost looking for your ball of yawn little man\"}],\"frame_ids\":[\"F1162\",\"F1549\"],\"windows\":[],\"notes\":\"King on throne (F1162, F1549) with harsh, scolding subtitles ('pay attention in the presence of your king', 'you're pathetic') indicates angry attitude toward the hero; no dense window needed.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7692,
+      "completion_tokens": 174,
+      "total_tokens": 7866,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 7564
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.0502246525138617
+}

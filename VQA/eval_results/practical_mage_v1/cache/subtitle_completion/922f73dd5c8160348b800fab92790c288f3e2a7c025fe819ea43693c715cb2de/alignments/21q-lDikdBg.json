@@ -1,0 +1,679 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "21q-lDikdBg",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/21q-lDikdBg.srt",
+        "status": "available",
+        "bytes": 1847,
+        "sha256": "c63ddd8097204eb851a07550b83bc7fe17214034872e6a69f22c370d9e4da2b8",
+        "cues": 19,
+        "nonempty_cues": 19
+      },
+      "frame_indices": [
+        0,
+        41,
+        82,
+        123,
+        163,
+        204,
+        245,
+        286,
+        327,
+        368,
+        409,
+        450,
+        490,
+        531,
+        572,
+        613,
+        654,
+        695,
+        736,
+        777,
+        817,
+        858,
+        899,
+        940,
+        981,
+        1022,
+        1063,
+        1104,
+        1144,
+        1185,
+        1226,
+        1267
+      ],
+      "frame_seconds": [
+        0.0,
+        1.710042,
+        3.420083,
+        5.130125,
+        6.798458,
+        8.5085,
+        10.218542,
+        11.928583,
+        13.638625,
+        15.348667,
+        17.058708,
+        18.76875,
+        20.437083,
+        22.147125,
+        23.857167,
+        25.567208,
+        27.27725,
+        28.987292,
+        30.697333,
+        32.407375,
+        34.075708,
+        35.78575,
+        37.495792,
+        39.205833,
+        40.915875,
+        42.625917,
+        44.335958,
+        46.046,
+        47.714333,
+        49.424375,
+        51.134417,
+        52.844458
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          15
+        ],
+        [],
+        [
+          16
+        ],
+        [
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 590,
+          "end_ms": 7040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 4640,
+          "end_ms": 9120,
+          "text": "this exercise is for your shoulders and"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7040,
+          "end_ms": 11360,
+          "text": "the muscles in your back"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 9120,
+          "end_ms": 13679,
+          "text": "it will help fight rounded shoulders and"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 11360,
+          "end_ms": 15599,
+          "text": "give you a better posture"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 13679,
+          "end_ms": 16640,
+          "text": "hold the band tightly in front of your"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 15599,
+          "end_ms": 18800,
+          "text": "chest"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 16640,
+          "end_ms": 20240,
+          "text": "keep your arms straight and slowly pull"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 18800,
+          "end_ms": 22480,
+          "text": "apart"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 20240,
+          "end_ms": 23680,
+          "text": "focus on squeezing your shoulder blades"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 22480,
+          "end_ms": 25760,
+          "text": "together"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 23680,
+          "end_ms": 28640,
+          "text": "the breathing technique is the same"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 25760,
+          "end_ms": 30250,
+          "text": "exhale during your effort inhale while"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 28640,
+          "end_ms": 35130,
+          "text": "you release the tension"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 30250,
+          "end_ms": 35130,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 36880,
+          "end_ms": 42250,
+          "text": "for each exercise you should aim for two"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 39280,
+          "end_ms": 51959,
+          "text": "sets of 10 to 15 repetitions"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 42250,
+          "end_ms": 51959,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 52719,
+          "end_ms": 54800,
+          "text": "you"
+        }
+      ],
+      "text": "[Music]\nthis exercise is for your shoulders and\nthe muscles in your back\nit will help fight rounded shoulders and\ngive you a better posture\nhold the band tightly in front of your\nchest\nkeep your arms straight and slowly pull\napart\nfocus on squeezing your shoulder blades\ntogether\nthe breathing technique is the same\nexhale during your effort inhale while\nyou release the tension\n[Music]\nfor each exercise you should aim for two\nsets of 10 to 15 repetitions\n[Music]\nyou",
+      "text_tokens": 112,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "21q-lDikdBg",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/21q-lDikdBg.srt",
+          "status": "available",
+          "bytes": 1847,
+          "sha256": "c63ddd8097204eb851a07550b83bc7fe17214034872e6a69f22c370d9e4da2b8",
+          "cues": 19,
+          "nonempty_cues": 19
+        },
+        "frame_indices": [
+          0,
+          41,
+          82,
+          123,
+          163,
+          204,
+          245,
+          286,
+          327,
+          368,
+          409,
+          450,
+          490,
+          531,
+          572,
+          613,
+          654,
+          695,
+          736,
+          777,
+          817,
+          858,
+          899,
+          940,
+          981,
+          1022,
+          1063,
+          1104,
+          1144,
+          1185,
+          1226,
+          1267
+        ],
+        "frame_seconds": [
+          0.0,
+          1.710042,
+          3.420083,
+          5.130125,
+          6.798458,
+          8.5085,
+          10.218542,
+          11.928583,
+          13.638625,
+          15.348667,
+          17.058708,
+          18.76875,
+          20.437083,
+          22.147125,
+          23.857167,
+          25.567208,
+          27.27725,
+          28.987292,
+          30.697333,
+          32.407375,
+          34.075708,
+          35.78575,
+          37.495792,
+          39.205833,
+          40.915875,
+          42.625917,
+          44.335958,
+          46.046,
+          47.714333,
+          49.424375,
+          51.134417,
+          52.844458
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            14,
+            15
+          ],
+          [],
+          [
+            16
+          ],
+          [
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 590,
+            "end_ms": 7040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 4640,
+            "end_ms": 9120,
+            "text": "this exercise is for your shoulders and"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7040,
+            "end_ms": 11360,
+            "text": "the muscles in your back"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 9120,
+            "end_ms": 13679,
+            "text": "it will help fight rounded shoulders and"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 11360,
+            "end_ms": 15599,
+            "text": "give you a better posture"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 13679,
+            "end_ms": 16640,
+            "text": "hold the band tightly in front of your"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 15599,
+            "end_ms": 18800,
+            "text": "chest"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 16640,
+            "end_ms": 20240,
+            "text": "keep your arms straight and slowly pull"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 18800,
+            "end_ms": 22480,
+            "text": "apart"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 20240,
+            "end_ms": 23680,
+            "text": "focus on squeezing your shoulder blades"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 22480,
+            "end_ms": 25760,
+            "text": "together"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 23680,
+            "end_ms": 28640,
+            "text": "the breathing technique is the same"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 25760,
+            "end_ms": 30250,
+            "text": "exhale during your effort inhale while"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 28640,
+            "end_ms": 35130,
+            "text": "you release the tension"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 30250,
+            "end_ms": 35130,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 36880,
+            "end_ms": 42250,
+            "text": "for each exercise you should aim for two"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 39280,
+            "end_ms": 51959,
+            "text": "sets of 10 to 15 repetitions"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 42250,
+            "end_ms": 51959,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 52719,
+            "end_ms": 54800,
+            "text": "you"
+          }
+        ],
+        "text": "[Music]\nthis exercise is for your shoulders and\nthe muscles in your back\nit will help fight rounded shoulders and\ngive you a better posture\nhold the band tightly in front of your\nchest\nkeep your arms straight and slowly pull\napart\nfocus on squeezing your shoulder blades\ntogether\nthe breathing technique is the same\nexhale during your effort inhale while\nyou release the tension\n[Music]\nfor each exercise you should aim for two\nsets of 10 to 15 repetitions\n[Music]\nyou",
+        "text_tokens": 112,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "start_ms": 590,
+          "end_ms": 54800,
+          "text": "[Music] this exercise is for your shoulders and the muscles in your back it will help fight rounded shoulders and give you a better posture hold the band tightly in front of your chest keep your arms straight and slowly pull apart focus on squeezing your shoulder blades together the breathing technique is the same exhale during your effort inhale while you release the tension [Music] for each exercise you should aim for two sets of 10 to 15 repetitions [Music] you"
+        }
+      ],
+      "text": "S1 [00:00:00.590 --> 00:00:54.800] [Music] this exercise is for your shoulders and the muscles in your back it will help fight rounded shoulders and give you a better posture hold the band tightly in front of your chest keep your arms straight and slowly pull apart focus on squeezing your shoulder blades together the breathing technique is the same exhale during your effort inhale while you release the tension [Music] for each exercise you should aim for two sets of 10 to 15 repetitions [Music] you",
+      "text_tokens": 124,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "65f1e99e9b50f15e66f2d35720bf8fad1b2af7dd4ba9af86184333b26d77418e"
+}

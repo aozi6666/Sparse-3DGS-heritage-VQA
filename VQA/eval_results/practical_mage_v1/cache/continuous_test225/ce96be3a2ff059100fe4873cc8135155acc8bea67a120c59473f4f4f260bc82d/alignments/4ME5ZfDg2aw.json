@@ -1,0 +1,1417 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "4ME5ZfDg2aw",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4ME5ZfDg2aw.srt",
+        "status": "available",
+        "bytes": 17255,
+        "sha256": "d55fa16d66bff62fa72ec96005020c4d7d7e6247c71c8388b72a22ca00b07dbc",
+        "cues": 161,
+        "nonempty_cues": 161
+      },
+      "frame_indices": [
+        0,
+        439,
+        877,
+        1316,
+        1755,
+        2194,
+        2632,
+        3071,
+        3510,
+        3948,
+        4387,
+        4826,
+        5265,
+        5703,
+        6142,
+        6581,
+        7019,
+        7458,
+        7897,
+        8335,
+        8774,
+        9213,
+        9652,
+        10090,
+        10529,
+        10968,
+        11406,
+        11845,
+        12284,
+        12723,
+        13161,
+        13600
+      ],
+      "frame_seconds": [
+        0.0,
+        17.56,
+        35.08,
+        52.64,
+        70.2,
+        87.76,
+        105.28,
+        122.84,
+        140.4,
+        157.92000000000002,
+        175.48,
+        193.04,
+        210.6,
+        228.12,
+        245.68,
+        263.24,
+        280.76,
+        298.32,
+        315.88,
+        333.4,
+        350.96,
+        368.52,
+        386.08,
+        403.6,
+        421.16,
+        438.72,
+        456.24,
+        473.8,
+        491.36,
+        508.92,
+        526.44,
+        544.0
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          13
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          38,
+          39
+        ],
+        [],
+        [
+          46,
+          47
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          68
+        ],
+        [
+          73
+        ],
+        [
+          78
+        ],
+        [],
+        [
+          87,
+          88
+        ],
+        [
+          93,
+          94
+        ],
+        [
+          98,
+          99
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          116,
+          117
+        ],
+        [
+          122,
+          123
+        ],
+        [
+          128,
+          129
+        ],
+        [
+          135,
+          136
+        ],
+        [
+          140,
+          141
+        ],
+        [
+          146,
+          147
+        ],
+        [
+          152,
+          153
+        ],
+        [
+          157,
+          158
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 4,
+          "start_ms": 13440,
+          "end_ms": 19920,
+          "text": "escape from humans from big cities from"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 16859,
+          "end_ms": 22980,
+          "text": "people all of them so I looked at the"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 27599,
+          "end_ms": 37800,
+          "text": "nothing nothing in fact the country is"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 32360,
+          "end_ms": 42480,
+          "text": "99.9 empty it is the emptiest country in"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 52460,
+          "end_ms": 60660,
+          "text": "when I landed in Greenland uh"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 63600,
+          "end_ms": 71700,
+          "text": "it's all green in fact 90 of Greenland"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 67799,
+          "end_ms": 74580,
+          "text": "is white it is covered by a giant ice"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 82860,
+          "end_ms": 88680,
+          "text": "there is a road we are so lucky to be"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 86400,
+          "end_ms": 91570,
+          "text": "here and we're gonna go actually walk on"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 100439,
+          "end_ms": 106680,
+          "text": "Greenland all the way to an offering"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 102658,
+          "end_ms": 109979,
+          "text": "land on this one huge ice thousands of"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 117240,
+          "end_ms": 123780,
+          "text": "zero no trees grow naturally in the"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 121079,
+          "end_ms": 126119,
+          "text": "entire country because of the harsh"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 133860,
+          "end_ms": 140700,
+          "text": "they have huge icebergs that break into"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 137879,
+          "end_ms": 143700,
+          "text": "the ocean every summer"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 169680,
+          "end_ms": 178440,
+          "text": "single day you can see them up close and"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 173519,
+          "end_ms": 180900,
+          "text": "even paddle around them if we fall we"
+        },
+        {
+          "cue_id": 51,
+          "start_ms": 187879,
+          "end_ms": 193700,
+          "text": "directly it tastes amazing"
+        },
+        {
+          "cue_id": 52,
+          "start_ms": 191819,
+          "end_ms": 197340,
+          "text": "it's really cold"
+        },
+        {
+          "cue_id": 57,
+          "start_ms": 205620,
+          "end_ms": 213300,
+          "text": "that's the point of life Greenland has"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 208620,
+          "end_ms": 216079,
+          "text": "no highways and no trains instead it has"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 222019,
+          "end_ms": 229440,
+          "text": "19 dogs dogs letting this is the"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 225900,
+          "end_ms": 232920,
+          "text": "greenlandic sled dog it is the only dog"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 244620,
+          "end_ms": 250340,
+          "text": "no no no she does like me I'll give your"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 262340,
+          "end_ms": 265759,
+          "text": "oh my God"
+        },
+        {
+          "cue_id": 78,
+          "start_ms": 279740,
+          "end_ms": 286800,
+          "text": "but then I missed people and I wanted to"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 311220,
+          "end_ms": 316979,
+          "text": "also have a prime minister this is him"
+        },
+        {
+          "cue_id": 88,
+          "start_ms": 314340,
+          "end_ms": 318979,
+          "text": "I'm the prime minister of Greenland and"
+        },
+        {
+          "cue_id": 93,
+          "start_ms": 328979,
+          "end_ms": 336120,
+          "text": "years and trust me it's not easy living"
+        },
+        {
+          "cue_id": 94,
+          "start_ms": 332460,
+          "end_ms": 339900,
+          "text": "here when you walk in snow for one day"
+        },
+        {
+          "cue_id": 98,
+          "start_ms": 346860,
+          "end_ms": 352560,
+          "text": "blindness that's why we need to cover"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 349380,
+          "end_ms": 356220,
+          "text": "our eyes so the Inuit were the first"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 365759,
+          "end_ms": 370560,
+          "text": "your people in Alaska and Northern"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 368460,
+          "end_ms": 373560,
+          "text": "Canada and Greenland and they're"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 381539,
+          "end_ms": 388680,
+          "text": "harsh environment also affected their"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 384600,
+          "end_ms": 392100,
+          "text": "body over time their body created a skin"
+        },
+        {
+          "cue_id": 116,
+          "start_ms": 398639,
+          "end_ms": 404280,
+          "text": "you're not Asian I'm not Asian so how do"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 401639,
+          "end_ms": 406909,
+          "text": "you look Asian probably because of our"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 417240,
+          "end_ms": 424259,
+          "text": "hundred houses next to each other each"
+        },
+        {
+          "cue_id": 123,
+          "start_ms": 420900,
+          "end_ms": 427280,
+          "text": "house with a unique color this is a"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 435240,
+          "end_ms": 440280,
+          "text": "telecommunication but why does every"
+        },
+        {
+          "cue_id": 129,
+          "start_ms": 437880,
+          "end_ms": 442380,
+          "text": "house have a color the houses are"
+        },
+        {
+          "cue_id": 135,
+          "start_ms": 454319,
+          "end_ms": 459240,
+          "text": "have so few here that our phone numbers"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 456240,
+          "end_ms": 461639,
+          "text": "are only six digits the taxi number is"
+        },
+        {
+          "cue_id": 140,
+          "start_ms": 467759,
+          "end_ms": 474599,
+          "text": "about Greenland is the community it's"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 470819,
+          "end_ms": 476639,
+          "text": "only you and 57 000 people they will"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 486300,
+          "end_ms": 492300,
+          "text": "humans rely on each other more we"
+        },
+        {
+          "cue_id": 147,
+          "start_ms": 490259,
+          "end_ms": 495000,
+          "text": "greenlanders love to help each other"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 504860,
+          "end_ms": 511379,
+          "text": "I came to this country wanting to be"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 508199,
+          "end_ms": 514440,
+          "text": "with nature and dogs and icebergs but"
+        },
+        {
+          "cue_id": 157,
+          "start_ms": 520380,
+          "end_ms": 527940,
+          "text": "more than just an empty country it is a"
+        },
+        {
+          "cue_id": 158,
+          "start_ms": 523620,
+          "end_ms": 531600,
+          "text": "Place full of life and Beauty And even"
+        }
+      ],
+      "text": "escape from humans from big cities from\npeople all of them so I looked at the\nnothing nothing in fact the country is\n99.9 empty it is the emptiest country in\nwhen I landed in Greenland uh\nit's all green in fact 90 of Greenland\nis white it is covered by a giant ice\nthere is a road we are so lucky to be\nhere and we're gonna go actually walk on\nGreenland all the way to an offering\nland on this one huge ice thousands of\nzero no trees grow naturally in the\nentire country because of the harsh\nthey have huge icebergs that break into\nthe ocean every summer\nsingle day you can see them up close and\neven paddle around them if we fall we\ndirectly it tastes amazing\nit's really cold\nthat's the point of life Greenland has\nno highways and no trains instead it has\n19 dogs dogs letting this is the\ngreenlandic sled dog it is the only dog\nno no no she does like me I'll give your\noh my God\nbut then I missed people and I wanted to\nalso have a prime minister this is him\nI'm the prime minister of Greenland and\nyears and trust me it's not easy living\nhere when you walk in snow for one day\nblindness that's why we need to cover\nour eyes so the Inuit were the first\nyour people in Alaska and Northern\nCanada and Greenland and they're\nharsh environment also affected their\nbody over time their body created a skin\nyou're not Asian I'm not Asian so how do\nyou look Asian probably because of our\nhundred houses next to each other each\nhouse with a unique color this is a\ntelecommunication but why does every\nhouse have a color the houses are\nhave so few here that our phone numbers\nare only six digits the taxi number is\nabout Greenland is the community it's\nonly you and 57 000 people they will\nhumans rely on each other more we\ngreenlanders love to help each other\nI came to this country wanting to be\nwith nature and dogs and icebergs but\nmore than just an empty country it is a\nPlace full of life and Beauty And even",
+      "text_tokens": 467,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "4ME5ZfDg2aw",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4ME5ZfDg2aw.srt",
+          "status": "available",
+          "bytes": 17255,
+          "sha256": "d55fa16d66bff62fa72ec96005020c4d7d7e6247c71c8388b72a22ca00b07dbc",
+          "cues": 161,
+          "nonempty_cues": 161
+        },
+        "frame_indices": [
+          0,
+          439,
+          877,
+          1316,
+          1755,
+          2194,
+          2632,
+          3071,
+          3510,
+          3948,
+          4387,
+          4826,
+          5265,
+          5703,
+          6142,
+          6581,
+          7019,
+          7458,
+          7897,
+          8335,
+          8774,
+          9213,
+          9652,
+          10090,
+          10529,
+          10968,
+          11406,
+          11845,
+          12284,
+          12723,
+          13161,
+          13600
+        ],
+        "frame_seconds": [
+          0.0,
+          17.56,
+          35.08,
+          52.64,
+          70.2,
+          87.76,
+          105.28,
+          122.84,
+          140.4,
+          157.92000000000002,
+          175.48,
+          193.04,
+          210.6,
+          228.12,
+          245.68,
+          263.24,
+          280.76,
+          298.32,
+          315.88,
+          333.4,
+          350.96,
+          368.52,
+          386.08,
+          403.6,
+          421.16,
+          438.72,
+          456.24,
+          473.8,
+          491.36,
+          508.92,
+          526.44,
+          544.0
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            4,
+            5
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            13
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            38,
+            39
+          ],
+          [],
+          [
+            46,
+            47
+          ],
+          [
+            51,
+            52
+          ],
+          [
+            57,
+            58
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            68
+          ],
+          [
+            73
+          ],
+          [
+            78
+          ],
+          [],
+          [
+            87,
+            88
+          ],
+          [
+            93,
+            94
+          ],
+          [
+            98,
+            99
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            110,
+            111
+          ],
+          [
+            116,
+            117
+          ],
+          [
+            122,
+            123
+          ],
+          [
+            128,
+            129
+          ],
+          [
+            135,
+            136
+          ],
+          [
+            140,
+            141
+          ],
+          [
+            146,
+            147
+          ],
+          [
+            152,
+            153
+          ],
+          [
+            157,
+            158
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 4,
+            "start_ms": 13440,
+            "end_ms": 19920,
+            "text": "escape from humans from big cities from"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 16859,
+            "end_ms": 22980,
+            "text": "people all of them so I looked at the"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 27599,
+            "end_ms": 37800,
+            "text": "nothing nothing in fact the country is"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 32360,
+            "end_ms": 42480,
+            "text": "99.9 empty it is the emptiest country in"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 52460,
+            "end_ms": 60660,
+            "text": "when I landed in Greenland uh"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 63600,
+            "end_ms": 71700,
+            "text": "it's all green in fact 90 of Greenland"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 67799,
+            "end_ms": 74580,
+            "text": "is white it is covered by a giant ice"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 82860,
+            "end_ms": 88680,
+            "text": "there is a road we are so lucky to be"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 86400,
+            "end_ms": 91570,
+            "text": "here and we're gonna go actually walk on"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 100439,
+            "end_ms": 106680,
+            "text": "Greenland all the way to an offering"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 102658,
+            "end_ms": 109979,
+            "text": "land on this one huge ice thousands of"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 117240,
+            "end_ms": 123780,
+            "text": "zero no trees grow naturally in the"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 121079,
+            "end_ms": 126119,
+            "text": "entire country because of the harsh"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 133860,
+            "end_ms": 140700,
+            "text": "they have huge icebergs that break into"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 137879,
+            "end_ms": 143700,
+            "text": "the ocean every summer"
+          },
+          {
+            "cue_id": 46,
+            "start_ms": 169680,
+            "end_ms": 178440,
+            "text": "single day you can see them up close and"
+          },
+          {
+            "cue_id": 47,
+            "start_ms": 173519,
+            "end_ms": 180900,
+            "text": "even paddle around them if we fall we"
+          },
+          {
+            "cue_id": 51,
+            "start_ms": 187879,
+            "end_ms": 193700,
+            "text": "directly it tastes amazing"
+          },
+          {
+            "cue_id": 52,
+            "start_ms": 191819,
+            "end_ms": 197340,
+            "text": "it's really cold"
+          },
+          {
+            "cue_id": 57,
+            "start_ms": 205620,
+            "end_ms": 213300,
+            "text": "that's the point of life Greenland has"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 208620,
+            "end_ms": 216079,
+            "text": "no highways and no trains instead it has"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 222019,
+            "end_ms": 229440,
+            "text": "19 dogs dogs letting this is the"
+          },
+          {
+            "cue_id": 63,
+            "start_ms": 225900,
+            "end_ms": 232920,
+            "text": "greenlandic sled dog it is the only dog"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 244620,
+            "end_ms": 250340,
+            "text": "no no no she does like me I'll give your"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 262340,
+            "end_ms": 265759,
+            "text": "oh my God"
+          },
+          {
+            "cue_id": 78,
+            "start_ms": 279740,
+            "end_ms": 286800,
+            "text": "but then I missed people and I wanted to"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 311220,
+            "end_ms": 316979,
+            "text": "also have a prime minister this is him"
+          },
+          {
+            "cue_id": 88,
+            "start_ms": 314340,
+            "end_ms": 318979,
+            "text": "I'm the prime minister of Greenland and"
+          },
+          {
+            "cue_id": 93,
+            "start_ms": 328979,
+            "end_ms": 336120,
+            "text": "years and trust me it's not easy living"
+          },
+          {
+            "cue_id": 94,
+            "start_ms": 332460,
+            "end_ms": 339900,
+            "text": "here when you walk in snow for one day"
+          },
+          {
+            "cue_id": 98,
+            "start_ms": 346860,
+            "end_ms": 352560,
+            "text": "blindness that's why we need to cover"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 349380,
+            "end_ms": 356220,
+            "text": "our eyes so the Inuit were the first"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 365759,
+            "end_ms": 370560,
+            "text": "your people in Alaska and Northern"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 368460,
+            "end_ms": 373560,
+            "text": "Canada and Greenland and they're"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 381539,
+            "end_ms": 388680,
+            "text": "harsh environment also affected their"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 384600,
+            "end_ms": 392100,
+            "text": "body over time their body created a skin"
+          },
+          {
+            "cue_id": 116,
+            "start_ms": 398639,
+            "end_ms": 404280,
+            "text": "you're not Asian I'm not Asian so how do"
+          },
+          {
+            "cue_id": 117,
+            "start_ms": 401639,
+            "end_ms": 406909,
+            "text": "you look Asian probably because of our"
+          },
+          {
+            "cue_id": 122,
+            "start_ms": 417240,
+            "end_ms": 424259,
+            "text": "hundred houses next to each other each"
+          },
+          {
+            "cue_id": 123,
+            "start_ms": 420900,
+            "end_ms": 427280,
+            "text": "house with a unique color this is a"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 435240,
+            "end_ms": 440280,
+            "text": "telecommunication but why does every"
+          },
+          {
+            "cue_id": 129,
+            "start_ms": 437880,
+            "end_ms": 442380,
+            "text": "house have a color the houses are"
+          },
+          {
+            "cue_id": 135,
+            "start_ms": 454319,
+            "end_ms": 459240,
+            "text": "have so few here that our phone numbers"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 456240,
+            "end_ms": 461639,
+            "text": "are only six digits the taxi number is"
+          },
+          {
+            "cue_id": 140,
+            "start_ms": 467759,
+            "end_ms": 474599,
+            "text": "about Greenland is the community it's"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 470819,
+            "end_ms": 476639,
+            "text": "only you and 57 000 people they will"
+          },
+          {
+            "cue_id": 146,
+            "start_ms": 486300,
+            "end_ms": 492300,
+            "text": "humans rely on each other more we"
+          },
+          {
+            "cue_id": 147,
+            "start_ms": 490259,
+            "end_ms": 495000,
+            "text": "greenlanders love to help each other"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 504860,
+            "end_ms": 511379,
+            "text": "I came to this country wanting to be"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 508199,
+            "end_ms": 514440,
+            "text": "with nature and dogs and icebergs but"
+          },
+          {
+            "cue_id": 157,
+            "start_ms": 520380,
+            "end_ms": 527940,
+            "text": "more than just an empty country it is a"
+          },
+          {
+            "cue_id": 158,
+            "start_ms": 523620,
+            "end_ms": 531600,
+            "text": "Place full of life and Beauty And even"
+          }
+        ],
+        "text": "escape from humans from big cities from\npeople all of them so I looked at the\nnothing nothing in fact the country is\n99.9 empty it is the emptiest country in\nwhen I landed in Greenland uh\nit's all green in fact 90 of Greenland\nis white it is covered by a giant ice\nthere is a road we are so lucky to be\nhere and we're gonna go actually walk on\nGreenland all the way to an offering\nland on this one huge ice thousands of\nzero no trees grow naturally in the\nentire country because of the harsh\nthey have huge icebergs that break into\nthe ocean every summer\nsingle day you can see them up close and\neven paddle around them if we fall we\ndirectly it tastes amazing\nit's really cold\nthat's the point of life Greenland has\nno highways and no trains instead it has\n19 dogs dogs letting this is the\ngreenlandic sled dog it is the only dog\nno no no she does like me I'll give your\noh my God\nbut then I missed people and I wanted to\nalso have a prime minister this is him\nI'm the prime minister of Greenland and\nyears and trust me it's not easy living\nhere when you walk in snow for one day\nblindness that's why we need to cover\nour eyes so the Inuit were the first\nyour people in Alaska and Northern\nCanada and Greenland and they're\nharsh environment also affected their\nbody over time their body created a skin\nyou're not Asian I'm not Asian so how do\nyou look Asian probably because of our\nhundred houses next to each other each\nhouse with a unique color this is a\ntelecommunication but why does every\nhouse have a color the houses are\nhave so few here that our phone numbers\nare only six digits the taxi number is\nabout Greenland is the community it's\nonly you and 57 000 people they will\nhumans rely on each other more we\ngreenlanders love to help each other\nI came to this country wanting to be\nwith nature and dogs and icebergs but\nmore than just an empty country it is a\nPlace full of life and Beauty And even",
+        "text_tokens": 467,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S3",
+          "cue_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "start_ms": 8460,
+          "end_ms": 25800,
+          "text": "honestly I wanted time alone I wanted to escape from humans from big cities from people all of them so I looked at the world map and found a country that"
+        },
+        {
+          "id": "S8",
+          "cue_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "start_ms": 25800,
+          "end_ms": 48079,
+          "text": "around us nothing nothing in fact the country is 99.9 empty it is the emptiest country in the world and I decided to see it this"
+        },
+        {
+          "id": "S13",
+          "cue_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "start_ms": 52460,
+          "end_ms": 78180,
+          "text": "when I landed in Greenland uh betrayed somebody lied to me about the country name Greenland does not mean it's all green in fact 90 of Greenland is white it is covered by a giant ice sheet that is whiter than Snow White"
+        },
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "start_ms": 79979,
+          "end_ms": 97400,
+          "text": "where you can see the ice sheet where there is a road we are so lucky to be here and we're gonna go actually walk on the ice sheet very soon"
+        },
+        {
+          "id": "S26",
+          "cue_ids": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "start_ms": 97400,
+          "end_ms": 113759,
+          "text": "so you can walk here all the way to East Greenland all the way to an offering land on this one huge ice thousands of kilometers of ice Greenland is actually"
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "start_ms": 113759,
+          "end_ms": 128818,
+          "text": "guess what it has zero trees zero no trees grow naturally in the entire country because of the harsh weather and most of the trees you see"
+        },
+        {
+          "id": "S37",
+          "cue_ids": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 131099,
+          "end_ms": 147720,
+          "text": "magical magical they have huge icebergs that break into the ocean every summer all of this broke from the ice sheets"
+        },
+        {
+          "id": "S45",
+          "cue_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "start_ms": 166560,
+          "end_ms": 184800,
+          "text": "Greenland and enter the ocean every single day you can see them up close and even paddle around them if we fall we will face the death they have huge"
+        },
+        {
+          "id": "S50",
+          "cue_ids": [
+            50,
+            51,
+            52,
+            53
+          ],
+          "start_ms": 184800,
+          "end_ms": 199440,
+          "text": "close to it and drink Iceberg water directly it tastes amazing it's really cold or you can helicopter around to go from"
+        },
+        {
+          "id": "S56",
+          "cue_ids": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "start_ms": 203040,
+          "end_ms": 218879,
+          "text": "cold taking videos that's the point of life Greenland has no highways and no trains instead it has dogs we are now"
+        },
+        {
+          "id": "S61",
+          "cue_ids": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "start_ms": 218879,
+          "end_ms": 238560,
+          "text": "to go dog sledding with 19 dogs 19 dogs dogs letting this is the greenlandic sled dog it is the only dog allowed in Northern Greenland because it"
+        },
+        {
+          "id": "S67",
+          "cue_ids": [
+            67,
+            68,
+            69
+          ],
+          "start_ms": 240360,
+          "end_ms": 250340,
+          "text": "leader no no no she does like me I'll give your brother"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74
+          ],
+          "start_ms": 258660,
+          "end_ms": 272820,
+          "text": "day oh my God what is happening"
+        },
+        {
+          "id": "S77",
+          "cue_ids": [
+            77,
+            78,
+            79
+          ],
+          "start_ms": 276840,
+          "end_ms": 289919,
+          "text": "icebergs but then I missed people and I wanted to know who the hell lives in Greenland"
+        },
+        {
+          "id": "S86",
+          "cue_ids": [
+            86,
+            87,
+            88,
+            89
+          ],
+          "start_ms": 308400,
+          "end_ms": 322220,
+          "text": "part of the Kingdom of Denmark but they also have a prime minister this is him I'm the prime minister of Greenland and everyone is welcome here in our country"
+        },
+        {
+          "id": "S92",
+          "cue_ids": [
+            92,
+            93,
+            94,
+            95
+          ],
+          "start_ms": 325440,
+          "end_ms": 344159,
+          "text": "Arctic they lived here for thousands of years and trust me it's not easy living here when you walk in snow for one day it reflects too much sunlight into your"
+        },
+        {
+          "id": "S97",
+          "cue_ids": [
+            97,
+            98,
+            99,
+            100
+          ],
+          "start_ms": 344159,
+          "end_ms": 359419,
+          "text": "one day on the snow you get snow blindness that's why we need to cover our eyes so the Inuit were the first people in the world to invent sunglasses"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106
+          ],
+          "start_ms": 363419,
+          "end_ms": 376080,
+          "text": "they're invented by the Inuit which is your people in Alaska and Northern Canada and Greenland and they're designed for snow and these limit the"
+        },
+        {
+          "id": "S109",
+          "cue_ids": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "start_ms": 376919,
+          "end_ms": 395759,
+          "text": "it's simple but it's so so so useful the harsh environment also affected their body over time their body created a skin layer around their eyes to protect them"
+        },
+        {
+          "id": "S115",
+          "cue_ids": [
+            115,
+            116,
+            117,
+            118
+          ],
+          "start_ms": 397740,
+          "end_ms": 408199,
+          "text": "no you're not Asian I'm not Asian so how do you look Asian probably because of our ancestors are Asian"
+        },
+        {
+          "id": "S121",
+          "cue_ids": [
+            121,
+            122,
+            123,
+            124
+          ],
+          "start_ms": 413039,
+          "end_ms": 430979,
+          "text": "today live in towns like this one a few hundred houses next to each other each house with a unique color this is a yellow house and yellow means Hospital"
+        },
+        {
+          "id": "S127",
+          "cue_ids": [
+            127,
+            128,
+            129,
+            130
+          ],
+          "start_ms": 433139,
+          "end_ms": 444780,
+          "text": "factories green means the telecommunication but why does every house have a color the houses are colored so you would know where to go"
+        },
+        {
+          "id": "S134",
+          "cue_ids": [
+            134,
+            135,
+            136,
+            137
+          ],
+          "start_ms": 450599,
+          "end_ms": 463699,
+          "text": "because there's only 57 000 of them we have so few here that our phone numbers are only six digits the taxi number is three two one three two one and my phone"
+        },
+        {
+          "id": "S139",
+          "cue_ids": [
+            139,
+            140,
+            141,
+            142
+          ],
+          "start_ms": 463699,
+          "end_ms": 479220,
+          "text": "that's it that's it but the best thing about Greenland is the community it's only you and 57 000 people they will take care of you they will show you"
+        },
+        {
+          "id": "S145",
+          "cue_ids": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "start_ms": 482160,
+          "end_ms": 497880,
+          "text": "Greenland is so remote and so empty humans rely on each other more we greenlanders love to help each other because this is the reason why we have"
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151,
+            152,
+            153,
+            154
+          ],
+          "start_ms": 500280,
+          "end_ms": 517020,
+          "text": "anywhere else I came to this country wanting to be with nature and dogs and icebergs but after meeting so many locals so many new"
+        },
+        {
+          "id": "S156",
+          "cue_ids": [
+            156,
+            157,
+            158,
+            159
+          ],
+          "start_ms": 517020,
+          "end_ms": 537320,
+          "text": "fell in love with Greenland it is way more than just an empty country it is a Place full of life and Beauty And even if you're single or not single we all"
+        }
+      ],
+      "text": "S3 [00:00:08.460 --> 00:00:25.800] honestly I wanted time alone I wanted to escape from humans from big cities from people all of them so I looked at the world map and found a country that\nS8 [00:00:25.800 --> 00:00:48.079] around us nothing nothing in fact the country is 99.9 empty it is the emptiest country in the world and I decided to see it this\nS13 [00:00:52.460 --> 00:01:18.180] when I landed in Greenland uh betrayed somebody lied to me about the country name Greenland does not mean it's all green in fact 90 of Greenland is white it is covered by a giant ice sheet that is whiter than Snow White\nS21 [00:01:19.979 --> 00:01:37.400] where you can see the ice sheet where there is a road we are so lucky to be here and we're gonna go actually walk on the ice sheet very soon\nS26 [00:01:37.400 --> 00:01:53.759] so you can walk here all the way to East Greenland all the way to an offering land on this one huge ice thousands of kilometers of ice Greenland is actually\nS31 [00:01:53.759 --> 00:02:08.818] guess what it has zero trees zero no trees grow naturally in the entire country because of the harsh weather and most of the trees you see\nS37 [00:02:11.099 --> 00:02:27.720] magical magical they have huge icebergs that break into the ocean every summer all of this broke from the ice sheets\nS45 [00:02:46.560 --> 00:03:04.800] Greenland and enter the ocean every single day you can see them up close and even paddle around them if we fall we will face the death they have huge\nS50 [00:03:04.800 --> 00:03:19.440] close to it and drink Iceberg water directly it tastes amazing it's really cold or you can helicopter around to go from\nS56 [00:03:23.040 --> 00:03:38.879] cold taking videos that's the point of life Greenland has no highways and no trains instead it has dogs we are now\nS61 [00:03:38.879 --> 00:03:58.560] to go dog sledding with 19 dogs 19 dogs dogs letting this is the greenlandic sled dog it is the only dog allowed in Northern Greenland because it\nS67 [00:04:00.360 --> 00:04:10.340] leader no no no she does like me I'll give your brother\nS72 [00:04:18.660 --> 00:04:32.820] day oh my God what is happening\nS77 [00:04:36.840 --> 00:04:49.919] icebergs but then I missed people and I wanted to know who the hell lives in Greenland\nS86 [00:05:08.400 --> 00:05:22.220] part of the Kingdom of Denmark but they also have a prime minister this is him I'm the prime minister of Greenland and everyone is welcome here in our country\nS92 [00:05:25.440 --> 00:05:44.159] Arctic they lived here for thousands of years and trust me it's not easy living here when you walk in snow for one day it reflects too much sunlight into your\nS97 [00:05:44.159 --> 00:05:59.419] one day on the snow you get snow blindness that's why we need to cover our eyes so the Inuit were the first people in the world to invent sunglasses\nS103 [00:06:03.419 --> 00:06:16.080] they're invented by the Inuit which is your people in Alaska and Northern Canada and Greenland and they're designed for snow and these limit the\nS109 [00:06:16.919 --> 00:06:35.759] it's simple but it's so so so useful the harsh environment also affected their body over time their body created a skin layer around their eyes to protect them\nS115 [00:06:37.740 --> 00:06:48.199] no you're not Asian I'm not Asian so how do you look Asian probably because of our ancestors are Asian\nS121 [00:06:53.039 --> 00:07:10.979] today live in towns like this one a few hundred houses next to each other each house with a unique color this is a yellow house and yellow means Hospital\nS127 [00:07:13.139 --> 00:07:24.780] factories green means the telecommunication but why does every house have a color the houses are colored so you would know where to go\nS134 [00:07:30.599 --> 00:07:43.699] because there's only 57 000 of them we have so few here that our phone numbers are only six digits the taxi number is three two one three two one and my phone\nS139 [00:07:43.699 --> 00:07:59.220] that's it that's it but the best thing about Greenland is the community it's only you and 57 000 people they will take care of you they will show you\nS145 [00:08:02.160 --> 00:08:17.880] Greenland is so remote and so empty humans rely on each other more we greenlanders love to help each other because this is the reason why we have\nS151 [00:08:20.280 --> 00:08:37.020] anywhere else I came to this country wanting to be with nature and dogs and icebergs but after meeting so many locals so many new\nS156 [00:08:37.020 --> 00:08:57.320] fell in love with Greenland it is way more than just an empty country it is a Place full of life and Beauty And even if you're single or not single we all",
+      "text_tokens": 1643,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        3,
+        6,
+        8,
+        11,
+        14,
+        15,
+        18,
+        21,
+        24,
+        26,
+        29,
+        31,
+        34,
+        37,
+        40,
+        45,
+        48,
+        50,
+        53,
+        56,
+        59,
+        61,
+        64,
+        67,
+        69,
+        72,
+        74,
+        77,
+        79,
+        86,
+        89,
+        92,
+        95,
+        97,
+        100,
+        103,
+        106,
+        109,
+        112,
+        115,
+        118,
+        121,
+        124,
+        127,
+        130,
+        134,
+        137,
+        139,
+        142,
+        145,
+        148,
+        151,
+        154,
+        156,
+        159
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "ded2bbb36e365e3383825b0406bea2689f76b04b6eac3bd17543786e31973d29"
+}

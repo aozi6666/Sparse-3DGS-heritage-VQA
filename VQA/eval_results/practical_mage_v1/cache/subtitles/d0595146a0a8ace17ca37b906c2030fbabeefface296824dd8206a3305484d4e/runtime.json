@@ -1,0 +1,6 @@
+{
+  "torch": "2.11.0+cu128",
+  "transformers": "5.17.0",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "dtype": "torch.bfloat16"
+}

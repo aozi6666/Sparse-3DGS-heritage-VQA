@@ -1,0 +1,834 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "Ij-FYOrklFE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Ij-FYOrklFE.srt",
+        "status": "available",
+        "bytes": 3417,
+        "sha256": "2ee5966e955a960e019f96471e98ff6ecd0027574deb1cfccb25996e707b9342",
+        "cues": 32,
+        "nonempty_cues": 32
+      },
+      "frame_indices": [
+        0,
+        64,
+        129,
+        193,
+        257,
+        322,
+        386,
+        450,
+        515,
+        579,
+        644,
+        708,
+        772,
+        837,
+        901,
+        965,
+        1030,
+        1094,
+        1158,
+        1223,
+        1287,
+        1351,
+        1416,
+        1480,
+        1545,
+        1609,
+        1673,
+        1738,
+        1802,
+        1866,
+        1931,
+        1995
+      ],
+      "frame_seconds": [
+        0.0,
+        2.669333,
+        5.380375,
+        8.049708,
+        10.719042,
+        13.430083,
+        16.099417,
+        18.76875,
+        21.479792,
+        24.149125,
+        26.860167,
+        29.5295,
+        32.198833,
+        34.909875,
+        37.579208,
+        40.248542,
+        42.959583,
+        45.628917,
+        48.29825,
+        51.009292,
+        53.678625,
+        56.347958,
+        59.059,
+        61.728333,
+        64.439375,
+        67.10870800000001,
+        69.778042,
+        72.489083,
+        75.158417,
+        77.82775000000001,
+        80.538792,
+        83.208125
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [],
+        [],
+        [
+          23
+        ],
+        [
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 100,
+          "end_ms": 13320,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 9500,
+          "end_ms": 14759,
+          "text": "he's miles and he wasn't invited oh you"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 13320,
+          "end_ms": 17580,
+          "text": "weren't invited and you came anyway"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 14759,
+          "end_ms": 20640,
+          "text": "right then you guys must be in love with"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 17580,
+          "end_ms": 22380,
+          "text": "you okay no I'm not oh I'm very good at"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 20640,
+          "end_ms": 25019,
+          "text": "reading too who are you I'm glad you"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 22380,
+          "end_ms": 25880,
+          "text": "asked you guys I'm not a new guy my name"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 25019,
+          "end_ms": 29340,
+          "text": "is"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 25880,
+          "end_ms": 32040,
+          "text": "and for the past six months and even he"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 29340,
+          "end_ms": 33960,
+          "text": "got a watch yeah I think Spider-Man is"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 32040,
+          "end_ms": 35399,
+          "text": "so easy I wake up skip the workout"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 33960,
+          "end_ms": 37020,
+          "text": "because I'm naturally buff and I don't"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 35399,
+          "end_ms": 38880,
+          "text": "want to get too big you know do almost"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 37020,
+          "end_ms": 40860,
+          "text": "nothing with my amazing head you don't"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 38880,
+          "end_ms": 42719,
+          "text": "use any product at all just coconut oil"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 40860,
+          "end_ms": 44340,
+          "text": "prayers and genetics then I swing by"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 42719,
+          "end_ms": 46260,
+          "text": "school don't really have to try but I do"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 44340,
+          "end_ms": 48000,
+          "text": "anyway fight a few bad guys feed a few"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 46260,
+          "end_ms": 50100,
+          "text": "Street dogs quick break for a couple try"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 48000,
+          "end_ms": 50720,
+          "text": "with my my auntie I love chai tea what"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 50100,
+          "end_ms": 56169,
+          "text": "did you just"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 50720,
+          "end_ms": 56169,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 61460,
+          "end_ms": 67979,
+          "text": "she's an extremely classy teenager hey"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 64739,
+          "end_ms": 70140,
+          "text": "girl tonight I was thinking hello Police"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 67979,
+          "end_ms": 72420,
+          "text": "Inspector saying this is your daughter I"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 70140,
+          "end_ms": 75200,
+          "text": "do not know her and stop it off I live"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 72420,
+          "end_ms": 77220,
+          "text": "in the best possible Spider-Man City"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 75200,
+          "end_ms": 78240,
+          "text": "this is where the traffic is this is"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 77220,
+          "end_ms": 79439,
+          "text": "where the traffic is also where the"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 78240,
+          "end_ms": 80580,
+          "text": "traffic is the traffic here too and this"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 79439,
+          "end_ms": 82820,
+          "text": "is where the British stole all of our"
+        }
+      ],
+      "text": "[Music]\nhe's miles and he wasn't invited oh you\nweren't invited and you came anyway\nright then you guys must be in love with\nyou okay no I'm not oh I'm very good at\nreading too who are you I'm glad you\nasked you guys I'm not a new guy my name\nis\nand for the past six months and even he\ngot a watch yeah I think Spider-Man is\nso easy I wake up skip the workout\nbecause I'm naturally buff and I don't\nwant to get too big you know do almost\nnothing with my amazing head you don't\nuse any product at all just coconut oil\nprayers and genetics then I swing by\nschool don't really have to try but I do\nanyway fight a few bad guys feed a few\nStreet dogs quick break for a couple try\nwith my my auntie I love chai tea what\ndid you just\n[Music]\nshe's an extremely classy teenager hey\ngirl tonight I was thinking hello Police\nInspector saying this is your daughter I\ndo not know her and stop it off I live\nin the best possible Spider-Man City\nthis is where the traffic is this is\nwhere the traffic is also where the\ntraffic is the traffic here too and this\nis where the British stole all of our",
+      "text_tokens": 273,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "Ij-FYOrklFE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/Ij-FYOrklFE.srt",
+          "status": "available",
+          "bytes": 3417,
+          "sha256": "2ee5966e955a960e019f96471e98ff6ecd0027574deb1cfccb25996e707b9342",
+          "cues": 32,
+          "nonempty_cues": 32
+        },
+        "frame_indices": [
+          0,
+          64,
+          129,
+          193,
+          257,
+          322,
+          386,
+          450,
+          515,
+          579,
+          644,
+          708,
+          772,
+          837,
+          901,
+          965,
+          1030,
+          1094,
+          1158,
+          1223,
+          1287,
+          1351,
+          1416,
+          1480,
+          1545,
+          1609,
+          1673,
+          1738,
+          1802,
+          1866,
+          1931,
+          1995
+        ],
+        "frame_seconds": [
+          0.0,
+          2.669333,
+          5.380375,
+          8.049708,
+          10.719042,
+          13.430083,
+          16.099417,
+          18.76875,
+          21.479792,
+          24.149125,
+          26.860167,
+          29.5295,
+          32.198833,
+          34.909875,
+          37.579208,
+          40.248542,
+          42.959583,
+          45.628917,
+          48.29825,
+          51.009292,
+          53.678625,
+          56.347958,
+          59.059,
+          61.728333,
+          64.439375,
+          67.10870800000001,
+          69.778042,
+          72.489083,
+          75.158417,
+          77.82775000000001,
+          80.538792,
+          83.208125
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            21,
+            22
+          ],
+          [],
+          [],
+          [
+            23
+          ],
+          [
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            30,
+            31
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 100,
+            "end_ms": 13320,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 9500,
+            "end_ms": 14759,
+            "text": "he's miles and he wasn't invited oh you"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 13320,
+            "end_ms": 17580,
+            "text": "weren't invited and you came anyway"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 14759,
+            "end_ms": 20640,
+            "text": "right then you guys must be in love with"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 17580,
+            "end_ms": 22380,
+            "text": "you okay no I'm not oh I'm very good at"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 20640,
+            "end_ms": 25019,
+            "text": "reading too who are you I'm glad you"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 22380,
+            "end_ms": 25880,
+            "text": "asked you guys I'm not a new guy my name"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 25019,
+            "end_ms": 29340,
+            "text": "is"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 25880,
+            "end_ms": 32040,
+            "text": "and for the past six months and even he"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 29340,
+            "end_ms": 33960,
+            "text": "got a watch yeah I think Spider-Man is"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 32040,
+            "end_ms": 35399,
+            "text": "so easy I wake up skip the workout"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 33960,
+            "end_ms": 37020,
+            "text": "because I'm naturally buff and I don't"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 35399,
+            "end_ms": 38880,
+            "text": "want to get too big you know do almost"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 37020,
+            "end_ms": 40860,
+            "text": "nothing with my amazing head you don't"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 38880,
+            "end_ms": 42719,
+            "text": "use any product at all just coconut oil"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 40860,
+            "end_ms": 44340,
+            "text": "prayers and genetics then I swing by"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 42719,
+            "end_ms": 46260,
+            "text": "school don't really have to try but I do"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 44340,
+            "end_ms": 48000,
+            "text": "anyway fight a few bad guys feed a few"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 46260,
+            "end_ms": 50100,
+            "text": "Street dogs quick break for a couple try"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 48000,
+            "end_ms": 50720,
+            "text": "with my my auntie I love chai tea what"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 50100,
+            "end_ms": 56169,
+            "text": "did you just"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 50720,
+            "end_ms": 56169,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 61460,
+            "end_ms": 67979,
+            "text": "she's an extremely classy teenager hey"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 64739,
+            "end_ms": 70140,
+            "text": "girl tonight I was thinking hello Police"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 67979,
+            "end_ms": 72420,
+            "text": "Inspector saying this is your daughter I"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 70140,
+            "end_ms": 75200,
+            "text": "do not know her and stop it off I live"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 72420,
+            "end_ms": 77220,
+            "text": "in the best possible Spider-Man City"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 75200,
+            "end_ms": 78240,
+            "text": "this is where the traffic is this is"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 77220,
+            "end_ms": 79439,
+            "text": "where the traffic is also where the"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 78240,
+            "end_ms": 80580,
+            "text": "traffic is the traffic here too and this"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 79439,
+            "end_ms": 82820,
+            "text": "is where the British stole all of our"
+          }
+        ],
+        "text": "[Music]\nhe's miles and he wasn't invited oh you\nweren't invited and you came anyway\nright then you guys must be in love with\nyou okay no I'm not oh I'm very good at\nreading too who are you I'm glad you\nasked you guys I'm not a new guy my name\nis\nand for the past six months and even he\ngot a watch yeah I think Spider-Man is\nso easy I wake up skip the workout\nbecause I'm naturally buff and I don't\nwant to get too big you know do almost\nnothing with my amazing head you don't\nuse any product at all just coconut oil\nprayers and genetics then I swing by\nschool don't really have to try but I do\nanyway fight a few bad guys feed a few\nStreet dogs quick break for a couple try\nwith my my auntie I love chai tea what\ndid you just\n[Music]\nshe's an extremely classy teenager hey\ngirl tonight I was thinking hello Police\nInspector saying this is your daughter I\ndo not know her and stop it off I live\nin the best possible Spider-Man City\nthis is where the traffic is this is\nwhere the traffic is also where the\ntraffic is the traffic here too and this\nis where the British stole all of our",
+        "text_tokens": 273,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_ms": 100,
+          "end_ms": 56169,
+          "text": "[Music] he's miles and he wasn't invited oh you weren't invited and you came anyway right then you guys must be in love with you okay no I'm not oh I'm very good at reading too who are you I'm glad you asked you guys I'm not a new guy my name is and for the past six months and even he got a watch yeah I think Spider-Man is so easy I wake up skip the workout because I'm naturally buff and I don't want to get too big you know do almost nothing with my amazing head you don't use any product at all just coconut oil prayers and genetics then I swing by school don't really have to try but I do anyway fight a few bad guys feed a few Street dogs quick break for a couple try with my my auntie I love chai tea what did you just [Music]"
+        },
+        {
+          "id": "S23",
+          "cue_ids": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "start_ms": 61460,
+          "end_ms": 82820,
+          "text": "she's an extremely classy teenager hey girl tonight I was thinking hello Police Inspector saying this is your daughter I do not know her and stop it off I live in the best possible Spider-Man City this is where the traffic is this is where the traffic is also where the traffic is the traffic here too and this is where the British stole all of our stuff"
+        }
+      ],
+      "text": "S1 [00:00:00.100 --> 00:00:56.169] [Music] he's miles and he wasn't invited oh you weren't invited and you came anyway right then you guys must be in love with you okay no I'm not oh I'm very good at reading too who are you I'm glad you asked you guys I'm not a new guy my name is and for the past six months and even he got a watch yeah I think Spider-Man is so easy I wake up skip the workout because I'm naturally buff and I don't want to get too big you know do almost nothing with my amazing head you don't use any product at all just coconut oil prayers and genetics then I swing by school don't really have to try but I do anyway fight a few bad guys feed a few Street dogs quick break for a couple try with my my auntie I love chai tea what did you just [Music]\nS23 [00:01:01.460 --> 00:01:22.820] she's an extremely classy teenager hey girl tonight I was thinking hello Police Inspector saying this is your daughter I do not know her and stop it off I live in the best possible Spider-Man City this is where the traffic is this is where the traffic is also where the traffic is the traffic here too and this is where the British stole all of our stuff",
+      "text_tokens": 303,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        32
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "193456e7cf9fe807df19a251879408cbbde72c04ec15583cd0c4395ca53b5fa4"
+}

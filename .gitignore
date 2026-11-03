@@ -190,7 +190,10 @@ kitchen_ddgs*/
 # 3DGS/eval_results/ is tracked
 
 # Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
+<<<<<<< HEAD
 # 本地评测数据集（ORCBench 等），不进 Git
+=======
+>>>>>>> vlm
 VQA/datas/
 VQA/mage_vl/data/
 VQA/mage_vl/models/
@@ -201,3 +204,6 @@ VQA/VLMEvalKit/vlmeval_env/
 VQA/VLMEvalKit/ffmpeg_linux/
 VQA/**/outputs/**/*.pkl
 VQA/**/outputs/logs/
+
+# Local DeepSeek API credentials; keep example templates tracked
+/deepseek.env

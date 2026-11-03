@@ -1,0 +1,46 @@
+{
+  "version": "short219_review_v1",
+  "summary_sha256": "4ad58fef34c2cd72823210bf082dcf0cc49bb2245ea555fa3f12b0214ea3215b",
+  "journal_sha256": "8c7e5da86a088e683bc874e5e4338c730116c18ad2b23b6fbb06fd7382b68321",
+  "verified_units": 657,
+  "archive_verified": true,
+  "short_correct": {
+    "no_sub": 171,
+    "aligned": 173,
+    "continuous": 175
+  },
+  "vs_no_sub": {
+    "rescue": 8,
+    "harm": 4,
+    "net": 4,
+    "delta_pp": 1.82648401826484
+  },
+  "vs_aligned": {
+    "rescue": 3,
+    "harm": 1,
+    "net": 2,
+    "delta_pp": 0.91324200913242
+  },
+  "duration_results": {
+    "short": {
+      "N": 219,
+      "no_sub": 171,
+      "aligned": 173,
+      "continuous": 175
+    },
+    "medium": {
+      "N": 96,
+      "no_sub": 60,
+      "aligned": 67,
+      "continuous": 69
+    },
+    "long": {
+      "N": 84,
+      "no_sub": 50,
+      "aligned": 50,
+      "continuous": 50
+    }
+  },
+  "interpretation": "Small positive development/coverage result; both short confidence intervals cross zero; no significance or long-video gain.",
+  "next_recommendation": "Keep2048 frozen; evaluate unchanged continuous configuration on already-diagnosed val90 before Agent. val90 is not fresh independent test; preserve test225."
+}

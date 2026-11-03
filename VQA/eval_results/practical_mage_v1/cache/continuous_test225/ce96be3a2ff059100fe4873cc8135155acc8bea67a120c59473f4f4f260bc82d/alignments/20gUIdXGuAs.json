@@ -1,0 +1,1615 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "20gUIdXGuAs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/20gUIdXGuAs.srt",
+        "status": "available",
+        "bytes": 34896,
+        "sha256": "b5e000b24e241bc29e58164e71dd2f91dbef176636e264209d496667cf8958fb",
+        "cues": 315,
+        "nonempty_cues": 315
+      },
+      "frame_indices": [
+        0,
+        610,
+        1221,
+        1831,
+        2442,
+        3052,
+        3663,
+        4273,
+        4883,
+        5494,
+        6104,
+        6715,
+        7325,
+        7935,
+        8546,
+        9156,
+        9767,
+        10377,
+        10988,
+        11598,
+        12208,
+        12819,
+        13429,
+        14040,
+        14650,
+        15260,
+        15871,
+        16481,
+        17092,
+        17702,
+        18313,
+        18923
+      ],
+      "frame_seconds": [
+        0.0,
+        24.4,
+        48.84,
+        73.24,
+        97.68,
+        122.08,
+        146.52,
+        170.92000000000002,
+        195.32,
+        219.76,
+        244.16,
+        268.6,
+        293.0,
+        317.4,
+        341.84000000000003,
+        366.24,
+        390.68,
+        415.08,
+        439.52,
+        463.92,
+        488.32,
+        512.76,
+        537.16,
+        561.6,
+        586.0,
+        610.4,
+        634.84,
+        659.24,
+        683.68,
+        708.08,
+        732.52,
+        756.92
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          8,
+          9
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          58,
+          59
+        ],
+        [
+          70,
+          71
+        ],
+        [
+          80,
+          81
+        ],
+        [
+          89,
+          90
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          121,
+          122
+        ],
+        [
+          131,
+          132
+        ],
+        [
+          142,
+          143
+        ],
+        [
+          152,
+          153
+        ],
+        [
+          162,
+          163
+        ],
+        [
+          174,
+          175
+        ],
+        [
+          183,
+          184
+        ],
+        [
+          194,
+          195
+        ],
+        [
+          205,
+          206
+        ],
+        [
+          214,
+          215
+        ],
+        [
+          223,
+          224
+        ],
+        [
+          230,
+          231
+        ],
+        [
+          239,
+          240
+        ],
+        [
+          249,
+          250
+        ],
+        [
+          261,
+          262
+        ],
+        [
+          271,
+          272
+        ],
+        [
+          284,
+          285
+        ],
+        [
+          294,
+          295
+        ],
+        [
+          303,
+          304
+        ],
+        [
+          314,
+          315
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 8,
+          "start_ms": 18400,
+          "end_ms": 24640,
+          "text": "we begin New York Times who report"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 21039,
+          "end_ms": 26960,
+          "text": "Google has been fined $271 Million by"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 46160,
+          "end_ms": 50120,
+          "text": "group of researchers says there is an"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 48079,
+          "end_ms": 52359,
+          "text": "alternative after releasing what's"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 70880,
+          "end_ms": 76000,
+          "text": "having a real-time conversation with an"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 72840,
+          "end_ms": 77840,
+          "text": "AI Avatar who responds to human speech"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 93880,
+          "end_ms": 98840,
+          "text": "have the author of that article with us"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 96000,
+          "end_ms": 101079,
+          "text": "and she'll tell us a bit more and AFP"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 118360,
+          "end_ms": 124920,
+          "text": "when he experimented with AI to see if"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 120439,
+          "end_ms": 128440,
+          "text": "it could create lyrics accurately in his"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 140720,
+          "end_ms": 146560,
+          "text": "start with the New York Times France"
+        },
+        {
+          "cue_id": 59,
+          "start_ms": 142680,
+          "end_ms": 148920,
+          "text": "finds Google amid AI dispute with news"
+        },
+        {
+          "cue_id": 70,
+          "start_ms": 168840,
+          "end_ms": 174120,
+          "text": "um they've said that they've failed to"
+        },
+        {
+          "cue_id": 71,
+          "start_ms": 170560,
+          "end_ms": 176040,
+          "text": "negotiate Fair deals um and have used"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 192360,
+          "end_ms": 199760,
+          "text": "software isn't that something that we're"
+        },
+        {
+          "cue_id": 81,
+          "start_ms": 195080,
+          "end_ms": 202159,
+          "text": "kind of all the big AI kind of companies"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 216599,
+          "end_ms": 221319,
+          "text": "played around with that too is a large"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 218959,
+          "end_ms": 223760,
+          "text": "language model trained on a huge Corpus"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 238760,
+          "end_ms": 244760,
+          "text": "because they are now clay this is uh"
+        },
+        {
+          "cue_id": 100,
+          "start_ms": 241239,
+          "end_ms": 248840,
+          "text": "wired here's proof you can train an AI"
+        },
+        {
+          "cue_id": 110,
+          "start_ms": 265680,
+          "end_ms": 270400,
+          "text": "language models if we want chatbots we"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 268400,
+          "end_ms": 273080,
+          "text": "need to use the the words on the"
+        },
+        {
+          "cue_id": 121,
+          "start_ms": 290199,
+          "end_ms": 293440,
+          "text": "example so if you're trying to build a"
+        },
+        {
+          "cue_id": 122,
+          "start_ms": 291560,
+          "end_ms": 295720,
+          "text": "language model specifically to help with"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 312880,
+          "end_ms": 318160,
+          "text": "because it says in here that yeah the"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 314759,
+          "end_ms": 320639,
+          "text": "data set is Tiny compared to what lots"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 338360,
+          "end_ms": 342199,
+          "text": "noise in that data right there's there's"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 340120,
+          "end_ms": 344039,
+          "text": "a lot of rubbish on the internet as as"
+        },
+        {
+          "cue_id": 152,
+          "start_ms": 361360,
+          "end_ms": 366360,
+          "text": "because it's hugely important there are"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 364600,
+          "end_ms": 368440,
+          "text": "as we've been witnessing over the last"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 387240,
+          "end_ms": 391199,
+          "text": "that it will be unanimous and the the"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 389000,
+          "end_ms": 393159,
+          "text": "goal really is to bridge inequities"
+        },
+        {
+          "cue_id": 174,
+          "start_ms": 411800,
+          "end_ms": 417159,
+          "text": "up these these quotes from AP here and"
+        },
+        {
+          "cue_id": 175,
+          "start_ms": 414639,
+          "end_ms": 420440,
+          "text": "they're saying they want to make it safe"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 434840,
+          "end_ms": 439919,
+          "text": "countries and therefore the populations"
+        },
+        {
+          "cue_id": 184,
+          "start_ms": 437240,
+          "end_ms": 443240,
+          "text": "and people of those uh countries"
+        },
+        {
+          "cue_id": 194,
+          "start_ms": 460759,
+          "end_ms": 465479,
+          "text": "inequities in health care education and"
+        },
+        {
+          "cue_id": 195,
+          "start_ms": 462960,
+          "end_ms": 467520,
+          "text": "so on but these are big problems and I'm"
+        },
+        {
+          "cue_id": 205,
+          "start_ms": 485720,
+          "end_ms": 490199,
+          "text": "because we're going to take uh a moment"
+        },
+        {
+          "cue_id": 206,
+          "start_ms": 487840,
+          "end_ms": 493199,
+          "text": "to watch this example of a real-time"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 508759,
+          "end_ms": 515760,
+          "text": "decision-making let's take a"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 511080,
+          "end_ms": 515760,
+          "text": "look tell me one word why I should"
+        },
+        {
+          "cue_id": 223,
+          "start_ms": 533440,
+          "end_ms": 540720,
+          "text": "me there will be tough"
+        },
+        {
+          "cue_id": 224,
+          "start_ms": 535800,
+          "end_ms": 543040,
+          "text": "times but together we can overcome them"
+        },
+        {
+          "cue_id": 230,
+          "start_ms": 555959,
+          "end_ms": 562160,
+          "text": "create a better world for our loved ones"
+        },
+        {
+          "cue_id": 231,
+          "start_ms": 559160,
+          "end_ms": 564399,
+          "text": "we can't continue living in fear and"
+        },
+        {
+          "cue_id": 239,
+          "start_ms": 583279,
+          "end_ms": 588839,
+          "text": "many my son my friends my"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 586000,
+          "end_ms": 591000,
+          "text": "home but every loss only fuels my"
+        },
+        {
+          "cue_id": 249,
+          "start_ms": 607560,
+          "end_ms": 612320,
+          "text": "unique about it is it's not scripted so"
+        },
+        {
+          "cue_id": 250,
+          "start_ms": 609920,
+          "end_ms": 614160,
+          "text": "it's just responding to you in real time"
+        },
+        {
+          "cue_id": 261,
+          "start_ms": 632200,
+          "end_ms": 636800,
+          "text": "moment it's still deeply impressive"
+        },
+        {
+          "cue_id": 262,
+          "start_ms": 634519,
+          "end_ms": 640240,
+          "text": "right let's move on to your story ft the"
+        },
+        {
+          "cue_id": 271,
+          "start_ms": 655120,
+          "end_ms": 659600,
+          "text": "Uber Eats driver in this story found"
+        },
+        {
+          "cue_id": 272,
+          "start_ms": 657120,
+          "end_ms": 661279,
+          "text": "that he was being underpaid consistently"
+        },
+        {
+          "cue_id": 284,
+          "start_ms": 680880,
+          "end_ms": 685040,
+          "text": "paid he then made this free for other"
+        },
+        {
+          "cue_id": 285,
+          "start_ms": 683079,
+          "end_ms": 687200,
+          "text": "rubber drivers to use and they've all"
+        },
+        {
+          "cue_id": 294,
+          "start_ms": 703200,
+          "end_ms": 709800,
+          "text": "threat to unoriginal writers and also we"
+        },
+        {
+          "cue_id": 295,
+          "start_ms": 707040,
+          "end_ms": 712680,
+          "text": "can look at at the same time James Blunt"
+        },
+        {
+          "cue_id": 303,
+          "start_ms": 727920,
+          "end_ms": 732959,
+          "text": "can we be replaced by Ai and so far the"
+        },
+        {
+          "cue_id": 304,
+          "start_ms": 730920,
+          "end_ms": 735240,
+          "text": "answer seems to be no it's it's pretty"
+        },
+        {
+          "cue_id": 314,
+          "start_ms": 751800,
+          "end_ms": 758959,
+          "text": "through the brilliant stuff that's it"
+        },
+        {
+          "cue_id": 315,
+          "start_ms": 754040,
+          "end_ms": 758959,
+          "text": "we'll do this again same time next week"
+        }
+      ],
+      "text": "we begin New York Times who report\nGoogle has been fined $271 Million by\ngroup of researchers says there is an\nalternative after releasing what's\nhaving a real-time conversation with an\nAI Avatar who responds to human speech\nhave the author of that article with us\nand she'll tell us a bit more and AFP\nwhen he experimented with AI to see if\nit could create lyrics accurately in his\nstart with the New York Times France\nfinds Google amid AI dispute with news\num they've said that they've failed to\nnegotiate Fair deals um and have used\nsoftware isn't that something that we're\nkind of all the big AI kind of companies\nplayed around with that too is a large\nlanguage model trained on a huge Corpus\nbecause they are now clay this is uh\nwired here's proof you can train an AI\nlanguage models if we want chatbots we\nneed to use the the words on the\nexample so if you're trying to build a\nlanguage model specifically to help with\nbecause it says in here that yeah the\ndata set is Tiny compared to what lots\nnoise in that data right there's there's\na lot of rubbish on the internet as as\nbecause it's hugely important there are\nas we've been witnessing over the last\nthat it will be unanimous and the the\ngoal really is to bridge inequities\nup these these quotes from AP here and\nthey're saying they want to make it safe\ncountries and therefore the populations\nand people of those uh countries\ninequities in health care education and\nso on but these are big problems and I'm\nbecause we're going to take uh a moment\nto watch this example of a real-time\ndecision-making let's take a\nlook tell me one word why I should\nme there will be tough\ntimes but together we can overcome them\ncreate a better world for our loved ones\nwe can't continue living in fear and\nmany my son my friends my\nhome but every loss only fuels my\nunique about it is it's not scripted so\nit's just responding to you in real time\nmoment it's still deeply impressive\nright let's move on to your story ft the\nUber Eats driver in this story found\nthat he was being underpaid consistently\npaid he then made this free for other\nrubber drivers to use and they've all\nthreat to unoriginal writers and also we\ncan look at at the same time James Blunt\ncan we be replaced by Ai and so far the\nanswer seems to be no it's it's pretty\nthrough the brilliant stuff that's it\nwe'll do this again same time next week",
+      "text_tokens": 554,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "20gUIdXGuAs",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/20gUIdXGuAs.srt",
+          "status": "available",
+          "bytes": 34896,
+          "sha256": "b5e000b24e241bc29e58164e71dd2f91dbef176636e264209d496667cf8958fb",
+          "cues": 315,
+          "nonempty_cues": 315
+        },
+        "frame_indices": [
+          0,
+          610,
+          1221,
+          1831,
+          2442,
+          3052,
+          3663,
+          4273,
+          4883,
+          5494,
+          6104,
+          6715,
+          7325,
+          7935,
+          8546,
+          9156,
+          9767,
+          10377,
+          10988,
+          11598,
+          12208,
+          12819,
+          13429,
+          14040,
+          14650,
+          15260,
+          15871,
+          16481,
+          17092,
+          17702,
+          18313,
+          18923
+        ],
+        "frame_seconds": [
+          0.0,
+          24.4,
+          48.84,
+          73.24,
+          97.68,
+          122.08,
+          146.52,
+          170.92000000000002,
+          195.32,
+          219.76,
+          244.16,
+          268.6,
+          293.0,
+          317.4,
+          341.84000000000003,
+          366.24,
+          390.68,
+          415.08,
+          439.52,
+          463.92,
+          488.32,
+          512.76,
+          537.16,
+          561.6,
+          586.0,
+          610.4,
+          634.84,
+          659.24,
+          683.68,
+          708.08,
+          732.52,
+          756.92
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            8,
+            9
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            49,
+            50
+          ],
+          [
+            58,
+            59
+          ],
+          [
+            70,
+            71
+          ],
+          [
+            80,
+            81
+          ],
+          [
+            89,
+            90
+          ],
+          [
+            99,
+            100
+          ],
+          [
+            110,
+            111
+          ],
+          [
+            121,
+            122
+          ],
+          [
+            131,
+            132
+          ],
+          [
+            142,
+            143
+          ],
+          [
+            152,
+            153
+          ],
+          [
+            162,
+            163
+          ],
+          [
+            174,
+            175
+          ],
+          [
+            183,
+            184
+          ],
+          [
+            194,
+            195
+          ],
+          [
+            205,
+            206
+          ],
+          [
+            214,
+            215
+          ],
+          [
+            223,
+            224
+          ],
+          [
+            230,
+            231
+          ],
+          [
+            239,
+            240
+          ],
+          [
+            249,
+            250
+          ],
+          [
+            261,
+            262
+          ],
+          [
+            271,
+            272
+          ],
+          [
+            284,
+            285
+          ],
+          [
+            294,
+            295
+          ],
+          [
+            303,
+            304
+          ],
+          [
+            314,
+            315
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 8,
+            "start_ms": 18400,
+            "end_ms": 24640,
+            "text": "we begin New York Times who report"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 21039,
+            "end_ms": 26960,
+            "text": "Google has been fined $271 Million by"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 46160,
+            "end_ms": 50120,
+            "text": "group of researchers says there is an"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 48079,
+            "end_ms": 52359,
+            "text": "alternative after releasing what's"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 70880,
+            "end_ms": 76000,
+            "text": "having a real-time conversation with an"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 72840,
+            "end_ms": 77840,
+            "text": "AI Avatar who responds to human speech"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 93880,
+            "end_ms": 98840,
+            "text": "have the author of that article with us"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 96000,
+            "end_ms": 101079,
+            "text": "and she'll tell us a bit more and AFP"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 118360,
+            "end_ms": 124920,
+            "text": "when he experimented with AI to see if"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 120439,
+            "end_ms": 128440,
+            "text": "it could create lyrics accurately in his"
+          },
+          {
+            "cue_id": 58,
+            "start_ms": 140720,
+            "end_ms": 146560,
+            "text": "start with the New York Times France"
+          },
+          {
+            "cue_id": 59,
+            "start_ms": 142680,
+            "end_ms": 148920,
+            "text": "finds Google amid AI dispute with news"
+          },
+          {
+            "cue_id": 70,
+            "start_ms": 168840,
+            "end_ms": 174120,
+            "text": "um they've said that they've failed to"
+          },
+          {
+            "cue_id": 71,
+            "start_ms": 170560,
+            "end_ms": 176040,
+            "text": "negotiate Fair deals um and have used"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 192360,
+            "end_ms": 199760,
+            "text": "software isn't that something that we're"
+          },
+          {
+            "cue_id": 81,
+            "start_ms": 195080,
+            "end_ms": 202159,
+            "text": "kind of all the big AI kind of companies"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 216599,
+            "end_ms": 221319,
+            "text": "played around with that too is a large"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 218959,
+            "end_ms": 223760,
+            "text": "language model trained on a huge Corpus"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 238760,
+            "end_ms": 244760,
+            "text": "because they are now clay this is uh"
+          },
+          {
+            "cue_id": 100,
+            "start_ms": 241239,
+            "end_ms": 248840,
+            "text": "wired here's proof you can train an AI"
+          },
+          {
+            "cue_id": 110,
+            "start_ms": 265680,
+            "end_ms": 270400,
+            "text": "language models if we want chatbots we"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 268400,
+            "end_ms": 273080,
+            "text": "need to use the the words on the"
+          },
+          {
+            "cue_id": 121,
+            "start_ms": 290199,
+            "end_ms": 293440,
+            "text": "example so if you're trying to build a"
+          },
+          {
+            "cue_id": 122,
+            "start_ms": 291560,
+            "end_ms": 295720,
+            "text": "language model specifically to help with"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 312880,
+            "end_ms": 318160,
+            "text": "because it says in here that yeah the"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 314759,
+            "end_ms": 320639,
+            "text": "data set is Tiny compared to what lots"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 338360,
+            "end_ms": 342199,
+            "text": "noise in that data right there's there's"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 340120,
+            "end_ms": 344039,
+            "text": "a lot of rubbish on the internet as as"
+          },
+          {
+            "cue_id": 152,
+            "start_ms": 361360,
+            "end_ms": 366360,
+            "text": "because it's hugely important there are"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 364600,
+            "end_ms": 368440,
+            "text": "as we've been witnessing over the last"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 387240,
+            "end_ms": 391199,
+            "text": "that it will be unanimous and the the"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 389000,
+            "end_ms": 393159,
+            "text": "goal really is to bridge inequities"
+          },
+          {
+            "cue_id": 174,
+            "start_ms": 411800,
+            "end_ms": 417159,
+            "text": "up these these quotes from AP here and"
+          },
+          {
+            "cue_id": 175,
+            "start_ms": 414639,
+            "end_ms": 420440,
+            "text": "they're saying they want to make it safe"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 434840,
+            "end_ms": 439919,
+            "text": "countries and therefore the populations"
+          },
+          {
+            "cue_id": 184,
+            "start_ms": 437240,
+            "end_ms": 443240,
+            "text": "and people of those uh countries"
+          },
+          {
+            "cue_id": 194,
+            "start_ms": 460759,
+            "end_ms": 465479,
+            "text": "inequities in health care education and"
+          },
+          {
+            "cue_id": 195,
+            "start_ms": 462960,
+            "end_ms": 467520,
+            "text": "so on but these are big problems and I'm"
+          },
+          {
+            "cue_id": 205,
+            "start_ms": 485720,
+            "end_ms": 490199,
+            "text": "because we're going to take uh a moment"
+          },
+          {
+            "cue_id": 206,
+            "start_ms": 487840,
+            "end_ms": 493199,
+            "text": "to watch this example of a real-time"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 508759,
+            "end_ms": 515760,
+            "text": "decision-making let's take a"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 511080,
+            "end_ms": 515760,
+            "text": "look tell me one word why I should"
+          },
+          {
+            "cue_id": 223,
+            "start_ms": 533440,
+            "end_ms": 540720,
+            "text": "me there will be tough"
+          },
+          {
+            "cue_id": 224,
+            "start_ms": 535800,
+            "end_ms": 543040,
+            "text": "times but together we can overcome them"
+          },
+          {
+            "cue_id": 230,
+            "start_ms": 555959,
+            "end_ms": 562160,
+            "text": "create a better world for our loved ones"
+          },
+          {
+            "cue_id": 231,
+            "start_ms": 559160,
+            "end_ms": 564399,
+            "text": "we can't continue living in fear and"
+          },
+          {
+            "cue_id": 239,
+            "start_ms": 583279,
+            "end_ms": 588839,
+            "text": "many my son my friends my"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 586000,
+            "end_ms": 591000,
+            "text": "home but every loss only fuels my"
+          },
+          {
+            "cue_id": 249,
+            "start_ms": 607560,
+            "end_ms": 612320,
+            "text": "unique about it is it's not scripted so"
+          },
+          {
+            "cue_id": 250,
+            "start_ms": 609920,
+            "end_ms": 614160,
+            "text": "it's just responding to you in real time"
+          },
+          {
+            "cue_id": 261,
+            "start_ms": 632200,
+            "end_ms": 636800,
+            "text": "moment it's still deeply impressive"
+          },
+          {
+            "cue_id": 262,
+            "start_ms": 634519,
+            "end_ms": 640240,
+            "text": "right let's move on to your story ft the"
+          },
+          {
+            "cue_id": 271,
+            "start_ms": 655120,
+            "end_ms": 659600,
+            "text": "Uber Eats driver in this story found"
+          },
+          {
+            "cue_id": 272,
+            "start_ms": 657120,
+            "end_ms": 661279,
+            "text": "that he was being underpaid consistently"
+          },
+          {
+            "cue_id": 284,
+            "start_ms": 680880,
+            "end_ms": 685040,
+            "text": "paid he then made this free for other"
+          },
+          {
+            "cue_id": 285,
+            "start_ms": 683079,
+            "end_ms": 687200,
+            "text": "rubber drivers to use and they've all"
+          },
+          {
+            "cue_id": 294,
+            "start_ms": 703200,
+            "end_ms": 709800,
+            "text": "threat to unoriginal writers and also we"
+          },
+          {
+            "cue_id": 295,
+            "start_ms": 707040,
+            "end_ms": 712680,
+            "text": "can look at at the same time James Blunt"
+          },
+          {
+            "cue_id": 303,
+            "start_ms": 727920,
+            "end_ms": 732959,
+            "text": "can we be replaced by Ai and so far the"
+          },
+          {
+            "cue_id": 304,
+            "start_ms": 730920,
+            "end_ms": 735240,
+            "text": "answer seems to be no it's it's pretty"
+          },
+          {
+            "cue_id": 314,
+            "start_ms": 751800,
+            "end_ms": 758959,
+            "text": "through the brilliant stuff that's it"
+          },
+          {
+            "cue_id": 315,
+            "start_ms": 754040,
+            "end_ms": 758959,
+            "text": "we'll do this again same time next week"
+          }
+        ],
+        "text": "we begin New York Times who report\nGoogle has been fined $271 Million by\ngroup of researchers says there is an\nalternative after releasing what's\nhaving a real-time conversation with an\nAI Avatar who responds to human speech\nhave the author of that article with us\nand she'll tell us a bit more and AFP\nwhen he experimented with AI to see if\nit could create lyrics accurately in his\nstart with the New York Times France\nfinds Google amid AI dispute with news\num they've said that they've failed to\nnegotiate Fair deals um and have used\nsoftware isn't that something that we're\nkind of all the big AI kind of companies\nplayed around with that too is a large\nlanguage model trained on a huge Corpus\nbecause they are now clay this is uh\nwired here's proof you can train an AI\nlanguage models if we want chatbots we\nneed to use the the words on the\nexample so if you're trying to build a\nlanguage model specifically to help with\nbecause it says in here that yeah the\ndata set is Tiny compared to what lots\nnoise in that data right there's there's\na lot of rubbish on the internet as as\nbecause it's hugely important there are\nas we've been witnessing over the last\nthat it will be unanimous and the the\ngoal really is to bridge inequities\nup these these quotes from AP here and\nthey're saying they want to make it safe\ncountries and therefore the populations\nand people of those uh countries\ninequities in health care education and\nso on but these are big problems and I'm\nbecause we're going to take uh a moment\nto watch this example of a real-time\ndecision-making let's take a\nlook tell me one word why I should\nme there will be tough\ntimes but together we can overcome them\ncreate a better world for our loved ones\nwe can't continue living in fear and\nmany my son my friends my\nhome but every loss only fuels my\nunique about it is it's not scripted so\nit's just responding to you in real time\nmoment it's still deeply impressive\nright let's move on to your story ft the\nUber Eats driver in this story found\nthat he was being underpaid consistently\npaid he then made this free for other\nrubber drivers to use and they've all\nthreat to unoriginal writers and also we\ncan look at at the same time James Blunt\ncan we be replaced by Ai and so far the\nanswer seems to be no it's it's pretty\nthrough the brilliant stuff that's it\nwe'll do this again same time next week",
+        "text_tokens": 554,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 15360,
+          "end_ms": 29000,
+          "text": "the world of artificial intelligence and we begin New York Times who report Google has been fined $271 Million by France's competition Watchdog for"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 43239,
+          "end_ms": 54640,
+          "text": "without using uh copyrighted materials a group of researchers says there is an alternative after releasing what's thought to be the largest AI training"
+        },
+        {
+          "id": "S28",
+          "cue_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "start_ms": 68960,
+          "end_ms": 79960,
+          "text": "has a video of one of their journalists having a real-time conversation with an AI Avatar who responds to human speech currently it's an experimental program"
+        },
+        {
+          "id": "S38",
+          "cue_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_ms": 91158,
+          "end_ms": 103399,
+          "text": "to rewrite the code to fix the issues we have the author of that article with us and she'll tell us a bit more and AFP news features novelist salmon rushy who"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "start_ms": 115920,
+          "end_ms": 130560,
+          "text": "humiliated at how bad the results were when he experimented with AI to see if it could create lyrics accurately in his style well with me here is mad murgia"
+        },
+        {
+          "id": "S57",
+          "cue_ids": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "start_ms": 138560,
+          "end_ms": 150640,
+          "text": "say that every week now let's uh let's start with the New York Times France finds Google amid AI dispute with news media so this is a kind of broad issue"
+        },
+        {
+          "id": "S69",
+          "cue_ids": [
+            69,
+            70,
+            71,
+            72
+          ],
+          "start_ms": 165640,
+          "end_ms": 178000,
+          "text": "articles and so on this particular fine um they've said that they've failed to negotiate Fair deals um and have used data from newspapers to train their"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80,
+            81,
+            82
+          ],
+          "start_ms": 189519,
+          "end_ms": 204560,
+          "text": "content for their software isn't that something that we're kind of all the big AI kind of companies all in the same boat here is everything"
+        },
+        {
+          "id": "S88",
+          "cue_ids": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "start_ms": 214439,
+          "end_ms": 226400,
+          "text": "Powers chat GPT which people might have played around with that too is a large language model trained on a huge Corpus of data found online New York Times"
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "start_ms": 236840,
+          "end_ms": 251480,
+          "text": "going to stick with exactly this theme because they are now clay this is uh wired here's proof you can train an AI model without slurping copyrighted"
+        },
+        {
+          "id": "S109",
+          "cue_ids": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "start_ms": 263840,
+          "end_ms": 275320,
+          "text": "models if we want really powerful language models if we want chatbots we need to use the the words on the internet we need this data um but the"
+        },
+        {
+          "id": "S120",
+          "cue_ids": [
+            120,
+            121,
+            122,
+            123
+          ],
+          "start_ms": 288520,
+          "end_ms": 297199,
+          "text": "give here is for for a law firm for example so if you're trying to build a language model specifically to help with lawyers and the work that they do and"
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "start_ms": 309720,
+          "end_ms": 322960,
+          "text": "narrow use cases or narrower use cases because it says in here that yeah the data set is Tiny compared to what lots of the other language models were kind"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143,
+            144
+          ],
+          "start_ms": 336440,
+          "end_ms": 346759,
+          "text": "reviews um but there's also a lot of noise in that data right there's there's a lot of rubbish on the internet as as everyone can attest to so it's not"
+        },
+        {
+          "id": "S151",
+          "cue_ids": [
+            151,
+            152,
+            153,
+            154
+          ],
+          "start_ms": 358520,
+          "end_ms": 371960,
+          "text": "a bit of high level regulation now because it's hugely important there are as we've been witnessing over the last kind of six months especially these big"
+        },
+        {
+          "id": "S161",
+          "cue_ids": [
+            161,
+            162,
+            163,
+            164
+          ],
+          "start_ms": 385160,
+          "end_ms": 395759,
+          "text": "intelligence um the goal they're hoping that it will be unanimous and the the goal really is to bridge inequities between um you know the developed"
+        },
+        {
+          "id": "S173",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176
+          ],
+          "start_ms": 410159,
+          "end_ms": 422240,
+          "text": "interesting yeah because we're picking up these these quotes from AP here and they're saying they want to make it safe secure trustworthy of those broad"
+        },
+        {
+          "id": "S182",
+          "cue_ids": [
+            182,
+            183,
+            184,
+            185
+          ],
+          "start_ms": 431479,
+          "end_ms": 446560,
+          "text": "just having a few companies in a few countries and therefore the populations and people of those uh countries benefiting but making sure it's across"
+        },
+        {
+          "id": "S193",
+          "cue_ids": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "start_ms": 459240,
+          "end_ms": 470000,
+          "text": "this can address questions you know inequities in health care education and so on but these are big problems and I'm not sure AI is the Magic Bullet to all"
+        },
+        {
+          "id": "S204",
+          "cue_ids": [
+            204,
+            205,
+            206,
+            207
+          ],
+          "start_ms": 484000,
+          "end_ms": 495479,
+          "text": "it we're going to actually see it because we're going to take uh a moment to watch this example of a real-time conversation with an AI Avatar this is"
+        },
+        {
+          "id": "S213",
+          "cue_ids": [
+            213,
+            214,
+            215
+          ],
+          "start_ms": 506680,
+          "end_ms": 515760,
+          "text": "awareness and collaborative decision-making let's take a look tell me one word why I should"
+        },
+        {
+          "id": "S222",
+          "cue_ids": [
+            222,
+            223,
+            224,
+            225
+          ],
+          "start_ms": 531519,
+          "end_ms": 543880,
+          "text": "tough times and trust me there will be tough times but together we can overcome them I have too much to lose I have a family"
+        },
+        {
+          "id": "S229",
+          "cue_ids": [
+            229,
+            230,
+            231,
+            232
+          ],
+          "start_ms": 553200,
+          "end_ms": 567000,
+          "text": "Nelson and that's why we're fighting to create a better world for our loved ones we can't continue living in fear and oppression it's a risk but it's a risk"
+        },
+        {
+          "id": "S238",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241
+          ],
+          "start_ms": 581279,
+          "end_ms": 593560,
+          "text": "yes I've lost many my son my friends my home but every loss only fuels my determination to keep"
+        },
+        {
+          "id": "S248",
+          "cue_ids": [
+            248,
+            249,
+            250,
+            251
+          ],
+          "start_ms": 605360,
+          "end_ms": 616399,
+          "text": "an avatar powered by Ai and what's unique about it is it's not scripted so it's just responding to you in real time conversation that's what's kind of new"
+        },
+        {
+          "id": "S260",
+          "cue_ids": [
+            260,
+            261,
+            262,
+            263
+          ],
+          "start_ms": 629839,
+          "end_ms": 643320,
+          "text": "is just a kind of fancy chat bot at the moment it's still deeply impressive right let's move on to your story ft the delivery Rider who took on his faceless"
+        },
+        {
+          "id": "S270",
+          "cue_ids": [
+            270,
+            271,
+            272,
+            273
+          ],
+          "start_ms": 652760,
+          "end_ms": 662920,
+          "text": "unexpectedly and Armin Sami who's the Uber Eats driver in this story found that he was being underpaid consistently or in one case and he wanted to figure"
+        },
+        {
+          "id": "S283",
+          "cue_ids": [
+            283,
+            284,
+            285,
+            286
+          ],
+          "start_ms": 679600,
+          "end_ms": 688440,
+          "text": "therefore how much he should have been paid he then made this free for other rubber drivers to use and they've all been using it around the world to figure"
+        },
+        {
+          "id": "S293",
+          "cue_ids": [
+            293,
+            294,
+            295,
+            296
+          ],
+          "start_ms": 699360,
+          "end_ms": 715279,
+          "text": "of time Salon rushy AI only poses a threat to unoriginal writers and also we can look at at the same time James Blunt humiliated by generic AI versions of his"
+        },
+        {
+          "id": "S302",
+          "cue_ids": [
+            302,
+            303,
+            304,
+            305
+          ],
+          "start_ms": 725320,
+          "end_ms": 738079,
+          "text": "writers journalists like ask you know can we be replaced by Ai and so far the answer seems to be no it's it's pretty generic James Blunt actually finds it"
+        },
+        {
+          "id": "S313",
+          "cue_ids": [
+            313,
+            314,
+            315
+          ],
+          "start_ms": 750120,
+          "end_ms": 758959,
+          "text": "so much for coming in and talking us through the brilliant stuff that's it we'll do this again same time next week"
+        }
+      ],
+      "text": "S7 [00:00:15.360 --> 00:00:29.000] the world of artificial intelligence and we begin New York Times who report Google has been fined $271 Million by France's competition Watchdog for\nS17 [00:00:43.239 --> 00:00:54.640] without using uh copyrighted materials a group of researchers says there is an alternative after releasing what's thought to be the largest AI training\nS28 [00:01:08.960 --> 00:01:19.960] has a video of one of their journalists having a real-time conversation with an AI Avatar who responds to human speech currently it's an experimental program\nS38 [00:01:31.158 --> 00:01:43.399] to rewrite the code to fix the issues we have the author of that article with us and she'll tell us a bit more and AFP news features novelist salmon rushy who\nS48 [00:01:55.920 --> 00:02:10.560] humiliated at how bad the results were when he experimented with AI to see if it could create lyrics accurately in his style well with me here is mad murgia\nS57 [00:02:18.560 --> 00:02:30.640] say that every week now let's uh let's start with the New York Times France finds Google amid AI dispute with news media so this is a kind of broad issue\nS69 [00:02:45.640 --> 00:02:58.000] articles and so on this particular fine um they've said that they've failed to negotiate Fair deals um and have used data from newspapers to train their\nS79 [00:03:09.519 --> 00:03:24.560] content for their software isn't that something that we're kind of all the big AI kind of companies all in the same boat here is everything\nS88 [00:03:34.439 --> 00:03:46.400] Powers chat GPT which people might have played around with that too is a large language model trained on a huge Corpus of data found online New York Times\nS98 [00:03:56.840 --> 00:04:11.480] going to stick with exactly this theme because they are now clay this is uh wired here's proof you can train an AI model without slurping copyrighted\nS109 [00:04:23.840 --> 00:04:35.320] models if we want really powerful language models if we want chatbots we need to use the the words on the internet we need this data um but the\nS120 [00:04:48.520 --> 00:04:57.199] give here is for for a law firm for example so if you're trying to build a language model specifically to help with lawyers and the work that they do and\nS130 [00:05:09.720 --> 00:05:22.960] narrow use cases or narrower use cases because it says in here that yeah the data set is Tiny compared to what lots of the other language models were kind\nS141 [00:05:36.440 --> 00:05:46.759] reviews um but there's also a lot of noise in that data right there's there's a lot of rubbish on the internet as as everyone can attest to so it's not\nS151 [00:05:58.520 --> 00:06:11.960] a bit of high level regulation now because it's hugely important there are as we've been witnessing over the last kind of six months especially these big\nS161 [00:06:25.160 --> 00:06:35.759] intelligence um the goal they're hoping that it will be unanimous and the the goal really is to bridge inequities between um you know the developed\nS173 [00:06:50.159 --> 00:07:02.240] interesting yeah because we're picking up these these quotes from AP here and they're saying they want to make it safe secure trustworthy of those broad\nS182 [00:07:11.479 --> 00:07:26.560] just having a few companies in a few countries and therefore the populations and people of those uh countries benefiting but making sure it's across\nS193 [00:07:39.240 --> 00:07:50.000] this can address questions you know inequities in health care education and so on but these are big problems and I'm not sure AI is the Magic Bullet to all\nS204 [00:08:04.000 --> 00:08:15.479] it we're going to actually see it because we're going to take uh a moment to watch this example of a real-time conversation with an AI Avatar this is\nS213 [00:08:26.680 --> 00:08:35.760] awareness and collaborative decision-making let's take a look tell me one word why I should\nS222 [00:08:51.519 --> 00:09:03.880] tough times and trust me there will be tough times but together we can overcome them I have too much to lose I have a family\nS229 [00:09:13.200 --> 00:09:27.000] Nelson and that's why we're fighting to create a better world for our loved ones we can't continue living in fear and oppression it's a risk but it's a risk\nS238 [00:09:41.279 --> 00:09:53.560] yes I've lost many my son my friends my home but every loss only fuels my determination to keep\nS248 [00:10:05.360 --> 00:10:16.399] an avatar powered by Ai and what's unique about it is it's not scripted so it's just responding to you in real time conversation that's what's kind of new\nS260 [00:10:29.839 --> 00:10:43.320] is just a kind of fancy chat bot at the moment it's still deeply impressive right let's move on to your story ft the delivery Rider who took on his faceless\nS270 [00:10:52.760 --> 00:11:02.920] unexpectedly and Armin Sami who's the Uber Eats driver in this story found that he was being underpaid consistently or in one case and he wanted to figure\nS283 [00:11:19.600 --> 00:11:28.440] therefore how much he should have been paid he then made this free for other rubber drivers to use and they've all been using it around the world to figure\nS293 [00:11:39.360 --> 00:11:55.279] of time Salon rushy AI only poses a threat to unoriginal writers and also we can look at at the same time James Blunt humiliated by generic AI versions of his\nS302 [00:12:05.320 --> 00:12:18.079] writers journalists like ask you know can we be replaced by Ai and so far the answer seems to be no it's it's pretty generic James Blunt actually finds it\nS313 [00:12:30.120 --> 00:12:38.959] so much for coming in and talking us through the brilliant stuff that's it we'll do this again same time next week",
+      "text_tokens": 1935,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        7,
+        10,
+        17,
+        20,
+        28,
+        31,
+        38,
+        41,
+        48,
+        51,
+        57,
+        60,
+        69,
+        72,
+        79,
+        82,
+        88,
+        91,
+        98,
+        101,
+        109,
+        112,
+        120,
+        123,
+        130,
+        133,
+        141,
+        144,
+        151,
+        154,
+        161,
+        164,
+        173,
+        176,
+        182,
+        185,
+        193,
+        196,
+        204,
+        207,
+        213,
+        222,
+        225,
+        229,
+        232,
+        238,
+        241,
+        248,
+        251,
+        260,
+        263,
+        270,
+        273,
+        283,
+        286,
+        293,
+        296,
+        302,
+        305,
+        313
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "b613c544920d592d15439e8c283a8d9b7bd9793ad97a4f02346f95d97ed0039b"
+}

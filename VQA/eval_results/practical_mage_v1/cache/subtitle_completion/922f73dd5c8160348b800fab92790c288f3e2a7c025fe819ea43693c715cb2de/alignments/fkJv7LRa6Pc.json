@@ -1,0 +1,574 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "fkJv7LRa6Pc",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/fkJv7LRa6Pc.srt",
+        "status": "available",
+        "bytes": 1072,
+        "sha256": "87d3ec97c6c5fbd613369a4167abe57b1d3a5d64da059452c9e072aa8060de67",
+        "cues": 10,
+        "nonempty_cues": 10
+      },
+      "frame_indices": [
+        0,
+        51,
+        102,
+        153,
+        204,
+        255,
+        306,
+        357,
+        408,
+        459,
+        510,
+        561,
+        612,
+        663,
+        714,
+        765,
+        817,
+        868,
+        919,
+        970,
+        1021,
+        1072,
+        1123,
+        1174,
+        1225,
+        1276,
+        1327,
+        1378,
+        1429,
+        1480,
+        1531,
+        1582
+      ],
+      "frame_seconds": [
+        0.0,
+        1.7017,
+        3.4034,
+        5.1051,
+        6.8068,
+        8.5085,
+        10.2102,
+        11.9119,
+        13.6136,
+        15.3153,
+        17.017,
+        18.7187,
+        20.4204,
+        22.1221,
+        23.8238,
+        25.5255,
+        27.260567,
+        28.962267,
+        30.663967,
+        32.365667,
+        34.067367,
+        35.769067,
+        37.470767,
+        39.172467,
+        40.874167,
+        42.575867,
+        44.277567,
+        45.979267,
+        47.680967,
+        49.382667,
+        51.084367,
+        52.786067
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 89,
+          "end_ms": 6510,
+          "text": "take a look at this how about this a"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 3689,
+          "end_ms": 10610,
+          "text": "seven-time champion he's gonna give him"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 6510,
+          "end_ms": 12870,
+          "text": "a push his teammate at Hendrick"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 10610,
+          "end_ms": 17460,
+          "text": "Motorsports and again as I mentioned"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 12870,
+          "end_ms": 21180,
+          "text": "earlier 250 wins for Hendrick"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 17460,
+          "end_ms": 46770,
+          "text": "Motorsports and the 250th coming at the"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 21180,
+          "end_ms": 48149,
+          "text": "hands of chase Elliott well I mentioned"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 46770,
+          "end_ms": 51030,
+          "text": "it was going to be the greatest push"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 48149,
+          "end_ms": 54140,
+          "text": "he's ever had coming from one of the"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 51030,
+          "end_ms": 54140,
+          "text": "greatest of all time"
+        }
+      ],
+      "text": "take a look at this how about this a\nseven-time champion he's gonna give him\na push his teammate at Hendrick\nMotorsports and again as I mentioned\nearlier 250 wins for Hendrick\nMotorsports and the 250th coming at the\nhands of chase Elliott well I mentioned\nit was going to be the greatest push\nhe's ever had coming from one of the\ngreatest of all time",
+      "text_tokens": 93,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "fkJv7LRa6Pc",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/fkJv7LRa6Pc.srt",
+          "status": "available",
+          "bytes": 1072,
+          "sha256": "87d3ec97c6c5fbd613369a4167abe57b1d3a5d64da059452c9e072aa8060de67",
+          "cues": 10,
+          "nonempty_cues": 10
+        },
+        "frame_indices": [
+          0,
+          51,
+          102,
+          153,
+          204,
+          255,
+          306,
+          357,
+          408,
+          459,
+          510,
+          561,
+          612,
+          663,
+          714,
+          765,
+          817,
+          868,
+          919,
+          970,
+          1021,
+          1072,
+          1123,
+          1174,
+          1225,
+          1276,
+          1327,
+          1378,
+          1429,
+          1480,
+          1531,
+          1582
+        ],
+        "frame_seconds": [
+          0.0,
+          1.7017,
+          3.4034,
+          5.1051,
+          6.8068,
+          8.5085,
+          10.2102,
+          11.9119,
+          13.6136,
+          15.3153,
+          17.017,
+          18.7187,
+          20.4204,
+          22.1221,
+          23.8238,
+          25.5255,
+          27.260567,
+          28.962267,
+          30.663967,
+          32.365667,
+          34.067367,
+          35.769067,
+          37.470767,
+          39.172467,
+          40.874167,
+          42.575867,
+          44.277567,
+          45.979267,
+          47.680967,
+          49.382667,
+          51.084367,
+          52.786067
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 89,
+            "end_ms": 6510,
+            "text": "take a look at this how about this a"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 3689,
+            "end_ms": 10610,
+            "text": "seven-time champion he's gonna give him"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 6510,
+            "end_ms": 12870,
+            "text": "a push his teammate at Hendrick"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 10610,
+            "end_ms": 17460,
+            "text": "Motorsports and again as I mentioned"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 12870,
+            "end_ms": 21180,
+            "text": "earlier 250 wins for Hendrick"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 17460,
+            "end_ms": 46770,
+            "text": "Motorsports and the 250th coming at the"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 21180,
+            "end_ms": 48149,
+            "text": "hands of chase Elliott well I mentioned"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 46770,
+            "end_ms": 51030,
+            "text": "it was going to be the greatest push"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 48149,
+            "end_ms": 54140,
+            "text": "he's ever had coming from one of the"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 51030,
+            "end_ms": 54140,
+            "text": "greatest of all time"
+          }
+        ],
+        "text": "take a look at this how about this a\nseven-time champion he's gonna give him\na push his teammate at Hendrick\nMotorsports and again as I mentioned\nearlier 250 wins for Hendrick\nMotorsports and the 250th coming at the\nhands of chase Elliott well I mentioned\nit was going to be the greatest push\nhe's ever had coming from one of the\ngreatest of all time",
+        "text_tokens": 93,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "start_ms": 89,
+          "end_ms": 54140,
+          "text": "take a look at this how about this a seven-time champion he's gonna give him a push his teammate at Hendrick Motorsports and again as I mentioned earlier 250 wins for Hendrick Motorsports and the 250th coming at the hands of chase Elliott well I mentioned it was going to be the greatest push he's ever had coming from one of the greatest of all time"
+        }
+      ],
+      "text": "S1 [00:00:00.089 --> 00:00:54.140] take a look at this how about this a seven-time champion he's gonna give him a push his teammate at Hendrick Motorsports and again as I mentioned earlier 250 wins for Hendrick Motorsports and the 250th coming at the hands of chase Elliott well I mentioned it was going to be the greatest push he's ever had coming from one of the greatest of all time",
+      "text_tokens": 110,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "58e8c4f522d3af6455b8dc70b33ef5276f984a4c4c8687e7f46ecfdadf62dcf0"
+}

@@ -1,0 +1,1552 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "IaTaaNinolU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IaTaaNinolU.srt",
+        "status": "available",
+        "bytes": 19546,
+        "sha256": "eb97ef6c3ad1367d2971c27ac665b54d5f9f8a6069a2a2d7a4ccd901c4cb0167",
+        "cues": 186,
+        "nonempty_cues": 186
+      },
+      "frame_indices": [
+        0,
+        462,
+        924,
+        1386,
+        1847,
+        2309,
+        2771,
+        3233,
+        3695,
+        4157,
+        4618,
+        5080,
+        5542,
+        6004,
+        6466,
+        6928,
+        7389,
+        7851,
+        8313,
+        8775,
+        9237,
+        9699,
+        10160,
+        10622,
+        11084,
+        11546,
+        12008,
+        12470,
+        12931,
+        13393,
+        13855,
+        14317
+      ],
+      "frame_seconds": [
+        0.0,
+        15.4154,
+        30.8308,
+        46.2462,
+        61.628233,
+        77.043633,
+        92.459033,
+        107.87443300000001,
+        123.289833,
+        138.705233,
+        154.087267,
+        169.502667,
+        184.918067,
+        200.33346699999998,
+        215.748867,
+        231.164267,
+        246.5463,
+        261.9617,
+        277.3771,
+        292.7925,
+        308.2079,
+        323.6233,
+        339.005333,
+        354.420733,
+        369.836133,
+        385.251533,
+        400.666933,
+        416.082333,
+        431.464367,
+        446.879767,
+        462.295167,
+        477.71056699999997
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          6,
+          7
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          43,
+          44
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          61,
+          62
+        ],
+        [
+          67,
+          68
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          79,
+          80
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          90
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          111,
+          112
+        ],
+        [
+          117,
+          118
+        ],
+        [
+          124,
+          125
+        ],
+        [
+          131,
+          132
+        ],
+        [
+          136,
+          137
+        ],
+        [
+          142,
+          143
+        ],
+        [
+          149,
+          150
+        ],
+        [
+          155,
+          156
+        ],
+        [
+          161,
+          162
+        ],
+        [
+          165,
+          166
+        ],
+        [
+          171,
+          172
+        ],
+        [
+          177,
+          178
+        ],
+        [
+          182,
+          183
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 6,
+          "start_ms": 12320,
+          "end_ms": 16880,
+          "text": "seeks to avenge his father's murder at"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 14240,
+          "end_ms": 18560,
+          "text": "the hands of his uncle claudius"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 27680,
+          "end_ms": 32320,
+          "text": "claudius has assumed the throne and"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 30240,
+          "end_ms": 34000,
+          "text": "married his late brother's wife queen"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 41120,
+          "end_ms": 48160,
+          "text": "whose character is he believes inferior"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 44559,
+          "end_ms": 50399,
+          "text": "to that of his deceased father"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 58879,
+          "end_ms": 61920,
+          "text": "when horatio tells hamlet of this"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 60879,
+          "end_ms": 63840,
+          "text": "sighting"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 72640,
+          "end_ms": 77280,
+          "text": "he's come from purgatory to demand"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 74799,
+          "end_ms": 80479,
+          "text": "vengeance against his brother claudius"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 89680,
+          "end_ms": 94240,
+          "text": "meanwhile claudius's chief advisor"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 92079,
+          "end_ms": 98079,
+          "text": "polonius is concerned about his daughter"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 105360,
+          "end_ms": 109600,
+          "text": "but he later becomes convinced that"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 107119,
+          "end_ms": 114039,
+          "text": "ophelia's lack of affection is the"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 120240,
+          "end_ms": 124960,
+          "text": "but when ophelia tries to flirt with"
+        },
+        {
+          "cue_id": 50,
+          "start_ms": 122560,
+          "end_ms": 127600,
+          "text": "hamlet his mind is on his father's"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 133599,
+          "end_ms": 138800,
+          "text": "friends rosencrantz and guildenstern to"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 136720,
+          "end_ms": 140079,
+          "text": "discover the reason for hamlet's foul"
+        },
+        {
+          "cue_id": 61,
+          "start_ms": 150239,
+          "end_ms": 154560,
+          "text": "that they ran into a troop of actors on"
+        },
+        {
+          "cue_id": 62,
+          "start_ms": 152239,
+          "end_ms": 157519,
+          "text": "their way to the castle and invited them"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 164959,
+          "end_ms": 170720,
+          "text": "if he seems rattled by the performance"
+        },
+        {
+          "cue_id": 68,
+          "start_ms": 167200,
+          "end_ms": 172879,
+          "text": "it will prove his guilt"
+        },
+        {
+          "cue_id": 73,
+          "start_ms": 180879,
+          "end_ms": 185840,
+          "text": "the country's"
+        },
+        {
+          "cue_id": 74,
+          "start_ms": 182840,
+          "end_ms": 188080,
+          "text": "leadership claudius is reassured however"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 197440,
+          "end_ms": 200400,
+          "text": "to do so"
+        },
+        {
+          "cue_id": 80,
+          "start_ms": 198400,
+          "end_ms": 204480,
+          "text": "they need claudius's permission to march"
+        },
+        {
+          "cue_id": 84,
+          "start_ms": 209680,
+          "end_ms": 216720,
+          "text": "play and even storms out"
+        },
+        {
+          "cue_id": 85,
+          "start_ms": 212720,
+          "end_ms": 216720,
+          "text": "convincing hamlet of his guilt"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 229120,
+          "end_ms": 233040,
+          "text": "hamlet nearly kills claudius but stopped"
+        },
+        {
+          "cue_id": 96,
+          "start_ms": 242560,
+          "end_ms": 246560,
+          "text": "tries to convince his mother of"
+        },
+        {
+          "cue_id": 97,
+          "start_ms": 244080,
+          "end_ms": 249439,
+          "text": "claudius's evil character"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 259358,
+          "end_ms": 264240,
+          "text": "she screams out for help causing"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 261358,
+          "end_ms": 266240,
+          "text": "polonius to scream as well"
+        },
+        {
+          "cue_id": 111,
+          "start_ms": 275280,
+          "end_ms": 279360,
+          "text": "hamlet's friends rosencrantz and"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 277120,
+          "end_ms": 281680,
+          "text": "guildenstern escort hamlet on a"
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 289360,
+          "end_ms": 294479,
+          "text": "instructing him to have hamlet killed"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 291680,
+          "end_ms": 296720,
+          "text": "upon his arrival"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 304479,
+          "end_ms": 308840,
+          "text": "him"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 306560,
+          "end_ms": 312400,
+          "text": "meanwhile polonius's son"
+        },
+        {
+          "cue_id": 131,
+          "start_ms": 321120,
+          "end_ms": 325360,
+          "text": "responsible"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 322560,
+          "end_ms": 327680,
+          "text": "and together they decide to arrange for"
+        },
+        {
+          "cue_id": 136,
+          "start_ms": 335919,
+          "end_ms": 339759,
+          "text": "with poison"
+        },
+        {
+          "cue_id": 137,
+          "start_ms": 337360,
+          "end_ms": 341759,
+          "text": "ensuring that even a small wound will"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 350080,
+          "end_ms": 355360,
+          "text": "returning home from his journey hamlet"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 352400,
+          "end_ms": 357600,
+          "text": "passes through a cemetery encountering a"
+        },
+        {
+          "cue_id": 149,
+          "start_ms": 366479,
+          "end_ms": 372479,
+          "text": "child"
+        },
+        {
+          "cue_id": 150,
+          "start_ms": 367520,
+          "end_ms": 372479,
+          "text": "and muses about the nature of mortality"
+        },
+        {
+          "cue_id": 155,
+          "start_ms": 381919,
+          "end_ms": 387280,
+          "text": "driven mad by hamlet's rejection drowned"
+        },
+        {
+          "cue_id": 156,
+          "start_ms": 385199,
+          "end_ms": 389600,
+          "text": "herself"
+        },
+        {
+          "cue_id": 161,
+          "start_ms": 397759,
+          "end_ms": 403280,
+          "text": "hamlet assures him that he loved ophelia"
+        },
+        {
+          "cue_id": 162,
+          "start_ms": 400159,
+          "end_ms": 407120,
+          "text": "40 times as much as a brother could"
+        },
+        {
+          "cue_id": 165,
+          "start_ms": 410080,
+          "end_ms": 416240,
+          "text": "intention to challenge him to a duel"
+        },
+        {
+          "cue_id": 166,
+          "start_ms": 413440,
+          "end_ms": 419039,
+          "text": "horatio worries that laertes is a better"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 427280,
+          "end_ms": 431759,
+          "text": "cup"
+        },
+        {
+          "cue_id": 172,
+          "start_ms": 428560,
+          "end_ms": 434160,
+          "text": "drinking it before claudius can stop her"
+        },
+        {
+          "cue_id": 177,
+          "start_ms": 441919,
+          "end_ms": 448560,
+          "text": "switched around and hamlet wounds"
+        },
+        {
+          "cue_id": 178,
+          "start_ms": 444240,
+          "end_ms": 451680,
+          "text": "laertes with a poisoned sword as well"
+        },
+        {
+          "cue_id": 182,
+          "start_ms": 456880,
+          "end_ms": 462400,
+          "text": "with hamlet claudius gertrude and"
+        },
+        {
+          "cue_id": 183,
+          "start_ms": 460159,
+          "end_ms": 464960,
+          "text": "laertes all dead"
+        }
+      ],
+      "text": "seeks to avenge his father's murder at\nthe hands of his uncle claudius\nclaudius has assumed the throne and\nmarried his late brother's wife queen\nwhose character is he believes inferior\nto that of his deceased father\nwhen horatio tells hamlet of this\nsighting\nhe's come from purgatory to demand\nvengeance against his brother claudius\nmeanwhile claudius's chief advisor\npolonius is concerned about his daughter\nbut he later becomes convinced that\nophelia's lack of affection is the\nbut when ophelia tries to flirt with\nhamlet his mind is on his father's\nfriends rosencrantz and guildenstern to\ndiscover the reason for hamlet's foul\nthat they ran into a troop of actors on\ntheir way to the castle and invited them\nif he seems rattled by the performance\nit will prove his guilt\nthe country's\nleadership claudius is reassured however\nto do so\nthey need claudius's permission to march\nplay and even storms out\nconvincing hamlet of his guilt\nhamlet nearly kills claudius but stopped\ntries to convince his mother of\nclaudius's evil character\nshe screams out for help causing\npolonius to scream as well\nhamlet's friends rosencrantz and\nguildenstern escort hamlet on a\ninstructing him to have hamlet killed\nupon his arrival\nhim\nmeanwhile polonius's son\nresponsible\nand together they decide to arrange for\nwith poison\nensuring that even a small wound will\nreturning home from his journey hamlet\npasses through a cemetery encountering a\nchild\nand muses about the nature of mortality\ndriven mad by hamlet's rejection drowned\nherself\nhamlet assures him that he loved ophelia\n40 times as much as a brother could\nintention to challenge him to a duel\nhoratio worries that laertes is a better\ncup\ndrinking it before claudius can stop her\nswitched around and hamlet wounds\nlaertes with a poisoned sword as well\nwith hamlet claudius gertrude and\nlaertes all dead",
+      "text_tokens": 469,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "IaTaaNinolU",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/IaTaaNinolU.srt",
+          "status": "available",
+          "bytes": 19546,
+          "sha256": "eb97ef6c3ad1367d2971c27ac665b54d5f9f8a6069a2a2d7a4ccd901c4cb0167",
+          "cues": 186,
+          "nonempty_cues": 186
+        },
+        "frame_indices": [
+          0,
+          462,
+          924,
+          1386,
+          1847,
+          2309,
+          2771,
+          3233,
+          3695,
+          4157,
+          4618,
+          5080,
+          5542,
+          6004,
+          6466,
+          6928,
+          7389,
+          7851,
+          8313,
+          8775,
+          9237,
+          9699,
+          10160,
+          10622,
+          11084,
+          11546,
+          12008,
+          12470,
+          12931,
+          13393,
+          13855,
+          14317
+        ],
+        "frame_seconds": [
+          0.0,
+          15.4154,
+          30.8308,
+          46.2462,
+          61.628233,
+          77.043633,
+          92.459033,
+          107.87443300000001,
+          123.289833,
+          138.705233,
+          154.087267,
+          169.502667,
+          184.918067,
+          200.33346699999998,
+          215.748867,
+          231.164267,
+          246.5463,
+          261.9617,
+          277.3771,
+          292.7925,
+          308.2079,
+          323.6233,
+          339.005333,
+          354.420733,
+          369.836133,
+          385.251533,
+          400.666933,
+          416.082333,
+          431.464367,
+          446.879767,
+          462.295167,
+          477.71056699999997
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            6,
+            7
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            43,
+            44
+          ],
+          [
+            49,
+            50
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            61,
+            62
+          ],
+          [
+            67,
+            68
+          ],
+          [
+            73,
+            74
+          ],
+          [
+            79,
+            80
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            90
+          ],
+          [
+            96,
+            97
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            111,
+            112
+          ],
+          [
+            117,
+            118
+          ],
+          [
+            124,
+            125
+          ],
+          [
+            131,
+            132
+          ],
+          [
+            136,
+            137
+          ],
+          [
+            142,
+            143
+          ],
+          [
+            149,
+            150
+          ],
+          [
+            155,
+            156
+          ],
+          [
+            161,
+            162
+          ],
+          [
+            165,
+            166
+          ],
+          [
+            171,
+            172
+          ],
+          [
+            177,
+            178
+          ],
+          [
+            182,
+            183
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 6,
+            "start_ms": 12320,
+            "end_ms": 16880,
+            "text": "seeks to avenge his father's murder at"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 14240,
+            "end_ms": 18560,
+            "text": "the hands of his uncle claudius"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 27680,
+            "end_ms": 32320,
+            "text": "claudius has assumed the throne and"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 30240,
+            "end_ms": 34000,
+            "text": "married his late brother's wife queen"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 41120,
+            "end_ms": 48160,
+            "text": "whose character is he believes inferior"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 44559,
+            "end_ms": 50399,
+            "text": "to that of his deceased father"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 58879,
+            "end_ms": 61920,
+            "text": "when horatio tells hamlet of this"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 60879,
+            "end_ms": 63840,
+            "text": "sighting"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 72640,
+            "end_ms": 77280,
+            "text": "he's come from purgatory to demand"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 74799,
+            "end_ms": 80479,
+            "text": "vengeance against his brother claudius"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 89680,
+            "end_ms": 94240,
+            "text": "meanwhile claudius's chief advisor"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 92079,
+            "end_ms": 98079,
+            "text": "polonius is concerned about his daughter"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 105360,
+            "end_ms": 109600,
+            "text": "but he later becomes convinced that"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 107119,
+            "end_ms": 114039,
+            "text": "ophelia's lack of affection is the"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 120240,
+            "end_ms": 124960,
+            "text": "but when ophelia tries to flirt with"
+          },
+          {
+            "cue_id": 50,
+            "start_ms": 122560,
+            "end_ms": 127600,
+            "text": "hamlet his mind is on his father's"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 133599,
+            "end_ms": 138800,
+            "text": "friends rosencrantz and guildenstern to"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 136720,
+            "end_ms": 140079,
+            "text": "discover the reason for hamlet's foul"
+          },
+          {
+            "cue_id": 61,
+            "start_ms": 150239,
+            "end_ms": 154560,
+            "text": "that they ran into a troop of actors on"
+          },
+          {
+            "cue_id": 62,
+            "start_ms": 152239,
+            "end_ms": 157519,
+            "text": "their way to the castle and invited them"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 164959,
+            "end_ms": 170720,
+            "text": "if he seems rattled by the performance"
+          },
+          {
+            "cue_id": 68,
+            "start_ms": 167200,
+            "end_ms": 172879,
+            "text": "it will prove his guilt"
+          },
+          {
+            "cue_id": 73,
+            "start_ms": 180879,
+            "end_ms": 185840,
+            "text": "the country's"
+          },
+          {
+            "cue_id": 74,
+            "start_ms": 182840,
+            "end_ms": 188080,
+            "text": "leadership claudius is reassured however"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 197440,
+            "end_ms": 200400,
+            "text": "to do so"
+          },
+          {
+            "cue_id": 80,
+            "start_ms": 198400,
+            "end_ms": 204480,
+            "text": "they need claudius's permission to march"
+          },
+          {
+            "cue_id": 84,
+            "start_ms": 209680,
+            "end_ms": 216720,
+            "text": "play and even storms out"
+          },
+          {
+            "cue_id": 85,
+            "start_ms": 212720,
+            "end_ms": 216720,
+            "text": "convincing hamlet of his guilt"
+          },
+          {
+            "cue_id": 90,
+            "start_ms": 229120,
+            "end_ms": 233040,
+            "text": "hamlet nearly kills claudius but stopped"
+          },
+          {
+            "cue_id": 96,
+            "start_ms": 242560,
+            "end_ms": 246560,
+            "text": "tries to convince his mother of"
+          },
+          {
+            "cue_id": 97,
+            "start_ms": 244080,
+            "end_ms": 249439,
+            "text": "claudius's evil character"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 259358,
+            "end_ms": 264240,
+            "text": "she screams out for help causing"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 261358,
+            "end_ms": 266240,
+            "text": "polonius to scream as well"
+          },
+          {
+            "cue_id": 111,
+            "start_ms": 275280,
+            "end_ms": 279360,
+            "text": "hamlet's friends rosencrantz and"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 277120,
+            "end_ms": 281680,
+            "text": "guildenstern escort hamlet on a"
+          },
+          {
+            "cue_id": 117,
+            "start_ms": 289360,
+            "end_ms": 294479,
+            "text": "instructing him to have hamlet killed"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 291680,
+            "end_ms": 296720,
+            "text": "upon his arrival"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 304479,
+            "end_ms": 308840,
+            "text": "him"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 306560,
+            "end_ms": 312400,
+            "text": "meanwhile polonius's son"
+          },
+          {
+            "cue_id": 131,
+            "start_ms": 321120,
+            "end_ms": 325360,
+            "text": "responsible"
+          },
+          {
+            "cue_id": 132,
+            "start_ms": 322560,
+            "end_ms": 327680,
+            "text": "and together they decide to arrange for"
+          },
+          {
+            "cue_id": 136,
+            "start_ms": 335919,
+            "end_ms": 339759,
+            "text": "with poison"
+          },
+          {
+            "cue_id": 137,
+            "start_ms": 337360,
+            "end_ms": 341759,
+            "text": "ensuring that even a small wound will"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 350080,
+            "end_ms": 355360,
+            "text": "returning home from his journey hamlet"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 352400,
+            "end_ms": 357600,
+            "text": "passes through a cemetery encountering a"
+          },
+          {
+            "cue_id": 149,
+            "start_ms": 366479,
+            "end_ms": 372479,
+            "text": "child"
+          },
+          {
+            "cue_id": 150,
+            "start_ms": 367520,
+            "end_ms": 372479,
+            "text": "and muses about the nature of mortality"
+          },
+          {
+            "cue_id": 155,
+            "start_ms": 381919,
+            "end_ms": 387280,
+            "text": "driven mad by hamlet's rejection drowned"
+          },
+          {
+            "cue_id": 156,
+            "start_ms": 385199,
+            "end_ms": 389600,
+            "text": "herself"
+          },
+          {
+            "cue_id": 161,
+            "start_ms": 397759,
+            "end_ms": 403280,
+            "text": "hamlet assures him that he loved ophelia"
+          },
+          {
+            "cue_id": 162,
+            "start_ms": 400159,
+            "end_ms": 407120,
+            "text": "40 times as much as a brother could"
+          },
+          {
+            "cue_id": 165,
+            "start_ms": 410080,
+            "end_ms": 416240,
+            "text": "intention to challenge him to a duel"
+          },
+          {
+            "cue_id": 166,
+            "start_ms": 413440,
+            "end_ms": 419039,
+            "text": "horatio worries that laertes is a better"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 427280,
+            "end_ms": 431759,
+            "text": "cup"
+          },
+          {
+            "cue_id": 172,
+            "start_ms": 428560,
+            "end_ms": 434160,
+            "text": "drinking it before claudius can stop her"
+          },
+          {
+            "cue_id": 177,
+            "start_ms": 441919,
+            "end_ms": 448560,
+            "text": "switched around and hamlet wounds"
+          },
+          {
+            "cue_id": 178,
+            "start_ms": 444240,
+            "end_ms": 451680,
+            "text": "laertes with a poisoned sword as well"
+          },
+          {
+            "cue_id": 182,
+            "start_ms": 456880,
+            "end_ms": 462400,
+            "text": "with hamlet claudius gertrude and"
+          },
+          {
+            "cue_id": 183,
+            "start_ms": 460159,
+            "end_ms": 464960,
+            "text": "laertes all dead"
+          }
+        ],
+        "text": "seeks to avenge his father's murder at\nthe hands of his uncle claudius\nclaudius has assumed the throne and\nmarried his late brother's wife queen\nwhose character is he believes inferior\nto that of his deceased father\nwhen horatio tells hamlet of this\nsighting\nhe's come from purgatory to demand\nvengeance against his brother claudius\nmeanwhile claudius's chief advisor\npolonius is concerned about his daughter\nbut he later becomes convinced that\nophelia's lack of affection is the\nbut when ophelia tries to flirt with\nhamlet his mind is on his father's\nfriends rosencrantz and guildenstern to\ndiscover the reason for hamlet's foul\nthat they ran into a troop of actors on\ntheir way to the castle and invited them\nif he seems rattled by the performance\nit will prove his guilt\nthe country's\nleadership claudius is reassured however\nto do so\nthey need claudius's permission to march\nplay and even storms out\nconvincing hamlet of his guilt\nhamlet nearly kills claudius but stopped\ntries to convince his mother of\nclaudius's evil character\nshe screams out for help causing\npolonius to scream as well\nhamlet's friends rosencrantz and\nguildenstern escort hamlet on a\ninstructing him to have hamlet killed\nupon his arrival\nhim\nmeanwhile polonius's son\nresponsible\nand together they decide to arrange for\nwith poison\nensuring that even a small wound will\nreturning home from his journey hamlet\npasses through a cemetery encountering a\nchild\nand muses about the nature of mortality\ndriven mad by hamlet's rejection drowned\nherself\nhamlet assures him that he loved ophelia\n40 times as much as a brother could\nintention to challenge him to a duel\nhoratio worries that laertes is a better\ncup\ndrinking it before claudius can stop her\nswitched around and hamlet wounds\nlaertes with a poisoned sword as well\nwith hamlet claudius gertrude and\nlaertes all dead",
+        "text_tokens": 469,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S5",
+          "cue_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "start_ms": 9679,
+          "end_ms": 23519,
+          "text": "about a danish prince named hamlet who seeks to avenge his father's murder at the hands of his uncle claudius the play is not only shakespeare's"
+        },
+        {
+          "id": "S11",
+          "cue_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "start_ms": 25439,
+          "end_ms": 36079,
+          "text": "denmark has died and his brother claudius has assumed the throne and married his late brother's wife queen gertrude"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 38879,
+          "end_ms": 52879,
+          "text": "by his mother's marriage to claudius whose character is he believes inferior to that of his deceased father little does hamlet know the ghost of his"
+        },
+        {
+          "id": "S24",
+          "cue_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "start_ms": 57199,
+          "end_ms": 66240,
+          "text": "night when horatio tells hamlet of this sighting hamlet decides to watch for the ghost"
+        },
+        {
+          "id": "S30",
+          "cue_ids": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "start_ms": 69280,
+          "end_ms": 82479,
+          "text": "addressing only hamlet the ghost says he's come from purgatory to demand vengeance against his brother claudius who murdered him by pouring poison into"
+        },
+        {
+          "id": "S36",
+          "cue_ids": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "start_ms": 85439,
+          "end_ms": 101119,
+          "text": "father's murder by killing claudius meanwhile claudius's chief advisor polonius is concerned about his daughter ophelia who loves hamlet but is confused"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "start_ms": 103439,
+          "end_ms": 114039,
+          "text": "stay away from hamlet but he later becomes convinced that ophelia's lack of affection is the reason for hamlet's melancholy"
+        },
+        {
+          "id": "S48",
+          "cue_ids": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "start_ms": 118880,
+          "end_ms": 130959,
+          "text": "claudius but when ophelia tries to flirt with hamlet his mind is on his father's murder and he rebukes her advances"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "start_ms": 130959,
+          "end_ms": 142079,
+          "text": "next claudius recruits hamlet's school friends rosencrantz and guildenstern to discover the reason for hamlet's foul mood"
+        },
+        {
+          "id": "S60",
+          "cue_ids": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "start_ms": 147360,
+          "end_ms": 159360,
+          "text": "rosencrantz and guildenstern tell hamlet that they ran into a troop of actors on their way to the castle and invited them along to perform for the court"
+        },
+        {
+          "id": "S66",
+          "cue_ids": [
+            66,
+            67,
+            68,
+            69
+          ],
+          "start_ms": 161440,
+          "end_ms": 176239,
+          "text": "his father to see how claudius reacts if he seems rattled by the performance it will prove his guilt meanwhile claudius learns that"
+        },
+        {
+          "id": "S72",
+          "cue_ids": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_ms": 178720,
+          "end_ms": 191360,
+          "text": "denmark owing to the recent change in the country's leadership claudius is reassured however when he learns that norway's king has"
+        },
+        {
+          "id": "S78",
+          "cue_ids": [
+            78,
+            79,
+            80,
+            81
+          ],
+          "start_ms": 193599,
+          "end_ms": 204480,
+          "text": "invade a small area in poland instead to do so they need claudius's permission to march through denmark which he grants"
+        },
+        {
+          "id": "S83",
+          "cue_ids": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "start_ms": 207200,
+          "end_ms": 221519,
+          "text": "disturbed by the performance of hamlet's play and even storms out convincing hamlet of his guilt hamlet decides to tell his mother but on"
+        },
+        {
+          "id": "S89",
+          "cue_ids": [
+            89,
+            90,
+            91
+          ],
+          "start_ms": 223840,
+          "end_ms": 235120,
+          "text": "sins including the murder to god hamlet nearly kills claudius but stopped short"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "start_ms": 240000,
+          "end_ms": 251200,
+          "text": "hamlet goes to gertrude's chamber and tries to convince his mother of claudius's evil character meanwhile polonius is once again spying"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106
+          ],
+          "start_ms": 256560,
+          "end_ms": 267199,
+          "text": "thinking he intends to kill her she screams out for help causing polonius to scream as well assuming it's claudius behind the"
+        },
+        {
+          "id": "S110",
+          "cue_ids": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "start_ms": 273120,
+          "end_ms": 284080,
+          "text": "following polonius's death hamlet's friends rosencrantz and guildenstern escort hamlet on a diplomatic mission to england at the"
+        },
+        {
+          "id": "S116",
+          "cue_ids": [
+            116,
+            117,
+            118,
+            119
+          ],
+          "start_ms": 286880,
+          "end_ms": 298320,
+          "text": "gave them a letter for the english king instructing him to have hamlet killed upon his arrival soon hamlet discovers this letter in"
+        },
+        {
+          "id": "S123",
+          "cue_ids": [
+            123,
+            124,
+            125,
+            126
+          ],
+          "start_ms": 302000,
+          "end_ms": 314320,
+          "text": "that his friends be killed instead of him meanwhile polonius's son laertes upset over his father's murder"
+        },
+        {
+          "id": "S130",
+          "cue_ids": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "start_ms": 318880,
+          "end_ms": 332320,
+          "text": "claudius assures him that hamlet is responsible and together they decide to arrange for a casual jewel between hamlet and"
+        },
+        {
+          "id": "S135",
+          "cue_ids": [
+            135,
+            136,
+            137,
+            138
+          ],
+          "start_ms": 332880,
+          "end_ms": 344400,
+          "text": "secretly they plan to line laertes sword with poison ensuring that even a small wound will kill hamlet"
+        },
+        {
+          "id": "S141",
+          "cue_ids": [
+            141,
+            142,
+            143,
+            144
+          ],
+          "start_ms": 346639,
+          "end_ms": 359360,
+          "text": "hamlet during the fight returning home from his journey hamlet passes through a cemetery encountering a gravedigger in the midst of preparing a"
+        },
+        {
+          "id": "S148",
+          "cue_ids": [
+            148,
+            149,
+            150,
+            151
+          ],
+          "start_ms": 363919,
+          "end_ms": 378240,
+          "text": "of yorick a court jester he knew as a child and muses about the nature of mortality soon a funeral procession arrives and"
+        },
+        {
+          "id": "S154",
+          "cue_ids": [
+            154,
+            155,
+            156,
+            157
+          ],
+          "start_ms": 380800,
+          "end_ms": 392479,
+          "text": "who driven mad by hamlet's rejection drowned herself laertes leaps upon ophelia's grave to"
+        },
+        {
+          "id": "S160",
+          "cue_ids": [
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
+          ],
+          "start_ms": 395680,
+          "end_ms": 422800,
+          "text": "laertes hamlet assures him that he loved ophelia 40 times as much as a brother could then flees the cemetery back at court hamlet learns of laertes intention to challenge him to a duel horatio worries that laertes is a better swordsman but hamlet assures him he has"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172,
+            173
+          ],
+          "start_ms": 425199,
+          "end_ms": 436880,
+          "text": "gertrude toast to him with a poisoned cup drinking it before claudius can stop her laertes seeing that his and claudius's"
+        },
+        {
+          "id": "S176",
+          "cue_ids": [
+            176,
+            177,
+            178,
+            179
+          ],
+          "start_ms": 439360,
+          "end_ms": 453280,
+          "text": "but as the men scuffle their swords are switched around and hamlet wounds laertes with a poisoned sword as well as they both die laertes tells hamlet of"
+        },
+        {
+          "id": "S181",
+          "cue_ids": [
+            181,
+            182,
+            183,
+            184
+          ],
+          "start_ms": 453280,
+          "end_ms": 467199,
+          "text": "and hamlet stabs his uncle killing him with hamlet claudius gertrude and laertes all dead the path is cleared for fortinbras"
+        }
+      ],
+      "text": "S5 [00:00:09.679 --> 00:00:23.519] about a danish prince named hamlet who seeks to avenge his father's murder at the hands of his uncle claudius the play is not only shakespeare's\nS11 [00:00:25.439 --> 00:00:36.079] denmark has died and his brother claudius has assumed the throne and married his late brother's wife queen gertrude\nS17 [00:00:38.879 --> 00:00:52.879] by his mother's marriage to claudius whose character is he believes inferior to that of his deceased father little does hamlet know the ghost of his\nS24 [00:00:57.199 --> 00:01:06.240] night when horatio tells hamlet of this sighting hamlet decides to watch for the ghost\nS30 [00:01:09.280 --> 00:01:22.479] addressing only hamlet the ghost says he's come from purgatory to demand vengeance against his brother claudius who murdered him by pouring poison into\nS36 [00:01:25.439 --> 00:01:41.119] father's murder by killing claudius meanwhile claudius's chief advisor polonius is concerned about his daughter ophelia who loves hamlet but is confused\nS42 [00:01:43.439 --> 00:01:54.039] stay away from hamlet but he later becomes convinced that ophelia's lack of affection is the reason for hamlet's melancholy\nS48 [00:01:58.880 --> 00:02:10.959] claudius but when ophelia tries to flirt with hamlet his mind is on his father's murder and he rebukes her advances\nS53 [00:02:10.959 --> 00:02:22.079] next claudius recruits hamlet's school friends rosencrantz and guildenstern to discover the reason for hamlet's foul mood\nS60 [00:02:27.360 --> 00:02:39.360] rosencrantz and guildenstern tell hamlet that they ran into a troop of actors on their way to the castle and invited them along to perform for the court\nS66 [00:02:41.440 --> 00:02:56.239] his father to see how claudius reacts if he seems rattled by the performance it will prove his guilt meanwhile claudius learns that\nS72 [00:02:58.720 --> 00:03:11.360] denmark owing to the recent change in the country's leadership claudius is reassured however when he learns that norway's king has\nS78 [00:03:13.599 --> 00:03:24.480] invade a small area in poland instead to do so they need claudius's permission to march through denmark which he grants\nS83 [00:03:27.200 --> 00:03:41.519] disturbed by the performance of hamlet's play and even storms out convincing hamlet of his guilt hamlet decides to tell his mother but on\nS89 [00:03:43.840 --> 00:03:55.120] sins including the murder to god hamlet nearly kills claudius but stopped short\nS95 [00:04:00.000 --> 00:04:11.200] hamlet goes to gertrude's chamber and tries to convince his mother of claudius's evil character meanwhile polonius is once again spying\nS103 [00:04:16.560 --> 00:04:27.199] thinking he intends to kill her she screams out for help causing polonius to scream as well assuming it's claudius behind the\nS110 [00:04:33.120 --> 00:04:44.080] following polonius's death hamlet's friends rosencrantz and guildenstern escort hamlet on a diplomatic mission to england at the\nS116 [00:04:46.880 --> 00:04:58.320] gave them a letter for the english king instructing him to have hamlet killed upon his arrival soon hamlet discovers this letter in\nS123 [00:05:02.000 --> 00:05:14.320] that his friends be killed instead of him meanwhile polonius's son laertes upset over his father's murder\nS130 [00:05:18.880 --> 00:05:32.320] claudius assures him that hamlet is responsible and together they decide to arrange for a casual jewel between hamlet and\nS135 [00:05:32.880 --> 00:05:44.400] secretly they plan to line laertes sword with poison ensuring that even a small wound will kill hamlet\nS141 [00:05:46.639 --> 00:05:59.360] hamlet during the fight returning home from his journey hamlet passes through a cemetery encountering a gravedigger in the midst of preparing a\nS148 [00:06:03.919 --> 00:06:18.240] of yorick a court jester he knew as a child and muses about the nature of mortality soon a funeral procession arrives and\nS154 [00:06:20.800 --> 00:06:32.479] who driven mad by hamlet's rejection drowned herself laertes leaps upon ophelia's grave to\nS160 [00:06:35.680 --> 00:07:02.800] laertes hamlet assures him that he loved ophelia 40 times as much as a brother could then flees the cemetery back at court hamlet learns of laertes intention to challenge him to a duel horatio worries that laertes is a better swordsman but hamlet assures him he has\nS170 [00:07:05.199 --> 00:07:16.880] gertrude toast to him with a poisoned cup drinking it before claudius can stop her laertes seeing that his and claudius's\nS176 [00:07:19.360 --> 00:07:33.280] but as the men scuffle their swords are switched around and hamlet wounds laertes with a poisoned sword as well as they both die laertes tells hamlet of\nS181 [00:07:33.280 --> 00:07:47.199] and hamlet stabs his uncle killing him with hamlet claudius gertrude and laertes all dead the path is cleared for fortinbras",
+      "text_tokens": 1772,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        53,
+        56,
+        60,
+        63,
+        66,
+        69,
+        72,
+        75,
+        78,
+        81,
+        83,
+        86,
+        89,
+        91,
+        95,
+        98,
+        103,
+        106,
+        110,
+        113,
+        116,
+        119,
+        123,
+        126,
+        130,
+        133,
+        135,
+        138,
+        141,
+        144,
+        148,
+        151,
+        154,
+        157,
+        160,
+        163,
+        164,
+        167,
+        170,
+        173,
+        176,
+        179,
+        181,
+        184
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "01aef8b5b20354bebc25ec356c86b1dbe64c37bf98b42faef586ad3ac7bf6874"
+}

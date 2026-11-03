@@ -1,0 +1,758 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "D97vMwfWxvI",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/D97vMwfWxvI.srt",
+        "status": "available",
+        "bytes": 20981,
+        "sha256": "4a619b22dbccb178596f85b2c3eeef846cea5b4124fc7cb6fbc7f9d406912d47",
+        "cues": 254,
+        "nonempty_cues": 253
+      },
+      "frame_indices": [
+        0,
+        2415,
+        4829,
+        7244,
+        9658,
+        12073,
+        14487,
+        16902,
+        19317,
+        21731,
+        24146,
+        26560,
+        28975,
+        31390,
+        33804,
+        36219,
+        38633,
+        41048,
+        43462,
+        45877,
+        48292,
+        50706,
+        53121,
+        55535,
+        57950,
+        60365,
+        62779,
+        65194,
+        67608,
+        70023,
+        72437,
+        74852
+      ],
+      "frame_seconds": [
+        0.0,
+        80.5,
+        160.966667,
+        241.466667,
+        321.933333,
+        402.433333,
+        482.9,
+        563.4,
+        643.9,
+        724.366667,
+        804.866667,
+        885.333333,
+        965.833333,
+        1046.333333,
+        1126.8,
+        1207.3,
+        1287.766667,
+        1368.266667,
+        1448.733333,
+        1529.233333,
+        1609.733333,
+        1690.2,
+        1770.7,
+        1851.166667,
+        1931.666667,
+        2012.166667,
+        2092.633333,
+        2173.133333,
+        2253.6,
+        2334.1,
+        2414.566667,
+        2495.066667
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          11
+        ],
+        [
+          25
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          41
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          63
+        ],
+        [],
+        [
+          75
+        ],
+        [
+          79
+        ],
+        [
+          89,
+          90
+        ],
+        [
+          102,
+          103
+        ],
+        [],
+        [
+          124,
+          125
+        ],
+        [
+          132
+        ],
+        [
+          138
+        ],
+        [
+          145
+        ],
+        [
+          150
+        ],
+        [
+          154
+        ],
+        [
+          161
+        ],
+        [
+          171
+        ],
+        [
+          180,
+          181
+        ],
+        [
+          191,
+          192
+        ],
+        [
+          201,
+          202
+        ],
+        [
+          209
+        ],
+        [
+          215
+        ],
+        [
+          225,
+          226
+        ],
+        [
+          233
+        ],
+        [
+          239
+        ],
+        [],
+        [
+          252,
+          253
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 11,
+          "start_ms": 71500,
+          "end_ms": 86530,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 159760,
+          "end_ms": 171840,
+          "text": "i'll go"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 238840,
+          "end_ms": 256849,
+          "text": "so"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 241180,
+          "end_ms": 256849,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 41,
+          "start_ms": 301260,
+          "end_ms": 335600,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 46,
+          "start_ms": 392840,
+          "end_ms": 405220,
+          "text": "me"
+        },
+        {
+          "cue_id": 47,
+          "start_ms": 395840,
+          "end_ms": 405220,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 471530,
+          "end_ms": 484100,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 472880,
+          "end_ms": 484100,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 63,
+          "start_ms": 550930,
+          "end_ms": 574270,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 75,
+          "start_ms": 706040,
+          "end_ms": 759839,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 794290,
+          "end_ms": 816740,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 882839,
+          "end_ms": 887739,
+          "text": "so"
+        },
+        {
+          "cue_id": 90,
+          "start_ms": 884610,
+          "end_ms": 887739,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 102,
+          "start_ms": 951760,
+          "end_ms": 969839,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 103,
+          "start_ms": 952959,
+          "end_ms": 969839,
+          "text": "know i is explain it in a way it works"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 1120840,
+          "end_ms": 1136259,
+          "text": "me"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 1123370,
+          "end_ms": 1136259,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 132,
+          "start_ms": 1204840,
+          "end_ms": 1221840,
+          "text": "uh me"
+        },
+        {
+          "cue_id": 138,
+          "start_ms": 1277080,
+          "end_ms": 1291870,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 145,
+          "start_ms": 1366360,
+          "end_ms": 1375400,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 150,
+          "start_ms": 1439540,
+          "end_ms": 1449500,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 1489550,
+          "end_ms": 1529910,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 161,
+          "start_ms": 1599170,
+          "end_ms": 1621759,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 1687120,
+          "end_ms": 1720440,
+          "text": "together we'll be"
+        },
+        {
+          "cue_id": 180,
+          "start_ms": 1764720,
+          "end_ms": 1771600,
+          "text": "we are forever learning"
+        },
+        {
+          "cue_id": 181,
+          "start_ms": 1767760,
+          "end_ms": 1780630,
+          "text": "one step at a time"
+        },
+        {
+          "cue_id": 191,
+          "start_ms": 1848840,
+          "end_ms": 1851640,
+          "text": "so"
+        },
+        {
+          "cue_id": 192,
+          "start_ms": 1850070,
+          "end_ms": 1862840,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 201,
+          "start_ms": 1922480,
+          "end_ms": 1932840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 202,
+          "start_ms": 1930540,
+          "end_ms": 1935840,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 2006300,
+          "end_ms": 2027509,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 2074389,
+          "end_ms": 2101249,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 2170839,
+          "end_ms": 2184839,
+          "text": "um"
+        },
+        {
+          "cue_id": 226,
+          "start_ms": 2172900,
+          "end_ms": 2186070,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 233,
+          "start_ms": 2244260,
+          "end_ms": 2257839,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 239,
+          "start_ms": 2315100,
+          "end_ms": 2405840,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 252,
+          "start_ms": 2491280,
+          "end_ms": 2509839,
+          "text": "the skies"
+        },
+        {
+          "cue_id": 253,
+          "start_ms": 2494319,
+          "end_ms": 2509839,
+          "text": "hold on just let us escape tonight"
+        }
+      ],
+      "text": "[Music]\ni'll go\nso\n[Music]\n[Music]\nme\n[Music]\n[Applause]\n[Music]\n[Music]\n[Music]\n[Music]\nso\n[Music]\n[Applause]\nknow i is explain it in a way it works\nme\n[Music]\nuh me\n[Music]\n[Music]\n[Music]\n[Music]\n[Music]\ntogether we'll be\nwe are forever learning\none step at a time\nso\n[Applause]\n[Music]\n[Applause]\n[Music]\n[Music]\num\n[Music]\n[Music]\n[Music]\nthe skies\nhold on just let us escape tonight",
+      "text_tokens": 140,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S11",
+        "cue_ids": [
+          11,
+          12
+        ],
+        "start_ms": 71500,
+        "end_ms": 92759,
+        "text": "[Music] [Applause]"
+      },
+      {
+        "id": "S24",
+        "cue_ids": [
+          24,
+          25,
+          26
+        ],
+        "start_ms": 156319,
+        "end_ms": 191110,
+        "text": "for you i'll go [Music]"
+      },
+      {
+        "id": "S32",
+        "cue_ids": [
+          32,
+          33,
+          34
+        ],
+        "start_ms": 230000,
+        "end_ms": 256849,
+        "text": "[Music] so [Music]"
+      },
+      {
+        "id": "S41",
+        "cue_ids": [
+          41,
+          42
+        ],
+        "start_ms": 301260,
+        "end_ms": 351909,
+        "text": "[Music] oh"
+      },
+      {
+        "id": "S46",
+        "cue_ids": [
+          46,
+          47,
+          48
+        ],
+        "start_ms": 392840,
+        "end_ms": 409840,
+        "text": "me [Music] uh"
+      },
+      {
+        "id": "S52",
+        "cue_ids": [
+          52,
+          53,
+          54
+        ],
+        "start_ms": 458080,
+        "end_ms": 484100,
+        "text": "[Music] [Applause] [Music]"
+      },
+      {
+        "id": "S62",
+        "cue_ids": [
+          62,
+          63,
+          64
+        ],
+        "start_ms": 546839,
+        "end_ms": 577839,
+        "text": "oh [Music] uh"
+      },
+      {
+        "id": "S75",
+        "cue_ids": [
+          75,
+          76
+        ],
+        "start_ms": 706040,
+        "end_ms": 759839,
+        "text": "[Music] do"
+      },
+      {
+        "id": "S79",
+        "cue_ids": [
+          79
+        ],
+        "start_ms": 794290,
+        "end_ms": 816740,
+        "text": "[Music]"
+      },
+      {
+        "id": "S88",
+        "cue_ids": [
+          88,
+          89,
+          90
+        ],
+        "start_ms": 861980,
+        "end_ms": 887739,
+        "text": "[Music] so [Music]"
+      },
+      {
+        "id": "S101",
+        "cue_ids": [
+          101,
+          102,
+          103,
+          104
+        ],
+        "start_ms": 944300,
+        "end_ms": 975149,
+        "text": "[Music] [Applause] know i is explain it in a way it works [Music]"
+      },
+      {
+        "id": "S123",
+        "cue_ids": [
+          123,
+          124,
+          125
+        ],
+        "start_ms": 1110870,
+        "end_ms": 1136259,
+        "text": "[Music] me [Music]"
+      },
+      {
+        "id": "S132",
+        "cue_ids": [
+          132
+        ],
+        "start_ms": 1204840,
+        "end_ms": 1221840,
+        "text": "uh me"
+      },
+      {
+        "id": "S138",
+        "cue_ids": [
+          138,
+          139
+        ],
+        "start_ms": 1277080,
+        "end_ms": 1302840,
+        "text": "[Music] [Applause]"
+      },
+      {
+        "id": "S145",
+        "cue_ids": [
+          145,
+          146
+        ],
+        "start_ms": 1366360,
+        "end_ms": 1401280,
+        "text": "[Music] oh"
+      },
+      {
+        "id": "S150",
+        "cue_ids": [
+          150
+        ],
+        "start_ms": 1439540,
+        "end_ms": 1449500,
+        "text": "[Music]"
+      },
+      {
+        "id": "S153",
+        "cue_ids": [
+          153,
+          154
+        ],
+        "start_ms": 1484840,
+        "end_ms": 1529910,
+        "text": "do [Music]"
+      },
+      {
+        "id": "S161",
+        "cue_ids": [
+          161
+        ],
+        "start_ms": 1599170,
+        "end_ms": 1621759,
+        "text": "[Music]"
+      },
+      {
+        "id": "S171",
+        "cue_ids": [
+          171,
+          172
+        ],
+        "start_ms": 1687120,
+        "end_ms": 1720440,
+        "text": "together we'll be [Music]"
+      },
+      {
+        "id": "S179",
+        "cue_ids": [
+          179,
+          180,
+          181,
+          182
+        ],
+        "start_ms": 1761900,
+        "end_ms": 1783839,
+        "text": "[Applause] we are forever learning one step at a time as long as the world is"
+      },
+      {
+        "id": "S190",
+        "cue_ids": [
+          190,
+          191,
+          192,
+          193
+        ],
+        "start_ms": 1846160,
+        "end_ms": 1865150,
+        "text": "[Music] so [Applause] [Music]"
+      },
+      {
+        "id": "S200",
+        "cue_ids": [
+          200,
+          201,
+          202,
+          203
+        ],
+        "start_ms": 1918840,
+        "end_ms": 1935840,
+        "text": "oh [Music] [Applause] so"
+      },
+      {
+        "id": "S209",
+        "cue_ids": [
+          209
+        ],
+        "start_ms": 2006300,
+        "end_ms": 2027509,
+        "text": "[Music]"
+      },
+      {
+        "id": "S215",
+        "cue_ids": [
+          215
+        ],
+        "start_ms": 2074389,
+        "end_ms": 2101249,
+        "text": "[Music]"
+      },
+      {
+        "id": "S224",
+        "cue_ids": [
+          224,
+          225,
+          226,
+          227
+        ],
+        "start_ms": 2164420,
+        "end_ms": 2194980,
+        "text": "[Music] um [Music] oh"
+      },
+      {
+        "id": "S232",
+        "cue_ids": [
+          232,
+          233,
+          234
+        ],
+        "start_ms": 2240839,
+        "end_ms": 2257839,
+        "text": "me [Music] uh"
+      },
+      {
+        "id": "S238",
+        "cue_ids": [
+          238,
+          239
+        ],
+        "start_ms": 2310839,
+        "end_ms": 2405840,
+        "text": "do [Music]"
+      },
+      {
+        "id": "S251",
+        "cue_ids": [
+          251,
+          252,
+          253
+        ],
+        "start_ms": 2487440,
+        "end_ms": 2509839,
+        "text": "i see the light inside you brighter than the skies hold on just let us escape tonight"
+      }
+    ],
+    "text": "S11 [00:01:11.500 --> 00:01:32.759] [Music] [Applause]\nS24 [00:02:36.319 --> 00:03:11.110] for you i'll go [Music]\nS32 [00:03:50.000 --> 00:04:16.849] [Music] so [Music]\nS41 [00:05:01.260 --> 00:05:51.909] [Music] oh\nS46 [00:06:32.840 --> 00:06:49.840] me [Music] uh\nS52 [00:07:38.080 --> 00:08:04.100] [Music] [Applause] [Music]\nS62 [00:09:06.839 --> 00:09:37.839] oh [Music] uh\nS75 [00:11:46.040 --> 00:12:39.839] [Music] do\nS79 [00:13:14.290 --> 00:13:36.740] [Music]\nS88 [00:14:21.980 --> 00:14:47.739] [Music] so [Music]\nS101 [00:15:44.300 --> 00:16:15.149] [Music] [Applause] know i is explain it in a way it works [Music]\nS123 [00:18:30.870 --> 00:18:56.259] [Music] me [Music]\nS132 [00:20:04.840 --> 00:20:21.840] uh me\nS138 [00:21:17.080 --> 00:21:42.840] [Music] [Applause]\nS145 [00:22:46.360 --> 00:23:21.280] [Music] oh\nS150 [00:23:59.540 --> 00:24:09.500] [Music]\nS153 [00:24:44.840 --> 00:25:29.910] do [Music]\nS161 [00:26:39.170 --> 00:27:01.759] [Music]\nS171 [00:28:07.120 --> 00:28:40.440] together we'll be [Music]\nS179 [00:29:21.900 --> 00:29:43.839] [Applause] we are forever learning one step at a time as long as the world is\nS190 [00:30:46.160 --> 00:31:05.150] [Music] so [Applause] [Music]\nS200 [00:31:58.840 --> 00:32:15.840] oh [Music] [Applause] so\nS209 [00:33:26.300 --> 00:33:47.509] [Music]\nS215 [00:34:34.389 --> 00:35:01.249] [Music]\nS224 [00:36:04.420 --> 00:36:34.980] [Music] um [Music] oh\nS232 [00:37:20.839 --> 00:37:37.839] me [Music] uh\nS238 [00:38:30.839 --> 00:40:05.840] do [Music]\nS251 [00:41:27.440 --> 00:41:49.839] i see the light inside you brighter than the skies hold on just let us escape tonight",
+    "text_tokens": 1099,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      12,
+      24,
+      26,
+      32,
+      42,
+      48,
+      52,
+      62,
+      64,
+      76,
+      88,
+      101,
+      104,
+      123,
+      139,
+      146,
+      153,
+      172,
+      179,
+      182,
+      190,
+      193,
+      200,
+      203,
+      224,
+      227,
+      232,
+      234,
+      238,
+      251
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "0c6552620a4afd868cfbe47795b198d989d391ccba4999860e93149afa359596"
+}

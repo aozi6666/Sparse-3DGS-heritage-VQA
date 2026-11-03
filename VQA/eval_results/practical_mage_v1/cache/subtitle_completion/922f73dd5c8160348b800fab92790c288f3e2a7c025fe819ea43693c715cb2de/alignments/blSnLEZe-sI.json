@@ -1,0 +1,930 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "blSnLEZe-sI",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/blSnLEZe-sI.srt",
+        "status": "available",
+        "bytes": 4176,
+        "sha256": "73f6175e1dd762865a85c6cc80b1dea0b46159b8f752ecd5f4c3d2a941174eb1",
+        "cues": 38,
+        "nonempty_cues": 38
+      },
+      "frame_indices": [
+        0,
+        84,
+        168,
+        252,
+        336,
+        420,
+        504,
+        588,
+        672,
+        756,
+        840,
+        924,
+        1008,
+        1092,
+        1176,
+        1260,
+        1345,
+        1429,
+        1513,
+        1597,
+        1681,
+        1765,
+        1849,
+        1933,
+        2017,
+        2101,
+        2185,
+        2269,
+        2353,
+        2437,
+        2521,
+        2605
+      ],
+      "frame_seconds": [
+        0.0,
+        3.36,
+        6.72,
+        10.08,
+        13.44,
+        16.8,
+        20.16,
+        23.52,
+        26.88,
+        30.24,
+        33.6,
+        36.96,
+        40.32,
+        43.68,
+        47.04,
+        50.4,
+        53.8,
+        57.16,
+        60.52,
+        63.88,
+        67.24,
+        70.6,
+        73.96000000000001,
+        77.32,
+        80.68,
+        84.03999999999999,
+        87.4,
+        90.76,
+        94.12,
+        97.47999999999999,
+        100.84,
+        104.2
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 2000,
+          "end_ms": 7410,
+          "text": "in the midst of the financial crisis"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 5180,
+          "end_ms": 10230,
+          "text": "policymakers began to look for quick"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7410,
+          "end_ms": 11070,
+          "text": "ways to stabilize the world economy amid"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 11070,
+          "end_ms": 15179,
+          "text": "one of the main responses that emerged"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 13230,
+          "end_ms": 17660,
+          "text": "in the United Kingdom and the United"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 15179,
+          "end_ms": 21029,
+          "text": "States was quantitative easing"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 17660,
+          "end_ms": 23430,
+          "text": "this is the process by which central"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 21029,
+          "end_ms": 26760,
+          "text": "banks like the Bank of England create"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 23430,
+          "end_ms": 29460,
+          "text": "money to buy financial assets QE is"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 26760,
+          "end_ms": 32790,
+          "text": "sometimes known as money printing but in"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 29460,
+          "end_ms": 35670,
+          "text": "reality no hard cash is actually created"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 32790,
+          "end_ms": 38640,
+          "text": "and most of us will never see it instead"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 35670,
+          "end_ms": 41040,
+          "text": "a central bank is able to digitally"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 38640,
+          "end_ms": 43140,
+          "text": "create money which is then deployed to"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 41040,
+          "end_ms": 45989,
+          "text": "purchase things like government debt in"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 43140,
+          "end_ms": 49559,
+          "text": "the form of bonds this is what happened"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 45989,
+          "end_ms": 54600,
+          "text": "to the UK to the tune of 375 billion"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 49559,
+          "end_ms": 56430,
+          "text": "pounds from 2009 QE helps lower the"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 54600,
+          "end_ms": 59370,
+          "text": "income investors can get from these"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 56430,
+          "end_ms": 62100,
+          "text": "so-called safe assets in doing so it"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 59370,
+          "end_ms": 64470,
+          "text": "makes them less attractive encouraging"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 62100,
+          "end_ms": 66869,
+          "text": "the same investors to go out and put"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 64470,
+          "end_ms": 68520,
+          "text": "their money into riskier things in the"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 66869,
+          "end_ms": 71400,
+          "text": "search of better returns on their"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 68520,
+          "end_ms": 74460,
+          "text": "investment one class of such assets is"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 71400,
+          "end_ms": 76920,
+          "text": "shares and since QE came into the world"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 74460,
+          "end_ms": 79830,
+          "text": "global stock markets have been on a"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 76920,
+          "end_ms": 81750,
+          "text": "healthy bull run the theory also goes"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 79830,
+          "end_ms": 83700,
+          "text": "that the institutions that sell these"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 81750,
+          "end_ms": 86070,
+          "text": "safe bonds also put their money"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 83700,
+          "end_ms": 88140,
+          "text": "elsewhere like lending to people and"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 86070,
+          "end_ms": 91170,
+          "text": "companies and thus helping boost"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 88140,
+          "end_ms": 93840,
+          "text": "economic activity when the economy has"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 91170,
+          "end_ms": 96570,
+          "text": "begun to recover the central bank then"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 93840,
+          "end_ms": 99720,
+          "text": "sells its assets and sterilizes the cash"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 96570,
+          "end_ms": 104210,
+          "text": "it receives from the sales so overall no"
+        },
+        {
+          "cue_id": 38,
+          "start_ms": 99720,
+          "end_ms": 104210,
+          "text": "additional money remains in the system"
+        }
+      ],
+      "text": "in the midst of the financial crisis\npolicymakers began to look for quick\nways to stabilize the world economy amid\none of the main responses that emerged\nin the United Kingdom and the United\nStates was quantitative easing\nthis is the process by which central\nbanks like the Bank of England create\nmoney to buy financial assets QE is\nsometimes known as money printing but in\nreality no hard cash is actually created\nand most of us will never see it instead\na central bank is able to digitally\ncreate money which is then deployed to\npurchase things like government debt in\nthe form of bonds this is what happened\nto the UK to the tune of 375 billion\npounds from 2009 QE helps lower the\nincome investors can get from these\nso-called safe assets in doing so it\nmakes them less attractive encouraging\nthe same investors to go out and put\ntheir money into riskier things in the\nsearch of better returns on their\ninvestment one class of such assets is\nshares and since QE came into the world\nglobal stock markets have been on a\nhealthy bull run the theory also goes\nthat the institutions that sell these\nsafe bonds also put their money\nelsewhere like lending to people and\ncompanies and thus helping boost\neconomic activity when the economy has\nbegun to recover the central bank then\nsells its assets and sterilizes the cash\nit receives from the sales so overall no\nadditional money remains in the system",
+      "text_tokens": 305,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "blSnLEZe-sI",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/blSnLEZe-sI.srt",
+          "status": "available",
+          "bytes": 4176,
+          "sha256": "73f6175e1dd762865a85c6cc80b1dea0b46159b8f752ecd5f4c3d2a941174eb1",
+          "cues": 38,
+          "nonempty_cues": 38
+        },
+        "frame_indices": [
+          0,
+          84,
+          168,
+          252,
+          336,
+          420,
+          504,
+          588,
+          672,
+          756,
+          840,
+          924,
+          1008,
+          1092,
+          1176,
+          1260,
+          1345,
+          1429,
+          1513,
+          1597,
+          1681,
+          1765,
+          1849,
+          1933,
+          2017,
+          2101,
+          2185,
+          2269,
+          2353,
+          2437,
+          2521,
+          2605
+        ],
+        "frame_seconds": [
+          0.0,
+          3.36,
+          6.72,
+          10.08,
+          13.44,
+          16.8,
+          20.16,
+          23.52,
+          26.88,
+          30.24,
+          33.6,
+          36.96,
+          40.32,
+          43.68,
+          47.04,
+          50.4,
+          53.8,
+          57.16,
+          60.52,
+          63.88,
+          67.24,
+          70.6,
+          73.96000000000001,
+          77.32,
+          80.68,
+          84.03999999999999,
+          87.4,
+          90.76,
+          94.12,
+          97.47999999999999,
+          100.84,
+          104.2
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            32,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            37,
+            38
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 2000,
+            "end_ms": 7410,
+            "text": "in the midst of the financial crisis"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 5180,
+            "end_ms": 10230,
+            "text": "policymakers began to look for quick"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7410,
+            "end_ms": 11070,
+            "text": "ways to stabilize the world economy amid"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 11070,
+            "end_ms": 15179,
+            "text": "one of the main responses that emerged"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 13230,
+            "end_ms": 17660,
+            "text": "in the United Kingdom and the United"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 15179,
+            "end_ms": 21029,
+            "text": "States was quantitative easing"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 17660,
+            "end_ms": 23430,
+            "text": "this is the process by which central"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 21029,
+            "end_ms": 26760,
+            "text": "banks like the Bank of England create"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 23430,
+            "end_ms": 29460,
+            "text": "money to buy financial assets QE is"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 26760,
+            "end_ms": 32790,
+            "text": "sometimes known as money printing but in"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 29460,
+            "end_ms": 35670,
+            "text": "reality no hard cash is actually created"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 32790,
+            "end_ms": 38640,
+            "text": "and most of us will never see it instead"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 35670,
+            "end_ms": 41040,
+            "text": "a central bank is able to digitally"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 38640,
+            "end_ms": 43140,
+            "text": "create money which is then deployed to"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 41040,
+            "end_ms": 45989,
+            "text": "purchase things like government debt in"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 43140,
+            "end_ms": 49559,
+            "text": "the form of bonds this is what happened"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 45989,
+            "end_ms": 54600,
+            "text": "to the UK to the tune of 375 billion"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 49559,
+            "end_ms": 56430,
+            "text": "pounds from 2009 QE helps lower the"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 54600,
+            "end_ms": 59370,
+            "text": "income investors can get from these"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 56430,
+            "end_ms": 62100,
+            "text": "so-called safe assets in doing so it"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 59370,
+            "end_ms": 64470,
+            "text": "makes them less attractive encouraging"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 62100,
+            "end_ms": 66869,
+            "text": "the same investors to go out and put"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 64470,
+            "end_ms": 68520,
+            "text": "their money into riskier things in the"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 66869,
+            "end_ms": 71400,
+            "text": "search of better returns on their"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 68520,
+            "end_ms": 74460,
+            "text": "investment one class of such assets is"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 71400,
+            "end_ms": 76920,
+            "text": "shares and since QE came into the world"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 74460,
+            "end_ms": 79830,
+            "text": "global stock markets have been on a"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 76920,
+            "end_ms": 81750,
+            "text": "healthy bull run the theory also goes"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 79830,
+            "end_ms": 83700,
+            "text": "that the institutions that sell these"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 81750,
+            "end_ms": 86070,
+            "text": "safe bonds also put their money"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 83700,
+            "end_ms": 88140,
+            "text": "elsewhere like lending to people and"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 86070,
+            "end_ms": 91170,
+            "text": "companies and thus helping boost"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 88140,
+            "end_ms": 93840,
+            "text": "economic activity when the economy has"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 91170,
+            "end_ms": 96570,
+            "text": "begun to recover the central bank then"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 93840,
+            "end_ms": 99720,
+            "text": "sells its assets and sterilizes the cash"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 96570,
+            "end_ms": 104210,
+            "text": "it receives from the sales so overall no"
+          },
+          {
+            "cue_id": 38,
+            "start_ms": 99720,
+            "end_ms": 104210,
+            "text": "additional money remains in the system"
+          }
+        ],
+        "text": "in the midst of the financial crisis\npolicymakers began to look for quick\nways to stabilize the world economy amid\none of the main responses that emerged\nin the United Kingdom and the United\nStates was quantitative easing\nthis is the process by which central\nbanks like the Bank of England create\nmoney to buy financial assets QE is\nsometimes known as money printing but in\nreality no hard cash is actually created\nand most of us will never see it instead\na central bank is able to digitally\ncreate money which is then deployed to\npurchase things like government debt in\nthe form of bonds this is what happened\nto the UK to the tune of 375 billion\npounds from 2009 QE helps lower the\nincome investors can get from these\nso-called safe assets in doing so it\nmakes them less attractive encouraging\nthe same investors to go out and put\ntheir money into riskier things in the\nsearch of better returns on their\ninvestment one class of such assets is\nshares and since QE came into the world\nglobal stock markets have been on a\nhealthy bull run the theory also goes\nthat the institutions that sell these\nsafe bonds also put their money\nelsewhere like lending to people and\ncompanies and thus helping boost\neconomic activity when the economy has\nbegun to recover the central bank then\nsells its assets and sterilizes the cash\nit receives from the sales so overall no\nadditional money remains in the system",
+        "text_tokens": 305,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "start_ms": 2000,
+          "end_ms": 104210,
+          "text": "in the midst of the financial crisis policymakers began to look for quick ways to stabilize the world economy amid two meltdown one of the main responses that emerged in the United Kingdom and the United States was quantitative easing this is the process by which central banks like the Bank of England create money to buy financial assets QE is sometimes known as money printing but in reality no hard cash is actually created and most of us will never see it instead a central bank is able to digitally create money which is then deployed to purchase things like government debt in the form of bonds this is what happened to the UK to the tune of 375 billion pounds from 2009 QE helps lower the income investors can get from these so-called safe assets in doing so it makes them less attractive encouraging the same investors to go out and put their money into riskier things in the search of better returns on their investment one class of such assets is shares and since QE came into the world global stock markets have been on a healthy bull run the theory also goes that the institutions that sell these safe bonds also put their money elsewhere like lending to people and companies and thus helping boost economic activity when the economy has begun to recover the central bank then sells its assets and sterilizes the cash it receives from the sales so overall no additional money remains in the system"
+        }
+      ],
+      "text": "S1 [00:00:02.000 --> 00:01:44.210] in the midst of the financial crisis policymakers began to look for quick ways to stabilize the world economy amid two meltdown one of the main responses that emerged in the United Kingdom and the United States was quantitative easing this is the process by which central banks like the Bank of England create money to buy financial assets QE is sometimes known as money printing but in reality no hard cash is actually created and most of us will never see it instead a central bank is able to digitally create money which is then deployed to purchase things like government debt in the form of bonds this is what happened to the UK to the tune of 375 billion pounds from 2009 QE helps lower the income investors can get from these so-called safe assets in doing so it makes them less attractive encouraging the same investors to go out and put their money into riskier things in the search of better returns on their investment one class of such assets is shares and since QE came into the world global stock markets have been on a healthy bull run the theory also goes that the institutions that sell these safe bonds also put their money elsewhere like lending to people and companies and thus helping boost economic activity when the economy has begun to recover the central bank then sells its assets and sterilizes the cash it receives from the sales so overall no additional money remains in the system",
+      "text_tokens": 293,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        4
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "4b8ec1fbc3e531b9a225ffaff55eca226601031e1078f06cf4d516eb67d9f9bb"
+}

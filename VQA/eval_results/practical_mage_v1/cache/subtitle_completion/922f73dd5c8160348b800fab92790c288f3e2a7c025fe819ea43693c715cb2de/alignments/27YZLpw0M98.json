@@ -1,0 +1,937 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "27YZLpw0M98",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/27YZLpw0M98.srt",
+        "status": "available",
+        "bytes": 4173,
+        "sha256": "4458b0cee16442d4875f7251dbe974bc3699e31844b5f3b608a6fb2d466e6746",
+        "cues": 40,
+        "nonempty_cues": 40
+      },
+      "frame_indices": [
+        0,
+        82,
+        165,
+        247,
+        329,
+        411,
+        494,
+        576,
+        658,
+        740,
+        823,
+        905,
+        987,
+        1069,
+        1152,
+        1234,
+        1316,
+        1398,
+        1481,
+        1563,
+        1645,
+        1727,
+        1810,
+        1892,
+        1974,
+        2056,
+        2139,
+        2221,
+        2303,
+        2385,
+        2468,
+        2550
+      ],
+      "frame_seconds": [
+        0.0,
+        3.28,
+        6.6,
+        9.88,
+        13.16,
+        16.44,
+        19.76,
+        23.04,
+        26.32,
+        29.6,
+        32.92,
+        36.2,
+        39.48,
+        42.76,
+        46.08,
+        49.36,
+        52.64,
+        55.92,
+        59.24,
+        62.52,
+        65.8,
+        69.08,
+        72.4,
+        75.68,
+        78.96000000000001,
+        82.24,
+        85.56,
+        88.84,
+        92.12,
+        95.4,
+        98.72,
+        102.0
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          39,
+          40
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 720,
+          "end_ms": 4330,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 4549,
+          "end_ms": 8760,
+          "text": "my name is Thomas and Petri and I'm here"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 7350,
+          "end_ms": 13950,
+          "text": "with nickel to encourage travel"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 8760,
+          "end_ms": 16109,
+          "text": "photographers to look deeper there's"
+        },
+        {
+          "cue_id": 5,
+          "start_ms": 13950,
+          "end_ms": 16920,
+          "text": "often more typical tourist destinations"
+        },
+        {
+          "cue_id": 6,
+          "start_ms": 16109,
+          "end_ms": 19320,
+          "text": "than meets the eye"
+        },
+        {
+          "cue_id": 7,
+          "start_ms": 16920,
+          "end_ms": 22199,
+          "text": "so I'm using a range of Nikon cameras"
+        },
+        {
+          "cue_id": 8,
+          "start_ms": 19320,
+          "end_ms": 25260,
+          "text": "and Nicko lenses to photograph above and"
+        },
+        {
+          "cue_id": 9,
+          "start_ms": 22199,
+          "end_ms": 27240,
+          "text": "below the surface to discover unique"
+        },
+        {
+          "cue_id": 10,
+          "start_ms": 25260,
+          "end_ms": 29390,
+          "text": "locations and deliver images from a"
+        },
+        {
+          "cue_id": 11,
+          "start_ms": 27240,
+          "end_ms": 31910,
+          "text": "different perspective"
+        },
+        {
+          "cue_id": 12,
+          "start_ms": 29390,
+          "end_ms": 33930,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 13,
+          "start_ms": 31910,
+          "end_ms": 36390,
+          "text": "underground shots you need to be more"
+        },
+        {
+          "cue_id": 14,
+          "start_ms": 33930,
+          "end_ms": 39420,
+          "text": "creative to create something unique out"
+        },
+        {
+          "cue_id": 15,
+          "start_ms": 36390,
+          "end_ms": 42510,
+          "text": "of sometimes nothing as the above ground"
+        },
+        {
+          "cue_id": 16,
+          "start_ms": 39420,
+          "end_ms": 47460,
+          "text": "is quite vibrant very colorful normally"
+        },
+        {
+          "cue_id": 17,
+          "start_ms": 42510,
+          "end_ms": 50250,
+          "text": "very lively places I'm sure everybody"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 47460,
+          "end_ms": 51660,
+          "text": "who likes traveling knows the excitement"
+        },
+        {
+          "cue_id": 20,
+          "start_ms": 51660,
+          "end_ms": 54030,
+          "text": "before"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 52110,
+          "end_ms": 55559,
+          "text": "it's very important to look for that"
+        },
+        {
+          "cue_id": 22,
+          "start_ms": 54030,
+          "end_ms": 58170,
+          "text": "first image for something different"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 55559,
+          "end_ms": 59940,
+          "text": "something that no one else has done just"
+        },
+        {
+          "cue_id": 24,
+          "start_ms": 58170,
+          "end_ms": 61079,
+          "text": "yet there's so many things that you"
+        },
+        {
+          "cue_id": 25,
+          "start_ms": 59940,
+          "end_ms": 63719,
+          "text": "might be missing because you're not"
+        },
+        {
+          "cue_id": 26,
+          "start_ms": 61079,
+          "end_ms": 68220,
+          "text": "looking maybe it's better to come in"
+        },
+        {
+          "cue_id": 27,
+          "start_ms": 63719,
+          "end_ms": 72090,
+          "text": "look around for seawall wear and find"
+        },
+        {
+          "cue_id": 28,
+          "start_ms": 68220,
+          "end_ms": 73860,
+          "text": "that unique angle the special place and"
+        },
+        {
+          "cue_id": 29,
+          "start_ms": 72090,
+          "end_ms": 75670,
+          "text": "then maybe start thinking about shooting"
+        },
+        {
+          "cue_id": 30,
+          "start_ms": 73860,
+          "end_ms": 77229,
+          "text": "it after"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 75670,
+          "end_ms": 79299,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 77229,
+          "end_ms": 81939,
+          "text": "I would like this image series to"
+        },
+        {
+          "cue_id": 33,
+          "start_ms": 79299,
+          "end_ms": 87340,
+          "text": "inspire people to go out more to shoot"
+        },
+        {
+          "cue_id": 34,
+          "start_ms": 81939,
+          "end_ms": 89770,
+          "text": "take pictures we all humans we are"
+        },
+        {
+          "cue_id": 35,
+          "start_ms": 87340,
+          "end_ms": 91840,
+          "text": "creative in something and if you like"
+        },
+        {
+          "cue_id": 36,
+          "start_ms": 89770,
+          "end_ms": 93070,
+          "text": "photography and I can inspire you to go"
+        },
+        {
+          "cue_id": 37,
+          "start_ms": 91840,
+          "end_ms": 94570,
+          "text": "out and shoot some more"
+        },
+        {
+          "cue_id": 39,
+          "start_ms": 94570,
+          "end_ms": 100369,
+          "text": "achievement"
+        },
+        {
+          "cue_id": 40,
+          "start_ms": 95400,
+          "end_ms": 100369,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\nmy name is Thomas and Petri and I'm here\nwith nickel to encourage travel\nphotographers to look deeper there's\noften more typical tourist destinations\nthan meets the eye\nso I'm using a range of Nikon cameras\nand Nicko lenses to photograph above and\nbelow the surface to discover unique\nlocations and deliver images from a\ndifferent perspective\n[Music]\nunderground shots you need to be more\ncreative to create something unique out\nof sometimes nothing as the above ground\nis quite vibrant very colorful normally\nvery lively places I'm sure everybody\nwho likes traveling knows the excitement\nbefore\nit's very important to look for that\nfirst image for something different\nsomething that no one else has done just\nyet there's so many things that you\nmight be missing because you're not\nlooking maybe it's better to come in\nlook around for seawall wear and find\nthat unique angle the special place and\nthen maybe start thinking about shooting\nit after\n[Music]\nI would like this image series to\ninspire people to go out more to shoot\ntake pictures we all humans we are\ncreative in something and if you like\nphotography and I can inspire you to go\nout and shoot some more\nachievement\n[Music]",
+      "text_tokens": 262,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "27YZLpw0M98",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/27YZLpw0M98.srt",
+          "status": "available",
+          "bytes": 4173,
+          "sha256": "4458b0cee16442d4875f7251dbe974bc3699e31844b5f3b608a6fb2d466e6746",
+          "cues": 40,
+          "nonempty_cues": 40
+        },
+        "frame_indices": [
+          0,
+          82,
+          165,
+          247,
+          329,
+          411,
+          494,
+          576,
+          658,
+          740,
+          823,
+          905,
+          987,
+          1069,
+          1152,
+          1234,
+          1316,
+          1398,
+          1481,
+          1563,
+          1645,
+          1727,
+          1810,
+          1892,
+          1974,
+          2056,
+          2139,
+          2221,
+          2303,
+          2385,
+          2468,
+          2550
+        ],
+        "frame_seconds": [
+          0.0,
+          3.28,
+          6.6,
+          9.88,
+          13.16,
+          16.44,
+          19.76,
+          23.04,
+          26.32,
+          29.6,
+          32.92,
+          36.2,
+          39.48,
+          42.76,
+          46.08,
+          49.36,
+          52.64,
+          55.92,
+          59.24,
+          62.52,
+          65.8,
+          69.08,
+          72.4,
+          75.68,
+          78.96000000000001,
+          82.24,
+          85.56,
+          88.84,
+          92.12,
+          95.4,
+          98.72,
+          102.0
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            39,
+            40
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 720,
+            "end_ms": 4330,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 4549,
+            "end_ms": 8760,
+            "text": "my name is Thomas and Petri and I'm here"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 7350,
+            "end_ms": 13950,
+            "text": "with nickel to encourage travel"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 8760,
+            "end_ms": 16109,
+            "text": "photographers to look deeper there's"
+          },
+          {
+            "cue_id": 5,
+            "start_ms": 13950,
+            "end_ms": 16920,
+            "text": "often more typical tourist destinations"
+          },
+          {
+            "cue_id": 6,
+            "start_ms": 16109,
+            "end_ms": 19320,
+            "text": "than meets the eye"
+          },
+          {
+            "cue_id": 7,
+            "start_ms": 16920,
+            "end_ms": 22199,
+            "text": "so I'm using a range of Nikon cameras"
+          },
+          {
+            "cue_id": 8,
+            "start_ms": 19320,
+            "end_ms": 25260,
+            "text": "and Nicko lenses to photograph above and"
+          },
+          {
+            "cue_id": 9,
+            "start_ms": 22199,
+            "end_ms": 27240,
+            "text": "below the surface to discover unique"
+          },
+          {
+            "cue_id": 10,
+            "start_ms": 25260,
+            "end_ms": 29390,
+            "text": "locations and deliver images from a"
+          },
+          {
+            "cue_id": 11,
+            "start_ms": 27240,
+            "end_ms": 31910,
+            "text": "different perspective"
+          },
+          {
+            "cue_id": 12,
+            "start_ms": 29390,
+            "end_ms": 33930,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 13,
+            "start_ms": 31910,
+            "end_ms": 36390,
+            "text": "underground shots you need to be more"
+          },
+          {
+            "cue_id": 14,
+            "start_ms": 33930,
+            "end_ms": 39420,
+            "text": "creative to create something unique out"
+          },
+          {
+            "cue_id": 15,
+            "start_ms": 36390,
+            "end_ms": 42510,
+            "text": "of sometimes nothing as the above ground"
+          },
+          {
+            "cue_id": 16,
+            "start_ms": 39420,
+            "end_ms": 47460,
+            "text": "is quite vibrant very colorful normally"
+          },
+          {
+            "cue_id": 17,
+            "start_ms": 42510,
+            "end_ms": 50250,
+            "text": "very lively places I'm sure everybody"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 47460,
+            "end_ms": 51660,
+            "text": "who likes traveling knows the excitement"
+          },
+          {
+            "cue_id": 20,
+            "start_ms": 51660,
+            "end_ms": 54030,
+            "text": "before"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 52110,
+            "end_ms": 55559,
+            "text": "it's very important to look for that"
+          },
+          {
+            "cue_id": 22,
+            "start_ms": 54030,
+            "end_ms": 58170,
+            "text": "first image for something different"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 55559,
+            "end_ms": 59940,
+            "text": "something that no one else has done just"
+          },
+          {
+            "cue_id": 24,
+            "start_ms": 58170,
+            "end_ms": 61079,
+            "text": "yet there's so many things that you"
+          },
+          {
+            "cue_id": 25,
+            "start_ms": 59940,
+            "end_ms": 63719,
+            "text": "might be missing because you're not"
+          },
+          {
+            "cue_id": 26,
+            "start_ms": 61079,
+            "end_ms": 68220,
+            "text": "looking maybe it's better to come in"
+          },
+          {
+            "cue_id": 27,
+            "start_ms": 63719,
+            "end_ms": 72090,
+            "text": "look around for seawall wear and find"
+          },
+          {
+            "cue_id": 28,
+            "start_ms": 68220,
+            "end_ms": 73860,
+            "text": "that unique angle the special place and"
+          },
+          {
+            "cue_id": 29,
+            "start_ms": 72090,
+            "end_ms": 75670,
+            "text": "then maybe start thinking about shooting"
+          },
+          {
+            "cue_id": 30,
+            "start_ms": 73860,
+            "end_ms": 77229,
+            "text": "it after"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 75670,
+            "end_ms": 79299,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 77229,
+            "end_ms": 81939,
+            "text": "I would like this image series to"
+          },
+          {
+            "cue_id": 33,
+            "start_ms": 79299,
+            "end_ms": 87340,
+            "text": "inspire people to go out more to shoot"
+          },
+          {
+            "cue_id": 34,
+            "start_ms": 81939,
+            "end_ms": 89770,
+            "text": "take pictures we all humans we are"
+          },
+          {
+            "cue_id": 35,
+            "start_ms": 87340,
+            "end_ms": 91840,
+            "text": "creative in something and if you like"
+          },
+          {
+            "cue_id": 36,
+            "start_ms": 89770,
+            "end_ms": 93070,
+            "text": "photography and I can inspire you to go"
+          },
+          {
+            "cue_id": 37,
+            "start_ms": 91840,
+            "end_ms": 94570,
+            "text": "out and shoot some more"
+          },
+          {
+            "cue_id": 39,
+            "start_ms": 94570,
+            "end_ms": 100369,
+            "text": "achievement"
+          },
+          {
+            "cue_id": 40,
+            "start_ms": 95400,
+            "end_ms": 100369,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\nmy name is Thomas and Petri and I'm here\nwith nickel to encourage travel\nphotographers to look deeper there's\noften more typical tourist destinations\nthan meets the eye\nso I'm using a range of Nikon cameras\nand Nicko lenses to photograph above and\nbelow the surface to discover unique\nlocations and deliver images from a\ndifferent perspective\n[Music]\nunderground shots you need to be more\ncreative to create something unique out\nof sometimes nothing as the above ground\nis quite vibrant very colorful normally\nvery lively places I'm sure everybody\nwho likes traveling knows the excitement\nbefore\nit's very important to look for that\nfirst image for something different\nsomething that no one else has done just\nyet there's so many things that you\nmight be missing because you're not\nlooking maybe it's better to come in\nlook around for seawall wear and find\nthat unique angle the special place and\nthen maybe start thinking about shooting\nit after\n[Music]\nI would like this image series to\ninspire people to go out more to shoot\ntake pictures we all humans we are\ncreative in something and if you like\nphotography and I can inspire you to go\nout and shoot some more\nachievement\n[Music]",
+        "text_tokens": 262,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_ms": 720,
+          "end_ms": 100369,
+          "text": "[Music] my name is Thomas and Petri and I'm here with nickel to encourage travel photographers to look deeper there's often more typical tourist destinations than meets the eye so I'm using a range of Nikon cameras and Nicko lenses to photograph above and below the surface to discover unique locations and deliver images from a different perspective [Music] underground shots you need to be more creative to create something unique out of sometimes nothing as the above ground is quite vibrant very colorful normally very lively places I'm sure everybody who likes traveling knows the excitement of going to a place you never been before it's very important to look for that first image for something different something that no one else has done just yet there's so many things that you might be missing because you're not looking maybe it's better to come in look around for seawall wear and find that unique angle the special place and then maybe start thinking about shooting it after [Music] I would like this image series to inspire people to go out more to shoot take pictures we all humans we are creative in something and if you like photography and I can inspire you to go out and shoot some more I think there'll be a pretty good achievement [Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.720 --> 00:01:40.369] [Music] my name is Thomas and Petri and I'm here with nickel to encourage travel photographers to look deeper there's often more typical tourist destinations than meets the eye so I'm using a range of Nikon cameras and Nicko lenses to photograph above and below the surface to discover unique locations and deliver images from a different perspective [Music] underground shots you need to be more creative to create something unique out of sometimes nothing as the above ground is quite vibrant very colorful normally very lively places I'm sure everybody who likes traveling knows the excitement of going to a place you never been before it's very important to look for that first image for something different something that no one else has done just yet there's so many things that you might be missing because you're not looking maybe it's better to come in look around for seawall wear and find that unique angle the special place and then maybe start thinking about shooting it after [Music] I would like this image series to inspire people to go out more to shoot take pictures we all humans we are creative in something and if you like photography and I can inspire you to go out and shoot some more I think there'll be a pretty good achievement [Music]",
+      "text_tokens": 270,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        19,
+        38
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "78d95205bc2fa1be4626f6c2d576f0cbbd3d46297f8d3e92bd21fd188f59ca3d"
+}

@@ -1,0 +1,77 @@
+{
+  "signature": "86f337f035388253a22e9dcb7d7a6977005aae4ab1273fa75313735ba5ab2c16",
+  "indices": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "stage": "smoke",
+  "chosen": null,
+  "codec_vote": false,
+  "store": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/cache/ballots/86f337f035388253a22e9dcb7d7a6977005aae4ab1273fa75313735ba5ab2c16",
+  "protocol": {
+    "version": "practical_vote_v1",
+    "model": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/models",
+      "files": {
+        "config.json": "fd4621212569e893ce2caa110431fde73f3cc1a1d92e1b8320bb4e0cfbcad34a",
+        "preprocessor_config.json": "86401f541a46dee7689e84444b87cfa556e1575f1994a446582dc58d919cc69e",
+        "video_preprocessor_config.json": "9d8345e0c7be09da56d8ea535fa6a5fa1a35728ccec9e7dbffa030ba34ce4a72",
+        "processing_mage_vl.py": "2649113685f95754a1862f7c9e3c02fd6845c32610c68f8a6de418f62f6ebba5",
+        "codec_video_processing_mage_vl.py": "f3bff7fe00f84a91d542e08561d5d819dd6a4b4192cf075858eb8c495f9e0b02",
+        "video_processing_mage_vl.py": "67f28ea772c260b131983e8a90ad15948134a1baa769bfe6adbf0dd383541acb",
+        "modeling_mage_vl.py": "3fe8bb1e40fa38db4ae08da097ee1238aa4258c4d454e66fe93a44d08ab641ec",
+        "configuration_mage_vl.py": "7e3da0c90726ef33da4f0362b3c71dc28650003f1cc11e061d3e99404a8bfed8",
+        "generation_config.json": "8b9afb365eaab1c8fc2395f618067ee2307b9821e207f12c5c52cf371a14b0e0",
+        "tokenizer.json": "ba0c439f7be467bf47d12a7e6f9adc6116201056fc60c67f431c679b7c16afc8",
+        "tokenizer_config.json": "f64d944a98d2d9901581be7a5f36b626ff2dc0d5b7d5dedb412412ca39606df0",
+        "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "chat_template.jinja": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb",
+        "added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+        "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "model.safetensors.index.json": "2cad26f4364750d9b0551dff11e776837b9ef822fe29e068f68d935a8e65cc54"
+      },
+      "weights": {
+        "model-00001-of-00002.safetensors": {
+          "bytes": 4967403560,
+          "mtime_ns": 1790995391468161570
+        },
+        "model-00002-of-00002.safetensors": {
+          "bytes": 4516272328,
+          "mtime_ns": 1790650478888965243
+        }
+      }
+    },
+    "tsv_sha256": "4561edc65eb3a1ea71267fe096fdd334832b4bcd29f4ef0e78c6e65af01a8265",
+    "inputs_sha256": "4cef983e5db3599c6a071069659beb89c9e8b246ebd2fbc663bdd73084c8f3a4",
+    "splits_sha256": "53d6040b0ac13464adb68173d43c518948d10de7f61886fda04899d4ba24b22a",
+    "legacy_smoke_sha256": "40690054eb4cadb881d2b633825ed01d73252219fc1f2aa55a07e735d90a5579",
+    "prompt": "These are the frames of a video. Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option.\n{question}\n{options}",
+    "frames": 32,
+    "max_pixels": 150000,
+    "min_pixels": 3136,
+    "codec": {
+      "engine": "hevc",
+      "target_canvas": 32,
+      "patch": 16,
+      "group_size": 32,
+      "images_per_group": 4,
+      "spatial_mask_mode": "off",
+      "max_pixels": 150000
+    },
+    "seed": 0,
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "score": "raw first-position logits; score aggregation only when first token is parsed answer; vote uses original free-generation parser",
+    "permutations": "four cyclic rotations; semantic majority; ties prefer identity",
+    "scripts": {
+      "practical_common.py": "099b6932b6da4733e9cd06b4f4c7f41f889241eb4b7fa6d9753fab5ac14320a9",
+      "practical_vote.py": "f00fc93fd57ac616d27d56dc420a2726e5f5b3edba9593b9bf7fa42b28106acb",
+      "practical_analyze.py": "a3a0236482f6ebff1be5851022cd54685b3557052ec6e73562b26fae963640d6"
+    }
+  }
+}

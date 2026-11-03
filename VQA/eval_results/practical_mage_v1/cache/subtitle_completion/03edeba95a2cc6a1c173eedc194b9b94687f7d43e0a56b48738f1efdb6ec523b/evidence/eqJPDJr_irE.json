@@ -1,0 +1,1531 @@
+{
+  "signature": "03edeba95a2cc6a1c173eedc194b9b94687f7d43e0a56b48738f1efdb6ec523b",
+  "evidence": {
+    "aligned": {
+      "video_id": "eqJPDJr_irE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eqJPDJr_irE.srt",
+        "status": "available",
+        "bytes": 82274,
+        "sha256": "66b95239ac4d2d46d3488cbbb254661cee9376d71825a78469aa716cca363e35",
+        "cues": 753,
+        "nonempty_cues": 753
+      },
+      "frame_indices": [
+        0,
+        1930,
+        3860,
+        5790,
+        7720,
+        9650,
+        11580,
+        13510,
+        15440,
+        17370,
+        19300,
+        21230,
+        23160,
+        25090,
+        27020,
+        28950,
+        30879,
+        32809,
+        34739,
+        36669,
+        38599,
+        40529,
+        42459,
+        44389,
+        46319,
+        48249,
+        50179,
+        52109,
+        54039,
+        55969,
+        57899,
+        59829
+      ],
+      "frame_seconds": [
+        0.0,
+        64.397667,
+        128.795333,
+        193.193,
+        257.590667,
+        321.988333,
+        386.386,
+        450.783667,
+        515.181333,
+        579.579,
+        643.976667,
+        708.374333,
+        772.772,
+        837.169667,
+        901.567333,
+        965.965,
+        1030.3293,
+        1094.726967,
+        1159.124633,
+        1223.5223,
+        1287.919967,
+        1352.3176330000001,
+        1416.7153,
+        1481.112967,
+        1545.510633,
+        1609.9083,
+        1674.305967,
+        1738.703633,
+        1803.1013,
+        1867.498967,
+        1931.896633,
+        1996.2943
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          22,
+          23
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          86,
+          87
+        ],
+        [
+          114,
+          115
+        ],
+        [
+          141,
+          142
+        ],
+        [
+          166,
+          167
+        ],
+        [
+          191,
+          192
+        ],
+        [
+          214,
+          215
+        ],
+        [
+          239,
+          240
+        ],
+        [
+          268,
+          269
+        ],
+        [
+          290,
+          291
+        ],
+        [
+          316,
+          317
+        ],
+        [
+          339,
+          340
+        ],
+        [
+          356,
+          357
+        ],
+        [],
+        [
+          398,
+          399
+        ],
+        [
+          423,
+          424
+        ],
+        [
+          453,
+          454
+        ],
+        [
+          481,
+          482
+        ],
+        [
+          509,
+          510
+        ],
+        [
+          533,
+          534
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          584,
+          585
+        ],
+        [
+          609,
+          610
+        ],
+        [
+          631,
+          632
+        ],
+        [
+          652,
+          653
+        ],
+        [
+          672,
+          673
+        ],
+        [
+          696,
+          697
+        ],
+        [
+          715,
+          716
+        ],
+        [
+          735,
+          736
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 22,
+          "start_ms": 61280,
+          "end_ms": 65519,
+          "text": "was together one time and I hate to be"
+        },
+        {
+          "cue_id": 23,
+          "start_ms": 63760,
+          "end_ms": 67200,
+          "text": "crude but it was a one night stand I"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 126360,
+          "end_ms": 130239,
+          "text": "still had doubt I've never to this day"
+        },
+        {
+          "cue_id": 55,
+          "start_ms": 128318,
+          "end_ms": 132360,
+          "text": "thank God for your show or I'd never"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 190080,
+          "end_ms": 194280,
+          "text": "cruel and unusual punishment to be"
+        },
+        {
+          "cue_id": 87,
+          "start_ms": 192000,
+          "end_ms": 197280,
+          "text": "sentenced to 5 years in prison with"
+        },
+        {
+          "cue_id": 114,
+          "start_ms": 253560,
+          "end_ms": 260839,
+          "text": "automatically the natural he better find"
+        },
+        {
+          "cue_id": 115,
+          "start_ms": 256680,
+          "end_ms": 263880,
+          "text": "a way listen listen the pain that you've"
+        },
+        {
+          "cue_id": 141,
+          "start_ms": 318360,
+          "end_ms": 322000,
+          "text": "clerks they sent me every I have a"
+        },
+        {
+          "cue_id": 142,
+          "start_ms": 320160,
+          "end_ms": 323720,
+          "text": "docket sheet here that pretty much"
+        },
+        {
+          "cue_id": 166,
+          "start_ms": 383240,
+          "end_ms": 386759,
+          "text": "think it happened I think she worked in"
+        },
+        {
+          "cue_id": 167,
+          "start_ms": 384479,
+          "end_ms": 390280,
+          "text": "the lab and she's had this thing"
+        },
+        {
+          "cue_id": 191,
+          "start_ms": 447919,
+          "end_ms": 456000,
+          "text": "you were there on that day right EST"
+        },
+        {
+          "cue_id": 192,
+          "start_ms": 450039,
+          "end_ms": 460319,
+          "text": "that we do however see a lab record of a"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 512559,
+          "end_ms": 517440,
+          "text": "of this"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 513880,
+          "end_ms": 520679,
+          "text": "evidence is I don't see any information"
+        },
+        {
+          "cue_id": 239,
+          "start_ms": 576760,
+          "end_ms": 580480,
+          "text": "to you no as to whether or not Dylan was"
+        },
+        {
+          "cue_id": 240,
+          "start_ms": 578720,
+          "end_ms": 582440,
+          "text": "his son until he was around 18 not until"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 641959,
+          "end_ms": 646200,
+          "text": "but that's because of the doubt that"
+        },
+        {
+          "cue_id": 269,
+          "start_ms": 643880,
+          "end_ms": 649160,
+          "text": "I've had you know you didn't even I've"
+        },
+        {
+          "cue_id": 290,
+          "start_ms": 703920,
+          "end_ms": 708920,
+          "text": "to my mother that's what I didn't want"
+        },
+        {
+          "cue_id": 291,
+          "start_ms": 705839,
+          "end_ms": 713200,
+          "text": "to do I didn't want to do"
+        },
+        {
+          "cue_id": 316,
+          "start_ms": 769920,
+          "end_ms": 775440,
+          "text": "Diagnostics and because this is a very"
+        },
+        {
+          "cue_id": 317,
+          "start_ms": 772399,
+          "end_ms": 779360,
+          "text": "special case and we've had previous DNA"
+        },
+        {
+          "cue_id": 339,
+          "start_ms": 833399,
+          "end_ms": 839199,
+          "text": "com comfortable with that procedure the"
+        },
+        {
+          "cue_id": 340,
+          "start_ms": 836720,
+          "end_ms": 843920,
+          "text": "lab because of the sensitivity ity of"
+        },
+        {
+          "cue_id": 356,
+          "start_ms": 893560,
+          "end_ms": 901720,
+          "text": "you"
+        },
+        {
+          "cue_id": 357,
+          "start_ms": 896120,
+          "end_ms": 904800,
+          "text": "are not oh God his father oh"
+        },
+        {
+          "cue_id": 398,
+          "start_ms": 1027079,
+          "end_ms": 1032839,
+          "text": "all Mrs Johnson you and your husband"
+        },
+        {
+          "cue_id": 399,
+          "start_ms": 1030319,
+          "end_ms": 1035160,
+          "text": "have been together for five years you"
+        },
+        {
+          "cue_id": 423,
+          "start_ms": 1089840,
+          "end_ms": 1095039,
+          "text": "closure if I go ahead and find out if"
+        },
+        {
+          "cue_id": 424,
+          "start_ms": 1092159,
+          "end_ms": 1097159,
+          "text": "they're mine or Not So you you're a"
+        },
+        {
+          "cue_id": 453,
+          "start_ms": 1155559,
+          "end_ms": 1161000,
+          "text": "not so tell me about your relationship"
+        },
+        {
+          "cue_id": 454,
+          "start_ms": 1158360,
+          "end_ms": 1163360,
+          "text": "with Mr Johnson somebody introduced me"
+        },
+        {
+          "cue_id": 481,
+          "start_ms": 1220360,
+          "end_ms": 1225440,
+          "text": "you're pregnant when you find out your"
+        },
+        {
+          "cue_id": 482,
+          "start_ms": 1222240,
+          "end_ms": 1227919,
+          "text": "pregnant do you tell him well you know"
+        },
+        {
+          "cue_id": 509,
+          "start_ms": 1285159,
+          "end_ms": 1289360,
+          "text": "that she was possibly pregnant by me no"
+        },
+        {
+          "cue_id": 510,
+          "start_ms": 1287720,
+          "end_ms": 1291360,
+          "text": "nothing like Miss Davis never came out"
+        },
+        {
+          "cue_id": 533,
+          "start_ms": 1348039,
+          "end_ms": 1352919,
+          "text": "June 11th me and my husband met 5 years"
+        },
+        {
+          "cue_id": 534,
+          "start_ms": 1351080,
+          "end_ms": 1355279,
+          "text": "ago I was the very first girl that he"
+        },
+        {
+          "cue_id": 560,
+          "start_ms": 1412520,
+          "end_ms": 1417039,
+          "text": "to come and this and that saying I want"
+        },
+        {
+          "cue_id": 561,
+          "start_ms": 1414919,
+          "end_ms": 1420279,
+          "text": "to come home how long ago I want to come"
+        },
+        {
+          "cue_id": 584,
+          "start_ms": 1475440,
+          "end_ms": 1481159,
+          "text": "do you believe that cuz like like I was"
+        },
+        {
+          "cue_id": 585,
+          "start_ms": 1478120,
+          "end_ms": 1483960,
+          "text": "saying like all the girls that he got"
+        },
+        {
+          "cue_id": 609,
+          "start_ms": 1539679,
+          "end_ms": 1547120,
+          "text": "you see similarity between the boys yes"
+        },
+        {
+          "cue_id": 610,
+          "start_ms": 1543159,
+          "end_ms": 1550399,
+          "text": "yes this is a photo of Mr Johnson and"
+        },
+        {
+          "cue_id": 631,
+          "start_ms": 1607159,
+          "end_ms": 1613520,
+          "text": "have too much dealings so this is the"
+        },
+        {
+          "cue_id": 632,
+          "start_ms": 1609799,
+          "end_ms": 1616880,
+          "text": "first time actually this court has heard"
+        },
+        {
+          "cue_id": 652,
+          "start_ms": 1670880,
+          "end_ms": 1676919,
+          "text": "Christiana and their mother Miss Davis"
+        },
+        {
+          "cue_id": 653,
+          "start_ms": 1674200,
+          "end_ms": 1679480,
+          "text": "says she believes that the twins were"
+        },
+        {
+          "cue_id": 672,
+          "start_ms": 1734559,
+          "end_ms": 1742399,
+          "text": "days later also had sex with your ex X"
+        },
+        {
+          "cue_id": 673,
+          "start_ms": 1738080,
+          "end_ms": 1744080,
+          "text": "yes sh all right so can you tell us what"
+        },
+        {
+          "cue_id": 696,
+          "start_ms": 1801200,
+          "end_ms": 1804559,
+          "text": "all well I think we've heard enough"
+        },
+        {
+          "cue_id": 697,
+          "start_ms": 1803039,
+          "end_ms": 1806919,
+          "text": "testimony and I don't know about you but"
+        },
+        {
+          "cue_id": 715,
+          "start_ms": 1863279,
+          "end_ms": 1871440,
+          "text": "surprise you not at all all"
+        },
+        {
+          "cue_id": 716,
+          "start_ms": 1867279,
+          "end_ms": 1877000,
+          "text": "right the next result reads as"
+        },
+        {
+          "cue_id": 735,
+          "start_ms": 1930200,
+          "end_ms": 1934720,
+          "text": "possibility that they wasn't you had"
+        },
+        {
+          "cue_id": 736,
+          "start_ms": 1931840,
+          "end_ms": 1935960,
+          "text": "prepared yourself yes how do you feel"
+        }
+      ],
+      "text": "was together one time and I hate to be\ncrude but it was a one night stand I\nstill had doubt I've never to this day\nthank God for your show or I'd never\ncruel and unusual punishment to be\nsentenced to 5 years in prison with\nautomatically the natural he better find\na way listen listen the pain that you've\nclerks they sent me every I have a\ndocket sheet here that pretty much\nthink it happened I think she worked in\nthe lab and she's had this thing\nyou were there on that day right EST\nthat we do however see a lab record of a\nof this\nevidence is I don't see any information\nto you no as to whether or not Dylan was\nhis son until he was around 18 not until\nbut that's because of the doubt that\nI've had you know you didn't even I've\nto my mother that's what I didn't want\nto do I didn't want to do\nDiagnostics and because this is a very\nspecial case and we've had previous DNA\ncom comfortable with that procedure the\nlab because of the sensitivity ity of\nyou\nare not oh God his father oh\nall Mrs Johnson you and your husband\nhave been together for five years you\nclosure if I go ahead and find out if\nthey're mine or Not So you you're a\nnot so tell me about your relationship\nwith Mr Johnson somebody introduced me\nyou're pregnant when you find out your\npregnant do you tell him well you know\nthat she was possibly pregnant by me no\nnothing like Miss Davis never came out\nJune 11th me and my husband met 5 years\nago I was the very first girl that he\nto come and this and that saying I want\nto come home how long ago I want to come\ndo you believe that cuz like like I was\nsaying like all the girls that he got\nyou see similarity between the boys yes\nyes this is a photo of Mr Johnson and\nhave too much dealings so this is the\nfirst time actually this court has heard\nChristiana and their mother Miss Davis\nsays she believes that the twins were\ndays later also had sex with your ex X\nyes sh all right so can you tell us what\nall well I think we've heard enough\ntestimony and I don't know about you but\nsurprise you not at all all\nright the next result reads as\npossibility that they wasn't you had\nprepared yourself yes how do you feel",
+      "text_tokens": 532,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "eqJPDJr_irE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/eqJPDJr_irE.srt",
+          "status": "available",
+          "bytes": 82274,
+          "sha256": "66b95239ac4d2d46d3488cbbb254661cee9376d71825a78469aa716cca363e35",
+          "cues": 753,
+          "nonempty_cues": 753
+        },
+        "frame_indices": [
+          0,
+          1930,
+          3860,
+          5790,
+          7720,
+          9650,
+          11580,
+          13510,
+          15440,
+          17370,
+          19300,
+          21230,
+          23160,
+          25090,
+          27020,
+          28950,
+          30879,
+          32809,
+          34739,
+          36669,
+          38599,
+          40529,
+          42459,
+          44389,
+          46319,
+          48249,
+          50179,
+          52109,
+          54039,
+          55969,
+          57899,
+          59829
+        ],
+        "frame_seconds": [
+          0.0,
+          64.397667,
+          128.795333,
+          193.193,
+          257.590667,
+          321.988333,
+          386.386,
+          450.783667,
+          515.181333,
+          579.579,
+          643.976667,
+          708.374333,
+          772.772,
+          837.169667,
+          901.567333,
+          965.965,
+          1030.3293,
+          1094.726967,
+          1159.124633,
+          1223.5223,
+          1287.919967,
+          1352.3176330000001,
+          1416.7153,
+          1481.112967,
+          1545.510633,
+          1609.9083,
+          1674.305967,
+          1738.703633,
+          1803.1013,
+          1867.498967,
+          1931.896633,
+          1996.2943
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            22,
+            23
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            86,
+            87
+          ],
+          [
+            114,
+            115
+          ],
+          [
+            141,
+            142
+          ],
+          [
+            166,
+            167
+          ],
+          [
+            191,
+            192
+          ],
+          [
+            214,
+            215
+          ],
+          [
+            239,
+            240
+          ],
+          [
+            268,
+            269
+          ],
+          [
+            290,
+            291
+          ],
+          [
+            316,
+            317
+          ],
+          [
+            339,
+            340
+          ],
+          [
+            356,
+            357
+          ],
+          [],
+          [
+            398,
+            399
+          ],
+          [
+            423,
+            424
+          ],
+          [
+            453,
+            454
+          ],
+          [
+            481,
+            482
+          ],
+          [
+            509,
+            510
+          ],
+          [
+            533,
+            534
+          ],
+          [
+            560,
+            561
+          ],
+          [
+            584,
+            585
+          ],
+          [
+            609,
+            610
+          ],
+          [
+            631,
+            632
+          ],
+          [
+            652,
+            653
+          ],
+          [
+            672,
+            673
+          ],
+          [
+            696,
+            697
+          ],
+          [
+            715,
+            716
+          ],
+          [
+            735,
+            736
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 22,
+            "start_ms": 61280,
+            "end_ms": 65519,
+            "text": "was together one time and I hate to be"
+          },
+          {
+            "cue_id": 23,
+            "start_ms": 63760,
+            "end_ms": 67200,
+            "text": "crude but it was a one night stand I"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 126360,
+            "end_ms": 130239,
+            "text": "still had doubt I've never to this day"
+          },
+          {
+            "cue_id": 55,
+            "start_ms": 128318,
+            "end_ms": 132360,
+            "text": "thank God for your show or I'd never"
+          },
+          {
+            "cue_id": 86,
+            "start_ms": 190080,
+            "end_ms": 194280,
+            "text": "cruel and unusual punishment to be"
+          },
+          {
+            "cue_id": 87,
+            "start_ms": 192000,
+            "end_ms": 197280,
+            "text": "sentenced to 5 years in prison with"
+          },
+          {
+            "cue_id": 114,
+            "start_ms": 253560,
+            "end_ms": 260839,
+            "text": "automatically the natural he better find"
+          },
+          {
+            "cue_id": 115,
+            "start_ms": 256680,
+            "end_ms": 263880,
+            "text": "a way listen listen the pain that you've"
+          },
+          {
+            "cue_id": 141,
+            "start_ms": 318360,
+            "end_ms": 322000,
+            "text": "clerks they sent me every I have a"
+          },
+          {
+            "cue_id": 142,
+            "start_ms": 320160,
+            "end_ms": 323720,
+            "text": "docket sheet here that pretty much"
+          },
+          {
+            "cue_id": 166,
+            "start_ms": 383240,
+            "end_ms": 386759,
+            "text": "think it happened I think she worked in"
+          },
+          {
+            "cue_id": 167,
+            "start_ms": 384479,
+            "end_ms": 390280,
+            "text": "the lab and she's had this thing"
+          },
+          {
+            "cue_id": 191,
+            "start_ms": 447919,
+            "end_ms": 456000,
+            "text": "you were there on that day right EST"
+          },
+          {
+            "cue_id": 192,
+            "start_ms": 450039,
+            "end_ms": 460319,
+            "text": "that we do however see a lab record of a"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 512559,
+            "end_ms": 517440,
+            "text": "of this"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 513880,
+            "end_ms": 520679,
+            "text": "evidence is I don't see any information"
+          },
+          {
+            "cue_id": 239,
+            "start_ms": 576760,
+            "end_ms": 580480,
+            "text": "to you no as to whether or not Dylan was"
+          },
+          {
+            "cue_id": 240,
+            "start_ms": 578720,
+            "end_ms": 582440,
+            "text": "his son until he was around 18 not until"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 641959,
+            "end_ms": 646200,
+            "text": "but that's because of the doubt that"
+          },
+          {
+            "cue_id": 269,
+            "start_ms": 643880,
+            "end_ms": 649160,
+            "text": "I've had you know you didn't even I've"
+          },
+          {
+            "cue_id": 290,
+            "start_ms": 703920,
+            "end_ms": 708920,
+            "text": "to my mother that's what I didn't want"
+          },
+          {
+            "cue_id": 291,
+            "start_ms": 705839,
+            "end_ms": 713200,
+            "text": "to do I didn't want to do"
+          },
+          {
+            "cue_id": 316,
+            "start_ms": 769920,
+            "end_ms": 775440,
+            "text": "Diagnostics and because this is a very"
+          },
+          {
+            "cue_id": 317,
+            "start_ms": 772399,
+            "end_ms": 779360,
+            "text": "special case and we've had previous DNA"
+          },
+          {
+            "cue_id": 339,
+            "start_ms": 833399,
+            "end_ms": 839199,
+            "text": "com comfortable with that procedure the"
+          },
+          {
+            "cue_id": 340,
+            "start_ms": 836720,
+            "end_ms": 843920,
+            "text": "lab because of the sensitivity ity of"
+          },
+          {
+            "cue_id": 356,
+            "start_ms": 893560,
+            "end_ms": 901720,
+            "text": "you"
+          },
+          {
+            "cue_id": 357,
+            "start_ms": 896120,
+            "end_ms": 904800,
+            "text": "are not oh God his father oh"
+          },
+          {
+            "cue_id": 398,
+            "start_ms": 1027079,
+            "end_ms": 1032839,
+            "text": "all Mrs Johnson you and your husband"
+          },
+          {
+            "cue_id": 399,
+            "start_ms": 1030319,
+            "end_ms": 1035160,
+            "text": "have been together for five years you"
+          },
+          {
+            "cue_id": 423,
+            "start_ms": 1089840,
+            "end_ms": 1095039,
+            "text": "closure if I go ahead and find out if"
+          },
+          {
+            "cue_id": 424,
+            "start_ms": 1092159,
+            "end_ms": 1097159,
+            "text": "they're mine or Not So you you're a"
+          },
+          {
+            "cue_id": 453,
+            "start_ms": 1155559,
+            "end_ms": 1161000,
+            "text": "not so tell me about your relationship"
+          },
+          {
+            "cue_id": 454,
+            "start_ms": 1158360,
+            "end_ms": 1163360,
+            "text": "with Mr Johnson somebody introduced me"
+          },
+          {
+            "cue_id": 481,
+            "start_ms": 1220360,
+            "end_ms": 1225440,
+            "text": "you're pregnant when you find out your"
+          },
+          {
+            "cue_id": 482,
+            "start_ms": 1222240,
+            "end_ms": 1227919,
+            "text": "pregnant do you tell him well you know"
+          },
+          {
+            "cue_id": 509,
+            "start_ms": 1285159,
+            "end_ms": 1289360,
+            "text": "that she was possibly pregnant by me no"
+          },
+          {
+            "cue_id": 510,
+            "start_ms": 1287720,
+            "end_ms": 1291360,
+            "text": "nothing like Miss Davis never came out"
+          },
+          {
+            "cue_id": 533,
+            "start_ms": 1348039,
+            "end_ms": 1352919,
+            "text": "June 11th me and my husband met 5 years"
+          },
+          {
+            "cue_id": 534,
+            "start_ms": 1351080,
+            "end_ms": 1355279,
+            "text": "ago I was the very first girl that he"
+          },
+          {
+            "cue_id": 560,
+            "start_ms": 1412520,
+            "end_ms": 1417039,
+            "text": "to come and this and that saying I want"
+          },
+          {
+            "cue_id": 561,
+            "start_ms": 1414919,
+            "end_ms": 1420279,
+            "text": "to come home how long ago I want to come"
+          },
+          {
+            "cue_id": 584,
+            "start_ms": 1475440,
+            "end_ms": 1481159,
+            "text": "do you believe that cuz like like I was"
+          },
+          {
+            "cue_id": 585,
+            "start_ms": 1478120,
+            "end_ms": 1483960,
+            "text": "saying like all the girls that he got"
+          },
+          {
+            "cue_id": 609,
+            "start_ms": 1539679,
+            "end_ms": 1547120,
+            "text": "you see similarity between the boys yes"
+          },
+          {
+            "cue_id": 610,
+            "start_ms": 1543159,
+            "end_ms": 1550399,
+            "text": "yes this is a photo of Mr Johnson and"
+          },
+          {
+            "cue_id": 631,
+            "start_ms": 1607159,
+            "end_ms": 1613520,
+            "text": "have too much dealings so this is the"
+          },
+          {
+            "cue_id": 632,
+            "start_ms": 1609799,
+            "end_ms": 1616880,
+            "text": "first time actually this court has heard"
+          },
+          {
+            "cue_id": 652,
+            "start_ms": 1670880,
+            "end_ms": 1676919,
+            "text": "Christiana and their mother Miss Davis"
+          },
+          {
+            "cue_id": 653,
+            "start_ms": 1674200,
+            "end_ms": 1679480,
+            "text": "says she believes that the twins were"
+          },
+          {
+            "cue_id": 672,
+            "start_ms": 1734559,
+            "end_ms": 1742399,
+            "text": "days later also had sex with your ex X"
+          },
+          {
+            "cue_id": 673,
+            "start_ms": 1738080,
+            "end_ms": 1744080,
+            "text": "yes sh all right so can you tell us what"
+          },
+          {
+            "cue_id": 696,
+            "start_ms": 1801200,
+            "end_ms": 1804559,
+            "text": "all well I think we've heard enough"
+          },
+          {
+            "cue_id": 697,
+            "start_ms": 1803039,
+            "end_ms": 1806919,
+            "text": "testimony and I don't know about you but"
+          },
+          {
+            "cue_id": 715,
+            "start_ms": 1863279,
+            "end_ms": 1871440,
+            "text": "surprise you not at all all"
+          },
+          {
+            "cue_id": 716,
+            "start_ms": 1867279,
+            "end_ms": 1877000,
+            "text": "right the next result reads as"
+          },
+          {
+            "cue_id": 735,
+            "start_ms": 1930200,
+            "end_ms": 1934720,
+            "text": "possibility that they wasn't you had"
+          },
+          {
+            "cue_id": 736,
+            "start_ms": 1931840,
+            "end_ms": 1935960,
+            "text": "prepared yourself yes how do you feel"
+          }
+        ],
+        "text": "was together one time and I hate to be\ncrude but it was a one night stand I\nstill had doubt I've never to this day\nthank God for your show or I'd never\ncruel and unusual punishment to be\nsentenced to 5 years in prison with\nautomatically the natural he better find\na way listen listen the pain that you've\nclerks they sent me every I have a\ndocket sheet here that pretty much\nthink it happened I think she worked in\nthe lab and she's had this thing\nyou were there on that day right EST\nthat we do however see a lab record of a\nof this\nevidence is I don't see any information\nto you no as to whether or not Dylan was\nhis son until he was around 18 not until\nbut that's because of the doubt that\nI've had you know you didn't even I've\nto my mother that's what I didn't want\nto do I didn't want to do\nDiagnostics and because this is a very\nspecial case and we've had previous DNA\ncom comfortable with that procedure the\nlab because of the sensitivity ity of\nyou\nare not oh God his father oh\nall Mrs Johnson you and your husband\nhave been together for five years you\nclosure if I go ahead and find out if\nthey're mine or Not So you you're a\nnot so tell me about your relationship\nwith Mr Johnson somebody introduced me\nyou're pregnant when you find out your\npregnant do you tell him well you know\nthat she was possibly pregnant by me no\nnothing like Miss Davis never came out\nJune 11th me and my husband met 5 years\nago I was the very first girl that he\nto come and this and that saying I want\nto come home how long ago I want to come\ndo you believe that cuz like like I was\nsaying like all the girls that he got\nyou see similarity between the boys yes\nyes this is a photo of Mr Johnson and\nhave too much dealings so this is the\nfirst time actually this court has heard\nChristiana and their mother Miss Davis\nsays she believes that the twins were\ndays later also had sex with your ex X\nyes sh all right so can you tell us what\nall well I think we've heard enough\ntestimony and I don't know about you but\nsurprise you not at all all\nright the next result reads as\npossibility that they wasn't you had\nprepared yourself yes how do you feel",
+        "text_tokens": 532,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "start_ms": 57960,
+          "end_ms": 69479,
+          "text": "spoken to her but as far as intimacy we was together one time and I hate to be crude but it was a one night stand I don't care what your version was I was"
+        },
+        {
+          "id": "S53",
+          "cue_ids": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "start_ms": 124360,
+          "end_ms": 133800,
+          "text": "child support still un aable to pay I still had doubt I've never to this day thank God for your show or I'd never know for sure whether or not I was the"
+        },
+        {
+          "id": "S85",
+          "cue_ids": [
+            85,
+            86,
+            87,
+            88
+          ],
+          "start_ms": 188120,
+          "end_ms": 199519,
+          "text": "know in today's society I think it's cruel and unusual punishment to be sentenced to 5 years in prison with rapists and and murderers and and child"
+        },
+        {
+          "id": "S113",
+          "cue_ids": [
+            113,
+            114,
+            115,
+            116
+          ],
+          "start_ms": 251439,
+          "end_ms": 267560,
+          "text": "Massachusetts to Texas he's automatically the natural he better find a way listen listen the pain that you've endured and what you've gone through is"
+        },
+        {
+          "id": "S140",
+          "cue_ids": [
+            140,
+            141,
+            142,
+            143
+          ],
+          "start_ms": 316360,
+          "end_ms": 325720,
+          "text": "submitted a test I got a hold the court clerks they sent me every I have a docket sheet here that pretty much details everything that's ever taking"
+        },
+        {
+          "id": "S165",
+          "cue_ids": [
+            165,
+            166,
+            167,
+            168
+          ],
+          "start_ms": 380759,
+          "end_ms": 393599,
+          "text": "performed yes ma'am I see here I don't think it happened I think she worked in the lab and she's had this thing manufactured so this is movies are made"
+        },
+        {
+          "id": "S190",
+          "cue_ids": [
+            190,
+            191,
+            192,
+            193
+          ],
+          "start_ms": 446120,
+          "end_ms": 464479,
+          "text": "is true because there's no evidence that you were there on that day right EST that we do however see a lab record of a collection taken on May the 1st"
+        },
+        {
+          "id": "S213",
+          "cue_ids": [
+            213,
+            214,
+            215,
+            216
+          ],
+          "start_ms": 510360,
+          "end_ms": 525160,
+          "text": "what I do believe that's missing in all of this evidence is I don't see any information relating to the"
+        },
+        {
+          "id": "S238",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241
+          ],
+          "start_ms": 574760,
+          "end_ms": 583760,
+          "text": "you're saying that he expressed no doubt to you no as to whether or not Dylan was his son until he was around 18 not until Dylan turned 18 don't you think the fact"
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268,
+            269,
+            270
+          ],
+          "start_ms": 640440,
+          "end_ms": 651440,
+          "text": "I've been withdrawing I've been distant but that's because of the doubt that I've had you know you didn't even I've had doubt so Mr mancer you claim this"
+        },
+        {
+          "id": "S289",
+          "cue_ids": [
+            289,
+            290,
+            291,
+            292
+          ],
+          "start_ms": 700760,
+          "end_ms": 714920,
+          "text": "respect someone talking so much harmful to my mother that's what I didn't want to do I didn't want to do that what do you want from today Dylan I"
+        },
+        {
+          "id": "S315",
+          "cue_ids": [
+            315,
+            316,
+            317,
+            318
+          ],
+          "start_ms": 768120,
+          "end_ms": 781880,
+          "text": "DNA Diagnostics and because this is a very special case and we've had previous DNA testing done in which our plan is"
+        },
+        {
+          "id": "S338",
+          "cue_ids": [
+            338,
+            339,
+            340,
+            341
+          ],
+          "start_ms": 831800,
+          "end_ms": 847160,
+          "text": "procedure that's a correct and you were com comfortable with that procedure the lab because of the sensitivity ity of this issue ran two tests nice the"
+        },
+        {
+          "id": "S355",
+          "cue_ids": [
+            355,
+            356,
+            357,
+            358
+          ],
+          "start_ms": 891399,
+          "end_ms": 908519,
+          "text": "maner you are not oh God his father oh man 5 years in"
+        },
+        {
+          "id": "S397",
+          "cue_ids": [
+            397,
+            398,
+            399,
+            400
+          ],
+          "start_ms": 1023600,
+          "end_ms": 1037520,
+          "text": "the court can provide resources for you all Mrs Johnson you and your husband have been together for five years you are in court to save your marriage by"
+        },
+        {
+          "id": "S422",
+          "cue_ids": [
+            422,
+            423,
+            424,
+            425
+          ],
+          "start_ms": 1088400,
+          "end_ms": 1099799,
+          "text": "just feel like we'll have a lot more closure if I go ahead and find out if they're mine or Not So you you're a married man and you're torn between two"
+        },
+        {
+          "id": "S452",
+          "cue_ids": [
+            452,
+            453,
+            454,
+            455
+          ],
+          "start_ms": 1154600,
+          "end_ms": 1164640,
+          "text": "sure not so tell me about your relationship with Mr Johnson somebody introduced me to him okay so we was together for a"
+        },
+        {
+          "id": "S480",
+          "cue_ids": [
+            480,
+            481,
+            482,
+            483
+          ],
+          "start_ms": 1217799,
+          "end_ms": 1228799,
+          "text": "married to his wife M but you find out you're pregnant when you find out your pregnant do you tell him well you know not really no I told his mama you know"
+        },
+        {
+          "id": "S508",
+          "cue_ids": [
+            508,
+            509,
+            510,
+            511
+          ],
+          "start_ms": 1281720,
+          "end_ms": 1293320,
+          "text": "was pregnant Y at the time nobody knew that she was possibly pregnant by me no nothing like Miss Davis never came out and told anybody that she was pregnant"
+        },
+        {
+          "id": "S532",
+          "cue_ids": [
+            532,
+            533,
+            534,
+            535
+          ],
+          "start_ms": 1345480,
+          "end_ms": 1357400,
+          "text": "married we we will be married one year June 11th me and my husband met 5 years ago I was the very first girl that he met so I'm the very first one so they"
+        },
+        {
+          "id": "S559",
+          "cue_ids": [
+            559,
+            560,
+            561,
+            562
+          ],
+          "start_ms": 1409840,
+          "end_ms": 1422039,
+          "text": "texting you just not too long ago I want to come and this and that saying I want to come home how long ago I want to come home like a month ago like a month ago"
+        },
+        {
+          "id": "S583",
+          "cue_ids": [
+            583,
+            584,
+            585,
+            586
+          ],
+          "start_ms": 1470520,
+          "end_ms": 1485840,
+          "text": "Mr Johnson's biological daughter yes why do you believe that cuz like like I was saying like all the girls that he got know they all favor like got face"
+        },
+        {
+          "id": "S608",
+          "cue_ids": [
+            608,
+            609,
+            610,
+            611
+          ],
+          "start_ms": 1537159,
+          "end_ms": 1553600,
+          "text": "you do between his yeah his older son you see similarity between the boys yes yes this is a photo of Mr Johnson and then this is a photo of"
+        },
+        {
+          "id": "S630",
+          "cue_ids": [
+            630,
+            631,
+            632,
+            633
+          ],
+          "start_ms": 1603679,
+          "end_ms": 1620880,
+          "text": "Bond but the little boy me and him don't have too much dealings so this is the first time actually this court has heard a case where twins could potentially"
+        },
+        {
+          "id": "S651",
+          "cue_ids": [
+            651,
+            652,
+            653,
+            654
+          ],
+          "start_ms": 1667159,
+          "end_ms": 1681519,
+          "text": "related to beautiful twins Christian and Christiana and their mother Miss Davis says she believes that the twins were fathered by two different men and so I"
+        },
+        {
+          "id": "S671",
+          "cue_ids": [
+            671,
+            672,
+            673,
+            674
+          ],
+          "start_ms": 1730840,
+          "end_ms": 1745480,
+          "text": "Mr Johnson one day and then a couple days later also had sex with your ex X yes sh all right so can you tell us what the odds are what are we looking at here"
+        },
+        {
+          "id": "S695",
+          "cue_ids": [
+            695,
+            696,
+            697,
+            698
+          ],
+          "start_ms": 1798240,
+          "end_ms": 1808200,
+          "text": "all understand uh the biology of this all well I think we've heard enough testimony and I don't know about you but I am ready to get the results for these"
+        },
+        {
+          "id": "S714",
+          "cue_ids": [
+            714,
+            715,
+            716,
+            717
+          ],
+          "start_ms": 1860760,
+          "end_ms": 1880519,
+          "text": "was his yes sheana so that result didn't surprise you not at all all right the next result reads as follows in the case of Johnson versus"
+        },
+        {
+          "id": "S734",
+          "cue_ids": [
+            734,
+            735,
+            736,
+            737
+          ],
+          "start_ms": 1928200,
+          "end_ms": 1938320,
+          "text": "to me cuz I knew that it was a possibility that they wasn't you had prepared yourself yes how do you feel Miss"
+        }
+      ],
+      "text": "S21 [00:00:57.960 --> 00:01:09.479] spoken to her but as far as intimacy we was together one time and I hate to be crude but it was a one night stand I don't care what your version was I was\nS53 [00:02:04.360 --> 00:02:13.800] child support still un aable to pay I still had doubt I've never to this day thank God for your show or I'd never know for sure whether or not I was the\nS85 [00:03:08.120 --> 00:03:19.519] know in today's society I think it's cruel and unusual punishment to be sentenced to 5 years in prison with rapists and and murderers and and child\nS113 [00:04:11.439 --> 00:04:27.560] Massachusetts to Texas he's automatically the natural he better find a way listen listen the pain that you've endured and what you've gone through is\nS140 [00:05:16.360 --> 00:05:25.720] submitted a test I got a hold the court clerks they sent me every I have a docket sheet here that pretty much details everything that's ever taking\nS165 [00:06:20.759 --> 00:06:33.599] performed yes ma'am I see here I don't think it happened I think she worked in the lab and she's had this thing manufactured so this is movies are made\nS190 [00:07:26.120 --> 00:07:44.479] is true because there's no evidence that you were there on that day right EST that we do however see a lab record of a collection taken on May the 1st\nS213 [00:08:30.360 --> 00:08:45.160] what I do believe that's missing in all of this evidence is I don't see any information relating to the\nS238 [00:09:34.760 --> 00:09:43.760] you're saying that he expressed no doubt to you no as to whether or not Dylan was his son until he was around 18 not until Dylan turned 18 don't you think the fact\nS267 [00:10:40.440 --> 00:10:51.440] I've been withdrawing I've been distant but that's because of the doubt that I've had you know you didn't even I've had doubt so Mr mancer you claim this\nS289 [00:11:40.760 --> 00:11:54.920] respect someone talking so much harmful to my mother that's what I didn't want to do I didn't want to do that what do you want from today Dylan I\nS315 [00:12:48.120 --> 00:13:01.880] DNA Diagnostics and because this is a very special case and we've had previous DNA testing done in which our plan is\nS338 [00:13:51.800 --> 00:14:07.160] procedure that's a correct and you were com comfortable with that procedure the lab because of the sensitivity ity of this issue ran two tests nice the\nS355 [00:14:51.399 --> 00:15:08.519] maner you are not oh God his father oh man 5 years in\nS397 [00:17:03.600 --> 00:17:17.520] the court can provide resources for you all Mrs Johnson you and your husband have been together for five years you are in court to save your marriage by\nS422 [00:18:08.400 --> 00:18:19.799] just feel like we'll have a lot more closure if I go ahead and find out if they're mine or Not So you you're a married man and you're torn between two\nS452 [00:19:14.600 --> 00:19:24.640] sure not so tell me about your relationship with Mr Johnson somebody introduced me to him okay so we was together for a\nS480 [00:20:17.799 --> 00:20:28.799] married to his wife M but you find out you're pregnant when you find out your pregnant do you tell him well you know not really no I told his mama you know\nS508 [00:21:21.720 --> 00:21:33.320] was pregnant Y at the time nobody knew that she was possibly pregnant by me no nothing like Miss Davis never came out and told anybody that she was pregnant\nS532 [00:22:25.480 --> 00:22:37.400] married we we will be married one year June 11th me and my husband met 5 years ago I was the very first girl that he met so I'm the very first one so they\nS559 [00:23:29.840 --> 00:23:42.039] texting you just not too long ago I want to come and this and that saying I want to come home how long ago I want to come home like a month ago like a month ago\nS583 [00:24:30.520 --> 00:24:45.840] Mr Johnson's biological daughter yes why do you believe that cuz like like I was saying like all the girls that he got know they all favor like got face\nS608 [00:25:37.159 --> 00:25:53.600] you do between his yeah his older son you see similarity between the boys yes yes this is a photo of Mr Johnson and then this is a photo of\nS630 [00:26:43.679 --> 00:27:00.880] Bond but the little boy me and him don't have too much dealings so this is the first time actually this court has heard a case where twins could potentially\nS651 [00:27:47.159 --> 00:28:01.519] related to beautiful twins Christian and Christiana and their mother Miss Davis says she believes that the twins were fathered by two different men and so I\nS671 [00:28:50.840 --> 00:29:05.480] Mr Johnson one day and then a couple days later also had sex with your ex X yes sh all right so can you tell us what the odds are what are we looking at here\nS695 [00:29:58.240 --> 00:30:08.200] all understand uh the biology of this all well I think we've heard enough testimony and I don't know about you but I am ready to get the results for these\nS714 [00:31:00.760 --> 00:31:20.519] was his yes sheana so that result didn't surprise you not at all all right the next result reads as follows in the case of Johnson versus\nS734 [00:32:08.200 --> 00:32:18.320] to me cuz I knew that it was a possibility that they wasn't you had prepared yourself yes how do you feel Miss",
+      "text_tokens": 1853,
+      "status": "used",
+      "budget": 3072,
+      "added_cue_ids": [
+        21,
+        24,
+        53,
+        56,
+        85,
+        88,
+        113,
+        116,
+        140,
+        143,
+        165,
+        168,
+        190,
+        193,
+        213,
+        216,
+        238,
+        241,
+        267,
+        270,
+        289,
+        292,
+        315,
+        318,
+        338,
+        341,
+        355,
+        358,
+        397,
+        400,
+        422,
+        425,
+        452,
+        455,
+        480,
+        483,
+        508,
+        511,
+        532,
+        535,
+        559,
+        562,
+        583,
+        586,
+        608,
+        611,
+        630,
+        633,
+        651,
+        654,
+        671,
+        674,
+        695,
+        698,
+        714,
+        717,
+        734,
+        737
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "431b958448feac0abbb21cca28a273e67b2301565440db13136fc2ae51c37638"
+}

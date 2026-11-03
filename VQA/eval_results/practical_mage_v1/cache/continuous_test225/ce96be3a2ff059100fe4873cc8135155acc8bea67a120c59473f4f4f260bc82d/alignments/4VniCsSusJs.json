@@ -1,0 +1,1342 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "4VniCsSusJs",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4VniCsSusJs.srt",
+        "status": "available",
+        "bytes": 121669,
+        "sha256": "3351d059fa445835b6ada69bb6b5c6086c9b8ff550199fe6300fe9029e5c534f",
+        "cues": 1120,
+        "nonempty_cues": 1120
+      },
+      "frame_indices": [
+        0,
+        2703,
+        5406,
+        8109,
+        10811,
+        13514,
+        16217,
+        18920,
+        21623,
+        24326,
+        27029,
+        29732,
+        32434,
+        35137,
+        37840,
+        40543,
+        43246,
+        45949,
+        48652,
+        51355,
+        54057,
+        56760,
+        59463,
+        62166,
+        64869,
+        67572,
+        70275,
+        72978,
+        75680,
+        78383,
+        81086,
+        83789
+      ],
+      "frame_seconds": [
+        0.0,
+        90.1901,
+        180.3802,
+        270.5703,
+        360.727033,
+        450.917133,
+        541.107233,
+        631.297333,
+        721.487433,
+        811.677533,
+        901.867633,
+        992.057733,
+        1082.214467,
+        1172.404567,
+        1262.594667,
+        1352.784767,
+        1442.974867,
+        1533.164967,
+        1623.355067,
+        1713.545167,
+        1803.7019,
+        1893.892,
+        1984.0821,
+        2074.2722,
+        2164.4623,
+        2254.6524,
+        2344.8425,
+        2435.0326,
+        2525.189333,
+        2615.379433,
+        2705.569533,
+        2795.759633
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          19
+        ],
+        [
+          48,
+          49
+        ],
+        [],
+        [
+          124,
+          125
+        ],
+        [
+          168,
+          169
+        ],
+        [
+          210,
+          211
+        ],
+        [
+          247,
+          248
+        ],
+        [
+          282,
+          283
+        ],
+        [
+          320
+        ],
+        [
+          361,
+          362
+        ],
+        [
+          403,
+          404
+        ],
+        [],
+        [
+          471,
+          472
+        ],
+        [
+          509,
+          510
+        ],
+        [
+          541,
+          542
+        ],
+        [
+          573,
+          574
+        ],
+        [
+          609,
+          610
+        ],
+        [
+          649,
+          650
+        ],
+        [
+          687,
+          688
+        ],
+        [
+          728
+        ],
+        [],
+        [
+          793,
+          794
+        ],
+        [
+          831,
+          832
+        ],
+        [
+          873,
+          874
+        ],
+        [
+          916,
+          917
+        ],
+        [
+          947,
+          948
+        ],
+        [],
+        [],
+        [
+          1047,
+          1048
+        ],
+        [
+          1083,
+          1084
+        ],
+        [
+          1119,
+          1120
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 19,
+          "start_ms": 87440,
+          "end_ms": 90519,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 48,
+          "start_ms": 175500,
+          "end_ms": 181319,
+          "text": "of ketchup I know so it sticks you ready"
+        },
+        {
+          "cue_id": 49,
+          "start_ms": 177780,
+          "end_ms": 183599,
+          "text": "are you no perfect I've been gonna have"
+        },
+        {
+          "cue_id": 124,
+          "start_ms": 357600,
+          "end_ms": 362520,
+          "text": "your taco all right oh nope yeah I fell"
+        },
+        {
+          "cue_id": 125,
+          "start_ms": 360300,
+          "end_ms": 364380,
+          "text": "apart got some Prego spaghettis house"
+        },
+        {
+          "cue_id": 168,
+          "start_ms": 446819,
+          "end_ms": 451160,
+          "text": "see that is an artist and he knows it"
+        },
+        {
+          "cue_id": 169,
+          "start_ms": 448500,
+          "end_ms": 451160,
+          "text": "looks awesome"
+        },
+        {
+          "cue_id": 210,
+          "start_ms": 536820,
+          "end_ms": 542220,
+          "text": "post notifications in five seconds right"
+        },
+        {
+          "cue_id": 211,
+          "start_ms": 539040,
+          "end_ms": 545220,
+          "text": "now here we go you ready five four three"
+        },
+        {
+          "cue_id": 247,
+          "start_ms": 629399,
+          "end_ms": 632640,
+          "text": "look at all jokes aside this smells"
+        },
+        {
+          "cue_id": 248,
+          "start_ms": 630779,
+          "end_ms": 634320,
+          "text": "disgusting right now not for you dude I"
+        },
+        {
+          "cue_id": 282,
+          "start_ms": 718200,
+          "end_ms": 723380,
+          "text": "now it's all over you good luck getting"
+        },
+        {
+          "cue_id": 283,
+          "start_ms": 719579,
+          "end_ms": 725880,
+          "text": "your spoon out no I'm not doing it"
+        },
+        {
+          "cue_id": 320,
+          "start_ms": 811139,
+          "end_ms": 815160,
+          "text": "that was actually delicious what I just"
+        },
+        {
+          "cue_id": 361,
+          "start_ms": 898100,
+          "end_ms": 902339,
+          "text": "I'm done you can't go better than that"
+        },
+        {
+          "cue_id": 362,
+          "start_ms": 900600,
+          "end_ms": 903839,
+          "text": "that was amazing yeah it was pretty"
+        },
+        {
+          "cue_id": 403,
+          "start_ms": 990600,
+          "end_ms": 994459,
+          "text": "um"
+        },
+        {
+          "cue_id": 404,
+          "start_ms": 991459,
+          "end_ms": 994459,
+          "text": "oh"
+        },
+        {
+          "cue_id": 471,
+          "start_ms": 1167480,
+          "end_ms": 1172720,
+          "text": "because we're actually adding the french"
+        },
+        {
+          "cue_id": 472,
+          "start_ms": 1168919,
+          "end_ms": 1175000,
+          "text": "fries into the milkshake let's go"
+        },
+        {
+          "cue_id": 509,
+          "start_ms": 1260000,
+          "end_ms": 1264980,
+          "text": "and I can smell it and now we have a new"
+        },
+        {
+          "cue_id": 510,
+          "start_ms": 1262039,
+          "end_ms": 1267340,
+          "text": "one but it's the same problem 20 minutes"
+        },
+        {
+          "cue_id": 541,
+          "start_ms": 1349820,
+          "end_ms": 1354860,
+          "text": "how is it"
+        },
+        {
+          "cue_id": 542,
+          "start_ms": 1352419,
+          "end_ms": 1357080,
+          "text": "first impression surprise can't believe"
+        },
+        {
+          "cue_id": 573,
+          "start_ms": 1440059,
+          "end_ms": 1444500,
+          "text": "pizza yeah okay well we got some m m as"
+        },
+        {
+          "cue_id": 574,
+          "start_ms": 1442220,
+          "end_ms": 1447260,
+          "text": "well and we're gonna combine these into"
+        },
+        {
+          "cue_id": 609,
+          "start_ms": 1530179,
+          "end_ms": 1533480,
+          "text": "spread around the oil with the cheese"
+        },
+        {
+          "cue_id": 610,
+          "start_ms": 1531559,
+          "end_ms": 1535480,
+          "text": "what is that even a thing I don't know"
+        },
+        {
+          "cue_id": 649,
+          "start_ms": 1620059,
+          "end_ms": 1623900,
+          "text": "of this one and right now let's go to"
+        },
+        {
+          "cue_id": 650,
+          "start_ms": 1621559,
+          "end_ms": 1627200,
+          "text": "the next Devin but what's better than a"
+        },
+        {
+          "cue_id": 687,
+          "start_ms": 1709640,
+          "end_ms": 1715600,
+          "text": "um there's no way that last one's going"
+        },
+        {
+          "cue_id": 688,
+          "start_ms": 1711380,
+          "end_ms": 1718220,
+          "text": "in here you gotta in no oh man oh"
+        },
+        {
+          "cue_id": 728,
+          "start_ms": 1803620,
+          "end_ms": 1806770,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 793,
+          "start_ms": 1980600,
+          "end_ms": 1986200,
+          "text": "chips into the cereal so what better way"
+        },
+        {
+          "cue_id": 794,
+          "start_ms": 1982340,
+          "end_ms": 1986200,
+          "text": "to do it it's like a Morocco"
+        },
+        {
+          "cue_id": 831,
+          "start_ms": 2071918,
+          "end_ms": 2075399,
+          "text": "yogurt on it all that matters is that"
+        },
+        {
+          "cue_id": 832,
+          "start_ms": 2073839,
+          "end_ms": 2077139,
+          "text": "the bread's flat and the yogurt is"
+        },
+        {
+          "cue_id": 873,
+          "start_ms": 2161200,
+          "end_ms": 2164980,
+          "text": "I will never crack my chip yes before I"
+        },
+        {
+          "cue_id": 874,
+          "start_ms": 2163180,
+          "end_ms": 2166960,
+          "text": "make the dip oh I cracked my chip before"
+        },
+        {
+          "cue_id": 916,
+          "start_ms": 2249760,
+          "end_ms": 2255579,
+          "text": "boom one okay wait wait wait wait wait"
+        },
+        {
+          "cue_id": 917,
+          "start_ms": 2252700,
+          "end_ms": 2258460,
+          "text": "wait wait wait wait wait no mine is"
+        },
+        {
+          "cue_id": 947,
+          "start_ms": 2341500,
+          "end_ms": 2345460,
+          "text": "oh it smells ten times better than this"
+        },
+        {
+          "cue_id": 948,
+          "start_ms": 2343720,
+          "end_ms": 2347560,
+          "text": "other Cheeto thing like like the chips"
+        },
+        {
+          "cue_id": 1047,
+          "start_ms": 2612579,
+          "end_ms": 2617560,
+          "text": "find out"
+        },
+        {
+          "cue_id": 1048,
+          "start_ms": 2613619,
+          "end_ms": 2622839,
+          "text": "hey it's you and some real ideas Nutella"
+        },
+        {
+          "cue_id": 1083,
+          "start_ms": 2703300,
+          "end_ms": 2707680,
+          "text": "got the top all right here we go don't"
+        },
+        {
+          "cue_id": 1084,
+          "start_ms": 2704980,
+          "end_ms": 2709500,
+          "text": "pop oh what I thought we gotta crunch"
+        },
+        {
+          "cue_id": 1119,
+          "start_ms": 2791560,
+          "end_ms": 2797400,
+          "text": "literally always threw up mine was"
+        },
+        {
+          "cue_id": 1120,
+          "start_ms": 2794200,
+          "end_ms": 2797400,
+          "text": "really good all right bye"
+        }
+      ],
+      "text": "[Music]\nof ketchup I know so it sticks you ready\nare you no perfect I've been gonna have\nyour taco all right oh nope yeah I fell\napart got some Prego spaghettis house\nsee that is an artist and he knows it\nlooks awesome\npost notifications in five seconds right\nnow here we go you ready five four three\nlook at all jokes aside this smells\ndisgusting right now not for you dude I\nnow it's all over you good luck getting\nyour spoon out no I'm not doing it\nthat was actually delicious what I just\nI'm done you can't go better than that\nthat was amazing yeah it was pretty\num\noh\nbecause we're actually adding the french\nfries into the milkshake let's go\nand I can smell it and now we have a new\none but it's the same problem 20 minutes\nhow is it\nfirst impression surprise can't believe\npizza yeah okay well we got some m m as\nwell and we're gonna combine these into\nspread around the oil with the cheese\nwhat is that even a thing I don't know\nof this one and right now let's go to\nthe next Devin but what's better than a\num there's no way that last one's going\nin here you gotta in no oh man oh\n[Music]\nchips into the cereal so what better way\nto do it it's like a Morocco\nyogurt on it all that matters is that\nthe bread's flat and the yogurt is\nI will never crack my chip yes before I\nmake the dip oh I cracked my chip before\nboom one okay wait wait wait wait wait\nwait wait wait wait wait no mine is\noh it smells ten times better than this\nother Cheeto thing like like the chips\nfind out\nhey it's you and some real ideas Nutella\ngot the top all right here we go don't\npop oh what I thought we gotta crunch\nliterally always threw up mine was\nreally good all right bye",
+      "text_tokens": 427,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "4VniCsSusJs",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/4VniCsSusJs.srt",
+          "status": "available",
+          "bytes": 121669,
+          "sha256": "3351d059fa445835b6ada69bb6b5c6086c9b8ff550199fe6300fe9029e5c534f",
+          "cues": 1120,
+          "nonempty_cues": 1120
+        },
+        "frame_indices": [
+          0,
+          2703,
+          5406,
+          8109,
+          10811,
+          13514,
+          16217,
+          18920,
+          21623,
+          24326,
+          27029,
+          29732,
+          32434,
+          35137,
+          37840,
+          40543,
+          43246,
+          45949,
+          48652,
+          51355,
+          54057,
+          56760,
+          59463,
+          62166,
+          64869,
+          67572,
+          70275,
+          72978,
+          75680,
+          78383,
+          81086,
+          83789
+        ],
+        "frame_seconds": [
+          0.0,
+          90.1901,
+          180.3802,
+          270.5703,
+          360.727033,
+          450.917133,
+          541.107233,
+          631.297333,
+          721.487433,
+          811.677533,
+          901.867633,
+          992.057733,
+          1082.214467,
+          1172.404567,
+          1262.594667,
+          1352.784767,
+          1442.974867,
+          1533.164967,
+          1623.355067,
+          1713.545167,
+          1803.7019,
+          1893.892,
+          1984.0821,
+          2074.2722,
+          2164.4623,
+          2254.6524,
+          2344.8425,
+          2435.0326,
+          2525.189333,
+          2615.379433,
+          2705.569533,
+          2795.759633
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            19
+          ],
+          [
+            48,
+            49
+          ],
+          [],
+          [
+            124,
+            125
+          ],
+          [
+            168,
+            169
+          ],
+          [
+            210,
+            211
+          ],
+          [
+            247,
+            248
+          ],
+          [
+            282,
+            283
+          ],
+          [
+            320
+          ],
+          [
+            361,
+            362
+          ],
+          [
+            403,
+            404
+          ],
+          [],
+          [
+            471,
+            472
+          ],
+          [
+            509,
+            510
+          ],
+          [
+            541,
+            542
+          ],
+          [
+            573,
+            574
+          ],
+          [
+            609,
+            610
+          ],
+          [
+            649,
+            650
+          ],
+          [
+            687,
+            688
+          ],
+          [
+            728
+          ],
+          [],
+          [
+            793,
+            794
+          ],
+          [
+            831,
+            832
+          ],
+          [
+            873,
+            874
+          ],
+          [
+            916,
+            917
+          ],
+          [
+            947,
+            948
+          ],
+          [],
+          [],
+          [
+            1047,
+            1048
+          ],
+          [
+            1083,
+            1084
+          ],
+          [
+            1119,
+            1120
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 19,
+            "start_ms": 87440,
+            "end_ms": 90519,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 48,
+            "start_ms": 175500,
+            "end_ms": 181319,
+            "text": "of ketchup I know so it sticks you ready"
+          },
+          {
+            "cue_id": 49,
+            "start_ms": 177780,
+            "end_ms": 183599,
+            "text": "are you no perfect I've been gonna have"
+          },
+          {
+            "cue_id": 124,
+            "start_ms": 357600,
+            "end_ms": 362520,
+            "text": "your taco all right oh nope yeah I fell"
+          },
+          {
+            "cue_id": 125,
+            "start_ms": 360300,
+            "end_ms": 364380,
+            "text": "apart got some Prego spaghettis house"
+          },
+          {
+            "cue_id": 168,
+            "start_ms": 446819,
+            "end_ms": 451160,
+            "text": "see that is an artist and he knows it"
+          },
+          {
+            "cue_id": 169,
+            "start_ms": 448500,
+            "end_ms": 451160,
+            "text": "looks awesome"
+          },
+          {
+            "cue_id": 210,
+            "start_ms": 536820,
+            "end_ms": 542220,
+            "text": "post notifications in five seconds right"
+          },
+          {
+            "cue_id": 211,
+            "start_ms": 539040,
+            "end_ms": 545220,
+            "text": "now here we go you ready five four three"
+          },
+          {
+            "cue_id": 247,
+            "start_ms": 629399,
+            "end_ms": 632640,
+            "text": "look at all jokes aside this smells"
+          },
+          {
+            "cue_id": 248,
+            "start_ms": 630779,
+            "end_ms": 634320,
+            "text": "disgusting right now not for you dude I"
+          },
+          {
+            "cue_id": 282,
+            "start_ms": 718200,
+            "end_ms": 723380,
+            "text": "now it's all over you good luck getting"
+          },
+          {
+            "cue_id": 283,
+            "start_ms": 719579,
+            "end_ms": 725880,
+            "text": "your spoon out no I'm not doing it"
+          },
+          {
+            "cue_id": 320,
+            "start_ms": 811139,
+            "end_ms": 815160,
+            "text": "that was actually delicious what I just"
+          },
+          {
+            "cue_id": 361,
+            "start_ms": 898100,
+            "end_ms": 902339,
+            "text": "I'm done you can't go better than that"
+          },
+          {
+            "cue_id": 362,
+            "start_ms": 900600,
+            "end_ms": 903839,
+            "text": "that was amazing yeah it was pretty"
+          },
+          {
+            "cue_id": 403,
+            "start_ms": 990600,
+            "end_ms": 994459,
+            "text": "um"
+          },
+          {
+            "cue_id": 404,
+            "start_ms": 991459,
+            "end_ms": 994459,
+            "text": "oh"
+          },
+          {
+            "cue_id": 471,
+            "start_ms": 1167480,
+            "end_ms": 1172720,
+            "text": "because we're actually adding the french"
+          },
+          {
+            "cue_id": 472,
+            "start_ms": 1168919,
+            "end_ms": 1175000,
+            "text": "fries into the milkshake let's go"
+          },
+          {
+            "cue_id": 509,
+            "start_ms": 1260000,
+            "end_ms": 1264980,
+            "text": "and I can smell it and now we have a new"
+          },
+          {
+            "cue_id": 510,
+            "start_ms": 1262039,
+            "end_ms": 1267340,
+            "text": "one but it's the same problem 20 minutes"
+          },
+          {
+            "cue_id": 541,
+            "start_ms": 1349820,
+            "end_ms": 1354860,
+            "text": "how is it"
+          },
+          {
+            "cue_id": 542,
+            "start_ms": 1352419,
+            "end_ms": 1357080,
+            "text": "first impression surprise can't believe"
+          },
+          {
+            "cue_id": 573,
+            "start_ms": 1440059,
+            "end_ms": 1444500,
+            "text": "pizza yeah okay well we got some m m as"
+          },
+          {
+            "cue_id": 574,
+            "start_ms": 1442220,
+            "end_ms": 1447260,
+            "text": "well and we're gonna combine these into"
+          },
+          {
+            "cue_id": 609,
+            "start_ms": 1530179,
+            "end_ms": 1533480,
+            "text": "spread around the oil with the cheese"
+          },
+          {
+            "cue_id": 610,
+            "start_ms": 1531559,
+            "end_ms": 1535480,
+            "text": "what is that even a thing I don't know"
+          },
+          {
+            "cue_id": 649,
+            "start_ms": 1620059,
+            "end_ms": 1623900,
+            "text": "of this one and right now let's go to"
+          },
+          {
+            "cue_id": 650,
+            "start_ms": 1621559,
+            "end_ms": 1627200,
+            "text": "the next Devin but what's better than a"
+          },
+          {
+            "cue_id": 687,
+            "start_ms": 1709640,
+            "end_ms": 1715600,
+            "text": "um there's no way that last one's going"
+          },
+          {
+            "cue_id": 688,
+            "start_ms": 1711380,
+            "end_ms": 1718220,
+            "text": "in here you gotta in no oh man oh"
+          },
+          {
+            "cue_id": 728,
+            "start_ms": 1803620,
+            "end_ms": 1806770,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 793,
+            "start_ms": 1980600,
+            "end_ms": 1986200,
+            "text": "chips into the cereal so what better way"
+          },
+          {
+            "cue_id": 794,
+            "start_ms": 1982340,
+            "end_ms": 1986200,
+            "text": "to do it it's like a Morocco"
+          },
+          {
+            "cue_id": 831,
+            "start_ms": 2071918,
+            "end_ms": 2075399,
+            "text": "yogurt on it all that matters is that"
+          },
+          {
+            "cue_id": 832,
+            "start_ms": 2073839,
+            "end_ms": 2077139,
+            "text": "the bread's flat and the yogurt is"
+          },
+          {
+            "cue_id": 873,
+            "start_ms": 2161200,
+            "end_ms": 2164980,
+            "text": "I will never crack my chip yes before I"
+          },
+          {
+            "cue_id": 874,
+            "start_ms": 2163180,
+            "end_ms": 2166960,
+            "text": "make the dip oh I cracked my chip before"
+          },
+          {
+            "cue_id": 916,
+            "start_ms": 2249760,
+            "end_ms": 2255579,
+            "text": "boom one okay wait wait wait wait wait"
+          },
+          {
+            "cue_id": 917,
+            "start_ms": 2252700,
+            "end_ms": 2258460,
+            "text": "wait wait wait wait wait no mine is"
+          },
+          {
+            "cue_id": 947,
+            "start_ms": 2341500,
+            "end_ms": 2345460,
+            "text": "oh it smells ten times better than this"
+          },
+          {
+            "cue_id": 948,
+            "start_ms": 2343720,
+            "end_ms": 2347560,
+            "text": "other Cheeto thing like like the chips"
+          },
+          {
+            "cue_id": 1047,
+            "start_ms": 2612579,
+            "end_ms": 2617560,
+            "text": "find out"
+          },
+          {
+            "cue_id": 1048,
+            "start_ms": 2613619,
+            "end_ms": 2622839,
+            "text": "hey it's you and some real ideas Nutella"
+          },
+          {
+            "cue_id": 1083,
+            "start_ms": 2703300,
+            "end_ms": 2707680,
+            "text": "got the top all right here we go don't"
+          },
+          {
+            "cue_id": 1084,
+            "start_ms": 2704980,
+            "end_ms": 2709500,
+            "text": "pop oh what I thought we gotta crunch"
+          },
+          {
+            "cue_id": 1119,
+            "start_ms": 2791560,
+            "end_ms": 2797400,
+            "text": "literally always threw up mine was"
+          },
+          {
+            "cue_id": 1120,
+            "start_ms": 2794200,
+            "end_ms": 2797400,
+            "text": "really good all right bye"
+          }
+        ],
+        "text": "[Music]\nof ketchup I know so it sticks you ready\nare you no perfect I've been gonna have\nyour taco all right oh nope yeah I fell\napart got some Prego spaghettis house\nsee that is an artist and he knows it\nlooks awesome\npost notifications in five seconds right\nnow here we go you ready five four three\nlook at all jokes aside this smells\ndisgusting right now not for you dude I\nnow it's all over you good luck getting\nyour spoon out no I'm not doing it\nthat was actually delicious what I just\nI'm done you can't go better than that\nthat was amazing yeah it was pretty\num\noh\nbecause we're actually adding the french\nfries into the milkshake let's go\nand I can smell it and now we have a new\none but it's the same problem 20 minutes\nhow is it\nfirst impression surprise can't believe\npizza yeah okay well we got some m m as\nwell and we're gonna combine these into\nspread around the oil with the cheese\nwhat is that even a thing I don't know\nof this one and right now let's go to\nthe next Devin but what's better than a\num there's no way that last one's going\nin here you gotta in no oh man oh\n[Music]\nchips into the cereal so what better way\nto do it it's like a Morocco\nyogurt on it all that matters is that\nthe bread's flat and the yogurt is\nI will never crack my chip yes before I\nmake the dip oh I cracked my chip before\nboom one okay wait wait wait wait wait\nwait wait wait wait wait no mine is\noh it smells ten times better than this\nother Cheeto thing like like the chips\nfind out\nhey it's you and some real ideas Nutella\ngot the top all right here we go don't\npop oh what I thought we gotta crunch\nliterally always threw up mine was\nreally good all right bye",
+        "text_tokens": 427,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S19",
+          "cue_ids": [
+            19
+          ],
+          "start_ms": 87440,
+          "end_ms": 90519,
+          "text": "[Music]"
+        },
+        {
+          "id": "S47",
+          "cue_ids": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "start_ms": 172760,
+          "end_ms": 185160,
+          "text": "all the eating that you did that's a lot of ketchup I know so it sticks you ready are you no perfect I've been gonna have to clean it up well I could just use a"
+        },
+        {
+          "id": "S123",
+          "cue_ids": [
+            123,
+            124,
+            125,
+            126
+          ],
+          "start_ms": 354960,
+          "end_ms": 366180,
+          "text": "actually pretty good oh no you crack your taco all right oh nope yeah I fell apart got some Prego spaghettis house get lost in this house I messed it up a"
+        },
+        {
+          "id": "S167",
+          "cue_ids": [
+            167,
+            168,
+            169,
+            170
+          ],
+          "start_ms": 445020,
+          "end_ms": 458340,
+          "text": "this there you go oh yeah there you go see that is an artist and he knows it looks awesome and now for the finishing touch I have"
+        },
+        {
+          "id": "S209",
+          "cue_ids": [
+            209,
+            210,
+            211,
+            212
+          ],
+          "start_ms": 535680,
+          "end_ms": 546959,
+          "text": "this Channel and turn on the channel post notifications in five seconds right now here we go you ready five four three two one done you can do that comment"
+        },
+        {
+          "id": "S246",
+          "cue_ids": [
+            246,
+            247,
+            248,
+            249
+          ],
+          "start_ms": 627480,
+          "end_ms": 636360,
+          "text": "dude you're not gonna be uncivilized look at all jokes aside this smells disgusting right now not for you dude I can't my hands have zero grip all right"
+        },
+        {
+          "id": "S281",
+          "cue_ids": [
+            281,
+            282,
+            283,
+            284
+          ],
+          "start_ms": 716000,
+          "end_ms": 727560,
+          "text": "I know you're splashing it everywhere oh now it's all over you good luck getting your spoon out no I'm not doing it bro so I found a new plate for my chin"
+        },
+        {
+          "id": "S319",
+          "cue_ids": [
+            319,
+            320,
+            321
+          ],
+          "start_ms": 805620,
+          "end_ms": 817500,
+          "text": "dude three two one that was actually delicious what I just love frosting like frosting on anything"
+        },
+        {
+          "id": "S360",
+          "cue_ids": [
+            360,
+            361,
+            362,
+            363
+          ],
+          "start_ms": 896220,
+          "end_ms": 905040,
+          "text": "bit I'm done you can't go better than that that was amazing yeah it was pretty crazy like I've never done that before"
+        },
+        {
+          "id": "S403",
+          "cue_ids": [
+            403,
+            404,
+            405
+          ],
+          "start_ms": 990600,
+          "end_ms": 1000699,
+          "text": "um oh that was bad oh man"
+        },
+        {
+          "id": "S470",
+          "cue_ids": [
+            470,
+            471,
+            472,
+            473
+          ],
+          "start_ms": 1165559,
+          "end_ms": 1178220,
+          "text": "fall Edition and up in the antique because we're actually adding the french fries into the milkshake let's go yeah we need this"
+        },
+        {
+          "id": "S508",
+          "cue_ids": [
+            508,
+            509,
+            510,
+            511
+          ],
+          "start_ms": 1258380,
+          "end_ms": 1267340,
+          "text": "you see the smoke coming out I see it and I can smell it and now we have a new one but it's the same problem 20 minutes later"
+        },
+        {
+          "id": "S540",
+          "cue_ids": [
+            540,
+            541,
+            542,
+            543
+          ],
+          "start_ms": 1348740,
+          "end_ms": 1358340,
+          "text": "problem how is it first impression surprise can't believe I fit that in my mouth well technically"
+        },
+        {
+          "id": "S572",
+          "cue_ids": [
+            572,
+            573,
+            574,
+            575
+          ],
+          "start_ms": 1435620,
+          "end_ms": 1448760,
+          "text": "sriracha sauce it's a pizza what it's a pizza yeah okay well we got some m m as well and we're gonna combine these into a weird food combination but I think"
+        },
+        {
+          "id": "S608",
+          "cue_ids": [
+            608,
+            609,
+            610,
+            611
+          ],
+          "start_ms": 1526760,
+          "end_ms": 1539120,
+          "text": "melt some cheese no no no why you gotta spread around the oil with the cheese what is that even a thing I don't know but I need to spread the oil somehow"
+        },
+        {
+          "id": "S648",
+          "cue_ids": [
+            648,
+            649,
+            650,
+            651
+          ],
+          "start_ms": 1618159,
+          "end_ms": 1630140,
+          "text": "we're definitely gonna be in trouble off of this one and right now let's go to the next Devin but what's better than a dozen eggs uh yeah I don't know"
+        },
+        {
+          "id": "S686",
+          "cue_ids": [
+            686,
+            687,
+            688,
+            689
+          ],
+          "start_ms": 1707960,
+          "end_ms": 1719840,
+          "text": "gotta eat one at the same time what um there's no way that last one's going in here you gotta in no oh man oh my gosh all right this is looking pretty"
+        },
+        {
+          "id": "S728",
+          "cue_ids": [
+            728
+          ],
+          "start_ms": 1803620,
+          "end_ms": 1806770,
+          "text": "[Music]"
+        },
+        {
+          "id": "S792",
+          "cue_ids": [
+            792,
+            793,
+            794,
+            795
+          ],
+          "start_ms": 1976820,
+          "end_ms": 1989320,
+          "text": "here we go chips into the cereal so what better way to do it it's like a Morocco picked"
+        },
+        {
+          "id": "S830",
+          "cue_ids": [
+            830,
+            831,
+            832,
+            833
+          ],
+          "start_ms": 2070540,
+          "end_ms": 2078580,
+          "text": "gonna be great because it has less yogurt on it all that matters is that the bread's flat and the yogurt is yogurt exactly all right you ready for"
+        },
+        {
+          "id": "S872",
+          "cue_ids": [
+            872,
+            873,
+            874,
+            875
+          ],
+          "start_ms": 2159099,
+          "end_ms": 2168099,
+          "text": "chip dip your chips I will never crack my chip yes before I make the dip oh I cracked my chip before I made the dip it was during the dip but"
+        },
+        {
+          "id": "S915",
+          "cue_ids": [
+            915,
+            916,
+            917,
+            918
+          ],
+          "start_ms": 2245020,
+          "end_ms": 2261579,
+          "text": "one boom one okay wait wait wait wait wait wait wait wait wait wait no mine is awesome you challenged us to mix flaming"
+        },
+        {
+          "id": "S946",
+          "cue_ids": [
+            946,
+            947,
+            948,
+            949
+          ],
+          "start_ms": 2338859,
+          "end_ms": 2350940,
+          "text": "actually looks amazing it smells funny oh it smells ten times better than this other Cheeto thing like like the chips mixed with the marshmallow and then the"
+        },
+        {
+          "id": "S1046",
+          "cue_ids": [
+            1046,
+            1047,
+            1048,
+            1049
+          ],
+          "start_ms": 2609880,
+          "end_ms": 2622839,
+          "text": "take a guess sure it's a banana let's find out hey it's you and some real ideas Nutella on chips game changing bro hello"
+        },
+        {
+          "id": "S1082",
+          "cue_ids": [
+            1082,
+            1083,
+            1084,
+            1085
+          ],
+          "start_ms": 2702099,
+          "end_ms": 2712020,
+          "text": "yeah I want to get to the top of it I got the top all right here we go don't pop oh what I thought we gotta crunch the top of it a little bit more"
+        },
+        {
+          "id": "S1118",
+          "cue_ids": [
+            1118,
+            1119,
+            1120
+          ],
+          "start_ms": 2788560,
+          "end_ms": 2797400,
+          "text": "oh my God mine is awesome dude dude I literally always threw up mine was really good all right bye"
+        }
+      ],
+      "text": "S19 [00:01:27.440 --> 00:01:30.519] [Music]\nS47 [00:02:52.760 --> 00:03:05.160] all the eating that you did that's a lot of ketchup I know so it sticks you ready are you no perfect I've been gonna have to clean it up well I could just use a\nS123 [00:05:54.960 --> 00:06:06.180] actually pretty good oh no you crack your taco all right oh nope yeah I fell apart got some Prego spaghettis house get lost in this house I messed it up a\nS167 [00:07:25.020 --> 00:07:38.340] this there you go oh yeah there you go see that is an artist and he knows it looks awesome and now for the finishing touch I have\nS209 [00:08:55.680 --> 00:09:06.959] this Channel and turn on the channel post notifications in five seconds right now here we go you ready five four three two one done you can do that comment\nS246 [00:10:27.480 --> 00:10:36.360] dude you're not gonna be uncivilized look at all jokes aside this smells disgusting right now not for you dude I can't my hands have zero grip all right\nS281 [00:11:56.000 --> 00:12:07.560] I know you're splashing it everywhere oh now it's all over you good luck getting your spoon out no I'm not doing it bro so I found a new plate for my chin\nS319 [00:13:25.620 --> 00:13:37.500] dude three two one that was actually delicious what I just love frosting like frosting on anything\nS360 [00:14:56.220 --> 00:15:05.040] bit I'm done you can't go better than that that was amazing yeah it was pretty crazy like I've never done that before\nS403 [00:16:30.600 --> 00:16:40.699] um oh that was bad oh man\nS470 [00:19:25.559 --> 00:19:38.220] fall Edition and up in the antique because we're actually adding the french fries into the milkshake let's go yeah we need this\nS508 [00:20:58.380 --> 00:21:07.340] you see the smoke coming out I see it and I can smell it and now we have a new one but it's the same problem 20 minutes later\nS540 [00:22:28.740 --> 00:22:38.340] problem how is it first impression surprise can't believe I fit that in my mouth well technically\nS572 [00:23:55.620 --> 00:24:08.760] sriracha sauce it's a pizza what it's a pizza yeah okay well we got some m m as well and we're gonna combine these into a weird food combination but I think\nS608 [00:25:26.760 --> 00:25:39.120] melt some cheese no no no why you gotta spread around the oil with the cheese what is that even a thing I don't know but I need to spread the oil somehow\nS648 [00:26:58.159 --> 00:27:10.140] we're definitely gonna be in trouble off of this one and right now let's go to the next Devin but what's better than a dozen eggs uh yeah I don't know\nS686 [00:28:27.960 --> 00:28:39.840] gotta eat one at the same time what um there's no way that last one's going in here you gotta in no oh man oh my gosh all right this is looking pretty\nS728 [00:30:03.620 --> 00:30:06.770] [Music]\nS792 [00:32:56.820 --> 00:33:09.320] here we go chips into the cereal so what better way to do it it's like a Morocco picked\nS830 [00:34:30.540 --> 00:34:38.580] gonna be great because it has less yogurt on it all that matters is that the bread's flat and the yogurt is yogurt exactly all right you ready for\nS872 [00:35:59.099 --> 00:36:08.099] chip dip your chips I will never crack my chip yes before I make the dip oh I cracked my chip before I made the dip it was during the dip but\nS915 [00:37:25.020 --> 00:37:41.579] one boom one okay wait wait wait wait wait wait wait wait wait wait no mine is awesome you challenged us to mix flaming\nS946 [00:38:58.859 --> 00:39:10.940] actually looks amazing it smells funny oh it smells ten times better than this other Cheeto thing like like the chips mixed with the marshmallow and then the\nS1046 [00:43:29.880 --> 00:43:42.839] take a guess sure it's a banana let's find out hey it's you and some real ideas Nutella on chips game changing bro hello\nS1082 [00:45:02.099 --> 00:45:12.020] yeah I want to get to the top of it I got the top all right here we go don't pop oh what I thought we gotta crunch the top of it a little bit more\nS1118 [00:46:28.560 --> 00:46:37.400] oh my God mine is awesome dude dude I literally always threw up mine was really good all right bye",
+      "text_tokens": 1556,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        47,
+        50,
+        123,
+        126,
+        167,
+        170,
+        209,
+        212,
+        246,
+        249,
+        281,
+        284,
+        319,
+        321,
+        360,
+        363,
+        405,
+        470,
+        473,
+        508,
+        511,
+        540,
+        543,
+        572,
+        575,
+        608,
+        611,
+        648,
+        651,
+        686,
+        689,
+        792,
+        795,
+        830,
+        833,
+        872,
+        875,
+        915,
+        918,
+        946,
+        949,
+        1046,
+        1049,
+        1082,
+        1085,
+        1118
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "6a3cea52543b7584a92239c5ad2be9182b6edbde102352420b9e315f2aa10322"
+}

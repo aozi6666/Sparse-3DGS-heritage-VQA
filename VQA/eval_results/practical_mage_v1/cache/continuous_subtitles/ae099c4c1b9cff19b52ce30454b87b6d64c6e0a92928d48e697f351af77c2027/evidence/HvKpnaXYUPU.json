@@ -1,0 +1,743 @@
+{
+  "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+  "evidence": {
+    "original": {
+      "video_id": "HvKpnaXYUPU",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/HvKpnaXYUPU.srt",
+        "status": "available",
+        "bytes": 114463,
+        "sha256": "64cb027a5b54e5066ae18dad1c6dc37a96fb1467d24facad28c07ba59472c11f",
+        "cues": 1023,
+        "nonempty_cues": 1023
+      },
+      "frame_indices": [
+        0,
+        3101,
+        6202,
+        9304,
+        12405,
+        15506,
+        18607,
+        21709,
+        24810,
+        27911,
+        31012,
+        34113,
+        37215,
+        40316,
+        43417,
+        46518,
+        49620,
+        52721,
+        55822,
+        58923,
+        62025,
+        65126,
+        68227,
+        71328,
+        74429,
+        77531,
+        80632,
+        83733,
+        86834,
+        89936,
+        93037,
+        96138
+      ],
+      "frame_seconds": [
+        0.0,
+        103.470033,
+        206.940067,
+        310.443467,
+        413.9135,
+        517.3835329999999,
+        620.853567,
+        724.356967,
+        827.827,
+        931.297033,
+        1034.767067,
+        1138.2371,
+        1241.7404999999999,
+        1345.210533,
+        1448.680567,
+        1552.1506,
+        1655.654,
+        1759.124033,
+        1862.594067,
+        1966.0641,
+        2069.5675,
+        2173.037533,
+        2276.507567,
+        2379.9776,
+        2483.447633,
+        2586.951033,
+        2690.421067,
+        2793.8911,
+        2897.361133,
+        3000.864533,
+        3104.334567,
+        3207.8046
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          30
+        ],
+        [
+          58
+        ],
+        [
+          86
+        ],
+        [
+          117
+        ],
+        [
+          146
+        ],
+        [
+          178
+        ],
+        [
+          215
+        ],
+        [
+          247
+        ],
+        [
+          280
+        ],
+        [
+          319
+        ],
+        [
+          353
+        ],
+        [
+          384
+        ],
+        [
+          416
+        ],
+        [
+          453
+        ],
+        [
+          490
+        ],
+        [
+          526
+        ],
+        [
+          559
+        ],
+        [
+          595
+        ],
+        [
+          642
+        ],
+        [
+          673
+        ],
+        [
+          704
+        ],
+        [
+          738
+        ],
+        [
+          771
+        ],
+        [
+          799
+        ],
+        [
+          831
+        ],
+        [
+          866
+        ],
+        [
+          903
+        ],
+        [
+          941
+        ],
+        [],
+        [
+          1013
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 30,
+          "start_ms": 101967,
+          "end_ms": 103936,
+          "text": "♪ ♪"
+        },
+        {
+          "cue_id": 58,
+          "start_ms": 206105,
+          "end_ms": 207707,
+          "text": "MARINA LEIBMAN: Believe me, I remember this date,"
+        },
+        {
+          "cue_id": 86,
+          "start_ms": 306905,
+          "end_ms": 311477,
+          "text": "there's something unusual visible around the edges."
+        },
+        {
+          "cue_id": 117,
+          "start_ms": 411610,
+          "end_ms": 414413,
+          "text": "Used for cooking and heating,"
+        },
+        {
+          "cue_id": 146,
+          "start_ms": 515514,
+          "end_ms": 518717,
+          "text": "If so, what might they be telling us"
+        },
+        {
+          "cue_id": 178,
+          "start_ms": 620052,
+          "end_ms": 621954,
+          "text": "NARRATOR: Esieh Lake is located on the lands of"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 723655,
+          "end_ms": 726792,
+          "text": "The team's measurements reveal that Esieh Lake is belching out"
+        },
+        {
+          "cue_id": 247,
+          "start_ms": 824489,
+          "end_ms": 828327,
+          "text": "♪ ♪"
+        },
+        {
+          "cue_id": 280,
+          "start_ms": 930962,
+          "end_ms": 933098,
+          "text": "or below 32 degrees Fahrenheit"
+        },
+        {
+          "cue_id": 319,
+          "start_ms": 1033832,
+          "end_ms": 1035300,
+          "text": "It's pretty dramatic."
+        },
+        {
+          "cue_id": 353,
+          "start_ms": 1135967,
+          "end_ms": 1138470,
+          "text": "caribou, wolves..."
+        },
+        {
+          "cue_id": 384,
+          "start_ms": 1239237,
+          "end_ms": 1242340,
+          "text": "are trying to protect their homes."
+        },
+        {
+          "cue_id": 416,
+          "start_ms": 1344409,
+          "end_ms": 1345343,
+          "text": "Pretty exciting,"
+        },
+        {
+          "cue_id": 453,
+          "start_ms": 1446143,
+          "end_ms": 1450248,
+          "text": "You're smelling ancient bacteria and carbon being oxidized."
+        },
+        {
+          "cue_id": 490,
+          "start_ms": 1551182,
+          "end_ms": 1553818,
+          "text": "radiating part of its energy back at Earth"
+        },
+        {
+          "cue_id": 526,
+          "start_ms": 1652983,
+          "end_ms": 1657155,
+          "text": "But while we know a lot about carbon dioxide,"
+        },
+        {
+          "cue_id": 559,
+          "start_ms": 1759056,
+          "end_ms": 1760091,
+          "text": "To stand a good chance"
+        },
+        {
+          "cue_id": 595,
+          "start_ms": 1861358,
+          "end_ms": 1862627,
+          "text": "Come on, Biggy, come on."
+        },
+        {
+          "cue_id": 642,
+          "start_ms": 1965029,
+          "end_ms": 1966998,
+          "text": "a positive feedback cycle."
+        },
+        {
+          "cue_id": 673,
+          "start_ms": 2069500,
+          "end_ms": 2072770,
+          "text": "Much deeper."
+        },
+        {
+          "cue_id": 704,
+          "start_ms": 2169700,
+          "end_ms": 2173204,
+          "text": "But if so, there's a mystery."
+        },
+        {
+          "cue_id": 738,
+          "start_ms": 2276440,
+          "end_ms": 2278309,
+          "text": "the electromagnetic VLF waves"
+        },
+        {
+          "cue_id": 771,
+          "start_ms": 2379409,
+          "end_ms": 2381478,
+          "text": "NARRATOR: So far, the scientists have only seen"
+        },
+        {
+          "cue_id": 799,
+          "start_ms": 2481678,
+          "end_ms": 2483981,
+          "text": "There's no current sign the entire reserve"
+        },
+        {
+          "cue_id": 831,
+          "start_ms": 2583213,
+          "end_ms": 2589486,
+          "text": "pulling down trees at its edge and exposing more permafrost:"
+        },
+        {
+          "cue_id": 866,
+          "start_ms": 2688418,
+          "end_ms": 2691988,
+          "text": "However, some scientists believe aspects of the thaw"
+        },
+        {
+          "cue_id": 903,
+          "start_ms": 2790119,
+          "end_ms": 2794024,
+          "text": "what permafrost thaw is doing to his community."
+        },
+        {
+          "cue_id": 941,
+          "start_ms": 2894457,
+          "end_ms": 2898328,
+          "text": "others in Alaska are looking at more drastic solutions."
+        },
+        {
+          "cue_id": 1013,
+          "start_ms": 3102498,
+          "end_ms": 3105568,
+          "text": "that things are changing, and the Arctic is melting,"
+        }
+      ],
+      "text": "♪ ♪\nMARINA LEIBMAN: Believe me, I remember this date,\nthere's something unusual visible around the edges.\nUsed for cooking and heating,\nIf so, what might they be telling us\nNARRATOR: Esieh Lake is located on the lands of\nThe team's measurements reveal that Esieh Lake is belching out\n♪ ♪\nor below 32 degrees Fahrenheit\nIt's pretty dramatic.\ncaribou, wolves...\nare trying to protect their homes.\nPretty exciting,\nYou're smelling ancient bacteria and carbon being oxidized.\nradiating part of its energy back at Earth\nBut while we know a lot about carbon dioxide,\nTo stand a good chance\nCome on, Biggy, come on.\na positive feedback cycle.\nMuch deeper.\nBut if so, there's a mystery.\nthe electromagnetic VLF waves\nNARRATOR: So far, the scientists have only seen\nThere's no current sign the entire reserve\npulling down trees at its edge and exposing more permafrost:\nHowever, some scientists believe aspects of the thaw\nwhat permafrost thaw is doing to his community.\nothers in Alaska are looking at more drastic solutions.\nthat things are changing, and the Arctic is melting,",
+      "text_tokens": 253,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "blocks": [
+      {
+        "id": "S29",
+        "cue_ids": [
+          29,
+          30,
+          31
+        ],
+        "start_ms": 99765,
+        "end_ms": 106771,
+        "text": "We're in the middle of a housing crisis. ♪ ♪ NARRATOR: Are the craters warning shots for our climate future?"
+      },
+      {
+        "id": "S57",
+        "cue_ids": [
+          57,
+          58,
+          59
+        ],
+        "start_ms": 203902,
+        "end_ms": 209976,
+        "text": "♪ ♪ MARINA LEIBMAN: Believe me, I remember this date, and I will remember it forever,"
+      },
+      {
+        "id": "S85",
+        "cue_ids": [
+          85,
+          86,
+          87
+        ],
+        "start_ms": 305104,
+        "end_ms": 313079,
+        "text": "like an ordinary sinkhole, there's something unusual visible around the edges. (Bogoyavlensky speaking Russian)"
+      },
+      {
+        "id": "S116",
+        "cue_ids": [
+          116,
+          117,
+          118
+        ],
+        "start_ms": 408340,
+        "end_ms": 418017,
+        "text": "♪ ♪ Used for cooking and heating, methane is a flammable gas made from carbon and hydrogen."
+      },
+      {
+        "id": "S145",
+        "cue_ids": [
+          145,
+          146,
+          147
+        ],
+        "start_ms": 510008,
+        "end_ms": 520818,
+        "text": "could the explosive craters be connected to climate change? If so, what might they be telling us about Earth's climate future?"
+      },
+      {
+        "id": "S177",
+        "cue_ids": [
+          177,
+          178,
+          179
+        ],
+        "start_ms": 616415,
+        "end_ms": 626058,
+        "text": "♪ ♪ NARRATOR: Esieh Lake is located on the lands of the Indigenous Inupiat people."
+      },
+      {
+        "id": "S214",
+        "cue_ids": [
+          214,
+          215,
+          216
+        ],
+        "start_ms": 718817,
+        "end_ms": 731230,
+        "text": "But they're usually much smaller. The team's measurements reveal that Esieh Lake is belching out over ten tons of methane every day."
+      },
+      {
+        "id": "S246",
+        "cue_ids": [
+          246,
+          247,
+          248
+        ],
+        "start_ms": 822387,
+        "end_ms": 829494,
+        "text": "as if it was even from a propane tank. ♪ ♪ HANKE: How'd it go?"
+      },
+      {
+        "id": "S279",
+        "cue_ids": [
+          279,
+          280,
+          281
+        ],
+        "start_ms": 928059,
+        "end_ms": 936702,
+        "text": "It's defined as any ground whose temperature remains at or below 32 degrees Fahrenheit for two or more consecutive years."
+      },
+      {
+        "id": "S318",
+        "cue_ids": [
+          318,
+          319,
+          320
+        ],
+        "start_ms": 1031695,
+        "end_ms": 1037202,
+        "text": "Since 2018. It's pretty dramatic. ♪ ♪"
+      },
+      {
+        "id": "S352",
+        "cue_ids": [
+          352,
+          353,
+          354
+        ],
+        "start_ms": 1133865,
+        "end_ms": 1145144,
+        "text": "ducks, geese, caribou, wolves... All of those are still traded and used."
+      },
+      {
+        "id": "S383",
+        "cue_ids": [
+          383,
+          384,
+          385
+        ],
+        "start_ms": 1236334,
+        "end_ms": 1243475,
+        "text": "Now communities like Utqiagvik are trying to protect their homes. BROWER: These are all"
+      },
+      {
+        "id": "S415",
+        "cue_ids": [
+          415,
+          416,
+          417
+        ],
+        "start_ms": 1340772,
+        "end_ms": 1347312,
+        "text": "you know, there were steppe bison here. Pretty exciting, this is a mammoth bone right here."
+      },
+      {
+        "id": "S452",
+        "cue_ids": [
+          452,
+          453,
+          454
+        ],
+        "start_ms": 1443708,
+        "end_ms": 1453451,
+        "text": "When we walked in, we noted that smell, right? You're smelling ancient bacteria and carbon being oxidized. It's almost like a, well, I've heard anything from, like,"
+      },
+      {
+        "id": "S489",
+        "cue_ids": [
+          489,
+          490,
+          491
+        ],
+        "start_ms": 1547812,
+        "end_ms": 1557355,
+        "text": "In the atmosphere, greenhouse gases absorb this heat, radiating part of its energy back at Earth and heating up our planet."
+      },
+      {
+        "id": "S525",
+        "cue_ids": [
+          525,
+          526,
+          527
+        ],
+        "start_ms": 1649613,
+        "end_ms": 1659123,
+        "text": "have spiked by more than 70%. But while we know a lot about carbon dioxide, the impact of another greenhouse gas"
+      },
+      {
+        "id": "S558",
+        "cue_ids": [
+          558,
+          559,
+          560
+        ],
+        "start_ms": 1750080,
+        "end_ms": 1762927,
+        "text": "to well below two, preferably to 1.5 degrees Celsius. To stand a good chance of remaining below the 1.5-degree mark,"
+      },
+      {
+        "id": "S594",
+        "cue_ids": [
+          594,
+          595,
+          596
+        ],
+        "start_ms": 1859123,
+        "end_ms": 1864495,
+        "text": "HANKE: Haw! Haw! Come on, Biggy, come on. (dogs whining)"
+      },
+      {
+        "id": "S641",
+        "cue_ids": [
+          641,
+          642,
+          643
+        ],
+        "start_ms": 1962960,
+        "end_ms": 1970301,
+        "text": "which is more warming, and you get what's called a positive feedback cycle. NARRATOR: Positive feedback cycles"
+      },
+      {
+        "id": "S672",
+        "cue_ids": [
+          672,
+          673,
+          674
+        ],
+        "start_ms": 2065395,
+        "end_ms": 2075239,
+        "text": "they discovered it originated deeper inside Earth. Much deeper. ♪ ♪"
+      },
+      {
+        "id": "S703",
+        "cue_ids": [
+          703,
+          704,
+          705
+        ],
+        "start_ms": 2166697,
+        "end_ms": 2175406,
+        "text": "or directly beneath, Esieh Lake. But if so, there's a mystery. Seismic evidence from the area suggests"
+      },
+      {
+        "id": "S737",
+        "cue_ids": [
+          737,
+          738,
+          739
+        ],
+        "start_ms": 2274905,
+        "end_ms": 2283614,
+        "text": "NARRATOR: If they're strong enough, the electromagnetic VLF waves should enable Hasson to see whatever lies beneath the lake."
+      },
+      {
+        "id": "S770",
+        "cue_ids": [
+          770,
+          771,
+          772
+        ],
+        "start_ms": 2375572,
+        "end_ms": 2384448,
+        "text": "And so this is really unique. NARRATOR: So far, the scientists have only seen 50 feet beneath the lake."
+      },
+      {
+        "id": "S798",
+        "cue_ids": [
+          798,
+          799,
+          800
+        ],
+        "start_ms": 2478108,
+        "end_ms": 2486583,
+        "text": "♪ ♪ There's no current sign the entire reserve of fossil methane is moving toward the surface."
+      },
+      {
+        "id": "S830",
+        "cue_ids": [
+          830,
+          831,
+          832
+        ],
+        "start_ms": 2581678,
+        "end_ms": 2591455,
+        "text": "As it thawed, the ground sank, pulling down trees at its edge and exposing more permafrost: a positive feedback cycle."
+      },
+      {
+        "id": "S865",
+        "cue_ids": [
+          865,
+          866,
+          867
+        ],
+        "start_ms": 2683713,
+        "end_ms": 2694357,
+        "text": "that a tipping point is near for permafrost. However, some scientists believe aspects of the thaw are now irreversible."
+      },
+      {
+        "id": "S902",
+        "cue_ids": [
+          902,
+          903,
+          904
+        ],
+        "start_ms": 2788451,
+        "end_ms": 2797427,
+        "text": "He knows firsthand what permafrost thaw is doing to his community. NELSON: This road is for subsistence use;"
+      },
+      {
+        "id": "S940",
+        "cue_ids": [
+          940,
+          941,
+          942
+        ],
+        "start_ms": 2891688,
+        "end_ms": 2902699,
+        "text": "NARRATOR: But as the permafrost continues to thaw, others in Alaska are looking at more drastic solutions. GRIFFIN HAGLE: So this is our portable, adjustable,"
+      },
+      {
+        "id": "S1012",
+        "cue_ids": [
+          1012,
+          1013,
+          1014
+        ],
+        "start_ms": 3099795,
+        "end_ms": 3107003,
+        "text": "a really important and concerning indicator that things are changing, and the Arctic is melting, and the Arctic is thawing."
+      }
+    ],
+    "text": "S29 [00:01:39.765 --> 00:01:46.771] We're in the middle of a housing crisis. ♪ ♪ NARRATOR: Are the craters warning shots for our climate future?\nS57 [00:03:23.902 --> 00:03:29.976] ♪ ♪ MARINA LEIBMAN: Believe me, I remember this date, and I will remember it forever,\nS85 [00:05:05.104 --> 00:05:13.079] like an ordinary sinkhole, there's something unusual visible around the edges. (Bogoyavlensky speaking Russian)\nS116 [00:06:48.340 --> 00:06:58.017] ♪ ♪ Used for cooking and heating, methane is a flammable gas made from carbon and hydrogen.\nS145 [00:08:30.008 --> 00:08:40.818] could the explosive craters be connected to climate change? If so, what might they be telling us about Earth's climate future?\nS177 [00:10:16.415 --> 00:10:26.058] ♪ ♪ NARRATOR: Esieh Lake is located on the lands of the Indigenous Inupiat people.\nS214 [00:11:58.817 --> 00:12:11.230] But they're usually much smaller. The team's measurements reveal that Esieh Lake is belching out over ten tons of methane every day.\nS246 [00:13:42.387 --> 00:13:49.494] as if it was even from a propane tank. ♪ ♪ HANKE: How'd it go?\nS279 [00:15:28.059 --> 00:15:36.702] It's defined as any ground whose temperature remains at or below 32 degrees Fahrenheit for two or more consecutive years.\nS318 [00:17:11.695 --> 00:17:17.202] Since 2018. It's pretty dramatic. ♪ ♪\nS352 [00:18:53.865 --> 00:19:05.144] ducks, geese, caribou, wolves... All of those are still traded and used.\nS383 [00:20:36.334 --> 00:20:43.475] Now communities like Utqiagvik are trying to protect their homes. BROWER: These are all\nS415 [00:22:20.772 --> 00:22:27.312] you know, there were steppe bison here. Pretty exciting, this is a mammoth bone right here.\nS452 [00:24:03.708 --> 00:24:13.451] When we walked in, we noted that smell, right? You're smelling ancient bacteria and carbon being oxidized. It's almost like a, well, I've heard anything from, like,\nS489 [00:25:47.812 --> 00:25:57.355] In the atmosphere, greenhouse gases absorb this heat, radiating part of its energy back at Earth and heating up our planet.\nS525 [00:27:29.613 --> 00:27:39.123] have spiked by more than 70%. But while we know a lot about carbon dioxide, the impact of another greenhouse gas\nS558 [00:29:10.080 --> 00:29:22.927] to well below two, preferably to 1.5 degrees Celsius. To stand a good chance of remaining below the 1.5-degree mark,\nS594 [00:30:59.123 --> 00:31:04.495] HANKE: Haw! Haw! Come on, Biggy, come on. (dogs whining)\nS641 [00:32:42.960 --> 00:32:50.301] which is more warming, and you get what's called a positive feedback cycle. NARRATOR: Positive feedback cycles\nS672 [00:34:25.395 --> 00:34:35.239] they discovered it originated deeper inside Earth. Much deeper. ♪ ♪\nS703 [00:36:06.697 --> 00:36:15.406] or directly beneath, Esieh Lake. But if so, there's a mystery. Seismic evidence from the area suggests\nS737 [00:37:54.905 --> 00:38:03.614] NARRATOR: If they're strong enough, the electromagnetic VLF waves should enable Hasson to see whatever lies beneath the lake.\nS770 [00:39:35.572 --> 00:39:44.448] And so this is really unique. NARRATOR: So far, the scientists have only seen 50 feet beneath the lake.\nS798 [00:41:18.108 --> 00:41:26.583] ♪ ♪ There's no current sign the entire reserve of fossil methane is moving toward the surface.\nS830 [00:43:01.678 --> 00:43:11.455] As it thawed, the ground sank, pulling down trees at its edge and exposing more permafrost: a positive feedback cycle.\nS865 [00:44:43.713 --> 00:44:54.357] that a tipping point is near for permafrost. However, some scientists believe aspects of the thaw are now irreversible.\nS902 [00:46:28.451 --> 00:46:37.427] He knows firsthand what permafrost thaw is doing to his community. NELSON: This road is for subsistence use;\nS940 [00:48:11.688 --> 00:48:22.699] NARRATOR: But as the permafrost continues to thaw, others in Alaska are looking at more drastic solutions. GRIFFIN HAGLE: So this is our portable, adjustable,\nS1012 [00:51:39.795 --> 00:51:47.003] a really important and concerning indicator that things are changing, and the Arctic is melting, and the Arctic is thawing.",
+    "text_tokens": 1660,
+    "status": "used",
+    "budget": 2048,
+    "added_cue_ids": [
+      29,
+      31,
+      57,
+      59,
+      85,
+      87,
+      116,
+      118,
+      145,
+      147,
+      177,
+      179,
+      214,
+      216,
+      246,
+      248,
+      279,
+      281,
+      318,
+      320,
+      352,
+      354,
+      383,
+      385,
+      415,
+      417,
+      452,
+      454,
+      489,
+      491,
+      525,
+      527,
+      558,
+      560,
+      594,
+      596,
+      641,
+      643,
+      672,
+      674,
+      703,
+      705,
+      737,
+      739,
+      770,
+      772,
+      798,
+      800,
+      830,
+      832,
+      865,
+      867,
+      902,
+      904,
+      940,
+      942,
+      1012,
+      1014
+    ],
+    "omitted_neighbor_ids": []
+  },
+  "evidence_sha256": "b056acfbd0b0b7dbba712c7fe1dbdb50f16a472a04f0eb0e11fd47af8ba1aca1"
+}

@@ -1,0 +1,28 @@
+{
+  "n": 144,
+  "keep_ratio": 0.75,
+  "seed": 0,
+  "modes": [
+    "random",
+    "queryip",
+    "queryip_textseat",
+    "queryip_textseat_shuf"
+  ],
+  "tag": "n200_kr075_wide_textseat",
+  "max_pixels": 300000,
+  "num_frames": 32,
+  "acc": {
+    "random": 0.5833333333333334,
+    "queryip": 0.6388888888888888,
+    "queryip_textseat": 0.6388888888888888,
+    "queryip_textseat_shuf": 0.6388888888888888
+  },
+  "correct": {
+    "random": 84,
+    "queryip": 92,
+    "queryip_textseat": 92,
+    "queryip_textseat_shuf": 92
+  },
+  "jsonl": "VQA/eval_results/queryip_samek/wide_textseat_n200/Mage-VL-QueryIP_short60_samek4_n200_kr075_wide_textseat.jsonl",
+  "partial": true
+}

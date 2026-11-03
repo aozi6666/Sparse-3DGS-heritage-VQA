@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-02",
+  "branch": "vlm",
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "checks": {
+    "subtitle_cpu_tests": 29,
+    "legacy_vote_cpu_tests": 18,
+    "coverage_cpu_tests": 10,
+    "shell_syntax": "passed",
+    "init_idempotent": "passed",
+    "smoke_readonly_preflight": "passed"
+  },
+  "files": {
+    "subtitle_common.py": "f365238d5b4e28ca152c2394a1ff2171e7895dba3dc035c40dc1c24bcce8f852",
+    "practical_subtitles.py": "e016119702ea05a192686c867bf5d9532375daac550dd8f4cef40633e71ec2e1",
+    "subtitle_analyze.py": "720f35ec48517897a22cc1ed909a319c8de9f9300a124a756d0a46ff91b07647",
+    "run_practical_subtitles.sh": "42041cacdfd85f0e0f93e7fc50d83403650dc731ef245d5e586da163cbdc6787",
+    "test_practical_subtitles.py": "4068dd4543e1f334d7c727db2e3d11dfa56268b8a3271ef189dd75584bb02f9a",
+    "SUBTITLES_README.md": "4c9795232ef4b9af5ad4a6d3efbfc01c347268547211ec1ee334f855da810ee8"
+  },
+  "srt_manifest_sha256": "1afc348043a7b9586cd564011ab0f7fb36057d00d099cfbeec46338ad9371caf",
+  "gpu_inference_started_by_assistant": false,
+  "frames_decoded_by_assistant": false,
+  "note": "CPU synthetic tests and source/manifest validation only. User must run GPU smoke before development."
+}

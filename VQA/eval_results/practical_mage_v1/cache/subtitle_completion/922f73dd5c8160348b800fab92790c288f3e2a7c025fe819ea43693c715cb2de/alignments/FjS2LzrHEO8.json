@@ -1,0 +1,390 @@
+{
+  "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+  "evidence": {
+    "aligned": {
+      "video_id": "FjS2LzrHEO8",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FjS2LzrHEO8.srt",
+        "status": "available",
+        "bytes": 315,
+        "sha256": "86b79d5703d9e52ab0200db2af2e75a5a54fea298307bb0e58495e73791a0fd4",
+        "cues": 4,
+        "nonempty_cues": 4
+      },
+      "frame_indices": [
+        0,
+        46,
+        93,
+        139,
+        186,
+        232,
+        279,
+        325,
+        371,
+        418,
+        464,
+        511,
+        557,
+        603,
+        650,
+        696,
+        743,
+        789,
+        836,
+        882,
+        928,
+        975,
+        1021,
+        1068,
+        1114,
+        1160,
+        1207,
+        1253,
+        1300,
+        1346,
+        1393,
+        1439
+      ],
+      "frame_seconds": [
+        0.0,
+        1.918583,
+        3.878875,
+        5.797458,
+        7.75775,
+        9.676333,
+        11.636625,
+        13.555208,
+        15.473792,
+        17.434083,
+        19.352667,
+        21.312958,
+        23.231542,
+        25.150125,
+        27.110417,
+        29.029,
+        30.989292,
+        32.907875,
+        34.868167,
+        36.78675,
+        38.705333,
+        40.665625,
+        42.584208,
+        44.5445,
+        46.463083,
+        48.381667,
+        50.341958,
+        52.260542,
+        54.220833,
+        56.139417,
+        58.099708,
+        60.018292
+      ],
+      "frame_cue_ids": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          4
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 20780,
+          "end_ms": 30579,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 2,
+          "start_ms": 33000,
+          "end_ms": 39280,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 3,
+          "start_ms": 44030,
+          "end_ms": 51999,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 4,
+          "start_ms": 58920,
+          "end_ms": 61920,
+          "text": "he"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Music]\nhe",
+      "text_tokens": 10,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "FjS2LzrHEO8",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/FjS2LzrHEO8.srt",
+          "status": "available",
+          "bytes": 315,
+          "sha256": "86b79d5703d9e52ab0200db2af2e75a5a54fea298307bb0e58495e73791a0fd4",
+          "cues": 4,
+          "nonempty_cues": 4
+        },
+        "frame_indices": [
+          0,
+          46,
+          93,
+          139,
+          186,
+          232,
+          279,
+          325,
+          371,
+          418,
+          464,
+          511,
+          557,
+          603,
+          650,
+          696,
+          743,
+          789,
+          836,
+          882,
+          928,
+          975,
+          1021,
+          1068,
+          1114,
+          1160,
+          1207,
+          1253,
+          1300,
+          1346,
+          1393,
+          1439
+        ],
+        "frame_seconds": [
+          0.0,
+          1.918583,
+          3.878875,
+          5.797458,
+          7.75775,
+          9.676333,
+          11.636625,
+          13.555208,
+          15.473792,
+          17.434083,
+          19.352667,
+          21.312958,
+          23.231542,
+          25.150125,
+          27.110417,
+          29.029,
+          30.989292,
+          32.907875,
+          34.868167,
+          36.78675,
+          38.705333,
+          40.665625,
+          42.584208,
+          44.5445,
+          46.463083,
+          48.381667,
+          50.341958,
+          52.260542,
+          54.220833,
+          56.139417,
+          58.099708,
+          60.018292
+        ],
+        "frame_cue_ids": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [],
+          [],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            4
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 20780,
+            "end_ms": 30579,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 2,
+            "start_ms": 33000,
+            "end_ms": 39280,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 3,
+            "start_ms": 44030,
+            "end_ms": 51999,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 4,
+            "start_ms": 58920,
+            "end_ms": 61920,
+            "text": "he"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Music]\nhe",
+        "text_tokens": 10,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1
+          ],
+          "start_ms": 20780,
+          "end_ms": 30579,
+          "text": "[Music]"
+        },
+        {
+          "id": "S2",
+          "cue_ids": [
+            2
+          ],
+          "start_ms": 33000,
+          "end_ms": 39280,
+          "text": "[Music]"
+        },
+        {
+          "id": "S3",
+          "cue_ids": [
+            3
+          ],
+          "start_ms": 44030,
+          "end_ms": 51999,
+          "text": "[Music]"
+        },
+        {
+          "id": "S4",
+          "cue_ids": [
+            4
+          ],
+          "start_ms": 58920,
+          "end_ms": 61920,
+          "text": "he"
+        }
+      ],
+      "text": "S1 [00:00:20.780 --> 00:00:30.579] [Music]\nS2 [00:00:33.000 --> 00:00:39.280] [Music]\nS3 [00:00:44.030 --> 00:00:51.999] [Music]\nS4 [00:00:58.920 --> 00:01:01.920] he",
+      "text_tokens": 130,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "81276def8eade4cc1f9d566c998a48675fcc34abab6b9b011e2080bc0c74e208"
+}

@@ -1,0 +1,1228 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "3HEYqZgC4ko",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3HEYqZgC4ko.srt",
+        "status": "available",
+        "bytes": 54895,
+        "sha256": "978beea436c81e05b05aeaa3b7c2f7bc33677665020e577f310527574e0fae92",
+        "cues": 551,
+        "nonempty_cues": 551
+      },
+      "frame_indices": [
+        0,
+        1818,
+        3637,
+        5455,
+        7273,
+        9092,
+        10910,
+        12728,
+        14547,
+        16365,
+        18184,
+        20002,
+        21820,
+        23639,
+        25457,
+        27275,
+        29094,
+        30912,
+        32730,
+        34549,
+        36367,
+        38185,
+        40004,
+        41822,
+        43641,
+        45459,
+        47277,
+        49096,
+        50914,
+        52732,
+        54551,
+        56369
+      ],
+      "frame_seconds": [
+        0.0,
+        60.6,
+        121.233333,
+        181.833333,
+        242.433333,
+        303.066667,
+        363.666667,
+        424.266667,
+        484.9,
+        545.5,
+        606.133333,
+        666.733333,
+        727.333333,
+        787.966667,
+        848.566667,
+        909.166667,
+        969.8,
+        1030.4,
+        1091.0,
+        1151.633333,
+        1212.233333,
+        1272.833333,
+        1333.466667,
+        1394.066667,
+        1454.7,
+        1515.3,
+        1575.9,
+        1636.533333,
+        1697.133333,
+        1757.733333,
+        1818.366667,
+        1878.966667
+      ],
+      "frame_cue_ids": [
+        [
+          1
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          43,
+          44
+        ],
+        [
+          66,
+          67
+        ],
+        [],
+        [],
+        [
+          118,
+          119
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          158,
+          159
+        ],
+        [
+          171
+        ],
+        [
+          199,
+          200
+        ],
+        [
+          224,
+          225
+        ],
+        [
+          233,
+          234
+        ],
+        [
+          261,
+          262
+        ],
+        [
+          278,
+          279
+        ],
+        [
+          295,
+          296
+        ],
+        [],
+        [
+          329,
+          330
+        ],
+        [],
+        [
+          342
+        ],
+        [
+          348
+        ],
+        [
+          367,
+          368
+        ],
+        [],
+        [
+          406
+        ],
+        [
+          419,
+          420
+        ],
+        [
+          441,
+          442
+        ],
+        [],
+        [
+          475,
+          476
+        ],
+        [],
+        [
+          512
+        ],
+        [
+          530,
+          531
+        ],
+        [
+          551
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 1,
+          "start_ms": 0,
+          "end_ms": 18920,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 18,
+          "start_ms": 56399,
+          "end_ms": 63059,
+          "text": "this weird lighting I'm in the garage so"
+        },
+        {
+          "cue_id": 19,
+          "start_ms": 60300,
+          "end_ms": 65900,
+          "text": "let's go let's fingers crossed his path"
+        },
+        {
+          "cue_id": 43,
+          "start_ms": 117180,
+          "end_ms": 121340,
+          "text": "like pre-make it so hopefully it doesn't"
+        },
+        {
+          "cue_id": 44,
+          "start_ms": 118560,
+          "end_ms": 121340,
+          "text": "get watered out"
+        },
+        {
+          "cue_id": 66,
+          "start_ms": 176959,
+          "end_ms": 182760,
+          "text": "at Target now parked I got a good spot"
+        },
+        {
+          "cue_id": 67,
+          "start_ms": 180180,
+          "end_ms": 184680,
+          "text": "with shade which is so good because it's"
+        },
+        {
+          "cue_id": 118,
+          "start_ms": 360660,
+          "end_ms": 366300,
+          "text": "your girl needs something she's pasty"
+        },
+        {
+          "cue_id": 119,
+          "start_ms": 362699,
+          "end_ms": 369060,
+          "text": "like what if I put this on"
+        },
+        {
+          "cue_id": 143,
+          "start_ms": 422160,
+          "end_ms": 426300,
+          "text": "stuff on me for"
+        },
+        {
+          "cue_id": 144,
+          "start_ms": 423960,
+          "end_ms": 428720,
+          "text": "well you got all this stuff for me"
+        },
+        {
+          "cue_id": 158,
+          "start_ms": 482180,
+          "end_ms": 486240,
+          "text": "anything did you try to take something"
+        },
+        {
+          "cue_id": 159,
+          "start_ms": 484500,
+          "end_ms": 489199,
+          "text": "okay"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 544200,
+          "end_ms": 549060,
+          "text": "okay we're back home obviously I'm"
+        },
+        {
+          "cue_id": 199,
+          "start_ms": 603720,
+          "end_ms": 608040,
+          "text": "I didn't get my target bag out so I need"
+        },
+        {
+          "cue_id": 200,
+          "start_ms": 605459,
+          "end_ms": 610140,
+          "text": "to do that I'm probably going to do the"
+        },
+        {
+          "cue_id": 224,
+          "start_ms": 658440,
+          "end_ms": 667320,
+          "text": "yeah yeah I'm all fed and happy now and"
+        },
+        {
+          "cue_id": 225,
+          "start_ms": 663060,
+          "end_ms": 670079,
+          "text": "changed I'm fed and happy and changed"
+        },
+        {
+          "cue_id": 233,
+          "start_ms": 717310,
+          "end_ms": 727980,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 234,
+          "start_ms": 725100,
+          "end_ms": 731060,
+          "text": "that pillow looks sad what's going on"
+        },
+        {
+          "cue_id": 261,
+          "start_ms": 785160,
+          "end_ms": 788940,
+          "text": "obsessed with these they're so"
+        },
+        {
+          "cue_id": 262,
+          "start_ms": 786240,
+          "end_ms": 791220,
+          "text": "comfortable and like functional but also"
+        },
+        {
+          "cue_id": 278,
+          "start_ms": 842390,
+          "end_ms": 852440,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 279,
+          "start_ms": 847860,
+          "end_ms": 852440,
+          "text": "I'm like obsessed with little sleepies"
+        },
+        {
+          "cue_id": 295,
+          "start_ms": 905240,
+          "end_ms": 911760,
+          "text": "and just Straighten It Up"
+        },
+        {
+          "cue_id": 296,
+          "start_ms": 908399,
+          "end_ms": 913800,
+          "text": "it's 11 55 he went down at like 11 30 so"
+        },
+        {
+          "cue_id": 329,
+          "start_ms": 1026839,
+          "end_ms": 1031419,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 330,
+          "start_ms": 1028459,
+          "end_ms": 1031419,
+          "text": "radiator"
+        },
+        {
+          "cue_id": 342,
+          "start_ms": 1149980,
+          "end_ms": 1155860,
+          "text": "do a little bit of playing let's do a"
+        },
+        {
+          "cue_id": 348,
+          "start_ms": 1208970,
+          "end_ms": 1212940,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 367,
+          "start_ms": 1268600,
+          "end_ms": 1273980,
+          "text": "greens I know you've seen them before"
+        },
+        {
+          "cue_id": 368,
+          "start_ms": 1270940,
+          "end_ms": 1276020,
+          "text": "they're like the best screens I have"
+        },
+        {
+          "cue_id": 406,
+          "start_ms": 1392120,
+          "end_ms": 1397480,
+          "text": "Get Your Greens in"
+        },
+        {
+          "cue_id": 419,
+          "start_ms": 1451880,
+          "end_ms": 1458500,
+          "text": "deodorant for both of us I had this"
+        },
+        {
+          "cue_id": 420,
+          "start_ms": 1454400,
+          "end_ms": 1458500,
+          "text": "pimple correct from hero"
+        },
+        {
+          "cue_id": 441,
+          "start_ms": 1510919,
+          "end_ms": 1516020,
+          "text": "also I got an Amazon package"
+        },
+        {
+          "cue_id": 442,
+          "start_ms": 1513220,
+          "end_ms": 1518780,
+          "text": "I ordered"
+        },
+        {
+          "cue_id": 475,
+          "start_ms": 1633020,
+          "end_ms": 1638480,
+          "text": "what is this color"
+        },
+        {
+          "cue_id": 476,
+          "start_ms": 1635260,
+          "end_ms": 1640720,
+          "text": "it's okay"
+        },
+        {
+          "cue_id": 512,
+          "start_ms": 1757520,
+          "end_ms": 1762320,
+          "text": "I love you"
+        },
+        {
+          "cue_id": 530,
+          "start_ms": 1812600,
+          "end_ms": 1818480,
+          "text": "okay this is in his current size oh it's"
+        },
+        {
+          "cue_id": 531,
+          "start_ms": 1816440,
+          "end_ms": 1820279,
+          "text": "so soft"
+        },
+        {
+          "cue_id": 551,
+          "start_ms": 1873290,
+          "end_ms": 1880829,
+          "text": "[Music]"
+        }
+      ],
+      "text": "[Music]\nthis weird lighting I'm in the garage so\nlet's go let's fingers crossed his path\nlike pre-make it so hopefully it doesn't\nget watered out\nat Target now parked I got a good spot\nwith shade which is so good because it's\nyour girl needs something she's pasty\nlike what if I put this on\nstuff on me for\nwell you got all this stuff for me\nanything did you try to take something\nokay\nokay we're back home obviously I'm\nI didn't get my target bag out so I need\nto do that I'm probably going to do the\nyeah yeah I'm all fed and happy now and\nchanged I'm fed and happy and changed\n[Music]\nthat pillow looks sad what's going on\nobsessed with these they're so\ncomfortable and like functional but also\n[Music]\nI'm like obsessed with little sleepies\nand just Straighten It Up\nit's 11 55 he went down at like 11 30 so\n[Music]\nradiator\ndo a little bit of playing let's do a\n[Music]\ngreens I know you've seen them before\nthey're like the best screens I have\nGet Your Greens in\ndeodorant for both of us I had this\npimple correct from hero\nalso I got an Amazon package\nI ordered\nwhat is this color\nit's okay\nI love you\nokay this is in his current size oh it's\nso soft\n[Music]",
+      "text_tokens": 319,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "3HEYqZgC4ko",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/3HEYqZgC4ko.srt",
+          "status": "available",
+          "bytes": 54895,
+          "sha256": "978beea436c81e05b05aeaa3b7c2f7bc33677665020e577f310527574e0fae92",
+          "cues": 551,
+          "nonempty_cues": 551
+        },
+        "frame_indices": [
+          0,
+          1818,
+          3637,
+          5455,
+          7273,
+          9092,
+          10910,
+          12728,
+          14547,
+          16365,
+          18184,
+          20002,
+          21820,
+          23639,
+          25457,
+          27275,
+          29094,
+          30912,
+          32730,
+          34549,
+          36367,
+          38185,
+          40004,
+          41822,
+          43641,
+          45459,
+          47277,
+          49096,
+          50914,
+          52732,
+          54551,
+          56369
+        ],
+        "frame_seconds": [
+          0.0,
+          60.6,
+          121.233333,
+          181.833333,
+          242.433333,
+          303.066667,
+          363.666667,
+          424.266667,
+          484.9,
+          545.5,
+          606.133333,
+          666.733333,
+          727.333333,
+          787.966667,
+          848.566667,
+          909.166667,
+          969.8,
+          1030.4,
+          1091.0,
+          1151.633333,
+          1212.233333,
+          1272.833333,
+          1333.466667,
+          1394.066667,
+          1454.7,
+          1515.3,
+          1575.9,
+          1636.533333,
+          1697.133333,
+          1757.733333,
+          1818.366667,
+          1878.966667
+        ],
+        "frame_cue_ids": [
+          [
+            1
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            43,
+            44
+          ],
+          [
+            66,
+            67
+          ],
+          [],
+          [],
+          [
+            118,
+            119
+          ],
+          [
+            143,
+            144
+          ],
+          [
+            158,
+            159
+          ],
+          [
+            171
+          ],
+          [
+            199,
+            200
+          ],
+          [
+            224,
+            225
+          ],
+          [
+            233,
+            234
+          ],
+          [
+            261,
+            262
+          ],
+          [
+            278,
+            279
+          ],
+          [
+            295,
+            296
+          ],
+          [],
+          [
+            329,
+            330
+          ],
+          [],
+          [
+            342
+          ],
+          [
+            348
+          ],
+          [
+            367,
+            368
+          ],
+          [],
+          [
+            406
+          ],
+          [
+            419,
+            420
+          ],
+          [
+            441,
+            442
+          ],
+          [],
+          [
+            475,
+            476
+          ],
+          [],
+          [
+            512
+          ],
+          [
+            530,
+            531
+          ],
+          [
+            551
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 1,
+            "start_ms": 0,
+            "end_ms": 18920,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 18,
+            "start_ms": 56399,
+            "end_ms": 63059,
+            "text": "this weird lighting I'm in the garage so"
+          },
+          {
+            "cue_id": 19,
+            "start_ms": 60300,
+            "end_ms": 65900,
+            "text": "let's go let's fingers crossed his path"
+          },
+          {
+            "cue_id": 43,
+            "start_ms": 117180,
+            "end_ms": 121340,
+            "text": "like pre-make it so hopefully it doesn't"
+          },
+          {
+            "cue_id": 44,
+            "start_ms": 118560,
+            "end_ms": 121340,
+            "text": "get watered out"
+          },
+          {
+            "cue_id": 66,
+            "start_ms": 176959,
+            "end_ms": 182760,
+            "text": "at Target now parked I got a good spot"
+          },
+          {
+            "cue_id": 67,
+            "start_ms": 180180,
+            "end_ms": 184680,
+            "text": "with shade which is so good because it's"
+          },
+          {
+            "cue_id": 118,
+            "start_ms": 360660,
+            "end_ms": 366300,
+            "text": "your girl needs something she's pasty"
+          },
+          {
+            "cue_id": 119,
+            "start_ms": 362699,
+            "end_ms": 369060,
+            "text": "like what if I put this on"
+          },
+          {
+            "cue_id": 143,
+            "start_ms": 422160,
+            "end_ms": 426300,
+            "text": "stuff on me for"
+          },
+          {
+            "cue_id": 144,
+            "start_ms": 423960,
+            "end_ms": 428720,
+            "text": "well you got all this stuff for me"
+          },
+          {
+            "cue_id": 158,
+            "start_ms": 482180,
+            "end_ms": 486240,
+            "text": "anything did you try to take something"
+          },
+          {
+            "cue_id": 159,
+            "start_ms": 484500,
+            "end_ms": 489199,
+            "text": "okay"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 544200,
+            "end_ms": 549060,
+            "text": "okay we're back home obviously I'm"
+          },
+          {
+            "cue_id": 199,
+            "start_ms": 603720,
+            "end_ms": 608040,
+            "text": "I didn't get my target bag out so I need"
+          },
+          {
+            "cue_id": 200,
+            "start_ms": 605459,
+            "end_ms": 610140,
+            "text": "to do that I'm probably going to do the"
+          },
+          {
+            "cue_id": 224,
+            "start_ms": 658440,
+            "end_ms": 667320,
+            "text": "yeah yeah I'm all fed and happy now and"
+          },
+          {
+            "cue_id": 225,
+            "start_ms": 663060,
+            "end_ms": 670079,
+            "text": "changed I'm fed and happy and changed"
+          },
+          {
+            "cue_id": 233,
+            "start_ms": 717310,
+            "end_ms": 727980,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 234,
+            "start_ms": 725100,
+            "end_ms": 731060,
+            "text": "that pillow looks sad what's going on"
+          },
+          {
+            "cue_id": 261,
+            "start_ms": 785160,
+            "end_ms": 788940,
+            "text": "obsessed with these they're so"
+          },
+          {
+            "cue_id": 262,
+            "start_ms": 786240,
+            "end_ms": 791220,
+            "text": "comfortable and like functional but also"
+          },
+          {
+            "cue_id": 278,
+            "start_ms": 842390,
+            "end_ms": 852440,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 279,
+            "start_ms": 847860,
+            "end_ms": 852440,
+            "text": "I'm like obsessed with little sleepies"
+          },
+          {
+            "cue_id": 295,
+            "start_ms": 905240,
+            "end_ms": 911760,
+            "text": "and just Straighten It Up"
+          },
+          {
+            "cue_id": 296,
+            "start_ms": 908399,
+            "end_ms": 913800,
+            "text": "it's 11 55 he went down at like 11 30 so"
+          },
+          {
+            "cue_id": 329,
+            "start_ms": 1026839,
+            "end_ms": 1031419,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 330,
+            "start_ms": 1028459,
+            "end_ms": 1031419,
+            "text": "radiator"
+          },
+          {
+            "cue_id": 342,
+            "start_ms": 1149980,
+            "end_ms": 1155860,
+            "text": "do a little bit of playing let's do a"
+          },
+          {
+            "cue_id": 348,
+            "start_ms": 1208970,
+            "end_ms": 1212940,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 367,
+            "start_ms": 1268600,
+            "end_ms": 1273980,
+            "text": "greens I know you've seen them before"
+          },
+          {
+            "cue_id": 368,
+            "start_ms": 1270940,
+            "end_ms": 1276020,
+            "text": "they're like the best screens I have"
+          },
+          {
+            "cue_id": 406,
+            "start_ms": 1392120,
+            "end_ms": 1397480,
+            "text": "Get Your Greens in"
+          },
+          {
+            "cue_id": 419,
+            "start_ms": 1451880,
+            "end_ms": 1458500,
+            "text": "deodorant for both of us I had this"
+          },
+          {
+            "cue_id": 420,
+            "start_ms": 1454400,
+            "end_ms": 1458500,
+            "text": "pimple correct from hero"
+          },
+          {
+            "cue_id": 441,
+            "start_ms": 1510919,
+            "end_ms": 1516020,
+            "text": "also I got an Amazon package"
+          },
+          {
+            "cue_id": 442,
+            "start_ms": 1513220,
+            "end_ms": 1518780,
+            "text": "I ordered"
+          },
+          {
+            "cue_id": 475,
+            "start_ms": 1633020,
+            "end_ms": 1638480,
+            "text": "what is this color"
+          },
+          {
+            "cue_id": 476,
+            "start_ms": 1635260,
+            "end_ms": 1640720,
+            "text": "it's okay"
+          },
+          {
+            "cue_id": 512,
+            "start_ms": 1757520,
+            "end_ms": 1762320,
+            "text": "I love you"
+          },
+          {
+            "cue_id": 530,
+            "start_ms": 1812600,
+            "end_ms": 1818480,
+            "text": "okay this is in his current size oh it's"
+          },
+          {
+            "cue_id": 531,
+            "start_ms": 1816440,
+            "end_ms": 1820279,
+            "text": "so soft"
+          },
+          {
+            "cue_id": 551,
+            "start_ms": 1873290,
+            "end_ms": 1880829,
+            "text": "[Music]"
+          }
+        ],
+        "text": "[Music]\nthis weird lighting I'm in the garage so\nlet's go let's fingers crossed his path\nlike pre-make it so hopefully it doesn't\nget watered out\nat Target now parked I got a good spot\nwith shade which is so good because it's\nyour girl needs something she's pasty\nlike what if I put this on\nstuff on me for\nwell you got all this stuff for me\nanything did you try to take something\nokay\nokay we're back home obviously I'm\nI didn't get my target bag out so I need\nto do that I'm probably going to do the\nyeah yeah I'm all fed and happy now and\nchanged I'm fed and happy and changed\n[Music]\nthat pillow looks sad what's going on\nobsessed with these they're so\ncomfortable and like functional but also\n[Music]\nI'm like obsessed with little sleepies\nand just Straighten It Up\nit's 11 55 he went down at like 11 30 so\n[Music]\nradiator\ndo a little bit of playing let's do a\n[Music]\ngreens I know you've seen them before\nthey're like the best screens I have\nGet Your Greens in\ndeodorant for both of us I had this\npimple correct from hero\nalso I got an Amazon package\nI ordered\nwhat is this color\nit's okay\nI love you\nokay this is in his current size oh it's\nso soft\n[Music]",
+        "text_tokens": 319,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S1",
+          "cue_ids": [
+            1,
+            2
+          ],
+          "start_ms": 0,
+          "end_ms": 18920,
+          "text": "[Music] I love you"
+        },
+        {
+          "id": "S17",
+          "cue_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_ms": 53820,
+          "end_ms": 67799,
+          "text": "welcome back to my channel sorry about this weird lighting I'm in the garage so let's go let's fingers crossed his path he doesn't fall in his mouth"
+        },
+        {
+          "id": "S42",
+          "cue_ids": [
+            42,
+            43,
+            44
+          ],
+          "start_ms": 115560,
+          "end_ms": 121340,
+          "text": "ordered ahead so I feel like they always like pre-make it so hopefully it doesn't get watered out"
+        },
+        {
+          "id": "S65",
+          "cue_ids": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "start_ms": 174599,
+          "end_ms": 186540,
+          "text": "before at Target now parked I got a good spot with shade which is so good because it's so hot"
+        },
+        {
+          "id": "S117",
+          "cue_ids": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "start_ms": 358919,
+          "end_ms": 372419,
+          "text": "because your girl needs something she's pasty like what if I put this on in between self tan days when it's"
+        },
+        {
+          "id": "S142",
+          "cue_ids": [
+            142,
+            143,
+            144,
+            145
+          ],
+          "start_ms": 420419,
+          "end_ms": 428720,
+          "text": "it's like Mom what do you have all this stuff on me for well you got all this stuff for me before"
+        },
+        {
+          "id": "S158",
+          "cue_ids": [
+            158,
+            159,
+            160
+          ],
+          "start_ms": 482180,
+          "end_ms": 489199,
+          "text": "anything did you try to take something okay 73 bucks"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172
+          ],
+          "start_ms": 539760,
+          "end_ms": 550260,
+          "text": "oh yeah okay we're back home obviously I'm feeding him I just changed him he had a"
+        },
+        {
+          "id": "S198",
+          "cue_ids": [
+            198,
+            199,
+            200,
+            201
+          ],
+          "start_ms": 601740,
+          "end_ms": 612959,
+          "text": "um I got laundry to do I didn't get my target bag out so I need to do that I'm probably going to do the grocery pickup for later that's what's"
+        },
+        {
+          "id": "S223",
+          "cue_ids": [
+            223,
+            224,
+            225,
+            226
+          ],
+          "start_ms": 655440,
+          "end_ms": 673079,
+          "text": "um yeah yeah I'm all fed and happy now and changed I'm fed and happy and changed into a clean outfit"
+        },
+        {
+          "id": "S232",
+          "cue_ids": [
+            232,
+            233,
+            234,
+            235
+          ],
+          "start_ms": 713700,
+          "end_ms": 731060,
+          "text": "gonna do it now [Music] that pillow looks sad what's going on with that let's fix that"
+        },
+        {
+          "id": "S260",
+          "cue_ids": [
+            260,
+            261,
+            262,
+            263
+          ],
+          "start_ms": 783060,
+          "end_ms": 793260,
+          "text": "mom if you're pregnant if you're not I'm obsessed with these they're so comfortable and like functional but also I feel cute in them"
+        },
+        {
+          "id": "S277",
+          "cue_ids": [
+            277,
+            278,
+            279
+          ],
+          "start_ms": 839880,
+          "end_ms": 852440,
+          "text": "oh [Music] I'm like obsessed with little sleepies"
+        },
+        {
+          "id": "S294",
+          "cue_ids": [
+            294,
+            295,
+            296,
+            297
+          ],
+          "start_ms": 903360,
+          "end_ms": 917399,
+          "text": "I need to wipe it on the counters and just Straighten It Up it's 11 55 he went down at like 11 30 so we'll see if it'll go past the 30 minute"
+        },
+        {
+          "id": "S328",
+          "cue_ids": [
+            328,
+            329,
+            330
+          ],
+          "start_ms": 1024619,
+          "end_ms": 1031419,
+          "text": "let there be light [Music] radiator"
+        },
+        {
+          "id": "S342",
+          "cue_ids": [
+            342,
+            343
+          ],
+          "start_ms": 1149980,
+          "end_ms": 1155860,
+          "text": "do a little bit of playing let's do a little bit of playing"
+        },
+        {
+          "id": "S348",
+          "cue_ids": [
+            348
+          ],
+          "start_ms": 1208970,
+          "end_ms": 1212940,
+          "text": "[Music]"
+        },
+        {
+          "id": "S366",
+          "cue_ids": [
+            366,
+            367,
+            368,
+            369
+          ],
+          "start_ms": 1265880,
+          "end_ms": 1278660,
+          "text": "to have some greens these are the bloom greens I know you've seen them before they're like the best screens I have um"
+        },
+        {
+          "id": "S405",
+          "cue_ids": [
+            405,
+            406,
+            407
+          ],
+          "start_ms": 1387440,
+          "end_ms": 1397480,
+          "text": "not eating them so get some bloom Get Your Greens in yum"
+        },
+        {
+          "id": "S418",
+          "cue_ids": [
+            418,
+            419,
+            420,
+            421
+          ],
+          "start_ms": 1449720,
+          "end_ms": 1462740,
+          "text": "forever deodorant for both of us I had this pimple correct from hero let's see if it's good or not I don't"
+        },
+        {
+          "id": "S440",
+          "cue_ids": [
+            440,
+            441,
+            442,
+            443
+          ],
+          "start_ms": 1509360,
+          "end_ms": 1522980,
+          "text": "it's way better than going grocery store also I got an Amazon package I ordered this like matte thing that you put over"
+        },
+        {
+          "id": "S474",
+          "cue_ids": [
+            474,
+            475,
+            476,
+            477
+          ],
+          "start_ms": 1629080,
+          "end_ms": 1647679,
+          "text": "yeah I'm way too short also this is like what is this color it's okay that's so sad it's okay"
+        },
+        {
+          "id": "S512",
+          "cue_ids": [
+            512,
+            513
+          ],
+          "start_ms": 1757520,
+          "end_ms": 1763960,
+          "text": "I love you I love you"
+        },
+        {
+          "id": "S529",
+          "cue_ids": [
+            529,
+            530,
+            531,
+            532
+          ],
+          "start_ms": 1808880,
+          "end_ms": 1822799,
+          "text": "yeah they have a good jogger bottom okay this is in his current size oh it's so soft it's like a little sleeper this looks"
+        },
+        {
+          "id": "S551",
+          "cue_ids": [
+            551
+          ],
+          "start_ms": 1873290,
+          "end_ms": 1880829,
+          "text": "[Music]"
+        }
+      ],
+      "text": "S1 [00:00:00.000 --> 00:00:18.920] [Music] I love you\nS17 [00:00:53.820 --> 00:01:07.799] welcome back to my channel sorry about this weird lighting I'm in the garage so let's go let's fingers crossed his path he doesn't fall in his mouth\nS42 [00:01:55.560 --> 00:02:01.340] ordered ahead so I feel like they always like pre-make it so hopefully it doesn't get watered out\nS65 [00:02:54.599 --> 00:03:06.540] before at Target now parked I got a good spot with shade which is so good because it's so hot\nS117 [00:05:58.919 --> 00:06:12.419] because your girl needs something she's pasty like what if I put this on in between self tan days when it's\nS142 [00:07:00.419 --> 00:07:08.720] it's like Mom what do you have all this stuff on me for well you got all this stuff for me before\nS158 [00:08:02.180 --> 00:08:09.199] anything did you try to take something okay 73 bucks\nS170 [00:08:59.760 --> 00:09:10.260] oh yeah okay we're back home obviously I'm feeding him I just changed him he had a\nS198 [00:10:01.740 --> 00:10:12.959] um I got laundry to do I didn't get my target bag out so I need to do that I'm probably going to do the grocery pickup for later that's what's\nS223 [00:10:55.440 --> 00:11:13.079] um yeah yeah I'm all fed and happy now and changed I'm fed and happy and changed into a clean outfit\nS232 [00:11:53.700 --> 00:12:11.060] gonna do it now [Music] that pillow looks sad what's going on with that let's fix that\nS260 [00:13:03.060 --> 00:13:13.260] mom if you're pregnant if you're not I'm obsessed with these they're so comfortable and like functional but also I feel cute in them\nS277 [00:13:59.880 --> 00:14:12.440] oh [Music] I'm like obsessed with little sleepies\nS294 [00:15:03.360 --> 00:15:17.399] I need to wipe it on the counters and just Straighten It Up it's 11 55 he went down at like 11 30 so we'll see if it'll go past the 30 minute\nS328 [00:17:04.619 --> 00:17:11.419] let there be light [Music] radiator\nS342 [00:19:09.980 --> 00:19:15.860] do a little bit of playing let's do a little bit of playing\nS348 [00:20:08.970 --> 00:20:12.940] [Music]\nS366 [00:21:05.880 --> 00:21:18.660] to have some greens these are the bloom greens I know you've seen them before they're like the best screens I have um\nS405 [00:23:07.440 --> 00:23:17.480] not eating them so get some bloom Get Your Greens in yum\nS418 [00:24:09.720 --> 00:24:22.740] forever deodorant for both of us I had this pimple correct from hero let's see if it's good or not I don't\nS440 [00:25:09.360 --> 00:25:22.980] it's way better than going grocery store also I got an Amazon package I ordered this like matte thing that you put over\nS474 [00:27:09.080 --> 00:27:27.679] yeah I'm way too short also this is like what is this color it's okay that's so sad it's okay\nS512 [00:29:17.520 --> 00:29:23.960] I love you I love you\nS529 [00:30:08.880 --> 00:30:22.799] yeah they have a good jogger bottom okay this is in his current size oh it's so soft it's like a little sleeper this looks\nS551 [00:31:13.290 --> 00:31:20.829] [Music]",
+      "text_tokens": 1317,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        2,
+        17,
+        20,
+        42,
+        65,
+        68,
+        117,
+        120,
+        142,
+        145,
+        160,
+        170,
+        172,
+        198,
+        201,
+        223,
+        226,
+        232,
+        235,
+        260,
+        263,
+        277,
+        294,
+        297,
+        328,
+        343,
+        366,
+        369,
+        405,
+        407,
+        418,
+        421,
+        440,
+        443,
+        474,
+        477,
+        513,
+        529,
+        532
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "cfe3c00ccfc590649001279a46a54ab3ecf01b68918bbc0799950a5a44722a1b"
+}

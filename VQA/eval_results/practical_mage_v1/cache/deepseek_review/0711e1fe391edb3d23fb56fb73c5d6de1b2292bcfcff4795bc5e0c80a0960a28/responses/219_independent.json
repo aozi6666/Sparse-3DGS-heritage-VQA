@@ -1,0 +1,33 @@
+{
+  "signature": "0711e1fe391edb3d23fb56fb73c5d6de1b2292bcfcff4795bc5e0c80a0960a28",
+  "request_sha256": "9bf40d75232efa884cfea915e3c9e48eaa67dc3fb362d1466440d748cc5a20b4",
+  "response": {
+    "id": "65fcde27-d079-4d9c-9ddb-674736f7d0e9",
+    "object": "chat.completion",
+    "created": 1793675540,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\":\"INSUFFICIENT\",\"supported\":false,\"complete\":false,\"subtitle_quotes\":[{\"block_id\":\"S13\",\"quote\":\"These ditches and mounds are man-made. And they’re all over the rainforest.\"}],\"frame_ids\":[\"F962\",\"F6732\",\"F7052\"],\"windows\":[],\"notes\":\"Subtitles and frames show man-made ditches/trenches exist, but no supplied evidence states a count of recently found man-made ditches; options 1-4 cannot be verified.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8925,
+      "completion_tokens": 113,
+      "total_tokens": 9038,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8925
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "elapsed_s": 2.100879168137908
+}

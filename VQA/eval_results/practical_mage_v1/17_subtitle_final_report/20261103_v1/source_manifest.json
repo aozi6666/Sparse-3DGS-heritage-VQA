@@ -1,0 +1,87 @@
+{
+  "version": "subtitle_final_report_v1",
+  "date": "2026-11-03 Asia/Shanghai",
+  "stages": {
+    "short219": {
+      "summary": "VQA/eval_results/practical_mage_v1/14_subtitle_completion/short219_t2048/summary.json",
+      "signature": "922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de",
+      "N": 219,
+      "role": "historical development coverage"
+    },
+    "dev180": {
+      "summary": "VQA/eval_results/practical_mage_v1/11_continuous_subtitles/dev60/f32_px150000_neighbor1_time_t2048_v1/summary.json",
+      "signature": "ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027",
+      "N": 180,
+      "role": "development"
+    },
+    "val90": {
+      "summary": "VQA/eval_results/practical_mage_v1/15_continuous_val90/val90_t2048/summary.json",
+      "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+      "N": 90,
+      "role": "previously diagnosed supplementary validation"
+    },
+    "test225": {
+      "summary": "VQA/eval_results/practical_mage_v1/16_continuous_test225/test225_t2048/summary.json",
+      "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+      "N": 225,
+      "role": "frozen final evaluation with historical-use disclosure"
+    }
+  },
+  "coverage": {
+    "questions": 714,
+    "videos": 238,
+    "no_duplicate_questions": true,
+    "video_disjoint": true,
+    "official_full_benchmark": false
+  },
+  "sources": {
+    "VQA/eval_results/practical_mage_v1/14_subtitle_completion/short219_t2048/summary.json": {
+      "bytes": 8747,
+      "sha256": "4ad58fef34c2cd72823210bf082dcf0cc49bb2245ea555fa3f12b0214ea3215b"
+    },
+    "VQA/eval_results/practical_mage_v1/14_subtitle_completion/short219_t2048/predictions.json": {
+      "bytes": 105013,
+      "sha256": "a7066ac58727dddc3ccb4fb388843098dee3e9dd0f4e14a4ea81dbae4a917837"
+    },
+    "VQA/eval_results/practical_mage_v1/cache/subtitle_completion/922f73dd5c8160348b800fab92790c288f3e2a7c025fe819ea43693c715cb2de/units.jsonl": {
+      "bytes": 878308,
+      "sha256": "8c7e5da86a088e683bc874e5e4338c730116c18ad2b23b6fbb06fd7382b68321"
+    },
+    "VQA/eval_results/practical_mage_v1/11_continuous_subtitles/dev60/f32_px150000_neighbor1_time_t2048_v1/summary.json": {
+      "bytes": 4697,
+      "sha256": "6215a4b85218771c22ab3d0fc384979a9f1264fe0ec0bb0981afd92482cc9467"
+    },
+    "VQA/eval_results/practical_mage_v1/11_continuous_subtitles/dev60/f32_px150000_neighbor1_time_t2048_v1/predictions.json": {
+      "bytes": 32403,
+      "sha256": "83d53bf259798ada793527313b5d75cf757f19681981e0eebcfc968bd005c136"
+    },
+    "VQA/eval_results/practical_mage_v1/cache/continuous_subtitles/ae099c4c1b9cff19b52ce30454b87b6d64c6e0a92928d48e697f351af77c2027/units.jsonl": {
+      "bytes": 259853,
+      "sha256": "bd4038cfc0d72664a636a1ee93237d26161ec859076ea7d87e009db70388a3bb"
+    },
+    "VQA/eval_results/practical_mage_v1/15_continuous_val90/val90_t2048/summary.json": {
+      "bytes": 5245,
+      "sha256": "3b3cd2e9cd9898731e433bab2782f1ee63f975f69c09f20bdfa7672069676910"
+    },
+    "VQA/eval_results/practical_mage_v1/15_continuous_val90/val90_t2048/predictions.json": {
+      "bytes": 43209,
+      "sha256": "4792f78da0d6cc4089f256fc53f25441f940d639240d642dba0cd2d3580b4fe7"
+    },
+    "VQA/eval_results/practical_mage_v1/cache/continuous_val90/193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757/units.jsonl": {
+      "bytes": 430302,
+      "sha256": "105ecc2b0c62745ef078dfec0b0d3b98c0fb34ab21a04da5fca3f957c52e9b80"
+    },
+    "VQA/eval_results/practical_mage_v1/16_continuous_test225/test225_t2048/summary.json": {
+      "bytes": 24680,
+      "sha256": "04798ebaec488ade8d94d577e2af4f1398c813186b83e77aa01d405c6edeeddc"
+    },
+    "VQA/eval_results/practical_mage_v1/16_continuous_test225/test225_t2048/predictions.json": {
+      "bytes": 108006,
+      "sha256": "263114d29d979f08dfacbd80b97aa2b88b584972e51aa9afa5ecf3d21d82f8d2"
+    },
+    "VQA/eval_results/practical_mage_v1/cache/continuous_test225/ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d/units.jsonl": {
+      "bytes": 890143,
+      "sha256": "a1dd4b889f5c81ef259a5261316562844f479442c7fa2f937102d82502abb607"
+    }
+  }
+}

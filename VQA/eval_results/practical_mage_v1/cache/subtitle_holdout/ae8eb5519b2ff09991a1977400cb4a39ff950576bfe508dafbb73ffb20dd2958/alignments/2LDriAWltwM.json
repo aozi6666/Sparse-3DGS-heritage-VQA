@@ -1,0 +1,511 @@
+{
+  "signature": "ae8eb5519b2ff09991a1977400cb4a39ff950576bfe508dafbb73ffb20dd2958",
+  "evidence": {
+    "video_id": "2LDriAWltwM",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/2LDriAWltwM.srt",
+      "status": "available",
+      "bytes": 120683,
+      "sha256": "b668512912fe566f47c8eed74f67ce9d558555670ae50088da1569b80a332a92",
+      "cues": 1105,
+      "nonempty_cues": 1105
+    },
+    "frame_indices": [
+      0,
+      2553,
+      5107,
+      7660,
+      10214,
+      12767,
+      15321,
+      17874,
+      20428,
+      22981,
+      25535,
+      28088,
+      30642,
+      33195,
+      35749,
+      38302,
+      40856,
+      43409,
+      45963,
+      48516,
+      51070,
+      53623,
+      56177,
+      58730,
+      61284,
+      63837,
+      66391,
+      68944,
+      71498,
+      74051,
+      76605,
+      79158
+    ],
+    "frame_seconds": [
+      0.0,
+      102.12,
+      204.28,
+      306.4,
+      408.56,
+      510.68,
+      612.84,
+      714.96,
+      817.12,
+      919.24,
+      1021.4,
+      1123.52,
+      1225.68,
+      1327.8,
+      1429.96,
+      1532.08,
+      1634.24,
+      1736.36,
+      1838.52,
+      1940.64,
+      2042.8,
+      2144.92,
+      2247.08,
+      2349.2,
+      2451.36,
+      2553.48,
+      2655.64,
+      2757.76,
+      2859.92,
+      2962.04,
+      3064.2,
+      3166.32
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        38,
+        39
+      ],
+      [],
+      [
+        98,
+        99
+      ],
+      [
+        127,
+        128
+      ],
+      [
+        168,
+        169
+      ],
+      [
+        202,
+        203
+      ],
+      [
+        251,
+        252
+      ],
+      [
+        302,
+        303
+      ],
+      [
+        348,
+        349
+      ],
+      [
+        373,
+        374
+      ],
+      [
+        398
+      ],
+      [],
+      [
+        463,
+        464
+      ],
+      [
+        503,
+        504
+      ],
+      [
+        546,
+        547
+      ],
+      [
+        574,
+        575
+      ],
+      [
+        616,
+        617
+      ],
+      [
+        644,
+        645
+      ],
+      [],
+      [
+        702,
+        703
+      ],
+      [
+        750,
+        751
+      ],
+      [
+        799,
+        800
+      ],
+      [
+        850,
+        851
+      ],
+      [
+        872,
+        873
+      ],
+      [],
+      [
+        912,
+        913
+      ],
+      [
+        963,
+        964
+      ],
+      [
+        999
+      ],
+      [
+        1035,
+        1036
+      ],
+      [],
+      [
+        1104,
+        1105
+      ]
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 10800,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 38,
+        "start_ms": 99920,
+        "end_ms": 103799,
+        "text": "cuz like the weather's colder and stuff"
+      },
+      {
+        "cue_id": 39,
+        "start_ms": 101920,
+        "end_ms": 104960,
+        "text": "but I don't feel too bad so I'm going to"
+      },
+      {
+        "cue_id": 98,
+        "start_ms": 303280,
+        "end_ms": 307560,
+        "text": "another five on each side to make it"
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 305240,
+        "end_ms": 308960,
+        "text": "eight tight I'm really just trying to"
+      },
+      {
+        "cue_id": 127,
+        "start_ms": 405199,
+        "end_ms": 408800,
+        "text": "the length of your femur and everything"
+      },
+      {
+        "cue_id": 128,
+        "start_ms": 406840,
+        "end_ms": 411120,
+        "text": "like that so every single body will be"
+      },
+      {
+        "cue_id": 168,
+        "start_ms": 506680,
+        "end_ms": 511039,
+        "text": "keep it super slow and controlled um"
+      },
+      {
+        "cue_id": 169,
+        "start_ms": 508759,
+        "end_ms": 512719,
+        "text": "with the working leg just tap that on"
+      },
+      {
+        "cue_id": 202,
+        "start_ms": 607680,
+        "end_ms": 613880,
+        "text": "set maybe and today I didn't do that and"
+      },
+      {
+        "cue_id": 203,
+        "start_ms": 611440,
+        "end_ms": 615200,
+        "text": "I was in there for quite a while not"
+      },
+      {
+        "cue_id": 251,
+        "start_ms": 710760,
+        "end_ms": 715760,
+        "text": "movements so today I did a single leg"
+      },
+      {
+        "cue_id": 252,
+        "start_ms": 713800,
+        "end_ms": 718000,
+        "text": "dumbbell RDL and then I did cable"
+      },
+      {
+        "cue_id": 302,
+        "start_ms": 814839,
+        "end_ms": 819800,
+        "text": "than progressing in those movements then"
+      },
+      {
+        "cue_id": 303,
+        "start_ms": 816800,
+        "end_ms": 822000,
+        "text": "you do you but if someone was to ask me"
+      },
+      {
+        "cue_id": 348,
+        "start_ms": 916360,
+        "end_ms": 920600,
+        "text": "the link in my description or in my bio"
+      },
+      {
+        "cue_id": 349,
+        "start_ms": 919040,
+        "end_ms": 922399,
+        "text": "on Instagram or you can just literally"
+      },
+      {
+        "cue_id": 373,
+        "start_ms": 1017480,
+        "end_ms": 1021519,
+        "text": "reps"
+      },
+      {
+        "cue_id": 374,
+        "start_ms": 1020040,
+        "end_ms": 1023319,
+        "text": "okay that was heavier than I thought it"
+      },
+      {
+        "cue_id": 398,
+        "start_ms": 1122470,
+        "end_ms": 1126119,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 463,
+        "start_ms": 1324520,
+        "end_ms": 1329279,
+        "text": "to be my rest day and then Friday is"
+      },
+      {
+        "cue_id": 464,
+        "start_ms": 1327159,
+        "end_ms": 1331200,
+        "text": "going to be a workout that I have"
+      },
+      {
+        "cue_id": 503,
+        "start_ms": 1425240,
+        "end_ms": 1430240,
+        "text": "hey guys it's now Wednesday the 1st of"
+      },
+      {
+        "cue_id": 504,
+        "start_ms": 1427840,
+        "end_ms": 1432840,
+        "text": "November guys it's the 1st of November"
+      },
+      {
+        "cue_id": 546,
+        "start_ms": 1529080,
+        "end_ms": 1532240,
+        "text": "music by the way I hope you don't get"
+      },
+      {
+        "cue_id": 547,
+        "start_ms": 1530240,
+        "end_ms": 1534120,
+        "text": "copyrighted but we're barbell squatting"
+      },
+      {
+        "cue_id": 574,
+        "start_ms": 1630880,
+        "end_ms": 1636359,
+        "text": "kilos ah come"
+      },
+      {
+        "cue_id": 575,
+        "start_ms": 1633170,
+        "end_ms": 1636359,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 616,
+        "start_ms": 1734200,
+        "end_ms": 1738519,
+        "text": "set otherwise you're obviously going to"
+      },
+      {
+        "cue_id": 617,
+        "start_ms": 1736159,
+        "end_ms": 1739760,
+        "text": "like deplete a lot of your energy and"
+      },
+      {
+        "cue_id": 644,
+        "start_ms": 1834960,
+        "end_ms": 1840519,
+        "text": "is like suicide so it's really tough I'm"
+      },
+      {
+        "cue_id": 645,
+        "start_ms": 1837159,
+        "end_ms": 1840519,
+        "text": "not even putting anywhere on either"
+      },
+      {
+        "cue_id": 702,
+        "start_ms": 2038799,
+        "end_ms": 2043639,
+        "text": "mediocre and just average so it was nice"
+      },
+      {
+        "cue_id": 703,
+        "start_ms": 2041279,
+        "end_ms": 2046559,
+        "text": "to finish a session and feel really good"
+      },
+      {
+        "cue_id": 750,
+        "start_ms": 2142160,
+        "end_ms": 2145440,
+        "text": "which is like super convenient I hate to"
+      },
+      {
+        "cue_id": 751,
+        "start_ms": 2143920,
+        "end_ms": 2147280,
+        "text": "admit to you guys but the last time I"
+      },
+      {
+        "cue_id": 799,
+        "start_ms": 2244640,
+        "end_ms": 2248480,
+        "text": "so much more productive um but yeah"
+      },
+      {
+        "cue_id": 800,
+        "start_ms": 2246720,
+        "end_ms": 2250839,
+        "text": "having my session this morning and then"
+      },
+      {
+        "cue_id": 850,
+        "start_ms": 2346480,
+        "end_ms": 2351760,
+        "text": "so I'm going to be using this band I"
+      },
+      {
+        "cue_id": 851,
+        "start_ms": 2348400,
+        "end_ms": 2353280,
+        "text": "might do a set unassisted um just cuz"
+      },
+      {
+        "cue_id": 872,
+        "start_ms": 2441390,
+        "end_ms": 2454520,
+        "text": "[Applause]"
+      },
+      {
+        "cue_id": 873,
+        "start_ms": 2451079,
+        "end_ms": 2457319,
+        "text": "10 okay I got eight reps um and now"
+      },
+      {
+        "cue_id": 912,
+        "start_ms": 2653280,
+        "end_ms": 2657160,
+        "text": "I'm on my way home now I'm really hungry"
+      },
+      {
+        "cue_id": 913,
+        "start_ms": 2655040,
+        "end_ms": 2659839,
+        "text": "I got to the gym at halfast 8 this"
+      },
+      {
+        "cue_id": 963,
+        "start_ms": 2756240,
+        "end_ms": 2759319,
+        "text": "everything like that so that you guys"
+      },
+      {
+        "cue_id": 964,
+        "start_ms": 2757720,
+        "end_ms": 2761200,
+        "text": "know exactly what I'm doing a little bit"
+      },
+      {
+        "cue_id": 999,
+        "start_ms": 2857320,
+        "end_ms": 2860489,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 1035,
+        "start_ms": 2959319,
+        "end_ms": 2964559,
+        "text": "car circuit I'm going to do 30 seconds"
+      },
+      {
+        "cue_id": 1036,
+        "start_ms": 2962040,
+        "end_ms": 2966520,
+        "text": "on for each exercise and have no breaks"
+      },
+      {
+        "cue_id": 1104,
+        "start_ms": 3163190,
+        "end_ms": 3168319,
+        "text": "[Music]"
+      },
+      {
+        "cue_id": 1105,
+        "start_ms": 3165319,
+        "end_ms": 3168319,
+        "text": "bye"
+      }
+    ],
+    "text": "[Music]\ncuz like the weather's colder and stuff\nbut I don't feel too bad so I'm going to\nanother five on each side to make it\neight tight I'm really just trying to\nthe length of your femur and everything\nlike that so every single body will be\nkeep it super slow and controlled um\nwith the working leg just tap that on\nset maybe and today I didn't do that and\nI was in there for quite a while not\nmovements so today I did a single leg\ndumbbell RDL and then I did cable\nthan progressing in those movements then\nyou do you but if someone was to ask me\nthe link in my description or in my bio\non Instagram or you can just literally\nreps\nokay that was heavier than I thought it\n[Music]\nto be my rest day and then Friday is\ngoing to be a workout that I have\nhey guys it's now Wednesday the 1st of\nNovember guys it's the 1st of November\nmusic by the way I hope you don't get\ncopyrighted but we're barbell squatting\nkilos ah come\n[Applause]\nset otherwise you're obviously going to\nlike deplete a lot of your energy and\nis like suicide so it's really tough I'm\nnot even putting anywhere on either\nmediocre and just average so it was nice\nto finish a session and feel really good\nwhich is like super convenient I hate to\nadmit to you guys but the last time I\nso much more productive um but yeah\nhaving my session this morning and then\nso I'm going to be using this band I\nmight do a set unassisted um just cuz\n[Applause]\n10 okay I got eight reps um and now\nI'm on my way home now I'm really hungry\nI got to the gym at halfast 8 this\neverything like that so that you guys\nknow exactly what I'm doing a little bit\n[Music]\ncar circuit I'm going to do 30 seconds\non for each exercise and have no breaks\n[Music]\nbye",
+    "text_tokens": 444,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "3f295cc2d5fb861365519843d52847a7a38b726f5cbf90f5f824e4f5fce7d725",
+  "native_inputs_equal": {
+    "plain": true,
+    "subtitle": true
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "signature": "193a1389e489278905565ccb98b0e4872cdde98d69d4d3b9b56362d347530757",
+  "evidence": {
+    "aligned": {
+      "video_id": "I2dv1jNM7gM",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I2dv1jNM7gM.srt",
+        "status": "available",
+        "bytes": 21631,
+        "sha256": "f4790a0f2d0cc0c12d5a39444d0ee69b46a2326724c00d86c0ba42e86e6c695b",
+        "cues": 268,
+        "nonempty_cues": 268
+      },
+      "frame_indices": [
+        0,
+        1676,
+        3353,
+        5029,
+        6705,
+        8382,
+        10058,
+        11734,
+        13411,
+        15087,
+        16763,
+        18440,
+        20116,
+        21792,
+        23469,
+        25145,
+        26821,
+        28497,
+        30174,
+        31850,
+        33526,
+        35203,
+        36879,
+        38555,
+        40232,
+        41908,
+        43584,
+        45261,
+        46937,
+        48613,
+        50290,
+        51966
+      ],
+      "frame_seconds": [
+        0.0,
+        67.04,
+        134.12,
+        201.16,
+        268.2,
+        335.28,
+        402.32,
+        469.36,
+        536.44,
+        603.48,
+        670.52,
+        737.6,
+        804.64,
+        871.68,
+        938.76,
+        1005.8,
+        1072.84,
+        1139.88,
+        1206.96,
+        1274.0,
+        1341.04,
+        1408.12,
+        1475.16,
+        1542.2,
+        1609.28,
+        1676.32,
+        1743.36,
+        1810.44,
+        1877.48,
+        1944.52,
+        2011.6,
+        2078.64
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          7
+        ],
+        [],
+        [
+          21
+        ],
+        [
+          31,
+          32
+        ],
+        [],
+        [
+          53,
+          54
+        ],
+        [],
+        [
+          79
+        ],
+        [
+          89
+        ],
+        [
+          95
+        ],
+        [
+          104,
+          105
+        ],
+        [
+          112
+        ],
+        [],
+        [
+          128
+        ],
+        [],
+        [],
+        [
+          153,
+          154
+        ],
+        [
+          163
+        ],
+        [
+          171
+        ],
+        [
+          178
+        ],
+        [
+          185
+        ],
+        [],
+        [
+          200
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          214,
+          215
+        ],
+        [],
+        [
+          235,
+          236
+        ],
+        [],
+        [
+          248
+        ],
+        [],
+        [
+          267,
+          268
+        ]
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 7,
+          "start_ms": 66490,
+          "end_ms": 88579,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 21,
+          "start_ms": 192350,
+          "end_ms": 210190,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 31,
+          "start_ms": 262190,
+          "end_ms": 268720,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 32,
+          "start_ms": 265870,
+          "end_ms": 271720,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 53,
+          "start_ms": 388560,
+          "end_ms": 407709,
+          "text": "oh"
+        },
+        {
+          "cue_id": 54,
+          "start_ms": 390880,
+          "end_ms": 407709,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 79,
+          "start_ms": 535330,
+          "end_ms": 541440,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 89,
+          "start_ms": 602060,
+          "end_ms": 616350,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 95,
+          "start_ms": 663970,
+          "end_ms": 680570,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 104,
+          "start_ms": 735620,
+          "end_ms": 738040,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 105,
+          "start_ms": 736590,
+          "end_ms": 748320,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 112,
+          "start_ms": 781960,
+          "end_ms": 805049,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 128,
+          "start_ms": 932510,
+          "end_ms": 942919,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 153,
+          "start_ms": 1137720,
+          "end_ms": 1146109,
+          "text": "be"
+        },
+        {
+          "cue_id": 154,
+          "start_ms": 1139470,
+          "end_ms": 1146109,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 163,
+          "start_ms": 1201300,
+          "end_ms": 1224320,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 171,
+          "start_ms": 1260730,
+          "end_ms": 1286819,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 178,
+          "start_ms": 1338550,
+          "end_ms": 1341670,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 185,
+          "start_ms": 1407440,
+          "end_ms": 1410440,
+          "text": "sh"
+        },
+        {
+          "cue_id": 200,
+          "start_ms": 1539990,
+          "end_ms": 1546780,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 208,
+          "start_ms": 1599850,
+          "end_ms": 1611750,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 209,
+          "start_ms": 1607770,
+          "end_ms": 1614849,
+          "text": "[Laughter]"
+        },
+        {
+          "cue_id": 214,
+          "start_ms": 1657120,
+          "end_ms": 1677120,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 1675700,
+          "end_ms": 1679150,
+          "text": "[Applause]"
+        },
+        {
+          "cue_id": 235,
+          "start_ms": 1802880,
+          "end_ms": 1813680,
+          "text": "and finish"
+        },
+        {
+          "cue_id": 236,
+          "start_ms": 1804350,
+          "end_ms": 1813680,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 248,
+          "start_ms": 1942880,
+          "end_ms": 1946719,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 267,
+          "start_ms": 2076040,
+          "end_ms": 2080639,
+          "text": "[Music]"
+        },
+        {
+          "cue_id": 268,
+          "start_ms": 2077639,
+          "end_ms": 2080639,
+          "text": "w"
+        }
+      ],
+      "text": "[Music]\n[Music]\n[Music]\n[Applause]\noh\n[Music]\n[Music]\n[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Music]\nbe\n[Music]\n[Music]\n[Music]\n[Applause]\nsh\n[Music]\n[Music]\n[Laughter]\n[Music]\n[Applause]\nand finish\n[Music]\n[Music]\n[Music]\nw",
+      "text_tokens": 91,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "I2dv1jNM7gM",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/I2dv1jNM7gM.srt",
+          "status": "available",
+          "bytes": 21631,
+          "sha256": "f4790a0f2d0cc0c12d5a39444d0ee69b46a2326724c00d86c0ba42e86e6c695b",
+          "cues": 268,
+          "nonempty_cues": 268
+        },
+        "frame_indices": [
+          0,
+          1676,
+          3353,
+          5029,
+          6705,
+          8382,
+          10058,
+          11734,
+          13411,
+          15087,
+          16763,
+          18440,
+          20116,
+          21792,
+          23469,
+          25145,
+          26821,
+          28497,
+          30174,
+          31850,
+          33526,
+          35203,
+          36879,
+          38555,
+          40232,
+          41908,
+          43584,
+          45261,
+          46937,
+          48613,
+          50290,
+          51966
+        ],
+        "frame_seconds": [
+          0.0,
+          67.04,
+          134.12,
+          201.16,
+          268.2,
+          335.28,
+          402.32,
+          469.36,
+          536.44,
+          603.48,
+          670.52,
+          737.6,
+          804.64,
+          871.68,
+          938.76,
+          1005.8,
+          1072.84,
+          1139.88,
+          1206.96,
+          1274.0,
+          1341.04,
+          1408.12,
+          1475.16,
+          1542.2,
+          1609.28,
+          1676.32,
+          1743.36,
+          1810.44,
+          1877.48,
+          1944.52,
+          2011.6,
+          2078.64
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            7
+          ],
+          [],
+          [
+            21
+          ],
+          [
+            31,
+            32
+          ],
+          [],
+          [
+            53,
+            54
+          ],
+          [],
+          [
+            79
+          ],
+          [
+            89
+          ],
+          [
+            95
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            112
+          ],
+          [],
+          [
+            128
+          ],
+          [],
+          [],
+          [
+            153,
+            154
+          ],
+          [
+            163
+          ],
+          [
+            171
+          ],
+          [
+            178
+          ],
+          [
+            185
+          ],
+          [],
+          [
+            200
+          ],
+          [
+            208,
+            209
+          ],
+          [
+            214,
+            215
+          ],
+          [],
+          [
+            235,
+            236
+          ],
+          [],
+          [
+            248
+          ],
+          [],
+          [
+            267,
+            268
+          ]
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 7,
+            "start_ms": 66490,
+            "end_ms": 88579,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 21,
+            "start_ms": 192350,
+            "end_ms": 210190,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 31,
+            "start_ms": 262190,
+            "end_ms": 268720,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 32,
+            "start_ms": 265870,
+            "end_ms": 271720,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 53,
+            "start_ms": 388560,
+            "end_ms": 407709,
+            "text": "oh"
+          },
+          {
+            "cue_id": 54,
+            "start_ms": 390880,
+            "end_ms": 407709,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 79,
+            "start_ms": 535330,
+            "end_ms": 541440,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 89,
+            "start_ms": 602060,
+            "end_ms": 616350,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 95,
+            "start_ms": 663970,
+            "end_ms": 680570,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 104,
+            "start_ms": 735620,
+            "end_ms": 738040,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 105,
+            "start_ms": 736590,
+            "end_ms": 748320,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 112,
+            "start_ms": 781960,
+            "end_ms": 805049,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 128,
+            "start_ms": 932510,
+            "end_ms": 942919,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 153,
+            "start_ms": 1137720,
+            "end_ms": 1146109,
+            "text": "be"
+          },
+          {
+            "cue_id": 154,
+            "start_ms": 1139470,
+            "end_ms": 1146109,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 163,
+            "start_ms": 1201300,
+            "end_ms": 1224320,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 171,
+            "start_ms": 1260730,
+            "end_ms": 1286819,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 178,
+            "start_ms": 1338550,
+            "end_ms": 1341670,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 185,
+            "start_ms": 1407440,
+            "end_ms": 1410440,
+            "text": "sh"
+          },
+          {
+            "cue_id": 200,
+            "start_ms": 1539990,
+            "end_ms": 1546780,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 208,
+            "start_ms": 1599850,
+            "end_ms": 1611750,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 209,
+            "start_ms": 1607770,
+            "end_ms": 1614849,
+            "text": "[Laughter]"
+          },
+          {
+            "cue_id": 214,
+            "start_ms": 1657120,
+            "end_ms": 1677120,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 1675700,
+            "end_ms": 1679150,
+            "text": "[Applause]"
+          },
+          {
+            "cue_id": 235,
+            "start_ms": 1802880,
+            "end_ms": 1813680,
+            "text": "and finish"
+          },
+          {
+            "cue_id": 236,
+            "start_ms": 1804350,
+            "end_ms": 1813680,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 248,
+            "start_ms": 1942880,
+            "end_ms": 1946719,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 267,
+            "start_ms": 2076040,
+            "end_ms": 2080639,
+            "text": "[Music]"
+          },
+          {
+            "cue_id": 268,
+            "start_ms": 2077639,
+            "end_ms": 2080639,
+            "text": "w"
+          }
+        ],
+        "text": "[Music]\n[Music]\n[Music]\n[Applause]\noh\n[Music]\n[Music]\n[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Music]\nbe\n[Music]\n[Music]\n[Music]\n[Applause]\nsh\n[Music]\n[Music]\n[Laughter]\n[Music]\n[Applause]\nand finish\n[Music]\n[Music]\n[Music]\nw",
+        "text_tokens": 91,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S7",
+          "cue_ids": [
+            7,
+            8
+          ],
+          "start_ms": 66490,
+          "end_ms": 93770,
+          "text": "[Music] ah"
+        },
+        {
+          "id": "S21",
+          "cue_ids": [
+            21,
+            22
+          ],
+          "start_ms": 192350,
+          "end_ms": 218100,
+          "text": "[Music] yeah"
+        },
+        {
+          "id": "S31",
+          "cue_ids": [
+            31,
+            32,
+            33
+          ],
+          "start_ms": 262190,
+          "end_ms": 271720,
+          "text": "[Music] [Applause] oh"
+        },
+        {
+          "id": "S52",
+          "cue_ids": [
+            52,
+            53,
+            54
+          ],
+          "start_ms": 385800,
+          "end_ms": 407709,
+          "text": "H oh [Music]"
+        },
+        {
+          "id": "S79",
+          "cue_ids": [
+            79,
+            80
+          ],
+          "start_ms": 535330,
+          "end_ms": 541440,
+          "text": "[Music] a"
+        },
+        {
+          "id": "S88",
+          "cue_ids": [
+            88,
+            89
+          ],
+          "start_ms": 598320,
+          "end_ms": 616350,
+          "text": "he [Music]"
+        },
+        {
+          "id": "S95",
+          "cue_ids": [
+            95
+          ],
+          "start_ms": 663970,
+          "end_ms": 680570,
+          "text": "[Music]"
+        },
+        {
+          "id": "S103",
+          "cue_ids": [
+            103,
+            104,
+            105,
+            106
+          ],
+          "start_ms": 731840,
+          "end_ms": 751160,
+          "text": "[Applause] [Music] [Applause] [Music]"
+        },
+        {
+          "id": "S111",
+          "cue_ids": [
+            111,
+            112
+          ],
+          "start_ms": 778120,
+          "end_ms": 805049,
+          "text": "oh [Music]"
+        },
+        {
+          "id": "S127",
+          "cue_ids": [
+            127,
+            128
+          ],
+          "start_ms": 927959,
+          "end_ms": 942919,
+          "text": "speil [Music]"
+        },
+        {
+          "id": "S152",
+          "cue_ids": [
+            152,
+            153,
+            154
+          ],
+          "start_ms": 1132380,
+          "end_ms": 1146109,
+          "text": "[Music] be [Music]"
+        },
+        {
+          "id": "S162",
+          "cue_ids": [
+            162,
+            163,
+            164
+          ],
+          "start_ms": 1197640,
+          "end_ms": 1227369,
+          "text": "get [Music] anger"
+        },
+        {
+          "id": "S170",
+          "cue_ids": [
+            170,
+            171,
+            172
+          ],
+          "start_ms": 1257600,
+          "end_ms": 1290520,
+          "text": "a [Music] oh"
+        },
+        {
+          "id": "S178",
+          "cue_ids": [
+            178,
+            179
+          ],
+          "start_ms": 1338550,
+          "end_ms": 1350520,
+          "text": "[Applause] [Music]"
+        },
+        {
+          "id": "S184",
+          "cue_ids": [
+            184,
+            185,
+            186
+          ],
+          "start_ms": 1390210,
+          "end_ms": 1424880,
+          "text": "[Music] sh [Music]"
+        },
+        {
+          "id": "S200",
+          "cue_ids": [
+            200
+          ],
+          "start_ms": 1539990,
+          "end_ms": 1546780,
+          "text": "[Music]"
+        },
+        {
+          "id": "S208",
+          "cue_ids": [
+            208,
+            209,
+            210
+          ],
+          "start_ms": 1599850,
+          "end_ms": 1614849,
+          "text": "[Music] [Laughter] [Music]"
+        },
+        {
+          "id": "S214",
+          "cue_ids": [
+            214,
+            215,
+            216
+          ],
+          "start_ms": 1657120,
+          "end_ms": 1684969,
+          "text": "[Music] [Applause] h"
+        },
+        {
+          "id": "S234",
+          "cue_ids": [
+            234,
+            235,
+            236
+          ],
+          "start_ms": 1798850,
+          "end_ms": 1813680,
+          "text": "[Music] and finish [Music]"
+        },
+        {
+          "id": "S248",
+          "cue_ids": [
+            248,
+            249
+          ],
+          "start_ms": 1942880,
+          "end_ms": 1949840,
+          "text": "[Music] no"
+        },
+        {
+          "id": "S267",
+          "cue_ids": [
+            267,
+            268
+          ],
+          "start_ms": 2076040,
+          "end_ms": 2080639,
+          "text": "[Music] w"
+        }
+      ],
+      "text": "S7 [00:01:06.490 --> 00:01:33.770] [Music] ah\nS21 [00:03:12.350 --> 00:03:38.100] [Music] yeah\nS31 [00:04:22.190 --> 00:04:31.720] [Music] [Applause] oh\nS52 [00:06:25.800 --> 00:06:47.709] H oh [Music]\nS79 [00:08:55.330 --> 00:09:01.440] [Music] a\nS88 [00:09:58.320 --> 00:10:16.350] he [Music]\nS95 [00:11:03.970 --> 00:11:20.570] [Music]\nS103 [00:12:11.840 --> 00:12:31.160] [Applause] [Music] [Applause] [Music]\nS111 [00:12:58.120 --> 00:13:25.049] oh [Music]\nS127 [00:15:27.959 --> 00:15:42.919] speil [Music]\nS152 [00:18:52.380 --> 00:19:06.109] [Music] be [Music]\nS162 [00:19:57.640 --> 00:20:27.369] get [Music] anger\nS170 [00:20:57.600 --> 00:21:30.520] a [Music] oh\nS178 [00:22:18.550 --> 00:22:30.520] [Applause] [Music]\nS184 [00:23:10.210 --> 00:23:44.880] [Music] sh [Music]\nS200 [00:25:39.990 --> 00:25:46.780] [Music]\nS208 [00:26:39.850 --> 00:26:54.849] [Music] [Laughter] [Music]\nS214 [00:27:37.120 --> 00:28:04.969] [Music] [Applause] h\nS234 [00:29:58.850 --> 00:30:13.680] [Music] and finish [Music]\nS248 [00:32:22.880 --> 00:32:29.840] [Music] no\nS267 [00:34:36.040 --> 00:34:40.639] [Music] w",
+      "text_tokens": 800,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        8,
+        22,
+        33,
+        52,
+        80,
+        88,
+        103,
+        106,
+        111,
+        127,
+        152,
+        162,
+        164,
+        170,
+        172,
+        179,
+        184,
+        186,
+        210,
+        216,
+        234,
+        249
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "7a50eeff8f1b6fd6dd08823aa481dc1a2bea1701df8bdc935c732c9c6cdcb8ca"
+}

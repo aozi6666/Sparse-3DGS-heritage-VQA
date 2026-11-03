@@ -1,0 +1,323 @@
+{
+  "signature": "d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e",
+  "evidence": {
+    "video_id": "C8Rk__S06_M",
+    "source": {
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/C8Rk__S06_M.srt",
+      "status": "available",
+      "bytes": 90956,
+      "sha256": "6403e2daedcff933aca6f2342ceb19092fae504c5d9e8add55bbb4b13a5ac089",
+      "cues": 945,
+      "nonempty_cues": 892
+    },
+    "frame_indices": [
+      0,
+      1856,
+      3712,
+      5567,
+      7423,
+      9279,
+      11135,
+      12991,
+      14846,
+      16702,
+      18558,
+      20414,
+      22270,
+      24125,
+      25981,
+      27837,
+      29693,
+      31549,
+      33405,
+      35260,
+      37116,
+      38972,
+      40828,
+      42684,
+      44539,
+      46395,
+      48251,
+      50107,
+      51963,
+      53818,
+      55674,
+      57530
+    ],
+    "frame_seconds": [
+      0.0,
+      61.928533,
+      123.857067,
+      185.752233,
+      247.680767,
+      309.6093,
+      371.537833,
+      433.466367,
+      495.361533,
+      557.290067,
+      619.2186,
+      681.147133,
+      743.075667,
+      804.970833,
+      866.899367,
+      928.8279,
+      990.756433,
+      1052.684967,
+      1114.6135,
+      1176.508667,
+      1238.4372,
+      1300.365733,
+      1362.294267,
+      1424.2228,
+      1486.117967,
+      1548.0465,
+      1609.975033,
+      1671.903567,
+      1733.8321,
+      1795.727267,
+      1857.6558,
+      1919.584333
+    ],
+    "frame_cue_ids": [
+      [
+        1
+      ],
+      [
+        21
+      ],
+      [],
+      [
+        74
+      ],
+      [
+        99
+      ],
+      [],
+      [
+        142
+      ],
+      [
+        187
+      ],
+      [
+        233
+      ],
+      [
+        271
+      ],
+      [],
+      [
+        322
+      ],
+      [
+        357
+      ],
+      [
+        388
+      ],
+      [
+        410
+      ],
+      [
+        439
+      ],
+      [
+        480
+      ],
+      [
+        524
+      ],
+      [
+        574
+      ],
+      [
+        603
+      ],
+      [
+        637
+      ],
+      [
+        662
+      ],
+      [
+        691
+      ],
+      [],
+      [
+        778
+      ],
+      [
+        810
+      ],
+      [
+        843
+      ],
+      [
+        875
+      ],
+      [
+        905
+      ],
+      [],
+      [],
+      []
+    ],
+    "selected_cues": [
+      {
+        "cue_id": 1,
+        "start_ms": 0,
+        "end_ms": 3636,
+        "text": "[SHOCKED CHEERING]"
+      },
+      {
+        "cue_id": 21,
+        "start_ms": 61828,
+        "end_ms": 62328,
+        "text": "Jared?"
+      },
+      {
+        "cue_id": 74,
+        "start_ms": 182815,
+        "end_ms": 186252,
+        "text": "[LAUGHTER]"
+      },
+      {
+        "cue_id": 99,
+        "start_ms": 244010,
+        "end_ms": 248281,
+        "text": "The point is you need to do it within five seconds."
+      },
+      {
+        "cue_id": 142,
+        "start_ms": 370336,
+        "end_ms": 371738,
+        "text": "Why am I making weird sounds?"
+      },
+      {
+        "cue_id": 187,
+        "start_ms": 432999,
+        "end_ms": 434767,
+        "text": "Pick three."
+      },
+      {
+        "cue_id": 233,
+        "start_ms": 493793,
+        "end_ms": 495428,
+        "text": "Five, yes."
+      },
+      {
+        "cue_id": 271,
+        "start_ms": 553886,
+        "end_ms": 559492,
+        "text": "And then you're going to give me a sentence, one at a time."
+      },
+      {
+        "cue_id": 322,
+        "start_ms": 680846,
+        "end_ms": 681814,
+        "text": "Here, you try."
+      },
+      {
+        "cue_id": 357,
+        "start_ms": 742608,
+        "end_ms": 744076,
+        "text": "All right, I got it."
+      },
+      {
+        "cue_id": 388,
+        "start_ms": 804770,
+        "end_ms": 807740,
+        "text": "I just turned 21 though."
+      },
+      {
+        "cue_id": 410,
+        "start_ms": 864663,
+        "end_ms": 867099,
+        "text": "I feel like I'm getting to know my new boyfriend."
+      },
+      {
+        "cue_id": 439,
+        "start_ms": 928560,
+        "end_ms": 931130,
+        "text": "Drake or The Weeknd?"
+      },
+      {
+        "cue_id": 480,
+        "start_ms": 990589,
+        "end_ms": 991190,
+        "text": "Oh."
+      },
+      {
+        "cue_id": 524,
+        "start_ms": 1051350,
+        "end_ms": 1053585,
+        "text": "I literally could be his mother."
+      },
+      {
+        "cue_id": 574,
+        "start_ms": 1113145,
+        "end_ms": 1114713,
+        "text": "No, but I apparently did."
+      },
+      {
+        "cue_id": 603,
+        "start_ms": 1174339,
+        "end_ms": 1177843,
+        "text": "No danger there."
+      },
+      {
+        "cue_id": 637,
+        "start_ms": 1238103,
+        "end_ms": 1238670,
+        "text": "Really?"
+      },
+      {
+        "cue_id": 662,
+        "start_ms": 1299464,
+        "end_ms": 1302567,
+        "text": "All right, let's try it. $8."
+      },
+      {
+        "cue_id": 691,
+        "start_ms": 1362127,
+        "end_ms": 1365297,
+        "text": "OK, let's see the first two."
+      },
+      {
+        "cue_id": 778,
+        "start_ms": 1485784,
+        "end_ms": 1486918,
+        "text": "We can do the whole thing."
+      },
+      {
+        "cue_id": 810,
+        "start_ms": 1547012,
+        "end_ms": 1548179,
+        "text": "All right."
+      },
+      {
+        "cue_id": 843,
+        "start_ms": 1608106,
+        "end_ms": 1611476,
+        "text": "I used yours once."
+      },
+      {
+        "cue_id": 875,
+        "start_ms": 1670935,
+        "end_ms": 1674172,
+        "text": "It's interesting, the ones that turn over."
+      },
+      {
+        "cue_id": 905,
+        "start_ms": 1733331,
+        "end_ms": 1736801,
+        "text": "And people come up to me."
+      }
+    ],
+    "text": "[SHOCKED CHEERING]\nJared?\n[LAUGHTER]\nThe point is you need to do it within five seconds.\nWhy am I making weird sounds?\nPick three.\nFive, yes.\nAnd then you're going to give me a sentence, one at a time.\nHere, you try.\nAll right, I got it.\nI just turned 21 though.\nI feel like I'm getting to know my new boyfriend.\nDrake or The Weeknd?\nOh.\nI literally could be his mother.\nNo, but I apparently did.\nNo danger there.\nReally?\nAll right, let's try it. $8.\nOK, let's see the first two.\nWe can do the whole thing.\nAll right.\nI used yours once.\nIt's interesting, the ones that turn over.\nAnd people come up to me.",
+    "text_tokens": 170,
+    "status": "used",
+    "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+  },
+  "evidence_sha256": "80e0558e6d3f7dd1664a3e051f318a191a2385247580e796a5fa3f68fc50962c"
+}

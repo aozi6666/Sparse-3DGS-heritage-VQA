@@ -1,0 +1,951 @@
+{
+  "signature": "ce96be3a2ff059100fe4873cc8135155acc8bea67a120c59473f4f4f260bc82d",
+  "evidence": {
+    "aligned": {
+      "video_id": "EeTmrsVW8qE",
+      "source": {
+        "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EeTmrsVW8qE.srt",
+        "status": "available",
+        "bytes": 118857,
+        "sha256": "b60774af5202ad692ad41ba3a5fa973d33b70196df9834c20685691038c6f404",
+        "cues": 922,
+        "nonempty_cues": 922
+      },
+      "frame_indices": [
+        0,
+        2802,
+        5605,
+        8407,
+        11209,
+        14012,
+        16814,
+        19616,
+        22419,
+        25221,
+        28024,
+        30826,
+        33628,
+        36431,
+        39233,
+        42035,
+        44838,
+        47640,
+        50442,
+        53245,
+        56047,
+        58849,
+        61652,
+        64454,
+        67257,
+        70059,
+        72861,
+        75664,
+        78466,
+        81268,
+        84071,
+        86873
+      ],
+      "frame_seconds": [
+        0.0,
+        112.08,
+        224.2,
+        336.28,
+        448.36,
+        560.48,
+        672.56,
+        784.64,
+        896.76,
+        1008.84,
+        1120.96,
+        1233.04,
+        1345.12,
+        1457.24,
+        1569.32,
+        1681.4,
+        1793.52,
+        1905.6,
+        2017.68,
+        2129.8,
+        2241.88,
+        2353.96,
+        2466.08,
+        2578.16,
+        2690.28,
+        2802.36,
+        2914.44,
+        3026.56,
+        3138.64,
+        3250.72,
+        3362.84,
+        3474.92
+      ],
+      "frame_cue_ids": [
+        [],
+        [
+          28
+        ],
+        [],
+        [
+          99
+        ],
+        [
+          129
+        ],
+        [],
+        [],
+        [
+          215
+        ],
+        [],
+        [
+          269
+        ],
+        [
+          297
+        ],
+        [
+          325
+        ],
+        [
+          357
+        ],
+        [
+          387
+        ],
+        [
+          420
+        ],
+        [
+          451
+        ],
+        [
+          479
+        ],
+        [
+          512
+        ],
+        [
+          542
+        ],
+        [
+          571
+        ],
+        [
+          602
+        ],
+        [
+          629
+        ],
+        [
+          661
+        ],
+        [
+          703
+        ],
+        [
+          736
+        ],
+        [
+          770
+        ],
+        [
+          808
+        ],
+        [],
+        [],
+        [
+          870
+        ],
+        [
+          902
+        ],
+        []
+      ],
+      "selected_cues": [
+        {
+          "cue_id": 28,
+          "start_ms": 108658,
+          "end_ms": 112590,
+          "text": "Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher"
+        },
+        {
+          "cue_id": 99,
+          "start_ms": 333659,
+          "end_ms": 337550,
+          "text": "Sitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between"
+        },
+        {
+          "cue_id": 129,
+          "start_ms": 445530,
+          "end_ms": 450680,
+          "text": "I was studying in Switzerland and we had a class that was called spirits and other alcoholic"
+        },
+        {
+          "cue_id": 215,
+          "start_ms": 783949,
+          "end_ms": 786649,
+          "text": "Another gold in EuroBasket 1975."
+        },
+        {
+          "cue_id": 269,
+          "start_ms": 1007360,
+          "end_ms": 1009960,
+          "text": "He grew up with a ball."
+        },
+        {
+          "cue_id": 297,
+          "start_ms": 1116260,
+          "end_ms": 1121200,
+          "text": "Like the ceiling of question mark bar, the stables proudly display their scars."
+        },
+        {
+          "cue_id": 325,
+          "start_ms": 1231120,
+          "end_ms": 1235370,
+          "text": "But like all meals in Serbia, time is never a concern."
+        },
+        {
+          "cue_id": 357,
+          "start_ms": 1344154,
+          "end_ms": 1348504,
+          "text": "After winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a"
+        },
+        {
+          "cue_id": 387,
+          "start_ms": 1455894,
+          "end_ms": 1460043,
+          "text": "From Vlade’s perspective, although the team featured several Croats, the team that won"
+        },
+        {
+          "cue_id": 420,
+          "start_ms": 1567584,
+          "end_ms": 1571014,
+          "text": "Every year the teams matchup for what is known as the eternal derby."
+        },
+        {
+          "cue_id": 451,
+          "start_ms": 1677704,
+          "end_ms": 1682704,
+          "text": "As luck would have it, our visit coincided with a pivotal game in the club’s cycle,"
+        },
+        {
+          "cue_id": 479,
+          "start_ms": 1790874,
+          "end_ms": 1796933,
+          "text": "We cursed out the name of Voshan Leonard because he shoved him out of the starting lineup."
+        },
+        {
+          "cue_id": 512,
+          "start_ms": 1903704,
+          "end_ms": 1906234,
+          "text": "is not the greatest serbian basketball player to grace the court."
+        },
+        {
+          "cue_id": 542,
+          "start_ms": 2011864,
+          "end_ms": 2017884,
+          "text": "we are all thinking what would happen if the real dream team with Michael Jordan, Larry"
+        },
+        {
+          "cue_id": 571,
+          "start_ms": 2128354,
+          "end_ms": 2132554,
+          "text": "Once again, one of the founding fathers of basketball in Yugoslavia had found a way to"
+        },
+        {
+          "cue_id": 602,
+          "start_ms": 2239324,
+          "end_ms": 2243233,
+          "text": "Maybe I can convince them to do it better because I really know basketball.”"
+        },
+        {
+          "cue_id": 629,
+          "start_ms": 2353544,
+          "end_ms": 2361374,
+          "text": "But if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or"
+        },
+        {
+          "cue_id": 661,
+          "start_ms": 2464969,
+          "end_ms": 2466764,
+          "text": "I said ok explain."
+        },
+        {
+          "cue_id": 703,
+          "start_ms": 2577544,
+          "end_ms": 2581825,
+          "text": "More than disaster."
+        },
+        {
+          "cue_id": 736,
+          "start_ms": 2686144,
+          "end_ms": 2690314,
+          "text": "the Harden’s and the LeBron’s and the whoevers."
+        },
+        {
+          "cue_id": 770,
+          "start_ms": 2800213,
+          "end_ms": 2804834,
+          "text": "The game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and"
+        },
+        {
+          "cue_id": 808,
+          "start_ms": 2912754,
+          "end_ms": 2917193,
+          "text": "Zarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos"
+        },
+        {
+          "cue_id": 870,
+          "start_ms": 3245384,
+          "end_ms": 3250744,
+          "text": "Inat is a driving force that Serbs believe rests lightly inside all of them."
+        },
+        {
+          "cue_id": 902,
+          "start_ms": 3361934,
+          "end_ms": 3365305,
+          "text": "Of all of the lessons learned from our time traveling to Serbia and meeting so many of"
+        }
+      ],
+      "text": "Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher\nSitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between\nI was studying in Switzerland and we had a class that was called spirits and other alcoholic\nAnother gold in EuroBasket 1975.\nHe grew up with a ball.\nLike the ceiling of question mark bar, the stables proudly display their scars.\nBut like all meals in Serbia, time is never a concern.\nAfter winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a\nFrom Vlade’s perspective, although the team featured several Croats, the team that won\nEvery year the teams matchup for what is known as the eternal derby.\nAs luck would have it, our visit coincided with a pivotal game in the club’s cycle,\nWe cursed out the name of Voshan Leonard because he shoved him out of the starting lineup.\nis not the greatest serbian basketball player to grace the court.\nwe are all thinking what would happen if the real dream team with Michael Jordan, Larry\nOnce again, one of the founding fathers of basketball in Yugoslavia had found a way to\nMaybe I can convince them to do it better because I really know basketball.”\nBut if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or\nI said ok explain.\nMore than disaster.\nthe Harden’s and the LeBron’s and the whoevers.\nThe game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and\nZarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos\nInat is a driving force that Serbs believe rests lightly inside all of them.\nOf all of the lessons learned from our time traveling to Serbia and meeting so many of",
+      "text_tokens": 405,
+      "status": "used",
+      "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+    },
+    "continuous": {
+      "original": {
+        "video_id": "EeTmrsVW8qE",
+        "source": {
+          "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/data/VideoMME/subtitle/EeTmrsVW8qE.srt",
+          "status": "available",
+          "bytes": 118857,
+          "sha256": "b60774af5202ad692ad41ba3a5fa973d33b70196df9834c20685691038c6f404",
+          "cues": 922,
+          "nonempty_cues": 922
+        },
+        "frame_indices": [
+          0,
+          2802,
+          5605,
+          8407,
+          11209,
+          14012,
+          16814,
+          19616,
+          22419,
+          25221,
+          28024,
+          30826,
+          33628,
+          36431,
+          39233,
+          42035,
+          44838,
+          47640,
+          50442,
+          53245,
+          56047,
+          58849,
+          61652,
+          64454,
+          67257,
+          70059,
+          72861,
+          75664,
+          78466,
+          81268,
+          84071,
+          86873
+        ],
+        "frame_seconds": [
+          0.0,
+          112.08,
+          224.2,
+          336.28,
+          448.36,
+          560.48,
+          672.56,
+          784.64,
+          896.76,
+          1008.84,
+          1120.96,
+          1233.04,
+          1345.12,
+          1457.24,
+          1569.32,
+          1681.4,
+          1793.52,
+          1905.6,
+          2017.68,
+          2129.8,
+          2241.88,
+          2353.96,
+          2466.08,
+          2578.16,
+          2690.28,
+          2802.36,
+          2914.44,
+          3026.56,
+          3138.64,
+          3250.72,
+          3362.84,
+          3474.92
+        ],
+        "frame_cue_ids": [
+          [],
+          [
+            28
+          ],
+          [],
+          [
+            99
+          ],
+          [
+            129
+          ],
+          [],
+          [],
+          [
+            215
+          ],
+          [],
+          [
+            269
+          ],
+          [
+            297
+          ],
+          [
+            325
+          ],
+          [
+            357
+          ],
+          [
+            387
+          ],
+          [
+            420
+          ],
+          [
+            451
+          ],
+          [
+            479
+          ],
+          [
+            512
+          ],
+          [
+            542
+          ],
+          [
+            571
+          ],
+          [
+            602
+          ],
+          [
+            629
+          ],
+          [
+            661
+          ],
+          [
+            703
+          ],
+          [
+            736
+          ],
+          [
+            770
+          ],
+          [
+            808
+          ],
+          [],
+          [],
+          [
+            870
+          ],
+          [
+            902
+          ],
+          []
+        ],
+        "selected_cues": [
+          {
+            "cue_id": 28,
+            "start_ms": 108658,
+            "end_ms": 112590,
+            "text": "Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher"
+          },
+          {
+            "cue_id": 99,
+            "start_ms": 333659,
+            "end_ms": 337550,
+            "text": "Sitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between"
+          },
+          {
+            "cue_id": 129,
+            "start_ms": 445530,
+            "end_ms": 450680,
+            "text": "I was studying in Switzerland and we had a class that was called spirits and other alcoholic"
+          },
+          {
+            "cue_id": 215,
+            "start_ms": 783949,
+            "end_ms": 786649,
+            "text": "Another gold in EuroBasket 1975."
+          },
+          {
+            "cue_id": 269,
+            "start_ms": 1007360,
+            "end_ms": 1009960,
+            "text": "He grew up with a ball."
+          },
+          {
+            "cue_id": 297,
+            "start_ms": 1116260,
+            "end_ms": 1121200,
+            "text": "Like the ceiling of question mark bar, the stables proudly display their scars."
+          },
+          {
+            "cue_id": 325,
+            "start_ms": 1231120,
+            "end_ms": 1235370,
+            "text": "But like all meals in Serbia, time is never a concern."
+          },
+          {
+            "cue_id": 357,
+            "start_ms": 1344154,
+            "end_ms": 1348504,
+            "text": "After winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a"
+          },
+          {
+            "cue_id": 387,
+            "start_ms": 1455894,
+            "end_ms": 1460043,
+            "text": "From Vlade’s perspective, although the team featured several Croats, the team that won"
+          },
+          {
+            "cue_id": 420,
+            "start_ms": 1567584,
+            "end_ms": 1571014,
+            "text": "Every year the teams matchup for what is known as the eternal derby."
+          },
+          {
+            "cue_id": 451,
+            "start_ms": 1677704,
+            "end_ms": 1682704,
+            "text": "As luck would have it, our visit coincided with a pivotal game in the club’s cycle,"
+          },
+          {
+            "cue_id": 479,
+            "start_ms": 1790874,
+            "end_ms": 1796933,
+            "text": "We cursed out the name of Voshan Leonard because he shoved him out of the starting lineup."
+          },
+          {
+            "cue_id": 512,
+            "start_ms": 1903704,
+            "end_ms": 1906234,
+            "text": "is not the greatest serbian basketball player to grace the court."
+          },
+          {
+            "cue_id": 542,
+            "start_ms": 2011864,
+            "end_ms": 2017884,
+            "text": "we are all thinking what would happen if the real dream team with Michael Jordan, Larry"
+          },
+          {
+            "cue_id": 571,
+            "start_ms": 2128354,
+            "end_ms": 2132554,
+            "text": "Once again, one of the founding fathers of basketball in Yugoslavia had found a way to"
+          },
+          {
+            "cue_id": 602,
+            "start_ms": 2239324,
+            "end_ms": 2243233,
+            "text": "Maybe I can convince them to do it better because I really know basketball.”"
+          },
+          {
+            "cue_id": 629,
+            "start_ms": 2353544,
+            "end_ms": 2361374,
+            "text": "But if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or"
+          },
+          {
+            "cue_id": 661,
+            "start_ms": 2464969,
+            "end_ms": 2466764,
+            "text": "I said ok explain."
+          },
+          {
+            "cue_id": 703,
+            "start_ms": 2577544,
+            "end_ms": 2581825,
+            "text": "More than disaster."
+          },
+          {
+            "cue_id": 736,
+            "start_ms": 2686144,
+            "end_ms": 2690314,
+            "text": "the Harden’s and the LeBron’s and the whoevers."
+          },
+          {
+            "cue_id": 770,
+            "start_ms": 2800213,
+            "end_ms": 2804834,
+            "text": "The game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and"
+          },
+          {
+            "cue_id": 808,
+            "start_ms": 2912754,
+            "end_ms": 2917193,
+            "text": "Zarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos"
+          },
+          {
+            "cue_id": 870,
+            "start_ms": 3245384,
+            "end_ms": 3250744,
+            "text": "Inat is a driving force that Serbs believe rests lightly inside all of them."
+          },
+          {
+            "cue_id": 902,
+            "start_ms": 3361934,
+            "end_ms": 3365305,
+            "text": "Of all of the lessons learned from our time traveling to Serbia and meeting so many of"
+          }
+        ],
+        "text": "Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher\nSitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between\nI was studying in Switzerland and we had a class that was called spirits and other alcoholic\nAnother gold in EuroBasket 1975.\nHe grew up with a ball.\nLike the ceiling of question mark bar, the stables proudly display their scars.\nBut like all meals in Serbia, time is never a concern.\nAfter winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a\nFrom Vlade’s perspective, although the team featured several Croats, the team that won\nEvery year the teams matchup for what is known as the eternal derby.\nAs luck would have it, our visit coincided with a pivotal game in the club’s cycle,\nWe cursed out the name of Voshan Leonard because he shoved him out of the starting lineup.\nis not the greatest serbian basketball player to grace the court.\nwe are all thinking what would happen if the real dream team with Michael Jordan, Larry\nOnce again, one of the founding fathers of basketball in Yugoslavia had found a way to\nMaybe I can convince them to do it better because I really know basketball.”\nBut if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or\nI said ok explain.\nMore than disaster.\nthe Harden’s and the LeBron’s and the whoevers.\nThe game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and\nZarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos\nInat is a driving force that Serbs believe rests lightly inside all of them.\nOf all of the lessons learned from our time traveling to Serbia and meeting so many of",
+        "text_tokens": 405,
+        "status": "used",
+        "matching": "start <= actual frame time < end; microsecond comparison; unique cue ID; time order"
+      },
+      "blocks": [
+        {
+          "id": "S27",
+          "cue_ids": [
+            27,
+            28,
+            29
+          ],
+          "start_ms": 103890,
+          "end_ms": 113590,
+          "text": "And most important of all was Aleksandar Nikolic, the father of Yugoslavian basketball. Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher of the game."
+        },
+        {
+          "id": "S98",
+          "cue_ids": [
+            98,
+            99,
+            100
+          ],
+          "start_ms": 329310,
+          "end_ms": 338900,
+          "text": "And no place on Earth lends itself more perfectly to metaphor. Sitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between the east and the west."
+        },
+        {
+          "id": "S128",
+          "cue_ids": [
+            128,
+            129,
+            130
+          ],
+          "start_ms": 442360,
+          "end_ms": 451729,
+          "text": "For Stefan, rakija is more than just a drink. I was studying in Switzerland and we had a class that was called spirits and other alcoholic beverages."
+        },
+        {
+          "id": "S214",
+          "cue_ids": [
+            214,
+            215,
+            216
+          ],
+          "start_ms": 780639,
+          "end_ms": 790020,
+          "text": "A silver in the World Championship in 1974. Another gold in EuroBasket 1975. A silver in the 1976 Olympics."
+        },
+        {
+          "id": "S268",
+          "cue_ids": [
+            268,
+            269,
+            270
+          ],
+          "start_ms": 1001060,
+          "end_ms": 1016940,
+          "text": "The ball was basically his only toy when he was a little boy. He grew up with a ball. He was playing on the 4th level of basketball competition as a 15 year old, dominating against"
+        },
+        {
+          "id": "S296",
+          "cue_ids": [
+            296,
+            297,
+            298
+          ],
+          "start_ms": 1112640,
+          "end_ms": 1125659,
+          "text": "The sign that greets you at the head of the stables is ordinary and simple. Like the ceiling of question mark bar, the stables proudly display their scars. Visiting the stables makes me realize how perfect a setting this was to award the trophy"
+        },
+        {
+          "id": "S324",
+          "cue_ids": [
+            324,
+            325,
+            326
+          ],
+          "start_ms": 1228370,
+          "end_ms": 1238750,
+          "text": "The stew is cooked slowly over the course of about an hour. But like all meals in Serbia, time is never a concern. While waiting we start with a fresh chopska and some beer."
+        },
+        {
+          "id": "S356",
+          "cue_ids": [
+            356,
+            357,
+            358
+          ],
+          "start_ms": 1341429,
+          "end_ms": 1353154,
+          "text": "mentally as it was physically. After winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a Yugoslavian national team that featured one of the brightest stars in Yugoslavian history:"
+        },
+        {
+          "id": "S386",
+          "cue_ids": [
+            386,
+            387,
+            388
+          ],
+          "start_ms": 1452673,
+          "end_ms": 1463484,
+          "text": "a Croatian flag from a fan who had run out onto the court. From Vlade’s perspective, although the team featured several Croats, the team that won the gold was Yugoslavia, not one of the independent republics."
+        },
+        {
+          "id": "S419",
+          "cue_ids": [
+            419,
+            420,
+            421
+          ],
+          "start_ms": 1565394,
+          "end_ms": 1575094,
+          "text": "Two teams, one city. Every year the teams matchup for what is known as the eternal derby. What do you think was the loudest or the craziest crowd you ever played in."
+        },
+        {
+          "id": "S450",
+          "cue_ids": [
+            450,
+            451,
+            452
+          ],
+          "start_ms": 1672894,
+          "end_ms": 1684984,
+          "text": "We got a taste of this atmosphere at Marakana stadium, home of Red Star soccer club. As luck would have it, our visit coincided with a pivotal game in the club’s cycle, a matchup with Maccabi Haifa."
+        },
+        {
+          "id": "S478",
+          "cue_ids": [
+            478,
+            479,
+            480
+          ],
+          "start_ms": 1785894,
+          "end_ms": 1801104,
+          "text": "When Danilovic went to Miami we absolutely followed all their fortunes. We cursed out the name of Voshan Leonard because he shoved him out of the starting lineup. We hated Tim Hardaway because he wouldn’t pass."
+        },
+        {
+          "id": "S511",
+          "cue_ids": [
+            511,
+            512,
+            513
+          ],
+          "start_ms": 1897274,
+          "end_ms": 1907413,
+          "text": "Right now there is not a single doubt in my organism which is going to tell you Jokic is not the greatest serbian basketball player to grace the court. That is undisputed."
+        },
+        {
+          "id": "S541",
+          "cue_ids": [
+            541,
+            542,
+            543
+          ],
+          "start_ms": 2005543,
+          "end_ms": 2021494,
+          "text": "Everybody from Serbia, from Croatia, from all of the the republics of the ex Yugoslavia, we are all thinking what would happen if the real dream team with Michael Jordan, Larry Bird, and Magic Johnson would meet with that team."
+        },
+        {
+          "id": "S570",
+          "cue_ids": [
+            570,
+            571,
+            572
+          ],
+          "start_ms": 2125874,
+          "end_ms": 2134504,
+          "text": "The provision was granted by Borislav Stankovic. Once again, one of the founding fathers of basketball in Yugoslavia had found a way to come to his country’s aid."
+        },
+        {
+          "id": "S601",
+          "cue_ids": [
+            601,
+            602,
+            603
+          ],
+          "start_ms": 2234144,
+          "end_ms": 2248024,
+          "text": "Two years later I said, “all of them did stupid signings. Maybe I can convince them to do it better because I really know basketball.” In America, the preps to pros era was in full swing in the NBA."
+        },
+        {
+          "id": "S628",
+          "cue_ids": [
+            628,
+            629,
+            630
+          ],
+          "start_ms": 2349253,
+          "end_ms": 2364044,
+          "text": "Even with my daughter when we play 1 on 1, it is sport. But if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or Micic…we are fine."
+        },
+        {
+          "id": "S660",
+          "cue_ids": [
+            660,
+            661,
+            662
+          ],
+          "start_ms": 2463764,
+          "end_ms": 2471354,
+          "text": "I don’t know. Something like that.” I said ok explain. He said, “look if I don’t come close to him he will shoot and score everytime."
+        },
+        {
+          "id": "S702",
+          "cue_ids": [
+            702,
+            703,
+            704
+          ],
+          "start_ms": 2573044,
+          "end_ms": 2587417,
+          "text": "I can’t explain to you the level of bad. More than disaster. I saw them after the game and they are like really…worried."
+        },
+        {
+          "id": "S735",
+          "cue_ids": [
+            735,
+            736,
+            737
+          ],
+          "start_ms": 2681124,
+          "end_ms": 2693276,
+          "text": "We all know the Americans are going to bring up, if they feel like it, are going to bring the Harden’s and the LeBron’s and the whoevers. And let’s face it, we’re not that good."
+        },
+        {
+          "id": "S769",
+          "cue_ids": [
+            769,
+            770,
+            771
+          ],
+          "start_ms": 2797744,
+          "end_ms": 2808984,
+          "text": "Greece out of gold medal contention. The game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and Yugoslavia’s Sasa Djordjevic each having the best game of their careers."
+        },
+        {
+          "id": "S807",
+          "cue_ids": [
+            807,
+            808,
+            809
+          ],
+          "start_ms": 2911754,
+          "end_ms": 2920213,
+          "text": "in that moment. Zarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos in Athens to their crosstown rival, Pathaniakos."
+        },
+        {
+          "id": "S869",
+          "cue_ids": [
+            869,
+            870,
+            871
+          ],
+          "start_ms": 3239094,
+          "end_ms": 3254004,
+          "text": "The core of most Serbs is still Inat, that word that has no equivalent in any other language. Inat is a driving force that Serbs believe rests lightly inside all of them. I don’t know how to translate that in English."
+        },
+        {
+          "id": "S901",
+          "cue_ids": [
+            901,
+            902,
+            903
+          ],
+          "start_ms": 3360404,
+          "end_ms": 3369984,
+          "text": "and cultures. Of all of the lessons learned from our time traveling to Serbia and meeting so many of our fans and making new friends along the way, the strongest lesson remains how powerful"
+        }
+      ],
+      "text": "S27 [00:01:43.890 --> 00:01:53.590] And most important of all was Aleksandar Nikolic, the father of Yugoslavian basketball. Respectfully referred to as “professor,” Nikolic was a revolutionary coach and teacher of the game.\nS98 [00:05:29.310 --> 00:05:38.900] And no place on Earth lends itself more perfectly to metaphor. Sitting on a hill where the Sava meets the Danube, the fortress forms a crossroad between the east and the west.\nS128 [00:07:22.360 --> 00:07:31.729] For Stefan, rakija is more than just a drink. I was studying in Switzerland and we had a class that was called spirits and other alcoholic beverages.\nS214 [00:13:00.639 --> 00:13:10.020] A silver in the World Championship in 1974. Another gold in EuroBasket 1975. A silver in the 1976 Olympics.\nS268 [00:16:41.060 --> 00:16:56.940] The ball was basically his only toy when he was a little boy. He grew up with a ball. He was playing on the 4th level of basketball competition as a 15 year old, dominating against\nS296 [00:18:32.640 --> 00:18:45.659] The sign that greets you at the head of the stables is ordinary and simple. Like the ceiling of question mark bar, the stables proudly display their scars. Visiting the stables makes me realize how perfect a setting this was to award the trophy\nS324 [00:20:28.370 --> 00:20:38.750] The stew is cooked slowly over the course of about an hour. But like all meals in Serbia, time is never a concern. While waiting we start with a fresh chopska and some beer.\nS356 [00:22:21.429 --> 00:22:33.154] mentally as it was physically. After winning the gold in Bormio, Divac, Radja, Djeordsevic, and Kukoc graduated to join a Yugoslavian national team that featured one of the brightest stars in Yugoslavian history:\nS386 [00:24:12.673 --> 00:24:23.484] a Croatian flag from a fan who had run out onto the court. From Vlade’s perspective, although the team featured several Croats, the team that won the gold was Yugoslavia, not one of the independent republics.\nS419 [00:26:05.394 --> 00:26:15.094] Two teams, one city. Every year the teams matchup for what is known as the eternal derby. What do you think was the loudest or the craziest crowd you ever played in.\nS450 [00:27:52.894 --> 00:28:04.984] We got a taste of this atmosphere at Marakana stadium, home of Red Star soccer club. As luck would have it, our visit coincided with a pivotal game in the club’s cycle, a matchup with Maccabi Haifa.\nS478 [00:29:45.894 --> 00:30:01.104] When Danilovic went to Miami we absolutely followed all their fortunes. We cursed out the name of Voshan Leonard because he shoved him out of the starting lineup. We hated Tim Hardaway because he wouldn’t pass.\nS511 [00:31:37.274 --> 00:31:47.413] Right now there is not a single doubt in my organism which is going to tell you Jokic is not the greatest serbian basketball player to grace the court. That is undisputed.\nS541 [00:33:25.543 --> 00:33:41.494] Everybody from Serbia, from Croatia, from all of the the republics of the ex Yugoslavia, we are all thinking what would happen if the real dream team with Michael Jordan, Larry Bird, and Magic Johnson would meet with that team.\nS570 [00:35:25.874 --> 00:35:34.504] The provision was granted by Borislav Stankovic. Once again, one of the founding fathers of basketball in Yugoslavia had found a way to come to his country’s aid.\nS601 [00:37:14.144 --> 00:37:28.024] Two years later I said, “all of them did stupid signings. Maybe I can convince them to do it better because I really know basketball.” In America, the preps to pros era was in full swing in the NBA.\nS628 [00:39:09.253 --> 00:39:24.044] Even with my daughter when we play 1 on 1, it is sport. But if Mega needs to lose 3, 4 5 games but it means getting Jokic, or Nikola Jovic, or Micic…we are fine.\nS660 [00:41:03.764 --> 00:41:11.354] I don’t know. Something like that.” I said ok explain. He said, “look if I don’t come close to him he will shoot and score everytime.\nS702 [00:42:53.044 --> 00:43:07.417] I can’t explain to you the level of bad. More than disaster. I saw them after the game and they are like really…worried.\nS735 [00:44:41.124 --> 00:44:53.276] We all know the Americans are going to bring up, if they feel like it, are going to bring the Harden’s and the LeBron’s and the whoevers. And let’s face it, we’re not that good.\nS769 [00:46:37.744 --> 00:46:48.984] Greece out of gold medal contention. The game was back and forth between both teams, with Lithuania’s Sarunas Marciulionis and Yugoslavia’s Sasa Djordjevic each having the best game of their careers.\nS807 [00:48:31.754 --> 00:48:40.213] in that moment. Zarko Paspajl, who was the team captain, had recently switched from playing for Olympiacos in Athens to their crosstown rival, Pathaniakos.\nS869 [00:53:59.094 --> 00:54:14.004] The core of most Serbs is still Inat, that word that has no equivalent in any other language. Inat is a driving force that Serbs believe rests lightly inside all of them. I don’t know how to translate that in English.\nS901 [00:56:00.404 --> 00:56:09.984] and cultures. Of all of the lessons learned from our time traveling to Serbia and meeting so many of our fans and making new friends along the way, the strongest lesson remains how powerful",
+      "text_tokens": 1777,
+      "status": "used",
+      "budget": 2048,
+      "added_cue_ids": [
+        27,
+        29,
+        98,
+        100,
+        128,
+        130,
+        214,
+        216,
+        268,
+        270,
+        296,
+        298,
+        324,
+        326,
+        356,
+        358,
+        386,
+        388,
+        419,
+        421,
+        450,
+        452,
+        478,
+        480,
+        511,
+        513,
+        541,
+        543,
+        570,
+        572,
+        601,
+        603,
+        628,
+        630,
+        660,
+        662,
+        702,
+        704,
+        735,
+        737,
+        769,
+        771,
+        807,
+        809,
+        869,
+        871,
+        901,
+        903
+      ],
+      "omitted_neighbor_ids": []
+    }
+  },
+  "evidence_sha256": "562524717da89068ca19aada83e87227e8f4b4765a185712a9116a334525a2ab"
+}

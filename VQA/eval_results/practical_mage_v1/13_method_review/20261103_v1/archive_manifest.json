@@ -1,0 +1,231 @@
+{
+  "version": "method_review_archive_integrity_v1",
+  "files": {
+    "README.md": {
+      "bytes": 17297,
+      "sha256": "bffa3061b0064bec3c12e93c447fe9a2828e7790b99408f15a50c51c5bb467e8"
+    },
+    "all_reported_metrics.csv": {
+      "bytes": 5836,
+      "sha256": "b71241ef6e11cf109e5632d29f55f83a65228fb9a77dd00390f73ef8fb7e7661"
+    },
+    "build_archive.log": {
+      "bytes": 54,
+      "sha256": "6808730bd53759b89fb27f9993fae3019ae9a8087dc651b51435473885f8d7c2"
+    },
+    "build_archive.py": {
+      "bytes": 13722,
+      "sha256": "cbc6bc34eadf8841be1ee8777138e4ec7a4bb364e1b9037d1f8461782edbd9e9"
+    },
+    "build_archive_verified.log": {
+      "bytes": 6119,
+      "sha256": "12b3841b3858bb83e5fbf0caf8c49ad420b33493038729e9e1c337fdc254cc33"
+    },
+    "comparison.csv": {
+      "bytes": 4648,
+      "sha256": "b7a732f04705d869571341635a9d89149d5ad3c41fa5c2cc50192d606794d8b6"
+    },
+    "comparison.json": {
+      "bytes": 93226,
+      "sha256": "c758092efeec6ca7d84a98a00114ab67da306cc988fdf76e4660f93f9bc35107"
+    },
+    "long20_diagnostics.json": {
+      "bytes": 43381,
+      "sha256": "657fa2c33c20ea4635896697439ab98f2e7de8a0d3064742945ea01a01613280"
+    },
+    "matched_predictions.json": {
+      "bytes": 75171,
+      "sha256": "3caa2076da3ab7a6580e6086ba4c040c259851c4dbc9198cd5b189fdddfaedbf"
+    },
+    "original_results_inventory.json": {
+      "bytes": 649219,
+      "sha256": "f7511aab6877c061cbdf740ad60bcddfc314fccdeef70971c3dc154ecade36c6"
+    },
+    "source_manifest.json": {
+      "bytes": 7573,
+      "sha256": "31b9a18a8275e26ffd1db092535a1a0ec161f999bfe328639b2c3b7fd654384c"
+    },
+    "source_snapshot/README.md": {
+      "bytes": 5264,
+      "sha256": "4ba990a077f0c132e34ebe705afbd15b87fc5da71794b401414b066200d59ec0"
+    },
+    "source_snapshot/SUBTITLES_README.md": {
+      "bytes": 5296,
+      "sha256": "4c9795232ef4b9af5ad4a6d3efbfc01c347268547211ec1ee334f855da810ee8"
+    },
+    "source_snapshot/SUBTITLE_HOLDOUT_README.md": {
+      "bytes": 5232,
+      "sha256": "f0719e9a4e3eb5617a1794fa9b68db3f3c5de65b8788805db1fa41077e34b16e"
+    },
+    "source_snapshot/continuous_analyze.py": {
+      "bytes": 3466,
+      "sha256": "90a95128fa09c17208e90c7b06a15f367115ec05cbbd9ad61d5befb3535d17b6"
+    },
+    "source_snapshot/continuous_common.py": {
+      "bytes": 7347,
+      "sha256": "5a30953730db4f4dfe8a6a0994f1a160b97491a8f1f8caa74a16bf44f9d75734"
+    },
+    "source_snapshot/continuous_mage.py": {
+      "bytes": 8835,
+      "sha256": "bdc7fc87bb855949f63cc27cade756191b51959ef81a47f7daa8adaad162290e"
+    },
+    "source_snapshot/deepseek_analyze.py": {
+      "bytes": 4076,
+      "sha256": "fac88ed99fca19440e468cc1761a3d7ca2ef9c05b394acded4b11d3a5104836a"
+    },
+    "source_snapshot/deepseek_review.py": {
+      "bytes": 21581,
+      "sha256": "a633c00b71d464951751c00817f3d8e0b8ab09d26eb0754843bf875c99be14c6"
+    },
+    "source_snapshot/practical_analyze.py": {
+      "bytes": 8092,
+      "sha256": "a3a0236482f6ebff1be5851022cd54685b3557052ec6e73562b26fae963640d6"
+    },
+    "source_snapshot/practical_common.py": {
+      "bytes": 9591,
+      "sha256": "099b6932b6da4733e9cd06b4f4c7f41f889241eb4b7fa6d9753fab5ac14320a9"
+    },
+    "source_snapshot/practical_coverage.py": {
+      "bytes": 12627,
+      "sha256": "67a2bf69435193c8e9ad55256e886bd5607123bbce67d7956fc8658d4dc9c39e"
+    },
+    "source_snapshot/practical_subtitles.py": {
+      "bytes": 16744,
+      "sha256": "e016119702ea05a192686c867bf5d9532375daac550dd8f4cef40633e71ec2e1"
+    },
+    "source_snapshot/practical_vote.py": {
+      "bytes": 24843,
+      "sha256": "f00fc93fd57ac616d27d56dc420a2726e5f5b3edba9593b9bf7fa42b28106acb"
+    },
+    "source_snapshot/run_practical_coverage.sh": {
+      "bytes": 1263,
+      "sha256": "d7d9fd225cc1dd34f69c7a31604868136604402f8720fdcd397f5a14b5a0adf1"
+    },
+    "source_snapshot/run_practical_mage.sh": {
+      "bytes": 1749,
+      "sha256": "959ed703f8c979aca4320a3f993dd3c499cac4b7a637391d831877b7d35667f1"
+    },
+    "source_snapshot/run_practical_next.sh": {
+      "bytes": 2174,
+      "sha256": "304ebe03a6df51b9454bdfb57b91d57266a941e782b2efe682708291213464e1"
+    },
+    "source_snapshot/run_practical_subtitles.sh": {
+      "bytes": 1868,
+      "sha256": "42041cacdfd85f0e0f93e7fc50d83403650dc731ef245d5e586da163cbdc6787"
+    },
+    "source_snapshot/run_subtitle_holdout.sh": {
+      "bytes": 1786,
+      "sha256": "c8c181582fbbf4bdf8fd5044259b0694780daeb8f6679827ff20f1cfc0742164"
+    },
+    "source_snapshot/subtitle_analyze.py": {
+      "bytes": 7222,
+      "sha256": "720f35ec48517897a22cc1ed909a319c8de9f9300a124a756d0a46ff91b07647"
+    },
+    "source_snapshot/subtitle_common.py": {
+      "bytes": 9954,
+      "sha256": "f365238d5b4e28ca152c2394a1ff2171e7895dba3dc035c40dc1c24bcce8f852"
+    },
+    "source_snapshot/subtitle_holdout.py": {
+      "bytes": 20394,
+      "sha256": "5032c94eb2d968609952617afefa1a52a9bdf6232e568b3a7ee52babf22d6fbf"
+    },
+    "source_snapshot/subtitle_holdout_analyze.py": {
+      "bytes": 6388,
+      "sha256": "66c866fb1ea3b768c0a78e5a92ab13ad0a53425cd8207df40ae71afd7534a1b1"
+    },
+    "source_snapshot/test_practical_coverage.py": {
+      "bytes": 4271,
+      "sha256": "8b0516f3de00b391db14d02c640ed3ea65876585f9a538d6915ec2620d32c7dd"
+    },
+    "source_snapshot/test_practical_mage.py": {
+      "bytes": 10237,
+      "sha256": "ef8a3c806b6e0dd8700cfbd588dc775ae515a57e50806c671f12bca900258c69"
+    },
+    "source_snapshot/test_practical_next.py": {
+      "bytes": 14033,
+      "sha256": "7344c3d3a18914aaaab4df12a57ac3531aa7cbfe027b340150ea8f959ff096e9"
+    },
+    "source_snapshot/test_practical_subtitles.py": {
+      "bytes": 16285,
+      "sha256": "4068dd4543e1f334d7c727db2e3d11dfa56268b8a3271ef189dd75584bb02f9a"
+    },
+    "source_snapshot/test_subtitle_holdout.py": {
+      "bytes": 10293,
+      "sha256": "10f42539d2cf9cc34325ddd21137b511b8cc9dba479d7872e651f82d46bb7f7f"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/09_subtitles/dev60/f32_px150000_aligned_sub_v1/predictions.json": {
+      "bytes": 189477,
+      "sha256": "ff821d982823c11f12bce3c2520641fd70ba6443d93aff32ccb8989efaebdab0"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/09_subtitles/dev60/f32_px150000_aligned_sub_v1/summary.json": {
+      "bytes": 10099,
+      "sha256": "bf454f0604bfcc679b2597fd71e9f4e1113e9cb53d3024322563385cee0f2ff7"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/09_subtitles/smoke/f32_px150000_aligned_sub_v1/predictions.json": {
+      "bytes": 6399,
+      "sha256": "5d65f3040f40b8cd5db2a0d7aeac3188d619e5834e04d4bcce97aafec73c3908"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/09_subtitles/smoke/f32_px150000_aligned_sub_v1/summary.json": {
+      "bytes": 5648,
+      "sha256": "4ca458aaacae5bfd7c60bbdafbc6088e1f2af17df0c391bc26f13be13d47bc70"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/10_subtitle_holdout/val90/f32_px150000_aligned_sub_v1/diagnostic_rescue7_harm8.json": {
+      "bytes": 186877,
+      "sha256": "93ede36a597fe8ad9115283b82006679c3c06c56638803c33d4e50dbeb30de80"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/10_subtitle_holdout/val90/f32_px150000_aligned_sub_v1/predictions.json": {
+      "bytes": 64901,
+      "sha256": "63f92c5f222e2755a7c33bdf74fd479b4eab78c2ca48e7c849142152a8cde01b"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/10_subtitle_holdout/val90/f32_px150000_aligned_sub_v1/summary.json": {
+      "bytes": 17321,
+      "sha256": "af16e9d7b516173e2e632db669059a3d633d60ee65cf50c7cfa4a5eb55ce3daa"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/11_continuous_subtitles/dev60/f32_px150000_neighbor1_time_t2048_v1/predictions.json": {
+      "bytes": 32403,
+      "sha256": "83d53bf259798ada793527313b5d75cf757f19681981e0eebcfc968bd005c136"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/11_continuous_subtitles/dev60/f32_px150000_neighbor1_time_t2048_v1/summary.json": {
+      "bytes": 4697,
+      "sha256": "6215a4b85218771c22ab3d0fc384979a9f1264fe0ec0bb0981afd92482cc9467"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/11_continuous_subtitles/smoke/f32_px150000_neighbor1_time_t2048_v1/predictions.json": {
+      "bytes": 1071,
+      "sha256": "26cb6c0180bc4f34f16d3cbef9687a0898a6e7cdd94a5f24c3766fb83f1ba896"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/11_continuous_subtitles/smoke/f32_px150000_neighbor1_time_t2048_v1/summary.json": {
+      "bytes": 3131,
+      "sha256": "100df9ea19a935a9e77473556b7969a70be1d50165db721973c4e3bf2d379ad6"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/12_deepseek_review/pilot/predictions.json": {
+      "bytes": 7905,
+      "sha256": "dd54c9dddbd355dda822b59430c2a35a586e4bebb632be1b58596db50d9dd71c"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/12_deepseek_review/pilot/summary.json": {
+      "bytes": 4629,
+      "sha256": "689f88525f02742eb2ed7378d8f97dede13912b2a4f986db4acd9d3f1335ca0b"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/12_deepseek_review/smoke/predictions.json": {
+      "bytes": 596,
+      "sha256": "2306ad885774a8e497f6c2a3fab02920b0eb9f0c998a100a1e7e35f0b0c3c80e"
+    },
+    "stage_snapshots/VQA/eval_results/practical_mage_v1/12_deepseek_review/smoke/summary.json": {
+      "bytes": 3409,
+      "sha256": "b7c1fc3944ba7d2798b422a1e5802d5ad8024c3625837424ab0f2eff892de5d8"
+    },
+    "stage_snapshots/VQA/eval_results/r2v_mage/px150000_f32/short/summary_short.json": {
+      "bytes": 27296,
+      "sha256": "8fd1ae4c98b44c83681ec5f1e2f79ed7043f27d2dda47e1dd8e76977cdc61dd8"
+    }
+  },
+  "original_source_files_verified": 43,
+  "original_result_files_verified": 2500,
+  "original_bytes_preserved": 149850056,
+  "report_sha256": "bffa3061b0064bec3c12e93c447fe9a2828e7790b99408f15a50c51c5bb467e8",
+  "csv_rows": 46,
+  "inference_code_unchanged": true,
+  "citation_check_not_modified": true,
+  "no_rescoring_579": true,
+  "no_new_inference_or_api_or_key_read": true,
+  "archive_helper_note": "CSV raw-byte newline comparison corrected only in archive helper; old failed log retained; verified rerun succeeded"
+}
