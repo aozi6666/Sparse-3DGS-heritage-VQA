@@ -1,0 +1,16 @@
+.venv/
+.bootstrap/
+.node/
+.uv-cache/
+.npm-cache/
+.pip-cache/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+models/
+tools/bin/
+storage/
+*.tsbuildinfo
