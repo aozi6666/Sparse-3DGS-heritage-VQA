@@ -1,7 +1,7 @@
 # Mage Video Studio
 
 工程：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/Project`  
-当前分支：`feat/project-video-deme`（按用户指定，保留 deme 拼写）。
+当前分支：`main`；原演示开发分支为 `feat/project-video-deme`，历史名称保留供追溯。
 
 React＋TypeScript＋FastAPI，上传录制视频后按8秒分段生成短解说，SSE显示文字，浏览器SpeechSynthesis按句播报，也可暂停提问。视频理解使用AutoDL已有本地Mage-VL；第一版采用Frames＋SDPA，Codec和事件门控留待后续。没有ASR或外部LLM调用。
 

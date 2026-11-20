@@ -4,7 +4,7 @@
 
 ## VGGT-Object保全
 
-DPT全参数、Aggregator后6层rank16 LoRA、损失、数据桥接、优化器/调度、保存加载、测试和全部配置均保留。关键代码及原始VGGT/DPT/LoRA权重在整理前后用SHA256核对；权重继续只在服务器，不上传Git。唯一计划内VGGT变更是CLI允许在main执行CPU检查，训练数学逻辑不变。
+DPT全参数、Aggregator后6层rank16 LoRA、损失、数据桥接、优化器/调度、保存加载、测试和全部配置均保留。关键代码及原始VGGT/DPT/LoRA权重在整理前后用SHA256核对；权重继续只在服务器，不上传Git。计划内VGGT变更仅为CLI允许在main执行CPU检查，以及README更新当前分支，训练数学逻辑不变。
 
 ## 只使用VLM
 
@@ -24,7 +24,7 @@ Project是独立视频解说演示工程，不属于VCAR，处理以用户单独
 
 ## 本次核验结果
 
-- VGGT保全清单37项逐项核对：除CLI允许main的两行分支守卫外，其余36项字节一致，涵盖原始模型、DPT/LoRA权重及实际数据划分；完整SHA见archive/main_migration_20261120/vggt_preservation.json。
+- VGGT保全清单37项逐项核对：除CLI允许main的两行分支守卫及README分支说明外，其余35项字节一致，涵盖原始模型、DPT/LoRA权重及实际数据划分；完整SHA见archive/main_migration_20261120/vggt_preservation.json。
 - 低内存CPU实例中，VGGT32项分项通过；完整套件中的原始模型CPU加载和真实DPT反传2项因资源限制被系统终止，本次不宣称通过。这两项的实现和权重哈希均未变，之前归档有34项通过记录。
 - 字幕practical 163项通过；AIR排除真实原生processor重型套件后336项中334项在3DGS环境通过，另外2项需要decord，已在保留的Mage环境单独通过。未绕过或伪造测试；不把缺依赖当路径迁移错误。原生processor套件因2GiB资源限制未在本次重跑完成。
 - 所有当前VGGT/VLM/Project已跟踪Python源码完成AST语法检查，当前Python入口无残留VQA目录路径。
