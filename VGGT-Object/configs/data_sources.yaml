@@ -1,0 +1,4 @@
+# Keep upload destinations fixed. No moves/copies/symlinks are needed.
+omni3d: data/omni3d
+bundle: data/VGGT_finetune_v1
+manifest: data/manifests/objects.json

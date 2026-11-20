@@ -1,5 +1,6 @@
 import sys
 import os
+from utils.full_scene import full_scene_options
 import uuid
 from argparse import ArgumentParser, Namespace
 from arguments import ModelParams, PipelineParams, OptimizationParams
@@ -68,7 +69,7 @@ def leave_one_out_training(args, dataset, opt, pipe, testing_iterations, saving_
 
         # Every 1000 its we increase the levels of SH up to a maximum degree
         # 每10000步提高球谐展开的等级
-        if iteration % 10000 == 0:
+        if iteration % (1000 if args.full_scene else 10000) == 0:
             gaussians.oneupSHdegree()
 
         # Pick a random Camera 选取训练视角
@@ -112,7 +113,7 @@ def leave_one_out_training(args, dataset, opt, pipe, testing_iterations, saving_
                 scene.save(iteration)
 
             # Densification 稠密化操作
-            if iteration < opt.densify_until_iter:
+            if iteration < opt.densify_until_iter and (not args.full_scene or num_gauss < opt.max_num_splats):
                 # Keep track of max radii in image-space for pruning
                 gaussians.max_radii2D[visibility_filter] = torch.max(gaussians.max_radii2D[visibility_filter], radii[visibility_filter])
                 gaussians.add_densification_stats(viewspace_point_tensor, visibility_filter)
@@ -349,6 +350,8 @@ def train_3dgs(args, ids):
             image_id: 当前留出的图像 ID
         """
         # 留出的图像 模型保存路径
+        if args.leave_out_ids is not None and int(image_id) not in args.leave_out_ids:
+            continue
         args.model_path = os.path.join(model_path_root, f'leave_{image_id}')
 
         # 模型路径 同步给 数据集对象 （用于日志保存、图像输出）
@@ -401,9 +404,11 @@ if __name__ == "__main__":
     parser.add_argument("--init_pcd_name", default='origin', type=str, help="the init pcd name. 'random' for random, 'origin' for pcd from the whole scene")
     parser.add_argument('--mono_depth_weight', type=float, default=0.0005, help="The rate of monodepth loss")
     parser.add_argument('--mono_loss_type', type=str, default="mid")
+    parser.add_argument('--leave_out_ids', nargs='+', type=int, default=None,
+                        help='Optional original image IDs to process; retains full training-camera indexing')
 
     # 解析命令行参数
-    args = parser.parse_args(sys.argv[1:])
+    args = full_scene_options(parser.parse_args(sys.argv[1:]))
     # 从命令行获取参数
     args.save_iterations.append(args.iterations)
 

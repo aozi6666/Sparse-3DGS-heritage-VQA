@@ -1,0 +1,23 @@
+{
+  "training_started": false,
+  "train_counts": [
+    4,
+    6,
+    9
+  ],
+  "test_count": 7,
+  "base_cloud_counts": [
+    4435,
+    6416,
+    9447
+  ],
+  "actual_scene_loader_passed": true,
+  "controlled_command_check_passed": true,
+  "VGGT_depth_absent": true,
+  "Drop_disabled": true,
+  "reference_completed_run": "trex_sparse469_v1",
+  "sha256": {
+    "3DGS/GaussianObject/tools/run_sparse_469_baseline.py": "9126636a501f4978257d24edb848c9422b5fada9be573c00e91ecd65b3579f95",
+    "3DGS/GaussianObject/sh/full_scene/run_trex_sparse469_baseline.sh": "c4d556f81df603225f10225ac045936bfc41eedfe8afc46e58830d74f36b882e"
+  }
+}

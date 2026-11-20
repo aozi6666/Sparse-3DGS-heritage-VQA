@@ -10,6 +10,7 @@
 #
 
 import sys
+from utils.full_scene import resolve_image_file
 import json
 import os.path as osp
 from typing import NamedTuple, Optional
@@ -101,7 +102,7 @@ def readColmapCameras(cam_extrinsics, cam_intrinsics, images_folder, extra_opts=
         else:
             assert False, "Colmap camera model not handled: only undistorted datasets (PINHOLE or SIMPLE_PINHOLE cameras) supported!"
 
-        image_path = osp.join(images_folder, osp.basename(extr.name))
+        image_path = resolve_image_file(images_folder, extr.name)
         image_name = osp.basename(image_path).split(".")[0]
         image = Image.open(image_path)
 
@@ -109,7 +110,9 @@ def readColmapCameras(cam_extrinsics, cam_intrinsics, images_folder, extra_opts=
         mask_path_png = osp.join(osp.dirname(images_folder), "masks", osp.basename(
             image_path).replace(osp.splitext(osp.basename(image_path))[-1], '.png'))
 
-        if osp.exists(mask_path_png) and hasattr(extra_opts, "use_mask") and extra_opts.use_mask:
+        if getattr(extra_opts, "full_scene", False):
+            mask = np.ones((image.height, image.width), dtype=np.float32)
+        elif osp.exists(mask_path_png) and hasattr(extra_opts, "use_mask") and extra_opts.use_mask:
             mask = cv2.imread(mask_path_png, cv2.IMREAD_GRAYSCALE).astype(np.uint8)
             mask = mask.astype(np.float32) / 255.0
         else:
@@ -230,8 +233,10 @@ def readColmapSceneInfo(path, images, eval, llffhold=8, extra_opts=None):
     if hasattr(extra_opts, 'sparse_view_num') and extra_opts.sparse_view_num > 0: # means sparse setting
         assert eval == False
         assert osp.exists(osp.join(path, f"sparse_{str(extra_opts.sparse_view_num)}.txt")), "sparse_id.txt not found!"
-        ids = np.loadtxt(osp.join(path, f"sparse_{str(extra_opts.sparse_view_num)}.txt"), dtype=np.int32)
-        ids_test = np.loadtxt(osp.join(path, f"sparse_test.txt"), dtype=np.int32)
+        ids = np.atleast_1d(np.loadtxt(osp.join(path, f"sparse_{str(extra_opts.sparse_view_num)}.txt"), dtype=np.int32))
+        test_path = osp.join(path, "sparse_test.txt")
+        ids_test = (np.atleast_1d(np.loadtxt(test_path, dtype=np.int32))
+                    if open(test_path).read().strip() else np.empty(0, dtype=np.int32))
         test_cam_infos = [train_cam_infos[i] for i in ids_test]
         train_cam_infos = [train_cam_infos[i] for i in ids]
         print("Sparse view, only {} images are used for training, others are used for eval.".format(len(ids)))
@@ -354,7 +359,7 @@ def readDust3rSceneInfo(path, images, eval, extra_opts=None):
     else:
         print("use original resolution images")
 
-    ids = np.loadtxt(osp.join(path, f"sparse_{str(extra_opts.sparse_view_num)}.txt"), dtype=np.int32)
+    ids = np.atleast_1d(np.loadtxt(osp.join(path, f"sparse_{str(extra_opts.sparse_view_num)}.txt"), dtype=np.int32))
 
     if hasattr(extra_opts, 'dust3r_json') and extra_opts.dust3r_json:
         with open(extra_opts.dust3r_json) as f:

@@ -190,10 +190,7 @@ kitchen_ddgs*/
 # 3DGS/eval_results/ is tracked
 
 # Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
-<<<<<<< HEAD
 # 本地评测数据集（ORCBench 等），不进 Git
-=======
->>>>>>> vlm
 VQA/datas/
 VQA/mage_vl/data/
 VQA/mage_vl/models/
@@ -207,3 +204,52 @@ VQA/**/outputs/logs/
 
 # Local DeepSeek API credentials; keep example templates tracked
 /deepseek.env
+
+# Local text-parser credential file
+/.env
+
+# Maintenance 2026-11-20: source/config/docs only; runtime assets stay on AutoDL
+VLM/datas/
+VLM/envs/
+VLM/models/
+VLM/mage_vl/models/
+VLM/mage_vl/outputs/
+VLM/VLMEvalKit/vlmeval_env/
+VLM/VLMEvalKit/ffmpeg_linux/
+VLM/**/cache/
+VLM/**/caches/
+VLM/**/outputs/
+VLM/**/source_snapshot/
+VLM/**/snapshots/
+VLM/**/docs_before_update/
+VGGT-Object/experiments/
+VGGT-Object/reports/
+VGGT-Object/results/
+*.pkl
+*.pickle
+*.npy
+*.glb
+*.gltf
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.exr
+*.tiff
+*.tif
+*.db
+*.sqlite*
+*.env
+!*.env.example
+!*.env.template
+Seg/
+Project/.bootstrap/
+Project/.uv-cache*/
+.uv-cache*/
+**/events.out.tfevents.*
+**/.run.lock
+**/gpu.lock
+
+# Full historical per-question evidence/cache stays local; curated summaries are docs/archive/
+VLM/eval_results/

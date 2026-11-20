@@ -168,6 +168,7 @@ class GaussianDreamer(BaseLift3DSystem):
     @dataclass
     class Config(BaseLift3DSystem.Config):
         sparse_num: int = 5
+        full_scene: bool = False
         model_name: str = "control_v11f1e_sd15_tile"
         sd_ckpt: str = "models/absolutereality_v16.safetensors"
         exp_name: str = ""
@@ -207,7 +208,7 @@ class GaussianDreamer(BaseLift3DSystem):
     def configure(self) -> None:
         self.gaussian = GaussianModel(sh_degree = self.cfg.sh_degree)
         self.cameras_extent = self.cfg.scene_extent
-        self.bg_color = [1, 1, 1] if True else [0, 0, 0]
+        self.bg_color = [0, 0, 0] if self.cfg.full_scene else [1, 1, 1]
         self.background_tensor = torch.tensor(self.bg_color, dtype=torch.float32, device="cuda")
         self.init_dreamer = self.cfg.init_dreamer
         self.point_cloud = self.init_pointcloud(self.init_dreamer)
@@ -271,7 +272,9 @@ class GaussianDreamer(BaseLift3DSystem):
         Ll1 = torch.nan_to_num(l1_loss(image, gt_image))
         loss = (1.0 - self.opt.lambda_dssim) * Ll1 + self.opt.lambda_dssim * (1.0 - ssim(image, gt_image))
 
-        if silhouette_loss_type == "bce":
+        if self.cfg.full_scene:
+            silhouette_loss = image.new_zeros(())
+        elif silhouette_loss_type == "bce":
             silhouette_loss = torch.nan_to_num(F.binary_cross_entropy(render_pkg["rendered_alpha"][0], viewpoint_cam.mask))
         elif silhouette_loss_type == "mse":
             silhouette_loss = torch.nan_to_num(F.mse_loss(render_pkg["rendered_alpha"][0], viewpoint_cam.mask))
@@ -348,7 +351,8 @@ class GaussianDreamer(BaseLift3DSystem):
                 batch['image'][id],
                 batch['mask'][id],
                 batch['depth'][id],
-                white_background = (self.bg_color == [1, 1, 1])
+                white_background = (self.bg_color == [1, 1, 1]),
+                full_scene = self.cfg.full_scene
             )
             render_pkg = render(viewpoint_cam, self.gaussian, self.pipe, renderbackground)
             self.viewspace_point_list.append(render_pkg["viewspace_points"])
@@ -730,6 +734,9 @@ class GaussianDreamer(BaseLift3DSystem):
         self.opt = OptimizationParams(self.parser)
         for k, v in self.cfg.gaussian_opt_params.items():
             self.opt.__setattr__(k, v)
+        if self.cfg.full_scene:
+            self.opt.random_background = False
+            self.opt.lambda_silhouette = 0.0
         self.pipe = PipelineParams(self.parser)
         self.gaussian.training_setup(self.opt)
         ret = {

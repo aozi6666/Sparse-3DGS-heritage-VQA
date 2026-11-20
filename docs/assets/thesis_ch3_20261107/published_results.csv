@@ -1,0 +1,43 @@
+source_id,source_type,dataset,method,views,lpips_star_x100,psnr_db,ssim,lpips,scope,protocol_status
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,RegNeRF,4,19.88,12.59,0.841,0.1988,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,RegNeRF,6,20.72,13.41,0.847,0.2072,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,RegNeRF,9,19.70,13.68,0.852,0.1970,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SparseNeRF,4,17.76,12.83,0.845,0.1776,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SparseNeRF,6,19.74,13.42,0.861,0.1974,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SparseNeRF,9,21.56,14.36,0.873,0.2156,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,3DGS,4,10.80,20.31,0.899,0.1080,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,3DGS,6,8.38,22.12,0.913,0.0838,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,3DGS,9,6.42,24.29,0.930,0.0642,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,CoR-GS,4,11.76,20.45,0.856,0.1176,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,CoR-GS,6,9.28,22.57,0.901,0.0928,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,CoR-GS,9,7.04,24.73,0.926,0.0704,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,DropGaussian,4,11.57,21.76,0.837,0.1157,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,DropGaussian,6,8.61,22.98,0.895,0.0861,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,DropGaussian,9,8.02,24.10,0.915,0.0802,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,D2GS,4,2.58,22.35,0.923,0.0258,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,D2GS,6,2.34,24.74,0.937,0.0234,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,D2GS,9,2.11,27.13,0.941,0.0211,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SynGS,4,3.89,25.91,0.948,0.0389,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SynGS,6,3.43,27.93,0.953,0.0343,reported_aggregate_not_new_run,historical_run_details_not_available
+P01,author_supplied_published_table_screenshot,Mip-NeRF 360,SynGS,9,3.02,29.21,0.961,0.0302,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,RegNeRF,4,29.65,18.55,0.587,0.2965,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,RegNeRF,6,22.61,19.08,0.760,0.2261,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,RegNeRF,9,18.39,22.86,0.820,0.1839,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,FreeNeRF,4,30.85,19.09,0.624,0.3085,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,FreeNeRF,6,23.06,19.81,0.763,0.2306,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,FreeNeRF,9,17.94,23.08,0.823,0.1794,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,3DGS,4,22.93,19.32,0.649,0.2293,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,3DGS,6,13.45,23.80,0.814,0.1345,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,3DGS,9,9.68,25.44,0.860,0.0968,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,CoR-GS,4,19.66,20.45,0.696,0.1966,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,CoR-GS,6,12.53,23.87,0.840,0.1253,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,CoR-GS,9,8.94,26.70,0.874,0.0894,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,DropGaussian,4,21.93,19.80,0.621,0.2193,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,DropGaussian,6,13.79,23.41,0.803,0.1379,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,DropGaussian,9,9.40,25.87,0.868,0.0940,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,D2GS,4,17.98,22.35,0.746,0.1798,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,D2GS,6,13.85,23.91,0.846,0.1385,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,D2GS,9,8.91,26.80,0.871,0.0891,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,SynGS,4,16.92,23.92,0.762,0.1692,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,SynGS,6,12.54,25.17,0.848,0.1254,reported_aggregate_not_new_run,historical_run_details_not_available
+P02,author_supplied_published_table_screenshot,LLFF,SynGS,9,8.96,26.71,0.871,0.0896,reported_aggregate_not_new_run,historical_run_details_not_available

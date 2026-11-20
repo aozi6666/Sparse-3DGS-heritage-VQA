@@ -1,0 +1,544 @@
+{
+  "step": 20,
+  "scope": "val",
+  "objects": 2,
+  "cases": 12,
+  "summary": {
+    "canonical_unaligned": {
+      "AbsRel": 0.02197543301036617,
+      "RMSE": 0.04276886740807709,
+      "RMSE_Log": 0.03617691451656539,
+      "delta1": 0.9933989724408505,
+      "delta2": 0.9973008141567639,
+      "delta3": 0.9990262180140501
+    },
+    "scene_scale_aligned": {
+      "AbsRel": 0.020498800025253776,
+      "RMSE": 0.04145343423539159,
+      "RMSE_Log": 0.03466461317947123,
+      "delta1": 0.9935844823526856,
+      "delta2": 0.9973854024429638,
+      "delta3": 0.9990448012392581
+    }
+  },
+  "rows": [
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 0,
+      "indices": [
+        0,
+        8,
+        15,
+        23
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.01692371983260227,
+        "RMSE": 0.022401354057377035,
+        "RMSE_Log": 0.021202579737772485,
+        "delta1": 0.9999424029489691,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 52086
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.016643186027729764,
+        "RMSE": 0.020674791401784152,
+        "RMSE_Log": 0.020067041142993295,
+        "delta1": 0.9999424029489691,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 52086
+      },
+      "scale_alignment": 1.0049517154693604,
+      "boundary_f1": 0.4583017826080322,
+      "multiview_relative_error": 0.0012547035003080964,
+      "multiview_valid_pixels": 6943,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 3.4339799880981445,
+        "translation_mean_deg": 3.0175469517707825,
+        "rotation_accuracy_5": 0.8333333333333334,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.9003641075558132
+      },
+      "latency_seconds": 0.17544507794082165
+    },
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 1,
+      "indices": [
+        8,
+        13,
+        17,
+        18
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.022167996840578182,
+        "RMSE": 0.025163435448268014,
+        "RMSE_Log": 0.026697471873479605,
+        "delta1": 1.0,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 58061
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.019747844935467766,
+        "RMSE": 0.02534671101270814,
+        "RMSE_Log": 0.024996816233323504,
+        "delta1": 1.0,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 58061
+      },
+      "scale_alignment": 0.9885054230690002,
+      "boundary_f1": 0.10209424048662186,
+      "multiview_relative_error": 0.0044363681226968765,
+      "multiview_valid_pixels": 5390,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 5.253753105799357,
+        "translation_mean_deg": 6.129748185475667,
+        "rotation_accuracy_5": 0.3333333333333333,
+        "translation_accuracy_5": 0.5,
+        "AUC30": 0.7951077434751723
+      },
+      "latency_seconds": 0.1722093839198351
+    },
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 2,
+      "indices": [
+        10,
+        18,
+        19,
+        20
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.01640629934909927,
+        "RMSE": 0.02077761211908056,
+        "RMSE_Log": 0.020772134462599436,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 49968
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.01617271671616375,
+        "RMSE": 0.021298619259559594,
+        "RMSE_Log": 0.020744661952296677,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 49968
+      },
+      "scale_alignment": 0.9967750310897827,
+      "boundary_f1": 0.45907920598983765,
+      "multiview_relative_error": 0.0018565136706456542,
+      "multiview_valid_pixels": 6098,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 2.255104184150696,
+        "translation_mean_deg": 3.60209267338117,
+        "rotation_accuracy_5": 1.0,
+        "translation_accuracy_5": 0.6666666666666666,
+        "AUC30": 0.8955540074242486
+      },
+      "latency_seconds": 0.20015900488942862
+    },
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 3,
+      "indices": [
+        6,
+        14,
+        17,
+        19
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.010843722643307605,
+        "RMSE": 0.016178836551153562,
+        "RMSE_Log": 0.01558538695151043,
+        "delta1": 0.9999830537197085,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 59010
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.010572505132122458,
+        "RMSE": 0.016593169456352655,
+        "RMSE_Log": 0.01579580468465211,
+        "delta1": 0.9999830537197085,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 59010
+      },
+      "scale_alignment": 0.9972893595695496,
+      "boundary_f1": 0.20033389329910278,
+      "multiview_relative_error": 0.003504303516820073,
+      "multiview_valid_pixels": 4989,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 8.494164923826853,
+        "translation_mean_deg": 4.01046296954155,
+        "rotation_accuracy_5": 0.3333333333333333,
+        "translation_accuracy_5": 0.8333333333333334,
+        "AUC30": 0.7497973846064673
+      },
+      "latency_seconds": 0.19447133876383305
+    },
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 4,
+      "indices": [
+        0,
+        12,
+        14,
+        17
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.013248241222260032,
+        "RMSE": 0.01715407715231338,
+        "RMSE_Log": 0.01784579953974472,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 60027
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.013239352692767537,
+        "RMSE": 0.017180821594025366,
+        "RMSE_Log": 0.017835346666681292,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 60027
+      },
+      "scale_alignment": 0.9996710419654846,
+      "boundary_f1": 0.24032588303089142,
+      "multiview_relative_error": 0.0037814374081790447,
+      "multiview_valid_pixels": 4720,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 82.42048585414886,
+        "translation_mean_deg": 19.260961830615997,
+        "rotation_accuracy_5": 0.3333333333333333,
+        "translation_accuracy_5": 0.6666666666666666,
+        "AUC30": 0.4426967448658414
+      },
+      "latency_seconds": 0.20397187769412994
+    },
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "case": 5,
+      "indices": [
+        10,
+        18,
+        19,
+        21
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.020581547616463317,
+        "RMSE": 0.02439825623258496,
+        "RMSE_Log": 0.024881485333223555,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 51713
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.019270509251634246,
+        "RMSE": 0.025621038405307668,
+        "RMSE_Log": 0.024529806859158815,
+        "delta1": 0.9999999999999999,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 51713
+      },
+      "scale_alignment": 0.9910203814506531,
+      "boundary_f1": 0.3889736235141754,
+      "multiview_relative_error": 0.0025133907329291105,
+      "multiview_valid_pixels": 5507,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 3.559840718905131,
+        "translation_mean_deg": 1.8210058361291885,
+        "rotation_accuracy_5": 0.8333333333333334,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.8953594379954868
+      },
+      "latency_seconds": 0.18882620427757502
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 0,
+      "indices": [
+        0,
+        8,
+        15,
+        23
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.016290715172665567,
+        "RMSE": 0.02420550691006725,
+        "RMSE_Log": 0.022694555634680386,
+        "delta1": 0.9993984552330384,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 124679
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.014812881356633749,
+        "RMSE": 0.020990663986443937,
+        "RMSE_Log": 0.020216628017499714,
+        "delta1": 0.9993503316516814,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 124679
+      },
+      "scale_alignment": 1.0097236633300781,
+      "boundary_f1": 0.8932039141654968,
+      "multiview_relative_error": 0.002626517554745078,
+      "multiview_valid_pixels": 16690,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 2.1147046089172363,
+        "translation_mean_deg": 1.4162570585807164,
+        "rotation_accuracy_5": 1.0,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.9357499957084656
+      },
+      "latency_seconds": 0.2009706199169159
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 1,
+      "indices": [
+        5,
+        10,
+        12,
+        18
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.024466023884172947,
+        "RMSE": 0.03233776044377507,
+        "RMSE_Log": 0.03227791041715404,
+        "delta1": 0.9989034380442495,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 124024
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.020513242777708857,
+        "RMSE": 0.026163674981216932,
+        "RMSE_Log": 0.02647579333836255,
+        "delta1": 0.9988228084886797,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 124024
+      },
+      "scale_alignment": 1.0168757438659668,
+      "boundary_f1": 0.903489351272583,
+      "multiview_relative_error": 0.008733326569199562,
+      "multiview_valid_pixels": 12834,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 3.89619114001592,
+        "translation_mean_deg": 2.2197272181510925,
+        "rotation_accuracy_5": 0.6666666666666666,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.8823057591915131
+      },
+      "latency_seconds": 0.19482557568699121
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 2,
+      "indices": [
+        0,
+        2,
+        7,
+        17
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.01641888577098451,
+        "RMSE": 0.021214275221632852,
+        "RMSE_Log": 0.02210755672386928,
+        "delta1": 0.9993539618082358,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 119188
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.016412410789174683,
+        "RMSE": 0.02120242890129782,
+        "RMSE_Log": 0.02208895494410218,
+        "delta1": 0.9993539618082358,
+        "delta2": 1.0,
+        "delta3": 1.0,
+        "pixels": 119188
+      },
+      "scale_alignment": 0.9997463822364807,
+      "boundary_f1": 0.9138342142105103,
+      "multiview_relative_error": 0.003971011843532324,
+      "multiview_valid_pixels": 10739,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 1.4914162854353588,
+        "translation_mean_deg": 0.8698413670063019,
+        "rotation_accuracy_5": 1.0,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.95557874639829
+      },
+      "latency_seconds": 0.18800408858805895
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 3,
+      "indices": [
+        2,
+        3,
+        11,
+        20
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.014576481223307704,
+        "RMSE": 0.019740449898609735,
+        "RMSE_Log": 0.020313921503179955,
+        "delta1": 0.9989757229826285,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 121061
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.011245587161191851,
+        "RMSE": 0.01727842083572638,
+        "RMSE_Log": 0.01699228742325453,
+        "delta1": 0.9989839832811557,
+        "delta2": 0.9999999999999999,
+        "delta3": 0.9999999999999999,
+        "pixels": 121061
+      },
+      "scale_alignment": 0.9877360463142395,
+      "boundary_f1": 0.9075294137001038,
+      "multiview_relative_error": 0.0028349445201456547,
+      "multiview_valid_pixels": 14946,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 1.4072908262411754,
+        "translation_mean_deg": 1.0923641920089722,
+        "rotation_accuracy_5": 1.0,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.958460592561298
+      },
+      "latency_seconds": 0.18912817910313606
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 4,
+      "indices": [
+        0,
+        9,
+        10,
+        13
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.05446064757439647,
+        "RMSE": 0.2010110527259039,
+        "RMSE_Log": 0.1355107872638453,
+        "delta1": 0.9530696647259587,
+        "delta2": 0.9734430837181289,
+        "delta3": 0.9888215217827746,
+        "pixels": 124525
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.05386668180790712,
+        "RMSE": 0.19940142064519203,
+        "RMSE_Log": 0.13458656392994217,
+        "delta1": 0.9535836177474403,
+        "delta2": 0.9737562738405943,
+        "delta3": 0.9889821321019876,
+        "pixels": 124525
+      },
+      "scale_alignment": 0.9957305192947388,
+      "boundary_f1": 0.7458484172821045,
+      "multiview_relative_error": 0.040834225714206696,
+      "multiview_valid_pixels": 14059,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 10.188168505827585,
+        "translation_mean_deg": 1.2214411497116089,
+        "rotation_accuracy_5": 0.5,
+        "translation_accuracy_5": 1.0,
+        "AUC30": 0.7122288074758316
+      },
+      "latency_seconds": 0.18129520863294601
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "case": 5,
+      "indices": [
+        8,
+        9,
+        18,
+        21
+      ],
+      "dataset": "smithsonian",
+      "split": "val",
+      "canonical_unaligned": {
+        "AbsRel": 0.03732091499455615,
+        "RMSE": 0.08864379213615876,
+        "RMSE_Log": 0.07423338475772549,
+        "delta1": 0.9711609698274182,
+        "delta2": 0.9941666861630364,
+        "delta3": 0.9994930943858253,
+        "pixels": 128229
+      },
+      "scene_scale_aligned": {
+        "AbsRel": 0.03348868165454353,
+        "RMSE": 0.08568945034508442,
+        "RMSE_Log": 0.07164565296138792,
+        "delta1": 0.9729936285863572,
+        "delta2": 0.9948685554749706,
+        "delta3": 0.9995554827691084,
+        "pixels": 128229
+      },
+      "scale_alignment": 0.9854653477668762,
+      "boundary_f1": 0.7803172469139099,
+      "multiview_relative_error": 0.021510176360607147,
+      "multiview_valid_pixels": 13320,
+      "pose": {
+        "pairs": 6,
+        "rotation_mean_deg": 4.468059937159221,
+        "translation_mean_deg": 2.5225918870419264,
+        "rotation_accuracy_5": 0.5,
+        "translation_accuracy_5": 0.8333333333333334,
+        "AUC30": 0.8737744808197021
+      },
+      "latency_seconds": 0.17859956715255976
+    }
+  ],
+  "protocol": "Object macro-average after averaging fixed view subsets per object. Repeated view subsets do NOT increase independent object count. Canonical scale uses GT scene normalization, not metre-scale prediction. Foreground only. Scale-aligned scores use one shared scene median. No per-frame alignment. MV uses GT-visible fixed correspondences and relative target-Z residual.",
+  "peak_gpu_GiB": 6.9429144859313965
+}

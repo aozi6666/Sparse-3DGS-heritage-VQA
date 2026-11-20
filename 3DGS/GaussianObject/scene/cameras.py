@@ -16,7 +16,7 @@ from utils.graphics_utils import getWorld2View2, getProjectionMatrix, getWorld2V
 
 class Camera(nn.Module):
     def __init__(self, colmap_id, R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth,
-                 image_name, uid, trans=np.array([0.0, 0.0, 0.0]), scale=1.0, data_device = "cuda", white_background=False, confidence=None
+                 image_name, uid, trans=np.array([0.0, 0.0, 0.0]), scale=1.0, data_device = "cuda", white_background=False, confidence=None, full_scene=False
                  ):
         super(Camera, self).__init__()
 
@@ -49,7 +49,8 @@ class Camera(nn.Module):
         if mono_depth is not None:
             # self.mono_depth = mono_depth.to(self.data_device) if mono_depth is not None else None
             self.mono_depth = mono_depth.to(self.data_device)
-            self.mono_depth[(self.mask <= 0.5)] = 0.0
+            if self.mask is not None:
+                self.mono_depth[(self.mask <= 0.5)] = 0.0
         else:
             self.mono_depth = None
 
@@ -58,7 +59,7 @@ class Camera(nn.Module):
         else:
             self.confidence = None
 
-        self.zfar = 100.0
+        self.zfar = 10000.0 if full_scene else 100.0
         self.znear = 0.01
 
         self.trans = trans
@@ -83,9 +84,9 @@ class Camera(nn.Module):
 
 class Camera_w_pose(Camera):
     def __init__(self, colmap_id, R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth,
-                 image_name, uid, trans=np.array([0.0, 0.0, 0.0]), scale=1.0, data_device = "cuda", white_background=False, confidence=None
+                 image_name, uid, trans=np.array([0.0, 0.0, 0.0]), scale=1.0, data_device = "cuda", white_background=False, confidence=None, full_scene=False
                  ):
-        super(Camera_w_pose, self).__init__(colmap_id, R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth, image_name, uid, trans, scale, data_device, white_background, confidence)
+        super(Camera_w_pose, self).__init__(colmap_id, R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth, image_name, uid, trans, scale, data_device, white_background, confidence, full_scene)
 
         self.cam_rot_delta = nn.Parameter(
             torch.zeros(3, requires_grad=True, device=data_device)
@@ -125,7 +126,7 @@ class MiniCam:
 class Render_Camera(nn.Module):
     def __init__(self, R, T, FoVx, FoVy, image, gt_alpha_mask=None, mono_depth=None,
                  trans=torch.tensor([0.0, 0.0, 0.0]), scale=1.0, data_device="cuda",
-                 white_background=False
+                 white_background=False, full_scene=False
                  ):
         super(Render_Camera, self).__init__()
 
@@ -153,11 +154,12 @@ class Render_Camera(nn.Module):
 
         if mono_depth is not None:
             self.mono_depth = mono_depth.to(self.data_device)
-            self.mono_depth[(self.mask <= 0.5)] = 0.0
+            if self.mask is not None:
+                self.mono_depth[(self.mask <= 0.5)] = 0.0
         else:
             self.mono_depth = None
 
-        self.zfar = 100.0
+        self.zfar = 10000.0 if full_scene else 100.0
         self.znear = 0.01
 
         self.trans = trans.float()
@@ -171,9 +173,9 @@ class Render_Camera(nn.Module):
 class Render_Camera_w_pose(Render_Camera):
     def __init__(self, R, T, FoVx, FoVy, image, gt_alpha_mask=None, mono_depth=None,
                  trans=torch.tensor([0.0, 0.0, 0.0]), scale=1.0, data_device="cuda",
-                 white_background=False
+                 white_background=False, full_scene=False
                  ):
-        super(Render_Camera_w_pose, self).__init__(R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth, trans, scale, data_device, white_background)
+        super(Render_Camera_w_pose, self).__init__(R, T, FoVx, FoVy, image, gt_alpha_mask, mono_depth, trans, scale, data_device, white_background, full_scene)
 
         self.cam_rot_delta = nn.Parameter(
             torch.zeros(3, requires_grad=True, device=data_device)

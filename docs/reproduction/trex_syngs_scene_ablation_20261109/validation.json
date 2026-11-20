@@ -1,0 +1,23 @@
+{
+  "new_training_started": false,
+  "automatic_masks_reliable": false,
+  "interactive_review_required": true,
+  "checks_passed": [
+    "Python compile and JavaScript syntax",
+    "silhouette geometry synthetic checks",
+    "controlled CLI for 8 combinations at 4/6/9 views",
+    "identical base and VGGT point prefixes",
+    "interactive HTTP and PNG save roundtrip",
+    "incomplete review blocked; all16 export accepted"
+  ],
+  "new_runs": 18,
+  "reused_runs": 6,
+  "sha256": {
+    "prepare_trex_silhouettes.py": "2565124892a4efacac9356e37c95f68c7d3738f0300ef3ff8fc84256f3648fc6",
+    "foreground_hull.py": "f85b4072326af9fb47d8154722a5c0b659e328e48b8ee6eefa7d1213b89f2221",
+    "run_syngs_scene_ablation.py": "02db5f0f368afe634d2a46e74178326bb2128084deceb1e16e37df2aa0b89273",
+    "summarize_syngs_scene.py": "101ccd166137ef4430399007100f34a2a22c071eac5d57d702e3cf02acad3f5b",
+    "review_trex_masks.py": "d308d5bd2a7cf621c4b47f16404aef4ab80a7d7641e64ab11ba210e542381455",
+    "trex_mask_editor.html": "6fbd241c56d2009a27d9a7cda0484814ce5c6e923486de0a783b03fb71bba567"
+  }
+}

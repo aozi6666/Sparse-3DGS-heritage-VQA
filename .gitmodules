@@ -1,3 +1,6 @@
 [submodule "3DGS/DropGaussian_release"]
 	path = 3DGS/DropGaussian_release
 	url = https://github.com/DCVL-3D/DropGaussian_release.git
+[submodule "VCAR"]
+	path = VCAR
+	url = https://github.com/DDKK0526/VCAR.git

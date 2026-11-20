@@ -10,6 +10,7 @@
 #
 
 import os
+from utils.full_scene import full_scene_options
 import sys
 import uuid
 import json
@@ -443,7 +444,7 @@ if __name__ == "__main__":
                         choices=['linear', 'cosine', 'constant'],
                         help='Drop rate schedule over training (official: linear)')
 
-    args = parser.parse_args(sys.argv[1:])
+    args = full_scene_options(parser.parse_args(sys.argv[1:]))
     args.save_iterations.append(args.iterations)
     print("Optimizing " + args.model_path)
     if args.use_drop:
