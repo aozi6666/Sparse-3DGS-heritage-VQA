@@ -1,4 +1,4 @@
-> 当前工程整理（2026-11-20）：[已完成任务归档与复现索引](docs/archive/20261120/README.md)。视频工程主路径为 `VLM/`，`VQA` 为兼容链接。数据、权重与环境仅保留服务器，不随Git分发。
+> 当前入口（2026-11-20）：[main统一整理、VGGT保全与分割支线退出](docs/MAIN_MIGRATION_20261120.md)。视频工程仅使用 `VLM/`；VCAR已取消。数据、权重、环境留在服务器，不随Git分发。
 
 # Sparse-3DGS-heritage-VQA
 
@@ -38,9 +38,9 @@
 
 本次新生成1296次、复用846单元，新生成累计耗时1331.47秒、实测峰值显存13.44GiB；这些是带缓存复用的实验成本，**不是部署端到端耗时**，不能直接与原论文Table 5的8×B200墙钟时间比较。
 
-- [完整汇总](VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json)、[逐题预测](VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/predictions.csv)、[分阶段／分时长准确率](VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/metrics.csv)、[救回误伤及区间](VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/paired_comparisons.csv)、[token与推理成本](VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/token_cost.csv)。
-- 全部新成果位于`VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/`；协议、缓存来源、输入审计、断点、日志、原始回答及旧结果均保留，后续画图直接读取上述CSV／JSON。
-- 执行入口`VQA/mage_vl/codec_full714_32768/run_pipeline.sh`保留用于追溯和中断恢复，**已完成的714题无需再次运行**。[32768计划及协议说明](docs/PLAN_codec_full714_fixed32768.md)、[旧13312冻结计划](docs/PLAN_codec_full714_fixed13312.md)。
+- [完整汇总](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json)、[逐题预测](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/predictions.csv)、[分阶段／分时长准确率](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/metrics.csv)、[救回误伤及区间](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/paired_comparisons.csv)、[token与推理成本](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/token_cost.csv)。
+- 全部新成果位于`VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/`；协议、缓存来源、输入审计、断点、日志、原始回答及旧结果均保留，后续画图直接读取上述CSV／JSON。
+- 执行入口`VLM/mage_vl/codec_full714_32768/run_pipeline.sh`保留用于追溯和中断恢复，**已完成的714题无需再次运行**。[32768计划及协议说明](docs/PLAN_codec_full714_fixed32768.md)、[旧13312冻结计划](docs/PLAN_codec_full714_fixed13312.md)。
 - 下一步只做成果归档、主结果表、分时长准确率图、救回／误伤图、token成本图及成功／失败案例。表格分别标明本地714、各阶段角色、模型、视觉预算、字幕覆盖／文本预算与额外成本，保留已有字幕消融和A.I.R.负结果。
 
 以下“待执行”等段落均为历史计划；当前结论以本节及实际汇总为准。
@@ -59,7 +59,7 @@
 
 A.I.R.语义时间选择与视觉细节增强暂停，代码/负结果保留；不将其作为已验证有效模块。保留Frames-32＋连续时间对齐字幕2048成果。本轮只补齐714题的去时间标记、去相邻补句两项固定消融，三路旧结果不重跑；Codec＋字幕另开阶段，尚未验证。已完成18项CPU测试、3项原生处理器合成RGB检查及714题来源预检，真实GPU实验交用户执行，当前没有新准确率成绩。
 
-最多新增1101次生成，327个相同提示在输入核对后复用；结果和绘图数据保存到 VQA/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/。全量指本地714题，不是官方2700题；新消融为事后分析，不重新选型。详见[实施计划与运行说明](docs/PLAN_subtitle_ablation_full714.md)。
+最多新增1101次生成，327个相同提示在输入核对后复用；结果和绘图数据保存到 VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/。全量指本地714题，不是官方2700题；新消融为事后分析，不重新选型。详见[实施计划与运行说明](docs/PLAN_subtitle_ablation_full714.md)。
 
 
 
@@ -93,7 +93,7 @@ A.I.R.语义时间选择与视觉细节增强暂停，代码/负结果保留；�
 
 新探索工程：[HiMu启发的条件解析＋子事件定位](docs/PLAN_condition_grounding_v1.md)已完成CPU准备，先做5题纯文本解析实测；尚无新定位或QA效果，不改变旧候选归档结论。
 
-当前归档：[语义选帧阶段总结](docs/SUMMARY_air_semantic_frames_archive_20261105.md)、[字幕冻结结果](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。所有新实验记录、日志、断点和新缓存留在`VQA/eval_results/practical_mage_v1/`；旧数据和缓存原位保留。助手默认只进行源码/只读分析与CPU验证，GPU推理命令交用户执行；不读取API密钥，不自动训练/下载。
+当前归档：[语义选帧阶段总结](docs/SUMMARY_air_semantic_frames_archive_20261105.md)、[字幕冻结结果](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。所有新实验记录、日志、断点和新缓存留在`VLM/eval_results/practical_mage_v1/`；旧数据和缓存原位保留。助手默认只进行源码/只读分析与CPU验证，GPU推理命令交用户执行；不读取API密钥，不自动训练/下载。
 
 
 > 论文题目：**受限采集下的 3DGS 三维重建方法以及在文化遗产数字展示中的应用研究**  
@@ -233,13 +233,13 @@ cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
 
 | 路径 | 说明 |
 |------|------|
-| [`VQA/mage_vl/`](VQA/mage_vl/) | 基于 microsoft/Mage 的 `mage_vl` + streaming 增量；**无** `data/`/`models/` |
-| [`VQA/VLMEvalKit/`](VQA/VLMEvalKit/) | 评测框架 **vendored 完整代码（含本仓改动）** |
-| [`VQA/patches/vlmevalkit/`](VQA/patches/vlmevalkit/) | 相对上游 open-compass 的 diff（说明用） |
-| [`VQA/eval_results/`](VQA/eval_results/) | **Video-MME 等准确率结果**（必留） |
+| [`VLM/mage_vl/`](VLM/mage_vl/) | 基于 microsoft/Mage 的 `mage_vl` + streaming 增量；**无** `data/`/`models/` |
+| [`VLM/VLMEvalKit/`](VLM/VLMEvalKit/) | 评测框架 **vendored 完整代码（含本仓改动）** |
+| [`VLM/patches/vlmevalkit/`](VLM/patches/vlmevalkit/) | 相对上游 open-compass 的 diff（说明用） |
+| [`VLM/eval_results/`](VLM/eval_results/) | **Video-MME 等准确率结果**（必留） |
 
 `mage_flow`（文生图）**不在本仓**，仅存于机器上仓外 `../Mage/mage_flow` 等。  
-权重与数据集放仓外或本地 ignore 目录；环境见下表与 [`VQA/README.md`](VQA/README.md)。
+权重与数据集放仓外或本地 ignore 目录；环境见下表与 [`VLM/README.md`](VLM/README.md)。
 
 ## 工作 B：Mage字幕增强（当前）
 
@@ -261,20 +261,20 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 - **按问题选区未做成：** CLIP / αβ / OCR 硬切 textseat（37.3%=shuf，vs full −46.8）→ **失败消融，不作贡献**。  
 - **加戏 B：** 软门控、持平即成功（可选）。换方案时以上结论保留。  
 
-详情：[`VQA/README.md`](VQA/README.md) · [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
+详情：[`VLM/README.md`](VLM/README.md) · [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
 
 | 同 K · short200 · kr=0.75 | Acc | 备注 |
 |------|-----|------|
-| **queryip · 主线 A** | **63.5%** | [`clip_frame_n200/`](VQA/eval_results/queryip_samek/clip_frame_n200/) |
+| **queryip · 主线 A** | **63.5%** | [`clip_frame_n200/`](VLM/eval_results/queryip_samek/clip_frame_n200/) |
 | random | 59.5% | 同上 |
 | CLIP / region·shuf / edge·shuf | 58.5 / 58.5·60.5 / 60.0·62.0 | 失败 |
-| OCR textseat / full（v1 proxy） | 37.3 / 84.1 | [`ocrbench_v1_image_textseat/`](VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
+| OCR textseat / full（v1 proxy） | 37.3 / 84.1 | [`ocrbench_v1_image_textseat/`](VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
 
 | 路径 | 说明 |
 |------|------|
-| [`VQA/README.md`](VQA/README.md) | **应用场景全文** + 实验结论 |
-| [`VQA/Explore-Then-Select/`](VQA/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VQA/Explore-Then-Select/COMMANDS.md) |
-| [`VQA/eval_results/`](VQA/eval_results/) | 指标归档 |
+| [`VLM/README.md`](VLM/README.md) | **应用场景全文** + 实验结论 |
+| [`VLM/Explore-Then-Select/`](VLM/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VLM/Explore-Then-Select/COMMANDS.md) |
+| [`VLM/eval_results/`](VLM/eval_results/) | 指标归档 |
 | [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 结论 · 证据 · 后续实验 |
 
 `mage_flow` **不在本仓**。权重 / 大数据集放仓外或 ignore。
@@ -292,7 +292,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ```bash
 git submodule update --init --recursive   # DropGaussian_release 等
-# 评测时将 editable 路径改为本仓 VQA/VLMEvalKit
+# 评测时将 editable 路径改为本仓 VLM/VLMEvalKit
 ```
 
 ---
@@ -331,22 +331,22 @@ git submodule update --init --recursive   # DropGaussian_release 等
 
 仍属于语义时间证据选择模块。程序固定事件ID、题面顺序、明确范围及before/空间/相对位置关系，DeepSeek仅编译受约束的检索短句；不观察视频、不预测答案。本版只开放旧开发集5题，40项纯CPU测试和实际5题结构核对已通过；真实API/定位/QA尚未运行，不能视为涨点结果。旧Mage解析失败结果与既有A.I.R./字幕结果保留原位。
 
-实施与可续跑入口见 [DeepSeek文本条件编译计划](docs/PLAN_condition_text_parser_deepseek_v2.md)，旧错误见 [Mage解析5题失败诊断](docs/ANALYSIS_condition_grounding_parse5_20261105.md)。新增成果统一保存于 VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2/。先核对5题含义，再决定扩样与定位，不自动进入下一阶段。
+实施与可续跑入口见 [DeepSeek文本条件编译计划](docs/PLAN_condition_text_parser_deepseek_v2.md)，旧错误见 [Mage解析5题失败诊断](docs/ANALYSIS_condition_grounding_parse5_20261105.md)。新增成果统一保存于 VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2/。先核对5题含义，再决定扩样与定位，不自动进入下一阶段。
 
 
 ### 30题条件解析的离线校验修订（2026-11-05）
 
-已按原文区间区分题目套话、检索事件和问题关系，复用每题最终缓存重审：原23题不变，6题恢复文本检查通过，1题仍不支持拆分；无新增API/视频/QA调用。after与未知未来时间另存结构约束，否定、服饰、动作等仍严格保留。这是校验误拒修复，不是定位或准确率收益。见 [离线重审计划与实际结论](docs/PLAN_condition_text30_offline_reaudit.md)。全部新结果在 VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_text30_offline_reaudit_v1/，原实验结果保留。
+已按原文区间区分题目套话、检索事件和问题关系，复用每题最终缓存重审：原23题不变，6题恢复文本检查通过，1题仍不支持拆分；无新增API/视频/QA调用。after与未知未来时间另存结构约束，否定、服饰、动作等仍严格保留。这是校验误拒修复，不是定位或准确率收益。见 [离线重审计划与实际结论](docs/PLAN_condition_text30_offline_reaudit.md)。全部新结果在 VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_text30_offline_reaudit_v1/，原实验结果保留。
 
 
 ### 查询到画面的独立定位诊断入口（2026-11-05）
 
-已搭建run_leaf_probe.sh，固定7题候选、4题可见锚点探测、19题原回退，复用冻结查询和历史图像特征，只补缺失的18条本地CLIP文本向量。输出原始检索峰、数值时间约束、拟议最多32帧及原帧/PTS审计缩略图。无最终QA或API调用；人工7/4/19范围属于已见开发集诊断，不是通用自动分类或涨点成果。30项CPU回归、模拟全流程与真实来源预检已完成，等待用户运行编码/预览。见 [定位诊断计划与终端命令](docs/PLAN_condition_leaf_localization_probe.md)。新成果位于VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_leaf_localization_probe_v1/，旧结果不改。
+已搭建run_leaf_probe.sh，固定7题候选、4题可见锚点探测、19题原回退，复用冻结查询和历史图像特征，只补缺失的18条本地CLIP文本向量。输出原始检索峰、数值时间约束、拟议最多32帧及原帧/PTS审计缩略图。无最终QA或API调用；人工7/4/19范围属于已见开发集诊断，不是通用自动分类或涨点成果。30项CPU回归、模拟全流程与真实来源预检已完成，等待用户运行编码/预览。见 [定位诊断计划与终端命令](docs/PLAN_condition_leaf_localization_probe.md)。新成果位于VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_leaf_localization_probe_v1/，旧结果不改。
 
 
 ### 冻结7候选QA＋23题原答复用诊断（2026-11-05）
 
-已搭建run_leaf_qa30.sh：先对完整30题重建旧uniform/noobs输入并核对完整Tensor SHA，再复用23题；只对原7候选的新冻结画面生成，484失败案例保留，不改选帧/QA提示词。完整30题报告相对noobs与uniform的救回/误伤/净增，单列prior12/extra18，保留历史收益和历史成本，不能将其归因本次改动。43项CPU回归、模拟中断/全流程与实际来源元数据预检已完成；真实输入审计与QA等待用户运行。见 [冻结7题QA诊断计划及命令](docs/PLAN_leaf_frozen7_qa30.md)。新成果统一在VQA/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1/，无新增API、训练、下载或自动扩样。
+已搭建run_leaf_qa30.sh：先对完整30题重建旧uniform/noobs输入并核对完整Tensor SHA，再复用23题；只对原7候选的新冻结画面生成，484失败案例保留，不改选帧/QA提示词。完整30题报告相对noobs与uniform的救回/误伤/净增，单列prior12/extra18，保留历史收益和历史成本，不能将其归因本次改动。43项CPU回归、模拟中断/全流程与实际来源元数据预检已完成；真实输入审计与QA等待用户运行。见 [冻结7题QA诊断计划及命令](docs/PLAN_leaf_frozen7_qa30.md)。新成果统一在VLM/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1/，无新增API、训练、下载或自动扩样。
 
 
 ### 冻结7题QA已完成：新增模块无净收益（2026-11-05）

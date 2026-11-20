@@ -72,7 +72,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ## 4. 保存、断点和费用控制
 
-所有持久化文件均在`VQA/eval_results/practical_mage_v1/`：
+所有持久化文件均在`VLM/eval_results/practical_mage_v1/`：
 
 - `11_continuous_subtitles/`：候选、阶段清单、逐题预测、汇总、完整stdout/stderr日志。
 - `cache/continuous_subtitles/<signature>/`：每视频新字幕证据、逐题断点、模型协议/运行环境。
@@ -102,7 +102,7 @@ cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 git switch vlm &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-next_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/practical/run_practical_next.sh &&
+next_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/practical/run_practical_next.sh &&
 bash "$next_runner" run smoke &&
 bash "$next_runner" summarize smoke &&
 bash "$next_runner" run dev60 &&
@@ -118,7 +118,7 @@ test "$(git branch --show-current)" = vlm &&
 read -rsp '输入DeepSeek API Key（不回显）: ' DEEPSEEK_API_KEY &&
 printf '\n' &&
 export DEEPSEEK_API_KEY DEEPSEEK_API_CONFIRMED=1 &&
-next_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/practical/run_practical_next.sh &&
+next_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/practical/run_practical_next.sh &&
 bash "$next_runner" api-run smoke --max-calls 6 --max-total-tokens 400000 &&
 bash "$next_runner" api-summarize smoke
 ```

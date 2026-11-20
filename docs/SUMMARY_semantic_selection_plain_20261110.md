@@ -109,7 +109,7 @@ flowchart TD
 
 - 总归档：`docs/SUMMARY_air_semantic_frames_archive_20261105.md`。
 - 失败审阅：`docs/ANALYSIS_air_dev30_rescue_harm_20261104.md`、`docs/ANALYSIS_leaf_localization_probe_20261105.md`、`docs/ANALYSIS_leaf_frozen7_qa30_outcome_20261105.md`。
-- 低成本代码：`VQA/mage_vl/air_v1/condition_clips_noobs_qa30.py`。
-- 数据根：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/`；早期结果在`native_uniform_fix1/dev30`、`hybrid_g16l16_v1/dev30`及`extension90_v1/additional90`。
+- 低成本代码：`VLM/mage_vl/air_v1/condition_clips_noobs_qa30.py`。
+- 数据根：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/`；早期结果在`native_uniform_fix1/dev30`、`hybrid_g16l16_v1/dev30`及`extension90_v1/additional90`。
 - 后期结果：上述数据根下`condition_clips_noobs_qa30/results/summary.json`、`leaf_frozen7_qa30_v1/results/summary.json`。
 - 覆盖诊断：`docs/RESEARCH_semantic_evidence_next_20261105.md`及数据根下`research_conditions_20261105/`。没有把仅做离线诊断的其他论文方法写成已完成QA对比。

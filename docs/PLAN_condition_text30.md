@@ -6,7 +6,7 @@
 
 30题严格取condition_clips_noobs_qa30/candidate.json已有indices；仅使用原题与全部选项。不读取GT、旧预测、人工证据范围，不引入新数据集。旧5题的程序契约和响应逐字复用，核对父协议及记录SHA；不再次付费。新结果独立放在：
 
-`VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2_parse30/`
+`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2_parse30/`
 
 candidate.json锁定源码/输入/父记录。parses、responses、attempts.jsonl、logs及parse_review/parse30中的summary/review_packet均留存。原parse5与所有历史实验不改写。新报告单列旧5题调用成本，避免复用被误写成部署零成本。
 
@@ -32,11 +32,11 @@ candidate.json锁定源码/输入/父记录。parses、responses、attempts.json
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_text30.sh init &&
-bash VQA/mage_vl/air_v1/run_condition_text30.sh preflight &&
+bash VLM/mage_vl/air_v1/run_condition_text30.sh init &&
+bash VLM/mage_vl/air_v1/run_condition_text30.sh preflight &&
 export DEEPSEEK_API_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_text30.sh parse30 &&
-bash VQA/mage_vl/air_v1/run_condition_text30.sh summarize30
+bash VLM/mage_vl/air_v1/run_condition_text30.sh parse30 &&
+bash VLM/mage_vl/air_v1/run_condition_text30.sh summarize30
 ```
 
 可重用原命令继续未完成题，带tqdm；旧5题与unsupported题直接计入已有记录。输出格式通过仍须逐题审阅，不能据此宣称定位有效或涨点。

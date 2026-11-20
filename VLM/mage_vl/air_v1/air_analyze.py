@@ -28,7 +28,7 @@ def summarize(ctx):
         harm=sum(pred[ARMS[1]][r['index']]!=labels[r['index']] and pred[ARMS[0]][r['index']]==labels[r['index']] for r in items)
         vs=dict(rescue=rescue,harm=harm,net=rescue-harm,delta_pp=100*(rescue-harm)/len(items),video_cluster_bootstrap_95ci_pp=None,note='Single-video interface smoke; no significance/generalization claim.')
         if len({r['video_id'] for r in items})>1:
-            sys.path.insert(0,str(PROJECT/'VQA/mage_vl/practical'))
+            sys.path.insert(0,str(PROJECT/'VLM/mage_vl/practical'))
             from practical_analyze import comparison
             vs=comparison(items,pred[ARMS[1]],pred[ARMS[0]],labels)
         return dict(N=len(items),videos=len({r['video_id'] for r in items}),methods=methods,paired=vs)

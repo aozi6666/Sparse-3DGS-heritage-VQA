@@ -14,4 +14,4 @@ git remote set-url origin git@github.com:aozi6666/Sparse-3DGS-heritage-VQA.git
 git remote -v
 ```
 
-本地目录与仓库名对齐为 `Sparse-3DGS-heritage-VQA/`；根下并列 `3DGS/`（重建）与 `VQA/`。
+本地目录与仓库名对齐为 `Sparse-3DGS-heritage-VQA/`；根下并列 `3DGS/`（重建）与 `VLM/`。

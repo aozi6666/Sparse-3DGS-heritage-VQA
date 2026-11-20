@@ -158,7 +158,7 @@ OCRBench v1（proxy Acc）：full **84.1** · random 28.3 · textseat=shuf **37.
 ## 权重与环境（不进 Git）
 
 - Mage 权重：`mage_vl/models/`（gitignore）  
-- 评测环境：仓外 `../VLMEvalKit/vlmeval_env`，editable → **`VQA/VLMEvalKit`**
+- 评测环境：仓外 `../VLMEvalKit/vlmeval_env`，editable → **`VLM/VLMEvalKit`**
 
 ```bash
 ls eval_results/ && cat eval_results/README.md

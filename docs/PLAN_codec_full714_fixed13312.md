@@ -36,8 +36,8 @@ dev180有历史Codec控制，核对旧prefix并检查控制答案复现；其余
 
 ## 数据、省盘与计时
 
-新工程：VQA/mage_vl/codec_full714_v1/。
-新结果：VQA/eval_results/practical_mage_v1/23_codec_full714_v1/。
+新工程：VLM/mage_vl/codec_full714_v1/。
+新结果：VLM/eval_results/practical_mage_v1/23_codec_full714_v1/。
 
 plan.json：CPU缓存前冻结计划、来源、各划分、旧参考；
 cache/codec/：只包含新生成缓存；cache/build_attempts/和attempt_records/保留失败输出和调用记录；
@@ -67,7 +67,7 @@ CPU阶段显式CUDA_VISIBLE_DEVICES为空。GPU固定同原4090D、bf16及软件
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 test "$(git branch --show-current)" = feat/air-visual-evidence
-screen -S codec714 bash VQA/mage_vl/codec_full714_v1/run_pipeline.sh
+screen -S codec714 bash VLM/mage_vl/codec_full714_v1/run_pipeline.sh
 ```
 
 进入后可Ctrl+A再D脱离；screen -r codec714查看。若任务已退出，重复原执行命令可续跑；正在运行时不要重复启动。若预算/资源/输入审计失败，set -e阻止后续GPU，不自动改规则。保存日志再诊断。

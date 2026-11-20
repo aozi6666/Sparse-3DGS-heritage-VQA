@@ -16,7 +16,7 @@
 
 22项CPU测试通过，包括冻结混合规则、真实Mage处理器、划分重叠拒绝、隔离作用域异常恢复、未完成禁止读标签。实盘确认新增90题/30视频与前90题/30视频无题目和视频重叠；中等48题/长42题。独立source缓存和混合缓存，不改变前90账本，原混合候选签名46b4b3e4f300b81c6b50bc712f613dcdef0f9de339e053d063abdcd44b39b044保持有效。验证证据extension90_v1/engineering_checks/verification.json。新答案0，助手未启动推理。
 
-执行：source /root/autodl-tmp/Mage_ViT/mage/bin/activate，进入项目，确认feat/air-visual-evidence；bash VQA/mage_vl/air_v1/run_air_extension.sh init；export PRACTICAL_STAGE_CONFIRMED=1；bash VQA/mage_vl/air_v1/run_air_extension.sh run；bash VQA/mage_vl/air_v1/run_air_extension.sh summarize。最终新增90汇总extension90_v1/additional90/summary.json。
+执行：source /root/autodl-tmp/Mage_ViT/mage/bin/activate，进入项目，确认feat/air-visual-evidence；bash VLM/mage_vl/air_v1/run_air_extension.sh init；export PRACTICAL_STAGE_CONFIRMED=1；bash VLM/mage_vl/air_v1/run_air_extension.sh run；bash VLM/mage_vl/air_v1/run_air_extension.sh summarize。最终新增90汇总extension90_v1/additional90/summary.json。
 
 第一阶段进度条additional90 source，第二阶段复用冻结模块，其dev30文字标签沿用但实际来源为新增90题，入口会明确提示。新增题必须重新获得AIR评分，预计明显长于上次只重新生成59个最终答案；该费用必须计入。原命令可断点重跑，不自动扩全量。
 

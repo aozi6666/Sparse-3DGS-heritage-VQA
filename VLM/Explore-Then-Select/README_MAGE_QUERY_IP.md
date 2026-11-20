@@ -25,7 +25,7 @@ Mage codec → proxy queryip（运动/残差）同 K top-K → 稠密打包 → 
 | `mage_query_ip/{clip_frame,frame_budget,region_clip,mvres}*.py` | **归档** 失败消融 |
 | `COMMANDS.md` | 终端命令（Agent 不代跑 Acc） |
 
-评测适配（VLMEvalKit）：模型名 `Mage-VL-QueryIP`，见 `VQA/VLMEvalKit/vlmeval/vlm/mage_vl_query_ip.py`（全量行 B 仍为 canvas proxy）。
+评测适配（VLMEvalKit）：模型名 `Mage-VL-QueryIP`，见 `VLM/VLMEvalKit/vlmeval/vlm/mage_vl_query_ip.py`（全量行 B 仍为 canvas proxy）。
 
 ## 同 K 成功标准（soccer 四路）
 

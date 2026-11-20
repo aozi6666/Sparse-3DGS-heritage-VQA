@@ -10,15 +10,15 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_air_hybrid.sh preflight &&
+bash VLM/mage_vl/air_v1/run_air_hybrid.sh preflight &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_air_hybrid.sh run &&
-bash VQA/mage_vl/air_v1/run_air_hybrid.sh summarize
+bash VLM/mage_vl/air_v1/run_air_hybrid.sh run &&
+bash VLM/mage_vl/air_v1/run_air_hybrid.sh summarize
 ```
 
 候选已经CPU init登记；需要重复init也是幂等的。普通中断后重跑上面命令；全部完成则不加载模型。单条记录写后fsync，损坏/残行停止保留现场，不删除或截断。完整日志和逐答案断点在独立目录。
 
-成果根：VQA/eval_results/practical_mage_v1/18_air_frames_v1/hybrid_g16l16_v1/
+成果根：VLM/eval_results/practical_mage_v1/18_air_frames_v1/hybrid_g16l16_v1/
 候选candidate.json；断点units.jsonl；日志logs/；报告dev30/summary.json、predictions.json、units_snapshot.json。原始均匀/原AIR答案不复制权重或特征，只引用源记录和哈希。新HF/CUDA/Torch缓存仍归新成果根；不读deepseek.env。
 
 回退：停止新入口，保留其目录，继续使用旧run_air_frames.sh及native_uniform_fix1/dev30/原结果即可；无须git reset、还原源文件或清除缓存。若以后改规则，必须另开候选版本/目录，不能修改已冻结协议。

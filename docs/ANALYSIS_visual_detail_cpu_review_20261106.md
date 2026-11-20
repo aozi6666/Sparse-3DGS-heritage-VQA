@@ -44,6 +44,6 @@
 ## 归档
 
 所有输入审阅、256张native PNG、8张总览、10张原图及CPU脚本/日志位于：
-VQA/eval_results/practical_mage_v1/19_visual_detail_cpu_review_v1/
+VLM/eval_results/practical_mage_v1/19_visual_detail_cpu_review_v1/
 
 机器可读结论：assistant_review_v1.json。新增模型权重加载、QA、API、训练、下载均为0；没有推理准确率新成绩。

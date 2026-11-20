@@ -2,9 +2,9 @@
 
 日期：2026-11-09。分支必须是`feat/air-visual-evidence`；所有入口都会检查，发现不符直接停止，不自动切分支。
 
-代码已放在服务器：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/codec_evidence_v1`。
+代码已放在服务器：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/codec_evidence_v1`。
 
-结果目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/codec_evidence_v1`。
+结果目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/codec_evidence_v1`。
 
 ## 已完成与未完成
 
@@ -32,7 +32,7 @@
 
 ```bash
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
-HF_ENDPOINT=https://hf-mirror.com HF_HUB_DISABLE_XET=1 HF_HUB_DISABLE_IMPLICIT_TOKEN=1 CODEC_EVIDENCE_DOWNLOAD_CONFIRMED=1 bash VQA/mage_vl/codec_evidence_v1/run.sh download-blip
+HF_ENDPOINT=https://hf-mirror.com HF_HUB_DISABLE_XET=1 HF_HUB_DISABLE_IMPLICIT_TOKEN=1 CODEC_EVIDENCE_DOWNLOAD_CONFIRMED=1 bash VLM/mage_vl/codec_evidence_v1/run.sh download-blip
 ```
 
 下载到`/root/autodl-tmp/models/blip-itm-large-coco`。首次冻结仓库revision，再只下载必要文件；下载完成后记录文件SHA-256。重复执行同一命令续传。若镜像不可用，保留目录，将同一命令的`HF_ENDPOINT`改为`https://huggingface.co`重试，不改revision、不重复建另一份权重。
@@ -45,7 +45,7 @@ HF_ENDPOINT=https://hf-mirror.com HF_HUB_DISABLE_XET=1 HF_HUB_DISABLE_IMPLICIT_T
 
 ```bash
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
-CODEC_EVIDENCE_GPU_CONFIRMED=1 bash VQA/mage_vl/codec_evidence_v1/run_pilot.sh
+CODEC_EVIDENCE_GPU_CONFIRMED=1 bash VLM/mage_vl/codec_evidence_v1/run_pilot.sh
 ```
 
 顺序固定：
@@ -62,8 +62,8 @@ CODEC_EVIDENCE_GPU_CONFIRMED=1 bash VQA/mage_vl/codec_evidence_v1/run_pilot.sh
 ### 3. 查看状态或重新汇总
 
 ```bash
-bash /root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/codec_evidence_v1/run.sh status
-bash /root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/codec_evidence_v1/run.sh summarize --scope pilot60
+bash /root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/codec_evidence_v1/run.sh status
+bash /root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/codec_evidence_v1/run.sh summarize --scope pilot60
 ```
 
 状态不加载模型、不使用GPU。范围没跑完整时汇总会提示续跑，不将缺失样本算错或悄悄跳过。

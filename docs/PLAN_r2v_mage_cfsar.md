@@ -32,7 +32,7 @@
 
 ### 1.1 Mage-VL 的官方双视觉路径
 
-Mage-VL 是 codec-native 视频理解模型：同一套权重 `microsoft/Mage-VL`（本地快照：`VQA/mage_vl/models`）支持离线图像与视频推理。官方仓库 [`Mage/mage_vl/inference_base.py`](../../Mage/mage_vl/inference_base.py) 与 README 明确提供：
+Mage-VL 是 codec-native 视频理解模型：同一套权重 `microsoft/Mage-VL`（本地快照：`VLM/mage_vl/models`）支持离线图像与视频推理。官方仓库 [`Mage/mage_vl/inference_base.py`](../../Mage/mage_vl/inference_base.py) 与 README 明确提供：
 
 | 后端 | 调用要点 | 视觉组织方式 |
 | --- | --- | --- |
@@ -276,15 +276,15 @@ D=\hat P_f(A_f\text{ 正确})-\hat P_c(A_c\text{ 正确})
 
 ## 6. 实验步骤（最关键 · 可执行）
 
-> 当前 [`VLMEvalKit/vlmeval/vlm/mage_vl.py`](../VQA/VLMEvalKit/vlmeval/vlm/mage_vl.py)（及仓外副本）**写死 Codec**。配对实验需**新建统一脚本**（下文称 `r2v_pair_infer.py` 拟实现名）；本文件只规定协议，本轮不落代码。
+> 当前 [`VLMEvalKit/vlmeval/vlm/mage_vl.py`](../VLM/VLMEvalKit/vlmeval/vlm/mage_vl.py)（及仓外副本）**写死 Codec**。配对实验需**新建统一脚本**（下文称 `r2v_pair_infer.py` 拟实现名）；本文件只规定协议，本轮不落代码。
 
 ### 6.0 公共配置（全程锁定）
 
 | 项 | 值 |
 | --- | --- |
-| 权重 | `VQA/mage_vl/models`（完整 Mage-VL 快照） |
+| 权重 | `VLM/mage_vl/models`（完整 Mage-VL 快照） |
 | 环境 | Mage 推理环境（含 `cv-preinfer` / ffmpeg；如 `Mage_ViT/mage`）；`CV_PREINFER_BIN` 可指向绝对路径 |
-| 数据根 | `VQA/mage_vl/data/VideoMME`（`MAGE_VIDEOMME_ROOT` 可覆盖） |
+| 数据根 | `VLM/mage_vl/data/VideoMME`（`MAGE_VIDEOMME_ROOT` 可覆盖） |
 | Codec | `video_backend=codec`，`engine=hevc`（`traditional`），`target_canvas=32`，`patch=16` |
 | Frames | `video_backend=frames`，`num_frames=32`（**视频路径**输入，见 §6.0.2） |
 | 像素预算 | **目标对齐**：`max_pixels=150000`，`min_pixels=3136`（见 §6.0.1） |
@@ -351,7 +351,7 @@ N_{\mathrm{vis}}=\sum \frac{t\cdot h\cdot w}{\mathrm{sms}^2}
 
 #### 6.0.4 锁定 Prompt 原文（无字幕）
 
-与 [`vlmeval/dataset/videomme.py`](../VQA/VLMEvalKit/vlmeval/dataset/videomme.py) 中 `FRAMES_TMPL_NOSUB` 语义一致，用户消息结构为：
+与 [`vlmeval/dataset/videomme.py`](../VLM/VLMEvalKit/vlmeval/dataset/videomme.py) 中 `FRAMES_TMPL_NOSUB` 语义一致，用户消息结构为：
 
 ```text
 These are the frames of a video. Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option.
@@ -407,7 +407,7 @@ D. ...
 
 #### 6.1.3 输出产物
 
-目录建议：`VQA/eval_results/r2v_mage/phase1_short_pair/`
+目录建议：`VLM/eval_results/r2v_mage/phase1_short_pair/`
 
 | 文件 | 内容 |
 | --- | --- |
@@ -471,7 +471,7 @@ peak_mem_c, peak_mem_f       # 可选；至少阶段 0 必填
 - [ ] `cv-preinfer` / ffmpeg 在 PATH；权重目录完整  
 - [ ] `video_processor.max_pixels=150000`、`min_pixels=3136` 已在 Frames 调用前设置，且日志打印生效值  
 - [ ] Codec / Frames 均用**视频路径**；Prompt = §6.0.4；字幕关；`do_sample=False`  
-- [ ] 输出目录 `VQA/eval_results/r2v_mage/phase1_short_pair/`；`config_lock.json` 已写  
+- [ ] 输出目录 `VLM/eval_results/r2v_mage/phase1_short_pair/`；`config_lock.json` 已写  
 - [ ] jsonl 含 `codec_pred/frames_pred/gt/n_tok_*/t_*/grid_*`；支持按 `index` resume  
 - [ ] `ONLINE_CODEC_CACHE_DIR` 已设，避免重复预推理  
 - [ ] 阶段 0（5–10 题）已通过显存与像素核对  
@@ -567,7 +567,7 @@ Gate1 若把大部分 frames_only 挡掉 → 双门控上限不足，**停止或
 | 3 泛化 | NExT-QA **或** MVBench（择一） | 以环境已具备为准 | 非 Video-MME 特例 |
 | 演示 | 自有文旅短视频 | 少量 | 系统展示；**无真值、不计入 Acc** |
 
-本地 Video-MME 路径：`VQA/mage_vl/data/VideoMME`（`Video-MME.tsv` + `video/` + `subtitle/`）。
+本地 Video-MME 路径：`VLM/mage_vl/data/VideoMME`（`Video-MME.tsv` + `video/` + `subtitle/`）。
 
 ---
 
@@ -684,7 +684,7 @@ R2V-Mage = **按需加算力的可靠推理**；对比 Mage 官方「Codec 相�
 
 ### 14.1 已有（可直接用）
 
-1. 原版 Mage 推理代码与本地完整权重 `VQA/mage_vl/models`  
+1. 原版 Mage 推理代码与本地完整权重 `VLM/mage_vl/models`  
 2. `cv-preinfer` + ffmpeg + Mage 环境  
 3. Video-MME 本地视频与 TSV（short≈219 / 全≈714）  
 4. 字母解析规则与 Video-MME 多选协议经验  
@@ -745,7 +745,7 @@ R2V-Mage = **按需加算力的可靠推理**；对比 Mage 官方「Codec 相�
 - 完整 Codec：traditional / hevc 后端，target_canvas=32，patch=16；Frames：32 帧。
 - 两侧 max_pixels=150000、min_pixels=3136；真实视频路径输入，无字幕，确定性生成，原提示词固定。
 - short219 全部配对完成；阶段 2 对同一批题提取完整视觉前缀后的下一 token 原始字母 logits。
-- 原始结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/r2v_mage/px150000_f32/`。
+- 原始结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/r2v_mage/px150000_f32/`。
 - 以上 short 视频已参与筛选和诊断，不能再作为未受开发影响的独立测试。
 
 ### 17.2 阶段 1：错误互补成立，但不等于部署方法成功
@@ -805,6 +805,6 @@ R2V-Mage = **按需加算力的可靠推理**；对比 Mage 官方「Codec 相�
 - `.../px150000_f32/smoke/`：阶段 0 配对、配置锁和汇总。
 - `.../px150000_f32/short/`：219 题配对 JSONL、配置锁和汇总。
 - `.../px150000_f32/phase2_signals_v1/smoke/`、`short/`：分数 JSONL、token 探测、配置锁与汇总。
-- `/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/r2v/`：产生这些结果的脚本与测试，体积约 72K，保留以解释哈希和复现。
-- `/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/outputs/r2v_codec_cache/`：约 172M，可用于后续复用；清除此缓存省盘很少且会增加重算成本，暂保留。
+- `/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/r2v/`：产生这些结果的脚本与测试，体积约 72K，保留以解释哈希和复现。
+- `/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/outputs/r2v_codec_cache/`：约 172M，可用于后续复用；清除此缓存省盘很少且会增加重算成本，暂保留。
 - 清理其他目录必须逐一确认确切目标；不能仅凭“旧”“失败”“不用”删除模型、环境、视频、参考工程或 3DGS 产物。

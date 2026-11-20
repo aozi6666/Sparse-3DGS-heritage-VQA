@@ -13,7 +13,7 @@
 
 ## 存放与省盘
 
-以下路径均在`VQA/eval_results/practical_mage_v1/`下：
+以下路径均在`VLM/eval_results/practical_mage_v1/`下：
 
 - `07_archive/subtitles_dev60_v1.json`：已有字幕dev60汇总与逐题预测快照、开发阶段文件SHA256；原始文件保留。
 - `10_subtitle_holdout/candidate_val_v1.json`：在验证推理前锁定唯一候选、源码、原开发来源、输入划分、字幕来源及生成设置。只是验证候选登记，不是看过验证结果后的测试冻结。
@@ -34,13 +34,13 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 git switch vlm &&
 test "$(git branch --show-current)" = vlm &&
-subtitle_val_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/practical/run_subtitle_holdout.sh &&
+subtitle_val_runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/practical/run_subtitle_holdout.sh &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
 bash "$subtitle_val_runner" run val &&
 bash "$subtitle_val_runner" summarize val
 ```
 
-CPU准备已由助手执行：`bash VQA/mage_vl/practical/run_subtitle_holdout.sh init val`，可重复调用，内容不一致时拒绝覆盖。只读预检为`preflight val`，新单元测试为`test-cpu`。入口每次检查vlm、df/du并激活环境，离线加载现有模型，不安装缺失依赖。
+CPU准备已由助手执行：`bash VLM/mage_vl/practical/run_subtitle_holdout.sh init val`，可重复调用，内容不一致时拒绝覆盖。只读预检为`preflight val`，新单元测试为`test-cpu`。入口每次检查vlm、df/du并激活环境，离线加载现有模型，不安装缺失依赖。
 
 普通中断后重跑同一段运行命令：按已保存答案恢复，tqdm从已有单元计数继续；若一题只完成无字幕回答，仅补字幕回答。完成180/180后再次run直接跳过模型加载。前台运行不保证SSH断线后继续占卡；无需从头重跑。
 

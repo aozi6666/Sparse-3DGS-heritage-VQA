@@ -2,7 +2,7 @@
 import csv,json,sys,os
 from pathlib import Path
 from types import SimpleNamespace
-PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA');sys.path.insert(0,str(PROJECT/'VQA/mage_vl/practical'))
+PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA');sys.path.insert(0,str(PROJECT/'VLM/mage_vl/practical'))
 from practical_common import ROOT,sha,write_once,signature,stage_rows
 from practical_vote import disk_guard
 from continuous_common import context as dev_context

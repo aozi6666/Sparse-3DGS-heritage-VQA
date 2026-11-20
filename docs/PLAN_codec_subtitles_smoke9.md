@@ -46,7 +46,7 @@ GPU run还会重新构建输入与已保存完整Tensor SHA核对。严格要求
 
 ## 断点、省盘和数据
 
-结果根目录：VQA/eval_results/practical_mage_v1/21_codec_subtitles_v1/。
+结果根目录：VLM/eval_results/practical_mage_v1/21_codec_subtitles_v1/。
 
 - protocol.json / bundle.json：冻结配置、旧来源SHA、三视频字幕原文、全部来源时刻、32锚点、预算省略项、旧参考结果；
 - budget_preflight.json：逐视频来源数量和实际文本成本；
@@ -77,7 +77,7 @@ set -euo pipefail
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 test "$(git branch --show-current)" = feat/air-visual-evidence
-entry=VQA/mage_vl/codec_subtitles_v1/run_codec_subtitles.sh
+entry=VLM/mage_vl/codec_subtitles_v1/run_codec_subtitles.sh
 bash "$entry" test-cpu
 bash "$entry" preflight
 bash "$entry" audit-inputs

@@ -174,7 +174,7 @@ Mage、原对齐及连续字幕均为C，API首答为正确D，但同样标`comp
 
 ## 8. 归档位置与复核方式
 
-完整归档目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/13_method_review/20261103_v1/`。
+完整归档目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/13_method_review/20261103_v1/`。
 
 - `comparison.json`：分时长、同题比较、配对区间、保留决定、长视频拒绝原因及预算审计。
 - `comparison.csv`：方便制表的逐配置统计；每行都带cohort/scope/duration/N，禁止忽略样本范围拼接分数。

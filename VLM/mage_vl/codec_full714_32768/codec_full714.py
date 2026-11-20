@@ -17,7 +17,7 @@ import sys
 import time
 
 PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-sys.path[:0]=[str(PROJECT/'VQA/mage_vl/practical'),str(PROJECT/'VQA/mage_vl/subtitle_ablation_v1')]
+sys.path[:0]=[str(PROJECT/'VLM/mage_vl/practical'),str(PROJECT/'VLM/mage_vl/subtitle_ablation_v1')]
 import subtitle_ablation as common
 from practical_common import ROOT,MODEL,SLOT,signature,sha,prompt,parse_answer
 from subtitle_common import subtitle_source,subtitle_prompt
@@ -28,7 +28,7 @@ DEV_OUT=ROOT/'22_codec_dev180_v1'
 LEGACY_OUT=ROOT/'23_codec_full714_v1'
 PRIMARY='codec_complete32768'
 LEGACY_PRIMARY='codec_complete13312'
-sys.path.insert(0,str(PROJECT/'VQA/mage_vl/codec_dev180_v1'))
+sys.path.insert(0,str(PROJECT/'VLM/mage_vl/codec_dev180_v1'))
 
 def context_development():
     import codec_dev180
@@ -156,7 +156,7 @@ def init():
     for f in [Path('/root/autodl-tmp/Mage_ViT/mage/bin/cv-preinfer'),Path('/root/autodl-tmp/VLMEvalKit/ffmpeg_linux/ffmpeg'),Path('/root/autodl-tmp/VLMEvalKit/ffmpeg_linux/ffprobe')]:
         require(f.is_file(),'现有工具缺失:'+str(f));sources[str(f)]=sha(f)
     existing={}
-    for root in [ROOT/'cache/codec',PROJECT/'VQA/mage_vl/outputs/r2v_codec_cache',LEGACY_OUT/'cache/codec']:
+    for root in [ROOT/'cache/codec',PROJECT/'VLM/mage_vl/outputs/r2v_codec_cache',LEGACY_OUT/'cache/codec']:
         for fp in root.rglob('meta.json'):existing.setdefault(fp.parent.name,[]).append(str(fp.parent))
     sources_srt={};catalog={};refs={}
     for row in rows:

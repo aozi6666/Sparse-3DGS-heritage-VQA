@@ -8,9 +8,9 @@
 
 本版本在新目录统一采用32768字幕token上限（不填充文本，只限制异常输入），不按视频时长、答案或分数分配预算。其余237个视频必须逐项验证实际字幕正文、邻句、时间锚点和缓存哈希不变。32768是上限，不是补齐长度；字幕缺失依然回退，无字幕视频不剔除。它也不是模型上下文长度上限。
 
-- 新代码：`VQA/mage_vl/codec_full714_32768/`。
-- 全部新协议、记录、日志、输入审计、结果：`VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/`。
-- 原13312现场：`VQA/eval_results/practical_mage_v1/23_codec_full714_v1/`，只读引用。
+- 新代码：`VLM/mage_vl/codec_full714_32768/`。
+- 全部新协议、记录、日志、输入审计、结果：`VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/`。
+- 原13312现场：`VLM/eval_results/practical_mage_v1/23_codec_full714_v1/`，只读引用。
 - 已完成开发结果：`22_codec_dev180_v1/`，只读引用。其三路111/127/123正确题数保留，不作新测试成绩。
 
 ## 固定比较
@@ -49,7 +49,7 @@ HEVC、target_canvas32、group_size32、images_per_group4、patch16、max_pixels
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-screen -S codec714_32768 bash VQA/mage_vl/codec_full714_32768/run_pipeline.sh
+screen -S codec714_32768 bash VLM/mage_vl/codec_full714_32768/run_pipeline.sh
 ```
 
 `Ctrl+A`再按`D`可离开screen，回来用`screen -r codec714_32768`。意外中断后，确认没有同名任务仍在运行再重用上述命令续跑。结果路径：`24_codec_full714_32768_v1/results/full714/summary.json`。

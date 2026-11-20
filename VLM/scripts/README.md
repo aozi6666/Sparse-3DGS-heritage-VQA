@@ -5,7 +5,7 @@ Activate your eval venv (example: `../VLMEvalKit/vlmeval_env` or a new env from
 
 ```bash
 cd ../VLMEvalKit
-# uv pip install -e .   # from VQA/VLMEvalKit
+# uv pip install -e .   # from VLM/VLMEvalKit
 ```
 
 Results of past runs live in `../eval_results/`.

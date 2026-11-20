@@ -25,7 +25,7 @@
 
 结果独立放在：
 
-`VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_text30_offline_reaudit_v1/`
+`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_text30_offline_reaudit_v1/`
 
 candidate.json锁定原清单、全部缓存/逐题记录SHA、新代码和逐题区间划分。records逐题保存离线判定、原错误、最终响应引用、原记录SHA及新规则SHA。results/summary.json和review_packet.json区分unchanged_valid、recovered_cached_final、still_invalid、unsupported，并展示原结构/新划分/原最终查询。日志与工程检查均在新目录。
 
@@ -41,10 +41,10 @@ candidate.json锁定原清单、全部缓存/逐题记录SHA、新代码和逐�
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_text30_reaudit.sh test-cpu &&
-bash VQA/mage_vl/air_v1/run_condition_text30_reaudit.sh init &&
-bash VQA/mage_vl/air_v1/run_condition_text30_reaudit.sh run &&
-bash VQA/mage_vl/air_v1/run_condition_text30_reaudit.sh summarize
+bash VLM/mage_vl/air_v1/run_condition_text30_reaudit.sh test-cpu &&
+bash VLM/mage_vl/air_v1/run_condition_text30_reaudit.sh init &&
+bash VLM/mage_vl/air_v1/run_condition_text30_reaudit.sh run &&
+bash VLM/mage_vl/air_v1/run_condition_text30_reaudit.sh summarize
 ```
 
 ## 5. 结论边界与下一阶段

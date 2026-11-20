@@ -21,8 +21,8 @@ case "$ACTION" in preflight|smoke|short|summarize|test) ;; *) echo '入口: pref
 TAG="${R2V_TAG:-px150000_f32}"
 SIGNAL_TAG="${R2V_SIGNAL_TAG:-phase2_signals_v1}"
 [[ "$TAG" =~ ^[A-Za-z0-9_-]+$ && "$SIGNAL_TAG" =~ ^[A-Za-z0-9_-]+$ ]] || { echo '标签非法'; exit 2; }
-DIR="$PROJECT/VQA/mage_vl/r2v"
-BASE="$PROJECT/VQA/eval_results/r2v_mage/$TAG"
+DIR="$PROJECT/VLM/mage_vl/r2v"
+BASE="$PROJECT/VLM/eval_results/r2v_mage/$TAG"
 OUTPUT="$BASE/$SIGNAL_TAG/$SCOPE"
 if [[ "$ACTION" == test ]]; then
     # 纯 CPU 合成数据测试，不导入 Torch/模型、不访问 GPU、不写结果。

@@ -47,8 +47,8 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ### 2.3 现有资源
 
-- 模型：`VQA/mage_vl/models`，约 9.9G；Mage 环境：`/root/autodl-tmp/Mage_ViT/mage`。
-- 数据：`VQA/mage_vl/data/VideoMME`，约 25G，714 题全部视频存在。
+- 模型：`VLM/mage_vl/models`，约 9.9G；Mage 环境：`/root/autodl-tmp/Mage_ViT/mage`。
+- 数据：`VLM/mage_vl/data/VideoMME`，约 25G，714 题全部视频存在。
 - short：219 题 / 73 视频；medium：258 题 / 86 视频；long：237 题 / 79 视频。
 - medium/long 共 165 视频与 short 视频不重叠，可做新的开发、验证和锁定测试；它们不是 short 的同分布复现。
 - 本轮检查可用盘约 34G；现有配对 Codec 缓存约 172M；每次准备运行仍须重新检查，不以本记录代替实时检查。
@@ -132,7 +132,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 所有新实验的持久数据成果、检查点和日志，统一位于：
 
-`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/`
+`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/`
 
 以下为目录协议；目前已生成 `00_sources/` 和 `01_manifests/`，其余阶段在用户运行时创建：
 
@@ -148,11 +148,11 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 旧结果保持原位：
 
-- `VQA/eval_results/r2v_mage/px150000_f32/smoke/`
-- `VQA/eval_results/r2v_mage/px150000_f32/short/`
-- `VQA/eval_results/r2v_mage/px150000_f32/phase2_signals_v1/`
+- `VLM/eval_results/r2v_mage/px150000_f32/smoke/`
+- `VLM/eval_results/r2v_mage/px150000_f32/short/`
+- `VLM/eval_results/r2v_mage/px150000_f32/phase2_signals_v1/`
 
-现有 `VQA/mage_vl/outputs/r2v_codec_cache/` 缓存保留并优先只读复用，不复制到新结果根。新缓存若必须生成，落在新结果根的 `cache/`，保存来源/配置映射；绝不重命名、删除或覆盖旧缓存。
+现有 `VLM/mage_vl/outputs/r2v_codec_cache/` 缓存保留并优先只读复用，不复制到新结果根。新缓存若必须生成，落在新结果根的 `cache/`，保存来源/配置映射；绝不重命名、删除或覆盖旧缓存。
 
 ## 7. 省盘与运行保护
 
@@ -233,7 +233,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ## 10. 后续终端指令交付约定
 
-- 换序入口`run_practical_mage.sh`、增加帧数入口`run_practical_coverage.sh`均暂停保留。当前使用`VQA/mage_vl/practical/run_practical_subtitles.sh`，详见第17节，只先smoke/dev30，不直接全量。
+- 换序入口`run_practical_mage.sh`、增加帧数入口`run_practical_coverage.sh`均暂停保留。当前使用`VLM/mage_vl/practical/run_practical_subtitles.sh`，详见第17节，只先smoke/dev30，不直接全量。
 - 源码审计及对应阶段实现/检查完成后，再提供真实可复制命令，包括进入项目、vlm 检查、磁盘检查、激活 Mage、离线开关和该阶段参数。
 - 同时提供同一命令的断点恢复方式、summarize 命令、结果绝对路径；tmux 已有时提供连接/重连说明。
 - 所有推理、训练、下载和依赖安装仍由用户明确决定；本计划不授权自动启动。
@@ -246,7 +246,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ## 12. 当前实现细节与已完成检查
 
-- 新代码位置：`VQA/mage_vl/practical/`。旧 `r2v/` 代码和已有分数/缓存不变。
+- 新代码位置：`VLM/mage_vl/practical/`。旧 `r2v/` 代码和已有分数/缓存不变。
 - 输入清单 714 题，不含真值；评测标签单独保存。固定划分实际为 dev30=90、dev60=180、val=90、test=225，smoke=6，full=714。
 - 默认 Codec 原顺序一次 + Frames 四排列，每题 5 单元。主结果同时报告 Codec、Frames、Frames 投票和概率平均对照。
 - 保持 `max_new_tokens=32` 与旧自由生成解析规则，避免“只生成一 token”改变原版基线的答案解析。额外保存首位置四字母 logits；只有首 token 本身即为解析答案时，分数才可用于概率平均，带前缀的回答仍可按原规则投票。
@@ -286,10 +286,10 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ### 14.2 新入口与保存位置
 
-新增 `VQA/mage_vl/practical/practical_coverage.py`、`run_practical_coverage.sh` 和 CPU 审计测试，不改写旧换序执行器。复用其已跑通的原生处理/生成/解析及 JSONL 单元落盘；旧执行器 tqdm 标题仍可能显示“换序”，本入口实际只调度 permutation_id=0 的两个单元，启动时会打印说明。
+新增 `VLM/mage_vl/practical/practical_coverage.py`、`run_practical_coverage.sh` 和 CPU 审计测试，不改写旧换序执行器。复用其已跑通的原生处理/生成/解析及 JSONL 单元落盘；旧执行器 tqdm 标题仍可能显示“换序”，本入口实际只调度 permutation_id=0 的两个单元，启动时会打印说明。
 
-- 阶段结果：`VQA/eval_results/practical_mage_v1/08_coverage/<smoke|dev30|dev60>/px150000_f<48|64>_identity_v1/`。
-- 逐单元断点：`VQA/eval_results/practical_mage_v1/cache/coverage/<独立签名>/units.jsonl`，协议、token 和运行环境信息同目录。48/64 不混用；同一配置 smoke/dev30/dev60 共用已完成单元。
+- 阶段结果：`VLM/eval_results/practical_mage_v1/08_coverage/<smoke|dev30|dev60>/px150000_f<48|64>_identity_v1/`。
+- 逐单元断点：`VLM/eval_results/practical_mage_v1/cache/coverage/<独立签名>/units.jsonl`，协议、token 和运行环境信息同目录。48/64 不混用；同一配置 smoke/dev30/dev60 共用已完成单元。
 - 每次执行独立 `run_*.log`，阶段 `run_manifest.json`、`predictions.json`、`summary.json` 只允许一致内容幂等复用，冲突拒绝覆盖。
 - 汇总包含两条原基线和新 Frames 的准确率、按时长结果、救回/误伤/净收益、视频聚类区间、非法率、实际 token、峰值显存与耗时。旧预处理有共享计费，不把日志中的耗时直接当严格加速比。
 - 审计检查真实 grid 数量、逐帧空间像素、tensor/token 一致、token 比例、与 32 帧一致的时间端点、Codec 的输入签名/布局/答案复现；smoke 还检查原生路径逐 tensor 一致。端点一致不等于证明所有中间时间戳正确；采样实现保持原 Mage 不变。审计失败保留现场并禁止继续。
@@ -306,10 +306,10 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/practical/run_practical_coverage.sh run 48 smoke &&
-bash VQA/mage_vl/practical/run_practical_coverage.sh summarize 48 smoke &&
-bash VQA/mage_vl/practical/run_practical_coverage.sh run 48 dev30 &&
-bash VQA/mage_vl/practical/run_practical_coverage.sh summarize 48 dev30
+bash VLM/mage_vl/practical/run_practical_coverage.sh run 48 smoke &&
+bash VLM/mage_vl/practical/run_practical_coverage.sh summarize 48 smoke &&
+bash VLM/mage_vl/practical/run_practical_coverage.sh run 48 dev30 &&
+bash VLM/mage_vl/practical/run_practical_coverage.sh summarize 48 dev30
 ```
 
 每次入口都会核查分支/磁盘/目录大小并激活 Mage 环境。任一步失败即停；中断后原命令重跑，已完整落盘单元跳过，tqdm 从完成题数继续。残缺尾行或临时缓存拒绝自动清理，需保留现场检查；不保证 SSH 断开后进程持续运行。48/64帧dev30现均已完成，下一阶段见第15节。
@@ -354,7 +354,7 @@ bash VQA/mage_vl/practical/run_practical_coverage.sh summarize 48 dev30
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/practical/run_practical_coverage.sh &&
+runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/practical/run_practical_coverage.sh &&
 bash "$runner" run 64 dev60 &&
 bash "$runner" summarize 64 dev60
 ```
@@ -379,11 +379,11 @@ bash "$runner" summarize 64 dev60
 - 共同错58题中53题对应视频有字幕，但这不是“能救回53题”的估计。已核查示例220：SRT 06:15.680—06:18.630的“wood and earth”直接支持正确选项，原三路均错；实际32帧是否命中此句仍须按时间审计，不能手动补入该句。
 - Mage官方分别报告VideoMME64.0、with-sub66.3，只支持路线值得尝试，不保证本地涨幅相同：<https://microsoft.github.io/Mage/vl/>。
 - 官方Video-MME带字幕协议仅使用采样时刻对应字幕：<https://github.com/MME-Benchmarks/Video-MME#-evaluation-pipeline>。本轮遵守该范围，不读取全文进行检索；后续全文字幕RAG需另立协议与公平基线。
-- 旧QueryIP/CLIP选区负结果已经存在于`VQA/eval_results/README.md`，不把它们重新包装成未试过的首选。
+- 旧QueryIP/CLIP选区负结果已经存在于`VLM/eval_results/README.md`，不把它们重新包装成未试过的首选。
 
 ### 17.2 固定协议与新增代码
 
-新文件位于`VQA/mage_vl/practical/`：`subtitle_common.py`（纯CPU解析/匹配/恢复校验）、`practical_subtitles.py`（CPU准备与GPU运行）、`subtitle_analyze.py`（离线GT统计）、`run_practical_subtitles.sh`（入口）、`test_practical_subtitles.py`（CPU测试）。完整操作说明为`SUBTITLES_README.md`。旧文件全部保留，不改现有模型或环境配置。
+新文件位于`VLM/mage_vl/practical/`：`subtitle_common.py`（纯CPU解析/匹配/恢复校验）、`practical_subtitles.py`（CPU准备与GPU运行）、`subtitle_analyze.py`（离线GT统计）、`run_practical_subtitles.sh`（入口）、`test_practical_subtitles.py`（CPU测试）。完整操作说明为`SUBTITLES_README.md`。旧文件全部保留，不改现有模型或环境配置。
 
 - 视觉保持原Frames-32、150000/3136像素、原生视频路径/真实原帧号、原选项顺序；不扩帧、不加像素、不投票、不加门控。
 - 捕获Mage原生video_processor返回的`frame_timestamps`，单位为秒；真实原帧号另存，不能当秒与SRT比较。包装器转交所有属性写入，确保`num_frames=32`临时覆盖真的生效。
@@ -396,7 +396,7 @@ bash "$runner" summarize 64 dev60
 
 ### 17.3 保存、恢复和省盘
 
-所有新文件严格放在既定根`VQA/eval_results/practical_mage_v1/`：
+所有新文件严格放在既定根`VLM/eval_results/practical_mage_v1/`：
 
 - `09_subtitles/srt_manifest.json`：输入可用性、源路径、大小、SHA256、解析段数和固定协议，不含GT，CPU初始化已完成。
 - `09_subtitles/<smoke|dev30|dev60>/f32_px150000_aligned_sub_v1/`：阶段运行清单、`predictions.json`、`summary.json`。
@@ -419,7 +419,7 @@ bash "$runner" summarize 64 dev60
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/mage_vl/practical/run_practical_subtitles.sh &&
+runner=/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/practical/run_practical_subtitles.sh &&
 bash "$runner" run smoke &&
 bash "$runner" summarize smoke &&
 bash "$runner" run dev30 &&
@@ -434,11 +434,11 @@ bash "$runner" summarize dev30
 
 字幕dev60：180题、60视频，审计通过、非法答案0。Codec无字幕111/180（61.67%），Frames-32无字幕110/180（61.11%），Frames-32＋真实对齐字幕117/180（65.00%）。相对Frames救回14、误伤7、净增7，+3.89个百分点，视频聚类95%区间[-1.67,9.44]，不能宣称显著。前90题净增3，新增90题净增4；medium为60→67/96，long为50→50/84，不支持全面改善长视频的结论。
 
-这些是新增字幕模态的系统配置收益，不是新选择算法或超过同配置带字幕Mage的算法贡献。论文方法与应用定位见[总结](SUMMARY_heritage_mage_aligned_subtitles.md)。现有开发结果和预测快照保存于`VQA/eval_results/practical_mage_v1/07_archive/subtitles_dev60_v1.json`，原始逐题日志、证据和结果均保留原位。
+这些是新增字幕模态的系统配置收益，不是新选择算法或超过同配置带字幕Mage的算法贡献。论文方法与应用定位见[总结](SUMMARY_heritage_mage_aligned_subtitles.md)。现有开发结果和预测快照保存于`VLM/eval_results/practical_mage_v1/07_archive/subtitles_dev60_v1.json`，原始逐题日志、证据和结果均保留原位。
 
 ### 18.2 本次补齐范围
 
-- 新增`VQA/mage_vl/practical/subtitle_holdout.py`、`subtitle_holdout_analyze.py`、`run_subtitle_holdout.sh`、`test_subtitle_holdout.py`和`SUBTITLE_HOLDOUT_README.md`，旧核心脚本与开发签名不变。
+- 新增`VLM/mage_vl/practical/subtitle_holdout.py`、`subtitle_holdout_analyze.py`、`run_subtitle_holdout.sh`、`test_subtitle_holdout.py`和`SUBTITLE_HOLDOUT_README.md`，旧核心脚本与开发签名不变。
 - 只开放原先固定的val90／30视频，主比较为本次同配置生成的Frames-32无字幕与对齐字幕。不是把开发摘要或旧全量输出当新验证基线；本轮不额外运行Codec。
 - 原Frames-32/150000像素/2048字幕token上限/原选项/贪心生成32token均不变。无标签推理、按输入缺失回退，不能按题目GT或视频时长切换答案。
 - 每题两个答案分别落盘，进度180个逻辑单元；普通中断可继续缺失答案。有字幕题两次新推理，缺字幕仅一次，仍保留两路逻辑成本。每个待处理视频比较两种实际Prompt与原生处理的tensor，额外CPU预处理不增加答案生成次数。
@@ -447,7 +447,7 @@ bash "$runner" summarize dev30
 
 ### 18.3 用户执行与后续门槛
 
-操作命令、保存路径和恢复说明见[验证入口说明](../VQA/mage_vl/practical/SUBTITLE_HOLDOUT_README.md)。先进入Mage环境，再确认／切到vlm，由用户执行`run_subtitle_holdout.sh run val`，成功后`summarize val`。运行前入口复查df/du，保留至少10GiB、结果根1GiB软预算，失败即停且不自动清理。
+操作命令、保存路径和恢复说明见[验证入口说明](../VLM/mage_vl/practical/SUBTITLE_HOLDOUT_README.md)。先进入Mage环境，再确认／切到vlm，由用户执行`run_subtitle_holdout.sh run val`，成功后`summarize val`。运行前入口复查df/du，保留至少10GiB、结果根1GiB软预算，失败即停且不自动清理。
 
 先看val90净纠错、分时长和聚类区间。无论正负均保留；本入口没有test/full功能，不自动扩展。val完成后才决定是否冻结并补test225；最后714题为含开发集的覆盖性结果，不能代替测试证据。暂不新增门控、换序、加帧、RAG或训练。
 
@@ -459,5 +459,5 @@ bash "$runner" summarize dev30
 
 - `11_continuous_subtitles/`：每个原命中字幕补前后各一个非空相邻cue，空白至多2秒，合并连续块并显式标时；统一2048文本token预算，完整邻句按固定时间均匀规则取舍、记录省略项，不删原命中句。不增加Mage帧数。
 - `12_deepseek_review/`：官方`deepseek-flash`图片输入；实际视频32帧独立首答不看Mage答案，必要时按API定位窗口增加局部2fps真实帧复核；有证据才尝试覆盖无字幕Mage。保留API独立基线与拒答分母，不将两次同模型核查称为独立裁判，不承诺避免全部误伤。
-- 主入口`VQA/mage_vl/practical/run_practical_next.sh`，密钥占位`deepseek.env.example`。安全输入密钥、断点、日志、预算、实际能力边界及完整用户命令见[新实施说明](PLAN_continuous_deepseek_pilot.md)。
+- 主入口`VLM/mage_vl/practical/run_practical_next.sh`，密钥占位`deepseek.env.example`。安全输入密钥、断点、日志、预算、实际能力边界及完整用户命令见[新实施说明](PLAN_continuous_deepseek_pilot.md)。
 - 不调用付费API做准备检查，不改环境，不下载或删除。持久化全部仍在`practical_mage_v1`下；test225与全量不开放。

@@ -6,7 +6,7 @@
 
 ## 默认协议
 
-- 结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VQA/eval_results/practical_mage_v1/`。
+- 结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/`。
 - 默认标签：`px150000_f32_frames4_codec1`。每题 Codec 原顺序 1 次、Frames 4 种循环排列，共 5 单元。
 - 原文依赖选项位置/标签时回退原顺序，仍计入分母。票数平局优先原答案。
 - 保持原 Mage 视频路径、Prompt、像素预算、确定性生成和 `max_new_tokens=32`，避免把只生成 1 token 当成新的“原版基线”。
@@ -32,22 +32,22 @@
 
 ```bash
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
-bash VQA/mage_vl/practical/run_practical_mage.sh smoke
-bash VQA/mage_vl/practical/run_practical_mage.sh summarize smoke
+bash VLM/mage_vl/practical/run_practical_mage.sh smoke
+bash VLM/mage_vl/practical/run_practical_mage.sh summarize smoke
 ```
 
 初始化已完成，后续重新执行 `init` 会校验相同文件而不覆盖不同内容。纯 CPU 检查可执行：
 
 ```bash
-bash VQA/mage_vl/practical/run_practical_mage.sh test-cpu
-bash VQA/mage_vl/practical/run_practical_mage.sh preflight smoke
+bash VLM/mage_vl/practical/run_practical_mage.sh test-cpu
+bash VLM/mage_vl/practical/run_practical_mage.sh preflight smoke
 ```
 
 检查 smoke 汇总的 `audit.smoke_pass=true`，然后再执行：
 
 ```bash
-PRACTICAL_STAGE_CONFIRMED=1 bash VQA/mage_vl/practical/run_practical_mage.sh dev30
-bash VQA/mage_vl/practical/run_practical_mage.sh summarize dev30
+PRACTICAL_STAGE_CONFIRMED=1 bash VLM/mage_vl/practical/run_practical_mage.sh dev30
+bash VLM/mage_vl/practical/run_practical_mage.sh summarize dev30
 ```
 
 必要时同样方式执行 `dev60`。不要同时启动 dev30/dev60 或其他 Mage 配置。
@@ -55,15 +55,15 @@ bash VQA/mage_vl/practical/run_practical_mage.sh summarize dev30
 ## 后续入口（先开发，再选型，不直接运行到底）
 
 ```bash
-PRACTICAL_STAGE_CONFIRMED=1 bash VQA/mage_vl/practical/run_practical_mage.sh val
-bash VQA/mage_vl/practical/run_practical_mage.sh summarize val
+PRACTICAL_STAGE_CONFIRMED=1 bash VLM/mage_vl/practical/run_practical_mage.sh val
+bash VLM/mage_vl/practical/run_practical_mage.sh summarize val
 # 以下方法名是示例；先根据 val 明确选择，再冻结。不可按 test 结果改选。
-bash VQA/mage_vl/practical/run_practical_mage.sh freeze frames_vote
-PRACTICAL_STAGE_CONFIRMED=1 bash VQA/mage_vl/practical/run_practical_mage.sh test
-bash VQA/mage_vl/practical/run_practical_mage.sh summarize test
+bash VLM/mage_vl/practical/run_practical_mage.sh freeze frames_vote
+PRACTICAL_STAGE_CONFIRMED=1 bash VLM/mage_vl/practical/run_practical_mage.sh test
+bash VLM/mage_vl/practical/run_practical_mage.sh summarize test
 # 最后补齐全量，不覆盖已完成单元。
-PRACTICAL_STAGE_CONFIRMED=1 bash VQA/mage_vl/practical/run_practical_mage.sh full
-bash VQA/mage_vl/practical/run_practical_mage.sh summarize full
+PRACTICAL_STAGE_CONFIRMED=1 bash VLM/mage_vl/practical/run_practical_mage.sh full
+bash VLM/mage_vl/practical/run_practical_mage.sh summarize full
 ```
 
 配置变化必须重新 smoke。`PRACTICAL_CODEC_VOTE=1` 增加 Codec 四排列控制；`PRACTICAL_FRAMES=48` 或 `64` 为独立预算候选。设置后同阶段的运行/汇总/冻结命令都要携带相同变量；默认不启用。

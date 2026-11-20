@@ -26,9 +26,9 @@ FRAMES="${R2V_FRAMES:-32}"
 MIN_FREE="${R2V_MIN_FREE_GB:-10}"
 TAG="${R2V_TAG:-px${MAX_PIXELS}_f${FRAMES}}"
 [[ "$TAG" =~ ^[A-Za-z0-9_-]+$ ]] || { echo '实验标签只允许字母数字下划线横线'; exit 2; }
-BASE="$PROJECT/VQA/eval_results/r2v_mage/$TAG"
+BASE="$PROJECT/VLM/eval_results/r2v_mage/$TAG"
 OUTPUT="$BASE/$PHASE"
-SCRIPT_DIR="$PROJECT/VQA/mage_vl/r2v"
+SCRIPT_DIR="$PROJECT/VLM/mage_vl/r2v"
 if [[ "$ACTION" == summarize ]]; then
     exec python "$SCRIPT_DIR/r2v_pair_summarize.py" "$OUTPUT"
 fi
@@ -41,7 +41,7 @@ if [[ "$ACTION" == short ]]; then
     }
 fi
 exec python "$SCRIPT_DIR/r2v_pair_infer.py" "$MODE" --phase "$PHASE" \
-    --model "$PROJECT/VQA/mage_vl/models" \
-    --data-root "${MAGE_VIDEOMME_ROOT:-$PROJECT/VQA/mage_vl/data/VideoMME}" \
-    --output "$OUTPUT" --cache-root "$PROJECT/VQA/mage_vl/outputs/r2v_codec_cache" \
+    --model "$PROJECT/VLM/mage_vl/models" \
+    --data-root "${MAGE_VIDEOMME_ROOT:-$PROJECT/VLM/mage_vl/data/VideoMME}" \
+    --output "$OUTPUT" --cache-root "$PROJECT/VLM/mage_vl/outputs/r2v_codec_cache" \
     --max-pixels "$MAX_PIXELS" --frames "$FRAMES" --min-free-gb "$MIN_FREE"

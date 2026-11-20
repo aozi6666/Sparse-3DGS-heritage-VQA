@@ -2,7 +2,7 @@
 
 > **日期：** 2026-10-15（修订：2026-10-27 · **主线 A / 加戏 B 定案**）  
 > **状态：** **主推 `queryip`（proxy · 63.5%）**；CLIP / bitcost / αβ / **图像硬切 textseat** 均失败或不作贡献；**停 CLIP 重排**；**停 OCRBench 硬切主表**。  
-> **命令 / 产物：** [`COMMANDS.md`](../VQA/Explore-Then-Select/COMMANDS.md) · [`eval_results/`](../VQA/eval_results/README.md)  
+> **命令 / 产物：** [`COMMANDS.md`](../VLM/Explore-Then-Select/COMMANDS.md) · [`eval_results/`](../VLM/eval_results/README.md)  
 > **后续优先：** **主线 A** 收口（§8.1 McNemar · Acc–K · 失败表）→ 可选 **加戏 B** 软门控冒烟；Cultural LoRA 后置。  
 > **不做：** 真 MV · 完整 v2 · 扩大 CLIP · 同 K×714 · 用 OCR textseat「打赢 Mage 满图」。
 
@@ -43,7 +43,7 @@
 
 **一句话（现行 · 主线 A）：** 在**已经减 token** 的固定预算 K 下，用 Mage codec **像素 proxy**（运动 / 残差**融合**）对候选 patch 排序再 top-K，比同预算 **random / prefix** 更准；**不重训**；**不声称**超过满预算 Mage。
 
-**保留：** `queryip`（proxy 选区）。同跑复现：相对 random **约 +4.0 pp**（63.5% vs 59.5%，[`clip_frame_n200/`](../VQA/eval_results/queryip_samek/clip_frame_n200/)）；主表目录曾报 +4.5（64.0%）。**点估计已有，配对显著性尚未做**（§8.1）。
+**保留：** `queryip`（proxy 选区）。同跑复现：相对 random **约 +4.0 pp**（63.5% vs 59.5%，[`clip_frame_n200/`](../VLM/eval_results/queryip_samek/clip_frame_n200/)）；主表目录曾报 +4.5（64.0%）。**点估计已有，配对显著性尚未做**（§8.1）。
 
 **暂时不作为贡献：**
 
@@ -101,7 +101,7 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 
 ### 2.1 同 K 消融（主贡献证据）
 
-`keep_ratio=0.75`；short 前 **200** 题。目录：[`queryip_samek/n200/`](../VQA/eval_results/queryip_samek/n200/)
+`keep_ratio=0.75`；short 前 **200** 题。目录：[`queryip_samek/n200/`](../VLM/eval_results/queryip_samek/n200/)
 
 | 同 K | Acc | 题数 |
 |------|-----|------|
@@ -112,7 +112,7 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 | bitcost hybrid | 58.0% | 116/200 |
 
 Δ(queryip − random)=**+4.5 pp**（本目录点估计）。bitcost / hybrid 均 **低于** random → 失败消融。  
-**注意：** 2026-10-23 同设定复现（[`clip_frame_n200/`](../VQA/eval_results/queryip_samek/clip_frame_n200/)）为 queryip **63.5%** / random **59.5%**（**+4.0 pp**）；对外可写「约 +4 pp」，显著性见 §8.1。
+**注意：** 2026-10-23 同设定复现（[`clip_frame_n200/`](../VLM/eval_results/queryip_samek/clip_frame_n200/)）为 queryip **63.5%** / random **59.5%**（**+4.0 pp**）；对外可写「约 +4 pp」，显著性见 §8.1。
 
 配套闸门：soccer `SAMEK4_OK`；n=60 弱正（61.7 vs random 58.3）→ 以 n=200 为准。
 
@@ -125,11 +125,11 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 
 Δ(B−A) overall **−1.4**：略降 Acc 换更少 token，**不能**写成「同预算涨点」。同预算故事看 §2.1。
 
-产物：[`baseline_mage/`](../VQA/eval_results/baseline_mage/) · [`queryip_rowB_full/`](../VQA/eval_results/queryip_rowB_full/)
+产物：[`baseline_mage/`](../VLM/eval_results/baseline_mage/) · [`queryip_rowB_full/`](../VLM/eval_results/queryip_rowB_full/)
 
 ### 2.3 Proxy keep_ratio 扫描（Acc–K 曲线 · 已完成）
 
-目录：[`queryip_samek/ksweep_proxy/`](../VQA/eval_results/queryip_samek/ksweep_proxy/)  
+目录：[`queryip_samek/ksweep_proxy/`](../VLM/eval_results/queryip_samek/ksweep_proxy/)  
 **做图用：** `plot_acc_vs_keep_ratio.csv` / `plot_acc_long.csv`（勿删）。
 
 | keep_ratio | prefix | random | queryip | Δ(q−rand) |
@@ -152,7 +152,7 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 
 ### 2.5 阶段 2 · CLIP 帧预算同 K（2026-10-23 · **失败消融 · 已归档**）
 
-目录：[`queryip_samek/clip_frame_n200/`](../VQA/eval_results/queryip_samek/clip_frame_n200/)  
+目录：[`queryip_samek/clip_frame_n200/`](../VLM/eval_results/queryip_samek/clip_frame_n200/)  
 `summary_n200_kr075_clip.json` · `partial=false` · n=200 · `keep_ratio=0.75` · `seed=0`。
 
 | 同 K | Acc | 题数 |
@@ -172,7 +172,7 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 
 ### 2.6 α/β 三角对照 E2（2026-10-23 · **题型开关不作贡献 · 已归档**）
 
-目录：[`queryip_samek/ab_fixed_n200/`](../VQA/eval_results/queryip_samek/ab_fixed_n200/)  
+目录：[`queryip_samek/ab_fixed_n200/`](../VLM/eval_results/queryip_samek/ab_fixed_n200/)  
 `summary_n200_kr075_ab.json` · `partial=false` · modes=`queryip,queryip_dyn,queryip_sta`。
 
 | 同 K | Acc | 题数 |
@@ -196,9 +196,9 @@ OCRBench keep_ratio=0.75 硬切 textseat（离开 Mage 选区协议）
 
 | 项 | 值 |
 |----|-----|
-| 目录 | [`ocrbench_v1_image_textseat/`](../VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
+| 目录 | [`ocrbench_v1_image_textseat/`](../VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
 | 数据 | OCRBench v1 · 1000 · 无 `--use-ocr` · `keep_ratio=0.75` |
-| Mage 官方口径对照 | [`baseline_mage_ocrbench_v1`](../VQA/eval_results/baseline_mage_ocrbench_v1/) · Norm **83.4**（`T20261027-120048`） |
+| Mage 官方口径对照 | [`baseline_mage_ocrbench_v1`](../VLM/eval_results/baseline_mage_ocrbench_v1/) · Norm **83.4**（`T20261027-120048`） |
 | 本脚本指标 | substring/exact **proxy**（≠ Final Score Norm） |
 
 | mode | Acc (proxy) | n |
@@ -225,9 +225,9 @@ encode_codec → score_patches(proxy|bitcost) → α/β(q) → top-K → dense p
 modes: prefix | random | queryip | queryip_bitcost
 ```
 
-- 代码：[`VQA/Explore-Then-Select/mage_query_ip/`](../VQA/Explore-Then-Select/mage_query_ip/)（**不改** `mage_vl`）  
+- 代码：[`VLM/Explore-Then-Select/mage_query_ip/`](../VLM/Explore-Then-Select/mage_query_ip/)（**不改** `mage_vl`）  
 - 模型名：`Mage-VL`（行 A）/ `Mage-VL-QueryIP`（行 B）  
-- 说明：[`README_MAGE_QUERY_IP.md`](../VQA/Explore-Then-Select/README_MAGE_QUERY_IP.md)
+- 说明：[`README_MAGE_QUERY_IP.md`](../VLM/Explore-Then-Select/README_MAGE_QUERY_IP.md)
 
 ```mermaid
 flowchart TD
@@ -324,32 +324,32 @@ encode_codec（Mage 第一刀 canvas）
 | ★ E4 | Codec + CLIP 帧级 | **58.5% · 失败**（保留） |
 | E5 / §9 | 宽池 + 区域语义 +（v2）结构保底 | **试验**；帧 CLIP / Q-Former **不做** |
 
-产物：[`clip_frame_n200/`](../VQA/eval_results/queryip_samek/clip_frame_n200/) · [`ab_fixed_n200/`](../VQA/eval_results/queryip_samek/ab_fixed_n200/)。
+产物：[`clip_frame_n200/`](../VLM/eval_results/queryip_samek/clip_frame_n200/) · [`ab_fixed_n200/`](../VLM/eval_results/queryip_samek/ab_fixed_n200/)。
 
 ### 4.4.1 有卡时命令（已跑完 · 备复现）
 
 ```bash
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 export PATH="/root/autodl-tmp/VLMEvalKit/vlmeval_env/bin:$PATH"
-export PYTHONPATH="VQA/mage_vl/models:VQA/Explore-Then-Select:${PYTHONPATH:-}"
+export PYTHONPATH="VLM/mage_vl/models:VLM/Explore-Then-Select:${PYTHONPATH:-}"
 export HF_HUB_OFFLINE=1
 
 # --- A) 真 CLIP 冒烟（确认 q_t / 预算）---
-python VQA/Explore-Then-Select/scripts/smoke_clip_frame_budget.py --with-wire --with-clip --device cuda
+python VLM/Explore-Then-Select/scripts/smoke_clip_frame_budget.py --with-wire --with-clip --device cuda
 
 # --- B) short 前 200 同 K：E1/E0/E4（默认 --resume；逐题 append 可断点续）---
-mkdir -p VQA/eval_results/queryip_samek/clip_frame_n200 VQA/eval_results/logs
+mkdir -p VLM/eval_results/queryip_samek/clip_frame_n200 VLM/eval_results/logs
 pkill -f 'eval_short60_samek.py.*n200_kr075_clip' 2>/dev/null || true
-nohup python VQA/Explore-Then-Select/mage_query_ip/eval_short60_samek.py \
+nohup python VLM/Explore-Then-Select/mage_query_ip/eval_short60_samek.py \
   --n 200 \
   --keep-ratio 0.75 \
   --seed 0 \
   --modes random,queryip,queryip_clip \
-  --outdir VQA/eval_results/queryip_samek/clip_frame_n200 \
+  --outdir VLM/eval_results/queryip_samek/clip_frame_n200 \
   --tag n200_kr075_clip \
   --resume \
-  > VQA/eval_results/logs/clip_frame_n200_nohup.out 2>&1 &
-tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
+  > VLM/eval_results/logs/clip_frame_n200_nohup.out 2>&1 &
+tail -f VLM/eval_results/logs/clip_frame_n200_nohup.out
 ```
 
 看结果：`clip_frame_n200/*_summary_n200_kr075_clip.json`。判定门槛见 **§4.4.2**。
@@ -365,7 +365,7 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 
 ### 4.4.3 α/β 三角对照（E2 · **已归档**）
 
-结果见 **§2.6**。复现命令见 [`COMMANDS.md`](../VQA/Explore-Then-Select/COMMANDS.md) §4。  
+结果见 **§2.6**。复现命令见 [`COMMANDS.md`](../VLM/Explore-Then-Select/COMMANDS.md) §4。  
 **口径：** Static/Dynamic α/β 自适应 **暂时不作为贡献**；保留 `queryip` 作为 proxy 选区入口（默认可等同 fixed-dyn）。
 
 ### 4.5 其它预案（次优先）
@@ -404,7 +404,7 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 | K 点 | 与 ksweep 对齐：`0.3 / 0.5 / 0.75 / 0.9` + **满预算**（`keep_ratio=1.0` 或关闭第二刀） |
 | 模式 | `mage_full`（或 prefix@1.0）· `random` · `queryip`；**不要**再带 bitcost |
 | 指标 | Acc、Avg #vis-token、相对满预算 token 比；可选墙钟 |
-| 产物目录 | `VQA/eval_results/queryip_samek/efficiency_curve/` |
+| 产物目录 | `VLM/eval_results/queryip_samek/efficiency_curve/` |
 | 复用 | `ksweep_proxy` 已有 0.3/0.5/0.75/0.9 的 random/queryip；**只补满预算 Mage 一点**即可拼曲线 |
 
 ### 5.3 判定口径
@@ -419,7 +419,7 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 # N=200 KEEP_RATIO=1.0 MODES=prefix ./...  或单独 Mage-VL 短评
 
 # 减 token 多 K：优先复用 / 续跑
-./VQA/Explore-Then-Select/scripts/eval_proxy_ksweep.sh   # 已有 0.3/0.5/0.9
+./VLM/Explore-Then-Select/scripts/eval_proxy_ksweep.sh   # 已有 0.3/0.5/0.9
 # 再补满预算 Mage Acc，合并进 efficiency_curve CSV
 ```
 
@@ -458,7 +458,7 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 | 项 | 约定 |
 |----|------|
 | 目的 | 把「+4.0 pp」从点估计升到可报告的显著性 |
-| 数据 | 首选同文件配对：[`clip_frame_n200/..._n200_kr075_clip.jsonl`](../VQA/eval_results/queryip_samek/clip_frame_n200/)（同题有 `random_pred` 与 `queryip_pred`） |
+| 数据 | 首选同文件配对：[`clip_frame_n200/..._n200_kr075_clip.jsonl`](../VLM/eval_results/queryip_samek/clip_frame_n200/)（同题有 `random_pred` 与 `queryip_pred`） |
 | 方法 | **McNemar 检验**（二项 / 连续校正）；报告 n、b、c、p 值；可选 bootstrap 95% CI for ΔAcc |
 | 判据 | 预登记双侧 α=0.05；若 p≥0.05 → 正文写「点估计 +4pp，未达显著」勿硬吹 |
 | 产物 | `eval_results/queryip_samek/stats_mcnemar_n200/`（json + 短 md） |
@@ -481,7 +481,7 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 
 ### 8.3 【建议】Acc–K 论文图
 
-数据已在 [`ksweep_proxy/plot_acc_*.csv`](../VQA/eval_results/queryip_samek/ksweep_proxy/)。画出 prefix/random/queryip；标注 0.9 处 queryip 不赢。**不重跑**除非缺满预算点（见 §5）。
+数据已在 [`ksweep_proxy/plot_acc_*.csv`](../VLM/eval_results/queryip_samek/ksweep_proxy/)。画出 prefix/random/queryip；标注 0.9 处 queryip 不赢。**不重跑**除非缺满预算点（见 §5）。
 
 ### 8.4 【可选 · 非阻塞】
 
@@ -501,9 +501,9 @@ tail -f VQA/eval_results/logs/clip_frame_n200_nohup.out
 ## 9. 试验：宽 Codec 候选池 + 区域级语义（Vista 弱仿）· **v1 失败归档**
 
 > **日期：** 2026-10-23  
-> **v1 结果（n=200 · 已归档）：** A `queryip` **63.5%**（127/200）· B `queryip_region` **58.5%**（117）· C `queryip_region_shuf` **60.5%**（121）· **B−C=−2.0pp** · 伤底 + shuffle 反向 → **失败消融**（[`region_sem_n200/`](../VQA/eval_results/queryip_samek/region_sem_n200/)）。  
+> **v1 结果（n=200 · 已归档）：** A `queryip` **63.5%**（127/200）· B `queryip_region` **58.5%**（117）· C `queryip_region_shuf` **60.5%**（121）· **B−C=−2.0pp** · 伤底 + shuffle 反向 → **失败消融**（[`region_sem_n200/`](../VLM/eval_results/queryip_samek/region_sem_n200/)）。  
 > **根因：** \(q_{\mathrm{region}}\)=图文相似 ≠ 答题证据；语义重排挤掉 proxy 运动/时序块。  
-> **边界 edge（n=200 · 已归档）：** A **63.5%** · B `queryip_edge` **60.0%**（120）· C **62.0%**（124）· B−C=−2.0pp → **失败**（[`region_edge_n200/`](../VQA/eval_results/queryip_samek/region_edge_n200/)）。  
+> **边界 edge（n=200 · 已归档）：** A **63.5%** · B `queryip_edge` **60.0%**（120）· C **62.0%**（124）· B−C=−2.0pp → **失败**（[`region_edge_n200/`](../VLM/eval_results/queryip_samek/region_edge_n200/)）。  
 > **停 QueryIP 语义选区路线**（帧 CLIP / v1 / edge）；**禁止完整 v2**。否定的是 CLIP 相似度重排，不是一切语义。  
 > **禁止：** 再扩大语义选区试错；Vista Q-Former；未过闸写「Codec+语义」贡献句。
 
@@ -538,7 +538,7 @@ Vista-LLM   : query 引导 + Scout + 结构补偿（稠密 token / 可训 Q-Form
 |---|------|------|
 | P0 | 分支 `Mage_LoRA` + `vlmeval_env` | 与既有评测一致 |
 | P1 | GPU 可用（4090 级） | 区域 CLIP + Mage generate；CPU 只可测打分模块 |
-| P2 | 本地 CLIP-L 已在盘 | `VQA/models/CLIP-ViT-Large-patch14`（≈1.6G）；`HF_HUB_OFFLINE=1` **禁止再下** |
+| P2 | 本地 CLIP-L 已在盘 | `VLM/models/CLIP-ViT-Large-patch14`（≈1.6G）；`HF_HUB_OFFLINE=1` **禁止再下** |
 | P3 | Video-MME short 视频可读 | 与 `eval_short60_samek` 同一 TSV/路径 |
 | P4 | `queryip` 基线可复现 | 同设定下 Acc 应贴近 63.5%（n=200）或 n=60 历史量级 |
 | P5 | 磁盘余量 ≥ **8–10G 安全垫** | 当前 `/root/autodl-tmp` 约 **20G free / 87%**；本试验**几乎不增盘**（见 §9.4），但需防日志/缓存膨胀 |
@@ -563,9 +563,9 @@ Vista-LLM   : query 引导 + Scout + 结构补偿（稠密 token / 可训 Q-Form
 
 1. **盘：** `df -h`；确认 ≥10G free；勿清 `clip_frame_n200/` / `ab_fixed_n200/`（对照归档）。  
 2. **环境：** `source vlmeval_env`；`HF_HUB_OFFLINE=1` `TRANSFORMERS_OFFLINE=1`。  
-3. **冒烟脚本：** `VQA/Explore-Then-Select/scripts/smoke_region_clip_v1.py`（`SMOKE_OK`：\|C\|/K/Jaccard/真题 vs 错题区域分差）。  
+3. **冒烟脚本：** `VLM/Explore-Then-Select/scripts/smoke_region_clip_v1.py`（`SMOKE_OK`：\|C\|/K/Jaccard/真题 vs 错题区域分差）。  
 4. **Shuffle 协议：** 同 batch 内 **循环错位**（题 i ← 题 i+1；末题用首题）；`eval_short60_samek` 预构建 prompts；generate 仍用真题，仅选区用 shuf。  
-5. **产物目录：** `VQA/eval_results/queryip_samek/region_sem_pilot/`（n=60）· 过闸后 `region_sem_n200/`。  
+5. **产物目录：** `VLM/eval_results/queryip_samek/region_sem_pilot/`（n=60）· 过闸后 `region_sem_n200/`。  
 6. **模式名：** `queryip` · `queryip_region` · `queryip_region_shuf`。
 
 ### 9.6 方法协议（v1 → v2）
@@ -661,7 +661,7 @@ encode_codec → 宽候选池 C（|C| ≥ K，默认：该视频全部 codec pat
 | B | `queryip_edge` | **60.0%**（120）· −3.5 pp |
 | C | `queryip_edge_shuf` | **62.0%**（124）· B−C=−2.0 pp |
 
-产物：[`region_edge_n200/`](../VQA/eval_results/queryip_samek/region_edge_n200/)。
+产物：[`region_edge_n200/`](../VLM/eval_results/queryip_samek/region_edge_n200/)。
 
 **验证结论（口径锁死）：**
 

@@ -20,7 +20,7 @@
 
 新结果统一放在：
 
-`VQA/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1/`
+`VLM/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1/`
 
 新建独立.py/.sh与CPU测试。原定位、解析、QA脚本和全部历史缓存/汇总不修改。候选协议锁定：7/4/19范围、完整30题、原QA文本、逐题冻结帧、定位结果/曲线/文本向量来源SHA、旧noobs和uniform逐题记录SHA、本地Mage身份、处理器/适配器/统计源码与依赖身份。
 
@@ -56,13 +56,13 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh test-cpu &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh init &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh preflight &&
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh test-cpu &&
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh init &&
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh preflight &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh audit-inputs &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh run &&
-bash VQA/mage_vl/air_v1/run_leaf_qa30.sh summarize
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh audit-inputs &&
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh run &&
+bash VLM/mage_vl/air_v1/run_leaf_qa30.sh summarize
 ```
 
 入口均先查分支/df/du，剩余空间少于10GiB或AIR结果目录超过1GiB即停，不自动清理。所有新缓存/临时文件在独立结果目录。离线本地模型，无安装/下载/API或env读取。CPU审计与QA均带tqdm，并按题恢复。

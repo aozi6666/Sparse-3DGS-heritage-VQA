@@ -33,7 +33,7 @@
 
 ## 4. 可审阅输出与省盘
 
-统一目录：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_leaf_localization_probe_v1/`。
+统一目录：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_leaf_localization_probe_v1/`。
 
 - candidate.json：源码、范围、查询、缓存/模型/视频身份和固定预算。
 - text_features：每个唯一查询一个带SHA的文本向量，小型JSON，可恢复；只编码缺失项。
@@ -59,14 +59,14 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh test-cpu &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh init &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh preflight &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh test-cpu &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh init &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh preflight &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh encode &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh locate &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh render &&
-bash VQA/mage_vl/air_v1/run_leaf_probe.sh summarize
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh encode &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh locate &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh render &&
+bash VLM/mage_vl/air_v1/run_leaf_probe.sh summarize
 ```
 
 原命令可恢复，不重跑已完成编码。无DeepSeek授权参数，不读取env。最多32帧预算只描述拟议QA输入；本轮不会运行QA。

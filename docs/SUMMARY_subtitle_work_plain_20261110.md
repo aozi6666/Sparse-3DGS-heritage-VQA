@@ -97,8 +97,8 @@ flowchart TD
 
 追溯入口（均相对服务器项目根目录`/root/autodl-tmp/Sparse-3DGS-heritage-VQA`）：
 
-- 方法：`VQA/mage_vl/practical/continuous_common.py`、`continuous_mage.py`；Codec入口：`VQA/mage_vl/codec_full714_32768/`。
-- 模型组成：`VQA/mage_vl/models/config.json`、`modeling_mage_vl.py`。
-- Frames与消融：`VQA/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/results/full714/summary.json`。
-- Codec完整结果：`VQA/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json`。
+- 方法：`VLM/mage_vl/practical/continuous_common.py`、`continuous_mage.py`；Codec入口：`VLM/mage_vl/codec_full714_32768/`。
+- 模型组成：`VLM/mage_vl/models/config.json`、`modeling_mage_vl.py`。
+- Frames与消融：`VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/results/full714/summary.json`。
+- Codec完整结果：`VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json`。
 - 分阶段原始结果与成本：`docs/SUMMARY_mage_subtitle_final_results_20261103.md`；组件限制：`docs/ANALYSIS_subtitle_ablation_full714_20261106.md`。

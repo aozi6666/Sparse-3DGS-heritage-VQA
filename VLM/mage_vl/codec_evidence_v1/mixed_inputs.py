@@ -94,7 +94,7 @@ class Engine:
 
     def text(self, row):
         # Import only pure formatting helpers, never old context/init/run.
-        sys.path.insert(0, str(p.PROJECT / 'VQA/mage_vl/practical'))
+        sys.path.insert(0, str(p.PROJECT / 'VLM/mage_vl/practical'))
         from subtitle_common import subtitle_prompt
         return subtitle_prompt(row, self.m['videos'][row['video_id']]['subtitle_text'])
 

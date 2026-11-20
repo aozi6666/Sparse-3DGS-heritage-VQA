@@ -28,12 +28,12 @@ v1在12题96个任务中88份最终报告非法，48份达到384新token上限�
 
 ## 输出与执行边界
 
-全部新成果：VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/。逐调用记录原始token、文本、输入tensor SHA、实际原时间映射、成本；文本向量/窗口/逐题断点独立保存；同命令可恢复。代码/输入漂移拒绝覆盖。沿用GPU锁、磁盘空闲10GiB和AIR根1GiB限制；不保存视频帧副本，不复制权重，不安装依赖。
+全部新成果：VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/。逐调用记录原始token、文本、输入tensor SHA、实际原时间映射、成本；文本向量/窗口/逐题断点独立保存；同命令可恢复。代码/输入漂移拒绝覆盖。沿用GPU锁、磁盘空闲10GiB和AIR根1GiB限制；不保存视频帧副本，不复制权重，不安装依赖。
 
 助手只做CPU验证；GPU生成由用户执行。先给smoke3命令，审阅后再按冻结规则运行30题。旧v1全部保留，回退只需停止新入口。
 
 ## 实现与验证记录
 
-独立入口：VQA/mage_vl/air_v1/run_condition_clips_v2.sh；完整命令与边界：README_condition_clips_v2.md。条件状态支持J编号引用本轮联合证据，避免把多事件顺序强行绑定到单一片段；这仍只是模型引用，不证明联合证据完备。
+独立入口：VLM/mage_vl/air_v1/run_condition_clips_v2.sh；完整命令与边界：README_condition_clips_v2.md。条件状态支持J编号引用本轮联合证据，避免把多事件顺序强行绑定到单一片段；这仍只是模型引用，不证明联合证据完备。
 
 2026-11-04：29项CPU测试通过；原30题缓存干跑、3视频9组真实处理器输入、4组真实tokenizer/HF约束检查通过。自动上下文直接定位已锁定的旧特征，不调用会读取旧答案账本的基线context。读取拦截检查人工定位、GT与旧预测/答案账本均无触发。助手未加载权重、未执行模型生成，实际事实和条件判断效果尚未知。

@@ -9,7 +9,7 @@
         │         3DGS/GaussianObject + 3DGS/vggt + Drop
         │
         └─► 工作 B：Mage-VL 理解 + 评测 ──► 语义回答 / Video-MME 等指标
-                  VQA/mage_vl + VQA/VLMEvalKit
+                  VLM/mage_vl + VLM/VLMEvalKit
                         │
                         └─►（后续）定位对上 + 融合：问答 / 导览 / 3D 漫游
 ```
@@ -20,9 +20,9 @@
 
 ## 工作 B（本仓已 vendoring）
 
-- 推理/理解代码：`VQA/mage_vl/`（无大权重；权重外置）  
-- 评测代码：`VQA/VLMEvalKit/`（含本项目对 Video-MME / config 的修改）  
-- 已跑通指标：`VQA/eval_results/`  
+- 推理/理解代码：`VLM/mage_vl/`（无大权重；权重外置）  
+- 评测代码：`VLM/VLMEvalKit/`（含本项目对 Video-MME / config 的修改）  
+- 已跑通指标：`VLM/eval_results/`  
 
 ## 尚未实现
 

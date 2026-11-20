@@ -17,7 +17,7 @@ import sys
 import time
 
 PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-sys.path[:0]=[str(PROJECT/'VQA/mage_vl/practical'),str(PROJECT/'VQA/mage_vl/subtitle_ablation_v1')]
+sys.path[:0]=[str(PROJECT/'VLM/mage_vl/practical'),str(PROJECT/'VLM/mage_vl/subtitle_ablation_v1')]
 import subtitle_ablation as common
 from practical_common import ROOT,MODEL,SLOT,signature,sha,prompt,parse_answer
 from subtitle_common import subtitle_source,subtitle_prompt
@@ -107,7 +107,7 @@ def init():
         require(len(chosen)==3 and all(r['index'] in old for r in chosen),'缺少三题原生Codec基线')
         rows.extend(chosen);video=first['video_path'];name=cache_name(video)
         hits=[]
-        for root in [ROOT/'cache/codec',PROJECT/'VQA/mage_vl/outputs/r2v_codec_cache']:
+        for root in [ROOT/'cache/codec',PROJECT/'VLM/mage_vl/outputs/r2v_codec_cache']:
             hits.extend(root.rglob(name+'/meta.json'))
         require(len(hits)==1,'缓存缺失或重复，停止，不自动生成/替换:'+name)
         fp=hits[0];meta=json.loads(fp.read_text());fps,n=validate_meta(meta,video)

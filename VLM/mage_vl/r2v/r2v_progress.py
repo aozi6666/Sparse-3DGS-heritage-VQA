@@ -39,7 +39,7 @@ def main():
         f"px{os.environ.get('R2V_MAX_PIXELS', '150000')}_f{os.environ.get('R2V_FRAMES', '32')}")
     if not re.fullmatch(r'[A-Za-z0-9_-]+', tag):
         p.error('实验标签只允许字母数字下划线横线')
-    data = Path(os.environ.get('MAGE_VIDEOMME_ROOT', str(project/'VQA/mage_vl/data/VideoMME')))
+    data = Path(os.environ.get('MAGE_VIDEOMME_ROOT', str(project/'VLM/mage_vl/data/VideoMME')))
     with (data/'Video-MME.tsv').open(encoding='utf-8-sig', newline='') as f:
         rows = [r for r in csv.DictReader(f, delimiter='\t') if r['duration'] == 'short']
     if args.phase == 'smoke':
@@ -47,7 +47,7 @@ def main():
     expected = {r['index'] for r in rows}
     if not expected or len(expected) != len(rows):
         raise ValueError('数据集为空或 index 重复')
-    result = project/'VQA/eval_results/r2v_mage'/tag/args.phase/'pair_short.jsonl'
+    result = project/'VLM/eval_results/r2v_mage'/tag/args.phase/'pair_short.jsonl'
     initial = completed(result, expected)
     print(f'已完成完整配对 {initial}/{len(expected)} 题；重跑此命令会跳过已完成题。', flush=True)
     env = dict(os.environ, PYTHONUNBUFFERED='1')

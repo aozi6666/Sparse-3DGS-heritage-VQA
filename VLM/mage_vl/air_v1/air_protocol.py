@@ -3,10 +3,10 @@ import hashlib,json,math,os,shutil,subprocess
 from pathlib import Path
 
 PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-OLD=PROJECT/'VQA/eval_results/practical_mage_v1'
+OLD=PROJECT/'VLM/eval_results/practical_mage_v1'
 ROOT=OLD/'18_air_frames_v1'
-MODEL=PROJECT/'VQA/mage_vl/models'
-CLIP=PROJECT/'VQA/models/CLIP-ViT-Large-patch14'
+MODEL=PROJECT/'VLM/mage_vl/models'
+CLIP=PROJECT/'VLM/models/CLIP-ViT-Large-patch14'
 REFERENCE=Path('/root/autodl-tmp/references/A.I.R.')
 BRANCH='feat/air-visual-evidence'
 REVISION='native_uniform_fix1'

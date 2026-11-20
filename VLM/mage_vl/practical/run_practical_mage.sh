@@ -13,7 +13,7 @@ FFMPEG_DIR="${R2V_FFMPEG_DIR:-/root/autodl-tmp/VLMEvalKit/ffmpeg_linux}"
 export PATH="$FFMPEG_DIR:$PATH"
 export CV_PREINFER_BIN="${CV_PREINFER_BIN:-$ENV_DIR/bin/cv-preinfer}"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
-DIR="$PROJECT/VQA/mage_vl/practical"
+DIR="$PROJECT/VLM/mage_vl/practical"
 ACTION="${1:-preflight}"
 STAGE="${2:-smoke}"
 COMMON=(--frames "${PRACTICAL_FRAMES:-32}" --min-free "${PRACTICAL_MIN_FREE_GB:-10}" --budget "${PRACTICAL_BUDGET_GB:-1}")

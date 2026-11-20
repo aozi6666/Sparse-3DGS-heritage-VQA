@@ -4,7 +4,7 @@
 - `base_commit=6f0370704932cec0d9aa1e73f01954cd786c57ea`
 - Generated from the working tree used for Video-MME experiments.
 
-The runnable code **already includes** these edits under `VQA/VLMEvalKit/`.
+The runnable code **already includes** these edits under `VLM/VLMEvalKit/`.
 Use patches only when rebasing onto a newer upstream.
 
 Files:

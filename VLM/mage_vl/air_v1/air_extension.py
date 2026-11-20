@@ -61,7 +61,7 @@ def summarize(source,c):
     if p.sha(path)!=lock['labels_sha256']:raise ValueError('标签来源漂移')
     labels=json.loads(path.read_text());rows=source['rows']
     import sys
-    sys.path.insert(0,str(p.PROJECT/'VQA/mage_vl/practical'))
+    sys.path.insert(0,str(p.PROJECT/'VLM/mage_vl/practical'))
     from practical_analyze import comparison
     arms=h.ARMS
     preds={arm:{r['index']:(c['units'][r['index']] if arm=='hybrid32' else source['units'][f'{r["index"]}:{arm}'])['pred'] for r in rows} for arm in arms}

@@ -11,10 +11,10 @@ import random
 import re
 
 PROJECT = Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-ROOT = PROJECT/'VQA/eval_results/practical_mage_v1'
-MODEL = PROJECT/'VQA/mage_vl/models'
-DATA = PROJECT/'VQA/mage_vl/data/VideoMME'
-OLD_CACHE = PROJECT/'VQA/mage_vl/outputs/r2v_codec_cache'
+ROOT = PROJECT/'VLM/eval_results/practical_mage_v1'
+MODEL = PROJECT/'VLM/mage_vl/models'
+DATA = PROJECT/'VLM/mage_vl/data/VideoMME'
+OLD_CACHE = PROJECT/'VLM/mage_vl/outputs/r2v_codec_cache'
 LETTERS = 'ABCD'
 SLOT = '__PRACTICAL_MAGE_QUESTION_SLOT_V1__'
 PROMPT = ('These are the frames of a video. Select the best answer to the following '

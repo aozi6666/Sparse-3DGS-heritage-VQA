@@ -5,9 +5,9 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 [[ "$(git branch --show-current)" == feat/air-visual-evidence ]] || { echo '分支不符，保留现场';exit 1; }
 df -h /root/autodl-tmp
-du -sh VQA/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
-DIR="$PWD/VQA/mage_vl/air_v1"
-RESULT="$PWD/VQA/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1"
+du -sh VLM/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
+DIR="$PWD/VLM/mage_vl/air_v1"
+RESULT="$PWD/VLM/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1"
 export PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false
 export HF_HOME="$RESULT/hf_home" HF_MODULES_CACHE="$RESULT/hf_modules" TORCH_HOME="$RESULT/torch_home" CUDA_CACHE_PATH="$RESULT/cuda_cache" TRITON_CACHE_DIR="$RESULT/triton_cache"
 export XDG_CACHE_HOME="$RESULT/xdg_cache" TORCHINDUCTOR_CACHE_DIR="$RESULT/torch_inductor" PYTORCH_KERNEL_CACHE_PATH="$RESULT/torch_kernel_cache"

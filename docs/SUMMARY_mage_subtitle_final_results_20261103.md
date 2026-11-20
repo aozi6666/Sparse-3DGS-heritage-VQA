@@ -54,7 +54,7 @@
 
 ## 5. 图、数据和案例
 
-成果目录：[完整离线成果](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/)。原始summary/预测/JSONL原位保留；新source_manifest记录来源大小与SHA，summary快照另存，不复制模型和视频。
+成果目录：[完整离线成果](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/)。原始summary/预测/JSONL原位保留；新source_manifest记录来源大小与SHA，summary快照另存，不复制模型和视频。
 
 - stage_duration_metrics.csv / .json：四阶段、分时长三路准确率。
 
@@ -73,23 +73,23 @@
 
 ### 四阶段准确率，保留角色区分
 
-![四阶段准确率，保留角色区分](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.png)
+![四阶段准确率，保留角色区分](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.png)
 
 ### 各划分内部的分时长准确率
 
-![各划分内部的分时长准确率](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.png)
+![各划分内部的分时长准确率](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.png)
 
 ### 纠错与误伤，含净增
 
-![纠错与误伤，含净增](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.png)
+![纠错与误伤，含净增](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.png)
 
 ### 固定视觉配置下的输入token成本
 
-![固定视觉配置下的输入token成本](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.png)
+![固定视觉配置下的输入token成本](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.png)
 
 ### 配对准确率差及视频聚类区间
 
-![配对准确率差及视频聚类区间](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.png)
+![配对准确率差及视频聚类区间](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.png)
 
 ## 7. 收尾与后续
 

@@ -29,7 +29,7 @@
 
 ## 断点、日志与省盘
 
-所有新成果位于 VQA/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/：
+所有新成果位于 VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/：
 
 - protocol.json、bundle.json、planned_work.json：配置、只读旧结果快照、逐题字幕和待执行列表；
 - units/{index}_{arm}.json：逐题原始输出、答案、输入/token/Tensor哈希、来源核对、生成长度、耗时和峰值显存；

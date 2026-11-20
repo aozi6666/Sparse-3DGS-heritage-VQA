@@ -1,0 +1,224 @@
+[
+  {
+    "path": "VGGT-Object/.gitignore",
+    "before_sha256": "8166165c8f898ef7b38ce8b1ef9e4cc36957cad40b5f185d2df6b05b75a937ee",
+    "after_sha256": "8166165c8f898ef7b38ce8b1ef9e4cc36957cad40b5f185d2df6b05b75a937ee",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/AGENTS.md",
+    "before_sha256": "6b8129ef15635acf0263a1c0eb9001aa034d8019d95772c4cd5c0c7416f9ef40",
+    "after_sha256": "6b8129ef15635acf0263a1c0eb9001aa034d8019d95772c4cd5c0c7416f9ef40",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/AGGREGATOR_LORA_SMOKE.md",
+    "before_sha256": "47305068c9b623ebc79a54c82ec885cd0ac5273efd1b792d6a091bcc15fbad95",
+    "after_sha256": "47305068c9b623ebc79a54c82ec885cd0ac5273efd1b792d6a091bcc15fbad95",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/DATA_FORMAT.md",
+    "before_sha256": "754dad47e7545001d355ac2e7088f602980c29603177fcdafda37958843facb4",
+    "after_sha256": "754dad47e7545001d355ac2e7088f602980c29603177fcdafda37958843facb4",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/DATA_LAYOUT.md",
+    "before_sha256": "e78f1c68e310fed498b96604fd2b65923d820f1e6431ff09b22787cabfa51cd7",
+    "after_sha256": "e78f1c68e310fed498b96604fd2b65923d820f1e6431ff09b22787cabfa51cd7",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/README.md",
+    "before_sha256": "2358f60f28383da73ff1ded13bcc564993df95f00ae0f2051f3bd94197aa50dd",
+    "after_sha256": "2358f60f28383da73ff1ded13bcc564993df95f00ae0f2051f3bd94197aa50dd",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/REVIEW_DESIGN_V3.md",
+    "before_sha256": "c45a2ab4f14b0eac30a5dbe25e200ca58ff879d0a49ddfaaf1abc2a227456b56",
+    "after_sha256": "c45a2ab4f14b0eac30a5dbe25e200ca58ff879d0a49ddfaaf1abc2a227456b56",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/configs/base.yaml",
+    "before_sha256": "a5501a125fc4f60acfa4f6043cb8716980b2bf043ff47bf55a29326b312e5bf6",
+    "after_sha256": "a5501a125fc4f60acfa4f6043cb8716980b2bf043ff47bf55a29326b312e5bf6",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/configs/data_sources.yaml",
+    "before_sha256": "c751cf258eb18071bba91513330c61c33783c9d1abb97d0da77822abeb3d2bce",
+    "after_sha256": "c751cf258eb18071bba91513330c61c33783c9d1abb97d0da77822abeb3d2bce",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/configs/experiments.yaml",
+    "before_sha256": "6a523e5a2ae8b2e577fcee7cc2e02d6ac5e9ffd4c9f8df550fefea11081eb7d8",
+    "after_sha256": "6a523e5a2ae8b2e577fcee7cc2e02d6ac5e9ffd4c9f8df550fefea11081eb7d8",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/configs/phases.yaml",
+    "before_sha256": "b970052699d015a681f3fe5a38f99b99618bc44f3fcd6543d0fe8fff8c7887bd",
+    "after_sha256": "b970052699d015a681f3fe5a38f99b99618bc44f3fcd6543d0fe8fff8c7887bd",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/run.sh",
+    "before_sha256": "3b36bd744badb525d84e08752c88b848f04c0bf5a3e168c3348d290510ff8189",
+    "after_sha256": "3b36bd744badb525d84e08752c88b848f04c0bf5a3e168c3348d290510ff8189",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/scripts/summarize_review.py",
+    "before_sha256": "8b6f3b693cdbe58312fde7b3865d46e972e49ae1feae6c7875988be4312c07ea",
+    "after_sha256": "8b6f3b693cdbe58312fde7b3865d46e972e49ae1feae6c7875988be4312c07ea",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/tests/test_aggregator_lora.py",
+    "before_sha256": "4b07604e503fe4edb2955465af9ee8d255ff006256bbc411339e2e984ce3d0a2",
+    "after_sha256": "4b07604e503fe4edb2955465af9ee8d255ff006256bbc411339e2e984ce3d0a2",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/tests/test_bundle.py",
+    "before_sha256": "66d5935d7437010579155b9486300834c289085d025411e193272eca1ad912bc",
+    "after_sha256": "66d5935d7437010579155b9486300834c289085d025411e193272eca1ad912bc",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/tests/test_cpu.py",
+    "before_sha256": "09c59a651a4393caf5b3a9f3381575dc553b1d6de59c43d3a80a1c6b82efa24e",
+    "after_sha256": "09c59a651a4393caf5b3a9f3381575dc553b1d6de59c43d3a80a1c6b82efa24e",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/__init__.py",
+    "before_sha256": "a9a8f901f56483ced9d483c8752132abf17f2b9352e29129983c02b19aa712aa",
+    "after_sha256": "a9a8f901f56483ced9d483c8752132abf17f2b9352e29129983c02b19aa712aa",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/aggregator_lora.py",
+    "before_sha256": "ec64216b67ed5acde90f156b8fa6fbf4561ae0150673a02abd9fafdada30022f",
+    "after_sha256": "ec64216b67ed5acde90f156b8fa6fbf4561ae0150673a02abd9fafdada30022f",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/aggregator_smoke.py",
+    "before_sha256": "03cc418641e93b93c4dcbb5709ceea55451be7f8d42947f1e53445c29ec35f43",
+    "after_sha256": "03cc418641e93b93c4dcbb5709ceea55451be7f8d42947f1e53445c29ec35f43",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/bundle.py",
+    "before_sha256": "32d908148a38ce5e9abda21adbbb8a5c21c29592558030f6bb32fc227ae84835",
+    "after_sha256": "32d908148a38ce5e9abda21adbbb8a5c21c29592558030f6bb32fc227ae84835",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/checkpoint.py",
+    "before_sha256": "6c7dd2414d3808b32b1f5d6f13c17d158ece7d835afa40562a155cc562fbe60b",
+    "after_sha256": "6c7dd2414d3808b32b1f5d6f13c17d158ece7d835afa40562a155cc562fbe60b",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/cli.py",
+    "before_sha256": "0f6c5419f74a7c7bd6291f567b44f4e8eac9a04b025efc179fff68a2bb59075c",
+    "after_sha256": "5faa5b0f7ba9f83f81d96a5ea6e2db8c0e751e55ac7c2c16ddacf83b3053a319",
+    "status": "only allow main branch in CPU entry guard; no training math change"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/common.py",
+    "before_sha256": "06a9441a03b06f0f1bc2bbe62313656f55b01894cfac58277c7323c93462a9a4",
+    "after_sha256": "06a9441a03b06f0f1bc2bbe62313656f55b01894cfac58277c7323c93462a9a4",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/data.py",
+    "before_sha256": "476680511b4eece3a8635a1ce84412f8ac42cc487465c5a3b7158026477b2a0a",
+    "after_sha256": "476680511b4eece3a8635a1ce84412f8ac42cc487465c5a3b7158026477b2a0a",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/downstream.py",
+    "before_sha256": "b4cb0b0c744cbbf60440c1c2c4e01c9325761bfaacc677c28b5eca4c688fb6dc",
+    "after_sha256": "b4cb0b0c744cbbf60440c1c2c4e01c9325761bfaacc677c28b5eca4c688fb6dc",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/evaluate.py",
+    "before_sha256": "10fbeb2e15706abaa4a2769be8a3d0cf43a12d78fcd9ba6aed3f840bf3363cf1",
+    "after_sha256": "10fbeb2e15706abaa4a2769be8a3d0cf43a12d78fcd9ba6aed3f840bf3363cf1",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/geometry.py",
+    "before_sha256": "1f8eda2fab909111ac79c08792e015ad9cebb04873d082480df2c3522a87a47a",
+    "after_sha256": "1f8eda2fab909111ac79c08792e015ad9cebb04873d082480df2c3522a87a47a",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/losses.py",
+    "before_sha256": "d58b1c856b0d28d4e6a46e7ad97360af0169a95761c67dc5f6dd019d5c6cf869",
+    "after_sha256": "d58b1c856b0d28d4e6a46e7ad97360af0169a95761c67dc5f6dd019d5c6cf869",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/metrics.py",
+    "before_sha256": "f3e50daf035da63c14f0e95d79ad15b15e2f43463ba63887064bcda17a22bbda",
+    "after_sha256": "f3e50daf035da63c14f0e95d79ad15b15e2f43463ba63887064bcda17a22bbda",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/model.py",
+    "before_sha256": "887e02eec679f598ca3f674a880b238eb05de2efcd98296862e6c1e46439ac49",
+    "after_sha256": "887e02eec679f598ca3f674a880b238eb05de2efcd98296862e6c1e46439ac49",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/prepare.py",
+    "before_sha256": "1534491513171db8890844ec3086641e5162caa6872858dbdf13c904be590a1a",
+    "after_sha256": "1534491513171db8890844ec3086641e5162caa6872858dbdf13c904be590a1a",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/train.py",
+    "before_sha256": "98ccb04952cff03455b86bae8f5072a6c733ae2d532ea4d36746cdb10f2b4d4f",
+    "after_sha256": "98ccb04952cff03455b86bae8f5072a6c733ae2d532ea4d36746cdb10f2b4d4f",
+    "status": "byte-identical"
+  },
+  {
+    "path": "3DGS/vggt/models/model.pt",
+    "before_sha256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0",
+    "after_sha256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/experiments/depth_full_pilot_v3/best/depth_head.safetensors",
+    "before_sha256": "192a8157e0671e7095e727bec913bd88cb41c25749b32e6e6897a72ba3451040",
+    "after_sha256": "192a8157e0671e7095e727bec913bd88cb41c25749b32e6e6897a72ba3451040",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/best/depth_head.safetensors",
+    "before_sha256": "29490343f146bf671f587ae18844d6964fa9cc6981064ea92f4a9d7a816f45ea",
+    "after_sha256": "29490343f146bf671f587ae18844d6964fa9cc6981064ea92f4a9d7a816f45ea",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/latest/aggregator_lora.safetensors",
+    "before_sha256": "5f1b919f09920b565f7df1f5e7d4e3dfe7bc8a2efbc4fd30c1cca0c09d4f4e5b",
+    "after_sha256": "5f1b919f09920b565f7df1f5e7d4e3dfe7bc8a2efbc4fd30c1cca0c09d4f4e5b",
+    "status": "byte-identical"
+  },
+  {
+    "path": "VGGT-Object/data/manifests/objects_review_v2.json",
+    "before_sha256": "927bc4d6239fae7f7b1ee75d7c9c3ba38eb82488a1bb8d30ccf703db6a557fc4",
+    "after_sha256": "927bc4d6239fae7f7b1ee75d7c9c3ba38eb82488a1bb8d30ccf703db6a557fc4",
+    "status": "byte-identical"
+  }
+]

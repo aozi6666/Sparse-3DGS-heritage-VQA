@@ -26,7 +26,7 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ## 2. 新代码与固定范围
 
-入口：`VQA/mage_vl/practical/run_subtitle_completion.sh`。
+入口：`VLM/mage_vl/practical/run_subtitle_completion.sh`。
 
 - `subtitle_completion_common.py`：锁定旧协议、字幕源、证据和配置，逐条审计结果及复用来源。
 - `subtitle_completion_run.py`：原生输入校验、限定范围推理、逐答案落盘和 tqdm。
@@ -56,9 +56,9 @@ cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 { [ "$(git branch --show-current)" = vlm ] || git switch vlm; } &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh init budget &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh run budget &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh summarize budget
+bash VLM/mage_vl/practical/run_subtitle_completion.sh init budget &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh run budget &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh summarize budget
 ```
 
 允许中断后原样重跑。`git switch` 不带任何强制选项；如果现有改动导致切换被拒绝，停止，不覆盖或丢弃改动。
@@ -77,18 +77,18 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh prepare-short &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh freeze-short budget --tokens 2048 &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh init short &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh run short &&
-bash VQA/mage_vl/practical/run_subtitle_completion.sh summarize short
+bash VLM/mage_vl/practical/run_subtitle_completion.sh prepare-short &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh freeze-short budget --tokens 2048 &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh init short &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh run short &&
+bash VLM/mage_vl/practical/run_subtitle_completion.sh summarize short
 ```
 
 short219 已参与历史开发，只能作为覆盖性评测。val90 已参与诊断。**test225 继续保留**；本入口不提供 val、test、full 模式。
 
 ## 5. 保存与省盘
 
-全部新产物归 `VQA/eval_results/practical_mage_v1/`：
+全部新产物归 `VLM/eval_results/practical_mage_v1/`：
 
 - `14_subtitle_completion/budget3072_candidate.json`：预算协议、变化题清单、旧来源和源码哈希。
 - `14_subtitle_completion/budget3072_dev180/`：运行清单、逐题预测、汇总。

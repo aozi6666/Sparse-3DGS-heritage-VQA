@@ -4,8 +4,8 @@ set -euo pipefail
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 test "$(git branch --show-current)" = feat/air-visual-evidence
-entry=VQA/mage_vl/codec_full714_v1/run_codec_full714.sh
-out="$PWD/VQA/eval_results/practical_mage_v1/23_codec_full714_v1"
+entry=VLM/mage_vl/codec_full714_v1/run_codec_full714.sh
+out="$PWD/VLM/eval_results/practical_mage_v1/23_codec_full714_v1"
 mkdir -p "$out/logs"
 times="$(mktemp "$out/logs/pipeline_walltime_XXXXXXXX.tsv")"
 printf 'action\tstart_epoch\tend_epoch\tstatus\n' > "$times"

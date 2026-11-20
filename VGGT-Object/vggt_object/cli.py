@@ -12,8 +12,8 @@ def check(cfg):
     from .model import create
     from .bundle import sources
     branch=subprocess.check_output(['git','branch','--show-current'],cwd=REPO,text=True).strip()
-    if branch!='feat/sparse-vcar-seg':
-        raise RuntimeError(f'Expected feat/sparse-vcar-seg; found {branch}; no automatic branch switch')
+    if branch not in ('main','feat/sparse-vcar-seg'):
+        raise RuntimeError(f'Expected main or legacy feat/sparse-vcar-seg; found {branch}; no automatic branch switch')
     # No allocation of real 1B parameters and no CUDA calls. Strictly compare local checkpoint key shapes.
     model,stats=create(cfg,device='cpu',meta_only=True)
     state=torch.load(cfg['base_checkpoint'],map_location='cpu',weights_only=True,mmap=True)

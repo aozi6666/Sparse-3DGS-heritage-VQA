@@ -23,12 +23,12 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh init smoke3 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh preflight smoke3 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh init smoke3 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh preflight smoke3 &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh run smoke3 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh summarize smoke3 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh check-smoke smoke3
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh run smoke3 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh summarize smoke3 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh check-smoke smoke3
 ```
 
 读取results/smoke3/review_packet.json，确认短观察是否贴合画面、E是否越过题目条件。如果仍重复或事实不可信，先诊断，不因为状态码合法就扩样。check-smoke只检查工程门槛：每题16调用齐全、观察非空/无明显循环/无占位文字、24段观察中最多6段达到token上限。它不会判断事实真假。
@@ -39,18 +39,18 @@ bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh check-smoke smoke3
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh check-smoke smoke3 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh preflight diag30 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh check-smoke smoke3 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh preflight diag30 &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh run diag30 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_v2.sh summarize diag30
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh run diag30 &&
+bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh summarize diag30
 ```
 
 重复同一命令即可断点继续，逐题/逐片段tqdm及完整日志。每调用、查询向量、窗口、题目断点分别校验来源和代码签名，冲突或损坏停止，保留现场。
 
 ## 输出和判断标准
 
-新根目录：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/`。
+新根目录：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/`。
 
 - `candidate.json`：冻结30题与来源、模型、代码签名。
 - `calls/`：所有短观察和状态码，原始token/帧/秒/输入tensor哈希和成本。

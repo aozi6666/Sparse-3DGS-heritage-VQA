@@ -116,7 +116,7 @@ flowchart TD
 
 ### 4.2 已实际使用的基础架构与协议
 
-- **Mage-VL：** [官方仓库](https://github.com/microsoft/Mage)。使用已有Mage-ViT视觉编码器和Qwen3语言解码器；当前主路线是Frames后端，不是新Codec选区方法。没有改视觉权重、语言权重、3D RoPE或流式门控。项目代码为`VQA/mage_vl/models/`及`VQA/mage_vl/practical/`。
+- **Mage-VL：** [官方仓库](https://github.com/microsoft/Mage)。使用已有Mage-ViT视觉编码器和Qwen3语言解码器；当前主路线是Frames后端，不是新Codec选区方法。没有改视觉权重、语言权重、3D RoPE或流式门控。项目代码为`VLM/mage_vl/models/`及`VLM/mage_vl/practical/`。
 - **Video-MME：** [官方仓库与评测协议](https://github.com/MME-Benchmarks/Video-MME#-evaluation-pipeline)。遵循采样帧对应字幕的输入范围，保持单选题准确率统计。这是已有做法，不作为原创算法主张。
 - **VLMEvalKit：** [官方仓库](https://github.com/open-compass/VLMEvalKit)。参考其带字幕评测组织方式；没有直接执行会落盘抽帧的完整字幕构建入口，也没有混用其采样索引。字幕由Mage本次实际采样时间匹配。
 - **本项目适配：** `subtitle_common.py`负责SRT解析、真实时间匹配与恢复校验；`practical_subtitles.py`负责原生输入捕获、冻结推理和回退；`subtitle_analyze.py`只在离线阶段读取GT并统计。阶段结果带代码、数据、字幕和模型身份记录；该可追溯性属于工程保证，不等于事实正确性保证。
@@ -130,7 +130,7 @@ flowchart TD
 - **VideoHV-Agent：** [官方实现](https://github.com/Haorane/VideoHV-Agent)。参考候选假设与证据核查的研究问题；当前没有使用多Agent、外部验证API或完整检测/跟踪工具链。不能把Mage自产解释当成独立验证证据。
 - **VCD：** [官方实现](https://github.com/DAMO-NLP-SG/VCD)。参考通过视觉对比减少语言先验偏差的思想；当前没有噪声视觉分支、对比解码或生成循环补丁，不宣称利用了VCD架构。
 
-三个本地参考仓库的来源及关键文件哈希保存在`VQA/eval_results/practical_mage_v1/00_sources/audit.json`；该记录注明本轮未直接导入或复制其运行代码。不能把“读过的论文”写成“已经拼接的模块”。
+三个本地参考仓库的来源及关键文件哈希保存在`VLM/eval_results/practical_mage_v1/00_sources/audit.json`；该记录注明本轮未直接导入或复制其运行代码。不能把“读过的论文”写成“已经拼接的模块”。
 
 ## 5. 数据集、指标与主表选择
 
@@ -166,12 +166,12 @@ flowchart TD
 - [x] Frames-32＋对齐字幕开发评估完成：180题65.00%，新增90题保持正净收益；保留长视频净收益为零的限制。
 - [x] 换序/置信度门控/纯增加帧数的弱或负结果保留，不再追加无边界参数搜索。
 - [x] 固化本摘要使用的结果来源和协议；2026-11-03已归档`07_archive/subtitles_dev60_v1.json`并登记`10_subtitle_holdout/candidate_val_v1.json`，当前配置作为唯一验证候选，不按题型或GT改用不同输出。
-- [x] 新增独立val90配对入口：`run_subtitle_holdout.sh`，本次生成同题无字幕／带字幕两路，缺字幕复用本次无字幕回答，保留旧开发签名。78项CPU检查通过、真实清单已准备，助手未运行验证推理；详见[`SUBTITLE_HOLDOUT_README.md`](../VQA/mage_vl/practical/SUBTITLE_HOLDOUT_README.md)。
+- [x] 新增独立val90配对入口：`run_subtitle_holdout.sh`，本次生成同题无字幕／带字幕两路，缺字幕复用本次无字幕回答，保留旧开发签名。78项CPU检查通过、真实清单已准备，助手未运行验证推理；详见[`SUBTITLE_HOLDOUT_README.md`](../VLM/mage_vl/practical/SUBTITLE_HOLDOUT_README.md)。
 - [ ] 验证后冻结与test225入口尚待补齐；现有新入口只支持val，不因准备了候选清单就宣称已完成独立验证或测试冻结。
 - [x] val90已完成并披露负结果：无字幕53/90、对齐字幕52/90，救回7、误伤8；不据此冻结原配置进入全量。val已参与诊断，后续不再称为未参与改进的独立证据。
 - [ ] 用户授权连续补句＋时间标记、DeepSeek实际图片序列首答及证据复核，工程已搭建；先分别执行开发对照和API smoke，再判断是否扩pilot。test225保留，暂不训练、不开全量。
 - [ ] 最后补齐714题，按开发/验证/测试/short历史开发分开汇总；复用身份一致的已完成单元，保存provenance，不自动重跑或丢弃旧结果。
-- [ ] 结果、日志、断点与新缓存继续统一到`VQA/eval_results/practical_mage_v1/`；每次准备运行检查df/du，默认保留10GiB、实验根1GiB软预算。助手不代跑推理/训练/下载，不删除旧文件。
+- [ ] 结果、日志、断点与新缓存继续统一到`VLM/eval_results/practical_mage_v1/`；每次准备运行检查df/du，默认保留10GiB、实验根1GiB软预算。助手不代跑推理/训练/下载，不删除旧文件。
 
 ### 6.2 P1：对比与消融
 
@@ -217,10 +217,10 @@ flowchart TD
 
 ### 6.5 当前证据索引与论文落笔
 
-- 主结果：`../VQA/eval_results/practical_mage_v1/09_subtitles/dev60/f32_px150000_aligned_sub_v1/summary.json`及同目录`predictions.json`。
-- 原始字幕单元与时间证据：`../VQA/eval_results/practical_mage_v1/cache/subtitles/d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e/`。
-- 旧换序/加帧归档与结果：`../VQA/eval_results/practical_mage_v1/07_archive/`、`03_dev60/`、`08_coverage/`。
-- 全部实施约定：[`PLAN_r2v_practical_accuracy_gain.md`](PLAN_r2v_practical_accuracy_gain.md)；旧双门控归档：[`PLAN_r2v_mage_cfsar.md`](PLAN_r2v_mage_cfsar.md)；运行说明：[`SUBTITLES_README.md`](../VQA/mage_vl/practical/SUBTITLES_README.md)。旧计划顶部状态可能停留在实施时点，当前180题事实以本摘要所指的实际结果文件为准。
+- 主结果：`../VLM/eval_results/practical_mage_v1/09_subtitles/dev60/f32_px150000_aligned_sub_v1/summary.json`及同目录`predictions.json`。
+- 原始字幕单元与时间证据：`../VLM/eval_results/practical_mage_v1/cache/subtitles/d0595146a0a8ace17ca37b906c2030fbabeefface296824dd8206a3305484d4e/`。
+- 旧换序/加帧归档与结果：`../VLM/eval_results/practical_mage_v1/07_archive/`、`03_dev60/`、`08_coverage/`。
+- 全部实施约定：[`PLAN_r2v_practical_accuracy_gain.md`](PLAN_r2v_practical_accuracy_gain.md)；旧双门控归档：[`PLAN_r2v_mage_cfsar.md`](PLAN_r2v_mage_cfsar.md)；运行说明：[`SUBTITLES_README.md`](../VLM/mage_vl/practical/SUBTITLES_README.md)。旧计划顶部状态可能停留在实施时点，当前180题事实以本摘要所指的实际结果文件为准。
 
 原开发结果的描述（当前必须同时披露后续val90负结果）：
 

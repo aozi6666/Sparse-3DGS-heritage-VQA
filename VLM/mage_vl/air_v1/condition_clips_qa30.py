@@ -105,7 +105,7 @@ def summarize(c):
     if p.sha(path)!=lock['labels_sha256']:raise ValueError('标签身份漂移')
     labels=json.loads(path.read_text())
     import sys
-    sys.path.insert(0,str(p.PROJECT/'VQA/mage_vl/practical'))
+    sys.path.insert(0,str(p.PROJECT/'VLM/mage_vl/practical'))
     from practical_analyze import comparison
     rows=list(c['rows'].values());preds={i:u['pred'] for i,u in c['units'].items()};base={i:u['pred'] for i,u in c['bases'].items()}
     def group(rr):

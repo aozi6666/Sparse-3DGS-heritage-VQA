@@ -1,0 +1,89 @@
+Deferred resource-heavy unchanged checks: ['test_real_checkpoint_cpu_load_without_forward', 'test_real_dpt_forward_and_backward']
+test_actual_vggt_rank16_and_rank8_structure (test_aggregator_lora.AggregatorTests) ... ok
+test_checkpoint_and_optimizer_restore (test_aggregator_lora.AggregatorTests) ... ok
+test_checkpointing_preserves_forward_and_gradients (test_aggregator_lora.AggregatorTests) ... ok
+test_real_block_backward_through_frozen_frames_and_checkpoint (test_aggregator_lora.AggregatorTests) ... ok
+test_zero_initialization_and_reject_wrong_target (test_aggregator_lora.AggregatorTests) ... ok
+test_empty_upload_blocks_training_manifest (test_bundle.BundleTests) ... ok
+test_remap_legacy_mac_root (test_bundle.BundleTests) ... ok
+test_source_split_overlap_rejected (test_bundle.BundleTests) ... ok
+test_upload_snapshot_detects_empty_files (test_bundle.BundleTests) ... {
+  "captured_unix": 1795144352.6847942,
+  "sources": {
+    "omni3d": {
+      "path": "/tmp/tmpe7j1ukgg/omni",
+      "exists": true,
+      "files": 2,
+      "zero_bytes": 1,
+      "bytes": 2,
+      "latest_change_age_seconds": 0,
+      "recent_files": [
+        {
+          "file": "placeholder.jpg",
+          "bytes": 0
+        },
+        {
+          "file": "ready.json",
+          "bytes": 2
+        }
+      ],
+      "note": "File count/size snapshot only; not a source checksum or upload completion percentage."
+    },
+    "VGGT_finetune_v1": {
+      "path": "/tmp/tmpe7j1ukgg/missing",
+      "exists": false,
+      "files": 0,
+      "zero_bytes": 0,
+      "bytes": 0,
+      "latest_change_age_seconds": null,
+      "recent_files": [],
+      "note": "File count/size snapshot only; not a source checksum or upload completion percentage."
+    }
+  }
+}
+ok
+test_zero_copy_index_and_preserved_split (test_bundle.BundleTests) ... {
+  "index": "/tmp/tmpc43tqr6s/data/processed/bundle_index_c129fcf051",
+  "manifest": "/tmp/tmpc43tqr6s/data/manifests/objects.json",
+  "eligible_objects": 3,
+  "split_counts": {
+    "train": 1,
+    "val": 1,
+    "test": 1
+  },
+  "copied_media_bytes": 0,
+  "note": "Original files and source manifests unchanged. CO3D geometric depth is estimated, not sensor GT."
+}
+ok
+test_co3d_offline_converter_and_review_guard (test_cpu.DataTests) ... {'train': 1, 'val': 0, 'test': 0}
+ok
+test_float16_png (test_cpu.DataTests) ... ok
+test_metrics (test_cpu.DataTests) ... ok
+test_omni_offline_converter (test_cpu.DataTests) ... ok
+test_prepared_reader_and_split_reproducibility (test_cpu.DataTests) ... {'train': 1, 'val': 0, 'test': 0}
+{'train': 1, 'val': 0, 'test': 0}
+Active datasets: {'omniobject3d': 1}
+Active datasets: {'omniobject3d': 1}
+ok
+test_resize_updates_K_and_padding_mask (test_cpu.DataTests) ... ok
+test_bad_prediction_cannot_hide_from_multiview (test_cpu.GeometryTests) ... ok
+test_camera_scale_without_gt_depth (test_cpu.GeometryTests) ... ok
+test_co3d_ndc_conversion (test_cpu.GeometryTests) ... ok
+test_colmap_export_api (test_cpu.GeometryTests) ... ok
+test_identity_backprojection_and_warp (test_cpu.GeometryTests) ... ok
+test_loss_finite_and_backward (test_cpu.GeometryTests) ... ok
+test_masked_gradient (test_cpu.GeometryTests) ... ok
+test_multiview_grad_and_occlusion (test_cpu.GeometryTests) ... ok
+test_nested_469_split_has_shared_heldout_views (test_cpu.GeometryTests) ... ok
+test_shared_normalization (test_cpu.GeometryTests) ... ok
+test_validation_subsets_fixed_and_distinct (test_cpu.GeometryTests) ... ok
+test_checkpoint_roundtrip_and_resume (test_cpu.LoRATests) ... ok
+test_depth_full_keeps_aggregator_frozen (test_cpu.LoRATests) ... ok
+test_full_head_checkpoint (test_cpu.LoRATests) ... ok
+test_only_depth_adapters_train (test_cpu.LoRATests) ... ok
+test_zero_init_and_gradients_and_merge (test_cpu.LoRATests) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 18.364s
+
+OK

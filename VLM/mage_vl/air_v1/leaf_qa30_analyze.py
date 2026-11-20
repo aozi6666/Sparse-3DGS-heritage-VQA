@@ -11,7 +11,7 @@ from leaf_probe import write_once
 
 
 def legacy_comparison():
-    sys.path.insert(0,str(p.PROJECT/'VQA/mage_vl/practical'))
+    sys.path.insert(0,str(p.PROJECT/'VLM/mage_vl/practical'))
     from practical_analyze import comparison
     return comparison
 

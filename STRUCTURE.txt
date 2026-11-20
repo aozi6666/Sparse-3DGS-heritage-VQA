@@ -16,10 +16,10 @@ docs/
   GaussianObject/
   vggt/
   DropGaussian_release/       # submodule (reference)
-  eval_results/               # PSNR/SSIM/LPIPS CSV (keep; like VQA/eval_results)
+  eval_results/               # PSNR/SSIM/LPIPS CSV (keep; like VLM/eval_results)
 
 # Work B — VQA / eval
-VQA/
+VLM/
   README.md
   mage_vl/                    # vendored (no data/models)
   VLMEvalKit/                 # vendored + local edits (no venv/ffmpeg/pkl)
@@ -30,5 +30,5 @@ VQA/
 Local only (gitignored)
 -----------------------
 .venv*  ddgs/  _archive/      # venv stays at repo root (not under 3DGS/)
-**/data/  **/output/  weights  VQA/mage_vl/models  VQA/VLMEvalKit/vlmeval_env
+**/data/  **/output/  weights  VLM/mage_vl/models  VLM/VLMEvalKit/vlmeval_env
 Outside tree (not in this repo): ../Mage/mage_flow  ../Mage_ViT/mage_flow

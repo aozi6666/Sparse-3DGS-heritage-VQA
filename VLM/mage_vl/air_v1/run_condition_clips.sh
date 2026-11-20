@@ -5,9 +5,9 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 [[ "$(git branch --show-current)" == feat/air-visual-evidence ]] || { echo '分支不符，保留现场并停止';exit 1; }
 df -h /root/autodl-tmp
-du -sh VQA/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
-ROOT="$PWD/VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v1"
-DIR="$PWD/VQA/mage_vl/air_v1"
+du -sh VLM/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
+ROOT="$PWD/VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v1"
+DIR="$PWD/VLM/mage_vl/air_v1"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 TOKENIZERS_PARALLELISM=false
 export HF_HOME="$ROOT/hf_home" HF_MODULES_CACHE="$ROOT/hf_modules" TORCH_HOME="$ROOT/torch_home" CUDA_CACHE_PATH="$ROOT/cuda_cache" TRITON_CACHE_DIR="$ROOT/triton_cache"
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1

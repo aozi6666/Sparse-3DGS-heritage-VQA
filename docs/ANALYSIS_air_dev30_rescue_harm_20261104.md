@@ -10,7 +10,7 @@
 本次逐一查看14题均匀32帧与全部实际AIR选帧，复核原问题、四选项、最终字母、评分原文和逐轮记录。额外放大4题的关键画面。CPU重解码只用于事后审阅，不调用模型，不创建评测数据集，不修改冻结运行脚本、旧预测或审计。原推理未保存RGB数组，因此本次是同源视频的离线重解码，不能证明与当时所有像素逐位相同；没有观察到普遍花屏足以解释7题误伤，也不能据此排除所有解码瑕疵。
 
 全部证据位于：
-`VQA/eval_results/practical_mage_v1/18_air_frames_v1/engineering_checks/dev30_error_audit_v1/`
+`VLM/eval_results/practical_mage_v1/18_air_frames_v1/engineering_checks/dev30_error_audit_v1/`
 包括cases.json、population.json、provenance.json、14张harm_/rescue_帧对照图、detail_379/418/428/484.jpg及逐题原评分JSON。图片上的S为缓存评分，非本次新评分；未评分的均匀帧显示“-”。抽帧工具与日志也在engineering_checks保存。
 
 90题：均匀56/90，AIR56/90；救回7、误伤7。31题无正分回退；总分析5517次。两个非法评分属于375题，该题两路均正确，与这14题不重叠。旧审计仍为未通过，不擅自改成通过。

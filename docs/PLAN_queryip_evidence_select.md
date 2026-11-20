@@ -6,7 +6,7 @@
 > **是：** 游客视角有限、视觉预算固定时，如何优先保留**真正能回答当前问题**的视觉证据。  
 > **一句话贡献（现行实证 · 主线 A）：** Mage 解决「哪些区域因变化值得算」；QueryIP 在**固定预算 K** 下用 Codec **多源融合**选区，同 K 优于乱砍（约 +4 pp）。问题条件选区（加戏 B 软门控）以**持平不伤底**为成功，未过闸不作贡献。  
 > **已完成消融（另档）：** [`PLAN_mage_query_IP_select.md`](PLAN_mage_query_IP_select.md)（proxy 主推；CLIP / OCR 硬切 textseat 失败；**主线 A / 加戏 B** 定案）。  
-> **应用叙事：** [`VQA/README.md`](../VQA/README.md)。
+> **应用叙事：** [`VLM/README.md`](../VLM/README.md)。
 
 ---
 
@@ -84,7 +84,7 @@ Mage-ViT+Qwen —— 用选中的视觉 token 生成答案（底座，固定权�
 | 项 | 说明 |
 |----|------|
 | 上游 | [microsoft/Mage](https://github.com/microsoft/Mage) · `mage_vl` |
-| 本仓实现 | [`VQA/Explore-Then-Select/mage_query_ip/`](../VQA/Explore-Then-Select/mage_query_ip/) |
+| 本仓实现 | [`VLM/Explore-Then-Select/mage_query_ip/`](../VLM/Explore-Then-Select/mage_query_ip/) |
 | 已验证 | 同 K 下 **proxy `queryip` > random**（约 +4 pp） |
 | 已否决 | 官方 bitcost 主推；CLIP 帧/区域/edge 语义重排；题型 α/β 作贡献 |
 
@@ -208,8 +208,8 @@ Mage-ViT+Qwen —— 用选中的视觉 token 生成答案（底座，固定权�
 | 项 | 值 |
 |----|-----|
 | 模型 | `Mage-VL` |
-| 数据 | OCRBench v1 · 1000 · 本地 parquet→`VQA/datas/lmu/OCRBench.tsv` |
-| work-dir | [`VQA/eval_results/baseline_mage_ocrbench_v1/`](../VQA/eval_results/baseline_mage_ocrbench_v1/) |
+| 数据 | OCRBench v1 · 1000 · 本地 parquet→`VLM/datas/lmu/OCRBench.tsv` |
+| work-dir | [`VLM/eval_results/baseline_mage_ocrbench_v1/`](../VLM/eval_results/baseline_mage_ocrbench_v1/) |
 | eval_id | `T20261027-120048` |
 | 耗时 | ~9.5 min · fail 0/1000 |
 
@@ -230,7 +230,7 @@ score：`…/T20261027-120048/Mage-VL_OCRBench_score.json`
 
 | 项 | 值 |
 |----|-----|
-| 目录 | [`ocrbench_v1_image_textseat/`](../VQA/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
+| 目录 | [`ocrbench_v1_image_textseat/`](../VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
 | 预算 | `keep_ratio=0.75` · **无** `--use-ocr` |
 | 指标 | 脚本内 substring/exact proxy（≠官方 Final Score Norm） |
 
@@ -264,9 +264,9 @@ score：`…/T20261027-120048/Mage-VL_OCRBench_score.json`
 
 | 资源 | 路径 |
 |------|------|
-| 应用场景与答辩叙事 | [`VQA/README.md`](../VQA/README.md) |
+| 应用场景与答辩叙事 | [`VLM/README.md`](../VLM/README.md) |
 | 已完成同 K 实验定稿 | [`PLAN_mage_query_IP_select.md`](PLAN_mage_query_IP_select.md) |
-| 命令 | [`VQA/Explore-Then-Select/COMMANDS.md`](../VQA/Explore-Then-Select/COMMANDS.md) |
-| 实现 | `VQA/Explore-Then-Select/mage_query_ip/` |
-| 产物 | `VQA/eval_results/queryip_samek/` |
-| v1 Mage baseline | [`baseline_mage_ocrbench_v1/`](../VQA/eval_results/baseline_mage_ocrbench_v1/) |
+| 命令 | [`VLM/Explore-Then-Select/COMMANDS.md`](../VLM/Explore-Then-Select/COMMANDS.md) |
+| 实现 | `VLM/Explore-Then-Select/mage_query_ip/` |
+| 产物 | `VLM/eval_results/queryip_samek/` |
+| v1 Mage baseline | [`baseline_mage_ocrbench_v1/`](../VLM/eval_results/baseline_mage_ocrbench_v1/) |

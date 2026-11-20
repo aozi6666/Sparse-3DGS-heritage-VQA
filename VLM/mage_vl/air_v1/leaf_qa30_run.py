@@ -91,7 +91,7 @@ def context(initialize=False):
     files.update(parent['protocol']['source_files'])
     dep=dependencies();runtime=json.loads((backend.OUT/'runtime.json').read_text())
     if any(dep[n]!=runtime[n] for n in ['torch','transformers','numpy']):raise ValueError('与历史QA依赖版本不同，先诊断，不自动重跑')
-    folder=Path(__file__).parent;analysis_file=p.PROJECT/'VQA/mage_vl/practical/practical_analyze.py'
+    folder=Path(__file__).parent;analysis_file=p.PROJECT/'VLM/mage_vl/practical/practical_analyze.py'
     protocol=dict(version=k.VERSION,indices=ids,groups=groups,plans=plans,parent_signature=parent['signature'],source_noobs_signature=src['signature'],
                   source_noobs_records={i:u['record_sha256'] for i,u in src['units'].items()},source_uniform_records={i:u['record_sha256'] for i,u in src['bases'].items()},
                   original_QA_prompt_sha={i:p.digest(p.prompt(src['rows'][i])) for i in ids},generation=expected,mage=mage,

@@ -76,7 +76,7 @@ def summarize(c):
     path=p.OLD/'01_manifests/evaluation_labels.json';lock=json.loads((path.parent/'dataset_lock.json').read_text())
     if p.sha(path)!=lock['labels_sha256']:raise ValueError('标签身份漂移')
     labels=json.loads(path.read_text());import sys
-    sys.path.insert(0,str(p.PROJECT/'VQA/mage_vl/practical'))
+    sys.path.insert(0,str(p.PROJECT/'VLM/mage_vl/practical'))
     from practical_analyze import comparison
     rows=list(c['rows'].values());preds={name:{i:u['pred'] for i,u in units.items()} for name,units in [('uniform32',c['bases']),('v2_with_observation',c['source']['units']),('no_observation',c['units'])]}
     def group(rr):

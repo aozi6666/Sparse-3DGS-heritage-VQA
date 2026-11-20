@@ -6,4 +6,4 @@ project=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
 python_bin=/root/autodl-tmp/Mage_ViT/mage/bin/python
 cd "$project"
 test "$(git branch --show-current)" = feat/air-visual-evidence || { echo '分支不符，停止；不会自动切分支'; exit 2; }
-exec nice -n 15 "$python_bin" VQA/mage_vl/codec_evidence_v1/experiment.py "$@"
+exec nice -n 15 "$python_bin" VLM/mage_vl/codec_evidence_v1/experiment.py "$@"

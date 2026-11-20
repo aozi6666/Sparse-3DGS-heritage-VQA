@@ -18,7 +18,7 @@
 
 15项CPU工程/原生处理器测试通过；另对12题真实视频逐题做CPU输入验收：原生uniform与适配全tensor一致，旧prompt/input_ids身份一致；新32帧保留原时间轴，视觉token与本题uniform基线相同（每题4608）。只加载处理器，未加载问答权重/生成新答案。验收日志和源码、图像、输入哈希在oracle_evidence_diag_v1/engineering_checks/final_verification.json。所有旧AIR/混合/扩样上下文校验保持有效。
 
-执行入口：VQA/mage_vl/air_v1/run_oracle_diag.sh init/preflight/run/summarize；先激活Mage、进入项目确认feat/air-visual-evidence，设置PRACTICAL_STAGE_CONFIRMED=1后由用户run。结果oracle_evidence_diag_v1/results/summary.json，逐题断点units.jsonl，日志logs/。原命令重跑支持恢复，完整后跳过模型。详细命令见README_oracle_diag.md。
+执行入口：VLM/mage_vl/air_v1/run_oracle_diag.sh init/preflight/run/summarize；先激活Mage、进入项目确认feat/air-visual-evidence，设置PRACTICAL_STAGE_CONFIRMED=1后由用户run。结果oracle_evidence_diag_v1/results/summary.json，逐题断点units.jsonl，日志logs/。原命令重跑支持恢复，完整后跳过模型。详细命令见README_oracle_diag.md。
 
 先看9道明确证据及4道三路共同答错是否改善；若只重复答对旧已救回题，不足以支持开发第二步。未证据充分题不能用于证明回答器上限；第二步联合条件/片段验证器尚未开发，等待诊断结果。
 

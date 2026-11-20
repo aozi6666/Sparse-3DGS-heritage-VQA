@@ -2,8 +2,8 @@
 
 > **归档日期：** 2026-10-15  
 > **当前状态：暂停全量微调；先改 codec 选区，再训 LoRA。**  
-> 范围：仅 `VQA/`；冻 Mage-ViT，只训 LLM LoRA。不改 3DGS 主线。  
-> 代码：[`VQA/mage_vl/cultural_lora/`](../VQA/mage_vl/cultural_lora/)（分支 `Mage_LoRA`）。
+> 范围：仅 `VLM/`；冻 Mage-ViT，只训 LLM LoRA。不改 3DGS 主线。  
+> 代码：[`VLM/mage_vl/cultural_lora/`](../VLM/mage_vl/cultural_lora/)（分支 `Mage_LoRA`）。
 
 ---
 
@@ -26,7 +26,7 @@
 
 | 设置 | 指标 | 路径 |
 |------|------|------|
-| Mage-VL Base × Video-MME（codec+HEVC，32frame） | overall **63.7%** | [`VQA/eval_results/Video-MME.md`](../VQA/eval_results/Video-MME.md) |
+| Mage-VL Base × Video-MME（codec+HEVC，32frame） | overall **63.7%** | [`VLM/eval_results/Video-MME.md`](../VLM/eval_results/Video-MME.md) |
 
 ### 1.2 Cultural LoRA 冒烟（已完成，2026-10-15）— 管线验证
 
@@ -37,7 +37,7 @@
 | 超参 | r=16, α=32, dropout=0.05, lr=1e-4, grad_accum=8, bf16, max_frames=8, max_pixels=150k, max_seq_len=3072, gradient checkpointing |
 | 产出 | adapter **≈132 MB**（仅 PEFT） |
 | 校验 | `verify_disk_policy --stage after_smoke` **通过** |
-| 路径 | `VQA/mage_vl/outputs/cultural_lora/smoke/adapter/` |
+| 路径 | `VLM/mage_vl/outputs/cultural_lora/smoke/adapter/` |
 | 复检 | `smoke_fitcheck`（200 step）：减帧/降像素保答案，无截光跳过 |
 
 > 归档备注：冒烟在**默认** Mage 选区/帧采样设定下完成；**正式 Cultural LoRA 须等新选区后再训**，勿把本 adapter 当最终域适配权重写进论文主表。
@@ -56,7 +56,7 @@
 
 | 项 | 选择 |
 |----|------|
-| 基座 | 本地 `VQA/mage_vl/models`（`local_files_only`） |
+| 基座 | 本地 `VLM/mage_vl/models`（`local_files_only`） |
 | 框架 | PyTorch + PEFT；`train_lora.py` 自建 loop |
 | 存盘 | 只存 `adapter/` |
 | 显存 | gradient checkpointing；超长则减帧/降 `max_pixels`，**不裁答案** |
@@ -84,8 +84,8 @@
 
 | 来源 | 用量 | 路径 |
 |------|------|------|
-| MSVD-QA | **8k** QA | `VQA/mage_vl/data/MSVD-QA/train_8k/` |
-| CiQi-VQA | **16k** | `VQA/mage_vl/data/CiQi-VQA/`（`train_16k.jsonl` + 子集图） |
+| MSVD-QA | **8k** QA | `VLM/mage_vl/data/MSVD-QA/train_8k/` |
+| CiQi-VQA | **16k** | `VLM/mage_vl/data/CiQi-VQA/`（`train_16k.jsonl` + 子集图） |
 
 合计 24k；seed=42；原全量已硬删。评测集以 **Video-MME** 为主；其它域内集待定。
 
@@ -105,10 +105,10 @@
 
 ```bash
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-/root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/python VQA/mage_vl/cultural_lora/train_lora.py \
-  --model VQA/mage_vl/models \
+/root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/python VLM/mage_vl/cultural_lora/train_lora.py \
+  --model VLM/mage_vl/models \
   --max-steps 24000 \
-  --output-dir VQA/mage_vl/outputs/cultural_lora/full_1ep
+  --output-dir VLM/mage_vl/outputs/cultural_lora/full_1ep
 ```
 
 ---
@@ -128,7 +128,7 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 | 路径 | 说明 |
 |------|------|
-| `VQA/mage_vl/cultural_lora/` | 准备 / 训练 / 校验（已就绪，暂停全量） |
-| `VQA/mage_vl/outputs/cultural_lora/smoke/adapter/` | 冒烟归档（非正式结论） |
-| `VQA/mage_vl/models/` | 基座只读 |
-| `VQA/eval_results/Video-MME.md` | Base 63.7% |
+| `VLM/mage_vl/cultural_lora/` | 准备 / 训练 / 校验（已就绪，暂停全量） |
+| `VLM/mage_vl/outputs/cultural_lora/smoke/adapter/` | 冒烟归档（非正式结论） |
+| `VLM/mage_vl/models/` | 基座只读 |
+| `VLM/eval_results/Video-MME.md` | Base 63.7% |

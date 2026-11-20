@@ -32,9 +32,9 @@ short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶�
 
 ## 保存、断点与空间
 
-代码入口：`VQA/mage_vl/practical/run_continuous_test225.sh`。
+代码入口：`VLM/mage_vl/practical/run_continuous_test225.sh`。
 
-全部成果仍归`VQA/eval_results/practical_mage_v1/`：
+全部成果仍归`VLM/eval_results/practical_mage_v1/`：
 
 - `16_continuous_test225/candidate_v1.json`：冻结清单。
 - `16_continuous_test225/cpu_tests_v1.log`、`cpu_checks_v1.json`：CPU检查记录。
@@ -57,7 +57,7 @@ cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 { [ "$(git branch --show-current)" = vlm ] || git switch vlm; } &&
 test "$(git branch --show-current)" = vlm &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/practical/run_continuous_test225.sh init &&
-bash VQA/mage_vl/practical/run_continuous_test225.sh run &&
-bash VQA/mage_vl/practical/run_continuous_test225.sh summarize
+bash VLM/mage_vl/practical/run_continuous_test225.sh init &&
+bash VLM/mage_vl/practical/run_continuous_test225.sh run &&
+bash VLM/mage_vl/practical/run_continuous_test225.sh summarize
 ```

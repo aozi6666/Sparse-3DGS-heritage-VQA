@@ -18,11 +18,11 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh init &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh preflight &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh init &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh preflight &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh parse5 &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh summarize5
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh parse5 &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh summarize5
 ```
 
 只有5–10次纯文本调用，不解码视频、不生成视频QA、不调用CLIP或API。首先查看parse_review/parse5/review_packet.json，确认条件与叶事件没有被错误改写。schema失败会保留报告并停止，不将非法输出伪造为中性结果。若失败需诊断新版本，不能覆盖旧断点。
@@ -34,11 +34,11 @@ bash VQA/mage_vl/air_v1/run_condition_grounding.sh summarize5
 ```bash
 # 在项目且已激活环境；仅在真实审阅解析后设置，结构合法不能代替语义认可。
 export PRACTICAL_STAGE_CONFIRMED=1 PRACTICAL_PARSE_REVIEWED=1
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh parse30 &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh summarize30
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh parse30 &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh summarize30
 # 继续前先审阅parse30/review_packet.json
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh ground &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh ground-report
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh ground &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh ground-report
 ```
 
 定位审阅必须对照原视频，检查峰值是否真是目标事件、所有必要事件是否找到；只看CLIP分数或窗口分配表不够。公开KFS只能离线辅助诊断，不能给自动定位提供窗口。若仍错事件就暂停，不叠新规则；本版没有假定模型自述事实可信。
@@ -47,15 +47,15 @@ bash VQA/mage_vl/air_v1/run_condition_grounding.sh ground-report
 
 ```bash
 export PRACTICAL_STAGE_CONFIRMED=1 PRACTICAL_LOCALIZATION_REVIEWED=1
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh qa &&
-bash VQA/mage_vl/air_v1/run_condition_grounding.sh summarize-qa
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh qa &&
+bash VLM/mage_vl/air_v1/run_condition_grounding.sh summarize-qa
 ```
 
 四路统计：均匀、带观察v2、去观察noobs、本版。分别报告中/长、旧12/新增18；所有unsupported样本保留。开发30题不是独立测试，旧12改善不能替代新增题收益。只有定位和新增题结果支持，才讨论扩展，当前无自动full/val/test入口。
 
 ## 结果、恢复与成本
 
-新根：VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_v1/。
+新根：VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_v1/。
 
 - candidate.json：原始题目、源码、模型和输入身份；没有GT。
 - parse_calls/、parses/：逐次原始解析与断点，含修复尝试和成本。

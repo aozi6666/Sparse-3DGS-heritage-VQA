@@ -17,12 +17,12 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh prepare smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh test-cpu smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh init smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh prepare smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh test-cpu smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh init smoke3 &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh run smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh summarize smoke3
+bash VLM/mage_vl/air_v1/run_air_frames.sh run smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh summarize smoke3
 ```
 
 `prepare`会检查pip；缺失时用Python自带ensurepip补齐。CPU依赖闭包固定为scikit-learn1.9.1、joblib1.6.0、threadpoolctl3.7.0、narwhals2.26.0、cloudpickle3.1.2；仅在导入检查失败时安装，使用`--no-deps --no-cache-dir`，不升级Torch、Transformers、NumPy、SciPy，不下载模型。权重均从已存在的本地绝对路径加载，HF离线。
@@ -33,7 +33,7 @@ smoke3是已有dev30池第一个视频的3题，6个逻辑答案；视频、问�
 
 所有新产物位于：
 
-`VQA/eval_results/practical_mage_v1/18_air_frames_v1/`
+`VLM/eval_results/practical_mage_v1/18_air_frames_v1/`
 
 - `candidate_native_uniform_fix1.json`：推理前登记源码、模型、数据、提示词和规则身份；旧candidate_v1保留作失败版本记录。
 - `native_uniform_fix1/smoke3/summary.json`、`predictions.json`：阶段全部完成后才读取标签并汇总。

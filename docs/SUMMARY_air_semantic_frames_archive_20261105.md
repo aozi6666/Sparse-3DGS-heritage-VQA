@@ -60,8 +60,8 @@
 
 ## 7. 冻结与成果索引
 
-冻结低成本代码：VQA/mage_vl/air_v1/condition_clips_noobs_qa30.py及独立入口run_condition_clips_noobs_qa30.sh；候选协议和全部查询/窗口在condition_clips_noobs_qa30/candidate.json。不要修改冻结文件后覆盖旧结果。
+冻结低成本代码：VLM/mage_vl/air_v1/condition_clips_noobs_qa30.py及独立入口run_condition_clips_noobs_qa30.sh；候选协议和全部查询/窗口在condition_clips_noobs_qa30/candidate.json。不要修改冻结文件后覆盖旧结果。
 
-数据总根：VQA/eval_results/practical_mage_v1/18_air_frames_v1/。本次归档：archive_20261105_v1/source_manifest.json和snapshots/，保留各阶段summary快照与来源SHA，不移动或删除原文件。原始逐题预测、调用、向量、日志、断点仍在各阶段原目录。
+数据总根：VLM/eval_results/practical_mage_v1/18_air_frames_v1/。本次归档：archive_20261105_v1/source_manifest.json和snapshots/，保留各阶段summary快照与来源SHA，不移动或删除原文件。原始逐题预测、调用、向量、日志、断点仍在各阶段原目录。
 
 当前决策：停止本轮调参；保留去观察查询为待验证候选；复杂判决器暂停；不运行新实验或全量。字幕模块继续保留为当前有评测支持的问答增强；两个模块联合效果尚无数据。

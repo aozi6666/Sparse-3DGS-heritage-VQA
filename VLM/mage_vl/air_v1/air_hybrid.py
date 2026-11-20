@@ -149,7 +149,7 @@ def summarize(c):
     if p.sha(path)!=lock['labels_sha256']:raise ValueError('标签身份变化')
     labels=json.loads(path.read_text());rows=source['rows']
     import sys
-    sys.path.insert(0,str(p.PROJECT/'VQA/mage_vl/practical'))
+    sys.path.insert(0,str(p.PROJECT/'VLM/mage_vl/practical'))
     from practical_analyze import comparison
     preds={a:{r['index']:(c['units'][r['index']] if a=='hybrid32' else source['units'][f'{r["index"]}:{a}'])['pred'] for r in rows} for a in ARMS}
     diagnostic=set('265 378 450 452 459 486 704 324 379 418 428 484 594 600'.split())

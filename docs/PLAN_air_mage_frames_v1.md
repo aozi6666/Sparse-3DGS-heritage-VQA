@@ -41,8 +41,8 @@ A.I.R.论文：<https://arxiv.org/html/2510.04428v3>，官方代码：<https://g
 
 ## 6. 断点、日志、空间和隐私
 
-新代码：`VQA/mage_vl/air_v1/`，不导入mage_query_ip。
-新成果：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/`。内含候选协议、CPU检查、阶段清单、logs、按签名缓存、逐问题选择轨迹、逐帧评分、逐答案记录、summary及归档。全部新持久产物（包括第三方动态代码缓存）留在指定结果根。
+新代码：`VLM/mage_vl/air_v1/`，不导入mage_query_ip。
+新成果：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/`。内含候选协议、CPU检查、阶段清单、logs、按签名缓存、逐问题选择轨迹、逐帧评分、逐答案记录、summary及归档。全部新持久产物（包括第三方动态代码缓存）留在指定结果根。
 
 评分按问题＋原始帧号存储并立即fsync；普通中断后无需重新付出已完成的评分成本。CLIP每视频特征只存轻量向量与原始索引，锁定视频stat／模型代码、配置、权重stat和问题／提示词哈希。禁止删除旧缓存；失配停止，不静默重建。半行/损坏记录保留现场并停止，不截断。
 
@@ -79,15 +79,15 @@ Mage环境已有NumPy/SciPy，缺sklearn/joblib/threadpoolctl；已用现有科�
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh prepare smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh test-cpu smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh init smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh prepare smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh test-cpu smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh init smoke3 &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh run smoke3 &&
-bash VQA/mage_vl/air_v1/run_air_frames.sh summarize smoke3
+bash VLM/mage_vl/air_v1/run_air_frames.sh run smoke3 &&
+bash VLM/mage_vl/air_v1/run_air_frames.sh summarize smoke3
 ```
 
-首轮汇总：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/smoke3/summary.json`。先核查审计、评分解析、实际帧数、fallback和选择总成本，再决定是否扩现有dev30的90题。不自动进入dev180、val或全量，不触碰字幕/Codec旧结果。
+首轮汇总：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/smoke3/summary.json`。先核查审计、评分解析、实际帧数、fallback和选择总成本，再决定是否扩现有dev30的90题。不自动进入dev180、val或全量，不触碰字幕/Codec旧结果。
 
 ## 10. native_uniform_fix1修订与故障归档（2026-11-03）
 

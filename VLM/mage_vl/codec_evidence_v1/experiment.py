@@ -348,7 +348,7 @@ def summarize(m,scope):
             else:units[(r['index'],a)]=x
     p.require(not missing,'范围尚未完整，保留断点，请续跑；缺失'+str(len(missing))+'单元')
     # GT is accessed only here, after immutable selection and prediction files exist.
-    tsv=p.PROJECT/'VQA/mage_vl/data/VideoMME/Video-MME.tsv'
+    tsv=p.PROJECT/'VLM/mage_vl/data/VideoMME/Video-MME.tsv'
     labels={}
     with tsv.open(encoding='utf-8-sig',newline='') as f:
         for x in csv.DictReader(f,delimiter='\t'):

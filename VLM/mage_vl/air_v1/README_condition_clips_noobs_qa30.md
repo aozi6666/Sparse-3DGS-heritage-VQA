@@ -8,16 +8,16 @@
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh init &&
-bash VQA/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh preflight &&
+bash VLM/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh init &&
+bash VLM/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh preflight &&
 export PRACTICAL_STAGE_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh run &&
-bash VQA/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh summarize
+bash VLM/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh run &&
+bash VLM/mage_vl/air_v1/run_condition_clips_noobs_qa30.sh summarize
 ```
 
 支持逐题断点、tqdm及日志；中断后重复同一命令。新生成沿用已验证的直接QA实现，通过本进程上下文管理器重定向独立目录和校验，不修改旧源文件。新输入每题仍须通过原生均匀/适配逐tensor校验、历史token/grid校验和真实帧号检查。不变输入直接复用既有审计记录；不将缓存复用当作部署零成本。
 
-新根目录：VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_noobs_qa30/。
+新根目录：VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_noobs_qa30/。
 
 candidate.json保存查询、窗口、帧号及来源SHA；units.jsonl为逐题断点；results/summary.json提供均匀/v2/去观察查询三路准确率与相对均匀、相对v2的救回/误伤/净增/视频簇区间；分中/长及旧12/新增18。results/predictions.json保留逐题预测、真值、输入变化标记与查询/帧号；units_snapshot.json归档结果。标签仅阶段完整后读取。
 

@@ -66,6 +66,6 @@
 
 README原文备份、总设计更新清单、官方源码内容SHA、KFS30精确映射/细节/汇总、AKS影子计划/帧号及官方导出格式均在：
 
-VQA/eval_results/practical_mage_v1/18_air_frames_v1/research_conditions_20261105/
+VLM/eval_results/practical_mage_v1/18_air_frames_v1/research_conditions_20261105/
 
 GitHub API遇到限额时部分来源使用main快照，明确记录实际内容SHA，不伪称已锁定commit。未修改旧推理代码，未删除缓存、未运行新答案、未进入验证/最终测试或全量。

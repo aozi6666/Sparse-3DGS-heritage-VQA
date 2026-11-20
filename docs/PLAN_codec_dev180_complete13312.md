@@ -16,8 +16,8 @@ CPU检查60视频全部来源命中句、原邻接补句和时间标记，最大
 
 ## 工程与数据
 
-代码：VQA/mage_vl/codec_dev180_v1/。
-结果：VQA/eval_results/practical_mage_v1/22_codec_dev180_v1/。
+代码：VLM/mage_vl/codec_dev180_v1/。
+结果：VLM/eval_results/practical_mage_v1/22_codec_dev180_v1/。
 缓存来源与科学配置、完整文本、输入hash保留protocol.json/bundle.json/budget_preflight.json，逐题原始答案和计时保留units/，输入审计保留input_audits/，显存门禁resource_gate.json，日志logs/。最终results包含summary.json、predictions.json/CSV、metrics.csv、paired_comparisons.csv、token_cost.json/CSV，方便后续作图。
 
 新增模型加载及问答交用户运行；助手不启动GPU推理。磁盘至少保留10GiB，本轮128MiB保护，不删除旧数据。无视频帧/视觉Tensor/KV/logits持久化，无模型复制/下载/训练。输入审计可以CPU运行，缓存画布重用不代表部署预处理成本为零。

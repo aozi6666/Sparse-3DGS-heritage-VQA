@@ -1,7 +1,7 @@
 """使用已审计汇总更新说明；逐文件保留修改前原文和哈希，不动推理代码。"""
 from pathlib import Path
 import json,hashlib,csv
-P=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA');O=P/'VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1'
+P=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA');O=P/'VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 M=json.loads((O/'stage_metrics.json').read_text());PA=json.loads((O/'paired_comparisons.json').read_text());C=json.loads((O/'test225_token_cost.json').read_text())
 manifest=json.loads((O/'source_manifest.json').read_text())
@@ -37,7 +37,7 @@ lines+=['四个划分在问题索引和视频ID上互斥，219+180+90+225=714题
 for r in C:lines.append(f"| {r['method']} | {r['visual_tokens']:,} | {r['subtitle_tokens']:,} | {r['input_tokens']:,} | {r['input_tokens_per_question']:.2f} |")
 lines+=['视觉token三路相同；连续字幕总输入相对无字幕增加约26.93%，相对原对齐增加约18.49%。2048是字幕文本预算，不是每题总输入上限。图中Other input包含问题、选项和格式token。共享预处理及额外原生输入检查使本次计时不适合直接当作公平部署速度基准。',
 '## 5. 图、数据和案例',
-'成果目录：[完整离线成果](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/)。原始summary/预测/JSONL原位保留；新source_manifest记录来源大小与SHA，summary快照另存，不复制模型和视频。',
+'成果目录：[完整离线成果](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/)。原始summary/预测/JSONL原位保留；新source_manifest记录来源大小与SHA，summary快照另存，不复制模型和视频。',
 '- stage_duration_metrics.csv / .json：四阶段、分时长三路准确率。',
 '- paired_comparisons.csv / .json：救回、误伤、净增、区间和辅助统计。',
 '- all_predictions.csv / .json：714题去重明细及阶段角色。',
@@ -46,7 +46,7 @@ lines+=['视觉token三路相同；连续字幕总输入相对无字幕增加约
 '- figures/：5组PNG、PDF、SVG，英文坐标可用于论文；PNG预览、PDF/SVG可编辑。',
 '\n## 6. 图表预览']
 for name,caption in [('01_accuracy_by_stage','四阶段准确率，保留角色区分'),('02_accuracy_by_duration','各划分内部的分时长准确率'),('03_rescue_harm','纠错与误伤，含净增'),('04_test225_token_cost','固定视觉配置下的输入token成本'),('05_paired_cluster_intervals','配对准确率差及视频聚类区间')]:
-    lines+=[f'### {caption}',f'![{caption}](../VQA/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/{name}.png)']
+    lines+=[f'### {caption}',f'![{caption}](../VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/{name}.png)']
 lines+=['## 7. 收尾与后续','当前不需要再次运行本地full：所有714题已有三路结果，重复全量只是重做已有推理；先离线去重合并并保留来源和评测角色即可。若旧输入、模型、提示词或配置身份不一致，则只调查具体冲突，不盲目复用；本轮逐题和分组统计已通过核验。',
 '仍需补的论文工作：人工核查成功/失败案例中的真实画面证据；按相同字幕条件做外部模型对比时另立协议；文旅场景独立评测与重建—问答联系验证。以上均为待做，不是本次已完成能力。当前不启动新实验，Agent继续暂停。']
 content='\n\n'.join(lines)+'\n';new=P/'docs'/title
@@ -76,13 +76,13 @@ for name in ['SUMMARY_heritage_mage_aligned_subtitles.md','SUMMARY_mage_subtitle
     text=path.read_text();first,rest=text.split('\n',1)
     update('docs/'+name,first+'\n\n'+block.replace('LINK',title)+'\n---\n\n## 以下为此前阶段记录／原实施说明（历史保留）\n'+rest)
 path=P/'README.md';text=path.read_text()
-text=text.replace('| **B · 视频问答 / 评测** | Mage-VL + **Query-IP（同 K 选区定稿）** + VLMEvalKit | **主表已定** [`VQA/`](VQA/) · [`eval_results/`](VQA/eval_results/) |','| **B · 视频问答 / 评测** | Mage Frames-32＋连续字幕2048；Query-IP历史路线保留 | **冻结test225已完成**：163/225；详见最新结果总结 |')
+text=text.replace('| **B · 视频问答 / 评测** | Mage-VL + **Query-IP（同 K 选区定稿）** + VLMEvalKit | **主表已定** [`VLM/`](VLM/) · [`eval_results/`](VLM/eval_results/) |','| **B · 视频问答 / 评测** | Mage Frames-32＋连续字幕2048；Query-IP历史路线保留 | **冻结test225已完成**：163/225；详见最新结果总结 |')
 needle='## 工作 B：Mage-VL + Query-IP 选区 + VLMEvalKit'
 assert needle in text
 text=text.replace(needle,'## 工作 B：Mage字幕增强（当前）\n\n'+block.replace('LINK','docs/'+title)+'\n\n### Query-IP历史路线（独立协议，不能与字幕结果直接混比）')
 text=text.replace('### 工作 B · Query-IP / Mage','### 工作 B · Query-IP / Mage（下列旧TODO为历史路线；当前字幕状态见上文）')
 update('README.md',text)
-path=P/'VQA/README.md';text=path.read_text();first,rest=text.split('\n',1)
-update('VQA/README.md',first+'\n\n'+block.replace('LINK','../docs/'+title)+'\n---\n\n## 以下为历史Query-IP研究与应用设计（不代表本轮字幕能力已实现）\n'+rest)
+path=P/'VLM/README.md';text=path.read_text();first,rest=text.split('\n',1)
+update('VLM/README.md',first+'\n\n'+block.replace('LINK','../docs/'+title)+'\n---\n\n## 以下为历史Query-IP研究与应用设计（不代表本轮字幕能力已实现）\n'+rest)
 (O/'document_changes.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(dict(updated=list(changes),source_files_verified=len(manifest['sources'])),ensure_ascii=False))

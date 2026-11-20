@@ -5,9 +5,9 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 [[ "$(git branch --show-current)" == feat/air-visual-evidence ]] || { echo '分支不符，保留现场'; exit 1; }
 df -h /root/autodl-tmp
-du -sh VQA/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
-EXPERIMENT="$PWD/VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2"
-DIR="$PWD/VQA/mage_vl/air_v1"
+du -sh VLM/eval_results/practical_mage_v1/18_air_frames_v1 /root/autodl-tmp/Mage_ViT/mage
+EXPERIMENT="$PWD/VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2"
+DIR="$PWD/VLM/mage_vl/air_v1"
 export PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
 [[ $# -ge 1 && $# -le 2 ]] || { echo '用法:test-cpu/init/preflight/parse5/summarize5 [--retry-uncertain]'; exit 2; }

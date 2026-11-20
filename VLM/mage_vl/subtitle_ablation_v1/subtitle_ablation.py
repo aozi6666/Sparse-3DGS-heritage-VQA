@@ -230,7 +230,7 @@ def build_bundle():
         pin(f)
     for f in Path(__file__).parent.glob('*.py'):
         pin(f)
-    for f in (PROJECT/'VQA/mage_vl/practical').glob('*.py'):
+    for f in (PROJECT/'VLM/mage_vl/practical').glob('*.py'):
         pin(f)
     pin(Path(__file__).with_name('run_subtitle_ablation.sh'))
     smoke_video = next(r['video_id'] for r in rows if r['stage']=='dev180' and evidence[r['video_id']]['continuous']['added_cue_ids'])

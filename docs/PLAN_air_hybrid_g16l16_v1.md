@@ -14,7 +14,7 @@
 
 ## 工程交付与验收
 
-实际Mage环境17项CPU测试通过（含原生处理器4项），规则/损坏断点/像素及时间哈希契约通过；90题离线规划全部恰好32帧且保留16锚点。31题可复用uniform，最多59次新最终QA。旧6个冻结源文件SHA逐个核验一致；未修改原AIR代码，未启动推理。验证证据hybrid_g16l16_v1/engineering_checks/verification.json。运行与回退步骤见VQA/mage_vl/air_v1/README_air_hybrid.md。
+实际Mage环境17项CPU测试通过（含原生处理器4项），规则/损坏断点/像素及时间哈希契约通过；90题离线规划全部恰好32帧且保留16锚点。31题可复用uniform，最多59次新最终QA。旧6个冻结源文件SHA逐个核验一致；未修改原AIR代码，未启动推理。验证证据hybrid_g16l16_v1/engineering_checks/verification.json。运行与回退步骤见VLM/mage_vl/air_v1/README_air_hybrid.md。
 
 ## dev30结果复核
 

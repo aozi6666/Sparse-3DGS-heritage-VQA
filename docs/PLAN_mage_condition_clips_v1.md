@@ -16,7 +16,7 @@
 
 ## 工程落地状态
 
-独立入口：`VQA/mage_vl/air_v1/run_condition_clips.sh`；使用说明：`VQA/mage_vl/air_v1/README_condition_clips.md`。核心纯CPU规则、运行与离线评估分别为condition_clips.py、condition_clips_run.py、condition_clips_eval.py，关键规则含中文注释。
+独立入口：`VLM/mage_vl/air_v1/run_condition_clips.sh`；使用说明：`VLM/mage_vl/air_v1/README_condition_clips.md`。核心纯CPU规则、运行与离线评估分别为condition_clips.py、condition_clips_run.py、condition_clips_eval.py，关键规则含中文注释。
 
 2026-11-04已完成27项CPU测试；基于真实缓存完成12题候选干跑；两视频6组真实CPU处理器输入检查通过。初始化启用人工定位/标签读取拦截，未触发读取。所有验证记录在condition_clips_v1/engineering_checks/。尚未加载模型权重或执行生成，实际证据效果待用户运行。
 

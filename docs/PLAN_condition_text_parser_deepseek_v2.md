@@ -36,9 +36,9 @@ HiMu启发来自“拆分叶事件、区分已知关系和待推断顺序、再�
 
 ## 4. 独立实现与冻结配置
 
-代码位于VQA/mage_vl/air_v1：condition_text_parser.py（程序契约与查询检查）、condition_text_api.py（标准库HTTP/凭据加载/请求断点）、condition_text_run.py（固定5题入口）、run_condition_text_parser.sh，以及两份CPU测试。
+代码位于VLM/mage_vl/air_v1：condition_text_parser.py（程序契约与查询检查）、condition_text_api.py（标准库HTTP/凭据加载/请求断点）、condition_text_run.py（固定5题入口）、run_condition_text_parser.sh，以及两份CPU测试。
 
-结果根目录：`VQA/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2/`。
+结果根目录：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2/`。
 
 - candidate.json：固定5题、全部原始输入、结构、源码/来源SHA、API配置；不包含密钥。
 - responses/<题号>_<尝试>.json：发送的无密钥正文、原始响应、用量、耗时、请求/记录SHA。
@@ -65,12 +65,12 @@ HiMu启发来自“拆分叶事件、区分已知关系和待推断顺序、再�
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate &&
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA &&
 test "$(git branch --show-current)" = feat/air-visual-evidence &&
-bash VQA/mage_vl/air_v1/run_condition_text_parser.sh test-cpu &&
-bash VQA/mage_vl/air_v1/run_condition_text_parser.sh init &&
-bash VQA/mage_vl/air_v1/run_condition_text_parser.sh preflight &&
+bash VLM/mage_vl/air_v1/run_condition_text_parser.sh test-cpu &&
+bash VLM/mage_vl/air_v1/run_condition_text_parser.sh init &&
+bash VLM/mage_vl/air_v1/run_condition_text_parser.sh preflight &&
 export DEEPSEEK_API_CONFIRMED=1 &&
-bash VQA/mage_vl/air_v1/run_condition_text_parser.sh parse5 &&
-bash VQA/mage_vl/air_v1/run_condition_text_parser.sh summarize5
+bash VLM/mage_vl/air_v1/run_condition_text_parser.sh parse5 &&
+bash VLM/mage_vl/air_v1/run_condition_text_parser.sh summarize5
 ```
 
 当前仅deepseek.env存在时自动使用，无须再次复制密钥。正常中断后重用原命令；不删除旧缓存。脚本不会自动进入30题/定位/QA。
