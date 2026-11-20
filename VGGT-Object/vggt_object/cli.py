@@ -11,9 +11,8 @@ from .common import PROJECT,REPO,config,json_dump,environment,seed_all,require_g
 def check(cfg):
     from .model import create
     from .bundle import sources
-    branch=subprocess.check_output(['git','branch','--show-current'],cwd=REPO,text=True).strip()
-    if branch not in ('main','feat/sparse-vcar-seg'):
-        raise RuntimeError(f'Expected main or legacy feat/sparse-vcar-seg; found {branch}; no automatic branch switch')
+    # Model/data compatibility is independent of branch names.
+    # environment(cfg) still records the branch/commit for provenance.
     # No allocation of real 1B parameters and no CUDA calls. Strictly compare local checkpoint key shapes.
     model,stats=create(cfg,device='cpu',meta_only=True)
     state=torch.load(cfg['base_checkpoint'],map_location='cpu',weights_only=True,mmap=True)

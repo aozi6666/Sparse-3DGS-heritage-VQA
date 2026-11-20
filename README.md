@@ -1,3 +1,5 @@
+> 分支同步（2026-11-20）：[旧分支目录回退原因与同步规则](docs/BRANCH_SYNC_20261120.md)。主线目录统一为VLM，独立历史实验分支保留各自源码。
+
 > 当前入口（2026-11-20）：[main统一整理、VGGT保全与分割支线退出](docs/MAIN_MIGRATION_20261120.md)。视频工程仅使用 `VLM/`；VCAR已取消。数据、权重、环境留在服务器，不随Git分发。
 
 # Sparse-3DGS-heritage-VQA
