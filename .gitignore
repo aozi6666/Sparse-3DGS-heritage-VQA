@@ -113,3 +113,27 @@ datasets/
 
 # Large files that should be handled by Git LFS
 # (these are already configured in .gitattributes) 
+# Shared maintenance 2026-11-20: keep runtime assets local
+VCAR/
+Seg/
+.uv-cache-seg/
+VQA/
+.venv*/
+**/__pycache__/
+*.pyc
+*.log
+**/logs/
+**/output/
+**/outputs/
+**/checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.glb
+*.npy
+*.npz
+.env
+*.env
+!*.env.example
