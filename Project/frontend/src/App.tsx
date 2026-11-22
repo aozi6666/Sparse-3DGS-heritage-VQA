@@ -1,3 +1,4 @@
+import SpotlightCard from './SpotlightCard';
 import {useEffect,useRef,useState} from 'react';
 import {SpeechQueue,type Language} from './speech';
 
@@ -24,14 +25,15 @@ function UploadPicker({label,disabled,onFile,primary=false}:{label:string;disabl
 }
 
 export default function App(){
- const [showModel,setShowModel]=useState(true);
+ const [showModel,setShowModel]=useState(false);
+ const [visited,setVisited]=useState(false);
  const [health,setHealth]=useState<Health|null>(null);
  const [video,setVideo]=useState<Video|null>(null),[job,setJob]=useState<Job|null>(null);
  const [error,setError]=useState(''),[uploading,setUploading]=useState(false),[deleting,setDeleting]=useState(false),[generating,setGenerating]=useState(false);
  const [removed,setRemoved]=useState<Video|null>(null),[language,setLanguage]=useState<Language>('zh');
  const [question,setQuestion]=useState(''),[answer,setAnswer]=useState('');
  const [tts,setTts]=useState(false),[voices,setVoices]=useState<SpeechSynthesisVoice[]>([]),[voice,setVoice]=useState(''),[speechState,setSpeechState]=useState('待播报');
- const [time,setTime]=useState(0),[tab,setTab]=useState<'commentary'|'qa'>('commentary');
+ const [time,setTime]=useState(0),[tab,setTab]=useState<'commentary'|'qa'>('qa');
  const player=useRef<HTMLVideoElement>(null),source=useRef<EventSource|null>(null),abort=useRef<AbortController|null>(null);
  const speech=useRef(new SpeechQueue()),spoken=useRef(new Set<number>()),latestJob=useRef<Job|null>(null);
  const lastSync=useRef(0),version=useRef(0),waiting=useRef(false),fileOperation=useRef(false);
@@ -222,49 +224,50 @@ export default function App(){
  const completed=job?.segments.filter(s=>s.status==='done').length||0;
  const pickerLabel=uploading?'正在上传…':video?'更换视频':'上传视频';
  return <div className="shell">
-  <header><div className="brand"><span className="mark">M</span><div>MAGE<span className="studio">VIDEO STUDIO</span></div></div><div className="status"><i className={health?.model_enabled?'green':''}/>{health?.model_enabled?'本地模型已启用':'GPU推理未启用 · 可上传预览'}</div></header>
+  <header><div className="brand"><span className="mark">M</span><div>MAGE<span className="studio">HERITAGE STUDIO</span></div></div><div className="status"><i className={health?.model_enabled?'green':''}/>{health?.model_enabled?'本地模型已启用':'GPU推理未启用 · 可上传预览'}</div></header>
   <main>
-   <div className="heading"><div><span className="eyebrow">HERITAGE STUDIO</span><h1>三维展品与视频问答</h1><p>旋转模型观察细节，或上传展品视频，在播放到感兴趣的位置时提问。</p></div>
-    <div className="video-actions"><UploadPicker label={pickerLabel} disabled={fileBusy} onFile={f=>void upload(f)}/>
+   <nav className="modes" aria-label="展示模式">
+    <button aria-pressed={!showModel} onClick={()=>setShowModel(false)}>视频问答</button>
+    <button aria-pressed={showModel} onClick={()=>{player.current?.pause();setVisited(true);setShowModel(true);}}>三维浏览</button>
+   </nav>
+   <div className="heading"><div><h1>{showModel?'三维展厅':'影像研究室'}</h1><p>{showModel?'拖动展品观察不同角度，拉近查看表面细节。':'选择一段展品视频，定位画面并提问。'}</p></div>
+   {!showModel && video &&     <div className="video-actions"><UploadPicker label={pickerLabel} disabled={fileBusy} onFile={f=>void upload(f)}/>
      {video&&<button className="danger-button" disabled={fileBusy} onClick={()=>void removeVideo()}>{deleting?'正在删除…':'删除视频'}</button>}
-    </div>
-   </div>
+    </div>}</div>
    {error&&<div className="error" role="alert">{error}<button onClick={()=>setError('')}>×</button></div>}
    {removed&&<div className="notice" role="status"><span>已删除「{removed.name}」，可重新上传。原文件已移入回收目录，历史解说保留。</span><button className="quiet" disabled={fileBusy} onClick={()=>void undoDelete()}>撤销删除</button></div>}
-   <section aria-label="三维模型" style={{marginBottom:24}}>
-    <button aria-expanded={showModel} onClick={()=>setShowModel(!showModel)}>{showModel?'收起三维模型':'展开三维模型'}</button>
-    {showModel&&<iframe title="交互式 3DGS 展品" src="/viewer/index.html" style={{display:'block',width:'100%',height:'min(62vh,620px)',border:0,borderRadius:16,marginTop:12}}/>}
-   </section>
-   <div className="workspace"><section className="viewer">
+   <section hidden={!showModel} className="exhibit">{visited&&<iframe title="交互式 3DGS 展品" src="/viewer/index.html"/>}</section>
+   <div className="workspace" hidden={showModel}><section className="viewer">
     <div className="video-box">{video?<video ref={player} src={video.url} controls onEnded={()=>sync(true)} onTimeUpdate={()=>sync()} onSeeked={seek} onPause={()=>{if(hold.current===null)speech.current.pause();sync(true);}} onPlay={()=>{speech.current.resume();sync(true);}}/>:
-     <div className="empty" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();const f=e.dataTransfer.files[0];if(f)void upload(f);}}>
+     <SpotlightCard spotlightColor="#dec695" className="empty" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();const f=e.dataTransfer.files[0];if(f)void upload(f);}}>
       <div className="play-icon">▷</div><h2>{uploading?'正在接收视频…':'把视频拖到这里'}</h2><p>MP4 / MOV / WEBM / MKV · 原文件保留在本机服务器</p>
       <UploadPicker label={uploading?'正在上传…':'选择视频'} disabled={fileBusy} primary onFile={f=>void upload(f)}/>
-     </div>}
+     </SpotlightCard>}
     </div>
     {job?.status==='running'&&job.segments.some(s=>s.start<=time&&time<s.end&&s.status!=='done')&&<div className="buffer-notice" role="status">正在生成 {clock(time)} 所在片段的解说，视频暂时等待…</div>}
     {speechWaiting&&<div className="buffer-notice" role="status">画面已到段尾，等待当前解说完整播完…</div>}
     <div className="video-meta"><div><b>{video?.name||'尚未选择视频'}</b><span>{video?`${clock(time)} / ${clock(video.duration)}`:'本地模型 · 不调用外部LLM'}</span></div><span className="pill">MAGE-VL</span></div>
-    <div className="language-control"><label htmlFor="commentary-language">解说语言</label><select id="commentary-language" value={language} disabled={fileBusy} onChange={e=>void changeLanguage(e.target.value as Language)}><option value="zh">中文</option><option value="en">English（英文）</option></select><small>切换后重新生成 · 历史结果保留</small></div>
-    <div className="controls"><button disabled={!video||fileBusy||generating||job?.status==='running'||job?.status==='queued'} onClick={()=>void start()}>▷ 开始自动讲解</button>
+    <details><summary>流式讲解{job?' · '+completed+'/'+job.segments.length:''}</summary>
+    <div className="controls"><button disabled={!health?.model_enabled||!video||fileBusy||generating||job?.status==='running'||job?.status==='queued'} onClick={()=>{setTab('commentary');void start();}}>▷ 开始自动讲解</button>
      {job&&!['done','running','queued'].includes(job.status)&&<button className="outline" disabled={fileBusy||generating} onClick={()=>void resume()}>继续任务</button>}
      <button className="quiet" onClick={()=>void stop()} disabled={!job&&!generating}>停止</button><span>{job?`${completed} / ${job.segments.length} 段已完成`:'每8秒一段 · 文字就绪后播放'}</span>
     </div>
     {job&&<progress aria-label="片段完成进度" value={completed} max={job.segments.length}/>}
+<div className="transcript">{job?.segments.filter(s=>s.start<=time).map(s=><article key={s.index} className={time>=s.start&&time<s.end?'current':''}>
+     <button className="timestamp" onClick={()=>{if(player.current){player.current.currentTime=s.start;seek();}}}>{clock(s.start)} — {clock(s.end)}</button><p>{s.text||(s.status==='running'?'正在理解这一段画面…':'等待处理')}</p><small>{s.status==='done'?'已完成':s.status==='running'?'生成中':'待处理'}</small>
+    </article>)||<p>开始讲解后，按视频时间查看各段解说。</p>}</div></details>
+    <details><summary>语言与语音设置</summary>    <div className="language-control"><label htmlFor="commentary-language">解说语言</label><select id="commentary-language" value={language} disabled={fileBusy} onChange={e=>void changeLanguage(e.target.value as Language)}><option value="zh">中文</option><option value="en">English（英文）</option></select><small>切换后重新生成 · 历史结果保留</small></div>
     <div className="speech"><div><b>语音播报</b><span>完整短句播报 · 段尾等待 · 下一段提前准备</span></div><label><input type="checkbox" checked={tts} disabled={!speech.current.supported()} onChange={e=>{setTts(e.target.checked);if(!e.target.checked){speech.current.clear();activeSpeechSegment.current=null;releaseHold();}else{const current=latestJob.current?.segments.find(s=>s.start<=time&&time<s.end);if(current)spoken.current.delete(current.index);}}}/> 开启</label>
      <select aria-label="播报音色" value={voice} onChange={e=>{setVoice(e.target.value);speech.current.voiceURI=e.target.value;}}><option value="">系统{language==='en'?'英文':'中文'}音色</option>{voices.map(v=><option key={v.voiceURI} value={v.voiceURI}>{v.name}{v.localService?' · 本机':''}</option>)}</select>
      <button className="quiet" disabled={!speech.current.supported()} onClick={()=>{speech.current.resume();speech.current.add(language==='en'?'Hello. This is the browser speech test.':'你好，这是浏览器语音播报测试。');}}>试听</button><button className="outline" disabled={!speech.current.supported()||!replayAvailable} onClick={replaySpeech}>重新播报</button><small>{speech.current.supported()?speechState:'此浏览器不支持语音合成'}</small>
     </div>
+</details>
    </section><aside>
-    <div className="tabs"><button className={tab==='commentary'?'selected':''} onClick={()=>setTab('commentary')}>片段讲解</button><button className={tab==='qa'?'selected':''} onClick={()=>setTab('qa')}>视频问答</button></div>
-    <div className="transcript">{tab==='commentary'?job?.segments.filter(s=>s.start<=time).map(s=><article key={s.index} className={time>=s.start&&time<s.end?'current':''}>
-     <button className="timestamp" onClick={()=>{if(player.current){player.current.currentTime=s.start;seek();}}}>{clock(s.start)} — {clock(s.end)}</button><p>{s.text||(s.status==='running'?'正在理解这一段画面…':'等待处理')}</p><small>{s.status==='done'?'已完成':s.status==='running'?'生成中':'待处理'}</small>
-    </article>)||<div className="placeholder"><span>✧</span><h3>从第一段画面开始</h3><p>上传后选择中文或英文，开始分段讲解。<br/>点击开始后，首段文字会逐步显示在这里。</p></div>:
-     <div className="qa-answer"><span className="eyebrow">MAGE ANSWER</span><p>{answer||'播放到你关心的位置，在下方输入问题。回答范围为当前画面及此前12秒。'}</p></div>}
-    </div>
-    <div className="question"><textarea value={question} onChange={e=>setQuestion(e.target.value)} placeholder="问问这段视频，比如：刚才发生了什么？" maxLength={2000}/><div><small>提问会暂停播放 · 使用所选解说语言回答</small><button disabled={!video||fileBusy||generating||!question.trim()} onClick={()=>void ask()}>{generating?'处理中…':'发送 ↗'}</button></div></div>
+    <div className="answer-head"><h2>画面问答</h2><time>{clock(time)}</time></div>
+    <div className="transcript qa-answer" aria-live="polite"><p>{answer||'播放到想了解的位置，输入你的问题。回答会参考当前画面和此前最多 12 秒。'}</p></div>
+    <div className="question"><textarea aria-label="视频问题" value={question} onChange={e=>setQuestion(e.target.value)} placeholder="问问这段视频，比如：刚才发生了什么？" maxLength={2000}/><div><small>{health?.model_enabled?'发送时暂停视频':'预览模式 · 问答推理未启用'}</small><button disabled={!health?.model_enabled||!video||fileBusy||generating||!question.trim()} onClick={()=>void ask()}>{generating?'处理中…':'发送 ↗'}</button></div></div>
    </aside></div>
-   <footer><span>LOCAL INTELLIGENCE. YOUR OWN STORY.</span><span>模型推理尚待GPU验收 · 已上传视频分段处理</span></footer>
+   
   </main>
  </div>;
 }
