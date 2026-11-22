@@ -80,3 +80,11 @@ NODE_OPTIONS=--max-old-space-size=256 npm run build
 **当前不可删除旧 `VLM/mage_vl`**，模型实体仍在那里。最终迁移需先排查其他实验引用、保存数据，再同盘移动权重并验收。历史字幕/评测/3DGS数据均未改动。
 
 原始阶段规划见 [PLAN_20261110.md](docs/PLAN_20261110.md)，最新进展及验收边界见 [STATUS_20261111.md](docs/STATUS_20261111.md)。
+
+## 实物展示工作区
+
+本实例的展示分支工作树为 `/root/autodl-tmp/heritage-demo/Project`。预览端口为 17862。启动方式为 `DEMO_ENABLE_MODEL=0 DEMO_PORT=17862 bash bootstrap/serve.sh`，上传缓存和数据库使用展示工作树自己的 storage 目录。
+
+三维预览依赖 OpenCV、NumPy 和 pycolmap 3.11.1。单独部署时可执行 `uv pip install --python .venv/bin/python --target storage/reconstruction-runtime --no-deps pycolmap==3.11.1`。重建进程限制一个 CPU 线程，并显式使用 CPU 特征提取及匹配。自动重建输出 SfM 稀疏彩色点的 splat 表示，训练得到的 3DGS 可由模型文件选择器直接加载。导出时浏览器渲染 96 个视角，服务端使用项目已有 FFmpeg 编码为 12 fps 的 H.264 MP4。
+
+视频问答支持手工导入 SRT/VTT。勾选整段检索后按问题词汇匹配字幕，返回片段时间。CPU 预览可查看字幕摘录。启用 Mage 后使用定位到的画面及同一时间窗口内的字幕生成回答。
