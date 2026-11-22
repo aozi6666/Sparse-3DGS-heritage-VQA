@@ -39,20 +39,23 @@ try {
     let stream;
     try {
       stream = canvas.captureStream(30);
-      const recorder = new MediaRecorder(stream);
+      const mimeType=['video/webm;codecs=vp8','video/webm;codecs=vp9','video/mp4'].find(type=>MediaRecorder.isTypeSupported(type));
+      const recorder = new MediaRecorder(stream,mimeType?{mimeType}:undefined);
       const chunks = [];
       recorder.ondataavailable = e => { if(e.data.size) chunks.push(e.data); };
       recorder.onstop = () => {
         stream.getTracks().forEach(track=>track.stop());
-        const link = document.createElement('a');
+        const link = document.querySelector('#film');
+        if(link.href) URL.revokeObjectURL(link.href);
         link.href = URL.createObjectURL(new Blob(chunks,{type:recorder.mimeType}));
         link.download = '实物展示.'+(recorder.mimeType.includes('mp4')?'mp4':'webm');
-        link.click(); setTimeout(()=>URL.revokeObjectURL(link.href),60000);
+        link.hidden=false;link.click();
         camera.position.copy(orbit.offset).add(controls.target); orbit=null;
         controls.enabled=true; record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=false;
         status.textContent='展示视频已导出';
       };
-      recorder.start();
+      recorder.start(500);
+      setTimeout(()=>{if(recorder.state==='recording')recorder.stop();},8100);
       orbit={start:performance.now(),offset:camera.position.clone().sub(controls.target),recorder};
       controls.enabled=false; record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=true;
       status.textContent='正在录制环绕视频，请保持此页可见…';
