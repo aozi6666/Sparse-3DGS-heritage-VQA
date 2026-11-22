@@ -1,3 +1,4 @@
+import {Subtitles,type Cue} from './Subtitles';
 import SpotlightCard from './SpotlightCard';
 import {useEffect,useRef,useState} from 'react';
 import {SpeechQueue,type Language} from './speech';
@@ -25,10 +26,14 @@ function UploadPicker({label,disabled,onFile,primary=false}:{label:string;disabl
 }
 
 export default function App(){
+ const [searchAll,setSearchAll]=useState(true);
+ const [evidence,setEvidence]=useState<number|null>(null);
+ const [cues,setCues]=useState<Cue[]>([]);
  const [showModel,setShowModel]=useState(false);
  const [visited,setVisited]=useState(false);
  const [health,setHealth]=useState<Health|null>(null);
  const [video,setVideo]=useState<Video|null>(null),[job,setJob]=useState<Job|null>(null);
+ useEffect(()=>{setCues([]);setEvidence(null);},[video?.id]);
  const [error,setError]=useState(''),[uploading,setUploading]=useState(false),[deleting,setDeleting]=useState(false),[generating,setGenerating]=useState(false);
  const [removed,setRemoved]=useState<Video|null>(null),[language,setLanguage]=useState<Language>('zh');
  const [question,setQuestion]=useState(''),[answer,setAnswer]=useState('');
@@ -188,11 +193,30 @@ export default function App(){
   const id=latestJob.current?.id;await stopWork();if(id)connect(id);
  }
  async function ask(){
-  if(!video||!question.trim())return;if(!health?.model_enabled){setError('本地 Mage 模型尚未启用，暂时不能生成回答。GPU 可用后需要以 DEMO_ENABLE_MODEL=1 启动后端。');return;}
+  if(!video||!question.trim())return;if(!health?.model_enabled&&!cues.length)return;
   waiting.current=false;cancel();player.current?.pause();setTab('qa');setError('');setAnswer('');setGenerating(true);
   const controller=new AbortController();abort.current=controller;const stamp=version.current;let full='';
   try{
-   const r=await fetch('/api/questions',{...post({video_id:video.id,timestamp:player.current?.currentTime||0,question,language}),signal:controller.signal});
+   let position=player.current?.currentTime||0;
+   let matched = false;
+   if(searchAll && cues.length){
+    const tokens=new Set(question.toLowerCase().match(/[a-z0-9]+/g) || []);
+    for(const pair of question.matchAll(/(?=([\u4e00-\u9fff]{2}))/g))tokens.add(pair[1]);
+    let best=0;
+    for(const cue of cues){
+     const line=cue.text.toLowerCase();
+     const score=[...tokens].reduce((sum,token)=>sum+(line.includes(token)?token.length:0),0);
+     if(score>best){matched=true;best=score;position=Math.min(video.duration,cue.end);}
+    }
+   }
+   setEvidence(position);
+   const excerpt=cues.filter(c=>c.start<=position&&c.end>=position-12).map(c=>c.text).join(' ').slice(0,1500);
+   if(!health?.model_enabled){
+    if(searchAll&&!matched){setEvidence(null);setAnswer('没有找到包含相关关键词的字幕。请更换关键词，或关闭整段检索查看当前位置。');return;}
+    setAnswer(excerpt?'相关字幕原文：'+excerpt:'所选片段没有可引用的字幕。');
+    return;
+   }
+   const r=await fetch('/api/questions',{...post({video_id:video.id,timestamp:position,question,language,subtitles:excerpt}),signal:controller.signal});
    if(!r.ok){const x=await r.json();throw Error(x.detail);}
    const reader=r.body!.getReader(),decoder=new TextDecoder();let buffer='';
    while(true){
@@ -230,7 +254,7 @@ export default function App(){
     <button aria-pressed={!showModel} onClick={()=>setShowModel(false)}>视频问答</button>
     <button aria-pressed={showModel} onClick={()=>{player.current?.pause();setVisited(true);setShowModel(true);}}>三维浏览</button>
    </nav>
-   <div className="heading"><div><h1>{showModel?'三维展厅':'影像研究室'}</h1><p>{showModel?'拖动展品观察不同角度，拉近查看表面细节。':'选择一段展品视频，定位画面并提问。'}</p></div>
+   <div className="heading"><div><h1>{showModel?'实物三维展厅':'介绍视频问答'}</h1><p>{showModel?'上传环拍素材生成三维预览，或打开已有模型，录制环绕展示视频。':'选择一段展品视频，定位画面并提问。'}</p></div>
    {!showModel && video &&     <div className="video-actions"><UploadPicker label={pickerLabel} disabled={fileBusy} onFile={f=>void upload(f)}/>
      {video&&<button className="danger-button" disabled={fileBusy} onClick={()=>void removeVideo()}>{deleting?'正在删除…':'删除视频'}</button>}
     </div>}</div>
@@ -265,7 +289,10 @@ export default function App(){
    </section><aside>
     <div className="answer-head"><h2>画面问答</h2><time>{clock(time)}</time></div>
     <div className="transcript qa-answer" aria-live="polite"><p>{answer||'播放到想了解的位置，输入你的问题。回答会参考当前画面和此前最多 12 秒。'}</p></div>
-    <div className="question"><textarea aria-label="视频问题" value={question} onChange={e=>setQuestion(e.target.value)} placeholder="问问这段视频，比如：刚才发生了什么？" maxLength={2000}/><div><small>{health?.model_enabled?'发送时暂停视频':'预览模式 · 问答推理未启用'}</small><button disabled={!health?.model_enabled||!video||fileBusy||generating||!question.trim()} onClick={()=>void ask()}>{generating?'处理中…':'发送 ↗'}</button></div></div>
+    {video&&<Subtitles key={video.id} cues={cues} onChange={setCues} onSeek={t=>{if(player.current){player.current.currentTime=t;player.current.pause();}}}/>}
+    {evidence!==null&&video&&<button className="quiet" onClick={()=>{if(player.current)player.current.currentTime=evidence;}}>查看回答依据 · {clock(evidence)}</button>}
+    {cues.length>0&&<label className="scope"><input type="checkbox" checked={searchAll} onChange={e=>setSearchAll(e.target.checked)}/> 按问题关键词搜索整段字幕</label>}
+    <div className="question"><textarea aria-label="视频问题" value={question} onChange={e=>setQuestion(e.target.value)} placeholder="问问这段视频，比如：刚才发生了什么？" maxLength={2000}/><div><small>{health?.model_enabled?'发送时暂停视频':cues.length?'预览模式 · 返回匹配片段字幕':'导入字幕可检索 · 视觉推理未启用'}</small><button disabled={(!health?.model_enabled&&!cues.length)||!video||fileBusy||generating||!question.trim()} onClick={()=>void ask()}>{generating?'处理中…':'发送 ↗'}</button></div></div>
    </aside></div>
    
   </main>

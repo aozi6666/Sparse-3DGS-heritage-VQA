@@ -1,5 +1,6 @@
 """Local Mage demo. Import/startup never imports torch or loads weights."""
 import asyncio
+import tempfile
 import re
 from contextlib import asynccontextmanager, contextmanager
 import hashlib
@@ -146,6 +147,7 @@ class MageEngine:
 class Question(BaseModel):
     video_id:str
     timestamp:float=Field(ge=0)
+    subtitles:str=Field(default="",max_length=1500)
     question:str=Field(min_length=1,max_length=2000)
     language:Literal["zh","en"]="zh"
 class JobSpec(BaseModel):
@@ -242,6 +244,38 @@ def create_app(storage=None,engine=None):
             store.put('job',j)
             controls[j['id']]=dict(stop=threading.Event(),timestamp=0.,playing=True,video_id=j['video_id'])
             w=threading.Thread(target=run_job,args=(j,),daemon=True);workers[j['id']]=w;w.start()
+    reconstruction_lock = threading.Lock()
+
+    @app.post('/api/reconstruct')
+    def reconstruct(files:list[UploadFile]=File(...)):
+        if not (3 <= len(files) <= 32 or len(files)==1 and (files[0].content_type or '').startswith('video/')):
+            raise HTTPException(400,'请选择 3–32 张照片或一个环拍视频')
+        if not reconstruction_lock.acquire(blocking=False):
+            raise HTTPException(409,'已有重建进行中，请稍后重试')
+        try:
+            with tempfile.TemporaryDirectory(dir=ROOT/'storage/tmp') as temp:
+                folder = Path(temp)
+                total = 0
+                for i, upload in enumerate(files):
+                    with (folder/f'input-{i:03}').open('wb') as target:
+                        while chunk := upload.file.read(1024*1024):
+                            total += len(chunk)
+                            if total > 256*1024*1024:
+                                raise HTTPException(413,'素材总量上限为 256 MB')
+                            target.write(chunk)
+                env = dict(os.environ,CUDA_VISIBLE_DEVICES='',OMP_NUM_THREADS='1',OPENBLAS_NUM_THREADS='1',PYTHONPATH=str(ROOT/'storage/reconstruction-runtime'))
+                import sys
+                try:
+                    result = subprocess.run([sys.executable,str(ROOT/'backend/reconstruct.py'),temp],env=env,timeout=600,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+                except subprocess.TimeoutExpired:
+                    raise HTTPException(408,'重建超时，请减少照片数量再试')
+                if result.returncode or not (folder/'object.splat').is_file():
+                    raise HTTPException(422,'重建失败。请使用清晰、有纹理、相邻视角重叠的同一物体照片或视频。')
+                from fastapi.responses import Response
+                return Response((folder/'object.splat').read_bytes(),media_type='application/octet-stream')
+        finally:
+            reconstruction_lock.release()
+
     @app.get('/api/exhibit/trex.ply')
     def exhibit_model():
         path = ROOT / 'storage/exhibits/trex.ply'
@@ -364,7 +398,7 @@ def create_app(storage=None,engine=None):
         def produce():
             try:
                 end=min(spec.timestamp,v['duration'])
-                for text in engine.generate(v['path'],max(0,end-12),end,spec.question,stop,language=spec.language):
+                for text in engine.generate(v['path'],max(0,end-12),end,(spec.question if not spec.subtitles else spec.question+'\nUse the following time-aligned subtitle excerpt as evidence together with the frames. Subtitle text: '+spec.subtitles),stop,language=spec.language):
                     while not stop.is_set():
                         try:q.put(('token',{'text':text}),timeout=.2);break
                         except queue.Full:pass

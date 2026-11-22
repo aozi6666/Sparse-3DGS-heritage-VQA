@@ -36,3 +36,14 @@ h1{font:600 clamp(32px,4vw,56px)/1.2 'Songti SC','Noto Serif CJK SC',serif;lette
   .empty p{max-width:95%;text-align:center}
   .video-meta b{max-width:65vw}
 }
+.heading h1{background:linear-gradient(105deg,#193c32 8%,#407661 43%,#92723c 65%,#193c32 90%);background-size:200% auto;color:transparent;background-clip:text;animation:title-reveal 9s ease-in-out infinite alternate}
+@keyframes title-reveal{to{background-position:100% center}}
+@media(prefers-reduced-motion:reduce){.heading h1{animation:none}}
+.subtitle-tools{margin:0 18px 10px;border-block:1px solid #dfdfd3;padding:12px 0;font-size:13px}
+.subtitle-tools summary{cursor:pointer;font-weight:650}
+.subtitle-tools input,.subtitle-tools label,.subtitle-tools small{display:block;margin:8px 0;max-width:100%}
+.subtitle-tools input:not([type=file]){width:100%;padding:10px;border:1px solid #c5cec4;border-radius:8px}
+.cue-list{max-height:150px;overflow:auto}.cue-list button{display:flex;text-align:left;gap:8px;width:100%;color:#28483c;background:#f3f4eb;font-size:12px;margin:3px 0}
+.scope{margin:4px 18px;font-size:13px;color:#35594d}
+.modes button{position:relative;transition:transform .2s,color .2s,background .2s}.modes button:hover{transform:translateY(-2px)}
+@media(prefers-reduced-motion:no-preference){.workspace:not([hidden]),.exhibit:not([hidden]){animation:gallery-in .32s ease-out}@keyframes gallery-in{from{opacity:.25;transform:translateY(6px)}to{opacity:1;transform:none}}}
