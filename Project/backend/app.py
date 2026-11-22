@@ -242,6 +242,13 @@ def create_app(storage=None,engine=None):
             store.put('job',j)
             controls[j['id']]=dict(stop=threading.Event(),timestamp=0.,playing=True,video_id=j['video_id'])
             w=threading.Thread(target=run_job,args=(j,),daemon=True);workers[j['id']]=w;w.start()
+    @app.get('/api/exhibit/trex.ply')
+    def exhibit_model():
+        path = ROOT / 'storage/exhibits/trex.ply'
+        if not path.is_file():
+            raise HTTPException(404, '示例模型尚未配置，请选择本地模型')
+        return FileResponse(path, media_type='application/octet-stream')
+
     @app.get('/api/health')
     def health():return dict(ok=True,model_enabled=enabled(),model_loaded=getattr(engine,'model',None) is not None,model_local=bool((ROOT/'models/mage-vl').is_dir()),tts='browser',backend='frames',gpu_tested=False)
     @app.post('/api/videos')

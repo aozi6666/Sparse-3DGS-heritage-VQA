@@ -24,6 +24,7 @@ function UploadPicker({label,disabled,onFile,primary=false}:{label:string;disabl
 }
 
 export default function App(){
+ const [showModel,setShowModel]=useState(true);
  const [health,setHealth]=useState<Health|null>(null);
  const [video,setVideo]=useState<Video|null>(null),[job,setJob]=useState<Job|null>(null);
  const [error,setError]=useState(''),[uploading,setUploading]=useState(false),[deleting,setDeleting]=useState(false),[generating,setGenerating]=useState(false);
@@ -223,13 +224,17 @@ export default function App(){
  return <div className="shell">
   <header><div className="brand"><span className="mark">M</span><div>MAGE<span className="studio">VIDEO STUDIO</span></div></div><div className="status"><i className={health?.model_enabled?'green':''}/>{health?.model_enabled?'本地模型已启用':'GPU推理未启用 · 可上传预览'}</div></header>
   <main>
-   <div className="heading"><div><span className="eyebrow">YOUR VIDEO, UNDERSTOOD.</span><h1>让画面，有话可说。</h1><p>上传一段视频，逐段理解、连续讲解，也可以随时提问。</p></div>
+   <div className="heading"><div><span className="eyebrow">HERITAGE STUDIO</span><h1>三维展品与视频问答</h1><p>旋转模型观察细节，或上传展品视频，在播放到感兴趣的位置时提问。</p></div>
     <div className="video-actions"><UploadPicker label={pickerLabel} disabled={fileBusy} onFile={f=>void upload(f)}/>
      {video&&<button className="danger-button" disabled={fileBusy} onClick={()=>void removeVideo()}>{deleting?'正在删除…':'删除视频'}</button>}
     </div>
    </div>
    {error&&<div className="error" role="alert">{error}<button onClick={()=>setError('')}>×</button></div>}
    {removed&&<div className="notice" role="status"><span>已删除「{removed.name}」，可重新上传。原文件已移入回收目录，历史解说保留。</span><button className="quiet" disabled={fileBusy} onClick={()=>void undoDelete()}>撤销删除</button></div>}
+   <section aria-label="三维模型" style={{marginBottom:24}}>
+    <button aria-expanded={showModel} onClick={()=>setShowModel(!showModel)}>{showModel?'收起三维模型':'展开三维模型'}</button>
+    {showModel&&<iframe title="交互式 3DGS 展品" src="/viewer/index.html" style={{display:'block',width:'100%',height:'min(62vh,620px)',border:0,borderRadius:16,marginTop:12}}/>}
+   </section>
    <div className="workspace"><section className="viewer">
     <div className="video-box">{video?<video ref={player} src={video.url} controls onEnded={()=>sync(true)} onTimeUpdate={()=>sync()} onSeeked={seek} onPause={()=>{if(hold.current===null)speech.current.pause();sync(true);}} onPlay={()=>{speech.current.resume();sync(true);}}/>:
      <div className="empty" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();const f=e.dataTransfer.files[0];if(f)void upload(f);}}>
