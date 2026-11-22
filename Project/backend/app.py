@@ -244,6 +244,23 @@ def create_app(storage=None,engine=None):
             store.put('job',j)
             controls[j['id']]=dict(stop=threading.Event(),timestamp=0.,playing=True,video_id=j['video_id'])
             w=threading.Thread(target=run_job,args=(j,),daemon=True);workers[j['id']]=w;w.start()
+    @app.post('/api/exhibit/film')
+    def exhibit_film(frames:list[UploadFile]=File(...)):
+        if len(frames)!=96:
+            raise HTTPException(400,'需要 96 帧画面')
+        with tempfile.TemporaryDirectory(dir=ROOT/'storage/tmp') as temp:
+            folder=Path(temp)
+            for i,frame in enumerate(frames):
+                data=frame.file.read(2*1024*1024+1)
+                if len(data)>2*1024*1024 or not data.startswith(b'\xff\xd8'):
+                    raise HTTPException(400,'输入画面格式或尺寸不符')
+                (folder/f'{i:03}.jpg').write_bytes(data)
+            result=subprocess.run([str(ROOT/'tools/bin/ffmpeg'),'-loglevel','error','-threads','1','-framerate','12','-i',str(folder/'%03d.jpg'),'-vf','scale=trunc(iw/2)*2:trunc(ih/2)*2','-filter_threads','1','-c:v','libx264','-threads','1','-pix_fmt','yuv420p','-movflags','+faststart',str(folder/'film.mp4')],timeout=180)
+            if result.returncode:
+                raise HTTPException(422,'无法编码视频')
+            from fastapi.responses import Response
+            return Response((folder/'film.mp4').read_bytes(),media_type='video/mp4')
+
     reconstruction_lock = threading.Lock()
 
     @app.post('/api/reconstruct')

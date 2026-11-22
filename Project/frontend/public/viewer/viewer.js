@@ -25,41 +25,41 @@ try {
     camera.updateProjectionMatrix();
   }).observe(canvas.parentElement);
   const record = document.querySelector('#record');
-  let orbit;
-  renderer.setAnimationLoop(() => {
-    if (orbit) {
-      const t = Math.min(1,(performance.now()-orbit.start)/8000);
-      camera.position.copy(orbit.offset).applyAxisAngle(camera.up,t*Math.PI*2).add(controls.target);
-      if (t===1 && orbit.recorder.state==='recording') orbit.recorder.stop();
+  let filming=false;
+  renderer.setAnimationLoop(()=>{if(!filming){controls.update();renderer.render(scene,camera);}});
+  record.onclick=async()=>{
+    if(filming || !current)return;
+    filming=true;
+    const offset=camera.position.clone().sub(controls.target);
+    controls.enabled=false;
+    record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=true;
+    try{
+      const frames=new FormData();
+      for(let i=0;i<96;i++){
+        camera.position.copy(offset).applyAxisAngle(camera.up,i*2*Math.PI/96).add(controls.target);
+        camera.lookAt(controls.target);
+        renderer.render(scene,camera);
+        await new Promise(resolve=>requestAnimationFrame(resolve));
+        renderer.render(scene,camera);
+        const image=await new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',0.84));
+        if(!image)throw Error('画面读取失败');
+        frames.append('frames',image,'frame.jpg');
+        status.textContent='正在渲染环绕画面 '+(i+1)+' / 96';
+      }
+      status.textContent='正在合成 MP4…';
+      const response=await fetch('/api/exhibit/film',{method:'POST',body:frames});
+      if(!response.ok)throw Error('视频合成失败');
+      const link=document.querySelector('#film');
+      if(link.href)URL.revokeObjectURL(link.href);
+      link.href=URL.createObjectURL(await response.blob());
+      link.download='实物展示.mp4';link.hidden=false;link.click();
+      status.textContent='展示视频已导出';
+    }catch(error){status.textContent=error.message;}
+    finally{
+      camera.position.copy(offset).add(controls.target);
+      filming=false;controls.enabled=true;
+      record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=false;
     }
-    controls.update(); renderer.render(scene,camera);
-  });
-  record.onclick = () => {
-    if (!current || orbit) return;
-    let stream;
-    try {
-      stream = canvas.captureStream(30);
-      const mimeType=['video/webm;codecs=vp8','video/webm;codecs=vp9','video/mp4'].find(type=>MediaRecorder.isTypeSupported(type));
-      const recorder = new MediaRecorder(stream,mimeType?{mimeType}:undefined);
-      const chunks = [];
-      recorder.ondataavailable = e => { if(e.data.size) chunks.push(e.data); };
-      recorder.onstop = () => {
-        stream.getTracks().forEach(track=>track.stop());
-        const link = document.querySelector('#film');
-        if(link.href) URL.revokeObjectURL(link.href);
-        link.href = URL.createObjectURL(new Blob(chunks,{type:recorder.mimeType}));
-        link.download = '实物展示.'+(recorder.mimeType.includes('mp4')?'mp4':'webm');
-        link.hidden=false;link.click();
-        camera.position.copy(orbit.offset).add(controls.target); orbit=null;
-        controls.enabled=true; record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=false;
-        status.textContent='展示视频已导出';
-      };
-      recorder.start(500);
-      setTimeout(()=>{if(recorder.state==='recording')recorder.stop();},8100);
-      orbit={start:performance.now(),offset:camera.position.clone().sub(controls.target),recorder};
-      controls.enabled=false; record.disabled=sample.disabled=picker.disabled=reset.disabled=build.disabled=true;
-      status.textContent='正在录制环绕视频，请保持此页可见…';
-    } catch(error){stream?.getTracks().forEach(track=>track.stop());status.textContent='当前浏览器无法录制：'+error.message;}
   };
   const build = document.querySelector('#build');
   build.onclick = async () => {
@@ -78,7 +78,7 @@ try {
       link.href=URL.createObjectURL(file);link.hidden=false;
       await load(file);progress.textContent='已生成稀疏模型，可下载保存';
     } catch(error){progress.textContent=String(error.message);}
-    finally {build.disabled=false;record.disabled=!current || !window.MediaRecorder || !canvas.captureStream;}
+    finally {build.disabled=false;record.disabled=!current;}
   };
   async function load(file) {
     sample.disabled = picker.disabled = true;
@@ -100,7 +100,7 @@ try {
       camera.position.copy(sphere.center).add(new THREE.Vector3(0,0,distance));
       controls.update();
       controls.saveState();
-      reset.disabled = false; record.disabled = !window.MediaRecorder || !canvas.captureStream;
+      reset.disabled = false; record.disabled = false;
       status.textContent = (file?.name || '恐龙骨架 · 30,000 次迭代') + '　左键旋转 · 右键平移 · 滚轮或双指缩放';
     } catch(error) {
       if(next && next !== current) next.dispose();
