@@ -29,3 +29,10 @@ h1{font:600 clamp(32px,4vw,56px)/1.2 'Songti SC','Noto Serif CJK SC',serif;lette
 .viewer details .transcript{max-height:280px;overflow:auto}
 :focus-visible{outline:3px solid #b17d3e;outline-offset:3px}
 @media(max-width:800px){.workspace{grid-template-columns:1fr}.workspace .viewer{display:contents}.workspace aside{grid-row:3}.workspace .viewer details{grid-column:1}.video-box{min-height:220px}.heading{gap:12px}.workspace{gap:12px}}
+@media(max-width:800px){
+  .workspace{grid-template-columns:minmax(0,1fr)}
+  .workspace>* , .viewer details{min-width:0}
+  .language-control,.question>div{flex-wrap:wrap}
+  .empty p{max-width:95%;text-align:center}
+  .video-meta b{max-width:65vw}
+}
