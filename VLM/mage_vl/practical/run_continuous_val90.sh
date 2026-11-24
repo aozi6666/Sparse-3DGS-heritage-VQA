@@ -5,7 +5,7 @@ source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 [[ "$(git branch --show-current)" == vlm ]] || { echo '必须在vlm；保留改动并停止'; exit 1; }
 df -h /root/autodl-tmp
-du -sh VLM/eval_results/practical_mage_v1 VLM/mage_vl/practical /root/autodl-tmp/Mage_ViT/mage
+du -sh VLM/evaluation/results/practical_mage_v1 VLM/mage_vl/practical /root/autodl-tmp/Mage_ViT/mage
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 TOKENIZERS_PARALLELISM=false
 ACTION="${1:-preflight}"
 [[ $# -le 1 ]] || { echo '入口只接受init/preflight/run/summarize，不接受其他范围'; exit 2; }
@@ -15,7 +15,7 @@ case "$ACTION" in
   run)
     [[ "${PRACTICAL_STAGE_CONFIRMED:-0}" == 1 ]] || { echo '用户设置PRACTICAL_STAGE_CONFIRMED=1后启动'; exit 1; }
     python -B "$SCRIPT" preflight
-    LOGDIR=VLM/eval_results/practical_mage_v1/15_continuous_val90/logs
+    LOGDIR=VLM/evaluation/results/practical_mage_v1/15_continuous_val90/logs
     mkdir -p "$LOGDIR"
     LOGFILE="$(mktemp "$LOGDIR/val90_$(date +%Y%m%d_%H%M%S)_XXXXXX")"
     echo "完整日志: $LOGFILE"

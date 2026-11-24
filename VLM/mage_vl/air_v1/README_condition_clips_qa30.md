@@ -17,7 +17,7 @@ bash VLM/mage_vl/air_v1/run_condition_clips_qa30.sh run &&
 bash VLM/mage_vl/air_v1/run_condition_clips_qa30.sh summarize
 ```
 
-全部新成果：VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2_qa30/。results/summary.json输出两路准确率、救回/误伤/净增、视频簇bootstrap区间及McNemar；按中/长、旧12/新增18分组。results/predictions.json保留逐题真值/预测/四象限/冻结帧号，results/units_snapshot.json归档断点。标签只在30题完整后的summarize读取。
+全部新成果：VLM/evaluation/results/practical_mage_v1/18_air_frames_v1/condition_clips_v2_qa30/。results/summary.json输出两路准确率、救回/误伤/净增、视频簇bootstrap区间及McNemar；按中/长、旧12/新增18分组。results/predictions.json保留逐题真值/预测/四象限/冻结帧号，results/units_snapshot.json归档断点。标签只在30题完整后的summarize读取。
 
 QA新增成本单列，原v2选择/证据生成开销保留在historical_selection_cost，不能将缓存复用写成部署选择器零成本。原生回归检查会增加预处理开销，本轮不是部署速度基准。
 

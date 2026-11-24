@@ -1,0 +1,15 @@
+/Mage_ViT/mage/
+/Mage_ViT/assets/
+/Mage_ViT/**/assets/
+/AKS/outscores/
+/AKS/selected_frames/
+/AKS/datasets/
+/AKS/assets/
+/Explore-Then-Select/.git/
+/Explore-Then-Select/utils/*.jsonl
+*.png
+*.jpg
+*.mp4
+__pycache__/
+/.explore-upstream-git/
+/Explore-Then-Select/utils/mlvu_test_data.json

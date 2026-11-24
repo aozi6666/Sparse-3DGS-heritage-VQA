@@ -4,7 +4,7 @@
 
 代码已放在服务器：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/codec_evidence_v1`。
 
-结果目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/codec_evidence_v1`。
+结果目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/evaluation/results/practical_mage_v1/codec_evidence_v1`。
 
 ## 已完成与未完成
 

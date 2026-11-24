@@ -4,8 +4,8 @@ set -euo pipefail
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 test "$(git branch --show-current)" = feat/air-visual-evidence
 df -h /root/autodl-tmp
-du -sh VLM/eval_results/practical_mage_v1 VLM/mage_vl/outputs/r2v_codec_cache /root/autodl-tmp/Mage_ViT/mage
-out="$PWD/VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1"
+du -sh VLM/evaluation/results/practical_mage_v1 VLM/mage_vl/outputs/r2v_codec_cache /root/autodl-tmp/Mage_ViT/mage
+out="$PWD/VLM/evaluation/results/practical_mage_v1/24_codec_full714_32768_v1"
 mkdir -p "$out/logs" "$out/cache/tmp"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_HUB_DISABLE_TELEMETRY=1
 export HF_MODULES_CACHE="$out/cache/hf_modules" CUDA_CACHE_PATH="$out/cache/cuda" TRITON_CACHE_DIR="$out/cache/triton" TORCH_HOME="$out/cache/torch" TMPDIR="$out/cache/tmp"

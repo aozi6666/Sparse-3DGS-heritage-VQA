@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eu
+cd "$(dirname "$0")"
+venv="${MAGE_ENV:-/root/autodl-tmp/VLMEvalKit/vlmeval_env}"
+export PATH="$venv/bin:/root/autodl-tmp/VLMEvalKit/ffmpeg_linux:$PATH" CV_PREINFER_BIN="$venv/bin/cv-preinfer" OMP_NUM_THREADS=2 PYTHONDONTWRITEBYTECODE=1
+exec "$venv/bin/python" -u measure.py "$@"

@@ -12,7 +12,7 @@ from unittest.mock import patch
 
 MODEL = Path(os.environ.get('AIR_TEST_MODEL_DIR',
     '/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/models'))
-RESULTS = Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1')
+RESULTS = Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/evaluation/results/practical_mage_v1')
 os.environ.setdefault('HF_HUB_OFFLINE', '1')
 os.environ.setdefault('TRANSFORMERS_OFFLINE', '1')
 os.environ.setdefault('HF_MODULES_CACHE', str(RESULTS/'18_air_frames_v1/cpu_hf_modules'))

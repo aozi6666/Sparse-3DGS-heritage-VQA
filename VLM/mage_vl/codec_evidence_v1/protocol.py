@@ -14,8 +14,8 @@ import tempfile
 PROJECT = Path(os.environ.get('CODEC_EVIDENCE_PROJECT', '/root/autodl-tmp/Sparse-3DGS-heritage-VQA'))
 CODE = Path(__file__).resolve().parent
 MODEL = PROJECT / 'VLM/mage_vl/models'
-OLD = PROJECT / 'VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1'
-OUT = PROJECT / 'VLM/eval_results/practical_mage_v1/codec_evidence_v1'
+OLD = PROJECT / 'VLM/evaluation/results/practical_mage_v1/24_codec_full714_32768_v1'
+OUT = PROJECT / 'VLM/evaluation/results/practical_mage_v1/codec_evidence_v1'
 BLIP = Path(os.environ.get('BLIP_MODEL_DIR', '/root/autodl-tmp/models/blip-itm-large-coco'))
 BRANCH = 'feat/air-visual-evidence'
 PRIMARY = 'codec_complete32768'

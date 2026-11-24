@@ -11,9 +11,9 @@ import random
 import re
 
 PROJECT = Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-ROOT = PROJECT/'VLM/eval_results/practical_mage_v1'
+ROOT = PROJECT/'VLM/evaluation/results/practical_mage_v1'
 MODEL = PROJECT/'VLM/mage_vl/models'
-DATA = PROJECT/'VLM/mage_vl/data/VideoMME'
+DATA = PROJECT/'VLM/datasets/VideoMME'
 OLD_CACHE = PROJECT/'VLM/mage_vl/outputs/r2v_codec_cache'
 LETTERS = 'ABCD'
 SLOT = '__PRACTICAL_MAGE_QUESTION_SLOT_V1__'

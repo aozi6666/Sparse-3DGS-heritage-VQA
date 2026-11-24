@@ -12,7 +12,7 @@ source "$ROOT/vlmeval_env/bin/activate"
 unset OMP_NUM_THREADS
 
 REPO="${REPO:-/root/autodl-tmp/Sparse-3DGS-heritage-VQA}"
-export MAGE_VIDEOMME_ROOT="${MAGE_VIDEOMME_ROOT:-${REPO}/VLM/mage_vl/data/VideoMME}"
+export MAGE_VIDEOMME_ROOT="${MAGE_VIDEOMME_ROOT:-${REPO}/VLM/datasets/VideoMME}"
 export HF_HUB_OFFLINE="${HF_HUB_OFFLINE:-1}"
 export TRANSFORMERS_OFFLINE="${TRANSFORMERS_OFFLINE:-1}"
 
