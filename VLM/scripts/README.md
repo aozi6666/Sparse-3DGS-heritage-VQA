@@ -1,11 +1,3 @@
-# VQA scripts
+# 数据工具
 
-Activate your eval venv (example: `../VLMEvalKit/vlmeval_env` or a new env from
-`envs/requirements-vlmevalkit.txt`), then point editable install to:
-
-```bash
-cd ../VLMEvalKit
-# uv pip install -e .   # from VLM/VLMEvalKit
-```
-
-Results of past runs live in `../eval_results/`.
+convert_parquet_to_ocrbench_tsv.py 将 datasets/OCRBench 下的 parquet 转为 datasets/lmu/OCRBench.tsv。可用 --parquet 和 --out 指定输入和输出。

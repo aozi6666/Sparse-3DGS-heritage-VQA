@@ -1,7 +1,7 @@
 """使用服务器既有base matplotlib离线出图，不导入Mage或读取视频。"""
 import os,json
 from pathlib import Path
-OUT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1')
+OUT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/evaluation/results/practical_mage_v1/17_subtitle_final_report/20261103_v1')
 os.environ['MPLCONFIGDIR']=str(OUT/'plot_cache')
 import matplotlib
 matplotlib.use('Agg')

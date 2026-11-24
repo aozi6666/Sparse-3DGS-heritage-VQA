@@ -12,29 +12,32 @@ ENV_ACTIVATE="${ENV_ACTIVATE:-/root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activa
 source "$ENV_ACTIVATE"
 unset OMP_NUM_THREADS || true
 
-mkdir -p "$REPO/VLM/datas/lmu" \
-  "$REPO/VLM/eval_results/baseline_mage_ocrbench_v2" \
-  "$REPO/VLM/eval_results/logs"
+mkdir -p "$REPO/VLM/datasets/lmu" \
+  "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v2" \
+  "$REPO/VLM/evaluation/results/logs"
 
-TSV_SRC="$REPO/VLM/datas/ORCBench_v2/OCRBench_v2.tsv"
+TSV_SRC="$REPO/VLM/datasets/OCRBench_v2/OCRBench_v2.tsv"
 if [[ ! -f "$TSV_SRC" ]]; then
   echo "[error] missing $TSV_SRC" >&2
   exit 2
 fi
-ln -sfn "$TSV_SRC" "$REPO/VLM/datas/lmu/OCRBench_v2.tsv"
+cache="$REPO/VLM/datasets/lmu/OCRBench_v2.tsv"
+if ! [[ "$TSV_SRC" -ef "$cache" ]]; then
+  cp --reflink=auto --remove-destination "$TSV_SRC" "$cache"
+fi
 
-export LMUData="$REPO/VLM/datas/lmu"
+export LMUData="$REPO/VLM/datasets/lmu"
 export HF_HUB_OFFLINE="${HF_HUB_OFFLINE:-1}"
 export TRANSFORMERS_OFFLINE="${TRANSFORMERS_OFFLINE:-1}"
 export PYTHONPATH="$KIT:${PYTHONPATH:-}"
 
 cd "$KIT"
 echo "[ocrbench_v2] LMUData=$LMUData"
-echo "[ocrbench_v2] work-dir=$REPO/VLM/eval_results/baseline_mage_ocrbench_v2"
+echo "[ocrbench_v2] work-dir=$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v2"
 echo "[ocrbench_v2] model=Mage-VL (image). Do NOT use Mage-VL-QueryIP."
 
 exec python run.py \
   --model Mage-VL \
   --data OCRBench_v2 \
-  --work-dir "$REPO/VLM/eval_results/baseline_mage_ocrbench_v2" \
+  --work-dir "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v2" \
   --verbose

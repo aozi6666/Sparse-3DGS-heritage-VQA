@@ -5,7 +5,7 @@ import cv2
 
 HERE = Path(__file__).resolve().parent
 OLD = HERE.parent / "aks_mage"
-VIDEO = HERE.parent / "mage_vl/data/VideoMME/video"
+VIDEO = HERE.parent / "datasets/VideoMME/video"
 AKS = Path(HERE.parent / "vendor/AKS")
 def main():
     def read(name):

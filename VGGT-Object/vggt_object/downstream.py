@@ -126,7 +126,7 @@ def export_scene(model,o,cfg,out,views=4,confidence_quantile=.5,max_points=10000
 def train_gaussians(data,out,views,steps):
     """Run existing renderer/coarse optimizer, no repair. Export held-out RGB metrics."""
     import os
-    GO=REPO/'3DGS/GaussianObject';sys.path.insert(0,str(GO));os.chdir(GO)
+    GO=REPO/'3DGS/reconstruction';sys.path.insert(0,str(GO));os.chdir(GO)
     import train_gs
     import scene.dataset_readers as readers
     from arguments import ModelParams,OptimizationParams,PipelineParams

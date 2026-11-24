@@ -39,7 +39,7 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(len(e['codec_anchor32_2048']['subtitle_anchors']),32)
         self.assertEqual(ids,original)
     def test_cache_key_known(self):
-        path='/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/mage_vl/data/VideoMME/video/dphq5X-rMew.mp4'
+        path='/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/datasets/VideoMME/video/dphq5X-rMew.mp4'
         self.assertEqual(m.cache_name(path),'dphq5X-rMew_791fce2c0b3f8215713e92e0389a7520')
     def test_no_budget_refill_for_cap(self):
         cues=[dict(cue_id=i+1,start_ms=i*1000,end_ms=(i+1)*1000,text='word'+str(i)) for i in range(80)]

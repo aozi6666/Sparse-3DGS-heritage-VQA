@@ -125,7 +125,7 @@ def main():
         cfg=json.loads((MODEL/"preprocessor_config.json").read_text())["codec"]
         with tqdm(total=len(selected),initial=len(selected)-sum(map(len,pending.values())),unit="题",desc="证据复核") as bar:
             for vid, pairs in pending.items():
-                video=HERE.parent/"mage_vl/data/VideoMME/video"/(vid+".mp4")
+                video=HERE.parent/"datasets/VideoMME/video"/(vid+".mp4")
                 with tempfile.TemporaryDirectory(dir=out) as tmp:
                     native=process_codec_video(str(video),CodecConfig(**{**cfg,"engine":"hevc","patch":16,"max_pixels":150000,"target_canvas":32,"cache_root":Path(tmp)}))
                     cap=cv2.VideoCapture(str(video))

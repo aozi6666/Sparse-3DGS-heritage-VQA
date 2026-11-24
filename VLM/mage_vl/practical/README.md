@@ -6,7 +6,7 @@
 
 ## 默认协议
 
-- 结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/`。
+- 结果根：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/evaluation/results/practical_mage_v1/`。
 - 默认标签：`px150000_f32_frames4_codec1`。每题 Codec 原顺序 1 次、Frames 4 种循环排列，共 5 单元。
 - 原文依赖选项位置/标签时回退原顺序，仍计入分母。票数平局优先原答案。
 - 保持原 Mage 视频路径、Prompt、像素预算、确定性生成和 `max_new_tokens=32`，避免把只生成 1 token 当成新的“原版基线”。

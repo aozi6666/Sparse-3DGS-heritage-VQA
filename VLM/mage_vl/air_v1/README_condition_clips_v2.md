@@ -50,7 +50,7 @@ bash VLM/mage_vl/air_v1/run_condition_clips_v2.sh summarize diag30
 
 ## 输出和判断标准
 
-新根目录：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/`。
+新根目录：`VLM/evaluation/results/practical_mage_v1/18_air_frames_v1/condition_clips_v2/`。
 
 - `candidate.json`：冻结30题与来源、模型、代码签名。
 - `calls/`：所有短观察和状态码，原始token/帧/秒/输入tensor哈希和成本。

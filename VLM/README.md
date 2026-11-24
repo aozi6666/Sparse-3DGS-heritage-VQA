@@ -1,5 +1,17 @@
 # 工作 B · 视频问答与评测
 
+## 工程目录
+
+| 用途 | 入口 |
+|---|---|
+| 数据与评测缓存 | `datasets/VideoMME/`、`datasets/OCRBench/`、`datasets/OCRBench_v2/`、`datasets/lmu/` |
+| 字幕增强和视频理解 | [Mage-VL](mage_vl/) |
+| AKS 选帧、预算和字幕实验 | [选帧](aks_mage/)、[预算](aks_mage_budget_final/)、[字幕检索](aks_mage_subtitle_retrieval/) |
+| 本仓库评测代码与已有输出 | [VLMEvalKit](VLMEvalKit/)，结果位于 `evaluation/results/` |
+| OCRBench 格式转换 | [转换脚本](scripts/convert_parquet_to_ocrbench_tsv.py) |
+
+服务器外部的 `/root/autodl-tmp/VLMEvalKit/` 提供正在使用的 Python 环境、可编辑安装的评测包、FFmpeg 和部分实验依赖的历史输出。
+
 ## 当前结论（2026-11-03，字幕路线已完成冻结评测）
 
 保留Frames-32＋连续补句＋时间标记，固定2048字幕token；无训练、无Agent/API。test225三路正确数：无字幕140、原对齐154、连续163（72.44%）。相对无字幕净增23题／10.22个百分点，聚类95%区间[5.33,15.11]；相对原对齐净增9题／4个百分点，区间[-0.44,8.46]，尚不能证明补句独立显著优于原对齐。

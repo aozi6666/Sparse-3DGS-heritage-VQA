@@ -1,3 +1,6 @@
+# Legacy raw omni3d upload was incomplete and removed after verified depth archive extraction (2026-11-24).
+# omni3d key remains an optional legacy importer source; missing is intentional.
+# Current depth evaluation uses data/omni3d_depth via tools/omni_depth_eval.py.
 # Keep upload destinations fixed. No moves/copies/symlinks are needed.
 omni3d: data/omni3d
 bundle: data/VGGT_finetune_v1

@@ -55,7 +55,7 @@ bash VLM/mage_vl/air_v1/run_condition_grounding.sh summarize-qa
 
 ## 结果、恢复与成本
 
-新根：VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_v1/。
+新根：VLM/evaluation/results/practical_mage_v1/18_air_frames_v1/condition_grounding_v1/。
 
 - candidate.json：原始题目、源码、模型和输入身份；没有GT。
 - parse_calls/、parses/：逐次原始解析与断点，含修复尝试和成本。

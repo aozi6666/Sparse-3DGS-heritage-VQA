@@ -2,7 +2,7 @@
 
 当前默认方案：**整个 Aggregator 与 Camera/Point/Track 分支冻结，Depth Head 全参数微调**。Conv-LoRA保留为轻量对照，不再凭参数少就认定更合理。选择依据、损失与小规模实测见 [REVIEW_DESIGN_V3.md](REVIEW_DESIGN_V3.md)。
 
-工程：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object`，当前分支`main`（原工作分支已完成归档）。复用原`.venv-ddgs-vggt`、`3DGS/vggt`、`3DGS/vggt/models/model.pt`；没有下载数据/模型，也没有改上游VGGT源码。
+工程：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object`，当前分支`main`（原工作分支已完成归档）。复用原`.venv-ddgs-vggt`、`3DGS/reconstruction/third_party/vggt`、`3DGS/reconstruction/third_party/vggt/models/model.pt`；没有下载数据/模型，也没有改上游VGGT源码。
 
 ## 当前数据
 

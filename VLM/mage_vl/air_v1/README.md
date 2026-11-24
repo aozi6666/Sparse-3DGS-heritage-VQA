@@ -33,7 +33,7 @@ smoke3是已有dev30池第一个视频的3题，6个逻辑答案；视频、问�
 
 所有新产物位于：
 
-`VLM/eval_results/practical_mage_v1/18_air_frames_v1/`
+`VLM/evaluation/results/practical_mage_v1/18_air_frames_v1/`
 
 - `candidate_native_uniform_fix1.json`：推理前登记源码、模型、数据、提示词和规则身份；旧candidate_v1保留作失败版本记录。
 - `native_uniform_fix1/smoke3/summary.json`、`predictions.json`：阶段全部完成后才读取标签并汇总。

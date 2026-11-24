@@ -10,7 +10,7 @@ import cv2
 from openpyxl import load_workbook
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE.parent / "mage_vl/data/VideoMME"
+DATA = HERE.parent / "datasets/VideoMME"
 AKS = Path(os.environ.get("AKS_ROOT", HERE.parent / "vendor/AKS"))
 BOOK = Path("/root/autodl-tmp/VLMEvalKit/outputs/Mage-VL/Mage-VL_Video-MME-32frame_judge_extract_gpt-4o-mini_detail.xlsx")
 
