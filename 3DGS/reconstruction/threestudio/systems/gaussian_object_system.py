@@ -168,9 +168,7 @@ class GaussianDreamer(BaseLift3DSystem):
     @dataclass
     class Config(BaseLift3DSystem.Config):
         sparse_num: int = 5
-        full_scene: bool = False
         model_name: str = "control_v11f1e_sd15_tile"
-        sd_ckpt: str = "models/absolutereality_v16.safetensors"
         exp_name: str = ""
         lora_name: str = "lora-step=1799.ckpt"
         lora_rank: int = 64
@@ -191,24 +189,11 @@ class GaussianDreamer(BaseLift3DSystem):
         ctrl_loss_ratio_begin: float = 1.0
         ctrl_loss_ratio_final: float = 0.5
 
-        # CADR: confidence-aware diffusion repair weighting (step 8)
-        use_conf_weight: bool = True
-        conf_eps: float = 0.05
-        clip_score_lo: float = 0.15
-        clip_score_hi: float = 0.35
-        use_cov_in_need: bool = False
-        cov_beta: float = 0.5
-        use_adaptive_denoise: bool = False
-        # A2: trust-only → w_conf = eps+(1-eps)*w_trust (need treated as 1)
-        conf_trust_only: bool = False
-        # Disk: skip controlnet_out/it*.png dumps (keep last.ply / metrics only)
-        save_controlnet_preview: bool = False
-
     cfg: Config
     def configure(self) -> None:
         self.gaussian = GaussianModel(sh_degree = self.cfg.sh_degree)
         self.cameras_extent = self.cfg.scene_extent
-        self.bg_color = [0, 0, 0] if self.cfg.full_scene else [1, 1, 1]
+        self.bg_color = [1, 1, 1] if True else [0, 0, 0]
         self.background_tensor = torch.tensor(self.bg_color, dtype=torch.float32, device="cuda")
         self.init_dreamer = self.cfg.init_dreamer
         self.point_cloud = self.init_pointcloud(self.init_dreamer)
@@ -272,9 +257,7 @@ class GaussianDreamer(BaseLift3DSystem):
         Ll1 = torch.nan_to_num(l1_loss(image, gt_image))
         loss = (1.0 - self.opt.lambda_dssim) * Ll1 + self.opt.lambda_dssim * (1.0 - ssim(image, gt_image))
 
-        if self.cfg.full_scene:
-            silhouette_loss = image.new_zeros(())
-        elif silhouette_loss_type == "bce":
+        if silhouette_loss_type == "bce":
             silhouette_loss = torch.nan_to_num(F.binary_cross_entropy(render_pkg["rendered_alpha"][0], viewpoint_cam.mask))
         elif silhouette_loss_type == "mse":
             silhouette_loss = torch.nan_to_num(F.mse_loss(render_pkg["rendered_alpha"][0], viewpoint_cam.mask))
@@ -351,8 +334,7 @@ class GaussianDreamer(BaseLift3DSystem):
                 batch['image'][id],
                 batch['mask'][id],
                 batch['depth'][id],
-                white_background = (self.bg_color == [1, 1, 1]),
-                full_scene = self.cfg.full_scene
+                white_background = (self.bg_color == [1, 1, 1])
             )
             render_pkg = render(viewpoint_cam, self.gaussian, self.pipe, renderbackground)
             self.viewspace_point_list.append(render_pkg["viewspace_points"])
@@ -376,7 +358,7 @@ class GaussianDreamer(BaseLift3DSystem):
     def on_fit_start(self) -> None:
         super().on_fit_start()
         self.controlnet = create_model(f'models/{self.cfg.model_name}.yaml').cpu()
-        self.controlnet.load_state_dict(load_state_dict(self.cfg.sd_ckpt, location='cuda'), strict=False)
+        self.controlnet.load_state_dict(load_state_dict('models/v1-5-pruned.ckpt', location='cuda'), strict=False)
         self.controlnet.load_state_dict(load_state_dict(f'models/{self.cfg.model_name}.pth', location='cuda'), strict=False)
         lora_config = {
             nn.Embedding: {
@@ -406,77 +388,6 @@ class GaussianDreamer(BaseLift3DSystem):
     def get_dis_from_ts(self, T):
         return torch.sort(torch.sqrt(torch.sum((T - self.all_T) ** 2, dim=-1)))[0]
 
-    def _ensure_gt_clip_features(self, batch: dict[str, Any]) -> None:
-        """Populate CLIP features of sparse GT views once (needed for CADR trust)."""
-        if len(self.gt_features_all) > 0:
-            return
-        if 'gt_images' not in batch:
-            return
-        for gt_image in batch['gt_images']:
-            with torch.no_grad():
-                gt_features = self.clip_model.encode_image(
-                    self.clip_preprocess(self.tensor_to_pil(gt_image[0])).unsqueeze(0).to(self.device)
-                )
-            self.gt_features_all.append(gt_features)
-
-    def _clip_trust_score(self, repair_img) -> float:
-        """min_r cos(CLIP(repair), CLIP(I_r)); returns 0 if GT features unavailable."""
-        if len(self.gt_features_all) == 0:
-            return 0.0
-        if torch.is_tensor(repair_img):
-            # CHW or BCHW in [0,1]
-            img = repair_img.detach()
-            if img.dim() == 4:
-                img = img[0]
-            pil = self.tensor_to_pil(img.cpu().clamp(0, 1))
-        elif isinstance(repair_img, Image.Image):
-            pil = repair_img
-        else:
-            pil = Image.fromarray(repair_img)
-        with torch.no_grad():
-            image_features = self.clip_model.encode_image(
-                self.clip_preprocess(pil).unsqueeze(0).to(self.device)
-            )
-            score = min(
-                [
-                    torch.cosine_similarity(image_features, gt_features, dim=-1).mean().item()
-                    for gt_features in self.gt_features_all
-                ]
-            )
-        return float(score)
-
-    def _compute_w_conf(
-        self,
-        w_need: float,
-        clip_score: float,
-        alpha_mean: float = None,
-    ):
-        """Return (w_need_eff, w_trust, w_conf)."""
-        if self.cfg.conf_trust_only:
-            w_need_eff = 1.0
-        else:
-            w_need_eff = float(w_need)
-            if self.cfg.use_cov_in_need and alpha_mean is not None:
-                w_need_eff = w_need_eff * (1.0 + self.cfg.cov_beta * (1.0 - float(alpha_mean)))
-                w_need_eff = min(1.0, w_need_eff)
-
-        lo, hi = self.cfg.clip_score_lo, self.cfg.clip_score_hi
-        if hi <= lo:
-            w_trust = 1.0
-        else:
-            w_trust = max(0.0, min(1.0, (float(clip_score) - lo) / (hi - lo)))
-
-        eps = self.cfg.conf_eps
-        trust_term = eps + (1.0 - eps) * w_trust
-        if self.cfg.conf_trust_only:
-            w_conf = trust_term
-        else:
-            w_conf = w_need_eff * trust_term
-        return w_need_eff, w_trust, w_conf
-
-    def _adaptive_denoise_strength(self, w_need: float) -> float:
-        """Map need-weight to denoise strength in [min_strength, max_strength]."""
-        return self.cfg.min_strength + (self.cfg.max_strength - self.cfg.min_strength) * float(w_need)
 
     def get_random_view_batch(self, batch: dict[str, Any]) -> dict[str, Any]:
         focal_length_x = fov2focal(batch['fovx'], batch['width'])
@@ -510,9 +421,8 @@ class GaussianDreamer(BaseLift3DSystem):
                     if controlnet_out is None:
                         controlnet_out = torch.zeros((1, 3, self.novel_image_size, self.novel_image_size), device='cuda')
                         self.controlnet_outs[idx] = controlnet_out
-                if self.cfg.save_controlnet_preview:
-                    controlnet_outs_image = make_grid(torch.cat(self.controlnet_outs, dim=0), nrow=5)
-                    save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
+                controlnet_outs_image = make_grid(torch.cat(self.controlnet_outs, dim=0), nrow=5)
+                save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
             self.controlnet_outs = []
             if self.global_step < self.cfg.around_gt_steps:
                 if len(self.gt_features_all) == 0:
@@ -570,18 +480,10 @@ class GaussianDreamer(BaseLift3DSystem):
 
         ctrl_loss = 0.
         if self.ctrl_loss_ratio > 0.0:
-            # Keep GT CLIP features available before around_gt refresh / for CADR trust
-            self._ensure_gt_clip_features(batch)
             batch = self.get_random_view_batch(batch)
-
-            distances = self.get_dis_from_ts(batch['T'])
-            distance_weight = min(1., 2 * distances[0].cpu().item() / self.max_cam_dis)
-            self.log("train/distance_weight", distance_weight)
-            w_need = distance_weight
 
             render_results = self.render_gs(batch, renderbackground=self.background_tensor, need_loss=False)
             images = render_results['images']
-            alpha_mean = render_results['alphas'].mean().item() if self.cfg.use_cov_in_need else None
 
             controlnet_outs = []
             sds_ws = []
@@ -618,10 +520,7 @@ class GaussianDreamer(BaseLift3DSystem):
             else:
                 for idx, image in enumerate(images):
                     image_np = np.array(self.tensor_to_pil(image))
-                    if self.cfg.use_adaptive_denoise:
-                        denoise_strength = self._adaptive_denoise_strength(w_need)
-                    else:
-                        denoise_strength = random.random() * (self.cfg.max_strength - self.cfg.min_strength) + self.cfg.min_strength
+                    denoise_strength = random.random() * (self.cfg.max_strength - self.cfg.min_strength) + self.cfg.min_strength
                     controlnet_samples, sds_w = process(
                         self.controlnet,
                         self.ddim_sampler,
@@ -653,39 +552,30 @@ class GaussianDreamer(BaseLift3DSystem):
                     controlnet_outs_image = make_grid(torch.cat(controlnet_outs, dim=0), nrow=min(5, len(controlnet_outs)))
                     save_image(controlnet_outs_image, self.get_save_path(f"controlnet_out/it{self.true_global_step}.png"))
 
+            distances = self.get_dis_from_ts(batch['T'])
+            distance_weight = min(1., 2 * distances[0].cpu().item() / self.max_cam_dis)
+            self.log("train/distance_weight", distance_weight)
+
             # TODO: only works for batch size 1
             controlnet_outs = torch.cat(controlnet_outs, dim=0)
             sds_ws = sds_ws[0].cpu().item()
             self.log("train/sds_ws", sds_ws)
 
-            # CADR: CLIP trust on the repair image used for supervision (incl. around_gt cache)
-            clip_score = self._clip_trust_score(controlnet_outs)
-            w_need_eff, w_trust, w_conf = self._compute_w_conf(w_need, clip_score, alpha_mean)
-            if self.cfg.use_conf_weight:
-                loss_weight = w_conf
-            else:
-                loss_weight = distance_weight
-            self.log("train/clip_score", clip_score)
-            self.log("train/w_need", w_need_eff)
-            self.log("train/w_trust", w_trust)
-            self.log("train/w_conf", w_conf)
-            self.log("train/loss_weight", loss_weight)
-
             loss_l1 = torch.nan_to_num(l1_loss(controlnet_outs, images))
             self.log("train/loss_l1", loss_l1)
-            ctrl_loss += sds_ws * loss_l1 * self.C(self.cfg.loss['lambda_l1']) * loss_weight
+            ctrl_loss += sds_ws * loss_l1 * self.C(self.cfg.loss['lambda_l1']) * distance_weight
 
             loss_l2 = torch.nan_to_num(l2_loss(controlnet_outs, images))
             self.log("train/loss_l2", loss_l2)
-            ctrl_loss += sds_ws * loss_l2 * self.C(self.cfg.loss['lambda_l2']) * loss_weight
+            ctrl_loss += sds_ws * loss_l2 * self.C(self.cfg.loss['lambda_l2']) * distance_weight
 
             loss_lpips = torch.nan_to_num(self.lpips_loss(controlnet_outs, images))
             self.log("train/loss_lpips", loss_lpips)
-            ctrl_loss += sds_ws * loss_lpips * self.C(self.cfg.loss['lambda_lpips']) * loss_weight
+            ctrl_loss += sds_ws * loss_lpips * self.C(self.cfg.loss['lambda_lpips']) * distance_weight
 
             loss_tv = torch.nan_to_num(compute_tv_norm(render_results['depths'], losstype='l2').sqrt().mean())
             self.log("train/loss_tv", loss_tv)
-            ctrl_loss += sds_ws * loss_tv * self.C(self.cfg.loss['lambda_tv']) * loss_weight
+            ctrl_loss += sds_ws * loss_tv * self.C(self.cfg.loss['lambda_tv']) * distance_weight
 
             self.log("train/loss", ctrl_loss)
 
@@ -734,9 +624,6 @@ class GaussianDreamer(BaseLift3DSystem):
         self.opt = OptimizationParams(self.parser)
         for k, v in self.cfg.gaussian_opt_params.items():
             self.opt.__setattr__(k, v)
-        if self.cfg.full_scene:
-            self.opt.random_background = False
-            self.opt.lambda_silhouette = 0.0
         self.pipe = PipelineParams(self.parser)
         self.gaussian.training_setup(self.opt)
         ret = {

@@ -11,7 +11,6 @@
 
 import json
 import os
-from utils.full_scene import full_scene_options
 import subprocess
 from argparse import ArgumentParser
 from os import makedirs
@@ -137,12 +136,6 @@ def render_set(model_path, name, iteration, views: List[Camera], gaussians, pipe
     else:
         from gaussian_renderer import render
 
-    camera_name = getattr(extra_opts, 'camera_name', None)
-    if camera_name:
-        views = [view for view in views if view.image_name == os.path.splitext(os.path.basename(camera_name))[0]]
-        if not views:
-            raise ValueError(f'Camera {camera_name} is not present in split {name}')
-
     # 输出目录
     render_path = os.path.join(model_path, name, "ours_{}".format(iteration), "renders")
     gts_path = os.path.join(model_path, name, "ours_{}".format(iteration), "gt")
@@ -210,7 +203,7 @@ def render_set(model_path, name, iteration, views: List[Camera], gaussians, pipe
         # 计算指标
         ssims += ssim(rendering, gt).mean().item()
         psnrs += psnr(rendering, gt).mean().item()
-        lpipss += lpips_fn(rendering, gt, normalize=bool(getattr(extra_opts, "full_scene", False))).item() # full-scene protocol: [0,1] -> [-1,1]
+        lpipss += lpips_fn(rendering, gt).item() # NCHW
 
         # 保存渲染图与 GT 图像
         if save_images:
@@ -412,7 +405,6 @@ if __name__ == "__main__":
     model = ModelParams(parser, sentinel=True)
     pipeline = PipelineParams(parser)
     parser.add_argument("--iteration", default=-1, type=int)
-    parser.add_argument("--camera_name", type=str, default=None, help="Render only this original camera name in the selected split")
     parser.add_argument("--skip_train", action="store_true")
     parser.add_argument("--skip_test", action="store_true")
     parser.add_argument("--skip_all", action="store_true")
@@ -436,7 +428,7 @@ if __name__ == "__main__":
     parser.add_argument('--refine_iters', type=int, default=0)
     parser.add_argument("--transform_the_world", action="store_true", help="Transform the world to the origin")
     parser.add_argument("--load_ply", default="origin", type=str, help="Load other ply as init")
-    args = full_scene_options(get_combined_args(parser))
+    args = get_combined_args(parser)
     print("Rendering " + args.model_path)
     lpips_fn = lpips.LPIPS(net='vgg').cuda()
     # Initialize system state (RNG)

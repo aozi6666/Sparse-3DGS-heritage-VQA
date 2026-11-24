@@ -1,359 +1,653 @@
-> 分支同步（2026-11-20）：[旧分支目录回退原因与同步规则](docs/BRANCH_SYNC_20261120.md)。主线目录统一为VLM，独立历史实验分支保留各自源码。
+<div align="center">
 
-> 当前入口（2026-11-20）：[main统一整理、VGGT保全与分割支线退出](docs/MAIN_MIGRATION_20261120.md)。视频工程仅使用 `VLM/`；VCAR已取消。数据、权重、环境留在服务器，不随Git分发。
+# GaussianObject复现记录
 
-# Sparse-3DGS-heritage-VQA
+2025.5.28
 
-## 视频理解：无字幕画布替换与字幕增强
+![截屏2025-05-29 11.26.14](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-29 11.26.14.png)
 
-本项目分别评估两种离线问答方法。视觉路线研究固定视觉网格下如何分配完整帧与运动区域；字幕路线研究如何利用与画面时间对齐的语言证据。以下数字来自本地 VideoMME 子集（238 视频、714 题）。
+GitHub：https://github.com/chensjtu/GaussianObject
 
-### 问题相关完整帧与 Mage-VL 运动画布
+论文：《GaussianObject: High-Quality 3D Object Reconstruction from Four Views with Gaussian Splatting》
 
-Mage-VL 根据原视频编码信息选择 patch，按目标 32 个 codec 画布组织输入。AKS 独立读取原视频候选帧与问题的 BLIP ITM Large 预计算分数和 32 帧入选结果。将候选按四个时间区间排序，保护首个有效画布，以完整 RGB 帧替换源时间相近的整个画布，同时更新时空坐标。不同上限使用嵌套位置，实际替换量取决于有效画布数及时间碰撞。
+https://arxiv.org/abs/2402.10259
 
-完整预算扫描已完成。无外部字幕的固定 K=20 答对 **485/714（67.93%）**，较原版 455/714 净增 30 题。研究目标为减少语义帧替换，同时保持问答准确率。短 4、中长 20 的事后回放同为 485/714，平均替换数从 13.74 降至 10.50。36 个视频的配对计时已完成，独立视频准确率验证仍待开展。
+#  一、 **CUDA** 环境
 
-[方法、对照实验与结论](docs/experiments/aks_selection/README.md) · [十组预算数据](docs/experiments/aks_selection/all_budgets.csv) · [逐题精简结果](docs/experiments/aks_selection/paired.csv) · [最终实验代码](VLM/aks_mage_budget_final/sweep.py)。
+AutoDL 算力市场：https://www.autodl.com
 
-字幕路线请参见下节。字幕实验有自己的无字幕对照（459/714），视觉预算实验使用 455/714；各自沿用对应协议计算增益。融合视觉与字幕的联合结果见下表。
+![截屏2025-05-29 10.29.53](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-29 10.29.53.png)
 
-### 融合视觉与字幕的配对结果
+**GPU** RTX 4090 24GB显存
 
-同一批 714 题中，固定 K=20 搭配原时间对齐字幕（B）答对 **536 题（75.07%）**，原生视觉搭配相同字幕答对 521 题。按融合后画布重新对齐字幕并补邻句（C）答对 505 题。限制为 2048 个字幕 token 后，加入题干 BM25 检索使长视频从纯时间组的 142/237 提升至 **150/237**；未压缩 C 为 149/237。相对 C，长视频字幕中位数从 3004 降至 2034 token。[字幕设计、逐题记录与适用范围](docs/experiments/subtitle_fusion/README.md)
+CUDA 11.8
 
-无字幕效率实验在 RTX 4090 D 上对 36 个视频、108 题配对计时。预计算 BLIP 分数条件下，每视频三题平均耗时：原版 51.77 秒，固定 20 为 55.06 秒，短 4／中长 20 为 54.22 秒。[分时长与分阶段计时](docs/experiments/aks_selection/timing.csv)
+PyTorch 2.0.0
 
-## 当前成果：原生Codec＋完整时间对齐字幕，714题已完成（2026-11-06）
-
-**保留“原生Codec＋完整时间对齐字幕”成果，进入归档、制表和画图阶段，不重跑714。** 本次收益属于字幕证据增强；A.I.R.问题相关时间选择仍未证明稳定额外收益，保留代码和负结果并暂停。当前没有接入A.I.R.、API判决器或新增训练。
-
-**实际接入流程：** 视频经Mage原生Codec生成canvas及来源patch位置／时间；根据实际保留patch的来源时刻匹配真实字幕，补充既定相邻句、去重并添加时间标记；视觉与字幕共同输入原Mage问答。原生Codec的视觉patch、模型权重及QA配置保持不变，Codec本身归属原Mage方法，不作为本项目原创。
-
-### 本地714题结果
-
-714题／238视频的三路Codec配对共2142/2142单元完成，714题输入审计通过、非法答案0；180题历史无字幕控制核对通过。开发阶段540个旧答案在实际Tensor一致后复用，其余同题同输入也按冻结规则复用。已有Frames结果保留作参考。
-
-- 原生Codec无字幕：**459/714，64.29%**。
-- Codec＋最多32个字幕锚点／2048对照：**504/714，70.59%**。
-- **Codec＋完整时间对齐字幕：521/714，72.97%**。
-- 已有Frames-32＋连续时间对齐字幕2048：**511/714，71.57%**。
-
-完整字幕相对原生Codec无字幕，**救回92题、误伤30题，净增62题／8.68个百分点**；视频聚类bootstrap 95%区间为**[5.74，11.62]个百分点**，支持本批数据上的正向收益。整体增益包含额外字幕证据和文本token成本，不能归因于新增选区算法。
-
-分时长的Codec无字幕→完整字幕结果：
-
-- 短视频：**166/219，75.80% → 176/219，80.37%**，净增10题／4.57个百分点。
-- 中等视频：**162/258，62.79% → 183/258，70.93%**，净增21题／8.14个百分点。
-- 长视频：**131/237，55.27% → 162/237，68.35%**，净增31题／13.08个百分点；仍存在逐题误伤，不能写成“没有误伤”。
-
-### 比较边界与结论
-
-- 相对32字幕锚点／2048对照，完整字幕净增17题／2.38个百分点，整体聚类95%区间[0.28，4.62]。此比较同时改变锚点覆盖与文本预算，**不是单独的预算消融**；完整字幕、补句和时间标记的贡献不能混为一个已证实的新算法。
-- 相对Frames-32＋连续字幕，整体只净增10题／1.40个百分点，95%区间**[-1.26，4.20]**跨零，**尚不能宣称稳定优于Frames方案**。长视频多对18题，中等视频少对9题，短视频多对1题；不依据这些事后结果按时长拼接最优路线。
-- 历史test225中，Codec无字幕**131/225，58.22%**，完整字幕**158/225，70.22%**，救回35题、误伤8题、净增27题／12个百分点；Frames连续字幕为**163/225，72.44%**，比本次Codec完整字幕多对5题。保留两条路线，如实报告差异。
-- 714由short219、dev180、val90、test225四阶段组成，包含开发和已参与历史诊断的样本；不是官方Video-MME 2700题完整基准，也不是714题全新独立测试。开发、补充验证、历史测试应分开报告，聚类区间不消除历史选型／诊断影响。不能直接与原论文官方全量分数作同协议排名。
-
-### 冻结配置、数据与后续工作
-
-主路线统一字幕上限**32768 token**，全部238视频实际最大字幕为**14217 token**；不填充文本。32字幕锚点／2048对照及Codec视觉配置固定。旧13312阶段因单视频超预算停止的现场、237个已通过记录及所有缓存保留原位；缓存未重编码，237个旧视频实际完整字幕和控制证据已核验不变。放宽上限本身没有让其余输入变长。
-
-本次新生成1296次、复用846单元，新生成累计耗时1331.47秒、实测峰值显存13.44GiB；这些是带缓存复用的实验成本，**不是部署端到端耗时**，不能直接与原论文Table 5的8×B200墙钟时间比较。
-
-- [完整汇总](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json)、[逐题预测](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/predictions.csv)、[分阶段／分时长准确率](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/metrics.csv)、[救回误伤及区间](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/paired_comparisons.csv)、[token与推理成本](VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/token_cost.csv)。
-- 全部新成果位于`VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/`；协议、缓存来源、输入审计、断点、日志、原始回答及旧结果均保留，后续画图直接读取上述CSV／JSON。
-- 执行入口`VLM/mage_vl/codec_full714_32768/run_pipeline.sh`保留用于追溯和中断恢复，**已完成的714题无需再次运行**。[32768计划及协议说明](docs/PLAN_codec_full714_fixed32768.md)、[旧13312冻结计划](docs/PLAN_codec_full714_fixed13312.md)。
-- 下一步只做成果归档、主结果表、分时长准确率图、救回／误伤图、token成本图及成功／失败案例。表格分别标明本地714、各阶段角色、模型、视觉预算、字幕覆盖／文本预算与额外成本，保留已有字幕消融和A.I.R.负结果。
-
-以下“待执行”等段落均为历史计划；当前结论以本节及实际汇总为准。
-
-## 历史计划：Codec开发配对（2026-11-06）
-
-用户选择完整字幕证据优先；60视频最大完整字幕13043 token，全体主路线统一13312，对照仍32字幕锚点/2048，不改视觉patch。先对最长输入702—704进行显存门禁探测，通过后跑dev180，探测答案计入开发阶段。旧6144冒烟、字幕成绩及负结果保留。结果存22_codec_dev180_v1，见[计划](docs/PLAN_codec_dev180_complete13312.md)。新GPU成绩尚未产生。
-
-
-## 历史计划：Codec字幕冒烟（2026-11-06）
-
-固定短中长9题：原生Codec无字幕、全部保留来源时刻＋6144字幕、最多32个字幕锚点＋2048对照，保留旧Frames字幕参考。扩大字幕预算只因长视频完整证据需要5147 token，不代表已证明更好；三路视觉patch不变。14项CPU测试与9题真实旧canvas输入审计通过，尚未启动真实QA。只读复用旧缓存，断点/日志/数据存21_codec_subtitles_v1。见[计划与运行命令](docs/PLAN_codec_subtitles_smoke9.md)。
-
-
-## 历史计划：字幕消融准备状态（2026-11-06）
-
-A.I.R.语义时间选择与视觉细节增强暂停，代码/负结果保留；不将其作为已验证有效模块。保留Frames-32＋连续时间对齐字幕2048成果。本轮只补齐714题的去时间标记、去相邻补句两项固定消融，三路旧结果不重跑；Codec＋字幕另开阶段，尚未验证。已完成18项CPU测试、3项原生处理器合成RGB检查及714题来源预检，真实GPU实验交用户执行，当前没有新准确率成绩。
-
-最多新增1101次生成，327个相同提示在输入核对后复用；结果和绘图数据保存到 VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/。全量指本地714题，不是官方2700题；新消融为事后分析，不重新选型。详见[实施计划与运行说明](docs/PLAN_subtitle_ablation_full714.md)。
+Python 3.8(ubuntu20.04)
 
 
 
-### 字幕收尾消融已完成（2026-11-06）
+#  二、部署GaussianObject项目
 
-1428单元审计通过、非法0。714题五路无字幕/原对齐/连续/去标记/去邻句分别474/496/511/509/502；原test225分别140/154/163/162/158。整体字幕收益保留，补句正向趋势、时间标记边际弱，组件区间均跨零，不宣称独立显著。停止字幕调参，Codec另作接口/预算冒烟，不直接跑全量。详见[实际结论](docs/ANALYSIS_subtitle_ablation_full714_20261106.md)。
+## 1.克隆仓库
 
-## 历史研究设计：问答总设计与优先级（2026-11-05）
+   —可以本地（网络环境允许克隆后，上传autoDL服务器 /root/autodl-tmp/）—
 
-总设计为**问题条件化时间选择＋Mage原生Codec稀疏视觉表示＋时间对齐字幕证据**。以可重复的实用涨点为目标，不要求强算法创新；当前是拟议联合设计，不是已验证的三模块融合系统。
+（1）由于此仓库包含子模块，需要递归克隆整个项目。
 
-- **语义时间选择**决定重点处理哪些时间范围，必须考虑目标、限定条件、事件覆盖及前后关系；相关画面不等于满足完整题意的证据。
-- **Mage原生Codec**组织稀疏视觉信息，涉及canvas、来源patch位置及时间信息，再进入Mage视觉编码和多模态解码。不是单纯图内空间选区；本轮Frames语义选帧没有修改原生Codec或模型权重。
-- **时间对齐字幕**补充对应解说，联合时必须按实际视觉输入时间重新匹配，固定2048字幕token不能冒充总输入预算固定。
+```python
+git clone https://github.com/GaussianObject/GaussianObject.git --recursive
+```
 
-不能假定硬裁片段后再Codec天然优于原生全视频Codec：硬裁可能丢全局证据、改变编码结构；target_canvas不是帧数。片段边界、原时间映射、patch位置及提示时间、字幕时间轴和实际token预算都需要验证。保留Codec，但不为架构完整强行将语义选择放在它前面。
+（2）更新子模块
 
-**阶段准入顺序：语义选帧先证明新增题收益 → 验证Codec接口和无字幕增量 → 最后验证字幕组合。** 当前去观察查询候选在开发30题为18/30（均匀16/30），新增18题与均匀均12/18；尚无稳定收益证据。旧规则和失败结果已冻结归档，新的研究必须独立版本，不覆盖旧成果，不在已见题上反复挑阈值制造涨点。
+```python
+cd GaussianObject
 
-优先攻克的三个瓶颈：
-
-1. **完整条件定位**：绳子出现不代表用于第一个魔术；中途领先不代表最终获胜；顺序/计数需要找齐相关事件。CLIP相似度仅是相关性线索，不是充分性证明。
-2. **局部强化与全局覆盖**：增加局部片段会挤掉其他证据；首次、最终、否定、顺序、计数题可能受损。全局锚点只是保护措施，不保证完整性。
-3. **片段内时间分辨率**：12秒内仅4帧可能漏掉瞬时动作。必须区分“定位错”“片段对但采样漏动作”“证据到位但Mage判断错”，不能用统一阈值处理所有失败。
-
-最终联合评测至少保留四组：原生Codec；原生Codec＋字幕；语义时间选择＋Codec；语义时间选择＋Codec＋字幕。另保留已有**Frames-32＋连续字幕2048**作为实际参考，并以同片段数量/时长/视觉预算的均匀时间选择控制语义贡献。若联合系统不能超过实际参考，或相近效果代价明显增加，就不采用复杂版本。必要时固定文本证据做诊断，以区分视觉改进和字幕内容变化。
-
-字幕已有冻结test225结果：无字幕140/225、连续字幕163/225；不能把该提升与选帧局部提升相加。当前两模块分别实现、分别评测，尚未联合接入Codec。旧Query-IP入口已在本分支清理，下文相关指标仅作历史记录，不是当前语义选帧成果。重建与文旅交互闭环仍需各自证据，不由公开视频QA结果替代。
-
-本轮源码检索与CPU诊断见[语义证据研究记录](docs/RESEARCH_semantic_evidence_next_20261105.md)：官方时间标注覆盖13/30题，仅作离线覆盖诊断；AKS默认影子选帧没有新增QA成绩。
-
-新探索工程：[HiMu启发的条件解析＋子事件定位](docs/PLAN_condition_grounding_v1.md)已完成CPU准备，先做5题纯文本解析实测；尚无新定位或QA效果，不改变旧候选归档结论。
-
-当前归档：[语义选帧阶段总结](docs/SUMMARY_air_semantic_frames_archive_20261105.md)、[字幕冻结结果](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。所有新实验记录、日志、断点和新缓存留在`VLM/eval_results/practical_mage_v1/`；旧数据和缓存原位保留。助手默认只进行源码/只读分析与CPU验证，GPU推理命令交用户执行；不读取API密钥，不自动训练/下载。
+git submodule update --init --recursive
+```
 
 
-> 论文题目：**受限采集下的 3DGS 三维重建方法以及在文化遗产数字展示中的应用研究**  
-> 全文设计与流程图见 [`docs/thesis.md`](docs/thesis.md)。
 
-## 论文目标（摘要）
+## 2.下载数据集
 
-工作 A 从稀疏视角构建可自由观看的 3DGS 数字资产；工作 B 对离线视频进行问答，分别评估视觉取帧与时间对齐字幕的贡献。
+GaussianObject 支持 Mip-NeRF360 和 OmniObject3D 数据集。
 
-| 工作 | 内容 | 本仓状态 |
-|------|------|----------|
-| **A · 稀疏 3DGS 重建** | init（classic / VGGT±depthft）→ Drop 粗训 → LoRA repair（± CADR / 底模） | **消融已齐**（见下节结论） |
-| **B · 视频问答 / 评测** | 离线视觉预算与时间对齐字幕 | **两路评测已完成，长度规则待独立验证**，见本页总设计 |
+![image-20250817184029154](/Users/zhangao/Library/Application Support/typora-user-images/image-20250817184029154.png)
 
-更多：[`docs/reproduction/README.md`](docs/reproduction/README.md)（3DGS 复现日记）、[`docs/system/README.md`](docs/system/README.md)（系统对接）。全文话术与流程图亦见仓外 [`毕设.md`](../毕设.md) / [`docs/thesis.md`](docs/thesis.md)。
+下载网站: https://drive.google.com/drive/folders/1DUOxFybdsSYJHI5p79O_QH87TIODiJ8h
 
----
+下载到本地上传到/root/autodl-tmp/GaussianObject/data目录
 
-## 工作 A：稀疏视角 3DGS 重建
+## 3.**conda环境配置**
+
+（1）创建并激活新的conda环境
+
+```python
+conda create --name GaussianObject python=3.11
+
+conda activate GaussianObject
+```
+
+（2）虚拟环境下安装PyTorch(支持CUDA)
+
+```python
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+```
+
+（3）**检查 CUDA 和 PyTorch 版本匹配：**
+
+确保 PyTorch 版本和 CUDA 版本匹配。
+
+```python
+python -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
+```
+
+（4）安装项目所需的 Python 包
+
+```python
+pip install -r requirements.txt
+```
+
+问题：
+
+文件 `/submodules/diff_gaussian_rasterization` 和 `/submodules/diff-gaussian-rasterization-w-pose` 的安装名称相同，导致它们发生冲突。
+
+解决方法：
+
+- **修改 setup.py 文件**
+  文件路径：/submodules/diff-gaussian-rasterization-w-pose/setup.py
+
+  修改内容：
+
+  将setup.py 文件中的所有 `"diff_gaussian_rasterization"` 替换为 `"diff_gaussian_rasterization_w_pose"`
+
+- **修改diff_gaussian_rasterization文件名**
+
+  文件路径：/submodules/diff-gaussian-rasterization-w-pose/diff_gaussian_rasterization
+
+  文件名 `"diff_gaussian_rasterization"` 更改为 `"diff_gaussian_rasterization_w_pose"`
+
+终端重新运行
+pip install -r requirements.txt
+
+pip install xformers
+
+## 4.加载预训练ControlNet 模型
+
+GaussianObject 依赖 Stable Diffusion v1.5 和 ControlNet Tile 的预训练模型。
+
+Hugging-Face地址：https://huggingface.co/
+
+- **从huggingface `benjamin-paine/stable-diffusion-v1-5` 下载的文件**:
+
+  - 文件名: `v1-5-pruned.ckpt`
+  - 文件位置（本地下载目录）: 当前目录 `.`
+  - 仓库 ID: `benjamin-paine/stable-diffusion-v1-5`
+  - 修订版本: `26a823710f75136819d791422b0b8686afbe784b`
+
+  文件 `v1-5-pruned.ckpt`，是 Stable Diffusion v1.5 模型权重文件 (`ckpt` 格式通常是用于 PyTorch 保存模型的检查点文件)。
+
+- **从huggingface `lllyasviel/ControlNet-v1-1` 下载的文件**:
+
+  - 文件名: `control_v11f1e_sd15_tile.pth`
+
+  - 文件位置（本地下载目录）: 当前目录 `.`
+  - 仓库 ID: `lllyasviel/ControlNet-v1-1`
+  - 修订版本: `69fc48b9cbd98661f6d0288dc59b59a5ccb32a6b`
+
+  文件 `control_v11f1e_sd15_tile.pth`，是用于 ControlNet 模型的预训练权重，格式为 `.pth`，这是 PyTorch 的模型权重文件格式。
+
+下载完成后的`v1-5-pruned.ckpt`和 `control_v11f1e_sd15_tile.pth`保存到**GaussianObject**的路径：
+
+/root/autodl-tmp/GaussianObject/models文件夹下
+
+# 三、**运行 GaussianObject 项目**
+
+## 1.生成视觉轮廓（Visual Hull）
+
+此步骤通过稀疏视角生成场景的视觉轮廓，轮廓为一个粗略的3D模型。
+
+```python
+conda activate GaussianObject
+
+cd autodl-tmp/GaussianObject  #进入代码路径
+```
+
+**终端运行命令**：
+
+```python
+python visual_hull.py \
+    --sparse_id 4 \
+    --data_dir /root/autodl-tmp/GaussianObject/data/mip360/kitchen \
+    --reso 2 --not_vis
+```
+
+注意：--data_dir （自己本地的数据目录路径）
+
+这里是：/root/autodl-tmp/GaussianObject/data/mip360/kitchen
+
+参数解释：
+
+- `--sparse_id 4`：选择稀疏视角ID为4
+- `--data_dir`：数据目录路径，指定数据集的位置
+- `--reso 2`：设置分辨率为2
+- `--not_vis`：不进行可视化操作
+
+**![截屏2025-05-30 14.10.37](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.10.37.png)输出**：生成的视觉轮廓所保存的文件路径：
+
+`/root/autodl-tmp/GaussianObject/data/mip360/kitchen/visual_hull_4.ply` 
+
+## 2.训练粗略的 3DGS 模型
+
+此步骤训练一个粗略的3D高斯点云表示 (3DGS)。
+
+**终端运行** 命令：
+
+```python
+python train_gs.py \
+-s /root/autodl-tmp/GaussianObject/data/mip360/kitchen \
+    -m output/gs_init/kitchen \
+    -r 4 --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name visual_hull_4 \
+    --white_background --random_background
+```
+
+注意：--data_dir （自己本地的数据目录路径）
+
+这里是：/root/autodl-tmp/GaussianObject/data/mip360/kitchen
+
+​           -m (模型输出路径)
+
+我这里是：output/gs_init/kitchen
+
+参数解释：
+
+- `-s`：数据目录。
+- `-m`：模型输出路径。
+- `--init_pcd_name`：初始化点云名称（即视觉轮廓文件）。
+- `--white_background`：使用白色背景。
+- `--random_background`：随机背景。
+
+![截屏2025-05-30 14.16.37](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.16.37.png)
+
+**渲染粗略模型**：
+
+渲染测试集：
+
+    python render.py \
+        -m output/gs_init/kitchen \
+        --sparse_view_num 4 --sh_degree 2 \
+        --init_pcd_name visual_hull_4 \
+        --white_background --skip_all --skip_train
+
+问题：
+
+​	渲染时没有，试图删除 `renders.mp4`和 `gt.mp4`的文件，但该文件 **不存在**
+
+![截屏2025-05-30 14.22.52](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.22.52.png)
+
+解决方法：
+
+- 修改 render.py 文件
+
+  - 文件路径：/root/autodl-tmp/GaussianObject/render.py
+
+  原内容：
+
+  ```python
+  os.remove(renders_path) # 224行
+  os.remove(gt_path)
+  ```
+
+  修改为：
+
+  ```python
+  if os.path.exists(renders_path):
+  	os.remove(renders_path)
+  if os.path.exists(gt_path):
+  	os.remove(gt_path)
+  ```
+
+
+重新运行render.py
+
+![截屏2025-05-30 14.38.45](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.38.45.png)
+
+渲染路径：
+
+```python
+python render.py \
+    -m output/gs_init/kitchen \
+    --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name visual_hull_4 \
+    --white_background --render_path
+```
+
+![截屏2025-05-30 14.40.57](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.40.57.png)
+
+## 3.留一法分析 (Leave-One-Out Analysis)
+
+(两个阶段)该步骤通过逐个排除视角分析模型性能，进一步优化3DGS模型。
+
+（1）第一阶段：
+
+**终端运行**命令： 
+
+    python leave_one_out_stage1.py -s /root/autodl-tmp/GaussianObject/data/mip360/kitchen \
+        -m output/gs_init/kitchen_loo \
+        -r 4 --sparse_view_num 4 --sh_degree 2 \
+        --init_pcd_name visual_hull_4 \
+        --white_background --random_background
+
+![截屏2025-05-30 14.51.33](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.51.33.png)
+
+![截屏2025-05-30 14.52.58](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 14.52.58.png)
+
+（2）第二阶段：
+
+**终端运行**命令：
+
+```python
+python leave_one_out_stage2.py -s /root/autodl-tmp/GaussianObject/data/mip360/kitchen \
+    -m output/gs_init/kitchen_loo \
+    -r 4 --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name visual_hull_4 \
+    --white_background --random_background
+```
+
+问题：
+
+`torch.load()` 加载 checkpoint 文件失败了，原因是 PyTorch 在 2.6 版本开始默认开启了 `weights_only=True` 模式
+
+![截屏2025-05-29 10.19.33](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-29 10.19.33.png)
+
+解决方法：
+
+- leave_one_out_stage2.py
+
+  - 文件路径：/root/autodl-tmp/GaussianObject/leave_one_out_stage2.py
+  
+  原内容：
+  
+  ```python
+  (model_params, first_iter) = torch.load(checkpoint)
+  ```
+
+​       更改为：
+
+	(model_params, first_iter) = torch.load(checkpoint, weights_only=False)
+**重新运行** leave_one_out_stage2.py
+
+![截屏2025-05-30 15.00.02](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.00.02.png)
+
+![截屏2025-05-30 15.01.01](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.01.01.png)
+
+## 4. 使用LoRA进行微调
+
+使用LoRA进行微调，通过控制提示符和其他适应性调整增强模型细节。
+
+该步骤通过LoRA优化模型，使用提示符 `xxy5syt00` 进行微调。
+
+需要从Hugging- Face加载的`v1-5-pruned.ckpt`和`control_v11f1e_sd15_tile.pth`放在指定路径：
+
+/root/autodl-tmp/GaussianObject/models/文件夹下
+
+**终端运行**命令：
+
+```python
+python train_lora.py --exp_name controlnet_finetune/kitchen \
+    --prompt xxy5syt00 --sh_degree 2 --resolution 4 --sparse_num 4 \
+    --data_dir /root/autodl-tmp/GaussianObject/data/mip360/kitchen \
+    --gs_dir output/gs_init/kitchen \
+    --loo_dir output/gs_init/kitchen_loo \
+    --bg_white --sd_locked --train_lora --use_prompt_list \
+    --add_diffusion_lora --add_control_lora --add_clip_lora
+```
+
+问题1:
+
+- autoDL无法连接huggingface下载 CLIP 模型
+
+解决方案：
+
+- 本地（网络环境允许）下载好--> 上传到
+
+- 本地新建个 load_CLIP.py，内容如下：
+
+```python
+from transformers import CLIPTokenizer, CLIPTextModel
+
+model = CLIPTextModel.from_pretrained("openai/clip-vit-large-patch14")
+tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-large-patch14")
+
+model.save_pretrained("./clip-vit-large-patch14")
+tokenizer.save_pretrained("./clip-vit-large-patch14")
+```
+
+- 本地（网络环境允许）运行 load_CLIP.py
+
+会在load_CLIP.py目录下得到 **clip-vit-large-patch14 **文件夹
+
+复制到服务器/root/autodl-tmp/GaussianObject/pretrained/文件夹下
+
+（在/root/autodl-tmp/GaussianObject/目录下新建pretrained文件下放入clip-vit-large-patch14整个文件夹）
+
+
+
+问题2：
+
+- `torch.load()` 加载 `.ckpt` 模型时，里面保存了一个 **`pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint` 对象**， PyTorch**默认不再允许反序列化（加载）这类 Python 类**。
+
+![截屏2025-05-29 10.43.25](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-29 10.43.25.png)
+
+解决方法：
+
+- 修改model.py文件
+
+  文件路径：/root/autodl-tmp/GaussianObject/cldm/model.py
+
+  ```python
+  state_dict = get_state_dict(torch.load(ckpt_path, map_location=torch.device(location))
+  ```
+
+  修改为
+
+  ```python
+  state_dict = get_state_dict(torch.load(ckpt_path, map_location=torch.device(location), weights_only=False))
+  ```
+
+重新运行 train_lora.py
+
+![截屏2025-05-30 15.21.34](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.21.34.png)
+
+![截屏2025-05-30 15.21.51](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.21.51.png)
+
+## 5. **高斯修复 (Gaussian Repair)**
+
+该步骤应用高斯修复模型，进一步修复和优化3D表示。
+
+**终端运行** 命令：
+
+    python train_repair.py \
+        --config configs/gaussian-object.yaml \
+        --train --gpu 0 \
+        tag="kitchen" \
+        system.init_dreamer="output/gs_init/kitchen" \
+        system.exp_name="output/controlnet_finetune/kitchen" \
+        system.refresh_size=8 \
+        data.data_dir="/root/autodl-tmp/GaussianObject/data/mip360/kitchen" \
+        data.resolution=4 \
+        data.sparse_num=4 \
+        data.prompt="a photo of a xxy5syt00" \
+        data.refresh_size=8 \
+        system.sh_degree=2
+
+![截屏2025-05-30 15.34.49](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.34.49.png)
+
+![截屏2025-05-30 15.35.35](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.35.35.png)
+
+![截屏2025-05-30 15.36.04](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.36.04.png)
+
+![截屏2025-05-30 15.36.42](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.36.42.png)
+
+最终的 3DGS 表示保存在 `output/gaussian_object/kitchen/save/last.ply`
+
+## 6. **渲染最终的3DGS表示**
+
+渲染最终修复后的3D模型：
+
+**渲染测试集**：
+
+```python
+python render.py \
+    -m output/gs_init/kitchen \
+    --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name visual_hull_4 \
+    --white_background --skip_all --skip_train \
+    --load_ply output/gaussian_object/kitchen/save/last.ply
+```
+
+![截屏2025-05-30 15.40.01](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.40.01.png)
+
+**渲染路径**：
+
+    python render.py \
+        -m output/gs_init/kitchen \
+        --sparse_view_num 4 --sh_degree 2 \
+        --init_pcd_name visual_hull_4 \
+        --white_background --render_path \
+        --load_ply output/gaussian_object/kitchen/save/last.ply
+
+![截屏2025-05-30 15.43.26](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.43.26.png)
+
+渲染结果保存在`output/gs_init/kitchen/test/ours_None`和 `output/gs_init/kitchen/render/ours_None`中
+
+# 四、last.ply成像效果
+
+在线可视化工具：https://superspl.at/editor
+
+![截屏2025-05-30 15.53.48](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 15.53.48.png)
+
+![截屏2025-05-30 17.14.16](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 17.14.16.png)
+
+![截屏2025-05-30 17.12.26](/Users/zhangao/Desktop/gasussianObject/复现记录/截屏2025-05-30 17.12.26.png)
+
+# 五、 COLMAP-Free GaussianObject (CF-GaussianObject)
+
+## 1.下载[SAM](https://github.com/facebookresearch/segment-anything)和[DUSt3R](https://github.com/naver/dust3r)或[MASt3R](https://github.com/naver/mast3r)检查点
+
+```sh
+cd models
+sh download_preprocess_models.sh
+cd ..
+```
+
+整理目录结构
+
+`./data`下 准备 4 张图片的数据集
 
 ```text
-稀疏图 + 位姿
-  → ① init 点云（classic hull / VGGT-enhanced / ± depth_head 微调）
-  → ② 粗训 3DGS（± DropGaussian）
-  → ③ LOO + ControlNet-Tile LoRA
-  → ④ Gaussian repair（± CADR；可换 SD1.5 写实底模）
-  → test results.json → 3DGS/eval_results/*.csv
+GaussianObject
+├── data
+│   ├── <your dataset name>
+│   │   ├── images
+│   │   │   ├── 0001.png
+│   │   │   ├── 0002.png
+│   │   │   ├── 0003.png
+│   │   │   └── 0004.png
+│   │   ├── sparse_4.txt
+│   │   └── sparse_test.txt
+│   └── ...
+└── ...
 ```
 
-| 路径 | 说明 |
-|------|------|
-| 代码 | [`3DGS/GaussianObject/`](3DGS/GaussianObject/) · [`3DGS/vggt/`](3DGS/vggt/) |
-| 编排 | [`sh/lineB_gaussianobject/`](3DGS/GaussianObject/sh/lineB_gaussianobject/)（[`sh/README.md`](3DGS/GaussianObject/sh/README.md)） |
-| 指标 | [`3DGS/eval_results/`](3DGS/eval_results/)（CSV + SUMMARY） |
+其中`sparse_4.txt`和`sparse_test.txt`包含与输入图像相同的序列号，从 0 开始。如果所有图像都用于训练，则文件应该是
 
-### 主模块：定位 · 作用 · 收益 · 意义
-
-| 模块 | 管线位置 | 作用 | 实测收益（test PSNR） | 论文意义 |
-|------|----------|------|----------------------|----------|
-| **① Classic visual hull** | 步骤 1 默认强基线 | COLMAP/掩码几何围成初始点云 | kitchen≈**27.1**；garden≈**33.5** | **粗训主收益在 init**；遗产受限采集下优先保几何密度与紧致 bbox |
-| **①′ VGGT-enhanced hull** | 同级对照（原版 `model.pt`） | 用 VGGT 深度质量评估增强 hull | kitchen 相对 classic **≈−1.0 dB**；garden 仅 **≈−0.11** | VGGT 是可选增强而非粗训 SOTA；**场景依赖**，勿写成全局 −1 dB |
-| **①″ Depth-adapt** | VGGT depth_head 任务微调后再 enhanced | 域适应深度先验（mip360 ckpt） | kitchen 粗训 **−0.16**；garden **+0.16 vs 原版 VGGT**；接 repair 后 kitchen **≥ 原版 A0** | 可写「任务微调」；粗训不稳定，**不宜宣称普适大涨点** |
-| **② DropGaussian** | 粗训正则 | 训练中随机丢高斯抑过拟合 | classic 上≈0；VGGT 上约 **+0.09** | 弱/条件性增益；配合差 init 略有用，不是主贡献 |
-| **③ LoRA repair** | LOO 对 + Tile LoRA → 步骤 8–9 | 扩散先验修稀视图伪影 | VGGT 粗训→RV51：**+0.80**（相对 26.14）；弱 depthft 粗训→RV51：**+1.04** | **下游主涨点**；修复补的是渲染伪影，**抹不平 init 几何差距** |
-| **④ CADR** | repair 时 \(w_{need}\times w_{trust}\) | 置信度门控修复强度 | vs 无 CADR：**≈0～+0.05**（目标 +0.2 **未达**）；A5 略伤默认关 | 方法完整可报；实证接近噪声，主文勿夸大 |
-| **④′ 写实底模** | RV51 / abs16 换 SD1.5 | 更强纹理先验（须与 LoRA 同底重训） | RV51 vs SD1.5 ≈**+0.10**；abs16 无实质涨点 | 工程可切换；**不是指标主杠杆** |
-
-**负对照：** 纯 VGGT 点云（无 classic hull）+ depthft → **11.78**（≈−14 dB）→ 必须保留 visual-hull 几何骨架（[`PLAN_vggt_pure_depthft.md`](docs/PLAN_vggt_pure_depthft.md)）。
-
-**欠训排查：** PSNR–iter（3k→10k）全程 classic ≫ VGGT，10k 仍 ≈**−1.5 dB** → kitchen 的 init 差距**不是欠训假象**（[`lineB_kitchen_iter_sweep.csv`](3DGS/eval_results/lineB_kitchen_iter_sweep.csv)）。
-
-### 关键实验数字（mip360 / test）
-
-**粗训 2×2（kitchen）** · [`SUMMARY_coarse_2x2.md`](3DGS/eval_results/SUMMARY_coarse_2x2.md)
-
-| | 无 Drop | Drop |
-|--|--------:|-----:|
-| classic | **27.11** | 27.10 |
-| VGGT-enhanced | 26.05 | 26.14 |
-
-ply：classic 8616 点、紧 bbox；VGGT-enhanced 2874 点、更散 → 与 −1 dB 同向。
-
-**多场景粗训（Drop=1）**
-
-| 场景 | classic | VGGT / depthft | 解读 |
-|------|--------:|---------------:|------|
-| kitchen | 27.10 | 26.14 / 25.98 | init 主导；depthft 粗训略伤 |
-| garden | 33.49 | 33.37 / **33.53** | 差距缩小；depthft 微胜 classic |
-
-**Repair 主表（C0–C4 + P2/P3）** · [`SUMMARY_repair_cadr.md`](3DGS/eval_results/SUMMARY_repair_cadr.md) · [`SUMMARY_depthft_expand.md`](3DGS/eval_results/SUMMARY_depthft_expand.md)
-
-| ID / 设定 | test PSNR | 要点 |
-|-----------|----------:|------|
-| C0 classic 粗训 | ≈**27.11** | 粗训最优 |
-| C1 SD1.5 repair（VGGT init） | ≈26.94 | vs 旧 VGGT 粗训 +0.80 |
-| C2/A0 RV51 无 CADR | **26.97** | 底模边际 |
-| C3/A3 RV51+CADR | **26.96** | vs C2 持平 |
-| C4 abs16 无 CADR | **26.93** | 换底模无实质收益 |
-| classic→RV51（P2） | **27.09** | vs A0 +0.12；vs 自身粗训持平 |
-| depthft→RV51 / +CADR（P3） | **27.02 / 27.07** | 拉回弱粗训；略超原版 A0/A3 |
-
-### 一句话结论（工作 A）
-
-1. **主杠杆 = 初始点云几何（classic hull）+ LoRA repair**；Drop / CADR / 换底模 / depthft 均为弱或场景条件性。  
-2. **VGGT 与 depth-adapt** 定位为可选深度先验与任务微调，**不是**粗训主 SOTA；跨场景幅度差一个数量级。  
-3. **Repair 不能翻盘 init**：classic 优势会传到下游，但在已足够好的 classic 粗训上 repair 几乎不涨。  
-4. 遗产导览侧：优先保证 **可漫游、几何稳的 3DGS 资产**（C0 级），再用 repair 抬纹理；CADR/底模作方法完整度与附录。
-
-### 跑通与权重
-
-```bash
-source .venv-ddgs-vggt/bin/activate
-export CUDA_VISIBLE_DEVICES=0 USE_DROP=1 SKIP_PATH=1
-cd 3DGS/GaussianObject/sh/lineB_gaussianobject && bash 0_run_all.sh
-# CADR 主对照（复用 RV51 LoRA，从步骤 8）：
-# SD_CKPT=./models/Realistic_Vision_V5.1.safetensors \
-# LORA_EXP=controlnet_finetune/kitchen_drop_rv51 BASE_TAG=kitchen_drop_rv51 \
-# bash 0_run_all.sh 8
+```text
+0
+1
+2
+3
 ```
 
-| 本地权重 | 角色 |
-|----------|------|
-| [`models/Realistic_Vision_V5.1.safetensors`](3DGS/GaussianObject/models/Realistic_Vision_V5.1.safetensors) | 主对照 SD 底模 |
-| [`models/absolutereality_v16.safetensors`](3DGS/GaussianObject/models/absolutereality_v16.safetensors) | 附录底模（C4） |
-| [`models/control_v11f1e_sd15_tile.pth`](3DGS/GaussianObject/models/control_v11f1e_sd15_tile.pth) (+ `.yaml`) | ControlNet-Tile |
-| [`3DGS/vggt/models/model.pt`](3DGS/vggt/models/model.pt) | 原版 VGGT |
-| [`depth_head_ft_mip360.pt`](3DGS/vggt/models/depth_head_ft_mip360.pt) | depth-adapt（任务微调） |
+执行 downsample.py 文件，进行 图像下采样
 
-详见 [`models/README.md`](3DGS/GaussianObject/models/README.md)。权重/大数据不进 Git。
-
----
-
-
-## 工作 B：Mage-VL + VLMEvalKit
-
-| 路径 | 说明 |
-|------|------|
-| [`VLM/mage_vl/`](VLM/mage_vl/) | 基于 microsoft/Mage 的 `mage_vl` + streaming 增量；**无** `data/`/`models/` |
-| [`VLM/VLMEvalKit/`](VLM/VLMEvalKit/) | 评测框架 **vendored 完整代码（含本仓改动）** |
-| [`VLM/patches/vlmevalkit/`](VLM/patches/vlmevalkit/) | 相对上游 open-compass 的 diff（说明用） |
-| [`VLM/eval_results/`](VLM/eval_results/) | **Video-MME 等准确率结果**（必留） |
-
-`mage_flow`（文生图）**不在本仓**，仅存于机器上仓外 `../Mage/mage_flow` 等。  
-权重与数据集放仓外或本地 ignore 目录；环境见下表与 [`VLM/README.md`](VLM/README.md)。
-
-## 工作 B：Mage字幕增强（当前）
-
-## 当前结论（2026-11-03，字幕路线已完成冻结评测）
-
-保留Frames-32＋连续补句＋时间标记，固定2048字幕token；无训练、无Agent/API。test225三路正确数：无字幕140、原对齐154、连续163（72.44%）。相对无字幕净增23题／10.22个百分点，聚类95%区间[5.33,15.11]；相对原对齐净增9题／4个百分点，区间[-0.44,8.46]，尚不能证明补句独立显著优于原对齐。
-
-short219/dev180/val90/test225连续字幕分别175/119/54/163题正确，四阶段互斥覆盖本地714题／238视频，不能混称714题独立测试或官方完整基准。原对齐val90负结果、3072预算负结果及API pilot负结果全部保留。当前不再调字幕或重复跑本地full；Agent暂停，文旅闭环和重建对问答的贡献尚待验证。
-
-完整三路数据、分时长统计、5组图、成本和10个案例见[最新最终结果总结](docs/SUMMARY_mage_subtitle_final_results_20261103.md)。历史内容若与本节不符，以本节及最新总结为准；历史实验不删除。
-
-
-### Query-IP历史路线（独立协议，不能与字幕结果直接混比）
-
-**应用场景（动机）：** 游客随拍、视角有限的景点问答——同一段短视频，问牌匾 vs 问屋檐，需要的视觉证据不同；Codec 按运动/残差选 Patch 未必对准问题；证据不足时应说明不确定（拒答需另做）。  
-**核心研究问题：** 有限视角下、**固定视觉 Token 预算**的**问题相关证据选择**（不是泛旅游聊天，也不是单纯压码率）。  
-**实验结论（2026-10-27 保留）：**  
-- **主线 A（可写）：** 同 K **Codec 融合** `queryip` **63.5%** ≈ +4 pp vs random（视频 · Mage 已留 patch）。  
-- **按问题选区未做成：** CLIP / αβ / OCR 硬切 textseat（37.3%=shuf，vs full −46.8）→ **失败消融，不作贡献**。  
-- **加戏 B：** 软门控、持平即成功（可选）。换方案时以上结论保留。  
-
-详情：[`VLM/README.md`](VLM/README.md) · [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md)。
-
-| 同 K · short200 · kr=0.75 | Acc | 备注 |
-|------|-----|------|
-| **queryip · 主线 A** | **63.5%** | [`clip_frame_n200/`](VLM/eval_results/queryip_samek/clip_frame_n200/) |
-| random | 59.5% | 同上 |
-| CLIP / region·shuf / edge·shuf | 58.5 / 58.5·60.5 / 60.0·62.0 | 失败 |
-| OCR textseat / full（v1 proxy） | 37.3 / 84.1 | [`ocrbench_v1_image_textseat/`](VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat/) |
-
-| 路径 | 说明 |
-|------|------|
-| [`VLM/README.md`](VLM/README.md) | **应用场景全文** + 实验结论 |
-| [`VLM/Explore-Then-Select/`](VLM/Explore-Then-Select/) | Query-IP + [`COMMANDS.md`](VLM/Explore-Then-Select/COMMANDS.md) |
-| [`VLM/eval_results/`](VLM/eval_results/) | 指标归档 |
-| [`docs/PLAN_mage_query_IP_select.md`](docs/PLAN_mage_query_IP_select.md) | 结论 · 证据 · 后续实验 |
-
-`mage_flow` **不在本仓**。权重 / 大数据集放仓外或 ignore。
-
----
-
-## 环境（uv，目录可不进库）
-
-| 环境（本地） | 用途 | freeze |
-|--------------|------|--------|
-| `.venv-ddgs-vggt` | 工作 A | [`envs/requirements-venv-ddgs-vggt.txt`](envs/requirements-venv-ddgs-vggt.txt) |
-| `ddgs` | 旧 DDGS 参考 | [`envs/requirements-ddgs.txt`](envs/requirements-ddgs.txt) |
-| `../VLMEvalKit/vlmeval_env` 或自建 | 工作 B 评测 | [`envs/requirements-vlmevalkit.txt`](envs/requirements-vlmevalkit.txt) |
-| `../Mage_ViT/mage` 或自建 | 工作 B Mage | [`envs/requirements-mage-vit.txt`](envs/requirements-mage-vit.txt) |
-
-```bash
-git submodule update --init --recursive   # DropGaussian_release 等
-# 评测时将 editable 路径改为本仓 VLM/VLMEvalKit
+```sh
+python preprocess/downsample.py -s data/realcap/cuc
 ```
 
----
+## 2.生成掩码
 
-## 布局
+执行 `segment_anything.ipynb`使用 SAM 生成掩码
 
-见 [`STRUCTURE.txt`](STRUCTURE.txt)。忽略：`.venv*`、`ddgs/`、`_archive/`、`**/data/`、`**/output/` 大产物、权重。
+## 3. 生成粗略姿势
 
----
+[DUSt3R](https://github.com/naver/dust3r)用于估计输入图像的粗略姿态。您可以使用以下方法获取姿态：
 
-## TODO
+```
+python pred_poses.py -s data/realcap/cuc --sparse_num 4
+```
 
-**工作 A 消融已齐**（2×2 / V2 负对照 / CADR A-full+C4 / P2 classic-repair+garden / P3 iter-sweep+depthft）。详表：[`3DGS/eval_results/`](3DGS/eval_results/)。
+![image-20250628172216013](/Users/zhangao/Library/Application Support/typora-user-images/image-20250628172216013.png)
 
-**后续可选**
-
-- [ ] 用 [`lineB_kitchen_iter_sweep.csv`](3DGS/eval_results/lineB_kitchen_iter_sweep.csv) 出论文 **PSNR–iter** 图
-- [ ] **V2 尺度对齐**（非必须；11.78 负对照即可）
-- [ ] 工作 B：Cultural LoRA / codec 选区等（见 [`docs/PLAN_mage_cultural_lora_location.md`](docs/PLAN_mage_cultural_lora_location.md)）
-
-### 工作 B · Query-IP / Mage（下列旧TODO为历史路线；当前字幕状态见上文）
-
-- [x] **同 K 主表 / 复现**：保留 `queryip`；vs random 点估计约 **+4 pp**（63.5 vs 59.5 @`clip_frame_n200`；主表曾 64.0）
-- [x] **失败消融归档**：bitcost；CLIP 帧 E4；区域 v1；**边界 edge**；方案 B **不做**
-- [x] **E2 α/β 三角**：`queryip`≡dyn；sta ±1 题 → **题型自适应不作贡献**
-- [x] **行 A / 行 B 旁证** + **proxy K 扫描**（0.3–0.75 赢；0.9 不赢）
-- [x] **停 QueryIP 语义选区**（CLIP 重排；非否定一切语义）
-- [x] **OCRBench v1 硬切 textseat 负结果归档**；Mage baseline Norm 83.4
-- [x] **定案主线 A / 加戏 B**（换方案前结论保留）
-- [ ] **【优先】主线 A 收口**：McNemar · 失败表 · Acc–K
-- [ ] （可选）加戏 B 软门控冒烟 · 效率曲线 · 流式 / Cultural LoRA
-- [ ] ~~同 K×714~~ / ~~CLIP 选区~~ / ~~αβ~~ / ~~OCR 硬切打 Mage~~ → **不做**
+中提供了替代的[MASt3R](https://github.com/naver/mast3r)`pred_poses_mast3r.py`脚本。
 
 
-### A.I.R.题面条件编译：DeepSeek v2（2026-11-05）
 
-仍属于语义时间证据选择模块。程序固定事件ID、题面顺序、明确范围及before/空间/相对位置关系，DeepSeek仅编译受约束的检索短句；不观察视频、不预测答案。本版只开放旧开发集5题，40项纯CPU测试和实际5题结构核对已通过；真实API/定位/QA尚未运行，不能视为涨点结果。旧Mage解析失败结果与既有A.I.R./字幕结果保留原位。
+问题1: 
 
-实施与可续跑入口见 [DeepSeek文本条件编译计划](docs/PLAN_condition_text_parser_deepseek_v2.md)，旧错误见 [Mage解析5题失败诊断](docs/ANALYSIS_condition_grounding_parse5_20261105.md)。新增成果统一保存于 VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_grounding_deepseek_v2/。先核对5题含义，再决定扩样与定位，不自动进入下一阶段。
+![img](https://cdn.nlark.com/yuque/0/2025/png/49848623/1750385291023-6d7fbd15-a54b-4998-97d9-353732a0524a.png)
 
+解决方法：
 
-### 30题条件解析的离线校验修订（2026-11-05）
+转到 dust3r/inference.py  文件
 
-已按原文区间区分题目套话、检索事件和问题关系，复用每题最终缓存重审：原23题不变，6题恢复文本检查通过，1题仍不支持拆分；无新增API/视频/QA调用。after与未知未来时间另存结构约束，否定、服饰、动作等仍严格保留。这是校验误拒修复，不是定位或准确率收益。见 [离线重审计划与实际结论](docs/PLAN_condition_text30_offline_reaudit.md)。全部新结果在 VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_text30_offline_reaudit_v1/，原实验结果保留。
+```python
+ckpt = torch.load(model_path, map_location='cpu')
+```
 
+改为
 
-### 查询到画面的独立定位诊断入口（2026-11-05）
-
-已搭建run_leaf_probe.sh，固定7题候选、4题可见锚点探测、19题原回退，复用冻结查询和历史图像特征，只补缺失的18条本地CLIP文本向量。输出原始检索峰、数值时间约束、拟议最多32帧及原帧/PTS审计缩略图。无最终QA或API调用；人工7/4/19范围属于已见开发集诊断，不是通用自动分类或涨点成果。30项CPU回归、模拟全流程与真实来源预检已完成，等待用户运行编码/预览。见 [定位诊断计划与终端命令](docs/PLAN_condition_leaf_localization_probe.md)。新成果位于VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_leaf_localization_probe_v1/，旧结果不改。
-
-
-### 冻结7候选QA＋23题原答复用诊断（2026-11-05）
-
-已搭建run_leaf_qa30.sh：先对完整30题重建旧uniform/noobs输入并核对完整Tensor SHA，再复用23题；只对原7候选的新冻结画面生成，484失败案例保留，不改选帧/QA提示词。完整30题报告相对noobs与uniform的救回/误伤/净增，单列prior12/extra18，保留历史收益和历史成本，不能将其归因本次改动。43项CPU回归、模拟中断/全流程与实际来源元数据预检已完成；真实输入审计与QA等待用户运行。见 [冻结7题QA诊断计划及命令](docs/PLAN_leaf_frozen7_qa30.md)。新成果统一在VLM/eval_results/practical_mage_v1/18_air_frames_v1/leaf_frozen7_qa30_v1/，无新增API、训练、下载或自动扩样。
+```python
+ckpt = torch.load(model_path, map_location='cpu', weights_only=False)
+```
 
 
-### 冻结7题QA已完成：新增模块无净收益（2026-11-05）
 
-uniform32为16/30；旧noobs与本轮均18/30。相对noobs救回0、误伤0、净增0，7题新输入已重新生成但答案全部相同。extra18仍12/18，其中改输入仅3题。相对uniform的2题净增属于旧noobs，不能归因新增解析/定位。本配置归档，不据此扩全量；7题高基线小样本不能否定所有语义路线。见 [实际结果与边界](docs/ANALYSIS_leaf_frozen7_qa30_outcome_20261105.md)。原结果保留。
+问题2：
 
+![img](https://cdn.nlark.com/yuque/0/2025/png/49848623/1750385239768-39ac69aa-92b1-4bb1-8f04-2ce5e38424c2.png)
 
-### Codec dev180已完成（2026-11-06）
+解决方法：
 
-Codec无字幕111/180；完整字幕13312为127/180；32锚点2048为123/180；Frames连续2048为119/180。完整字幕相对Codec净增16题/+8.89pp，开发聚类95%区间[1.67,16.11]；相对Frames和2048的额外收益区间跨零，不宣称稳定领先。固定配置，下一步先预检val90缓存/预算再做补充验证。540单元审计通过，全部数据保留。见[实际结论](docs/ANALYSIS_codec_dev180_complete13312_20261106.md)。
+找到pred_poses.py
+
+```python
+original_masks = [np.array(Image.open(mask).resize(image.size))[:, :, 0] / 255.0 for mask, image in zip(masks, original_images)]
+```
+
+改为：
+
+```python
+# ✅ 安全兼容灰度图和RGB图的写法
+original_masks = []
+for mask_path, image in zip(masks, original_images):
+    mask_img = Image.open(mask_path).resize(image.size)
+    mask_np = np.array(mask_img)
+    if mask_np.ndim == 3:  # RGB 图像
+        mask_np = mask_np[:, :, 0]
+    original_masks.append(mask_np / 255.0)
+```
+
+再次运行：python pred_poses.py -s data/realcap/cuc --sparse_num 4
+
+![image-20250628172216013](/Users/zhangao/Library/Application Support/typora-user-images/image-20250628172216013.png)
+
+## 4.高斯修复
+
+数据准备好后，后续步骤与标准 GaussianObject 类似,一步步执行即可。(修改文件路径/文件名)
+
+```sh
+python train_gs.py -s data/realcap/cuc \
+    -m output/gs_init/cuc \
+    -r 8 --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name dust3r_4 \
+    --white_background --random_background --use_dust3r
+
+python render.py \
+    -m output/gs_init/cuc \
+    --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name dust3r_4 \
+    --dust3r_json output/gs_init/cuc/refined_cams.json \
+    --white_background --render_path --use_dust3r
+
+python leave_one_out_stage1.py -s data/realcap/cuc \
+    -m output/gs_init/cuc_loo \
+    -r 8 --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name dust3r_4 \
+    --dust3r_json output/gs_init/cuc/refined_cams.json \
+    --white_background --random_background --use_dust3r
+
+python leave_one_out_stage2.py -s data/realcap/cuc \
+    -m output/gs_init/cuc_loo \
+    -r 8 --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name dust3r_4 \
+    --dust3r_json output/gs_init/cuc/refined_cams.json \
+    --white_background --random_background --use_dust3r
+
+python train_lora.py --exp_name controlnet_finetune/cuc \
+    --prompt xxy5syt00 --sh_degree 2 --resolution 8 --sparse_num 4 \
+    --data_dir data/realcap/cuc \
+    --gs_dir output/gs_init/cuc \
+    --loo_dir output/gs_init/cuc_loo \
+    --bg_white --sd_locked --train_lora --use_prompt_list \
+    --add_diffusion_lora --add_control_lora --add_clip_lora --use_dust3r
+
+python train_repair.py \
+    --config configs/gaussian-object-colmap-free.yaml \
+    --train --gpu 0 \
+    tag="cuc" \
+    system.init_dreamer="output/gs_init/cuc" \
+    system.exp_name="output/controlnet_finetune/cuc" \
+    system.refresh_size=8 \
+    data.data_dir="data/realcap/cuc" \
+    data.resolution=8 \
+    data.sparse_num=4 \
+    data.prompt="a photo of a xxy5syt00" \
+    data.json_path="output/gs_init/cuc/refined_cams.json" \
+    data.refresh_size=8 \
+    system.sh_degree=2
+
+python render.py \
+    -m output/gs_init/cuc \
+    --sparse_view_num 4 --sh_degree 2 \
+    --init_pcd_name dust3r_4 \
+    --white_background --render_path --use_dust3r \
+    --load_ply output/gaussian_object/cuc/save/last.ply
+```
+
+![image-20250701101843483](/Users/zhangao/Library/Application Support/typora-user-images/image-20250701101843483.png)
+
+![image-20250701102027420](/Users/zhangao/Library/Application Support/typora-user-images/image-20250701102027420.png)

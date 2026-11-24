@@ -36,8 +36,6 @@ if __name__ == '__main__':
     parser.add_argument('--prompt', type=str, default='xxy5syt00')
     parser.add_argument('--exp_name', type=str, default=f'controlnet_finetune/kitchen')
     parser.add_argument('--bg_white', action='store_true', default=False)
-    parser.add_argument('--full_scene', action='store_true', help='Keep original RGB background; no object masking')
-    parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--batch_size', type=int, default=1)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--sd_locked', action='store_true', default=False)
@@ -54,19 +52,15 @@ if __name__ == '__main__':
     parser.add_argument('--add_control_lora', action='store_true', default=False)
     parser.add_argument('--add_clip_lora', action='store_true', default=False)
     parser.add_argument('--use_dust3r', action='store_true', default=False)
-    parser.add_argument('--sd_ckpt', type=str, default='./models/absolutereality_v16.safetensors',
-                        help='SD1.5-compatible base checkpoint (.ckpt or .safetensors)')
 
     # 解析命令行参数
     args = parser.parse_args()
-    if args.full_scene:
-        pl.seed_everything(args.seed, workers=True)
     
     # 根据 YAML 配置文件创建 ControlNet 模型
     model = create_model(f'./models/{args.model_name}.yaml').cpu()
 
     # 加载基础 stable diffusion 模型和 ControlNet 的预训练权重
-    model.load_state_dict(load_state_dict(args.sd_ckpt, location='cpu'), strict=False)
+    model.load_state_dict(load_state_dict('./models/v1-5-pruned.ckpt', location='cpu'), strict=False)
     model.load_state_dict(load_state_dict(f'./models/{args.model_name}.pth', location='cpu'), strict=False)
     
     # 设置模型参数，学习率、是否锁定主模型
@@ -120,7 +114,6 @@ if __name__ == '__main__':
         use_prompt_list=args.use_prompt_list,
         cache_max_iter=args.cache_max_iter,
         use_dust3r=args.use_dust3r,
-        full_scene=args.full_scene,
     )
 
     # 加载自定义的数据集，包括高斯球信息、视角图像
@@ -147,10 +140,7 @@ if __name__ == '__main__':
         logger=loggers,
         callbacks=callbacks,
         max_steps=args.max_steps,
-        check_val_every_n_epoch=max(1,args.callbacks_every_n_train_steps//len(dataset)*2)
+        check_val_every_n_epoch=args.callbacks_every_n_train_steps//len(dataset)*2
     )
 
     trainer.fit(model, dataloader)
-    if args.full_scene:
-        # A non-multiple of the periodic interval must still yield final weights.
-        callbacks[1].save_lora(model, max(0, trainer.global_step - 1))

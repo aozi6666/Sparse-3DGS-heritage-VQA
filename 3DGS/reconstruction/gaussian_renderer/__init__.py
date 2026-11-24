@@ -16,20 +16,7 @@ from diff_gaussian_rasterization_w_pose import GaussianRasterizationSettings as 
 from scene.gaussian_model import GaussianModel
 from utils.sh_utils import eval_sh
 
-def _scheduled_drop_rate(drop_rate, drop_schedule, iteration, drop_max_steps):
-    """Progressive DropGaussian rate. Official default: linear to drop_rate over drop_max_steps."""
-    t = min(max(float(iteration) / float(max(drop_max_steps, 1)), 0.0), 1.0)
-    if drop_schedule == "constant":
-        p = float(drop_rate)
-    elif drop_schedule == "cosine":
-        p = float(drop_rate) * 0.5 * (1.0 - math.cos(math.pi * t))
-    else:  # linear (official)
-        p = float(drop_rate) * t
-    # Dropout requires 0 <= p < 1
-    return min(max(p, 0.0), 0.999)
-
-def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, scaling_modifier = 1.0, override_color = None,
-           is_train=False, iteration=0, drop_rate=0.2, drop_schedule="linear", drop_max_steps=10000):
+def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, scaling_modifier = 1.0, override_color = None, is_train=False, iteration=None, drop_rate=0.0):
     """
     Render the scene. 
     
@@ -67,13 +54,6 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, 
     means3D = pc.get_xyz
     means2D = screenspace_points
     opacity = pc.get_opacity
-
-    # DropGaussian: train-time opacity dropout + compensation (nn.Dropout keeps E[opacity])
-    if is_train:
-        compensation = torch.ones(opacity.shape[0], dtype=torch.float32, device="cuda")
-        p = _scheduled_drop_rate(drop_rate, drop_schedule, iteration, drop_max_steps)
-        compensation = torch.nn.Dropout(p=p)(compensation)
-        opacity = opacity * compensation[:, None]
 
     # If precomputed 3d covariance is provided, use it. If not, then it will be computed from
     # scaling / rotation by the rasterizer.
@@ -162,6 +142,21 @@ def render_w_pose(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.T
     means3D = pc.get_xyz
     means2D = screenspace_points
     opacity = pc.get_opacity
+
+    #### 9.16 集成DropGaussian #####
+    # DropGaussian implementation
+    if is_train and drop_rate > 0:
+        # Create initial compensation factor (1 for each Gaussian)
+        compensation = torch.ones(opacity.shape[0], dtype=torch.float32, device="cuda")
+        
+        # Apply DropGaussian with compensation
+        d = torch.nn.Dropout(p=drop_rate)
+        compensation = d(compensation)
+        
+        # Apply to opacity
+        opacity = opacity * compensation[:, None]
+    #### 9.16 集成DropGaussian #####
+
 
     # If precomputed 3d covariance is provided, use it. If not, then it will be computed from
     # scaling / rotation by the rasterizer.

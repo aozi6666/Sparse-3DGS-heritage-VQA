@@ -3,8 +3,7 @@ import os
 import urllib
 import warnings
 from typing import Any, Union, List
-import packaging
-import packaging.version
+from pkg_resources import packaging
 
 import torch
 from PIL import Image

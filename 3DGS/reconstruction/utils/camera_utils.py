@@ -9,7 +9,6 @@
 #
 # GRAPHDECO research group, https://team.inria.fr/graphdeco
 import os
-from utils.full_scene import read_depth
 import math
 from scene.cameras import Camera, Camera_w_pose
 import numpy as np
@@ -89,7 +88,7 @@ def loadCam(args,
         mono_depth = torch.from_numpy(resized_depth).unsqueeze(0)
     elif mode == 'train':
         mono_depth_path_png = os.path.join(os.path.dirname(os.path.dirname(cam_info.image_path)), "zoe_depth",cam_info.image_name+'.png')
-        if os.path.exists(mono_depth_path_png) or os.path.exists(os.path.splitext(mono_depth_path_png)[0] + ".npy"):
+        if os.path.exists(mono_depth_path_png):
             loaded_depth = load_raw_depth(mono_depth_path_png)
             resized_depth = cv2.resize(loaded_depth, resolution, interpolation=cv2.INTER_NEAREST)
             mono_depth = torch.from_numpy(resized_depth).unsqueeze(0)
@@ -105,15 +104,13 @@ def loadCam(args,
                       FoVx=cam_info.FovX, FoVy=cam_info.FovY, 
                       image=gt_image, gt_alpha_mask=loaded_mask, mono_depth=mono_depth,
                       image_name=cam_info.image_name, uid=id, 
-                      data_device=args.data_device, white_background=args.white_background,
-                      full_scene=bool(getattr(args, "full_scene", False)))
+                      data_device=args.data_device, white_background=args.white_background)
     else:
         return Camera(colmap_id=cam_info.uid, R=cam_info.R, T=cam_info.T, 
                       FoVx=cam_info.FovX, FoVy=cam_info.FovY, 
                       image=gt_image, gt_alpha_mask=loaded_mask, mono_depth=mono_depth,
                       image_name=cam_info.image_name, uid=id, 
-                      data_device=args.data_device, white_background=args.white_background,
-                      full_scene=bool(getattr(args, "full_scene", False)))
+                      data_device=args.data_device, white_background=args.white_background)
 
 def cameraList_from_camInfos(cam_infos, resolution_scale, args, mode="test"):
     camera_list = []
@@ -499,4 +496,6 @@ def generate_ellipse_path_from_camera_infos(
     return ret_cam_infos
 
 def load_raw_depth(fpath="raw.png"):
-    return read_depth(fpath)
+    depth = cv2.imread(fpath, -1)
+    depth = (depth / 1000).astype(np.float32) # type: ignore
+    return depth

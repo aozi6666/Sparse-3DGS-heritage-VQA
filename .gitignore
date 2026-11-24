@@ -51,6 +51,146 @@ celerybeat.pid
 # Environments
 .env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Output directories
+output/
+results/
+checkpoints/
+saves/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Data files (if you don't want to track them)
+data/
+datasets/
+
+# Large files that should be handled by Git LFS
+# (these are already configured in .gitattributes) 
+# Shared maintenance 2026-11-20: keep runtime assets local
+VCAR/
+Seg/
+.uv-cache-seg/
+VQA/
+.venv*/
+**/__pycache__/
+*.pyc
+*.log
+**/logs/
+**/output/
+**/outputs/
+**/checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.glb
+*.npy
+*.npz
+.env
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
 .venv*/
 .venv-ddgs-vggt/
 ddgs/

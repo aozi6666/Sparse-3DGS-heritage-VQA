@@ -1,5 +1,4 @@
 import os
-from utils.full_scene import resolve_image_file, effective_mask, fit_full_image
 import cv2
 import json
 import pickle
@@ -129,8 +128,7 @@ class GSCacheDataset(Dataset):
         use_prompt_list: bool = False,
         cache_max_iter: int = 240,
         train: bool = True,
-        use_dust3r: bool = False,
-        full_scene: bool = False
+        use_dust3r: bool = False
     ):
         super().__init__()
         self.gaussian_dir = gaussian_dir
@@ -150,7 +148,6 @@ class GSCacheDataset(Dataset):
         self.prompt = prompt
         self.train = train
         self.use_dust3r = use_dust3r
-        self.full_scene = full_scene
         self.bg_white = bg_white
         self.bg_color = torch.tensor([1., 1., 1.] if bg_white else [0., 0., 0.] , dtype=torch.float32, device='cuda')
         self.use_prompt_list = use_prompt_list
@@ -196,13 +193,15 @@ class GSCacheDataset(Dataset):
             with open(os.path.join(self.gaussian_dir, 'refined_cams.json')) as f:
                 dust3r_frames = json.load(f)
             for idx, frame in zip(sparse_ids, dust3r_frames):
-                image_path = resolve_image_file(images_folder, frame["img_name"])
+                image_path = os.path.join(images_folder, frame['img_name'])
                 image_name = os.path.basename(image_path).split(".")[0]
                 image = Image.open(image_path)
                 image = np.array(image)
 
                 mask_path = os.path.join(masks_folder, image_name + '.png')
-                mask = effective_mask((image.shape[1], image.shape[0]), mask_path, self.full_scene)
+                mask = Image.open(mask_path)
+                mask = mask.resize((image.shape[1], image.shape[0]))
+                mask = np.array(mask)
                 image[mask < 127] = 255 if bg_white else 0
 
                 R = np.array(frame['rotation'])
@@ -266,13 +265,15 @@ class GSCacheDataset(Dataset):
                     else:
                         assert False, "Colmap camera model not handled: only undistorted datasets (PINHOLE or SIMPLE_PINHOLE cameras) supported!"
                     
-                    image_path = resolve_image_file(images_folder, extr.name)
+                    image_path = os.path.join(images_folder, os.path.basename(extr.name))
                     image_name = os.path.basename(image_path).split(".")[0]
                     image = Image.open(image_path)
                     image = np.array(image)
 
                     mask_path = os.path.join(masks_folder, image_name + '.png')
-                    mask = effective_mask((image.shape[1], image.shape[0]), mask_path, self.full_scene)
+                    mask = Image.open(mask_path)
+                    mask = mask.resize((image.shape[1], image.shape[0]))
+                    mask = np.array(mask)
                     image[mask < 127] = 255 if bg_white else 0
 
                     self.Rs.append(R)
@@ -307,9 +308,7 @@ class GSCacheDataset(Dataset):
         else:
             return np.pad(image, ((pad_u, pad_d), (pad_l, pad_r), (0, 0)), mode='constant', constant_values=1. if self.bg_white else 0.)
 
-    def center_crop(self, image: Union[np.ndarray, torch.Tensor], signed=False) -> Union[np.ndarray, torch.Tensor]:
-        if self.full_scene:
-            return fit_full_image(image, self.image_size, signed=signed)
+    def center_crop(self, image: Union[np.ndarray, torch.Tensor]) -> Union[np.ndarray, torch.Tensor]:
         image = self.center_pad(image)
         H, W, _ = image.shape
         up = H // 2 - self.image_size // 2
@@ -338,8 +337,7 @@ class GSCacheDataset(Dataset):
             gt_alpha_mask = None,
             mono_depth = None,
             image_name = 'tmp.png',
-            uid = 0,
-            full_scene = self.full_scene
+            uid = 0
         )
 
         if not self.train:
@@ -358,7 +356,7 @@ class GSCacheDataset(Dataset):
             noisy = choice(self.noisys[idx])
             source = self.center_crop(noisy.astype(np.float32) / 255)
 
-        target = self.center_crop(image.astype(np.float32) / 127.5 - 1.0, signed=True)
+        target = self.center_crop(image.astype(np.float32) / 127.5 - 1.0)
 
         self.current_step += 1
         if self.current_step >= self.manual_noise_reduce_start:
