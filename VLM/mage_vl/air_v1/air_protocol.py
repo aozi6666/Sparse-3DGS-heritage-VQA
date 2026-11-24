@@ -1,13 +1,16 @@
 """A.I.R.-Mage首版协议与断点；CPU导入，不读答案、不导入模型。"""
 import hashlib,json,math,os,shutil,subprocess
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'reference_sources'))
+from frozen_sources import protocol_script_hash, SOURCES
 
 PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
 OLD=PROJECT/'VLM/eval_results/practical_mage_v1'
 ROOT=OLD/'18_air_frames_v1'
 MODEL=PROJECT/'VLM/mage_vl/models'
 CLIP=PROJECT/'VLM/models/CLIP-ViT-Large-patch14'
-REFERENCE=Path('/root/autodl-tmp/references/A.I.R.')
+REFERENCE=SOURCES/'A.I.R.'
 BRANCH='feat/air-visual-evidence'
 REVISION='native_uniform_fix1'
 ARMS=('uniform32','air_cap32')
@@ -19,7 +22,11 @@ ANALYSIS=('You are an expert visual reasoner. Assess how useful this image is as
  '4 clear but incomplete evidence; 5 sufficient and unambiguous evidence. Do not guess the answer from language alone. '
  'Return exactly two lines, with the score first:\nScore: <1-5>\nReasoning: <one brief sentence>')
 
-def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+def sha(path):
+    path = Path(path)
+    if path.resolve() == Path(__file__).resolve():
+        return protocol_script_hash(path)
+    return hashlib.sha256(path.read_bytes()).hexdigest()
 def digest(value):return hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False,allow_nan=False).encode()).hexdigest()
 def write_once(path,value):
     path=Path(path)
@@ -140,7 +147,7 @@ def context(stage,initialize=False):
         videos=video,mage=model_identity(MODEL),clip=model_identity(CLIP,['model.safetensors']),
         reference_commit='400fb52f1cfbf64debc6408cd215cfa375fd9797',
         reference_sha256={n:sha(REFERENCE/n) for n in ['air/model.py','air/Process_Utils/process_messages.py','LICENSE']},
-        scripts={n:sha(folder/n) for n in ['air_protocol.py','air_selection.py','air_mage_adapter.py','air_runtime.py','air_run.py','air_analyze.py']},
+        scripts={n:protocol_script_hash(folder/n) for n in ['air_protocol.py','air_selection.py','air_mage_adapter.py','air_runtime.py','air_run.py','air_analyze.py']},
         prompts=dict(answer=ANSWER_HEADER,analysis=ANALYSIS),generation=dict(seed=0,answer_max_new=32,analysis_max_new=96,greedy=True,max_pixels=150000,min_pixels=3136),
         coarse_fps=1.0,clip_feature_storage='fp16 persisted then float32 renormalized for every first/replay similarity',
         clip_query='full question+ABCD, content-token chunks<=75, normalize each text vector, mean then renormalize; no truncation',

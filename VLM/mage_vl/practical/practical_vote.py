@@ -7,6 +7,9 @@ import fcntl
 import json
 import os
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'reference_sources'))
+from frozen_sources import protocol_script_hash, SOURCES
 import shutil
 import subprocess
 import sys
@@ -37,27 +40,8 @@ def disk_guard(root,min_free,budget):
 
 
 def source_audit():
-    specs=[('A.I.R.','https://github.com/UCF-AIR/A.I.R.',
-            ['air/model.py','air/Process_Utils/process_messages.py'], 'MIT'),
-           ('VCD','https://github.com/DAMO-NLP-SG/VCD',
-            ['vcd_utils/vcd_sample.py','vcd_utils/vcd_add_noise.py'],'Apache-2.0'),
-           ('VideoHV-Agent','https://github.com/Haorane/VideoHV-Agent',
-            ['VideoHV-Agent/video_hv/verifier.py','VideoHV-Agent/video_hv/pipelines/egoschema_openai/prompts.py'],
-            'README declares Apache-2.0; inspect repository license before copying code')]
-    result=[]
-    for name,url,files,license_note in specs:
-        folder=Path('/root/autodl-tmp/references')/name
-        for file in files:
-            if not (folder/file).is_file():
-                raise FileNotFoundError(folder/file)
-        try:
-            commit=subprocess.check_output(['git','-C',str(folder),'rev-parse','HEAD'],text=True).strip()
-        except subprocess.CalledProcessError:
-            commit=None
-        result.append(dict(name=name,url=url,path=str(folder),commit=commit,license_note=license_note,
-            file_sha256={f:sha(folder/f) for f in files},license_sha256=sha(folder/'LICENSE') if (folder/'LICENSE').exists() else None,
-            use='reference only; no third-party runtime code imported or copied'))
-    return result
+    from frozen_sources import verified_audit
+    return verified_audit()
 
 
 def model_identity():
@@ -145,7 +129,7 @@ def context(args):
         codec=dict(engine='hevc',target_canvas=32,patch=16,group_size=32,images_per_group=4,spatial_mask_mode='off',max_pixels=150000),
         seed=0,do_sample=False,max_new_tokens=32,score='raw first-position logits; score aggregation only when first token is parsed answer; vote uses original free-generation parser',
         permutations='four cyclic rotations; semantic majority; ties prefer identity',
-        scripts={n:sha(folder/n) for n in ['practical_common.py','practical_vote.py','practical_analyze.py']})
+        scripts={n:protocol_script_hash(folder/n) for n in ['practical_common.py','practical_vote.py','practical_analyze.py']})
     sig=signature(protocol)
     tag=f'px150000_f{args.frames}_frames4_codec{4 if args.codec_vote else 1}'
     store=args.root/'cache/ballots'/sig

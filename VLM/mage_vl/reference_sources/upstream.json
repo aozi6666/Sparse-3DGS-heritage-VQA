@@ -1,0 +1,32 @@
+{
+  "references/A.I.R.": {
+    "commit": "400fb52f1cfbf64debc6408cd215cfa375fd9797",
+    "url": "https://github.com/UCF-AIR/A.I.R..git",
+    "changed_modes": 0
+  },
+  "references/VCD": {
+    "commit": "d6568ff81b8fd306a49e630df44f2db5c2300191",
+    "url": "https://github.com/DAMO-NLP-SG/VCD.git",
+    "changed_modes": 0
+  },
+  "references/VideoHV-Agent": {
+    "commit": "ddc160bd05e2d64922ca717d1834500fa7d8f492",
+    "url": "https://github.com/Haorane/VideoHV-Agent.git",
+    "changed_modes": 13
+  },
+  "VRAG": {
+    "commit": "3cc25fb43f4eaca99b7cf78ee05ca7ef54540776",
+    "url": "https://github.com/Alibaba-NLP/VRAG.git",
+    "changed_modes": 2
+  },
+  "ego-evidence-routing": {
+    "commit": "ccc1ef18baa4ad19d4611d9b945eaa8bb9100692",
+    "url": "https://github.com/pavlov200912/ego-evidence-routing.git",
+    "changed_modes": 1
+  },
+  "OneVision-Encoder": {
+    "commit": "c2cd3e0d85c7c44d1b1b1bad5317ceb6ff6fe93a",
+    "url": "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder.git",
+    "changed_modes": 392
+  }
+}
