@@ -1,0 +1,98 @@
+{
+  "overall": {
+    "B": {
+      "n": 714,
+      "correct": 536,
+      "accuracy": 0.7507002801120448,
+      "gains_vs_A": 34,
+      "losses_vs_A": 19,
+      "kept_from_A_only": 75,
+      "recovered_from_visual_only": 24
+    },
+    "C": {
+      "n": 714,
+      "correct": 505,
+      "accuracy": 0.7072829131652661,
+      "gains_vs_A": 36,
+      "losses_vs_A": 52,
+      "kept_from_A_only": 55,
+      "recovered_from_visual_only": 25
+    },
+    "paired": {
+      "C_only": 15,
+      "B_only": 46
+    }
+  },
+  "short": {
+    "B": {
+      "n": 219,
+      "correct": 176,
+      "accuracy": 0.8036529680365296,
+      "gains_vs_A": 7,
+      "losses_vs_A": 7,
+      "kept_from_A_only": 14,
+      "recovered_from_visual_only": 5
+    },
+    "C": {
+      "n": 219,
+      "correct": 175,
+      "accuracy": 0.7990867579908676,
+      "gains_vs_A": 7,
+      "losses_vs_A": 8,
+      "kept_from_A_only": 14,
+      "recovered_from_visual_only": 5
+    },
+    "paired": {
+      "C_only": 1,
+      "B_only": 2
+    }
+  },
+  "medium": {
+    "B": {
+      "n": 258,
+      "correct": 194,
+      "accuracy": 0.751937984496124,
+      "gains_vs_A": 20,
+      "losses_vs_A": 9,
+      "kept_from_A_only": 25,
+      "recovered_from_visual_only": 14
+    },
+    "C": {
+      "n": 258,
+      "correct": 181,
+      "accuracy": 0.7015503875968992,
+      "gains_vs_A": 17,
+      "losses_vs_A": 19,
+      "kept_from_A_only": 19,
+      "recovered_from_visual_only": 12
+    },
+    "paired": {
+      "C_only": 5,
+      "B_only": 18
+    }
+  },
+  "long": {
+    "B": {
+      "n": 237,
+      "correct": 166,
+      "accuracy": 0.70042194092827,
+      "gains_vs_A": 7,
+      "losses_vs_A": 3,
+      "kept_from_A_only": 36,
+      "recovered_from_visual_only": 5
+    },
+    "C": {
+      "n": 237,
+      "correct": 149,
+      "accuracy": 0.6286919831223629,
+      "gains_vs_A": 12,
+      "losses_vs_A": 25,
+      "kept_from_A_only": 22,
+      "recovered_from_visual_only": 8
+    },
+    "paired": {
+      "C_only": 9,
+      "B_only": 26
+    }
+  }
+}
