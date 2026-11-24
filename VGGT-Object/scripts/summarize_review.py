@@ -46,7 +46,7 @@ summary=dict(protocol='7 independent train objects / 2 val / 1 test; six fixed s
 
 # Small, post-run provenance archive. No data, checkpoints, weights or caches.
 with tarfile.open(main/'postrun_source_snapshot.tar.gz','w:gz') as archive:
-    for folder,relative in [(P/'vggt_object','vggt_object'),(P/'configs','configs'),(P.parent/'3DGS/vggt/vggt','upstream_vggt')]:
+    for folder,relative in [(P/'vggt_object','vggt_object'),(P/'configs','configs'),(P.parent/'3DGS/reconstruction/third_party/vggt/vggt','upstream_vggt')]:
         for f in sorted(folder.rglob('*')):
             if f.is_file() and f.suffix in ('.py','.yaml') and '__pycache__' not in f.parts:
                 archive.add(f,arcname=str(Path(relative)/f.relative_to(folder)))

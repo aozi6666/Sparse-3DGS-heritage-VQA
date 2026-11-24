@@ -1,5 +1,5 @@
-base_checkpoint: 3DGS/vggt/models/model.pt
-vggt_source: 3DGS/vggt
+base_checkpoint: 3DGS/reconstruction/third_party/vggt/models/model.pt
+vggt_source: 3DGS/reconstruction/third_party/vggt
 manifest: VGGT-Object/data/manifests/objects_review_v2.json
 seed: 42
 protocol_version: 3

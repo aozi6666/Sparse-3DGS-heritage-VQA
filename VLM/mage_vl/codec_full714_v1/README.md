@@ -3,7 +3,7 @@
 先CPU构建缺失缓存并审计预算，再显存probe、val90数据审计，自动补齐714；不按val得分改规则。复用已验证dev180的540答案，不复用不同预算的6144冒烟记录。
 
 计划：[PLAN_codec_full714_fixed13312.md](../../../docs/PLAN_codec_full714_fixed13312.md)。
-结果：`VLM/eval_results/practical_mage_v1/23_codec_full714_v1/`。
+结果：`VLM/evaluation/results/practical_mage_v1/23_codec_full714_v1/`。
 19项合成CPU测试已通过；真实缺失105缓存和全量预算/输入核对待用户执行。固定预算超限即停止，不能静默跳题或截断。
 
 ```bash

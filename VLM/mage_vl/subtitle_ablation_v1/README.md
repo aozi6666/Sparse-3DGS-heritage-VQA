@@ -2,7 +2,7 @@
 
 固定两路：去编号/时间标记、去相邻补句；三路旧基线只读复用。完整计划：[PLAN_subtitle_ablation_full714.md](../../../docs/PLAN_subtitle_ablation_full714.md)。
 
-结果：`VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/`。18项CPU测试、3项原生处理器合成RGB核对通过；真实GPU实验未由助手启动。最多新增1101次生成；327个相同提示须运行时完整输入一致才复用。
+结果：`VLM/evaluation/results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/`。18项CPU测试、3项原生处理器合成RGB核对通过；真实GPU实验未由助手启动。最多新增1101次生成；327个相同提示须运行时完整输入一致才复用。
 
 ```bash
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate

@@ -6,7 +6,7 @@ cd "$PROJECT"
 [[ "$(git branch --show-current)" == vlm ]] || { echo '必须在 vlm；保留现有改动，不自动切换'; exit 1; }
 git status --short --branch
 df -h /root/autodl-tmp
-du -sh "$PROJECT/VLM/eval_results/practical_mage_v1" "$PROJECT/VLM/mage_vl/practical" /root/autodl-tmp/Mage_ViT/mage
+du -sh "$PROJECT/VLM/evaluation/results/practical_mage_v1" "$PROJECT/VLM/mage_vl/practical" /root/autodl-tmp/Mage_ViT/mage
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 export PATH="${R2V_FFMPEG_DIR:-/root/autodl-tmp/VLMEvalKit/ffmpeg_linux}:$PATH"
 export CV_PREINFER_BIN="${CV_PREINFER_BIN:-/root/autodl-tmp/Mage_ViT/mage/bin/cv-preinfer}"

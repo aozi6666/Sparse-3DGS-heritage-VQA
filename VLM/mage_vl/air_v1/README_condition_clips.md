@@ -26,7 +26,7 @@ bash VLM/mage_vl/air_v1/run_condition_clips.sh run &&
 bash VLM/mage_vl/air_v1/run_condition_clips.sh summarize
 ```
 
-新成果根目录：`VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_v1/`。主要文件：`candidate.json`冻结协议；`calls/`逐次原始输出和输入哈希；`windows/`自动片段；`units.jsonl`逐题断点；`logs/`终端日志；`results/summary.json`汇总；`results/review_packet.json`逐题审阅包。缓存和检查记录均在该根目录，不保存原始解码画面或复制权重。保留10GiB空闲及整个AIR根1GiB容量保护，不删除旧文件。
+新成果根目录：`VLM/evaluation/results/practical_mage_v1/18_air_frames_v1/condition_clips_v1/`。主要文件：`candidate.json`冻结协议；`calls/`逐次原始输出和输入哈希；`windows/`自动片段；`units.jsonl`逐题断点；`logs/`终端日志；`results/summary.json`汇总；`results/review_packet.json`逐题审阅包。缓存和检查记录均在该根目录，不保存原始解码画面或复制权重。保留10GiB空闲及整个AIR根1GiB容量保护，不删除旧文件。
 
 ## 隔离与解释边界
 

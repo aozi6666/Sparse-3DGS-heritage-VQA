@@ -4,7 +4,7 @@
 
 工作目录：`/root/autodl-tmp/Sparse-3DGS-heritage-VQA` · 分支 `Mage_LoRA`  
 计划：[`docs/PLAN_mage_query_IP_select.md`](../../docs/PLAN_mage_query_IP_select.md)  
-产物：[`VLM/eval_results/README.md`](../eval_results/README.md) · 总览：[`VLM/README.md`](../README.md)
+产物：[`VLM/evaluation/results/README.md`](../eval_results/README.md) · 总览：[`VLM/README.md`](../README.md)
 
 **阶段 1 主推：`queryip`（proxy）。** CLIP 语义选区已停。  
 **当前优先：OCRBench v1 Mage baseline（§11）+ 图像 QueryIP（§12）。**  
@@ -73,16 +73,16 @@ export PYTHONPATH="VLM/mage_vl/models:VLM/Explore-Then-Select:${PYTHONPATH:-}"
 export HF_HUB_OFFLINE=1
 export TRANSFORMERS_OFFLINE=1
 
-mkdir -p VLM/eval_results/queryip_samek/ab_fixed_n200 VLM/eval_results/logs
+mkdir -p VLM/evaluation/results/queryip_samek/ab_fixed_n200 VLM/evaluation/results/logs
 pkill -f 'eval_short60_samek.py.*n200_kr075_ab' 2>/dev/null || true
 nohup python VLM/Explore-Then-Select/mage_query_ip/eval_short60_samek.py \
   --n 200 --keep-ratio 0.75 --seed 0 \
   --modes queryip,queryip_dyn,queryip_sta \
-  --outdir VLM/eval_results/queryip_samek/ab_fixed_n200 \
+  --outdir VLM/evaluation/results/queryip_samek/ab_fixed_n200 \
   --tag n200_kr075_ab \
   --resume \
-  > VLM/eval_results/logs/ab_fixed_n200_nohup.out 2>&1 &
-tail -f VLM/eval_results/logs/ab_fixed_n200_nohup.out
+  > VLM/evaluation/results/logs/ab_fixed_n200_nohup.out 2>&1 &
+tail -f VLM/evaluation/results/logs/ab_fixed_n200_nohup.out
 ```
 
 产物：`eval_results/queryip_samek/ab_fixed_n200/`。判定见计划 §4.4.3。
@@ -145,7 +145,7 @@ Acc：queryip **63.5%** / edge **60.0%** / shuf **62.0%**（B−C=−2.0pp）→
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
 REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
-export LMUData="$REPO/VLM/datas/lmu"
+export LMUData="$REPO/VLM/datasets/lmu"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export PYTHONPATH="$REPO/VLM/VLMEvalKit:${PYTHONPATH:-}"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
@@ -153,12 +153,12 @@ export SKIP_ERR=1
 
 nohup python "$REPO/VLM/VLMEvalKit/run.py" \
   --model Mage-VL --data OCRBench_v2 \
-  --work-dir "$REPO/VLM/eval_results/baseline_mage_ocrbench_v2" \
+  --work-dir "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v2" \
   --reuse --reuse-aux all \
-  > "$REPO/VLM/eval_results/logs/mage_ocrbench_v2_quiet_resume.out" 2>&1 &
+  > "$REPO/VLM/evaluation/results/logs/mage_ocrbench_v2_quiet_resume.out" 2>&1 &
 
 # 只看进度条行
-tail -f "$REPO/VLM/eval_results/logs/mage_ocrbench_v2_quiet_resume.out" | grep --line-buffered 'Infer Mage-VL'
+tail -f "$REPO/VLM/evaluation/results/logs/mage_ocrbench_v2_quiet_resume.out" | grep --line-buffered 'Infer Mage-VL'
 ```
 
 必须日志出现 `reuse … 01_OCRBench_v2.pkl`。
@@ -174,30 +174,30 @@ CPU 冒烟：`python VLM/Explore-Then-Select/scripts/smoke_image_textseat.py`
 
 ## 11. OCRBench v1 · Mage-VL baseline（今天优先 · Agent 不代跑 Acc）
 
-TSV 已转好：`VLM/datas/lmu/OCRBench.tsv`（1000 行；源 parquet）。  
-重转：`python VLM/datas/ORCBench/convert_parquet_to_ocrbench_tsv.py`
+TSV 已转好：`VLM/datasets/lmu/OCRBench.tsv`（1000 行；源 parquet）。  
+重转：`python VLM/scripts/convert_parquet_to_ocrbench_tsv.py`
 
 ```bash
 cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 git checkout Mage_LoRA
 source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
 REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
-export LMUData="$REPO/VLM/datas/lmu"
+export LMUData="$REPO/VLM/datasets/lmu"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export PYTHONPATH="$REPO/VLM/VLMEvalKit:${PYTHONPATH:-}"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export SKIP_ERR=1
-mkdir -p "$REPO/VLM/eval_results/baseline_mage_ocrbench_v1" "$REPO/VLM/eval_results/logs"
+mkdir -p "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v1" "$REPO/VLM/evaluation/results/logs"
 nvidia-smi   # 确认无占卡
 
 # 无 --verbose
 nohup python "$REPO/VLM/VLMEvalKit/run.py" \
   --model Mage-VL \
   --data OCRBench \
-  --work-dir "$REPO/VLM/eval_results/baseline_mage_ocrbench_v1" \
-  > "$REPO/VLM/eval_results/logs/mage_ocrbench_v1_baseline_nohup.out" 2>&1 &
+  --work-dir "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v1" \
+  > "$REPO/VLM/evaluation/results/logs/mage_ocrbench_v1_baseline_nohup.out" 2>&1 &
 
-tail -f "$REPO/VLM/eval_results/logs/mage_ocrbench_v1_baseline_nohup.out" | grep --line-buffered 'Infer Mage-VL'
+tail -f "$REPO/VLM/evaluation/results/logs/mage_ocrbench_v1_baseline_nohup.out" | grep --line-buffered 'Infer Mage-VL'
 ```
 
 中断后续跑（加 `--reuse`）：
@@ -205,9 +205,9 @@ tail -f "$REPO/VLM/eval_results/logs/mage_ocrbench_v1_baseline_nohup.out" | grep
 ```bash
 nohup python "$REPO/VLM/VLMEvalKit/run.py" \
   --model Mage-VL --data OCRBench \
-  --work-dir "$REPO/VLM/eval_results/baseline_mage_ocrbench_v1" \
+  --work-dir "$REPO/VLM/evaluation/results/baseline_mage_ocrbench_v1" \
   --reuse --reuse-aux all \
-  > "$REPO/VLM/eval_results/logs/mage_ocrbench_v1_baseline_resume.out" 2>&1 &
+  > "$REPO/VLM/evaluation/results/logs/mage_ocrbench_v1_baseline_resume.out" 2>&1 &
 ```
 
 产物 / 口径：[`baseline_mage_ocrbench_v1/README.md`](../eval_results/baseline_mage_ocrbench_v1/README.md) · 看 Final Score Norm vs 官方 81.80。
@@ -221,24 +221,24 @@ cd /root/autodl-tmp/Sparse-3DGS-heritage-VQA
 source /root/autodl-tmp/VLMEvalKit/vlmeval_env/bin/activate
 REPO=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
 export PYTHONPATH="VLM/mage_vl/models:VLM/Explore-Then-Select:${PYTHONPATH:-}"
-export LMUData="$REPO/VLM/datas/lmu"
+export LMUData="$REPO/VLM/datasets/lmu"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-mkdir -p VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat VLM/eval_results/logs
+mkdir -p VLM/evaluation/results/queryip_samek/ocrbench_v1_image_textseat VLM/evaluation/results/logs
 
 python VLM/Explore-Then-Select/scripts/smoke_image_textseat.py
 
 # 当前环境无 easyocr → 先不带 --use-ocr（装好后再加）
 nohup python VLM/Explore-Then-Select/mage_query_ip/eval_ocrbench_v2_samek.py \
-  --tsv "$REPO/VLM/datas/lmu/OCRBench.tsv" \
+  --tsv "$REPO/VLM/datasets/lmu/OCRBench.tsv" \
   --n 0 --keep-ratio 0.75 --seed 0 --patch 32 \
   --modes full_image,random_tiles,queryip_image_textseat,queryip_image_textseat_shuf \
-  --outdir VLM/eval_results/queryip_samek/ocrbench_v1_image_textseat \
+  --outdir VLM/evaluation/results/queryip_samek/ocrbench_v1_image_textseat \
   --tag n1000_kr075_ocrbench_v1 \
   --resume \
-  > VLM/eval_results/logs/ocrbench_v1_image_textseat_nohup.out 2>&1 &
+  > VLM/evaluation/results/logs/ocrbench_v1_image_textseat_nohup.out 2>&1 &
 
-tail -f VLM/eval_results/logs/ocrbench_v1_image_textseat_nohup.out
+tail -f VLM/evaluation/results/logs/ocrbench_v1_image_textseat_nohup.out
 ```
 
 闸门：[`ocrbench_v1_image_textseat/README.md`](../eval_results/queryip_samek/ocrbench_v1_image_textseat/README.md)。  

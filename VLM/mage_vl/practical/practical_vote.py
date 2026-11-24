@@ -76,7 +76,7 @@ def initialize(args):
     write_once(manifest/'splits.json',splits)
     # 在 CPU 准备阶段剥离历史文件中的真值；GPU 运行只读无标签的审计摘录。
     from practical_common import read_lines
-    old=PROJECT/'VLM/eval_results/r2v_mage/px150000_f32/phase2_signals_v1/short'
+    old=PROJECT/'VLM/evaluation/results/r2v_mage/px150000_f32/phase2_signals_v1/short'
     previous=json.loads((old/'signal_config_lock.json').read_text())
     identity=model_identity()
     for name,value in previous['source_config']['model_sources_sha256'].items():

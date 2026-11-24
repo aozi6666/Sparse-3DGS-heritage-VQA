@@ -3,7 +3,7 @@ set -euo pipefail
 PROJECT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "$PROJECT/.." && pwd)"
 source "$REPO/.venv-ddgs-vggt/bin/activate"
-export PYTHONPATH="$PROJECT:$REPO/3DGS/vggt:${PYTHONPATH:-}"
+export PYTHONPATH="$PROJECT:$REPO/3DGS/reconstruction/third_party/vggt:${PYTHONPATH:-}"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 OPENCV_IO_ENABLE_OPENEXR=1
 export OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONUNBUFFERED=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

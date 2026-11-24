@@ -115,17 +115,13 @@ def omni(raw,out,depth_type,max_objects,max_views,max_side):
                 # Standard NeRF/Blender c2w: x right, y up, z backward -> OpenCV.
                 c2w=np.asarray(frame['transform_matrix'],dtype=float)
                 E=np.diag([1.,-1.,-1.,1.])@np.linalg.inv(c2w)
-                if 'depth_file_path' in frame:
-                    dp=root/frame['depth_file_path']
-                else:
-                    candidates=[p for p in (root/'depths').glob(rgbpath.stem+'*')
-                                if p.suffix.lower() in ('.npy','.exr') and not p.name.startswith('._')]
-                    if len(candidates)!=1:
-                        raise ValueError(f'Ambiguous/missing depth for {rgbpath}: {candidates}')
-                    dp=candidates[0]
+                from .omni_files import checked,exact_depth,valid_depth
+                dp=checked(root/frame['depth_file_path']) if 'depth_file_path' in frame else exact_depth(root,rgbpath.stem)
                 depth=read_float(dp)
                 if depth.shape!=(h,w):
                     raise ValueError('Omni RGB/depth must be registered at same resolution')
+                # Remove finite EXR background sentinel BEFORE any ray-to-Z conversion.
+                depth=np.where(valid_depth(depth),depth,0).astype(np.float32)
                 if semantics=='ray_distance':
                     yy,xx=np.mgrid[:h,:w]
                     rays=np.stack([xx,yy,np.ones_like(xx)],-1)@np.linalg.inv(K).T

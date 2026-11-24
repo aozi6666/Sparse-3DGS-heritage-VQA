@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'reference_sources'
 from frozen_sources import protocol_script_hash, SOURCES
 
 PROJECT=Path('/root/autodl-tmp/Sparse-3DGS-heritage-VQA')
-OLD=PROJECT/'VLM/eval_results/practical_mage_v1'
+OLD=PROJECT/'VLM/evaluation/results/practical_mage_v1'
 ROOT=OLD/'18_air_frames_v1'
 MODEL=PROJECT/'VLM/mage_vl/models'
 CLIP=PROJECT/'VLM/models/CLIP-ViT-Large-patch14'

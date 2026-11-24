@@ -13,7 +13,7 @@
 
 ## 存放与省盘
 
-以下路径均在`VLM/eval_results/practical_mage_v1/`下：
+以下路径均在`VLM/evaluation/results/practical_mage_v1/`下：
 
 - `07_archive/subtitles_dev60_v1.json`：已有字幕dev60汇总与逐题预测快照、开发阶段文件SHA256；原始文件保留。
 - `10_subtitle_holdout/candidate_val_v1.json`：在验证推理前锁定唯一候选、源码、原开发来源、输入划分、字幕来源及生成设置。只是验证候选登记，不是看过验证结果后的测试冻结。

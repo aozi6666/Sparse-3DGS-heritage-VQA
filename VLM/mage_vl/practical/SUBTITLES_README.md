@@ -45,7 +45,7 @@ bash "$runner" summarize dev30
 
 全部新增数据在：
 
-`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/eval_results/practical_mage_v1/`
+`/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VLM/evaluation/results/practical_mage_v1/`
 
 - `09_subtitles/srt_manifest.json`：62个视频（smoke2+dev60 60）的源路径、可用状态、大小、SHA256和字幕段数量。
 - `09_subtitles/<smoke|dev30|dev60>/f32_px150000_aligned_sub_v1/`：`run_manifest.json`、`predictions.json`、`summary.json`。

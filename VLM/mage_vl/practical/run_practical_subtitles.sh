@@ -2,13 +2,13 @@
 # 一个阶段一个命令；不自动进入dev60/验证/测试/全量。失败即停，旧记录不清理。
 set -euo pipefail
 PROJECT=/root/autodl-tmp/Sparse-3DGS-heritage-VQA
-ROOT="$PROJECT/VLM/eval_results/practical_mage_v1"
+ROOT="$PROJECT/VLM/evaluation/results/practical_mage_v1"
 DIR="$PROJECT/VLM/mage_vl/practical"
 cd "$PROJECT"
 [[ "$(git branch --show-current)" == vlm ]] || { echo '必须在vlm；不处理现有改动'; exit 1; }
 git status --short --branch
 df -h /root/autodl-tmp
-du -sh "$ROOT" "$DIR" "$PROJECT/VLM/mage_vl/data/VideoMME/subtitle" /root/autodl-tmp/Mage_ViT/mage
+du -sh "$ROOT" "$DIR" "$PROJECT/VLM/datasets/VideoMME/subtitle" /root/autodl-tmp/Mage_ViT/mage
 source /root/autodl-tmp/Mage_ViT/mage/bin/activate
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 TOKENIZERS_PARALLELISM=false
 ACTION="${1:-preflight}"
