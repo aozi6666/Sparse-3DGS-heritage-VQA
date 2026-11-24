@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+data/raw/**
+data/omni3d/
+data/VGGT_finetune_v1/
+data/processed/**
+data/manifests/*.json
+data/splits/*.json
+experiments/
+results/
+reports/
+logs/
+!data/raw/.gitkeep

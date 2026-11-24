@@ -1,0 +1,45 @@
+{
+  "short": {
+    "n": 219,
+    "over": 0,
+    "changed": 0,
+    "with_nonlocal": 0,
+    "empty_C": {
+      "missing": 51,
+      "no_hit": 3
+    },
+    "median_tokens": {
+      "C": 182,
+      "time": 182,
+      "hybrid": 182
+    }
+  },
+  "medium": {
+    "n": 258,
+    "over": 15,
+    "changed": 11,
+    "with_nonlocal": 11,
+    "empty_C": {
+      "missing": 45
+    },
+    "median_tokens": {
+      "C": 1027.0,
+      "time": 1027.0,
+      "hybrid": 1027.0
+    }
+  },
+  "long": {
+    "n": 237,
+    "over": 194,
+    "changed": 171,
+    "with_nonlocal": 171,
+    "empty_C": {
+      "missing": 3
+    },
+    "median_tokens": {
+      "C": 3004,
+      "time": 2034,
+      "hybrid": 2034
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cpu_preparation_and_scene_loader_passed": true,
+  "train_counts": [
+    4,
+    6,
+    9
+  ],
+  "shared_test_count": 7,
+  "geometry_counts": [
+    4435,
+    6416,
+    9447
+  ],
+  "GPU_inference_started": false,
+  "training_started": false,
+  "sha256": {
+    "3DGS/GaussianObject/tools/run_sparse_469.py": "310960a7cba62458b7ab559f156fba305dee4efb150c16e052d4624a065facdd",
+    "3DGS/GaussianObject/tools/sparse_scene_init.py": "ef55b54377f2ef4abd861ff1e7e4b3c2be8dd04a68463104995db2f1335af054",
+    "3DGS/GaussianObject/sh/full_scene/run_trex_sparse469.sh": "596c4794b53b9ac2549bde9a43c8f79d48c120f356aed2fc080ef82bdc51af7d"
+  }
+}

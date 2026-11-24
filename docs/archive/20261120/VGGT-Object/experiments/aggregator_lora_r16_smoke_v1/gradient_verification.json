@@ -1,0 +1,7 @@
+{
+  "lora_updated": true,
+  "dpt_updated": true,
+  "frozen_versions_unchanged": true,
+  "frozen_gradients_absent": true,
+  "frozen_check": "All frozen parameter version counters + optimizer exclusion; CPU tests additionally compare exact tensors."
+}

@@ -1,0 +1,12 @@
+diff --git a/vlmeval/vlm/__init__.py b/vlmeval/vlm/__init__.py
+index c448352..c7c6c1f 100644
+--- a/vlmeval/vlm/__init__.py
++++ b/vlmeval/vlm/__init__.py
+@@ -39,6 +39,7 @@ from .llama4 import llama4
+ from .llama_vision import llama_vision
+ from .llava import (LLaVA, LLaVA_Next, LLaVA_Next2, LLaVA_OneVision, LLaVA_OneVision_1_5,
+                     LLaVA_OneVision_HF, LLaVA_XTuner)
++from .mage_vl import MageVLChat
+ from .logics import Logics_Thinking
+ from .long_vita import LongVITA
+ from .mantis import Mantis

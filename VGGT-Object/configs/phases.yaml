@@ -1,0 +1,83 @@
+smoke:
+  resolution: 336
+  views: 2
+  steps: 20
+  accumulation: 1
+  validate_every: 10
+  save_every: 10
+  validation_cases: 2
+overfit:
+  resolution: 392
+  views: 4
+  steps: 100
+  accumulation: 1
+  overfit_objects: 1
+  fixed_views: true
+  validate_every: 25
+  save_every: 25
+pilot:
+  resolution: 392
+  views: 4
+  steps: 400
+  accumulation: 2
+  validate_every: 50
+  save_every: 50
+  rgb_augmentation: true
+stage_a:
+  resolution: 518
+  views: 4
+  steps: 800
+  accumulation: 2
+  validate_every: 50
+  save_every: 50
+  mix: {smithsonian: 1.0}
+  rgb_augmentation: true
+stage_b:
+  resolution: 518
+  views: 4
+  steps: 200
+  accumulation: 2
+  validate_every: 50
+  save_every: 50
+  mix: {smithsonian: 0.8, co3dv2: 0.2}
+  rgb_augmentation: true
+extended:
+  resolution: 518
+  views: 6
+  steps: 2000
+review:
+  resolution: 392
+  views: 4
+  steps: 120
+  accumulation: 2
+  validate_every: 40
+  save_every: 40
+  validation_cases: 6
+  early_stopping_patience: 4
+agg_smoke:
+  resolution: 392
+  views: 4
+  steps: 20
+  accumulation: 2
+  validate_every: 20
+  save_every: 20
+  rgb_augmentation: true
+  component_gradient_diagnostics: false
+agg_smoke_2v:
+  resolution: 392
+  views: 2
+  steps: 20
+  accumulation: 2
+  validate_every: 20
+  save_every: 20
+  rgb_augmentation: true
+  component_gradient_diagnostics: false
+agg_smoke_336:
+  resolution: 336
+  views: 2
+  steps: 20
+  accumulation: 2
+  validate_every: 20
+  save_every: 20
+  rgb_augmentation: true
+  component_gradient_diagnostics: false

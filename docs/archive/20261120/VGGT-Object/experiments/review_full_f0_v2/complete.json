@@ -1,0 +1,11 @@
+{
+  "steps": 120,
+  "planned_steps": 120,
+  "stopped_early": false,
+  "baseline_validation": 0.022123515664293457,
+  "best_validation": 0.0169777355461486,
+  "validation_scope": "val",
+  "duration_seconds": 86.96028942242265,
+  "adapter_roundtrip": true,
+  "peak_gpu_GiB": 6.793713092803955
+}

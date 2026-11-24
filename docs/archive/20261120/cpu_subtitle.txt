@@ -1,0 +1,16 @@
+.............................................................................DeepSeek 独立答题+复核 smoke:   0%|          | 0/1 [00:00<?, ?题/s]DeepSeek 独立答题+复核 smoke: 100%|██████████| 1/1 [00:00<00:00, 203.45题/s, api=B, index=1, override=1]DeepSeek 独立答题+复核 smoke: 100%|██████████| 1/1 [00:00<00:00, 195.96题/s, api=B, index=1, override=1]
+DeepSeek 独立答题+复核 smoke: 100%|██████████| 1/1 [00:00<?, ?题/s]DeepSeek 独立答题+复核 smoke: 100%|██████████| 1/1 [00:00<?, ?题/s]
+....................................................................usage: subtitle_holdout.py [-h] [--stage {val}] [--min-free MIN_FREE]
+                           [--budget BUDGET]
+                           {init,preflight,run}
+subtitle_holdout.py: error: argument --stage: invalid choice: 'test' (choose from 'val')
+usage: subtitle_holdout.py [-h] [--stage {val}] [--min-free MIN_FREE]
+                           [--budget BUDGET]
+                           {init,preflight,run}
+subtitle_holdout.py: error: argument --stage: invalid choice: 'full' (choose from 'val')
+..................
+----------------------------------------------------------------------
+Ran 163 tests in 2.163s
+
+OK
+全部已完成，跳过模型加载；请summarize。

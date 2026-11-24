@@ -1,0 +1,29 @@
+[
+  {
+    "branch": "DropGaussian",
+    "before": "944546df6d00a6bf43b4f0aca027f8f568774e30",
+    "after": "72e2c8e1d07960754a403d8eed1ef449b016001f",
+    "core_source_blobs_unchanged": true,
+    "removed_assets": [
+      "GaussianObject/pretrained/clip-vit-large-patch14/model.safetensors"
+    ]
+  },
+  {
+    "branch": "finish_vggt",
+    "before": "49d662827e95609992e985b4c4f7ddcc85d8835f",
+    "after": "499f0c96838733cfdcb2460c40bfc9a49ec92636",
+    "core_source_blobs_unchanged": true,
+    "removed_assets": [
+      "GaussianObject/pretrained/clip-vit-large-patch14/model.safetensors"
+    ]
+  },
+  {
+    "branch": "vision",
+    "before": "6b3166cf1b0504396988c5863b4f6ac6d96f67d2",
+    "after": "f613213c95e25e50c42cd09cd59c83fda99d9be9",
+    "core_source_blobs_unchanged": true,
+    "removed_assets": [
+      "GaussianObject/pretrained/clip-vit-large-patch14/model.safetensors"
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+{
+  "environment": {
+    "python": "3.10.21 (main, Sep 24 2026, 17:54:40) [Clang 22.1.3 ]",
+    "torch": "2.5.1+cu124",
+    "cuda_build": "12.4",
+    "branch": "feat/sparse-vcar-seg",
+    "repository_commit": "38d2e87aa0232de58c18fa315a877e258c16f8ad",
+    "vggt_source": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/3DGS/vggt",
+    "vggt_code_sha256": "dbc92d6214882161d9042b1bc60cc932a9fd6bb609fc913d14906328f7833607"
+  },
+  "parameters": {
+    "total": 1158531316,
+    "trainable": 33244386,
+    "lora": 589824,
+    "depth_head": 32654562,
+    "aggregator_trainable": 589824,
+    "injected_modules": [],
+    "frozen": 1125286930,
+    "trainable_ratio": 0.02869528474619153,
+    "aggregator_lora_targets": [
+      {
+        "name": "aggregator.global_blocks.18.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.18.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "aggregator.global_blocks.19.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.19.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "aggregator.global_blocks.20.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.20.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "aggregator.global_blocks.21.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.21.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "aggregator.global_blocks.22.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.22.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "aggregator.global_blocks.23.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "aggregator.global_blocks.23.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      }
+    ],
+    "aggregator_lora_parameters": 589824
+  },
+  "free_GiB": 42.66044998168945,
+  "datasets_present": {
+    "omniobject3d": 0,
+    "co3dv2": 0,
+    "smithsonian": 0
+  },
+  "configured_data_sources": {
+    "omni3d": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/omni3d",
+    "bundle": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/VGGT_finetune_v1",
+    "manifest": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/manifests/objects.json"
+  },
+  "note": "CPU/meta check only; raw counts above do not include separately configured existing upload directories"
+}
+test_actual_vggt_rank16_and_rank8_structure (test_aggregator_lora.AggregatorTests) ... ok
+test_checkpoint_and_optimizer_restore (test_aggregator_lora.AggregatorTests) ... ok
+test_checkpointing_preserves_forward_and_gradients (test_aggregator_lora.AggregatorTests) ... ok
+test_real_block_backward_through_frozen_frames_and_checkpoint (test_aggregator_lora.AggregatorTests) ... ok
+test_zero_initialization_and_reject_wrong_target (test_aggregator_lora.AggregatorTests) ... ok
+test_empty_upload_blocks_training_manifest (test_bundle.BundleTests) ... ok
+test_remap_legacy_mac_root (test_bundle.BundleTests) ... ok
+test_source_split_overlap_rejected (test_bundle.BundleTests) ... ok
+test_upload_snapshot_detects_empty_files (test_bundle.BundleTests) ... {
+  "captured_unix": 1795140803.9181874,
+  "sources": {
+    "omni3d": {
+      "path": "/tmp/tmp4cnckdyt/omni",
+      "exists": true,
+      "files": 2,
+      "zero_bytes": 1,
+      "bytes": 2,
+      "latest_change_age_seconds": 0,
+      "recent_files": [
+        {
+          "file": "placeholder.jpg",
+          "bytes": 0
+        },
+        {
+          "file": "ready.json",
+          "bytes": 2
+        }
+      ],
+      "note": "File count/size snapshot only; not a source checksum or upload completion percentage."
+    },
+    "VGGT_finetune_v1": {
+      "path": "/tmp/tmp4cnckdyt/missing",
+      "exists": false,
+      "files": 0,
+      "zero_bytes": 0,
+      "bytes": 0,
+      "latest_change_age_seconds": null,
+      "recent_files": [],
+      "note": "File count/size snapshot only; not a source checksum or upload completion percentage."
+    }
+  }
+}
+ok
+test_zero_copy_index_and_preserved_split (test_bundle.BundleTests) ... {
+  "index": "/tmp/tmpcbiyoxn6/data/processed/bundle_index_26fba17842",
+  "manifest": "/tmp/tmpcbiyoxn6/data/manifests/objects.json",
+  "eligible_objects": 3,
+  "split_counts": {
+    "train": 1,
+    "val": 1,
+    "test": 1
+  },
+  "copied_media_bytes": 0,
+  "note": "Original files and source manifests unchanged. CO3D geometric depth is estimated, not sensor GT."
+}
+ok
+test_co3d_offline_converter_and_review_guard (test_cpu.DataTests) ... {'train': 1, 'val': 0, 'test': 0}
+ok
+test_float16_png (test_cpu.DataTests) ... ok
+test_metrics (test_cpu.DataTests) ... ok
+test_omni_offline_converter (test_cpu.DataTests) ... ok
+test_prepared_reader_and_split_reproducibility (test_cpu.DataTests) ... {'train': 1, 'val': 0, 'test': 0}
+{'train': 1, 'val': 0, 'test': 0}
+Active datasets: {'omniobject3d': 1}
+Active datasets: {'omniobject3d': 1}
+ok
+test_resize_updates_K_and_padding_mask (test_cpu.DataTests) ... ok
+test_bad_prediction_cannot_hide_from_multiview (test_cpu.GeometryTests) ... ok
+test_camera_scale_without_gt_depth (test_cpu.GeometryTests) ... ok
+test_co3d_ndc_conversion (test_cpu.GeometryTests) ... ok
+test_colmap_export_api (test_cpu.GeometryTests) ... ok
+test_identity_backprojection_and_warp (test_cpu.GeometryTests) ... ok
+test_loss_finite_and_backward (test_cpu.GeometryTests) ... ok
+test_masked_gradient (test_cpu.GeometryTests) ... ok
+test_multiview_grad_and_occlusion (test_cpu.GeometryTests) ... ok
+test_nested_469_split_has_shared_heldout_views (test_cpu.GeometryTests) ... ok
+test_shared_normalization (test_cpu.GeometryTests) ... ok
+test_validation_subsets_fixed_and_distinct (test_cpu.GeometryTests) ... ok
+test_checkpoint_roundtrip_and_resume (test_cpu.LoRATests) ... ok
+test_depth_full_keeps_aggregator_frozen (test_cpu.LoRATests) ... ok
+test_full_head_checkpoint (test_cpu.LoRATests) ... ok
+test_only_depth_adapters_train (test_cpu.LoRATests) ... ok
+test_real_checkpoint_cpu_load_without_forward (test_cpu.LoRATests) ... ok
+test_real_dpt_forward_and_backward (test_cpu.LoRATests) ... ok
+test_zero_init_and_gradients_and_merge (test_cpu.LoRATests) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 5.834s
+
+OK

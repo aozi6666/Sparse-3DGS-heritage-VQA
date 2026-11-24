@@ -1,0 +1,34 @@
+stage,role,duration,N,videos,method,correct,accuracy_pct
+short219,historical development coverage,overall,219,73,no_sub,171,78.08219178082192
+short219,historical development coverage,overall,219,73,aligned,173,78.99543378995433
+short219,historical development coverage,overall,219,73,continuous,175,79.90867579908675
+short219,historical development coverage,short,219,73,no_sub,171,78.08219178082192
+short219,historical development coverage,short,219,73,aligned,173,78.99543378995433
+short219,historical development coverage,short,219,73,continuous,175,79.90867579908675
+dev180,development,overall,180,60,no_sub,110,61.111111111111114
+dev180,development,overall,180,60,aligned,117,65.0
+dev180,development,overall,180,60,continuous,119,66.11111111111111
+dev180,development,long,84,28,no_sub,50,59.523809523809526
+dev180,development,long,84,28,aligned,50,59.523809523809526
+dev180,development,long,84,28,continuous,50,59.523809523809526
+dev180,development,medium,96,32,no_sub,60,62.5
+dev180,development,medium,96,32,aligned,67,69.79166666666667
+dev180,development,medium,96,32,continuous,69,71.875
+val90,previously diagnosed supplementary validation,overall,90,30,no_sub,53,58.888888888888886
+val90,previously diagnosed supplementary validation,overall,90,30,aligned,52,57.77777777777778
+val90,previously diagnosed supplementary validation,overall,90,30,continuous,54,60.0
+val90,previously diagnosed supplementary validation,long,42,14,no_sub,22,52.38095238095238
+val90,previously diagnosed supplementary validation,long,42,14,aligned,22,52.38095238095238
+val90,previously diagnosed supplementary validation,long,42,14,continuous,22,52.38095238095238
+val90,previously diagnosed supplementary validation,medium,48,16,no_sub,31,64.58333333333333
+val90,previously diagnosed supplementary validation,medium,48,16,aligned,30,62.5
+val90,previously diagnosed supplementary validation,medium,48,16,continuous,32,66.66666666666667
+test225,frozen final evaluation with historical-use disclosure,overall,225,75,no_sub,140,62.22222222222222
+test225,frozen final evaluation with historical-use disclosure,overall,225,75,aligned,154,68.44444444444444
+test225,frozen final evaluation with historical-use disclosure,overall,225,75,continuous,163,72.44444444444444
+test225,frozen final evaluation with historical-use disclosure,long,111,37,no_sub,57,51.351351351351354
+test225,frozen final evaluation with historical-use disclosure,long,111,37,aligned,68,61.26126126126126
+test225,frozen final evaluation with historical-use disclosure,long,111,37,continuous,72,64.86486486486487
+test225,frozen final evaluation with historical-use disclosure,medium,114,38,no_sub,83,72.80701754385964
+test225,frozen final evaluation with historical-use disclosure,medium,114,38,aligned,86,75.43859649122807
+test225,frozen final evaluation with historical-use disclosure,medium,114,38,continuous,91,79.82456140350877

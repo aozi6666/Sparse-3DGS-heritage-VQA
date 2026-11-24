@@ -1,0 +1,146 @@
+{
+  "overall": {
+    "n": 714,
+    "correct": {
+      "C": 505,
+      "time": 497,
+      "hybrid": 504
+    },
+    "old_subtitle_only": {
+      "n": 89,
+      "correct": {
+        "C": 55,
+        "time": 48,
+        "hybrid": 53
+      }
+    },
+    "visual_only": {
+      "n": 53,
+      "correct": {
+        "C": 25,
+        "time": 26,
+        "hybrid": 23
+      }
+    },
+    "time_vs_C": {
+      "gains": 7,
+      "losses": 15
+    },
+    "hybrid_vs_C": {
+      "gains": 17,
+      "losses": 18
+    },
+    "hybrid_vs_time": {
+      "gains": 17,
+      "losses": 10
+    }
+  },
+  "short": {
+    "n": 219,
+    "correct": {
+      "C": 175,
+      "time": 175,
+      "hybrid": 175
+    },
+    "old_subtitle_only": {
+      "n": 19,
+      "correct": {
+        "C": 14,
+        "time": 14,
+        "hybrid": 14
+      }
+    },
+    "visual_only": {
+      "n": 10,
+      "correct": {
+        "C": 5,
+        "time": 5,
+        "hybrid": 5
+      }
+    },
+    "time_vs_C": {
+      "gains": 0,
+      "losses": 0
+    },
+    "hybrid_vs_C": {
+      "gains": 0,
+      "losses": 0
+    },
+    "hybrid_vs_time": {
+      "gains": 0,
+      "losses": 0
+    }
+  },
+  "medium": {
+    "n": 258,
+    "correct": {
+      "C": 181,
+      "time": 180,
+      "hybrid": 179
+    },
+    "old_subtitle_only": {
+      "n": 31,
+      "correct": {
+        "C": 19,
+        "time": 18,
+        "hybrid": 18
+      }
+    },
+    "visual_only": {
+      "n": 24,
+      "correct": {
+        "C": 12,
+        "time": 12,
+        "hybrid": 11
+      }
+    },
+    "time_vs_C": {
+      "gains": 0,
+      "losses": 1
+    },
+    "hybrid_vs_C": {
+      "gains": 0,
+      "losses": 2
+    },
+    "hybrid_vs_time": {
+      "gains": 0,
+      "losses": 1
+    }
+  },
+  "long": {
+    "n": 237,
+    "correct": {
+      "C": 149,
+      "time": 142,
+      "hybrid": 150
+    },
+    "old_subtitle_only": {
+      "n": 39,
+      "correct": {
+        "C": 22,
+        "time": 16,
+        "hybrid": 21
+      }
+    },
+    "visual_only": {
+      "n": 19,
+      "correct": {
+        "C": 8,
+        "time": 9,
+        "hybrid": 7
+      }
+    },
+    "time_vs_C": {
+      "gains": 7,
+      "losses": 14
+    },
+    "hybrid_vs_C": {
+      "gains": 17,
+      "losses": 16
+    },
+    "hybrid_vs_time": {
+      "gains": 17,
+      "losses": 9
+    }
+  }
+}
