@@ -1,0 +1,34 @@
+Sparse-3DGS-heritage-VQA/
+================================================================
+
+README.md                     # thesis summary + work A/B
+STRUCTURE.txt
+.gitignore
+.gitmodules                   # 3DGS/DropGaussian_release
+envs/                         # uv freezes (A + B + legacy)
+docs/
+  thesis.md                   # 毕设全文
+  reproduction/README.md      # GO 复现日记
+  system/README.md            # 三路融合边界
+
+# Work A — reconstruction (nested under 3DGS/)
+3DGS/
+  GaussianObject/
+  vggt/
+  DropGaussian_release/       # submodule (reference)
+  eval_results/               # PSNR/SSIM/LPIPS CSV (keep; like VLM/eval_results)
+
+# Work B — VQA / eval
+VLM/
+  README.md
+  mage_vl/                    # vendored (no data/models)
+  VLMEvalKit/                 # vendored + local edits (no venv/ffmpeg/pkl)
+  patches/vlmevalkit/         # diffs vs upstream (docs)
+  eval_results/               # Video-MME scores (keep)
+  scripts/
+
+Local only (gitignored)
+-----------------------
+.venv*  ddgs/  _archive/      # venv stays at repo root (not under 3DGS/)
+**/data/  **/output/  weights  VLM/mage_vl/models  VLM/VLMEvalKit/vlmeval_env
+Outside tree (not in this repo): ../Mage/mage_flow  ../Mage_ViT/mage_flow

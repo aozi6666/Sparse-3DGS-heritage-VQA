@@ -1,0 +1,21 @@
+{
+  "3DGS/GaussianObject/arguments/__init__.py": "c2e7e1977ec5ccc2b2579a4d842bd25c1e858f07b00a3d1ed3156d9c61ee24a7",
+  "3DGS/GaussianObject/scene/dataset_readers.py": "ec6bdb9a010fdaa87092b4637cee003274407029e6ad7e0b3d2f0e2ebcd20439",
+  "3DGS/GaussianObject/utils/camera_utils.py": "8254d73f344b6c67e476b319f2d17b97217a9b7efd0cf2e18eacaff098107b7b",
+  "3DGS/GaussianObject/scene/cameras.py": "c5eb5a357a93103e4a8eaa03012a5f0874959615f75049b973bc9a44d41ddb90",
+  "3DGS/GaussianObject/train_gs.py": "8e36c65a55009e24bf6e907181c45924e1ae92ce2243397a294c935e33fe3a88",
+  "3DGS/GaussianObject/render.py": "f03e4f830669834c31f41383472e43ec5ccb5721f0eaedd34f1a94da139804fa",
+  "3DGS/GaussianObject/leave_one_out_stage1.py": "d0fa29c1f2efe897d64533ec36b828abee88c8d1c461fb5b0bebaa11c17fbc2d",
+  "3DGS/GaussianObject/leave_one_out_stage2.py": "6a68936642c5a43cdb2ad08915c2c633c47bdc16139b66fcd095a6b3114940e7",
+  "3DGS/GaussianObject/train_lora.py": "a9d6759d984b01b42cd1c5c250809eebd3ca7d017344388ed6967af4dbc68fc6",
+  "3DGS/GaussianObject/dataset_lora.py": "573d85520275820108876084cdfcd5097fe0f5d6c7a9413bff9879b7ebc670ae",
+  "3DGS/GaussianObject/threestudio/data/loo.py": "81763a88d68d8834b9dae252dc4cb9c0e086c1d0a15f016fb9e60700ede0f1c3",
+  "3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py": "39ac40c99ab719f49c23ac4bc8f523fd117ac025aa2e1f7b7d47333f80aa5d90",
+  "3DGS/GaussianObject/utils/full_scene.py": "f394c16112bcff93498149c6b903d45d2f900794dee538f9ac9092383823ae5c",
+  "3DGS/GaussianObject/tools/prepare_full_scene.py": "03a08948e2d238b871f88bfd1bcd5a7e78fa74760834acf9a54e89b01245c98a",
+  "3DGS/GaussianObject/tools/full_scene_depth_init.py": "f03974b39dd92d0f4a3de3c06e68adb9f3f54212097c2459f1417467f93b76b1",
+  "3DGS/GaussianObject/tools/run_full_scene.py": "92b8717b165a0b080fe1c9adf223086ac158b7b5b40203b5a8c321636dd7aad1",
+  "3DGS/GaussianObject/sh/full_scene/run_trex.sh": "52c97d57a6e2d29173d1645a6b89db70e30d21391194488fc444ca6b09cf200a",
+  "3DGS/GaussianObject/tests/test_full_scene_cpu.py": "36f3c8a4544ff65d7ab674cb3a3adfa0157a5e77bbe71acc459e33154b3dc105",
+  "docs/RUN_trex_fullscene_20261107.md": "30678043fad0750126f9ba2fe65096ad714db2ce36a38838a6b53dc21c3db41e"
+}

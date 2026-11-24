@@ -1,0 +1,81 @@
+{
+  "base_checkpoint": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/3DGS/vggt/models/model.pt",
+  "vggt_source": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/3DGS/vggt",
+  "manifest": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/manifests/objects_review_v2.json",
+  "seed": 42,
+  "protocol_version": 3,
+  "experiment": "A16",
+  "phase": "agg_smoke",
+  "rank": 0,
+  "alpha": 16,
+  "lora_dropout": 0.05,
+  "adapter_kind": "depth_full",
+  "depth_targets": [
+    "projects.",
+    "scratch."
+  ],
+  "lora_exclude": [
+    "scratch.output_conv2.2"
+  ],
+  "resolution": 392,
+  "views": 4,
+  "steps": 20,
+  "accumulation": 2,
+  "batch_scenes": 1,
+  "precision": "bf16",
+  "depth_lr": 2e-06,
+  "lora_weight_decay": 0.01,
+  "min_lr": 1e-06,
+  "warmup_ratio": 0.05,
+  "clip_norm": 1.0,
+  "grad_weight": 0.1,
+  "confidence_weight": 0.05,
+  "confidence_alpha": 0.2,
+  "mv_weight": 0.0,
+  "mv_warmup": 50,
+  "mv_ramp": 100,
+  "mv_occlusion_relative": 0.03,
+  "mv_stride": 4,
+  "validate_every": 20,
+  "validation_objects": 20,
+  "validation_cases": 6,
+  "early_stopping_patience": 4,
+  "early_stopping_min_delta": 0.001,
+  "validation_key": "scene_scale_aligned",
+  "canonical_regression_limit": 1.25,
+  "gradient_log": true,
+  "view_sampling": "overlap_mix",
+  "gradient_diagnostics_every": 50,
+  "save_every": 20,
+  "mix": {
+    "smithsonian": 1.0
+  },
+  "strict_mix": true,
+  "co3d_supervision_weight": 0.1,
+  "overfit_objects": 0,
+  "fixed_views": false,
+  "rgb_augmentation": true,
+  "min_depth": 1e-06,
+  "aggregator_lr": 5e-05,
+  "aggregator_lora": {
+    "enabled": true,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_blocks": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "target_modules": [
+      "attn.qkv",
+      "attn.proj"
+    ],
+    "gradient_checkpointing": true
+  },
+  "component_gradient_diagnostics": false,
+  "initialization_adapter": null
+}

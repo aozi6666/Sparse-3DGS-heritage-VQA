@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>长视频证据复核</title><style>body{max-width:1100px;margin:2em auto;font:16px system-ui;color:#18232a}section{border-top:1px solid #aaa;padding-bottom:1.5em}section div{display:flex;gap:1%}img{width:49%;object-fit:contain;background:#eee}input,button,select{padding:.45em;margin:.3em}li{list-style:none}</style>
+<h1>长视频证据复核</h1><p>左侧是被替换的 Mage 画布，右侧是该位置实际输入的 AKS 完整帧。仅依据两侧展示的证据分别选择可支持的答案，无法区分时选“证据不足”。其余画布未展示。先填写，再展开核对。下载复核记录可永久保存或换设备接续。</p>
+<button id="save">下载复核记录 JSON</button><label>恢复记录 <input id="load" type="file" accept=".json"></label>
+<!-- CARDS -->
+<script>
+const key='mage-audit-cd294b5855bcae9c-v1';
+let answers={};try{answers=JSON.parse(localStorage.getItem(key)||'{}')}catch{}
+const cases=[...document.querySelectorAll('section')];
+function persist(){try{localStorage.setItem(key,JSON.stringify(answers))}catch{}}
+function render(){for(const s of cases){const a=answers[s.dataset.id]||{};const [l,r]=s.querySelectorAll('select');for(const e of [l,r])if(!e.options.length)for(const t of ['','A','B','C','D','证据不足'])e.add(new Option(t||'请选择',t));
+l.value=a.left||'';r.value=a.right||'';const note=s.querySelector('input');note.value=a.note||'';const revealed=Boolean(a.revealed);s.querySelector('.key').hidden=!revealed;l.disabled=r.disabled=note.disabled=revealed;
+function update(show=false){answers[s.dataset.id]={left:l.value,right:r.value,note:note.value,revealed:show};persist()}
+l.onchange=r.onchange=note.oninput=()=>update();
+s.querySelector('button').onclick=()=>{if(!l.value||!r.value){alert('请先分别判断两侧证据');return}update(true);render()}}}
+render();document.querySelector('#save').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({experiment:key,answers},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='长视频证据复核.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+document.querySelector('#load').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());if(d.experiment!==key||!d.answers)throw Error();answers={...answers,...d.answers};persist();render()}catch{alert('记录文件不匹配')}};
+</script></html>

@@ -1,0 +1,11 @@
+test_large_pts_drift_stops_before_saving_preview (test_leaf_probe.Media.test_large_pts_drift_stops_before_saving_preview) ... 定位证据画面预览:   0%|          | 0/1 [00:00<?, ?题/s]定位证据画面预览:   0%|          | 0/1 [00:00<?, ?题/s]
+ok
+test_mock_decode_pts_and_interrupted_preview_resume (test_leaf_probe.Media.test_mock_decode_pts_and_interrupted_preview_resume) ... 定位证据画面预览:   0%|          | 0/1 [00:00<?, ?题/s]定位证据画面预览: 100%|██████████| 1/1 [00:00<00:00,  1.86题/s]定位证据画面预览: 100%|██████████| 1/1 [00:00<00:00,  1.86题/s]
+定位证据画面预览: 100%|██████████| 1/1 [00:00<?, ?题/s]定位证据画面预览: 100%|██████████| 1/1 [00:00<?, ?题/s]
+定位证据画面预览:   0%|          | 0/1 [00:00<?, ?题/s]定位证据画面预览: 100%|██████████| 1/1 [00:00<00:00,  4.20题/s]定位证据画面预览: 100%|██████████| 1/1 [00:00<00:00,  4.19题/s]
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.175s
+
+OK

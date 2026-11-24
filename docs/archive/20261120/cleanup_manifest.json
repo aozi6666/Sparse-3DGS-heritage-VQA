@@ -1,0 +1,1227 @@
+[
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1.console.log",
+    "bytes": 832,
+    "sha256": "5789281b0585859bd250a4fdd355c59b10ca003cdab0fc7c2004e95ebb3fd8c1",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1.console.log",
+    "bytes": 508,
+    "sha256": "bb99899932eb10a3b95154dad3e1b3b3b5dd72c335908e8a803624c9717978c5",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v1.console.log",
+    "bytes": 1430,
+    "sha256": "f480ad9d25c17e72af6a6583c09e4ebbdcc6e63599a0b1055866cc6567337758",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2.console.log",
+    "bytes": 594,
+    "sha256": "4253ac05b488a41dd8d5f30d516783d933e8668648db55086330967c5795a892",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_stage_gallery_v1.console.log",
+    "bytes": 694756,
+    "sha256": "660eb5abb158d567766c51a4f4f0e53c4d421cd620c92acc9a9fcfb9e5e05cc2",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1.console.log",
+    "bytes": 677569,
+    "sha256": "e750dc3e68be6bcbd44e6fbd14797d166c6e8e7a1245d72ee765b31818c6e725",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1.console.log",
+    "bytes": 683684,
+    "sha256": "b6b9d257010dc6e4b97fd5ae91549b322ca8cf673c0ddf484a38f8ff304d0f0a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_stage_gallery_v1.console.log",
+    "bytes": 225178,
+    "sha256": "5269dd8a452a03580353d1bd85d9ebe7f5cb84b6b5bb0b7993cfd85bee2f9ded",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_then_horns.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/gradient_depth_drop_v1.console.log",
+    "bytes": 1310277,
+    "sha256": "36a330f31632a3056ea39bae699f948321b0b713b9cd6b96f27f68ee47064d79",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/gradient_depth_drop_v1_3view.console.log",
+    "bytes": 881414,
+    "sha256": "bbdaca31e28642a96141d51baf54f00c7dcc801de245abaf0f17031d2d8a9832",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_054_1.log",
+    "bytes": 440546,
+    "sha256": "a74c70a299f5f976c25f614ac3213230a43ce422848428d0f9fba96b643d6a17",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/depth.log",
+    "bytes": 4899,
+    "sha256": "cbf5c5a1f3bc36d88a4326a05cbc9208f8c854216606b3cde8b673e61ace3ab0",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_024_1.log",
+    "bytes": 220218,
+    "sha256": "491410a52e8ec08d4f86176b4b20bd8b4873529af4fc95abd5cad3de25168da3",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_000_1.log",
+    "bytes": 220215,
+    "sha256": "15305c05bd26b1c63b7bf84cd95ca72f095c342302da2d0b6e09c54d8e1f6652",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_024_2.log",
+    "bytes": 89899,
+    "sha256": "232cc93d679bc85ab6323229d149593aca68116bde5535f5aafb7e12edf9aaf7",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_000_2.log",
+    "bytes": 89897,
+    "sha256": "61045e991654f9af72dc7972c7561734d6a2336df6581df92931e092520cfa5a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_025_1.log",
+    "bytes": 220218,
+    "sha256": "00ab04d230b981b26ecf45c1b2be57da166fa55bc0e13d024b2a9306db510fec",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_001_1.log",
+    "bytes": 220218,
+    "sha256": "cb33466d4756f182cf02935a03cc11583b2662a86c7ff3bd26c93cdad19be951",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_026_1.log",
+    "bytes": 220215,
+    "sha256": "515bc9b760ac230aeea40ff64926617bc7847df9668dddd283b2e3d6779eb591",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_001_2.log",
+    "bytes": 89896,
+    "sha256": "3bd34c4710df20a9573c7df722c63a00b69ca77f01dcda14f010ce452134a165",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_025_2.log",
+    "bytes": 89899,
+    "sha256": "8436e6dfe73977b7ce66cb4581ed405b35d8aa12b3a69cf7cd88ce5d35cbc456",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_002_1.log",
+    "bytes": 220216,
+    "sha256": "63ab3bcf977994c583dae78896fceb82f49719dbb70efa0628098a1a902b4f8f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_026_2.log",
+    "bytes": 89899,
+    "sha256": "2dd33013b558268d003d2b73f263d8d7623243e694ab42bc59d08c15f990ab1f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_002_2.log",
+    "bytes": 89898,
+    "sha256": "6280baad4be353f21bfa33074945e01d7b196bd70e05ad4b4c65fcf8c3f2af09",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_027_1.log",
+    "bytes": 220211,
+    "sha256": "bc13ce034c7bc0e8924d05f894a8b85245bb7dfc736f135b5ccf0ee0fa3afc5a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_003_1.log",
+    "bytes": 220215,
+    "sha256": "6f1d2a6b7cb55b629a92f17c2c2114039d5e5264060f9a79b2645967e57b4036",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_027_2.log",
+    "bytes": 89898,
+    "sha256": "687f3677dc65958b99504b6d7e714d8439a54df9c78b692642f35012c4d5a069",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_003_2.log",
+    "bytes": 89894,
+    "sha256": "3a5e027d4094be50b5b1f0f70d0baaf98214491939d1d7ee1c850d4cc3baca93",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_032_1.log",
+    "bytes": 220218,
+    "sha256": "b979d484947154c292e1b7b6a6709dada0f289a4add00be0b9cdafa5a2fb45a9",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_004_1.log",
+    "bytes": 220214,
+    "sha256": "6eaff146e44fb01304169fb0a17536b2366691ae5da416f2b209e7153ca846a2",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_031_2.log",
+    "bytes": 89899,
+    "sha256": "720c8e0df0496a416d0e28eb85ebc35fb6ea367a9bc1c31a6082dd221adddd75",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_004_2.log",
+    "bytes": 89897,
+    "sha256": "b3e05dcf37062932490fb71f42522f427544c7c675137b4672f5de8ff9bb7cf8",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_032_2.log",
+    "bytes": 89898,
+    "sha256": "9db877cab10a20b91cc211c53e36421ac765bf2c3884b4b07584f5605afe87d2",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_005_1.log",
+    "bytes": 220215,
+    "sha256": "bfaff40bca2471f88928ff852d3a92ff457405d0a42312b1c50a3d3d5e3f7f7d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_033_1.log",
+    "bytes": 220215,
+    "sha256": "665591e825bc72ef42283892e99bca7bccd1c303f59ffeebeb90a1a6b60e5af2",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_005_2.log",
+    "bytes": 89897,
+    "sha256": "2a9e4bcc5e5ec32958b7173106be5108d77469657307dc0e474748152bd9a0c7",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_033_2.log",
+    "bytes": 89900,
+    "sha256": "60db6bdb1a63d7308d6d4cc1948c3047fc87f11eb910a5581468f2762af8610e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_006_1.log",
+    "bytes": 220216,
+    "sha256": "9a5263896ac86e600f8653a5eaa207915b1ac92e63ee68a8e88aa8481cd4db3d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_034_1.log",
+    "bytes": 220218,
+    "sha256": "ca3733bc833e38685eb2e3e2ceafd3d0b851b54bf91febc3e94f92da6c833496",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_006_2.log",
+    "bytes": 89898,
+    "sha256": "996c23aaa7359acc316aa4905b10b22cc42c7290c62f288587585b325d138347",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_034_2.log",
+    "bytes": 89897,
+    "sha256": "349f1128fff64ffb14b0df6a4a20772ace15ba95aa385b176da75a998c39786b",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_007_1.log",
+    "bytes": 220218,
+    "sha256": "a4163fa62a481b565513e7ac2b74a64c2163f2f0c77faf1c64f5a462c53f8c5d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_035_1.log",
+    "bytes": 220218,
+    "sha256": "f11d0cd5326147f35d8eefa6e5c550d54ae36ad49c5cc0402e6e41ff8364d63a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_007_2.log",
+    "bytes": 89897,
+    "sha256": "a886b1b639ff9f8c1b173fe2f9d12aceee4b15c8d78c5cc844d65da9e377cd52",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_035_2.log",
+    "bytes": 89899,
+    "sha256": "1e1284a96c5c22427f1a36d9c998f942fb9144779c9aff98c00d3de0e9f17dc8",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_008_1.log",
+    "bytes": 220216,
+    "sha256": "6cbf35b9969fb0ae0f48dbb12a83aa29c281c367d99d12b4d154834d1a269d27",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_036_1.log",
+    "bytes": 220220,
+    "sha256": "66830cc6e986b2c73b416faeb0a47a1d3f7a2c90a9f8703dbb5b7f218d8a31fb",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_008_2.log",
+    "bytes": 89898,
+    "sha256": "7d5d28c1ffa64c95205ff5e66f8152e2ba77f94f0a4324604edcf0f57176ec1d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_036_2.log",
+    "bytes": 89898,
+    "sha256": "f00dd807e603b004aa657943a800ea6b5f9b45a2f5461202b2d6e3628344bb9c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_009_1.log",
+    "bytes": 220216,
+    "sha256": "2a352bff9a14a4efbebc7ed4f26d291bc64967ca993aeb83fb2768eef955c99f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_037_1.log",
+    "bytes": 220215,
+    "sha256": "b742a8bcd44afe57c65d4c010abce0917589603b65c0ea1fb3a2a0b24d0fcd87",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_009_2.log",
+    "bytes": 89896,
+    "sha256": "a7c89c2dba7863fb39fa3dfc77342a974f5b3b40f7ea4d7a07250ecda22f0034",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_037_2.log",
+    "bytes": 89898,
+    "sha256": "a4f19b92b830769d9417ff1766b93c4c25b748ea0b40f3c8a0c28edd2e247fca",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_010_1.log",
+    "bytes": 220217,
+    "sha256": "8ab707f11c0dfee72619b287f9590f18c72ea19d3e8b8096d1653cde33aa67de",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_038_1.log",
+    "bytes": 220217,
+    "sha256": "37e1e0d12c206d335e722df64545f9730050a77432436a8a938ffb0c5148c91c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_010_2.log",
+    "bytes": 89893,
+    "sha256": "9b6f494a0f6a370fa2bfd1bba4bb1e55acaea191ef86152b3eb665762f1272d1",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_038_2.log",
+    "bytes": 89899,
+    "sha256": "15bc55efee0f1b2856f9e2553cd1d7f910654705273d6e1fb00509e23384a8cf",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_011_1.log",
+    "bytes": 220218,
+    "sha256": "2180c630c02d4625ad5078e2924b71886ddf149b36733132cd559116a7f3a2fe",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_039_1.log",
+    "bytes": 220216,
+    "sha256": "c6e76308b20847bca78c03f9f9994e8601f7a1b4d7c89eefd9b2822680ed3901",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_011_2.log",
+    "bytes": 89899,
+    "sha256": "42b3c06de3a201f752c7d05f24d04fe75252fb35216066aa10f533f45b716319",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_039_2.log",
+    "bytes": 89901,
+    "sha256": "6b3dd45596687671dc8dd80a7624831f9e872306a5c128012844970deed2f33e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_012_1.log",
+    "bytes": 274897,
+    "sha256": "f85a611372159e84e4230b9d72e5542313eeb721c7c82c6fb4ded4ec3286108f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_040_1.log",
+    "bytes": 220218,
+    "sha256": "e718487d46c560a7d0c867a046f79257b69c440e9d346ad7fbd3a6de3d1b09a4",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_012_2.log",
+    "bytes": 89898,
+    "sha256": "cf2d5a20e51f7751729fe2e621b2f3ca08c9f473a9d70f9ab2815f1cb7aaa64c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_040_2.log",
+    "bytes": 89898,
+    "sha256": "daeb9456c2acc9129765ff5cc9eac6ae0259ece466eb7972400a7536e5edea56",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_013_1.log",
+    "bytes": 220218,
+    "sha256": "b1b21550a0ecadc0ea292e0a6ef6f2d587297554065279ed93977acf977e7def",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_041_1.log",
+    "bytes": 220217,
+    "sha256": "b5d012b0e2e7f0e25f740f24a745937da524d37014c071d0aba85c311e725d3e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_013_2.log",
+    "bytes": 89899,
+    "sha256": "8d44e84ec785ea57a89a360e0f787d955544d4ecd1981f85696725a1b666a6c7",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_041_2.log",
+    "bytes": 89900,
+    "sha256": "f71130417675072adf7c22cf6369750059c16d2d1d0d173841c80063304c131d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_014_1.log",
+    "bytes": 220217,
+    "sha256": "b0a5e338bd98e8e1734b5f68df7e57dd417885e7ab89d017db4a3153d21c3466",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_042_1.log",
+    "bytes": 220215,
+    "sha256": "dbdb6c58b713355368d682a252cec0bf4e8fc3744de460efd5c2a85786ba3899",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_014_2.log",
+    "bytes": 89899,
+    "sha256": "a776e87209cd53c9a98675df9987c0a20e4832ef3d62a51f0845eb6d3b5c84aa",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_042_2.log",
+    "bytes": 89899,
+    "sha256": "676789099360d00d36a6734716ec3b55af3cb17c90481826569f5172dfaef557",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_015_1.log",
+    "bytes": 220217,
+    "sha256": "6554455e2b3435e83a423ea55e4e16b7d2600d5914c6d039aa4dd446d4ba269b",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_043_1.log",
+    "bytes": 220214,
+    "sha256": "1f424f65f9f240f5de4c9815e2edd9422cd6c8cc49c7420d7391a9f83139d918",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_015_2.log",
+    "bytes": 89898,
+    "sha256": "4f628a39110895394fdb0331c60155396b5dc0d1052380580d1f2d6e027204de",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_043_2.log",
+    "bytes": 89898,
+    "sha256": "fec53d3c44f6190b96b5f6645fb455402a93c09ea64a7f0686d4385815bbbaad",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_016_1.log",
+    "bytes": 220219,
+    "sha256": "801d73b7784ae13cc98e0686085f167af809a6ff2908604d2d84cd15067ef08c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_044_1.log",
+    "bytes": 440438,
+    "sha256": "33fe66cf76df52d142b63aa0de080e45fba11238964765d532ed1f86d1675cdb",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_016_2.log",
+    "bytes": 89901,
+    "sha256": "9d0c1cac5da977d81c85bee935d14bf51dcdc80c906c8c27db5c888d036d01dc",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_044_2.log",
+    "bytes": 179792,
+    "sha256": "dc5f2d15de761d73a0402fbf7417dfcd537d4753b26cfaca96aceec300943b69",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_017_1.log",
+    "bytes": 220219,
+    "sha256": "8c605e0fb8001e8fc3ea58e4c0bd4fdc151add7f13a07cf38c78d18d8f0a6035",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_045_1.log",
+    "bytes": 440426,
+    "sha256": "474ceeca3d2e6b2b6f27671576e2746235f60bc278f25b278b59ae98805947fa",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_017_2.log",
+    "bytes": 89897,
+    "sha256": "04db663afd1b94a4ca77010b100b23c1a9f5c8bd940128601289b56fbb0dcd99",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_045_2.log",
+    "bytes": 179797,
+    "sha256": "ce9383c2605ae93e606becfdff30af2f96a7fdc5812fe138b57f15e905fe6bb5",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_018_1.log",
+    "bytes": 220218,
+    "sha256": "6b689133822213006c281b0b031871f38e747c8be86423bdfa3812dd1b728292",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_046_1.log",
+    "bytes": 440434,
+    "sha256": "c42ed61b4c5d9b3662ea794f8277e80171459622bfc79bf9e603f7c15ee0025f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_018_2.log",
+    "bytes": 89899,
+    "sha256": "9fd601725843f418c1f4bef2da2085fedc3c4f37f7199b0d0a67b412676c6e57",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_046_2.log",
+    "bytes": 179797,
+    "sha256": "bffff4e7407c36001b47948939fc10d15e0816b624895c3304a6bd9ac7eb283c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_019_1.log",
+    "bytes": 220218,
+    "sha256": "04c39fd98c6c9d9a667854c53e21a87ac7791d4fb9326ecb2946183cdb147374",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_047_1.log",
+    "bytes": 440437,
+    "sha256": "27c5cac03f36735d68e28c069da94918b29e4cccb852fdd5bc7b5a27055dac15",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_019_2.log",
+    "bytes": 89897,
+    "sha256": "ef012d2e07137d92131df0d8e775e7d81f2aa004e08d802f3b0fbfab65ead647",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_047_2.log",
+    "bytes": 179800,
+    "sha256": "a0db2cd0d6d796222b7f450c9f43e47d1e050ee2498de7ce7360c91826e37df8",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_020_1.log",
+    "bytes": 220217,
+    "sha256": "082e94318be2cf5ec7eb40485c391e94aaaa5c044b07ecf26b40dfe34feeb271",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_048_1.log",
+    "bytes": 440435,
+    "sha256": "e76f53d998e1632eb705b82b36b4515b1f8de1fb9dc45c0b76bdacffb822ae74",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_020_2.log",
+    "bytes": 89899,
+    "sha256": "ac8c55e4b2a6a07f82a10f06db0ab3c96ff71d699c52f1959e290f9f55c8e0da",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_048_2.log",
+    "bytes": 179796,
+    "sha256": "e16e1960878f27aa9b0e892774db8e81fb59dfb06c5eac9e06d803120db3a3fb",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_021_1.log",
+    "bytes": 220219,
+    "sha256": "b8678218ddd0708a92b3b52aad4596e9936c9c167e81835f44b3f2768768fabb",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_049_1.log",
+    "bytes": 440435,
+    "sha256": "ad31ca45a77a6ae15e61a0633409dcd9aaebc3b128ca132015de51ccadda6b89",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_021_2.log",
+    "bytes": 89900,
+    "sha256": "918d9e6b91164a157bb5a4917b653c559c5095bed1c5a6ebb3d54efa26118965",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_049_2.log",
+    "bytes": 179794,
+    "sha256": "4cf7f0973ff7a9c92deb3a07fb994710308cc69025bc1c5a67589810581b4944",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_022_1.log",
+    "bytes": 220217,
+    "sha256": "28cac3e3b0fe603d586fc291359987a37380bc5757bf6921db3a6025d245b668",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_050_1.log",
+    "bytes": 440435,
+    "sha256": "40d2cb980fc9467dd09fc61183b55f861c715e2e7c04c990ef1813e108de3407",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_022_2.log",
+    "bytes": 89899,
+    "sha256": "1086485173402e8a9a2e18858a8ad614b9a977653941248665a30be30b16a42d",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_050_2.log",
+    "bytes": 179796,
+    "sha256": "426717db71e389fd05b1c859f43ad27fcc3e0323667b04c15b076b6ca1f0590e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_023_1.log",
+    "bytes": 220217,
+    "sha256": "276a0c69895b5d510d7f852755b7ab8a85c985a86de21fb5af2ea7e4e23b6c37",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_051_1.log",
+    "bytes": 440429,
+    "sha256": "c996a7d956a7d5dfc926aac274082967362e52ea43289e1bde61166b00fbb227",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_023_2.log",
+    "bytes": 89900,
+    "sha256": "73110fd907c3950c03a9814dd913654515a0b3105af14040d4ea637cf349c0f1",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_028_1.log",
+    "bytes": 220219,
+    "sha256": "2011860283f77763e35849edd0b69df45a57cf91cec26460941ed767fb4bbbd9",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_051_2.log",
+    "bytes": 179798,
+    "sha256": "ae978b688b85f0d1c37699f5830d8c02e4e8c48f1c8a0d291f21c0c0029d9ef8",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_028_2.log",
+    "bytes": 89899,
+    "sha256": "595c85f024c129538d4f68883a94a764a57c94fd1af06d527b0c750963878b05",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_052_1.log",
+    "bytes": 440435,
+    "sha256": "2e5203a1f2d7aff08fbf509fe40639668902e2959f90d3d4305703c9b789c618",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_029_1.log",
+    "bytes": 220217,
+    "sha256": "1cb4ec65d8aeccc59d2886f8fa987a61bf4207ba4bf48ff23b3719ad1592d377",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_052_2.log",
+    "bytes": 179800,
+    "sha256": "214f0960407a302e381857ea4c5a7732cf89cb623c1bf599c4cd87d338692717",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_029_2.log",
+    "bytes": 89899,
+    "sha256": "29a2b4abb90fe7e0affdc6147603264ca6c226c3c2af164796b7be7dbfa3e127",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_053_1.log",
+    "bytes": 440438,
+    "sha256": "bd03c66eac575b0a513e91ca400114a2b7368f70e075576dfcaaa718bd7f939a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_030_1.log",
+    "bytes": 220218,
+    "sha256": "6d1201cc6f7ba0fb9c36628c7e984df23911d5ff65653a9d2ab0eef4ad7a6194",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_053_2.log",
+    "bytes": 179796,
+    "sha256": "195902a86e8cafc09ee36575b50b8e47bf0a8df0cb6504badb5501f2445a1d3a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_030_2.log",
+    "bytes": 89899,
+    "sha256": "c4e7310680423e63f53ba0cad3c1ea4ea2b2c6994a9ea8acb78a891aba3c8e25",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_031_1.log",
+    "bytes": 220219,
+    "sha256": "573630be509d56e9dde40fa81975232e7b8a6cb97d18099a668015199183273a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/lora.log",
+    "bytes": 47024,
+    "sha256": "252834590f5c29f0556a2c5b2fd7aa53bad548e371dba179b8bd1fab763142aa",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/loo_054_2.log",
+    "bytes": 179797,
+    "sha256": "65a633f1cb15547afae809be808081041160fbe5471db0539cf62643ceb6f26b",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_1000.log",
+    "bytes": 4959,
+    "sha256": "9cf58818b49f393c609085995e100516360d6bf661b3339ad0a2743d6a623d22",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_15000.log",
+    "bytes": 4958,
+    "sha256": "5e065f74db1e4c05a623d6ee2dabe213f71598b34856099aae0eb9a034a02607",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_3000.log",
+    "bytes": 4955,
+    "sha256": "b9c9b06a687fca52e63c8901fdfd915eac9e3a6273de867abeeeb607e111c4d3",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_30000.log",
+    "bytes": 4960,
+    "sha256": "4156645b501375f02894cb88e482a26cee8ff467baf9366b0c59344c78153c6e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_500.log",
+    "bytes": 4954,
+    "sha256": "0424734dbed25bcdce6d65e2e077d88ea738b3b5a39607402b00757d8c947e03",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_7000.log",
+    "bytes": 4958,
+    "sha256": "7f1b62de2926e55d273d88d4a522252ff59a92af4302a19185067fe3e6e4617f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/render_final.log",
+    "bytes": 5026,
+    "sha256": "471e43890c66cd9590077d970dc7394cef1932a06932d28f28b298d20fcfaf7a",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/repair.log",
+    "bytes": 585656,
+    "sha256": "4edb6a5710c946ca4ee6206b1921219b3d0077885a3fa69628ab125ea2768d61",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/logs/train.log",
+    "bytes": 659908,
+    "sha256": "5a9f06c4b0e5ea8ccf7846642ffb002f3c5e1c9eb2bd20e45cb4a30b4a8fcde6",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1/logs/A.log",
+    "bytes": 216996,
+    "sha256": "32cbb2020fd55f7a75a4a65459a03e52cce90d03bad945fc58f78ac73c3cfe9c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1/logs/B.log",
+    "bytes": 219160,
+    "sha256": "11ed39b460a212d27bfdb8fd3e716e0c278e4ac74e81a133b06f9517e5fefb8f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1/logs/depth.log",
+    "bytes": 1952,
+    "sha256": "ee32d62522a12a9196acf814d3a619860a9c025f210caf737a118cf55c7f27ae",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1/logs/evaluate.log",
+    "bytes": 5459,
+    "sha256": "fb04497419364622d3da8e89c613217a42b642ee03149d1d8ee86edb381dfc44",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/horns_vggt9_v1/logs/prepare.log",
+    "bytes": 2480,
+    "sha256": "309207e9fc7ce61c006278dd2a75f7bc05c80dd6199383f1cac0a8795c446a35",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/fortress.log",
+    "bytes": 226129,
+    "sha256": "c994851fd06b4d25f462ce844e58727afb1df5216d90eb8fe0e524c5cab62d71",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/horns.log",
+    "bytes": 225203,
+    "sha256": "94a904a685951fe7bef4bd6a2d300c34560e5c9bed0c0cf855d7fbbe95204b4f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v1/bonsai.log",
+    "bytes": 10903,
+    "sha256": "73d760853772f5a95b0471c0679af00d0ba5f37c48755bf7695bfdba6e60e254",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/bonsai.log",
+    "bytes": 224983,
+    "sha256": "d3ef137e13138f37ee66bc8c775b434fe2a8a6a2e098d0a252f1855bfd212966",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/garden.log",
+    "bytes": 222056,
+    "sha256": "ed3740473ce6f627a1445ad8cc03a92df7f76d9604957cffeed3b72201547a65",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/kitchen.log",
+    "bytes": 226961,
+    "sha256": "9b280cff093a14b9f0394de25e29c4785e5c55009307f637882333fe539a3ab8",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v4/logs/evaluate.log",
+    "bytes": 5362,
+    "sha256": "2d2b9d2314a098942ee11fbb37466b625c9df9669954f9d79d297dc46cdfa195",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v4/logs/train.log",
+    "bytes": 219393,
+    "sha256": "46f464f986b76da2a40c843c303e605ca2f175c4db62c89a757c0cf88ee74f19",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v6/logs/evaluate.log",
+    "bytes": 5363,
+    "sha256": "0eacceff344de5510cc833bbe892dc87623585f8d5ff055fdea69f68b263b2d9",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v6/logs/train.log",
+    "bytes": 219393,
+    "sha256": "1d8da710197c1669560f7b1c94ea96c360cd4faa5c0feaca82d33f91a354cb0c",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v9/logs/evaluate.log",
+    "bytes": 5362,
+    "sha256": "0786d9d0b8bdfc0e2a8817d63e70bfcb2e7d07695d2a18e5bbdaa38353ae6710",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v9/logs/train.log",
+    "bytes": 219634,
+    "sha256": "3ea85921f9b2c8f6237763aacfcbd0cc11e973f321b51ff33a9bdb9b08c90c41",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v4/logs/depth_init.log",
+    "bytes": 2044,
+    "sha256": "0ab41668fc4d638232198e4cd0d9ba827233bf48cba73fd0aebf829d8229f674",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v4/logs/evaluate.log",
+    "bytes": 5319,
+    "sha256": "9f982900f24fd9760479d91f2877ab0c6331f987b7bfd2885be26e96d30e4338",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v4/logs/train.log",
+    "bytes": 219751,
+    "sha256": "252b87a10e889725c54c33e11b86943881615cafae3ead88a020188e56a601f3",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v6/logs/depth_init.log",
+    "bytes": 2171,
+    "sha256": "c98d687890e92a75dae4e6f4d0d367d6f71edabba733bbdb70af9253525c2b29",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v6/logs/evaluate.log",
+    "bytes": 5320,
+    "sha256": "914ff2f3702ca53433b8310eb5263ab9cc8f9c916313c19820609b1ea555134f",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v6/logs/train.log",
+    "bytes": 219849,
+    "sha256": "62e458572995aa990a77e17d8f2bab43f0438bca1c1110e8ad369a295425c075",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v9/logs/depth_init.log",
+    "bytes": 2360,
+    "sha256": "1c00ba0eccdded172d764bf308837995841091474e41ae97305e4493b0272b9e",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v9/logs/evaluate.log",
+    "bytes": 5319,
+    "sha256": "c854d2bf1c2a8624b055de8a361387d5253e10efc5a28c5311797ab064e98f58",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/trex_sparse469_v1/v9/logs/train.log",
+    "bytes": 219869,
+    "sha256": "5c36bdaddcb8fc00ec4224fd60b830f7cfa7acd65062a15aac8fd780cb2df4e9",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/depth_full_pilot_v3.log",
+    "bytes": 15528,
+    "sha256": "a494d2f711bd35db7c4a69bacd22ceeb191748a9c677632d7ff4ea14b42b26bc",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/depthlora_smoke_v1.log",
+    "bytes": 1449,
+    "sha256": "dd25a95f9bbfb2f04fd4b8f31ac767573edc589e655e895e6e7c127289eaea13",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_e0_392_v1.log",
+    "bytes": 69,
+    "sha256": "574a2d0ff3a31617b5ff9eee0d9109297d5a61cec8debdf341daa41f61a6cf20",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_full_f0_v2.log",
+    "bytes": 5263,
+    "sha256": "52d7a55f1e797a41f3e2429725589562c98b320c41c6632dbdf07348a413c515",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_full_mv_f1_v3.log",
+    "bytes": 5481,
+    "sha256": "088f8ea8ff8443bcf4be9897f7eee8b45b124f3c23190b7fe6a503a7dc65ce13",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_lora_e2_v2.log",
+    "bytes": 6609,
+    "sha256": "b51359e9ab6d6d1bd31301b85bf592a2c1cf637926f94e17b358600917bf9966",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_pair_v2.log",
+    "bytes": 69,
+    "sha256": "574a2d0ff3a31617b5ff9eee0d9109297d5a61cec8debdf341daa41f61a6cf20",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_smoke_v2.log",
+    "bytes": 3011,
+    "sha256": "db322d48aae37ff6f7bd13aef209855fcf2e13b3cc93f8baab557752d3c2f1fb",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_test_adapted_v3.log",
+    "bytes": 69,
+    "sha256": "574a2d0ff3a31617b5ff9eee0d9109297d5a61cec8debdf341daa41f61a6cf20",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/review_test_original_v3.log",
+    "bytes": 69,
+    "sha256": "574a2d0ff3a31617b5ff9eee0d9109297d5a61cec8debdf341daa41f61a6cf20",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/gradient_then_lora.console.log",
+    "bytes": 97,
+    "sha256": "a0f08b76d62fbd696ea2b9ba36fad342d2c060f6a9d9fcc5b81435e95563d9e7",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "VGGT-Object/logs/aggregator_lora_r16_smoke_v1.log",
+    "bytes": 15190,
+    "sha256": "ac958b43a118a3e92842e3b2296f37cea7d0ac729595203ec6acba39d33144f6",
+    "action": "full log gzip privately under .git/maintenance_20261120/logs; final tail archived"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/conditioning_gs-000599_e-000010_b-000048.png",
+    "bytes": 5065,
+    "sha256": "6aa63e02e8c5a1339b160568a53833b762cde221554e8b49ef541969824b5fc1",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/conditioning_gs-001199_e-000021_b-000043.png",
+    "bytes": 5065,
+    "sha256": "6aa63e02e8c5a1339b160568a53833b762cde221554e8b49ef541969824b5fc1",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/conditioning_gs-001799_e-000032_b-000038.png",
+    "bytes": 5065,
+    "sha256": "6aa63e02e8c5a1339b160568a53833b762cde221554e8b49ef541969824b5fc1",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/control_gs-000599_e-000010_b-000048.png",
+    "bytes": 268743,
+    "sha256": "f930cee171bb09ab8ff7bf8f38919138c96cf8a859b7d0072344cd77dcfb9083",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/control_gs-001199_e-000021_b-000043.png",
+    "bytes": 274267,
+    "sha256": "bfa183ef8cd29397c53b5d14196cd6beedc58390d1b37c417e485599b6570adf",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/control_gs-001799_e-000032_b-000038.png",
+    "bytes": 279524,
+    "sha256": "00dc3396d3301d2e6ca7fee35aad38b6aa9073c95f5fc7afce786f8046803f8b",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/denoise_row_gs-000599_e-000010_b-000048.png",
+    "bytes": 1373535,
+    "sha256": "8d08c8f1f8c96e29b6ad31228d5a36fe02d7cfaad8cabd5b59477bfc622a9681",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/denoise_row_gs-001199_e-000021_b-000043.png",
+    "bytes": 1376847,
+    "sha256": "ffd3abe20e7fb1a093eef4f8e6e259a8b96ac69bcb7c9d93dcc7b0ca9b140743",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/denoise_row_gs-001799_e-000032_b-000038.png",
+    "bytes": 1366751,
+    "sha256": "edd605e70f28b785b8683514107fb9891fdeef9158ea2030a8d7af414e4fde19",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/diffusion_row_gs-000599_e-000010_b-000048.png",
+    "bytes": 3017250,
+    "sha256": "cad3000e56b6c78aa8bb8c54568576cb0faac1e781748df540ececce25701011",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/diffusion_row_gs-001199_e-000021_b-000043.png",
+    "bytes": 2980432,
+    "sha256": "b86e43caa2b43d1b6227b90a8a911814b1bfb9bbb51ea2d945d6c0974e91fd6f",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/diffusion_row_gs-001799_e-000032_b-000038.png",
+    "bytes": 2998295,
+    "sha256": "4f8714ae6c71e6df2d9a5a5703fd80d7b6f35775c63b90a5b2acaebae1585cc8",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/reconstruction_gs-000599_e-000010_b-000048.png",
+    "bytes": 343910,
+    "sha256": "2989ba8cbbcbbcd0dc2fc7b387dc1536285eca457535cf470ef7af950e4e846a",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/reconstruction_gs-001199_e-000021_b-000043.png",
+    "bytes": 329402,
+    "sha256": "3893a60d59c737975420ad4b27cef4976312f0c46a69ace62c5beda7cd1d8077",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/reconstruction_gs-001799_e-000032_b-000038.png",
+    "bytes": 332294,
+    "sha256": "fc098bc2474ab6ab32cb5caf152b915df953702bb9046d6c6f184cf92538e82b",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_cfg_scale_9.00_gs-000599_e-000010_b-000048.png",
+    "bytes": 458680,
+    "sha256": "1afcfb1d0f78c3b05b803298fb7848d603061c5de1f056b1b0d631ba758279f8",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_cfg_scale_9.00_gs-001199_e-000021_b-000043.png",
+    "bytes": 464816,
+    "sha256": "3fbf8d25d991412946cff2b914a27219fc774793c9472867e35bd293fce83a7a",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_cfg_scale_9.00_gs-001799_e-000032_b-000038.png",
+    "bytes": 442690,
+    "sha256": "3f0bd980916820672a6c84318400257af76ec1551dd29d9c2a6a13c7a46342da",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_gs-000599_e-000010_b-000048.png",
+    "bytes": 423887,
+    "sha256": "730138cf3e728bcda32edf43e7048847e7f2fa898df87d7a7fe377c62cd5d04a",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_gs-001199_e-000021_b-000043.png",
+    "bytes": 418785,
+    "sha256": "3b586756882fe1036cd27baed8d884610e120db77b7d954f11dddbe46e0cdb0a",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/image_log/train/samples_gs-001799_e-000032_b-000038.png",
+    "bytes": 409745,
+    "sha256": "6ccd759b02bb6a159cd157e26cf0049f19e6fc0d81d070b3dfa319f064d83b19",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/tf_logs/lightning_logs/version_0/events.out.tfevents.1794203175.autodl-container-772f4c9f50-4c2f596b.16911.0",
+    "bytes": 16942,
+    "sha256": "9184c3cecb7c5c5d71aae40fa9d2df3a711ad1fe6bce9d953c2e308e032714fa",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/tf_logs/lightning_logs/version_0/hparams.yaml",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/tf_logs/lightning_logs/version_1/events.out.tfevents.1794203837.autodl-container-772f4c9f50-4c2f596b.17325.0",
+    "bytes": 88,
+    "sha256": "c7a5f2b0782934e694efcab298dd6fad4a9a413b83da56282ef395cfe71f1f8a",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/controlnet/tf_logs/lightning_logs/version_1/hparams.yaml",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "action": "removed completed repair debug image/TensorBoard event; final outputs retained"
+  },
+  {
+    "path": "VGGT-Object/vggt_object/__pycache__",
+    "bytes": 104977,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "VGGT-Object/tests/__pycache__",
+    "bytes": 34413,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/__pycache__",
+    "bytes": 164779,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/gradient_depth_drop/__pycache__",
+    "bytes": 23304,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/llff_scene_gallery/__pycache__",
+    "bytes": 18648,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/mip360_foreground_gallery/__pycache__",
+    "bytes": 16317,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/vendor/sam_6fdee8f2727f4506cfbbe553e23b895e27956588/segment_anything/__pycache__",
+    "bytes": 24302,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/vendor/sam_6fdee8f2727f4506cfbbe553e23b895e27956588/segment_anything/modeling/__pycache__",
+    "bytes": 41834,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "3DGS/GaussianObject/tools/vendor/sam_6fdee8f2727f4506cfbbe553e23b895e27956588/segment_anything/utils/__pycache__",
+    "bytes": 16477,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "VLM/mage_vl/practical/__pycache__",
+    "bytes": 23854,
+    "action": "removed regenerable Python bytecode"
+  },
+  {
+    "path": "12.2.2",
+    "bytes": 0,
+    "action": "removed empty accidental shell redirection artifact"
+  }
+]

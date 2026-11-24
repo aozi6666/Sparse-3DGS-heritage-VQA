@@ -1,0 +1,1322 @@
+[
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/complete.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/complete.json",
+    "bytes": 295,
+    "sha256": "0c53d8025e0cad28de035cb513ab70795c60360a6561497b1fb58ca488236c0a"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/config.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/config.json",
+    "bytes": 1502,
+    "sha256": "5a310caa384ff33504d108f30f849d249b4f9f3d3dcff45c6b17f6de93be3af8"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/parameters.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/parameters.json",
+    "bytes": 3418,
+    "sha256": "58c6ee455599720f142f753f40ef46d2fc5d23031218b19e76fd367fa1b711cb"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/environment.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/baseline_validation.json",
+    "bytes": 16372,
+    "sha256": "f573fd1e7edf2780b7f18352cdb6d2b43cf916deec3bce4c6f137832a1125b5a"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/validation_latest.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/validation_latest.json",
+    "bytes": 16358,
+    "sha256": "86b7304db4b269c8c4ec0e6509d7e89ce7c9d815c5eca03412e2d068a4f21ad5"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/validation_history.jsonl",
+    "bytes": 835,
+    "sha256": "35df858b3edc34485dc4b78b3d672f6462417dde5dd8d8c5988c7d3fb3db9b4d"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/train.jsonl",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/train.jsonl",
+    "bytes": 140645,
+    "sha256": "b02bd8f9a496b5e0db847acb243b77783bcc1d3057d4c35d3a389c0c66357ed1"
+  },
+  {
+    "source": "VGGT-Object/experiments/depth_full_pilot_v3/dataset_manifest_snapshot.json",
+    "archive": "VGGT-Object/experiments/depth_full_pilot_v3/dataset_manifest_snapshot.json",
+    "bytes": 4837,
+    "sha256": "927bc4d6239fae7f7b1ee75d7c9c3ba38eb82488a1bb8d30ccf703db6a557fc4"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/complete.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/complete.json",
+    "bytes": 293,
+    "sha256": "12a6298f3c05e00a251c66b5fe2ec7dff4aab9dfb998c9b331b9070d44e1b8cd"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/config.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/config.json",
+    "bytes": 1399,
+    "sha256": "a2ba1ee4bcc405f1369e862673da987ff457e8ba2784b52527cd5e9742cefecb"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/parameters.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/parameters.json",
+    "bytes": 3418,
+    "sha256": "58c6ee455599720f142f753f40ef46d2fc5d23031218b19e76fd367fa1b711cb"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/environment.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/baseline_validation.json",
+    "bytes": 16368,
+    "sha256": "3cbf963e140f694cb9c608bc87aaac79a410873b1aa15ced21615f0e12c06f0b"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/validation_latest.json",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/validation_latest.json",
+    "bytes": 16421,
+    "sha256": "553708a53ea325172ba5a304581c85cd69d22f20f962f6f76d88ea71471695c1"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/validation_history.jsonl",
+    "bytes": 309,
+    "sha256": "fa74d8d0563a30835c5a6ea7824ffd58d12414ab034b07d3ad2aad1b10e65cee"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_f0_v2/train.jsonl",
+    "archive": "VGGT-Object/experiments/review_full_f0_v2/train.jsonl",
+    "bytes": 42155,
+    "sha256": "1cc80b8cb756204f6de9ceaea241e12dfa3ba24e3a45442af9a51e1d2e340fb3"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/complete.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/complete.json",
+    "bytes": 294,
+    "sha256": "8bb223115ef8ecaa446c053c7790280f9a42b9c03243b82ec74281ef67138d7c"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/config.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/config.json",
+    "bytes": 1476,
+    "sha256": "b30e5e9abbf05163c736a4bd165d1352b2355c8fd03ab1120c4c9dbf0ad3bce9"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/parameters.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/parameters.json",
+    "bytes": 3418,
+    "sha256": "58c6ee455599720f142f753f40ef46d2fc5d23031218b19e76fd367fa1b711cb"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/environment.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/baseline_validation.json",
+    "bytes": 16373,
+    "sha256": "256b893ed2f7aef9a5825239a3b803af6a17f9d413133438dc24950d5769c97a"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/validation_latest.json",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/validation_latest.json",
+    "bytes": 16412,
+    "sha256": "8720b01b7a51c401268f526d7facf156ccf30fb03cfff5fb382fd6c33a23532e"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/validation_history.jsonl",
+    "bytes": 310,
+    "sha256": "1c7cc3e6d995fdb00ca013eb26ce8255d025a1083848a2657ad2e0e7aa9f2e9f"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_full_mv_f1_v3/train.jsonl",
+    "archive": "VGGT-Object/experiments/review_full_mv_f1_v3/train.jsonl",
+    "bytes": 44227,
+    "sha256": "aab8b50f16d00f8471b156e2d5a66855f325c2121685ef19fedbf003f946fad6"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/complete.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/complete.json",
+    "bytes": 293,
+    "sha256": "f5a5944777d80f7f1f0a918946f48e9387d07730a5d267bb64dea7f9d2f17ca4"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/config.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/config.json",
+    "bytes": 1404,
+    "sha256": "50b1bec37acdab29886cca37f0a11918a36134f7d2bdac231922afbd94ee84cb"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/parameters.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/parameters.json",
+    "bytes": 4695,
+    "sha256": "ece4f81980a66f2cc9b9b2d96e50b3390dc8fb4c210ac088b5d49865ce9e521b"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/environment.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/baseline_validation.json",
+    "bytes": 16373,
+    "sha256": "2b0ac100ddd0bbcc3f038eb29a0b31cc28f53a8a5ab93dff215853819187eb12"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/validation_latest.json",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/validation_latest.json",
+    "bytes": 16412,
+    "sha256": "a06a976e7d04501f8efb1c0adda7ba7a98c221c285e3d9704d2b98d21d7ee161"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/validation_history.jsonl",
+    "bytes": 311,
+    "sha256": "b3950c54bb84a55e6f09b794da39bc9a8540fa91a9e54b25102ecbb0d88e31bb"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_lora_e2_v2/train.jsonl",
+    "archive": "VGGT-Object/experiments/review_lora_e2_v2/train.jsonl",
+    "bytes": 42035,
+    "sha256": "f3a58ac167d83f82340cfeb230f8ef16299eb5f1087ba6280ce160a4e5c9c8d6"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/complete.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/complete.json",
+    "bytes": 292,
+    "sha256": "af53fcb41539ab46ef129c321a3b33c7fd0934aa5fffe9422e65fa6eed01c420"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/config.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/config.json",
+    "bytes": 1403,
+    "sha256": "fd6efdfd0948f3554d6350980bc22c4224e447f25b9f6d7b9ae2b833c4b02230"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/parameters.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/parameters.json",
+    "bytes": 4695,
+    "sha256": "ece4f81980a66f2cc9b9b2d96e50b3390dc8fb4c210ac088b5d49865ce9e521b"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/environment.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/baseline_validation.json",
+    "bytes": 5712,
+    "sha256": "14149d4b76f1ee11b5e7f079bdff42324f65f7c21a74f56bafd1b271ba3993b1"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/validation_latest.json",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/validation_latest.json",
+    "bytes": 5758,
+    "sha256": "e766aa1179a1040c1191b6b45a4cb4b336423f3afd5206f9f5a06751e0639265"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/validation_history.jsonl",
+    "bytes": 203,
+    "sha256": "efcffb78b76eaab91de740acd494cb4f9858bc52b5f690738cec83939dafb571"
+  },
+  {
+    "source": "VGGT-Object/experiments/review_smoke_v2/train.jsonl",
+    "archive": "VGGT-Object/experiments/review_smoke_v2/train.jsonl",
+    "bytes": 7050,
+    "sha256": "7cbec13496cdc22694d9e26ea4b6210a08ee62cc3f3bf379db010083be5fd275"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/complete.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/complete.json",
+    "bytes": 336,
+    "sha256": "09db8790cde5584c652a946a88db2c72154187b1526b455d9404311b0d189c1f"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/config.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/config.json",
+    "bytes": 1903,
+    "sha256": "cfff2fab8f19c30a2978e04908179b13fcaff5b0fd933bdd918812ad97eeaf2c"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/parameters.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/parameters.json",
+    "bytes": 6197,
+    "sha256": "e3027d51a79ac553a1d46a86ba61d2f50483136efb8df7abd4c2d64c94951f27"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/parameter_report.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/parameter_report.json",
+    "bytes": 6197,
+    "sha256": "e3027d51a79ac553a1d46a86ba61d2f50483136efb8df7abd4c2d64c94951f27"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/environment.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/environment.json",
+    "bytes": 387,
+    "sha256": "4bca252e93016bdbd2a43bb48871da57492eef16bfb32f8a17244ad060383891"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/baseline_validation.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/baseline_validation.json",
+    "bytes": 16371,
+    "sha256": "a69bb652d0c3cbf719b1c1a8cdf7471dd918035694f8271ccb65c85485d10613"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/validation_latest.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/validation_latest.json",
+    "bytes": 16418,
+    "sha256": "a4df57c33a22e8c2b56518529c3930c8b16830de6570c3a0e499b767e42b10f7"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/validation_history.jsonl",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/validation_history.jsonl",
+    "bytes": 103,
+    "sha256": "0c1733e295f3cb7c74dce5772d083f791e6e8a0f985564987e160e5a4dee0102"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/train.jsonl",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/train.jsonl",
+    "bytes": 11819,
+    "sha256": "627462dd65aa0907ea53e97f2081f0c633a8740115cf5bde363c4d870c89dec6"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/smoke_verification.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/smoke_verification.json",
+    "bytes": 1481,
+    "sha256": "175f8366c981450c10695a36f94c83991d47c3aa46397ec48ec5aaa9bf6c794b"
+  },
+  {
+    "source": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/gradient_verification.json",
+    "archive": "VGGT-Object/experiments/aggregator_lora_r16_smoke_v1/gradient_verification.json",
+    "bytes": 250,
+    "sha256": "049f0bd433fd44574846917f1af9a79f4f66e40b9decd32a7b2f6c4241461ac4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/run_config.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/run_config.json",
+    "bytes": 2478,
+    "sha256": "67f1a842bb3d9514649f50cadd1c558bb0f015ac350df5b6d5009417adc22e37"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_1000/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_1000/results.json",
+    "bytes": 90,
+    "sha256": "3cab4e32504d6a8cc3539bd42f2e730558da18a291ed295122aa7a4149ff316b"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_15000/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_15000/results.json",
+    "bytes": 88,
+    "sha256": "c01a7faeb8895e881bddbd5d23d0b66bb5dbaea9fc5aca7a3388b2ccff567e9f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_3000/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_3000/results.json",
+    "bytes": 90,
+    "sha256": "0c9771c81fc95ed00213ce96dee56536762d672e3b94c352b262115a554bde0c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_30000/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_30000/results.json",
+    "bytes": 90,
+    "sha256": "d39a1445262a8cdb5178bedb62d8d077e4f8c804e8b731e5bb695f5d4deb5d0b"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_500/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_500/results.json",
+    "bytes": 90,
+    "sha256": "19e9b6c31a326b9da7daa6c49cee7b54aa17440c428b64c76221d29df502ec06"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_7000/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_7000/results.json",
+    "bytes": 90,
+    "sha256": "6f49134b8d309801042d5dd1cce88bc27be5a4779566e555a93c9cf6c5ac8c00"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/full_scene/trex_fullscene_v1/coarse/train/ours_None/results.json",
+    "bytes": 91,
+    "sha256": "12ad9ccc058d45334692bd01cb840d392b0d133f9df8964904dff9cd4c3f495c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop/all/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "8fa8eb1fc89021ab5da698c1c60ba1f28a6db12123024dc83a8b213c003a43d3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop/test/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "10f44fe5f5e15cdfd3cdaea91ac33300d063f0e7194303787e20f4ac5a2db648"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop_classic/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop_classic/all/ours_10000/results.json",
+    "bytes": 89,
+    "sha256": "b964eeb1d856b6cf76218192549b53fb386934efb6ba5dee4da1a2d0e3f4ca30"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop_classic/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop_classic/test/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "7ebb4c7912869ed1898bf8aaecc18adaf328d5da843dc505bfd42dda9de6d94a"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop_depthft_mip360/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop_depthft_mip360/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "796a2c0174a4ad37c45e246ba1f577fe9d83511687dabbd4a46961b4f96f0b9f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/garden_drop_depthft_mip360/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/garden_drop_depthft_mip360/test/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "7aee2e4007effdacb5f13a775aa71e5313fccb0ad412602899b5335952b5a3a2"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen/all/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "ffcf7193d89a8b4650bc7d99ef089dac768b8c45804936e73df7f99d6005388c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen/test/ours_10000/results.json",
+    "bytes": 89,
+    "sha256": "04748811521b9c5d7f0720e1381bf5b5a5d2f02a40120fb0127385750e0d203c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_classic/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_classic/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "ee2f9fc2b80b02c82213c8c25ea78584fe49730cef3bbddc0f3a187d8f3943c8"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_classic/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_classic/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "ea7823dd9aa4dc600bca502c774a941bc82b58d88475300627e27b2cb11c0601"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_10000/results.json",
+    "bytes": 91,
+    "sha256": "6395204db4ddbd8bcec88697055254d86b51d453674182ccd6d35803c85ddb6c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None/results.json",
+    "bytes": 91,
+    "sha256": "49bb5b90682e8611e88baeb66f961162238be6d34cbc36266d21f21a465b63f4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__baseline/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__baseline/results.json",
+    "bytes": 91,
+    "sha256": "49bb5b90682e8611e88baeb66f961162238be6d34cbc36266d21f21a465b63f4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_abs16/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_abs16/results.json",
+    "bytes": 92,
+    "sha256": "515b32c433b4ed3e9b33cfdb7676128e265c67a001a1cb9061ae571476eea3fd"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_abs16_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_abs16_conf/results.json",
+    "bytes": 91,
+    "sha256": "f33981d95c0488c707eb559f5020da49db26200175e8f8e1d5a4a8901249ca82"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51/results.json",
+    "bytes": 91,
+    "sha256": "75b2d39eb0c79ab88d63e24d7339446bc9052dd3f56b255a216f2ad971360251"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_aden/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_aden/results.json",
+    "bytes": 91,
+    "sha256": "0adec492fe1391fb10d8f19562c731381811ea7a046b3c8019446c970a0d6bfa"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_conf/results.json",
+    "bytes": 91,
+    "sha256": "c57abe3213782809d7d6388cec05b2f988fd345a00c3bd82bbdfbda6786d74a8"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_cov/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_cov/results.json",
+    "bytes": 91,
+    "sha256": "8e51732438e23babe788925b720d9ed0217cbe5f182c12f087bc64b6a2d332bb"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_trust/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/all/ours_None__kitchen_drop_rv51_trust/results.json",
+    "bytes": 90,
+    "sha256": "bf4ff61b9d327ab91be61ece71b834d683f0a361b651b3a759dde4795ca08c3a"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_10000/results.json",
+    "bytes": 91,
+    "sha256": "814ce21635e7830cb7f73168c9d1c6752112e7f0ec05b5815a322e9d8b461cd3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None/results.json",
+    "bytes": 91,
+    "sha256": "bd7b565539dcddd426ed6f4e913b7a714838d63828df7002ff5eb977e9202006"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__baseline/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__baseline/results.json",
+    "bytes": 91,
+    "sha256": "bd7b565539dcddd426ed6f4e913b7a714838d63828df7002ff5eb977e9202006"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_abs16/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_abs16/results.json",
+    "bytes": 91,
+    "sha256": "1ce4c6cb158e191bb4535c4a7594ba6f93407314594e5f545d67909a2e453bc9"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_abs16_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_abs16_conf/results.json",
+    "bytes": 91,
+    "sha256": "5c2bc744bda0d8638107f0e3d601c4fe283b2b650559a0b6d486a01187eb09ac"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51/results.json",
+    "bytes": 91,
+    "sha256": "2e38a96cfa6ca3531c01e4aa0f9b65ac7269f98be2c812ba92335c733830dc96"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_aden/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_aden/results.json",
+    "bytes": 90,
+    "sha256": "29624a9d9ad585dc7201e9be53d69519283b710a427b6e1b5d8698b5b2dadd51"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_conf/results.json",
+    "bytes": 91,
+    "sha256": "ac36fadea375d66e3748193ee6696479ff3ae330adaf131f0cc00aeed8cb511a"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_cov/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_cov/results.json",
+    "bytes": 91,
+    "sha256": "f25e6aa6db0fbfebcb2f40d37f7c79ad8b1ee0fbd428af81cb1ed1a81c9eef5c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_trust/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop/test/ours_None__kitchen_drop_rv51_trust/results.json",
+    "bytes": 89,
+    "sha256": "354e955bc8b04a0d952206b7c2bb9cdb17b9431f38219a512f13641d53627850"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "56bce6317b478118b594c5396fe1cce6adfc491757512aefafeb658760580f67"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_None/results.json",
+    "bytes": 91,
+    "sha256": "a4ac96e3e17704835a150accebff75b978b8c3511c56346d1fdd5d59bd70e162"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_None__kitchen_drop_classic_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/all/ours_None__kitchen_drop_classic_rv51/results.json",
+    "bytes": 91,
+    "sha256": "a4ac96e3e17704835a150accebff75b978b8c3511c56346d1fdd5d59bd70e162"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "03c12d667596bdf40cc60a354fd948f8f04d64583507cbe3d1a75acfe517a908"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_None/results.json",
+    "bytes": 90,
+    "sha256": "10092b640dfabb17a2a09872d631fc856b7488d44727eef6411b41465b1e6894"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_None__kitchen_drop_classic_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic/test/ours_None__kitchen_drop_classic_rv51/results.json",
+    "bytes": 90,
+    "sha256": "10092b640dfabb17a2a09872d631fc856b7488d44727eef6411b41465b1e6894"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "58a0e036f10c46d47a48df487ac0b2c4308b430d3903689879b35334b94ff2d1"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_3000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_3000/results.json",
+    "bytes": 89,
+    "sha256": "c55ad2c7241a8020fed14a1ef1ed92008f36f5d1b4e8e601c272509bcc1623c6"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_5000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_5000/results.json",
+    "bytes": 89,
+    "sha256": "b35810a192dfcee7336400f7eebb2b1e8d5dc115ee5f82b7d5ae09cbcd8ed803"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_7000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/all/ours_7000/results.json",
+    "bytes": 92,
+    "sha256": "469d75d883c962ec52d2391af80eca03eb97f347e21c692973d192038bf9ad46"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_10000/results.json",
+    "bytes": 92,
+    "sha256": "00b410e0335e06428e07d071b2405107bedad5c80f4c4435778f4aba7111fd77"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_3000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_3000/results.json",
+    "bytes": 92,
+    "sha256": "e96cedf08fc06321a0fd089514d7461b557d244eb071175c522022dce9c58c3b"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_5000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_5000/results.json",
+    "bytes": 92,
+    "sha256": "03d90c7882624f6ad651ce0670e75a7f60c9e25e8f3bbe4e7d143ed23cadde0d"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_7000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_classic_sweep/test/ours_7000/results.json",
+    "bytes": 90,
+    "sha256": "ee0251277717d44787953c55bb2cc7dea31a2a0bd6e99dc12a8b6ca7efcca52a"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "0b8b960981cad3717dbda7778d0b7f033836d49275ced082320ed58ebe908f06"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "f695b6e896f9554c3eba44e9f8045670aabc1432a1f4d6f7bf466961f851ca72"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_10000/results.json",
+    "bytes": 91,
+    "sha256": "4cb89d56774ccda86e867201afd0fbb37256ea0b3a7fca3d0fcc4dde34e1abc2"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None/results.json",
+    "bytes": 92,
+    "sha256": "5d265e1442c0759eda4552dc63bf80e3a3aa6f70ebdc5a625f15a56601efebea"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__baseline/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__baseline/results.json",
+    "bytes": 92,
+    "sha256": "5d265e1442c0759eda4552dc63bf80e3a3aa6f70ebdc5a625f15a56601efebea"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__kitchen_drop_depthft_mip360_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__kitchen_drop_depthft_mip360_rv51/results.json",
+    "bytes": 92,
+    "sha256": "5d265e1442c0759eda4552dc63bf80e3a3aa6f70ebdc5a625f15a56601efebea"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__kitchen_drop_depthft_mip360_rv51_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/all/ours_None__kitchen_drop_depthft_mip360_rv51_conf/results.json",
+    "bytes": 91,
+    "sha256": "d30ef2d129669fdcf54e207e7c8cb0de02acb30cfc7090edc3ea5e57781c9120"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "5b0fd59c17d125f6d17974af9f9837868046b51a1f65e02f10fae6508dfea6a0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None/results.json",
+    "bytes": 91,
+    "sha256": "d522f27489ab033365cb4f98ef745e25b7e32ceaea6fc766f08381f4b2ee2be3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__baseline/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__baseline/results.json",
+    "bytes": 91,
+    "sha256": "d522f27489ab033365cb4f98ef745e25b7e32ceaea6fc766f08381f4b2ee2be3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__kitchen_drop_depthft_mip360_rv51/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__kitchen_drop_depthft_mip360_rv51/results.json",
+    "bytes": 91,
+    "sha256": "d522f27489ab033365cb4f98ef745e25b7e32ceaea6fc766f08381f4b2ee2be3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__kitchen_drop_depthft_mip360_rv51_conf/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_depthft_mip360/test/ours_None__kitchen_drop_depthft_mip360_rv51_conf/results.json",
+    "bytes": 91,
+    "sha256": "949ef85d59c2c7bf7bb9345e95e3ee2252cde12f96a7e44f64257ef9ff4b3a57"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_10000/results.json",
+    "bytes": 91,
+    "sha256": "075bab0c530ba2a7d2d725a26619364eeed326ac260ecc816105ce7d964f0065"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_3000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_3000/results.json",
+    "bytes": 91,
+    "sha256": "7e8a925e27835bfa823581844021c35e357b26bd9d1aee6a6d0226395189212d"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_5000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_5000/results.json",
+    "bytes": 91,
+    "sha256": "97a25da93d10a5cf4adf734235d88d632ac53e1b80e5ac874ef5121d6dccda70"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_7000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/all/ours_7000/results.json",
+    "bytes": 90,
+    "sha256": "2cb9d1a4b3c5056a99ff7a7ed8d7849096c989518f20104e057a6246cb8b200f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_10000/results.json",
+    "bytes": 91,
+    "sha256": "c5a9693beebd6a74213d74f84c8c4269b9c74a04a019b070febbd73bafc373a1"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_3000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_3000/results.json",
+    "bytes": 92,
+    "sha256": "618cca1e8356bdebfa8539ac1ff7b65d49bdeb340b09a2a2692749ef9a69b7e5"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_5000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_5000/results.json",
+    "bytes": 90,
+    "sha256": "8da6440cd6d1a3cdad9bd866d504b01fa39574107ebe435d7305414f47e6cef4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_7000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_sweep/test/ours_7000/results.json",
+    "bytes": 89,
+    "sha256": "c61108dc781a5b8334ca69da02e4a8d505d479f0018e761a25a4a9b3c827636b"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_vggt_pure_depthft/all/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_vggt_pure_depthft/all/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "46833f89c5cb46a54f2e8da160523ec6057a86857243889c710159b01997b2f6"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gs_init/kitchen_drop_vggt_pure_depthft/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/gs_init/kitchen_drop_vggt_pure_depthft/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "5bea2d128de2e95abf4f6f390c50ae63fc8e488f120c6959b5a2e0e6b98f257e"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/horns_vggt9_v1/complete.json",
+    "archive": "3DGS/GaussianObject/output/horns_vggt9_v1/complete.json",
+    "bytes": 185,
+    "sha256": "aa225e5f28b19d2038b2427ed8d7149294f040d9a69be89eaecd11b5cbd81e90"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/horns_vggt9_v1/config.json",
+    "archive": "3DGS/GaussianObject/output/horns_vggt9_v1/config.json",
+    "bytes": 7815,
+    "sha256": "57fad66d71cf549afc17decebfbe6cbdec6e8488d642ae36e811de4a4532250c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/fortress/complete.json",
+    "archive": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/fortress/complete.json",
+    "bytes": 2085,
+    "sha256": "9b21fba148652e6526dae8aa0f933cce49793a8a1e1e9cf26e2b485cbe192be4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/horns/complete.json",
+    "archive": "3DGS/GaussianObject/output/llff_horns_fortress_gallery_v1/horns/complete.json",
+    "bytes": 2092,
+    "sha256": "265301ee8038d204db5879f6c7d096248605acc7e1878158b2efbfb2420de598"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_foreground_gallery_v1/config.json",
+    "archive": "3DGS/GaussianObject/output/mip360_foreground_gallery_v1/config.json",
+    "bytes": 75694,
+    "sha256": "db45c488592f981192f82fb73436fa680424e4f3177bfe98c5f010a6a50496b7"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/config.json",
+    "archive": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/config.json",
+    "bytes": 75694,
+    "sha256": "685daf2ba3537dcdff70572f7949b85244f2e187ed213b7a05db5fb1d6c68bb5"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/bonsai/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/bonsai/complete.json",
+    "bytes": 2082,
+    "sha256": "033ff493f1fbb006526635c2f69fd8667f97e7126c30b52f359a6535cddf3443"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/garden/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/garden/complete.json",
+    "bytes": 2089,
+    "sha256": "04164bb8a9b467d0441d628cce2a8ae38b584c4c97e478d6345e35fdd17cd2d8"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/kitchen/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_foreground_gallery_v2/kitchen/complete.json",
+    "bytes": 2087,
+    "sha256": "ae34342e343bb37c952e903a27d5ed6ffe26cae5d3446d39a16e2ee54cd7de22"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/bonsai/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/bonsai/complete.json",
+    "bytes": 1887,
+    "sha256": "3e5c4ca71035a32d7c677d235969bec5b794f7fd3acfa2c18bed07abfc07915c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/garden/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/garden/complete.json",
+    "bytes": 1887,
+    "sha256": "e76262029974d5866ed32d910a3b0de3d64f385e4fc161b3b9a1c7db8a43fb92"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/kitchen/complete.json",
+    "archive": "3DGS/GaussianObject/output/mip360_stage_gallery_v1/kitchen/complete.json",
+    "bytes": 1890,
+    "sha256": "6f23b999789cdf49a73228cf42bc18001ad88d75a61baeb4561b73a55381c50c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/COMPLETE.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/COMPLETE.json",
+    "bytes": 195,
+    "sha256": "1a34bc1cb2f1a390c1eceed8860d8eb68372c1d9d30e77a855d12c23bd1a57d7"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/baseline_vs_vggt_drop.csv",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/baseline_vs_vggt_drop.csv",
+    "bytes": 547,
+    "sha256": "4aa76b012c9220ecaa76cd6b8259e22867d7f4b9cf7af55c3e3238c3940c69c1"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/baseline_vs_vggt_drop.md",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/baseline_vs_vggt_drop.md",
+    "bytes": 1145,
+    "sha256": "a32376faefbd9d54a3bbe554292cd66b24d484a3f970527a64a922fd2b930da9"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/run_config.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/run_config.json",
+    "bytes": 10569,
+    "sha256": "c82ca5cc1df717f68eb71324e882d8187fa9066ca84c8db20fd0004b44bfd137"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v4/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v4/test/ours_10000/results.json",
+    "bytes": 89,
+    "sha256": "ea66d679312bef91b7696e15baed7e55c5500ba64e119d72a84e27e6af35f683"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v6/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v6/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "c9493f11e215396240b26d3e81adb9eb4bd41ad9be5a9dcd9bc9c716cbb896e3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v9/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_baseline_v1/v9/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "0f075f189c25b37c1fb92d57dbaf9ab38e77508744251598644b38dbdc727b61"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_v1/COMPLETE.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_v1/COMPLETE.json",
+    "bytes": 104,
+    "sha256": "34f8826373bf2fdffdebfa658aff43ebce0ef71db2174e7a4f151fea29cfd281"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_v1/run_config.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_v1/run_config.json",
+    "bytes": 6137,
+    "sha256": "c37407b4d773d2b4c0b2ab995f214e8af4588b33e6ab485e9c8b003a195fb369"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_v1/v4/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_v1/v4/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "d9c57c3053786381d4e21f4ce9ce1e3be28eb99c6e2927141fa6a8c8f0a58524"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_v1/v6/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_v1/v6/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "3193c80c90689d8c71767928140d764776dcdd9ea2ecb6d239faede6722f6418"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_sparse469_v1/v9/test/ours_10000/results.json",
+    "archive": "3DGS/GaussianObject/output/trex_sparse469_v1/v9/test/ours_10000/results.json",
+    "bytes": 90,
+    "sha256": "eaeeedfe6b7a093382f22011b19177d94c799507c379c19b085bcc78da61a032"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/trex_stage_gallery_v1/trex/complete.json",
+    "archive": "3DGS/GaussianObject/output/trex_stage_gallery_v1/trex/complete.json",
+    "bytes": 1980,
+    "sha256": "652c8015fd59f50f156951ebbd88d5e25b1b4b32b15d093da11d62b73561f483"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/scene_differences.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/scene_differences.csv",
+    "bytes": 129,
+    "sha256": "b992b58fee4db1ff6b057ed58601e838696b8ea021e0bc9604cac78183d2bf82"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/gradient_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/gradient_bins.csv",
+    "bytes": 1416,
+    "sha256": "7658a4248e70b2494fcb11f503929d95d42c5d163cc2e443a7c35e0d0e1a75dc"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/config.json",
+    "bytes": 1915,
+    "sha256": "d08d7b3fa30797d038b3095c1d8a6eecff6f2c93864ff289d851fdede8fd28a8"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/metrics.json",
+    "bytes": 334,
+    "sha256": "a32cda083693a45c9ba365b323352102af1e699d542bdbbd37709eda9e69bf7c"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/3DGS/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/config.json",
+    "bytes": 1914,
+    "sha256": "161f084cef11339b9b890c25dac2d1427b1a4c44976bd5b6a45375024dfdee26"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/metrics.json",
+    "bytes": 334,
+    "sha256": "a5c65c2e11a1f61c72bcf1f52844115ef8ec32743ad2852055e1f5e0145d57c7"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fern/drop/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/gradient_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/gradient_bins.csv",
+    "bytes": 1430,
+    "sha256": "40122409a3ffe8b157ad355bd8550c218b95557de042e536e28b41fa61356761"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/config.json",
+    "bytes": 2252,
+    "sha256": "da6f1562575b7d16835ff142edf46d9c49295f7b8ceaaedf253872096785cc5f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/metrics.json",
+    "bytes": 346,
+    "sha256": "875cb11fa53c5cc185186ee7580b998f5dea02fa7b17751828d895e080183bd1"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/3DGS/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/config.json",
+    "bytes": 2251,
+    "sha256": "d7264657e7007a328fbdecca7f6366c9bea5ca0f6b7fa72d9c5a88b5998c888f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/metrics.json",
+    "bytes": 347,
+    "sha256": "433edb11e06b375b530fa5d4593c68256b231bfeaa9b43fe34b3a5ee61bc91ad"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/horns/drop/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/gradient_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/gradient_bins.csv",
+    "bytes": 871,
+    "sha256": "efd21329c7c632754987dd1946b1d39548f8810541cb7dd9e18a0feef0bb2414"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/config.json",
+    "bytes": 1971,
+    "sha256": "8f2918c21f6c9c8448b7198b371fa67570bfa880dd7a8e8db25084e4a4e42ba0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/metrics.json",
+    "bytes": 329,
+    "sha256": "9c50b93ddd55add37926d39a1b9ff739c956c18b2cdb3f6a6205a38d2babd88f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/3DGS/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/config.json",
+    "bytes": 1970,
+    "sha256": "d46d476387703ef9f6f107152a98fe89f4befe47cc00626504eb38516d438f0b"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/metrics.json",
+    "bytes": 332,
+    "sha256": "8f2caee636cd66fb2a145e3c6cf770864b7f4665ef220383a51f37c4b66e16b3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_previous9v_20261120/fortress/drop/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/scene_differences.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/scene_differences.csv",
+    "bytes": 103,
+    "sha256": "fc9cc1472462d8951b7710649a4cde8872d95da06e3d64aa2b0d2a6ee919f22d"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_bins.csv",
+    "bytes": 1948,
+    "sha256": "d1d0857c7b1aa57a7fe5a2d52788f40aabe9513bd2fe0a94a8cabab836264c4f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/densification_threshold_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/densification_threshold_bins.csv",
+    "bytes": 2766,
+    "sha256": "81f2920840c06a63bb231ff16815b4c4f3920972f947859cffc19669bc8133d8"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/interpretation.md",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/interpretation.md",
+    "bytes": 2973,
+    "sha256": "e41b7f65155253206c121b997003ece8b94e85da8098372a0e74c6db828d08ee"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/bin_comparison.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/bin_comparison.csv",
+    "bytes": 1363,
+    "sha256": "33e7f3eb9df5ec6aaf378d4ec6a74c130e77d684b20b46359baa539f2818b048"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/config.json",
+    "bytes": 2215,
+    "sha256": "449f56a2ad0274e162f32bbcad4dbefd0ecd51b70b8da5b52bd7d154fea0c144"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/metrics.json",
+    "bytes": 349,
+    "sha256": "534aa91b77787da8654a6fa7900a03f2fbbb9d3b7927ce9c34ff1e2d16655823"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/config.json",
+    "bytes": 2214,
+    "sha256": "9f9b5c784af78b364ec29a5bc541152d5d2fc8e8e2767abf3beb92785027ee46"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/metrics.json",
+    "bytes": 348,
+    "sha256": "b582419bb071d64baad2334e6ab17339266390eb707134285f1c5fc06f9b924d"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_bins.csv",
+    "bytes": 1535,
+    "sha256": "43ef04ad11e1514d32591e02ca18c16f274276d1300ee8340a3ca38a5777b0a6"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/densification_threshold_bins.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/densification_threshold_bins.csv",
+    "bytes": 2643,
+    "sha256": "03a5595938f3ea2d036236f5f546fd615e6a2eeb1359cbe18d792904adef0cd7"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/interpretation.md",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/interpretation.md",
+    "bytes": 2604,
+    "sha256": "ec983b85d9b44214aecf82cbc552b8231401aeed15074de1d5330ad0471eb726"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/bin_comparison.csv",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/bin_comparison.csv",
+    "bytes": 940,
+    "sha256": "3d3e6de1d64e24006e4a251aeb22ab291d9241637c506e97ce5284db695f9511"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/config.json",
+    "bytes": 2024,
+    "sha256": "f036e1199b711dbb4405791fc0ba11856638b535de0cfe77ec654994ade362b2"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/metrics.json",
+    "bytes": 333,
+    "sha256": "f50bdc1b162481b0e090c3ef35c1761656621d3c3d7ac770123998a12d96ab71"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/config.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/config.json",
+    "bytes": 2023,
+    "sha256": "4f6df1336c2c05cd6a04e38eb691592552011991db6a9ba66cce748da74cb9eb"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/metrics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/metrics.json",
+    "bytes": 333,
+    "sha256": "0c8bb92dfaf4819b0e038d215c48c91c30062227a20d07c0658b00d3bdc722ab"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/complete.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/complete.json",
+    "bytes": 26,
+    "sha256": "34c8f74408bc4183b49f04a8136d278cf1d85c3415647a3e734dc82d5dd7e5c0"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/depth_bounds.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/depth_bounds.json",
+    "bytes": 245,
+    "sha256": "84247a9fa3a8b270434278dc7f1c19869780883c0682132bc490250ca9b08ab4"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_depth.png",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_depth.png",
+    "bytes": 354464,
+    "sha256": "3303928b65229f8dfd8b624bd36476c8b3d88c938eb1f4ce6a2ee53d01a0e59f"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_depth.pdf",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/gradient_depth.pdf",
+    "bytes": 15601,
+    "sha256": "b710d307f23e1d17bbb08f57c764024c2e2d4d27be763d9df60cba1f252543b3"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/statistics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/3DGS/statistics.json",
+    "bytes": 66445,
+    "sha256": "1b70ee2304369f7283945da351c30e206dc4bb4c9f0fa84bbea3527f6c22095e"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/statistics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/horns/drop/statistics.json",
+    "bytes": 66699,
+    "sha256": "e17ff8d29d9605811c0365bb0d7b473a6fc5ecfd029b7c4b4cfdaa994ec53cf9"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/depth_bounds.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/depth_bounds.json",
+    "bytes": 202,
+    "sha256": "d44ab4bb05dca07fbb965964a42806c45cbbd7cb64671c19670f0a74184314b9"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_depth.png",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_depth.png",
+    "bytes": 296258,
+    "sha256": "e11e07066c2607953f00ff0845a62b5b0ac0df1479fa63bddefe58196aeb4179"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_depth.pdf",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/gradient_depth.pdf",
+    "bytes": 14818,
+    "sha256": "ecd35ef23d9e534610431c7290b0fda8ffd5f44c65814f2aee49ac67dcf835ac"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/statistics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/3DGS/statistics.json",
+    "bytes": 63353,
+    "sha256": "7431d3ba6addea755ad88256a291bc75454aac97181cf22d6356cdb5d5364889"
+  },
+  {
+    "source": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/statistics.json",
+    "archive": "3DGS/GaussianObject/output/gradient_depth_drop_v1/v3/fortress/drop/statistics.json",
+    "bytes": 62791,
+    "sha256": "9b8b382af210392c4f1814f146b3592a29641d9d9c19cdf79e7662cc5c80beab"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/results/full714/summary.json",
+    "archive": "VLM/eval_results/practical_mage_v1/20_subtitle_ablation_v1/frozen_r1/results/full714/summary.json",
+    "bytes": 45890,
+    "sha256": "de8a1a7a3b93828ae566d4e488bb971a7df3a653674cdac215d23e2dd6b9f577"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json",
+    "archive": "VLM/eval_results/practical_mage_v1/24_codec_full714_32768_v1/results/full714/summary.json",
+    "bytes": 40996,
+    "sha256": "a285040fa838fb12288dda4d1d03575f4bd38a3089d2eb301673037ecdac175d"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_noobs_qa30/results/summary.json",
+    "archive": "VLM/eval_results/practical_mage_v1/18_air_frames_v1/condition_clips_noobs_qa30/results/summary.json",
+    "bytes": 7190,
+    "sha256": "5ca2bfd1e4fcf47fba858fad4045911a1a9bd448b225ae696a69307991a8dd0b"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/stage_duration_metrics.csv",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/stage_duration_metrics.csv",
+    "bytes": 2915,
+    "sha256": "6ebe85b5555f6afeba011b5799da8a82ae380b4e2c1bfd73303a2bbd6fd86b97"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/paired_comparisons.csv",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/paired_comparisons.csv",
+    "bytes": 4827,
+    "sha256": "9c613799aaab0fa5bd299c30c8cbf50ff5620dac39e7c3bd01336b2d71ac76b6"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/test225_token_cost.csv",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/test225_token_cost.csv",
+    "bytes": 440,
+    "sha256": "fa3b22675bb4787160068775f65dfd88ae65dce7c571afff060e208fc2796032"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.pdf",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.pdf",
+    "bytes": 15463,
+    "sha256": "3c53981ea6e5b323bff1da9f64dfb2c422c4510e3e3f8f835db6df86736e9ae1"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.png",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/01_accuracy_by_stage.png",
+    "bytes": 170097,
+    "sha256": "4bbdf6a6a41ba5f16bc3f0c5e92dba8cc4180a9cdcaac091a5758140bc171b51"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.pdf",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.pdf",
+    "bytes": 16614,
+    "sha256": "8d8d64c92a5cb3e9b726481d08bcb3cd7410ae3b6b9c41b0aaf3f055cd204eba"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.png",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/02_accuracy_by_duration.png",
+    "bytes": 169036,
+    "sha256": "6d453cae9b4e630e19711cf0d508824a1d2db23d0e08480ed843691442da63c9"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.pdf",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.pdf",
+    "bytes": 15701,
+    "sha256": "142d0d2064ab71533afde1f8d0d30513cdb958fe54c30f78233db83efc18bd0a"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.png",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/03_rescue_harm.png",
+    "bytes": 152943,
+    "sha256": "6bb12970453c7d86b8bae3e79f02808ee58078edbd740fd70f3dfdd432729a1a"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.pdf",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.pdf",
+    "bytes": 15787,
+    "sha256": "9dfe6c5ade6e36139f08170b24bbb7abf4fe0c0b1ef52e9296ae6472241a9a9a"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.png",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/04_test225_token_cost.png",
+    "bytes": 154982,
+    "sha256": "a2abf27ea0a5797515a03895f7b3eaded2b0ea329c5094b64f4db128b84b6168"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.pdf",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.pdf",
+    "bytes": 16940,
+    "sha256": "880d8741d3cb4c5451e015681051f46d67606f9042accef0031b1dd7de8c54d8"
+  },
+  {
+    "source": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.png",
+    "archive": "VLM/eval_results/practical_mage_v1/17_subtitle_final_report/20261103_v1/figures/05_paired_cluster_intervals.png",
+    "bytes": 155232,
+    "sha256": "3a6be24511aec3f7569d8f10f7c83d95117a52c429b638a026aa8b44b27c05e8"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "protocol": "review_v2_7train_2val_1test",
+  "source_manifest": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/manifests/objects.json",
+  "note": "Original package split and all media unchanged. No test object used for tuning.",
+  "objects": [
+    {
+      "id": "model-of-the-greek-slave-8edffe56",
+      "group_id": "model-of-the-greek-slave-8edffe56",
+      "dataset": "smithsonian",
+      "split": "val",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/97528ecf9aea5a7a",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt",
+      "original_split": "train",
+      "split_reason": "Independent statue validation object added before model comparison; original test unchanged"
+    },
+    {
+      "id": "kneeling-winged-monster-0dc68216",
+      "group_id": "kneeling-winged-monster-0dc68216",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/576b430d65dee247",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "baluster-vase-one-of-three-in-a-five-piece-garniture-f1980-1-d8c62634",
+      "group_id": "baluster-vase-one-of-three-in-a-five-piece-garniture-f1980-1-d8c62634",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/0597a39a3eda3345",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "buddha-draped-in-robes-portraying-the-realms-of-desire-d8c62be8",
+      "group_id": "buddha-draped-in-robes-portraying-the-realms-of-desire-d8c62be8",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/937f1319b34cfa55",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "ewer-349e8fa2",
+      "group_id": "ewer-349e8fa2",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/ab6250ff9934f0db",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "ritual-wine-ewer-gong-with-masks-taotie-dragons-and-real-ani-d8c646aa",
+      "group_id": "ritual-wine-ewer-gong-with-masks-taotie-dragons-and-real-ani-d8c646aa",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/d25da050e7e6d7f5",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "beaker-shaped-vase-from-a-five-piece-garniture-d8c64b96",
+      "group_id": "beaker-shaped-vase-from-a-five-piece-garniture-d8c64b96",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/225241a7136d78ab",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "lidded-incense-burner-xianglu-with-geometric-decoration-and-ce850625",
+      "group_id": "lidded-incense-burner-xianglu-with-geometric-decoration-and-ce850625",
+      "dataset": "smithsonian",
+      "split": "train",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/264d5ea69287d4c5",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "group_id": "colonoware-pot-from-cooper-river-charleston-county-sc-79da3e3f",
+      "dataset": "smithsonian",
+      "split": "val",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/86e90d922dd49159",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    },
+    {
+      "id": "ritual-wine-container-fangyi-with-masks-taotie-serpents-and-d8c62f94",
+      "group_id": "ritual-wine-container-fangyi-with-masks-taotie-serpents-and-d8c62f94",
+      "dataset": "smithsonian",
+      "split": "test",
+      "path": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/VGGT-Object/data/processed/bundle_index_cdc81eb386/smithsonian/6e19e18be4d4efd5",
+      "frames": 24,
+      "depth_reviewed": true,
+      "supervision_source": "mesh_gt"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.10.21 (main, Sep 24 2026, 17:54:40) [Clang 22.1.3 ]",
+  "torch": "2.5.1+cu124",
+  "cuda_build": "12.4",
+  "branch": "feat/sparse-vcar-seg",
+  "repository_commit": "38d2e87aa0232de58c18fa315a877e258c16f8ad",
+  "vggt_source": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA/3DGS/vggt",
+  "vggt_code_sha256": "dbc92d6214882161d9042b1bc60cc932a9fd6bb609fc913d14906328f7833607"
+}

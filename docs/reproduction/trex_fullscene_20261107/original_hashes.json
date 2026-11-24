@@ -1,0 +1,23 @@
+{
+  "3DGS/GaussianObject/arguments/__init__.py": "d3567176fc9116eab5ae6466a51d96f43c45fe742aa444d440c2bbedf123e300",
+  "3DGS/GaussianObject/scene/dataset_readers.py": "1f00d54ec133d028569dedd77e5344ab32c7dbaa312280541d63bbf90fb48825",
+  "3DGS/GaussianObject/utils/camera_utils.py": "b7916bbb306357a8899c611e69f75a92ea223317f649fc6dc2f973c123858be4",
+  "3DGS/GaussianObject/scene/cameras.py": "1145b5f1e7e6549dbdc454432270cde4666da258cd5d654018b25cb93725d563",
+  "3DGS/GaussianObject/scene/__init__.py": "1a4a486f49ec02d383ba908da23d362f4ad865c5c19c814c7028dd18dd3d6585",
+  "3DGS/GaussianObject/train_gs.py": "ed0e6dd063e896de6efd45fca024fdaef5c9ae4171ec184267e36ec34a24a14e",
+  "3DGS/GaussianObject/render.py": "68c3cd399fe6eb381d75ee6bcc4122579ff4727abeb19f14fdb8b856412c48c5",
+  "3DGS/GaussianObject/leave_one_out_stage1.py": "2a91159256bcec0efdd8b910caaaaf4d99c130d254a31ad3ed941b47e0f46f58",
+  "3DGS/GaussianObject/leave_one_out_stage2.py": "eeb68d037c78553cee338b681c8733c81af1e2cbaf86ea0c90e8bef43be0a953",
+  "3DGS/GaussianObject/train_lora.py": "1ba2e37136f5306770fd32aeda491db098e5c7f53daaf09caed1a351a9e2cbca",
+  "3DGS/GaussianObject/train_repair.py": "037299e8eaece9f2cfc77c88f7d6e5d38fba26c0b5019ace3845afef29fbef80",
+  "3DGS/GaussianObject/dataset_lora.py": "193db6efa08a72b8f501ef19169ade4f1bb06c2dbe088fbce716fbfe34379c36",
+  "3DGS/GaussianObject/threestudio/data/loo.py": "b180da3d84367a1ebc8922bfdf9ce412453e2127b3697a4a829d393377886c3f",
+  "3DGS/GaussianObject/threestudio/systems/gaussian_object_system.py": "406055372fa8b25ac3d7e144e719112335450af2a4a7f9e42477f030b64ad12e",
+  "3DGS/GaussianObject/configs/gaussian-object.yaml": "099a38e298fcf26c1a5d95962cbd55d219896b4c7d39095ae468f693caf8eca4",
+  "3DGS/GaussianObject/utils/pose_utils.py": "007e8a7683b92a43f0c9ee5a0cafd0683caf89661b369d4508b527efc07efeeb",
+  "3DGS/GaussianObject/tools/colmap_sparse_depth.py": "eb5f72c2ec8815e161408ad1583a2869a4346791e5a558a7b406c78b4cc3e1c5",
+  "3DGS/GaussianObject/tools/vggt_depthft_ckpt.py": "6c20c97acd2e84b34345d297ad2054f9d8425292c5d6338abda8b9d595392439",
+  "3DGS/GaussianObject/preprocess/pred_monodepth.py": "0ca4220798c692f5eb1d8a3efba1092dcdcd022aad1d94be9437a7e8a523d714",
+  "3DGS/GaussianObject/visual_hull.py": "45994e06e09e6af9cd70b54ae06879021b9e90577ec21db37f63af65da9606ea",
+  "3DGS/GaussianObject/vggt_visual_hull_enhanced.py": "c0e3dec3c656f759063ed60c09c12af9e943ff0fb866265a2fb3f67f6c9944d0"
+}

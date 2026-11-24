@@ -137,3 +137,259 @@ VQA/
 .env
 *.env
 !*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+.venv*/
+.venv-ddgs-vggt/
+ddgs/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pixi/
+.conda/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Output directories
+output/
+results/
+checkpoints/
+saves/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Data / outputs (do not commit)
+data/
+datasets/
+**/data/
+**/output/
+**/preprocessed_masks*/
+**/colmap_input/
+**/colmap_output/
+*.ply
+*.npz
+
+# Trained model weights / checkpoints (keep the download scripts)
+**/models/*.pth
+**/models/*.ckpt
+**/models/*.pt
+**/models/*.safetensors
+**/models/*.bin
+**/models/*.pkl
+**/models/*.onnx
+**/models/*.h5
+**/pretrained/*.safetensors
+**/pretrained/**/*.safetensors
+**/pretrained/*.bin
+**/pretrained/**/*.bin
+**/pretrained/*.pth
+**/pretrained/**/*.pth
+**/pretrained/*.ckpt
+**/pretrained/**/*.ckpt
+**/pretrained/*.onnx
+**/pretrained/**/*.onnx
+**/pretrained/*.h5
+**/pretrained/**/*.h5
+# CLIP / HF weights under pretrained (keep tokenizer json / merges / config)
+3DGS/reconstruction/pretrained/**/*.safetensors
+3DGS/reconstruction/pretrained/**/*.bin
+3DGS/reconstruction/pretrained/**/*.pth
+3DGS/reconstruction/pretrained/**/*.ckpt
+*.onnx
+
+# Weights / archives / binaries
+*.ckpt
+*.bin
+*.safetensors
+*.whl
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+
+# Bundled tools / local archives (keep 3DGS/reconstruction/third_party/DropGaussian_release as git submodule)
+_archive/
+/DDGS/
+# /3DGS/reconstruction/third_party/DropGaussian_release/  — tracked as submodule; do not ignore
+ffmpeg*/
+**/ffmpeg-*-static/
+**/ffmpeg-release*
+
+# Large notebooks / demos (keep on disk, do not track)
+3DGS/reconstruction/segment_anything.ipynb
+3DGS/reconstruction/segment_anything_2.ipynb
+**/submodules/**/notebooks/
+
+# Build artifacts from CUDA extensions
+**/diff_gaussian_rasterization/*.so
+**/simple_knn/*.so
+build/
+*.egg-info/
+
+# Experiment dumps
+wandb/
+runs/
+*_ddgs_*/
+kitchen_ddgs*/
+# Work A — keep lightweight metric CSVs (not under **/output/)
+# 3DGS/eval_results/ is tracked
+
+# Work B — VQA (weights / env / heavy outputs; keep eval_results scores)
+# 本地评测数据集（ORCBench 等），不进 Git
+VQA/datas/
+VQA/mage_vl/data/
+VQA/mage_vl/models/
+VQA/mage_vl/outputs/
+# HF / CLIP 等权重目录（如 CLIP-ViT-Large-patch14）
+VQA/models/
+VQA/VLMEvalKit/vlmeval_env/
+VQA/VLMEvalKit/ffmpeg_linux/
+VQA/**/outputs/**/*.pkl
+VQA/**/outputs/logs/
+
+# Local DeepSeek API credentials; keep example templates tracked
+/deepseek.env
+
+# Local text-parser credential file
+/.env
+
+# Maintenance 2026-11-20: source/config/docs only; runtime assets stay on AutoDL
+VLM/datas/
+VLM/envs/
+VLM/models/
+VLM/mage_vl/models/
+VLM/mage_vl/outputs/
+VLM/VLMEvalKit/vlmeval_env/
+VLM/VLMEvalKit/ffmpeg_linux/
+VLM/**/cache/
+VLM/**/caches/
+VLM/**/outputs/
+VLM/**/source_snapshot/
+VLM/**/snapshots/
+VLM/**/docs_before_update/
+VGGT-Object/experiments/
+VGGT-Object/reports/
+VGGT-Object/results/
+*.pkl
+*.pickle
+*.npy
+*.glb
+*.gltf
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.exr
+*.tiff
+*.tif
+*.db
+*.sqlite*
+*.env
+!*.env.example
+!*.env.template
+Seg/
+Project/.bootstrap/
+Project/.uv-cache*/
+.uv-cache*/
+**/events.out.tfevents.*
+**/.run.lock
+**/gpu.lock
+
+# Full historical per-question evidence/cache stays local; curated summaries are docs/archive/
+VLM/eval_results/

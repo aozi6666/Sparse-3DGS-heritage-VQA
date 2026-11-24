@@ -1,0 +1,22 @@
+diff --git a/vlmeval/config.py b/vlmeval/config.py
+index f2a74de..37062ac 100644
+--- a/vlmeval/config.py
++++ b/vlmeval/config.py
+@@ -2658,5 +2658,17 @@ nanovlm_series = {
+ 
+ model_groups.append(nanovlm_series)
+ 
++mage_vl_series = {
++    "Mage-VL": partial(
++        vlm.MageVLChat,
++        model_path="/root/autodl-tmp/Mage/mage_vl/models",
++        nframe=32,
++        max_pixels=150000,
++        max_new_tokens=256,
++    ),
++}
++
++model_groups.append(mage_vl_series)
++
+ for grp in model_groups:
+     supported_VLM.update(grp)

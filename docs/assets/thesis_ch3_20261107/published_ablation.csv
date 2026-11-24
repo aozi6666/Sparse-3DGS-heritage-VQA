@@ -1,0 +1,4 @@
+source_id,source_type,config,visual_hull,depth_densification,dvr,ssim,psnr_db,lpips_star_x100,lpips,protocol
+P04,author_supplied_published_table_screenshot,visual_hull,1,0,0,0.865,17.51,12.80,0.1280,separate_ablation_not_mip360_four_view_mean
+P04,author_supplied_published_table_screenshot,visual_hull_depth,1,1,0,0.902,24.96,5.20,0.0520,separate_ablation_not_mip360_four_view_mean
+P04,author_supplied_published_table_screenshot,visual_hull_depth_dvr,1,1,1,0.943,26.18,3.98,0.0398,separate_ablation_not_mip360_four_view_mean

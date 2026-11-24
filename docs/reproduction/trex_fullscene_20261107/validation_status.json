@@ -1,0 +1,20 @@
+{
+  "cpu_tests": 6,
+  "cpu_tests_passed": true,
+  "real_background_reader_passed": true,
+  "legacy_object_mask_reader_passed": true,
+  "repair_config_parsed": true,
+  "cli_entrypoints_checked": [
+    "train_gs",
+    "loo_stage1",
+    "loo_stage2",
+    "train_lora",
+    "render",
+    "train_repair",
+    "prepare_full_scene",
+    "full_scene_depth_init",
+    "run_full_scene"
+  ],
+  "gpu_training_executed": false,
+  "reason": "GPU unavailable; user will start training later"
+}

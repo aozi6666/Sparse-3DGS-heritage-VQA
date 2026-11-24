@@ -1,0 +1,161 @@
+{
+  "total": 1158531316,
+  "trainable": 33244386,
+  "lora": 589824,
+  "depth_head": 32654562,
+  "aggregator_trainable": 589824,
+  "injected_modules": [],
+  "trainable_names": [
+    "aggregator.global_blocks.18.attn.qkv.lora_A",
+    "aggregator.global_blocks.18.attn.qkv.lora_B",
+    "aggregator.global_blocks.18.attn.proj.lora_A",
+    "aggregator.global_blocks.18.attn.proj.lora_B",
+    "aggregator.global_blocks.19.attn.qkv.lora_A",
+    "aggregator.global_blocks.19.attn.qkv.lora_B",
+    "aggregator.global_blocks.19.attn.proj.lora_A",
+    "aggregator.global_blocks.19.attn.proj.lora_B",
+    "aggregator.global_blocks.20.attn.qkv.lora_A",
+    "aggregator.global_blocks.20.attn.qkv.lora_B",
+    "aggregator.global_blocks.20.attn.proj.lora_A",
+    "aggregator.global_blocks.20.attn.proj.lora_B",
+    "aggregator.global_blocks.21.attn.qkv.lora_A",
+    "aggregator.global_blocks.21.attn.qkv.lora_B",
+    "aggregator.global_blocks.21.attn.proj.lora_A",
+    "aggregator.global_blocks.21.attn.proj.lora_B",
+    "aggregator.global_blocks.22.attn.qkv.lora_A",
+    "aggregator.global_blocks.22.attn.qkv.lora_B",
+    "aggregator.global_blocks.22.attn.proj.lora_A",
+    "aggregator.global_blocks.22.attn.proj.lora_B",
+    "aggregator.global_blocks.23.attn.qkv.lora_A",
+    "aggregator.global_blocks.23.attn.qkv.lora_B",
+    "aggregator.global_blocks.23.attn.proj.lora_A",
+    "aggregator.global_blocks.23.attn.proj.lora_B",
+    "depth_head.norm.weight",
+    "depth_head.norm.bias",
+    "depth_head.projects.0.weight",
+    "depth_head.projects.0.bias",
+    "depth_head.projects.1.weight",
+    "depth_head.projects.1.bias",
+    "depth_head.projects.2.weight",
+    "depth_head.projects.2.bias",
+    "depth_head.projects.3.weight",
+    "depth_head.projects.3.bias",
+    "depth_head.resize_layers.0.weight",
+    "depth_head.resize_layers.0.bias",
+    "depth_head.resize_layers.1.weight",
+    "depth_head.resize_layers.1.bias",
+    "depth_head.resize_layers.3.weight",
+    "depth_head.resize_layers.3.bias",
+    "depth_head.scratch.layer1_rn.weight",
+    "depth_head.scratch.layer2_rn.weight",
+    "depth_head.scratch.layer3_rn.weight",
+    "depth_head.scratch.layer4_rn.weight",
+    "depth_head.scratch.refinenet1.out_conv.weight",
+    "depth_head.scratch.refinenet1.out_conv.bias",
+    "depth_head.scratch.refinenet1.resConfUnit1.conv1.weight",
+    "depth_head.scratch.refinenet1.resConfUnit1.conv1.bias",
+    "depth_head.scratch.refinenet1.resConfUnit1.conv2.weight",
+    "depth_head.scratch.refinenet1.resConfUnit1.conv2.bias",
+    "depth_head.scratch.refinenet1.resConfUnit2.conv1.weight",
+    "depth_head.scratch.refinenet1.resConfUnit2.conv1.bias",
+    "depth_head.scratch.refinenet1.resConfUnit2.conv2.weight",
+    "depth_head.scratch.refinenet1.resConfUnit2.conv2.bias",
+    "depth_head.scratch.refinenet2.out_conv.weight",
+    "depth_head.scratch.refinenet2.out_conv.bias",
+    "depth_head.scratch.refinenet2.resConfUnit1.conv1.weight",
+    "depth_head.scratch.refinenet2.resConfUnit1.conv1.bias",
+    "depth_head.scratch.refinenet2.resConfUnit1.conv2.weight",
+    "depth_head.scratch.refinenet2.resConfUnit1.conv2.bias",
+    "depth_head.scratch.refinenet2.resConfUnit2.conv1.weight",
+    "depth_head.scratch.refinenet2.resConfUnit2.conv1.bias",
+    "depth_head.scratch.refinenet2.resConfUnit2.conv2.weight",
+    "depth_head.scratch.refinenet2.resConfUnit2.conv2.bias",
+    "depth_head.scratch.refinenet3.out_conv.weight",
+    "depth_head.scratch.refinenet3.out_conv.bias",
+    "depth_head.scratch.refinenet3.resConfUnit1.conv1.weight",
+    "depth_head.scratch.refinenet3.resConfUnit1.conv1.bias",
+    "depth_head.scratch.refinenet3.resConfUnit1.conv2.weight",
+    "depth_head.scratch.refinenet3.resConfUnit1.conv2.bias",
+    "depth_head.scratch.refinenet3.resConfUnit2.conv1.weight",
+    "depth_head.scratch.refinenet3.resConfUnit2.conv1.bias",
+    "depth_head.scratch.refinenet3.resConfUnit2.conv2.weight",
+    "depth_head.scratch.refinenet3.resConfUnit2.conv2.bias",
+    "depth_head.scratch.refinenet4.out_conv.weight",
+    "depth_head.scratch.refinenet4.out_conv.bias",
+    "depth_head.scratch.refinenet4.resConfUnit2.conv1.weight",
+    "depth_head.scratch.refinenet4.resConfUnit2.conv1.bias",
+    "depth_head.scratch.refinenet4.resConfUnit2.conv2.weight",
+    "depth_head.scratch.refinenet4.resConfUnit2.conv2.bias",
+    "depth_head.scratch.output_conv1.weight",
+    "depth_head.scratch.output_conv1.bias",
+    "depth_head.scratch.output_conv2.0.weight",
+    "depth_head.scratch.output_conv2.0.bias",
+    "depth_head.scratch.output_conv2.2.weight",
+    "depth_head.scratch.output_conv2.2.bias"
+  ],
+  "frozen": 1125286930,
+  "trainable_ratio": 0.02869528474619153,
+  "aggregator_lora_targets": [
+    {
+      "name": "aggregator.global_blocks.18.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.18.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    },
+    {
+      "name": "aggregator.global_blocks.19.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.19.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    },
+    {
+      "name": "aggregator.global_blocks.20.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.20.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    },
+    {
+      "name": "aggregator.global_blocks.21.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.21.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    },
+    {
+      "name": "aggregator.global_blocks.22.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.22.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    },
+    {
+      "name": "aggregator.global_blocks.23.attn.qkv",
+      "in_features": 1024,
+      "out_features": 3072
+    },
+    {
+      "name": "aggregator.global_blocks.23.attn.proj",
+      "in_features": 1024,
+      "out_features": 1024
+    }
+  ],
+  "aggregator_lora_parameters": 589824
+}
