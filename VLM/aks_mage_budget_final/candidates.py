@@ -6,7 +6,7 @@ import cv2
 HERE = Path(__file__).resolve().parent
 OLD = HERE.parent / "aks_mage"
 VIDEO = HERE.parent / "mage_vl/data/VideoMME/video"
-AKS = Path("/root/autodl-tmp/AKS")
+AKS = Path(HERE.parent / "vendor/AKS")
 def main():
     def read(name):
         return json.loads((AKS/name).read_text())
