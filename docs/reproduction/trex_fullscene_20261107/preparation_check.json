@@ -1,0 +1,16 @@
+{
+  "registered_images": 55,
+  "points3D": 33567,
+  "prepared_camera_model": "PINHOLE",
+  "prepared_intrinsics": [
+    3354.7572943808796,
+    3354.7572943808796,
+    2015.5,
+    1511.5
+  ],
+  "max_2d_rectification_error": 0.0,
+  "source_images_and_colmap_unchanged": true,
+  "train_views": 55,
+  "test_views": 0,
+  "scene_extent": 7.379777170609534
+}

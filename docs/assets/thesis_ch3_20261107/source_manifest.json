@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "repository": "/root/autodl-tmp/Sparse-3DGS-heritage-VQA",
+  "branch": "feat/air-visual-evidence",
+  "git_head": "2e30b0661bfc6c5bcc2f699a67f8880bd182d0f2",
+  "status": "documentation_and_redrawing_only_no_new_experiments",
+  "source_images": [
+    {
+      "source_id": "P01",
+      "archived_file": "published_table1_mip360.png",
+      "original_local_path": "/var/folders/bk/j3kctf1s74jft1ks4hlgmhtr0000gn/T/codex-clipboard-385a6473-bc67-450d-bd9b-e1558a8ef5ca.png",
+      "sha256": "94b956ce7e367e64fa2a05006ea98ff92bd7b74f6d4f02433fd9febb417f1c39"
+    },
+    {
+      "source_id": "P02",
+      "archived_file": "published_table2_llff.png",
+      "original_local_path": "/var/folders/bk/j3kctf1s74jft1ks4hlgmhtr0000gn/T/codex-clipboard-658b9255-03e0-498a-8c96-e366871703f1.png",
+      "sha256": "0eed82c317dd719d05347419d3e2cb178b38d168ebe9ee4456fceebacf3e18bf"
+    },
+    {
+      "source_id": "P03",
+      "archived_file": "published_figure3_qualitative.png",
+      "original_local_path": "/var/folders/bk/j3kctf1s74jft1ks4hlgmhtr0000gn/T/codex-clipboard-d9dc0dd3-2e00-4e0c-a443-35369c1975b0.png",
+      "sha256": "7cebe5cc4fe98cfc1d7ec52997dbb0d88a5386bdc0f69773351e0a475378fb40"
+    },
+    {
+      "source_id": "P04",
+      "archived_file": "published_table3_ablation.png",
+      "original_local_path": "/var/folders/bk/j3kctf1s74jft1ks4hlgmhtr0000gn/T/codex-clipboard-c38bfc3f-a673-4111-bb6b-bf6c84f649d8.png",
+      "sha256": "e95d4c95e38f56662f48ba669f3fab0774cdaf6a6f99bab9c685d1b06f2d672e"
+    }
+  ],
+  "project_evidence_snapshot": [
+    {
+      "path": "3DGS/eval_results/lineB_kitchen_mip360.csv",
+      "sha256": "e44ea9bb1c22aba636a0ac724b8e396ad2685237de8c245d9d9979be6d24639c",
+      "bytes": 34381
+    },
+    {
+      "path": "3DGS/eval_results/lineB_garden_mip360.csv",
+      "sha256": "83e87e1b9bf2bf7c6bd545c4f1dfc30b059be1a7f109136eb5146cacc5b711ca",
+      "bytes": 4429
+    },
+    {
+      "path": "3DGS/eval_results/lineB_kitchen_iter_sweep.csv",
+      "sha256": "1d28ab7a1e9c1ab663fadcfbc50290b49ef54294fe07f582f441766fa505ca78",
+      "bytes": 8343
+    },
+    {
+      "path": "3DGS/eval_results/ply_init_stats_kitchen.csv",
+      "sha256": "54fde606d0d3044a5ba8f29036a0f69c9c9589dc9480c451ae902d540410230c",
+      "bytes": 525
+    },
+    {
+      "path": "3DGS/eval_results/README_vggt_depthft.md",
+      "sha256": "b26b60d843d349a39d188a7482e8bc39b9b219b805b6c2c1750f203171d11de6",
+      "bytes": 3081
+    },
+    {
+      "path": "3DGS/eval_results/SUMMARY_coarse_2x2.md",
+      "sha256": "22857c2a51f063ee67fff601a6b3e49a3519c539a4875ca71532e1859d4fcd9e",
+      "bytes": 2096
+    },
+    {
+      "path": "3DGS/eval_results/SUMMARY_depthft_expand.md",
+      "sha256": "0095a6c23ff154147efd13d3b3c519a71ca8cd8daf073307c01a30b0154d7532",
+      "bytes": 1512
+    },
+    {
+      "path": "3DGS/eval_results/SUMMARY_repair_cadr.md",
+      "sha256": "858c87f6ca17d918e4037d7af1b9f9fb7a17fcc4b3233fd464f831ec9db37832",
+      "bytes": 1787
+    },
+    {
+      "path": "3DGS/GaussianObject/train_gs.py",
+      "sha256": "ed0e6dd063e896de6efd45fca024fdaef5c9ae4171ec184267e36ec34a24a14e",
+      "bytes": 23171
+    },
+    {
+      "path": "3DGS/GaussianObject/render.py",
+      "sha256": "68c3cd399fe6eb381d75ee6bcc4122579ff4727abeb19f14fdb8b856412c48c5",
+      "bytes": 19592
+    },
+    {
+      "path": "3DGS/GaussianObject/gaussian_renderer/__init__.py",
+      "sha256": "2000266e9791a91ffda6a8347109efaa1b8b40e1243c363fa2d2989a488a153f",
+      "bytes": 8687
+    },
+    {
+      "path": "3DGS/GaussianObject/vggt_visual_hull_enhanced.py",
+      "sha256": "c0e3dec3c656f759063ed60c09c12af9e943ff0fb866265a2fb3f67f6c9944d0",
+      "bytes": 33506
+    },
+    {
+      "path": "3DGS/GaussianObject/tools/finetune_depth_head_colmap.py",
+      "sha256": "eea1533b1248b48a277493519b317f52483524d5253a32c6bd0f85f672abc42c",
+      "bytes": 15342
+    },
+    {
+      "path": "3DGS/GaussianObject/sh/lineB_gaussianobject/_common.sh",
+      "sha256": "730309015ebb385aabf9b8efc7836a632402542f893d51dfd3e1b5b34af6c06f",
+      "bytes": 3135
+    },
+    {
+      "path": "3DGS/GaussianObject/sh/lineB_gaussianobject/finetune_vggt_depth_mip360.sh",
+      "sha256": "c8670a635552860e09fc9983105679c36939e24a1309a5325a68edfe5179cfde",
+      "bytes": 2416
+    }
+  ],
+  "transcription": {
+    "comparison_records": 42,
+    "ablation_records": 3,
+    "lpips_star_definition": "LPIPS * 100",
+    "raw_run_logs_available_for_published_tables": false,
+    "validation": "all numeric comparison and ablation rows checked against Markdown; source images retained"
+  },
+  "files": [
+    {
+      "path": "docs/PLAN_thesis_ch3_experiments_and_visualizations_20261107.md",
+      "bytes": 46437,
+      "sha256": "b60ec1f5de46bc1cfe43dde72ba99a80a5fea7eb0eadbaf5f851433ad0260260"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1097,
+      "sha256": "c916779f6c1a15e35ea1bb51b66cdaebaecd528ebc1bd79f735b974fe05372b7"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/plot_published_curves.py",
+      "bytes": 5111,
+      "sha256": "41c54291bdce486701246a7de385c8b1b87db3f40b0f5f3d445fe6ef8e4356c7"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/previous_review_zh.txt",
+      "bytes": 15350,
+      "sha256": "233d341f15cc0e0c2dbbceb183ac3f4f9e98201fbf377857ba2401eaab72af36"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_ablation.csv",
+      "bytes": 529,
+      "sha256": "4f5f673e34fd3feb119d82001a86a6dca691f729d1be54b900af94c046ca0d74"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_figure3_qualitative.png",
+      "bytes": 637640,
+      "sha256": "7cebe5cc4fe98cfc1d7ec52997dbb0d88a5386bdc0f69773351e0a475378fb40"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_results.csv",
+      "bytes": 6792,
+      "sha256": "cdaf5923a921a09679dbb6f173d55f1c1d082327a9cf06fcefa56a2e9ef124a6"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_table1_mip360.png",
+      "bytes": 103199,
+      "sha256": "94b956ce7e367e64fa2a05006ea98ff92bd7b74f6d4f02433fd9febb417f1c39"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_table2_llff.png",
+      "bytes": 95439,
+      "sha256": "0eed82c317dd719d05347419d3e2cb178b38d168ebe9ee4456fceebacf3e18bf"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_table3_ablation.png",
+      "bytes": 66179,
+      "sha256": "e95d4c95e38f56662f48ba669f3fab0774cdaf6a6f99bab9c685d1b06f2d672e"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_view_count_curves.pdf",
+      "bytes": 14827,
+      "sha256": "e01f058242e97cd564dd631f8f931fe31fe2553686198147d3a582c170a5e245"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_view_count_curves.png",
+      "bytes": 292275,
+      "sha256": "b0b431970f9831d0086be52d1231e4ec592d4618231ba6c5158df507ae803f80"
+    },
+    {
+      "path": "docs/assets/thesis_ch3_20261107/published_view_count_curves.svg",
+      "bytes": 53812,
+      "sha256": "35e0e1f1cbfc33a383fdef48924296f1c4fbb32f1deeaabd616de4b8c463218a"
+    }
+  ]
+}

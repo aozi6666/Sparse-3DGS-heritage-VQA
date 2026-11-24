@@ -1,0 +1,38 @@
+# Aggregator fully frozen; only selected Depth Head convolution LoRA trains.
+E0: {rank: 0, adapter_kind: depth_conv_lora, mv_weight: 0.0}
+E1: {rank: 8, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 16, depth_targets: [projects.], mv_weight: 0.0}
+E2: {rank: 8, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 16, depth_targets: [projects., scratch.], mv_weight: 0.0}
+E3: {rank: 16, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 32, depth_targets: [projects., scratch.], mv_weight: 0.0}
+E4: {rank: 8, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 16, depth_targets: [projects., scratch.], mv_weight: 0.05}
+E5_no_conf: {rank: 8, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 16, depth_targets: [projects., scratch.], mv_weight: 0.05, confidence_weight: 0.0}
+E6: {rank: 8, adapter_kind: depth_conv_lora, depth_lr: 0.00002, alpha: 16, depth_targets: [projects., scratch.], mv_weight: 0.05}
+F0: {rank: 0, adapter_kind: depth_full, depth_lr: 0.000002, mv_weight: 0.0}
+F1: {rank: 0, adapter_kind: depth_full, depth_lr: 0.000002, mv_weight: 0.05}
+A16:
+  rank: 0
+  adapter_kind: depth_full
+  depth_lr: 0.000002
+  aggregator_lr: 0.00005
+  mv_weight: 0.0
+  aggregator_lora:
+    enabled: true
+    rank: 16
+    alpha: 32
+    dropout: 0.05
+    target_blocks: [18, 19, 20, 21, 22, 23]
+    target_modules: [attn.qkv, attn.proj]
+    gradient_checkpointing: true
+A8:
+  rank: 0
+  adapter_kind: depth_full
+  depth_lr: 0.000002
+  aggregator_lr: 0.00005
+  mv_weight: 0.0
+  aggregator_lora:
+    enabled: true
+    rank: 8
+    alpha: 16
+    dropout: 0.05
+    target_blocks: [18, 19, 20, 21, 22, 23]
+    target_modules: [attn.qkv, attn.proj]
+    gradient_checkpointing: true
